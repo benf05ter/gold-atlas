@@ -218,18 +218,18 @@ const SPL=Object.fromEntries(G.find(g=>g.id==='sp').opts), GL=G.find(g=>g.id==='
 // lives inside the Minerals map mode: a "Rock ID" button joins the mode row while Minerals is on, and opens a panel over the map
 const modes=document.getElementById('shModes');
 mw.insertAdjacentHTML('beforeend',`<section class="ridsheet" id="ridSheet" hidden aria-label="Rock and metal ID"><div class="ridh"><b>${RICON} Rock &amp; metal ID</b><button class="px" id="rid-x" aria-label="Close">×</button></div>
- <div class="ridtabs" id="rid" role="group" aria-label="Rock and metal ID"><button id="rid-t-id" data-v="id" aria-pressed="true">Identify</button><button id="rid-t-how" data-v="how" aria-pressed="false">How to test</button></div>
- <div class="ridbody" id="ridBody"><div id="rid-id"></div><div id="rid-how" hidden></div></div></section>`);
-const $=id=>document.getElementById(id), idBox=$('rid-id'), howBox=$('rid-how'), sheet=$('ridSheet'), body=$('ridBody');
+ <div class="ridtabs" id="rid" role="group" aria-label="Rock and metal ID"><button id="rid-t-step" data-v="step" aria-pressed="false">Step by step</button><button id="rid-t-id" data-v="id" aria-pressed="true">All tests</button><button id="rid-t-how" data-v="how" aria-pressed="false">How to test</button></div>
+ <div class="ridbody" id="ridBody"><div id="rid-step" hidden></div><div id="rid-id"></div><div id="rid-how" hidden></div></div></section>`);
+const $=id=>document.getElementById(id), stepBox=$('rid-step'), idBox=$('rid-id'), howBox=$('rid-how'), sheet=$('ridSheet'), body=$('ridBody');
 const top0=()=>{ body.scrollTop=0; };
-function view(v){ st.view=v; ['id','how'].forEach(k=>$('rid-t-'+k).setAttribute('aria-pressed',k===v)); idBox.hidden=v!=='id'; howBox.hidden=v!=='how'; top0(); }
+function view(v){ st.view=v; ['step','id','how'].forEach(k=>$('rid-t-'+k).setAttribute('aria-pressed',k===v)); stepBox.hidden=v!=='step'; idBox.hidden=v!=='id'; howBox.hidden=v!=='how'; if(v==='step') renderStep(); top0(); }
 $('rid').onclick=e=>{ const b=e.target.closest('button[data-v]'); if(b){ st.open=null; view(b.dataset.v); renderId(); } };
 let tab=null;
 function openSheet(){ try{ closePop(); }catch(_){} try{ const d=document.getElementById('cld'); if(d){ d.hidden=true; } }catch(_){} sheet.hidden=false; if(tab) tab.setAttribute('aria-expanded','true'), tab.classList.add('on'); }
 function closeSheet(){ sheet.hidden=true; if(tab) tab.setAttribute('aria-expanded','false'), tab.classList.remove('on'); }
 $('rid-x').onclick=closeSheet;
 // Identify page: open the panel on a tab, a specimen (i) or a test method (m)
-window.ridOpen=(v,o)=>{ o=o||{}; if(o.q!=null) st.q=o.q; st.open=o.i!=null?o.i:null; view(v||'id'); renderId(); openSheet();
+window.ridOpen=(v,o)=>{ o=o||{}; if(o.q!=null) st.q=o.q; if(v==='step'&&o.i==null){ G.forEach(g=>st[g.id]=g.multi?new Set():null); st.loc='auto'; st.step=0; } st.open=o.i!=null?o.i:null; view(v||'id'); renderId(); openSheet();
   if(o.m!=null){ const m=howBox.querySelectorAll('.rid-m')[o.m]; if(m) setTimeout(()=>{ body.scrollTop=m.offsetTop-body.offsetTop; },30); } };
 if(modes){ const gb=modes.querySelector('[data-m="gold"]');
   (gb||modes.lastElementChild).insertAdjacentHTML(gb?'afterend':'beforeend',`<button type="button" class="ridtab" id="ridTab" aria-expanded="false" hidden>${RICON}Rock ID</button>`);
@@ -310,6 +310,28 @@ idBox.onclick=e=>{ const c=e.target.closest('.rid-c');
   if(e.target.id==='rid-weak'){ st.weak=true; $('rid-res').innerHTML=resultsHTML(); return; }
   if(e.target.id==='rid-back'){ st.open=null; renderId(); return; }
   const k=e.target.closest('.rid-card'); if(k){ st.open=+k.dataset.i; renderId(); top0(); } };
+
+// step by step: one question at a time, the best matches update under each answer (answers share the All tests filters)
+const STEPQ=['cat','col','mag','st','heft','hard','lus','acid','li','uv']; st.step=0;
+function stepRank(){ const c=crit(); if(!c.some(k=>k.g.id!=='loc')) return null; return S.map((s,i)=>({s,i,r:score(s,c)})).sort((a,b)=>b.r.pct-a.r.pct||a.s.n.localeCompare(b.s.n)); }
+function stepHTML(){ const rk=stepRank(), n=STEPQ.length, done=st.step>=n, top=rk&&rk[0], sure=!!(top&&top.r.pct>=85&&nTests(top.r.parts)>=3&&(!rk[1]||rk[1].r.pct<=top.r.pct-10));
+  let h='<div class="sec">';
+  if(!done&&!sure){ const g=G.find(x=>x.id===STEPQ[st.step]);
+    h+=`<div class="rid-head"><span class="mono">Question ${st.step+1} of ${n}</span>${st.step?'<button class="btn" data-sb="back">← Back</button>':''}</div><div class="rid-prog"><i style="width:${Math.round(100*st.step/n)}%"></i></div>
+    <h3 class="rid-q">${E(g.label)}</h3>${g.how?`<p class="hint">${E(g.how)}</p>`:''}<div class="rid-sopts">${g.opts.map(([v,l,d])=>`<button class="rid-so" data-sv="${v}" aria-pressed="${st[g.id]===v}">${d?`<span class="rid-dot" style="background:${d}"></span>`:''}${E(l)}</button>`).join('')}<button class="rid-so skip" data-sv="">Not sure or not tested, skip</button></div>`; }
+  else h+=`<h3 class="rid-q">${sure?'Most likely':'What fits best'}</h3><div class="row"><button class="btn" data-sb="restart">Start over</button>${st.step?'<button class="btn" data-sb="back">← Back</button>':''}<button class="btn" data-sb="fine">Fine-tune with every test</button></div>`;
+  h+='</div>';
+  if(rk){ const ok=rk.filter(x=>x.r.pct>=45), show=ok.slice(0,done||sure?6:3);
+    h+=`<div class="rid-lab">${done||sure?'Matches':'Best matches so far'} · ${rk.filter(x=>x.r.pct>=65).length} likely</div><div class="rid-list">${show.map(x=>card(x.s,x.i,x.r)).join('')||'<p class="hint" style="padding:0 14px">Nothing fits yet. Re-check your last answer.</p>'}</div>`; }
+  else h+='<p class="hint" style="padding:10px 14px">Answer what you can and skip anything you haven\'t tested. The best matches show here after your first answer.</p>';
+  return h; }
+function renderStep(){ stepBox.innerHTML=stepHTML(); }
+stepBox.onclick=e=>{ const o=e.target.closest('[data-sv]');
+  if(o){ const g=G.find(x=>x.id===STEPQ[st.step]); st[g.id]=o.dataset.sv||null; st.step++; save(); renderStep(); top0(); return; }
+  const b=e.target.closest('[data-sb]'); if(b){ const k=b.dataset.sb;
+    if(k==='back') st.step=Math.max(0,st.step-1); else if(k==='restart'){ G.forEach(g=>st[g.id]=g.multi?new Set():null); st.loc='auto'; st.step=0; save(); }
+    else if(k==='fine'){ st.open=null; view('id'); renderId(); return; } renderStep(); top0(); return; }
+  const k=e.target.closest('.rid-card'); if(k){ st.open=+k.dataset.i; view('id'); renderId(); top0(); } };
 
 // how to test
 howBox.innerHTML=`<div class="sec"><h3>How to test a specimen</h3><p class="hint">Field tests narrow things down; one test rarely proves an ID. Combine at least three (streak, hardness, heft, magnet) before you trust a match.</p></div>`+

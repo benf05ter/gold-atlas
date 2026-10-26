@@ -68,4 +68,11 @@
 .shmodes .ridtab.on{background:var(--L-rock);border-color:var(--L-rock);color:#fff}
 .ridfloat{position:absolute;left:10px;top:58px;z-index:5;font:700 13.5px var(--f-body);padding:7px 13px;border-radius:999px;border:1px solid var(--L-rock);background:var(--panel);color:var(--ink);cursor:pointer}
 @media (max-width:920px){body.shell .ridsheet{width:100%;border-left:0;top:env(safe-area-inset-top,0px)}}
+.rid-prog{height:6px;border-radius:3px;background:var(--line);overflow:hidden}.rid-prog i{display:block;height:100%;background:var(--accent)}
+.rid-q{font-size:1.3rem!important;margin:4px 0 0!important}
+.rid-sopts{display:grid;gap:8px;margin-top:4px}
+.rid-so{display:flex;align-items:center;gap:10px;text-align:left;font:600 16px var(--f-body);color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:13px 14px;cursor:pointer}
+.rid-so[aria-pressed="true"]{border-color:var(--accent);background:var(--hl)}
+.rid-so.skip{font-weight:400;color:var(--muted);background:none;border-style:dashed}
+.rid-so .rid-dot{width:18px;height:18px}
 </style>
