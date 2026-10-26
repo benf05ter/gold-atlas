@@ -2887,7 +2887,7 @@ new MutationObserver(()=>{ if(cld.hidden) delete cld.dataset.hm; }).observe(cld,
 // the other ~2,300 landmarks arrive a moment later from pk/lm.json: refresh the list once they do
 { let t=0, n0=0; const iv=setInterval(()=>{ const n=PTS.length; if(n!==n0){ n0=n; if(SH.mode==='markers'&&cld.dataset.hm&&!cld.hidden&&!cld.classList.contains('away')&&cld.querySelector('.cldl').scrollTop<10) hmOpen(); } if(++t>40) clearInterval(iv); },500); }
 // park history + how much the land has changed: pk/hist-*.json = {id:{o:opened,h:history,w:source url,g:grade A-D/X,u:why}}; added to each park card as it opens (batch 1: Eau Claire area).
-{ const PHF=['pk/hist-eauclaire.json'], PHD={};
+{ const PHF=['pk/hist-eauclaire.json','pk/hist-wi.json'], PHD={};
   const phApply=p=>{ if(!p||p.L!=='park'||p._ph) return; const e=PHD[p.id]; if(!e) return; p._ph=1;
     if(e.h){ p.st=e.h+' '+p.st; if(e.o) p.v='Opened '+e.o; if(e.w) (p.src=p.src||[]).unshift(['Park history (Wikipedia)',e.w]); }
     if(e.g&&!p.ug) p.ug=[e.g,e.u]; };
@@ -3818,7 +3818,7 @@ renderId();
 // working as before. My stuff is dropped (my spots, finds and covered ground show in every mode). The Rock ID chip is hidden too.
 { const row=document.getElementById('shModes'), mw=document.querySelector('.mapwrap');
   if(row&&mw&&!document.getElementById('mcMode')){
-  const DS={detecting:'Ranked spots to detect',gold:'Gold, agates, rocks and minerals',history:'Ghost towns, old schools, depots'};
+  const DS={detecting:'Ranked spots to detect',best:'Only the top-ranked ground',gold:'Gold, agates, rocks and minerals',history:'Ghost towns, old schools, depots'};
   if(SH.mode==='mine') shSetMode('detecting');
   document.head.insertAdjacentHTML('beforeend',`<style>
 #shModes>:not(.mc):not(#hmTab){display:none!important}
@@ -4055,6 +4055,18 @@ h1,h2,h3,.read h2,.read h3{font-family:var(--f-body);font-weight:700;letter-spac
   const _rlV=renderLayers; renderLayers=function(){ _rlV(); document.querySelectorAll('#pane-layers .sec > h3').forEach(h=>{ if(!h.querySelector('.vbadge')){ const b=badge(h.textContent.trim()); if(b) h.insertAdjacentHTML('afterbegin',b); } }); };
   if(typeof plLaySync==='function'){ const _plV=plLaySync; plLaySync=function(){ _plV(); document.querySelectorAll('#plLay b.plsec').forEach(h=>{ if(!h.querySelector('.vbadge')){ const b=badge(h.textContent.trim()); if(b) h.insertAdjacentHTML('afterbegin',b); } }); }; }
   renderLayers(); if(typeof plLaySync==='function') plLaySync(); }
+</script><script>
+// ---------- Best spots: a map mode (next to Detecting) that shows only the top-ranked ground ----------
+// Rank 1 alone is ~19 spots, so the mode shows rank 1 and 2 (best and good ground), plus your own spots, finds heatmap and tracks.
+{ const top=p=>{ const r=RK(p); return r===1||r===2; };
+  SHM.best={n:'Best spots',d:'Only the best and good ground (rank 1 and 2), plus your own spots and tracks',L:[...new Set(['mine',...PTS.filter(top).map(p=>p.L),'_heat','_tracks','_alerts'])],rankOnly:true};
+  document.querySelector('#shModes button[data-m="detecting"]')?.insertAdjacentHTML('afterend','<button type="button" data-m="best" aria-pressed="false">Best spots</button>');
+  const gd=document.querySelector('#gmSheet button[data-m="detecting"]');
+  if(gd&&!document.querySelector('#gmSheet button[data-m="best"]')){ const b=gd.cloneNode(false); b.dataset.m='best'; b.setAttribute('aria-pressed','false'); b.innerHTML='<b>Best spots</b><span>Only the top-ranked ground</span>'; gd.after(b); }
+  const _uxB=UXdraw; UXdraw=function(vis,s){ if(SH.mode==='best') vis=vis.filter(p=>p.L==='mine'||p.id===selId||top(p)); return _uxB(vis,s); };
+  const _smB=shSetMode; shSetMode=function(m,keep){ _smB(m,keep); try{ localStorage.setItem('og-best',SH.mode==='best'?'1':'0'); }catch(_){}
+    document.querySelectorAll('#gmSheet button[data-m]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.m===SH.mode)); };
+  let was=false; try{ was=localStorage.getItem('og-best')==='1'; }catch(_){} if(was) shSetMode('best'); }
 
 // ---------- home-screen app: works offline and updates itself ----------
 (function(){ if(window.claude||!('serviceWorker' in navigator)||(location.protocol!=='https:'&&!/^(localhost|127\.0\.0\.1)$/.test(location.hostname))) return;
@@ -4076,6 +4088,7 @@ h1,h2,h3,.read h2,.read h3{font-family:var(--f-body);font-weight:700;letter-spac
   }).catch(()=>{});
 })();
 </script>
+
 
 
 
