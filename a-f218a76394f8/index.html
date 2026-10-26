@@ -1481,11 +1481,11 @@ document.querySelectorAll('.views button').forEach(b=>b.onclick=()=>showView(b.d
   }catch(_){} })();
 try{ FT.cond=JSON.parse(localStorage.getItem('atlas-cond')||'null'); }catch(_){}
 // live USGS daily flows when the browser allows it; quietly keeps the saved levels otherwise
-(async()=>{ try{ const ac=new AbortController(); setTimeout(()=>ac.abort(),8000);
-  const r=await fetch('https://waterservices.usgs.gov/nwis/dv/?format=json&parameterCd=00060&period=P30D&sites='+GAUGES.map(g=>g.id).join(','),{signal:ac.signal}); if(!r.ok) return; const j=await r.json(); const g={};
+(async()=>{ const day=new Date().toISOString().slice(0,10), fail=()=>{ try{ localStorage.setItem('atlas-usgs-fail',day); }catch(_){} }; try{ if(navigator.onLine===false||localStorage.getItem('atlas-usgs-fail')===day) return; }catch(_){} try{ const ac=new AbortController(); setTimeout(()=>ac.abort(),8000);
+  const r=await fetch('https://waterservices.usgs.gov/nwis/dv/?format=json&parameterCd=00060&period=P30D&sites='+GAUGES.map(g=>g.id).join(','),{signal:ac.signal}); if(!r.ok){ fail(); return; } const j=await r.json(); const g={};
   for(const ts of j.value.timeSeries){ const id=ts.sourceInfo.siteCode[0].value, v=ts.values[0].value.filter(x=>+x.value>=0); if(!v.length) continue; const last=v[v.length-1], mx=v.reduce((a,b)=>+b.value>+a.value?b:a);
     g[id]={q:+last.value,d:last.dateTime.slice(0,10),max:+mx.value,maxd:mx.dateTime.slice(0,10)}; }
-  if(Object.keys(g).length){ FT.cond={asof:new Date().toISOString().slice(0,10),src:'live',g}; ftRefresh(); } }catch(_){} })();
+  if(Object.keys(g).length){ FT.cond={asof:new Date().toISOString().slice(0,10),src:'live',g}; ftRefresh(); } }catch(_){ fail(); } })();
 ftRefresh();
 
 // ---------- easier to use: simple mode, map search, grouped pins, directions ----------
@@ -2267,6 +2267,16 @@ LMK.forEach(([n,k,lo,la,loc,stt,web],i)=>{ const p={id:'hm-'+i,n,L:'landmark',lo
  ['rh-wausau-syenite','Wausau syenite quarries (Granite Heights)',-89.640,45.060,'WI','Marathon','Granite Heights area, northwest of Wausau','The Wausau syenite complex is one of Wisconsin\'s best-known mineral localities, with rare minerals in the quarries and outcrops around Granite Heights and the Stettin pluton.','Nearly all of it is private or working quarry land: collect only with the owner\'s written permission, or join a local rock club trip. Rib Mountain State Park next door is look only.']
 ].forEach(([id,n,lo,la,stt,co,pl,st,t])=>{ const p={id,n,L:'rock',lo,la,stt,co,pl,st,t,p:'area',src:[['USGS place names (GNIS) for the pin',''],['Wisconsin Geological and Natural History Survey','https://wgnhs.wisc.edu/']],mi:miles(lo,la)}; PTS.push(p); BYID[p.id]=p; });
 renderLayers(); drawMarkers(); renderList(); if(typeof gmSheetSync==='function') gmSheetSync();
+
+// ---------- cleanup: orphan photos, stacked pins, first-draw coalescing ----------
+// Irvine Park photos that no pin showed
+{ const p=BYID['d-irvine-park']; if(p){ const used=new Set(PTS.flatMap(q=>q.himg||[])); p.himg=(p.himg||[]).concat(['nb_irvine_bear_den','nb_irvine_birdseye'].filter(k=>HIMG[k]&&!used.has(k))); } }
+// pins on the same spot fan out about 60 m so each can be tapped (only approximate pins: exact ones and your own leads never move)
+{ const G=new Map(); for(const p of PTS){ if(/^(pk|hm)-/.test(p.id)||p.p==='exact'||p.p==='mylist'||['mine','lead','school','school2','flood84'].includes(p.L)) continue; const k=p.lo.toFixed(3)+','+p.la.toFixed(3); (G.get(k)||G.set(k,[]).get(k)).push(p); }
+  for(const g of G.values()) if(g.length>1) g.slice(1).forEach((p,i)=>{ const a=(i/(g.length-1))*2*Math.PI; p.lo+=0.0008*Math.cos(a); p.la+=0.0005*Math.sin(a); }); }
+// the first second after opening: several parts each asked for a full redraw; draw once per frame instead
+{ const t0=performance.now(), _dmF=drawMarkers; let q=0; drawMarkers=function(){ if(performance.now()-t0>1500) return _dmF(); if(!q) q=requestAnimationFrame(()=>{ q=0; _dmF(); }); }; }
+drawMarkers();
 
 
 // ---------- home-screen app: works offline and updates itself ----------
