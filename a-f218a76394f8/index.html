@@ -528,12 +528,6 @@ body.shell .shsheet{transition:height .42s cubic-bezier(.3,1.28,.5,1)}
 .hmmore{display:block;margin:12px auto 18px}
 </style>
 <style>
-/* home-screen app */
-.appupd{position:fixed;left:max(12px,env(safe-area-inset-left,0px));right:max(12px,env(safe-area-inset-right,0px));bottom:max(12px,env(safe-area-inset-bottom,0px));z-index:60;max-width:520px;margin:0 auto;display:flex;gap:8px;align-items:center;background:var(--panel);color:var(--ink);border:1px solid var(--accent);border-radius:8px;padding:9px 12px;box-shadow:0 6px 24px color-mix(in srgb,var(--ink) 25%,transparent);font-size:14px}
-.appupd span{flex:1}
-body.isapp .app{padding-top:max(14px,env(safe-area-inset-top,0px))}
-</style>
-<style>
 /* rock, mineral and metal ID — inside the Minerals map mode */
 .ridtabs{display:flex;gap:4px;padding:2px 14px 0;border-bottom:1px solid var(--line);flex:none}
 .ridtabs button{font:600 13px var(--f-body);background:none;border:0;border-bottom:2px solid transparent;color:var(--muted);padding:6px 8px 8px;cursor:pointer}
@@ -603,6 +597,12 @@ body.isapp .app{padding-top:max(14px,env(safe-area-inset-top,0px))}
 .shmodes .ridtab.on{background:var(--L-rock);border-color:var(--L-rock);color:#fff}
 .ridfloat{position:absolute;left:10px;top:58px;z-index:5;font:700 13.5px var(--f-body);padding:7px 13px;border-radius:999px;border:1px solid var(--L-rock);background:var(--panel);color:var(--ink);cursor:pointer}
 @media (max-width:920px){body.shell .ridsheet{width:100%;border-left:0;top:env(safe-area-inset-top,0px)}}
+</style>
+<style>
+/* home-screen app */
+.appupd{position:fixed;left:max(12px,env(safe-area-inset-left,0px));right:max(12px,env(safe-area-inset-right,0px));bottom:max(12px,env(safe-area-inset-bottom,0px));z-index:60;max-width:520px;margin:0 auto;display:flex;gap:8px;align-items:center;background:var(--panel);color:var(--ink);border:1px solid var(--accent);border-radius:8px;padding:9px 12px;box-shadow:0 6px 24px color-mix(in srgb,var(--ink) 25%,transparent);font-size:14px}
+.appupd span{flex:1}
+body.isapp .app{padding-top:max(14px,env(safe-area-inset-top,0px))}
 </style>
 <div class="app">
   <header>
@@ -1770,7 +1770,7 @@ function uxFind(qs){ const q=qs.trim().toLowerCase(); if(q.length<2) return [];
 function uxShow(){ uxRes=uxFind(uxq.value); if(!uxq.value.trim()){ uxr.hidden=true; return; }
   uxr.innerHTML=uxRes.length? uxRes.map((r,i)=>{ if(r.k==='spot'){ const p=r.p, k=RK(p);
       return `<button data-i="${i}"><span>${ico(p.L,18)}</span><span><b>${k&&k!=='X'?'['+k+'] ':''}${esc(p.n)}</b><br><span class="hint">${esc(SHORT[p.L]||LBY[p.L].n)}${p.co?' · '+esc(p.co):''}</span></span><span class="d">${Math.round(p.mi)} mi</span></button>`; }
-    return `<button data-i="${i}"><span class="uxpi">${r.k==='all'?'≡':r.k==='go'?'⌖':'◎'}</span><span><b>${esc(r.n)}</b>${r.k==='Town'||r.k==='County'?`<br><span class="hint">${r.k}</span>`:''}</span><span></span></button>`; }).join('') : '<p class="hint" style="padding:10px">No match. Try a town, a county, or a word like beach, school, mill or depot.</p>';
+    return `<button data-i="${i}"><span class="uxpi">${r.k==='all'?'≡':r.k==='go'?'⌖':r.k==='id'?'◈':'◎'}</span><span><b>${esc(r.n)}</b>${r.sub?`<br><span class="hint">${esc(r.sub)}</span>`:r.k==='Town'||r.k==='County'?`<br><span class="hint">${r.k}</span>`:''}</span><span></span></button>`; }).join('') : '<p class="hint" style="padding:10px">No match. Try a town, a county, or a word like beach, school, mill or depot.</p>';
   uxr.hidden=false; uxr.querySelectorAll('button').forEach(b=>b.onclick=()=>uxPick(uxRes[+b.dataset.i])); }
 function uxFly(lo,la,w){ const [x,y]=P(lo,la), ar=vb.h/vb.w; vb={x:x-w/2,y:y-w*ar/2,w,h:w*ar}; fit(); apply(); }
 function uxPick(r){ if(!r) return; uxr.hidden=true; uxq.blur(); showView('map');
@@ -2925,26 +2925,6 @@ document.getElementById('huntList').insertAdjacentHTML('afterend','<div class="r
 document.addEventListener('change',e=>{ const i=e.target.closest('input.trkIn'); if(!i||!i.files.length) return; const fs=[...i.files]; i.value=''; trkImport(fs); });
 { const b=document.querySelector('#gmDet [data-l="_tracks"]'); if(b) b.textContent='Covered ground'; const L=LBY._tracks; if(L){ L.n='Covered ground (your GPS tracks)'; L.d+='. Import GPX, KML or GeoJSON tracks from other apps in the Finds log, under Your hunts.'; } renderLayers(); }
 
-// ---------- home-screen app: works offline and updates itself ----------
-(function(){ if(window.claude||!('serviceWorker' in navigator)||(location.protocol!=='https:'&&!/^(localhost|127\.0\.0\.1)$/.test(location.hostname))) return;
-  document.body.classList.add('isapp');
-  try{ navigator.storage&&navigator.storage.persist&&navigator.storage.persist(); }catch(_){}
-  const t0=Date.now(), bar=document.createElement('div'); bar.className='appupd'; bar.hidden=true; document.body.appendChild(bar);
-  const say=(h,btn)=>{ bar.innerHTML=`<span>${h}</span>${btn?'<button class="btn uxgo" data-upd>Update now</button>':''}<button class="btn" data-x aria-label="Close">×</button>`; bar.hidden=false; };
-  let reloading=false; navigator.serviceWorker.addEventListener('controllerchange',()=>{ if(reloading) return; reloading=true; location.reload(); });
-  navigator.serviceWorker.register('sw.js').then(reg=>{
-    const busy=()=>typeof HR!=='undefined'&&HR.rec&&!HR.rec.paused;
-    const ready=()=>{ if(!reg.waiting||!navigator.serviceWorker.controller) return;
-      if(Date.now()-t0<8000&&!busy()) reg.waiting.postMessage('skip'); else say('A new version of the atlas is ready.',true); };
-    ready();
-    reg.addEventListener('updatefound',()=>{ const w=reg.installing; if(!w) return; w.addEventListener('statechange',()=>{ if(w.state!=='installed') return;
-      if(navigator.serviceWorker.controller) ready(); else { say('Saved on this phone. The atlas now works with no signal.'); setTimeout(()=>{ bar.hidden=true; },6000); } }); });
-    bar.addEventListener('click',e=>{ if(e.target.closest('[data-x]')) bar.hidden=true;
-      if(e.target.closest('[data-upd]')){ if(busy()) hrPause(true); reg.waiting&&reg.waiting.postMessage('skip'); } });
-    document.addEventListener('visibilitychange',()=>{ if(document.visibilityState==='visible') reg.update().catch(()=>{}); });
-  }).catch(()=>{});
-})();
-
 // ---------- Coin ID: what did I just dig? ----------
 // Types US (and Canadian) coins dug in the Upper Midwest by how often they turn up, with rough dug values,
 // key dates and the known error varieties for the year and mint entered. Opened from More, the menu, or a find in the Finds log.
@@ -3139,12 +3119,318 @@ const _frC=findRow; findRow=function(f,w){ const h=_frC(f,w), t=[f.result,f.amou
 document.addEventListener('click',e=>{ const a=e.target.closest('a.cnid'); if(!a) return; e.preventDefault(); e.stopPropagation(); let q={}; try{ q=JSON.parse(a.dataset.cq); }catch(_){} coinOpen(q); },true);
 refreshFinds();
 if((location.hash||'')==='#coins') coinOpen();
+
+// ---------- home-screen app: works offline and updates itself ----------
+(function(){ if(window.claude||!('serviceWorker' in navigator)||(location.protocol!=='https:'&&!/^(localhost|127\.0\.0\.1)$/.test(location.hostname))) return;
+  document.body.classList.add('isapp');
+  try{ navigator.storage&&navigator.storage.persist&&navigator.storage.persist(); }catch(_){}
+  const t0=Date.now(), bar=document.createElement('div'); bar.className='appupd'; bar.hidden=true; document.body.appendChild(bar);
+  const say=(h,btn)=>{ bar.innerHTML=`<span>${h}</span>${btn?'<button class="btn uxgo" data-upd>Update now</button>':''}<button class="btn" data-x aria-label="Close">×</button>`; bar.hidden=false; };
+  let reloading=false; navigator.serviceWorker.addEventListener('controllerchange',()=>{ if(reloading) return; reloading=true; location.reload(); });
+  navigator.serviceWorker.register('sw.js').then(reg=>{
+    const busy=()=>typeof HR!=='undefined'&&HR.rec&&!HR.rec.paused;
+    const ready=()=>{ if(!reg.waiting||!navigator.serviceWorker.controller) return;
+      if(Date.now()-t0<8000&&!busy()) reg.waiting.postMessage('skip'); else say('A new version of the atlas is ready.',true); };
+    ready();
+    reg.addEventListener('updatefound',()=>{ const w=reg.installing; if(!w) return; w.addEventListener('statechange',()=>{ if(w.state!=='installed') return;
+      if(navigator.serviceWorker.controller) ready(); else { say('Saved on this phone. The atlas now works with no signal.'); setTimeout(()=>{ bar.hidden=true; },6000); } }); });
+    bar.addEventListener('click',e=>{ if(e.target.closest('[data-x]')) bar.hidden=true;
+      if(e.target.closest('[data-upd]')){ if(busy()) hrPause(true); reg.waiting&&reg.waiting.postMessage('skip'); } });
+    document.addEventListener('visibilitychange',()=>{ if(document.visibilityState==='visible') reg.update().catch(()=>{}); });
+  }).catch(()=>{});
+})();
+</script><script>
+// ---------- Identify: one search for coins, rocks and minerals, metals and relics, jewelry, and field tests ----------
+// Coins come from COINS (Coin ID page), rocks/minerals/metals from IDROCKS (rockid script), relics/jewelry/tests from IDREL below.
+// Opened from More, the desktop menu, the map search bar (ID matches show under the places) and #identify.
+// IDREL row: [id, cat 'relic'|'jewel'|'test', name, dates, extra search words, what it is, [how to ID or date it], value, look-alikes or caution]
+const IDREL=[
+// ---- buttons ----
+['b-flat','relic','Flat one-piece button','about 1750–1840','brass pewter shank loop backmark treble gilt best quality standard colour',
+ 'A flat brass, copper or pewter disc with a wire loop (shank) on the back. The oldest buttons you will dig in the Upper Midwest, from fur trade posts, forts and the earliest farms.',
+ ['Back is flat with a soldered wire loop; pewter ones have the loop cast in.','Backmarks like "Treble Gilt", "Best Quality", "Standard Colour" or "Orange Colour" date it to about 1800–1840.','Plain face with traces of gilt in the crevices.'],
+ '$2–15; gilt with a clear backmark $10–30; military (eagle, regimental) far more','Later two-piece buttons (domed, hollow), modern blazer buttons with a stamped shank.'],
+['b-two','relic','Two-piece button','about 1820–1920','domed hollow shell scovill waterbury backmark',
+ 'A stamped front shell crimped over a back plate with a loop. The common 1800s coat and vest button.',
+ ['Hollow, with a seam around the edge where the front crimps over the back.','Backmarks name the maker: Scovill Mfg Co. and Waterbury Button Co. (Connecticut) are the big ones.','Lots of dug ones have the back separated: keep both halves.'],
+ '$1–10 plain; picture or sporting designs $10–40','Flat one-piece buttons (solid, older), rivet-type work buttons.'],
+['b-eagle','relic','Eagle (military) button','1840s–1940s','civil war general service eagle grand army gar uniform',
+ 'An eagle with a shield on the chest. Civil War "general service" eagles are two-piece and domed; later Army buttons (1902–WWII) show the Great Seal eagle.',
+ ['Civil War era: domed two-piece, eagle with a shield and an "I" (infantry), "C" (cavalry) or "A" (artillery) on the shield, or no letter.','Backmarks: Scovill, Waterbury, Horstmann, Extra Quality. Many eagles with these marks are post-war (Indian Wars, GAR).','1902 and later: flatter, one design for all, often with a "Waterbury" or "Scovill" backmark and a shank on a bar.'],
+ '$15–60 Civil War era dug; state-seal buttons $50–300; WWI and WWII $3–10','Masonic and fraternal buttons, Great Seal buttons on modern clothes.'],
+['b-work','relic','Work-clothes and pants buttons','1870s–1950s','rivet levi strauss oshkosh carhartt overall suspender stamped name store',
+ 'One-piece stamped iron, brass or zinc buttons from overalls, work pants and suspenders, often with the maker or the general store that sold the pants.',
+ ['Store or maker names around the edge: "Levi Strauss & Co SF", "Carhartt", "OshKosh B\'Gosh" (from Oshkosh, Wisconsin), local mercantiles.','A town name on the button is a great clue to who lived or traded there.','Iron ones rust to a brown disc: soak in water, do not scrape.'],
+ '$1–5; early Levi\'s, rare store names and ghost-town merchants $10–50','Rivets from jeans (small, no shank hole), suspender buckles.'],
+['b-sew','relic','Sew-through button (porcelain, bone, shell)','1840s on','four hole two hole prosser china milk glass shell pearl bone',
+ 'Small buttons with two or four holes. White porcelain "china" buttons (Prosser process, 1840s–1900s), bone, shell and later plastic.',
+ ['Porcelain: glassy-white, heavy for the size, with an orange-peel back. Calico prints are collectible.','Shell (mother of pearl): shines with layers of color, cool to the touch.','Iron four-hole buttons rust badly and are common on old farm sites.'],
+ 'Pennies to a few dollars; calico china and carved shell more','Plastic buttons (light, molded seams), washers.'],
+// ---- tokens ----
+['t-good','relic','"Good for" trade token','about 1880–1930','saloon general store bar 5¢ in trade merchant aluminum brass token wisconsin',
+ 'A merchant\'s token, often marked "Good For 5¢ (or 10¢, 25¢) In Trade", given as change or a free drink at saloons, general stores, billiard halls and creameries.',
+ ['The merchant name and town are on one side, the value on the other.','Brass and copper ones are usually 1880s–1910s; aluminum mostly after 1900.','Look the name up in a Wisconsin, Minnesota or Michigan token catalog; the town decides the value.'],
+ '$5–40 common towns; ghost towns and saloons from vanished villages $50–300','Bus and transit tokens (have a transit name), arcade tokens, modern car-wash tokens.'],
+['t-camp','relic','Lumber camp token or brass check','about 1880–1920','logging lumber company scrip camp check company store brass tag tool check',
+ 'Company scrip and tool checks from north-woods lumber companies and mill towns. Paid in place of cash at the company store, or handed out to check out tools.',
+ ['Usually brass or aluminum, stamped with the company name and sometimes a camp number or value.','Tool and time checks are often just a number and a company initial on a brass disc with a hole.','Finds near old camps, mill sites and company towns can be matched to the company that ran them.'],
+ '$20–150; rare companies more','Railroad and mine tool checks (similar look, different company), dog license tags.'],
+['t-cw','relic','Civil War token','1861–1864','store card patriotic copper cent size war token',
+ 'Penny-size copper tokens made when cents vanished from circulation during the war: patriotic designs or a merchant\'s "store card".',
+ ['Same size as an Indian cent, often thicker.','Patriotic slogans ("Union For Ever", "Army & Navy", "Our Country") or a store name and town.','Milwaukee and other Wisconsin merchants issued many store cards.'],
+ '$15–60 dug; rare Wisconsin store cards $100+','Indian cents (have "ONE CENT" and a wreath), Hard Times tokens (larger, 1833–1844).'],
+['t-tax','relic','Sales tax token','1935–1961','mill one mill aluminum fiber tax receipt token',
+ 'Small aluminum, zinc or fiber tokens worth a fraction of a cent, used to pay sales tax on small purchases in about a dozen states, Illinois and Missouri among them.',
+ ['Says "Sales Tax Token" or "1 Mill" / "5 Mills" with a state name.','Often has a hole in the middle; very light.','Wisconsin, Minnesota and Michigan did not issue them, but travelers dropped plenty.'],
+ '50¢–$5; fiber and rare states more','Washers, can tabs, transit tokens.'],
+['t-tag','relic','Dog license and bicycle tag','1880s–1950s','dog tag license tax tag bicycle tag city year shaped',
+ 'City and county dog-license tags (later bicycle tags), stamped with a year, a number and the town. Shapes changed every year so the dog catcher could tell at a glance.',
+ ['Year and town name stamped in; often heart, bell, star or shield shaped.','Brass and copper before about 1920, aluminum after.','A dated tag pins a yard or site to an exact year.'],
+ '$5–25; 1800s and small-town tags $30–100','Military dog tags (rectangular, name and serial number), key tags.'],
+['t-mil','relic','Military dog tag','1917 on','dog tag ww2 ww1 notched serial number army navy identification',
+ 'Identification tags with a soldier\'s name and number. WWI tags were round aluminum or brass; WWII and Korea tags are rectangular with a notch on one end (1940s–1970s).',
+ ['Name, serial number, and from WWII on, tetanus date and blood type.','Search the name and serial number: the family may want it back.','Notched tags date 1940s–1970s.'],
+ '$10–50, more with a traceable story; returning it to family is the usual route','Pet tags, luggage tags.'],
+// ---- personal and household ----
+['r-thim','relic','Thimble','1700s on','sewing thimble brass silver sterling steel',
+ 'A sewing thimble. Dug ones are brass, steel, silver or aluminum.',
+ ['Check inside the band for "STERLING", a size number or a maker mark.','Brass with a hand-punched pattern is older; machine-even dimples and a rolled rim are 1880s and later.','Silver ones ring like a high tone on most detectors.'],
+ '$2–10 brass; silver $15–60','Bullet jackets, small caps, ferrules.'],
+['r-key','relic','Skeleton key and railroad switch key','1800s–1950s','key padlock railroad switch key brass rr soo line omaha road milwaukee road cb&q',
+ 'Old house and padlock keys. The prize is a brass railroad switch key stamped with the railroad\'s initials, used to unlock track switches.',
+ ['Railroad keys are heavy brass with a hollow barrel and initials: C.M.&St.P. (Milwaukee Road), C.St.P.M.&O. (Omaha Road), Soo Line, C&NW, GN, NP, CB&Q.','Maker marks (Slaymaker, Adlake, Fraim) and a serial number on the back.','Iron skeleton keys are common; brass ones with a fancy bow are worth more.'],
+ 'Iron skeleton keys $1–5; railroad switch keys $40–200+ depending on the road','Modern reproduction switch keys (crisp, no wear, wrong lettering).'],
+['r-spoon','relic','Spoons and flatware','1800s on','spoon fork silverware sterling coin silver plate rogers epns',
+ 'Dug silverware is mostly silver plate, but sterling and "coin" silver turn up at old homesteads.',
+ ['"STERLING" or "925" = solid silver. "COIN" or "PURE COIN" = 90% silver, about 1830–1870.','"1847 Rogers Bros.", "Wm. Rogers", "A1", "EPNS", "Silver Plate", "Quadruple" = plated, little value.','Plated spoons show yellow brass where the silver wore off.'],
+ 'Plate: $1–5; sterling spoon about $10–40 in silver alone','Nickel-silver (no silver), aluminum camp spoons.'],
+['r-watch','relic','Pocket watch, fob or chain','1850s–1940s','pocket watch case fob chain bow crown gold filled warranted',
+ 'Pocket watch cases, backs, bows and chains, and watch fobs (the medallion on the strap).',
+ ['Open the case back: "14K" or "18K" is solid gold; "Warranted 20 years", "Gold Filled" or "GF" is a thin gold layer.','Fobs from implement makers, fairs and lodges are collectible.','Case serial numbers can date the watch.'],
+ 'Gold-filled parts $5–30; solid gold cases sell by weight; advertising fobs $15–80','Brass and nickel cases, modern quartz watches.'],
+['r-medal','relic','Medals and badges','1860s–1950s','medal badge religious gar grand army of the republic fair award lodge masonic school attendance',
+ 'Religious medals, lodge and fraternal pins, fair and school awards, and Grand Army of the Republic (Civil War veterans, 1866–1949) badges.',
+ ['GAR badges show a star hanging from an eagle and flag ribbon bar; a lot of fakes and restrikes exist.','Religious medals are usually aluminum or brass; a "14K" or "STERLING" mark means real metal.','Fair medals name the fair and year.'],
+ '$2–20 most; GAR and dated award medals $30–150','Modern souvenir medals, tokens.'],
+['r-toy','relic','Toys: lead soldiers, cap guns, toy cars','1890s–1960s','toy lead soldier tootsietoy die cast cap gun marble jacks cast iron toy',
+ 'Cast iron cap guns and toys, hollow-cast lead soldiers and animals, and zinc die-cast Tootsietoys (Chicago, 1910s on). Common where kids played: schoolyards and old homes.',
+ ['Tootsietoy cars say "TOOTSIETOY" and often "CHICAGO" underneath.','Lead soldiers are soft, heavy and gray; wash hands after.','Cast iron cap guns rust heavily but names (Kilgore, Hubley, Stevens) survive on the grip.'],
+ '$2–30; early marked Tootsietoys and named cap guns more','Zinc car parts, lead fishing weights.'],
+['r-knife','relic','Pocketknife','1850s on','pocket knife jackknife bone handle barlow',
+ 'Folding knives with bone, wood, celluloid or metal handles. The tang (base of the blade) is usually stamped with the maker.',
+ ['Look for the tang stamp: Case, Remington, Winchester, Ka-Bar, Camillus, Barlow.','Bone and stag handles survive the ground; celluloid cracks and warps.','Soak, don\'t pry: rusted blades snap.'],
+ '$2–40; early Winchester and Remington more','Razor parts, harmonica reed plates.'],
+// ---- farm, rail, logging ----
+['r-tack','relic','Horse tack: rosettes, buckles, bells','1850s–1930s','harness rosette bridle boss buckle sleigh bell crotal bell horse brass terret hame',
+ 'Harness and bridle hardware lost on farms, roads and in town at hitching rails: brass rosettes, buckles, terret rings and sleigh bells.',
+ ['Bridle rosettes are domed brass or glass-faced discs on a short loop.','Sleigh (crotal) bells are round with a slot and a loose pea; some carry a maker number.','Harness buckles are heavy brass or nickel-plated iron with a tongue.'],
+ '$2–20; glass-domed rosettes and marked sleigh bells $15–60','Two-piece buttons, modern tack.'],
+['r-rail','relic','Railroad date nail and spike','1900s–1960s','date nail tie railroad spike numbers year stamped',
+ 'Nails driven into railroad ties with the year stamped on the head, used to track how long ties lasted. Spikes come from the rails themselves.',
+ ['Two-digit year on the head (e.g. 27 = 1927); round, square or shaped heads.','Copper and brass heads are scarcer than steel.','Abandoned railbeds are full of them; get permission, rail land is still owned.'],
+ '$1–10; rare shapes and early dates more; spikes $1–5','Roofing nails, fence staples.'],
+['r-shoe','relic','Horseshoe and ox shoe','1800s–1940s','horseshoe ox shoe split shoe oxen logging',
+ 'Horseshoes are one U-shaped piece per hoof. Ox shoes come in two half-moon pieces per hoof, since oxen have split hooves; they point to logging roads and early farms.',
+ ['Ox shoe: a flat kidney shape with a few nail holes and often a tab bent up.','Handmade horseshoes have uneven nail holes; factory shoes are crisp and even.','Calked (cleated) shoes were for ice and logging roads.'],
+ '$1–5 horseshoes; ox shoes $5–20','Wagon hardware, sled runners.'],
+['r-nail','relic','Nails for dating a site','hand-wrought before 1830; cut 1830s–1890s; wire after 1890','square nail cut nail wire nail wrought nail date site',
+ 'The nails on a site tell you how old it is.',
+ ['Hand-wrought: square, tapered on all four sides, hammered head. Before about 1830.','Machine-cut: rectangular, tapered on two sides, flat sheared head. 1830s to 1890s, the age of most Upper Midwest settlement.','Wire (round) nails took over in the 1890s.'],
+ 'No sale value; lots of cut nails means a pre-1900 building stood there','Railroad spikes, fence staples.'],
+['r-ammo','relic','Bullets, shells and headstamps','1840s on','bullet shell casing headstamp musket ball minie ball 22 shotgun shell umc winchester peters',
+ 'Lead bullets, cartridge cases and the brass heads of shotgun shells. The headstamp on a case dates and names the maker.',
+ ['Round lead balls: muzzle-loaders, before about 1870. Minié balls (hollow base, grease rings) date to the Civil War era and turn up near training camps.','Headstamps: "U" or "UMC" (Union Metallic Cartridge, to 1911), "H" (Winchester), "P"/"Peters" (Ohio), "WRA Co".','Shotgun heads read like "Winchester Leader" or "UMC Nitro Club".'],
+ 'Most 25¢–$2; Civil War-era bullets $5–20','Fishing sinkers (have a hole or a slot), lead blobs.'],
+['r-fur','relic','Fur trade items: trade silver, Jesuit rings, kettle brass','about 1650–1850','fur trade trade silver brooch cross gorget jesuit ring iconographic kettle brass tinkling cone gunflint trade bead',
+ 'Goods traded with Native nations at fur posts: silver brooches, crosses and gorgets, brass "Jesuit" rings with engraved faces, cut kettle brass, tinkling cones, gunflints and glass beads.',
+ ['Trade silver is thin hand-cut silver, sometimes stamped with a Montreal maker mark like "RC" or "CA".','Jesuit rings are small brass rings with a flat oval or heart-shaped face engraved with a letter, heart or saint.','Gunflints are square-ish chips of honey-colored (French) or gray-black (English) flint.'],
+ 'Collector value is high, but most come from protected sites','Almost every place these turn up is an archaeological site. On state, federal and tribal land collecting is illegal; on private land, record where it came from and report it to the state historical society.'],
+['r-copper','relic','Old Copper tools (ancient)','about 7,000–3,000 years ago','old copper complex native copper point awl knife spear archaic copper artifact',
+ 'Spear points, awls and knives hammered from native copper by Archaic peoples around the Great Lakes. Wisconsin has more of them than anywhere.',
+ ['Thick green or brown crust over solid copper.','Hammered shape: socketed or tanged points, long pointed awls, crescent knives.','Very different from cast or rolled modern copper (no seams, layered from hammering).'],
+ 'Protected: do not sell','These are human-made archaeological objects and often lie near burials. If you find one, stop, record the spot, and contact the Wisconsin Historical Society or your state archaeologist. Never dig further at the spot.'],
+['r-trash','relic','Pull tabs, can slaw and bottle caps','1890s on','pull tab ring pull beaver tail can slaw bottle cap crown cap foil trash',
+ 'The trash that sounds good. Ring pull tabs (1962–1975) and beaver-tail tabs ring in the same tone range as gold rings.',
+ ['Ring pulls and beaver tails date a layer to 1962–1975; stay-on tabs came after 1975.','Crown bottle caps started in 1892; iron caps with cork liners are older than plastic-lined ones.','A gold ring and a pull tab can read the same: on a beach or a swimming spot, dig the tabs.'],
+ 'None; every one dug makes the next hunt quieter','Gold rings. Seriously: dig them.'],
+// ---- jewelry ----
+['j-gold','jewel','Gold ring','all eras','gold ring 10k 14k 18k 22k 417 585 750 916 karat band wedding class ring',
+ 'Solid gold rings are stamped inside the band with the karat. Gold never rusts or turns green, and does not stick to a magnet.',
+ ['Marks: 10K or 417 (41.7% gold), 14K or 585, 18K or 750, 22K or 916. A "K" or "KT" after the number.','Bright, even color with no green crud; dug gold looks almost new.','Heavy for its size; not magnetic.','Old wedding bands are often engraved inside with initials and a date.'],
+ 'Sells for its gold weight: grams × karat ÷ 24 × the gold price per gram','Plated and gold-filled rings (see that entry), brass rings, tungsten rings.'],
+['j-plate','jewel','Plated or gold-filled ring','1880s on','gold plated gold filled gf gp rgp hge ge 1/20 12k gf rolled gold plate electroplate',
+ 'Thin gold over brass or silver. The stamp gives it away: a karat number with letters after it is not solid gold.',
+ ['"GF" or "1/20 12K GF" = gold-filled (a real but thin gold layer, about 5% of the weight).','"RGP" (rolled gold plate), "GP", "GE", "HGE" (heavy gold electroplate), "14K HGE" = plated, almost no gold.','Worn spots show brass, copper or silver underneath; green crud means base metal.'],
+ 'Gold-filled: a little scrap value; plated: none','Solid gold (stamped 10K/14K/18K with nothing after).'],
+['j-white','jewel','White gold ring','1920s on','white gold 14k rhodium',
+ 'Gold mixed with nickel or palladium, usually plated with bright rhodium. Looks like silver but stamped like gold.',
+ ['Stamped 10K, 14K or 18K like yellow gold.','Worn spots on the inside can show a faint yellow tint where the rhodium plating has rubbed off.','Doesn\'t tarnish black the way silver does.'],
+ 'Same as yellow gold of the same karat','Sterling silver (tarnishes, stamped 925), platinum (heavier, stamped PLAT), stainless steel.'],
+['j-plat','jewel','Platinum ring','about 1900–1950s and modern','platinum plat pt950 iridplat 10% irid plat art deco filigree',
+ 'Heavy gray-white metal used in fine rings, especially Art Deco engagement rings (1910s–1940s) with filigree.',
+ ['Stamps: PLAT, PT, PT950, 900PLAT, 10% IRID PLAT or IRIDPLAT.','Heavier than gold of the same size and doesn\'t tarnish.','Often set with old-cut diamonds.'],
+ 'Sells by weight, near or above gold prices','White gold (lighter, karat stamp), sterling, stainless.'],
+['j-silver','jewel','Silver ring and jewelry','all eras','silver sterling 925 800 coin silver ring bracelet tarnish',
+ 'Sterling and other silver jewelry. Dug silver comes up black or purple-gray from tarnish.',
+ ['"925", "STERLING" or ".925" = 92.5% silver. "800" or "835" = European silver. "COIN" = 90%.','Black tarnish that polishes off; ice melts fast on it.','Not magnetic.'],
+ 'About ¾ of the silver weight at melt; signed and Native-made pieces much more','German or nickel silver (no silver, stamped "Alpaca" or "Nickel Silver"), stainless steel, white gold.'],
+['j-class','jewel','Class ring','1900s on','class ring high school college graduation year 10k',
+ 'School rings with a stone, school name and year. Most are 10K gold, often stamped inside with the maker (Balfour, Jostens, Herff Jones, ArtCarved) and the owner\'s initials.',
+ ['Check inside for karat, maker and initials.','Heavy: 7–20 grams.','The school and year make it easy to find the owner or family.'],
+ 'Gold weight (often $200–600 at today\'s prices), but returning it makes the best story','Base-metal class rings (stamped "Lustrium", "Siladium", "Celestrium" or with no karat mark).'],
+['j-cost','jewel','Costume jewelry','1900s on','costume jewelry rhinestone pot metal brass coro trifari sarah coventry pin brooch earring',
+ 'Brass and pot-metal pieces with glass stones. Some signed vintage pieces are collectible.',
+ ['Green crud, flaking plating, and foil-backed glass stones.','Signed pieces: Coro, Trifari, Sarah Coventry, Monet, Napier.','Pot metal is gray and brittle where broken.'],
+ '$0–20; signed vintage more','Gold and silver pieces (check every clasp and back for a stamp).'],
+['j-mod','jewel','Tungsten, titanium and stainless rings','1990s on','tungsten carbide titanium stainless steel ring men\'s band',
+ 'Modern men\'s bands that look like white gold or platinum.',
+ ['Stamped "Tungsten", "TC", "Titanium", "316L" or "Stainless".','Tungsten is very heavy and scratch-proof; titanium is light.','Stainless may stick weakly to a strong magnet.'],
+ 'Little resale; worth returning if engraved','White gold, platinum.'],
+['j-chain','jewel','Chain, earring, pendant or charm','all eras','chain necklace earring stud post pendant locket charm bracelet clasp',
+ 'Small gold and silver pieces give tiny, high-tone signals and are easy to miss in a scoop.',
+ ['The karat stamp is usually on the clasp, the jump ring or the earring post.','Lockets may hold a photo: open them gently after drying.','Use a pinpointer and check the hole again after every scoop.'],
+ 'By weight unless signed or antique','Plated chains (stamped GP or HGE), brass.'],
+// ---- tests ----
+['x-gold','test','Gold test (acid kit and stone)','','gold acid test kit stone scratch 10k 14k 18k testing karat',
+ 'The standard way to check if a piece is real gold and what karat.',
+ ['Rub the piece on the black test stone to leave a streak.','Drop 10K acid on the streak: if it stays, the piece is at least 10K. Then try 14K, 18K.','If the streak vanishes under 10K acid, it is plated or not gold.','File a tiny notch in a hidden spot first if you suspect thick plating.'],
+ 'A kit with a stone and acids costs about $15–30','Acids burn skin and eyes. Use gloves and rinse the piece afterward.'],
+['x-mag','test','Magnet test for jewelry','','magnet test jewelry gold silver platinum fake magnetic',
+ 'Gold, silver and platinum are not magnetic. If the body of a ring sticks to a strong magnet, it is plated steel or stainless.',
+ ['Use a strong neodymium magnet.','Test the band, not the clasp: clasp springs are steel even on real gold.','Passing the magnet test does not prove gold; brass also fails to stick.'],
+ '','Use it as a first sort, then an acid or density test.'],
+['x-marks','test','Reading karat and silver marks','','hallmark stamp karat mark 417 585 750 925 gf hge rgp plat meaning',
+ 'What the stamps inside rings and on clasps mean.',
+ ['Solid gold: 10K/417, 14K/585, 18K/750, 22K/916, 24K/999.','Not solid gold: GF, 1/20 12K GF, RGP, GP, GE, HGE, "14K HGE", "18K GE".','Silver: 925/STERLING, 900/COIN, 800, 835. Not silver: EPNS, Alpaca, Nickel Silver, "Silver Plate".','Platinum: PLAT, PT950, IRIDPLAT. Modern: Tungsten, TC, Titanium, 316L, Stainless.'],
+ '','A worn-off stamp is common on old bands: test it instead of guessing.'],
+['x-sg','test','Density (water) test for metal','','specific gravity density water test weigh gold karat silver scale',
+ 'Weighing a piece in air and then hanging in water gives its density, which separates karat gold, silver, platinum and fakes without harming the piece.',
+ ['Weigh the piece dry in grams.','Set a cup of water on the scale, tare to zero, and hang the piece in the water on a thread without touching the cup. Read the weight.','Density = dry weight ÷ in-water reading.','About: 10K 11.4, 14K 13.0, 18K 15.5, 22K 17.8, sterling 10.4, platinum 21.4, brass 8.5, tungsten 15.6.'],
+ '','Stones and hollow parts throw the reading off; test plain bands.'],
+['x-silver','test','Silver test','','silver test acid ice test sterling tarnish',
+ 'Three quick checks for silver.',
+ ['Ice test: an ice cube on silver melts fast, much faster than on steel or plated pieces.','Magnet: silver doesn\'t stick.','Silver test acid on a hidden spot turns red on sterling and stays green-brown on base metal.'],
+ '','Copper and aluminum also melt ice fast; check the color and weight.'],
+['x-clean','test','Cleaning finds safely','','clean cleaning coin relic jewelry rust tarnish soak',
+ 'How not to wreck what you just dug.',
+ ['Coins: never scrub, polish or use acid. Rinse in water and let them dry. Cleaning cuts the value.','Jewelry: warm water, dish soap and a soft toothbrush. Ultrasonic cleaners are fine for plain gold.','Iron relics: rinse, dry slowly and seal with wax; don\'t leave them wet.','Brass and copper relics: soak in water, leave the green patina.'],
+ '','Lead items: wear gloves or wash your hands.'],
+['x-tone','test','What gold sounds like on a detector','','detector tone target id vdi gold ring signal foil tab nickel',
+ 'Gold rings read in the same low-to-middle range as foil, pull tabs and nickels. Small gold reads lower than big gold.',
+ ['Thin chains and small earrings read like foil.','Most gold rings read with nickels and pull tabs.','Big class rings can read up into zinc-penny range.','Silver and copper read high (with dimes, quarters and copper cents).'],
+ '','On beaches and swimming spots, dig the foil and tab signals.']
+];
+const IDCAT=[['','All'],['coin','Coins'],['rock','Rocks & minerals'],['metal','Metals & relics'],['jewel','Jewelry'],['test','Tests']];
+const IDLBL={coin:'Coin',rock:'Rock or mineral',metal:'Metal',relic:'Relic',jewel:'Jewelry',test:'How to test'};
+let IDX=null, IDQ={q:'',c:'',open:''};
+function idBuild(){ if(IDX) return IDX; IDX=[]; const dn=Object.fromEntries((typeof COIN_DEN!=='undefined'?COIN_DEN:[]).map(d=>[d[0],d[1]]));
+  if(typeof COINS!=='undefined') for(const c of COINS) IDX.push({id:'c:'+c[0],c:'coin',k:'coin',n:c[3],s:`${c[4]}–${c[5]>2090?'today':c[5]} · ${c[6]}`,
+    t:[c[3],dn[c[2]]||'',c[2],c[6],'coin',c[4],c[5],c[10],...(c[11]||[]).map(k=>k[2]),...(c[12]||[]).map(e=>e[2])].join(' ').toLowerCase(),coin:c});
+  (window.IDROCKS||[]).forEach((r,i)=>IDX.push({id:'r:'+i,c:r.k==='metal'||r.k==='relic'?'metal':'rock',k:r.k==='metal'?'metal':r.k==='relic'?'relic':'rock',ri:i,n:r.n,s:r.f+' · '+r.c,
+    t:[r.n,r.k,r.f,r.c,...r.id,r.la].join(' ').toLowerCase(),r}));
+  (window.IDTESTS||[]).forEach((m,i)=>IDX.push({id:'m:'+i,c:'test',k:'test',n:m.t,s:m.why,t:[m.t,m.need,m.why,...m.steps].join(' ').toLowerCase(),m:i}));
+  for(const x of IDREL) IDX.push({id:'x:'+x[0],c:x[1]==='relic'?'metal':x[1],k:x[1],n:x[2],s:[x[3],x[5]].filter(Boolean).join(' · '),
+    t:[x[2],x[4],x[5],...x[6]].join(' ').toLowerCase(),x});
+  return IDX; }
+function idFind(qs,cat,lim){ const q=String(qs||'').trim().toLowerCase(), all=idBuild().filter(e=>!cat||e.c===cat); if(!q) return all.map(e=>({e,s:3}));
+  const tk=q.split(/\s+/).filter(Boolean), out=[];
+  for(const e of all){ const nm=e.n.toLowerCase(); if(!tk.every(t=>e.t.includes(t)||nm.includes(t))) continue;
+    out.push({e,s:nm.startsWith(q)?0:new RegExp('\\b'+q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).test(nm)?1:tk.every(t=>nm.includes(t))?2:3}); }
+  out.sort((a,b)=>a.s-b.s||a.e.n.localeCompare(b.e.n)); return lim?out.slice(0,lim):out; }
+function idMelt(g,frac,per){ return g>0&&per>0?'$'+(g*frac*per/31.1035).toFixed(0):'—'; }
+function idCalcHTML(kind){ const au=coinMet.au, ag=coinMet.ag;
+  if(kind==='gold') return `<div class="idcalc" data-k="gold"><label>Weight (g)<input type="number" inputmode="decimal" step="0.1" value="5"></label><label>Mark<select>${[['10',10],['14',14],['18',18],['22',22]].map(([l,v])=>`<option value="${v}"${v===14?' selected':''}>${l}K</option>`).join('')}</select></label><output></output><p class="hint">At $${au}/oz gold (change it on the Coin ID page). Buyers pay about 70–90% of melt.</p></div>`;
+  if(kind==='silver') return `<div class="idcalc" data-k="silver"><label>Weight (g)<input type="number" inputmode="decimal" step="0.1" value="10"></label><label>Mark<select><option value="0.925">925 sterling</option><option value="0.9">900 coin</option><option value="0.8">800</option></select></label><output></output><p class="hint">At $${ag}/oz silver.</p></div>`;
+  if(kind==='sg') return `<div class="idcalc" data-k="sg"><label>Dry weight (g)<input type="number" inputmode="decimal" step="0.01" value="6.5"></label><label>In water (g)<input type="number" inputmode="decimal" step="0.01" value="0.5"></label><output></output></div>`; return ''; }
+function idCalc(box){ const [a,b]=box.querySelectorAll('input,select'), o=box.querySelector('output'), k=box.dataset.k, v1=parseFloat(a.value), v2=parseFloat(b.value);
+  if(k==='gold') o.textContent=`About ${idMelt(v1,v2/24,coinMet.au)} in gold`;
+  else if(k==='silver') o.textContent=`About ${idMelt(v1,v2,coinMet.ag)} in silver`;
+  else { if(!(v1>0&&v2>0)){ o.textContent='Enter both weights.'; return; } const d=v1/v2, M=[['brass or bronze',8.6],['sterling silver',10.4],['10K gold',11.4],['14K gold',13.0],['18K gold',15.5],['tungsten',15.6],['22K gold',17.8],['24K gold',19.3],['platinum',21.4]];
+    const m=M.reduce((a,b)=>Math.abs(b[1]-d)<Math.abs(a[1]-d)?b:a); o.textContent=`Density ${d.toFixed(2)}: closest to ${m[0]} (${m[1]})`; } }
+function idRowHTML(e){ return `<button type="button" class="idrow" data-id="${esc(e.id)}"><span class="idk idk-${e.k}">${IDLBL[e.k]}</span><b>${esc(e.n)}</b><span>${esc(e.s)}</span></button>`; }
+function idCardHTML(e){ let h=`<div class="idcard"><p><button class="btn" type="button" id="idBack">← Back to the list</button></p><span class="idk idk-${e.k}">${IDLBL[e.k]}</span><h3>${esc(e.n)}</h3>`;
+  if(e.r){ const r=e.r, rg=a=>a[0]===a[1]?a[0]:a[0]+'–'+a[1], MG={strong:'Strong',weak:'Weak (strong magnet only)',none:'None'}, AC={cold:'Fizzes cold',powder:'Fizzes as powder',none:'None'};
+    h+=`<p class="hint mono">${esc(r.f)}</p><table class="idtbl"><tr><th>Color</th><td>${esc(r.c)}</td></tr><tr><th>Luster</th><td>${esc(r.lus.join(', '))}</td></tr><tr><th>Streak</th><td>${esc(r.st.join(', '))}</td></tr><tr><th>Hardness</th><td>${rg(r.h)}</td></tr><tr><th>Specific gravity</th><td>${rg(r.sg)}</td></tr><tr><th>Magnet</th><td>${r.mag.map(x=>MG[x]).join(' or ')}</td></tr><tr><th>Acid</th><td>${r.acid.map(x=>AC[x]).join(' or ')}</td></tr></table>
+    <p class="idbox"><b>Under UV:</b> ${esc(r.uvt)}</p><h4>How to confirm it</h4><ul>${r.id.map(t=>`<li>${esc(t)}</li>`).join('')}</ul><p class="idbox"><b>Often confused with:</b> ${esc(r.la)}</p>
+    ${r.n==='Gold'?idCalcHTML('gold'):r.n==='Silver'?idCalcHTML('silver'):''}${typeof ridOpen==='function'?'<p><button class="btn" type="button" id="idTests">Open in the rock tester (drawing, tests, confidence)</button></p>':''}`; }
+  else if(e.x){ const x=e.x; h+=`${x[3]?`<p class="hint">${esc(x[3])}</p>`:''}<p>${esc(x[5])}</p><h4>${x[1]==='test'?'How to do it':'How to tell and date it'}</h4><ul>${x[6].map(t=>`<li>${esc(t)}</li>`).join('')}</ul>
+    ${x[7]?`<p class="idbox"><b>${x[1]==='test'?'Cost':'Rough value'}:</b> ${esc(x[7])}</p>`:''}${x[8]?`<p class="idbox"><b>${x[1]==='test'||/^Protected|^Collector/.test(x[7])?'Careful':'Often confused with'}:</b> ${esc(x[8])}</p>`:''}
+    ${x[0]==='j-gold'||x[0]==='j-class'||x[0]==='x-gold'?idCalcHTML('gold'):x[0]==='j-silver'||x[0]==='r-spoon'?idCalcHTML('silver'):x[0]==='x-sg'?idCalcHTML('sg'):''}`; }
+  return h+'<p class="hint">Values are rough dug-condition estimates; check a current catalog or dealer before selling.</p></div>'; }
+function idRender(){ const out=document.getElementById('idOut'); if(!out) return;
+  document.querySelectorAll('#idChips button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.c===IDQ.c));
+  if(IDQ.open){ const e=idBuild().find(x=>x.id===IDQ.open); if(e){ out.innerHTML=idCardHTML(e); out.querySelectorAll('.idcalc').forEach(idCalc); return; } IDQ.open=''; }
+  const r=idFind(IDQ.q,IDQ.c), q=IDQ.q.trim(), n=r.length;
+  out.innerHTML=`<p class="hint">${q?`${n} match${n===1?'':'es'} for “${esc(q)}”`:`${n} entries`}${IDQ.c?' in '+IDCAT.find(c=>c[0]===IDQ.c)[1]:''}</p>`+(n?`<div class="shlist idlist">${r.slice(0,120).map(x=>idRowHTML(x.e)).join('')}</div>${n>120?'<p class="hint">Type more to narrow the list.</p>':''}`:`<p>No match. Try a simpler word like <i>button</i>, <i>dime</i>, <i>quartz</i> or <i>14K</i>${IDQ.c?', or tap All':''}.</p>`); }
+function idOpen(o){ o=o||{}; if(o.q!=null) IDQ.q=o.q; if(o.c!=null) IDQ.c=o.c; IDQ.open=o.open||''; showView('ident');
+  const e=o.open&&idBuild().find(x=>x.id===o.open); if(e&&e.coin){ IDQ.open=''; coinOpen({den:e.coin[2],id:e.coin[0]}); return; }
+  if(e&&e.m!=null){ idHow(e.m); return; }
+  const i=document.getElementById('idQ'); if(i) i.value=IDQ.q; idRender(); }
+// the rock tester is a panel over the map (Minerals mode); go to the map and open it
+function idRid(v,o){ if(typeof ridOpen!=='function') return; if(typeof SH!=='undefined'&&SH.phone&&typeof shGo==='function') shGo('map'); else showView('map'); ridOpen(v,o); }
+function idHow(i){ idRid('how',{m:i}); }
+document.head.insertAdjacentHTML('beforeend',`<style>
+.idtools{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 12px}
+.idsearch{font:400 16px var(--f-body);width:100%;box-sizing:border-box;padding:10px 14px;border-radius:22px;border:1px solid var(--line);background:var(--panel);color:var(--ink)}
+.idchips{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}
+.idchips button{font:600 13.5px var(--f-body);padding:7px 13px;border-radius:999px;border:1px solid var(--line);background:var(--panel);color:var(--ink);cursor:pointer}
+.idchips button[aria-pressed="true"]{background:var(--ink);color:var(--panel);border-color:var(--ink)}
+.idlist .idrow{display:grid;gap:2px}
+.idlist .idrow>span:last-child{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.idk{justify-self:start;font:600 10.5px var(--f-mono);text-transform:uppercase;letter-spacing:.05em;padding:1px 7px;border-radius:4px;border:1px solid var(--line);color:var(--muted)!important}
+.idk-coin{border-color:var(--oggold,#c9962b)}.idk-rock{border-color:var(--L-rock,#8a4fa3)}.idk-metal,.idk-relic{border-color:var(--L-copper,#b4531f)}.idk-jewel{border-color:var(--L-treasure,#6d3fa0)}.idk-test{border-color:var(--L-ghost,#2f7a45)}
+.idcard h3{font-size:1.4rem;margin:6px 0 4px}
+.idcard ul{padding-left:20px}
+.idtbl{border-collapse:collapse;width:100%;font-size:14px;margin:8px 0}
+.idtbl th{text-align:left;font:500 11.5px var(--f-mono);text-transform:uppercase;color:var(--muted);padding:6px 10px 6px 0;width:38%;vertical-align:top;border-top:1px solid var(--line)}
+.idtbl td{padding:6px 0;border-top:1px solid var(--line)}
+.idbox{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:9px 12px}
+.idcalc{display:grid;grid-template-columns:1fr 1fr;gap:8px;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:10px 12px;margin:10px 0}
+.idcalc label{display:grid;gap:3px;font-size:13px;color:var(--muted)}
+.idcalc input,.idcalc select{font:16px var(--f-mono);color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:6px 8px;width:100%;box-sizing:border-box}
+.idcalc output{grid-column:1/-1;font:600 15px var(--f-mono)}
+.idcalc .hint{grid-column:1/-1}
+</style>`);
+document.getElementById('rv-more').insertAdjacentHTML('afterend',`<section class="readview" id="rv-ident" hidden><article class="read pad"><h2>Identify</h2>
+<p class="lede">Search everything you might dig or pick up: coins, rocks and minerals, metals, relics, jewelry, and how to test them. Works offline.</p>
+<div class="idtools"><button type="button" class="btn" id="idRid">Rock tester (tap your test results)</button><button type="button" class="btn" id="idHowB">How to test</button></div>
+<input type="search" id="idQ" class="idsearch" placeholder="Try wheat cent, pyrite, button, 14K, agate" aria-label="Search coins, rocks, metals, relics and jewelry" autocomplete="off">
+<div class="idchips" id="idChips" role="group" aria-label="Show">${IDCAT.map(c=>`<button type="button" data-c="${c[0]}" aria-pressed="false">${c[1]}</button>`).join('')}</div>
+<div id="idOut"></div></article></section>`);
+document.getElementById('idQ').addEventListener('input',e=>{ IDQ.q=e.target.value; IDQ.open=''; idRender(); });
+document.getElementById('idChips').onclick=e=>{ const b=e.target.closest('button[data-c]'); if(!b) return; IDQ.c=b.dataset.c; IDQ.open=''; idRender(); };
+document.getElementById('idOut').addEventListener('click',e=>{ const b=e.target.closest('.idrow');
+  if(b){ const x=idBuild().find(y=>y.id===b.dataset.id); if(x&&x.coin){ coinOpen({den:x.coin[2],id:x.coin[0]}); return; } if(x&&x.m!=null){ idHow(x.m); return; } IDQ.open=b.dataset.id; idRender(); window.scrollTo(0,0); document.getElementById('rv-ident').scrollIntoView({block:'start'}); return; }
+  if(e.target.id==='idBack'){ IDQ.open=''; idRender(); return; }
+  if(e.target.id==='idTests'){ const x=idBuild().find(y=>y.id===IDQ.open); if(x) idRid('id',{i:x.ri}); } });
+document.getElementById('idRid').onclick=()=>idRid('id',{});
+document.getElementById('idHowB').onclick=()=>idRid('how',{});
+document.getElementById('idOut').addEventListener('input',e=>{ const b=e.target.closest('.idcalc'); if(b) idCalc(b); });
+// the Identify view rides on the More view like Coin ID does
+{ const _svI=showView; showView=function(k){ const v=document.getElementById('rv-ident');
+  if(k==='ident'){ _svI('more'); document.getElementById('rv-more').hidden=true; v.hidden=false; document.querySelectorAll('.views button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.rv==='ident')); try{ history.replaceState(null,'','#identify'); }catch(_){} window.scrollTo(0,0); return; }
+  v.hidden=true; _svI(k); }; }
+document.querySelector('#rv-more .shlist').insertAdjacentHTML('afterbegin','<button data-go="ident"><b>Identify</b><span>Search coins, rocks, minerals, metals, relics and jewelry, plus the rock tester and how-to-test guide</span></button>');
+document.querySelector('.views').insertAdjacentHTML('beforeend','<button data-rv="ident" aria-pressed="false">Identify</button>');
+document.querySelector('.views [data-rv="ident"]').onclick=()=>idOpen();
+{ const um=document.querySelector('#uxMore [data-go="finds"]'); if(um){ um.insertAdjacentHTML('afterend','<button type="button" data-go="ident">Identify</button>'); um.nextElementSibling.onclick=()=>{ document.getElementById('uxMore').open=false; idOpen(); }; } }
+{ const cr=document.querySelector('#rv-coins .lede'); if(cr) cr.insertAdjacentHTML('afterend','<p class="hint"><a href="#identify" id="cnToId">Search coins, relics, rocks and jewelry together on the Identify page</a></p>'), document.getElementById('cnToId').onclick=e=>{ e.preventDefault(); idOpen({c:'coin'}); }; }
+// map search bar: ID entries show under the places
+{ const _uf=uxFind; uxFind=function(qs){ const out=_uf(qs), q=String(qs||'').trim(); if(q.length<3||/^-?\d{1,2}\.\d/.test(q)) return out;
+    const r=idFind(q,'',0), strong=r.filter(x=>x.s<=2), pick=(strong.length?strong:out.length?[]:r).slice(0,strong.length?4:3);
+    const ids=pick.map(x=>({k:'id',n:x.e.n,sub:'Identify · '+IDLBL[x.e.k],id:x.e.id}));
+    if(r.length>pick.length&&(pick.length||!out.length)) ids.push({k:'id',n:`See all ${r.length} matches in Identify`,sub:'Coins, rocks, relics and jewelry',q});
+    const ai=out.findIndex(x=>x.k==='all'); if(ai<0) return [...out,...ids]; out.splice(ai,0,...ids); return out; };
+  const _up=uxPick; uxPick=function(r){ if(r&&r.k==='id'){ uxr.hidden=true; uxq.blur(); if(r.id) idOpen({q:'',c:'',open:r.id}); else idOpen({q:r.q,c:''}); return; } return _up(r); };
+  uxq.placeholder='Search a place, coin, rock or relic'; }
+document.addEventListener('DOMContentLoaded',()=>{ if((location.hash||'')==='#identify') idOpen(); });
 </script><script>
 // ---------- rock, mineral and metal ID (inside the Minerals map mode) ----------
-// Injected by tools/build.py after the atlas script, like app.js. Edit here, then rebuild.
+// Part of the atlas since v92 (research/identify/patch.py puts it after identify.js); build.py injects it only into older atlases.
+// Shares S as IDROCKS, M as IDTESTS and ridOpen() with the Identify page, which searches and opens them.
 (function(){ const mw=document.querySelector('.mapwrap'); if(!mw||document.getElementById('ridSheet')) return;
 const RICON='<svg class="ic" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M7 4h10l4 6-9 11L3 10z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M3 10h18M9 4l3 17 3-17" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>';
-const S = [
+const S = window.IDROCKS = [
 // ---------- MINERALS ----------
 {n:'Quartz',k:'mineral',f:'SiO₂',c:'Colorless, white, smoky, rose, purple (amethyst)',lus:['glassy'],st:['white'],h:[7,7],sg:[2.65,2.65],mag:['none'],acid:['none'],uv:['none'],uvt:'Usually none. Some pieces glow faintly from coatings or impurities.',li:['transparent','translucent'],sp:['hex'],id:['Scratches glass and a steel knife easily.','Breaks with curved, shell-like (conchoidal) fracture — never flat cleavage faces.','Crystals are six-sided columns ending in a point.'],la:'Calcite (soft, fizzes in acid), feldspar (flat shiny cleavage faces), glass (softer, may hold round bubbles).'},
 {n:'Calcite',k:'mineral',f:'CaCO₃',c:'Colorless, white, honey, orange, green',lus:['glassy'],st:['white'],h:[3,3],sg:[2.71,2.71],mag:['none'],acid:['cold'],uv:['none','red','orange','white','blue'],uvt:'Very variable: red, pink, orange, cream or blue. Many pieces keep glowing a moment after the lamp goes off (phosphorescence).',li:['transparent','translucent'],sp:['double'],id:['Fizzes in cold vinegar or dilute hydrochloric acid.','Breaks into slanted rhombs (leaning boxes).','A copper wire or old penny scratches it.','Clear pieces show a double image of print underneath.'],la:'Quartz (much harder, no fizz), dolomite (fizzes only when powdered), fluorite (no fizz).'},
@@ -3231,7 +3517,7 @@ const S = [
 {n:'Titanium',k:'metal',f:'Ti',c:'Dark silver-gray',lus:['metallic'],st:['gray'],h:[6,6],sg:[4.5,4.5],mag:['none'],acid:['none'],uv:['none'],uvt:'None.',li:['opaque'],sp:['spark'],id:['Looks like steel but feels light and isn\'t magnetic.','Grinder sparks are brilliant white.','Doesn\'t corrode.'],la:'Aluminum (lighter, no sparks), stainless steel (heavier).'},
 {n:'Tungsten carbide',k:'metal',f:'WC (+ Co binder)',c:'Gunmetal gray, polished',lus:['metallic'],st:['gray'],h:[9,9],sg:[14,15.6],mag:['none','weak'],acid:['none'],uv:['none'],uvt:'None.',li:['opaque'],sp:[],id:['Surprisingly heavy — close to gold.','Scratches glass and quartz.','Common in rings and drill bits; may be slightly magnetic from its cobalt binder.'],la:'Steel (lighter, softer), titanium (much lighter).'}
 ];
-const M=[
+const M = window.IDTESTS = [
  {t:'Streak test',need:'Unglazed white porcelain tile (back of a bathroom tile)',why:'The color of a mineral\'s powder is far more consistent than its surface color. Hematite can be silver, black or red but always streaks red-brown.',steps:['Press a sharp corner of the specimen firmly against the tile and drag it about an inch.','Wipe with a finger: real streak is powder and stays; a scratch in the tile means the specimen is harder than the tile (about 6.5) and gives no streak.','Compare to the streak colors in the Identify panel.'],safe:''},
  {t:'Scratch (hardness) test',need:'Fingernail · copper wire or pre-1982 penny · steel nail or knife · glass plate · quartz crystal',why:'Hardness on the Mohs scale is one of the most reliable field tests and only needs a few household items.',steps:['Try to scratch the specimen with each tool, softest first.','Rub the mark with a finger. A real scratch is a groove; a powdery line wiped away is the tool leaving metal behind.','Also try the specimen against glass: if it scratches glass it is harder than 5.5.'],table:[['Tool','Mohs'],['Fingernail','2.5'],['Copper wire / old penny','3–3.5'],['Steel nail, pocketknife','5.5'],['Glass','5.5'],['Streak tile, steel file','6.5'],['Quartz','7']],safe:'Pennies made after 1982 are zinc under a copper skin and are softer. Use copper wire if you can.'},
  {t:'Magnet test',need:'Fridge magnet and a neodymium (rare-earth) magnet, thread',why:'Strong attraction narrows things to magnetite, iron, nickel, pyrrhotite, taconite and meteorites. Weak attraction points to iron-bearing minerals like garnet, biotite and hematite.',steps:['Touch a fridge magnet to the specimen. If it clings, it\'s strongly magnetic.','If not, hang the specimen from a thread and bring a neodymium magnet close. Watch for it to swing toward the magnet.','For tiny grains, wrap the magnet in plastic wrap and sweep it over the crushed sample.'],safe:'Keep neodymium magnets away from phones, cards and pacemakers; they can pinch skin badly.'},
@@ -3368,6 +3654,9 @@ let tab=null;
 function openSheet(){ try{ closePop(); }catch(_){} try{ const d=document.getElementById('cld'); if(d){ d.hidden=true; } }catch(_){} sheet.hidden=false; if(tab) tab.setAttribute('aria-expanded','true'), tab.classList.add('on'); }
 function closeSheet(){ sheet.hidden=true; if(tab) tab.setAttribute('aria-expanded','false'), tab.classList.remove('on'); }
 $('rid-x').onclick=closeSheet;
+// Identify page: open the panel on a tab, a specimen (i) or a test method (m)
+window.ridOpen=(v,o)=>{ o=o||{}; if(o.q!=null) st.q=o.q; st.open=o.i!=null?o.i:null; view(v||'id'); renderId(); openSheet();
+  if(o.m!=null){ const m=howBox.querySelectorAll('.rid-m')[o.m]; if(m) setTimeout(()=>{ body.scrollTop=m.offsetTop-body.offsetTop; },30); } };
 if(modes){ const gb=modes.querySelector('[data-m="gold"]');
   (gb||modes.lastElementChild).insertAdjacentHTML(gb?'afterend':'beforeend',`<button type="button" class="ridtab" id="ridTab" aria-expanded="false" hidden>${RICON}Rock ID</button>`);
   tab=$('ridTab'); tab.addEventListener('click',e=>{ e.stopPropagation(); sheet.hidden?openSheet():closeSheet(); });

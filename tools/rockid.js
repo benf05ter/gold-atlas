@@ -1,9 +1,10 @@
 <script>
 // ---------- rock, mineral and metal ID (inside the Minerals map mode) ----------
-// Injected by tools/build.py after the atlas script, like app.js. Edit here, then rebuild.
+// Part of the atlas since v92 (research/identify/patch.py puts it after identify.js); build.py injects it only into older atlases.
+// Shares S as IDROCKS, M as IDTESTS and ridOpen() with the Identify page, which searches and opens them.
 (function(){ const mw=document.querySelector('.mapwrap'); if(!mw||document.getElementById('ridSheet')) return;
 const RICON='<svg class="ic" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M7 4h10l4 6-9 11L3 10z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M3 10h18M9 4l3 17 3-17" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>';
-const S = [
+const S = window.IDROCKS = [
 // ---------- MINERALS ----------
 {n:'Quartz',k:'mineral',f:'SiO₂',c:'Colorless, white, smoky, rose, purple (amethyst)',lus:['glassy'],st:['white'],h:[7,7],sg:[2.65,2.65],mag:['none'],acid:['none'],uv:['none'],uvt:'Usually none. Some pieces glow faintly from coatings or impurities.',li:['transparent','translucent'],sp:['hex'],id:['Scratches glass and a steel knife easily.','Breaks with curved, shell-like (conchoidal) fracture — never flat cleavage faces.','Crystals are six-sided columns ending in a point.'],la:'Calcite (soft, fizzes in acid), feldspar (flat shiny cleavage faces), glass (softer, may hold round bubbles).'},
 {n:'Calcite',k:'mineral',f:'CaCO₃',c:'Colorless, white, honey, orange, green',lus:['glassy'],st:['white'],h:[3,3],sg:[2.71,2.71],mag:['none'],acid:['cold'],uv:['none','red','orange','white','blue'],uvt:'Very variable: red, pink, orange, cream or blue. Many pieces keep glowing a moment after the lamp goes off (phosphorescence).',li:['transparent','translucent'],sp:['double'],id:['Fizzes in cold vinegar or dilute hydrochloric acid.','Breaks into slanted rhombs (leaning boxes).','A copper wire or old penny scratches it.','Clear pieces show a double image of print underneath.'],la:'Quartz (much harder, no fizz), dolomite (fizzes only when powdered), fluorite (no fizz).'},
@@ -90,7 +91,7 @@ const S = [
 {n:'Titanium',k:'metal',f:'Ti',c:'Dark silver-gray',lus:['metallic'],st:['gray'],h:[6,6],sg:[4.5,4.5],mag:['none'],acid:['none'],uv:['none'],uvt:'None.',li:['opaque'],sp:['spark'],id:['Looks like steel but feels light and isn\'t magnetic.','Grinder sparks are brilliant white.','Doesn\'t corrode.'],la:'Aluminum (lighter, no sparks), stainless steel (heavier).'},
 {n:'Tungsten carbide',k:'metal',f:'WC (+ Co binder)',c:'Gunmetal gray, polished',lus:['metallic'],st:['gray'],h:[9,9],sg:[14,15.6],mag:['none','weak'],acid:['none'],uv:['none'],uvt:'None.',li:['opaque'],sp:[],id:['Surprisingly heavy — close to gold.','Scratches glass and quartz.','Common in rings and drill bits; may be slightly magnetic from its cobalt binder.'],la:'Steel (lighter, softer), titanium (much lighter).'}
 ];
-const M=[
+const M = window.IDTESTS = [
  {t:'Streak test',need:'Unglazed white porcelain tile (back of a bathroom tile)',why:'The color of a mineral\'s powder is far more consistent than its surface color. Hematite can be silver, black or red but always streaks red-brown.',steps:['Press a sharp corner of the specimen firmly against the tile and drag it about an inch.','Wipe with a finger: real streak is powder and stays; a scratch in the tile means the specimen is harder than the tile (about 6.5) and gives no streak.','Compare to the streak colors in the Identify panel.'],safe:''},
  {t:'Scratch (hardness) test',need:'Fingernail · copper wire or pre-1982 penny · steel nail or knife · glass plate · quartz crystal',why:'Hardness on the Mohs scale is one of the most reliable field tests and only needs a few household items.',steps:['Try to scratch the specimen with each tool, softest first.','Rub the mark with a finger. A real scratch is a groove; a powdery line wiped away is the tool leaving metal behind.','Also try the specimen against glass: if it scratches glass it is harder than 5.5.'],table:[['Tool','Mohs'],['Fingernail','2.5'],['Copper wire / old penny','3–3.5'],['Steel nail, pocketknife','5.5'],['Glass','5.5'],['Streak tile, steel file','6.5'],['Quartz','7']],safe:'Pennies made after 1982 are zinc under a copper skin and are softer. Use copper wire if you can.'},
  {t:'Magnet test',need:'Fridge magnet and a neodymium (rare-earth) magnet, thread',why:'Strong attraction narrows things to magnetite, iron, nickel, pyrrhotite, taconite and meteorites. Weak attraction points to iron-bearing minerals like garnet, biotite and hematite.',steps:['Touch a fridge magnet to the specimen. If it clings, it\'s strongly magnetic.','If not, hang the specimen from a thread and bring a neodymium magnet close. Watch for it to swing toward the magnet.','For tiny grains, wrap the magnet in plastic wrap and sweep it over the crushed sample.'],safe:'Keep neodymium magnets away from phones, cards and pacemakers; they can pinch skin badly.'},
@@ -227,6 +228,9 @@ let tab=null;
 function openSheet(){ try{ closePop(); }catch(_){} try{ const d=document.getElementById('cld'); if(d){ d.hidden=true; } }catch(_){} sheet.hidden=false; if(tab) tab.setAttribute('aria-expanded','true'), tab.classList.add('on'); }
 function closeSheet(){ sheet.hidden=true; if(tab) tab.setAttribute('aria-expanded','false'), tab.classList.remove('on'); }
 $('rid-x').onclick=closeSheet;
+// Identify page: open the panel on a tab, a specimen (i) or a test method (m)
+window.ridOpen=(v,o)=>{ o=o||{}; if(o.q!=null) st.q=o.q; st.open=o.i!=null?o.i:null; view(v||'id'); renderId(); openSheet();
+  if(o.m!=null){ const m=howBox.querySelectorAll('.rid-m')[o.m]; if(m) setTimeout(()=>{ body.scrollTop=m.offsetTop-body.offsetTop; },30); } };
 if(modes){ const gb=modes.querySelector('[data-m="gold"]');
   (gb||modes.lastElementChild).insertAdjacentHTML(gb?'afterend':'beforeend',`<button type="button" class="ridtab" id="ridTab" aria-expanded="false" hidden>${RICON}Rock ID</button>`);
   tab=$('ridTab'); tab.addEventListener('click',e=>{ e.stopPropagation(); sheet.hidden?openSheet():closeSheet(); });
