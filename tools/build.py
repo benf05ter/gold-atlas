@@ -44,6 +44,12 @@ if pk:
     if f.endswith('.json'):
       shutil.copy(os.path.join(pk,f),out+'/pk/'+f)
       if f=='parks.json': satpre.append('pk/'+f)
+omr=sys.argv[6] if len(sys.argv)>6 else None   # regional old topo sheets (om/*.webp), cached the first time you look at them
+if omr:
+  if os.path.isdir(out+'/om'): shutil.rmtree(out+'/om')
+  os.makedirs(out+'/om',exist_ok=True)
+  for f in sorted(os.listdir(omr)):
+    if f.endswith('.webp'): shutil.copy(os.path.join(omr,f),out+'/om/'+f)
 h=hashlib.sha256()
 for d,_,fs in sorted(os.walk(out)):
   for f in sorted(fs):

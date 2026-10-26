@@ -2278,6 +2278,19 @@ renderLayers(); drawMarkers(); renderList(); if(typeof gmSheetSync==='function')
 { const t0=performance.now(), _dmF=drawMarkers; let q=0; drawMarkers=function(){ if(performance.now()-t0>1500) return _dmF(); if(!q) q=requestAnimationFrame(()=>{ q=0; _dmF(); }); }; }
 drawMarkers();
 
+// ---------- old maps everywhere: USGS historical topos under the slider ----------
+// 1:250,000 sheets (1953-58) cover the region within about 2 hours; 15-minute 1:62,500 sheets (1927-1952) cover the ring within about an hour.
+// The 1936/1972 quads around Eau Claire stay on top. Side files om/*.webp load only when the old map is on and the sheet is in view.
+const OMR=[["h250_saint_paul",-94,-92,44,45,1953,250000],["h250_stillwater",-94,-92,45,46,1953,250000],["h15_arkansaw",-92.25,-92.0,44.5,44.75,1941,62500],["h15_bloomer",-91.5,-91.25,45.0,45.25,1949,62500],["h15_cadott",-91.25,-91.0,44.75,45.0,1952,62500],["h15_chetek",-91.75,-91.5,45.25,45.5,1951,62500],["h15_chippewa_falls",-91.5,-91.25,44.75,45.0,1934,62500],["h15_cornell",-91.25,-91.0,45.0,45.25,1951,62500],["h15_durand",-92.0,-91.75,44.5,44.75,1929,62500],["h250_eau_claire",-92,-90,44,45,1953,250000],["h15_elk_mound",-91.75,-91.5,44.75,45.0,1934,62500],["h15_fairchild",-91.0,-90.75,44.5,44.75,1948,62500],["h15_gilmanton",-91.75,-91.5,44.25,44.5,1932,62500],["h15_knapp",-92.25,-92.0,44.75,45.0,1946,62500],["h250_la_crosse",-92,-90,43,44,1958,250000],["h15_menomonie",-92.0,-91.75,44.75,45.0,1940,62500],["h15_mondovi",-91.75,-91.5,44.5,44.75,1932,62500],["h15_new_auburn",-91.75,-91.5,45.0,45.25,1949,62500],["h15_osseo",-91.25,-91.0,44.5,44.75,1940,62500],["h250_rice_lake",-92,-90,45,46,1953,250000],["h15_stanley",-91.0,-90.75,44.75,45.0,1952,62500],["h15_strum",-91.5,-91.25,44.5,44.75,1927,62500]];
+const omR=OMR.sort((a,b)=>b[6]-a[6]).map(([f,l0,l1,b0,b1,y,sc])=>{ const [x,yy]=P(l0,b1); const im=el('image',{x,y:yy,width:(l1-l0)*K,height:b1-b0,preserveAspectRatio:'none','data-f':f},null); gOM.insertBefore(im,omImgs[0]); im._b=[l0,l1,b0,b1,sc]; return im; });
+function omRVis(){ if(!on.has('_oldmap')) return; const s=scale(), lon0=vb.x/K, lon1=(vb.x+vb.w)/K, la1=-vb.y, la0=-(vb.y+vb.h);
+  for(const im of omR){ const [l0,l1,b0,b1,sc]=im._b; if(im.getAttribute('href')) continue; if(l1<lon0||l0>lon1||b1<la0||b0>la1) continue; if(sc<100000&&s<250) continue; im.setAttribute('href','om/'+im.dataset.f+'.webp'); } }
+const _omA=omApply; omApply=function(){ _omA(); const a=Math.min(1,(+omsR.value)/100).toFixed(2); for(const im of omR) im.setAttribute('opacity',a); };
+const _dmO=drawMarkers; drawMarkers=function(){ _dmO(); omRVis(); };
+const _gnO=gmNote; gmNote=function(){ _gnO(); const n=document.getElementById('gmNote'); if(n&&GM.type==='old') n.textContent='Old USGS topo maps: 1936 and 1972 around Eau Claire and Chippewa Falls, 15-minute maps from 1927 to 1952 within about an hour, and 1953 to 1958 regional maps out to about 2 hours. Slide right to fade from today to the old map.'; };
+LBY._oldmap.n='Old maps: USGS topos from 1927 to 1972'; LBY._oldmap.d='Old USGS topo maps under the pins. Around Eau Claire and Chippewa Falls the slider fades from today\'s bare ground to the 1972 and 1936 maps; within about an hour there are 15-minute maps from 1927 to 1952, and out to about 2 hours the 1953-58 regional maps.';
+omApply(); omRVis(); gmSheetSync();
+
 
 // ---------- home-screen app: works offline and updates itself ----------
 (function(){ if(window.claude||!('serviceWorker' in navigator)||(location.protocol!=='https:'&&!/^(localhost|127\.0\.0\.1)$/.test(location.hostname))) return;
