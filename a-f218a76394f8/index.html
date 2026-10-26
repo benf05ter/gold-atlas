@@ -513,6 +513,21 @@ body.shell .shsheet{transition:height .42s cubic-bezier(.3,1.28,.5,1)}
 @media (prefers-reduced-motion:reduce){body.shell .shsheet,.gmsheet,.cld{transition:none!important}#detail .detail.ogin,.oghero .ogheroimg{animation:none}}
 </style>
 <style>
+/* Historical markers tab under the search bar */
+.shmodes .hmtab{display:inline-flex;align-items:center;gap:6px;border-color:var(--L-landmark)}
+.shmodes .hmtab[aria-pressed="true"]{background:var(--L-landmark);border-color:var(--L-landmark);color:#fff}
+.shmodes .hmtab[aria-pressed="true"] .ic circle{stroke:#fff}
+.cldh b .ic{vertical-align:-2px}
+.hmb{gap:6px}
+.hmb .chip{text-decoration:none;opacity:1}
+.hmb .chip span{color:var(--muted);font-weight:400;margin-left:2px}
+.hmb .chip[aria-pressed="true"]{background:var(--L-landmark);border-color:var(--L-landmark);color:#fff}
+.hmb .chip[aria-pressed="true"] span{color:#fff}
+.hmb .hint{flex-basis:100%}
+.hmref{border:0;background:none;padding:0;color:var(--L-beach);font:inherit;text-decoration:underline;cursor:pointer}
+.hmmore{display:block;margin:12px auto 18px}
+</style>
+<style>
 /* home-screen app */
 .appupd{position:fixed;left:max(12px,env(safe-area-inset-left,0px));right:max(12px,env(safe-area-inset-right,0px));bottom:max(12px,env(safe-area-inset-bottom,0px));z-index:60;max-width:520px;margin:0 auto;display:flex;gap:8px;align-items:center;background:var(--panel);color:var(--ink);border:1px solid var(--accent);border-radius:8px;padding:9px 12px;box-shadow:0 6px 24px color-mix(in srgb,var(--ink) 25%,transparent);font-size:14px}
 .appupd span{flex:1}
@@ -2754,6 +2769,40 @@ new MutationObserver(()=>{ const d=document.querySelector('#detail .detail'); if
   try{ const [x]=toS(p.lo,p.la), r=svgRect(), dr=d.getBoundingClientRect(); d.style.transformOrigin=`${Math.max(0,Math.min(dr.width,r.left+x-dr.left))}px 0`; }catch(_){}
   d.classList.add('ogin'); }).observe(document.getElementById('detail'),{childList:true});
 
+// ---------- Historical markers tab: a chip under the search bar that shows only history markers, with a nearest-first list ----------
+SHM.markers={n:'Historical markers', d:'Historical markers, monuments, history museums, old churches and historic sites, nearest first', L:['landmark','history','_tracks']};
+const HM={f:'all', n:120, prev:'detecting', ref:null};
+const HMF=[['all','All'],['mk','Markers and sites'],['mon','Monuments'],['mus','Museums'],['ch','Churches'],['st','Stories']];
+const HMV={'Historic site or marker':'mk','Monument or memorial':'mon','Local history museum or historical society':'mus','Historic church or mission':'ch'};
+const hmKind=p=>p.L==='history'?'st':(HMV[p.v]||'mk');
+{ const m=document.getElementById('shModes');
+  m.insertAdjacentHTML('afterbegin',`<button type="button" class="hmtab" id="hmTab" data-m="markers" aria-pressed="false">${ico('landmark',16)}Historical markers</button>`);
+  // tapping the tab again goes back to the mode you had before
+  document.getElementById('hmTab').addEventListener('click',e=>{ if(SH.mode==='markers'){ e.stopPropagation(); cld.hidden=true; cldC=null; shSetMode(HM.prev&&HM.prev!=='markers'?HM.prev:'detecting'); } },true); }
+const _hmSet=shSetMode; shSetMode=function(m,keep){ const was=SH.mode; if(m==='markers'&&was!=='markers') HM.prev=was;
+  _hmSet(m,keep); if(m==='markers'&&!keep){ HM.ref=null; HM.n=120; hmOpen(); } else if(was==='markers'&&m!=='markers'&&cld.dataset.hm) { cld.hidden=true; cldC=null; } };
+function hmCenter(){ const r=svgRect(); if(!r.width) return [ORG.lo,ORG.la]; return [(vb.x+vb.w/2)/K,-(vb.y+vb.h/2)]; }
+function hmOpen(){ closePop(); const ref=HM.ref||(HM.ref=ORG.n==='Eau Claire'?hmCenter():[ORG.lo,ORG.la]); const [lo0,la0]=ref, cx=Math.cos(la0*Math.PI/180);
+  const all=PTS.filter(p=>(p.L==='landmark'||p.L==='history')&&isFinite(p.lo)&&isFinite(p.la));
+  const cnt={all:all.length}; for(const p of all){ const k=hmKind(p); cnt[k]=(cnt[k]||0)+1; }
+  const L=all.filter(p=>HM.f==='all'||hmKind(p)===HM.f).map(p=>[Math.hypot((p.lo-lo0)*69.17*cx,(p.la-la0)*69.17),p]).sort((a,b)=>a[0]-b[0]);
+  const where=ORG.n==='Eau Claire'?'the middle of the map':ORG.n;
+  cldC={m:L.slice(0,HM.n).map(x=>x[1])}; cld.dataset.hm='1';
+  cld.innerHTML=`<div class="cldh"><b>${ico('landmark',18)} Historical markers</b><button class="px" data-x aria-label="Close">×</button></div>
+   <div class="cldb hmb">${HMF.filter(([k])=>cnt[k]).map(([k,n])=>`<button class="chip hmf" data-hmf="${k}" aria-pressed="${HM.f===k}">${n} <span>${cnt[k]}</span></button>`).join('')}
+   <span class="hint">Nearest ${esc(where)} first. <button class="hmref" data-hmref>Use this map view</button></span></div>
+   <div class="cldl">${L.slice(0,HM.n).map(([d,p])=>`<button class="item${p.id===selId?' sel':''}" data-id="${esc(p.id)}"><span>${ico(p.L,14)}</span><span><span class="t">${esc(p.n)}</span><br><span class="m">${esc(p.L==='history'?(p.pl&&p.pl!==p.n?p.pl:'Historic site with a story'):(p.v||''))}${p.L!=='history'&&p.pl?' · '+esc(p.pl):''}</span></span><span class="d">${d<10?d.toFixed(1):Math.round(d)} mi</span></button>`).join('')}
+   ${L.length>HM.n?`<button class="btn hmmore" data-hmmore>Show ${Math.min(120,L.length-HM.n)} more of ${L.length}</button>`:''}${L.length?'':'<p class="empty">No markers of this kind yet.</p>'}</div>`;
+  cld.hidden=false; cld.style.transform=''; cldAway(false); }
+cld.addEventListener('click',e=>{ if(!cld.dataset.hm) return; const f=e.target.closest('[data-hmf]'), m=e.target.closest('[data-hmmore]'), r=e.target.closest('[data-hmref]');
+  if(!f&&!m&&!r) return; e.stopPropagation(); const sc=cld.querySelector('.cldl').scrollTop;
+  if(f){ HM.f=f.dataset.hmf; HM.n=120; } if(m) HM.n+=120; if(r){ HM.ref=hmCenter(); HM.n=120; }
+  hmOpen(); if(m) cld.querySelector('.cldl').scrollTop=sc; },true);
+// the bubble list reuses the same drawer: drop the markers flag when it opens
+const _hmCO=cldOpen; cldOpen=function(c){ delete cld.dataset.hm; _hmCO(c); };
+new MutationObserver(()=>{ if(cld.hidden) delete cld.dataset.hm; }).observe(cld,{attributes:true,attributeFilter:['hidden']});
+// the other ~2,300 landmarks arrive a moment later from pk/lm.json: refresh the list once they do
+{ let t=0, n0=0; const iv=setInterval(()=>{ const n=PTS.length; if(n!==n0){ n0=n; if(SH.mode==='markers'&&cld.dataset.hm&&!cld.hidden&&!cld.classList.contains('away')&&cld.querySelector('.cldl').scrollTop<10) hmOpen(); } if(++t>40) clearInterval(iv); },500); }
 
 // ---------- home-screen app: works offline and updates itself ----------
 (function(){ if(window.claude||!('serviceWorker' in navigator)||(location.protocol!=='https:'&&!/^(localhost|127\.0\.0\.1)$/.test(location.hostname))) return;
