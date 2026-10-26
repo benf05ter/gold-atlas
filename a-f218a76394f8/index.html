@@ -2916,6 +2916,201 @@ document.addEventListener('change',e=>{ const i=e.target.closest('input.trkIn');
     document.addEventListener('visibilitychange',()=>{ if(document.visibilityState==='visible') reg.update().catch(()=>{}); });
   }).catch(()=>{});
 })();
+
+// ---------- Coin ID: what did I just dig? ----------
+// Types US (and Canadian) coins dug in the Upper Midwest by how often they turn up, with rough dug values,
+// key dates and the known error varieties for the year and mint entered. Opened from More, the menu, or a find in the Finds log.
+// Row: [id, tier 1 common / 2 uncommon / 3 rare, denomination, name, first year, last year, metal, silver [[y0,y1,oz]] or gold oz, dug worn, dug nice, tip, keys, errors]
+// keys: [year spec, mint, what, value (worn but clean)]; errors: [year spec, mint, name, how to spot it, value]. Year spec '' = any year, '1942-1945' = range. Mint '' = any, 'P' = Philadelphia (usually no mark).
+const COINS=[
+['wheat',1,'1c','Lincoln wheat cent',1909,1958,'Bronze (1943 steel, 1944-46 shell-case brass)',0,'2¢–10¢','10¢–50¢; 1909–1933 dates 25¢–$2','The most dug coin at any pre-1960 site. Look at the date and the mint mark under it before anything else.',
+ [['1909','S','1909-S VDB (initials V.D.B. at the bottom of the back)','$600–1,000'],['1909','S','1909-S without VDB','$80–120'],['1909','P','1909 VDB','$10–20'],['1910','S','1910-S','$15–25'],['1911','S','1911-S','$25–40'],['1912','S','1912-S','$20–35'],['1914','D','1914-D','$150–250'],['1914','S','1914-S','$15–30'],['1915','S','1915-S','$15–25'],['1922','none','1922 with no D (every 1922 cent was struck at Denver)','$400–700'],['1924','D','1924-D','$25–40'],['1931','S','1931-S','$80–120'],['1943','','1943 steel cent (normal, gray, sticks to a magnet)','10¢–50¢; rusts badly in the ground']],
+ [['1909','P','VDB doubled die obverse','Doubling on LIBERTY and the date of a 1909 VDB','$50–200'],['1917','P','Doubled die obverse','Doubled IN GOD WE TRUST and date','$40–150'],['1922','D','Weak D or no D (filled die)','Faint or missing mint mark; a strong reverse is the most valuable kind','$40–700'],['1936','P','Doubled die obverse','Doubled IN GOD WE TRUST','$20–100'],['1941','P','Doubled die obverse','Doubled IN GOD WE TRUST and LIBERTY','$20–60'],['1943','','Copper (bronze) 1943','Brown and not magnetic. Real ones are worth six figures; most are copper-plated steel or altered 1948s. Weigh it: 3.1 g','$100,000+'],['1944','','Steel 1944','Silver-gray and sticks to a magnet','$75,000+'],['1943','D','D over D (repunched mint mark)','A second D peeks out beside the D','$15–60'],['1944','D','D over S','Traces of an S under the D','$100–300'],['1946','S','S over D','Traces of a D under the S','$20–60'],['1951','D','D over S','Traces of an S under the D','$10–40'],['1955','P','Doubled die obverse','Strong, rounded doubling of the date and LIBERTY you can see without a loupe','$1,000–2,000 dug'],['1955','P','"Poor man\'s double die"','Flat, mushy doubling of the last 5 from a worn die. Common','$2–10'],['1956','D','D over D','A second D beside the D','$5–25'],['1958','P','Doubled die obverse','Three known','$1 million+'],['1940-1958','','BIE die break','A raised line between the B and E of LIBERTY, mostly 1950s','$2–10']]],
+['lincoln',1,'1c','Lincoln cent, Memorial and Shield backs',1959,2099,'Copper 1959–1982, copper-plated zinc 1982 on',0,'1¢','1¢–3¢ (copper ones)','Pocket change, but the 1960s–1990s dates hide some of the best-known errors.',
+ [],
+ [['1960','','Small date vs large date','Small date: the top of the 1 is level with the top of the 9 and the 9 sits low','10¢–$2'],['1960','D','Small date over large date (D/D)','Doubled small date with a repunched D','$50–200'],['1969','S','Doubled die obverse','Bold doubling of LIBERTY, IN GOD WE TRUST and date. Many fakes','$10,000+'],['1970','S','Small date and doubled die','Small date: the 7 is level with the 0. Doubled die shows doubled LIBERTY','$10–50 (small date)'],['1972','P','Doubled die obverse','Clear, rounded doubling of LIBERTY, IN GOD WE TRUST and date. Flat shelf-like doubling is worthless machine doubling','$100–400 dug'],['1982','','Copper vs zinc, large vs small date','Seven kinds. Zinc weighs 2.5 g, copper 3.1 g. A 1982-D small date on copper is the great rarity','1¢ to $10,000+'],['1983','P','Doubled die reverse','Doubled ONE CENT and E PLURIBUS UNUM','$100–300'],['1983','','Struck on a copper planchet','Weighs 3.1 g instead of 2.5 g. Have it checked','$1,000+'],['1984','P','Doubled ear','Lincoln has a doubled earlobe','$100–200'],['1992','','Close AM','On the back, the A and M of AMERICA nearly touch (they should be apart in 1992)','$500–5,000+'],['1995','P','Doubled die obverse','Doubled LIBERTY and IN GOD WE TRUST','$15–50'],['1998-2000','','Wide AM','The A and M of AMERICA are spaced apart (they should touch these years)','$5–50; 1999 much more'],['2009','','Bicentennial backs','Four backs (log cabin, Indiana, Illinois, Capitol); look for doubled-die reverse varieties','face–$5'],['2017','P','P mint mark','The first year cents carry a P. Normal, not an error','1¢'],['1982-2099','','Bubbles and zinc rot','Blistered or peeling plating is damage, not an error','1¢']]],
+['jeff',1,'5c','Jefferson nickel',1938,2099,'Copper-nickel',0,'5¢–10¢','10¢–25¢ (1938–1950 dates)','The 1942–1945 wartime silver ones have a large mint mark above the building; see Wartime silver nickel.',
+ [['1939','D','1939-D','$8–15'],['1939','S','1939-S','$2–5'],['1950','D','1950-D (lowest mintage)','$5–10'],['1942','P','1942 with no mint mark (regular metal, early 1942)','10¢–50¢']],
+ [['1939','','Doubled MONTICELLO','Doubled letters in MONTICELLO and FIVE CENTS on the back','$25–100'],['1942','D','D over horizontal D','A sideways D under the D, right of the building','$40–150'],['1949','D','D over S','Traces of an S under the D','$25–100'],['1954','S','S over D','Traces of a D under the S','$5–20'],['1955','D','D over S','Traces of an S under the D','$5–20'],['2005','D','"Speared bison"','A die gouge runs through the bison on the back','$50–200'],['','','Full steps','Five or six unbroken steps on Monticello add value only on nice coins','—']]],
+['war5',1,'5c','Wartime silver nickel',1942,1945,'35% silver (large P, D or S above the dome)',[[1942,1945,0.05626]],'melt','melt + 50¢','Big mint mark over Monticello means silver. Dull gray and often crusty when dug.',
+ [],
+ [['1943','P','3 over 2 overdate','A 2 shows under the 3','$50–300'],['1945','P','Doubled die reverse','Doubled lettering on the back','$15–50']]],
+['buff',1,'5c','Buffalo (Indian head) nickel',1913,1938,'Copper-nickel',0,'25¢–$2 (dateless 10¢–50¢)','$2–8','The date wears off first. A dateless one is still worth keeping.',
+ [['1913','D','1913-D Type 2 (flat ground under the bison)','$150–250'],['1913','S','1913-S Type 2','$400–600'],['1914','D','1914-D','$100–150'],['1915','S','1915-S','$25–45'],['1921','S','1921-S','$70–110'],['1924','S','1924-S','$20–35'],['1926','S','1926-S','$15–30'],['1931','S','1931-S','$15–25']],
+ [['1913','','Type 1 vs Type 2','Type 1: bison stands on a raised mound. Type 2: flat line under the bison','—'],['1914','','4 over 3 overdate','Traces of a 3 under the 4','$150+'],['1916','P','Doubled die obverse','Doubled date','$2,000+'],['1918','D','8 over 7 overdate','A 7 shows inside the 8','$1,000+ even worn'],['1935','P','Doubled die reverse','Doubled FIVE CENTS','$50+'],['1936','D','3½ legs','Front leg partly polished off the die','$100+'],['1937','D','3-legged bison','Front right leg missing, with a "stream" under the belly','$400–800 worn'],['1938','D','D over S','Traces of an S under the D','$5–20'],['','','Dateless? A date restorer helps','An acid restorer (Nic-A-Date) brings the date back but etches the coin; use it only on dateless ones','—']]],
+['merc',1,'10c','Mercury (winged Liberty) dime',1916,1945,'90% silver',[[1916,1945,0.07234]],'melt','melt + $1–3','Silver comes out of the ground bright. Rinse, don\'t scrub.',
+ [['1916','D','1916-D (beware an added D)','$900–1,300'],['1921','P','1921','$60–90'],['1921','D','1921-D','$80–120'],['1926','S','1926-S','$10–20'],['1931','D','1931-D','$10–15']],
+ [['1942','P','2 over 1 overdate','A ghost 1 inside the 2','$400–800 worn'],['1942','D','2 over 1 overdate (D)','A ghost 1 inside the 2','$400–800 worn'],['1945','S','Micro S','A tiny S mint mark','$3–8'],['','','Full split bands','Two clear bands across the middle of the fasces; matters on nice coins only','—']]],
+['rosie',1,'10c','Roosevelt dime, silver',1946,1964,'90% silver',[[1946,1964,0.07234]],'melt','melt + 50¢','Silver until 1964. Look at the edge: no copper stripe.',
+ [['1949','S','1949-S','$5–10'],['1955','','1955 (all mints; low mintage)','melt + $1']],
+ [['1950','S','S over D','Traces of a D under the S','$20–60'],['1964','D','Doubled die reverse','Doubled ONE DIME and leaves','$50–200']]],
+['dimec',1,'10c','Roosevelt dime, clad',1965,2099,'Copper-nickel clad',0,'face','face','Copper stripe on the edge.',
+ [],
+ [['1965','','Struck on a silver planchet','Weighs 2.50 g instead of 2.27 g, rings, and shows no copper stripe on the edge','$5,000+'],['1982','none','No mint mark (1982 no-P)','A 1982 dime with no P (they should have one); strong strikes bring most','$50–150'],['1996','W','W mint mark','Made only for mint sets','$10–20']]],
+['wash',1,'25c','Washington quarter, silver',1932,1964,'90% silver',[[1932,1964,0.18084]],'melt','melt + $1','The best silver coin you\'ll dig in quantity. No copper stripe on the edge.',
+ [['1932','D','1932-D','$120–180'],['1932','S','1932-S','$120–160']],
+ [['1934','P','Doubled die obverse','Doubled IN GOD WE TRUST','$50–100'],['1937','P','Doubled die obverse','Doubled IN GOD WE TRUST and LIBERTY','$100+'],['1942','D','Doubled die obverse','Doubled LIBERTY and date','$100+'],['1943','P','Doubled die obverse','Doubled IN GOD WE TRUST and LIBERTY','$100+'],['1943','S','Doubled die obverse','Doubled IN GOD WE TRUST','$100+'],['1950','D','D over S','Traces of an S under the D','$50+'],['1950','S','S over D','Traces of a D under the S','$50+']]],
+['quartc',1,'25c','Washington quarter, clad (incl. state and park quarters)',1965,2099,'Copper-nickel clad',0,'face','face','Two of the best-known state-quarter errors are Wisconsin and Minnesota, and both circulated here.',
+ [['2019-2020','W','W mint mark (West Point, released into change)','$5–15']],
+ [['1965','','Struck on a silver planchet','Weighs 6.25 g instead of 5.67 g; no copper stripe on the edge','$5,000+'],['1976','','Bicentennial drummer boy','Clad ones are face value; only the S proofs and sets are 40% silver','face'],['1999','P','Delaware "spitting horse"','A die crack runs from the horse\'s mouth','$2–10'],['2004','D','Wisconsin extra leaf, high or low','An extra leaf on the left side of the corn, curving up (high) or down (low)','$50–150 circulated'],['2005','P','Minnesota doubled die reverse','Extra or doubled trees on the back','$10–50'],['2005','P','Kansas "In God We Rust"','Grease filled the T of TRUST','$5–30']]],
+['indian',2,'1c','Indian head cent',1859,1909,'Copper-nickel 1859–1864, bronze 1864–1909',0,'50¢–$2 (copper-nickel $3–10)','$2–10','Old homesites, schools and fairgrounds. A dug Indian is often green or black; leave the crust alone.',
+ [['1864','P','1864 bronze with L on the ribbon (an L behind the neck)','$50–80'],['1866','P','1866','$40–60'],['1867','P','1867','$40–60'],['1868','P','1868','$40–60'],['1869','P','1869','$80–120'],['1870','P','1870','$45–70'],['1871','P','1871','$60–90'],['1872','P','1872','$80–120'],['1877','P','1877 (the key)','$700–1,000'],['1908','S','1908-S','$90–130'],['1909','S','1909-S','$400–550']],
+ [['1864','','Copper-nickel vs bronze','Copper-nickel is thick and pale; bronze is thin and brown','—'],['1869','','9 over 9 repunched date','A second 9 shows under the last digit','$100+'],['1873','','Doubled LIBERTY','Doubled LIBERTY on the headband','$150+'],['1888','','8 over 7 overdate','A 7 under the last 8','$1,000+'],['1894','','Doubled date','The whole date is doubled','$50+']]],
+['vnick',2,'5c','Liberty "V" nickel',1883,1912,'Copper-nickel',0,'50¢–$2','$2–10','A big V on the back. Often slick when dug.',
+ [['1885','P','1885','$400–600'],['1886','P','1886','$150–250'],['1912','S','1912-S','$70–100']],
+ [['1883','','No CENTS ("racketeer nickel")','No word CENTS on the back. Some were gold-plated and passed as $5 gold pieces','$5–15; plated $20–40']]],
+['barberd',2,'10c','Barber dime',1892,1916,'90% silver',[[1892,1916,0.07234]],'melt + $1','$4–10','Read the headband: LIBERTY fully showing doubles the value.',
+ [['1892','S','1892-S','$150–250'],['1895','O','1895-O (the key)','$400–600'],['1901','S','1901-S','$80–120'],['1903','S','1903-S','$80–120']],
+ [['1893','','3 over 2 overdate','A 2 under the 3','$100+'],['1905','O','Micro O','A tiny O mint mark','$40+']]],
+['slq',2,'25c','Standing Liberty quarter',1916,1930,'90% silver',[[1916,1930,0.18084]],'melt (dateless)','$8–20 dated','The date sits high and wears off; 1925–1930 dates are recessed and last better.',
+ [['1916','P','1916 (the key)','$5,000+'],['1921','P','1921','$100–180'],['1923','S','1923-S','$250–400'],['1927','S','1927-S','$25–45']],
+ [['1917','','Type 1 vs Type 2','Type 1: bare breast, no stars under the eagle. Type 2: chain mail and three stars under the eagle','—'],['1918','S','8 over 7 overdate','A 7 under the 8','$1,000+ worn']]],
+['walker',2,'50c','Walking Liberty half dollar',1916,1947,'90% silver',[[1916,1947,0.36169]],'melt','melt + $3','The big silver find of a season. Mint mark is on the back near the rim, at about 8 o\'clock.',
+ [['1916','S','1916-S','$120–180'],['1919','D','1919-D','$50–80'],['1921','P','1921','$250–350'],['1921','D','1921-D','$350–500'],['1921','S','1921-S','$90–140'],['1938','D','1938-D','$70–100']],
+ [['1916-1917','','Mint mark on the front','1916 and some 1917 coins have the mint mark under IN GOD WE TRUST; later ones on the back','—'],['1946','','Doubled die reverse','Doubled feathers and lettering on the eagle side','$50+']]],
+['franklin',2,'50c','Franklin half dollar',1948,1963,'90% silver',[[1948,1963,0.36169]],'melt','melt + $2','Liberty Bell on the back.',
+ [['1949','S','1949-S','melt + $10'],['1953','P','1953','melt + $5']],
+ [['1955','','"Bugs Bunny"','A die clash makes Franklin look buck-toothed','$15–30'],['','','Full bell lines','Complete lines across the bottom of the bell; nice coins only','—']]],
+['kennedy',2,'50c','Kennedy half dollar',1964,2099,'90% silver 1964, 40% silver 1965–1970, clad 1971 on',[[1964,1964,0.36169],[1965,1970,0.14792]],'face, or melt for 1964–1970','same','1964 is 90% silver. 1965–1970 are 40% silver with no copper stripe.',
+ [['1970','D','1970-D (made only for mint sets; 40% silver)','$10–20']],
+ [['1964','','Accented hair','Proof only: extra lines in the hair above the ear','proof only'],['1972','D','No FG','The designer\'s initials FG missing near the eagle\'s leg','$20–50'],['1974','D','Doubled die obverse','Doubled IN GOD WE TRUST and LIBERTY','$20–60']]],
+['dollar',2,'1d','Small dollar (Susan B. Anthony, Sacagawea, Presidential)',1979,2099,'Copper-nickel clad / manganese brass',0,'face','face','Turns up at beaches and fairgrounds.',
+ [['1981','','1981 SBA (made only for sets)','$3–10']],
+ [['1979','P','Wide rim (near date)','The date sits close to the rim','$10–30'],['2000','P','"Wounded eagle"','A die gouge across the eagle\'s chest','$50+'],['2007','','Missing edge lettering','Plain edge with no IN GOD WE TRUST; best known on Washington','$20–50']]],
+['ike',2,'1d','Eisenhower dollar',1971,1978,'Copper-nickel clad (40% silver only in collector sets)',0,'face–$2','$2–5','A big, heavy coin; only the S-mint collector ones are silver.',
+ [],
+ [['1972','','Type 2 reverse','Earth design differs; compare with a reference photo. Rare','$100+'],['1976','','Type 1 vs Type 2 lettering','Bold (Type 1) or thin (Type 2) letters on the Liberty Bell back','—']]],
+['cacent',1,'ca','Canadian cent',1858,2012,'Bronze / copper-plated',0,'1¢–5¢','5¢–25¢','Canadian change is common here, from border trade and travelers.',
+ [],
+ [['1936','','Dot under the date','A raised dot below the date. Very rare (also on dimes and quarters)','$$$'],['1947','','Maple leaf after the date','Struck in 1948 with 1947 dies; a tiny leaf after the date','$2–20'],['1955','','No shoulder fold','The Queen\'s gown shows no fold on the shoulder','$100+']]],
+['casil',2,'ca','Canadian silver (dime, quarter, half)',1858,1968,'80% silver to 1966, 50% to mid-1968, then nickel',0,'melt','melt + $1','A 1968 Canadian dime that sticks to a magnet is nickel; one that doesn\'t is silver. Silver weight depends on the size (dime about 0.06 oz).',
+ [['1948','','1948 (no ET IND: IMP. on the front, low mintage)','$10–40']],
+ [['1947','','Maple leaf after the date','A tiny leaf after the date (struck in 1948)','$5–50']]],
+['shield',3,'5c','Shield nickel',1866,1883,'Copper-nickel',0,'$3–10','$15–30','Civil War-era design. Rare enough to call a buddy over.',
+ [['1866','','1866 with rays between the stars on the back','$30–50'],['1867','','1867 with rays','$40–60'],['1877','','1877 (proof only)','$1,500+'],['1878','','1878 (proof only)','$1,000+'],['1879-1881','','Low mintage','$300–700']],
+ [['1873','','Open 3 vs closed 3','The knob of the 3 open or touching','—'],['1883','','3 over 2 overdate','A 2 under the 3','$200+']]],
+['twoc',3,'2c','Two-cent piece',1864,1873,'Bronze',0,'$5–15','$15–35','The first coin with IN GOD WE TRUST. Big and brown.',
+ [['1872','','1872','$300–450']],
+ [['1864','','Small motto','Small letters in IN GOD WE TRUST; the D of GOD is wide','$100+']]],
+['threec',3,'3c','Three-cent piece (nickel or silver)',1851,1889,'Silver 1851–1873, copper-nickel 1865–1889',[[1851,1873,0.0219]],'$5–15 (silver $10–30)','$15–40','Tiny. Easy to toss as a button.',
+ [['1877-1878','','Nickel 1877 and 1878 (proof only)','$1,000+'],['1884-1887','','Nickel, low mintage','$100+'],['1855','','Silver 1855','$30–50']],
+ []],
+['seated',3,'10c','Seated Liberty half dime or dime',1837,1891,'90% silver',[[1837,1873,0.0362],[1838,1891,0.0723]],'$5–20','$15–40','Seated Liberty coins are the prize at 1840s–1880s settlements.',
+ [['1844','','1844 dime "Orphan Annie"','$200+'],['1871-1874','CC','Carson City dimes','$1,000+']],
+ [['1853-1855','','Arrows at the date','Arrows beside the date mark a weight change','—'],['1873-1874','','Arrows at the date','Arrows beside the date mark a weight change','—']]],
+['seatedq',3,'25c','Seated Liberty quarter or half',1838,1891,'90% silver',[[1838,1891,0.1934]],'$15–40 (half $25–60)','$30–80','A seated quarter is a good day at any old town site.',
+ [['1870-1873','CC','Carson City','$1,000+']],
+ [['1853','','Arrows and rays','Arrows at the date and rays around the eagle','—'],['1866','','No motto vs motto','IN GOD WE TRUST added on the back from 1866','—']]],
+['barberq',3,'25c','Barber quarter',1892,1916,'90% silver',[[1892,1916,0.18084]],'melt + $2','$10–20','Rare dug in the Midwest compared with dimes.',
+ [['1896','S','1896-S','$800–1,200'],['1901','S','1901-S','$10,000+'],['1913','S','1913-S','$1,500+']],
+ []],
+['barberh',3,'50c','Barber half dollar',1892,1915,'90% silver',[[1892,1915,0.36169]],'melt + $3','$15–30','',
+ [['1892','O','1892-O','$400+'],['1897','O','1897-O','$400+'],['1897','S','1897-S','$150+'],['1913-1915','P','1913, 1914, 1915','$50–150']],
+ [['1892','O','Micro O','A tiny O mint mark','$1,000+']]],
+['large',3,'1c','Large cent or half cent',1793,1857,'Copper',0,'$3–20','$20–60','Size of a half dollar. Most Midwest finds date 1816–1857.',
+ [['1793','','1793','$3,000+'],['1799','','1799','$1,500+'],['1804','','1804','$1,000+'],['1823','','1823','$300+']],
+ []],
+['flying',3,'1c','Flying Eagle cent',1856,1858,'Copper-nickel',0,'$10–25','$30–50','Light-colored, thick, with an eagle in flight.',
+ [['1856','','1856 (pattern, the key)','$5,000+']],
+ [['1858','','8 over 7 overdate','A 7 under the last 8','$100+'],['1858','','Large vs small letters','In AMERICA, the A and M touch on the large-letter kind','—']]],
+['morgan',3,'1d','Morgan silver dollar',1878,1921,'90% silver',[[1878,1921,0.77344]],'melt','melt + $5','A rare dug find; most came out of cellars, outhouses and old walls.',
+ [['1889','CC','1889-CC','$1,000+'],['1893','S','1893-S','$3,000+'],['1895','O','1895-O','$500+']],
+ [['1878','','7 or 8 tail feathers, and 7 over 8','Count the eagle\'s tail feathers','$20+'],['1888','O','"Hot Lips" doubled die','Doubled lips','$100+'],['1900','O','O over CC','Traces of CC under the O','$40+']]],
+['peace',3,'1d','Peace silver dollar',1921,1935,'90% silver',[[1921,1935,0.77344]],'melt','melt + $5','',
+ [['1921','P','1921 high relief','$100+'],['1928','P','1928','$300+'],['1934','S','1934-S','$80+']],
+ [['1922','','Die breaks (e.g. the "earring")','Raised blobs from cracked dies; dealers call these VAM varieties','$50+']]],
+['gold',3,'gold','Gold coin ($1, $2.50, $5, $10, $20)',1795,1933,'90% gold',0,'melt and up','well above melt','Gold comes out of the ground looking new. Weigh it and check the size before you celebrate; brass tokens fool everyone.',
+ [['1911','D','$2.50 Indian 1911-D','$3,000+'],['1870-1893','CC','Carson City gold','$1,000s']],
+ [['1908-1929','','Incuse design ($2.50 and $5 Indian)','The design is sunk into the coin instead of raised. Normal, not an error','—']]]
+];
+const COIN_AU={1:0.04837,2.5:0.12094,5:0.24187,10:0.48375,20:0.9675};
+const COIN_DEN=[['1c','1¢ cent'],['2c','2¢'],['3c','3¢'],['5c','5¢ nickel / half dime'],['10c','10¢ dime'],['25c','25¢ quarter'],['50c','50¢ half'],['1d','$1 dollar'],['gold','Gold'],['ca','Canadian']];
+const COIN_GEN=[['Off-center strike','Part of the design is missing and that side is blank. More off-center with the date showing is worth more','$3–50+'],['Clipped planchet','A curved "bite" out of the edge; the rim fades opposite the clip','$2–20'],['Broadstrike','Struck outside the collar, so the coin is wider and has no rim','$5–30'],['Double strike','Two images on one side','$50+'],['Die crack and cud','A raised line (crack) or a raised blob on the rim (cud)','$1–30'],['Lamination','A layer of metal peeling away','$2–20'],['Struck through','Grease or debris left a missing or mushy area','$1–20'],['Wrong planchet','A coin struck on the blank for another coin (a cent on a dime blank). Weigh it','$100+']];
+const COIN_NOT=['Machine doubling: flat, shelf-like doubling from a loose die. Worthless. A real doubled die has rounded, separated second images.','Plating bubbles and zinc rot on cents from 1982 on.','Ground damage: corrosion, acid, fire, shovel cuts and plow marks.','Mint marks added or removed, and "copper" 1943 cents that are plated steel.'];
+let COINQ={den:'',y:'',m:''};
+const coinMet=(()=>{ try{ return JSON.parse(localStorage.getItem('atlas-metal')||'null')||{ag:45,au:4000}; }catch(_){ return {ag:45,au:4000}; } })();
+const coinYr=(s,y)=>{ if(!s) return true; if(!y) return false; const [a,b]=s.split('-').map(Number); return b?y>=a&&y<=b:y===a; };
+const coinMint=(s,m)=>!s||!m||s===m||(m==='none'&&s==='P')||(m==='P'&&s==='none');
+const coinTier=t=>['','Common','Uncommon','Rare'][t];
+function coinAg(c,y){ if(!c[7]||typeof c[7]==='number') return 0; const r=c[7].find(r=>!y||(y>=r[0]&&y<=r[1])); return r?r[2]:0; }
+function coinMelt(c,y){ const oz=coinAg(c,y); return oz?`$${(oz*coinMet.ag).toFixed(2)} in silver at $${coinMet.ag}/oz`:''; }
+function coinFor(den,y){ return COINS.filter(c=>(!den||c[2]===den)&&(!y||(y>=c[4]&&y<=c[5]))); }
+function coinRowHTML(c){ return `<button type="button" class="cnrow" data-coin="${c[0]}"><b>${esc(c[3])}</b><span>${c[4]}–${c[5]>2090?'today':c[5]} · ${esc(c[8])}</span></button>`; }
+function coinCard(c){ const y=+COINQ.y||0, m=COINQ.m, yr=y?String(y):'';
+  const keys=c[11].filter(k=>yr&&coinYr(k[0],y)&&coinMint(k[1],m));
+  const errsY=c[12].filter(e=>e[0]&&yr&&coinYr(e[0],y)&&coinMint(e[1],m)), errsAll=c[12].filter(e=>!e[0]||(e[0].includes('-')&&+e[0].split('-')[1]-+e[0].split('-')[0]>8));
+  const mm=k=>k&&k!=='none'&&k!=='P'?'-'+k:k==='none'?' (no mint mark)':'';
+  const melt=c[2]==='gold'?`<p class="hint">Gold content: $1 ${COIN_AU[1]} oz, $2.50 ${COIN_AU[2.5]} oz, $5 ${COIN_AU[5]} oz, $10 ${COIN_AU[10]} oz, $20 ${COIN_AU[20]} oz. At $${coinMet.au}/oz a $5 is worth about $${Math.round(COIN_AU[5]*coinMet.au)} in gold alone.</p>`:coinAg(c,y)?`<p class="hint">Silver: ${coinAg(c,y)} oz, about ${coinMelt(c,y)}.</p>`:'';
+  const errL=a=>`<ul class="cnerr">${a.map(e=>`<li><b>${esc(e[0]?e[0].replace('-','–')+mm(e[1])+' ':'')}${esc(e[2])}</b> · <span class="cnv">${esc(e[4])}</span><br><span class="hint">${esc(e[3])}</span></li>`).join('')}</ul>`;
+  let h=`<div class="cncard"><div class="row" style="justify-content:space-between;align-items:baseline"><h3 style="margin:0">${esc(c[3])}</h3><span class="cntier t${c[1]}">${coinTier(c[1])}</span></div>
+  <p class="hint">${c[4]}–${c[5]>2090?'today':c[5]} · ${esc(c[6])}</p>${c[10]?`<p>${esc(c[10])}</p>`:''}
+  <table><tr><th>Dug, worn or crusty</th><th>Dug, nice and readable</th></tr><tr><td>${esc(c[8])}</td><td>${esc(c[9])}</td></tr></table>${melt}`;
+  if(y){ const out=y<c[4]||y>c[5];
+    h+=`<h4>Your coin: ${y}${mm(m)}</h4>`;
+    if(out) h+=`<p>This design wasn't made in ${y}. Check the date again, or pick another design below.</p>`;
+    else{ h+=keys.length?`<p><b>Key or better date.</b></p><ul class="cnerr">${keys.map(k=>`<li><b>${esc(k[2])}</b> · <span class="cnv">${esc(k[3])}</span></li>`).join('')}</ul>`:`<p>${c[11].length?'A common date for this coin. ':''}Value is about the range above.</p>`;
+      h+=errsY.length?`<p><b>Errors and varieties known for ${y}${m&&m!=='none'?'-'+m:''}:</b>${m?'':' (any mint; enter the mint mark to narrow it)'}</p>${errL(errsY)}`:`<p class="hint">No widely known errors for this date${m?' and mint':''}. Still check for the general errors below.</p>`; } }
+  else if(c[11].length) h+=`<h4>Key dates</h4><ul class="cnerr">${c[11].map(k=>`<li><b>${esc(k[2])}</b> · <span class="cnv">${esc(k[3])}</span></li>`).join('')}</ul>`;
+  const rest=y?errsAll.filter(e=>!errsY.includes(e)):c[12]; if(rest.length) h+=`<h4>${y?'Errors that can turn up on any year':'Known errors and varieties'}</h4>${errL(rest)}`;
+  return h+`<details class="cngen"><summary>General errors on any coin, and what is NOT an error</summary><ul class="cnerr">${COIN_GEN.map(g=>`<li><b>${esc(g[0])}</b> · <span class="cnv">${esc(g[2])}</span><br><span class="hint">${esc(g[1])}</span></li>`).join('')}</ul><p><b>Not errors</b></p><ul>${COIN_NOT.map(t=>`<li>${esc(t)}</li>`).join('')}</ul></details></div>`; }
+function coinShow(id){ COINQ.id=id||''; const out=document.getElementById('cnOut'); const y=+COINQ.y||0;
+  let c=id?COINS.find(c=>c[0]===id):null; const cand=coinFor(COINQ.den,y);
+  if(!c&&cand.length===1) c=cand[0];
+  if(c){ COINQ.id=c[0]; out.innerHTML=(cand.length>1?`<p class="hint">Not this one? ${cand.filter(x=>x!==c).map(x=>`<button type="button" class="chip small" data-coin="${x[0]}">${esc(x[3])}</button>`).join(' ')}</p>`:'')+coinCard(c); }
+  else if(cand.length) out.innerHTML=`<p><b>Which design is it?</b> ${y?`More than one coin was made in ${y}.`:''}</p><div class="shlist">${cand.map(coinRowHTML).join('')}</div>`;
+  else out.innerHTML=COINQ.den||y?`<p>No coin matches ${y||''} ${esc((COIN_DEN.find(d=>d[0]===COINQ.den)||['',''])[1])}. Check the date; a worn 3 reads like an 8 and a 1 like a 7.</p>`:'';
+  if(id||COINQ.den||y) out.scrollIntoView({behavior:'smooth',block:'start'}); }
+document.getElementById('rv-more').insertAdjacentHTML('afterend',`<section class="readview" id="rv-coins" hidden><article class="read pad"><h2>Coin ID</h2>
+<p class="lede">What did you just dig? Pick the denomination and type the date and mint mark. You'll see what it is, roughly what it's worth dug, and the errors known for that exact coin.</p>
+<form id="cnForm" class="cnform"><label>Coin <select name="den"><option value="">Any</option>${COIN_DEN.map(d=>`<option value="${d[0]}">${d[1]}</option>`).join('')}</select></label>
+<label>Year <input name="y" inputmode="numeric" pattern="[0-9]*" maxlength="4" placeholder="e.g. 1944"></label>
+<label>Mint mark <select name="m"><option value="">Not sure</option><option value="none">None</option><option>P</option><option>D</option><option>S</option><option>O</option><option>CC</option><option>W</option></select></label>
+<button class="btn" type="submit">Identify</button></form>
+<p class="hint">Mint marks: cents and nickels under the date or above the building (1942–45 nickels), dimes on the back by the torch or left of the torch base, quarters on the back under the eagle (1932–64) or on the front right of the neck, halves on the back. No mark usually means Philadelphia.</p>
+<div id="cnOut"></div>
+<p class="hint cnnote">Values are rough 2026 estimates for coins out of the ground, not dealer prices for collector coins. Key-date values assume a worn but clean coin; a crusty dug one often brings a third to half that. Have any key date or error checked by a coin dealer or a grading service before you sell or clean it. Silver $<input id="cnAg" class="cnp" inputmode="decimal" value="${coinMet.ag}">/oz · Gold $<input id="cnAu" class="cnp" inputmode="decimal" value="${coinMet.au}">/oz (set today's prices)</p>
+<h3>Dug coins by how often they turn up</h3>
+${[1,2,3].map(t=>`<h4>${coinTier(t)} <span class="hint">${['','you\'ll dig plenty','a few a season','a few in a lifetime'][t]}</span></h4><div class="shlist">${COINS.filter(c=>c[1]===t).map(coinRowHTML).join('')}</div>`).join('')}
+<h3>Dug coin care</h3><ul><li>Don't rub a dug coin. Dirt is grit and scratches it; carry finds in a soft pouch or pill bottle.</li><li>Rinse in water at home. Silver can take a soak in soapy water; copper and nickel are best left as found.</li><li>Never clean a key date or error before someone sees it. Cleaning cuts the value.</li><li>A $5 digital scale (0.01 g) settles silver vs clad, copper vs zinc, and fake gold.</li></ul>
+</article></section>`);
+document.head.insertAdjacentHTML('beforeend',`<style>
+.cnform{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:flex-end;margin:6px 0 8px}.cnform label{display:grid;gap:3px;font-size:13px;color:var(--muted)}
+.cnform select,.cnform input{font:inherit;font-size:16px;padding:6px 8px;border:1px solid var(--line);border-radius:6px;background:var(--panel);color:var(--ink);min-width:0}
+.cnform input{width:6.5em}.cnform .btn{font-size:15px;padding:8px 14px}
+.cncard{border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:10px 0 16px;background:var(--panel)}
+.cncard h4{margin:14px 0 4px}.cnerr{padding-left:18px;margin:4px 0}.cnerr li{margin:0 0 6px}.cnv{color:var(--accent);font-weight:600}
+.cntier{font:600 12px var(--f-body);border-radius:999px;padding:2px 9px;border:1px solid var(--line)}.cntier.t2{background:var(--hl)}.cntier.t3{background:var(--accent);color:var(--panel);border-color:var(--accent)}
+.cnrow{display:grid;gap:2px}.cngen{margin-top:12px}.cngen summary{cursor:pointer;font-weight:600}
+.cnp{width:4.5em;font:inherit;font-size:14px;padding:1px 4px;border:1px solid var(--line);border-radius:4px;background:var(--panel);color:var(--ink)}
+.cnid{font:600 12.5px var(--f-body);color:var(--accent);text-decoration:underline;margin-left:4px}
+</style>`);
+function coinOpen(q){ q=q||{}; COINQ={den:q.den||'',y:q.y||'',m:q.m||''}; showView('coins'); const f=document.getElementById('cnForm');
+  f.den.value=COINQ.den; f.y.value=COINQ.y; f.m.value=COINQ.m; coinShow(q.id||''); if(!q.id&&!COINQ.den&&!COINQ.y) document.getElementById('cnOut').innerHTML=''; }
+document.getElementById('cnForm').onsubmit=e=>{ e.preventDefault(); const f=e.target; COINQ={den:f.den.value,y:(f.y.value||'').replace(/\D/g,''),m:f.m.value}; coinShow(''); };
+document.getElementById('rv-coins').addEventListener('click',e=>{ const b=e.target.closest('[data-coin]'); if(!b) return; const c=COINS.find(c=>c[0]===b.dataset.coin); const f=document.getElementById('cnForm');
+  if(c&&COINQ.y&&(+COINQ.y<c[4]||+COINQ.y>c[5])) COINQ.y=''; COINQ.den=c?c[2]:COINQ.den; f.den.value=COINQ.den; f.y.value=COINQ.y; coinShow(b.dataset.coin); });
+['cnAg','cnAu'].forEach(id=>document.getElementById(id).addEventListener('change',e=>{ const v=parseFloat(e.target.value); if(!(v>0)) return; coinMet[id==='cnAg'?'ag':'au']=v; try{ localStorage.setItem('atlas-metal',JSON.stringify(coinMet)); }catch(_){} if(document.querySelector('#cnOut .cncard')) coinShow(COINQ.id); }));
+// the Coins view rides on the More view the way Hunt and Today do
+const _svC=showView; showView=function(k){ const v=document.getElementById('rv-coins');
+  if(k==='coins'){ _svC('more'); document.getElementById('rv-more').hidden=true; v.hidden=false; document.querySelectorAll('.views button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.rv==='coins')); try{ history.replaceState(null,'','#coins'); }catch(_){} window.scrollTo(0,0); return; }
+  v.hidden=true; _svC(k); };
+document.querySelector('#rv-more .shlist').insertAdjacentHTML('afterbegin','<button data-go="coins"><b>Coin ID</b><span>What a dug coin is, what it\'s worth, and the errors to look for</span></button>');
+document.querySelector('.views').insertAdjacentHTML('beforeend','<button data-rv="coins" aria-pressed="false">Coin ID</button>');
+document.querySelector('.views [data-rv="coins"]').onclick=()=>coinOpen();
+{ const um=document.querySelector('#uxMore [data-go="finds"]'); if(um){ um.insertAdjacentHTML('afterend','<button type="button" data-go="coins">Coin ID</button>'); um.nextElementSibling.onclick=()=>{ document.getElementById('uxMore').open=false; coinOpen(); }; } }
+// Finds log: an "Identify a coin" button, and an Identify link on any find that mentions a coin (date and kind carried over)
+document.getElementById('findsCopy').insertAdjacentHTML('afterend',' <button class="btn" id="findsCoin" type="button">Identify a coin</button>');
+document.getElementById('findsCoin').onclick=()=>coinOpen();
+const COIN_RX=/coin|cent|penn|wheat|nickel|buffalo|dime|merc|quarter|half|dollar|morgan|token/i;
+function coinGuess(t){ t=String(t||''); const q={}; const y=t.match(/\b(17[89]\d|18\d\d|19\d\d|20[0-2]\d)(?:[- ]?(CC|D|S|O|P|W)\b)?/); if(y){ q.y=y[1]; if(y[2]) q.m=y[2]; }
+  for(const [rx,d] of [[/canad/i,'ca'],[/gold/i,'gold'],[/wheat|penn|cent\b|cents\b|indian/i,'1c'],[/nickel|buffalo|half ?dime/i,'5c'],[/dime|merc/i,'10c'],[/quarter/i,'25c'],[/half/i,'50c'],[/dollar|morgan|peace/i,'1d']]) if(rx.test(t)){ q.den=d; break; }
+  return q; }
+const _frC=findRow; findRow=function(f,w){ const h=_frC(f,w), t=[f.result,f.amount,f.notes].join(' ');
+  if(!/^Coins/.test(f.result||'')&&!COIN_RX.test(t)) return h; const q=coinGuess([f.amount,f.notes].join(' '));
+  return h.replace(/<\/li>$/,` <a href="#" class="cnid" data-cq='${esc(JSON.stringify(q))}'>Identify coin</a></li>`); };
+document.addEventListener('click',e=>{ const a=e.target.closest('a.cnid'); if(!a) return; e.preventDefault(); e.stopPropagation(); let q={}; try{ q=JSON.parse(a.dataset.cq); }catch(_){} coinOpen(q); },true);
+refreshFinds();
+if((location.hash||'')==='#coins') coinOpen();
 </script><script>
 // ---------- rock, mineral and metal ID (under the Search tab) ----------
 // Injected by tools/build.py after the atlas script, like app.js. Edit here, then rebuild.
