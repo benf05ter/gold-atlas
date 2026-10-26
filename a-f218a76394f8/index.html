@@ -307,6 +307,29 @@ body.simple h1{font-size:1.35rem}
 @media (prefers-reduced-motion:reduce){.shsheet{transition:none!important}}
 </style>
 <style>
+/* rank colors and Today screen */
+:root{--rk1:#1e8449;--rk2:#5a9e3c;--rk3:#c08f00;--rk4:#d26a1e;--rk5:#7d8580}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--rk1:#3fbf6f;--rk2:#8fcf5a;--rk3:#e7b72e;--rk4:#ff9150;--rk5:#a3aba6}}
+:root[data-theme="dark"]{--rk1:#3fbf6f;--rk2:#8fcf5a;--rk3:#e7b72e;--rk4:#ff9150;--rk5:#a3aba6}
+.shrkkey{display:grid;gap:6px;margin:6px 0 10px}.shrkkey span{display:flex;gap:9px;align-items:center;font-size:14px}
+.shrkkey i,.tdspot i{flex:none;font-style:normal;display:inline-grid;place-items:center;width:24px;height:24px;border-radius:50%;color:#fff;font:800 13px var(--f-body)}
+.tdday{margin:0;color:var(--muted);font-weight:600}
+.read h2.tdh{margin:0 0 10px;font-size:2rem}
+.tdcard{display:grid;gap:8px;background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:0 0 12px}
+.tdbest{border-color:var(--rk1);border-width:2px}
+.tdlbl{font:700 11.5px var(--f-mono);text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+.tdspot{display:flex;gap:10px;align-items:flex-start;text-align:left;border:0;background:none;color:var(--ink);font:inherit;padding:2px 0;cursor:pointer}
+.tdspot span{display:grid;gap:1px}.tdspot b{font-size:17px;line-height:1.25}.tdspot span span{font-size:13.5px;color:var(--muted)}
+.tdspot.sm b{font-size:15px}.tdspot.sm i{width:20px;height:20px;font-size:11.5px}
+.tdgo{margin:0;font-weight:700;color:var(--rk1)}
+.tdstart{width:100%;justify-content:center;margin:0 0 12px}
+.tdal{margin:0;display:flex;gap:8px;align-items:baseline;font-size:14.5px}
+.aldot.go{background:var(--L-ghost)}.aldot.stop{background:var(--L-restricted)}.aldot.wait{background:var(--L-trap)}
+.tdgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.tdgrid .tdcard{margin:0 0 12px;align-content:start}
+.tdbig{font:700 2rem var(--f-display);line-height:1}
+@media (max-width:920px){body.shell[data-tab="today"] .read{padding-top:calc(16px + env(safe-area-inset-top,0px))}}
+</style>
+<style>
 /* home-screen app */
 .appupd{position:fixed;left:max(12px,env(safe-area-inset-left,0px));right:max(12px,env(safe-area-inset-right,0px));bottom:max(12px,env(safe-area-inset-bottom,0px));z-index:60;max-width:520px;margin:0 auto;display:flex;gap:8px;align-items:center;background:var(--panel);color:var(--ink);border:1px solid var(--accent);border-radius:8px;padding:9px 12px;box-shadow:0 6px 24px color-mix(in srgb,var(--ink) 25%,transparent);font-size:14px}
 .appupd span{flex:1}
@@ -1799,6 +1822,61 @@ window.addEventListener('resize',()=>{ if(SH.phone&&SH.tab==='map'){ clearTimeou
 shSetMode(SH.mode, SH.mode==='custom');
 { const h=(location.hash||'').slice(1); SH.tab=h==='finds'?'log':['hunt','more'].includes(h)?h:['skills','rules','book'].includes(h)?'more':'map'; }
 shLayout(); shMark(SH.tab); if(SH.tab==='hunt'||SH.tab==='more') showView(SH.tab);
+
+// ---------- cleaner look: pins colored by rank, light/dark theme ----------
+const _sh5=shape; shape=function(p,s,g){ const n=g.childElementCount; _sh5(p,s,g); const m=g.children[n]; const r=RK(p);
+  if(m&&typeof r==='number'&&r>=1&&r<=5){ const c=m.querySelector('circle'); if(c&&c.getAttribute('fill')!==cv('var(--panel)')) c.setAttribute('fill',cv(`var(--rk${r})`)); } };
+function shTheme(t){ try{ t?localStorage.setItem('atlas-theme',t):localStorage.removeItem('atlas-theme'); }catch(_){}
+  if(t) document.documentElement.dataset.theme=t; else delete document.documentElement.dataset.theme;
+  document.querySelectorAll('#shTheme button').forEach(b=>b.setAttribute('aria-pressed',(b.dataset.th||'')===(t||'')));
+  drawMarkers(); }
+{ let t=''; try{ t=localStorage.getItem('atlas-theme')||''; }catch(_){} if(t) document.documentElement.dataset.theme=t; }
+document.querySelector('#rv-more .read').insertAdjacentHTML('beforeend',`<h3>Look</h3><div class="row" id="shTheme" role="group" aria-label="Theme"><button class="chip uxt" data-th="">Match phone</button><button class="chip uxt" data-th="light">Light</button><button class="chip uxt" data-th="dark">Dark</button></div>
+  <h3>Pin colors</h3><div class="shrkkey">${[1,2,3,4,5].map(r=>`<span><i style="background:var(--rk${r})">${r}</i>${['Best: old ground intact','Likely intact','Patches survive','Mostly disturbed','Little left'][r-1]}</span>`).join('')}</div>`);
+document.getElementById('shTheme').onclick=e=>{ const b=e.target.closest('button'); if(b) shTheme(b.dataset.th||''); };
+{ let t=''; try{ t=localStorage.getItem('atlas-theme')||''; }catch(_){} document.querySelectorAll('#shTheme button').forEach(b=>b.setAttribute('aria-pressed',(b.dataset.th||'')===t)); }
+document.getElementById('key').querySelector('.kg')?.insertAdjacentHTML('afterbegin',`<span class="kn">Numbered pins: rank 1 (green, best ground) to 5 (grey)</span>`);
+
+// ---------- Today: the home screen ----------
+// Phones open here: best fresh spot near you, conditions, your last hunt and finds, and one Start button.
+document.getElementById('rv-hunt').insertAdjacentHTML('beforebegin','<section class="readview" id="rv-today" hidden><article class="read pad" id="tdBox"></article></section>');
+function tdNear(){ return PTS.filter(p=>{ const r=RK(p); return typeof r==='number'&&r>=1&&r<=2&&WKS(p.id)!=='worked'; }).sort((a,b)=>(FT.AL[b.id]?1:0)-(FT.AL[a.id]?1:0)||a.mi-b.mi); }
+function shToday(){ const box=document.getElementById('tdBox'); if(!box) return;
+  const now=new Date(), day=now.toLocaleDateString([], {weekday:'long',month:'long',day:'numeric'});
+  const near=tdNear(), best=near[0], more=near.slice(1,5), from=ORG.n==='Eau Claire'?'Eau Claire':ORG.n==='you'?'you':'your spot';
+  const A=(FT.alerts||[]).slice(0,3), hunts=Object.values(HR.T).sort((a,b)=>String(b.start).localeCompare(String(a.start))), last=hunts[0];
+  const yr=String(now.getFullYear()), fy=FINDS.filter(f=>String(f.date||'').startsWith(yr)), good=fy.filter(f=>GOODR.test(f.result||'')).length, lf=[...FINDS].sort((a,b)=>String(b.date).localeCompare(String(a.date)))[0];
+  const dist=p=>p.mi<10?p.mi.toFixed(1):Math.round(p.mi);
+  box.innerHTML=`<p class="tdday">${esc(day)}</p><h2 class="tdh">Today</h2>
+   <div class="tdcard tdbest">${best?`<span class="tdlbl">Best fresh ground near ${from}</span>
+     <button class="tdspot" data-id="${esc(best.id)}"><i style="background:var(--rk${RK(best)})">${RK(best)}</i><span><b>${esc(best.n)}</b><span>${esc(SHORT[best.L]||LBY[best.L].n)} · ${dist(best)} mi${WKS(best.id)==='partly'?' · partly worked':''}</span></span></button>
+     ${FT.AL[best.id]?`<p class="tdgo">Go now: ${esc(FT.AL[best.id][0].t)}</p>`:''}
+     <div class="row"><button class="btn uxgo" data-id="${esc(best.id)}">Show on map</button><a class="btn" href="https://www.google.com/maps/dir/?api=1&destination=${best.la},${best.lo}&travelmode=driving" target="_blank" rel="noopener">Directions</a>${ORG.n!=='you'?'<button class="btn" id="tdMe">📍 Use my location</button>':''}</div>`:'<p>No unworked rank 1 or 2 spots left nearby. Nice work.</p>'}</div>
+   <button class="shrec big tdstart" id="tdStart" type="button"><span></span>${HR.rec?(HR.rec.paused?'Resume hunt':'Hunt recording…'):'Start hunting'}</button>
+   ${A.length?`<div class="tdcard"><span class="tdlbl">Conditions now</span>${A.map(a=>`<p class="tdal"><span class="aldot ${a.lv}"></span>${esc(a.t)}</p>`).join('')}<button class="btn" id="tdAl">See the spots</button></div>`:''}
+   <div class="tdgrid"><div class="tdcard"><span class="tdlbl">Last hunt</span>${last?`<b>${esc(last.n)}</b><span class="hint">${esc(hrDate(last))} · ${hrArea(last.area||0)}</span><button class="btn" data-hunt3="${esc(last.id)}">Show it</button>`:'<span class="hint">None yet. Tap Start hunting at your next spot.</span>'}</div>
+     <div class="tdcard"><span class="tdlbl">Finds in ${yr}</span><b class="tdbig">${fy.length}</b><span class="hint">${good} with something good${lf?`; last on ${esc(lf.date)}`:''}</span><button class="btn" id="tdLog">Open the log</button></div></div>
+   ${more.length?`<div class="tdcard"><span class="tdlbl">Also close by</span>${more.map(p=>`<button class="tdspot sm" data-id="${esc(p.id)}"><i style="background:var(--rk${RK(p)})">${RK(p)}</i><span><b>${esc(p.n)}</b><span>${dist(p)} mi${FT.AL[p.id]?' · go now':''}</span></span></button>`).join('')}<button class="btn" id="tdAll">All nearby spots</button></div>`:''}`;
+  box.querySelectorAll('[data-id]').forEach(b=>b.onclick=()=>select(b.dataset.id,true));
+  box.querySelector('[data-hunt3]')?.addEventListener('click',e=>{ on.add('_tracks'); hrShow(e.currentTarget.dataset.hunt3); });
+  document.getElementById('tdStart').onclick=()=>{ if(HR.rec&&HR.rec.paused) hrPause(false); else if(!HR.rec) hrStart(); shGo('map'); };
+  document.getElementById('tdMe')?.addEventListener('click',()=>{ if(!navigator.geolocation) return; navigator.geolocation.getCurrentPosition(pos=>{ setOrigin(pos.coords.longitude,pos.coords.latitude,'you'); shGo('today'); },()=>hrToast('Your location is blocked here. Allow location for this page in your phone settings.'),{timeout:12000,maximumAge:60000}); });
+  document.getElementById('tdAl')?.addEventListener('click',()=>{ shGo('spots'); showTab('picks'); });
+  document.getElementById('tdLog').onclick=()=>shGo('log');
+  document.getElementById('tdAll')?.addEventListener('click',()=>{ shGo('spots'); showTab('picks'); }); }
+// Today becomes the first tab; the finds log moves inside Hunt (a button there opens it)
+{ const nav=document.getElementById('shTabs'); nav.querySelector('[data-t="log"]').remove();
+  nav.insertAdjacentHTML('afterbegin',`<button type="button" data-t="today" aria-pressed="false"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 2.5v2.6M12 18.9v2.6M2.5 12h2.6M18.9 12h2.6M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span>Today</span></button>`);
+  document.getElementById('shFind2').insertAdjacentHTML('afterend','<button class="btn uxbig" id="shLog2" type="button">My finds log</button>');
+  document.getElementById('shLog2').onclick=()=>shGo('log'); }
+const _svT=showView; showView=function(k){ if(k==='today'){ _svT('more'); document.getElementById('rv-more').hidden=true; document.getElementById('rv-today').hidden=false; shToday(); try{ history.replaceState(null,'','#today'); }catch(_){} shMark('today'); return; }
+  document.getElementById('rv-today').hidden=true; _svT(k); if(k==='finds') shMark('hunt'); };
+const _sgo=shGo; shGo=function(t){ if(t==='today'){ closePop(); showView('today'); window.scrollTo(0,0); return; } _sgo(t); };
+const _ftT=ftRefresh; ftRefresh=function(){ _ftT(); if(SH.tab==='today') shToday(); };
+const _hsT=hrStore; hrStore=async function(t){ await _hsT(t); if(SH.tab==='today') shToday(); };
+const _soT=setOrigin; setOrigin=function(lo,la,n){ _soT(lo,la,n); if(SH.tab==='today') shToday(); };
+// phones open on Today unless a link asks for another page
+if(SH.phone&&!(location.hash||'').slice(1)) shGo('today'); else if((location.hash||'')==='#today') shGo('today');
 
 // ---------- home-screen app: works offline and updates itself ----------
 (function(){ if(window.claude||!('serviceWorker' in navigator)||(location.protocol!=='https:'&&!/^(localhost|127\.0\.0\.1)$/.test(location.hostname))) return;
