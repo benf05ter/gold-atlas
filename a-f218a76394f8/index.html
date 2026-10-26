@@ -2627,12 +2627,12 @@ pcPin=function(p,s){ const c=pcx, [X,Y]=P(p.lo,p.la), x=(X-vb.x)*s, y=(Y-vb.y)*s
   PCV.dr.push([p,x,y]); };
 renderLayers(); drawMarkers();
 
-// --- 4. a cleaner base map: soft streets-and-water tiles with road names, and USGS hillshade so ridges and old banks show ---
+// --- 4. a cleaner base map: Esri street tiles with road names (no key needed), and USGS hillshade so ridges and old banks show ---
 const gDef=el('g',{class:'gdef'},gBase); gBase.insertBefore(gDef,gSat); const gDefB=el('g',{},gDef), gDefH=el('g',{class:'gdefh'},gDef);
 const ogDark=()=>{ const t=document.documentElement.dataset.theme; return t?t==='dark':matchMedia('(prefers-color-scheme:dark)').matches; };
 const ogMerc={tx:(l,N)=>Math.floor((l+180)/360*N), ty:(la,N)=>{ const r=la*Math.PI/180; return Math.floor((1-Math.log(Math.tan(r)+1/Math.cos(r))/Math.PI)/2*N); },
   lat:(y,N)=>{ const n=Math.PI-2*Math.PI*y/N; return 180/Math.PI*Math.atan(0.5*(Math.exp(n)-Math.exp(-n))); }};
-const ogURL={b:(z,x,y)=>`https://${'abcd'[(x+y)%4]}.basemaps.cartocdn.com/rastertiles/${ogDark()?'dark_all':'voyager'}/${z}/${x}/${y}@2x.png`,
+const ogURL={b:(z,x,y)=>`https://server.arcgisonline.com/ArcGIS/rest/services/${ogDark()?'Canvas/World_Dark_Gray_Base':'World_Street_Map'}/MapServer/tile/${z}/${y}/${x}`,
   h:(z,x,y)=>`https://basemap.nationalmap.gov/arcgis/rest/services/USGSShadedReliefOnly/MapServer/tile/${z}/${y}/${x}`};
 function ogZ(){ const s=scale(); return s?Math.max(4,Math.min(19,Math.floor(Math.log2(s*K*360/256)))):0; }
 function ogTileList(z,m,lon0x,lon1x,lat0x,lat1x){ const N=2**z, l0=lon0x??(vb.x-vb.w*m)/K, l1=lon1x??(vb.x+vb.w*(1+m))/K, a1=lat1x??-(vb.y-vb.h*m), a0=lat0x??-(vb.y+vb.h*(1+m)), out=[];
@@ -2644,7 +2644,7 @@ function ogImg(key,z,x,y,href,parent){ let im=OG.tiles.get(key); if(!im){ const 
   im.dataset.t='1'; }
 function ogTiles(){ const show=GM.type==='default'&&OG.live&&navigator.onLine!==false; gDef.style.display=show?'':'none'; document.body.classList.toggle('ogt',show&&[...OG.tiles.values()].some(im=>im.dataset.ok));
   if(!show) return; const z=ogZ(); if(!z) return; for(const im of OG.tiles.values()) im.dataset.t='';
-  const zb=Math.min(19,z), zh=Math.min(15,z), lb=ogTileList(zb,0.2), lh=ogTileList(zh,0.2), dk=ogDark()?'d':'l';
+  const zb=Math.min(19,z+1), zh=Math.min(15,z), lb=ogTileList(zb,0.2), lh=ogTileList(zh,0.2), dk=ogDark()?'d':'l';
   if(lb.length<=140) for(const [x,y] of lb) ogImg(`b${dk}${zb}_${x}_${y}`,zb,x,y,ogURL.b(zb,x,y),gDefB);
   if(lh.length<=140) for(const [x,y] of lh) ogImg(`h${zh}_${x}_${y}`,zh,x,y,ogURL.h(zh,x,y),gDefH);
   // keep the level below while the new one loads, so zooming never flashes blank
@@ -2653,7 +2653,7 @@ function ogTiles(){ const show=GM.type==='default'&&OG.live&&navigator.onLine!==
 { const _gmtO=gmTiles; gmTiles=function(){ _gmtO(); ogTiles(); }; }
 window.addEventListener('online',()=>{ OG.live=true; OG.err=0; ogTiles(); });
 matchMedia('(prefers-color-scheme:dark)').addEventListener?.('change',()=>ogTiles());
-mwrap.insertAdjacentHTML('beforeend','<div class="ogattr" aria-label="Map credits">© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> · © <a href="https://carto.com/attributions" target="_blank" rel="noopener">CARTO</a> · USGS relief</div>');
+mwrap.insertAdjacentHTML('beforeend','<div class="ogattr" aria-label="Map credits">Esri, HERE, Garmin, © OpenStreetMap contributors · USGS relief</div>');
 ogTiles();
 
 // --- 5. photo-first spot cards: big picture, name and rank, then Directions, Start hunt and Permission ---
