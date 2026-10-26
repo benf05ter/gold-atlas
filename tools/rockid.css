@@ -1,0 +1,43 @@
+<style>
+/* rock, mineral and metal ID — lives under the Search tab */
+.ridtabs{display:flex;gap:4px;padding:10px 14px 0;border-bottom:1px solid var(--line)}
+.ridtabs button{font:600 13px var(--f-body);background:none;border:0;border-bottom:2px solid transparent;color:var(--muted);padding:6px 8px 8px;cursor:pointer}
+.ridtabs button[aria-pressed="true"]{color:var(--ink);border-bottom-color:var(--accent)}
+.rid-g{display:grid;gap:6px}
+.rid-gl{font:600 11px var(--f-mono);text-transform:uppercase;letter-spacing:.07em;color:var(--muted);display:flex;justify-content:space-between;gap:8px}
+.rid-gl i{font:400 12px var(--f-body);text-transform:none;letter-spacing:0}
+.rid-cs{display:flex;flex-wrap:wrap;gap:5px}
+.rid-c{font:600 12.5px var(--f-body);color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:999px;padding:5px 10px;cursor:pointer;display:inline-flex;align-items:center;gap:6px;text-align:left}
+.rid-c[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--panel)}
+.rid-c:focus-visible,.rid-card:focus-visible,.ridtabs button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.rid-dot{width:10px;height:10px;border-radius:50%;flex:none;border:1px solid color-mix(in srgb,var(--ink) 25%,transparent)}
+.rid-head{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.rid-head h3{font-family:var(--f-display);font-size:1.05rem;margin:0}
+.rid-act{display:flex;flex-wrap:wrap;gap:5px}
+.rid-act span{font:12px var(--f-mono);background:var(--hl);border-radius:5px;padding:2px 7px}
+.rid-list{display:grid}
+.rid-card{display:grid;gap:5px;text-align:left;font:inherit;color:inherit;background:none;border:0;border-bottom:1px solid var(--line);padding:10px 14px;cursor:pointer;width:100%}
+.rid-card:hover{background:var(--hl)}
+.rid-top{display:flex;justify-content:space-between;gap:8px;align-items:flex-start}
+.rid-top b{font-weight:700}
+.rid-f{font:12px var(--f-mono);color:var(--muted)}
+.rid-k{font:600 10px var(--f-mono);text-transform:uppercase;letter-spacing:.07em;border:1px solid var(--line);color:var(--muted);border-radius:4px;padding:1px 6px;flex:none}
+.rid-k.metal{border-color:var(--L-target);color:var(--L-target)}
+.rid-k.mineral{border-color:var(--accent);color:var(--accent)}
+.rid-dl{display:grid;grid-template-columns:auto minmax(0,1fr);gap:1px 10px;font-size:12.5px;margin:0}
+.rid-dl dt{font:11px var(--f-mono);color:var(--muted)}
+.rid-dl dd{margin:0}
+.rid-miss{font-size:12px;background:var(--hl);border-radius:5px;padding:3px 8px}
+.rid-lab{font:600 11px var(--f-mono);text-transform:uppercase;letter-spacing:.07em;color:var(--muted);padding:12px 14px 4px;border-bottom:1px solid var(--line)}
+.rid-tbl{width:100%;border-collapse:collapse;font-size:13.5px}
+.rid-tbl th{font:600 11px var(--f-mono);text-transform:uppercase;color:var(--muted);text-align:left;vertical-align:top;padding:6px 8px 6px 0;width:36%;border-top:1px solid var(--line)}
+.rid-tbl td{padding:6px 0;border-top:1px solid var(--line);font-variant-numeric:tabular-nums}
+.rid-box{background:var(--hl);border-radius:7px;padding:9px 11px;font-size:13.5px}
+.rid-ul{margin:0;padding-left:20px;display:grid;gap:4px;font-size:14px}
+.rid-m{padding:12px 14px;border-bottom:1px solid var(--line);display:grid;gap:7px}
+.rid-m h3{margin:0;font:700 16px var(--f-display)}
+.rid-m p{margin:0;font-size:14px}
+.rid-calc{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.rid-calc label{font-size:12.5px;color:var(--muted);display:grid;gap:3px}
+.rid-calc input{font:15px var(--f-mono);color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:5px;padding:7px;width:100%;box-sizing:border-box}
+</style>
