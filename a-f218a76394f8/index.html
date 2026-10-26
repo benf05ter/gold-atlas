@@ -1,4 +1,4 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style><link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icons/apple-touch-icon.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Old Ground"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="theme-color" content="#eef0ea"><meta name="robots" content="noindex,nofollow"></head><body>
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style><link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icons/apple-touch-icon.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Old Ground"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="theme-color" content="#eef0ea"><meta name="robots" content="noindex,nofollow"><link rel="apple-touch-startup-image" media="screen and (device-width: 440px) and (device-height: 956px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="icons/splash-1320x2868.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="icons/splash-1290x2796.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 402px) and (device-height: 874px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="icons/splash-1206x2622.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 393px) and (device-height: 852px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="icons/splash-1179x2556.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="icons/splash-1284x2778.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="icons/splash-1170x2532.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="icons/splash-1125x2436.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="icons/splash-1242x2688.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="icons/splash-828x1792.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 360px) and (device-height: 780px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="icons/splash-1080x2340.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="icons/splash-750x1334.png"></head><body>
 <title>Old Ground</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -452,6 +452,47 @@ body.shell .plzoom #zin,body.shell .plzoom #zout{display:flex!important}
 </style>
 <style>.pcv{position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:none}</style>
 <style>
+/* Old Ground v76 */
+:root{--ogn:#4a5b68}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--ogn:#6f8594}}
+:root[data-theme="dark"]{--ogn:#6f8594}
+.gdefh{mix-blend-mode:multiply;opacity:.38}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .gdefh{mix-blend-mode:screen;opacity:.18}}
+:root[data-theme="dark"] .gdefh{mix-blend-mode:screen;opacity:.18}
+/* with the street tiles showing, the drawn county lines and rivers go faint and town names step aside for the tile labels */
+body.ogt svg:not(.sat) path[stroke="var(--county)"][fill="none"]{stroke-opacity:.35}
+body.ogt svg:not(.sat) path[stroke="var(--river)"]{opacity:0}
+body.ogt svg:not(.sat) text.lbl[data-k="town"],body.ogt svg:not(.sat) text.lbl[data-k="county"]{opacity:0}
+.ogattr{position:absolute;right:4px;bottom:2px;font-size:9.5px;line-height:1.3;color:#556;background:rgba(255,255,255,.7);padding:0 4px;border-radius:3px;z-index:3;pointer-events:auto;display:none}
+.ogattr a{color:inherit}
+body.ogt .ogattr{display:block}
+body.isapp .ogattr,body.ogt.isapp .ogattr{bottom:calc(2px + env(safe-area-inset-bottom,0px))}
+/* photo-first spot card */
+.oghero{position:relative;margin:-2px -2px 8px;border-radius:14px;overflow:hidden;background:var(--land2);aspect-ratio:2/1;max-height:240px}
+.oghero .ogheroimg{width:100%;height:100%;object-fit:cover;display:block;cursor:zoom-in;margin:0;border:0;border-radius:0;max-width:none}
+.oghero .ogcap{position:absolute;left:0;right:0;bottom:0;padding:16px 10px 6px;font-size:11.5px;color:#fff;background:linear-gradient(transparent,rgba(0,0,0,.6));pointer-events:none}
+.oghero .ogx{position:absolute;left:50%;top:50%;width:14px;height:14px;margin:-7px;border-radius:50%;border:2.5px solid #fff;box-shadow:0 0 0 2px #d33;pointer-events:none}
+.ogrk{display:inline-block;vertical-align:3px;margin-right:8px;padding:2px 8px;border-radius:999px;color:#fff;font-size:12px;font-weight:800;letter-spacing:.02em}
+.ogq{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:10px 0 8px}
+.ogqb{display:flex;flex-direction:column;align-items:center;gap:4px;padding:9px 4px 8px;border-radius:14px;border:1px solid var(--line);background:var(--panel);color:var(--ink);font:700 12.5px var(--f-body);text-decoration:none;cursor:pointer}
+.ogqb svg{width:22px;height:22px;fill:none;stroke:var(--accent);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.ogqb svg .f{fill:#d33;stroke:none}
+.ogqb:first-child{background:var(--accent);color:#fff;border-color:var(--accent)}
+.ogqb:first-child svg{stroke:#fff}
+.ogq-yes{border-color:#1e8449;color:#1e8449}.ogq-yes svg{stroke:#1e8449}
+.ogq-den{border-color:#b03a2e;color:#b03a2e}.ogq-den svg{stroke:#b03a2e}
+.ogperm{margin:8px 0;border:1px solid var(--line);border-radius:12px;padding:6px 10px}
+.ogperm summary{cursor:pointer;display:flex;gap:8px;align-items:center;flex-wrap:wrap;list-style:none}
+.ogperm summary::-webkit-details-marker{display:none}
+.ogps{font-size:12px;padding:1px 8px;border-radius:999px;background:var(--land2);color:var(--muted)}
+.ogps-yes{background:#1e8449;color:#fff}.ogps-ask{background:#c08f00;color:#fff}.ogps-den{background:#b03a2e;color:#fff}
+.ogpf{display:grid;gap:6px;margin-top:8px}
+.ogpf label{display:grid;gap:2px;font-size:12.5px;color:var(--muted)}
+.ogpf input,.ogpf select{font:inherit;font-size:16px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:6px 8px}
+.ogsave{border-top:1px solid var(--line);margin-top:10px;padding-top:10px}
+.ogareas{list-style:none;margin:4px 0 0;padding:0;display:grid;gap:4px;font-size:13px}
+</style>
+<style>
 /* home-screen app */
 .appupd{position:fixed;left:max(12px,env(safe-area-inset-left,0px));right:max(12px,env(safe-area-inset-right,0px));bottom:max(12px,env(safe-area-inset-bottom,0px));z-index:60;max-width:520px;margin:0 auto;display:flex;gap:8px;align-items:center;background:var(--panel);color:var(--ink);border:1px solid var(--accent);border-radius:8px;padding:9px 12px;box-shadow:0 6px 24px color-mix(in srgb,var(--ink) 25%,transparent);font-size:14px}
 .appupd span{flex:1}
@@ -864,7 +905,7 @@ const SHORT={vpo:'Vanished post office, mill, ferry or station',school:'Vanished
 const LAKEC={ok:'var(--L-ghost)',warn:'var(--L-trap)',stop:'var(--L-restricted)'};
 { const d=el('defs',{},svg); d.innerHTML=Object.entries(GLY).map(([k,v])=>`<symbol id="g-${k}" viewBox="-1 -1 2 2" overflow="visible"><g fill="currentColor">${v}</g></symbol>`).join('')+
   '<pattern id="hatch" patternUnits="userSpaceOnUse" width=".07" height=".07" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2=".07" stroke="var(--driftless)" stroke-width=".007" stroke-opacity=".7"/></pattern>'; }
-const ico=(l,px=16,c)=>`<svg class="ic" width="${px}" height="${px}" viewBox="-1 -1 2 2" aria-hidden="true"><circle r=".94" fill="${c||`var(--L-${l})`}" stroke="var(--panel)" stroke-width=".1"/><use href="#g-${l}" x="-1" y="-1" width="2" height="2" style="color:var(--panel)"/></svg>`;
+let ico=(l,px=16,c)=>`<svg class="ic" width="${px}" height="${px}" viewBox="-1 -1 2 2" aria-hidden="true"><circle r=".94" fill="${c||`var(--L-${l})`}" stroke="var(--panel)" stroke-width=".1"/><use href="#g-${l}" x="-1" y="-1" width="2" height="2" style="color:var(--panel)"/></svg>`;
 
 const miles=(lo,la)=>Math.hypot((lo-EC[0])*69.17*Math.cos(44.8*Math.PI/180),(la-EC[1])*69.17);
 
@@ -1805,7 +1846,7 @@ hrRenderBar(); hrDraw(); renderHunts();
 // ---- move data between the home-screen app and the Claude atlas ----
 document.getElementById('huntList').insertAdjacentHTML('afterend','<h2 id="sync">Move your data</h2><p class="hint">The home-screen app and this atlas keep separate copies of your finds, worked marks and hunts. Save a backup file in one and load it in the other; anything already there is kept, and only new items are added.</p><div class="row"><button class="btn" id="bkSave">Save a backup file</button><label class="btn">Load a backup file<input type="file" id="bkLoad" accept=".json,application/json" hidden></label></div><p class="hint" id="bkNote"></p>');
 document.getElementById('bkSave').onclick=async()=>{ const note=document.getElementById('bkNote');
-  const data=JSON.stringify({atlas:'gold-atlas-backup',v:1,saved:new Date().toISOString(),finds:FINDS,worked:FT.WK,tracks:HR.T});
+  const data=JSON.stringify({atlas:'gold-atlas-backup',v:1,saved:new Date().toISOString(),finds:FINDS,worked:FT.WK,tracks:HR.T,perm:(typeof OG!=="undefined"?OG.P:{})});
   const name='gold-atlas-backup-'+new Date().toISOString().slice(0,10)+'.json';
   try{ const dl=window.claude?await window.claude.use('downloads'):null;
     if(dl){ await dl.save({filename:name,data:new Blob([data],{type:'application/json'})}); note.textContent='Backup saved.'; return; } }catch(e){ if(e&&e.code==='declined'){ note.textContent='Not saved.'; return; } }
@@ -2510,6 +2551,166 @@ const _pcR=pcRender; pcRender=function(){ pcSize(); const s=scale(); pcx.setTran
     if(!hit) for(let i=(PCV.pk||[]).length-1;i>=0;i--){ const f=PCV.pk[i]; if(BYID[f[0]]&&c.isPointInPath(f.P,X,Y,'evenodd')){ hit=['p',f[0]]; break; } }
     c.setTransform(PCV.dpr,0,0,PCV.dpr,0,0); if(!hit) return false; if(hit[0]==='t') hrToast(hit[1]); else select(hit[1],false); return true; }; }
 drawMarkers();
+
+// ---------- Old Ground (v76): fewer layers at first, wrecks on their own layer, permission tracker, save an area for no signal,
+// a cleaner base map with hillshade, one icon set (shape = kind of spot, color = rank) and photo-first spot cards ----------
+var OG={tiles:new Map(), live:true, err:0, P:{}};
+
+// --- 1. fewer layers at first: ranked spots, parks and your own; the rest is one tap away in Layers ---
+{ const OFF=['treasure','report','glacial','_belt','_margin','_flow','model','deposit','prehist','_flood','_oldways','copper','landmark','rock','_trails','target','superior','flood84'];
+  for(const L of LAYERS) if(OFF.includes(L.id)) L.on=false;
+  // shipwrecks get their own layer (off at first) instead of hiding inside treasure stories
+  const ti=LAYERS.findIndex(L=>L.id==='treasure'), W={sec:'Treasure', id:'wreck', n:'Shipwrecks', d:'Great Lakes and river wrecks: look only from shore or the water; wrecks and their contents are protected', on:false};
+  LAYERS.splice(ti+1,0,W); LBY.wreck=W; document.documentElement.style.setProperty('--L-wreck','#2b6a8f');
+  for(const p of PTS) if(/^wk-/.test(p.id)) p.L='wreck';
+  const det=SHM.detecting; det.L=det.L.filter(l=>l!=='treasure'); for(const l of ['park','mine','lead']) if(!det.L.includes(l)) det.L.push(l);
+  det.d='Your spots, the best-ranked detecting ground and parks. Turn on wrecks, B-grade schools, vanished sites and more in Layers.';
+  SHM.history.L.push('wreck'); UX.ON=UX.ON.filter(l=>l!=='treasure');
+  if(UX.simple&&SH.mode==='detecting'){ on.clear(); det.L.forEach(l=>on.add(l)); UX.ON=det.L.slice(); }
+  else on.delete('treasure'); }
+
+// --- 2. permission tracker: landowner, phone, OK'd date; saved to your account (private), and on this device ---
+const OGPS={no:'Not asked yet',ask:'Asked, waiting',yes:"OK'd to hunt",den:'Said no'};
+try{ OG.P=JSON.parse(localStorage.getItem('atlas-perm')||'{}')||{}; }catch(_){}
+function ogPermSave(id,v){ if(v) OG.P[id]=v; else delete OG.P[id]; try{ localStorage.setItem('atlas-perm',JSON.stringify(OG.P)); }catch(_){}
+  if(OG.db){ const r=OG.db.collection('perm').doc(id); (v?r.set(v):r.delete()).catch(()=>{}); } drawMarkers(); }
+(async()=>{ try{ const db=await window.claude?.use?.('db'); if(!db) return; OG.db=db;
+  db.collection('perm').onSnapshot(snap=>{ const P={}; snap.docs.forEach(d=>{ P[d.id]=d.data(); });
+    for(const id in OG.P) if(!P[id]){ P[id]=OG.P[id]; db.collection('perm').doc(id).set(OG.P[id]).catch(()=>{}); } // first sync carries this device's notes up
+    OG.P=P; try{ localStorage.setItem('atlas-perm',JSON.stringify(P)); }catch(_){} drawMarkers(); },()=>{}); }catch(_){} })();
+function permHTML(p){ const v=OG.P[p.id]||{}, st=v.st||'no';
+  return `<details class="ogperm" id="ogPerm" data-id="${esc(p.id)}"${v.st?'':''}><summary><b>Permission</b><span class="ogps ogps-${st}">${OGPS[st]}${v.d&&st==='yes'?' · '+esc(v.d):''}</span></summary>
+  <form class="ogpf"><label>Status <select name="st">${Object.entries(OGPS).map(([k,n])=>`<option value="${k}"${k===st?' selected':''}>${n}</option>`).join('')}</select></label>
+  <label>Landowner or contact <input name="who" value="${esc(v.who||'')}" autocomplete="off" placeholder="Name"></label>
+  <label>Phone <input name="ph" type="tel" value="${esc(v.ph||'')}" placeholder="715-555-0100"></label>
+  <label>OK'd on <input name="d" type="date" value="${esc(v.d||'')}"></label>
+  <label>Notes <input name="nt" value="${esc(v.nt||'')}" placeholder="Areas allowed, conditions, best time to call"></label>
+  <div class="row"><button class="btn uxgo" type="submit">Save</button>${v.ph?`<a class="btn" href="tel:${esc(v.ph.replace(/[^\d+]/g,''))}">Call</a>`:''}${v.st?'<button class="btn" type="button" data-clr>Clear</button>':''}</div>
+  <p class="hint">Private: only you see this. It stays in your account and on this phone, and goes into Backup.</p></form></details>`; }
+{ const _nP=notesHTML; notesHTML=function(p){ return _nP(p)+permHTML(p); }; }
+document.getElementById('detail').addEventListener('submit',e=>{ const f=e.target.closest('.ogpf'); if(!f) return; e.preventDefault();
+  const id=f.closest('.ogperm').dataset.id, d=new FormData(f), v={st:d.get('st'),who:String(d.get('who')||'').slice(0,120),ph:String(d.get('ph')||'').slice(0,40),d:d.get('d')||'',nt:String(d.get('nt')||'').slice(0,500),at:new Date().toISOString()};
+  if(v.st==='yes'&&!v.d) v.d=new Date().toISOString().slice(0,10);
+  ogPermSave(id,v); const keep=document.getElementById('scroll').scrollTop; select(id,false); const dd=document.getElementById('ogPerm'); if(dd) dd.open=true; document.getElementById('scroll').scrollTop=keep; });
+document.getElementById('detail').addEventListener('click',e=>{ const b=e.target.closest('.ogperm [data-clr]'); if(!b) return; const id=b.closest('.ogperm').dataset.id;
+  if(!confirm('Clear the permission notes for this spot?')) return; ogPermSave(id,null); select(id,false); });
+
+// --- 3. one icon set: the shape says what kind of spot, the color says the rank ---
+const OGG={pick:'M3.2 19a4.6 2.3 0 1 0 9.2 0a4.6 2.3 0 1 0 -9.2 0M8.4 16.7L16.6 4.2L19.8 6.1M13.3 9.6L16.5 11.3', pan:'M2.5 9.5H21.5L18.6 16.5H5.4ZM9 7a1.3 1.3 0 1 0 .1 0M14 6.4a1 1 0 1 0 .1 0', anchor:'M12 6.6V20M8.4 9.6H15.6M5 14c.4 5.6 13.6 5.6 14 0M12 2.6a2 2 0 1 0 .1 0',
+  column:'M4.5 8.5L12 4L19.5 8.5ZM7 11V18M12 11V18M17 11V18M4.5 20.5H19.5', gem:'M7 5H17L21 10L12 20L3 10ZM3 10H21M10 5L8.6 10L12 20M14 5L15.4 10',
+  tree:'M12 3L18 11.5H14.6L19 17.5H5L9.4 11.5H6ZM12 17.5V21', star:'M12 3.4L14.6 8.8L20.5 9.6L16.2 13.7L17.2 19.6L12 16.8L6.8 19.6L7.8 13.7L3.5 9.6L9.4 8.8Z',
+  flag:'M6.5 21V3.5M6.5 4.2H17.5L15 8.2L17.5 12.2H6.5', chest:'M4 10.5H20V19H4ZM4 10.5C4 4.5 20 4.5 20 10.5M10.8 13H13.2', ban:'M12 4a8 8 0 1 0 .1 0M6.4 6.4L17.6 17.6'};
+const OGC={pick:['school','school2','vpo','beach','gather','camp','ghost','flood84'],pan:['panning','trap','target','report','glacial','lake','superior','model','deposit','drill','pit'],
+  gem:['copper','rock','geo','cmine','prehist'],column:['history','landmark'],chest:['treasure'],anchor:['wreck'],tree:['park','public'],star:['mine'],flag:['lead'],ban:['restricted']};
+const OGK={}; for(const [g,ls] of Object.entries(OGC)) for(const l of ls) OGK[l]=g;
+const ogGly=l=>OGK[l]||'pick', OGPATH={}; const ogP2=g=>OGPATH[g]||(OGPATH[g]=new Path2D(OGG[g]));
+// color only for rank; unranked pins share one slate, except the three colors that carry a rule: look-only red, lake access, and your own spots
+const ogCol=l=>l==='restricted'?'var(--L-restricted)':l==='mine'?'var(--L-mine)':'var(--ogn)';
+ico=(l,px=16,c)=>`<svg class="ic" width="${px}" height="${px}" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11.2" fill="${c||ogCol(l)}" stroke="var(--panel)" stroke-width="1.2"/><path d="${OGG[ogGly(l)]}" transform="translate(4.4 4.4) scale(.633)" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+function ogGlyph(c,g,x,y,r,col){ c.save(); c.translate(x-r*0.62,y-r*0.62); const k=r*1.24/24; c.scale(k,k); c.lineWidth=2.7; c.lineCap='round'; c.lineJoin='round'; c.strokeStyle=col; c.stroke(ogP2(g)); c.restore(); }
+pcPin=function(p,s){ const c=pcx, [X,Y]=P(p.lo,p.la), x=(X-vb.x)*s, y=(Y-vb.y)*s; if(x<-40||y<-40||x>PCV.W+40||y>PCV.H+40) return;
+  const sel=p.id===selId, big=s>=110, r=(big?9:7)*(sel?1.4:1), panel=cv('var(--panel)'), rk=RK(p), w=WKS(p.id), pm=OG.P[p.id];
+  const base=p.L==='lake'?cv(LAKEC[p.acc?.[0]]||'var(--ogn)'):cv(ogCol(p.L)), faded=(p.c==='legend'||p.c==='rumor'), hollow=(p.s==='found'||p.s==='false');
+  const ranked=typeof rk==='number'&&rk>=1&&rk<=5, fill=hollow?panel:ranked?cv(`var(--rk${rk})`):rk==='X'?cv('var(--L-restricted)'):base;
+  c.globalAlpha=(w==='worked'?0.38:1)*(faded&&!hollow?0.6:1);
+  c.beginPath(); c.arc(x,y+0.6,r+0.6,0,6.2832); c.fillStyle='rgba(0,0,0,.18)'; c.fill(); // soft shadow
+  c.beginPath(); c.arc(x,y,r,0,6.2832); c.fillStyle=fill; c.fill(); c.lineWidth=sel?2.6:hollow?2:1.5; c.strokeStyle=sel?cv('var(--ink)'):hollow?base:panel; c.stroke();
+  if(ranked&&!big) pcText(String(rk),x,y+r*0.42,r*1.2,panel);
+  else ogGlyph(c,rk==='X'?'ban':ogGly(p.L),x,y,r,hollow?base:'#fff');
+  if(ranked&&big){ const bx=x+r*0.78, by=y-r*0.78, br=r*0.5; c.beginPath(); c.arc(bx,by,br,0,6.2832); c.fillStyle=cv('var(--ink)'); c.fill(); c.lineWidth=1.2; c.strokeStyle=panel; c.stroke(); pcText(String(rk),bx,by+br*0.42,br*1.25,panel); }
+  if(pm&&(pm.st==='yes'||pm.st==='den')){ const bx=x+r*0.8, by=y+r*0.8, br=Math.max(4,r*0.42); c.beginPath(); c.arc(bx,by,br,0,6.2832); c.fillStyle=pm.st==='yes'?'#1e8449':'#b03a2e'; c.fill(); c.lineWidth=1.2; c.strokeStyle=panel; c.stroke();
+    c.beginPath(); if(pm.st==='yes'){ c.moveTo(bx-br*.45,by); c.lineTo(bx-br*.1,by+br*.38); c.lineTo(bx+br*.5,by-br*.35); } else { c.moveTo(bx-br*.45,by); c.lineTo(bx+br*.45,by); } c.lineWidth=1.6; c.lineCap='round'; c.strokeStyle='#fff'; c.stroke(); }
+  if(w==='worked'){ const q=r; c.beginPath(); c.moveTo(x-q*.5,y+q*1.05); c.lineTo(x-q*.15,y+q*1.4); c.lineTo(x+q*.55,y+q*.7); c.lineWidth=1.8; c.lineCap='round'; c.strokeStyle=cv('var(--ink)'); c.stroke(); }
+  c.globalAlpha=1;
+  if(w&&w!=='fresh'&&w!=='worked'){ c.setLineDash([2,2]); c.beginPath(); c.arc(x,y,r*1.45,0,6.2832); c.lineWidth=1.3; c.strokeStyle=cv('var(--ink)'); c.stroke(); c.setLineDash([]); }
+  if(p.L==='target'&&p.rank<=10&&s>60){ c.textAlign='left'; pcText(String(p.rank),x+r*0.95,y-r*0.6,10,cv('var(--ink)'),panel,2.5); c.textAlign='center'; }
+  PCV.dr.push([p,x,y]); };
+renderLayers(); drawMarkers();
+
+// --- 4. a cleaner base map: soft streets-and-water tiles with road names, and USGS hillshade so ridges and old banks show ---
+const gDef=el('g',{class:'gdef'},gBase); gBase.insertBefore(gDef,gSat); const gDefB=el('g',{},gDef), gDefH=el('g',{class:'gdefh'},gDef);
+const ogDark=()=>{ const t=document.documentElement.dataset.theme; return t?t==='dark':matchMedia('(prefers-color-scheme:dark)').matches; };
+const ogMerc={tx:(l,N)=>Math.floor((l+180)/360*N), ty:(la,N)=>{ const r=la*Math.PI/180; return Math.floor((1-Math.log(Math.tan(r)+1/Math.cos(r))/Math.PI)/2*N); },
+  lat:(y,N)=>{ const n=Math.PI-2*Math.PI*y/N; return 180/Math.PI*Math.atan(0.5*(Math.exp(n)-Math.exp(-n))); }};
+const ogURL={b:(z,x,y)=>`https://${'abcd'[(x+y)%4]}.basemaps.cartocdn.com/rastertiles/${ogDark()?'dark_all':'voyager'}/${z}/${x}/${y}@2x.png`,
+  h:(z,x,y)=>`https://basemap.nationalmap.gov/arcgis/rest/services/USGSShadedReliefOnly/MapServer/tile/${z}/${y}/${x}`};
+function ogZ(){ const s=scale(); return s?Math.max(4,Math.min(19,Math.floor(Math.log2(s*K*360/256)))):0; }
+function ogTileList(z,m,lon0x,lon1x,lat0x,lat1x){ const N=2**z, l0=lon0x??(vb.x-vb.w*m)/K, l1=lon1x??(vb.x+vb.w*(1+m))/K, a1=lat1x??-(vb.y-vb.h*m), a0=lat0x??-(vb.y+vb.h*(1+m)), out=[];
+  for(let y=ogMerc.ty(a1,N);y<=ogMerc.ty(a0,N);y++) for(let x=ogMerc.tx(l0,N);x<=ogMerc.tx(l1,N);x++) if(y>=0&&y<N) out.push([x,y]); return out; }
+function ogImg(key,z,x,y,href,parent){ let im=OG.tiles.get(key); if(!im){ const N=2**z, lo0=x/N*360-180, lo1=(x+1)/N*360-180, la1=ogMerc.lat(y,N), la0=ogMerc.lat(y+1,N), [px,py]=P(lo0,la1);
+    im=el('image',{x:px,y:py,width:(lo1-lo0)*K*1.004,height:(la1-la0)*1.004,preserveAspectRatio:'none'},parent); im.dataset.z=z; OG.tiles.set(key,im);
+    im.addEventListener('load',()=>{ im.dataset.ok=1; if(!document.body.classList.contains('ogt')&&key[0]==='b') { document.body.classList.add('ogt'); } },{once:true});
+    im.addEventListener('error',()=>{ im.remove(); OG.tiles.delete(key); if(key[0]==='b'&&++OG.err>=4&&OG.live){ OG.live=false; ogTiles(); } },{once:true}); im.setAttribute('href',href); }
+  im.dataset.t='1'; }
+function ogTiles(){ const show=GM.type==='default'&&OG.live&&navigator.onLine!==false; gDef.style.display=show?'':'none'; document.body.classList.toggle('ogt',show&&[...OG.tiles.values()].some(im=>im.dataset.ok));
+  if(!show) return; const z=ogZ(); if(!z) return; for(const im of OG.tiles.values()) im.dataset.t='';
+  const zb=Math.min(19,z), zh=Math.min(15,z), lb=ogTileList(zb,0.2), lh=ogTileList(zh,0.2), dk=ogDark()?'d':'l';
+  if(lb.length<=140) for(const [x,y] of lb) ogImg(`b${dk}${zb}_${x}_${y}`,zb,x,y,ogURL.b(zb,x,y),gDefB);
+  if(lh.length<=140) for(const [x,y] of lh) ogImg(`h${zh}_${x}_${y}`,zh,x,y,ogURL.h(zh,x,y),gDefH);
+  // keep the level below while the new one loads, so zooming never flashes blank
+  for(const [k,im] of OG.tiles){ if(im.dataset.t) continue; const zz=+im.dataset.z; if(Math.abs(zz-(k[0]==='b'?zb:zh))===1&&!OG.keepT){ im.dataset.old=1; continue; } im.remove(); OG.tiles.delete(k); }
+  clearTimeout(OG.ct); OG.ct=setTimeout(()=>{ for(const [k,im] of OG.tiles) if(im.dataset.old&&!im.dataset.t){ im.remove(); OG.tiles.delete(k); } },2500); }
+{ const _gmtO=gmTiles; gmTiles=function(){ _gmtO(); ogTiles(); }; }
+window.addEventListener('online',()=>{ OG.live=true; OG.err=0; ogTiles(); });
+matchMedia('(prefers-color-scheme:dark)').addEventListener?.('change',()=>ogTiles());
+mwrap.insertAdjacentHTML('beforeend','<div class="ogattr" aria-label="Map credits">© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> · © <a href="https://carto.com/attributions" target="_blank" rel="noopener">CARTO</a> · USGS relief</div>');
+ogTiles();
+
+// --- 5. photo-first spot cards: big picture, name and rank, then Directions, Start hunt and Permission ---
+function ogCard(p){ const d=document.querySelector('#detail .detail'); if(!d||d.querySelector('.oghero,.ogq')) return; const h2=d.querySelector('h2'); if(!h2) return;
+  const hero=document.createElement('div'); hero.className='oghero';
+  const first=d.querySelector('.imgs .lid, .imgs figure, .imgs > div');
+  if(first&&first.querySelector('img')){ const im=first.querySelector('img'); im.classList.add('ogheroimg'); hero.appendChild(im); const cap=first.querySelector('b'); if(cap){ const c=document.createElement('span'); c.className='ogcap'; c.textContent=cap.textContent; hero.appendChild(c); } first.remove(); }
+  else if(navigator.onLine!==false){ const dx=0.0035/Math.cos(p.la*Math.PI/180), dy=0.00175, im=new Image(); im.className='ogheroimg'; im.alt='Aerial view around '+p.n; im.loading='lazy';
+    im.src=`https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer/export?bbox=${p.lo-dx},${p.la-dy},${p.lo+dx},${p.la+dy}&bboxSR=4326&imageSR=3857&size=640,320&format=jpg&f=image`;
+    im.onerror=()=>hero.remove(); hero.appendChild(im); hero.insertAdjacentHTML('beforeend','<span class="ogx" aria-hidden="true"></span><span class="ogcap">Aerial view (USGS), pin at the center</span>'); }
+  else return;
+  d.insertBefore(hero,h2);
+  const rk=RK(p); if(rk) h2.insertAdjacentHTML('afterbegin',`<span class="ogrk" style="background:${rk==='X'?'var(--L-restricted)':`var(--rk${rk})`}" title="${esc(RKL[rk]||'')}">${rk==='X'?'Look only':'Rank '+rk}</span>`);
+  const dir=d.querySelector('a[href*="/maps/dir/"]'), pm=OG.P[p.id], tags=d.querySelector('.tags');
+  const q=document.createElement('div'); q.className='ogq';
+  q.innerHTML=`<a class="ogqb" href="${dir?dir.href:`https://www.google.com/maps/dir/?api=1&destination=${p.la},${p.lo}`}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 2.5L21.5 12L12 21.5L2.5 12Z M9 14.5V11.5H14.5M12.5 9.5L14.5 11.5L12.5 13.5"/></svg>Directions</a>`+
+    `<button class="ogqb" type="button" data-oq="hunt"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3.2" class="f"/></svg>Start hunt</button>`+
+    `<button class="ogqb${pm?' ogq-'+pm.st:''}" type="button" data-oq="perm"><svg viewBox="0 0 24 24"><path d="M5 11V20H19V11Z M8 11V7.5a4 4 0 0 1 8 0V11"/></svg>${pm&&pm.st==='yes'?"OK'd":pm&&pm.st==='ask'?'Asked':pm&&pm.st==='den'?'Said no':'Permission'}</button>`;
+  (tags||h2).after(q);
+  q.addEventListener('click',e=>{ const b=e.target.closest('[data-oq]'); if(!b) return;
+    if(b.dataset.oq==='hunt'){ if(typeof hrStart==='function') hrStart(); }
+    else { const dd=document.getElementById('ogPerm'); if(dd){ dd.open=true; dd.scrollIntoView({behavior:'smooth',block:'center'}); } } }); }
+new MutationObserver(()=>{ const d=document.querySelector('#detail .detail'); if(d&&!d.querySelector('.oghero,.ogq')&&selId&&BYID[selId]) try{ ogCard(BYID[selId]); }catch(_){} }).observe(document.getElementById('detail'),{childList:true});
+
+// --- 6. save the area in view for no signal (home-screen app): park and trail tiles, old maps, photos, base map and imagery ---
+async function ogSaveArea(){ const note=document.getElementById('ogSaveNote'), btn=document.getElementById('ogSave');
+  const say=t=>{ if(note) note.textContent=t; };
+  if(!('caches' in window)||!navigator.serviceWorker?.controller){ say('Saving an area works in the home-screen app. Open the app link in Safari, tap Share, then Add to Home Screen, and save the area from there.'); return; }
+  if(navigator.onLine===false){ say('You need signal to save an area. Save it before you head out.'); return; }
+  const m=0.15, lon0=(vb.x-vb.w*m)/K, lon1=(vb.x+vb.w*(1+m))/K, la1=-(vb.y-vb.h*m), la0=-(vb.y+vb.h*(1+m));
+  if((lon1-lon0)>2.5||(la1-la0)>2){ say('Zoom in to about a county first (the area in view is too big to save).'); return; }
+  const U=new Set();
+  for(let x=Math.floor(lon0);x<=Math.floor(lon1);x++) for(let y=Math.floor(la0);y<=Math.floor(la1);y++){ U.add(`pk/P_${x}_${y}.json`); U.add(`pk/T_${x}_${y}.json`); }
+  U.add('pk/parks.json'); U.add('pk/lm.json');
+  for(const [f,a,b,c,d] of (typeof OMR!=='undefined'?OMR:[])) if(!(b<lon0||a>lon1||d<la0||c>la1)) U.add('om/'+f+'.webp');
+  const pts=PTS.filter(p=>p.lo>=lon0&&p.lo<=lon1&&p.la>=la0&&p.la<=la1);
+  for(const p of pts.slice(0,3000)){ let h=''; try{ h=detailHTML(p); }catch(_){} for(const mm of h.matchAll(/data-li="([^"]+)"/g)) U.add('img/'+mm[1]+'.json'); }
+  const z0=Math.max(8,ogZ()); let tl=[];
+  for(let z=z0;z<=Math.min(17,z0+3);z++){ const b=ogTileList(z,0,lon0,lon1,la0,la1); if(tl.length+b.length*3>2400) break;
+    for(const [x,y] of b){ tl.push(ogURL.b(z,x,y)); if(z<=15) tl.push(ogURL.h(z,x,y)); tl.push(`https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer/tile/${z}/${y}/${x}`); } }
+  const all=[...U,...tl]; let done=0, bad=0; btn.disabled=true; const c=await caches.open('og-area');
+  const one=async u=>{ try{ const same=!/^https?:/.test(u); const r=await fetch(u,same?{cache:'reload'}:{mode:'no-cors'}); if(same&&!r.ok){ if(r.status!==404) bad++; } else await c.put(u,r); }catch(_){ bad++; } done++; if(done%20===0||done===all.length) say(`Saving… ${Math.round(done/all.length*100)}%`); };
+  for(let i=0;i<all.length;i+=8) await Promise.all(all.slice(i,i+8).map(one));
+  const A=ogAreas(); A.unshift({n:ogAreaName(),d:new Date().toISOString().slice(0,10),k:all.length}); try{ localStorage.setItem('og-areas',JSON.stringify(A.slice(0,30))); }catch(_){}
+  btn.disabled=false; say(bad?`Saved, but ${bad} of ${all.length} pieces didn't download. Try again with better signal.`:`Saved ${all.length} map pieces and ${pts.length} spots for use with no signal.`); ogAreaList(); }
+const ogAreas=()=>{ try{ return JSON.parse(localStorage.getItem('og-areas')||'[]'); }catch(_){ return []; } };
+function ogAreaName(){ const cx=(vb.x+vb.w/2)/K, cy=-(vb.y+vb.h/2); let best=null, bd=1e9; for(const [n,lo,la] of TOWNS){ const dd=Math.hypot((lo-cx)*0.7,la-cy); if(dd<bd){ bd=dd; best=n; } } return best?'Around '+best:'Saved area'; }
+function ogAreaList(){ const el2=document.getElementById('ogAreas'); if(!el2) return; const A=ogAreas();
+  el2.innerHTML=A.length?A.map(a=>`<li>${esc(a.n)} <span class="hint">${esc(a.d)}</span></li>`).join('')+'<li><button class="btn" type="button" id="ogClr">Remove saved areas</button></li>':'';
+  const b=document.getElementById('ogClr'); if(b) b.onclick=async()=>{ if(!confirm('Remove every saved area from this phone? The app itself stays saved.')) return; try{ await caches.delete('og-area'); }catch(_){} try{ localStorage.removeItem('og-areas'); }catch(_){} ogAreaList(); document.getElementById('ogSaveNote').textContent='Saved areas removed.'; }; }
+{ const sh=document.getElementById('gmSheet'); if(sh){ sh.insertAdjacentHTML('beforeend',`<div class="ogsave"><b>No signal out there?</b><p class="hint" style="margin:2px 0 6px">Zoom to the area you'll hunt, then save it. Parks, trails, old maps, photos, the base map and aerial imagery for that area stay on this phone.</p>
+  <button class="btn uxgo" type="button" id="ogSave">⤓ Save this area for offline</button><p class="hint" id="ogSaveNote"></p><ul class="ogareas" id="ogAreas"></ul></div>`);
+  document.getElementById('ogSave').onclick=ogSaveArea; ogAreaList(); } }
+
+// legend and mode text for the new pins
+{ const m=document.querySelector('#gmModes [data-m="detecting"] span'); if(m) m.textContent=SHM.detecting.d;
+  for(const h of document.querySelectorAll('#gmSheet p.hint')) if(h.textContent.includes('Numbers on pins')) h.textContent='Pin shape = kind of spot: detector = detecting ground, pan = gold, gem = minerals and rocks, column = history, chest = treasure story, anchor = wreck, tree = park, flag = your leads, star = your spots. Pin color = rank (dark green 1 is best, slate = not ranked); the small number is the rank. A green check means you have permission. Lake pins: green = pan, orange = check first, red = closed. Hollow = already found. Faded = legend or rumor.'; }
 
 
 // ---------- home-screen app: works offline and updates itself ----------
