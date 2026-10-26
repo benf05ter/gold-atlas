@@ -4004,6 +4004,57 @@ body.shell .bsc:not([hidden]){display:flex}
   bsRender();
   if(SH.phone&&['','today'].includes((location.hash||'').slice(1))) shGo('map');
   renderLayers(); if(typeof plLaySync==='function') plLaySync(); if(typeof uxRenderSimple==='function') uxRenderSimple(); }
+</script><script>
+// ---------- Look (Neb picks 1, 2, 5): one type style, more breathing room with soft rounded cards, picture tiles ----------
+// Earthy colors stay. Pictures are drawn (SVG), so they work offline.
+{ document.head.insertAdjacentHTML('beforeend',`<style>
+html:root{--f-display:var(--f-body);--f-mono:var(--f-body);--soft:0 1px 2px color-mix(in srgb,var(--ink) 9%,transparent),0 3px 12px color-mix(in srgb,var(--ink) 6%,transparent);--line2:color-mix(in srgb,var(--line) 55%,transparent)}
+h1,h2,h3,.read h2,.read h3{font-family:var(--f-body);font-weight:700;letter-spacing:-.01em}
+.read{line-height:1.55}.read.pad{padding-top:22px;padding-bottom:28px}.read h3{margin-top:1.4em}
+.d,.tdbig{font-variant-numeric:tabular-nums}
+.btn{border-radius:10px;padding:8px 13px}
+.item{padding:12px 16px!important;border-bottom-color:var(--line2)!important}
+.sec{padding:16px!important;border-bottom-color:var(--line2)!important}
+.lrow{border:0!important;border-radius:12px!important;background:var(--panel)!important;box-shadow:var(--soft);padding:9px 11px!important;margin-bottom:8px}
+.tdcard{border:0!important;border-radius:16px!important;background:var(--panel)!important;box-shadow:var(--soft);padding:15px 16px!important}
+.tdcard.tdbest{box-shadow:inset 4px 0 0 var(--rk1),var(--soft)}
+.shsheet{border-radius:20px 20px 0 0}
+.mcmenu{border:0;border-radius:16px;padding:8px}
+.qamenu button{border:0}
+/* picture tiles on More */
+#rv-more .shlist{gap:12px}
+#rv-more .shlist button{border:0!important;border-radius:16px;box-shadow:var(--soft);padding:0 0 14px!important;overflow:hidden;background:var(--panel)}
+#rv-more .shlist button .vpic{display:grid;place-items:center;height:76px;margin-bottom:8px;color:#fff;background-size:cover}
+#rv-more .shlist button .vpic svg{color:#fff!important;width:34px;height:34px;margin:0!important;filter:drop-shadow(0 1px 2px rgba(0,0,0,.25))}
+#rv-more .shlist button b,#rv-more .shlist button span:not(.vpic){padding:0 13px}
+/* ID guide menu: picture rows */
+#mcIdMenu{width:min(320px,calc(100% - 20px));gap:4px}
+#mcIdMenu button{grid-template-columns:60px minmax(0,1fr);align-items:center;padding:8px;gap:2px 12px}
+#mcIdMenu button i{grid-row:1/3;width:60px;height:60px;border-radius:12px;display:grid;place-items:center;overflow:hidden}
+#mcIdMenu button span{grid-column:2}
+/* layer folders get a picture badge */
+.vbadge{display:inline-grid;place-items:center;width:28px;height:28px;border-radius:9px;margin-right:9px;vertical-align:-8px;flex:none}
+.vbadge svg{width:18px;height:18px}
+#plLay b.plsec{display:flex;align-items:center;font-size:13px;color:var(--ink);margin-top:8px}
+#plLay b.plsec .vbadge{width:24px;height:24px;margin-right:7px;border-radius:8px}
+</style>`);
+  // a soft topo-line texture over each picture's color
+  const PIC=(c)=>`background:url("data:image/svg+xml,${encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="160" height="80" fill="none" stroke="#fff" stroke-opacity=".17" stroke-width="1.4"><path d="M-10 60c30-20 50 10 80-8s50-30 100-10"/><path d="M-10 44c30-18 52 8 82-10s52-26 98-8"/><path d="M-10 28c32-16 54 6 84-12s50-22 96-6"/><path d="M-10 74c28-14 48 12 78-4s54-28 102-12"/></svg>')}") center/160px 80px,linear-gradient(135deg,${c},color-mix(in srgb,${c} 68%,#000))`;
+  const TC={today:'#c08a2e',ident:'#9c4f2c',coins:'#b0842a',skills:'#3f6b45',rules:'#4b6270',book:'#86593a',layers:'#3b6c66',rock:'#6b6a4f',hunt:'#9a3b2e',finds:'#6a4d5c',save:'#46657f'};
+  const list=document.querySelector('#rv-more .shlist');
+  if(list) list.querySelectorAll('button').forEach(b=>{ const k=b.dataset.go||b.dataset.qm||b.dataset.ux, s=b.querySelector(':scope>svg'); if(!s||b.querySelector('.vpic')) return;
+    const pic=document.createElement('span'); pic.className='vpic'; pic.setAttribute('style',PIC(TC[k]||'#5b665c')); b.prepend(pic); pic.appendChild(s); });
+  // ID guide pictures: a wheat cent, a banded agate, an old key
+  const IP={coin:['#8a5a2e','<svg viewBox="0 0 60 60" width="60" height="60"><circle cx="30" cy="30" r="20" fill="#c98a5c" stroke="#7d4a2a" stroke-width="2.5"/><circle cx="30" cy="30" r="15.5" fill="none" stroke="#7d4a2a" stroke-opacity=".45" stroke-dasharray="1.5 2.5"/><path d="M23 40c2-7 2-14 0-20M37 40c-2-7-2-14 0-20" stroke="#7d4a2a" stroke-width="1.8" fill="none"/><path d="M23 24l-3-2M23 28l-3-2M23 32l-3-2M37 24l3-2M37 28l3-2M37 32l3-2" stroke="#7d4a2a" stroke-width="1.6"/><text x="30" y="33" text-anchor="middle" font-family="Source Sans 3,system-ui,sans-serif" font-weight="800" font-size="9" fill="#7d4a2a">1¢</text></svg>'],
+    rock:['#5d5a43','<svg viewBox="0 0 60 60" width="60" height="60"><path d="M12 36l6-17 15-7 15 9 2 16-12 11-19-1z" fill="#c4643a" stroke="#6e2f19" stroke-width="2"/><path d="M19 35l5-12 10-4 10 6 1 10-8 7-13-1z" fill="none" stroke="#f1d6b8" stroke-width="2"/><path d="M25 34l3-7 6-2 6 4v6l-5 4-8-1z" fill="#e7a271" stroke="#f6e5d0" stroke-width="1.6"/><path d="M31 31l2-2 2 1v2l-2 1z" fill="#f6e5d0"/></svg>'],
+    all:['#6a4d5c','<svg viewBox="0 0 60 60" width="60" height="60"><circle cx="21" cy="24" r="8.5" fill="none" stroke="#e3c15a" stroke-width="3.5"/><circle cx="21" cy="24" r="3" fill="#6a4d5c"/><path d="M27 30l17 17M38 41l4-4M42 45l4-4" stroke="#e3c15a" stroke-width="3.5" stroke-linecap="round"/></svg>']};
+  document.querySelectorAll('#mcIdMenu button[data-g]').forEach(b=>{ const p=IP[b.dataset.g], i=b.querySelector('i'); if(!p||!i) return; i.setAttribute('style',PIC(p[0])); i.innerHTML=p[1]; });
+  // layer folders: each section header carries a picture of its first layer's pin
+  const badge=sec=>{ const l=LAYERS.find(x=>x.sec===sec&&!String(x.id).startsWith('_'))||LAYERS.find(x=>x.sec===sec); if(!l) return ''; let s=''; try{ s=ico(l.id,18); }catch(_){ s=''; }
+    return `<span class="vbadge" style="background:color-mix(in srgb,var(--L-${l.id},var(--accent)) 18%,var(--panel))">${s}</span>`; };
+  const _rlV=renderLayers; renderLayers=function(){ _rlV(); document.querySelectorAll('#pane-layers .sec > h3').forEach(h=>{ if(!h.querySelector('.vbadge')){ const b=badge(h.textContent.trim()); if(b) h.insertAdjacentHTML('afterbegin',b); } }); };
+  if(typeof plLaySync==='function'){ const _plV=plLaySync; plLaySync=function(){ _plV(); document.querySelectorAll('#plLay b.plsec').forEach(h=>{ if(!h.querySelector('.vbadge')){ const b=badge(h.textContent.trim()); if(b) h.insertAdjacentHTML('afterbegin',b); } }); }; }
+  renderLayers(); if(typeof plLaySync==='function') plLaySync(); }
 
 // ---------- home-screen app: works offline and updates itself ----------
 (function(){ if(window.claude||!('serviceWorker' in navigator)||(location.protocol!=='https:'&&!/^(localhost|127\.0\.0\.1)$/.test(location.hostname))) return;
@@ -4025,6 +4076,7 @@ body.shell .bsc:not([hidden]){display:flex}
   }).catch(()=>{});
 })();
 </script>
+
 
 
 
