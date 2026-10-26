@@ -3905,6 +3905,41 @@ renderId();
     list.addEventListener('click',e=>{ const b=e.target.closest('button[data-qm]'); if(!b) return; e.stopPropagation(); const k=b.dataset.qm;
       if(k==='save') qaSave(); else if(k==='rock') idRid('step',{}); else if(k==='hunt'){ if(SH.phone) shGo('hunt'); else showView('hunt'); } else showView('finds'); },true); }
 } }
+</script><script>
+// ---------- Layers cleanup: near-duplicate layers show as one, rarely used ones sit in an Advanced folder at the bottom ----------
+// Only the two layer lists change (side panel and the layers sheet). Layer ids, modes and pins stay as they were:
+// a merged row switches its partner layers on and off with it.
+{ const LM={school:['school2'],ghost:['vpo'],history:['landmark'],copper:['cmine'],_margin:['_flow','_red','_glakes','_ice'],_mag:['_prosp']};
+  const LN={school:'Vanished schools and hamlets',ghost:'Ghost towns and vanished places',history:'Historic sites, landmarks and museums',copper:'Copper: float copper and old mines',
+    _margin:'Glacial geology (ice edge, flow, red drift, old lakes)',_mag:'Gold heat maps (magnetics and model)'};
+  const LS={school:'Vanished schools',ghost:'Ghost towns',history:'Historic sites',copper:'Copper',_margin:'Glacial geology',_mag:'Heat maps'};
+  const ADV=['_flood','flood84','_margin','_driftless','_belt','_mag','model','drill','deposit','prehist','wreck'];
+  const MEM=new Set(Object.values(LM).flat());
+  for(const [k,n] of Object.entries(LN)){ const l=LAYERS.find(x=>x.id===k); if(l) l.n=n; if(typeof SHORT!=='undefined') SHORT[k]=LS[k]; }
+  { const adv=[]; for(let i=LAYERS.length-1;i>=0;i--){ const l=LAYERS[i]; if(ADV.includes(l.id)||ADV.some(a=>(LM[a]||[]).includes(l.id))){ l.sec='Advanced'; adv.unshift(...LAYERS.splice(i,1)); } } LAYERS.push(...adv); }
+  const cnt=id=>[id,...(LM[id]||[])].reduce((a,x)=>a+PTS.filter(p=>p.L===x).length,0);
+  const sync=()=>{ for(const [k,ms] of Object.entries(LM)){ const v=on.has(k); for(const m of ms) v?on.add(m):on.delete(m); } };
+  { const _dmM=drawMarkers; drawMarkers=function(){ sync(); return _dmM.apply(this,arguments); }; }
+  const follow=id=>{ if(LM[id]) drawMarkers(); };
+  let advOpen=false;
+  document.head.insertAdjacentHTML('beforeend',`<style>
+.lyadv summary{cursor:pointer;font-family:var(--f-display);font-weight:700;font-size:1.05rem;padding:2px 0}
+.pllay .pladv{grid-column:1/-1;text-align:left;justify-items:start;font:600 13px var(--f-body);color:var(--accent);padding:6px 0;border-top:1px solid var(--line);margin-top:6px}
+</style>`);
+  const _rlM=renderLayers; renderLayers=function(){ _rlM(); const pane=document.getElementById('pane-layers'); if(!pane) return;
+    pane.querySelectorAll('.lrow[data-l]').forEach(b=>{ const id=b.dataset.l; if(MEM.has(id)){ b.remove(); return; } if(LM[id]){ const c=b.querySelector('.ct'); const n=cnt(id); if(c&&n) c.textContent=n; } });
+    const h=[...pane.querySelectorAll('.sec > h3')].find(x=>x.textContent==='Advanced');
+    if(h){ const d=document.createElement('details'); d.className='lyadv'; d.open=advOpen; d.innerHTML='<summary>Advanced: rarely used layers</summary>'; d.ontoggle=()=>{ advOpen=d.open; };
+      while(h.nextSibling) d.appendChild(h.nextSibling); h.replaceWith(d); } };
+  document.getElementById('pane-layers').addEventListener('click',e=>{ const b=e.target.closest('.lrow[data-l]'); if(b&&LM[b.dataset.l]) follow(b.dataset.l); });
+  if(typeof plLaySync==='function'){ const _plM=plLaySync; plLaySync=function(){ _plM(); const box=document.getElementById('plLay'); if(!box) return;
+      box.querySelectorAll('button[data-l]').forEach(b=>{ if(MEM.has(b.dataset.l)) b.remove(); });
+      const h=[...box.querySelectorAll('b.plsec')].find(x=>x.textContent==='Advanced');
+      if(h){ const t=document.createElement('button'); t.type='button'; t.className='pladv'; t.textContent=(advOpen?'▾ ':'▸ ')+'Advanced: rarely used layers'; h.replaceWith(t);
+        t.onclick=e=>{ e.stopPropagation(); advOpen=!advOpen; plLaySync(); };
+        if(!advOpen){ let n=t.nextElementSibling; while(n){ const nx=n.nextElementSibling; n.remove(); n=nx; } } } };
+    const box=document.getElementById('plLay'); if(box) box.addEventListener('click',e=>{ const b=e.target.closest('button[data-l]'); if(b&&LM[b.dataset.l]) follow(b.dataset.l); }); }
+  drawMarkers(); renderLayers(); if(typeof plLaySync==='function') plLaySync(); }
 
 // ---------- home-screen app: works offline and updates itself ----------
 (function(){ if(window.claude||!('serviceWorker' in navigator)||(location.protocol!=='https:'&&!/^(localhost|127\.0\.0\.1)$/.test(location.hostname))) return;
