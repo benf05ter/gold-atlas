@@ -2887,7 +2887,7 @@ new MutationObserver(()=>{ if(cld.hidden) delete cld.dataset.hm; }).observe(cld,
 // the other ~2,300 landmarks arrive a moment later from pk/lm.json: refresh the list once they do
 { let t=0, n0=0; const iv=setInterval(()=>{ const n=PTS.length; if(n!==n0){ n0=n; if(SH.mode==='markers'&&cld.dataset.hm&&!cld.hidden&&!cld.classList.contains('away')&&cld.querySelector('.cldl').scrollTop<10) hmOpen(); } if(++t>40) clearInterval(iv); },500); }
 // park history + how much the land has changed: pk/hist-*.json = {id:{o:opened,h:history,w:source url,g:grade A-D/X,u:why}}; added to each park card as it opens (batch 1: Eau Claire area).
-{ const PHF=['pk/hist-eauclaire.json'], PHD={};
+{ const PHF=['pk/hist-eauclaire.json','pk/hist-wi.json'], PHD={};
   const phApply=p=>{ if(!p||p.L!=='park'||p._ph) return; const e=PHD[p.id]; if(!e) return; p._ph=1;
     if(e.h){ p.st=e.h+' '+p.st; if(e.o) p.v='Opened '+e.o; if(e.w) (p.src=p.src||[]).unshift(['Park history (Wikipedia)',e.w]); }
     if(e.g&&!p.ug) p.ug=[e.g,e.u]; };
