@@ -435,6 +435,22 @@ svg.sat .trl{stroke:#ffd27a}
 body.shell .plzoom #zin,body.shell .plzoom #zout{display:flex!important}
 </style>
 <style>
+/* real 3D view (MapLibre GL, loaded on first use) */
+.g3d{position:absolute;inset:0;z-index:30;background:#c9d4c2}
+.g3d[hidden]{display:none}
+.g3m,.g3m.maplibregl-map{position:absolute;inset:0}
+.maplibregl-map{position:relative;overflow:hidden;-webkit-tap-highlight-color:transparent}
+.maplibregl-canvas-container,.maplibregl-canvas{position:absolute;left:0;top:0}
+.maplibregl-canvas-container.maplibregl-interactive,.maplibregl-canvas{touch-action:none;cursor:grab}
+.maplibregl-ctrl-attrib,.maplibregl-ctrl-logo{display:none}
+.g3bar{position:absolute;right:10px;top:calc(10px + env(safe-area-inset-top,0px));display:flex;flex-direction:column;gap:8px;z-index:2}
+.g3b{width:44px;height:44px;border-radius:50%;border:1px solid var(--line);background:var(--panel);color:var(--ink);font:600 15px var(--f-body);box-shadow:0 2px 6px rgba(0,0,0,.25);cursor:pointer}
+.g3card{position:absolute;left:10px;right:10px;bottom:16px;max-width:420px;margin:auto;background:var(--panel);color:var(--ink);border-radius:12px;padding:12px 14px;box-shadow:0 4px 16px rgba(0,0,0,.3);z-index:2}
+.g3card .row{display:flex;gap:8px;margin-top:8px}
+.g3src{position:absolute;left:8px;bottom:2px;margin:0;font-size:10px;color:#fff;text-shadow:0 0 3px #000;pointer-events:none}
+.mapwrap.g3on .plzoom,.mapwrap.g3on .ctl{visibility:hidden}
+</style>
+<style>
 /* home-screen app */
 .appupd{position:fixed;left:max(12px,env(safe-area-inset-left,0px));right:max(12px,env(safe-area-inset-right,0px));bottom:max(12px,env(safe-area-inset-bottom,0px));z-index:60;max-width:520px;margin:0 auto;display:flex;gap:8px;align-items:center;background:var(--panel);color:var(--ink);border:1px solid var(--accent);border-radius:8px;padding:9px 12px;box-shadow:0 6px 24px color-mix(in srgb,var(--ink) 25%,transparent);font-size:14px}
 .appupd span{flex:1}
@@ -2306,6 +2322,59 @@ svg.addEventListener('lostpointercapture',e=>{ if(ptr.has(e.pointerId)) up(e); }
   svg.addEventListener('pointerup',e=>{ if(Date.now()-d0>250) e.plSlow=true; },{capture:true}); }
 mwrap.insertAdjacentHTML('beforeend','<div class="plzoom" id="plZoom"></div>');
 { const z=document.getElementById('plZoom'); z.append(document.getElementById('zin'),document.getElementById('zout')); }
+
+// ---------- real 3D: satellite draped over elevation, hills raised, pins standing on the ground ----------
+// Opens from the locate button (at your GPS spot) or the 3D chip (at the map centre). Loads MapLibre GL only when first used.
+// Imagery: USGS Imagery Only tiles; elevation: Terrain Tiles on AWS (Mapzen terrarium, public). Without them it falls back to the flat tilt.
+const G3={map:null,lib:null,open:false,ex:2.5,z:12.6,p:70};
+mwrap.insertAdjacentHTML('beforeend',`<section class="g3d" id="g3d" hidden aria-label="3D view"><div class="g3m" id="g3m"></div>
+  <div class="g3bar"><button class="g3b" id="g3x" aria-label="Back to the flat map"><b>2D</b></button><button class="g3b" id="g3n" aria-label="Point north">N</button><button class="g3b" id="g3e" aria-label="Taller hills">⛰</button></div>
+  <div class="g3card" id="g3c" hidden></div><p class="g3src">USGS imagery · elevation: Terrain Tiles on AWS (USGS 3DEP)</p></section>`);
+const g3el=document.getElementById('g3d');
+function g3Toast(m){ hrToast(m); const h=pop.querySelector('h4'); if(h) h.textContent='3D view'; }
+function g3Lib(){ if(window.maplibregl) return Promise.resolve(window.maplibregl); if(G3.lib) return G3.lib;
+  return G3.lib=new Promise((ok,no)=>{ const s=document.createElement('script'); s.src='https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/4.7.1/maplibre-gl.min.js'; s.onload=()=>ok(window.maplibregl); s.onerror=()=>{ G3.lib=null; no(new Error('load')); }; document.head.appendChild(s); }); }
+function g3Pins(lo,la){ const f=[]; for(const p of PTS){ if(!on.has(p.L)||Math.abs(p.lo-lo)>0.35||Math.abs(p.la-la)>0.25) continue; const r=RK(p);
+    f.push({type:'Feature',geometry:{type:'Point',coordinates:[p.lo,p.la]},properties:{id:p.id,n:p.n,c:cv(typeof r==='number'&&r>=1&&r<=5?`var(--rk${r})`:`var(--L-${p.L})`),r:typeof r==='number'&&r?String(r):''}}); }
+  return {type:'FeatureCollection',features:f}; }
+function g3Open(lo,la,you){ g3el.hidden=false; G3.open=true; mwrap.classList.add('g3on');
+  g3Lib().then(ml=>{ const center=[lo,la];
+    if(!G3.map){ G3.map=new ml.Map({container:'g3m',attributionControl:false,center,zoom:G3.z,pitch:G3.p,bearing:0,maxPitch:80,antialias:false,
+      style:{version:8,sources:{
+        sat:{type:'raster',tiles:['https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer/tile/{z}/{y}/{x}'],tileSize:256,maxzoom:16},
+        dem:{type:'raster-dem',tiles:['https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png'],tileSize:256,maxzoom:14,encoding:'terrarium'},
+        hs:{type:'raster-dem',tiles:['https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png'],tileSize:256,maxzoom:14,encoding:'terrarium'},
+        pins:{type:'geojson',data:g3Pins(lo,la)},me:{type:'geojson',data:{type:'FeatureCollection',features:[]}}},
+       layers:[{id:'bg',type:'background',paint:{'background-color':'#c9d4c2'}},{id:'sat',type:'raster',source:'sat'},
+        {id:'shade',type:'hillshade',source:'hs',paint:{'hillshade-exaggeration':0.55,'hillshade-shadow-color':'#1d2a1d','hillshade-highlight-color':'#fffbe8'}},
+        {id:'pinring',type:'circle',source:'pins',paint:{'circle-radius':['interpolate',['linear'],['zoom'],10,4,15,9],'circle-color':['get','c'],'circle-stroke-color':'#ffffff','circle-stroke-width':2,'circle-pitch-alignment':'viewport'}},
+        {id:'me',type:'circle',source:'me',paint:{'circle-radius':8,'circle-color':'#1a73e8','circle-stroke-color':'#fff','circle-stroke-width':3,'circle-pitch-alignment':'viewport'}}],
+       terrain:{source:'dem',exaggeration:G3.ex},sky:{'sky-color':'#8fb8e0','horizon-color':'#dfe9ef','fog-color':'#dfe9ef','sky-horizon-blend':0.6,'horizon-fog-blend':0.6,'fog-ground-blend':0.4}}});
+      G3.map.on('click','pinring',e=>{ const f=e.features[0]; if(!f) return; const c=document.getElementById('g3c');
+        c.innerHTML=`<b>${esc(f.properties.n)}</b><div class="row"><button class="btn uxgo" data-g3open="${esc(f.properties.id)}">Open this spot</button><button class="btn" data-g3close>Close</button></div>`; c.hidden=false; });
+      G3.map.on('mouseenter','pinring',()=>G3.map.getCanvas().style.cursor='pointer');
+      // if the map engine never starts (blocked by the page or no connection), fall back to the tilted map
+      G3.ok=false; G3.map.once('render',()=>{ G3.ok=true; }); setTimeout(()=>{ if(!G3.ok&&G3.open){ g3Close(); try{ G3.map.remove(); }catch(_){ } G3.map=null; g3Toast('3D could not start here. Showing the tilted map instead.'); _gtP3(true); } },12000);
+    } else { G3.map.getSource('pins').setData(g3Pins(lo,la)); G3.map.jumpTo({center,zoom:G3.z,pitch:G3.p,bearing:0}); G3.map.resize(); }
+    G3.map.getSource&&G3.map.once('idle',()=>{});
+    const setMe=()=>{ const s=G3.map.getSource('me'); if(s) s.setData({type:'FeatureCollection',features:you?[{type:'Feature',geometry:{type:'Point',coordinates:center},properties:{}}]:[]}); };
+    if(G3.map.isStyleLoaded()) setMe(); else G3.map.once('load',setMe);
+    setTimeout(()=>G3.map.resize(),50);
+  }).catch(()=>{ g3Close(); g3Toast('The 3D view needs a connection the first time. Showing the tilted map instead.'); _gtP3(true); }); }
+function g3Close(){ g3el.hidden=true; G3.open=false; mwrap.classList.remove('g3on'); document.getElementById('g3c').hidden=true; document.getElementById('shMe').classList.remove('on'); }
+document.getElementById('g3x').onclick=g3Close;
+document.getElementById('g3n').onclick=()=>G3.map&&G3.map.easeTo({bearing:0,pitch:G3.p,duration:400});
+document.getElementById('g3e').onclick=()=>{ if(!G3.map) return; G3.ex=G3.ex>=4?1.5:G3.ex+1.25; G3.map.setTerrain({source:'dem',exaggeration:G3.ex}); g3Toast('Hills raised '+G3.ex+'×'); };
+g3el.addEventListener('click',e=>{ const o=e.target.closest('[data-g3open]'); if(o){ const id=o.dataset.g3open; g3Close(); select(id,true); return; } if(e.target.closest('[data-g3close]')) document.getElementById('g3c').hidden=true; });
+// locate button: find me, then open 3D there (zoomed out enough to see the hills around you)
+const _gtP3=gmTilt;
+gmLocate3D=function(){ const b=document.getElementById('shMe'); if(G3.open){ g3Close(); return; }
+  if(!navigator.geolocation){ const [x,y]=ctr(); g3Open(x/K,-y,false); return; } b.classList.add('busy');
+  navigator.geolocation.getCurrentPosition(pos=>{ b.classList.remove('busy'); b.classList.add('on'); setOrigin(pos.coords.longitude,pos.coords.latitude,'you'); if(SH.phone) shGo('map'); g3Open(pos.coords.longitude,pos.coords.latitude,true); },
+    ()=>{ b.classList.remove('busy'); const [x,y]=ctr(); g3Toast('Location is blocked here, so 3D opens on the middle of the map.'); g3Open(x/K,-y,false); },{enableHighAccuracy:true,timeout:12000,maximumAge:30000}); };
+document.getElementById('shMe').onclick=()=>gmLocate3D();
+// the 3D chip in the layers sheet opens the real 3D view on the middle of the map
+gmTilt=function(t){ if(t){ gmSheet(false); const [x,y]=ctr(); g3Open(x/K,-y,false); } else { g3Close(); _gtP3(false); } };
 
 
 // ---------- home-screen app: works offline and updates itself ----------
