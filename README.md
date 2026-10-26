@@ -1,6 +1,6 @@
 # gold-atlas
 
-Home-screen (offline) build of the Upper Midwest Gold and Treasure Atlas.
+Home-screen (offline) build of Old Ground (formerly the Upper Midwest Gold and Treasure Atlas).
 
 - The app lives in the folder named in `tools/site-folder.txt`. Open that folder's GitHub Pages address on the phone, then Share > Add to Home Screen.
 - Rebuild after the Claude atlas changes: save the published atlas HTML, then
