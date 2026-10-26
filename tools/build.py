@@ -9,7 +9,7 @@ c=open(src,encoding='utf-8').read()
 assert 'function hrDraw(' in c, 'atlas has no hunt recorder; is this the right file?'
 head=('<link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icons/apple-touch-icon.png">'
  '<meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes">'
- '<meta name="apple-mobile-web-app-title" content="Gold Atlas"><meta name="apple-mobile-web-app-status-bar-style" content="default">'
+ '<meta name="apple-mobile-web-app-title" content="Old Ground"><meta name="apple-mobile-web-app-status-bar-style" content="default">'
  '<meta name="theme-color" content="#eef0ea"><meta name="robots" content="noindex,nofollow">')
 c=c.replace('content="width=device-width,initial-scale=1,viewport-fit=cover"','content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover"',1)
 i=c.index('</head>'); c=c[:i]+head+c[i:]
@@ -56,7 +56,7 @@ for d,_,fs in sorted(os.walk(out)):
     if f!='sw.js': h.update(open(os.path.join(d,f),'rb').read())
 ver=h.hexdigest()[:12]
 open(out+'/sw.js','w').write(open(os.path.join(T,'sw.js')).read().replace('__VERSION__',ver).replace('__SAT__',json.dumps(satpre)))
-json.dump({'name':'Upper Midwest Gold Atlas','short_name':'Gold Atlas','start_url':'./','scope':'./','display':'standalone','background_color':'#eef0ea','theme_color':'#eef0ea',
+json.dump({'name':'Old Ground','short_name':'Old Ground','start_url':'./','scope':'./','display':'standalone','background_color':'#eef0ea','theme_color':'#eef0ea',
  'icons':[{'src':'icons/icon-192.png','sizes':'192x192','type':'image/png'},{'src':'icons/icon-512.png','sizes':'512x512','type':'image/png'},{'src':'icons/maskable-512.png','sizes':'512x512','type':'image/png','purpose':'maskable'}]},
  open(out+'/manifest.webmanifest','w'),indent=1)
 print('built',out,'version',ver,os.path.getsize(out+'/index.html'),'bytes')

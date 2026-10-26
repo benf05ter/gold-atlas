@@ -1,4 +1,4 @@
-// Gold Atlas offline cache. The build stamps VERSION; a new VERSION makes phones fetch the new atlas in the background.
+// Old Ground offline cache. The build stamps VERSION; a new VERSION makes phones fetch the new atlas in the background.
 const VERSION='__VERSION__', CACHE='atlas-v'+VERSION;
 const CORE=['./','index.html','manifest.webmanifest','icons/icon-192.png','icons/icon-512.png','icons/apple-touch-icon.png'];
 const EXTRA=['oldmap/ground-today.webp','oldmap/topo-1972.webp','oldmap/topo-1936.webp'].concat(__SAT__);
