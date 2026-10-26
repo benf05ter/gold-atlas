@@ -1,6 +1,6 @@
 <style>
-/* rock, mineral and metal ID — lives under the Search tab */
-.ridtabs{display:flex;gap:4px;padding:10px 14px 0;border-bottom:1px solid var(--line)}
+/* rock, mineral and metal ID — inside the Minerals map mode */
+.ridtabs{display:flex;gap:4px;padding:2px 14px 0;border-bottom:1px solid var(--line);flex:none}
 .ridtabs button{font:600 13px var(--f-body);background:none;border:0;border-bottom:2px solid transparent;color:var(--muted);padding:6px 8px 8px;cursor:pointer}
 .ridtabs button[aria-pressed="true"]{color:var(--ink);border-bottom-color:var(--accent)}
 .rid-g{display:grid;gap:6px}
@@ -16,13 +16,15 @@
 .rid-act{display:flex;flex-wrap:wrap;gap:5px}
 .rid-act span{font:12px var(--f-mono);background:var(--hl);border-radius:5px;padding:2px 7px}
 .rid-list{display:grid}
-.rid-card{display:grid;gap:5px;text-align:left;font:inherit;color:inherit;background:none;border:0;border-bottom:1px solid var(--line);padding:10px 14px;cursor:pointer;width:100%}
+.rid-card{display:grid;grid-template-columns:52px minmax(0,1fr);align-items:start;gap:10px;text-align:left;font:inherit;color:inherit;background:none;border:0;border-bottom:1px solid var(--line);padding:10px 14px;cursor:pointer;width:100%}
 .rid-card:hover{background:var(--hl)}
 .rid-top{display:flex;justify-content:space-between;gap:8px;align-items:flex-start}
 .rid-top b{font-weight:700}
 .rid-f{font:12px var(--f-mono);color:var(--muted)}
 .rid-k{font:600 10px var(--f-mono);text-transform:uppercase;letter-spacing:.07em;border:1px solid var(--line);color:var(--muted);border-radius:4px;padding:1px 6px;flex:none}
 .rid-k.metal{border-color:var(--L-target);color:var(--L-target)}
+.rid-k.relic{border-style:dashed}
+.rid-rad{justify-self:start;font:600 11.5px var(--f-mono);color:var(--L-target);border:1px solid var(--L-target);border-radius:4px;padding:1px 6px}
 .rid-k.mineral{border-color:var(--accent);color:var(--accent)}
 .rid-dl{display:grid;grid-template-columns:auto minmax(0,1fr);gap:1px 10px;font-size:12.5px;margin:0}
 .rid-dl dt{font:11px var(--f-mono);color:var(--muted)}
@@ -40,4 +42,30 @@
 .rid-calc{display:grid;grid-template-columns:1fr 1fr;gap:8px}
 .rid-calc label{font-size:12.5px;color:var(--muted);display:grid;gap:3px}
 .rid-calc input{font:15px var(--f-mono);color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:5px;padding:7px;width:100%;box-sizing:border-box}
+.rid-conf{display:flex;align-items:center;gap:8px;font-size:12.5px}
+.rid-bar{flex:1;max-width:140px;height:6px;border-radius:3px;background:var(--line);overflow:hidden}
+.rid-bar i{display:block;height:100%;border-radius:3px;background:var(--accent)}
+.rid-conf.t2 .rid-bar i{background:color-mix(in srgb,var(--accent) 65%,var(--line))}
+.rid-conf.t1 .rid-bar i{background:var(--muted)}
+.rid-tier{font-weight:700}
+.rid-conf.t1 .rid-tier{font-weight:400;color:var(--muted)}
+.rid-why{list-style:none;padding-left:0}
+.rid-why li::before{display:inline-block;width:18px;font-weight:700}
+.rid-why li.y::before{content:"✓";color:var(--accent)}
+.rid-why li.c::before{content:"~";color:var(--muted)}
+.rid-why li.n::before{content:"✗";color:var(--L-target)}
+.rid-cb{display:grid;gap:5px;min-width:0}
+.rid-pic{display:block;flex:none;border-radius:8px;background:var(--land2)}
+.rid-hero{display:flex;align-items:flex-end;gap:10px}
+.ridsheet{position:absolute;z-index:12;top:0;right:0;bottom:0;width:min(420px,100%);box-sizing:border-box;background:var(--panel);color:var(--ink);border-left:1px solid var(--line);box-shadow:-6px 0 24px color-mix(in srgb,var(--ink) 18%,transparent);display:flex;flex-direction:column;min-height:0}
+.ridsheet[hidden]{display:none}
+.ridh{flex:none;display:flex;justify-content:space-between;align-items:center;padding:10px 12px 6px 14px;font-family:var(--f-display);font-size:1.1rem}
+.ridh b{display:inline-flex;align-items:center;gap:7px}
+.ridh .px{width:36px;height:36px;border:0;background:none;color:var(--muted);font:600 22px var(--f-body);cursor:pointer;border-radius:5px}
+.ridbody{flex:1;min-height:0;overflow:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;touch-action:pan-y}
+.shmodes .ridtab{display:inline-flex;align-items:center;gap:6px;border-color:var(--L-rock);color:var(--ink)}
+.shmodes .ridtab[hidden]{display:none}
+.shmodes .ridtab.on{background:var(--L-rock);border-color:var(--L-rock);color:#fff}
+.ridfloat{position:absolute;left:10px;top:58px;z-index:5;font:700 13.5px var(--f-body);padding:7px 13px;border-radius:999px;border:1px solid var(--L-rock);background:var(--panel);color:var(--ink);cursor:pointer}
+@media (max-width:920px){body.shell .ridsheet{width:100%;border-left:0;top:env(safe-area-inset-top,0px)}}
 </style>
