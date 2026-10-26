@@ -1,7 +1,7 @@
 // Gold Atlas offline cache. The build stamps VERSION; a new VERSION makes phones fetch the new atlas in the background.
 const VERSION='__VERSION__', CACHE='atlas-v'+VERSION;
 const CORE=['./','index.html','manifest.webmanifest','icons/icon-192.png','icons/icon-512.png','icons/apple-touch-icon.png'];
-const EXTRA=['oldmap/ground-today.webp','oldmap/topo-1972.webp','oldmap/topo-1936.webp'];
+const EXTRA=['oldmap/ground-today.webp','oldmap/topo-1972.webp','oldmap/topo-1936.webp'].concat(__SAT__);
 self.addEventListener('install',e=>{ e.waitUntil(caches.open(CACHE).then(async c=>{
   await c.addAll(CORE.map(u=>new Request(u,{cache:'reload'})));
   await Promise.all(EXTRA.map(u=>c.add(new Request(u,{cache:'reload'})).catch(()=>{}))); })); });
@@ -13,6 +13,8 @@ self.addEventListener('fetch',e=>{ const r=e.request; if(r.method!=='GET') retur
   if(u.origin===location.origin){ e.respondWith((async()=>{ const c=await caches.open(CACHE);
     const hit=(await c.match(r,{ignoreSearch:true}))||(r.mode==='navigate'?await c.match('index.html'):null); if(hit) return hit;
     try{ const res=await fetch(r); if(res.ok) c.put(r,res.clone()); return res; }catch(_){ return Response.error(); } })()); return; }
+  if(u.hostname==='basemap.nationalmap.gov'){ e.respondWith((async()=>{ const c=await caches.open('atlas-sat'); const hit=await c.match(r); if(hit) return hit;
+    try{ const res=await fetch(r); if(res.ok||res.type==='opaque') c.put(r,res.clone()); return res; }catch(_){ return Response.error(); } })()); return; }
   if(/(^|\.)fonts\.(googleapis|gstatic)\.com$/.test(u.hostname)){ e.respondWith((async()=>{ const c=await caches.open('atlas-fonts'); const hit=await c.match(r);
     const net=fetch(r).then(res=>{ if(res.ok||res.type==='opaque') c.put(r,res.clone()); return res; }).catch(()=>hit||Response.error());
     return hit||net; })()); } });

@@ -24,12 +24,24 @@ os.system(f'python3 "{T}/icons.py" "{out}/icons"')
 if om:
   for f in os.listdir(om):
     if f.endswith('.webp'): shutil.copy(os.path.join(om,f),out+'/oldmap/'+f)
+img=sys.argv[4] if len(sys.argv)>4 else None   # photo packs (img/*.json) the atlas loads on demand
+sat=sys.argv[3] if len(sys.argv)>3 else None; satpre=[]
+if img:
+  os.makedirs(out+'/img',exist_ok=True)
+  for f in sorted(os.listdir(img)):
+    if f.endswith('.json'): shutil.copy(os.path.join(img,f),out+'/img/'+f); satpre.append('img/'+f)
+if sat:
+  os.makedirs(out+'/sat',exist_ok=True)
+  for f in sorted(os.listdir(sat)):
+    if f.endswith('.webp'):
+      shutil.copy(os.path.join(sat,f),out+'/sat/'+f)
+      if not f.startswith('2_'): satpre.append('sat/'+f)   # coarse tiles are saved on install; street-level ones as you look at them
 h=hashlib.sha256()
 for d,_,fs in sorted(os.walk(out)):
   for f in sorted(fs):
     if f!='sw.js': h.update(open(os.path.join(d,f),'rb').read())
 ver=h.hexdigest()[:12]
-open(out+'/sw.js','w').write(open(os.path.join(T,'sw.js')).read().replace('__VERSION__',ver))
+open(out+'/sw.js','w').write(open(os.path.join(T,'sw.js')).read().replace('__VERSION__',ver).replace('__SAT__',json.dumps(satpre)))
 json.dump({'name':'Upper Midwest Gold Atlas','short_name':'Gold Atlas','start_url':'./','scope':'./','display':'standalone','background_color':'#eef0ea','theme_color':'#eef0ea',
  'icons':[{'src':'icons/icon-192.png','sizes':'192x192','type':'image/png'},{'src':'icons/icon-512.png','sizes':'512x512','type':'image/png'},{'src':'icons/maskable-512.png','sizes':'512x512','type':'image/png','purpose':'maskable'}]},
  open(out+'/manifest.webmanifest','w'),indent=1)
