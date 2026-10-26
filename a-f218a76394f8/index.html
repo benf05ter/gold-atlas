@@ -3410,7 +3410,7 @@ document.getElementById('idOut').addEventListener('input',e=>{ const b=e.target.
 { const _svI=showView; showView=function(k){ const v=document.getElementById('rv-ident');
   if(k==='ident'){ _svI('more'); document.getElementById('rv-more').hidden=true; v.hidden=false; document.querySelectorAll('.views button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.rv==='ident')); try{ history.replaceState(null,'','#identify'); }catch(_){} window.scrollTo(0,0); return; }
   v.hidden=true; _svI(k); }; }
-document.querySelector('#rv-more .shlist').insertAdjacentHTML('afterbegin','<button data-go="ident"><b>Identify</b><span>Search coins, rocks, minerals, metals, relics and jewelry, plus the rock tester and how-to-test guide</span></button>');
+document.querySelector('#rv-more .shlist').insertAdjacentHTML('afterbegin','<button data-go="ident"><b>Identify</b><span>Coins, rocks, metals, relics and jewelry, plus the rock tester</span></button>');
 document.querySelector('.views').insertAdjacentHTML('beforeend','<button data-rv="ident" aria-pressed="false">Identify</button>');
 document.querySelector('.views [data-rv="ident"]').onclick=()=>idOpen();
 { const um=document.querySelector('#uxMore [data-go="finds"]'); if(um){ um.insertAdjacentHTML('afterend','<button type="button" data-go="ident">Identify</button>'); um.nextElementSibling.onclick=()=>{ document.getElementById('uxMore').open=false; idOpen(); }; } }
@@ -3751,5 +3751,88 @@ function calc(){ const a=parseFloat($('rid-w1').value), w=parseFloat($('rid-w2')
 $('rid-w1').oninput=$('rid-w2').oninput=calc; calc();
 renderId();
 })();
+</script><script>
+// ---------- fewer chips under the map search bar: one map-mode chip with a menu, and an ID guide chip ----------
+// The original mode buttons (Historical markers, Detecting, Minerals, History, My stuff) stay in #shModes, hidden, and the menu clicks them,
+// so every mode keeps working as before. The Rock ID chip is hidden too: the ID guide opens Identify, which opens the rock tester.
+{ const row=document.getElementById('shModes'), mw=document.querySelector('.mapwrap');
+  if(row&&mw&&!document.getElementById('mcMode')){
+  const DS={markers:'Roadside history markers, listed',detecting:'Ranked spots to detect',gold:'Gold, agates, rocks and minerals',history:'Ghost towns, old schools, depots',mine:'Your finds, tracks and saved spots'};
+  document.head.insertAdjacentHTML('beforeend',`<style>
+#shModes>:not(.mc){display:none!important}
+#shModes .mc{display:inline-flex;align-items:center;gap:6px}
+#shModes .mc[aria-expanded="true"]{background:var(--ink);color:var(--panel);border-color:var(--ink)}
+#shModes #mcMode .mcv{font-size:11px;opacity:.7}
+.mcmenu{position:absolute;z-index:9;left:10px;width:min(290px,calc(100% - 20px));background:var(--panel);border:1px solid var(--line);border-radius:12px;box-shadow:0 8px 28px color-mix(in srgb,var(--ink) 25%,transparent);display:grid;padding:6px}
+.mcmenu[hidden]{display:none}
+.mcmenu b.mcl{font:700 11.5px var(--f-mono);text-transform:uppercase;letter-spacing:.05em;color:var(--muted);padding:6px 10px 2px}
+.mcmenu button{display:grid;grid-template-columns:20px minmax(0,1fr);gap:2px 8px;text-align:left;border:0;background:none;color:var(--ink);font:600 15px var(--f-body);padding:9px 10px;border-radius:8px;cursor:pointer}
+.mcmenu button span{grid-column:2;font:400 12.5px var(--f-body);color:var(--muted)}
+.mcmenu button i{font-style:normal;color:var(--accent);font-weight:800}
+.mcmenu button:hover,.mcmenu button[aria-pressed="true"]{background:var(--hl)}
+</style>`);
+  row.insertAdjacentHTML('afterbegin',`<button type="button" class="mc" id="mcMode" aria-haspopup="true" aria-expanded="false"><span id="mcModeT">Detecting</span><span class="mcv">▾</span></button><button type="button" class="mc" id="mcId"><svg class="ic" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M7 4h10l4 6-9 11L3 10z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>ID guide</button>`);
+  mw.insertAdjacentHTML('beforeend','<div class="mcmenu" id="mcMenu" hidden role="menu" aria-label="Map mode"></div>');
+  const btn=document.getElementById('mcMode'), menu=document.getElementById('mcMenu'), orig=()=>[...row.querySelectorAll('button[data-m]')].filter(b=>!b.classList.contains('mc'));
+  const label=()=>{ const on=orig().find(b=>b.getAttribute('aria-pressed')==='true'); document.getElementById('mcModeT').textContent=on?on.textContent.trim():'Custom layers'; };
+  const close=()=>{ menu.hidden=true; btn.setAttribute('aria-expanded','false'); };
+  btn.addEventListener('click',e=>{ e.stopPropagation(); if(!menu.hidden){ close(); return; }
+    menu.innerHTML='<b class="mcl">Show on the map</b>'+orig().map((b,i)=>{ const on=b.getAttribute('aria-pressed')==='true';
+      return `<button type="button" role="menuitemradio" data-i="${i}" aria-pressed="${on}"><i>${on?'✓':''}</i>${esc(b.textContent.trim())}<span>${DS[b.dataset.m]||''}</span></button>`; }).join('');
+    menu.style.top=(row.offsetTop+row.offsetHeight+6)+'px'; menu.hidden=false; btn.setAttribute('aria-expanded','true'); });
+  menu.addEventListener('click',e=>{ const b=e.target.closest('button[data-i]'); if(!b) return; e.stopPropagation(); const o=orig()[+b.dataset.i]; close(); if(o&&o.getAttribute('aria-pressed')!=='true') o.click(); });
+  document.addEventListener('click',e=>{ if(!menu.hidden&&!menu.contains(e.target)&&e.target!==btn) close(); });
+  document.addEventListener('keydown',e=>{ if(e.key==='Escape'&&!menu.hidden) close(); });
+  document.getElementById('mcId').addEventListener('click',e=>{ e.stopPropagation(); close(); idOpen(); });
+  new MutationObserver(label).observe(row,{subtree:true,attributes:true,attributeFilter:['aria-pressed']}); label(); } }
+</script><script>
+// ---------- quick-action + button on the map, and More as one page of big tiles ----------
+{ const mw=document.querySelector('.mapwrap'); if(mw&&!document.getElementById('qaFab')){
+  const I=d=>`<svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
+  const IC={rec:'<circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3.2" fill="currentColor"/>',find:'<path d="M12 21s-6-5.6-6-10.5a6 6 0 0 1 12 0C18 15.4 12 21 12 21z"/><path d="M12 7.5v6M9 10.5h6"/>',
+    id:'<path d="M7 4h10l4 6-9 11L3 10z"/><path d="M3 10h18M9 4l3 6 3-6M12 10v11"/>',save:'<path d="M12 4v11M7.5 10.5 12 15l4.5-4.5"/><path d="M5 19h14"/>',coin:'<circle cx="12" cy="12" r="8"/><path d="M14.5 9.2c-.5-.8-1.4-1.2-2.5-1.2-1.6 0-2.6.8-2.6 2s1.1 1.7 2.6 2 2.7.8 2.7 2.1-1.1 2-2.7 2c-1.2 0-2.2-.5-2.7-1.4M12 6.5V8M12 16v1.5"/>',
+    skills:'<path d="M4 20l7-7M14 4l6 6-5 5-6-6z"/><path d="M9 9l6 6"/>',rules:'<path d="M12 3l8 3v6c0 4.5-3.4 8-8 9-4.6-1-8-4.5-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/>',book:'<path d="M4 5.5C4 4.7 4.7 4 5.5 4H11v16H5.5c-.8 0-1.5-.7-1.5-1.5zM20 5.5c0-.8-.7-1.5-1.5-1.5H13v16h5.5c.8 0 1.5-.7 1.5-1.5z"/>',
+    layers:'<path d="M12 3l9 5-9 5-9-5z"/><path d="M3 12.5l9 5 9-5M3 16.5l9 5 9-5"/>',hunt:'<path d="M4 18c3-6 5-2 8-8s6-4 8-6"/><circle cx="4" cy="18" r="1.6" fill="currentColor"/><circle cx="20" cy="4" r="1.6" fill="currentColor"/>',log:'<path d="M6 3h9l4 4v14H6z"/><path d="M9 11h7M9 15h7M9 7h3"/>'};
+  document.head.insertAdjacentHTML('beforeend',`<style>
+#gmRec:not(.on){display:none!important}
+.qafab{position:absolute;right:14px;bottom:18px;z-index:6;width:60px;height:60px;border-radius:50%;border:0;background:var(--ogforest,var(--accent));color:#fff;font:400 34px/1 var(--f-body);box-shadow:0 6px 18px color-mix(in srgb,var(--ink) 30%,transparent);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:transform .2s}
+.qafab[aria-expanded="true"]{transform:rotate(45deg)}
+.mapwrap.hrOn .qafab,.mapwrap.shcard .qafab{display:none}
+.qamenu{position:absolute;right:14px;bottom:88px;z-index:7;width:min(260px,calc(100% - 28px));display:grid;gap:8px}
+.qamenu[hidden]{display:none}
+.qamenu button{display:flex;align-items:center;gap:12px;text-align:left;border:1px solid var(--line);background:var(--panel);color:var(--ink);font:700 16px var(--f-body);padding:12px 14px;border-radius:14px;cursor:pointer;box-shadow:0 4px 14px color-mix(in srgb,var(--ink) 20%,transparent)}
+.qamenu button svg{flex:none;color:var(--accent)}
+.qamenu button[data-q="rec"] svg{color:var(--L-target)}
+@media (min-width:921px){.qafab{right:62px}.qamenu{right:62px}}
+#rv-more .shlist{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;border:0;border-radius:0;overflow:visible}
+#rv-more .shlist button{border:1px solid var(--line)!important;border-radius:14px;padding:14px 12px;align-content:start;gap:4px;min-height:118px}
+#rv-more .shlist button svg{color:var(--accent);margin-bottom:4px}
+#rv-more .shlist button b{font-size:16px}
+#rv-more .shlist button span{font-size:12.5px;line-height:1.3}
+@media (min-width:700px){#rv-more .shlist{grid-template-columns:repeat(3,minmax(0,1fr))}}
+</style>`);
+  mw.insertAdjacentHTML('beforeend',`<div class="qamenu" id="qaMenu" hidden role="menu" aria-label="Quick actions">
+<button type="button" role="menuitem" data-q="rec">${I(IC.rec)}Start hunt</button><button type="button" role="menuitem" data-q="find">${I(IC.find)}Log a find here</button>
+<button type="button" role="menuitem" data-q="id">${I(IC.id)}Identify something</button><button type="button" role="menuitem" data-q="save">${I(IC.save)}Save this area offline</button></div>
+<button type="button" class="qafab" id="qaFab" aria-label="Quick actions" aria-haspopup="true" aria-expanded="false">+</button>`);
+  const fab=document.getElementById('qaFab'), qm=document.getElementById('qaMenu');
+  const qClose=()=>{ qm.hidden=true; fab.setAttribute('aria-expanded','false'); };
+  fab.addEventListener('click',e=>{ e.stopPropagation(); if(qm.hidden){ try{ closePop(); }catch(_){} qm.hidden=false; fab.setAttribute('aria-expanded','true'); } else qClose(); });
+  document.addEventListener('click',e=>{ if(!qm.hidden&&!qm.contains(e.target)&&e.target!==fab) qClose(); });
+  document.addEventListener('keydown',e=>{ if(e.key==='Escape'&&!qm.hidden) qClose(); });
+  function qaSave(){ if(SH.phone) shGo('map'); else showView('map'); gmSheet(true); const s=document.querySelector('#gmSheet .ogsave'); if(s) setTimeout(()=>s.scrollIntoView({block:'nearest',behavior:'smooth'}),60); }
+  qm.addEventListener('click',e=>{ const b=e.target.closest('button[data-q]'); if(!b) return; e.stopPropagation(); qClose(); const q=b.dataset.q;
+    if(q==='rec') hrStart(); else if(q==='find') startFreeFind(); else if(q==='id') idOpen(); else qaSave(); });
+  // More: every item is one big tile, with Hunts, Finds log and Save offline added so nothing hides in another menu
+  const list=document.querySelector('#rv-more .shlist'); if(list){
+    list.insertAdjacentHTML('beforeend',`<button data-qm="hunt"><b>Hunts</b><span>Start one and see the ground you covered</span></button><button data-qm="finds"><b>Finds log</b><span>Everything you've dug, by spot</span></button><button data-qm="save"><b>Save offline</b><span>Keep an area on this phone for no-signal trips</span></button>`);
+    const TI={ident:'id',coins:'coin',skills:'skills',rules:'rules',book:'book',layers:'layers',hunt:'hunt',finds:'log',save:'save'};
+    list.querySelectorAll('button').forEach(b=>{ const k=TI[b.dataset.go||b.dataset.qm]; if(k) b.insertAdjacentHTML('afterbegin',I(IC[k])); });
+    list.addEventListener('click',e=>{ const b=e.target.closest('button[data-qm]'); if(!b) return; e.stopPropagation(); const k=b.dataset.qm;
+      if(k==='save') qaSave(); else if(k==='hunt'){ if(SH.phone) shGo('hunt'); else showView('hunt'); } else showView('finds'); },true); }
+} }
 </script>
+
+
+
 </body></html>
