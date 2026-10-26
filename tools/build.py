@@ -29,13 +29,27 @@ sat=sys.argv[3] if len(sys.argv)>3 else None; satpre=[]
 if img:
   os.makedirs(out+'/img',exist_ok=True)
   for f in sorted(os.listdir(img)):
-    if f.endswith('.json'): shutil.copy(os.path.join(img,f),out+'/img/'+f); satpre.append('img/'+f)
+    if f.endswith('.json'): shutil.copy(os.path.join(img,f),out+'/img/'+f)   # cached the first time a card shows them, so the first install stays small
 if sat:
   os.makedirs(out+'/sat',exist_ok=True)
   for f in sorted(os.listdir(sat)):
     if f.endswith('.webp'):
       shutil.copy(os.path.join(sat,f),out+'/sat/'+f)
       if not f.startswith('2_'): satpre.append('sat/'+f)   # coarse tiles are saved on install; street-level ones as you look at them
+pk=sys.argv[5] if len(sys.argv)>5 else None   # parks, trails (pk/*.json): the park list is saved on install, outline and trail tiles as you look at them
+if pk:
+  if os.path.isdir(out+'/pk'): shutil.rmtree(out+'/pk')
+  os.makedirs(out+'/pk',exist_ok=True)
+  for f in sorted(os.listdir(pk)):
+    if f.endswith('.json'):
+      shutil.copy(os.path.join(pk,f),out+'/pk/'+f)
+      if f=='parks.json': satpre.append('pk/'+f)
+omr=sys.argv[6] if len(sys.argv)>6 else None   # regional old topo sheets (om/*.webp), cached the first time you look at them
+if omr:
+  if os.path.isdir(out+'/om'): shutil.rmtree(out+'/om')
+  os.makedirs(out+'/om',exist_ok=True)
+  for f in sorted(os.listdir(omr)):
+    if f.endswith('.webp'): shutil.copy(os.path.join(omr,f),out+'/om/'+f)
 h=hashlib.sha256()
 for d,_,fs in sorted(os.walk(out)):
   for f in sorted(fs):
