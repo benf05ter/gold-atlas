@@ -10,7 +10,7 @@ assert 'function hrDraw(' in c, 'atlas has no hunt recorder; is this the right f
 head=('<link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icons/apple-touch-icon.png">'
  '<meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes">'
  '<meta name="apple-mobile-web-app-title" content="Old Ground"><meta name="apple-mobile-web-app-status-bar-style" content="default">'
- '<meta name="theme-color" content="#eef0ea"><meta name="robots" content="noindex,nofollow">'
+ '<meta name="theme-color" content="#f3eee2"><meta name="robots" content="noindex,nofollow">'
  # iPhone launch screens (portrait), drawn by icons.py: (css width, css height, pixel ratio, image)
  +''.join(f'<link rel="apple-touch-startup-image" media="screen and (device-width: {w}px) and (device-height: {h}px) and (-webkit-device-pixel-ratio: {r}) and (orientation: portrait)" href="icons/splash-{w*r}x{h*r}.png">'
    for w,h,r in [(440,956,3),(430,932,3),(402,874,3),(393,852,3),(428,926,3),(390,844,3),(375,812,3),(414,896,3),(414,896,2),(360,780,3),(375,667,2)]))
@@ -59,7 +59,7 @@ for d,_,fs in sorted(os.walk(out)):
     if f!='sw.js': h.update(open(os.path.join(d,f),'rb').read())
 ver=h.hexdigest()[:12]
 open(out+'/sw.js','w').write(open(os.path.join(T,'sw.js')).read().replace('__VERSION__',ver).replace('__SAT__',json.dumps(satpre)))
-json.dump({'name':'Old Ground','short_name':'Old Ground','start_url':'./','scope':'./','display':'standalone','background_color':'#1c3025','theme_color':'#eef0ea',
+json.dump({'name':'Old Ground','short_name':'Old Ground','start_url':'./','scope':'./','display':'standalone','background_color':'#1c3025','theme_color':'#f3eee2',
  'icons':[{'src':'icons/icon-192.png','sizes':'192x192','type':'image/png'},{'src':'icons/icon-512.png','sizes':'512x512','type':'image/png'},{'src':'icons/maskable-512.png','sizes':'512x512','type':'image/png','purpose':'maskable'}]},
  open(out+'/manifest.webmanifest','w'),indent=1)
 print('built',out,'version',ver,os.path.getsize(out+'/index.html'),'bytes')
