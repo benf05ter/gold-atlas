@@ -243,6 +243,70 @@ body.simple h1{font-size:1.35rem}
 .cldl .item{padding:9px 12px}
 </style>
 <style>/* keep two-finger zoom on the map, not the whole page (iPhone page zoom got stuck inside the map) */.app{touch-action:pan-x pan-y}</style><style>
+/* app layout: modes, tidy map buttons, tab bar, slide-up cards */
+.shmodes{position:absolute;left:10px;top:58px;z-index:5;display:flex;gap:6px;max-width:calc(100% - 66px);overflow-x:auto;scrollbar-width:none;padding:2px}
+.shmodes::-webkit-scrollbar{display:none}
+.shmodes button{flex:none;font:700 13.5px var(--f-body);padding:7px 13px;border-radius:999px;border:1px solid var(--line);background:var(--panel);color:var(--ink);box-shadow:0 1px 6px color-mix(in srgb,var(--ink) 14%,transparent);cursor:pointer}
+.shmodes button[aria-pressed="true"]{background:var(--ink);color:var(--panel);border-color:var(--ink)}
+#vEC,#vCF,#vNorth,#vWI,#vOld,#vFind,#vRec{display:none!important}
+.ctl button#shDots{font-size:20px;line-height:1}
+#shMe.busy{color:var(--accent);animation:hrp 1s infinite}
+.key{display:none!important}.key.shshow{display:block!important;top:100px!important;bottom:auto!important}
+.shmenu{position:absolute;right:52px;top:10px;z-index:9;min-width:230px;max-width:calc(100% - 70px);background:var(--panel);border:1px solid var(--line);border-radius:10px;box-shadow:0 8px 28px color-mix(in srgb,var(--ink) 25%,transparent);display:grid;padding:6px}
+.shmenu[hidden]{display:none}
+.shmenu b{font:700 11.5px var(--f-mono);text-transform:uppercase;letter-spacing:.05em;color:var(--muted);padding:8px 10px 2px}
+.shmenu button{text-align:left;border:0;background:none;color:var(--ink);font:600 15px var(--f-body);padding:10px;border-radius:6px;cursor:pointer}
+.shmenu button:hover{background:var(--hl)}
+.shfab{position:absolute;left:50%;transform:translateX(-50%);bottom:14px;z-index:5;display:flex;gap:10px;align-items:center}
+.shfab.off{display:none}
+.shrec{white-space:nowrap;display:inline-flex;align-items:center;gap:9px;font:700 16px var(--f-body);padding:13px 22px;border-radius:999px;border:0;background:var(--L-target);color:#fff;box-shadow:0 6px 18px color-mix(in srgb,var(--L-target) 40%,transparent);cursor:pointer}
+.shrec span{width:12px;height:12px;border-radius:50%;background:#fff}
+.shfind{white-space:nowrap;font:700 14px var(--f-body);padding:11px 16px;border-radius:999px;border:1px solid var(--line);background:var(--panel);color:var(--ink);box-shadow:0 3px 12px color-mix(in srgb,var(--ink) 18%,transparent);cursor:pointer}
+.shrec.big{font-size:18px;padding:16px 28px}
+.shhunt{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:8px 0 6px}
+.shlist{display:grid;border:1px solid var(--line);border-radius:10px;overflow:hidden;margin:8px 0 14px}
+.shlist button{display:grid;gap:2px;text-align:left;border:0;border-bottom:1px solid var(--line);background:var(--panel);color:var(--ink);font:inherit;padding:13px 14px;cursor:pointer}
+.shlist button:last-child{border-bottom:0}
+.shlist button b{font-size:16px}.shlist button span{font-size:13.5px;color:var(--muted)}
+.shlist button:hover{background:var(--hl)}
+.shtabs,.shsheet{display:none}
+@media (min-width:921px){.views .shdesk{display:inline-block}}
+@media (max-width:920px){
+  .views .shdesk{display:none}
+  body.shell{--tabh:calc(58px + env(safe-area-inset-bottom,0px))}
+  body.shell .app{padding:0;gap:0;min-height:0}
+  body.shell header{display:none}
+  body.shell .readview{border:0;border-radius:0;padding-bottom:calc(var(--tabh) + 20px)}
+  body.shell .main{display:block}
+  body.shell[data-tab="map"] .panel{display:none}
+  body.shell[data-tab="map"] .mapwrap{position:fixed;left:0;right:0;top:0;bottom:var(--tabh);height:auto;min-height:0;border:0;border-radius:0;padding-top:env(safe-area-inset-top,0px)}
+  body.shell[data-tab="map"] .uxs{top:calc(10px + env(safe-area-inset-top,0px))}
+  body.shell[data-tab="map"] .ctl{top:calc(10px + env(safe-area-inset-top,0px))}
+  body.shell[data-tab="map"] .shmodes{top:calc(58px + env(safe-area-inset-top,0px))}
+  body.shell[data-tab="spots"] .mapwrap{display:none}
+  body.shell[data-tab="spots"] .panel{height:auto;min-height:calc(100dvh - var(--tabh));border:0;border-radius:0;padding-bottom:var(--tabh);padding-top:env(safe-area-inset-top,0px)}
+  body.shell[data-tab="spots"] .tabs{position:sticky;top:0;z-index:3;background:var(--panel)}
+  body.shell .shtabs{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:40;height:var(--tabh);padding-bottom:env(safe-area-inset-bottom,0px);box-sizing:border-box;background:color-mix(in srgb,var(--panel) 96%,transparent);border-top:1px solid var(--line);backdrop-filter:blur(8px)}
+  .shtabs button{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;border:0;background:none;color:var(--muted);font:600 11.5px var(--f-body);cursor:pointer;padding:6px 0 4px}
+  .shtabs button[aria-pressed="true"]{color:var(--accent)}
+  body.shell .shsheet{display:flex;flex-direction:column;position:absolute;left:0;right:0;bottom:0;z-index:8;height:46%;background:var(--panel);border-radius:16px 16px 0 0;box-shadow:0 -6px 26px color-mix(in srgb,var(--ink) 24%,transparent);transition:height .22s ease}
+  body.shell .shsheet[hidden]{display:none}
+  body.shell .shsheet[data-state="full"]{height:calc(100% - 14px - env(safe-area-inset-top,0px))}
+  body.shell .shsheet.drag{transition:none}
+  .shgrab{flex:none;display:flex;justify-content:center;padding:9px 0 7px;cursor:grab;touch-action:none}
+  .shgrab span{width:42px;height:5px;border-radius:3px;background:var(--line)}
+  .shbody{flex:1;min-height:0;overflow:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain}
+  .shbody .detail{border-bottom:0;padding-top:2px}
+  body.shell .shfab{bottom:16px}
+  body.shell .mapwrap.shcard .shfab{display:none}
+  body.shell .mapwrap .pop{bottom:10px}
+  body.shell .cld{z-index:9}
+  body.shell .appupd{bottom:calc(var(--tabh) + 10px)}
+  body.shell .hrbar{bottom:12px}
+}
+@media (prefers-reduced-motion:reduce){.shsheet{transition:none!important}}
+</style>
+<style>
 /* home-screen app */
 .appupd{position:fixed;left:max(12px,env(safe-area-inset-left,0px));right:max(12px,env(safe-area-inset-right,0px));bottom:max(12px,env(safe-area-inset-bottom,0px));z-index:60;max-width:520px;margin:0 auto;display:flex;gap:8px;align-items:center;background:var(--panel);color:var(--ink);border:1px solid var(--accent);border-radius:8px;padding:9px 12px;box-shadow:0 6px 24px color-mix(in srgb,var(--ink) 25%,transparent);font-size:14px}
 .appupd span{flex:1}
@@ -1612,6 +1676,129 @@ function streamCull(){ if(!on.has('_streams')) return; const all=scale()<250, m=
 const _ap3=apply; apply=function(){ _ap3(); streamCull(); };
 const _dm3=drawMarkers; drawMarkers=function(){ _dm3(); streamCull(); };
 streamCull();
+
+// ---------- app layout: bottom tabs, map modes, tidy map buttons, slide-up spot cards ----------
+// On phones (<=920px) the map fills the screen, a tab bar sits at the bottom and spot details slide up over the map.
+// Modes and the tidy map buttons apply at every width.
+var SH={tab:'map', mode:'detecting', phone:false};
+try{ SH.mode=localStorage.getItem('atlas-mode')||'detecting'; }catch(_){}
+const shIco={
+  map:'<path d="M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2z M9 4v14 M15 6v14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>',
+  spots:'<path d="M12 21s-6-5.6-6-11a6 6 0 0 1 12 0c0 5.4-6 11-6 11z" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="10" r="2.3" fill="currentColor"/>',
+  hunt:'<circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" fill="currentColor"/>',
+  log:'<path d="M6 3h9l3 3v15H6z M9 9h6 M9 13h6 M9 17h4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>',
+  more:'<circle cx="5" cy="12" r="1.9" fill="currentColor"/><circle cx="12" cy="12" r="1.9" fill="currentColor"/><circle cx="19" cy="12" r="1.9" fill="currentColor"/>'};
+const shSvg=k=>`<svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">${shIco[k]}</svg>`;
+// ---- map modes ----
+const SHM={
+  detecting:{n:'Detecting', d:'Ranked detecting ground: old schools, leads, beaches, parks, camps, ghost towns', L:['mine','school','lead','beach','gather','camp','ghost','flood84','treasure','history','_heat','_alerts','_tracks'], rankOnly:true},
+  gold:{n:'Gold', d:'Lode targets, gold streams and traps, panning spots, gold reports and glacial gravel', L:['target','trap','_streams','_belt','panning','report','glacial','_margin','_flow','lake','copper','superior','deposit','model','restricted','_heat','_tracks']},
+  history:{n:'History', d:'Every historic site, ghost town, school, camp, flood site, old rail line and treasure story', L:['history','ghost','treasure','flood84','_flood','_oldways','camp','gather','beach','school','lead','prehist','mine','_tracks']},
+  mine:{n:'My stuff', d:'Your spots, leads, finds heatmap and hunt tracks', L:['mine','lead','_heat','_tracks','_alerts']}};
+const shSL0=UX.SL;
+function shSetMode(m,keep){ if(!SHM[m]&&m!=='custom') m='detecting'; SH.mode=m; try{ localStorage.setItem('atlas-mode',m); }catch(_){}
+  if(m!=='custom'){ const M=SHM[m]; if(!UX.simple){ UX.simple=true; document.body.classList.add('simple'); try{ localStorage.setItem('atlas-simple','1'); }catch(_){} }
+    UX.SL=M.rankOnly?shSL0:new Set(); if(!keep){ on.clear(); M.L.forEach(i=>on.add(i)); } UX.ON=M.L.slice(); }
+  document.querySelectorAll('#shModes button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.m===m));
+  const h=document.getElementById('shModeNote'); if(h) h.textContent=m==='custom'?'Your own mix of layers. Pick a mode to reset.':SHM[m].d;
+  if(!keep){ renderLayers(); drawMarkers(); renderList(); if(typeof uxRenderSimple==='function') uxRenderSimple(); } }
+const mwrap=document.querySelector('.mapwrap');
+mwrap.insertAdjacentHTML('beforeend',`<div class="shmodes" id="shModes" role="group" aria-label="Map mode">${Object.entries(SHM).map(([k,v])=>`<button type="button" data-m="${k}" aria-pressed="false">${v.n}</button>`).join('')}</div>`);
+document.getElementById('shModes').onclick=e=>{ const b=e.target.closest('button[data-m]'); if(b) shSetMode(b.dataset.m); };
+// any hand-picked layer switch makes the mode "custom"
+document.getElementById('pane-layers').addEventListener('click',e=>{ if(e.target.closest('.lrow,#allOn,#goldOnly,#glacOnly,#pubOnly,#detOnly,#cuOnly,#histOnly')) setTimeout(()=>shSetMode('custom',true),0); });
+// ---- tidy map buttons: zoom, find me, a ⋯ menu, and big hunt buttons at the bottom ----
+const ctl=document.querySelector('.ctl');
+ctl.insertAdjacentHTML('beforeend','<button id="shMe" title="Find me" aria-label="Find me"><svg viewBox="0 0 24 24" width="20" height="20"><circle cx="12" cy="12" r="4" fill="currentColor"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="7.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button><button id="shDots" title="More map tools" aria-label="More map tools" aria-expanded="false">⋯</button>');
+mwrap.insertAdjacentHTML('beforeend',`<div class="shmenu" id="shMenu" hidden role="menu">
+  <b>Jump to</b><button data-c="vEC">Around Eau Claire</button><button data-c="vCF">Chippewa Falls, 1884 flood</button><button data-c="vNorth">Lake Superior gold country</button><button data-c="vWI">All three states</button>
+  <b>Tools</b><button data-c="vOld">Old maps slider (1936, 1972, today)</button><button data-c="key">Map key</button><button data-c="layers">All map layers</button><button data-c="find">Log a find where I stand</button></div>
+  <div class="shfab" id="shFab"><button class="shfind" id="shFind" type="button">+ Find</button><button class="shrec" id="shRec" type="button"><span></span>Start hunt</button></div>`);
+const shMenu=document.getElementById('shMenu'), shDots=document.getElementById('shDots');
+shDots.onclick=e=>{ e.stopPropagation(); shMenu.hidden=!shMenu.hidden; shDots.setAttribute('aria-expanded',!shMenu.hidden); };
+document.addEventListener('click',e=>{ if(!shMenu.hidden&&!e.target.closest('#shMenu,#shDots')){ shMenu.hidden=true; shDots.setAttribute('aria-expanded','false'); } });
+shMenu.onclick=e=>{ const b=e.target.closest('button[data-c]'); if(!b) return; shMenu.hidden=true; const c=b.dataset.c;
+  if(c==='key'){ const k=document.getElementById('key'); k.classList.toggle('shshow'); const d=k.querySelector('details'); if(d) d.open=k.classList.contains('shshow'); }
+  else if(c==='layers'){ shGo('spots'); showTab('layers'); }
+  else if(c==='find') startFreeFind();
+  else document.getElementById(c)?.click(); };
+document.getElementById('shRec').onclick=()=>hrStart();
+document.getElementById('shFind').onclick=()=>startFreeFind();
+function shMe(){ const b=document.getElementById('shMe'); if(!navigator.geolocation){ hrToast('Location is not available here.'); return; } b.classList.add('busy');
+  try{ navigator.geolocation.getCurrentPosition(pos=>{ b.classList.remove('busy'); const t=SH.tab; setOrigin(pos.coords.longitude,pos.coords.latitude,'you');
+    const [x,y]=P(pos.coords.longitude,pos.coords.latitude), w=Math.min(vb.w,0.12), h=w*vb.h/vb.w; vb={x:x-w/2,y:y-h/2,w,h}; fit(); apply(); if(SH.phone) shGo(t); },
+    ()=>{ b.classList.remove('busy'); hrToast('Your location is blocked here. Allow location for this page in your phone settings, or use the home-screen app.'); },{enableHighAccuracy:true,timeout:12000,maximumAge:30000}); }catch(_){ b.classList.remove('busy'); } }
+document.getElementById('shMe').onclick=shMe;
+// hide the big hunt buttons while a hunt is recording (the hunt bar takes over)
+const _hrb=hrRenderBar; hrRenderBar=function(){ _hrb(); document.getElementById('shFab')?.classList.toggle('off',!!HR.rec); };
+// ---- slide-up spot card (phones) ----
+mwrap.insertAdjacentHTML('beforeend','<section class="shsheet" id="shSheet" hidden aria-label="Spot details" data-state="peek"><div class="shgrab" id="shGrab" role="button" tabindex="0" aria-label="Show more or less"><span></span></div><div class="shbody" id="shBody"></div></section>');
+const sheet=document.getElementById('shSheet'), sbody=document.getElementById('shBody'), detailEl=document.getElementById('detail'), scrollEl=document.getElementById('scroll');
+function shPlaceDetail(){ const want=SH.phone?sbody:scrollEl; if(detailEl.parentElement!==want){ if(SH.phone) sbody.appendChild(detailEl); else scrollEl.insertBefore(detailEl,scrollEl.firstChild); } shSheetSync(); }
+function shSheetSync(){ const has=SH.phone&&detailEl.childElementCount>0; mwrap.classList.toggle('shcard',has); if(!has){ sheet.hidden=true; sheet.dataset.sid=''; return; }
+  const sid=selId||(detailEl.querySelector('h2')?.textContent||'x'); if(sheet.hidden||sheet.dataset.sid!==sid){ sheet.dataset.state='peek'; sbody.scrollTop=0; } sheet.dataset.sid=sid; sheet.hidden=false; }
+new MutationObserver(shSheetSync).observe(detailEl,{childList:true});
+function shSheetClose(){ const c=detailEl.querySelector('#closeD'); if(c) c.click(); else detailEl.innerHTML=''; selId=null; drawMarkers(); }
+{ let y0=null, h0=0, mv=false; const g=document.getElementById('shGrab');
+  g.addEventListener('pointerdown',e=>{ y0=e.clientY; h0=sheet.getBoundingClientRect().height; mv=false; g.setPointerCapture(e.pointerId); sheet.classList.add('drag'); });
+  g.addEventListener('pointermove',e=>{ if(y0==null) return; const dy=e.clientY-y0; if(Math.abs(dy)>6) mv=true; if(mv) sheet.style.height=Math.max(80,Math.min(mwrap.clientHeight-20,h0-dy))+'px'; });
+  const end=e=>{ if(y0==null) return; const dy=e.clientY-y0; y0=null; sheet.classList.remove('drag'); sheet.style.height='';
+    if(!mv){ sheet.dataset.state=sheet.dataset.state==='full'?'peek':'full'; return; }
+    if(dy<-40) sheet.dataset.state='full'; else if(dy>40){ if(sheet.dataset.state==='full') sheet.dataset.state='peek'; else shSheetClose(); } };
+  g.addEventListener('pointerup',end); g.addEventListener('pointercancel',end);
+  g.addEventListener('keydown',e=>{ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); sheet.dataset.state=sheet.dataset.state==='full'?'peek':'full'; } }); }
+sbody.addEventListener('scroll',()=>{ if(sheet.dataset.state==='peek'&&sbody.scrollTop>30) sheet.dataset.state='full'; },{passive:true});
+// one tap on a pin opens its card straight away; several pins under the finger open the side list
+const _op1=openPop; openPop=function(ids,sx,sy){ if(!SH.phone) return _op1(ids,sx,sy);
+  if(ids.length===1){ closePop(); select(ids[0],false); return; }
+  cldOpen({m:ids.map(id=>BYID[id]).filter(Boolean),p:BYID[ids[0]]}); };
+// ---- tabs (phones) ----
+document.body.insertAdjacentHTML('beforeend',`<nav class="shtabs" id="shTabs" aria-label="Main">${[['map','Map'],['spots','Spots'],['hunt','Hunt'],['log','Log'],['more','More']].map(([k,n])=>`<button type="button" data-t="${k}" aria-pressed="false">${shSvg(k)}<span>${n}</span></button>`).join('')}</nav>`);
+// Hunt and More get their own pages; the hunt list and data tools move out of the Finds log into Hunt
+document.getElementById('rv-finds').insertAdjacentHTML('afterend',`<section class="readview" id="rv-hunt" hidden><article class="read pad"><h2>Hunt</h2><p class="lede">Record the ground you swing, then come back for the gaps.</p>
+  <div class="shhunt"><button class="shrec big" id="shRec2" type="button"><span></span>Start hunt</button><button class="btn uxbig" id="shFind2" type="button">+ Log a find here</button></div><p class="hint" id="shRecNote"></p><div id="shHuntBox"></div></article></section>
+  <section class="readview" id="rv-more" hidden><article class="read pad"><h2>More</h2>
+  <div class="shlist"><button data-go="skills"><b>Field skills</b><span>Where gold settles, gear, detecting tips, glossary</span></button><button data-go="rules"><b>Rules</b><span>Where you can pan, detect and collect in each state</span></button><button data-go="book"><b>Library</b><span>The full Field Book and research notebooks</span></button><button data-go="layers"><b>All map layers</b><span>Switch any of the ${LAYERS.length} layers on or off</span></button></div>
+  <h3>Map</h3><div class="row"><button class="chip uxt" id="shClT" aria-pressed="${UX.cl}">Group nearby pins</button></div></article></section>`);
+{ const box=document.getElementById('shHuntBox'), a=document.getElementById('hunts'); if(a){ const move=[]; for(let n=a;n;n=n.nextElementSibling) move.push(n); move.forEach(n=>box.appendChild(n)); }
+  const hg=document.getElementById('hrGo'); if(hg) hg.closest('.row').remove();
+  const hh=a&&a.nextElementSibling; if(hh&&hh.classList.contains('hint')) hh.textContent='Every hunt you record, newest first. Tap one to see the ground you covered.'; }
+// wording for the new layout
+{ const _ush=uxSimpleHTML; uxSimpleHTML=function(){ return _ush().replace("The map shows only ranked detecting spots; the gold, glacial, copper and history research layers are under More.","Tap one to see it on the map. The Gold, History and My stuff buttons on the map switch to other layers."); }; }
+function shTabNames(){ if(!SH.phone) return; document.getElementById('tab-picks').textContent='Nearby'; document.getElementById('tab-layers').textContent='Layers'; document.getElementById('tab-list').textContent='Search'; }
+document.getElementById('shFind2').onclick=()=>{ shGo('map'); startFreeFind(); };
+document.querySelector('#rv-more .shlist').onclick=e=>{ const b=e.target.closest('button[data-go]'); if(!b) return; const g=b.dataset.go; if(g==='layers'){ shGo('spots'); showTab('layers'); } else { showView(g); shMark('more'); } };
+document.getElementById('shClT').onclick=e=>{ UX.cl=!UX.cl; try{ localStorage.setItem('atlas-cluster',UX.cl?'1':'0'); }catch(_){} e.currentTarget.setAttribute('aria-pressed',UX.cl); drawMarkers(); };
+document.querySelector('.views').insertAdjacentHTML('beforeend','<button data-rv="hunt" aria-pressed="false" class="shdesk">Hunts</button>');
+document.querySelector('.views [data-rv="hunt"]').onclick=()=>showView('hunt');
+{ const f=document.querySelector('#uxMore [data-go="finds"]'); if(f){ f.insertAdjacentHTML('afterend','<button type="button" data-go="hunt">Hunts</button>'); const h=f.nextElementSibling; h.onclick=()=>{ document.getElementById('uxMore').open=false; showView('hunt'); }; } }
+const _sv2=showView; showView=function(k){ if(k==='hunt'||k==='more'){ _sv2('finds'); document.getElementById('rv-finds').hidden=true; document.getElementById('rv-'+k).hidden=false;
+    document.querySelectorAll('.views button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.rv===k)); try{ history.replaceState(null,'','#'+k); }catch(_){} }
+  else { _sv2(k); document.getElementById('rv-hunt').hidden=true; document.getElementById('rv-more').hidden=true; }
+  shMark(k==='finds'?'log':k==='map'?(SH.tab==='spots'?'spots':'map'):k==='hunt'?'hunt':'more'); };
+function shMark(t){ SH.tab=t; document.body.dataset.tab=t; document.querySelectorAll('#shTabs button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.t===t)); }
+function shGo(t){ closePop(); shMenu.hidden=true;
+  if(t==='map'||t==='spots'){ SH.tab=t; showView('map'); shMark(t); if(t==='map'){ requestAnimationFrame(()=>{ fit(); apply(); }); } else { window.scrollTo(0,0); } }
+  else if(t==='log') showView('finds'); else showView(t);
+  if(t==='hunt') shHuntNote(); }
+function shHuntNote(){ const n=document.getElementById('shRecNote'), b=document.getElementById('shRec2'); if(!n) return;
+  b.innerHTML=HR.rec?(HR.rec.paused?'<span></span>Resume hunt':'<span></span>Hunt recording…'):'<span></span>Start hunt';
+  n.textContent=HR.rec?'Your hunt is on the Map tab, with Pause and Stop.':'Tap Start, put the phone in your pocket with the screen on, and swing. The map shows the ground you covered.'; }
+document.getElementById('shRec2').onclick=()=>{ if(HR.rec&&HR.rec.paused) hrPause(false); else if(!HR.rec) hrStart(); shGo('map'); };
+const _hrb2=hrRenderBar; hrRenderBar=function(){ _hrb2(); if(SH.tab==='hunt') shHuntNote(); };
+document.getElementById('shTabs').onclick=e=>{ const b=e.target.closest('button[data-t]'); if(b) shGo(b.dataset.t); };
+// the "More ▾" menu and Simple/Full switch are replaced by the tabs and modes on phones
+// picking a spot from any list shows its card on the map
+const _sel2=select; select=function(id,pan){ if(SH.phone&&SH.tab!=='map'&&BYID[id]){ shGo('map'); requestAnimationFrame(()=>_sel2(id,true)); return; } return _sel2(id,pan); };
+// ---- phone or desktop ----
+const shMQ=window.matchMedia('(max-width:920px)');
+function shLayout(){ const ph=shMQ.matches; SH.phone=ph; document.body.classList.toggle('shell',ph); shPlaceDetail(); shTabNames(); if(typeof uxRenderSimple==='function') uxRenderSimple(); if(!ph) sheet.hidden=true;
+  if(ph&&!document.body.dataset.tab) shMark(SH.tab); requestAnimationFrame(()=>{ fit(); apply(); }); }
+shMQ.addEventListener?shMQ.addEventListener('change',shLayout):shMQ.addListener(shLayout);
+window.addEventListener('resize',()=>{ if(SH.phone&&SH.tab==='map'){ clearTimeout(SH.rt); SH.rt=setTimeout(()=>{ fit(); apply(); },150); } });
+shSetMode(SH.mode, SH.mode==='custom');
+{ const h=(location.hash||'').slice(1); SH.tab=h==='finds'?'log':['hunt','more'].includes(h)?h:['skills','rules','book'].includes(h)?'more':'map'; }
+shLayout(); shMark(SH.tab); if(SH.tab==='hunt'||SH.tab==='more') showView(SH.tab);
 
 // ---------- home-screen app: works offline and updates itself ----------
 (function(){ if(window.claude||!('serviceWorker' in navigator)||(location.protocol!=='https:'&&!/^(localhost|127\.0\.0\.1)$/.test(location.hostname))) return;
