@@ -597,6 +597,13 @@ body.shell .shsheet{transition:height .42s cubic-bezier(.3,1.28,.5,1)}
 .shmodes .ridtab.on{background:var(--L-rock);border-color:var(--L-rock);color:#fff}
 .ridfloat{position:absolute;left:10px;top:58px;z-index:5;font:700 13.5px var(--f-body);padding:7px 13px;border-radius:999px;border:1px solid var(--L-rock);background:var(--panel);color:var(--ink);cursor:pointer}
 @media (max-width:920px){body.shell .ridsheet{width:100%;border-left:0;top:env(safe-area-inset-top,0px)}}
+.rid-prog{height:6px;border-radius:3px;background:var(--line);overflow:hidden}.rid-prog i{display:block;height:100%;background:var(--accent)}
+.rid-q{font-size:1.3rem!important;margin:4px 0 0!important}
+.rid-sopts{display:grid;gap:8px;margin-top:4px}
+.rid-so{display:flex;align-items:center;gap:10px;text-align:left;font:600 16px var(--f-body);color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:13px 14px;cursor:pointer}
+.rid-so[aria-pressed="true"]{border-color:var(--accent);background:var(--hl)}
+.rid-so.skip{font-weight:400;color:var(--muted);background:none;border-style:dashed}
+.rid-so .rid-dot{width:18px;height:18px}
 </style>
 <style>
 /* home-screen app */
@@ -3119,28 +3126,9 @@ const _frC=findRow; findRow=function(f,w){ const h=_frC(f,w), t=[f.result,f.amou
 document.addEventListener('click',e=>{ const a=e.target.closest('a.cnid'); if(!a) return; e.preventDefault(); e.stopPropagation(); let q={}; try{ q=JSON.parse(a.dataset.cq); }catch(_){} coinOpen(q); },true);
 refreshFinds();
 if((location.hash||'')==='#coins') coinOpen();
-
-// ---------- home-screen app: works offline and updates itself ----------
-(function(){ if(window.claude||!('serviceWorker' in navigator)||(location.protocol!=='https:'&&!/^(localhost|127\.0\.0\.1)$/.test(location.hostname))) return;
-  document.body.classList.add('isapp');
-  try{ navigator.storage&&navigator.storage.persist&&navigator.storage.persist(); }catch(_){}
-  const t0=Date.now(), bar=document.createElement('div'); bar.className='appupd'; bar.hidden=true; document.body.appendChild(bar);
-  const say=(h,btn)=>{ bar.innerHTML=`<span>${h}</span>${btn?'<button class="btn uxgo" data-upd>Update now</button>':''}<button class="btn" data-x aria-label="Close">×</button>`; bar.hidden=false; };
-  let reloading=false; navigator.serviceWorker.addEventListener('controllerchange',()=>{ if(reloading) return; reloading=true; location.reload(); });
-  navigator.serviceWorker.register('sw.js').then(reg=>{
-    const busy=()=>typeof HR!=='undefined'&&HR.rec&&!HR.rec.paused;
-    const ready=()=>{ if(!reg.waiting||!navigator.serviceWorker.controller) return;
-      if(Date.now()-t0<8000&&!busy()) reg.waiting.postMessage('skip'); else say('A new version of the atlas is ready.',true); };
-    ready();
-    reg.addEventListener('updatefound',()=>{ const w=reg.installing; if(!w) return; w.addEventListener('statechange',()=>{ if(w.state!=='installed') return;
-      if(navigator.serviceWorker.controller) ready(); else { say('Saved on this phone. The atlas now works with no signal.'); setTimeout(()=>{ bar.hidden=true; },6000); } }); });
-    bar.addEventListener('click',e=>{ if(e.target.closest('[data-x]')) bar.hidden=true;
-      if(e.target.closest('[data-upd]')){ if(busy()) hrPause(true); reg.waiting&&reg.waiting.postMessage('skip'); } });
-    document.addEventListener('visibilitychange',()=>{ if(document.visibilityState==='visible') reg.update().catch(()=>{}); });
-  }).catch(()=>{});
-})();
 </script><script>
-// ---------- Identify: one search for coins, rocks and minerals, metals and relics, jewelry, and field tests ----------
+// ---------- Relics & jewelry guide (view 'ident'), plus the index the map search bar uses for all three ID guides ----------
+// Since v97 the guides are separate: coins on the Coin ID page, rocks in the rock tester, relics/jewelry/metal tests here (no mixed lists).
 // Coins come from COINS (Coin ID page), rocks/minerals/metals from IDROCKS (rockid script), relics/jewelry/tests from IDREL below.
 // Opened from More, the desktop menu, the map search bar (ID matches show under the places) and #identify.
 // IDREL row: [id, cat 'relic'|'jewel'|'test', name, dates, extra search words, what it is, [how to ID or date it], value, look-alikes or caution]
@@ -3320,7 +3308,7 @@ const IDREL=[
  ['Thin chains and small earrings read like foil.','Most gold rings read with nickels and pull tabs.','Big class rings can read up into zinc-penny range.','Silver and copper read high (with dimes, quarters and copper cents).'],
  '','On beaches and swimming spots, dig the foil and tab signals.']
 ];
-const IDCAT=[['','All'],['coin','Coins'],['rock','Rocks & minerals'],['metal','Metals & relics'],['jewel','Jewelry'],['test','Tests']];
+const IDCAT=[['','All'],['relic','Relics'],['jewel','Jewelry'],['test','Metal tests']];
 const IDLBL={coin:'Coin',rock:'Rock or mineral',metal:'Metal',relic:'Relic',jewel:'Jewelry',test:'How to test'};
 let IDX=null, IDQ={q:'',c:'',open:''};
 function idBuild(){ if(IDX) return IDX; IDX=[]; const dn=Object.fromEntries((typeof COIN_DEN!=='undefined'?COIN_DEN:[]).map(d=>[d[0],d[1]]));
@@ -3329,10 +3317,10 @@ function idBuild(){ if(IDX) return IDX; IDX=[]; const dn=Object.fromEntries((typ
   (window.IDROCKS||[]).forEach((r,i)=>IDX.push({id:'r:'+i,c:r.k==='metal'||r.k==='relic'?'metal':'rock',k:r.k==='metal'?'metal':r.k==='relic'?'relic':'rock',ri:i,n:r.n,s:r.f+' · '+r.c,
     t:[r.n,r.k,r.f,r.c,...r.id,r.la].join(' ').toLowerCase(),r}));
   (window.IDTESTS||[]).forEach((m,i)=>IDX.push({id:'m:'+i,c:'test',k:'test',n:m.t,s:m.why,t:[m.t,m.need,m.why,...m.steps].join(' ').toLowerCase(),m:i}));
-  for(const x of IDREL) IDX.push({id:'x:'+x[0],c:x[1]==='relic'?'metal':x[1],k:x[1],n:x[2],s:[x[3],x[5]].filter(Boolean).join(' · '),
+  for(const x of IDREL) IDX.push({id:'x:'+x[0],c:x[1],k:x[1],n:x[2],s:[x[3],x[5]].filter(Boolean).join(' · '),
     t:[x[2],x[4],x[5],...x[6]].join(' ').toLowerCase(),x});
   return IDX; }
-function idFind(qs,cat,lim){ const q=String(qs||'').trim().toLowerCase(), all=idBuild().filter(e=>!cat||e.c===cat); if(!q) return all.map(e=>({e,s:3}));
+function idFind(qs,cat,lim,mine){ const q=String(qs||'').trim().toLowerCase(), all=idBuild().filter(e=>(!cat||e.c===cat)&&(!mine||e.x)); if(!q) return all.map(e=>({e,s:3}));
   const tk=q.split(/\s+/).filter(Boolean), out=[];
   for(const e of all){ const nm=e.n.toLowerCase(); if(!tk.every(t=>e.t.includes(t)||nm.includes(t))) continue;
     out.push({e,s:nm.startsWith(q)?0:new RegExp('\\b'+q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).test(nm)?1:tk.every(t=>nm.includes(t))?2:3}); }
@@ -3360,11 +3348,11 @@ function idCardHTML(e){ let h=`<div class="idcard"><p><button class="btn" type="
 function idRender(){ const out=document.getElementById('idOut'); if(!out) return;
   document.querySelectorAll('#idChips button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.c===IDQ.c));
   if(IDQ.open){ const e=idBuild().find(x=>x.id===IDQ.open); if(e){ out.innerHTML=idCardHTML(e); out.querySelectorAll('.idcalc').forEach(idCalc); return; } IDQ.open=''; }
-  const r=idFind(IDQ.q,IDQ.c), q=IDQ.q.trim(), n=r.length;
-  out.innerHTML=`<p class="hint">${q?`${n} match${n===1?'':'es'} for “${esc(q)}”`:`${n} entries`}${IDQ.c?' in '+IDCAT.find(c=>c[0]===IDQ.c)[1]:''}</p>`+(n?`<div class="shlist idlist">${r.slice(0,120).map(x=>idRowHTML(x.e)).join('')}</div>${n>120?'<p class="hint">Type more to narrow the list.</p>':''}`:`<p>No match. Try a simpler word like <i>button</i>, <i>dime</i>, <i>quartz</i> or <i>14K</i>${IDQ.c?', or tap All':''}.</p>`); }
+  const r=idFind(IDQ.q,IDQ.c,0,true), q=IDQ.q.trim(), n=r.length;
+  out.innerHTML=`<p class="hint">${q?`${n} match${n===1?'':'es'} for “${esc(q)}”`:`${n} entries`}${IDQ.c?' in '+IDCAT.find(c=>c[0]===IDQ.c)[1]:''}</p>`+(n?`<div class="shlist idlist">${r.slice(0,120).map(x=>idRowHTML(x.e)).join('')}</div>${n>120?'<p class="hint">Type more to narrow the list.</p>':''}`:`<p>No match. Try a simpler word like <i>button</i>, <i>token</i>, <i>ring</i> or <i>14K</i>. Coins and rocks have their own guides${IDQ.c?', or tap All':''}.</p>`); }
 function idOpen(o){ o=o||{}; if(o.q!=null) IDQ.q=o.q; if(o.c!=null) IDQ.c=o.c; IDQ.open=o.open||''; showView('ident');
   const e=o.open&&idBuild().find(x=>x.id===o.open); if(e&&e.coin){ IDQ.open=''; coinOpen({den:e.coin[2],id:e.coin[0]}); return; }
-  if(e&&e.m!=null){ idHow(e.m); return; }
+  if(e&&e.m!=null){ idHow(e.m); return; } if(e&&e.ri!=null){ idRid('id',{i:e.ri}); return; }
   const i=document.getElementById('idQ'); if(i) i.value=IDQ.q; idRender(); }
 // the rock tester is a panel over the map (Minerals mode); go to the map and open it
 function idRid(v,o){ if(typeof ridOpen!=='function') return; if(typeof SH!=='undefined'&&SH.phone&&typeof shGo==='function') shGo('map'); else showView('map'); ridOpen(v,o); }
@@ -3391,10 +3379,10 @@ document.head.insertAdjacentHTML('beforeend',`<style>
 .idcalc output{grid-column:1/-1;font:600 15px var(--f-mono)}
 .idcalc .hint{grid-column:1/-1}
 </style>`);
-document.getElementById('rv-more').insertAdjacentHTML('afterend',`<section class="readview" id="rv-ident" hidden><article class="read pad"><h2>Identify</h2>
-<p class="lede">Search everything you might dig or pick up: coins, rocks and minerals, metals, relics, jewelry, and how to test them. Works offline.</p>
-<div class="idtools"><button type="button" class="btn" id="idRid">Rock tester (tap your test results)</button><button type="button" class="btn" id="idHowB">How to test</button></div>
-<input type="search" id="idQ" class="idsearch" placeholder="Try wheat cent, pyrite, button, 14K, agate" aria-label="Search coins, rocks, metals, relics and jewelry" autocomplete="off">
+document.getElementById('rv-more').insertAdjacentHTML('afterend',`<section class="readview" id="rv-ident" hidden><article class="read pad"><h2>Relics &amp; jewelry</h2>
+<p class="lede">Buttons, tokens, keys, tags, farm and fur-trade relics, rings and chains, and how to test gold and silver. Coins and rocks have their own guides.</p>
+<div class="idtools"><button type="button" class="btn" id="idCoinB">Coin ID guide</button><button type="button" class="btn" id="idRid">Rock ID guide</button></div>
+<input type="search" id="idQ" class="idsearch" placeholder="Try button, token, railroad key, 14K, ring" aria-label="Search relics and jewelry" autocomplete="off">
 <div class="idchips" id="idChips" role="group" aria-label="Show">${IDCAT.map(c=>`<button type="button" data-c="${c[0]}" aria-pressed="false">${c[1]}</button>`).join('')}</div>
 <div id="idOut"></div></article></section>`);
 document.getElementById('idQ').addEventListener('input',e=>{ IDQ.q=e.target.value; IDQ.open=''; idRender(); });
@@ -3403,27 +3391,73 @@ document.getElementById('idOut').addEventListener('click',e=>{ const b=e.target.
   if(b){ const x=idBuild().find(y=>y.id===b.dataset.id); if(x&&x.coin){ coinOpen({den:x.coin[2],id:x.coin[0]}); return; } if(x&&x.m!=null){ idHow(x.m); return; } IDQ.open=b.dataset.id; idRender(); window.scrollTo(0,0); document.getElementById('rv-ident').scrollIntoView({block:'start'}); return; }
   if(e.target.id==='idBack'){ IDQ.open=''; idRender(); return; }
   if(e.target.id==='idTests'){ const x=idBuild().find(y=>y.id===IDQ.open); if(x) idRid('id',{i:x.ri}); } });
-document.getElementById('idRid').onclick=()=>idRid('id',{});
-document.getElementById('idHowB').onclick=()=>idRid('how',{});
+document.getElementById('idRid').onclick=()=>idRid('step',{});
+document.getElementById('idCoinB').onclick=()=>coinOpen();
 document.getElementById('idOut').addEventListener('input',e=>{ const b=e.target.closest('.idcalc'); if(b) idCalc(b); });
 // the Identify view rides on the More view like Coin ID does
 { const _svI=showView; showView=function(k){ const v=document.getElementById('rv-ident');
   if(k==='ident'){ _svI('more'); document.getElementById('rv-more').hidden=true; v.hidden=false; document.querySelectorAll('.views button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.rv==='ident')); try{ history.replaceState(null,'','#identify'); }catch(_){} window.scrollTo(0,0); return; }
   v.hidden=true; _svI(k); }; }
-document.querySelector('#rv-more .shlist').insertAdjacentHTML('afterbegin','<button data-go="ident"><b>Identify</b><span>Coins, rocks, metals, relics and jewelry, plus the rock tester</span></button>');
-document.querySelector('.views').insertAdjacentHTML('beforeend','<button data-rv="ident" aria-pressed="false">Identify</button>');
+document.querySelector('#rv-more .shlist').insertAdjacentHTML('afterbegin','<button data-go="ident"><b>Relics &amp; jewelry</b><span>Buttons, tokens, keys, rings, and gold and silver tests</span></button>');
+document.querySelector('.views').insertAdjacentHTML('beforeend','<button data-rv="ident" aria-pressed="false">Relics &amp; jewelry</button>');
 document.querySelector('.views [data-rv="ident"]').onclick=()=>idOpen();
-{ const um=document.querySelector('#uxMore [data-go="finds"]'); if(um){ um.insertAdjacentHTML('afterend','<button type="button" data-go="ident">Identify</button>'); um.nextElementSibling.onclick=()=>{ document.getElementById('uxMore').open=false; idOpen(); }; } }
-{ const cr=document.querySelector('#rv-coins .lede'); if(cr) cr.insertAdjacentHTML('afterend','<p class="hint"><a href="#identify" id="cnToId">Search coins, relics, rocks and jewelry together on the Identify page</a></p>'), document.getElementById('cnToId').onclick=e=>{ e.preventDefault(); idOpen({c:'coin'}); }; }
+{ const um=document.querySelector('#uxMore [data-go="finds"]'); if(um){ um.insertAdjacentHTML('afterend','<button type="button" data-go="ident">Relics &amp; jewelry</button>'); um.nextElementSibling.onclick=()=>{ document.getElementById('uxMore').open=false; idOpen(); }; } }
 // map search bar: ID entries show under the places
 { const _uf=uxFind; uxFind=function(qs){ const out=_uf(qs), q=String(qs||'').trim(); if(q.length<3||/^-?\d{1,2}\.\d/.test(q)) return out;
     const r=idFind(q,'',0), strong=r.filter(x=>x.s<=2), pick=(strong.length?strong:out.length?[]:r).slice(0,strong.length?4:3);
-    const ids=pick.map(x=>({k:'id',n:x.e.n,sub:'Identify · '+IDLBL[x.e.k],id:x.e.id}));
-    if(r.length>pick.length&&(pick.length||!out.length)) ids.push({k:'id',n:`See all ${r.length} matches in Identify`,sub:'Coins, rocks, relics and jewelry',q});
+    const GD=e=>e.coin?'Coin ID guide':e.ri!=null||e.m!=null?'Rock ID guide':'Relics & jewelry guide';
+    const ids=pick.map(x=>({k:'id',n:x.e.n,sub:GD(x.e)+' · '+IDLBL[x.e.k],id:x.e.id}));
     const ai=out.findIndex(x=>x.k==='all'); if(ai<0) return [...out,...ids]; out.splice(ai,0,...ids); return out; };
   const _up=uxPick; uxPick=function(r){ if(r&&r.k==='id'){ uxr.hidden=true; uxq.blur(); if(r.id) idOpen({q:'',c:'',open:r.id}); else idOpen({q:r.q,c:''}); return; } return _up(r); };
   uxq.placeholder='Search a place, coin, rock or relic'; }
 document.addEventListener('DOMContentLoaded',()=>{ if((location.hash||'')==='#identify') idOpen(); });
+</script><script>
+// ---------- Coin ID by picture: tap the coin type, then the year and mint; coins-only search ----------
+// Drawings (metal color, true relative size, the design's name), not photos. Sits on the Coin ID page above the year/mint form.
+{ const page=document.querySelector('#rv-coins .read'), form=document.getElementById('cnForm');
+  if(page&&form&&!document.getElementById('cnPick')){
+  const MM={wheat:19,lincoln:19,jeff:21.2,war5:21.2,buff:21.2,merc:17.9,rosie:17.9,dimec:17.9,wash:24.3,quartc:24.3,indian:19,vnick:21.2,barberd:17.9,slq:24.3,walker:30.6,franklin:30.6,kennedy:30.6,dollar:26.5,ike:38.1,
+    cacent:19,casil:23.9,shield:20.5,twoc:23,threec:17.9,seated:17.9,seatedq:24.3,barberq:24.3,barberh:30.6,large:28.5,flying:19,morgan:38.1,peace:38.1,gold:21.6};
+  const LB={wheat:'WHEAT',lincoln:'MEMORIAL',jeff:'MONTICELLO',war5:'BIG MINT\nMARK',buff:'BUFFALO',merc:'WINGED\nHEAD',rosie:'TORCH',dimec:'TORCH',wash:'EAGLE',quartc:'STATES',indian:'INDIAN',vnick:'V',barberd:'BARBER',slq:'STANDING',
+    walker:'WALKING',franklin:'BELL',kennedy:'KENNEDY',dollar:'$1',ike:'IKE',cacent:'MAPLE',casil:'CANADA',shield:'SHIELD',twoc:'2\nCENTS',threec:'III',seated:'SEATED',seatedq:'SEATED',barberq:'BARBER',barberh:'BARBER',large:'LARGE\nCENT',flying:'EAGLE',morgan:'MORGAN',peace:'PEACE',gold:'GOLD'};
+  const MET=c=>c[2]==='gold'?['#e3c15a','#a57f1c']:/^(wheat|lincoln|indian|flying|large|cacent|twoc)$/.test(c[0])?['#c98a5c','#7d4a2a']:/^(jeff|buff|vnick|shield|dimec|quartc|kennedy|dollar|ike)$/.test(c[0])?['#bfc2bd','#7c807a']:['#dfe2e4','#8d9296'];
+  const DISC=c=>{ const d=MM[c[0]]||20, r=Math.round(12+d*0.75), [f,s]=MET(c), L=(LB[c[0]]||'').split('\n'), w=2*r+4;
+    return `<svg viewBox="0 0 ${w} ${w}" width="${w}" height="${w}" aria-hidden="true"><circle cx="${w/2}" cy="${w/2}" r="${r}" fill="${f}" stroke="${s}" stroke-width="2.5"/><circle cx="${w/2}" cy="${w/2}" r="${r-5}" fill="none" stroke="${s}" stroke-opacity=".45" stroke-dasharray="1.5 2.5"/>${L.map((t,i)=>`<text x="${w/2}" y="${w/2+4+(i-(L.length-1)/2)*11}" text-anchor="middle" font-family="Source Sans 3,system-ui,sans-serif" font-weight="800" font-size="${t.length>7?8:9.5}" fill="${s}">${esc(t)}</text>`).join('')}</svg>`; };
+  const GR=[['1c','Cents'],['5c','Nickels'],['10c','Dimes'],['25c','Quarters'],['50c','Half dollars'],['1d','Dollars'],['gold','Gold'],['2c','Two and three cents'],['ca','Canadian']];
+  const grp=c=>c[2]==='3c'?'2c':c[2];
+  document.head.insertAdjacentHTML('beforeend',`<style>
+.cnpick h4{margin:14px 0 6px}
+.cngrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(104px,1fr));gap:8px}
+.cnt{display:grid;justify-items:center;align-content:start;gap:3px;text-align:center;border:1px solid var(--line);border-radius:12px;background:var(--panel);color:var(--ink);font:inherit;padding:8px 6px 9px;cursor:pointer;min-height:118px}
+.cnt b{font-size:13px;line-height:1.2}.cnt span{font-size:11.5px;color:var(--muted)}
+.cnt svg{height:62px;width:auto;max-width:100%}
+.cnt[aria-pressed="true"]{border-color:var(--accent);background:var(--hl);border-width:2px}
+.cnt .cntier{font-size:10.5px;padding:0 6px}
+.cnstep{font:700 12px var(--f-mono);text-transform:uppercase;letter-spacing:.05em;color:var(--accent);margin:14px 0 2px}
+</style>`);
+  const lede=page.querySelector('.lede'); if(lede) lede.textContent='What did you just dig? Tap the coin that looks like yours, then type the year and mint mark. You\'ll see what it is, roughly what it\'s worth dug, and the errors known for that exact coin.';
+  form.insertAdjacentHTML('beforebegin',`<div class="cnpick" id="cnPick"><p class="cnstep">Step 1 · Tap your coin</p>
+<input type="search" id="cnQ" class="idsearch" placeholder="Search coins: wheat, 1943, Morgan, buffalo" aria-label="Search coins" autocomplete="off">
+<p class="hint">Drawings show each coin's metal color and true relative size, not photos.</p><div id="cnGrid"></div></div><p class="cnstep">Step 2 · Year and mint mark</p>`);
+  let pick='';
+  const txt=c=>[c[3],c[2],c[6],c[4],c[5],c[10],LB[c[0]]||'',...(c[11]||[]).map(k=>k[2]),...(c[12]||[]).map(e=>e[2])].join(' ').toLowerCase();
+  function grid(){ const q=document.getElementById('cnQ').value.trim().toLowerCase(), yr=/^\d{4}$/.test(q)?+q:0, tk=q.split(/\s+/).filter(Boolean);
+    const ok=COINS.filter(c=>!q||(yr?yr>=c[4]&&yr<=c[5]:tk.every(t=>txt(c).includes(t))));
+    document.getElementById('cnGrid').innerHTML=ok.length?GR.map(([d,n])=>{ const cs=ok.filter(c=>grp(c)===d); return cs.length?`<h4>${n}</h4><div class="cngrid">${cs.map(c=>`<button type="button" class="cnt" data-pick="${c[0]}" aria-pressed="${c[0]===pick}">${DISC(c)}<b>${esc(c[3].replace(/ \(.*\)$/,''))}</b><span>${c[4]}–${c[5]>2090?'today':c[5]}</span><span class="cntier t${c[1]}">${coinTier(c[1])}</span></button>`).join('')}</div>`:''; }).join('')
+      :'<p>No coin matches. Try the design (wheat, buffalo, Mercury) or a year.</p>'; }
+  function choose(id){ const c=COINS.find(x=>x[0]===id); if(!c) return; pick=id; const y=+form.y.value||0; if(y&&(y<c[4]||y>c[5])) form.y.value='';
+    form.den.value=c[2]; COINQ={den:c[2],y:form.y.value,m:form.m.value}; coinShow(id); grid(); if(!form.y.value) setTimeout(()=>form.y.focus({preventScroll:true}),50); }
+  document.getElementById('cnGrid').addEventListener('click',e=>{ const b=e.target.closest('[data-pick]'); if(b) choose(b.dataset.pick); });
+  document.getElementById('cnQ').addEventListener('input',e=>{ const v=e.target.value.trim(); if(/^\d{4}$/.test(v)){ form.y.value=v; } grid(); });
+  document.getElementById('cnQ').addEventListener('keydown',e=>{ if(e.key!=='Enter') return; e.preventDefault(); const b=document.querySelector('#cnGrid [data-pick]'); if(b&&document.querySelectorAll('#cnGrid [data-pick]').length===1) choose(b.dataset.pick); });
+  // with a coin picked, Identify keeps that coin and adds the year and mint (otherwise the old denomination lookup runs)
+  form.addEventListener('submit',e=>{ if(!pick) return; const c=COINS.find(x=>x[0]===pick), y=+(form.y.value||'').replace(/\D/g,'')||0;
+    if(!c||form.den.value!==c[2]||(y&&(y<c[4]||y>c[5]))){ pick=''; grid(); return; } e.preventDefault(); e.stopImmediatePropagation(); COINQ={den:c[2],y:y?String(y):'',m:form.m.value}; coinShow(pick); },true);
+  form.den.addEventListener('change',()=>{ pick=''; grid(); });
+  { const _co=coinOpen; coinOpen=function(q){ _co(q); pick=q&&q.id||''; const i=document.getElementById('cnQ'); if(i&&!(q&&q.id)) i.value=''; grid(); }; }
+  // the old text lists at the bottom duplicate the pictures; keep only the care notes
+  { const h=[...page.querySelectorAll('h3')].find(x=>/how often they turn up/.test(x.textContent)); if(h){ let n=h.nextElementSibling; while(n&&n.tagName!=='H3'){ const nx=n.nextElementSibling; n.remove(); n=nx; } h.remove(); } }
+  grid(); } }
 </script><script>
 // ---------- rock, mineral and metal ID (inside the Minerals map mode) ----------
 // Part of the atlas since v92 (research/identify/patch.py puts it after identify.js); build.py injects it only into older atlases.
@@ -3644,18 +3678,18 @@ const SPL=Object.fromEntries(G.find(g=>g.id==='sp').opts), GL=G.find(g=>g.id==='
 // lives inside the Minerals map mode: a "Rock ID" button joins the mode row while Minerals is on, and opens a panel over the map
 const modes=document.getElementById('shModes');
 mw.insertAdjacentHTML('beforeend',`<section class="ridsheet" id="ridSheet" hidden aria-label="Rock and metal ID"><div class="ridh"><b>${RICON} Rock &amp; metal ID</b><button class="px" id="rid-x" aria-label="Close">×</button></div>
- <div class="ridtabs" id="rid" role="group" aria-label="Rock and metal ID"><button id="rid-t-id" data-v="id" aria-pressed="true">Identify</button><button id="rid-t-how" data-v="how" aria-pressed="false">How to test</button></div>
- <div class="ridbody" id="ridBody"><div id="rid-id"></div><div id="rid-how" hidden></div></div></section>`);
-const $=id=>document.getElementById(id), idBox=$('rid-id'), howBox=$('rid-how'), sheet=$('ridSheet'), body=$('ridBody');
+ <div class="ridtabs" id="rid" role="group" aria-label="Rock and metal ID"><button id="rid-t-step" data-v="step" aria-pressed="false">Step by step</button><button id="rid-t-id" data-v="id" aria-pressed="true">All tests</button><button id="rid-t-how" data-v="how" aria-pressed="false">How to test</button></div>
+ <div class="ridbody" id="ridBody"><div id="rid-step" hidden></div><div id="rid-id"></div><div id="rid-how" hidden></div></div></section>`);
+const $=id=>document.getElementById(id), stepBox=$('rid-step'), idBox=$('rid-id'), howBox=$('rid-how'), sheet=$('ridSheet'), body=$('ridBody');
 const top0=()=>{ body.scrollTop=0; };
-function view(v){ st.view=v; ['id','how'].forEach(k=>$('rid-t-'+k).setAttribute('aria-pressed',k===v)); idBox.hidden=v!=='id'; howBox.hidden=v!=='how'; top0(); }
+function view(v){ st.view=v; ['step','id','how'].forEach(k=>$('rid-t-'+k).setAttribute('aria-pressed',k===v)); stepBox.hidden=v!=='step'; idBox.hidden=v!=='id'; howBox.hidden=v!=='how'; if(v==='step') renderStep(); top0(); }
 $('rid').onclick=e=>{ const b=e.target.closest('button[data-v]'); if(b){ st.open=null; view(b.dataset.v); renderId(); } };
 let tab=null;
 function openSheet(){ try{ closePop(); }catch(_){} try{ const d=document.getElementById('cld'); if(d){ d.hidden=true; } }catch(_){} sheet.hidden=false; if(tab) tab.setAttribute('aria-expanded','true'), tab.classList.add('on'); }
 function closeSheet(){ sheet.hidden=true; if(tab) tab.setAttribute('aria-expanded','false'), tab.classList.remove('on'); }
 $('rid-x').onclick=closeSheet;
 // Identify page: open the panel on a tab, a specimen (i) or a test method (m)
-window.ridOpen=(v,o)=>{ o=o||{}; if(o.q!=null) st.q=o.q; st.open=o.i!=null?o.i:null; view(v||'id'); renderId(); openSheet();
+window.ridOpen=(v,o)=>{ o=o||{}; if(o.q!=null) st.q=o.q; if(v==='step'&&o.i==null){ G.forEach(g=>st[g.id]=g.multi?new Set():null); st.loc='auto'; st.step=0; } st.open=o.i!=null?o.i:null; view(v||'id'); renderId(); openSheet();
   if(o.m!=null){ const m=howBox.querySelectorAll('.rid-m')[o.m]; if(m) setTimeout(()=>{ body.scrollTop=m.offsetTop-body.offsetTop; },30); } };
 if(modes){ const gb=modes.querySelector('[data-m="gold"]');
   (gb||modes.lastElementChild).insertAdjacentHTML(gb?'afterend':'beforeend',`<button type="button" class="ridtab" id="ridTab" aria-expanded="false" hidden>${RICON}Rock ID</button>`);
@@ -3737,6 +3771,28 @@ idBox.onclick=e=>{ const c=e.target.closest('.rid-c');
   if(e.target.id==='rid-back'){ st.open=null; renderId(); return; }
   const k=e.target.closest('.rid-card'); if(k){ st.open=+k.dataset.i; renderId(); top0(); } };
 
+// step by step: one question at a time, the best matches update under each answer (answers share the All tests filters)
+const STEPQ=['cat','col','mag','st','heft','hard','lus','acid','li','uv']; st.step=0;
+function stepRank(){ const c=crit(); if(!c.some(k=>k.g.id!=='loc')) return null; return S.map((s,i)=>({s,i,r:score(s,c)})).sort((a,b)=>b.r.pct-a.r.pct||a.s.n.localeCompare(b.s.n)); }
+function stepHTML(){ const rk=stepRank(), n=STEPQ.length, done=st.step>=n, top=rk&&rk[0], sure=!!(top&&top.r.pct>=85&&nTests(top.r.parts)>=3&&(!rk[1]||rk[1].r.pct<=top.r.pct-10));
+  let h='<div class="sec">';
+  if(!done&&!sure){ const g=G.find(x=>x.id===STEPQ[st.step]);
+    h+=`<div class="rid-head"><span class="mono">Question ${st.step+1} of ${n}</span>${st.step?'<button class="btn" data-sb="back">← Back</button>':''}</div><div class="rid-prog"><i style="width:${Math.round(100*st.step/n)}%"></i></div>
+    <h3 class="rid-q">${E(g.label)}</h3>${g.how?`<p class="hint">${E(g.how)}</p>`:''}<div class="rid-sopts">${g.opts.map(([v,l,d])=>`<button class="rid-so" data-sv="${v}" aria-pressed="${st[g.id]===v}">${d?`<span class="rid-dot" style="background:${d}"></span>`:''}${E(l)}</button>`).join('')}<button class="rid-so skip" data-sv="">Not sure or not tested, skip</button></div>`; }
+  else h+=`<h3 class="rid-q">${sure?'Most likely':'What fits best'}</h3><div class="row"><button class="btn" data-sb="restart">Start over</button>${st.step?'<button class="btn" data-sb="back">← Back</button>':''}<button class="btn" data-sb="fine">Fine-tune with every test</button></div>`;
+  h+='</div>';
+  if(rk){ const ok=rk.filter(x=>x.r.pct>=45), show=ok.slice(0,done||sure?6:3);
+    h+=`<div class="rid-lab">${done||sure?'Matches':'Best matches so far'} · ${rk.filter(x=>x.r.pct>=65).length} likely</div><div class="rid-list">${show.map(x=>card(x.s,x.i,x.r)).join('')||'<p class="hint" style="padding:0 14px">Nothing fits yet. Re-check your last answer.</p>'}</div>`; }
+  else h+='<p class="hint" style="padding:10px 14px">Answer what you can and skip anything you haven\'t tested. The best matches show here after your first answer.</p>';
+  return h; }
+function renderStep(){ stepBox.innerHTML=stepHTML(); }
+stepBox.onclick=e=>{ const o=e.target.closest('[data-sv]');
+  if(o){ const g=G.find(x=>x.id===STEPQ[st.step]); st[g.id]=o.dataset.sv||null; st.step++; save(); renderStep(); top0(); return; }
+  const b=e.target.closest('[data-sb]'); if(b){ const k=b.dataset.sb;
+    if(k==='back') st.step=Math.max(0,st.step-1); else if(k==='restart'){ G.forEach(g=>st[g.id]=g.multi?new Set():null); st.loc='auto'; st.step=0; save(); }
+    else if(k==='fine'){ st.open=null; view('id'); renderId(); return; } renderStep(); top0(); return; }
+  const k=e.target.closest('.rid-card'); if(k){ st.open=+k.dataset.i; view('id'); renderId(); top0(); } };
+
 // how to test
 howBox.innerHTML=`<div class="sec"><h3>How to test a specimen</h3><p class="hint">Field tests narrow things down; one test rarely proves an ID. Combine at least three (streak, hardness, heft, magnet) before you trust a match.</p></div>`+
  M.map(m=>`<div class="rid-m"><h3>${E(m.t)}</h3><span class="rid-f">Need: ${E(m.need)}</span><p>${E(m.why)}</p><ol class="rid-ul">${m.steps.map(x=>`<li>${E(x)}</li>`).join('')}</ol>
@@ -3752,17 +3808,19 @@ $('rid-w1').oninput=$('rid-w2').oninput=calc; calc();
 renderId();
 })();
 </script><script>
-// ---------- fewer chips under the map search bar: one map-mode chip with a menu, and an ID guide chip ----------
-// The original mode buttons (Historical markers, Detecting, Minerals, History, My stuff) stay in #shModes, hidden, and the menu clicks them,
-// so every mode keeps working as before. The Rock ID chip is hidden too: the ID guide opens Identify, which opens the rock tester.
+// ---------- four chips under the map search bar: Map mode ▾, Historical markers, ID guide ▾, Near me ----------
+// The original mode buttons (Detecting, Minerals, History) stay in #shModes, hidden, and the mode menu clicks them, so every mode keeps
+// working as before. My stuff is dropped (my spots, finds and covered ground show in every mode). The Rock ID chip is hidden too.
 { const row=document.getElementById('shModes'), mw=document.querySelector('.mapwrap');
   if(row&&mw&&!document.getElementById('mcMode')){
-  const DS={markers:'Roadside history markers, listed',detecting:'Ranked spots to detect',gold:'Gold, agates, rocks and minerals',history:'Ghost towns, old schools, depots',mine:'Your finds, tracks and saved spots'};
+  const DS={detecting:'Ranked spots to detect',gold:'Gold, agates, rocks and minerals',history:'Ghost towns, old schools, depots'};
+  if(SH.mode==='mine') shSetMode('detecting');
   document.head.insertAdjacentHTML('beforeend',`<style>
-#shModes>:not(.mc){display:none!important}
+#shModes>:not(.mc):not(#hmTab){display:none!important}
 #shModes .mc{display:inline-flex;align-items:center;gap:6px}
 #shModes .mc[aria-expanded="true"]{background:var(--ink);color:var(--panel);border-color:var(--ink)}
-#shModes #mcMode .mcv{font-size:11px;opacity:.7}
+#shModes .mcv{font-size:11px;opacity:.7}
+@media (max-width:440px){#shModes{gap:5px}#shModes>button{padding:7px 10px!important;font-size:13px!important}#shModes>button .ic{display:none}}
 .mcmenu{position:absolute;z-index:9;left:10px;width:min(290px,calc(100% - 20px));background:var(--panel);border:1px solid var(--line);border-radius:12px;box-shadow:0 8px 28px color-mix(in srgb,var(--ink) 25%,transparent);display:grid;padding:6px}
 .mcmenu[hidden]{display:none}
 .mcmenu b.mcl{font:700 11.5px var(--f-mono);text-transform:uppercase;letter-spacing:.05em;color:var(--muted);padding:6px 10px 2px}
@@ -3771,10 +3829,11 @@ renderId();
 .mcmenu button i{font-style:normal;color:var(--accent);font-weight:800}
 .mcmenu button:hover,.mcmenu button[aria-pressed="true"]{background:var(--hl)}
 </style>`);
-  row.insertAdjacentHTML('afterbegin',`<button type="button" class="mc" id="mcMode" aria-haspopup="true" aria-expanded="false"><span id="mcModeT">Detecting</span><span class="mcv">▾</span></button><button type="button" class="mc" id="mcId"><svg class="ic" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M7 4h10l4 6-9 11L3 10z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>ID guide</button>`);
+  row.insertAdjacentHTML('afterbegin',`<button type="button" class="mc" id="mcMode" aria-haspopup="true" aria-expanded="false"><span id="mcModeT">Detecting</span><span class="mcv">▾</span></button><button type="button" class="mc" id="mcId"><svg class="ic" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M7 4h10l4 6-9 11L3 10z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>ID guide<span class="mcv">▾</span></button><button type="button" class="mc" id="mcNear"><svg class="ic" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M12 21s-6-5.6-6-10.5a6 6 0 0 1 12 0C18 15.4 12 21 12 21z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="10.5" r="2.2" fill="currentColor"/></svg>Near me</button>`);
+  { const hm=document.getElementById('hmTab'); if(hm){ document.getElementById('mcMode').after(hm); hm.title='Historical markers'; const t=[...hm.childNodes].find(n=>n.nodeType===3&&/Historical markers/.test(n.textContent)); if(t) t.textContent='Markers'; } }
   mw.insertAdjacentHTML('beforeend','<div class="mcmenu" id="mcMenu" hidden role="menu" aria-label="Map mode"></div>');
-  const btn=document.getElementById('mcMode'), menu=document.getElementById('mcMenu'), orig=()=>[...row.querySelectorAll('button[data-m]')].filter(b=>!b.classList.contains('mc'));
-  const label=()=>{ const on=orig().find(b=>b.getAttribute('aria-pressed')==='true'); document.getElementById('mcModeT').textContent=on?on.textContent.trim():'Custom layers'; };
+  const btn=document.getElementById('mcMode'), menu=document.getElementById('mcMenu'), orig=()=>[...row.querySelectorAll('button[data-m]')].filter(b=>!b.classList.contains('mc')&&DS[b.dataset.m]);
+  const label=()=>{ const on=orig().find(b=>b.getAttribute('aria-pressed')==='true'); document.getElementById('mcModeT').textContent=on?on.textContent.trim():SH.mode==='markers'?'Map mode':'Custom layers'; };
   const close=()=>{ menu.hidden=true; btn.setAttribute('aria-expanded','false'); };
   btn.addEventListener('click',e=>{ e.stopPropagation(); if(!menu.hidden){ close(); return; }
     menu.innerHTML='<b class="mcl">Show on the map</b>'+orig().map((b,i)=>{ const on=b.getAttribute('aria-pressed')==='true';
@@ -3784,16 +3843,19 @@ renderId();
   document.addEventListener('click',e=>{ if(!menu.hidden&&!menu.contains(e.target)&&e.target!==btn) close(); });
   document.addEventListener('keydown',e=>{ if(e.key==='Escape'&&!menu.hidden) close(); });
   // ID guide: a chooser with the two guides, plus the all-in-one search
-  const IDM=[['coin','Coin ID guide','What a dug coin is, its value and its errors'],['rock','Rock ID guide','Tap your test results; rocks, minerals and metals'],['all','Search everything','Coins, rocks, relics, jewelry and tests together']];
+  const IDM=[['coin','Coin ID guide','Tap the coin, then the year and mint'],['rock','Rock ID guide','A few questions, one at a time, until it narrows'],['all','Relics & jewelry','Buttons, tokens, keys, rings, gold and silver tests']];
   mw.insertAdjacentHTML('beforeend','<div class="mcmenu" id="mcIdMenu" hidden role="menu" aria-label="ID guides"><b class="mcl">ID guides</b>'+IDM.map(m=>`<button type="button" role="menuitem" data-g="${m[0]}"><i></i>${m[1]}<span>${m[2]}</span></button>`).join('')+'</div>');
   const idb=document.getElementById('mcId'), idm=document.getElementById('mcIdMenu'), idClose=()=>{ idm.hidden=true; idb.setAttribute('aria-expanded','false'); };
   idb.setAttribute('aria-haspopup','true'); idb.setAttribute('aria-expanded','false');
   idb.addEventListener('click',e=>{ e.stopPropagation(); close(); if(!idm.hidden){ idClose(); return; } idm.style.top=(row.offsetTop+row.offsetHeight+6)+'px'; idm.hidden=false; idb.setAttribute('aria-expanded','true'); });
   btn.addEventListener('click',idClose);
   idm.addEventListener('click',e=>{ const b=e.target.closest('button[data-g]'); if(!b) return; e.stopPropagation(); idClose(); const g=b.dataset.g;
-    if(g==='coin') coinOpen(); else if(g==='rock'&&typeof idRid==='function'&&typeof ridOpen==='function') idRid('id',{}); else idOpen(); });
+    if(g==='coin') coinOpen(); else if(g==='rock'&&typeof idRid==='function'&&typeof ridOpen==='function') idRid('step',{}); else idOpen(); });
   document.addEventListener('click',e=>{ if(!idm.hidden&&!idm.contains(e.target)&&e.target!==idb) idClose(); });
   document.addEventListener('keydown',e=>{ if(e.key==='Escape'&&!idm.hidden) idClose(); });
+  // Near me: sort from GPS and show the nearest rank 1-2 spots you haven't worked
+  document.getElementById('mcNear').addEventListener('click',e=>{ e.stopPropagation(); close(); idClose(); document.getElementById('nearMe').click(); if(SH.phone) shGo('spots'); showTab('picks'); });
+  { const _us=uxSimpleHTML; uxSimpleHTML=function(){ return _us().replace('The Gold, History and My stuff buttons on the map switch to other layers.','The Map mode chip on the map switches to other layers.'); }; }
   new MutationObserver(label).observe(row,{subtree:true,attributes:true,attributeFilter:['aria-pressed']}); label(); } }
 </script><script>
 // ---------- quick-action + button on the map, and More as one page of big tiles ----------
@@ -3805,6 +3867,8 @@ renderId();
     layers:'<path d="M12 3l9 5-9 5-9-5z"/><path d="M3 12.5l9 5 9-5M3 16.5l9 5 9-5"/>',hunt:'<path d="M4 18c3-6 5-2 8-8s6-4 8-6"/><circle cx="4" cy="18" r="1.6" fill="currentColor"/><circle cx="20" cy="4" r="1.6" fill="currentColor"/>',log:'<path d="M6 3h9l4 4v14H6z"/><path d="M9 11h7M9 15h7M9 7h3"/>'};
   document.head.insertAdjacentHTML('beforeend',`<style>
 #gmRec:not(.on){display:none!important}
+.plzoom{top:auto!important;bottom:18px;transform:none!important}
+.mapwrap.shcard .plzoom{display:none}
 .qafab{position:absolute;right:14px;bottom:18px;z-index:6;width:60px;height:60px;border-radius:50%;border:0;background:var(--ogforest,var(--accent));color:#fff;font:400 34px/1 var(--f-body);box-shadow:0 6px 18px color-mix(in srgb,var(--ink) 30%,transparent);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:transform .2s}
 .qafab[aria-expanded="true"]{transform:rotate(45deg)}
 .mapwrap.hrOn .qafab,.mapwrap.shcard .qafab{display:none}
@@ -3832,15 +3896,35 @@ renderId();
   document.addEventListener('keydown',e=>{ if(e.key==='Escape'&&!qm.hidden) qClose(); });
   function qaSave(){ if(SH.phone) shGo('map'); else showView('map'); gmSheet(true); const s=document.querySelector('#gmSheet .ogsave'); if(s) setTimeout(()=>s.scrollIntoView({block:'nearest',behavior:'smooth'}),60); }
   qm.addEventListener('click',e=>{ const b=e.target.closest('button[data-q]'); if(!b) return; e.stopPropagation(); qClose(); const q=b.dataset.q;
-    if(q==='rec') hrStart(); else if(q==='find') startFreeFind(); else if(q==='id') idOpen(); else qaSave(); });
+    if(q==='rec') hrStart(); else if(q==='find') startFreeFind(); else if(q==='id'){ const m=document.getElementById('mcId'); if(m) setTimeout(()=>m.click(),0); else idOpen(); } else qaSave(); });
   // More: every item is one big tile, with Hunts, Finds log and Save offline added so nothing hides in another menu
   const list=document.querySelector('#rv-more .shlist'); if(list){
-    list.insertAdjacentHTML('beforeend',`<button data-qm="hunt"><b>Hunts</b><span>Start one and see the ground you covered</span></button><button data-qm="finds"><b>Finds log</b><span>Everything you've dug, by spot</span></button><button data-qm="save"><b>Save offline</b><span>Keep an area on this phone for no-signal trips</span></button>`);
-    const TI={ident:'id',coins:'coin',skills:'skills',rules:'rules',book:'book',layers:'layers',hunt:'hunt',finds:'log',save:'save'};
+    list.insertAdjacentHTML('beforeend',`<button data-qm="rock"><b>Rock ID guide</b><span>A few questions, one at a time, until it narrows</span></button><button data-qm="hunt"><b>Hunts</b><span>Start one and see the ground you covered</span></button><button data-qm="finds"><b>Finds log</b><span>Everything you've dug, by spot</span></button><button data-qm="save"><b>Save offline</b><span>Keep an area on this phone for no-signal trips</span></button>`);
+    const TI={ident:'find',rock:'id',coins:'coin',skills:'skills',rules:'rules',book:'book',layers:'layers',hunt:'hunt',finds:'log',save:'save'};
     list.querySelectorAll('button').forEach(b=>{ const k=TI[b.dataset.go||b.dataset.qm]; if(k) b.insertAdjacentHTML('afterbegin',I(IC[k])); });
     list.addEventListener('click',e=>{ const b=e.target.closest('button[data-qm]'); if(!b) return; e.stopPropagation(); const k=b.dataset.qm;
-      if(k==='save') qaSave(); else if(k==='hunt'){ if(SH.phone) shGo('hunt'); else showView('hunt'); } else showView('finds'); },true); }
+      if(k==='save') qaSave(); else if(k==='rock') idRid('step',{}); else if(k==='hunt'){ if(SH.phone) shGo('hunt'); else showView('hunt'); } else showView('finds'); },true); }
 } }
+
+// ---------- home-screen app: works offline and updates itself ----------
+(function(){ if(window.claude||!('serviceWorker' in navigator)||(location.protocol!=='https:'&&!/^(localhost|127\.0\.0\.1)$/.test(location.hostname))) return;
+  document.body.classList.add('isapp');
+  try{ navigator.storage&&navigator.storage.persist&&navigator.storage.persist(); }catch(_){}
+  const t0=Date.now(), bar=document.createElement('div'); bar.className='appupd'; bar.hidden=true; document.body.appendChild(bar);
+  const say=(h,btn)=>{ bar.innerHTML=`<span>${h}</span>${btn?'<button class="btn uxgo" data-upd>Update now</button>':''}<button class="btn" data-x aria-label="Close">×</button>`; bar.hidden=false; };
+  let reloading=false; navigator.serviceWorker.addEventListener('controllerchange',()=>{ if(reloading) return; reloading=true; location.reload(); });
+  navigator.serviceWorker.register('sw.js').then(reg=>{
+    const busy=()=>typeof HR!=='undefined'&&HR.rec&&!HR.rec.paused;
+    const ready=()=>{ if(!reg.waiting||!navigator.serviceWorker.controller) return;
+      if(Date.now()-t0<8000&&!busy()) reg.waiting.postMessage('skip'); else say('A new version of the atlas is ready.',true); };
+    ready();
+    reg.addEventListener('updatefound',()=>{ const w=reg.installing; if(!w) return; w.addEventListener('statechange',()=>{ if(w.state!=='installed') return;
+      if(navigator.serviceWorker.controller) ready(); else { say('Saved on this phone. The atlas now works with no signal.'); setTimeout(()=>{ bar.hidden=true; },6000); } }); });
+    bar.addEventListener('click',e=>{ if(e.target.closest('[data-x]')) bar.hidden=true;
+      if(e.target.closest('[data-upd]')){ if(busy()) hrPause(true); reg.waiting&&reg.waiting.postMessage('skip'); } });
+    document.addEventListener('visibilitychange',()=>{ if(document.visibilityState==='visible') reg.update().catch(()=>{}); });
+  }).catch(()=>{});
+})();
 </script>
 
 
