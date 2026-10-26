@@ -1603,6 +1603,16 @@ cld.addEventListener('click',e=>{ if(e.target.closest('[data-x]')){ cld.hidden=t
 document.addEventListener('keydown',e=>{ if(e.key==='Escape'&&!cld.hidden){ cld.hidden=true; cldC=null; } });
 const _uxct0=uxClusterTap; uxClusterTap=function(c){ cldOpen(c); };
 
+// ---------- gold stream lines: draw only the streams near the screen when zoomed in ----------
+// About 10,000 stream paths (half are invisible tap targets) slowed phones to a crawl when zoomed in; off-screen ones are hidden after each zoom or pan.
+const STB=[...gStreams.querySelectorAll('path')].map(p=>{ const n=(p.getAttribute('d')||'').match(/-?\d+(?:\.\d+)?(?:e-?\d+)?/g)||[]; let a=1e9,b=1e9,c=-1e9,d=-1e9;
+  for(let i=0;i+1<n.length;i+=2){ const x=+n[i], y=+n[i+1]; if(x<a)a=x; if(x>c)c=x; if(y<b)b=y; if(y>d)d=y; } return [p,a,b,c,d,true]; });
+function streamCull(){ if(!on.has('_streams')) return; const all=scale()<250, m=0.6, x0=vb.x-vb.w*m, x1=vb.x+vb.w*(1+m), y0=vb.y-vb.h*m, y1=vb.y+vb.h*(1+m);
+  for(const e of STB){ const v=all||!(e[3]<x0||e[1]>x1||e[4]<y0||e[2]>y1); if(v!==e[5]){ e[5]=v; e[0].style.display=v?'':'none'; } } }
+const _ap3=apply; apply=function(){ _ap3(); streamCull(); };
+const _dm3=drawMarkers; drawMarkers=function(){ _dm3(); streamCull(); };
+streamCull();
+
 // ---------- home-screen app: works offline and updates itself ----------
 (function(){ if(window.claude||!('serviceWorker' in navigator)||(location.protocol!=='https:'&&!/^(localhost|127\.0\.0\.1)$/.test(location.hostname))) return;
   document.body.classList.add('isapp');
