@@ -11,9 +11,11 @@ head=('<link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-i
  '<meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes">'
  '<meta name="apple-mobile-web-app-title" content="Gold Atlas"><meta name="apple-mobile-web-app-status-bar-style" content="default">'
  '<meta name="theme-color" content="#eef0ea"><meta name="robots" content="noindex,nofollow">')
+c=c.replace('content="width=device-width,initial-scale=1,viewport-fit=cover"','content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover"',1)
 i=c.index('</head>'); c=c[:i]+head+c[i:]
 a='<div class="app">'; assert c.count(a)==1; c=c.replace(a,open(os.path.join(T,'app.css')).read()+a)
 i=c.rindex('</script>'); c=c[:i]+open(os.path.join(T,'app.js')).read()+c[i:]
+c=c.replace('For trips with no signal, install the home-screen app: open <a href="https://benf05ter.github.io/gold-atlas/a-f218a76394f8/" target="_blank" rel="noopener">the app link</a> in Safari, tap Share, then Add to Home Screen. It keeps the whole atlas, old maps included, on your phone and updates itself when you have signal.','You are in the home-screen app: the whole atlas, old maps included, is saved on this phone, and it updates itself when you have signal.')
 c=c.replace('For trips with no signal, save the offline copy <span class="mono">Upper-Midwest-Gold-Atlas.html</span> from the project files to your phone and open it in your browser before you lose service.',
  'For trips with no signal, use the home-screen app: open its link in Safari, tap Share, then Add to Home Screen. It keeps the whole atlas on your phone and updates itself when you have signal.')
 open(out+'/index.html','w',encoding='utf-8').write(c)

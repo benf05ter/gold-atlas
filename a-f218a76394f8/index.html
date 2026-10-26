@@ -1,4 +1,4 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style><link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icons/apple-touch-icon.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Gold Atlas"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="theme-color" content="#eef0ea"><meta name="robots" content="noindex,nofollow"></head><body>
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style><link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icons/apple-touch-icon.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Gold Atlas"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="theme-color" content="#eef0ea"><meta name="robots" content="noindex,nofollow"></head><body>
 <title>Upper Midwest Gold Atlas</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -233,6 +233,16 @@ body.simple h1{font-size:1.35rem}
 @media (max-width:920px){.mapwrap.hrOn .pop{bottom:118px}}
 </style>
 <style>
+/* bubble list drawer */
+.cld{position:absolute;top:0;right:0;bottom:0;z-index:7;width:min(320px,86%);background:var(--panel);border-left:1px solid var(--line);box-shadow:-6px 0 24px color-mix(in srgb,var(--ink) 18%,transparent);display:flex;flex-direction:column;min-height:0}
+.cld[hidden]{display:none}
+.cldh{display:flex;justify-content:space-between;align-items:center;padding:10px 12px 4px;font-family:var(--f-display);font-size:1.05rem}
+.cldh .px{width:36px;height:36px;border:0;background:none;color:var(--muted);font:600 22px var(--f-body);cursor:pointer;border-radius:5px}
+.cldb{display:flex;flex-wrap:wrap;gap:6px;align-items:center;padding:4px 12px 8px;border-bottom:1px solid var(--line)}
+.cldl{overflow:auto;flex:1;min-height:0;-webkit-overflow-scrolling:touch}
+.cldl .item{padding:9px 12px}
+</style>
+<style>/* keep two-finger zoom on the map, not the whole page (iPhone page zoom got stuck inside the map) */.app{touch-action:pan-x pan-y}</style><style>
 /* home-screen app */
 .appupd{position:fixed;left:max(12px,env(safe-area-inset-left,0px));right:max(12px,env(safe-area-inset-right,0px));bottom:max(12px,env(safe-area-inset-bottom,0px));z-index:60;max-width:520px;margin:0 auto;display:flex;gap:8px;align-items:center;background:var(--panel);color:var(--ink);border:1px solid var(--accent);border-radius:8px;padding:9px 12px;box-shadow:0 6px 24px color-mix(in srgb,var(--ink) 25%,transparent);font-size:14px}
 .appupd span{flex:1}
@@ -441,7 +451,7 @@ body.isapp .app{padding-top:max(14px,env(safe-area-inset-top,0px))}
         <p>The Library holds the full Field Book (17 chapters: how the gold got here, red drift, the Wisconsin gold belt, every gold report and treasure tale, copper and agates, history, research toolkit and links) and the Target Areas and Idea Bank research notebooks.</p>
 
         <h2 id="k-offline">Offline use</h2>
-        <p>Everything here, including the map, is built into this one page. Nothing loads from the internet except the fonts, which fall back to your phone's own. For trips with no signal, use the home-screen app: open its link in Safari, tap Share, then Add to Home Screen. It keeps the whole atlas on your phone and updates itself when you have signal. Google Maps and source links still need a connection. The old-map slider pictures (1936, 1972 and today) load from the online atlas, so open the slider once with a signal; the offline copy does not have them. Finds, worked marks and river levels save to your atlas when you are online and to your phone when you are not.</p>
+        <p>Everything here, including the map, is built into this one page. Nothing loads from the internet except the fonts, which fall back to your phone's own. You are in the home-screen app: the whole atlas, old maps included, is saved on this phone, and it updates itself when you have signal. Google Maps and source links still need a connection. The old-map slider pictures (1936, 1972 and today) load from the online atlas, so open the slider once with a signal; the offline copy does not have them. Finds, worked marks and river levels save to your atlas when you are online and to your phone when you are not.</p>
       </article>
     </section><section class="readview" id="rv-finds" hidden><article class="read pad"><h2>Finds log</h2><p class="lede">Every visit you log from a spot's details. Logging empty trips matters too: it tells the weekly update which spots don't pay.</p><p id="findsSum" class="hint"></p><div class="row"><button class="btn" id="findsCopy">Copy all as text</button></div><div id="findsList"></div></article></section><section class="readview" id="rv-rules" hidden><article class="read pad">
         <h2>Rules by state</h2>
@@ -1312,14 +1322,14 @@ function UXdraw(vis,s){ if(!UX) return vis.filter(p=>p.id!==selId);
   for(const c of C) if(c.m.length>=UX.minC){ UX.cls.push(c); for(const p of c.m) UX.hid.add(p.id); }
   UX.drawn=v.filter(p=>!UX.hid.has(p.id)); UX.ds=new Set(UX.drawn.map(p=>p.id)); return rest.filter(p=>!UX.hid.has(p.id)); }
 function UXbub(s){ if(!UX||!UX.cls.length) return; const ff=cv('var(--f-body)')||'sans-serif';
-  for(const c of UX.cls){ const n=c.m.length, [x,y]=P(c.p.lo,c.p.la), r=(10+2.6*Math.log2(n))/s;
+  for(const c of UX.cls){ const n=c.m.length, [x,y]=P(c.p.lo,c.p.la), r=(6.5+1.7*Math.log2(n))/s;
     const best=Math.min(...c.m.map(p=>{ const k=RK(p); return typeof k==='number'&&k?k:9; }));
     const g=el('g',{class:'mk uxcl',tabindex:0,role:'button','aria-label':`${n} spots grouped here${best<9?', best rank '+best:''}. Zoom in to see them.`},gMk);
-    el('circle',{cx:x,cy:y,r:r*1.32,fill:cv('var(--accent)'),'fill-opacity':0.22},g);
-    el('circle',{cx:x,cy:y,r,fill:cv('var(--accent)'),stroke:cv('var(--panel)'),'stroke-width':2/s},g);
+    el('circle',{cx:x,cy:y,r:r*1.15,fill:cv('var(--accent)'),'fill-opacity':0.18},g);
+    el('circle',{cx:x,cy:y,r,fill:cv('var(--accent)'),'fill-opacity':0.82,stroke:cv('var(--panel)'),'stroke-width':1.5/s},g);
     const t=el('text',{transform:`translate(${x},${y+r*0.34}) scale(${r*(n>99?0.82:1)/10})`,'text-anchor':'middle','font-size':10,'font-weight':800,fill:cv('var(--panel)'),'pointer-events':'none','font-family':ff},g);
     t.textContent=n>999?Math.round(n/100)/10+'k':n;
-    if(best<=2){ const bx=x+r*0.78, by=y-r*0.78, br=Math.max(r*0.42,6/s);
+    if(best<=2){ const bx=x+r*0.8, by=y-r*0.8, br=Math.max(r*0.45,5/s);
       el('circle',{cx:bx,cy:by,r:br,fill:cv('var(--L-ghost)'),stroke:cv('var(--panel)'),'stroke-width':1.4/s,'pointer-events':'none'},g);
       const bt=el('text',{transform:`translate(${bx},${by+br*0.4}) scale(${br*1.15/10})`,'text-anchor':'middle','font-size':10,'font-weight':800,fill:cv('var(--panel)'),'pointer-events':'none','font-family':ff},g); bt.textContent=best; }
     const tt=el('title',{},g); tt.textContent=`${n} spots${best<9?' (best rank '+best+')':''}. Tap to zoom in.`;
@@ -1331,7 +1341,7 @@ function uxClusterTap(c,sx,sy){ const ids=c.m.map(p=>p.id), s=scale();
   vb={x:cx-w/2,y:cy-w*ar/2,w,h:w*ar}; fit(); apply(); }
 const _fp0=findPick; findPick=function(cx,cy){ if(_fp0(cx,cy)) return true; if(!UX.cls.length) return false;
   const pad=uxCoarse()?8:4; let best=null, bd=1e9;
-  for(const c of UX.cls){ const [x,y]=toS(c.p.lo,c.p.la), r=(10+2.6*Math.log2(c.m.length))*1.32+pad, d=Math.hypot(x-cx,y-cy); if(d<=r&&d<bd){ bd=d; best=c; } }
+  for(const c of UX.cls){ const [x,y]=toS(c.p.lo,c.p.la), r=(6.5+1.7*Math.log2(c.m.length))*1.15+pad+4, d=Math.hypot(x-cx,y-cy); if(d<=r&&d<bd){ bd=d; best=c; } }
   if(!best) return false; uxClusterTap(best,cx,cy); return true; };
 const _vp0=visPts; visPts=function(){ return UX.drawn? UX.drawn.slice() : _vp0(); };
 // ---- directions ----
@@ -1568,6 +1578,30 @@ document.getElementById('bkLoad').onchange=async e=>{ const f=e.target.files[0],
   if(nw){ try{ localStorage.setItem('atlas-worked',JSON.stringify(FT.WK)); }catch(_){} }
   for(const id in d.tracks||{}){ const t=d.tracks[id]; if(!t||!t.pts||HR.T[id]) continue; await hrStore({...t,id}); nt++; }
   note.textContent=`Added ${nf} find${nf===1?'':'s'}, ${nw} worked mark${nw===1?'':'s'} and ${nt} hunt${nt===1?'':'s'}.`; e.target.value=''; ftRefresh(); hrDraw(); renderHunts(); };
+
+// ---------- zoom fix: dashed drive-time rings froze the map when zoomed in ----------
+// A dashed non-scaling stroke on a 100-mile ring turns into millions of dashes at street zoom; hide the rings and their labels once zoomed past the county view.
+function ringVis(){ const s=scale(), show=!(s>1200); if(gRing.style.display!==(show?'':'none')) gRing.style.display=show?'':'none';
+  if(!show) for(const t of gLbl.querySelectorAll('text[data-k="ring"]')) t.style.display='none'; }
+const _za2=zoomAt; zoomAt=function(...a){ const r=_za2.apply(this,a); ringVis(); return r; };
+const _ap2=apply; apply=function(){ ringVis(); _ap2(); ringVis(); };
+ringVis();
+
+// ---------- tap a bubble: list its spots in a side drawer over the map ----------
+document.querySelector('.mapwrap').insertAdjacentHTML('beforeend','<aside class="cld" id="cld" hidden role="dialog" aria-label="Spots in this group"></aside>');
+const cld=document.getElementById('cld'); let cldC=null;
+const cldRank=p=>{ const r=RK(p); return typeof r==='number'&&r?r:r==='X'?7:9; };
+function cldOpen(c){ closePop(); cldC=c; const L=[...c.m].sort((a,b)=>cldRank(a)-cldRank(b)||(a.mi-b.mi));
+  cld.innerHTML=`<div class="cldh"><b>${L.length} spots here</b><button class="px" data-x aria-label="Close">×</button></div>
+   <div class="cldb"><button class="btn uxgo" data-zoom>Zoom in here</button><span class="hint">Best ground first. Tap one to open it.</span></div>
+   <div class="cldl">${L.map(p=>{ const r=RK(p), w=WKS(p.id); return `<button class="item${p.id===selId?' sel':''}" data-id="${esc(p.id)}"><span>${ico(p.L,14)}</span><span><span class="t">${esc(p.n)}</span><br><span class="m">${esc(LBY[p.L]?.n||'')}${w?' · '+WKL[w].toLowerCase():''} · ${Math.round(p.mi)} mi</span></span><span class="d">${typeof r==='number'&&r?'Rank '+r:r==='X'?'Look only':''}</span></button>`; }).join('')}</div>`;
+  cld.hidden=false; cld.querySelector('.cldl').scrollTop=0; }
+cld.addEventListener('click',e=>{ if(e.target.closest('[data-x]')){ cld.hidden=true; cldC=null; return; }
+  if(e.target.closest('[data-zoom]')&&cldC){ const c=cldC; cld.hidden=true; cldC=null; _uxct0(c); return; }
+  const b=e.target.closest('.item[data-id]'); if(!b) return; cld.querySelectorAll('.item.sel').forEach(x=>x.classList.remove('sel')); b.classList.add('sel');
+  const keep=window.scrollY; select(b.dataset.id,true); if(window.innerWidth<=920) window.scrollTo({top:keep}); });
+document.addEventListener('keydown',e=>{ if(e.key==='Escape'&&!cld.hidden){ cld.hidden=true; cldC=null; } });
+const _uxct0=uxClusterTap; uxClusterTap=function(c){ cldOpen(c); };
 
 // ---------- home-screen app: works offline and updates itself ----------
 (function(){ if(window.claude||!('serviceWorker' in navigator)||(location.protocol!=='https:'&&!/^(localhost|127\.0\.0\.1)$/.test(location.hostname))) return;
