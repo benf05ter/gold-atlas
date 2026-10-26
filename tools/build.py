@@ -1,9 +1,9 @@
 # Builds the home-screen app from the published Claude atlas page.
-#   python3 tools/build.py <atlas.html> [oldmap-dir]
+#   python3 tools/build.py <atlas.html> [oldmap-dir] [img-dir]   (img-dir = the atlas's img/*.json side files; default <atlas dir>/img)
 # Writes the site into the folder named in tools/site-folder.txt. Commit and push; phones pick it up on next open.
 import sys,os,re,json,hashlib,shutil
 root=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); T=os.path.join(root,'tools')
-src=sys.argv[1]; om=sys.argv[2] if len(sys.argv)>2 else None
+src=sys.argv[1]; om=sys.argv[2] if len(sys.argv)>2 else None; imd=sys.argv[3] if len(sys.argv)>3 else os.path.join(os.path.dirname(os.path.abspath(src)),'img')
 out=os.path.join(root,open(os.path.join(T,'site-folder.txt')).read().strip()); os.makedirs(out+'/icons',exist_ok=True); os.makedirs(out+'/oldmap',exist_ok=True)
 c=open(src,encoding='utf-8').read()
 assert 'function hrDraw(' in c, 'atlas has no hunt recorder; is this the right file?'
@@ -24,12 +24,18 @@ os.system(f'python3 "{T}/icons.py" "{out}/icons"')
 if om:
   for f in os.listdir(om):
     if f.endswith('.webp'): shutil.copy(os.path.join(om,f),out+'/oldmap/'+f)
+imgs=[]
+if os.path.isdir(imd):
+  shutil.rmtree(out+'/img',ignore_errors=True); os.makedirs(out+'/img')
+  for f in sorted(os.listdir(imd)):
+    if f.endswith('.json'): shutil.copy(os.path.join(imd,f),out+'/img/'+f); imgs.append('img/'+f)
+assert imgs or 'data-li=' not in c, 'the atlas loads pictures from img/*.json but no img dir was given'
 h=hashlib.sha256()
 for d,_,fs in sorted(os.walk(out)):
   for f in sorted(fs):
     if f!='sw.js': h.update(open(os.path.join(d,f),'rb').read())
 ver=h.hexdigest()[:12]
-open(out+'/sw.js','w').write(open(os.path.join(T,'sw.js')).read().replace('__VERSION__',ver))
+open(out+'/sw.js','w').write(open(os.path.join(T,'sw.js')).read().replace('__VERSION__',ver).replace('__IMG__',json.dumps(imgs)))
 json.dump({'name':'Upper Midwest Gold Atlas','short_name':'Gold Atlas','start_url':'./','scope':'./','display':'standalone','background_color':'#eef0ea','theme_color':'#eef0ea',
  'icons':[{'src':'icons/icon-192.png','sizes':'192x192','type':'image/png'},{'src':'icons/icon-512.png','sizes':'512x512','type':'image/png'},{'src':'icons/maskable-512.png','sizes':'512x512','type':'image/png','purpose':'maskable'}]},
  open(out+'/manifest.webmanifest','w'),indent=1)

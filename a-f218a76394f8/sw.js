@@ -1,7 +1,7 @@
 // Gold Atlas offline cache. The build stamps VERSION; a new VERSION makes phones fetch the new atlas in the background.
-const VERSION='0bf4b8146d7f', CACHE='atlas-v'+VERSION;
+const VERSION='ccb32877af5b', CACHE='atlas-v'+VERSION;
 const CORE=['./','index.html','manifest.webmanifest','icons/icon-192.png','icons/icon-512.png','icons/apple-touch-icon.png'];
-const EXTRA=['oldmap/ground-today.webp','oldmap/topo-1972.webp','oldmap/topo-1936.webp'];
+const EXTRA=['oldmap/ground-today.webp','oldmap/topo-1972.webp','oldmap/topo-1936.webp'].concat(["img/a-0.json", "img/a-1.json", "img/a-10.json", "img/a-2.json", "img/a-3.json", "img/a-4.json", "img/a-5.json", "img/a-6.json", "img/a-7.json", "img/a-8.json", "img/a-9.json", "img/h-0.json", "img/h-1.json", "img/h-10.json", "img/h-11.json", "img/h-12.json", "img/h-13.json", "img/h-2.json", "img/h-3.json", "img/h-4.json", "img/h-5.json", "img/h-6.json", "img/h-7.json", "img/h-8.json", "img/h-9.json", "img/l-0.json", "img/l-1.json", "img/l-2.json"]); // img/*.json: pictures that load when a spot card opens
 self.addEventListener('install',e=>{ e.waitUntil(caches.open(CACHE).then(async c=>{
   await c.addAll(CORE.map(u=>new Request(u,{cache:'reload'})));
   await Promise.all(EXTRA.map(u=>c.add(new Request(u,{cache:'reload'})).catch(()=>{}))); })); });
