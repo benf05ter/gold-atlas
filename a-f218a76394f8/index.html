@@ -3783,7 +3783,17 @@ renderId();
   menu.addEventListener('click',e=>{ const b=e.target.closest('button[data-i]'); if(!b) return; e.stopPropagation(); const o=orig()[+b.dataset.i]; close(); if(o&&o.getAttribute('aria-pressed')!=='true') o.click(); });
   document.addEventListener('click',e=>{ if(!menu.hidden&&!menu.contains(e.target)&&e.target!==btn) close(); });
   document.addEventListener('keydown',e=>{ if(e.key==='Escape'&&!menu.hidden) close(); });
-  document.getElementById('mcId').addEventListener('click',e=>{ e.stopPropagation(); close(); idOpen(); });
+  // ID guide: a chooser with the two guides, plus the all-in-one search
+  const IDM=[['coin','Coin ID guide','What a dug coin is, its value and its errors'],['rock','Rock ID guide','Tap your test results; rocks, minerals and metals'],['all','Search everything','Coins, rocks, relics, jewelry and tests together']];
+  mw.insertAdjacentHTML('beforeend','<div class="mcmenu" id="mcIdMenu" hidden role="menu" aria-label="ID guides"><b class="mcl">ID guides</b>'+IDM.map(m=>`<button type="button" role="menuitem" data-g="${m[0]}"><i></i>${m[1]}<span>${m[2]}</span></button>`).join('')+'</div>');
+  const idb=document.getElementById('mcId'), idm=document.getElementById('mcIdMenu'), idClose=()=>{ idm.hidden=true; idb.setAttribute('aria-expanded','false'); };
+  idb.setAttribute('aria-haspopup','true'); idb.setAttribute('aria-expanded','false');
+  idb.addEventListener('click',e=>{ e.stopPropagation(); close(); if(!idm.hidden){ idClose(); return; } idm.style.top=(row.offsetTop+row.offsetHeight+6)+'px'; idm.hidden=false; idb.setAttribute('aria-expanded','true'); });
+  btn.addEventListener('click',idClose);
+  idm.addEventListener('click',e=>{ const b=e.target.closest('button[data-g]'); if(!b) return; e.stopPropagation(); idClose(); const g=b.dataset.g;
+    if(g==='coin') coinOpen(); else if(g==='rock'&&typeof idRid==='function'&&typeof ridOpen==='function') idRid('id',{}); else idOpen(); });
+  document.addEventListener('click',e=>{ if(!idm.hidden&&!idm.contains(e.target)&&e.target!==idb) idClose(); });
+  document.addEventListener('keydown',e=>{ if(e.key==='Escape'&&!idm.hidden) idClose(); });
   new MutationObserver(label).observe(row,{subtree:true,attributes:true,attributeFilter:['aria-pressed']}); label(); } }
 </script><script>
 // ---------- quick-action + button on the map, and More as one page of big tiles ----------
