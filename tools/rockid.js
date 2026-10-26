@@ -1,8 +1,9 @@
 <script>
-// ---------- rock, mineral and metal ID: the Rock tester and How to test tabs of the Identify page ----------
-// Part of the atlas (applied by research/identify/patch.py after identify.js); falls back to the Search tab if Identify is missing.
-// Shares S as IDROCKS and M as IDTESTS so the Identify search lists them.
-(function(){ const pane=document.getElementById('idTools')||document.getElementById('pane-list'); if(!pane||document.getElementById('rid')) return; const inId=pane.id==='idTools';
+// ---------- rock, mineral and metal ID (inside the Minerals map mode) ----------
+// Part of the atlas since v92 (research/identify/patch.py puts it after identify.js); build.py injects it only into older atlases.
+// Shares S as IDROCKS, M as IDTESTS and ridOpen() with the Identify page, which searches and opens them.
+(function(){ const mw=document.querySelector('.mapwrap'); if(!mw||document.getElementById('ridSheet')) return;
+const RICON='<svg class="ic" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M7 4h10l4 6-9 11L3 10z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M3 10h18M9 4l3 17 3-17" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>';
 const S = window.IDROCKS = [
 // ---------- MINERALS ----------
 {n:'Quartz',k:'mineral',f:'SiO₂',c:'Colorless, white, smoky, rose, purple (amethyst)',lus:['glassy'],st:['white'],h:[7,7],sg:[2.65,2.65],mag:['none'],acid:['none'],uv:['none'],uvt:'Usually none. Some pieces glow faintly from coatings or impurities.',li:['transparent','translucent'],sp:['hex'],id:['Scratches glass and a steel knife easily.','Breaks with curved, shell-like (conchoidal) fracture — never flat cleavage faces.','Crystals are six-sided columns ending in a point.'],la:'Calcite (soft, fizzes in acid), feldspar (flat shiny cleavage faces), glass (softer, may hold round bubbles).'},
@@ -63,9 +64,18 @@ const S = window.IDROCKS = [
 {n:'Coal',k:'rock',f:'Compacted plant carbon',c:'Black, brownish black',lus:['dull','glassy'],st:['black'],h:[1,2.5],sg:[1.1,1.8],mag:['none'],acid:['none'],uv:['none'],uvt:'None.',li:['opaque'],sp:['marks'],id:['Very light for a black rock.','Leaves a black smudge on your hands and on paper.','Anthracite is shiny and harder; lignite is brown and crumbly.'],la:'Obsidian (heavier, harder), jet, black slag (heavier, bubbly).'},
 {n:'Iron meteorite',k:'rock',f:'Iron-nickel metal',c:'Brown-black outside, silver metal inside',lus:['metallic','dull'],st:['gray'],h:[4,5],sg:[7.0,8.0],mag:['strong'],acid:['none'],uv:['none'],uvt:'None.',li:['opaque'],sp:['crust','rust'],id:['Far heavier than any rock — feels like a chunk of iron.','A fridge magnet clings hard.','Smooth surface with thumbprint-like dents (regmaglypts), no bubbles.','A nickel test kit (dimethylglyoxime) turns pink-red on a ground spot.'],la:'Industrial iron scrap, slag, magnetite (black streak, lighter).'},
 {n:'Stony meteorite (chondrite)',k:'rock',f:'Silicates + iron-nickel flecks',c:'Black or brown crust, gray inside with metal flecks',lus:['dull'],st:['gray'],h:[6,6.5],sg:[3.0,3.7],mag:['strong','weak'],acid:['none'],uv:['none'],uvt:'None.',li:['opaque'],sp:['crust','rust'],id:['Heavier than an ordinary rock of the same size.','A magnet is attracted to it.','Thin black fusion crust; no gas bubbles.','Grinding a window shows shiny metal flecks and round chondrules.','Usually leaves little or no streak.'],la:'Basalt (lighter, may have bubbles), slag (bubbles), magnetite and hematite (dark streaks).'},
-{n:'Slag ("meteor-wrong")',k:'rock',f:'Industrial furnace waste',c:'Black, gray, blue-green, brown; glassy or rusty',lus:['glassy','dull','metallic'],st:['gray','white'],h:[5,6],sg:[2.5,4.5],mag:['none','weak','strong'],acid:['none'],uv:['none'],uvt:'Usually none.',li:['opaque','translucent'],sp:['vesicles','rust'],id:['Full of round gas bubbles and swirled flow lines.','Unnatural colors (bright blue-green, purple).','Found near railroads, old foundries and fill dirt.','The most common thing mistaken for a meteorite.'],la:'Meteorites (no bubbles, fusion crust), obsidian, basalt.'},
+{n:'Slag ("meteor-wrong")',k:'relic',f:'Industrial furnace waste',c:'Black, gray, blue-green, brown; glassy or rusty',lus:['glassy','dull','metallic'],st:['gray','white'],h:[5,6],sg:[2.5,4.5],mag:['none','weak','strong'],acid:['none'],uv:['none'],uvt:'Usually none.',li:['opaque','translucent'],sp:['vesicles','rust'],id:['Full of round gas bubbles and swirled flow lines.','Unnatural colors (bright blue-green, purple).','Found near railroads, old foundries and fill dirt.','The most common thing mistaken for a meteorite.'],la:'Meteorites (no bubbles, fusion crust), obsidian, basalt.'},
 
 // ---------- METALS ----------
+// ---------- RADIOACTIVE + MAN-MADE ----------
+{n:'Uraninite (pitchblende)',k:'mineral',f:'UO₂',c:'Black, brownish black, pitchy',lus:['greasy','metallic','dull'],st:['black','gray'],h:[5,6],sg:[6.5,10.9],mag:['none'],acid:['none'],uv:['none'],uvt:'Itself doesn\'t glow, but yellow-green crusts on it (autunite and friends) often glow bright green.',li:['opaque'],sp:[],rad:['hot'],id:['A Geiger counter climbs fast as you bring it close — far above anything else in a collection.','Very heavy and black with a dull pitchy shine.','Often coated with bright yellow or green alteration crusts.'],la:'Magnetite (magnetic), hematite (red streak), cassiterite (much harder, no radiation).'},
+{n:'Autunite',k:'mineral',f:'Ca(UO₂)₂(PO₄)₂·10–12H₂O',c:'Lemon yellow to yellow-green',lus:['pearly','glassy'],st:['yellow'],h:[2,2.5],sg:[3.1,3.2],mag:['none'],acid:['none'],uv:['green'],uvt:'Glows intense yellow-green under longwave — one of the brightest fluorescent minerals.',li:['transparent','translucent'],sp:['sheets'],rad:['hot'],id:['Thin square yellow-green plates that peel like mica.','Brilliant green under UV and strongly radioactive.','Fragile; dries out and crumbles if kept warm.'],la:'Torbernite (darker green, doesn\'t glow), sulfur (no radiation, smells), green mica.'},
+{n:'Torbernite',k:'mineral',f:'Cu(UO₂)₂(PO₄)₂·8–12H₂O',c:'Emerald to grass green',lus:['glassy','pearly'],st:['green'],h:[2,2.5],sg:[3.2,3.6],mag:['none'],acid:['none'],uv:['none'],uvt:'Doesn\'t glow: the copper in it quenches the uranium glow (autunite glows, torbernite doesn\'t).',li:['transparent','translucent'],sp:['sheets'],rad:['hot'],id:['Small emerald-green square plates.','Strongly radioactive but dark under UV.','Soft and flaky.'],la:'Autunite (yellower, glows), malachite (fizzes, no radiation), chlorite.'},
+{n:'Carnotite',k:'mineral',f:'K₂(UO₂)₂(VO₄)₂·3H₂O',c:'Bright canary yellow',lus:['dull'],st:['yellow'],h:[2,2],sg:[4.7,4.7],mag:['none'],acid:['none'],uv:['none'],uvt:'Weak or none.',li:['opaque'],sp:[],rad:['hot'],id:['Powdery yellow crust or stain on sandstone or fossil wood.','Strongly radioactive.','Main uranium ore of the Colorado Plateau; any local piece likely came from out west.'],la:'Yellow ochre and limonite (no radiation), sulfur (smells).'},
+{n:'Monazite',k:'mineral',f:'(Ce,La,Th)PO₄',c:'Honey yellow to reddish brown grains',lus:['greasy','glassy'],st:['white'],h:[5,5.5],sg:[4.6,5.4],mag:['weak'],acid:['none'],uv:['none'],uvt:'None.',li:['translucent','opaque'],sp:[],rad:['slight','hot'],id:['Small heavy honey-colored grains that stay in the pan with gold and black sand.','A neodymium magnet picks it out weakly, after the magnetite is removed.','A vial of the concentrate reads above background on a Geiger counter (thorium).'],la:'Garnet (redder, glassy, no radiation), zircon (harder), citrine grains.'},
+{n:'Zircon',k:'mineral',f:'ZrSiO₄',c:'Brown, red-brown, honey, colorless',lus:['glassy'],st:['white'],h:[7.5,7.5],sg:[4.6,4.7],mag:['none'],acid:['none'],uv:['yellow','orange','none'],uvt:'Often yellow or orange under shortwave.',li:['transparent','translucent'],sp:[],rad:['slight','none'],id:['Tiny, very hard, heavy grains with a brilliant shine; common in black sand.','Four-sided crystals with pyramid ends.','Sometimes slightly above background from trace uranium.'],la:'Garnet (rounder, weakly magnetic), monazite (softer, greasier), quartz (lighter).'},
+{n:'Uranium glass (vaseline glass)',k:'relic',f:'Glass with uranium oxide',c:'Yellow-green, pale green, yellow',lus:['glassy'],st:['white'],h:[5.5,5.5],sg:[2.4,2.6],mag:['none'],acid:['none'],uv:['green'],uvt:'Blazing green under longwave. A UV light is the quickest way to spot it at a dump site.',li:['transparent','translucent'],sp:[],rad:['slight'],id:['Glows bright green under UV.','Reads slightly above background on a Geiger counter.','Turns up as shards at old dump sites and homesteads (mostly 1880s–1940s).'],la:'Green bottle glass (doesn\'t glow), autunite (soft plates), willemite (heavier, needs shortwave).'},
+{n:'Radium dial or gauge',k:'relic',f:'Radium luminous paint (pre-1970)',c:'Tan, brown or crusty green paint on numbers and hands',lus:['metallic','glassy','dull'],st:['white'],h:[2.5,5.5],sg:[2.5,8.5],mag:['none','weak','strong'],acid:['none'],uv:['none','green'],uvt:'Old paint no longer glows in the dark; under UV it may glow faintly green or not at all.',li:['opaque'],sp:['tarnish'],rad:['hot'],id:['Old watch, clock, compass or aircraft gauge with painted numerals.','A Geiger counter jumps close to the face and drops off with distance.','Paint is often cracked, tan or brown.'],la:'Later tritium or plain paint dials (no reading or barely any), uranium glass.'},
 {n:'Gold',k:'metal',f:'Au',c:'Rich butter yellow',lus:['metallic'],st:['yellow'],h:[2.5,3],sg:[15.5,19.3],mag:['none'],acid:['none'],uv:['none'],uvt:'None.',li:['opaque'],sp:['malleable'],id:['Stays golden in shade — pyrite and mica only flash in direct light.','Dents or flattens under a pin; never crumbles.','Gold-yellow streak.','Extremely heavy: settles first in a gold pan.','Untouched by nitric acid (gold test kits use this).'],la:'Pyrite (black streak, brittle), chalcopyrite, weathered mica, brass (lighter, tarnishes).'},
 {n:'Silver',k:'metal',f:'Ag',c:'Silver-white, tarnishes gray-black',lus:['metallic'],st:['gray'],h:[2.5,3],sg:[10.1,10.5],mag:['none'],acid:['none'],uv:['none'],uvt:'None.',li:['opaque'],sp:['malleable','tarnish','ice'],id:['Ice test: an ice cube on silver melts startlingly fast.','Not magnetic.','Tarnishes black; silver polish brings it back.','Silver acid test turns red on sterling.'],la:'Nickel and stainless (magnetic or slower ice test), aluminum (light), tin.'},
 {n:'Copper',k:'metal',f:'Cu',c:'Salmon-red; tarnishes brown, then green',lus:['metallic'],st:['red'],h:[2.5,3],sg:[8.9,8.96],mag:['none'],acid:['none'],uv:['none'],uvt:'None.',li:['opaque'],sp:['malleable','tarnish','ice'],id:['Copper-red where scratched, under any brown or green crust.','Melts ice very fast.','Bends and dents instead of breaking.','"Float copper" from the Keweenaw turns up in glacial gravel around the Great Lakes.'],la:'Brass and bronze (more yellow), copper-plated pennies (zinc core), cuprite.'},
@@ -89,6 +99,7 @@ const M = window.IDTESTS = [
  {t:'UV fluorescence',need:'Longwave UV flashlight (365 nm filtered) — optional shortwave lamp (254 nm)',why:'Some minerals glow vivid colors under UV. Fluorite, calcite, willemite, scheelite, opal, agate and ruby are classics. Glow color can vary by locality, so treat it as a supporting clue.',steps:['Go into a fully dark room and let your eyes adjust for a minute.','Shine the lamp on the specimen from a few inches away and note the color.','Turn the lamp off and watch: a lingering glow is phosphorescence.','Try both longwave and shortwave if you have both; many minerals respond to only one.'],safe:'Never look into a UV lamp. Shortwave UV burns eyes and skin quickly: wear UV-blocking glasses and cover your hands.'},
  {t:'Backlight (diaphaneity)',need:'Bright flashlight or phone light',why:'Whether light passes through separates agate from jasper, shows banding hidden inside, and reveals obsidian\'s smoky edges.',steps:['Press the light against the back of the thinnest edge.','Transparent: you can see shapes through it. Translucent: it glows but you can\'t see through. Opaque: stays dark.','Look for inner banding, inclusions, bubbles (glass) or fracture planes.'],safe:''},
  {t:'Heft and specific gravity',need:'Kitchen scale (grams), cup of water, thread',why:'Specific gravity (how many times heavier than water) is a near-fingerprint. Most rock is 2.6–3; metal ores are 4–8; gold is 15–19.',steps:['Weigh the specimen dry.','Place a cup of water on the scale and tare it to zero.','Hang the specimen from a thread so it\'s fully underwater without touching the cup. Read the scale.','Specific gravity = dry weight ÷ underwater reading. Use the calculator below.'],calc:true,safe:''},
+{t:'Geiger counter',need:'Geiger counter, notebook',why:'Radioactivity is rare in rocks, so a clear reading above background narrows things to a short list: uranium minerals, thorium-bearing monazite in black sand, some zircon, uranium glass and radium-painted dials.',steps:['Take a background reading away from the specimen for a minute and note the average counts per minute (CPM).','Hold the tube right against the specimen for a minute and compare.','Under about 2× background is "slightly above"; many times background is "well above."','For black sand, test a full vial of concentrate; single grains read too low to notice.'],safe:'Don\'t grind, sand or break radioactive specimens, and wash your hands after handling. Store them in a sealed container away from where people sleep, since uranium minerals give off radon. Never open or scrape radium dials. Hand strong finds to a university geology department.'},
  {t:'Ice test for metals',need:'Two ice cubes from the same tray',why:'Silver, copper and aluminum conduct heat so well they melt ice almost on contact. Stainless, nickel and plated items melt it far slower.',steps:['Set an ice cube on the metal and another on a ceramic plate.','Silver and copper melt a puddle within seconds and the cube visibly sinks.','Compare speeds against a known piece if you can.'],safe:''},
  {t:'Spark test',need:'Bench grinder (or a hard steel striker for chert)',why:'Metals throw distinctive sparks. Carbon steel gives bright, bushy bursts; stainless gives shorter straw sparks; titanium gives brilliant white; aluminum, copper and brass give none.',steps:['Lightly touch the metal to a spinning grinder wheel in a dim room.','Note color, length and whether the streams burst.','For chert and flint, strike a glancing blow with hardened steel to see sparks.'],safe:'Wear eye protection and keep flammables away.'},
  {t:'Gold vs fool\'s gold',need:'Streak tile, pin, shade',why:'The fastest way to sort the most common question in rockhounding.',steps:['Streak: gold leaves gold-yellow, pyrite and chalcopyrite leave greenish-black.','Press a pin in: gold dents, pyrite crumbles to powder.','Move it into shade: gold stays golden, mica and pyrite stop sparkling.','Heft: gold is about four times heavier than pyrite.'],safe:''},
@@ -96,14 +107,98 @@ const M = window.IDTESTS = [
  {t:'Smell and taste',need:'Your nose — and caution',why:'Sulfides smell of sulfur when scratched or struck. Shale smells earthy when breathed on. Halite tastes salty.',steps:['Scratch or strike and sniff: pyrite, sulfur and sphalerite (in acid) give sulfur or rotten-egg smells.','For a salty taste, dissolve a crumb in water and taste the water rather than licking the specimen.'],safe:'Never taste unknowns that might contain lead, arsenic or mercury (galena, cinnabar, realgar, metallic-looking minerals). Wash hands after handling.'}
 ];
 
+// where each one turns up in the Upper Midwest: z = zones where it's typical, g = how common it is elsewhere in the region
+const AR={'Quartz':'c','Calcite':'c lead','Dolomite':'c lead','Fluorite':'r','Gypsum (selenite)':'s','Halite (rock salt)':'r','K-feldspar (orthoclase, microcline)':'c',
+ 'Labradorite (plagioclase)':'s sup','Muscovite mica':'c','Biotite mica':'c','Talc':'r','Garnet (almandine)':'c','Olivine (peridot)':'s sup','Tourmaline (schorl)':'s',
+ 'Hornblende':'c','Magnetite':'c iron','Hematite':'c iron','Goethite / limonite':'c iron','Pyrite (fool\'s gold)':'c lead','Chalcopyrite':'s sup','Galena':'s lead',
+ 'Sphalerite':'s lead','Malachite':'s sup','Azurite':'r','Barite':'s lead','Apatite':'s','Corundum (ruby, sapphire)':'r','Topaz':'r','Beryl (emerald, aquamarine)':'r',
+ 'Agate / chalcedony':'c sup','Opal':'r','Willemite':'r','Scheelite':'r','Serpentine':'s','Sulfur':'r','Cinnabar':'r','Graphite':'s','Pyrrhotite':'s sup',
+ 'Granite':'c','Basalt':'c sup','Obsidian':'r','Pumice':'r','Limestone':'c lead','Marble':'s','Sandstone':'c','Shale':'c','Slate':'s','Schist':'c','Gneiss':'c',
+ 'Quartzite':'c','Chert / flint':'c lead','Jasper':'c sup','Banded iron (taconite)':'c iron','Coal':'r','Iron meteorite':'r','Stony meteorite (chondrite)':'r',
+ 'Uraninite (pitchblende)':'r','Autunite':'r','Torbernite':'r','Carnotite':'r','Monazite':'s','Zircon':'c','Copper':'a sup','Silver':'a sup'};
+const ZN={sup:'Lake Superior shore & Keweenaw',iron:'an iron range',lead:'the southwest Wisconsin lead district',drift:'glacial gravel and fields'};
+S.forEach(s=>{ const a=(AR[s.n]||(s.k==='metal'||s.k==='relic'?'a':'s')).split(' '); s.ar={g:a[0],z:a.slice(1)}; if(!s.rad) s.rad=['none']; });
+function zoneAt(lo,la){ const b=(a,b2,c2,d)=>la>=a&&la<=b2&&lo>=c2&&lo<=d;
+  if(b(47.1,47.9,-93.6,-91.6)||b(46.35,46.65,-90.7,-89.4)||b(46.35,46.7,-88.2,-87.3)||b(45.7,46.2,-88.4,-87.6)) return 'iron';
+  if(b(46.4,48.3,-92.6,-84.3)) return 'sup'; if(b(42.5,43.3,-91.2,-89.4)) return 'lead'; return 'drift'; }
+const myZone=()=>{ try{ return zoneAt(ORG.lo,ORG.la); }catch(_){ return 'drift'; } }, myName=()=>{ try{ return ORG.n==='you'?'your location':ORG.n; }catch(_){ return 'your spot'; } };
+const where=v=>v==='auto'?myZone():v;
+function arCredit(s,v){ const z=where(v); if(s.ar.z.includes(z)) return 1; return {c:.85,a:.85,s:.6,r:.15}[s.ar.g]; }
+const arText=s=>s.ar.g==='a'?(s.ar.z.length?`Man-made items turn up anywhere; native pieces are typical of ${ZN[s.ar.z[0]]}`:'Man-made or dropped: turns up anywhere people have been'):
+  ({c:'Common across the region',s:'Turns up in places in the region',r:'Rare or absent in the region naturally; a find is more likely carried in'}[s.ar.g])+(s.ar.z.length?`; typical of ${s.ar.z.map(z=>ZN[z]).join(' and ')}`:'');
+// ---- little drawings of each specimen: typical color, shine and form (drawings, not photos) ----
+const PIC={'Quartz':['hex','#e9eef0','#b9c6cc'],'Calcite':['rhomb','#f1dba4','#d9b56a'],'Dolomite':['rhomb','#ead6cc','#c9ab9c'],'Fluorite':['cube','#8f6bc4','#5fae8c'],
+ 'Gypsum (selenite)':['blade','#eef0ea','#c9cfc5'],'Halite (rock salt)':['cube','#f3eeee','#e2b9b9'],'K-feldspar (orthoclase, microcline)':['block','#e3a588','#c87d63'],
+ 'Labradorite (plagioclase)':['flash','#55615f','#3fa6c9'],'Muscovite mica':['sheets','#d9d3bc','#b6ad8f'],'Biotite mica':['sheets','#3a3128','#6b5641'],'Talc':['lump','#d8e3d4','#b9c8b4'],
+ 'Garnet (almandine)':['dodeca','#8d1f2a','#5b1018'],'Olivine (peridot)':['grains','#8fa43a','#6c7f26'],'Tourmaline (schorl)':['needle','#24262a','#4a4e55'],'Hornblende':['needle','#2e3a30','#4f5f52'],
+ 'Magnetite':['dodeca','#2b2d30','#5c6168'],'Hematite':['botry','#5b5f66','#8e3a2c'],'Goethite / limonite':['botry','#7a4f22','#b07a3a'],'Pyrite (fool\'s gold)':['cube','#d2b85a','#a88d34'],
+ 'Chalcopyrite':['lump','#c9a83c','#6a4fa0'],'Galena':['cube','#8e939b','#62676e'],'Sphalerite':['lump','#8a5a24','#c58d3e'],'Malachite':['band','#2f8c58','#14563a'],'Azurite':['botry','#1f3f9a','#3f63c9'],
+ 'Barite':['blade','#efe7d6','#cdbf9e'],'Apatite':['prism','#5fae9a','#3c8a78'],'Corundum (ruby, sapphire)':['barrel','#b0243c','#7c1528'],'Topaz':['prism','#e9c07a','#c99a4a'],
+ 'Beryl (emerald, aquamarine)':['prism','#7fc4c9','#4f9aa0'],'Agate / chalcedony':['band','#c8632e','#f1e2c8'],'Opal':['flash','#efe9e0','#5fc4b4'],'Willemite':['lump','#9bb88a','#5f8a50'],
+ 'Scheelite':['lump','#e9dcc0','#c9a86c'],'Serpentine':['lump','#5d8a4f','#2f5a36'],'Sulfur':['lump','#f2d33a','#d1ab14'],'Cinnabar':['grains','#c3202a','#7a1a1a'],'Graphite':['sheets','#3d4045','#6e7278'],
+ 'Pyrrhotite':['lump','#b08a4e','#7a5c30'],'Granite':['speckle','#d9b3a2','#2a2a2a'],'Basalt':['vesic','#3e4245','#25282a'],'Obsidian':['glass','#17181b','#454a52'],'Pumice':['vesic','#e1ddd2','#b6b0a0'],
+ 'Limestone':['layer','#cfc6b0','#b3a88e'],'Marble':['speckle','#eceae4','#a9afb4'],'Sandstone':['layer','#d9b07a','#b98a52'],'Shale':['layer','#6c7072','#50555a'],'Slate':['layer','#4d5560','#3a414a'],
+ 'Schist':['layer','#9a9484','#c9c3b0'],'Gneiss':['layer','#e1d3c4','#3c3a38'],'Quartzite':['speckle','#e6c1c0','#f3e4e2'],'Chert / flint':['glass','#6d6a62','#4a4740'],'Jasper':['lump','#a8352a','#7a2219'],
+ 'Banded iron (taconite)':['layer','#9e2f25','#2d2f33'],'Coal':['glass','#141516','#3a3c40'],'Iron meteorite':['crust','#3a3330','#c7c9cc'],'Stony meteorite (chondrite)':['crust','#2b2725','#8c8a84'],
+ 'Slag ("meteor-wrong")':['vesic','#3f5a5a','#5e7f78'],'Uraninite (pitchblende)':['botry','#1d1d1f','#4a4a40'],'Autunite':['plates','#e3e04a','#b9c42c'],'Torbernite':['plates','#3f9a4a','#256b30'],
+ 'Carnotite':['stain','#f2d22a','#a99b84'],'Monazite':['grains','#b87a36','#8a5320'],'Zircon':['grains','#9a5a2e','#6e3c1c'],'Uranium glass (vaseline glass)':['shard','#cde24a','#9ab82a'],
+ 'Radium dial or gauge':['dial','#3a3a3a','#d9c99a'],'Gold':['nugget','#e3b432','#b8861a'],'Silver':['nugget','#c9ccd0','#8c9096'],'Copper':['nugget','#c46a3c','#8a4422'],
+ 'Iron / carbon steel':['bar','#7d8388','#9a5a3a'],'Stainless steel':['bar','#c3c8cc','#8e959b'],'Nickel':['bar','#b9b7ae','#8c8a82'],'Aluminum':['bar','#d3d6d8','#a7abae'],'Lead':['bar','#7b8188','#5c6168'],
+ 'Brass':['bar','#d4ae4a','#a8832a'],'Bronze':['bar','#b27a3a','#7c5222'],'Zinc':['bar','#a9b2b8','#7f898f'],'Tin':['bar','#d9dbdc','#adb1b4'],'Titanium':['bar','#8f9499','#6c7176'],'Tungsten carbide':['ring','#6a6e73','#45494d']};
+let picN=0;
+function sh(hex,a){ const n=parseInt(hex.slice(1),16); let r=n>>16,g=n>>8&255,b=n&255; const f=a<0?0:255,t=Math.abs(a); r=Math.round(r+(f-r)*t); g=Math.round(g+(f-g)*t); b=Math.round(b+(f-b)*t); return '#'+((1<<24)|(r<<16)|(g<<8)|b).toString(16).slice(1); }
+function rnd(seed){ let x=0; for(const ch of seed) x=(x*31+ch.charCodeAt(0))|0; return ()=>{ x=(x*1103515245+12345)|0; return ((x>>>8)&65535)/65536; }; }
+function blob(R,cx,cy,r,k){ const n=10,pts=[]; for(let i=0;i<n;i++){ const a=i/n*Math.PI*2, q=r*(1-k/2+R()*k); pts.push([cx+Math.cos(a)*q*1.08,cy+Math.sin(a)*q*.86]); }
+  let d=''; for(let i=0;i<n;i++){ const p=pts[i],q=pts[(i+1)%n],m=[(p[0]+q[0])/2,(p[1]+q[1])/2]; d+=(i?'':`M${((pts[n-1][0]+p[0])/2).toFixed(1)},${((pts[n-1][1]+p[1])/2).toFixed(1)}`)+`Q${p[0].toFixed(1)},${p[1].toFixed(1)} ${m[0].toFixed(1)},${m[1].toFixed(1)}`; } return d+'Z'; }
+function pic(s,px){ const [k,c1,c2]=PIC[s.n]||['lump','#9a9a90','#6a6a60'], R=rnd(s.n), id='rp'+(picN++), met=s.lus.includes('metallic'), gl=s.lus.includes('glassy')||s.li.includes('transparent');
+  const grad=`<defs><linearGradient id="${id}" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${sh(c1,met?.55:.25)}"/><stop offset=".55" stop-color="${c1}"/><stop offset="1" stop-color="${sh(c1,met?-.5:-.3)}"/></linearGradient><clipPath id="${id}c"><path d="${blob(rnd(s.n+'c'),32,34,22,.25)}"/></clipPath></defs>`;
+  const F=`url(#${id})`, L=sh(c1,.3), D=sh(c1,-.35), op=gl&&!met?' fill-opacity=".88"':'', hi=(x,y,w)=>`<path d="M${x},${y} l${w},-${w*.6}" stroke="#fff" stroke-opacity=".8" stroke-width="2.2" stroke-linecap="round"/>`;
+  const ground='<ellipse cx="32" cy="57" rx="20" ry="3.2" fill="#000" fill-opacity=".12"/>'; let g='';
+  switch(k){
+   case 'cube': g=`<path d="M32 10 54 21 32 32 10 21Z" fill="${L}"${op}/><path d="M10 21 32 32 32 56 10 45Z" fill="${c1}"${op}/><path d="M32 32 54 21 54 45 32 56Z" fill="${D}"${op}/>${s.n.startsWith('Pyrite')?'<path d="M14 26 30 34M14 31 30 39M14 36 30 44M34 34 50 26M34 39 50 31M34 44 50 36" stroke="#000" stroke-opacity=".18" stroke-width=".8"/>':''}${hi(16,22,7)}`; break;
+   case 'rhomb': g=`<path d="M14 22 40 15 54 25 28 32Z" fill="${L}"${op}/><path d="M14 22 28 32 24 56 10 46Z" fill="${c1}"${op}/><path d="M28 32 54 25 50 49 24 56Z" fill="${D}"${op}/>${hi(20,24,6)}`; break;
+   case 'block': g=`<path d="M12 22 38 16 54 24 28 31Z" fill="${L}"/><path d="M12 22 28 31 28 54 12 46Z" fill="${c1}"/><path d="M28 31 54 24 54 46 28 54Z" fill="${D}"/><path d="M30 38 52 31" stroke="#fff" stroke-opacity=".35" stroke-width="1.2"/>`; break;
+   case 'hex': g=[[-9,4,.9],[8,0,1],[0,8,.75]].map(([dx,dy,sc],j)=>{ const x=32+dx, y=56+dy*0-0, w=8*sc, t=48*sc; return `<g transform="translate(${x} ${y-2}) rotate(${dx*1.6})"><path d="M${-w} 0V${-t+w*1.6} L0 ${-t} L${w} ${-t+w*1.6} V0Z" fill="${j==1?c1:sh(c1,-.12)}"${op}/><path d="M0 ${-t} V0" stroke="${D}" stroke-width="1"/><path d="M${-w} ${-t+w*1.6} L0 ${-t+w*2.4} L${w} ${-t+w*1.6}" fill="none" stroke="${D}" stroke-width=".8"/><path d="M${-w*.55} -4 V${-t+w*2}" stroke="#fff" stroke-opacity=".75" stroke-width="1.6"/></g>`; }).join(''); break;
+   case 'prism': g=`<path d="M22 14 42 14 46 20 46 52 18 52 18 20Z" fill="${c1}"${op}/><path d="M18 20 46 20 42 14 22 14Z" fill="${L}"${op}/><path d="M32 20V52" stroke="${D}"/><path d="M23 24V48" stroke="#fff" stroke-opacity=".7" stroke-width="1.8"/>`; break;
+   case 'barrel': g=`<path d="M24 10 40 10 47 20 44 50 20 50 17 20Z" fill="${c1}"${op}/><path d="M17 20 47 20 40 10 24 10Z" fill="${L}"${op}/><path d="M32 20 32 50M24 20 24 50M40 20 40 50" stroke="${D}" stroke-width=".8"/>${hi(20,26,5)}`; break;
+   case 'dodeca': g=`<path d="M32 10 48 18 54 34 46 50 32 56 18 50 10 34 16 18Z" fill="${F}"/><path d="M32 10 32 26 48 18M32 26 22 36 10 34M22 36 32 56M32 26 44 38 54 34M44 38 32 56M22 36 44 38" fill="none" stroke="${D}" stroke-width=".9"/>${hi(18,24,6)}`; break;
+   case 'sheets': g=[0,1,2,3].map(i=>`<path d="M${10+i*2} ${44-i*7} L${42+i*2} ${38-i*7} L${54-i} ${44-i*7} L${22-i} ${50-i*7}Z" fill="${i%2?sh(c1,.12):c1}" stroke="${D}" stroke-width=".7"${op}/>`).join('')+hi(28,25,8); break;
+   case 'blade': g=[[-16,.8],[0,1],[16,.85]].map(([r,sc])=>`<g transform="translate(32 54) rotate(${r})"><path d="M0 0 L${-6*sc} ${-22*sc} L0 ${-44*sc} L${6*sc} ${-22*sc}Z" fill="${c1}" stroke="${D}" stroke-width=".8"${op}/><path d="M0 0V${-44*sc}" stroke="${D}" stroke-width=".6"/></g>`).join(''); break;
+   case 'needle': g=[[-14,24,6],[2,40,7],[14,30,5]].map(([dx,t,w])=>`<g transform="translate(${32+dx} 54) rotate(${dx})"><rect x="${-w/2}" y="${-t}" width="${w}" height="${t}" fill="${c1}"/><path d="M${-w/4} 0V${-t}M${w/4} 0V${-t}" stroke="${L}" stroke-width=".7"/><path d="M${-w/2} ${-t} L0 ${-t-4} L${w/2} ${-t}Z" fill="${D}"/></g>`).join(''); break;
+   case 'band': g=`<path d="${blob(R,32,34,24,.2)}" fill="${D}"/>`+[0,1,2,3,4].map(i=>`<path d="${blob(rnd(s.n),32,35,20-i*3.8,.2)}" fill="${i%2?c2:c1}"/>`).join(''); break;
+   case 'botry': g=`<path d="${blob(R,32,36,22,.2)}" fill="${D}"/>`+Array.from({length:9},(_,i)=>{ const a=i/9*6.28, r=i?13:0; return `<circle cx="${32+Math.cos(a)*r*1.1}" cy="${36+Math.sin(a)*r*.8}" r="${8+R()*3}" fill="${F}" stroke="${c2}" stroke-width="1"/>`; }).join('')+`<circle cx="28" cy="31" r="2.2" fill="#fff" fill-opacity="${met?.8:.45}"/>`; break;
+   case 'grains': g=Array.from({length:14},()=>{ const x=12+R()*40,y=26+R()*26,r=3+R()*4; return `<path d="M${x-r} ${y} L${x} ${y-r} L${x+r} ${y} L${x} ${y+r}Z" fill="${R()<.5?c1:c2}" stroke="${D}" stroke-width=".5"/>`; }).join(''); break;
+   case 'speckle': g=`<path d="${blob(R,32,34,23,.25)}" fill="${c1}"/><g clip-path="url(#${id}c)">`+Array.from({length:34},()=>{ const x=8+R()*48,y=12+R()*42,r=1.2+R()*3.2,col=[c2,sh(c1,-.2),sh(c1,.35),'#f2f2ef'][Math.floor(R()*4)]; return `<rect x="${x}" y="${y}" width="${r*1.4}" height="${r}" transform="rotate(${R()*90} ${x} ${y})" fill="${col}"/>`; }).join('')+'</g>'; break;
+   case 'layer': g=`<path d="${blob(R,32,34,23,.22)}" fill="${c1}"/><g clip-path="url(#${id}c)">`+Array.from({length:8},(_,i)=>`<path d="M4 ${14+i*6} Q22 ${11+i*6+R()*4} 32 ${14+i*6} T60 ${13+i*6}" stroke="${i%2?c2:sh(c1,-.15)}" stroke-width="${2+R()*2.5}" fill="none"/>`).join('')+'</g>'; break;
+   case 'vesic': g=`<path d="${blob(R,32,34,23,.3)}" fill="${F}"/>`+Array.from({length:16},()=>`<ellipse cx="${13+R()*38}" cy="${20+R()*28}" rx="${1+R()*2.6}" ry="${.8+R()*1.8}" fill="${sh(c1,-.45)}"/>`).join(''); break;
+   case 'glass': g=`<path d="M10 46 20 16 44 12 56 30 46 52Z" fill="${F}"/><path d="M22 22Q34 26 38 44M26 18Q40 22 46 40M30 15Q44 20 52 32" fill="none" stroke="${L}" stroke-width="1" stroke-opacity=".7"/>${hi(18,28,9)}`; break;
+   case 'flash': g=`<path d="${blob(R,32,34,23,.25)}" fill="${c1}"/><g clip-path="url(#${id}c)"><path d="M6 44 Q24 22 58 26 L58 38 Q30 34 6 56Z" fill="${c2}" fill-opacity=".85"/><path d="M6 36 Q28 20 58 18 L58 22 Q28 26 6 42Z" fill="#e9c94a" fill-opacity=".6"/></g>`; break;
+   case 'plates': g=[[14,30,10],[30,38,-8],[38,24,14],[22,44,4]].map(([x,y,r])=>`<rect x="${x}" y="${y}" width="15" height="15" transform="rotate(${r} ${x+7} ${y+7})" fill="${c1}" stroke="${c2}" stroke-width="1.2"/>`).join(''); break;
+   case 'stain': g=`<path d="${blob(R,32,34,23,.25)}" fill="${c2}"/><g clip-path="url(#${id}c)">`+Array.from({length:7},()=>`<path d="${blob(R,10+R()*44,16+R()*36,4+R()*6,.6)}" fill="${c1}"/>`).join('')+'</g>'; break;
+   case 'crust': g=`<path d="${blob(R,32,34,23,.2)}" fill="${F}"/>`+Array.from({length:7},()=>`<ellipse cx="${14+R()*30}" cy="${22+R()*24}" rx="${3+R()*3}" ry="${2+R()*2}" fill="${sh(c1,-.4)}" fill-opacity=".7"/>`).join('')+`<path d="M40 30 52 34 50 46 38 44Z" fill="${c2}"/><path d="M42 33 50 36M41 38 50 41" stroke="#fff" stroke-opacity=".6"/>`; break;
+   case 'nugget': g=`<path d="${blob(R,32,36,20,.45)}" fill="${F}"/><path d="${blob(rnd(s.n+'n'),28,32,8,.5)}" fill="${sh(c1,.5)}" fill-opacity=".55"/><circle cx="25" cy="29" r="2.4" fill="#fff" fill-opacity=".85"/>`; break;
+   case 'bar': g=`<path d="M10 34 40 24 54 30 24 40Z" fill="${sh(c1,.35)}"/><path d="M10 34 24 40 24 50 10 44Z" fill="${sh(c1,-.15)}"/><path d="M24 40 54 30 54 40 24 50Z" fill="${c1}"/>${s.n.startsWith('Iron')?`<path d="${blob(R,44,38,4,.6)}" fill="${c2}" fill-opacity=".8"/>`:''}<path d="M16 34 40 26" stroke="#fff" stroke-opacity=".75" stroke-width="2" stroke-linecap="round"/>`; break;
+   case 'ring': g=`<ellipse cx="32" cy="36" rx="20" ry="13" fill="none" stroke="${F}" stroke-width="7"/><path d="M16 32 Q32 22 48 32" fill="none" stroke="#fff" stroke-opacity=".7" stroke-width="1.6"/>`; break;
+   case 'shard': g=`<path d="M12 48 22 14 46 20 54 50Z" fill="${c1}" fill-opacity=".85"/><path d="M12 48 22 14 46 20 54 50Z" fill="none" stroke="${c2}" stroke-width="1.5"/>${hi(20,40,10)}`; break;
+   case 'dial': g=`<circle cx="32" cy="34" r="22" fill="${c1}"/><circle cx="32" cy="34" r="18" fill="${sh(c2,-.1)}"/>`+Array.from({length:12},(_,i)=>{ const a=i/12*6.28; return `<circle cx="${32+Math.cos(a)*14}" cy="${34+Math.sin(a)*14}" r="1.6" fill="#7a6a3a"/>`; }).join('')+`<path d="M32 34 32 22M32 34 41 38" stroke="#3a3324" stroke-width="2" stroke-linecap="round"/>`; break;
+   default: g=`<path d="${blob(R,32,35,22,.35)}" fill="${F}"/>${met||gl?`<path d="${blob(rnd(s.n+'h'),26,29,6,.5)}" fill="#fff" fill-opacity=".35"/>`:''}${c2&&k==='lump'&&s.n==='Chalcopyrite'?'<path d="M36 26 Q46 30 48 40" stroke="#6a4fa0" stroke-width="3" fill="none" stroke-opacity=".7"/>':''}`;
+  }
+  return `<svg class="rid-pic" viewBox="0 0 64 64" width="${px}" height="${px}" aria-hidden="true">${grad}${ground}${g}</svg>`; }
+// ---- color, read from each description ----
+const COLW=[['light',/white|colorless|clear|cream/],['gray',/gray|silver|steel|gunmetal/],['black',/black/],['brown',/brown|tan|honey|bronze|rust|mahogany/],['red',/red|pink|salmon|scarlet|ruby|brick/],
+ ['yellow',/yellow|gold|lemon|ochre|canary|brass|butter|honey/],['green',/green|olive|emerald/],['blue',/blue|purple|violet|amethyst/]];
+S.forEach(s=>{ const t=s.c.toLowerCase(); s.col=COLW.filter(([,re])=>re.test(t)).map(([k])=>k); if(!s.col.length) s.col=['gray']; });
 const HARD=[{v:'b1',l:'Fingernail scratches it',r:[0,2.5]},{v:'b2',l:'Copper scratches it, fingernail doesn\'t',r:[2.5,3.5]},{v:'b3',l:'Steel nail scratches it, copper doesn\'t',r:[3.5,5.5]},{v:'b4',l:'Scratches glass, quartz scratches it',r:[5.5,7]},{v:'b5',l:'Scratches quartz (7+)',r:[7,10.1]}];
 const HEFT=[{v:'h1',l:'Light, feels hollow',r:[0,2.5]},{v:'h2',l:'Normal rock weight',r:[2.5,4]},{v:'h3',l:'Heavy for its size',r:[4,8]},{v:'h4',l:'Very heavy, like lead',r:[8,25]}];
 const ov=(a,r)=>a[0]<r[1]&&a[1]>=r[0];
 const G=[
- {id:'cat',label:'What kind of thing',opts:[['mineral','Mineral'],['rock','Rock'],['metal','Metal']],m:(s,v)=>s.k===v},
+ {id:'cat',label:'What kind of thing',opts:[['mineral','Mineral'],['rock','Rock'],['metal','Metal'],['relic','Man-made / relic']],m:(s,v)=>s.k===v},
+ {id:'col',label:'Main color',how:'weak clue on its own',opts:[['light','White / clear','#f3f1ea'],['gray','Gray / silver','#9aa0a5'],['black','Black','#222'],['brown','Brown / tan','#8a5a2e'],['red','Red / pink','#c23a3a'],['yellow','Yellow / gold','#e0b432'],['green','Green','#3f9a52'],['blue','Blue / purple','#4b5bc9']],m:(s,v)=>s.col.includes(v)},
+ {id:'loc',label:'Where you found it',get how(){ return st.loc==='auto'?`using ${myName()}`:''; },opts:[['auto','Near my map spot'],['sup','Lake Superior shore'],['iron','Iron range'],['lead','SW Wisconsin lead district'],['drift','Glacial gravel, fields, creeks']],m:(s,v)=>arCredit(s,v)>=.85},
  {id:'mag',label:'Magnet test',how:'fridge magnet, then neodymium',opts:[['strong','Fridge magnet sticks'],['weak','Only a strong magnet pulls'],['none','No pull at all']],m:(s,v)=>s.mag.includes(v)},
  {id:'acid',label:'Vinegar or acid drop',opts:[['cold','Fizzes right away'],['powder','Fizzes only on powder'],['none','No fizz']],m:(s,v)=>s.acid.includes(v)},
  {id:'uv',label:'Under UV light',how:'dark room',opts:[['none','No glow','#555'],['red','Red / pink','#e0405a'],['orange','Orange','#f08a24'],['yellow','Yellow / cream','#f2d43a'],['green','Green','#3fdc6a'],['blue','Blue / violet','#6c6cff'],['white','White','#f4f4f4']],m:(s,v)=>s.uv.includes(v)||(v==='yellow'&&s.uv.includes('white'))||(v==='white'&&s.uv.includes('yellow'))},
+ {id:'rad',label:'Geiger counter',how:'hold close, compare to background',opts:[['hot','Clicks well above background'],['slight','Slightly above background'],['none','Background only']],m:(s,v)=>s.rad.includes(v)},
  {id:'li',label:'Flashlight behind it',opts:[['transparent','See-through, clear'],['translucent','Light glows through'],['opaque','Blocks all light']],m:(s,v)=>s.li.includes(v)},
  {id:'lus',label:'Luster (how it shines)',opts:[['metallic','Metallic'],['glassy','Glassy'],['pearly','Pearly'],['greasy','Waxy / greasy'],['silky','Silky'],['dull','Dull / earthy']],m:(s,v)=>s.lus.includes(v)},
  {id:'st',label:'Streak color',how:'rub on unglazed tile',opts:[['white','White / none','#f5f5f2'],['dark','Gray / black','#333'],['red','Red-brown','#a3362a'],['yellow','Yellow / gold','#d6a62b'],['green','Greenish','#4f8a5b'],['blue','Light blue','#4d86c9']],m:(s,v)=>v==='dark'?(s.st.includes('black')||s.st.includes('gray')):s.st.includes(v)},
@@ -111,50 +206,95 @@ const G=[
  {id:'heft',label:'Heft in your hand',opts:HEFT.map(x=>[x.v,x.l]),m:(s,v)=>ov(s.sg,HEFT.find(x=>x.v===v).r)},
  {id:'sp',multi:true,label:'Anything else you noticed',how:'pick any',opts:[['sheets','Peels or splits in sheets'],['cubes','Cube-shaped'],['hex','Six-sided crystals'],['bands','Bands or stripes'],['vesicles','Bubbles / holes'],['flash','Color flash or play'],['double','Double image'],['soapy','Soapy feel'],['marks','Marks paper'],['salty','Tastes salty'],['smell','Sulfur / rotten-egg smell'],['spark','Sparks when struck'],['rust','Rusty stains'],['tarnish','Tarnished surface'],['malleable','Dents instead of breaking'],['ice','Melts ice fast'],['floats','Floats in water'],['crust','Thin black crust']],m:(s,v)=>s.sp.includes(v)}
 ];
-const KEY='og-rockid', st={view:'spots',q:'',open:null}; G.forEach(g=>st[g.id]=g.multi?new Set():null);
+const KEY='og-rockid', st={view:'id',q:'',open:null}; G.forEach(g=>st[g.id]=g.multi?new Set():null); st.loc='auto';
 try{ const o=JSON.parse(localStorage.getItem(KEY)||'null'); if(o){ G.forEach(g=>{ if(o[g.id]!=null) st[g.id]=g.multi?new Set(o[g.id]):o[g.id]; }); } }catch(_){}
 const save=()=>{ try{ const o={}; G.forEach(g=>o[g.id]=g.multi?[...st[g.id]]:st[g.id]); localStorage.setItem(KEY,JSON.stringify(o)); }catch(_){} };
 const E=t=>String(t).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const oL=(g,v)=>g.opts.find(o=>o[0]===v)[1], hT=h=>h[0]===h[1]?h[0]:`${h[0]}–${h[1]}`;
 const MAG={strong:'Strong',weak:'Weak (neodymium only)',none:'None'}, ACID={cold:'Fizzes cold',powder:'Fizzes as powder',none:'None'};
 const STR={white:'white',black:'black',gray:'gray',red:'red-brown',yellow:'yellow',green:'greenish',blue:'light blue'};
-const SPL=Object.fromEntries(G[G.length-1].opts);
+const SPL=Object.fromEntries(G.find(g=>g.id==='sp').opts), GL=G.find(g=>g.id==='lus');
 
-// sub-tabs: the existing spot search stays as "Spots"
-const spots=document.createElement('div'); spots.id='rid-spots'; while(pane.firstChild) spots.appendChild(pane.firstChild);
-pane.insertAdjacentHTML('afterbegin',`<div class="ridtabs" id="rid" role="group" aria-label="Search"><button id="rid-t-spots" data-v="spots" aria-pressed="true">${inId?'Search all':'Spots'}</button><button id="rid-t-id" data-v="id" aria-pressed="false">${inId?'Rock tester':'Rock &amp; metal ID'}</button><button id="rid-t-how" data-v="how" aria-pressed="false">How to test</button></div><div id="rid-id" hidden></div><div id="rid-how" hidden></div>`);
-pane.insertBefore(spots,document.getElementById('rid-id'));
-const $=id=>document.getElementById(id), idBox=$('rid-id'), howBox=$('rid-how');
-function view(v){ st.view=v; ['spots','id','how'].forEach(k=>$('rid-t-'+k).setAttribute('aria-pressed',k===v)); spots.hidden=v!=='spots'; idBox.hidden=v!=='id'; howBox.hidden=v!=='how';
-  const sc=$('scroll'); if(sc) sc.scrollTop=0; }
+// lives inside the Minerals map mode: a "Rock ID" button joins the mode row while Minerals is on, and opens a panel over the map
+const modes=document.getElementById('shModes');
+mw.insertAdjacentHTML('beforeend',`<section class="ridsheet" id="ridSheet" hidden aria-label="Rock and metal ID"><div class="ridh"><b>${RICON} Rock &amp; metal ID</b><button class="px" id="rid-x" aria-label="Close">×</button></div>
+ <div class="ridtabs" id="rid" role="group" aria-label="Rock and metal ID"><button id="rid-t-id" data-v="id" aria-pressed="true">Identify</button><button id="rid-t-how" data-v="how" aria-pressed="false">How to test</button></div>
+ <div class="ridbody" id="ridBody"><div id="rid-id"></div><div id="rid-how" hidden></div></div></section>`);
+const $=id=>document.getElementById(id), idBox=$('rid-id'), howBox=$('rid-how'), sheet=$('ridSheet'), body=$('ridBody');
+const top0=()=>{ body.scrollTop=0; };
+function view(v){ st.view=v; ['id','how'].forEach(k=>$('rid-t-'+k).setAttribute('aria-pressed',k===v)); idBox.hidden=v!=='id'; howBox.hidden=v!=='how'; top0(); }
 $('rid').onclick=e=>{ const b=e.target.closest('button[data-v]'); if(b){ st.open=null; view(b.dataset.v); renderId(); } };
+let tab=null;
+function openSheet(){ try{ closePop(); }catch(_){} try{ const d=document.getElementById('cld'); if(d){ d.hidden=true; } }catch(_){} sheet.hidden=false; if(tab) tab.setAttribute('aria-expanded','true'), tab.classList.add('on'); }
+function closeSheet(){ sheet.hidden=true; if(tab) tab.setAttribute('aria-expanded','false'), tab.classList.remove('on'); }
+$('rid-x').onclick=closeSheet;
+// Identify page: open the panel on a tab, a specimen (i) or a test method (m)
+window.ridOpen=(v,o)=>{ o=o||{}; if(o.q!=null) st.q=o.q; st.open=o.i!=null?o.i:null; view(v||'id'); renderId(); openSheet();
+  if(o.m!=null){ const m=howBox.querySelectorAll('.rid-m')[o.m]; if(m) setTimeout(()=>{ body.scrollTop=m.offsetTop-body.offsetTop; },30); } };
+if(modes){ const gb=modes.querySelector('[data-m="gold"]');
+  (gb||modes.lastElementChild).insertAdjacentHTML(gb?'afterend':'beforeend',`<button type="button" class="ridtab" id="ridTab" aria-expanded="false" hidden>${RICON}Rock ID</button>`);
+  tab=$('ridTab'); tab.addEventListener('click',e=>{ e.stopPropagation(); sheet.hidden?openSheet():closeSheet(); });
+  const sync=()=>{ let m=''; try{ m=SH.mode; }catch(_){} const on=m==='gold'; tab.hidden=!on; if(!on) closeSheet(); };
+  new MutationObserver(sync).observe(modes,{subtree:true,attributes:true,attributeFilter:['aria-pressed']}); sync(); }
+else { // no mode row: fall back to a button on the map
+  mw.insertAdjacentHTML('beforeend','<button type="button" class="ridtab ridfloat" id="ridTab">Rock ID</button>'); tab=$('ridTab'); tab.onclick=()=>sheet.hidden?openSheet():closeSheet(); }
+document.addEventListener('keydown',e=>{ if(e.key==='Escape'&&!sheet.hidden) closeSheet(); });
 
 function crit(){ const c=[]; G.forEach(g=>{ if(g.multi) st[g.id].forEach(v=>c.push({g,v})); else if(st[g.id]!=null) c.push({g,v:st[g.id]}); }); return c; }
 function filtersHTML(){ return `<div class="sec"><div class="rid-head"><h3>Your test results</h3><button class="btn" id="rid-clear">Clear</button></div>
   <input type="search" id="rid-q" placeholder="Search rocks, minerals, metals" aria-label="Search rocks, minerals and metals" value="${E(st.q)}">
-  <p class="hint">Tap what you saw. The list narrows to what your specimen could be.</p></div>
+  <p class="hint">Tap what you saw. Matches are ranked by confidence: streak, heft and magnet count most, and near-misses earn partial credit.</p></div>
   <div class="sec">${G.map(g=>`<div class="rid-g"><div class="rid-gl"><span>${g.label}</span>${g.how?`<i>${g.how}</i>`:''}</div><div class="rid-cs">${g.opts.map(([v,l,d])=>{ const on=g.multi?st[g.id].has(v):st[g.id]===v; return `<button class="rid-c" data-g="${g.id}" data-v="${v}" aria-pressed="${on}">${d?`<span class="rid-dot" style="background:${d}"></span>`:''}${E(l)}</button>`; }).join('')}</div></div>`).join('')}</div>`; }
-function card(s,i,miss){ return `<button class="rid-card" data-i="${i}"><span class="rid-top"><span><b>${E(s.n)}</b><br><span class="rid-f">${E(s.f)}</span></span><span class="rid-k ${s.k}">${s.k}</span></span>
+// ---- confidence scoring: strong tests count more, near-misses earn partial credit ----
+const W={col:.75,loc:1.5,rad:2.5,cat:2,mag:3,acid:2.5,uv:1,li:1.5,lus:1.5,st:3,hard:2.5,heft:3,sp:1.5};
+const NEAR={mag:{strong:{weak:.4},weak:{strong:.4,none:.4},none:{weak:.4}},acid:{cold:{powder:.4},powder:{cold:.4,none:.3},none:{powder:.3}},
+  rad:{hot:{slight:.4},slight:{hot:.4,none:.4},none:{slight:.4}},
+  li:{transparent:{translucent:.5},translucent:{transparent:.5,opaque:.4},opaque:{translucent:.4}},
+  lus:{glassy:{greasy:.3,pearly:.3},greasy:{glassy:.3,dull:.3},pearly:{silky:.4,glassy:.3},silky:{pearly:.4},dull:{greasy:.3},metallic:{}}};
+function credit(g,s,v){ // 1 = fits, 0–0.5 = close, 0 = doesn't fit
+  if(g.id==='loc') return arCredit(s,v);
+  if(g.m(s,v)){ const arr={col:s.col,rad:s.rad,mag:s.mag,acid:s.acid,uv:s.uv,li:s.li,lus:s.lus,st:s.st}[g.id];
+    if(arr&&arr.length>1) return .85;                       // a specimen that fits many answers says less
+    if(g.id==='hard'&&s.h[1]-s.h[0]>2) return .85; if(g.id==='heft'&&s.sg[1]/s.sg[0]>1.6) return .85; return 1; }
+  if(g.id==='hard'){ const r=HARD.find(x=>x.v===v).r, gap=Math.max(r[0]-s.h[1],s.h[0]-r[1]); return gap<=.5?.5:0; }
+  if(g.id==='heft'){ const r=HEFT.find(x=>x.v===v).r, gap=Math.max(r[0]/s.sg[1],s.sg[0]/r[1]); return gap<=1.15?.5:0; }
+  if(g.id==='sp') return .2;                                  // a clue we have no record of is weak evidence against
+  const n=NEAR[g.id]; if(n){ let best=0; for(const have of (g.id==='rad'?s.rad:g.id==='mag'?s.mag:g.id==='acid'?s.acid:g.id==='li'?s.li:s.lus)) best=Math.max(best,(n[v]||{})[have]||0); return best; }
+  return 0; }
+function score(s,c){ let got=0,tot=0; const parts=c.map(k=>{ const w=W[k.g.id], x=credit(k.g,s,k.v); got+=w*x; tot+=w; return {k,x}; });
+  return {pct:tot?Math.round(100*got/tot):0, parts}; }
+const nTests=parts=>parts.filter(p=>p.k.g.id!=='loc').length;
+const tier=(p,n)=>p>=85?(n<3?'Fits so far':'Strong match'):p>=65?'Likely':p>=45?'Possible':'Unlikely';
+function card(s,i,r){ const off=r?r.parts.filter(p=>p.x<.85):[];
+  return `<button class="rid-card" data-i="${i}">${pic(s,52)}<span class="rid-cb"><span class="rid-top"><span><b>${E(s.n)}</b><br><span class="rid-f">${E(s.f)}</span></span><span class="rid-k ${s.k}">${s.k==='relic'?'man-made':s.k}</span></span>
+  ${s.rad[0]!=='none'?`<span class="rid-rad">☢ Radioactive${s.rad.includes('hot')?'':' (weak)'}</span>`:''}
+  ${r?`<span class="rid-conf t${r.pct>=85?3:r.pct>=65?2:1}"><span class="rid-bar"><i style="width:${r.pct}%"></i></span><span class="mono">${r.pct}%</span><span class="rid-tier">${tier(r.pct,nTests(r.parts))}</span></span>`:''}
   <dl class="rid-dl"><dt>Hardness</dt><dd>${hT(s.h)}</dd><dt>Streak</dt><dd>${s.st.map(x=>STR[x]).join(' / ')}</dd><dt>Magnet</dt><dd>${s.mag.map(x=>MAG[x]).join(' or ')}</dd><dt>UV</dt><dd>${s.uv.length===1&&s.uv[0]==='none'?'No glow':s.uv.filter(x=>x!=='none').join(', ')+(s.uv.includes('none')?' (some)':'')}</dd></dl>
-  ${miss?`<span class="rid-miss">Doesn't match: ${miss.map(E).join(', ')}</span>`:''}</button>`; }
-function resultsHTML(){ const c=crit(), q=st.q.trim().toLowerCase();
-  const sc=S.map((s,i)=>({s,i})).filter(x=>!q||x.s.n.toLowerCase().includes(q)||x.s.f.toLowerCase().includes(q)).map(x=>({...x,miss:c.filter(k=>!k.g.m(x.s,k.v))}));
-  const ex=sc.filter(x=>!x.miss.length), near=c.length>=2?sc.filter(x=>x.miss.length===1):[];
-  const ord={mineral:0,rock:1,metal:2}, so=(a,b)=>ord[a.s.k]-ord[b.s.k]||a.s.n.localeCompare(b.s.n);
-  let h=`<div class="sec"><div class="rid-head"><h3>${c.length?(ex.length?'Possible matches':'No exact match'):'All specimens'}</h3><span class="mono">${ex.length} of ${S.length}</span></div>${c.length?`<div class="rid-act">${c.map(k=>`<span>${E(oL(k.g,k.v))}</span>`).join('')}</div>`:''}
-  ${!c.length&&!q?'<p class="hint">Start with the easy tests: streak on the back of a bathroom tile, a magnet, and a scratch against glass.</p>':''}
-  ${c.length&&!ex.length?'<p class="hint">Nothing matches every result. Re-check the test you were least sure of; hardness and luster are the easiest to misread.</p>':''}</div>`;
-  if(ex.length) h+=`<div class="rid-list">${ex.sort(so).map(x=>card(x.s,x.i)).join('')}</div>`;
-  if(near.length) h+=`<div class="rid-lab">Close: one test off (${near.length})</div><div class="rid-list">${near.sort(so).map(x=>card(x.s,x.i,x.miss.map(k=>oL(k.g,k.v)))).join('')}</div>`;
+  ${off.length?`<span class="rid-miss">Off on: ${off.map(p=>E(oL(p.k.g,p.k.v))+(p.x>=.3&&p.x<.85?' (close)':'')).join(', ')}</span>`:''}</span></button>`; }
+function resultsHTML(){ const c=crit(), tests=c.filter(k=>k.g.id!=='loc'), q=st.q.trim().toLowerCase();
+  const pool=S.map((s,i)=>({s,i})).filter(x=>!q||x.s.n.toLowerCase().includes(q)||x.s.f.toLowerCase().includes(q));
+  const ord={mineral:0,rock:1,metal:2,relic:3};
+  if(!tests.length) return `<div class="sec"><div class="rid-head"><h3>${q?'Search results':'All specimens'}</h3><span class="mono">${pool.length} of ${S.length}</span></div>${q?'':'<p class="hint">Start with the easy tests: streak on the back of a bathroom tile, a magnet, and a scratch against glass. Each match then gets a confidence score.</p>'}</div><div class="rid-list">${pool.sort((a,b)=>ord[a.s.k]-ord[b.s.k]||a.s.n.localeCompare(b.s.n)).map(x=>card(x.s,x.i)).join('')}</div>`;
+  const sc=pool.map(x=>({...x,r:score(x.s,c)})).sort((a,b)=>b.r.pct-a.r.pct||a.s.n.localeCompare(b.s.n));
+  const shown=sc.filter(x=>x.r.pct>=45), weak=sc.filter(x=>x.r.pct<45), top=sc[0];
+  let h=`<div class="sec"><div class="rid-head"><h3>${shown.length?'Best matches':'No good match'}</h3><span class="mono">${shown.length} of ${S.length}</span></div>
+  <div class="rid-act">${c.map(k=>`<span>${E(oL(k.g,k.v))}</span>`).join('')}</div>
+  ${tests.length<3?`<p class="hint">With ${tests.length===1?'one test':'two tests'}, lots of things fit. Add a streak, magnet or heft test to sharpen the scores.</p>`:''}
+  ${top&&top.r.pct<65?'<p class="hint">Nothing fits well. Re-check the test you were least sure of; hardness and luster are the easiest to misread.</p>':''}</div>`;
+  if(shown.length) h+=`<div class="rid-list">${shown.map(x=>card(x.s,x.i,x.r)).join('')}</div>`;
+  if(weak.length) h+= st.weak?`<div class="rid-lab">Unlikely (${weak.length})</div><div class="rid-list">${weak.map(x=>card(x.s,x.i,x.r)).join('')}</div>`
+    :`<div class="sec"><div class="row"><button class="btn" id="rid-weak">Show ${weak.length} unlikely</button></div></div>`;
   return h; }
 function detailHTML(i){ const s=S[i], hf=HEFT.filter(x=>ov(s.sg,x.r)).map(x=>x.l.split(',')[0]).join(' / ');
   return `<div class="sec"><div class="row"><button class="btn" id="rid-back">← Back to matches</button></div>
-  <div class="rid-top"><span><h3 style="font-size:1.35rem">${E(s.n)}</h3><span class="rid-f">${E(s.f)}</span></span><span class="rid-k ${s.k}">${s.k}</span></div>
-  <table class="rid-tbl"><tr><th>Color</th><td>${E(s.c)}</td></tr><tr><th>Luster</th><td>${s.lus.map(x=>oL(G[5],x)).join(', ')}</td></tr>
+  <div class="rid-hero">${pic(s,112)}<span class="hint">Drawing of a typical piece, not a photo</span></div>
+  <div class="rid-top"><span><h3 style="font-size:1.35rem">${E(s.n)}</h3><span class="rid-f">${E(s.f)}</span></span><span class="rid-k ${s.k}">${s.k==='relic'?'man-made':s.k}</span></div>
+  <table class="rid-tbl"><tr><th>Color</th><td>${E(s.c)}</td></tr><tr><th>Luster</th><td>${s.lus.map(x=>oL(GL,x)).join(', ')}</td></tr>
   <tr><th>Streak</th><td>${s.st.map(x=>STR[x]).join(', ')}</td></tr><tr><th>Mohs hardness</th><td>${hT(s.h)}</td></tr>
   <tr><th>Specific gravity</th><td>${hT(s.sg)} <span class="hint">(${E(hf)})</span></td></tr><tr><th>Magnet</th><td>${s.mag.map(x=>MAG[x]).join(' or ')}</td></tr>
-  <tr><th>Acid</th><td>${s.acid.map(x=>ACID[x]).join(' or ')}</td></tr><tr><th>Backlit</th><td>${s.li.join(', ')}</td></tr>
+  <tr><th>Acid</th><td>${s.acid.map(x=>ACID[x]).join(' or ')}</td></tr><tr><th>Geiger counter</th><td>${s.rad.map(x=>({hot:'Well above background',slight:'Slightly above background',none:'Background'}[x])).join(' or ')}</td></tr><tr><th>Backlit</th><td>${s.li.join(', ')}</td></tr><tr><th>In the region</th><td>${E(arText(s))}</td></tr>
   ${s.sp.length?`<tr><th>Other clues</th><td>${s.sp.map(x=>SPL[x]).join(', ')}</td></tr>`:''}</table>
+  ${(()=>{ const cr=crit(); if(!cr.some(k=>k.g.id!=='loc')) return ''; const r=score(s,cr); return `<div class="rid-box"><b>${r.pct}% · ${tier(r.pct,nTests(r.parts))}</b><ul class="rid-ul rid-why" style="margin-top:6px">${r.parts.map(p=>`<li class="${p.x>=.85?'y':p.x>=.3?'c':'n'}">${E(oL(p.k.g,p.k.v))}: ${p.k.g.id==='loc'?(p.x>=.85?'common there':p.x>=.3?'turns up in places':'rare there'):p.x>=.85?'fits':p.x>=.3?'close':'doesn\'t fit'}</li>`).join('')}</ul></div>`; })()}
   <div class="rid-box"><b>Under UV:</b> ${E(s.uvt)}</div>
   <h3>How to confirm it</h3><ul class="rid-ul">${s.id.map(t=>`<li>${E(t)}</li>`).join('')}</ul>
   <div class="rid-box"><b>Often confused with:</b> ${E(s.la)}</div></div>`; }
@@ -164,11 +304,12 @@ function renderId(){ if(st.open!=null){ idBox.innerHTML=detailHTML(st.open); ret
 idBox.onclick=e=>{ const c=e.target.closest('.rid-c');
   if(c){ const g=G.find(x=>x.id===c.dataset.g), v=c.dataset.v;
     if(g.multi){ st[g.id].has(v)?st[g.id].delete(v):st[g.id].add(v); } else st[g.id]=st[g.id]===v?null:v;
-    save(); idBox.querySelectorAll(`.rid-c[data-g="${g.id}"]`).forEach(b=>b.setAttribute('aria-pressed',g.multi?st[g.id].has(b.dataset.v):st[g.id]===b.dataset.v));
+    st.weak=false; save(); idBox.querySelectorAll(`.rid-c[data-g="${g.id}"]`).forEach(b=>b.setAttribute('aria-pressed',g.multi?st[g.id].has(b.dataset.v):st[g.id]===b.dataset.v));
     $('rid-res').innerHTML=resultsHTML(); return; }
-  if(e.target.id==='rid-clear'){ G.forEach(g=>st[g.id]=g.multi?new Set():null); st.q=''; save(); renderId(); return; }
+  if(e.target.id==='rid-clear'){ G.forEach(g=>st[g.id]=g.multi?new Set():null); st.loc='auto'; st.q=''; save(); renderId(); return; }
+  if(e.target.id==='rid-weak'){ st.weak=true; $('rid-res').innerHTML=resultsHTML(); return; }
   if(e.target.id==='rid-back'){ st.open=null; renderId(); return; }
-  const k=e.target.closest('.rid-card'); if(k){ st.open=+k.dataset.i; renderId(); const sc=$('scroll'); if(sc) sc.scrollTop=0; window.scrollTo(0,0); } };
+  const k=e.target.closest('.rid-card'); if(k){ st.open=+k.dataset.i; renderId(); top0(); } };
 
 // how to test
 howBox.innerHTML=`<div class="sec"><h3>How to test a specimen</h3><p class="hint">Field tests narrow things down; one test rarely proves an ID. Combine at least three (streak, hardness, heft, magnet) before you trust a match.</p></div>`+
