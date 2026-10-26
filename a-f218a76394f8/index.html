@@ -429,6 +429,12 @@ svg.sat .pkp{fill-opacity:.08;stroke:#7dff9a;stroke-opacity:.9}
 svg.sat .trl{stroke:#ffd27a}
 </style>
 <style>
+/* + and − on the left edge of the map */
+.plzoom{position:absolute;left:10px;top:50%;transform:translateY(-50%);z-index:5;display:flex;flex-direction:column;gap:8px}
+.plzoom button{width:42px;height:42px;border-radius:50%;font:600 22px var(--f-body);background:var(--panel);color:var(--ink);border:1px solid var(--line);box-shadow:0 2px 8px color-mix(in srgb,var(--ink) 18%,transparent);display:flex;align-items:center;justify-content:center;cursor:pointer;padding:0}
+body.shell .plzoom #zin,body.shell .plzoom #zout{display:flex!important}
+</style>
+<style>
 /* home-screen app */
 .appupd{position:fixed;left:max(12px,env(safe-area-inset-left,0px));right:max(12px,env(safe-area-inset-right,0px));bottom:max(12px,env(safe-area-inset-bottom,0px));z-index:60;max-width:520px;margin:0 auto;display:flex;gap:8px;align-items:center;background:var(--panel);color:var(--ink);border:1px solid var(--accent);border-radius:8px;padding:9px 12px;box-shadow:0 6px 24px color-mix(in srgb,var(--ink) 25%,transparent);font-size:14px}
 .appupd span{flex:1}
@@ -2121,7 +2127,7 @@ const _gmtP=gmTiles; gmTiles=function(){ _gmtP(); gSatR.style.display=GM.tilt&&G
   for(const [k,im] of GM.tiles) if(k.startsWith('R')&&!im.dataset.t){ im.remove(); GM.tiles.delete(k); } };
 // --- double-tap (or double-click) to zoom in, smoothly ---
 function plZoomAnim(f,cx,cy){ let i=0; const n=9, st=Math.pow(f,1/n); const go=()=>{ zoomAt(st,cx,cy); if(++i<n) requestAnimationFrame(go); }; requestAnimationFrame(go); }
-{ let t0=0, p0=null; svg.addEventListener('pointerup',e=>{ if(e.pointerType==='mouse'||moved||ptr.size||e.target.closest('.mk')){ t0=0; return; }
+{ let t0=0, p0=null; svg.addEventListener('pointerup',e=>{ if(e.pointerType==='mouse'||moved||ptr.size||e.plSlow||e.target.closest('.mk')){ t0=0; return; }
     const now=Date.now(); if(now-t0<320&&p0&&Math.hypot(e.clientX-p0[0],e.clientY-p0[1])<30){ t0=0; plZoomAnim(2,...(svg._tilt?ctr():toW(e.clientX,e.clientY))); return; }
     t0=now; p0=[e.clientX,e.clientY]; });
   svg.addEventListener('dblclick',e=>{ if(e.target.closest('.mk')) return; e.preventDefault(); plZoomAnim(2,...toW(e.clientX,e.clientY)); }); }
@@ -2290,6 +2296,16 @@ const _dmO=drawMarkers; drawMarkers=function(){ _dmO(); omRVis(); };
 const _gnO=gmNote; gmNote=function(){ _gnO(); const n=document.getElementById('gmNote'); if(n&&GM.type==='old') n.textContent='Old USGS topo maps: 1936 and 1972 around Eau Claire and Chippewa Falls, 15-minute maps from 1927 to 1952 within about an hour, and 1953 to 1958 regional maps out to about 2 hours. Slide right to fade from today to the old map.'; };
 LBY._oldmap.n='Old maps: USGS topos from 1927 to 1972'; LBY._oldmap.d='Old USGS topo maps under the pins. Around Eau Claire and Chippewa Falls the slider fades from today\'s bare ground to the 1972 and 1936 maps; within about an hour there are 15-minute maps from 1927 to 1952, and out to about 2 hours the 1953-58 regional maps.';
 omApply(); omRVis(); gmSheetSync();
+
+// ---------- v73: a finger the map never heard lift off no longer turns every drag into a pinch; + and − on the left ----------
+// A new first finger means no other finger is down, so any pointer still remembered is stale (iPhone can drop a pointerup when the map hands off a gesture).
+svg.addEventListener('pointerdown',e=>{ if(e.isPrimary&&ptr.size){ ptr.clear(); pinch=null; } },{capture:true});
+svg.addEventListener('lostpointercapture',e=>{ if(ptr.has(e.pointerId)) up(e); });
+// double tap only counts for two quick, still taps
+{ let d0=0; svg.addEventListener('pointerdown',()=>{ d0=Date.now(); },{capture:true});
+  svg.addEventListener('pointerup',e=>{ if(Date.now()-d0>250) e.plSlow=true; },{capture:true}); }
+mwrap.insertAdjacentHTML('beforeend','<div class="plzoom" id="plZoom"></div>');
+{ const z=document.getElementById('plZoom'); z.append(document.getElementById('zin'),document.getElementById('zout')); }
 
 
 // ---------- home-screen app: works offline and updates itself ----------
