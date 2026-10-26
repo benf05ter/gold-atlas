@@ -513,6 +513,21 @@ body.shell .shsheet{transition:height .42s cubic-bezier(.3,1.28,.5,1)}
 @media (prefers-reduced-motion:reduce){body.shell .shsheet,.gmsheet,.cld{transition:none!important}#detail .detail.ogin,.oghero .ogheroimg{animation:none}}
 </style>
 <style>
+/* Historical markers tab under the search bar */
+.shmodes .hmtab{display:inline-flex;align-items:center;gap:6px;border-color:var(--L-landmark)}
+.shmodes .hmtab[aria-pressed="true"]{background:var(--L-landmark);border-color:var(--L-landmark);color:#fff}
+.shmodes .hmtab[aria-pressed="true"] .ic circle{stroke:#fff}
+.cldh b .ic{vertical-align:-2px}
+.hmb{gap:6px}
+.hmb .chip{text-decoration:none;opacity:1}
+.hmb .chip span{color:var(--muted);font-weight:400;margin-left:2px}
+.hmb .chip[aria-pressed="true"]{background:var(--L-landmark);border-color:var(--L-landmark);color:#fff}
+.hmb .chip[aria-pressed="true"] span{color:#fff}
+.hmb .hint{flex-basis:100%}
+.hmref{border:0;background:none;padding:0;color:var(--L-beach);font:inherit;text-decoration:underline;cursor:pointer}
+.hmmore{display:block;margin:12px auto 18px}
+</style>
+<style>
 /* home-screen app */
 .appupd{position:fixed;left:max(12px,env(safe-area-inset-left,0px));right:max(12px,env(safe-area-inset-right,0px));bottom:max(12px,env(safe-area-inset-bottom,0px));z-index:60;max-width:520px;margin:0 auto;display:flex;gap:8px;align-items:center;background:var(--panel);color:var(--ink);border:1px solid var(--accent);border-radius:8px;padding:9px 12px;box-shadow:0 6px 24px color-mix(in srgb,var(--ink) 25%,transparent);font-size:14px}
 .appupd span{flex:1}
@@ -2754,6 +2769,90 @@ new MutationObserver(()=>{ const d=document.querySelector('#detail .detail'); if
   try{ const [x]=toS(p.lo,p.la), r=svgRect(), dr=d.getBoundingClientRect(); d.style.transformOrigin=`${Math.max(0,Math.min(dr.width,r.left+x-dr.left))}px 0`; }catch(_){}
   d.classList.add('ogin'); }).observe(document.getElementById('detail'),{childList:true});
 
+// ---------- Historical markers tab: a chip under the search bar that shows only history markers, with a nearest-first list ----------
+SHM.markers={n:'Historical markers', d:'Historical markers, monuments, history museums, old churches and historic sites, nearest first', L:['landmark','history','_tracks']};
+const HM={f:'all', n:120, prev:'detecting', ref:null};
+const HMF=[['all','All'],['mk','Markers and sites'],['mon','Monuments'],['mus','Museums'],['ch','Churches'],['st','Stories']];
+const HMV={'Historic site or marker':'mk','Monument or memorial':'mon','Local history museum or historical society':'mus','Historic church or mission':'ch'};
+const hmKind=p=>p.L==='history'?'st':(HMV[p.v]||'mk');
+{ const m=document.getElementById('shModes');
+  m.insertAdjacentHTML('afterbegin',`<button type="button" class="hmtab" id="hmTab" data-m="markers" aria-pressed="false">${ico('landmark',16)}Historical markers</button>`);
+  // tapping the tab again goes back to the mode you had before
+  document.getElementById('hmTab').addEventListener('click',e=>{ if(SH.mode==='markers'){ e.stopPropagation(); cld.hidden=true; cldC=null; shSetMode(HM.prev&&HM.prev!=='markers'?HM.prev:'detecting'); } },true); }
+const _hmSet=shSetMode; shSetMode=function(m,keep){ const was=SH.mode; if(m==='markers'&&was!=='markers') HM.prev=was;
+  _hmSet(m,keep); if(m==='markers'&&!keep){ HM.ref=null; HM.n=120; hmOpen(); } else if(was==='markers'&&m!=='markers'&&cld.dataset.hm) { cld.hidden=true; cldC=null; } };
+function hmCenter(){ const r=svgRect(); if(!r.width) return [ORG.lo,ORG.la]; return [(vb.x+vb.w/2)/K,-(vb.y+vb.h/2)]; }
+function hmOpen(){ closePop(); const ref=HM.ref||(HM.ref=ORG.n==='Eau Claire'?hmCenter():[ORG.lo,ORG.la]); const [lo0,la0]=ref, cx=Math.cos(la0*Math.PI/180);
+  const all=PTS.filter(p=>(p.L==='landmark'||p.L==='history')&&isFinite(p.lo)&&isFinite(p.la));
+  const cnt={all:all.length}; for(const p of all){ const k=hmKind(p); cnt[k]=(cnt[k]||0)+1; }
+  const L=all.filter(p=>HM.f==='all'||hmKind(p)===HM.f).map(p=>[Math.hypot((p.lo-lo0)*69.17*cx,(p.la-la0)*69.17),p]).sort((a,b)=>a[0]-b[0]);
+  const where=ORG.n==='Eau Claire'?'the middle of the map':ORG.n;
+  cldC={m:L.slice(0,HM.n).map(x=>x[1])}; cld.dataset.hm='1';
+  cld.innerHTML=`<div class="cldh"><b>${ico('landmark',18)} Historical markers</b><button class="px" data-x aria-label="Close">×</button></div>
+   <div class="cldb hmb">${HMF.filter(([k])=>cnt[k]).map(([k,n])=>`<button class="chip hmf" data-hmf="${k}" aria-pressed="${HM.f===k}">${n} <span>${cnt[k]}</span></button>`).join('')}
+   <span class="hint">Nearest ${esc(where)} first. <button class="hmref" data-hmref>Use this map view</button></span></div>
+   <div class="cldl">${L.slice(0,HM.n).map(([d,p])=>`<button class="item${p.id===selId?' sel':''}" data-id="${esc(p.id)}"><span>${ico(p.L,14)}</span><span><span class="t">${esc(p.n)}</span><br><span class="m">${esc(p.L==='history'?(p.pl&&p.pl!==p.n?p.pl:'Historic site with a story'):(p.v||''))}${p.L!=='history'&&p.pl?' · '+esc(p.pl):''}</span></span><span class="d">${d<10?d.toFixed(1):Math.round(d)} mi</span></button>`).join('')}
+   ${L.length>HM.n?`<button class="btn hmmore" data-hmmore>Show ${Math.min(120,L.length-HM.n)} more of ${L.length}</button>`:''}${L.length?'':'<p class="empty">No markers of this kind yet.</p>'}</div>`;
+  cld.hidden=false; cld.style.transform=''; cldAway(false); }
+cld.addEventListener('click',e=>{ if(!cld.dataset.hm) return; const f=e.target.closest('[data-hmf]'), m=e.target.closest('[data-hmmore]'), r=e.target.closest('[data-hmref]');
+  if(!f&&!m&&!r) return; e.stopPropagation(); const sc=cld.querySelector('.cldl').scrollTop;
+  if(f){ HM.f=f.dataset.hmf; HM.n=120; } if(m) HM.n+=120; if(r){ HM.ref=hmCenter(); HM.n=120; }
+  hmOpen(); if(m) cld.querySelector('.cldl').scrollTop=sc; },true);
+// the bubble list reuses the same drawer: drop the markers flag when it opens
+const _hmCO=cldOpen; cldOpen=function(c){ delete cld.dataset.hm; _hmCO(c); };
+new MutationObserver(()=>{ if(cld.hidden) delete cld.dataset.hm; }).observe(cld,{attributes:true,attributeFilter:['hidden']});
+// the other ~2,300 landmarks arrive a moment later from pk/lm.json: refresh the list once they do
+{ let t=0, n0=0; const iv=setInterval(()=>{ const n=PTS.length; if(n!==n0){ n0=n; if(SH.mode==='markers'&&cld.dataset.hm&&!cld.hidden&&!cld.classList.contains('away')&&cld.querySelector('.cldl').scrollTop<10) hmOpen(); } if(++t>40) clearInterval(iv); },500); }
+// park history + how much the land has changed: pk/hist-*.json = {id:{o:opened,h:history,w:source url,g:grade A-D/X,u:why}}; added to each park card as it opens (batch 1: Eau Claire area).
+{ const PHF=['pk/hist-eauclaire.json'], PHD={};
+  const phApply=p=>{ if(!p||p.L!=='park'||p._ph) return; const e=PHD[p.id]; if(!e) return; p._ph=1;
+    if(e.h){ p.st=e.h+' '+p.st; if(e.o) p.v='Opened '+e.o; if(e.w) (p.src=p.src||[]).unshift(['Park history (Wikipedia)',e.w]); }
+    if(e.g&&!p.ug) p.ug=[e.g,e.u]; };
+  const _selPH=select; select=function(id,pan){ phApply(BYID[id]); return _selPH(id,pan); };
+  if(typeof pkAdd==='function'){ const _paPH=pkAdd; pkAdd=function(a,i){ _paPH(a,i); phApply(BYID[a[7]||'pk-'+i]); }; }
+  Promise.all(PHF.map(u=>fetch(u,{cache:'force-cache'}).then(r=>r.ok?r.json():null).catch(()=>null))).then(a=>{ a.forEach(d=>d&&Object.assign(PHD,d)); for(const p of PTS) phApply(p); drawMarkers(); renderList(); }); }
+// ---- import GPS tracks (GPX, KML, GeoJSON) into the covered-ground layer ----
+function trkParse(txt,fname){ const out=[], T=s=>{ const t=Date.parse(s); return isNaN(t)?null:t; };
+  const seg=(name,arr)=>{ const pts=arr.filter(p=>isFinite(p[0])&&isFinite(p[1])&&Math.abs(p[0])<=90&&Math.abs(p[1])<=180); if(pts.length>=2) out.push({name,pts}); };
+  const s=txt.trim();
+  if(s[0]==='{'||s[0]==='['){ const g=JSON.parse(s), line=(c)=>c.map(v=>[+v[1],+v[0],null]);
+    const geo=(gm,name)=>{ if(!gm) return; if(gm.type==='LineString') seg(name,line(gm.coordinates)); else if(gm.type==='MultiLineString') gm.coordinates.forEach(c=>seg(name,line(c)));
+      else if(gm.type==='GeometryCollection') gm.geometries.forEach(x=>geo(x,name)); };
+    const feat=(f,i)=>{ const tm=f.properties?.coordTimes||f.properties?.times; const n=f.properties?.name||fname;
+      if(f.geometry?.type==='LineString'&&Array.isArray(tm)) seg(n,f.geometry.coordinates.map((v,k)=>[+v[1],+v[0],T(tm[k])])); else geo(f.geometry,n); };
+    if(g.type==='FeatureCollection') g.features.forEach(feat); else if(g.type==='Feature') feat(g); else geo(g,fname);
+    return out; }
+  const x=new DOMParser().parseFromString(s,'application/xml'); if(x.getElementsByTagName('parsererror').length) throw 0;
+  const tag=(n,t)=>Array.from(n.getElementsByTagNameNS('*',t)), txt1=(n,t)=>tag(n,t)[0]?.textContent.trim()||'';
+  for(const tk of [...tag(x,'trk'),...tag(x,'rte')]){ const name=txt1(tk,'name')||fname, segs=tag(tk,'trkseg');
+    (segs.length?segs:[tk]).forEach(sg=>seg(name,[...tag(sg,'trkpt'),...tag(sg,'rtept')].map(p=>[+p.getAttribute('lat'),+p.getAttribute('lon'),T(txt1(p,'time'))]))); }
+  for(const pm of tag(x,'Placemark')){ const name=txt1(pm,'name')||fname;
+    for(const ls of tag(pm,'LineString')) seg(name,txt1(ls,'coordinates').split(/\s+/).filter(Boolean).map(c=>{ const v=c.split(','); return [+v[1],+v[0],null]; }));
+    for(const tr of tag(pm,'Track')){ const w=tag(tr,'when').map(e=>T(e.textContent)); seg(name,tag(tr,'coord').map((c,k)=>{ const v=c.textContent.trim().split(/\s+/); return [+v[1],+v[0],w[k]??null]; })); } }
+  return out; }
+async function trkImport(files){ let nt=0, np=0, bad=0, first=null;
+  for(const f of files){ let segs; try{ segs=trkParse(await f.text(),f.name.replace(/\.[^.]+$/,'')); }catch(_){ bad++; continue; } if(!segs.length){ bad++; continue; }
+    const by={}; segs.forEach(g=>(by[g.name]=by[g.name]||[]).push(g.pts));
+    for(const name in by){ const all=[]; let t0=null, tl=null;
+      for(const arr of by[name]){ if(all.length) all.push(null); let a=null;
+        for(const [la,lo,t] of arr){ if(t!=null){ if(t0==null) t0=t; tl=t; }
+          if(a){ const d=mDist(a[1],a[0],lo,la), dt=(t!=null&&a[2]!=null)?(t-a[2])/1000:0; if(d>60||(dt>0&&d/dt>3)) all.push(null); }
+          all.push([Math.round(la*1e6),Math.round(lo*1e6),t!=null&&t0!=null?Math.round((t-t0)/1000):0]); a=[la,lo,t]; } }
+      while(all.length&&all[all.length-1]===null) all.pop();
+      const start=new Date(t0??f.lastModified??Date.now()).toISOString(), base='h'+Date.parse(start)+'i'+Math.random().toString(36).slice(2,6);
+      for(let k=0,part=1;k<all.length;k+=6000,part++){ const pts=all.slice(k,k+6000); while(pts[0]===null) pts.shift(); if(pts.filter(Boolean).length<2) continue;
+        const r={pts,sw:HR.sw||0.9}, st=hrStats(r), sp=hrNear(r), id=base+(part>1?'p'+part:'');
+        if(Object.values(HR.T).some(t=>t.start===start&&t.len===st.len)) continue;
+        await hrStore({id, n:(name||'Imported track')+(all.length>6000?` (part ${part})`:''), start, end:new Date(tl??Date.parse(start)).toISOString(), dur:t0!=null&&tl!=null?Math.round((tl-t0)/1000):0, sw:r.sw, pts, len:st.len, area:st.area, spot:sp?sp.id:'', imp:1});
+        nt++; np+=pts.length; first=first||id; } } }
+  on.add('_tracks'); hrDraw();
+  const msg=nt?`Added ${nt} track${nt===1?'':'s'} to Covered ground (${np.toLocaleString()} GPS points), drawn at your ${(HRSW.find(([v])=>Math.abs(v-(HR.sw||0.9))<0.01)||[0,'3 ft'])[1]} swing width.`:'No new tracks found in that file.';
+  const note=document.getElementById('trkNote'); if(note) note.textContent=msg+(bad?` ${bad} file${bad===1?'':'s'} could not be read (use GPX, KML or GeoJSON).`:'');
+  if(first) hrShow(first,true); else hrToast(note?note.textContent:msg); }
+document.getElementById('huntList').insertAdjacentHTML('afterend','<div class="row" style="margin-top:6px"><label class="btn">Import GPS tracks<input type="file" class="trkIn" accept=".gpx,.kml,.geojson,.json,application/gpx+xml,application/vnd.google-earth.kml+xml,application/geo+json,application/json" multiple hidden></label></div><p class="hint" id="trkNote">Already detected somewhere before you used Rec? Load GPX, KML or GeoJSON tracks from a GPS, detector or fitness app (Garmin, Gaia, OnX, Strava, Google Earth) and they join the green Covered ground bands.</p>');
+{ const det=document.getElementById('gmDet'); if(det) det.insertAdjacentHTML('afterend','<label class="btn trkbtn" style="margin-top:6px;display:inline-block">Import GPS tracks (GPX, KML)<input type="file" class="trkIn" accept=".gpx,.kml,.geojson,.json" multiple hidden></label>'); }
+document.addEventListener('change',e=>{ const i=e.target.closest('input.trkIn'); if(!i||!i.files.length) return; const fs=[...i.files]; i.value=''; trkImport(fs); });
+{ const b=document.querySelector('#gmDet [data-l="_tracks"]'); if(b) b.textContent='Covered ground'; const L=LBY._tracks; if(L){ L.n='Covered ground (your GPS tracks)'; L.d+='. Import GPX, KML or GeoJSON tracks from other apps in the Finds log, under Your hunts.'; } renderLayers(); }
 
 // ---------- home-screen app: works offline and updates itself ----------
 (function(){ if(window.claude||!('serviceWorker' in navigator)||(location.protocol!=='https:'&&!/^(localhost|127\.0\.0\.1)$/.test(location.hostname))) return;
