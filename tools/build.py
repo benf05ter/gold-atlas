@@ -16,9 +16,10 @@ head=('<link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-i
    for w,h,r in [(440,956,3),(430,932,3),(402,874,3),(393,852,3),(428,926,3),(390,844,3),(375,812,3),(414,896,3),(414,896,2),(360,780,3),(375,667,2)]))
 c=c.replace('content="width=device-width,initial-scale=1,viewport-fit=cover"','content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover"',1)
 i=c.index('</head>'); c=c[:i]+head+c[i:]
-a='<div class="app">'; assert c.count(a)==1; c=c.replace(a,open(os.path.join(T,'app.css')).read()+open(os.path.join(T,'rockid.css'),encoding='utf-8').read()+a)
-i=c.rindex('</script>'); c=c[:i]+open(os.path.join(T,'app.js')).read()+c[i:]
-i=c.rindex('</script>')+len('</script>'); c=c[:i]+open(os.path.join(T,'rockid.js'),encoding='utf-8').read()+c[i:]   # rock, mineral and metal ID under the Search tab
+rid='og-rockid' in c   # since atlas v92 the atlas carries the rock ID itself (Identify page); older atlases get it injected here
+a='<div class="app">'; assert c.count(a)==1; c=c.replace(a,open(os.path.join(T,'app.css')).read()+('' if rid else open(os.path.join(T,'rockid.css'),encoding='utf-8').read())+a)
+e=c.find('<script>\n// ---------- Identify'); i=c.rindex('</script>',0,e if e>0 else len(c)); c=c[:i]+open(os.path.join(T,'app.js')).read()+c[i:]   # app.js goes at the end of the main atlas script
+if not rid: i=c.rindex('</script>')+len('</script>'); c=c[:i]+open(os.path.join(T,'rockid.js'),encoding='utf-8').read()+c[i:]   # rock, mineral and metal ID under the Search tab
 c=c.replace('For trips with no signal, install the home-screen app: open <a href="https://benf05ter.github.io/gold-atlas/a-f218a76394f8/" target="_blank" rel="noopener">the app link</a> in Safari, tap Share, then Add to Home Screen. It keeps the whole atlas, old maps included, on your phone and updates itself when you have signal.','You are in the home-screen app: the whole atlas, old maps included, is saved on this phone, and it updates itself when you have signal.')
 c=c.replace('For trips with no signal, save the offline copy <span class="mono">Upper-Midwest-Gold-Atlas.html</span> from the project files to your phone and open it in your browser before you lose service.',
  'For trips with no signal, use the home-screen app: open its link in Safari, tap Share, then Add to Home Screen. It keeps the whole atlas on your phone and updates itself when you have signal.')
