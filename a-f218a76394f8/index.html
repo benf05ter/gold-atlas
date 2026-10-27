@@ -1441,7 +1441,8 @@ GLTXT.floodedge=['1884 flood: the high-water edge','This pale band is ground fro
 const box=(a,b,c,d)=>{const [x0,y0]=P(a,d),[x1,y1]=P(b,c); return {x:x0,y:y0,w:x1-x0,h:y1-y0};};
 const V={CF:box(-91.43,-91.37,44.918,44.948),EC:box(-92.9,-90.3,44.05,45.6), N:box(-95.6,-87.2,45.3,49.0), WI:box(-97.6,-82.3,41.6,49.5)};
 let vb={...V.EC};
-function fit(){ const r=svgRect(); if(!r.width||!r.height) return; const ar=r.width/Math.max(r.height,1); let {x,y,w,h}=vb; if(w/h<ar){const nw=h*ar; x-=(nw-w)/2; w=nw;} else {const nh=w/ar; y-=(nh-h)/2; h=nh;} vb={x,y,w,h}; }
+var FITWH=[0,0]; function fit(){ const r=svgRect(); if(!r.width||!r.height) return; const ar=r.width/Math.max(r.height,1); let {x,y,w,h}=vb;
+  const [ow,oh]=FITWH; FITWH=[r.width,r.height]; if(ow&&oh&&(ow!==r.width||oh!==r.height)&&isFinite(w)&&w>0){ const s=ow/w, cx=x+w/2, cy=y+h/2; vb={x:cx-r.width/s/2,y:cy-r.height/s/2,w:r.width/s,h:r.height/s}; return; } if(w/h<ar){const nw=h*ar; x-=(nw-w)/2; w=nw;} else {const nh=w/ar; y-=(nh-h)/2; h=nh;} vb={x,y,w,h}; }
 let _sw=0; const scale=()=>(_sw||(_sw=svgRect().width))/vb.w;
 function apply(){ if(!svgRect().width) return; svg.setAttribute('viewBox',`${vb.x} ${vb.y} ${vb.w} ${vb.h}`); const s=scale();
   for (const t of gLbl.querySelectorAll('text')){ const k=t.dataset.k, tier=+t.dataset.t||1; const fs=k==='town'?(tier===1?12.5:11.5):k==='ring'?11:k==='belt'?13:k==='glac'?11.5:10.5;
@@ -1726,7 +1727,7 @@ function summary(p){
 }
 function placePop(sx,sy){ const W=mapwrap.clientWidth, H=mapwrap.clientHeight; if(W<=920 && window.innerWidth<=920){ pop.style.left=''; pop.style.top=''; return; }
   pop.style.left='0px'; pop.style.top='0px'; const pw=pop.offsetWidth, ph=pop.offsetHeight;
-  let x=sx+14, y=sy-ph/2; if(x+pw>W-8) x=sx-pw-14; x=Math.max(8,Math.min(x,W-pw-8)); y=Math.max(8,Math.min(y,H-ph-8));
+  let x=sx+14, y=sy-ph/2; if(x+pw>W-8) x=sx-pw-14; x=Math.max(8,Math.min(x,W-pw-8)); const chips=mapwrap.querySelector('.shmodes'), top=chips&&chips.offsetHeight?chips.offsetTop+chips.offsetHeight+6:8; y=Math.max(Math.min(top,Math.max(8,H-ph-8)),Math.min(y,H-ph-8));
   pop.style.left=x+'px'; pop.style.top=y+'px'; }
 function openPop(ids,sx,sy){
   if(ids.length===1){ const p=BYID[ids[0]];
@@ -2166,7 +2167,8 @@ uxSetSimple(UX.simple,true);
 var UXZ={q:0,t:0,s:0,pan:false};
 const uxVB=()=>svg.setAttribute('viewBox',`${vb.x} ${vb.y} ${vb.w} ${vb.h}`);
 zoomAt=function(f,cx,cy){ const nw=vb.w/f; if(nw<0.015||nw>V.WI.w*2.5) return; vb={x:cx-(cx-vb.x)/f,y:cy-(cy-vb.y)/f,w:nw,h:vb.h/f};
-  if(!UXZ.q) UXZ.q=requestAnimationFrame(()=>{ UXZ.q=0; gmFast(); }); clearTimeout(UXZ.t); UXZ.t=setTimeout(()=>{ UXZ.pan=false; apply(); },180); };
+  if(!UXZ.q) UXZ.q=requestAnimationFrame(()=>{ UXZ.q=0; gmFast(); }); clearTimeout(UXZ.t); UXZ.t=setTimeout(function f(){ if(ptr.size&&performance.now()-(UXZ.lm||0)<1200){ UXZ.t=setTimeout(f,250); return; } UXZ.pan=false; apply(); },180); };
+svg.addEventListener('pointermove',()=>{ UXZ.lm=performance.now(); },{passive:true});
 svg.addEventListener('pointermove',()=>{ if(ptr.size===1&&moved) UXZ.pan=true; });
 const _ap1=apply; apply=function(){ clearTimeout(UXZ.t); if(UXZ.q){ cancelAnimationFrame(UXZ.q); UXZ.q=0; }
   const s=scale(); if(UXZ.pan&&s===UXZ.s&&!ptr.size){ UXZ.pan=false; gmCommit(); pop.hidden=true; return; } // a plain drag: same zoom, nothing to redraw
@@ -2842,7 +2844,7 @@ renderLayers(); drawMarkers(); renderList(); if(typeof gmSheetSync==='function')
 { const G=new Map(); for(const p of PTS){ if(/^(pk|hm)-/.test(p.id)||p.p==='exact'||p.p==='mylist'||['mine','lead','school','school2','vpo','flood84'].includes(p.L)) continue; const k=p.lo.toFixed(3)+','+p.la.toFixed(3); (G.get(k)||G.set(k,[]).get(k)).push(p); }
   for(const g of G.values()) if(g.length>1) g.slice(1).forEach((p,i)=>{ const a=(i/(g.length-1))*2*Math.PI; p.lo+=0.0008*Math.cos(a); p.la+=0.0005*Math.sin(a); }); }
 // the first second after opening: several parts each asked for a full redraw; draw once per frame instead
-{ const t0=performance.now(), _dmF=drawMarkers; let q=0; drawMarkers=function(){ if(performance.now()-t0>1500) return _dmF(); if(!q) q=requestAnimationFrame(()=>{ q=0; _dmF(); }); }; }
+{ const t0=performance.now(), _dmF=drawMarkers; let q=0, now=0; drawMarkers=function(){ if(now||performance.now()-t0>1500) return _dmF(); if(!q) q=requestAnimationFrame(()=>{ q=0; now=1; try{ drawMarkers(); } finally{ now=0; } }); }; }
 drawMarkers();
 
 // ---------- old maps everywhere: USGS historical topos under the slider ----------
@@ -4604,6 +4606,25 @@ function sbnHTML(p){ if(!p||p.la==null) return ''; let best=null,bd=9;
 new MutationObserver(()=>{ const d=document.querySelector('#detail .detail'); if(!d||d.querySelector('.sbn')||!selId||!BYID[selId]) return;
   const h=sbnHTML(BYID[selId]); if(!h) return; const L=[...d.querySelectorAll('.links')].find(x=>/Cross-check/.test(x.textContent));
   if(L) L.insertAdjacentHTML('beforeend',h); }).observe(document.getElementById('detail'),{childList:true,subtree:true});
+</script>
+
+
+
+
+
+
+
+
+
+
+<style>/* STAB113 stability pass */
+.mapwrap .pop{z-index:8}
+/* the burial-mound note under the side panel was eating a quarter of the panel on laptop screens: two lines, click for the rest */
+.panel>.note{flex:none;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;cursor:pointer;border-top:1px solid var(--line)}
+.panel>.note.open{display:block}
+</style>
+<script>/* STAB113 */
+{ const n=document.querySelector('.panel>.note'); if(n){ n.title='Show the whole note'; n.addEventListener('click',()=>n.classList.toggle('open')); } }
 
 // ---------- home-screen app: works offline and updates itself ----------
 (function(){ if(window.claude||!('serviceWorker' in navigator)||(location.protocol!=='https:'&&!/^(localhost|127\.0\.0\.1)$/.test(location.hostname))) return;
@@ -4625,14 +4646,4 @@ new MutationObserver(()=>{ const d=document.querySelector('#detail .detail'); if
   }).catch(()=>{});
 })();
 </script>
-
-
-
-
-
-
-
-
-
-
 </body></html>
