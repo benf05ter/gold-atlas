@@ -1303,7 +1303,9 @@ const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).
 const K = Math.cos(45*Math.PI/180);
 const P = (lon,lat) => [lon*K, -lat];
 const NS='http://www.w3.org/2000/svg';
-const svg=document.getElementById('map'); const svgRect=()=>{ if(!svg.style.transform&&!svg._tilt) return svg.getBoundingClientRect(); const mw=svg.closest('.mapwrap'), m=mw.getBoundingClientRect(), cs=getComputedStyle(mw); const l=m.left+mw.clientLeft+(parseFloat(cs.paddingLeft)||0), t=m.top+mw.clientTop+(parseFloat(cs.paddingTop)||0), w=svg.clientWidth, h=svg.clientHeight; return {left:l,top:t,width:w,height:h,right:l+w,bottom:t+h}; };
+const svg=document.getElementById('map'); var BOX={w:0,h:0}; try{ new ResizeObserver(e=>{ const r=e[e.length-1].contentRect; BOX.w=r.width; BOX.h=r.height; if(typeof _sw!=='undefined') _sw=BOX.w; }).observe(svg); }catch(_){}
+const svgW=()=>BOX.w||svg.clientWidth, svgH=()=>BOX.h||svg.clientHeight;
+const svgRect=()=>{ if(!svg.style.transform&&!svg._tilt) return svg.getBoundingClientRect(); const mw=svg.closest('.mapwrap'), m=mw.getBoundingClientRect(), cs=getComputedStyle(mw); const l=m.left+mw.clientLeft+(parseFloat(cs.paddingLeft)||0), t=m.top+mw.clientTop+(parseFloat(cs.paddingTop)||0), w=svg.clientWidth, h=svg.clientHeight; return {left:l,top:t,width:w,height:h,right:l+w,bottom:t+h}; };
 const el=(t,a,p)=>{const e=document.createElementNS(NS,t); for(const k in a) e.setAttribute(k,a[k]); if(p) p.appendChild(e); return e;};
 const ring=r=>'M'+r.map(([x,y])=>P(x,y).map(v=>v.toFixed(3)).join(',')).join('L')+'Z';
 const line=l=>'M'+l.map(([x,y])=>P(x,y).map(v=>v.toFixed(3)).join(',')).join('L');
@@ -1592,7 +1594,7 @@ function shape(p,s,g){ const [x,y]=P(p.lo,p.la); const col=cv(`var(--L-${p.L})`)
   m.dataset.id=p.id; m.addEventListener('keydown',e=>{ if(e.key==='Enter'){ const [sx,sy]=toS(p.lo,p.la); openPop([p.id],sx,sy); } });
   if(p.L==='target' && p.rank<=10 && s>60){ const tx=el('text',{transform:`translate(${x+r*0.95},${y-r*0.6}) scale(${1/s})`,'font-size':10,'font-weight':800,fill:cv('var(--L-target)'),stroke:cv('var(--panel)'),'stroke-width':2.5,'paint-order':'stroke','pointer-events':'none','font-family':'var(--f-body)'},g); tx.textContent=p.rank; }
 }
-function drawMarkers(){ for(const k in _CV) delete _CV[k]; gMk.innerHTML=''; const s=scale(); if(!s||!isFinite(s)) return;
+function drawMarkers(){ { const t=(document.documentElement.dataset.theme||'')+(matchMedia('(prefers-color-scheme:dark)').matches?'d':'l'); if(_CV.__t!==t){ for(const k in _CV) delete _CV[k]; _CV.__t=t; } } gMk.innerHTML=''; const s=scale(); if(!s||!isFinite(s)) return;
   const order=['public','lake','restricted','drill','history','cmine','deposit','model','pit','ghost','camp','gather','beach','superior','report','geo','glacial','prehist','panning','copper','treasure','trap','target','flood84'];
   const _sv=document.getElementById('stf')?.value||''; const _x0=vb.x-vb.w*.2,_x1=vb.x+vb.w*1.2,_y0=vb.y-vb.h*.2,_y1=vb.y+vb.h*1.2; const vis=PTS.filter(p=>on.has(p.L)&&(!_sv||p.stt===_sv)&&(p.id===selId||(p.lo*K>=_x0&&p.lo*K<=_x1&&-p.la>=_y0&&-p.la<=_y1))).sort((a,b)=>order.indexOf(a.L)-order.indexOf(b.L));
   for(const p of (typeof UXdraw==='function'?UXdraw(vis,s):vis.filter(p=>p.id!==selId))) shape(p,s,gMk); if(typeof UXbub==='function') UXbub(s);
@@ -2554,7 +2556,7 @@ try{ GM.type=localStorage.getItem('atlas-maptype')||'default'; }catch(_){}
 // --- smooth gestures: while a finger moves, only a CSS transform changes; the SVG is redrawn once at the end ---
 function gmVB0(){ const a=(svg.getAttribute('viewBox')||'').split(' ').map(Number); return a.length===4&&a.every(isFinite)?{x:a[0],y:a[1],w:a[2],h:a[3]}:{...vb}; }
 function gmFast(){ if(!GM.g0){ GM.g0=gmVB0(); svg.style.transformOrigin='0 0'; svg.style.willChange='transform'; }
-  const g=GM.g0, W=svg.clientWidth||1, H=svg.clientHeight||1, k=g.w/vb.w, tx=(g.x-vb.x)*W/vb.w, ty=(g.y-vb.y)*H/vb.h;
+  const g=GM.g0, W=svgW()||1, H=svgH()||1, k=g.w/vb.w, tx=(g.x-vb.x)*W/vb.w, ty=(g.y-vb.y)*H/vb.h;
   svg.style.transform=`matrix(${k},0,0,${k},${tx},${ty})`; }
 function gmCommit(){ if(GM.g0){ GM.g0=null; svg.style.transform=''; svg.style.willChange=''; } svg.setAttribute('viewBox',`${vb.x} ${vb.y} ${vb.w} ${vb.h}`); }
 // --- gold streams: widths set per zoom on 5 groups (no non-scaling-stroke, which drew giant round caps on iPhone) ---
@@ -2695,7 +2697,7 @@ function plZoomAnim(f,cx,cy){ let i=0; const n=9, st=Math.pow(f,1/n); const go=(
 // --- names above pins once zoomed in far enough that they fit without overlapping ---
 const PLS=1800;
 function plNames(s){ if(s<PLS) return; const ms=[...gMk.querySelectorAll('.mk[data-id]')].map(m=>BYID[m.dataset.id]).filter(Boolean); if(!ms.length) return;
-  const W=svg.clientWidth, H=svg.clientHeight, pr=p=>p.id===selId?-1:(()=>{ const r=RK(p); return typeof r==='number'&&r?r:r==='X'?7:6; })();
+  const W=svgW(), H=svgH(), pr=p=>p.id===selId?-1:(()=>{ const r=RK(p); return typeof r==='number'&&r?r:r==='X'?7:6; })();
   const pts=ms.map(p=>{ const [X,Y]=P(p.lo,p.la); return {p,X,Y,x:(X-vb.x)*s,y:(Y-vb.y)*s}; }).filter(o=>o.x>-40&&o.x<W+40&&o.y>-20&&o.y<H+40);
   const boxes=pts.map(o=>[o.x-8,o.y-8,o.x+8,o.y+8]), hit=b=>boxes.some(c=>b[0]<c[2]&&b[2]>c[0]&&b[1]<c[3]&&b[3]>c[1]);
   const g=el('g',{class:'plnm','pointer-events':'none'},gMk), ink=cv('var(--ink)'), halo=cv('var(--panel)');
@@ -2704,8 +2706,8 @@ function plNames(s){ if(s<PLS) return; const ms=[...gMk.querySelectorAll('.mk[da
     const t=el('text',{transform:`translate(${o.X},${o.Y}) scale(${1/s})`,y:-14,'text-anchor':'middle','font-size':11.5,'font-weight':700,fill:ink,stroke:halo,'stroke-width':3,'paint-order':'stroke','stroke-linejoin':'round','font-family':'var(--f-body)'},g); t.textContent=n; } }
 const _dmP=drawMarkers; drawMarkers=function(){ _dmP(); plNames(scale()); };
 // --- a scale that does not measure the map for every pin; remeasured on each full redraw and on resize ---
-const _fitP=fit; fit=function(){ _sw=0; _fitP(); };
-const _apP=apply; apply=function(){ _sw=0; _apP(); };
+const _fitP=fit; fit=function(){ _sw=BOX.w; _fitP(); };
+const _apP=apply; apply=function(){ _sw=BOX.w; _apP(); };
 try{ new ResizeObserver(()=>{ _sw=0; }).observe(mwrap); }catch(_){}
 // --- the long All spots list is only built when someone opens it ---
 let plRL=false; const _rlP=renderList; renderList=function(){ if(document.getElementById('pane-list').hidden){ plRL=true; return; } plRL=false; _rlP(); };
@@ -2953,9 +2955,9 @@ function pcIcon(id,col){ const k=id+'|'+col; let im=PCV.icons.get(k); if(im) ret
   im=new Image(); im.onload=()=>pcLater(); PCV.icons.set(k,im);
   im.src='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="${sym.getAttribute('viewBox')||'-1 -1 2 2'}" width="64" height="64">${inner}</svg>`); return null; }
 function pcLater(){ if(!PCV.raf) PCV.raf=requestAnimationFrame(()=>{ PCV.raf=0; pcRender(); }); }
-function pcSize(){ const W=svg.clientWidth, H=svg.clientHeight, d=Math.min(2.5,window.devicePixelRatio||1);
+function pcSize(){ const W=svgW(), H=svgH(), d=Math.min(2.5,window.devicePixelRatio||1);
   if(W!==PCV.W||H!==PCV.H||d!==PCV.dpr){ PCV.W=W; PCV.H=H; PCV.dpr=d; pcv.width=Math.round(W*d); pcv.height=Math.round(H*d); } }
-function pcText(t,x,y,size,fill,halo,hw){ const c=pcx; c.font=`800 ${size}px ${PCV.ff}`; if(halo){ c.lineWidth=hw; c.strokeStyle=halo; c.lineJoin='round'; c.strokeText(t,x,y); } c.fillStyle=fill; c.fillText(t,x,y); }
+function pcText(t,x,y,size,fill,halo,hw){ const c=pcx, f=`800 ${Math.round(size*2)/2}px ${PCV.ff}`; if(PCV.lf!==f){ c.font=f; PCV.lf=f; } if(halo){ c.lineWidth=hw; c.strokeStyle=halo; c.lineJoin='round'; c.strokeText(t,x,y); } c.fillStyle=fill; c.fillText(t,x,y); }
 function pcPin(p,s){ const c=pcx, [X,Y]=P(p.lo,p.la), x=(X-vb.x)*s, y=(Y-vb.y)*s; if(x<-40||y<-40||x>PCV.W+40||y>PCV.H+40) return;
   const sel=p.id===selId, big=s>=110, r=((p.L==='target'&&p.rank<=10)?(big?10:8):(big?8.5:6.5))*(sel?1.4:1);
   const col=cv(`var(--L-${p.L})`), faded=(p.c==='legend'||p.c==='rumor'), hollow=(p.s==='found'||p.s==='false');
@@ -2980,11 +2982,11 @@ function pcBub(cl,s){ const c=pcx, n=cl.m.length, [X,Y]=P(cl.p.lo,cl.p.la), x=(X
   if(best<=2){ const bx=x+r*0.8, by=y-r*0.8, br=Math.max(r*0.45,5); c.beginPath(); c.arc(bx,by,br,0,6.2832); c.fillStyle=cv('var(--L-ghost)'); c.fill(); c.lineWidth=1.4; c.strokeStyle=panel; c.stroke(); pcText(String(best),bx,by+br*0.4,br*1.15,panel); } }
 function pcNames(){ const c=pcx, pr=p=>p.id===selId?-1:(()=>{ const r=RK(p); return typeof r==='number'&&r?r:r==='X'?7:6; })();
   const pts=PCV.dr.filter(([,x,y])=>x>-40&&x<PCV.W+40&&y>-20&&y<PCV.H+40), boxes=pts.map(([,x,y])=>[x-8,y-8,x+8,y+8]), hit=b=>boxes.some(q=>b[0]<q[2]&&b[2]>q[0]&&b[1]<q[3]&&b[3]>q[1]);
-  c.font=`700 11.5px ${PCV.ff}`; c.lineWidth=3; c.lineJoin='round'; c.strokeStyle=cv('var(--panel)'); c.fillStyle=cv('var(--ink)');
+  c.font=`700 11.5px ${PCV.ff}`; PCV.lf=null; c.lineWidth=3; c.lineJoin='round'; c.strokeStyle=cv('var(--panel)'); c.fillStyle=cv('var(--ink)');
   for(const [p,x,y] of pts.sort((a,b)=>pr(a[0])-pr(b[0]))){ let n=p.n; if(n.length>28) n=n.slice(0,27).trimEnd()+'…';
     const w=c.measureText(n).width+6, b=[x-w/2,y-27,x+w/2,y-11]; if(hit(b)) continue; boxes.push(b); c.strokeText(n,x,y-14); c.fillText(n,x,y-14); } }
 function pcRender(){ pcSize(); const c=pcx, s=scale(); c.setTransform(PCV.dpr,0,0,PCV.dpr,0,0); if(!PCV.keep) c.clearRect(0,0,PCV.W,PCV.H); pcv.style.transform=svg.style.transform; pcv.style.transformOrigin='0 0';
-  PCV.dr=[]; if(!s||!isFinite(s)) return; PCV.ff=cv('var(--f-body)')||'sans-serif'; c.textAlign='center'; c.textBaseline='alphabetic';
+  PCV.dr=[]; PCV.lf=null; if(!s||!isFinite(s)) return; PCV.ff=cv('var(--f-body)')||'sans-serif'; c.textAlign='center'; c.textBaseline='alphabetic';
   let selP=null; for(const p of PCV.q){ if(p.id===selId){ selP=p; continue; } pcPin(p,s); }
   for(const cl of PCV.cls||[]) pcBub(cl,s);
   if(selP) pcPin(selP,s);
@@ -4623,7 +4625,7 @@ new MutationObserver(()=>{ const d=document.querySelector('#detail .detail'); if
 .panel>.note{flex:none;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;cursor:pointer;border-top:1px solid var(--line)}
 .panel>.note.open{display:block}
 </style>
-<script>/* STAB113 */
+<script>/* STAB113 */ /* STAB114 */
 { const n=document.querySelector('.panel>.note'); if(n){ n.title='Show the whole note'; n.addEventListener('click',()=>n.classList.toggle('open')); } }
 
 // ---------- home-screen app: works offline and updates itself ----------
