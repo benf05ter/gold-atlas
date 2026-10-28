@@ -642,6 +642,54 @@ body.ogt svg.ogsat path[stroke="var(--county)"]{stroke-opacity:.5;stroke:#fff}
 .mapwrap.shcard .plzoom{display:flex!important}
 </style>
 <style>
+/* Drive mode (v130): the map fills the screen, a dark glanceable panel at the bottom (at the side in landscape), big touch targets */
+body.drv .mapwrap{position:fixed!important;inset:0!important;height:auto!important;min-height:0!important;z-index:45;border:0!important;border-radius:0!important;padding-top:0!important}
+body.drv #bsCard,body.drv .uxs,body.drv .shmodes,body.drv .ctl,body.drv .qafab,body.drv .qamenu,body.drv .t3bar,body.drv .gmsheet,body.drv .cld,body.drv .cldtab,body.drv .shfab,body.drv .shsheet,body.drv .shtabs,body.drv .key,body.drv .oms,body.drv .plzoom,body.drv .appupd{display:none!important}
+body.drv{overflow:hidden}
+.drv{position:absolute;inset:0;z-index:12;pointer-events:none;font-family:var(--f-body)}
+.drv[hidden]{display:none}
+.drv>*{pointer-events:auto}
+.drvbar{position:absolute;left:0;right:0;top:0;display:flex;align-items:center;gap:10px;padding:calc(10px + env(safe-area-inset-top,0px)) max(12px,env(safe-area-inset-right,0px)) 10px max(12px,env(safe-area-inset-left,0px));pointer-events:none}
+.drvbar>*{pointer-events:auto}
+.drvx,.drvc{min-height:52px;padding:0 18px;border-radius:26px;border:0;font:700 17px var(--f-body);cursor:pointer;box-shadow:0 3px 14px rgba(0,0,0,.35)}
+.drvx{background:#16201a;color:#f2f4ef}
+.drvc{background:#2367b3;color:#fff;margin-left:auto}
+.drvst{background:rgba(14,20,16,.82);color:#f2f4ef;border-radius:18px;padding:7px 12px;font:600 15px var(--f-body);font-variant-numeric:tabular-nums;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.drvp{position:absolute;left:0;right:0;bottom:0;max-height:48%;overflow:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;background:rgba(14,20,16,.94);color:#f2f4ef;border-radius:18px 18px 0 0;padding:12px max(12px,env(safe-area-inset-right,0px)) calc(10px + env(safe-area-inset-bottom,0px)) max(12px,env(safe-area-inset-left,0px));box-shadow:0 -6px 26px rgba(0,0,0,.4);display:grid;gap:8px;box-sizing:border-box}
+.drvl{display:grid;gap:8px}
+.drvk{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:center;background:rgba(255,255,255,.06);border-radius:14px;padding:8px 8px 8px 10px}
+.drvi{display:grid;gap:3px;text-align:left;border:0;background:none;color:inherit;font:inherit;padding:2px 0;cursor:pointer;min-width:0}
+.drvn{display:flex;gap:9px;align-items:center;min-width:0}
+.drvn i{flex:none;font-style:normal;display:inline-grid;place-items:center;width:26px;height:26px;border-radius:50%;color:#fff;font:800 14px var(--f-body)}
+.drvn b{font-size:16.5px;line-height:1.2;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.drvm{font-size:14.5px;color:#c8d1c9;font-variant-numeric:tabular-nums}
+.drvw{font-size:14px;color:#e8c56d;line-height:1.3}
+.drvk.main{padding:12px 10px 12px 12px;background:rgba(255,255,255,.1)}
+.drvk.main .drvn b{font-size:21px}
+.drvk.main .drvn i{width:32px;height:32px;font-size:17px}
+.drvk.main .drvm{font-size:17px;color:#fff;font-weight:600}
+.drvgo{display:inline-flex;align-items:center;justify-content:center;min-width:64px;min-height:52px;padding:0 14px;border-radius:14px;background:#d9ab4a;color:#14110a;font:800 16px var(--f-body);text-decoration:none;box-sizing:border-box}
+.drvk.main .drvgo{grid-column:1/-1;width:100%;justify-self:stretch;min-height:60px;padding:0 18px;font-size:19px}
+.drve{margin:4px 2px;font-size:16px;color:#c8d1c9}
+.drvo{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:13px;color:#9faba1}
+.drvo button{min-height:40px;padding:0 12px;border-radius:20px;border:1px solid rgba(255,255,255,.22);background:none;color:#f2f4ef;font:600 13.5px var(--f-body);cursor:pointer}
+.drvo button[aria-pressed="true"]{background:#f2f4ef;color:#14110a;border-color:#f2f4ef}
+.drvo #drvV{margin-left:auto}
+.drvdim{position:absolute;inset:0;z-index:2;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;border:0;background:rgba(0,0,0,.86);color:#d8ddd6;font:600 17px var(--f-body);cursor:pointer;padding:24px;text-align:center}
+.drvdim[hidden]{display:none}
+.drvdim b{font-size:30px;color:#fff}
+.drvme{position:absolute;left:0;top:0;width:40px;height:40px;z-index:4;pointer-events:none;will-change:transform;filter:drop-shadow(0 2px 4px rgba(0,0,0,.35))}
+.drvme[hidden]{display:none}
+.drvme .d{display:none}
+.drvme.nohd .a{display:none}.drvme.nohd .d{display:block}
+body.drv .mapwrap .pop{top:calc(72px + env(safe-area-inset-top,0px))!important;bottom:auto!important;left:10px!important;right:10px;width:auto;max-width:420px;z-index:13}
+@media (orientation:landscape) and (max-height:560px),(min-width:921px){
+  .drvp{left:auto;top:0;width:min(44%,430px);max-height:none;border-radius:0;padding-top:calc(12px + env(safe-area-inset-top,0px));align-content:start}
+  .drvbar{right:min(44%,430px)}
+}
+#qaDrive svg,#mtDrive svg{flex:none}
+</style>
+<style>
 /* home-screen app */
 .appupd{position:fixed;left:max(12px,env(safe-area-inset-left,0px));right:max(12px,env(safe-area-inset-right,0px));bottom:max(12px,env(safe-area-inset-bottom,0px));z-index:60;max-width:520px;margin:0 auto;display:flex;gap:8px;align-items:center;background:var(--panel);color:var(--ink);border:1px solid var(--accent);border-radius:8px;padding:9px 12px;box-shadow:0 6px 24px color-mix(in srgb,var(--ink) 25%,transparent);font-size:14px}
 .appupd span{flex:1}
@@ -697,7 +745,7 @@ body.isapp .app{padding-top:max(14px,env(safe-area-inset-top,0px))}
         <h2>Field skills</h2>
         <p class="lede">Gold in Wisconsin and Minnesota is mostly flour gold riding with black sand. These notes come from the Field Book and the atlases, condensed for the creek bank.</p>
         <div class="toc">
-          <a class="chip small" href="#k-quick">Quick card</a><a class="chip small" href="#k-where">Where gold settles</a><a class="chip small" href="#k-signs">Reading gravel</a><a class="chip small" href="#k-routine">Sampling</a><a class="chip small" href="#k-fool">Fool's gold</a><a class="chip small" href="#k-when">When to go</a><a class="chip small" href="#k-gear">Gear</a><a class="chip small" href="#k-detect">Detecting</a><a class="chip small" href="#k-legend">Chasing legends</a><a class="chip small" href="#k-people">Clubs</a><a class="chip small" href="#k-words">Glossary</a><a class="chip small" href="#k-offline">Offline use</a><a class="chip small" href="#k-more">More in the Library</a>
+          <a class="chip small" href="#k-quick">Quick card</a><a class="chip small" href="#k-where">Where gold settles</a><a class="chip small" href="#k-signs">Reading gravel</a><a class="chip small" href="#k-routine">Sampling</a><a class="chip small" href="#k-fool">Fool's gold</a><a class="chip small" href="#k-when">When to go</a><a class="chip small" href="#k-gear">Gear</a><a class="chip small" href="#k-detect">Detecting</a><a class="chip small" href="#k-drive">Drive mode</a><a class="chip small" href="#k-legend">Chasing legends</a><a class="chip small" href="#k-people">Clubs</a><a class="chip small" href="#k-words">Glossary</a><a class="chip small" href="#k-offline">Offline use</a><a class="chip small" href="#k-more">More in the Library</a>
         </div>
 
         <h2 id="k-quick">Quick card</h2>
@@ -851,6 +899,16 @@ body.isapp .app{padding-top:max(14px,env(safe-area-inset-top,0px))}
           <li><b>Coins and tokens</b> date the ground best. The ID guide's coin pages give dates and values.</li>
         </ul>
         <p class="hint">From Dwyer and Coffman.</p>
+
+        <h2 id="k-drive">Drive mode</h2>
+        <p>For a phone on a dash mount. Open it from the <b>+</b> button or <b>More &gt; Drive mode</b>. The map tilts and turns so the road ahead points up, the screen stays on, and the dark panel shows the ranked spots ahead of you (Best, Good and Some old ground, from the layers you have on) with distance, which side of the road, and the main reason. <b>Navigate</b> hands the spot to Google Maps or Apple Maps for turn-by-turn directions.</p>
+        <ul>
+          <li><b>Set it up before you roll.</b> Pick your layers, Google or Apple Maps, and voice on or off while parked. Don't tap through cards while driving: let a passenger do it, or pull over. Voice reads out a spot once when it is within 3 miles ahead.</li>
+          <li><b>Mount the phone</b> low where it doesn't block the road, and keep it plugged in. GPS and a lit screen drain a battery fast. After 10 minutes parked, the screen is allowed to sleep; tap it to keep driving.</li>
+          <li><b>A spot ahead is not permission.</b> Most pins sit on private land or public land with rules. Read the card's access notes and ask before you detect.</li>
+          <li><b>No CarPlay.</b> Apple only lets approved native apps onto the car screen, so Old Ground can't show there. Navigate opens Google Maps or Apple Maps, which do show on CarPlay, with the spot as the destination.</li>
+          <li>Drag the map to look around; <b>Re-center</b> picks you back up. With no signal, the cards and GPS still work, and the map shows the areas you saved offline.</li>
+        </ul>
 
         <h2 id="k-legend">Chasing legends</h2>
         <p>Every spot carries a confidence tag. Read it before you plan a trip:</p>
@@ -4876,6 +4934,115 @@ h1,h2,h3,.read h2,.read h3{font-family:var(--f-body);font-weight:700;letter-spac
   OGE.on('draw',()=>v19());
   let saved=null; try{ saved=localStorage.getItem('og-1800s'); }catch(_){}
   if(saved==='1' && GM.type==='default') gmSetType('1800s'); else v19(); gmSheetSync(); }
+</script>
+<script>
+// ---------- Drive mode (v130): phone on a dash mount. The map follows you heading-up in the tilted view, the screen stays on,
+// and big cards show the ranked spots ahead (rank word, distance, side of the road, the main reason) with one-tap directions in Google or Apple Maps.
+// CarPlay is not possible for a web app; Navigate hands the spot to a maps app that is. Redraws only when you move a few px or turn, at most once a second.
+{ const mw=document.querySelector('.mapwrap');
+  const DRV={on:false, watch:null, wake:null, vid:null, pos:null, ref:null, head:null, spd:0, acc:0, follow:true, t3:false, cand:[], ct:0, kt:0, vt:0, key:'', still:0, dim:false, said:new Set(), anim:0, nav:'g', voice:false, lv:null, first:true, down:null};
+  try{ DRV.nav=localStorage.getItem('og-drive-nav')||'g'; DRV.voice=localStorage.getItem('og-drive-voice')==='1'; }catch(_){}
+  const CAR='<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 16V11l2-5h10l2 5v5"/><path d="M3 16h18v3H3z"/><circle cx="7.5" cy="13" r=".6" fill="currentColor"/><circle cx="16.5" cy="13" r=".6" fill="currentColor"/></svg>';
+  const VID='data:video/mp4;base64,AAAAIGZ0eXBpc29tAAACAGlzb21pc28yYXZjMW1wNDEAABbzdXVpZNj+w9YbDkg8kpdYKId+xIEAAAAAbWFuaWZlc3QAAAAAAAAAAAAAABbGanVtYgAAAB5qdW1kYzJwYQARABCAAACqADibcQNjMnBhAAAAFqBqdW1iAAAAR2p1bWRjMm1hABEAEIAAAKoAOJtxA3VybjpjMnBhOjE5ZWJjN2ZjLTM3MmUtNDkzOS05MmQyLWQxNDQ0MjJjODI1ZQAAAAPYanVtYgAAAClqdW1kYzJhcwARABCAAACqADibcQNjMnBhLmFzc2VydGlvbnMAAAAAuGp1bWIAAABEanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5pbmdyZWRpZW50LnYzAAAAABhjMnNoyk7yhOLcED+HyKbk8+F8jgAAAGxjYm9yo2lkYzpmb3JtYXRpdmlkZW8vbXA0amluc3RhbmNlSUR4LHhtcDppaWQ6NmNkMTNiMWYtMDQ3Zi00NjI3LWJkYzQtOWZjYzNmZTQyZmRmbHJlbGF0aW9uc2hpcGhwYXJlbnRPZgAAAeJqdW1iAAAAQWp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuYWN0aW9ucy52MgAAAAAYYzJzaLHMBbx7fuGUB/WLiUTbUV4AAAGZY2JvcqJnYWN0aW9uc4KiZmFjdGlvbmtjMnBhLm9wZW5lZGpwYXJhbWV0ZXJzoWtpbmdyZWRpZW50c4GiY3VybHgtc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5pbmdyZWRpZW50LnYzZGhhc2hYIDDU0TLZ0Mf7ezEqsIjAf6xB+QokVfGBeVUkCbWEwfNupGZhY3Rpb254HWNvbS5hbnRocm9waWMuY2xhdWRlLnByb3ZpZGVkanBhcmFtZXRlcnOheB9jb20uYW50aHJvcGljLm9yaWdpbi1jb25maWRlbmNlZ3Vua25vd25rZGVzY3JpcHRpb254ZkNsYXVkZSBwcm92aWRlZCB0aGlzIGZpbGUgYXQgdGhlIHJlcXVlc3Qgb2YgYSB1c2VyIGFuZCBtYXkgaGF2ZSBjcmVhdGVkIG9yIG1vZGlmaWVkIHRoZSBmaWxlIGNvbnRlbnRzLm1zb2Z0d2FyZUFnZW50oWRuYW1lZkNsYXVkZXJhbGxBY3Rpb25zSW5jbHVkZWT1AAABDWp1bWIAAABDanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5oYXNoLmJtZmYudjMAAAAAGGMyc2j63S+D/QIOVFTemw/0Rpm6AAAAwmNib3KkY2FsZ2ZzaGEyNTZkaGFzaFggJEgR86kmv7fbeCs88lwemIdltaqPwWm1qBu1Kh9Z/XFkbmFtZW5qdW1iZiBtYW5pZmVzdGpleGNsdXNpb25zhaJkZGF0YYGiZXZhbHVlUNj+w9YbDkg8kpdYKId+xIFmb2Zmc2V0CGV4cGF0aGUvdXVpZKFleHBhdGhlL2Z0eXChZXhwYXRoZS9tZnJhoWV4cGF0aGUvZnJlZaFleHBhdGhlL3NraXAAAAJBanVtYgAAACdqdW1kYzJjbAARABCAAACqADibcQNjMnBhLmNsYWltLnYyAAAAAhJjYm9ypWNhbGdmc2hhMjU2aXNpZ25hdHVyZXhNc2VsZiNqdW1iZj0vYzJwYS91cm46YzJwYToxOWViYzdmYy0zNzJlLTQ5MzktOTJkMi1kMTQ0NDIyYzgyNWUvYzJwYS5zaWduYXR1cmVqaW5zdGFuY2VJRHgseG1wOmlpZDo5MTg4M2EzMC1mYTE2LTRlMmEtYWE4Yy05YzM3N2VmYTIwZDJyY3JlYXRlZF9hc3NlcnRpb25zg6JjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggMNTRMtnQx/t7MSqwiMB/rEH5CiRV8YF5VSQJtYTB826iY3VybHgqc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5hY3Rpb25zLnYyZGhhc2hYIFJVxSulWjHudmEkT4JHBIAnlgs5NfY7Eb9Lu0kJUR+uomN1cmx4LHNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaGFzaC5ibWZmLnYzZGhhc2hYIJSMKxQUK/xF0UPtelxoEIxCeWL59uzQM9qiVA0SkLuZdGNsYWltX2dlbmVyYXRvcl9pbmZvo2RuYW1lb0FudGhyb3BpYyBGaWxlc2d2ZXJzaW9uZTEuMC4wa3NwZWNWZXJzaW9uZTIuNC4wAAAQOGp1bWIAAAAoanVtZGMyY3MAEQAQgAAAqgA4m3EDYzJwYS5zaWduYXR1cmUAAAAQCGNib3LShFkCEqIBJhghWQIKMIICBjCCAY2gAwIBAgIUQOWgCu7COdC+uIP6BkIFPWdVEwAwCgYIKoZIzj0EAwMwSTEXMBUGA1UEChMOQW50aHJvcGljLCBQQkMxLjAsBgNVBAMTJUFudGhyb3BpYyBDb250ZW50IENyZWRlbnRpYWxzIFJvb3QgQ0EwHhcNMjYwODA3MTg0MzU2WhcNMjgwODA2MTk0MzU2WjBEMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEpMCcGA1UEAxMgQW50aHJvcGljIENsYXVkZSBDb250ZW50IFNpZ25pbmcwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAASYegpry1AYBRTVNL1CpTlbROnY3dey+UrsF9C3phYrATN3ZHf93Mo8RQN0KOUuOn19P4oWNFWe5n2/She9N7eTo1gwVjAOBgNVHQ8BAf8EBAMCB4AwFQYDVR0lBA4wDAYKKwYBBAGD6F4CATAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFM5R4gSBTmRbI/jjxM+aPpzB11zCMAoGCCqGSM49BAMDA2cAMGQCMDFzHRSeAXrSy1WOzkbhPZ6Km2wGTmZ/2gK18k8BQGXyqz88Rdrz6CTX9flAnYNVxgIwcF9c3fVhqmJKpi+UhasNUMko69cyX6STPfta3Q8EjyzDjzoyrol46FP6VFHhvUcJoWNwYWRZDZ4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA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';
+  mw.insertAdjacentHTML('beforeend',`<div class="drv" id="drv" hidden>
+<div class="drvbar"><button type="button" class="drvx" id="drvX">End drive</button><span class="drvst" id="drvSt" aria-live="polite">Finding you…</span><button type="button" class="drvc" id="drvC" hidden>Re-center</button></div>
+<div class="drvp" id="drvP"><div class="drvl" id="drvL"></div>
+<div class="drvo"><span>Directions in</span><button type="button" data-nav="g">Google Maps</button><button type="button" data-nav="a">Apple Maps</button><button type="button" id="drvV" aria-pressed="false">Voice</button></div></div>
+<button type="button" class="drvdim" id="drvDim" hidden><b>Parked</b><span>The screen can sleep now. Tap to keep driving.</span></button></div>`);
+  const m3dEl=mw.querySelector('.m3d')||mw; m3dEl.insertAdjacentHTML('beforeend','<div class="drvme" id="drvMe" hidden><svg viewBox="0 0 40 40" width="40" height="40" aria-hidden="true"><circle cx="20" cy="20" r="18" fill="#2367b3" fill-opacity=".18"/><path class="a" d="M20 6l10 26-10-6-10 6z" fill="#2367b3" stroke="#fff" stroke-width="2.5" stroke-linejoin="round"/><circle class="d" cx="20" cy="20" r="7" fill="#2367b3" stroke="#fff" stroke-width="2.5"/></svg></div>');
+  const $=id=>document.getElementById(id), box=$('drv'), me=$('drvMe'), st=$('drvSt'), list=$('drvL');
+  const R=Math.PI/180, CMP=['N','NE','E','SE','S','SW','W','NW'];
+  const mi=(a,b,c,d)=>Math.hypot((c-a)*69.17*Math.cos(b*R),(d-b)*69.17);   // miles between lon/lat pairs
+  const brg=(a,b,c,d)=>(Math.atan2((c-a)*Math.cos(b*R),d-b)/R+360)%360;
+  const norm=a=>{ a%=360; return a>180?a-360:a<-180?a+360:a; };
+  const dtxt=d=>d<0.19?Math.max(50,Math.round(d*5280/50)*50)+' ft':d<10?d.toFixed(1)+' mi':Math.round(d)+' mi';
+  function msg(h,t){ pop.innerHTML=`<button class="px" aria-label="Close">×</button><h4>${h}</h4><p>${esc(t)}</p>`; pop.querySelector('.px').onclick=closePop; pop.hidden=false; placePop(20,20); }
+  // ranked spots from the layers that are on (all of them, not only the ones in view) (Best, Good, Some old ground); falls back to the best two ranks everywhere
+  function cands(){ const ok=p=>{ const r=RK(p); return typeof r==='number'&&r>=1&&r<=3; }; let c=PTS.filter(p=>on.has(p.L)&&ok(p)); if(c.length<5) c=PTS.filter(p=>{ const r=RK(p); return r===1||r===2; }); DRV.cand=c; DRV.ct=Date.now(); }
+  // screen stays on: Wake Lock, else a silent looping 2 s video (older iPhones and home-screen apps before iOS 18.4)
+  function vid(on){ try{ if(on){ if(!DRV.vid){ const v=document.createElement('video'); v.muted=true; v.loop=true; v.playsInline=true; v.setAttribute('playsinline',''); v.setAttribute('muted',''); v.src=VID; v.style.cssText='position:fixed;width:1px;height:1px;opacity:0;pointer-events:none;left:0;top:0'; document.body.appendChild(v); DRV.vid=v; } const pr=DRV.vid.play(); if(pr&&pr.catch) pr.catch(()=>{}); } else if(DRV.vid) DRV.vid.pause(); }catch(_){} }
+  async function wake(on){ if(!on){ try{ if(DRV.wake){ const w=DRV.wake; DRV.wake=null; await w.release(); } }catch(_){} vid(false); return; }
+    try{ if(navigator.wakeLock&&!DRV.wake){ DRV.wake=await navigator.wakeLock.request('screen'); DRV.wake.addEventListener('release',()=>{ DRV.wake=null; }); } }catch(_){}
+    if(!DRV.wake) vid(true); else vid(false); }
+  document.addEventListener('visibilitychange',()=>{ if(document.visibilityState==='visible'&&DRV.on&&!DRV.dim) wake(true); });
+  // the car marker: an arrow pointing the way you travel (a dot until there is a heading)
+  function mark(){ if(!DRV.on||!DRV.pos) return; const [wx,wy]=P(DRV.pos.lo,DRV.pos.la), q=ogS(wx,wy); if(!q||!isFinite(q[0])){ me.hidden=true; return; }
+    me.hidden=false; me.classList.toggle('nohd',DRV.head==null); me.style.transform=`translate(${q[0]-20}px,${q[1]-20}px) rotate(${(DRV.head||0)+T3.bear/R}deg)`; }
+  OGE.on('post',()=>{ if(DRV.on) mark(); });
+  { const _f=T3.fast; T3.fast=function(){ _f.apply(T3,arguments); if(DRV.on) requestAnimationFrame(mark); }; }
+  // follow: you sit just above the panel (left of centre when the panel is at the side) and the road ahead points up
+  function side(){ const d=$('drvP'); return !!d&&d.offsetLeft>20; }
+  function view(force){ const p=DRV.pos; if(!p||!DRV.follow||!T3.on) return; const now=Date.now(); if(!force&&now-DRV.vt<900) return;
+    const hd=DRV.head!=null?DRV.head:-T3.bear/R, th=T3.th, Pp=T3.P||1, c=Math.cos(th), s=Math.sin(th);
+    if(DRV.first||!(vb.w>0)){ const W=VP.W||mw.clientWidth||390, S=BOX.w||W*2.4; const w=(3/69.2)*S/W; vb={x:0,y:0,w,h:w*(BOX.h||S)/(BOX.w||S)}; DRV.first=false; force=true; }
+    const H=VP.H||600, pt=side()?H:(H-($('drvP').offsetHeight||0)), v=Math.min(0.8*H,pt-70)-T3.A*H, u=side()?0.22*(VP.W||800):0, y1=v*Pp/(Pp*c+v*s), x1=u*(Pp-y1*s)/Pp, g=vb.w/(BOX.w||1), a=hd*R;
+    const [ux,uy]=P(p.lo,p.la), cx=ux+(Math.sin(a)*y1+Math.cos(a)*x1)*g, cy=uy+(-Math.cos(a)*y1+Math.sin(a)*x1)*g;
+    const sc=scale(), moved=DRV.lv?Math.hypot(cx-DRV.lv[0],cy-DRV.lv[1])*sc:1e9, tb=-a; let db=norm((tb-T3.bear)/R);
+    if(!force&&moved<6&&Math.abs(db)<3) return; DRV.vt=now; DRV.lv=[cx,cy];
+    vb={x:cx-vb.w/2,y:cy-vb.h/2,w:vb.w,h:vb.h}; apply(); turn(T3.bear+db*R); }
+  function turn(to){ cancelAnimationFrame(DRV.anim); const b0=T3.bear, d=to-b0; if(Math.abs(d)<0.02){ T3.bear=to; T3.layout(); T3.fast(); mark(); return; } const t0=performance.now();
+    const step=()=>{ const t=Math.min(1,(performance.now()-t0)/520), e=1-Math.pow(1-t,3); T3.bear=b0+d*e; T3.layout(); T3.fast(); mark(); if(t<1) DRV.anim=requestAnimationFrame(step); else T3.ui(); }; step(); }
+  // the cards: nearest ranked spots ahead along the way you are going (nearest all round when stopped)
+  function cards(force){ const p=DRV.pos; if(!p) return; const now=Date.now(); if(!force&&now-DRV.kt<2000) return; DRV.kt=now; if(now-DRV.ct>60000) cands();
+    const moving=DRV.spd>3&&DRV.head!=null, out=[];
+    for(const q of DRV.cand){ if(Math.abs(q.la-p.la)>0.45||Math.abs(q.lo-p.lo)>0.65) continue; const d=mi(p.lo,p.la,q.lo,q.la); if(d>30) continue;
+      const b=brg(p.lo,p.la,q.lo,q.la), rel=moving?norm(b-DRV.head):0; if(moving&&Math.abs(rel)>75&&d>0.15) continue;
+      const r=RK(q); out.push({q,d,b,rel,r,e:d*(1+0.3*(r-1))*(moving?1+Math.abs(rel)/150:1)}); }
+    out.sort((a,b)=>a.e-b.e); const top=out.slice(0,3);
+    const k=top.map(o=>o.q.id+':'+dtxt(o.d)).join()+'|'+moving+'|'+DRV.nav; if(!force&&k===DRV.key) return; DRV.key=k;
+    if(!top.length){ list.innerHTML=`<p class="drve">${moving?'No ranked spots ahead within 30 miles. They will show here as the road turns toward them.':'No ranked spots within 30 miles of you. Turn more layers on in the layers sheet before you drive.'}</p>`; return; }
+    list.innerHTML=top.map((o,i)=>{ const q=o.q, wy=moving?(Math.abs(o.rel)<20?'straight ahead':o.rel>0?'ahead on the right':'ahead on the left'):CMP[Math.round(o.b/45)%8]+' of you';
+      const why=typeof RKTOP==='function'?RKTOP(q):'';
+      return `<div class="drvk${i?'':' main'}"><button type="button" class="drvi" data-show="${esc(q.id)}" aria-label="Show ${esc(q.n)} on the map"><span class="drvn"><i style="background:var(--rk${o.r})">${o.r}</i><b>${esc(q.n)}</b></span><span class="drvm">${dtxt(o.d)} · ${wy} · ${RKP[o.r]}</span>${i===0&&why?`<span class="drvw">${esc(why)}</span>`:''}</button>`
+        +`<a class="drvgo" href="${navUrl(q)}" target="_blank" rel="noopener" data-go="${esc(q.id)}">${i?'Go':'Navigate'}</a></div>`; }).join('');
+    const o=top[0]; if(DRV.voice&&moving&&o.d<3&&!DRV.said.has(o.q.id)&&window.speechSynthesis){ DRV.said.add(o.q.id); try{ const u=new SpeechSynthesisUtterance(`${RKP[o.r]}, ${dtxt(o.d).replace('mi','miles').replace('ft','feet')} ${Math.abs(o.rel)<20?'straight ahead':o.rel>0?'on the right':'on the left'}: ${o.q.n.replace(/\(.*?\)/g,'')}`); u.rate=1.02; speechSynthesis.speak(u); }catch(_){} } }
+  // Navigate: Google Maps or Apple Maps with the spot as the destination; the home-screen app on an iPhone opens the maps app straight away
+  function navUrl(q){ const la=q.la.toFixed(6), lo=q.lo.toFixed(6); return DRV.nav==='a'?`https://maps.apple.com/?daddr=${la},${lo}&dirflg=d`:`https://www.google.com/maps/dir/?api=1&destination=${la},${lo}&travelmode=driving`; }
+  list.addEventListener('click',e=>{ const g=e.target.closest('[data-go]'), sh=e.target.closest('[data-show]');
+    if(g){ const q=BYID[g.dataset.go]; if(!q) return; if(document.body.classList.contains('isapp')&&typeof uxIOS!=='undefined'&&uxIOS){ e.preventDefault(); const la=q.la.toFixed(6), lo=q.lo.toFixed(6), web=g.href, t0=Date.now();
+        location.href=DRV.nav==='a'?`maps://?daddr=${la},${lo}&dirflg=d`:`comgooglemaps://?daddr=${la},${lo}&directionsmode=driving`;
+        setTimeout(()=>{ if(!document.hidden&&Date.now()-t0<3000) window.open(web,'_blank'); },1500); } return; }
+    if(sh){ const q=BYID[sh.dataset.show]; if(!q) return; DRV.follow=false; $('drvC').hidden=false; const [x,y]=P(q.lo,q.la); vb={x:x-vb.w/2,y:y-vb.h/2,w:vb.w,h:vb.h}; apply(); selId=q.id; drawMarkers(); } });
+  function navSync(){ box.querySelectorAll('[data-nav]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.nav===DRV.nav))); $('drvV').setAttribute('aria-pressed',String(DRV.voice)); $('drvV').textContent=DRV.voice?'Voice on':'Voice off'; }
+  box.querySelector('.drvo').addEventListener('click',e=>{ const b=e.target.closest('[data-nav]');
+    if(b){ DRV.nav=b.dataset.nav; try{ localStorage.setItem('og-drive-nav',DRV.nav); }catch(_){} navSync(); cards(true); return; }
+    if(e.target.closest('#drvV')){ DRV.voice=!DRV.voice; try{ localStorage.setItem('og-drive-voice',DRV.voice?'1':'0'); }catch(_){} navSync(); if(DRV.voice&&window.speechSynthesis){ try{ speechSynthesis.speak(new SpeechSynthesisUtterance('Voice on')); }catch(_){} } } });
+  function status(){ if(!DRV.pos){ return; } const mph=Math.round(DRV.spd*2.237);
+    st.textContent=(DRV.spd>1?mph+' mph':'Stopped')+(DRV.head!=null?' · heading '+CMP[Math.round(DRV.head/45)%8]:'')+(DRV.acc>60?' · weak GPS':''); }
+  function dim(v){ DRV.dim=v; $('drvDim').hidden=!v; wake(!v); }
+  function fix(pos){ if(!DRV.on) return; const c=pos.coords, lo=c.longitude, la=c.latitude, t=pos.timestamp||Date.now(); let sp=c.speed;
+    const r=DRV.ref; if(r){ const dm=mi(r.lo,r.la,lo,la)*1609.34, dt=(t-r.t)/1000; if((sp==null||isNaN(sp))&&dt>0) sp=dm/dt;
+      if(dm>15){ if(c.heading==null||isNaN(c.heading)) DRV.head=brg(r.lo,r.la,lo,la); DRV.ref={lo,la,t}; } } else DRV.ref={lo,la,t};
+    if(c.heading!=null&&!isNaN(c.heading)&&(sp||0)>1.5) DRV.head=c.heading;
+    DRV.spd=Math.max(0,sp||0); DRV.acc=c.accuracy||0; DRV.pos={lo,la};
+    if(DRV.spd<1){ if(!DRV.still) DRV.still=t; else if(!DRV.dim&&t-DRV.still>600000) dim(true); } else if(DRV.spd>3){ DRV.still=0; if(DRV.dim) dim(false); }
+    const first=DRV.first; view(first); if(!DRV.follow) mark(); cards(first); status(); }
+  function err(e){ if(!DRV.on) return; st.textContent=e&&e.code===1?'Location is blocked. Allow it for this page in Settings.':'Waiting for GPS…'; }
+  function recenter(){ DRV.follow=true; $('drvC').hidden=true; DRV.lv=null; view(true); }
+  // you moved the map with a finger: stop following until Re-center
+  m3dEl.addEventListener('pointerdown',e=>{ if(DRV.on) DRV.down=[e.clientX,e.clientY]; },true);
+  m3dEl.addEventListener('pointermove',e=>{ if(!DRV.on||!DRV.down||!DRV.follow) return; if(Math.hypot(e.clientX-DRV.down[0],e.clientY-DRV.down[1])>14){ DRV.follow=false; $('drvC').hidden=false; } },true);
+  window.addEventListener('pointerup',()=>{ DRV.down=null; },true);
+  m3dEl.addEventListener('wheel',()=>{ if(DRV.on&&DRV.follow){ DRV.follow=false; $('drvC').hidden=false; } },{passive:true,capture:true});
+  window.drvStart=function(){ if(DRV.on) return; if(!navigator.geolocation){ msg('Drive mode','This browser has no location access. The home-screen app or Safari with location allowed can follow you.'); return; }
+    vid(!navigator.wakeLock);   // started inside the tap, so the fallback video may play
+    DRV.on=true; DRV.t3=T3.on; DRV.first=true; DRV.follow=true; DRV.lv=null; DRV.key=''; DRV.said.clear(); DRV.pos=null; DRV.ref=null; DRV.head=null; DRV.spd=0; DRV.still=0;
+    try{ closePop(); }catch(_){} try{ if(typeof gmSheet==='function') gmSheet(false); }catch(_){} if(typeof SH!=='undefined'&&SH.phone) shGo('map'); else if(typeof showView==='function') showView('map');
+    document.body.classList.add('drv'); box.hidden=false; $('drvC').hidden=true; $('drvDim').hidden=true; st.textContent='Finding you…'; list.innerHTML='<p class="drve">Waiting for a GPS fix. Spots ahead show here once you are moving.</p>'; navSync();
+    cands(); if(!T3.on) T3.set(true); wake(true);
+    try{ DRV.watch=navigator.geolocation.watchPosition(fix,err,{enableHighAccuracy:true,maximumAge:1000,timeout:20000}); }catch(_){ err(); } };
+  window.drvStop=function(){ if(!DRV.on) return; DRV.on=false; cancelAnimationFrame(DRV.anim); if(DRV.watch!=null){ try{ navigator.geolocation.clearWatch(DRV.watch); }catch(_){} DRV.watch=null; }
+    wake(false); try{ window.speechSynthesis&&speechSynthesis.cancel(); }catch(_){} box.hidden=true; me.hidden=true; DRV.dim=false; document.body.classList.remove('drv');
+    if(!DRV.t3) T3.set(false); else T3.north(); };
+  window.DRV=DRV;
+  $('drvX').onclick=()=>drvStop(); $('drvC').onclick=recenter; $('drvDim').onclick=()=>{ DRV.still=0; dim(false); };
+  document.addEventListener('keydown',e=>{ if(e.key==='Escape'&&DRV.on&&pop.hidden) drvStop(); });
+  // ways in: the quick + menu and a More tile
+  const qm=$('qaMenu'); if(qm){ qm.insertAdjacentHTML('beforeend',`<button type="button" role="menuitem" id="qaDrive">${CAR}Drive mode</button>`);
+    $('qaDrive').addEventListener('click',e=>{ e.stopPropagation(); qm.hidden=true; const f=$('qaFab'); if(f) f.setAttribute('aria-expanded','false'); drvStart(); }); }
+  const ml=document.querySelector('#rv-more .shlist'); if(ml){ ml.insertAdjacentHTML('beforeend',`<button id="mtDrive">${CAR}<b>Drive mode</b><span>Phone on the dash: spots ahead and one-tap directions</span></button>`);
+    $('mtDrive').addEventListener('click',e=>{ e.stopPropagation(); drvStart(); }); }
+}
 
 // ---------- home-screen app: works offline and updates itself ----------
 (function(){ if(window.claude||!('serviceWorker' in navigator)||(location.protocol!=='https:'&&!/^(localhost|127\.0\.0\.1)$/.test(location.hostname))) return;
