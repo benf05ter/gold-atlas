@@ -16,18 +16,23 @@ window.addEventListener('unhandledrejection',e=>OGE.err('promise',e.reason));
 // ---- stage: tiles (HTML) under the SVG, pins on a canvas over it; the stage moves as one piece during a gesture ----
 const ogWrap=svg.parentElement;
 const m3d=document.createElement('div'); m3d.className='m3d'; ogWrap.insertBefore(m3d,svg);
-const stage=document.createElement('div'); stage.className='ogstage'; m3d.appendChild(stage);
+const ground=document.createElement('div'); ground.className='ogground'; m3d.appendChild(ground);   // 3D: this is what tilts
+const stage=document.createElement('div'); stage.className='ogstage'; ground.appendChild(stage);
 const tileRoot=document.createElement('div'); tileRoot.className='ogtiles'; tileRoot.setAttribute('aria-hidden','true'); stage.appendChild(tileRoot);
 stage.appendChild(svg);
 const pcv=document.createElement('canvas'); pcv.className='pcv'; pcv.setAttribute('aria-hidden','true'); stage.appendChild(pcv);
 const pcx=pcv.getContext('2d');
+const bcv=document.createElement('canvas'); bcv.className='bcv'; bcv.setAttribute('aria-hidden','true'); m3d.appendChild(bcv); const bcx=bcv.getContext('2d');   // 3D: pins stand upright on this flat canvas over the tilted ground
 for(const p of [gBase.children[0],gBase.children[1],gBase.children[2]]) if(p) p.classList.add('ogland');   // state and lake fills: hidden once street or satellite tiles show
 // the box the map draws in; measured by a ResizeObserver, never read from layout in the hot path
-const VIEW={W:0,H:0,vb:null,s:0};
-{ const ro=new ResizeObserver(es=>{ const r=es[es.length-1].contentRect; if(!r.width||!r.height) return; const ow=VIEW.W, oh=VIEW.H; BOX.w=r.width; BOX.h=r.height;
-    if(ow&&oh&&(ow!==r.width||oh!==r.height)&&vb.w>0){ const s=ow/vb.w, cx=vb.x+vb.w/2, cy=vb.y+vb.h/2; vb={x:cx-r.width/s/2,y:cy-r.height/s/2,w:r.width/s,h:r.height/s}; }
+const VIEW={W:0,H:0,vb:null,s:0}, VP={W:0,H:0};   // VP: the map box on screen; BOX: the ground the map is drawn on (bigger than the screen in 3D)
+// 3D view (t3d section): T3 tilts the ground; the engine asks it only for the ground size, the two projections and a fast pin repaint
+var T3=window.T3||{on:false, ground:(w,h)=>[w,h], proj:(x,y)=>[x,y,1], unproj:(x,y)=>[x,y], fast(){}, layout(){}, nearLL(){ return []; }};
+function boxSet(w,h){ VP.W=w; VP.H=h; const g=T3.on?T3.ground(w,h):[w,h]; const ow=VIEW.W, oh=VIEW.H; BOX.w=g[0]; BOX.h=g[1];
+  if(ow&&oh&&(ow!==g[0]||oh!==g[1])&&vb.w>0){ const s=ow/vb.w, cx=vb.x+vb.w/2, cy=vb.y+vb.h/2; vb={x:cx-g[0]/s/2,y:cy-g[1]/s/2,w:g[0]/s,h:g[1]/s}; } if(T3.on) T3.layout(); }
+{ const ro=new ResizeObserver(es=>{ const r=es[es.length-1].contentRect; if(!r.width||!r.height) return; boxSet(r.width,r.height);
     if(!GES.active) commit(); else GES.dirty=true; }); ro.observe(m3d); }
-svgRect=()=>{ const r=m3d.getBoundingClientRect(); const w=BOX.w||r.width, h=BOX.h||r.height; return {left:r.left,top:r.top,width:w,height:h,right:r.left+w,bottom:r.top+h}; };
+svgRect=()=>{ const r=m3d.getBoundingClientRect(); const w=VP.W||r.width, h=VP.H||r.height; return {left:r.left,top:r.top,width:w,height:h,right:r.left+w,bottom:r.top+h}; };
 
 // ---- view ----
 const box=(a,b,c,d)=>{const [x0,y0]=P(a,d),[x1,y1]=P(b,c); return {x:x0,y:y0,w:x1-x0,h:y1-y0};};
@@ -36,7 +41,8 @@ var vb={...V.EC}, _sw=0, FITWH=[0,0];
 const scale=()=>(BOX.w||svg.clientWidth||0)/vb.w;
 function fit(){ const W=svgW(), H=svgH(); if(!W||!H) return; FITWH=[W,H]; let {x,y,w,h}=vb; if(!(w>0&&h>0)) ({x,y,w,h}=V.EC); const ar=W/H;
   if(w/h<ar){ const nw=h*ar; x-=(nw-w)/2; w=nw; } else { const nh=w/ar; y-=(nh-h)/2; h=nh; } vb={x,y,w,h}; }
-const toW=(px,py)=>{ const r=svgRect(); return [vb.x+(px-r.left)/r.width*vb.w, vb.y+(py-r.top)/r.height*vb.h]; };
+const toW=(px,py)=>{ const r=svgRect(); let gx=px-r.left, gy=py-r.top; if(T3.on) [gx,gy]=T3.unproj(gx,gy); return [vb.x+gx/(BOX.w||r.width)*vb.w, vb.y+gy/(BOX.h||r.height)*vb.h]; };
+const ogS=(wx,wy)=>{ const s=VIEW.s||scale(); return T3.proj((wx-vb.x)*s,(wy-vb.y)*s); };   // map units -> screen px (through the tilt in 3D)
 const ctr=()=>[vb.x+vb.w/2,vb.y+vb.h/2];
 const vbClamp=()=>{ const lim=V.WI.w*2.5; if(vb.w>lim){ const f=vb.w/lim, cx=vb.x+vb.w/2, cy=vb.y+vb.h/2; vb={x:cx-vb.w/f/2,y:cy-vb.h/f/2,w:vb.w/f,h:vb.h/f}; } };
 
@@ -90,7 +96,7 @@ function render(s){ { const t=(document.documentElement.dataset.theme||'')+(matc
 
 // ---- zoom (wheel, pinch, buttons): the stage moves at once, the full redraw waits until the gesture settles ----
 function stageFast(){ if(!VIEW.vb||!VIEW.W) return; const g=VIEW.vb, k=g.w/vb.w, tx=(g.x-vb.x)*VIEW.W/vb.w, ty=(g.y-vb.y)*VIEW.H/vb.h;
-  stage.style.transform=`matrix(${k},0,0,${k},${tx},${ty})`; tilesSoon(); }
+  stage.style.transform=`matrix(${k},0,0,${k},${tx},${ty})`; if(T3.on) T3.fast(); tilesSoon(); }
 const gmFast=stageFast, gmFastQ=stageFast; function gmCommit(){ apply(); }
 function settle(ms){ clearTimeout(GES.settle); GES.settle=setTimeout(()=>{ if(GES.ptr.size){ settle(200); return; } GES.active=false; commit(true); },ms); }
 function zoomAt(f,cx,cy){ const nw=vb.w/f; if(!(nw>0)||nw<0.015||nw>V.WI.w*2.5) return; vb={x:cx-(cx-vb.x)/f,y:cy-(cy-vb.y)/f,w:nw,h:vb.h/f};
@@ -102,30 +108,34 @@ const GES={ptr:new Map(), active:false, dirty:false, moved:false, down:null, pin
 const ptr=GES.ptr; let moved=false;
 function gesStart(){ if(!GES.active){ GES.active=true; } clearTimeout(GES.settle); if(GES.inert){ cancelAnimationFrame(GES.inert); GES.inert=0; } }
 function gesEnd(){ GES.active=false; if(RENDER.q){ cancelAnimationFrame(RENDER.q); RENDER.q=0; } commit(true); GES.dirty=false; }
-function pinchState(){ const [a,b]=[...GES.ptr.values()]; return {d:Math.hypot(a[0]-b[0],a[1]-b[1]), c:[(a[0]+b[0])/2,(a[1]+b[1])/2]}; }
-function panBy(dx,dy){ const W=VIEW.W||svgW(), H=VIEW.H||svgH(); if(!W||!H) return; vb.x-=dx/W*vb.w; vb.y-=dy/H*vb.h; }
+function pinchState(){ const [a,b]=[...GES.ptr.values()]; return {d:Math.hypot(a[0]-b[0],a[1]-b[1]), c:[(a[0]+b[0])/2,(a[1]+b[1])/2], a:Math.atan2(b[1]-a[1],b[0]-a[0])}; }
+function panBy(dx,dy,x,y){ const W=VIEW.W||svgW(), H=VIEW.H||svgH(); if(!W||!H) return;
+  if(T3.on&&x!=null){ const [ax,ay]=toW(x,y), [bx,by]=toW(x+dx,y+dy); vb.x-=bx-ax; vb.y-=by-ay; return; }
+  vb.x-=dx/W*vb.w; vb.y-=dy/H*vb.h; }
 m3d.addEventListener('pointerdown',e=>{ if(e.button&&e.button!==0) return; if(e.isPrimary) GES.ptr.clear();
   GES.ptr.set(e.pointerId,[e.clientX,e.clientY]); try{ m3d.setPointerCapture(e.pointerId); }catch(_){}
   gesStart(); GES.moved=moved=false; GES.down=[e.clientX,e.clientY,performance.now(),e.pointerType]; GES.last=[e.clientX,e.clientY]; GES.vel=[0,0]; GES.vt=performance.now();
-  if(GES.ptr.size===2){ const p=pinchState(); GES.pinch=p.d; GES.pc=p.c; } });
+  if(GES.ptr.size===2){ const p=pinchState(); GES.pinch=p.d; GES.pc=p.c; GES.pa=p.a; } });
 m3d.addEventListener('pointermove',e=>{ if(!GES.ptr.has(e.pointerId)) return; GES.ptr.set(e.pointerId,[e.clientX,e.clientY]);
   if(GES.ptr.size>=2){ const p=pinchState(); if(GES.pinch){ const f=p.d/GES.pinch; const [wx,wy]=toW(...GES.pc); const nw=vb.w/f;
-      if(nw>=0.015&&nw<=V.WI.w*2.5){ vb={x:wx-(wx-vb.x)/f,y:wy-(wy-vb.y)/f,w:nw,h:vb.h/f}; } panBy(p.c[0]-GES.pc[0],p.c[1]-GES.pc[1]); }
-    GES.pinch=p.d; GES.pc=p.c; GES.moved=moved=true; svg.classList.add('drag'); stageFast(); return; }
+      if(nw>=0.015&&nw<=V.WI.w*2.5){ vb={x:wx-(wx-vb.x)/f,y:wy-(wy-vb.y)/f,w:nw,h:vb.h/f}; }
+      if(T3.on&&GES.pa!=null){ let da=p.a-GES.pa; if(da>Math.PI) da-=2*Math.PI; if(da<-Math.PI) da+=2*Math.PI; if(Math.abs(da)>0.002) T3.turn(da,GES.pc); }   // 3D: twist two fingers to turn the map
+      panBy(p.c[0]-GES.pc[0],p.c[1]-GES.pc[1],GES.pc[0],GES.pc[1]); }
+    GES.pinch=p.d; GES.pc=p.c; GES.pa=p.a; GES.moved=moved=true; svg.classList.add('drag'); stageFast(); return; }
   const dx=e.clientX-GES.last[0], dy=e.clientY-GES.last[1]; const now=performance.now(), dt=Math.max(1,now-GES.vt);
   if(!GES.moved&&Math.hypot(e.clientX-GES.down[0],e.clientY-GES.down[1])>(e.pointerType==='mouse'?3:6)){ GES.moved=moved=true; svg.classList.add('drag'); }
   if(!GES.moved) return;
   GES.vel=[0.7*GES.vel[0]+0.3*dx/dt, 0.7*GES.vel[1]+0.3*dy/dt]; GES.vt=now; GES.last=[e.clientX,e.clientY];
-  panBy(dx,dy); stageFast(); });
+  panBy(dx,dy,e.clientX-dx,e.clientY-dy); stageFast(); });
 function gesUp(e){ if(!GES.ptr.has(e.pointerId)) return; GES.ptr.delete(e.pointerId);
-  if(GES.ptr.size===1){ GES.last=[...GES.ptr.values()][0]; GES.pinch=0; GES.vel=[0,0]; return; }
+  if(GES.ptr.size===1){ GES.last=[...GES.ptr.values()][0]; GES.pinch=0; GES.pa=null; GES.vel=[0,0]; return; }
   if(GES.ptr.size) return;
   svg.classList.remove('drag'); const d=GES.down; GES.down=null;
   if(!GES.moved&&d&&performance.now()-d[2]<700&&e.type==='pointerup'){ gesEnd(); tapAt(e.clientX,e.clientY,e); return; }
   // let go while moving: glide a little, then redraw
   const v=GES.vel, sp=Math.hypot(v[0],v[1]);
-  if(GES.moved&&sp>0.25&&performance.now()-GES.vt<80){ let vx=v[0], vy=v[1], t0=performance.now();
-    const step=()=>{ const t=performance.now(), dt=Math.min(40,t-t0); t0=t; const k=Math.pow(0.0025,dt/600); panBy(vx*dt,vy*dt); vx*=k; vy*=k; stageFast();
+  if(GES.moved&&sp>0.25&&performance.now()-GES.vt<80){ let vx=v[0], vy=v[1], t0=performance.now(); const ip=[...(GES.last||[0,0])];
+    const step=()=>{ const t=performance.now(), dt=Math.min(40,t-t0); t0=t; const k=Math.pow(0.0025,dt/600); panBy(vx*dt,vy*dt,ip[0],ip[1]); ip[0]+=vx*dt; ip[1]+=vy*dt; vx*=k; vy*=k; stageFast();
       if(Math.hypot(vx,vy)>0.03&&!GES.ptr.size) GES.inert=requestAnimationFrame(step); else { GES.inert=0; gesEnd(); } }; GES.inert=requestAnimationFrame(step); }
   else gesEnd(); }
 m3d.addEventListener('pointerup',gesUp); m3d.addEventListener('pointercancel',gesUp); m3d.addEventListener('lostpointercapture',e=>{ if(GES.ptr.has(e.pointerId)) gesUp(Object.assign({},e,{type:'pointercancel',pointerId:e.pointerId,clientX:e.clientX,clientY:e.clientY})); });
@@ -151,34 +161,40 @@ function tapAt(clientX,clientY,e){ const r=svgRect(), cx=clientX-r.left, cy=clie
   }catch(err){ OGE.err('tap',err); } }
 
 // ---- pins, bubbles, names, parks, trails and gold streams on one canvas ----
-const PCV={q:[],cls:[],nm:false,W:0,H:0,dpr:1,icons:new Map(),raf:0,dr:[],pk:[],tr:[],ff:'sans-serif',lf:null};
+const PCV={q:[],cls:[],nm:false,W:0,H:0,vw:0,vh:0,dpr:1,bd:1,c:null,dk:1,icons:new Map(),raf:0,dr:[],pk:[],tr:[],ff:'sans-serif',lf:null};
+// ground px of a map point, then (in 3D) its spot on screen; PCV.dk is how much smaller a pin is drawn in the distance
+function pcXY(X,Y,s){ const gx=(X-vb.x)*s, gy=(Y-vb.y)*s; if(!T3.on){ PCV.dk=1; return [gx,gy]; } const r=T3.proj(gx,gy); PCV.dk=r[2]||1; return r; }
+const pcG=(cx,cy)=>T3.on?T3.unproj(cx,cy):[cx,cy];   // screen px -> ground px, for hit tests on the ground canvas
 const PLS=1800;
 function pcLater(){ if(!PCV.raf) PCV.raf=requestAnimationFrame(()=>{ PCV.raf=0; if(!GES.active) pcRender(VIEW.s||scale()); }); }
-function pcSize(){ const W=svgW(), H=svgH(), d=Math.min(2.5,window.devicePixelRatio||1);
-  if(W!==PCV.W||H!==PCV.H||d!==PCV.dpr){ PCV.W=W; PCV.H=H; PCV.dpr=d; pcv.width=Math.round(W*d); pcv.height=Math.round(H*d); } }
-function pcText(t,x,y,size,fill,halo,hw){ const c=pcx, f=`800 ${Math.round(size*2)/2}px ${PCV.ff}`; if(PCV.lf!==f){ c.font=f; PCV.lf=f; } if(halo){ c.lineWidth=hw; c.strokeStyle=halo; c.lineJoin='round'; c.strokeText(t,x,y); } c.fillStyle=fill; c.fillText(t,x,y); }
+function pcSize(){ const W=svgW(), H=svgH(), d=T3.on?1:Math.min(2.5,window.devicePixelRatio||1);
+  if(W!==PCV.W||H!==PCV.H||d!==PCV.dpr){ PCV.W=W; PCV.H=H; PCV.dpr=d; pcv.width=Math.round(W*d); pcv.height=Math.round(H*d); }
+  // 3D: the ground canvas (parks, trails, streams) is the size of the ground at 1x; pins go on the flat canvas, the size of the screen
+  const bd=Math.min(2.5,window.devicePixelRatio||1); PCV.vw=T3.on?VP.W:W; PCV.vh=T3.on?VP.H:H; PCV.bd=bd;
+  if(T3.on){ const bw=Math.round(PCV.vw*bd), bh=Math.round(PCV.vh*bd); if(bcv.width!==bw||bcv.height!==bh){ bcv.width=bw; bcv.height=bh; } } else if(bcv.width>1){ bcv.width=bcv.height=1; } }
+function pcText(t,x,y,size,fill,halo,hw){ const c=PCV.c||pcx, f=`800 ${Math.round(size*2)/2}px ${PCV.ff}`; if(PCV.lf!==f){ c.font=f; PCV.lf=f; } if(halo){ c.lineWidth=hw; c.strokeStyle=halo; c.lineJoin='round'; c.strokeText(t,x,y); } c.fillStyle=fill; c.fillText(t,x,y); }
 function pcWorld(c,s){ c.setTransform(PCV.dpr*s,0,0,PCV.dpr*s,-vb.x*s*PCV.dpr,-vb.y*s*PCV.dpr); }
 // a plain pin used until the Old Ground icon set (ogGlyph) has loaded
-function pcPin(p,s){ const c=pcx, [X,Y]=P(p.lo,p.la), x=(X-vb.x)*s, y=(Y-vb.y)*s; if(x<-40||y<-40||x>PCV.W+40||y>PCV.H+40) return;
-  const sel=p.id===selId, r=(s>=110?9:7)*(sel?1.4:1), rk=RK(p), panel=cv('var(--panel)'), ranked=typeof rk==='number'&&rk>=1&&rk<=5;
+function pcPin(p,s){ const c=PCV.c||pcx, [X,Y]=P(p.lo,p.la), [x,y]=pcXY(X,Y,s); if(x<-40||y<-40||x>PCV.vw+40||y>PCV.vh+40) return;
+  const sel=p.id===selId, r=(s>=110?9:7)*PCV.dk*(sel?1.4:1), rk=RK(p), panel=cv('var(--panel)'), ranked=typeof rk==='number'&&rk>=1&&rk<=5;
   c.beginPath(); c.arc(x,y,r,0,6.2832); c.fillStyle=ranked?cv(`var(--rk${rk})`):cv(`var(--L-${p.L})`); c.fill(); c.lineWidth=sel?2.6:1.5; c.strokeStyle=sel?cv('var(--ink)'):panel; c.stroke();
   if(ranked) pcText(String(rk),x,y+r*0.42,r*1.2,panel); PCV.dr.push([p,x,y]); }
-function pcBub(cl,s){ const c=pcx, n=cl.m.length, [X,Y]=P(cl.p.lo,cl.p.la), x=(X-vb.x)*s, y=(Y-vb.y)*s, r=6.5+1.7*Math.log2(n), acc=cv('var(--accent)'), panel=cv('var(--panel)');
-  if(x<-60||y<-60||x>PCV.W+60||y>PCV.H+60) return;
+function pcBub(cl,s){ const c=PCV.c||pcx, n=cl.m.length, [X,Y]=P(cl.p.lo,cl.p.la), [x,y]=pcXY(X,Y,s), r=(6.5+1.7*Math.log2(n))*PCV.dk, acc=cv('var(--accent)'), panel=cv('var(--panel)');
+  if(x<-60||y<-60||x>PCV.vw+60||y>PCV.vh+60) return;
   const best=Math.min(...cl.m.map(p=>{ const k=RK(p); return typeof k==='number'&&k?k:9; }));
   c.globalAlpha=0.18; c.beginPath(); c.arc(x,y,r*1.15,0,6.2832); c.fillStyle=acc; c.fill();
   c.globalAlpha=0.82; c.beginPath(); c.arc(x,y,r,0,6.2832); c.fill(); c.globalAlpha=1; c.lineWidth=1.5; c.strokeStyle=panel; c.stroke();
   pcText(n>999?Math.round(n/100)/10+'k':String(n),x,y+r*0.34,r*(n>99?0.82:1),panel);
   if(best<=2){ const bx=x+r*0.8, by=y-r*0.8, br=Math.max(r*0.45,5); c.beginPath(); c.arc(bx,by,br,0,6.2832); c.fillStyle=cv('var(--L-ghost)'); c.fill(); c.lineWidth=1.4; c.strokeStyle=panel; c.stroke(); pcText(String(best),bx,by+br*0.4,br*1.15,panel); } }
-function pcNames(){ const c=pcx, pr=p=>p.id===selId?-1:(()=>{ const r=RK(p); return typeof r==='number'&&r?r:r==='X'?7:6; })();
-  const pts=PCV.dr.filter(([,x,y])=>x>-40&&x<PCV.W+40&&y>-20&&y<PCV.H+40), boxes=pts.map(([,x,y])=>[x-8,y-8,x+8,y+8]), hit=b=>boxes.some(q=>b[0]<q[2]&&b[2]>q[0]&&b[1]<q[3]&&b[3]>q[1]);
+function pcNames(){ const c=PCV.c||pcx, pr=p=>p.id===selId?-1:(()=>{ const r=RK(p); return typeof r==='number'&&r?r:r==='X'?7:6; })();
+  const pts=PCV.dr.filter(([,x,y])=>x>-40&&x<PCV.vw+40&&y>-20&&y<PCV.vh+40), boxes=pts.map(([,x,y])=>[x-8,y-8,x+8,y+8]), hit=b=>boxes.some(q=>b[0]<q[2]&&b[2]>q[0]&&b[1]<q[3]&&b[3]>q[1]);
   c.font=`700 11.5px ${PCV.ff}`; PCV.lf=null; c.lineWidth=3; c.lineJoin='round'; c.strokeStyle=cv('var(--panel)'); c.fillStyle=cv('var(--ink)');
   for(const [p,x,y] of pts.sort((a,b)=>pr(a[0])-pr(b[0]))){ let n=p.n; if(n.length>28) n=n.slice(0,27).trimEnd()+'…';
     const w=c.measureText(n).width+6, b=[x-w/2,y-27,x+w/2,y-11]; if(hit(b)) continue; boxes.push(b); c.strokeText(n,x,y-14); c.fillText(n,x,y-14); } }
-function pcRender(s){ pcSize(); const c=pcx; s=s||scale(); c.setTransform(PCV.dpr,0,0,PCV.dpr,0,0); c.clearRect(0,0,PCV.W,PCV.H); PCV.dr=[]; PCV.lf=null; if(!s||!isFinite(s)) return;
+function pcRender(s){ pcSize(); const g=pcx; s=s||scale(); g.setTransform(PCV.dpr,0,0,PCV.dpr,0,0); g.clearRect(0,0,PCV.W,PCV.H); PCV.dr=[]; PCV.lf=null; if(!s||!isFinite(s)) return;
   PCV.ff=cv('var(--f-body)')||'sans-serif';
   try{ pcLand(s); }catch(e){ OGE.err('land',e); }
-  c.setTransform(PCV.dpr,0,0,PCV.dpr,0,0); c.textAlign='center'; c.textBaseline='alphabetic'; c.globalAlpha=1;
+  const c=PCV.c=T3.on?bcx:pcx, d=T3.on?PCV.bd:PCV.dpr; c.setTransform(d,0,0,d,0,0); if(T3.on) c.clearRect(0,0,PCV.vw,PCV.vh); c.textAlign='center'; c.textBaseline='alphabetic'; c.globalAlpha=1; PCV.dk=1;
   let selP=null; for(const p of PCV.q){ if(p.id===selId){ selP=p; continue; } pcPin(p,s); }
   for(const cl of PCV.cls) pcBub(cl,s);
   if(selP) pcPin(selP,s);
@@ -194,7 +210,7 @@ function streamsBuild(){ if(STR.ready||STR.building||typeof DATA==='undefined'||
   (window.requestIdleCallback||requestAnimationFrame)(step); }
 function streamsVis(s){ if(!on.has('_streams')) return []; if(!STR.ready){ streamsBuild(); return []; } const m=0.3, x0=vb.x-vb.w*m, x1=vb.x+vb.w*(1+m), y0=vb.y-vb.h*m, y1=vb.y+vb.h*(1+m), out=[];
   for(const e of STR.p){ const b=e.b; if(b[2]<x0||b[0]>x1||b[3]<y0||b[1]>y1) continue; if(s<120&&e.w<2) continue; out.push(e); } return out; }
-function streamAt(cx,cy){ if(!on.has('_streams')||!STR.ready) return null; const s=VIEW.s||scale(), c=pcx; pcWorld(c,s); c.lineWidth=12/s; let hit=null; const X=cx*PCV.dpr, Y=cy*PCV.dpr;
+function streamAt(cx,cy){ if(!on.has('_streams')||!STR.ready) return null; const s=VIEW.s||scale(), c=pcx; pcWorld(c,s); c.lineWidth=12/s; let hit=null; const [gx,gy]=pcG(cx,cy), X=gx*PCV.dpr, Y=gy*PCV.dpr;
   for(const e of streamsVis(s)){ if(c.isPointInStroke(e.p,X,Y)){ hit=e; break; } } c.setTransform(PCV.dpr,0,0,PCV.dpr,0,0); return hit; }
 function pcLand(s){ const c=pcx, sat=svg.classList.contains('sat'); const st=streamsVis(s); if(!(PCV.pk.length||PCV.tr.length||st.length)) return; pcWorld(c,s);
   if(PCV.pk.length){ const pk=cv('var(--L-park)'); c.lineWidth=1.3/s;
@@ -247,12 +263,19 @@ function tlWant(L,z,list,margin){ const cx=vb.x+vb.w/2, cy=vb.y+vb.h/2, N=2**z, 
   const d=([x,y])=>{ const lo=(x+0.5)/N*360-180, la=ogMerc.lat(y+0.5,N); return ((lo*K-cx)/vb.w)**2+((-la-cy)/vb.h)**2; };
   list.sort((a,b)=>d(a)-d(b)); for(const [x,y] of list){ const k=`${z}_${x}_${y}`; L.want.add(k); const im=tlImg(L,z,x,y); if(!im.src) im.src=L.url(z,x,y); } }
 const tlStreet=tileLayer('b',ogURL.b,{base:true,max:()=>ogDark()?16:19,show:()=>GM.type==='default'&&OG.live&&navigator.onLine!==false});
-const tlHill=tileLayer('h',ogURL.h,{max:()=>15,show:()=>GM.type==='default'&&OG.live&&navigator.onLine!==false});
+const tlHill=tileLayer('h',ogURL.h,{max:()=>15,show:()=>(GM.type==='default'||(T3.on&&GM.type==='sat'))&&OG.live&&navigator.onLine!==false});
 const tlSat=tileLayer('s',ogURL.s,{base:true,max:()=>17,show:()=>GM.type==='sat'&&GM.live&&navigator.onLine!==false});
+tileRoot.appendChild(tlHill.div);   // relief sits above the imagery (3D satellite view)
 function tilesUpdate(){ const z=ogZ(); let any=false;
   for(const L of Object.values(TILES.L)){ const show=!!L.show()&&!!z; L.div.style.display=show?'':'none'; L.want.clear(); L.vis=[];
     if(!show){ if(L.tiles.size>400||GM.type!==L.lastType){ for(const im of L.tiles.values()) im.remove(); L.tiles.clear(); for(const lv of L.levels.values()) lv.div.remove(); L.levels.clear(); } L.lastType=GM.type; continue; }
-    L.lastType=GM.type; const mx=L.max(); let zb=Math.min(mx,L.id==='h'?z:z+1), lb=[]; for(const m of [0.5,0.25,0]){ lb=ogTileList(zb,m); if(lb.length<=160) break; } if(lb.length>160){ zb--; lb=ogTileList(zb,0); } L.zb=zb;
+    L.lastType=GM.type; const mx=L.max(); let zb=Math.min(mx,L.id==='h'?z:z+1), lb=[];
+    if(T3.on){ let zf=Math.max(4,zb-1); lb=ogTileList(zf,0); if(lb.length>160){ zb--; zf=Math.max(4,zb-1); lb=ogTileList(zf,0); } L.zb=zf;
+      for(const im of L.tiles.values()) im.dataset.t='';
+      if(L.base){ const z0=Math.max(4,zf-3); if(z0<zf) tlWant(L,z0,ogTileList(z0,0.5)); }
+      tlWant(L,zf,lb); const nb=zb>zf?T3.nearLL():null, ln=nb?ogTileList(zb,0,...nb):[]; if(ln.length&&ln.length<=120) tlWant(L,zb,ln);
+      L.vis=lb.map(([x,y])=>`${zf}_${x}_${y}`); tlPlace(L); if(L.base) any=any||[...L.tiles.values()].some(im=>im.dataset.ok); continue; }
+    for(const m of [0.5,0.25,0]){ lb=ogTileList(zb,m); if(lb.length<=160) break; } if(lb.length>160){ zb--; lb=ogTileList(zb,0); } L.zb=zb;
     for(const im of L.tiles.values()) im.dataset.t='';
     if(L.base){ const z0=Math.max(4,zb-3); if(z0<zb) tlWant(L,z0,ogTileList(z0,1)); }
     tlWant(L,zb,lb); L.vis=ogTileList(zb,0).map(([x,y])=>`${zb}_${x}_${y}`); tlPlace(L);
