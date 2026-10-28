@@ -31,7 +31,6 @@ body.ogt svg.ogsat path[stroke="var(--county)"]{stroke-opacity:.5;stroke:#fff}
 .mapwrap .gmsheet,.mapwrap .shsheet,body.shell .shsheet,.mapwrap .ridsheet{z-index:8}
 .mapwrap .shmenu,.mapwrap .mcmenu{z-index:9}
 .mapwrap .hrbar{z-index:10}
-.mapwrap .g3d{z-index:30}
+.mapwrap .t3bar{z-index:6}
 .plzoom{top:calc(112px + env(safe-area-inset-top,0px))!important;bottom:auto!important;transform:none!important}
 .mapwrap.shcard .plzoom{display:flex!important}
-.mapwrap.g3on .plzoom{display:none!important}

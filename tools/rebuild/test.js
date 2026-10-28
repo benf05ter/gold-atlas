@@ -70,6 +70,34 @@ async function run(name, ctxOpts, mobile) {
     console.log('coin guide view', await page.evaluate(() => [...document.querySelectorAll('.readview:not([hidden])')].map(e => e.id).join(',')));
     await page.click('#shTabs [data-t="map"]'); await page.waitForTimeout(300);
   }
+  // 3D view (v121): tilt on, pins projected upright, tap a pin, drag, twist (phone), north, back to 2D
+  await page.evaluate(() => gmTilt(true)); await page.waitForTimeout(900);
+  let t3 = await page.evaluate(() => { const [p, x, y] = PCV.dr[0] || [null, 0, 0]; const s = scale(); const g = p ? [(p.lo * K - vb.x) * s, (-p.la - vb.y) * s] : null; const back = g ? T3.unproj(...T3.proj(...g)) : null;
+    return { on: T3.on, S: T3.S, box: [BOX.w, BOX.h], vp: [VP.W, VP.H], ground: ground.style.transform.slice(0, 70), painted: PCV.dr.length, bcv: [bcv.width, bcv.height], pcv: [pcv.width, pcv.height], tiles: tlStreet.tiles.size, levels: [...tlStreet.levels.keys()], roundTrip: back && Math.hypot(back[0] - g[0], back[1] - g[1]) < 0.01, log: OGE.log.slice() }; });
+  console.log('3D on:', JSON.stringify(t3));
+  const pin3 = await page.evaluate(() => { const r = svgRect(); const d = PCV.dr.find(([p, x, y]) => x > 70 && y > 260 && x < r.width - 70 && y < r.height - 170 && !PCV.dr.some(([q, qx, qy]) => q !== p && Math.hypot(qx - x, qy - y) < 34) && !PCV.cls.some(c => { const q = ogS(c.p.lo * K, -c.p.la); return Math.hypot(q[0] - x, q[1] - y) < 30; })); return d ? { id: d[0].id, n: d[0].n, x: d[1] + r.left, y: d[2] + r.top } : null; });
+  if (!pin3) console.log('!! 3D: no pin to tap'); else {
+    if (mobile) await page.touchscreen.tap(pin3.x, pin3.y); else await page.mouse.click(pin3.x, pin3.y);
+    await page.waitForTimeout(400);
+    console.log('3D tap pin', JSON.stringify(pin3.n), '->', await page.evaluate(id => ({ hit: selId === id, pop: !document.getElementById('pop').hidden, card: document.querySelector('#detail h2')?.textContent?.slice(0, 40) }), pin3.id));
+    await page.evaluate(() => { closePop(); if (typeof shSheetClose === 'function') shSheetClose(); });
+  }
+  { const b0 = await page.evaluate(() => ({ vb: { ...vb } })); const px = box.l + box.w / 2, py = box.t + box.h * 0.7;
+    const w0 = await page.evaluate(([x, y]) => toW(x, y), [px, py]);
+    if (mobile) { const cdp = await ctx.newCDPSession(page); const touch = async (type, pts) => cdp.send('Input.dispatchTouchEvent', { type, touchPoints: pts.map((p, i) => ({ x: p[0], y: p[1], id: i })) });
+      await touch('touchStart', [[px, py]]); for (let i = 1; i <= 10; i++) { await touch('touchMove', [[px + i * 12, py - i * 10]]); await page.waitForTimeout(16); } await page.waitForTimeout(150); await touch('touchEnd', []); }
+    else { await page.mouse.move(px, py); await page.mouse.down(); for (let i = 1; i <= 10; i++) { await page.mouse.move(px + i * 12, py - i * 10); await page.waitForTimeout(16); } await page.waitForTimeout(150); await page.mouse.up(); }
+    await page.waitForTimeout(700);
+    const w1 = await page.evaluate(([x, y]) => toW(x, y), [px + 120, py - 100]);
+    console.log('3D drag: vb moved', (await page.evaluate(() => vb.x) - b0.vb.x).toFixed(4), '| ground point stayed under the finger:', Math.hypot(w1[0] - w0[0], w1[1] - w0[1]) < 1e-4, '| painted', await page.evaluate(() => PCV.dr.length)); }
+  if (mobile) { const cdp = await ctx.newCDPSession(page); const touch = async (type, pts) => cdp.send('Input.dispatchTouchEvent', { type, touchPoints: pts.map((p, i) => ({ x: p[0], y: p[1], id: i })) });
+    const ang = i => i * Math.PI / 36, R = 60, x0 = box.l + box.w / 2, y0 = box.t + box.h * 0.6;
+    await touch('touchStart', [[x0 - R, y0], [x0 + R, y0]]); for (let i = 1; i <= 12; i++) { const a = ang(i); await touch('touchMove', [[x0 - R * Math.cos(a), y0 - R * Math.sin(a)], [x0 + R * Math.cos(a), y0 + R * Math.sin(a)]]); await page.waitForTimeout(16); } await touch('touchEnd', []);
+    await page.waitForTimeout(500); console.log('3D twist 60°: bearing', (await page.evaluate(() => T3.bear * 180 / Math.PI)).toFixed(1), '° painted', await page.evaluate(() => PCV.dr.length));
+    await page.click('#t3n'); await page.waitForTimeout(600); console.log('3D north: bearing', await page.evaluate(() => T3.bear)); }
+  await page.click('#t3x'); await page.waitForTimeout(500);
+  t3 = await page.evaluate(() => ({ on: T3.on, box: [BOX.w, BOX.h], vp: [VP.W, VP.H], ground: ground.style.cssText, bcv: [bcv.width, bcv.height], painted: PCV.dr.length, log: OGE.log.slice() }));
+  console.log('back to 2D:', JSON.stringify(t3));
   // layers sheet + satellite + old maps + dark theme
   await page.click('#gmLayers'); await page.waitForTimeout(200);
   await page.click('#gmTypes [data-mt="sat"]'); await page.waitForTimeout(600); let s1 = await state(); const satN = await page.evaluate(() => tlSat.tiles.size);
@@ -90,7 +118,7 @@ async function run(name, ctxOpts, mobile) {
   console.log('DOM nodes', dom.nodes, 'svg nodes', dom.svgNodes, 'tile imgs', dom.imgs);
   st = await state(); if (st.log.length) console.log('OGE.log:', st.log);
   console.log('console errors:', errors.length ? errors.slice(0, 12) : 'none', '| failed requests:', failed.filter(u => !/arcgis|nationalmap/.test(u)).slice(0, 8));
-  await page.screenshot({ path: `/tmp/claude-0/-home-claude-gold-atlas/3256a0eb-ea88-5e14-b383-764e6b51ce2a/scratchpad/shot-${name}.png` });
+  await page.screenshot({ path: `${process.env.SHOTS || '/tmp'}/shot-${name}.png` });
   await browser.close();
 }
 (async () => {
