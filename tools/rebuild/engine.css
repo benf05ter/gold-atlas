@@ -1,0 +1,37 @@
+/* Old Ground engine (v120): the map stage and one stacking order for everything that floats over the map */
+.m3d{position:relative;width:100%;height:100%;overflow:hidden;touch-action:none;cursor:grab;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none;contain:strict}
+.m3d:has(svg.drag){cursor:grabbing}
+.ogstage{position:absolute;inset:0;transform-origin:0 0;will-change:transform}
+.ogstage>svg#map{position:absolute;inset:0;width:100%;height:100%;display:block;touch-action:none;cursor:inherit}
+.ogtiles{position:absolute;inset:0;pointer-events:none;z-index:0}
+.ogtl{position:absolute;inset:0}
+.ogtl-h{mix-blend-mode:multiply;opacity:.38}
+:root:not([data-theme="light"]) .ogtl-h{mix-blend-mode:screen;opacity:.18}
+:root[data-theme="dark"] .ogtl-h{mix-blend-mode:screen;opacity:.18}
+.ogtl-s{background:#1f2a22}
+.ogtz{position:absolute;left:0;top:0;transform-origin:0 0;will-change:transform}
+.ogtile{position:absolute;display:block;opacity:0;transition:opacity .18s ease;image-rendering:auto;-webkit-user-drag:none}
+.ogtile.ok{opacity:1}
+.ogstage>svg#map{z-index:1}
+.ogstage>.pcv{position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:none;z-index:2}
+body.ogt .ogland{display:none}
+body.ogt .mapwrap{background:#e8e4d8}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) body.ogt .mapwrap{background:#1c2320} }
+:root[data-theme="dark"] body.ogt .mapwrap{background:#1c2320}
+body.ogt svg.ogsat path[stroke="var(--county)"]{stroke-opacity:.5;stroke:#fff}
+.gdef,.gdefh,.gsatr{display:none}
+/* stacking order over the map (lowest first): credits 3, chips and search 4, pop-up 5, zoom and quick buttons 6, drawer 7, sheets 8, menus 9, hunt bar 10, lightbox 50 */
+.mapwrap .ogattr{z-index:3}
+.mapwrap .shmodes{z-index:4}
+.mapwrap .uxs{z-index:5}
+.mapwrap .pop{z-index:5}
+.mapwrap .plzoom,.mapwrap .ctl,.mapwrap .qafab,.mapwrap .bsc,.mapwrap .oms{z-index:6}
+.mapwrap .qamenu{z-index:9}
+.mapwrap .cld,.mapwrap .cldtab{z-index:7}
+.mapwrap .gmsheet,.mapwrap .shsheet,body.shell .shsheet,.mapwrap .ridsheet{z-index:8}
+.mapwrap .shmenu,.mapwrap .mcmenu{z-index:9}
+.mapwrap .hrbar{z-index:10}
+.mapwrap .g3d{z-index:30}
+.plzoom{top:calc(112px + env(safe-area-inset-top,0px))!important;bottom:auto!important;transform:none!important}
+.mapwrap.shcard .plzoom{display:flex!important}
+.mapwrap.g3on .plzoom{display:none!important}
