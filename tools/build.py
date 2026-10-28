@@ -30,6 +30,11 @@ if os.path.exists(os.path.join(sd,'og-data.js')): shutil.copy(os.path.join(sd,'o
 if os.path.isdir(os.path.join(sd,'og')):
   os.makedirs(out+'/og',exist_ok=True)
   for f in os.listdir(os.path.join(sd,'og')): shutil.copy(os.path.join(sd,'og',f),out+'/og/'+f)
+if os.path.isdir(os.path.join(sd,'om19')):   # 1800s map type (v129): USGS 1889-1900 sheets + the 1890 railway map, cached the first time you look at them
+  if os.path.isdir(out+'/om19'): shutil.rmtree(out+'/om19')
+  os.makedirs(out+'/om19',exist_ok=True)
+  for f in os.listdir(os.path.join(sd,'om19')):
+    if f.endswith('.webp'): shutil.copy(os.path.join(sd,'om19',f),out+'/om19/'+f)
 for f in os.listdir(os.path.join(T,'..','tools','icons')) if os.path.isdir(os.path.join(T,'icons')) else []: pass
 os.system(f'python3 "{T}/icons.py" "{out}/icons"')
 if om:

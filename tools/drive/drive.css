@@ -1,0 +1,46 @@
+/* Drive mode (v130): the map fills the screen, a dark glanceable panel at the bottom (at the side in landscape), big touch targets */
+body.drv .mapwrap{position:fixed!important;inset:0!important;height:auto!important;min-height:0!important;z-index:45;border:0!important;border-radius:0!important;padding-top:0!important}
+body.drv #bsCard,body.drv .uxs,body.drv .shmodes,body.drv .ctl,body.drv .qafab,body.drv .qamenu,body.drv .t3bar,body.drv .gmsheet,body.drv .cld,body.drv .cldtab,body.drv .shfab,body.drv .shsheet,body.drv .shtabs,body.drv .key,body.drv .oms,body.drv .plzoom,body.drv .appupd{display:none!important}
+body.drv{overflow:hidden}
+.drv{position:absolute;inset:0;z-index:12;pointer-events:none;font-family:var(--f-body)}
+.drv[hidden]{display:none}
+.drv>*{pointer-events:auto}
+.drvbar{position:absolute;left:0;right:0;top:0;display:flex;align-items:center;gap:10px;padding:calc(10px + env(safe-area-inset-top,0px)) max(12px,env(safe-area-inset-right,0px)) 10px max(12px,env(safe-area-inset-left,0px));pointer-events:none}
+.drvbar>*{pointer-events:auto}
+.drvx,.drvc{min-height:52px;padding:0 18px;border-radius:26px;border:0;font:700 17px var(--f-body);cursor:pointer;box-shadow:0 3px 14px rgba(0,0,0,.35)}
+.drvx{background:#16201a;color:#f2f4ef}
+.drvc{background:#2367b3;color:#fff;margin-left:auto}
+.drvst{background:rgba(14,20,16,.82);color:#f2f4ef;border-radius:18px;padding:7px 12px;font:600 15px var(--f-body);font-variant-numeric:tabular-nums;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.drvp{position:absolute;left:0;right:0;bottom:0;max-height:48%;overflow:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;background:rgba(14,20,16,.94);color:#f2f4ef;border-radius:18px 18px 0 0;padding:12px max(12px,env(safe-area-inset-right,0px)) calc(10px + env(safe-area-inset-bottom,0px)) max(12px,env(safe-area-inset-left,0px));box-shadow:0 -6px 26px rgba(0,0,0,.4);display:grid;gap:8px;box-sizing:border-box}
+.drvl{display:grid;gap:8px}
+.drvk{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:center;background:rgba(255,255,255,.06);border-radius:14px;padding:8px 8px 8px 10px}
+.drvi{display:grid;gap:3px;text-align:left;border:0;background:none;color:inherit;font:inherit;padding:2px 0;cursor:pointer;min-width:0}
+.drvn{display:flex;gap:9px;align-items:center;min-width:0}
+.drvn i{flex:none;font-style:normal;display:inline-grid;place-items:center;width:26px;height:26px;border-radius:50%;color:#fff;font:800 14px var(--f-body)}
+.drvn b{font-size:16.5px;line-height:1.2;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.drvm{font-size:14.5px;color:#c8d1c9;font-variant-numeric:tabular-nums}
+.drvw{font-size:14px;color:#e8c56d;line-height:1.3}
+.drvk.main{padding:12px 10px 12px 12px;background:rgba(255,255,255,.1)}
+.drvk.main .drvn b{font-size:21px}
+.drvk.main .drvn i{width:32px;height:32px;font-size:17px}
+.drvk.main .drvm{font-size:17px;color:#fff;font-weight:600}
+.drvgo{display:inline-flex;align-items:center;justify-content:center;min-width:64px;min-height:52px;padding:0 14px;border-radius:14px;background:#d9ab4a;color:#14110a;font:800 16px var(--f-body);text-decoration:none;box-sizing:border-box}
+.drvk.main .drvgo{grid-column:1/-1;width:100%;justify-self:stretch;min-height:60px;padding:0 18px;font-size:19px}
+.drve{margin:4px 2px;font-size:16px;color:#c8d1c9}
+.drvo{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:13px;color:#9faba1}
+.drvo button{min-height:40px;padding:0 12px;border-radius:20px;border:1px solid rgba(255,255,255,.22);background:none;color:#f2f4ef;font:600 13.5px var(--f-body);cursor:pointer}
+.drvo button[aria-pressed="true"]{background:#f2f4ef;color:#14110a;border-color:#f2f4ef}
+.drvo #drvV{margin-left:auto}
+.drvdim{position:absolute;inset:0;z-index:2;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;border:0;background:rgba(0,0,0,.86);color:#d8ddd6;font:600 17px var(--f-body);cursor:pointer;padding:24px;text-align:center}
+.drvdim[hidden]{display:none}
+.drvdim b{font-size:30px;color:#fff}
+.drvme{position:absolute;left:0;top:0;width:40px;height:40px;z-index:4;pointer-events:none;will-change:transform;filter:drop-shadow(0 2px 4px rgba(0,0,0,.35))}
+.drvme[hidden]{display:none}
+.drvme .d{display:none}
+.drvme.nohd .a{display:none}.drvme.nohd .d{display:block}
+body.drv .mapwrap .pop{top:calc(72px + env(safe-area-inset-top,0px))!important;bottom:auto!important;left:10px!important;right:10px;width:auto;max-width:420px;z-index:13}
+@media (orientation:landscape) and (max-height:560px),(min-width:921px){
+  .drvp{left:auto;top:0;width:min(44%,430px);max-height:none;border-radius:0;padding-top:calc(12px + env(safe-area-inset-top,0px));align-content:start}
+  .drvbar{right:min(44%,430px)}
+}
+#qaDrive svg,#mtDrive svg{flex:none}
