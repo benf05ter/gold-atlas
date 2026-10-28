@@ -1,5 +1,5 @@
 # Builds the home-screen app from the published Claude atlas page.
-#   python3 tools/build.py <atlas.html> [oldmap-dir]
+#   python3 tools/build.py <atlas.html> [oldmap-dir] [sat-dir] [img-dir] [pk-dir] [om-dir]   (og-data.js and og/ are picked up from the atlas folder)
 # Writes the site into the folder named in tools/site-folder.txt. Commit and push; phones pick it up on next open.
 import sys,os,re,json,hashlib,shutil
 root=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); T=os.path.join(root,'tools')
@@ -24,6 +24,12 @@ c=c.replace('For trips with no signal, install the home-screen app: open <a href
 c=c.replace('For trips with no signal, save the offline copy <span class="mono">Upper-Midwest-Gold-Atlas.html</span> from the project files to your phone and open it in your browser before you lose service.',
  'For trips with no signal, use the home-screen app: open its link in Safari, tap Share, then Add to Home Screen. It keeps the whole atlas on your phone and updates itself when you have signal.')
 open(out+'/index.html','w',encoding='utf-8').write(c)
+# since v120 the atlas is index.html + og-data.js (pins, towns, schools) + og/ (the two heat-map pictures); they sit next to the page
+sd=os.path.dirname(os.path.abspath(src))
+if os.path.exists(os.path.join(sd,'og-data.js')): shutil.copy(os.path.join(sd,'og-data.js'),out+'/og-data.js')
+if os.path.isdir(os.path.join(sd,'og')):
+  os.makedirs(out+'/og',exist_ok=True)
+  for f in os.listdir(os.path.join(sd,'og')): shutil.copy(os.path.join(sd,'og',f),out+'/og/'+f)
 for f in os.listdir(os.path.join(T,'..','tools','icons')) if os.path.isdir(os.path.join(T,'icons')) else []: pass
 os.system(f'python3 "{T}/icons.py" "{out}/icons"')
 if om:
