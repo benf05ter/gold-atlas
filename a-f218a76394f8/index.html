@@ -340,8 +340,7 @@ body.simple h1{font-size:1.35rem}
 @keyframes gmpulse{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(.55);opacity:.6}}
 #shMe.on{background:var(--ink);color:var(--panel)}
 .uxs input{padding-left:42px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%236b7570' stroke-width='2.2' stroke-linecap='round'%3E%3Ccircle cx='10.5' cy='10.5' r='6.5'/%3E%3Cpath d='M15.5 15.5L21 21'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:13px 50%;background-size:19px 19px}
-.m3d{position:relative;width:100%;height:100%;transform-origin:50% 62%;transition:transform .35s ease}
-.m3d.tilt{transform:perspective(650px) rotateX(52deg) rotate(var(--hd,0deg)) scale(1.35)}
+.m3d{position:relative;width:100%;height:100%}
 .gmsheet{position:absolute;left:0;right:0;bottom:0;z-index:9;background:var(--panel);color:var(--ink);border-radius:16px 16px 0 0;box-shadow:0 -6px 26px color-mix(in srgb,var(--ink) 24%,transparent);max-height:64%;overflow:auto;-webkit-overflow-scrolling:touch;padding:10px 14px calc(14px + env(safe-area-inset-bottom,0px));box-sizing:border-box;display:grid;gap:9px;font-size:14px}
 .gmsheet[hidden]{display:none}
 .gmh{display:flex;justify-content:space-between;align-items:center;font-size:17px}
@@ -435,20 +434,19 @@ svg.sat .trl{stroke:#ffd27a}
 body.shell .plzoom #zin,body.shell .plzoom #zout{display:flex!important}
 </style>
 <style>
-/* real 3D view (MapLibre GL, loaded on first use) */
-.g3d{position:absolute;inset:0;z-index:30;background:#c9d4c2}
-.g3d[hidden]{display:none}
-.g3m,.g3m.maplibregl-map{position:absolute;inset:0}
-.maplibregl-map{position:relative;overflow:hidden;-webkit-tap-highlight-color:transparent}
-.maplibregl-canvas-container,.maplibregl-canvas{position:absolute;left:0;top:0}
-.maplibregl-canvas-container.maplibregl-interactive,.maplibregl-canvas{touch-action:none;cursor:grab}
-.maplibregl-ctrl-attrib,.maplibregl-ctrl-logo{display:none}
-.g3bar{position:absolute;right:10px;top:calc(10px + env(safe-area-inset-top,0px));display:flex;flex-direction:column;gap:8px;z-index:2}
-.g3b{width:44px;height:44px;border-radius:50%;border:1px solid var(--line);background:var(--panel);color:var(--ink);font:600 15px var(--f-body);box-shadow:0 2px 6px rgba(0,0,0,.25);cursor:pointer}
-.g3card{position:absolute;left:10px;right:10px;bottom:16px;max-width:420px;margin:auto;background:var(--panel);color:var(--ink);border-radius:12px;padding:12px 14px;box-shadow:0 4px 16px rgba(0,0,0,.3);z-index:2}
-.g3card .row{display:flex;gap:8px;margin-top:8px}
-.g3src{position:absolute;left:8px;bottom:2px;margin:0;font-size:10px;color:#fff;text-shadow:0 0 3px #000;pointer-events:none}
-.mapwrap.g3on .plzoom,.mapwrap.g3on .ctl{visibility:hidden}
+/* 3D view (v122): the ground tilts as one piece; pins stand upright on a flat canvas over it */
+.ogground{position:absolute;inset:0;transform-origin:50% 50%}
+.m3d.t3 .ogground{will-change:transform;backface-visibility:hidden}
+.ogground.t3in{transition:transform .45s ease-out}
+.m3d>.bcv{position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:none;z-index:3;transition:opacity .25s}
+.m3d.t3::after{content:'';position:absolute;left:0;right:0;top:0;height:24%;background:linear-gradient(rgba(226,233,240,.6),rgba(226,233,240,0));pointer-events:none;z-index:2}
+.m3d.t3 .ogtl-h{opacity:.5;mix-blend-mode:multiply}
+.m3d.t3 .ogtile{image-rendering:auto}
+.t3bar{position:absolute;left:10px;top:calc(212px + env(safe-area-inset-top,0px));display:flex;flex-direction:column;gap:8px;z-index:6}
+.t3bar[hidden]{display:none}
+.t3b{width:42px;height:42px;border-radius:50%;border:1px solid var(--line);background:var(--panel);color:var(--ink);font:700 13px var(--f-body);box-shadow:0 2px 8px color-mix(in srgb,var(--ink) 18%,transparent);cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:0;line-height:1}
+#t3n svg{display:block;margin-bottom:-1px;transition:transform .2s}
+#t3n span{font-size:9px}
 </style>
 <style>.pcv{position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:none}</style>
 <style>
@@ -639,10 +637,9 @@ body.ogt svg.ogsat path[stroke="var(--county)"]{stroke-opacity:.5;stroke:#fff}
 .mapwrap .gmsheet,.mapwrap .shsheet,body.shell .shsheet,.mapwrap .ridsheet{z-index:8}
 .mapwrap .shmenu,.mapwrap .mcmenu{z-index:9}
 .mapwrap .hrbar{z-index:10}
-.mapwrap .g3d{z-index:30}
+.mapwrap .t3bar{z-index:6}
 .plzoom{top:calc(112px + env(safe-area-inset-top,0px))!important;bottom:auto!important;transform:none!important}
 .mapwrap.shcard .plzoom{display:flex!important}
-.mapwrap.g3on .plzoom{display:none!important}
 </style>
 <style>
 /* home-screen app */
@@ -1527,12 +1524,68 @@ Object.assign(UG,{"sh-legion-beach-stillwater": ["A", "Closed and unused since 1
 const UGL={A:'Likely undisturbed',B:'Patches survive',C:'Mostly disturbed',D:'Paved, built over or scoured',X:'Look only',U:'Not rated yet'};
 for(const p of DATA.points) if(UG[p.id]) p.ug=UG[p.id];
 const UGI={}; UGRANK.forEach((r,i)=>UGI[r[0]]=i);
-function RK(p){ if(!p.ug) return 0; const g=p.ug[0]; if(g==='X') return 'X'; if(g==='U') return 0; if(p.id in UGI) return 1; return {A:2,B:3,C:4,D:5}[g]||0; }
-const RKL={1:'Best of the best: on the hand-checked shortlist',2:'Likely undisturbed ground',3:'Patches of old ground survive',4:'Mostly disturbed: edges only',5:'Paved, built over or scoured',X:'Look only: never dig'};
-function UGR(p){ return p.id in UGI? UGI[p.id] : 100+'ABCDXU'.indexOf(p.ug?p.ug[0]:'U'); }
-function ugHTML(p){ const g=p.ug[0], r=UGI[p.id]; let h=`<div class="note2 ${'AB'.includes(g)?'ok':g==='C'?'warn':'stop'}">${RK(p)==='X'?'Look only':RKL[RK(p)]||'Not ranked'}. <span style="font-weight:400">${esc(p.ug[1])}</span>`;
-  if(r!==undefined){ const R=UGRANK[r]; h+=`<br><span style="font-weight:400"><b>#${r+1} on the best undisturbed ground list.</b> Look for: ${esc(R[2])} Ask: ${esc(R[3])}.</span>`; }
+// ---------- Best-spot score (v121): one honest rank from ground, use, evidence, old maps, LiDAR, the 1884 flood, access and your own covered ground ----------
+// Rank words stay 1-5 (Best ground .. Little left) and X (look only). Every rank carries plain reasons: RKX(p).w = [[+1|-1|0, text], ...].
+// Rules that keep it honest: the ground grade caps the rank (A->1, B->2, C->4, D->5; no grade -> 3 at best, and only with strong evidence);
+// a pin that only marks a town or county cannot rank above 3 or 4; restricted land caps at 4; burial, archaeological and state-park sites are X.
+var RKV=1; // bump to recompute (worked marks, hunts, finds)
+const RKDET=new Set(['gather','beach','flood84','camp','ghost','school','school2','vpo','history','treasure','lead','mine','park']);
+const RKUSE={gather:[22,'A place where crowds gathered and dropped things'],beach:[22,'An old swimming beach: rings and coins fall where people stood'],flood84:[20,'In the 1884 flood path, where silt buried what the water carried'],camp:[18,'A work camp: men, pay days and lost gear'],ghost:[16,'A vanished town site'],school:[16,'An old school yard'],school2:[16,'An old school yard'],vpo:[14,'A vanished post office or hamlet'],mine:[14,'One of your own saved spots'],history:[12,'A documented historic place'],lead:[12,'A research lead with a known spot'],park:[10,'A park people have used for generations'],treasure:[8,'A treasure story']};
+const RKEVC={documented:[12,'documented record'],newspaper:[9,'newspaper story'],report:[6,'field report'],legend:[2,'legend'],rumor:[0,'forum rumor'],model:[0,'computer model']};
+const RKPIN={exact:[8,1],nrhp:[8,1],mylist:[8,1],gnis:[7,1],google:[7,1],topo:[7,1],naip:[7,1],plss:[4,2],approx:[4,2],area:[0,3],island:[0,3],town:[0,3],county:[-4,4],unknown:[-4,4]}; // [points, best rank allowed]
+const RKGW={A:[46,1,'Old ground likely undisturbed'],B:[32,2,'Patches of old ground survive'],C:[14,4,'Ground mostly disturbed'],D:[0,5,'Ground paved, built over or scoured']};
+const RKNODIG=/look only|never dig|no detecting|national park|burial|archaeolog|state park|historic site|natural area/i;
+function rkInside(lo,la,rings){ let inside=false; for(const r of rings){ for(let i=0,j=r.length-1;i<r.length;j=i++){ const [xi,yi]=r[i],[xj,yj]=r[j]; if(((yi>la)!==(yj>la))&&(lo<(xj-xi)*(la-yi)/(yj-yi)+xi)) inside=!inside; } } return inside; }
+function rkFlood(p){ if(typeof FLOOD84!=='object'||!FLOOD84||!FLOOD84.core) return 0; if(Math.abs(p.la-44.93)>0.1||Math.abs(p.lo+91.39)>0.12) return 0;
+  if(rkInside(p.lo,p.la,FLOOD84.core)) return 2; if(FLOOD84.edge&&rkInside(p.lo,p.la,FLOOD84.edge)) return 1; return 0; }
+function rkSheet(p){ if(typeof OMR==='undefined') return null; for(const o of OMR) if(o[6]<=63360&&p.lo>=o[1]&&p.lo<=o[2]&&p.la>=o[3]&&p.la<=o[4]) return o; return null; }
+const rkKm=(p,lo,la)=>Math.hypot((lo-p.lo)*111.32*Math.cos(p.la*Math.PI/180),(la-p.la)*111.32);
+function rkSanborn(p){ if(typeof SBN!=='object'||!SBN) return null; let best=null; for(const n in SBN){ const v=SBN[n]; const d=rkKm(p,v[0],v[1]); if(d<=2.5&&(!best||d<best[2])) best=[n,v[2]&&v[2][0]?v[2][0][0]:'',d]; } return best; }
+let _rkTrk={v:-1,b:[]};
+function rkTracks(p){ if(typeof HR!=='object'||!HR||!HR.T) return null;
+  if(_rkTrk.v!==RKV){ _rkTrk={v:RKV,b:Object.values(HR.T).map(t=>{ const ps=(t.pts||[]).filter(Boolean); if(!ps.length&&!t.spot) return null; let a=1e9,b=-1e9,c=1e9,d=-1e9; for(const q of ps){ const la=q[0]/1e6,lo=q[1]/1e6; if(la<a)a=la; if(la>b)b=la; if(lo<c)c=lo; if(lo>d)d=lo; } return {t,a,b,c,d,ps}; }).filter(Boolean)}; }
+  const m=0.0015, kx=111320*Math.cos(p.la*Math.PI/180);
+  for(const b of _rkTrk.b){ if(b.t.spot===p.id) return b.t; if(p.la<b.a-m||p.la>b.b+m||p.lo<b.c-m||p.lo>b.d+m) continue;
+    for(let i=0;i<b.ps.length;i+=3){ const q=b.ps[i]; if(Math.hypot((q[1]/1e6-p.lo)*kx,(q[0]/1e6-p.la)*111320)<=120) return b.t; } }
+  return null; }
+function rkCalc(p){ const W=[], why=(s,t)=>W.push([s,t]); const out={r:0,sc:0,w:W,cap:1};
+  if(!RKDET.has(p.L)) return Object.assign(out,{skip:1});
+  const g=p.ug?p.ug[0]:'';
+  if(g==='X'||p.warn||(p.acc&&p.acc[0]==='stop'&&RKNODIG.test(p.acc[1]))){ why(0,p.warn||(p.acc&&RKNODIG.test(p.acc[1])?p.acc[1]:'Look only: never dig or detect here')); return Object.assign(out,{r:'X',cap:'X'}); }
+  let sc=0, cap=1; // cap = best rank this spot may reach
+  if(RKGW[g]){ sc+=RKGW[g][0]; cap=Math.max(cap,RKGW[g][1]); why(g<='B'?1:-1,RKGW[g][2]+(p.L==='park'?' (old topo against today, LiDAR)':'')); }
+  else { cap=Math.max(cap,3); why(0,'Ground not checked yet against LiDAR or old maps, so it stays at 3 or below'); }
+  const u=RKUSE[p.L]; if(u){ sc+=u[0]; why(1,u[1]); }
+  const ec=RKEVC[p.c]||(p.L==='mine'?[12,'your own visits']:null); if(ec){ sc+=ec[0]; if(ec[0]>=9) why(1,'Backed by a '+ec[1]); else if(ec[0]<=2) why(-1,'Only a '+ec[1]+' so far'); }
+  const ns=(p.src||[]).length; if(ns>=3){ sc+=6; why(1,ns+' sources agree'); } else if(ns===2) sc+=4;
+  if(p.s==='found'){ sc-=12; why(-1,'The cache was already found'); } if(p.s==='false'){ sc-=15; cap=Math.max(cap,4); why(-1,'The story proved false'); }
+  const pin=RKPIN[p.p], onList=typeof UGI==='object'&&p.id in UGI; if(pin){ sc+=pin[0]; if(!(onList&&pin[1]===2)) cap=Math.max(cap,pin[1]); /* a hand-checked shortlist spot keeps its place with an approximate pin */ if(pin[1]>=4) why(-1,'Pin is only placed to the county'); else if(pin[1]===3) why(-1,'Pin marks a general area, not the exact spot'); else if(pin[1]===1) why(1,'Pin sits on the exact spot'); }
+  if(p.pinconf==='A') sc+=4; else if(p.pinconf==='B') sc+=2;
+  if(p.lid){ sc+=4; why(1,'LiDAR checked: '+p.lid[0]+' hollows and '+p.lid[2]+' raised features within 300 m'); }
+  const sh=rkSheet(p); if(sh){ sc+=3; why(1,'On the '+sh[5]+' topo sheet ('+String(sh[0]).replace(/^h\d+_/,'').replace(/_/g,' ').replace(/\b\w/g,c=>c.toUpperCase())+')'); }
+  if(p.himg){ sc+=3; why(1,'An old map or picture shows it'); }
+  const sb=rkSanborn(p); if(sb){ sc+=3; why(1,'Sanborn fire maps of '+sb[0]+(sb[1]?' from '+sb[1]:'')+' show the old lots'); }
+  const fl=rkFlood(p); if(fl&&p.L!=='flood84'){ sc+=fl===2?8:4; why(1,fl===2?'Inside the 1884 flood district: silt buried what the water carried':'On the edge of the 1884 flood'); }
+  if(p.acc){ if(p.acc[0]==='stop'){ sc-=10; cap=Math.max(cap,4); why(-1,'Restricted land'); } else if(p.acc[0]==='warn'){ sc-=3; why(0,'Ask before you go'); } else why(1,'Access is generally allowed'); }
+  const wk=typeof WKS==='function'?WKS(p.id):''; if(wk==='partly'){ sc-=8; why(-1,'You marked this partly worked'); } else if(wk==='worked'){ sc-=20; why(-1,'You marked this worked out'); }
+  const tr=rkTracks(p); if(tr&&wk!=='worked'){ sc-=5; why(-1,'You already walked this ground'+(tr.start?' on '+String(tr.start).slice(0,10):'')); }
+  let r=sc>=76?2:sc>=56?3:sc>=36?4:5;
+  if(!RKGW[g]) r=sc>=52?3:0;
+  if(onList&&sc>=72) r=1;
+  if(r) r=Math.max(r,cap);
+  if(!r) why(0,'Not ranked yet: too little is checked to call it good or bad');
+  return Object.assign(out,{r,sc,cap}); }
+function RKX(p){ const k=RKV+'|'+(p.ug?p.ug[0]:'-'); let c=p._rk; if(!c||c.k!==k){ c=rkCalc(p); c.k=k; p._rk=c; } return c; }
+function RK(p){ return RKX(p).r; }
+function RKTOP(p){ const w=RKX(p).w.find(x=>x[0]===1); return w?w[1]:''; }
+function UGR(p){ const c=RKX(p); return (c.r==='X'?9:c.r||8)*1000-c.sc; }
+function rkHTML(p){ const c=RKX(p); if(c.skip||!c.w.length) return ''; const r=RK(p);
+  const cls=r==='X'?'stop':r===1||r===2?'ok':r===3?'warn':r?'stop':'rk0', head=r==='X'?'Look only':r?RKP[r]+' (rank '+r+')':'Not ranked yet';
+  let h='<div class="note2 rkwhy '+cls+'"><b>'+head+'.</b>'+(p.ug&&r!=='X'?' <span class="rkug">'+esc(p.ug[1])+'</span>':'')+'<ul>'+c.w.slice(0,7).map(([s,t])=>'<li class="'+(s>0?'p':s<0?'m':'n')+'">'+esc(t)+'</li>').join('')+'</ul>';
+  if(typeof UGI==='object'&&UGI[p.id]!==undefined&&r!=='X'){ const R=UGRANK[UGI[p.id]]; h+='<span style="font-weight:400"><b>#'+(UGI[p.id]+1)+' on the best undisturbed ground list.</b> Look for: '+esc(R[2])+' Ask: '+esc(R[3])+'.</span>'; }
   return h+'</div>'; }
+function ugHTML(p){ return rkHTML(p); }
+const RKL={1:'Best of the best: on the hand-checked shortlist',2:'Likely undisturbed ground',3:'Patches of old ground survive',4:'Mostly disturbed: edges only',5:'Paved, built over or scoured',X:'Look only: never dig'};
 for(const p of DATA.points) p.mi=miles(p.lo,p.la); const PTS=DATA.points;
 const BYID=Object.fromEntries(PTS.map(p=>[p.id,p]));
 let selId=null;
@@ -1550,7 +1603,7 @@ const _CV={}; function cv(v){ const m=/^var\((--[\w-]+)\)$/.exec(v); if(!m) retu
 //   zoomAt(f,x,y) zoom about a map point; the picture moves at once, pins repaint when the gesture settles
 //   drawMarkers() repaint pins and overlays on the next frame (coalesced);  drawMarkers.now()  paint at once
 //   OGE.on(phase, fn(s))  'pre' runs before pins are picked (layer sync), 'draw' after SVG overlays, 'post' after the paint
-var OGE={ver:120, hooks:{pre:[],draw:[],post:[]}, log:[]};
+var OGE={ver:122, hooks:{pre:[],draw:[],post:[]}, log:[]};
 OGE.on=(ph,fn)=>{ (OGE.hooks[ph]||OGE.hooks.post).push(fn); };
 OGE.err=(where,e)=>{ try{ OGE.log.push([Date.now(),where,String(e&&e.message||e)].join(' ')); if(OGE.log.length>40) OGE.log.shift(); }catch(_){} };
 window.addEventListener('error',e=>OGE.err('window',e.error||e.message));
@@ -1559,18 +1612,23 @@ window.addEventListener('unhandledrejection',e=>OGE.err('promise',e.reason));
 // ---- stage: tiles (HTML) under the SVG, pins on a canvas over it; the stage moves as one piece during a gesture ----
 const ogWrap=svg.parentElement;
 const m3d=document.createElement('div'); m3d.className='m3d'; ogWrap.insertBefore(m3d,svg);
-const stage=document.createElement('div'); stage.className='ogstage'; m3d.appendChild(stage);
+const ground=document.createElement('div'); ground.className='ogground'; m3d.appendChild(ground);   // 3D: this is what tilts
+const stage=document.createElement('div'); stage.className='ogstage'; ground.appendChild(stage);
 const tileRoot=document.createElement('div'); tileRoot.className='ogtiles'; tileRoot.setAttribute('aria-hidden','true'); stage.appendChild(tileRoot);
 stage.appendChild(svg);
 const pcv=document.createElement('canvas'); pcv.className='pcv'; pcv.setAttribute('aria-hidden','true'); stage.appendChild(pcv);
 const pcx=pcv.getContext('2d');
+const bcv=document.createElement('canvas'); bcv.className='bcv'; bcv.setAttribute('aria-hidden','true'); m3d.appendChild(bcv); const bcx=bcv.getContext('2d');   // 3D: pins stand upright on this flat canvas over the tilted ground
 for(const p of [gBase.children[0],gBase.children[1],gBase.children[2]]) if(p) p.classList.add('ogland');   // state and lake fills: hidden once street or satellite tiles show
 // the box the map draws in; measured by a ResizeObserver, never read from layout in the hot path
-const VIEW={W:0,H:0,vb:null,s:0};
-{ const ro=new ResizeObserver(es=>{ const r=es[es.length-1].contentRect; if(!r.width||!r.height) return; const ow=VIEW.W, oh=VIEW.H; BOX.w=r.width; BOX.h=r.height;
-    if(ow&&oh&&(ow!==r.width||oh!==r.height)&&vb.w>0){ const s=ow/vb.w, cx=vb.x+vb.w/2, cy=vb.y+vb.h/2; vb={x:cx-r.width/s/2,y:cy-r.height/s/2,w:r.width/s,h:r.height/s}; }
+const VIEW={W:0,H:0,vb:null,s:0}, VP={W:0,H:0};   // VP: the map box on screen; BOX: the ground the map is drawn on (bigger than the screen in 3D)
+// 3D view (t3d section): T3 tilts the ground; the engine asks it only for the ground size, the two projections and a fast pin repaint
+var T3=window.T3||{on:false, ground:(w,h)=>[w,h], proj:(x,y)=>[x,y,1], unproj:(x,y)=>[x,y], fast(){}, layout(){}, nearLL(){ return []; }};
+function boxSet(w,h){ VP.W=w; VP.H=h; const g=T3.on?T3.ground(w,h):[w,h]; const ow=VIEW.W, oh=VIEW.H; BOX.w=g[0]; BOX.h=g[1];
+  if(ow&&oh&&(ow!==g[0]||oh!==g[1])&&vb.w>0){ const s=ow/vb.w, cx=vb.x+vb.w/2, cy=vb.y+vb.h/2; vb={x:cx-g[0]/s/2,y:cy-g[1]/s/2,w:g[0]/s,h:g[1]/s}; } if(T3.on) T3.layout(); }
+{ const ro=new ResizeObserver(es=>{ const r=es[es.length-1].contentRect; if(!r.width||!r.height) return; boxSet(r.width,r.height);
     if(!GES.active) commit(); else GES.dirty=true; }); ro.observe(m3d); }
-svgRect=()=>{ const r=m3d.getBoundingClientRect(); const w=BOX.w||r.width, h=BOX.h||r.height; return {left:r.left,top:r.top,width:w,height:h,right:r.left+w,bottom:r.top+h}; };
+svgRect=()=>{ const r=m3d.getBoundingClientRect(); const w=VP.W||r.width, h=VP.H||r.height; return {left:r.left,top:r.top,width:w,height:h,right:r.left+w,bottom:r.top+h}; };
 
 // ---- view ----
 const box=(a,b,c,d)=>{const [x0,y0]=P(a,d),[x1,y1]=P(b,c); return {x:x0,y:y0,w:x1-x0,h:y1-y0};};
@@ -1579,7 +1637,8 @@ var vb={...V.EC}, _sw=0, FITWH=[0,0];
 const scale=()=>(BOX.w||svg.clientWidth||0)/vb.w;
 function fit(){ const W=svgW(), H=svgH(); if(!W||!H) return; FITWH=[W,H]; let {x,y,w,h}=vb; if(!(w>0&&h>0)) ({x,y,w,h}=V.EC); const ar=W/H;
   if(w/h<ar){ const nw=h*ar; x-=(nw-w)/2; w=nw; } else { const nh=w/ar; y-=(nh-h)/2; h=nh; } vb={x,y,w,h}; }
-const toW=(px,py)=>{ const r=svgRect(); return [vb.x+(px-r.left)/r.width*vb.w, vb.y+(py-r.top)/r.height*vb.h]; };
+const toW=(px,py)=>{ const r=svgRect(); let gx=px-r.left, gy=py-r.top; if(T3.on) [gx,gy]=T3.unproj(gx,gy); return [vb.x+gx/(BOX.w||r.width)*vb.w, vb.y+gy/(BOX.h||r.height)*vb.h]; };
+const ogS=(wx,wy)=>{ const s=VIEW.s||scale(); return T3.proj((wx-vb.x)*s,(wy-vb.y)*s); };   // map units -> screen px (through the tilt in 3D)
 const ctr=()=>[vb.x+vb.w/2,vb.y+vb.h/2];
 const vbClamp=()=>{ const lim=V.WI.w*2.5; if(vb.w>lim){ const f=vb.w/lim, cx=vb.x+vb.w/2, cy=vb.y+vb.h/2; vb={x:cx-vb.w/f/2,y:cy-vb.h/f/2,w:vb.w/f,h:vb.h/f}; } };
 
@@ -1633,7 +1692,7 @@ function render(s){ { const t=(document.documentElement.dataset.theme||'')+(matc
 
 // ---- zoom (wheel, pinch, buttons): the stage moves at once, the full redraw waits until the gesture settles ----
 function stageFast(){ if(!VIEW.vb||!VIEW.W) return; const g=VIEW.vb, k=g.w/vb.w, tx=(g.x-vb.x)*VIEW.W/vb.w, ty=(g.y-vb.y)*VIEW.H/vb.h;
-  stage.style.transform=`matrix(${k},0,0,${k},${tx},${ty})`; tilesSoon(); }
+  stage.style.transform=`matrix(${k},0,0,${k},${tx},${ty})`; if(T3.on) T3.fast(); tilesSoon(); }
 const gmFast=stageFast, gmFastQ=stageFast; function gmCommit(){ apply(); }
 function settle(ms){ clearTimeout(GES.settle); GES.settle=setTimeout(()=>{ if(GES.ptr.size){ settle(200); return; } GES.active=false; commit(true); },ms); }
 function zoomAt(f,cx,cy){ const nw=vb.w/f; if(!(nw>0)||nw<0.015||nw>V.WI.w*2.5) return; vb={x:cx-(cx-vb.x)/f,y:cy-(cy-vb.y)/f,w:nw,h:vb.h/f};
@@ -1645,30 +1704,34 @@ const GES={ptr:new Map(), active:false, dirty:false, moved:false, down:null, pin
 const ptr=GES.ptr; let moved=false;
 function gesStart(){ if(!GES.active){ GES.active=true; } clearTimeout(GES.settle); if(GES.inert){ cancelAnimationFrame(GES.inert); GES.inert=0; } }
 function gesEnd(){ GES.active=false; if(RENDER.q){ cancelAnimationFrame(RENDER.q); RENDER.q=0; } commit(true); GES.dirty=false; }
-function pinchState(){ const [a,b]=[...GES.ptr.values()]; return {d:Math.hypot(a[0]-b[0],a[1]-b[1]), c:[(a[0]+b[0])/2,(a[1]+b[1])/2]}; }
-function panBy(dx,dy){ const W=VIEW.W||svgW(), H=VIEW.H||svgH(); if(!W||!H) return; vb.x-=dx/W*vb.w; vb.y-=dy/H*vb.h; }
+function pinchState(){ const [a,b]=[...GES.ptr.values()]; return {d:Math.hypot(a[0]-b[0],a[1]-b[1]), c:[(a[0]+b[0])/2,(a[1]+b[1])/2], a:Math.atan2(b[1]-a[1],b[0]-a[0])}; }
+function panBy(dx,dy,x,y){ const W=VIEW.W||svgW(), H=VIEW.H||svgH(); if(!W||!H) return;
+  if(T3.on&&x!=null){ const [ax,ay]=toW(x,y), [bx,by]=toW(x+dx,y+dy); vb.x-=bx-ax; vb.y-=by-ay; return; }
+  vb.x-=dx/W*vb.w; vb.y-=dy/H*vb.h; }
 m3d.addEventListener('pointerdown',e=>{ if(e.button&&e.button!==0) return; if(e.isPrimary) GES.ptr.clear();
   GES.ptr.set(e.pointerId,[e.clientX,e.clientY]); try{ m3d.setPointerCapture(e.pointerId); }catch(_){}
   gesStart(); GES.moved=moved=false; GES.down=[e.clientX,e.clientY,performance.now(),e.pointerType]; GES.last=[e.clientX,e.clientY]; GES.vel=[0,0]; GES.vt=performance.now();
-  if(GES.ptr.size===2){ const p=pinchState(); GES.pinch=p.d; GES.pc=p.c; } });
+  if(GES.ptr.size===2){ const p=pinchState(); GES.pinch=p.d; GES.pc=p.c; GES.pa=p.a; } });
 m3d.addEventListener('pointermove',e=>{ if(!GES.ptr.has(e.pointerId)) return; GES.ptr.set(e.pointerId,[e.clientX,e.clientY]);
   if(GES.ptr.size>=2){ const p=pinchState(); if(GES.pinch){ const f=p.d/GES.pinch; const [wx,wy]=toW(...GES.pc); const nw=vb.w/f;
-      if(nw>=0.015&&nw<=V.WI.w*2.5){ vb={x:wx-(wx-vb.x)/f,y:wy-(wy-vb.y)/f,w:nw,h:vb.h/f}; } panBy(p.c[0]-GES.pc[0],p.c[1]-GES.pc[1]); }
-    GES.pinch=p.d; GES.pc=p.c; GES.moved=moved=true; svg.classList.add('drag'); stageFast(); return; }
+      if(nw>=0.015&&nw<=V.WI.w*2.5){ vb={x:wx-(wx-vb.x)/f,y:wy-(wy-vb.y)/f,w:nw,h:vb.h/f}; }
+      if(T3.on&&GES.pa!=null){ let da=p.a-GES.pa; if(da>Math.PI) da-=2*Math.PI; if(da<-Math.PI) da+=2*Math.PI; if(Math.abs(da)>0.002) T3.turn(da,GES.pc); }   // 3D: twist two fingers to turn the map
+      panBy(p.c[0]-GES.pc[0],p.c[1]-GES.pc[1],GES.pc[0],GES.pc[1]); }
+    GES.pinch=p.d; GES.pc=p.c; GES.pa=p.a; GES.moved=moved=true; svg.classList.add('drag'); stageFast(); return; }
   const dx=e.clientX-GES.last[0], dy=e.clientY-GES.last[1]; const now=performance.now(), dt=Math.max(1,now-GES.vt);
   if(!GES.moved&&Math.hypot(e.clientX-GES.down[0],e.clientY-GES.down[1])>(e.pointerType==='mouse'?3:6)){ GES.moved=moved=true; svg.classList.add('drag'); }
   if(!GES.moved) return;
   GES.vel=[0.7*GES.vel[0]+0.3*dx/dt, 0.7*GES.vel[1]+0.3*dy/dt]; GES.vt=now; GES.last=[e.clientX,e.clientY];
-  panBy(dx,dy); stageFast(); });
+  panBy(dx,dy,e.clientX-dx,e.clientY-dy); stageFast(); });
 function gesUp(e){ if(!GES.ptr.has(e.pointerId)) return; GES.ptr.delete(e.pointerId);
-  if(GES.ptr.size===1){ GES.last=[...GES.ptr.values()][0]; GES.pinch=0; GES.vel=[0,0]; return; }
+  if(GES.ptr.size===1){ GES.last=[...GES.ptr.values()][0]; GES.pinch=0; GES.pa=null; GES.vel=[0,0]; return; }
   if(GES.ptr.size) return;
   svg.classList.remove('drag'); const d=GES.down; GES.down=null;
   if(!GES.moved&&d&&performance.now()-d[2]<700&&e.type==='pointerup'){ gesEnd(); tapAt(e.clientX,e.clientY,e); return; }
   // let go while moving: glide a little, then redraw
   const v=GES.vel, sp=Math.hypot(v[0],v[1]);
-  if(GES.moved&&sp>0.25&&performance.now()-GES.vt<80){ let vx=v[0], vy=v[1], t0=performance.now();
-    const step=()=>{ const t=performance.now(), dt=Math.min(40,t-t0); t0=t; const k=Math.pow(0.0025,dt/600); panBy(vx*dt,vy*dt); vx*=k; vy*=k; stageFast();
+  if(GES.moved&&sp>0.25&&performance.now()-GES.vt<80){ let vx=v[0], vy=v[1], t0=performance.now(); const ip=[...(GES.last||[0,0])];
+    const step=()=>{ const t=performance.now(), dt=Math.min(40,t-t0); t0=t; const k=Math.pow(0.0025,dt/600); panBy(vx*dt,vy*dt,ip[0],ip[1]); ip[0]+=vx*dt; ip[1]+=vy*dt; vx*=k; vy*=k; stageFast();
       if(Math.hypot(vx,vy)>0.03&&!GES.ptr.size) GES.inert=requestAnimationFrame(step); else { GES.inert=0; gesEnd(); } }; GES.inert=requestAnimationFrame(step); }
   else gesEnd(); }
 m3d.addEventListener('pointerup',gesUp); m3d.addEventListener('pointercancel',gesUp); m3d.addEventListener('lostpointercapture',e=>{ if(GES.ptr.has(e.pointerId)) gesUp(Object.assign({},e,{type:'pointercancel',pointerId:e.pointerId,clientX:e.clientX,clientY:e.clientY})); });
@@ -1694,34 +1757,40 @@ function tapAt(clientX,clientY,e){ const r=svgRect(), cx=clientX-r.left, cy=clie
   }catch(err){ OGE.err('tap',err); } }
 
 // ---- pins, bubbles, names, parks, trails and gold streams on one canvas ----
-const PCV={q:[],cls:[],nm:false,W:0,H:0,dpr:1,icons:new Map(),raf:0,dr:[],pk:[],tr:[],ff:'sans-serif',lf:null};
+const PCV={q:[],cls:[],nm:false,W:0,H:0,vw:0,vh:0,dpr:1,bd:1,c:null,dk:1,icons:new Map(),raf:0,dr:[],pk:[],tr:[],ff:'sans-serif',lf:null};
+// ground px of a map point, then (in 3D) its spot on screen; PCV.dk is how much smaller a pin is drawn in the distance
+function pcXY(X,Y,s){ const gx=(X-vb.x)*s, gy=(Y-vb.y)*s; if(!T3.on){ PCV.dk=1; return [gx,gy]; } const r=T3.proj(gx,gy); PCV.dk=r[2]||1; return r; }
+const pcG=(cx,cy)=>T3.on?T3.unproj(cx,cy):[cx,cy];   // screen px -> ground px, for hit tests on the ground canvas
 const PLS=1800;
 function pcLater(){ if(!PCV.raf) PCV.raf=requestAnimationFrame(()=>{ PCV.raf=0; if(!GES.active) pcRender(VIEW.s||scale()); }); }
-function pcSize(){ const W=svgW(), H=svgH(), d=Math.min(2.5,window.devicePixelRatio||1);
-  if(W!==PCV.W||H!==PCV.H||d!==PCV.dpr){ PCV.W=W; PCV.H=H; PCV.dpr=d; pcv.width=Math.round(W*d); pcv.height=Math.round(H*d); } }
-function pcText(t,x,y,size,fill,halo,hw){ const c=pcx, f=`800 ${Math.round(size*2)/2}px ${PCV.ff}`; if(PCV.lf!==f){ c.font=f; PCV.lf=f; } if(halo){ c.lineWidth=hw; c.strokeStyle=halo; c.lineJoin='round'; c.strokeText(t,x,y); } c.fillStyle=fill; c.fillText(t,x,y); }
+function pcSize(){ const W=svgW(), H=svgH(), d=T3.on?1:Math.min(2.5,window.devicePixelRatio||1);
+  if(W!==PCV.W||H!==PCV.H||d!==PCV.dpr){ PCV.W=W; PCV.H=H; PCV.dpr=d; pcv.width=Math.round(W*d); pcv.height=Math.round(H*d); }
+  // 3D: the ground canvas (parks, trails, streams) is the size of the ground at 1x; pins go on the flat canvas, the size of the screen
+  const bd=Math.min(2.5,window.devicePixelRatio||1); PCV.vw=T3.on?VP.W:W; PCV.vh=T3.on?VP.H:H; PCV.bd=bd;
+  if(T3.on){ const bw=Math.round(PCV.vw*bd), bh=Math.round(PCV.vh*bd); if(bcv.width!==bw||bcv.height!==bh){ bcv.width=bw; bcv.height=bh; } } else if(bcv.width>1){ bcv.width=bcv.height=1; } }
+function pcText(t,x,y,size,fill,halo,hw){ const c=PCV.c||pcx, f=`800 ${Math.round(size*2)/2}px ${PCV.ff}`; if(PCV.lf!==f){ c.font=f; PCV.lf=f; } if(halo){ c.lineWidth=hw; c.strokeStyle=halo; c.lineJoin='round'; c.strokeText(t,x,y); } c.fillStyle=fill; c.fillText(t,x,y); }
 function pcWorld(c,s){ c.setTransform(PCV.dpr*s,0,0,PCV.dpr*s,-vb.x*s*PCV.dpr,-vb.y*s*PCV.dpr); }
 // a plain pin used until the Old Ground icon set (ogGlyph) has loaded
-function pcPin(p,s){ const c=pcx, [X,Y]=P(p.lo,p.la), x=(X-vb.x)*s, y=(Y-vb.y)*s; if(x<-40||y<-40||x>PCV.W+40||y>PCV.H+40) return;
-  const sel=p.id===selId, r=(s>=110?9:7)*(sel?1.4:1), rk=RK(p), panel=cv('var(--panel)'), ranked=typeof rk==='number'&&rk>=1&&rk<=5;
+function pcPin(p,s){ const c=PCV.c||pcx, [X,Y]=P(p.lo,p.la), [x,y]=pcXY(X,Y,s); if(x<-40||y<-40||x>PCV.vw+40||y>PCV.vh+40) return;
+  const sel=p.id===selId, r=(s>=110?9:7)*PCV.dk*(sel?1.4:1), rk=RK(p), panel=cv('var(--panel)'), ranked=typeof rk==='number'&&rk>=1&&rk<=5;
   c.beginPath(); c.arc(x,y,r,0,6.2832); c.fillStyle=ranked?cv(`var(--rk${rk})`):cv(`var(--L-${p.L})`); c.fill(); c.lineWidth=sel?2.6:1.5; c.strokeStyle=sel?cv('var(--ink)'):panel; c.stroke();
   if(ranked) pcText(String(rk),x,y+r*0.42,r*1.2,panel); PCV.dr.push([p,x,y]); }
-function pcBub(cl,s){ const c=pcx, n=cl.m.length, [X,Y]=P(cl.p.lo,cl.p.la), x=(X-vb.x)*s, y=(Y-vb.y)*s, r=6.5+1.7*Math.log2(n), acc=cv('var(--accent)'), panel=cv('var(--panel)');
-  if(x<-60||y<-60||x>PCV.W+60||y>PCV.H+60) return;
+function pcBub(cl,s){ const c=PCV.c||pcx, n=cl.m.length, [X,Y]=P(cl.p.lo,cl.p.la), [x,y]=pcXY(X,Y,s), r=(6.5+1.7*Math.log2(n))*PCV.dk, acc=cv('var(--accent)'), panel=cv('var(--panel)');
+  if(x<-60||y<-60||x>PCV.vw+60||y>PCV.vh+60) return;
   const best=Math.min(...cl.m.map(p=>{ const k=RK(p); return typeof k==='number'&&k?k:9; }));
   c.globalAlpha=0.18; c.beginPath(); c.arc(x,y,r*1.15,0,6.2832); c.fillStyle=acc; c.fill();
   c.globalAlpha=0.82; c.beginPath(); c.arc(x,y,r,0,6.2832); c.fill(); c.globalAlpha=1; c.lineWidth=1.5; c.strokeStyle=panel; c.stroke();
   pcText(n>999?Math.round(n/100)/10+'k':String(n),x,y+r*0.34,r*(n>99?0.82:1),panel);
   if(best<=2){ const bx=x+r*0.8, by=y-r*0.8, br=Math.max(r*0.45,5); c.beginPath(); c.arc(bx,by,br,0,6.2832); c.fillStyle=cv('var(--L-ghost)'); c.fill(); c.lineWidth=1.4; c.strokeStyle=panel; c.stroke(); pcText(String(best),bx,by+br*0.4,br*1.15,panel); } }
-function pcNames(){ const c=pcx, pr=p=>p.id===selId?-1:(()=>{ const r=RK(p); return typeof r==='number'&&r?r:r==='X'?7:6; })();
-  const pts=PCV.dr.filter(([,x,y])=>x>-40&&x<PCV.W+40&&y>-20&&y<PCV.H+40), boxes=pts.map(([,x,y])=>[x-8,y-8,x+8,y+8]), hit=b=>boxes.some(q=>b[0]<q[2]&&b[2]>q[0]&&b[1]<q[3]&&b[3]>q[1]);
+function pcNames(){ const c=PCV.c||pcx, pr=p=>p.id===selId?-1:(()=>{ const r=RK(p); return typeof r==='number'&&r?r:r==='X'?7:6; })();
+  const pts=PCV.dr.filter(([,x,y])=>x>-40&&x<PCV.vw+40&&y>-20&&y<PCV.vh+40), boxes=pts.map(([,x,y])=>[x-8,y-8,x+8,y+8]), hit=b=>boxes.some(q=>b[0]<q[2]&&b[2]>q[0]&&b[1]<q[3]&&b[3]>q[1]);
   c.font=`700 11.5px ${PCV.ff}`; PCV.lf=null; c.lineWidth=3; c.lineJoin='round'; c.strokeStyle=cv('var(--panel)'); c.fillStyle=cv('var(--ink)');
   for(const [p,x,y] of pts.sort((a,b)=>pr(a[0])-pr(b[0]))){ let n=p.n; if(n.length>28) n=n.slice(0,27).trimEnd()+'…';
     const w=c.measureText(n).width+6, b=[x-w/2,y-27,x+w/2,y-11]; if(hit(b)) continue; boxes.push(b); c.strokeText(n,x,y-14); c.fillText(n,x,y-14); } }
-function pcRender(s){ pcSize(); const c=pcx; s=s||scale(); c.setTransform(PCV.dpr,0,0,PCV.dpr,0,0); c.clearRect(0,0,PCV.W,PCV.H); PCV.dr=[]; PCV.lf=null; if(!s||!isFinite(s)) return;
+function pcRender(s){ pcSize(); const g=pcx; s=s||scale(); g.setTransform(PCV.dpr,0,0,PCV.dpr,0,0); g.clearRect(0,0,PCV.W,PCV.H); PCV.dr=[]; PCV.lf=null; if(!s||!isFinite(s)) return;
   PCV.ff=cv('var(--f-body)')||'sans-serif';
   try{ pcLand(s); }catch(e){ OGE.err('land',e); }
-  c.setTransform(PCV.dpr,0,0,PCV.dpr,0,0); c.textAlign='center'; c.textBaseline='alphabetic'; c.globalAlpha=1;
+  const c=PCV.c=T3.on?bcx:pcx, d=T3.on?PCV.bd:PCV.dpr; c.setTransform(d,0,0,d,0,0); if(T3.on) c.clearRect(0,0,PCV.vw,PCV.vh); c.textAlign='center'; c.textBaseline='alphabetic'; c.globalAlpha=1; PCV.dk=1;
   let selP=null; for(const p of PCV.q){ if(p.id===selId){ selP=p; continue; } pcPin(p,s); }
   for(const cl of PCV.cls) pcBub(cl,s);
   if(selP) pcPin(selP,s);
@@ -1737,7 +1806,7 @@ function streamsBuild(){ if(STR.ready||STR.building||typeof DATA==='undefined'||
   (window.requestIdleCallback||requestAnimationFrame)(step); }
 function streamsVis(s){ if(!on.has('_streams')) return []; if(!STR.ready){ streamsBuild(); return []; } const m=0.3, x0=vb.x-vb.w*m, x1=vb.x+vb.w*(1+m), y0=vb.y-vb.h*m, y1=vb.y+vb.h*(1+m), out=[];
   for(const e of STR.p){ const b=e.b; if(b[2]<x0||b[0]>x1||b[3]<y0||b[1]>y1) continue; if(s<120&&e.w<2) continue; out.push(e); } return out; }
-function streamAt(cx,cy){ if(!on.has('_streams')||!STR.ready) return null; const s=VIEW.s||scale(), c=pcx; pcWorld(c,s); c.lineWidth=12/s; let hit=null; const X=cx*PCV.dpr, Y=cy*PCV.dpr;
+function streamAt(cx,cy){ if(!on.has('_streams')||!STR.ready) return null; const s=VIEW.s||scale(), c=pcx; pcWorld(c,s); c.lineWidth=12/s; let hit=null; const [gx,gy]=pcG(cx,cy), X=gx*PCV.dpr, Y=gy*PCV.dpr;
   for(const e of streamsVis(s)){ if(c.isPointInStroke(e.p,X,Y)){ hit=e; break; } } c.setTransform(PCV.dpr,0,0,PCV.dpr,0,0); return hit; }
 function pcLand(s){ const c=pcx, sat=svg.classList.contains('sat'); const st=streamsVis(s); if(!(PCV.pk.length||PCV.tr.length||st.length)) return; pcWorld(c,s);
   if(PCV.pk.length){ const pk=cv('var(--L-park)'); c.lineWidth=1.3/s;
@@ -1765,7 +1834,7 @@ function tileLayer(id,url,opts){ const div=document.createElement('div'); div.cl
   const L={id,url,div,levels:new Map(),tiles:new Map(),want:new Set(),vis:[],zb:0,...opts}; TILES.L[id]=L; return L; }
 // world pixels at zoom z: X = lon*K*U, Y = -lat*U, so a tile is 256 wide; each level keeps its own origin so numbers stay small
 const tlU=z=>256*2**z/(360*K);
-function tlLevel(L,z){ let lv=L.levels.get(z); if(!lv){ lv={z,div:document.createElement('div'),ox:0,oy:0,n:0}; lv.div.className='ogtz'; lv.div.dataset.z=z; L.div.appendChild(lv.div); L.levels.set(z,lv); } return lv; }
+function tlLevel(L,z){ let lv=L.levels.get(z); if(!lv){ lv={z,div:document.createElement('div'),ox:0,oy:0,n:0}; lv.div.className='ogtz'; lv.div.dataset.z=z; let nx=null; for(const o of L.levels.values()) if(o.z>z&&(!nx||o.z<nx.z)) nx=o; L.div.insertBefore(lv.div,nx?nx.div:null); L.levels.set(z,lv); } return lv; }
 function tlPlace(L){ const s=VIEW.s, g=VIEW.vb; if(!s||!g) return; for(const lv of L.levels.values()){ const U=tlU(lv.z), k=s/U; lv.div.style.transform=`matrix(${k},0,0,${k},${(lv.ox/U-g.x)*s},${(lv.oy/U-g.y)*s})`; } }
 function tlImg(L,z,x,y){ const k=`${z}_${x}_${y}`; let im=L.tiles.get(k); if(im){ im.dataset.t='1'; return im; }
   const N=2**z, lo0=x/N*360-180, lo1=(x+1)/N*360-180, la1=ogMerc.lat(y,N), la0=ogMerc.lat(y+1,N), U=tlU(z), X=lo0*K*U, Y=-la1*U, lv=tlLevel(L,z);
@@ -1790,12 +1859,19 @@ function tlWant(L,z,list,margin){ const cx=vb.x+vb.w/2, cy=vb.y+vb.h/2, N=2**z, 
   const d=([x,y])=>{ const lo=(x+0.5)/N*360-180, la=ogMerc.lat(y+0.5,N); return ((lo*K-cx)/vb.w)**2+((-la-cy)/vb.h)**2; };
   list.sort((a,b)=>d(a)-d(b)); for(const [x,y] of list){ const k=`${z}_${x}_${y}`; L.want.add(k); const im=tlImg(L,z,x,y); if(!im.src) im.src=L.url(z,x,y); } }
 const tlStreet=tileLayer('b',ogURL.b,{base:true,max:()=>ogDark()?16:19,show:()=>GM.type==='default'&&OG.live&&navigator.onLine!==false});
-const tlHill=tileLayer('h',ogURL.h,{max:()=>15,show:()=>GM.type==='default'&&OG.live&&navigator.onLine!==false});
+const tlHill=tileLayer('h',ogURL.h,{max:()=>15,show:()=>(GM.type==='default'||(T3.on&&GM.type==='sat'))&&OG.live&&navigator.onLine!==false});
 const tlSat=tileLayer('s',ogURL.s,{base:true,max:()=>17,show:()=>GM.type==='sat'&&GM.live&&navigator.onLine!==false});
+tileRoot.appendChild(tlHill.div);   // relief sits above the imagery (3D satellite view)
 function tilesUpdate(){ const z=ogZ(); let any=false;
   for(const L of Object.values(TILES.L)){ const show=!!L.show()&&!!z; L.div.style.display=show?'':'none'; L.want.clear(); L.vis=[];
     if(!show){ if(L.tiles.size>400||GM.type!==L.lastType){ for(const im of L.tiles.values()) im.remove(); L.tiles.clear(); for(const lv of L.levels.values()) lv.div.remove(); L.levels.clear(); } L.lastType=GM.type; continue; }
-    L.lastType=GM.type; const mx=L.max(); let zb=Math.min(mx,L.id==='h'?z:z+1), lb=[]; for(const m of [0.5,0.25,0]){ lb=ogTileList(zb,m); if(lb.length<=160) break; } if(lb.length>160){ zb--; lb=ogTileList(zb,0); } L.zb=zb;
+    L.lastType=GM.type; const mx=L.max(); let zb=Math.min(mx,L.id==='h'?z:z+1), lb=[];
+    if(T3.on){ let zf=Math.max(4,zb-1); lb=ogTileList(zf,0); if(lb.length>160){ zb--; zf=Math.max(4,zb-1); lb=ogTileList(zf,0); } L.zb=zf;
+      for(const im of L.tiles.values()) im.dataset.t='';
+      if(L.base){ const z0=Math.max(4,zf-3); if(z0<zf) tlWant(L,z0,ogTileList(z0,0.5)); }
+      tlWant(L,zf,lb); const nb=zb>zf?T3.nearLL():null, ln=nb?ogTileList(zb,0,...nb):[]; if(ln.length&&ln.length<=120) tlWant(L,zb,ln);
+      L.vis=lb.map(([x,y])=>`${zf}_${x}_${y}`); tlPlace(L); if(L.base) any=any||[...L.tiles.values()].some(im=>im.dataset.ok); continue; }
+    for(const m of [0.5,0.25,0]){ lb=ogTileList(zb,m); if(lb.length<=160) break; } if(lb.length>160){ zb--; lb=ogTileList(zb,0); } L.zb=zb;
     for(const im of L.tiles.values()) im.dataset.t='';
     if(L.base){ const z0=Math.max(4,zb-3); if(z0<zb) tlWant(L,z0,ogTileList(z0,1)); }
     tlWant(L,zb,lb); L.vis=ogTileList(zb,0).map(([x,y])=>`${zb}_${x}_${y}`); tlPlace(L);
@@ -1951,7 +2027,7 @@ function select(id,pan){ const p=BYID[id]; if(!p) return; selId=id; if(!on.has(p
 // ---------- tap anything on the map ----------
 const pop=document.getElementById('pop'), mapwrap=svg.parentElement; let popT=0;
 pop.addEventListener('click',e=>{ if(performance.now()-popT<450){ e.stopPropagation(); e.preventDefault(); } },true);
-function toS(lo,la){ const r=svgRect(); const [x,y]=P(lo,la); return [(x-vb.x)/vb.w*r.width, (y-vb.y)/vb.h*r.height]; }
+function toS(lo,la){ const [x,y]=P(lo,la), s=VIEW.s||scale(); const q=T3.proj((x-vb.x)*s,(y-vb.y)*s); return [q[0],q[1]]; }   // lon/lat -> screen px, through the tilt in 3D
 function visPts(){ const sv=document.getElementById('stf')?.value||''; return PTS.filter(p=>on.has(p.L)&&(!sv||p.stt===sv)); }
 function summary(p){
   if(p.L==='target') return `Rank ${p.rank} in ${STN[p.stt]}, tier ${p.tier}. ${p.ev.slice(0,2).join('; ')}.`;
@@ -1997,7 +2073,7 @@ document.addEventListener('keydown',e=>{ if(e.key==='Escape') closePop(); });
 </script>
 <script>
 // ---------- extra spot notes ----------
-function notesHTML(p){ let h=''; if(p.ug) h+=ugHTML(p);
+function notesHTML(p){ let h=rkHTML(p);
   if(p.acc) h+=`<div class="note2 ${p.acc[0]}">${p.acc[0]==='ok'?'Access: ':p.acc[0]==='warn'?'Check first: ':'Restricted: '}${esc(p.acc[1])}</div>`;
   if(p.warn) h+=`<div class="note2 stop">${esc(p.warn)}</div>`;
   if(p.cnote) h+=`<div class="note2 warn">${esc(p.cnote)}</div>`;
@@ -2811,18 +2887,9 @@ document.getElementById('gmDet').onclick=e=>{ const b=e.target.closest('button')
 svg.addEventListener('pointerdown',()=>{ if(!gmS.hidden) gmSheet(false); },{passive:true});
 document.getElementById('vOld').onclick=()=>gmSetType('old',true);
 const _ssmG=shSetMode; shSetMode=function(m,keep){ _ssmG(m,keep); if(GM.type==='old'){ on.add('_oldmap'); renderLayers(); drawMarkers(); } };
-// --- 3D: tap the locate button to drop into a tilted satellite view of where you stand; tap again to come back ---
-function gmTilt(t){ GM.tilt=t; svg._tilt=t; m3d.classList.toggle('tilt',t); if(!t){ m3d.style.transform=''; gmHeading(false); } else gmHeading(true); gmSheetSync(); document.getElementById('shMe').classList.toggle('on',t); }
-function gmHeading(on){ if(!on){ if(GM.head){ window.removeEventListener('deviceorientation',GM.head); GM.head=null; } return; }
-  const h=e=>{ const a=e.webkitCompassHeading!=null?e.webkitCompassHeading:(e.alpha!=null&&e.absolute?360-e.alpha:null); if(a==null) return; m3d.style.setProperty('--hd',(-a).toFixed(1)+'deg'); };
-  const go=()=>{ GM.head=h; window.addEventListener('deviceorientation',h); };
-  try{ if(typeof DeviceOrientationEvent!=='undefined'&&DeviceOrientationEvent.requestPermission) DeviceOrientationEvent.requestPermission().then(r=>{ if(r==='granted') go(); }).catch(()=>{}); else go(); }catch(_){} }
-function gmLocate3D(){ const b=document.getElementById('shMe'); if(GM.tilt){ gmTilt(false); return; }
-  if(!navigator.geolocation){ hrToast('Location is not available here.'); return; } b.classList.add('busy');
-  navigator.geolocation.getCurrentPosition(pos=>{ b.classList.remove('busy'); setOrigin(pos.coords.longitude,pos.coords.latitude,'you');
-    const [x,y]=P(pos.coords.longitude,pos.coords.latitude), w=0.012, h=w*vb.h/vb.w; vb={x:x-w/2,y:y-h/2,w,h}; if(GM.type!=='sat') gmSetType('sat'); fit(); apply(); gmTilt(true); if(SH.phone) shGo('map'); },
-    ()=>{ b.classList.remove('busy'); hrToast('Your location is blocked here. Allow location for this page in your phone settings, or use the home-screen app.'); },{enableHighAccuracy:true,timeout:12000,maximumAge:30000}); }
-{ const me=document.getElementById('shMe'); me.onclick=gmLocate3D; me.title='Where I am, in 3D'; me.setAttribute('aria-label','Show where I am in a 3D satellite view'); }
+// --- 3D: the tilted view lives in the 3D section (T3); these two are overridden there ---
+function gmTilt(t){ if(window.T3&&T3.set) T3.set(t); }
+function gmLocate3D(){ if(window.T3&&T3.set) T3.set(!T3.on); }
 // the big bottom buttons are gone: the hunt button sits on the side of the map
 document.getElementById('shFab')?.remove();
 document.getElementById('gmRec').classList.toggle('on',!!HR.rec);
@@ -2992,59 +3059,62 @@ omApply(); omRVis(); gmSheetSync();
 
 </script>
 <script>
-// ---------- real 3D: satellite draped over elevation, hills raised, pins standing on the ground ----------
-// Opens from the locate button (at your GPS spot) or the 3D chip (at the map centre). Loads MapLibre GL only when first used.
-// Imagery: USGS Imagery Only tiles; elevation: Terrain Tiles on AWS (Mapzen terrarium, public). Without them it falls back to the flat tilt.
-const G3={map:null,lib:null,open:false,ex:2.5,z:12.6,p:70};
-mwrap.insertAdjacentHTML('beforeend',`<section class="g3d" id="g3d" hidden aria-label="3D view"><div class="g3m" id="g3m"></div>
-  <div class="g3bar"><button class="g3b" id="g3x" aria-label="Back to the flat map"><b>2D</b></button><button class="g3b" id="g3n" aria-label="Point north">N</button><button class="g3b" id="g3e" aria-label="Taller hills">⛰</button></div>
-  <div class="g3card" id="g3c" hidden></div><p class="g3src">USGS imagery · elevation: Terrain Tiles on AWS (USGS 3DEP)</p></section>`);
-const g3el=document.getElementById('g3d');
-function g3Toast(m){ hrToast(m); const h=pop.querySelector('h4'); if(h) h.textContent='3D view'; }
-function g3Lib(){ if(window.maplibregl) return Promise.resolve(window.maplibregl); if(G3.lib) return G3.lib;
-  return G3.lib=new Promise((ok,no)=>{ const s=document.createElement('script'); s.src='https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/4.7.1/maplibre-gl.min.js'; s.onload=()=>ok(window.maplibregl); s.onerror=()=>{ G3.lib=null; no(new Error('load')); }; document.head.appendChild(s); }); }
-function g3Pins(lo,la){ const f=[]; for(const p of PTS){ if(!on.has(p.L)||Math.abs(p.lo-lo)>0.35||Math.abs(p.la-la)>0.25) continue; const r=RK(p);
-    f.push({type:'Feature',geometry:{type:'Point',coordinates:[p.lo,p.la]},properties:{id:p.id,n:p.n,c:cv(typeof r==='number'&&r>=1&&r<=5?`var(--rk${r})`:`var(--L-${p.L})`),r:typeof r==='number'&&r?String(r):''}}); }
-  return {type:'FeatureCollection',features:f}; }
-function g3Open(lo,la,you){ g3el.hidden=false; G3.open=true; mwrap.classList.add('g3on');
-  g3Lib().then(ml=>{ const center=[lo,la];
-    if(!G3.map){ G3.map=new ml.Map({container:'g3m',attributionControl:false,center,zoom:G3.z,pitch:G3.p,bearing:0,maxPitch:80,antialias:false,
-      style:{version:8,sources:{
-        sat:{type:'raster',tiles:['https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer/tile/{z}/{y}/{x}'],tileSize:256,maxzoom:16},
-        dem:{type:'raster-dem',tiles:['https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png'],tileSize:256,maxzoom:14,encoding:'terrarium'},
-        hs:{type:'raster-dem',tiles:['https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png'],tileSize:256,maxzoom:14,encoding:'terrarium'},
-        pins:{type:'geojson',data:g3Pins(lo,la)},me:{type:'geojson',data:{type:'FeatureCollection',features:[]}}},
-       layers:[{id:'bg',type:'background',paint:{'background-color':'#c9d4c2'}},{id:'sat',type:'raster',source:'sat'},
-        {id:'shade',type:'hillshade',source:'hs',paint:{'hillshade-exaggeration':0.55,'hillshade-shadow-color':'#1d2a1d','hillshade-highlight-color':'#fffbe8'}},
-        {id:'pinring',type:'circle',source:'pins',paint:{'circle-radius':['interpolate',['linear'],['zoom'],10,4,15,9],'circle-color':['get','c'],'circle-stroke-color':'#ffffff','circle-stroke-width':2,'circle-pitch-alignment':'viewport'}},
-        {id:'me',type:'circle',source:'me',paint:{'circle-radius':8,'circle-color':'#1a73e8','circle-stroke-color':'#fff','circle-stroke-width':3,'circle-pitch-alignment':'viewport'}}],
-       terrain:{source:'dem',exaggeration:G3.ex},sky:{'sky-color':'#8fb8e0','horizon-color':'#dfe9ef','fog-color':'#dfe9ef','sky-horizon-blend':0.6,'horizon-fog-blend':0.6,'fog-ground-blend':0.4}}});
-      G3.map.on('click','pinring',e=>{ const f=e.features[0]; if(!f) return; const c=document.getElementById('g3c');
-        c.innerHTML=`<b>${esc(f.properties.n)}</b><div class="row"><button class="btn uxgo" data-g3open="${esc(f.properties.id)}">Open this spot</button><button class="btn" data-g3close>Close</button></div>`; c.hidden=false; });
-      G3.map.on('mouseenter','pinring',()=>G3.map.getCanvas().style.cursor='pointer');
-      // if the map engine never starts (blocked by the page or no connection), fall back to the tilted map
-      G3.ok=false; G3.map.once('render',()=>{ G3.ok=true; }); setTimeout(()=>{ if(!G3.ok&&G3.open){ g3Close(); try{ G3.map.remove(); }catch(_){ } G3.map=null; g3Toast('3D could not start here. Showing the tilted map instead.'); _gtP3(true); } },12000);
-    } else { G3.map.getSource('pins').setData(g3Pins(lo,la)); G3.map.jumpTo({center,zoom:G3.z,pitch:G3.p,bearing:0}); G3.map.resize(); }
-    G3.map.getSource&&G3.map.once('idle',()=>{});
-    const setMe=()=>{ const s=G3.map.getSource('me'); if(s) s.setData({type:'FeatureCollection',features:you?[{type:'Feature',geometry:{type:'Point',coordinates:center},properties:{}}]:[]}); };
-    if(G3.map.isStyleLoaded()) setMe(); else G3.map.once('load',setMe);
-    setTimeout(()=>G3.map.resize(),50);
-  }).catch(()=>{ g3Close(); g3Toast('The 3D view needs a connection the first time. Showing the tilted map instead.'); _gtP3(true); }); }
-function g3Close(){ g3el.hidden=true; G3.open=false; mwrap.classList.remove('g3on'); document.getElementById('g3c').hidden=true; document.getElementById('shMe').classList.remove('on'); }
-document.getElementById('g3x').onclick=g3Close;
-document.getElementById('g3n').onclick=()=>G3.map&&G3.map.easeTo({bearing:0,pitch:G3.p,duration:400});
-document.getElementById('g3e').onclick=()=>{ if(!G3.map) return; G3.ex=G3.ex>=4?1.5:G3.ex+1.25; G3.map.setTerrain({source:'dem',exaggeration:G3.ex}); g3Toast('Hills raised '+G3.ex+'×'); };
-g3el.addEventListener('click',e=>{ const o=e.target.closest('[data-g3open]'); if(o){ const id=o.dataset.g3open; g3Close(); select(id,true); return; } if(e.target.closest('[data-g3close]')) document.getElementById('g3c').hidden=true; });
-// locate button: find me, then open 3D there (zoomed out enough to see the hills around you)
-const _gtP3=gmTilt;
-gmLocate3D=function(){ const b=document.getElementById('shMe'); if(G3.open){ g3Close(); return; }
-  if(!navigator.geolocation){ const [x,y]=ctr(); g3Open(x/K,-y,false); return; } b.classList.add('busy');
-  navigator.geolocation.getCurrentPosition(pos=>{ b.classList.remove('busy'); b.classList.add('on'); setOrigin(pos.coords.longitude,pos.coords.latitude,'you'); if(SH.phone) shGo('map'); g3Open(pos.coords.longitude,pos.coords.latitude,true); },
-    ()=>{ b.classList.remove('busy'); const [x,y]=ctr(); g3Toast('Location is blocked here, so 3D opens on the middle of the map.'); g3Open(x/K,-y,false); },{enableHighAccuracy:true,timeout:12000,maximumAge:30000}); };
+// ---------- 3D view (v122): the same map, tilted. Tiles, pins, parks, trails, old maps and gestures are the engine's own; nothing is loaded from elsewhere ----------
+// The ground (tiles + map + ground canvas) is a square bigger than the screen, tilted by one CSS transform. Pins are painted upright on a flat
+// canvas at the projected spot, so taps, pop-ups and cards work exactly as in 2D. Twist two fingers to turn; N points north; 2D goes back.
+// Geometry: ground px (gx,gy) -> centre at (S/2,S/2) -> rotate by the bearing -> tilt by the pitch -> perspective P -> screen, anchored at (W/2, A*H).
+T3=Object.assign(T3,{on:false, pitch:42, bear:0, P:0, S:0, A:0.56, th:0, follow:false, head:null, fq:0, anim:0, max:3400});
+T3.geom=function(W,H){ const th=T3.pitch*Math.PI/180, P=1.15*H, A=T3.A, c=Math.cos(th), s=Math.sin(th);
+  const yAt=v=>{ const d=P*c+v*s; return v*P/Math.max(0.12*P,d); };   // ground distance (px from the anchor) seen at screen row v
+  const yf=yAt(-A*H), yn=yAt((1-A)*H), kf=P/(P-yf*s), R=Math.hypot(W/2/kf,Math.max(-yf,yn));
+  return {th,P,S:Math.min(T3.max,Math.ceil((2*R+48)/64)*64)}; };
+T3.ground=function(W,H){ const g=T3.geom(W,H); T3.th=g.th; T3.P=g.P; T3.S=g.S; return [g.S,g.S]; };
+T3.layout=function(){ if(!T3.on) return; const S=T3.S, W=VP.W, H=VP.H; if(!S||!W) return;
+  ground.style.cssText=`left:${(W-S)/2}px;top:${T3.A*H-S/2}px;width:${S}px;height:${S}px;transform:perspective(${T3.P}px) rotateX(${T3.pitch}deg) rotateZ(${T3.bear}rad)`; };
+T3.proj=function(gx,gy){ if(!T3.on) return [gx,gy,1]; const S=T3.S, cb=Math.cos(T3.bear), sb=Math.sin(T3.bear), qx=gx-S/2, qy=gy-S/2;
+  const x1=qx*cb-qy*sb, y1=qx*sb+qy*cb, k=T3.P/(T3.P-y1*Math.sin(T3.th)); if(!(k>0)||k>40) return [-1e5,-1e5,1];
+  return [VP.W/2+x1*k, T3.A*VP.H+y1*Math.cos(T3.th)*k, Math.max(0.55,Math.min(1.25,Math.sqrt(k)))]; };
+T3.unproj=function(sx,sy){ if(!T3.on) return [sx,sy]; const S=T3.S, P=T3.P, c=Math.cos(T3.th), s=Math.sin(T3.th), u=sx-VP.W/2; let v=sy-T3.A*VP.H;
+  const dmin=0.12*P; if(P*c+v*s<dmin) v=(dmin-P*c)/s;   // never above the horizon
+  const y1=v*P/(P*c+v*s), k=P/(P-y1*s), x1=u/k, cb=Math.cos(T3.bear), sb=Math.sin(T3.bear);
+  return [x1*cb+y1*sb+S/2, -x1*sb+y1*cb+S/2]; };
+// the near part of the screen (where the ground is seen at 80% scale or more), as lon/lat bounds for sharper tiles
+T3.nearLL=function(){ const P=T3.P, s=Math.sin(T3.th), c=Math.cos(T3.th), y1=-0.25*P/s, yk=T3.A*VP.H+y1*c*0.8, W=VP.W, H=VP.H;
+  const pts=[[0,yk],[W,yk],[0,H],[W,H],[W/2,yk]].map(([x,y])=>T3.unproj(x,y)); let a=1e9,b=1e9,d=-1e9,e=-1e9; for(const [x,y] of pts){ if(x<a)a=x; if(x>d)d=x; if(y<b)b=y; if(y>e)e=y; }
+  const S=T3.S; return [(vb.x+a/S*vb.w)/K,(vb.x+d/S*vb.w)/K,-(vb.y+e/S*vb.h),-(vb.y+b/S*vb.h)]; };
+// pins repainted at their new spots while the ground moves under a finger (coalesced to one paint per frame)
+T3.fast=function(){ if(!T3.on||T3.fq) return; T3.fq=requestAnimationFrame(()=>{ T3.fq=0; if(!T3.on) return; const s=scale(); if(!s||!isFinite(s)) return;
+  const c=PCV.c=bcx, d=PCV.bd||1; c.setTransform(d,0,0,d,0,0); c.clearRect(0,0,PCV.vw,PCV.vh); c.textAlign='center'; c.textBaseline='alphabetic'; c.globalAlpha=1; PCV.dr=[]; PCV.lf=null;
+  let selP=null; for(const p of PCV.q){ if(p.id===selId){ selP=p; continue; } pcPin(p,s); } for(const cl of PCV.cls) pcBub(cl,s); if(selP) pcPin(selP,s); }); };
+// turn the map by da radians about a screen point (two-finger twist), keeping that ground point under the fingers
+T3.turn=function(da,c){ const w1=toW(c[0],c[1]); T3.bear+=da; T3.layout(); const w2=toW(c[0],c[1]); vb.x-=w2[0]-w1[0]; vb.y-=w2[1]-w1[1]; if(T3.follow){ T3.follow=false; T3.heading(false); } T3.ui(); };
+T3.north=function(){ T3.follow=false; T3.heading(false); let b=T3.bear; while(b>Math.PI) b-=2*Math.PI; while(b<-Math.PI) b+=2*Math.PI; const b0=b, t0=performance.now();
+  cancelAnimationFrame(T3.anim); const step=()=>{ const t=Math.min(1,(performance.now()-t0)/380), e=1-Math.pow(1-t,3); T3.bear=b0*(1-e); T3.layout(); T3.fast(); if(t<1) T3.anim=requestAnimationFrame(step); else { T3.bear=0; T3.layout(); drawMarkers.now(); T3.ui(); } }; step(); };
+// compass: with the phone's permission the map turns the way you face (the locate button asks for it)
+T3.heading=function(on){ if(!on){ if(T3.head){ window.removeEventListener('deviceorientation',T3.head); T3.head=null; } return; }
+  if(T3.head) return; const h=e=>{ if(!T3.on||!T3.follow) return; const a=e.webkitCompassHeading!=null?e.webkitCompassHeading:(e.alpha!=null&&e.absolute?360-e.alpha:null); if(a==null) return;
+    T3.bear=-a*Math.PI/180; T3.layout(); T3.fast(); T3.ui(); };
+  const go=()=>{ T3.head=h; T3.follow=true; window.addEventListener('deviceorientation',h); };
+  try{ if(typeof DeviceOrientationEvent!=='undefined'&&DeviceOrientationEvent.requestPermission) DeviceOrientationEvent.requestPermission().then(r=>{ if(r==='granted') go(); }).catch(()=>{}); else go(); }catch(_){} };
+mwrap.insertAdjacentHTML('beforeend',`<div class="t3bar" id="t3bar" hidden><button class="t3b" id="t3x" aria-label="Back to the flat map"><b>2D</b></button><button class="t3b" id="t3n" aria-label="Point north"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M12 2l5 18-5-4-5 4z" fill="currentColor"/></svg><span>N</span></button></div>`);
+const t3bar=document.getElementById('t3bar');
+T3.ui=function(){ t3bar.hidden=!T3.on; document.getElementById('t3n').style.transform=`rotate(${T3.bear}rad)`; document.getElementById('shMe').classList.toggle('on',T3.on); if(typeof gmSheetSync==='function') gmSheetSync(); };
+T3.set=function(v){ v=!!v; if(v===T3.on) return; T3.on=v; cancelAnimationFrame(T3.anim); if(!v){ T3.follow=false; T3.heading(false); T3.bear=0; ground.style.cssText=''; }
+  m3d.classList.toggle('t3',v); mwrap.classList.toggle('t3on',v); if(v){ ground.classList.add('t3in'); bcv.style.opacity='0'; setTimeout(()=>{ ground.classList.remove('t3in'); bcv.style.opacity=''; },480); }
+  if(VP.W&&VP.H) boxSet(VP.W,VP.H); try{ localStorage.setItem('atlas-3d',v?'1':'0'); }catch(_){} apply(); T3.ui(); };
+// open 3D on a map point: zoom in enough that the tilt means something, then tilt
+T3.open=function(lo,la,heading){ if(lo!=null){ const [x,y]=P(lo,la); const w=Math.min(vb.w,0.06), h=w*(BOX.h||1)/(BOX.w||1); vb={x:x-w/2,y:y-h/2,w,h}; fit(); }
+  if(!T3.on) T3.set(true); else apply(); if(heading) T3.heading(true); };
+document.getElementById('t3x').onclick=()=>T3.set(false);
+document.getElementById('t3n').onclick=()=>T3.north();
+// the layers-sheet chip and the locate button
+gmTilt=function(t){ if(t){ if(typeof gmSheet==='function') gmSheet(false); T3.open(null); } else T3.set(false); };
+gmLocate3D=function(){ const b=document.getElementById('shMe'); if(T3.on){ T3.set(false); return; }
+  if(!navigator.geolocation){ T3.open(null); return; } b.classList.add('busy');
+  navigator.geolocation.getCurrentPosition(pos=>{ b.classList.remove('busy'); setOrigin(pos.coords.longitude,pos.coords.latitude,'you'); if(typeof SH!=='undefined'&&SH.phone) shGo('map'); if(GM.type!=='sat'&&typeof gmSetType==='function') gmSetType('sat'); T3.open(pos.coords.longitude,pos.coords.latitude,true); },
+    ()=>{ b.classList.remove('busy'); hrToast('Location is blocked here, so 3D opens on the middle of the map.'); T3.open(null); },{enableHighAccuracy:true,timeout:12000,maximumAge:30000}); };
 document.getElementById('shMe').onclick=()=>gmLocate3D();
-// the 3D chip in the layers sheet opens the real 3D view on the middle of the map
-gmTilt=function(t){ if(t){ gmSheet(false); const [x,y]=ctr(); g3Open(x/K,-y,false); } else { g3Close(); _gtP3(false); } };
-
+Object.defineProperty(GM,'tilt',{get:()=>T3.on,set:v=>T3.set(v),configurable:true});
 </script>
 <script>
 // ---------- data cleanup (v75): one pin per place, and no pins for stories with no known spot ----------
@@ -3078,7 +3148,7 @@ pkDraw=function(){ PCV.pk=[]; const ks=on.has('park')?pkTiles('P',300,PK.tiles,(
 trDraw=function(){ PCV.tr=[]; const ks=on.has('_trails')?pkTiles('T',700,PK.tt,()=>{ trDraw(); pcLater(); }):null; if(!ks) return;
   for(const k of ks){ const a=PK.tt.get(k); if(!a) continue; if(!a.P){ a.P=[new Path2D(),new Path2D(),new Path2D()]; a.N=[]; for(const [n,kind,r] of a){ const p=pkP(r); a.P[kind].addPath(p); if(n) a.N.push([n,p]); } } PCV.tr.push(a); } };
 // tap a park outline to open the park; tap a trail for its name
-{ const _fhC=findHit; findHit=function(cx,cy){ if(_fhC(cx,cy)) return true; const s=VIEW.s||scale(), c=pcx; if(!s) return false; pcWorld(c,s); const X=cx*PCV.dpr, Y=cy*PCV.dpr; let hit=null;
+{ const _fhC=findHit; findHit=function(cx,cy){ if(_fhC(cx,cy)) return true; const s=VIEW.s||scale(), c=pcx; if(!s) return false; pcWorld(c,s); const [gx,gy]=pcG(cx,cy), X=gx*PCV.dpr, Y=gy*PCV.dpr; let hit=null;
     c.lineWidth=12/s; for(const a of PCV.tr||[]){ for(const [n,p] of a.N) if(c.isPointInStroke(p,X,Y)){ hit=['t',n]; break; } if(hit) break; }
     if(!hit) for(let i=(PCV.pk||[]).length-1;i>=0;i--){ const f=PCV.pk[i]; if(BYID[f[0]]&&c.isPointInPath(f.P,X,Y,'evenodd')){ hit=['p',f[0]]; break; } }
     c.setTransform(PCV.dpr,0,0,PCV.dpr,0,0); if(!hit) return false; if(hit[0]==='t') hrToast(hit[1]); else select(hit[1],false); return true; }; }
@@ -3141,8 +3211,8 @@ const ogGly=l=>OGK[l]||'pick', OGPATH={}; const ogP2=g=>OGPATH[g]||(OGPATH[g]=ne
 const ogCol=l=>l==='restricted'?'var(--L-restricted)':l==='mine'?'var(--L-mine)':'var(--ogn)';
 ico=(l,px=16,c)=>`<svg class="ic" width="${px}" height="${px}" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11.2" fill="${c||ogCol(l)}" stroke="var(--panel)" stroke-width="1.2"/><path d="${OGG[ogGly(l)]}" transform="translate(4.4 4.4) scale(.633)" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
 function ogGlyph(c,g,x,y,r,col){ c.save(); c.translate(x-r*0.62,y-r*0.62); const k=r*1.24/24; c.scale(k,k); c.lineWidth=2.7; c.lineCap='round'; c.lineJoin='round'; c.strokeStyle=col; c.stroke(ogP2(g)); c.restore(); }
-pcPin=function(p,s){ const c=pcx, [X,Y]=P(p.lo,p.la), x=(X-vb.x)*s, y=(Y-vb.y)*s; if(x<-40||y<-40||x>PCV.W+40||y>PCV.H+40) return;
-  const fa=typeof ogFade==='function'?ogFade(p):1, sel=p.id===selId, big=s>=110, r=(big?9:7)*(sel?1.4:1), panel=cv('var(--panel)'), rk=RK(p), w=WKS(p.id), pm=OG.P[p.id];
+pcPin=function(p,s){ const c=PCV.c||pcx, [X,Y]=P(p.lo,p.la), [x,y]=pcXY(X,Y,s); if(x<-40||y<-40||x>PCV.vw+40||y>PCV.vh+40) return;
+  const fa=typeof ogFade==='function'?ogFade(p):1, sel=p.id===selId, big=s>=110, r=(big?9:7)*PCV.dk*(sel?1.4:1), panel=cv('var(--panel)'), rk=RK(p), w=WKS(p.id), pm=OG.P[p.id];
   const base=p.L==='lake'?cv(LAKEC[p.acc?.[0]]||'var(--ogn)'):cv(ogCol(p.L)), faded=(p.c==='legend'||p.c==='rumor'), hollow=(p.s==='found'||p.s==='false');
   const ranked=typeof rk==='number'&&rk>=1&&rk<=5, fill=hollow?panel:ranked?cv(`var(--rk${rk})`):rk==='X'?cv('var(--L-restricted)'):base;
   c.globalAlpha=fa*(w==='worked'?0.38:1)*(faded&&!hollow?0.6:1);
@@ -4381,7 +4451,7 @@ body.shell .bsc:not([hidden]){display:flex}
   function bsRender(){ const c=document.getElementById('bsCard'); if(!c) return; const best=bsOff?null:tdNear()[0]; c.hidden=!best; if(!best) return;
     const r=RK(best), from=ORG.n==='Eau Claire'?'Eau Claire':ORG.n==='you'?'you':'your spot', d=best.mi<10?best.mi.toFixed(1):Math.round(best.mi);
     const g=document.getElementById('bsGo'); g.dataset.id=best.id;
-    g.innerHTML=`<i style="background:var(--rk${r})">${r}</i><span><small>Best spot near ${from} today</small><b>${esc(best.n)}</b><span class="bss">${FT.AL[best.id]?'Go now · ':''}${RKP[r]} · ${d} mi</span></span>`; }
+    g.innerHTML=`<i style="background:var(--rk${r})">${r}</i><span><small>Best spot near ${from} today</small><b>${esc(best.n)}</b><span class="bss">${FT.AL[best.id]?'Go now · ':''}${RKP[r]} · ${d} mi${(w=>w?`<br><em>${esc(w)}</em>`:'')(typeof RKTOP==='function'?RKTOP(best):'')}</span></span>`; }
   document.getElementById('bsGo').onclick=e=>select(e.currentTarget.dataset.id,true);
   document.getElementById('bsX').onclick=()=>{ bsOff=true; try{ sessionStorage.setItem('og-bs-off','1'); }catch(_){} bsRender(); };
   let bsT=0; const bsLater=()=>{ clearTimeout(bsT); bsT=setTimeout(bsRender,250); };
@@ -4594,26 +4664,6 @@ try{ document.documentElement.dataset.og=String(OGE.ver); fit(); drawMarkers.now
 (window.requestIdleCallback||(f=>setTimeout(f,300)))(()=>{ try{ if(typeof streamsBuild==='function') streamsBuild(); }catch(e){ OGE.err('streams',e); } });
 // a map that never got a size (hidden tab at start) paints as soon as it has one
 document.addEventListener('visibilitychange',()=>{ if(!document.hidden&&RENDER.pending) drawMarkers(); });
-
-// ---------- home-screen app: works offline and updates itself ----------
-(function(){ if(window.claude||!('serviceWorker' in navigator)||(location.protocol!=='https:'&&!/^(localhost|127\.0\.0\.1)$/.test(location.hostname))) return;
-  document.body.classList.add('isapp');
-  try{ navigator.storage&&navigator.storage.persist&&navigator.storage.persist(); }catch(_){}
-  const t0=Date.now(), bar=document.createElement('div'); bar.className='appupd'; bar.hidden=true; document.body.appendChild(bar);
-  const say=(h,btn)=>{ bar.innerHTML=`<span>${h}</span>${btn?'<button class="btn uxgo" data-upd>Update now</button>':''}<button class="btn" data-x aria-label="Close">×</button>`; bar.hidden=false; };
-  let reloading=false; navigator.serviceWorker.addEventListener('controllerchange',()=>{ if(reloading) return; reloading=true; location.reload(); });
-  navigator.serviceWorker.register('sw.js').then(reg=>{
-    const busy=()=>typeof HR!=='undefined'&&HR.rec&&!HR.rec.paused;
-    const ready=()=>{ if(!reg.waiting||!navigator.serviceWorker.controller) return;
-      if(Date.now()-t0<8000&&!busy()) reg.waiting.postMessage('skip'); else say('A new version of the atlas is ready.',true); };
-    ready();
-    reg.addEventListener('updatefound',()=>{ const w=reg.installing; if(!w) return; w.addEventListener('statechange',()=>{ if(w.state!=='installed') return;
-      if(navigator.serviceWorker.controller) ready(); else { say('Saved on this phone. The atlas now works with no signal.'); setTimeout(()=>{ bar.hidden=true; },6000); } }); });
-    bar.addEventListener('click',e=>{ if(e.target.closest('[data-x]')) bar.hidden=true;
-      if(e.target.closest('[data-upd]')){ if(busy()) hrPause(true); reg.waiting&&reg.waiting.postMessage('skip'); } });
-    document.addEventListener('visibilitychange',()=>{ if(document.visibilityState==='visible') reg.update().catch(()=>{}); });
-  }).catch(()=>{});
-})();
 </script>
 <style>
 .idtools{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 12px}
@@ -4754,10 +4804,39 @@ h1,h2,h3,.read h2,.read h3{font-family:var(--f-body);font-weight:700;letter-spac
 .mt-walk{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 74 74'%3E%3Cpath d='M8 62c10-4 12-18 22-21s18 4 26-10' fill='none' stroke='%230b6e99' stroke-width='4' stroke-linecap='round'/%3E%3Ccircle cx='8' cy='62' r='5' fill='%230b6e99'/%3E%3Ccircle cx='30' cy='41' r='5' fill='%230b6e99'/%3E%3Ccircle cx='56' cy='31' r='5' fill='%230b6e99'/%3E%3Cpath d='M50 12l6-6 6 6v9H50z' fill='%237a4e2d'/%3E%3C/svg%3E") center/100% no-repeat,repeating-radial-gradient(circle at 30% 70%,#efe4c6 0 8px,#e2d3ab 8px 9px),#efe4c6}
 .gmtypes{grid-template-columns:repeat(4,1fr)!important}
 .gmtypes i{width:64px!important;height:64px!important}
-</style><style>.plzoom{top:calc(112px + env(safe-area-inset-top,0px))!important;bottom:auto!important;transform:none!important}.mapwrap.shcard .plzoom{display:flex!important}.mapwrap.g3on .plzoom{display:none!important}</style><style>/* STAB113 stability pass */
+</style><style>.plzoom{top:calc(112px + env(safe-area-inset-top,0px))!important;bottom:auto!important;transform:none!important}.mapwrap.shcard .plzoom{display:flex!important}</style><style>/* STAB113 stability pass */
 .mapwrap .pop{z-index:8}
 /* the burial-mound note under the side panel was eating a quarter of the panel on laptop screens: two lines, click for the rest */
 .panel>.note{flex:none;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;cursor:pointer;border-top:1px solid var(--line)}
 .panel>.note.open{display:block}
 </style>
+<script>
+// ---------- Best-spot score: recompute when your worked marks, finds or hunts change; reasons on the best-spot card ----------
+{ document.head.insertAdjacentHTML('beforeend','<style>.rkwhy ul{margin:5px 0 0;padding:0 0 0 2px;list-style:none;font-weight:400;font-size:13.5px}.rkwhy li{padding-left:16px;position:relative;line-height:1.35}.rkwhy li::before{position:absolute;left:0;font-weight:800}.rkwhy li.p::before{content:"+";color:var(--L-ghost)}.rkwhy li.m::before{content:"\\2212";color:var(--L-restricted)}.rkwhy li.n::before{content:"\\00b7";color:var(--muted)}.rkwhy .rkug{font-weight:400}.note2.rk0{background:var(--bg);border:1px dashed var(--line);color:var(--muted)}.bss em{font-style:normal;color:var(--muted)}</style>');
+  const bump=()=>{ RKV++; };
+  if(typeof ftRefresh==='function'){ const _f=ftRefresh; ftRefresh=function(){ bump(); return _f.apply(this,arguments); }; }
+  if(typeof hrStore==='function'){ const _h=hrStore; hrStore=function(){ bump(); return _h.apply(this,arguments); }; }
+  if(typeof setWK==='function'){ const _w=setWK; setWK=function(){ bump(); return _w.apply(this,arguments); }; }
+  bump(); if(typeof drawMarkers==='function') drawMarkers(); }
+
+// ---------- home-screen app: works offline and updates itself ----------
+(function(){ if(window.claude||!('serviceWorker' in navigator)||(location.protocol!=='https:'&&!/^(localhost|127\.0\.0\.1)$/.test(location.hostname))) return;
+  document.body.classList.add('isapp');
+  try{ navigator.storage&&navigator.storage.persist&&navigator.storage.persist(); }catch(_){}
+  const t0=Date.now(), bar=document.createElement('div'); bar.className='appupd'; bar.hidden=true; document.body.appendChild(bar);
+  const say=(h,btn)=>{ bar.innerHTML=`<span>${h}</span>${btn?'<button class="btn uxgo" data-upd>Update now</button>':''}<button class="btn" data-x aria-label="Close">×</button>`; bar.hidden=false; };
+  let reloading=false; navigator.serviceWorker.addEventListener('controllerchange',()=>{ if(reloading) return; reloading=true; location.reload(); });
+  navigator.serviceWorker.register('sw.js').then(reg=>{
+    const busy=()=>typeof HR!=='undefined'&&HR.rec&&!HR.rec.paused;
+    const ready=()=>{ if(!reg.waiting||!navigator.serviceWorker.controller) return;
+      if(Date.now()-t0<8000&&!busy()) reg.waiting.postMessage('skip'); else say('A new version of the atlas is ready.',true); };
+    ready();
+    reg.addEventListener('updatefound',()=>{ const w=reg.installing; if(!w) return; w.addEventListener('statechange',()=>{ if(w.state!=='installed') return;
+      if(navigator.serviceWorker.controller) ready(); else { say('Saved on this phone. The atlas now works with no signal.'); setTimeout(()=>{ bar.hidden=true; },6000); } }); });
+    bar.addEventListener('click',e=>{ if(e.target.closest('[data-x]')) bar.hidden=true;
+      if(e.target.closest('[data-upd]')){ if(busy()) hrPause(true); reg.waiting&&reg.waiting.postMessage('skip'); } });
+    document.addEventListener('visibilitychange',()=>{ if(document.visibilityState==='visible') reg.update().catch(()=>{}); });
+  }).catch(()=>{});
+})();
+</script>
 </body></html>
