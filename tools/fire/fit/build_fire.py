@@ -43,6 +43,10 @@ for f in sorted(glob.glob(D+'/spec/*.json')):
               'src':[['Sanborn Fire Insurance Map from %s, %s County, Wisconsin (Sanborn Map & Publishing Co., %s), Library of Congress'%(town,co,yr),'https://www.loc.gov/item/%s/'%item]],
               'pinconf':'A' if good else 'B',
               'pinev':['Placed from the %s fire map, sheet %d: the sheet was fitted to %d street crossings that still exist (fit error %.1f m), so the pin is good to about %d m.'%(yr,sheetno,n,e,max(5,round(e*2+3)))],'sf':1})
+# extra card sentences from other sources, by pin id
+NOTE={'sf-eau-claire-d-s-l-co-s-crescent-roller-mills-and-elevator':' The 1878 city plan (Snyder, Van Vechten) already shows a Flouring Mill here, on the Half Moon Lake outlet where Menomonie St crossed it, in the little plat called Westville (see the Westville pin); so this mill site dates from the 1870s or earlier.'}
+for p in PINS:
+    if p['id'] in NOTE: p['st']+=NOTE[p['id']]
 json.dump({'fire':FIRE,'pins':PINS},open(sys.argv[1]+'/fire.json','w'),indent=0)
 print(len(FIRE),'maps',len(PINS),'pins')
 for p in FIRE: print(p)
