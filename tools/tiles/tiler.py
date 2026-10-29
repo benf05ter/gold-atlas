@@ -27,7 +27,9 @@ class Src:
             c=d.get('clip',q); s.bb=[max(q[0],c[0])-0.01,min(q[1],c[1])+0.01,max(q[2],c[2])-0.01,min(q[3],c[3])+0.01]
     def load(s):
         if s.a is not None: return
-        if 'img' in s.d: s.a=np.asarray(Image.open(os.path.join(base,s.d['img'])).convert('RGB'))
+        if 'img' in s.d:
+            im=Image.open(os.path.join(base,s.d['img'])); s.a=np.asarray(im.convert('RGB'))
+            if im.mode in ('RGBA','LA','PA'): s.al=np.asarray(im.getchannel('A'))   # pictures with see-through parts (the 1913 plat mosaic) keep them
         else: s.a=np.moveaxis(s.T.read([1,2,3]),0,-1)
         if s.L.get('stretch'): s.a=stretch(s.a)
     def sample(s,LO,LA):   # -> rgb (h,w,3) float, alpha (h,w) float
@@ -40,6 +42,7 @@ class Src:
             px,py=s.to.transform(LO,LA); inv=~s.T.transform; X,Y=inv*(px,py); X=X-0.5; Y=Y-0.5
         X=np.clip(X,0,W-1.001); Y=np.clip(Y,0,H-1.001); x0=X.astype(int); y0=Y.astype(int); fx=(X-x0)[...,None]; fy=(Y-y0)[...,None]
         rgb=(a[y0,x0]*(1-fx)*(1-fy)+a[y0,x0+1]*fx*(1-fy)+a[y0+1,x0]*(1-fx)*fy+a[y0+1,x0+1]*fx*fy)
+        if getattr(s,'al',None) is not None: m=m*(s.al[np.rint(Y).astype(int),np.rint(X).astype(int)]/255.0)
         return rgb,m.astype(np.float32)
 idx={}
 for lid,L in spec['layers'].items():
@@ -80,7 +83,7 @@ for lid,L in spec['layers'].items():
             (im if a.min()<250 else im.convert('RGB')).save(os.path.join(d,f'{x}_{y}.webp'),'WEBP',quality=L.get('q',78),method=5)
             keys.append(f'{x}_{y}')
         tiles[str(z)]=','.join(sorted(keys)); print(lid,'z',z,len(keys),'tiles',flush=True)
-    for s in srcs: s.a=None
+    for s in srcs: s.a=None; s.al=None
     idx[lid]={'z':[zmin,zmax],'t':tiles}
 ip=os.path.join(out,'index.json'); old=json.load(open(ip)) if os.path.exists(ip) else {}   # layers can be cut in separate runs
 if len(sys.argv)>3: ip=os.path.join(out,f'index-{sys.argv[3]}.json'); old={}

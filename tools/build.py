@@ -35,6 +35,11 @@ if os.path.isdir(os.path.join(sd,'om19')):   # 1800s map type (v129): USGS 1889-
   os.makedirs(out+'/om19',exist_ok=True)
   for f in os.listdir(os.path.join(sd,'om19')):
     if f.endswith('.webp'): shutil.copy(os.path.join(sd,'om19',f),out+'/om19/'+f)
+if os.path.isdir(os.path.join(sd,'om13')):   # Plat 1913 map type (v139): the whole Chippewa County plat mosaic, for when the tiles (ot/p13) are missing
+  if os.path.isdir(out+'/om13'): shutil.rmtree(out+'/om13')
+  os.makedirs(out+'/om13',exist_ok=True)
+  for f in os.listdir(os.path.join(sd,'om13')):
+    if f.endswith('.webp'): shutil.copy(os.path.join(sd,'om13',f),out+'/om13/'+f)
 for f in os.listdir(os.path.join(T,'..','tools','icons')) if os.path.isdir(os.path.join(T,'icons')) else []: pass
 os.system(f'python3 "{T}/icons.py" "{out}/icons"')
 if om:
