@@ -1,0 +1,149 @@
+p000|0|N|edge of a built-up area 150 m east
+p000|1|B 90 ESE
+p000|2|N
+p000|3|N|on the Mississippi bottom, railroad 150 m south|L old channels on the river flat
+p000|4|N|L steep valley floor
+p000|5|B 135 E
+p000|6|N|creek through the pin|L creek channel through the pin
+p000|7|B 70 WSW|creek through the pin|L creek channel through the pin
+p000|8|N
+p000|9|N|on the Kinnickinnic River bank|L river channel 30 m south
+p000|10|B 140 W
+p000|11|B 85 SW
+p001|0|N|head of a creek valley|L ravine head on the pin
+p001|1|N
+p001|2|N|no cemetery drawn here
+p001|3|N|a school label starts 140 m east of the crossroads
+p001|4|N|creek about 30 m west|L creek channel west of the pin
+p001|5|S label|a School label on the pin
+p001|6|S 70 SE|a label to the southeast
+p001|7|B 25 W|no cemetery drawn here
+p001|8|S 35 SW|School label to the east
+p001|9|N|L buildings on the pin today
+p001|10|B 85 NE|small cross symbols, perhaps a cemetery
+p001|11|F|steep wooded valley, river 100 m east|L small channel crossing the pin
+p002|0|N
+p002|1|V|Martell|on the river bank|L river channel beside the pin
+p002|2|B 70 NNE
+p002|3|N|L river terrace below a steep slope
+p002|4|N|in a narrow valley
+p002|5|N|L steep hillside above the crossroads
+p002|6|C label|a St. label just east of the crossroads
+p002|7|V|Rock Elm|L buildings and old lots around the pin
+p002|8|V|Rock Elm
+p002|9|K 60 W|small cross symbol
+p002|10|B 65 W
+p002|11|N
+p003|0|N|west edge of Rock Elm|L buildings 150 m east today
+p003|1|N|the Rock Elm village edge 150 m east
+p003|2|N|L ravine head on the pin
+p003|3|N|no cemetery drawn here
+p003|4|B 70 E
+p003|5|N|L creek ravines south of the pin
+p003|6|B 150 W
+p003|7|F|Kinnickinnic River 30 m south|L river channel just south
+p003|8|F|in the Kinnickinnic valley
+p003|9|F|in the Kinnickinnic valley|L valley-side ravines
+p003|10|N|L ravine head on the pin
+p003|11|B 65 S
+p004|0|N|a Hill School label 150 m south
+p004|1|V|Beldenville
+p004|2|B 70 ESE|a Cemetery label just west
+p004|3|S 110 E|M 110 -24|Mines School label beside the symbol
+p004|4|N
+p004|5|N|a cemetery outline with a cross 120 m south, where the church likely stood
+p004|6|N|Mero School label on the pin; no cemetery drawn
+p004|7|N|creek about 60 m west|L creek valley below steep slopes
+p004|8|K 0|cemetery outline with crosses on the pin
+p004|9|N
+p004|10|N|no cemetery drawn here
+p004|11|B 90 ESE|L curved old channel by the pin
+p005|0|V|Trimbelle
+p005|1|V|Trimbelle|L Trimbelle River channel to the south
+p005|2|N|a cemetery outline about 250 m north
+p005|3|K 175 NNW|M -80 156|cemetery outline north of the road
+p005|4|N|a place label on the pin; creek 80 m east
+p005|5|N|L steep valley head on the pin
+p005|6|N|creek about 40 m south|L creek channel below the bluff
+p005|7|K 80 SW|M -50 -60|cemetery outline with a cross
+p005|8|V|Plum City
+p005|9|V|Plum City|L buildings all around today
+p005|10|N|L ravines around the pin
+p005|11|N
+p006|0|N|a church symbol and St. label about 100 m northeast
+p006|1|B 80 ESE|creek through the pin|L creek channel through the pin
+p006|2|N
+p006|3|N|creek through the pin|L creek channel at the foot of the bluff
+p006|4|B 50 E
+p006|5|N|the Rock Elm built-up area 220 m east
+p006|6|B 60 E|a row of buildings along the road
+p006|7|N|creek beside the pin|L creek and steep valley side
+p006|8|B 80 WSW|Rush River about 30 m east|L river channel east of the pin
+p006|9|S 70 S|M 0 -70|Fargo School label beside the symbol
+p006|10|S 70 W|M -70 -16|Glass Valley School label beside the symbol
+p006|11|N
+p007|0|V|Olivet|creek to the northwest
+p007|1|B 140 NNW|creek through the pin|L creek channel through the pin
+p007|2|B 50 SW
+p007|3|B 110 E|an H. label just east
+p007|4|N
+p007|5|B 70 NE
+p007|6|S 10 E|a label to the northeast
+p007|7|B 40 S
+p007|8|N
+p007|9|V|Esdaile|L creek channels through the village
+p007|10|N|the Esdaile buildings are 150 m south|L creek channel by the pin
+p007|11|N|river through the pin|L river channel through the pin
+p008|0|B 120 NW|L steep bluff on the pin
+p008|1|S 110 SSE|M 60 -90
+p008|2|N|creek about 70 m east
+p008|3|S 0|Mero School label on the pin
+p008|4|N|creek about 40 m east|L creek channel east of the pin
+p008|5|N|Mississippi shore 150 m southwest|L railroad grade beside the pin
+p008|6|B 65 E|creek through the pin
+p008|7|B 55 SE
+p008|8|S 90 W|M -90 -10
+p008|9|N|Lost Creek about 40 m south|L creek channel south of the pin
+p008|10|N|Lost Creek about 40 m south|L creek channel south of the pin
+p008|11|N|creek through the pin|L creek channel through the pin
+p009|0|V|Ellsworth
+p009|1|N|buildings along the road 150 m west
+p009|2|N
+p009|3|N
+p009|4|N|a School label 250 m northwest; creek to the west
+p009|5|V|Trenton|buildings within 50 m
+p009|6|V|Trenton|the Trenton label is 250 m southeast; buildings 110 m east
+p009|7|S 100 NE|M 60 80|a label beside the symbol
+p009|8|N|L pits and spoil heaps all around; the ground has been dug at the pin
+p009|9|N|L steep bluff face on the pin
+p009|10|N|creek through the pin|L creek channel through the pin
+p009|11|B 80 E
+p010|0|S label|a Union School label just northeast
+p010|1|N
+p010|2|K 50 S|a cemetery outline with a cross, likely the churchyard
+p010|3|B 75 SW|a cluster of buildings just south
+p010|4|V|Olivet
+p010|5|K 165 SW|M -110 -124|cemetery outline with a cross under the Our Savior label
+p010|6|N|L ravine across the hill
+p010|7|B 60 E
+p010|8|V|El Paso|a cemetery outline 130 m east
+p010|9|V|El Paso
+p010|10|V|El Paso|a cemetery outline 200 m south
+p010|11|N|the El Paso buildings start 250 m south
+p011|0|B 10 S|small hamlet along the road
+p011|1|B 80 N
+p011|2|B 100 E
+p011|3|B 30 W|edge of River Falls, river 60 m south
+p011|4|N|L steep valley edge
+p011|5|V|Warren
+p011|6|V|Warren
+p011|7|B 130 N
+p011|8|N|L modern buildings around the pin
+p011|9|V|Spring Valley
+p011|10|N|a slough about 50 m south|L old slough channel south of the pin
+p011|11|N
+p012|0|N|creek about 80 m north|L creek channel north of the pin
+p012|1|K 0|cemetery outline with a cross on the pin
+p012|2|N|a Carpenter label on the pin
+p012|3|S 105 W|M -100 -34|Plain label beside the symbol
+p012|4|N
