@@ -1,0 +1,165 @@
+{
+ "town": "Colby",
+ "id": "09521",
+ "year": "1884",
+ "c": [
+  -90.3157,
+  44.9097
+ ],
+ "r": 0.015,
+ "sheets": [
+  {
+   "f": "09521_1884-0001.jpg",
+   "clip": [
+    [
+     30,
+     355
+    ],
+    [
+     1600,
+     355
+    ],
+    [
+     1600,
+     1890
+    ],
+    [
+     30,
+     1890
+    ]
+   ],
+   "gcp": [
+    [
+     191,
+     634,
+     "2nd|Second",
+     "Spence"
+    ],
+    [
+     191,
+     1469,
+     "2nd|Second",
+     "=West Clark Street"
+    ],
+    [
+     1142,
+     640,
+     "Division",
+     "Spence"
+    ],
+    [
+     1615,
+     640,
+     "Main",
+     "Spence"
+    ],
+    [
+     1142,
+     1264,
+     "Division",
+     "=East Clark Street"
+    ],
+    [
+     1615,
+     1264,
+     "Main",
+     "=East Clark Street"
+    ],
+    [
+     1615,
+     1818,
+     "Main",
+     "Graves"
+    ],
+    [
+     1142,
+     1818,
+     "Division",
+     "Graves"
+    ]
+   ],
+   "feat": [
+    [
+     81,
+     530,
+     "Town hall",
+     -90.318207,
+     44.909736
+    ],
+    [
+     252,
+     725,
+     "Post office",
+     -90.317746,
+     44.909383
+    ],
+    [
+     274,
+     1591,
+     "Methodist church",
+     -90.31762,
+     44.907772
+    ],
+    [
+     636,
+     1162,
+     "Colby House hotel",
+     -90.316709,
+     44.908591
+    ],
+    [
+     651,
+     1036,
+     "Hotel",
+     -90.31668,
+     44.908827
+    ],
+    [
+     96,
+     1147,
+     "Temperance house",
+     -90.318119,
+     44.908589
+    ],
+    [
+     1228,
+     1310,
+     "Commercial House hotel",
+     -90.315153,
+     44.908349
+    ],
+    [
+     932,
+     777,
+     "Wisconsin Central passenger depot",
+     -90.315967,
+     44.909324
+    ],
+    [
+     1288,
+     1228,
+     "M. P. Peterson's wagon shop",
+     -90.315003,
+     44.908505
+    ]
+   ],
+   "T": [
+    0.20571814099078195,
+    0.006241325386442167,
+    -217.64937352780845,
+    112.51143293370386
+   ]
+  }
+ ],
+ "note": "1884 east-side names: Graves = today's Spence, Broadway = today's East Clark, Marathon = today's East Graves. Mills at the top of the sheet (D. J. Thomas, Colby Mills, Wescott) are separate panels and not drawn.",
+ "b": [
+  -90.31835,
+  -90.31414,
+  44.9072,
+  44.91015
+ ],
+ "px": [
+  1330,
+  1302
+ ]
+}

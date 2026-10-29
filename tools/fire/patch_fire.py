@@ -12,7 +12,7 @@ a="if(saved==='1' && GM.type==='default') gmSetType('plat1913'); else v13(); gmS
 assert h.count(a)==1, 'plat block anchor not found'
 h=h.replace(a,a+blk,1); open(page,'w').write(h)
 d=open(data).read()
-d=re.sub(r'\n// fire-map pins \(sf-\).*\n','\n',d)
+d=re.sub(r'\n// fire-map pins \(sf-\)[^\n]*\nDATA\.points\.push\([^\n]*\n','\n',d)
 d=d.rstrip('\n')+'\n// fire-map pins (sf-): buildings read from the oldest Sanborn map of each town\nDATA.points.push(...'+json.dumps(F['pins'],separators=(',',':'),ensure_ascii=False)+');\n'
 open(data,'w').write(d)
 print('ok',len(fire),'maps',len(F['pins']),'pins')
