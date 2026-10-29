@@ -7,6 +7,297 @@
   44.8452
  ],
  "r": 0.015,
- "sheets": [],
- "note": "Not fitted yet: street order on the sheet does not match today's names (renamed or renumbered streets); needs a closer look."
+ "sheets": [
+  {
+   "f": "09705_1900-0001.jpg",
+   "clip": [
+    [
+     443,
+     0
+    ],
+    [
+     1613,
+     0
+    ],
+    [
+     1613,
+     1913
+    ],
+    [
+     0,
+     1913
+    ],
+    [
+     0,
+     453
+    ],
+    [
+     443,
+     453
+    ]
+   ],
+   "gcp": [
+    [
+     443,
+     485,
+     "Newman",
+     "=1st Street"
+    ],
+    [
+     850,
+     485,
+     "McKay",
+     "=1st Street"
+    ],
+    [
+     1236,
+     485,
+     "Sabin",
+     "=1st Street"
+    ],
+    [
+     443,
+     1172,
+     "Newman",
+     "=South 2nd Street"
+    ],
+    [
+     850,
+     1172,
+     "McKay",
+     "=South 2nd Street"
+    ],
+    [
+     1236,
+     1172,
+     "Sabin",
+     "=South 2nd Street"
+    ],
+    [
+     443,
+     1843,
+     "Newman",
+     "=South 3rd Street"
+    ],
+    [
+     850,
+     1843,
+     "McKay",
+     "=South 3rd Street"
+    ]
+   ],
+   "feat": [
+    [
+     159,
+     1017,
+     "Railroad depot",
+     -92.24018,
+     44.845543
+    ],
+    [
+     874,
+     715,
+     "Commercial Hotel",
+     -92.238338,
+     44.846161
+    ],
+    [
+     588,
+     580,
+     "Livery",
+     -92.239101,
+     44.846392
+    ],
+    [
+     747,
+     1223,
+     "Opera house",
+     -92.238618,
+     44.845201
+    ],
+    [
+     747,
+     1438,
+     "Post office",
+     -92.238595,
+     44.844799
+    ],
+    [
+     1112,
+     1302,
+     "Public school",
+     -92.237653,
+     44.84508
+    ],
+    [
+     913,
+     1096,
+     "Bank",
+     -92.238196,
+     44.845451
+    ],
+    [
+     334,
+     1478,
+     "Lumber yard",
+     -92.239673,
+     44.844693
+    ]
+   ],
+   "T": [
+    0.20685552076348507,
+    0.008228360005042207,
+    -150.18422234123696,
+    246.9462345216797
+   ]
+  },
+  {
+   "f": "09705_1900-0002.jpg",
+   "clip": [
+    [
+     0,
+     0
+    ],
+    [
+     1613,
+     0
+    ],
+    [
+     1613,
+     1009
+    ],
+    [
+     1271,
+     1009
+    ],
+    [
+     1144,
+     834
+    ],
+    [
+     747,
+     834
+    ],
+    [
+     747,
+     1184
+    ],
+    [
+     0,
+     1184
+    ]
+   ],
+   "gcp": [
+    [
+     426,
+     72,
+     "Newman",
+     "=South 3rd Street"
+    ],
+    [
+     830,
+     72,
+     "McKay",
+     "=South 3rd Street"
+    ],
+    [
+     1252,
+     72,
+     "Sabin",
+     "=South 3rd Street"
+    ],
+    [
+     426,
+     421,
+     "Newman",
+     "Akers"
+    ],
+    [
+     830,
+     421,
+     "McKay",
+     "Akers"
+    ],
+    [
+     1252,
+     421,
+     "Sabin",
+     "Akers"
+    ],
+    [
+     399,
+     766,
+     "Newman",
+     "Central"
+    ],
+    [
+     1252,
+     766,
+     "Sabin",
+     "Central"
+    ]
+   ],
+   "feat": [
+    [
+     238,
+     167,
+     "Congregational church",
+     -92.239832,
+     44.843868
+    ],
+    [
+     254,
+     262,
+     "Northern Grain Co. elevator",
+     -92.239793,
+     44.843691
+    ],
+    [
+     668,
+     262,
+     "Tanberg Bros. grain elevator",
+     -92.238719,
+     44.843686
+    ],
+    [
+     525,
+     612,
+     "Tanberg Bros. lumber yard",
+     -92.239096,
+     44.843039
+    ],
+    [
+     1319,
+     382,
+     "Town hall",
+     -92.237032,
+     44.843454
+    ],
+    [
+     1319,
+     453,
+     "Water works pump house",
+     -92.237034,
+     44.843323
+    ]
+   ],
+   "T": [
+    0.20475475292383155,
+    -0.001563832851208746,
+    -129.93912613308638,
+    -112.71443727826853
+   ]
+  }
+ ],
+ "note": "Renumbered streets: the 1900 3rd, 2nd and 1st Sts are today's 1st St, S. 2nd St and S. 3rd St, and Harrison Ave is the south end of Newman Ave. The creamery, furnace, spoke works and bending works panels are not drawn.",
+ "b": [
+  -92.24066,
+  -92.23626,
+  44.84198,
+  44.84755
+ ],
+ "px": [
+  1387,
+  2466
+ ]
 }

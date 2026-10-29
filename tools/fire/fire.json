@@ -14,6 +14,20 @@
 "item": "sanborn09479_001"
 },
 {
+"bn": "fb3",
+"id": "arcadia",
+"town": "Arcadia",
+"label": "Arcadia 1894",
+"b": [
+-91.5057,
+-91.4962,
+44.25024,
+44.25415
+],
+"f": "fire_arcadia_1894",
+"item": "sanborn09484_001"
+},
+{
 "id": "augusta",
 "town": "Augusta",
 "label": "Augusta 1894",
@@ -106,6 +120,20 @@
 ],
 "f": "fire_boyd_1894",
 "item": "sanborn09506_001"
+},
+{
+"bn": "fb3",
+"id": "cadott",
+"town": "Cadott",
+"label": "Cadott 1894",
+"b": [
+-91.15391,
+-91.1469,
+44.94495,
+44.95592
+],
+"f": "fire_cadott_1894",
+"item": "sanborn09511_001"
 },
 {
 "id": "chippewa-falls",
@@ -252,6 +280,20 @@
 "item": "sanborn09562_001"
 },
 {
+"bn": "fb3",
+"id": "greenwood",
+"town": "Greenwood",
+"label": "Greenwood 1894",
+"b": [
+-90.59918,
+-90.59696,
+44.76441,
+44.77077
+],
+"f": "fire_greenwood_1894",
+"item": "sanborn09567_001"
+},
+{
 "bn": "fb2",
 "id": "hammond",
 "town": "Hammond",
@@ -319,6 +361,20 @@
 "item": "sanborn09617_001"
 },
 {
+"bn": "fb3",
+"id": "merrillan",
+"town": "Merrillan",
+"label": "Merrillan 1904",
+"b": [
+-90.84289,
+-90.83868,
+44.44962,
+44.45319
+],
+"f": "fire_merrillan_1904",
+"item": "sanborn09620_001"
+},
+{
 "id": "neillsville",
 "town": "Neillsville",
 "label": "Neillsville 1887",
@@ -384,6 +440,20 @@
 "item": "sanborn09686_001"
 },
 {
+"bn": "fb3",
+"id": "spring-valley",
+"town": "Spring Valley",
+"label": "Spring Valley 1900",
+"b": [
+-92.24066,
+-92.23626,
+44.84198,
+44.84755
+],
+"f": "fire_spring_valley_1900",
+"item": "sanborn09705_001"
+},
+{
 "id": "st-croix-falls",
 "town": "St. Croix Falls",
 "label": "St. Croix Falls 1885",
@@ -395,6 +465,20 @@
 ],
 "f": "fire_st_croix_falls_1885",
 "item": "sanborn09689_001"
+},
+{
+"bn": "fb3",
+"id": "stanley",
+"town": "Stanley",
+"label": "Stanley 1895",
+"b": [
+-90.94184,
+-90.93282,
+44.95882,
+44.96336
+],
+"f": "fire_stanley_1895",
+"item": "sanborn09706_001"
 },
 {
 "bn": "fb2",
@@ -759,6 +843,398 @@
 "pinconf": "A",
 "pinev": [
 "Placed from the 1894 fire map, sheet 1: the sheet was fitted to 8 street crossings that still exist (fit error 1.7 m), so the pin is good to about 6 m."
+],
+"sf": 1
+},
+{
+"id": "sf-arcadia-calaboose-village-jail",
+"L": "gather",
+"n": "Calaboose (village jail), Arcadia (1894 fire map)",
+"la": 44.252186,
+"lo": -91.503237,
+"y": "By 1894",
+"pl": "Arcadia, Trempealeau County",
+"co": "Trempealeau",
+"stt": "WI",
+"v": "Coins, tokens, tools, buttons",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1894 Sanborn fire insurance map of Arcadia draws this building (Calaboose (village jail)) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Arcadia, Trempealeau County, Wisconsin (Sanborn Map & Publishing Co., 1894), Library of Congress",
+"https://www.loc.gov/item/sanborn09484_001/"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the 1894 fire map, sheet 1: the sheet was fitted to 8 street crossings that still exist (fit error 2.7 m), so the pin is good to about 8 m."
+],
+"sf": 1
+},
+{
+"id": "sf-arcadia-mineral-water-works",
+"L": "gather",
+"n": "Mineral water works, Arcadia (1894 fire map)",
+"la": 44.25268,
+"lo": -91.502428,
+"y": "By 1894",
+"pl": "Arcadia, Trempealeau County",
+"co": "Trempealeau",
+"stt": "WI",
+"v": "Coins, tokens, tools, buttons",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1894 Sanborn fire insurance map of Arcadia draws this building (Mineral water works) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Arcadia, Trempealeau County, Wisconsin (Sanborn Map & Publishing Co., 1894), Library of Congress",
+"https://www.loc.gov/item/sanborn09484_001/"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the 1894 fire map, sheet 1: the sheet was fitted to 8 street crossings that still exist (fit error 2.7 m), so the pin is good to about 8 m."
+],
+"sf": 1
+},
+{
+"id": "sf-arcadia-commercial-house-hotel",
+"L": "gather",
+"n": "Commercial House hotel, Arcadia (1894 fire map)",
+"la": 44.253612,
+"lo": -91.501187,
+"y": "By 1894",
+"pl": "Arcadia, Trempealeau County",
+"co": "Trempealeau",
+"stt": "WI",
+"v": "Coins, tokens, buttons, jewelry, bottle and harness parts",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1894 Sanborn fire insurance map of Arcadia draws this building (Commercial House hotel) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Arcadia, Trempealeau County, Wisconsin (Sanborn Map & Publishing Co., 1894), Library of Congress",
+"https://www.loc.gov/item/sanborn09484_001/"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the 1894 fire map, sheet 1: the sheet was fitted to 8 street crossings that still exist (fit error 2.7 m), so the pin is good to about 8 m."
+],
+"sf": 1
+},
+{
+"id": "sf-arcadia-grossman-s-hotel-and-hall",
+"L": "gather",
+"n": "Grossman's Hotel and hall, Arcadia (1894 fire map)",
+"la": 44.252341,
+"lo": -91.500506,
+"y": "By 1894",
+"pl": "Arcadia, Trempealeau County",
+"co": "Trempealeau",
+"stt": "WI",
+"v": "Coins, tokens, buttons, jewelry, bottle and harness parts",
+"c": "documented",
+"s": "unknown",
+"p": "approx",
+"st": "The 1894 Sanborn fire insurance map of Arcadia draws this building (Grossman's Hotel and hall) on sheet 2. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Arcadia, Trempealeau County, Wisconsin (Sanborn Map & Publishing Co., 1894), Library of Congress",
+"https://www.loc.gov/item/sanborn09484_001/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the 1894 fire map, sheet 2. Washington St has been rerouted at Main since 1894, so this sheet was tied to sheet 1 at the depot and engine house, which both sheets draw; the pin is good to about 10 m."
+],
+"sf": 1
+},
+{
+"id": "sf-arcadia-city-hall-and-engine-house",
+"L": "gather",
+"n": "City hall and engine house, Arcadia (1894 fire map)",
+"la": 44.252488,
+"lo": -91.500907,
+"y": "By 1894",
+"pl": "Arcadia, Trempealeau County",
+"co": "Trempealeau",
+"stt": "WI",
+"v": "Coins, tokens, buttons, jewelry, bottle and harness parts",
+"c": "documented",
+"s": "unknown",
+"p": "approx",
+"st": "The 1894 Sanborn fire insurance map of Arcadia draws this building (City hall and engine house) on sheet 2. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Arcadia, Trempealeau County, Wisconsin (Sanborn Map & Publishing Co., 1894), Library of Congress",
+"https://www.loc.gov/item/sanborn09484_001/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the 1894 fire map, sheet 2. Washington St has been rerouted at Main since 1894, so this sheet was tied to sheet 1 at the depot and engine house, which both sheets draw; the pin is good to about 10 m."
+],
+"sf": 1
+},
+{
+"id": "sf-arcadia-passenger-depot",
+"L": "gather",
+"n": "Passenger depot, Arcadia (1894 fire map)",
+"la": 44.252863,
+"lo": -91.500811,
+"y": "By 1894",
+"pl": "Arcadia, Trempealeau County",
+"co": "Trempealeau",
+"stt": "WI",
+"v": "Coins, tokens, buttons, jewelry, bottle and harness parts",
+"c": "documented",
+"s": "unknown",
+"p": "approx",
+"st": "The 1894 Sanborn fire insurance map of Arcadia draws this building (Passenger depot) on sheet 2. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Arcadia, Trempealeau County, Wisconsin (Sanborn Map & Publishing Co., 1894), Library of Congress",
+"https://www.loc.gov/item/sanborn09484_001/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the 1894 fire map, sheet 2. Washington St has been rerouted at Main since 1894, so this sheet was tied to sheet 1 at the depot and engine house, which both sheets draw; the pin is good to about 10 m."
+],
+"sf": 1
+},
+{
+"id": "sf-arcadia-arcadia-hall",
+"L": "gather",
+"n": "Arcadia Hall, Arcadia (1894 fire map)",
+"la": 44.252148,
+"lo": -91.500872,
+"y": "By 1894",
+"pl": "Arcadia, Trempealeau County",
+"co": "Trempealeau",
+"stt": "WI",
+"v": "Coins, tokens, buttons, jewelry, bottle and harness parts",
+"c": "documented",
+"s": "unknown",
+"p": "approx",
+"st": "The 1894 Sanborn fire insurance map of Arcadia draws this building (Arcadia Hall) on sheet 2. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Arcadia, Trempealeau County, Wisconsin (Sanborn Map & Publishing Co., 1894), Library of Congress",
+"https://www.loc.gov/item/sanborn09484_001/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the 1894 fire map, sheet 2. Washington St has been rerouted at Main since 1894, so this sheet was tied to sheet 1 at the depot and engine house, which both sheets draw; the pin is good to about 10 m."
+],
+"sf": 1
+},
+{
+"id": "sf-arcadia-livery",
+"L": "gather",
+"n": "Livery, Arcadia (1894 fire map)",
+"la": 44.251923,
+"lo": -91.500083,
+"y": "By 1894",
+"pl": "Arcadia, Trempealeau County",
+"co": "Trempealeau",
+"stt": "WI",
+"v": "Coins, tokens, buttons, jewelry, bottle and harness parts",
+"c": "documented",
+"s": "unknown",
+"p": "approx",
+"st": "The 1894 Sanborn fire insurance map of Arcadia draws this building (Livery) on sheet 2. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Arcadia, Trempealeau County, Wisconsin (Sanborn Map & Publishing Co., 1894), Library of Congress",
+"https://www.loc.gov/item/sanborn09484_001/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the 1894 fire map, sheet 2. Washington St has been rerouted at Main since 1894, so this sheet was tied to sheet 1 at the depot and engine house, which both sheets draw; the pin is good to about 10 m."
+],
+"sf": 1
+},
+{
+"id": "sf-arcadia-bank",
+"L": "gather",
+"n": "Bank, Arcadia (1894 fire map)",
+"la": 44.25234,
+"lo": -91.499803,
+"y": "By 1894",
+"pl": "Arcadia, Trempealeau County",
+"co": "Trempealeau",
+"stt": "WI",
+"v": "Coins, tokens, tools, buttons",
+"c": "documented",
+"s": "unknown",
+"p": "approx",
+"st": "The 1894 Sanborn fire insurance map of Arcadia draws this building (Bank) on sheet 2. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Arcadia, Trempealeau County, Wisconsin (Sanborn Map & Publishing Co., 1894), Library of Congress",
+"https://www.loc.gov/item/sanborn09484_001/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the 1894 fire map, sheet 2. Washington St has been rerouted at Main since 1894, so this sheet was tied to sheet 1 at the depot and engine house, which both sheets draw; the pin is good to about 10 m."
+],
+"sf": 1
+},
+{
+"id": "sf-arcadia-post-office",
+"L": "gather",
+"n": "Post office, Arcadia (1894 fire map)",
+"la": 44.252342,
+"lo": -91.499735,
+"y": "By 1894",
+"pl": "Arcadia, Trempealeau County",
+"co": "Trempealeau",
+"stt": "WI",
+"v": "Coins, tokens, tools, buttons",
+"c": "documented",
+"s": "unknown",
+"p": "approx",
+"st": "The 1894 Sanborn fire insurance map of Arcadia draws this building (Post office) on sheet 2. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Arcadia, Trempealeau County, Wisconsin (Sanborn Map & Publishing Co., 1894), Library of Congress",
+"https://www.loc.gov/item/sanborn09484_001/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the 1894 fire map, sheet 2. Washington St has been rerouted at Main since 1894, so this sheet was tied to sheet 1 at the depot and engine house, which both sheets draw; the pin is good to about 10 m."
+],
+"sf": 1
+},
+{
+"id": "sf-arcadia-mineral-springs-hotel",
+"L": "gather",
+"n": "Mineral Springs Hotel, Arcadia (1894 fire map)",
+"la": 44.25274,
+"lo": -91.499635,
+"y": "By 1894",
+"pl": "Arcadia, Trempealeau County",
+"co": "Trempealeau",
+"stt": "WI",
+"v": "Coins, tokens, buttons, jewelry, bottle and harness parts",
+"c": "documented",
+"s": "unknown",
+"p": "approx",
+"st": "The 1894 Sanborn fire insurance map of Arcadia draws this building (Mineral Springs Hotel) on sheet 2. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Arcadia, Trempealeau County, Wisconsin (Sanborn Map & Publishing Co., 1894), Library of Congress",
+"https://www.loc.gov/item/sanborn09484_001/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the 1894 fire map, sheet 2. Washington St has been rerouted at Main since 1894, so this sheet was tied to sheet 1 at the depot and engine house, which both sheets draw; the pin is good to about 10 m."
+],
+"sf": 1
+},
+{
+"id": "sf-arcadia-old-foundry",
+"L": "gather",
+"n": "Old foundry, Arcadia (1894 fire map)",
+"la": 44.252829,
+"lo": -91.499994,
+"y": "By 1894",
+"pl": "Arcadia, Trempealeau County",
+"co": "Trempealeau",
+"stt": "WI",
+"v": "Coins, tokens, tools, buttons",
+"c": "documented",
+"s": "unknown",
+"p": "approx",
+"st": "The 1894 Sanborn fire insurance map of Arcadia draws this building (Old foundry) on sheet 2. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Arcadia, Trempealeau County, Wisconsin (Sanborn Map & Publishing Co., 1894), Library of Congress",
+"https://www.loc.gov/item/sanborn09484_001/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the 1894 fire map, sheet 2. Washington St has been rerouted at Main since 1894, so this sheet was tied to sheet 1 at the depot and engine house, which both sheets draw; the pin is good to about 10 m."
+],
+"sf": 1
+},
+{
+"id": "sf-arcadia-cigar-factory",
+"L": "gather",
+"n": "Cigar factory, Arcadia (1894 fire map)",
+"la": 44.251936,
+"lo": -91.499512,
+"y": "By 1894",
+"pl": "Arcadia, Trempealeau County",
+"co": "Trempealeau",
+"stt": "WI",
+"v": "Coins, tokens, tools, buttons",
+"c": "documented",
+"s": "unknown",
+"p": "approx",
+"st": "The 1894 Sanborn fire insurance map of Arcadia draws this building (Cigar factory) on sheet 2. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Arcadia, Trempealeau County, Wisconsin (Sanborn Map & Publishing Co., 1894), Library of Congress",
+"https://www.loc.gov/item/sanborn09484_001/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the 1894 fire map, sheet 2. Washington St has been rerouted at Main since 1894, so this sheet was tied to sheet 1 at the depot and engine house, which both sheets draw; the pin is good to about 10 m."
+],
+"sf": 1
+},
+{
+"id": "sf-arcadia-w-w-cargill-grain-warehouse",
+"L": "gather",
+"n": "W. W. Cargill grain warehouse, Arcadia (1894 fire map)",
+"la": 44.253075,
+"lo": -91.500184,
+"y": "By 1894",
+"pl": "Arcadia, Trempealeau County",
+"co": "Trempealeau",
+"stt": "WI",
+"v": "Coins, tokens, buttons, jewelry, bottle and harness parts",
+"c": "documented",
+"s": "unknown",
+"p": "approx",
+"st": "The 1894 Sanborn fire insurance map of Arcadia draws this building (W. W. Cargill grain warehouse) on sheet 2. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Arcadia, Trempealeau County, Wisconsin (Sanborn Map & Publishing Co., 1894), Library of Congress",
+"https://www.loc.gov/item/sanborn09484_001/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the 1894 fire map, sheet 2. Washington St has been rerouted at Main since 1894, so this sheet was tied to sheet 1 at the depot and engine house, which both sheets draw; the pin is good to about 10 m."
 ],
 "sf": 1
 },
@@ -2891,6 +3367,342 @@
 "sf": 1
 },
 {
+"id": "sf-cadott-catholic-church",
+"L": "gather",
+"n": "Catholic church, Cadott (1894 fire map)",
+"la": 44.949301,
+"lo": -91.152091,
+"y": "By 1894",
+"pl": "Cadott, Chippewa County",
+"co": "Chippewa",
+"stt": "WI",
+"v": "Coins, religious medals, jewelry, buttons",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1894 Sanborn fire insurance map of Cadott draws this building (Catholic church) on sheet 2. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Cadott, Chippewa County, Wisconsin (Sanborn Map & Publishing Co., 1894), Library of Congress",
+"https://www.loc.gov/item/sanborn09511_001/"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the 1894 fire map, sheet 2: the sheet was fitted to 10 street crossings that still exist (fit error 2.6 m), so the pin is good to about 8 m."
+],
+"sf": 1
+},
+{
+"id": "sf-cadott-cadott-house-hotel",
+"L": "gather",
+"n": "Cadott House hotel, Cadott (1894 fire map)",
+"la": 44.948979,
+"lo": -91.152092,
+"y": "By 1894",
+"pl": "Cadott, Chippewa County",
+"co": "Chippewa",
+"stt": "WI",
+"v": "Coins, tokens, buttons, jewelry, bottle and harness parts",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1894 Sanborn fire insurance map of Cadott draws this building (Cadott House hotel) on sheet 2. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Cadott, Chippewa County, Wisconsin (Sanborn Map & Publishing Co., 1894), Library of Congress",
+"https://www.loc.gov/item/sanborn09511_001/"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the 1894 fire map, sheet 2: the sheet was fitted to 10 street crossings that still exist (fit error 2.6 m), so the pin is good to about 8 m."
+],
+"sf": 1
+},
+{
+"id": "sf-cadott-union-house-hotel",
+"L": "gather",
+"n": "Union House hotel, Cadott (1894 fire map)",
+"la": 44.948921,
+"lo": -91.150889,
+"y": "By 1894",
+"pl": "Cadott, Chippewa County",
+"co": "Chippewa",
+"stt": "WI",
+"v": "Coins, tokens, buttons, jewelry, bottle and harness parts",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1894 Sanborn fire insurance map of Cadott draws this building (Union House hotel) on sheet 2. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Cadott, Chippewa County, Wisconsin (Sanborn Map & Publishing Co., 1894), Library of Congress",
+"https://www.loc.gov/item/sanborn09511_001/"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the 1894 fire map, sheet 2: the sheet was fitted to 10 street crossings that still exist (fit error 2.6 m), so the pin is good to about 8 m."
+],
+"sf": 1
+},
+{
+"id": "sf-cadott-commercial-house-hotel",
+"L": "gather",
+"n": "Commercial House hotel, Cadott (1894 fire map)",
+"la": 44.947958,
+"lo": -91.150863,
+"y": "By 1894",
+"pl": "Cadott, Chippewa County",
+"co": "Chippewa",
+"stt": "WI",
+"v": "Coins, tokens, buttons, jewelry, bottle and harness parts",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1894 Sanborn fire insurance map of Cadott draws this building (Commercial House hotel) on sheet 2. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Cadott, Chippewa County, Wisconsin (Sanborn Map & Publishing Co., 1894), Library of Congress",
+"https://www.loc.gov/item/sanborn09511_001/"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the 1894 fire map, sheet 2: the sheet was fitted to 10 street crossings that still exist (fit error 2.6 m), so the pin is good to about 8 m."
+],
+"sf": 1
+},
+{
+"id": "sf-cadott-post-office",
+"L": "gather",
+"n": "Post office, Cadott (1894 fire map)",
+"la": 44.948363,
+"lo": -91.15089,
+"y": "By 1894",
+"pl": "Cadott, Chippewa County",
+"co": "Chippewa",
+"stt": "WI",
+"v": "Coins, tokens, tools, buttons",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1894 Sanborn fire insurance map of Cadott draws this building (Post office) on sheet 2. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Cadott, Chippewa County, Wisconsin (Sanborn Map & Publishing Co., 1894), Library of Congress",
+"https://www.loc.gov/item/sanborn09511_001/"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the 1894 fire map, sheet 2: the sheet was fitted to 10 street crossings that still exist (fit error 2.6 m), so the pin is good to about 8 m."
+],
+"sf": 1
+},
+{
+"id": "sf-cadott-lodge-rooms-over-a-general-store",
+"L": "gather",
+"n": "Lodge rooms over a general store, Cadott (1894 fire map)",
+"la": 44.948449,
+"lo": -91.150971,
+"y": "By 1894",
+"pl": "Cadott, Chippewa County",
+"co": "Chippewa",
+"stt": "WI",
+"v": "Coins, tokens, tools, buttons",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1894 Sanborn fire insurance map of Cadott draws this building (Lodge rooms over a general store) on sheet 2. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Cadott, Chippewa County, Wisconsin (Sanborn Map & Publishing Co., 1894), Library of Congress",
+"https://www.loc.gov/item/sanborn09511_001/"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the 1894 fire map, sheet 2: the sheet was fitted to 10 street crossings that still exist (fit error 2.6 m), so the pin is good to about 8 m."
+],
+"sf": 1
+},
+{
+"id": "sf-cadott-e-c-clark-hub-spoke-and-wagon-wood-works",
+"L": "gather",
+"n": "E. C. Clark hub, spoke and wagon wood works, Cadott (1894 fire map)",
+"la": 44.947539,
+"lo": -91.148013,
+"y": "By 1894",
+"pl": "Cadott, Chippewa County",
+"co": "Chippewa",
+"stt": "WI",
+"v": "Coins, tokens, tools, buttons",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1894 Sanborn fire insurance map of Cadott draws this building (E. C. Clark hub, spoke and wagon wood works) on sheet 3. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Cadott, Chippewa County, Wisconsin (Sanborn Map & Publishing Co., 1894), Library of Congress",
+"https://www.loc.gov/item/sanborn09511_001/"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the 1894 fire map, sheet 3: the sheet was fitted to 4 street crossings that still exist (fit error 2.1 m), so the pin is good to about 7 m."
+],
+"sf": 1
+},
+{
+"id": "sf-cadott-opera-house",
+"L": "gather",
+"n": "Opera house, Cadott (1894 fire map)",
+"la": 44.946243,
+"lo": -91.150005,
+"y": "By 1894",
+"pl": "Cadott, Chippewa County",
+"co": "Chippewa",
+"stt": "WI",
+"v": "Coins, tokens, buttons, jewelry, bottle and harness parts",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1894 Sanborn fire insurance map of Cadott draws this building (Opera house) on sheet 3. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Cadott, Chippewa County, Wisconsin (Sanborn Map & Publishing Co., 1894), Library of Congress",
+"https://www.loc.gov/item/sanborn09511_001/"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the 1894 fire map, sheet 3: the sheet was fitted to 4 street crossings that still exist (fit error 2.1 m), so the pin is good to about 7 m."
+],
+"sf": 1
+},
+{
+"id": "sf-cadott-w-s-monroe-saw-and-planing-mill",
+"L": "gather",
+"n": "W. S. Monroe saw and planing mill, Cadott (1894 fire map)",
+"la": 44.945671,
+"lo": -91.150198,
+"y": "By 1894",
+"pl": "Cadott, Chippewa County",
+"co": "Chippewa",
+"stt": "WI",
+"v": "Coins, tokens, tools, buttons",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1894 Sanborn fire insurance map of Cadott draws this building (W. S. Monroe saw and planing mill) on sheet 3. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Cadott, Chippewa County, Wisconsin (Sanborn Map & Publishing Co., 1894), Library of Congress",
+"https://www.loc.gov/item/sanborn09511_001/"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the 1894 fire map, sheet 3: the sheet was fitted to 4 street crossings that still exist (fit error 2.1 m), so the pin is good to about 7 m."
+],
+"sf": 1
+},
+{
+"id": "sf-cadott-cadott-stave-heading-co-mill",
+"L": "gather",
+"n": "Cadott Stave & Heading Co. mill, Cadott (1894 fire map)",
+"la": 44.955094,
+"lo": -91.149239,
+"y": "By 1894",
+"pl": "Cadott, Chippewa County",
+"co": "Chippewa",
+"stt": "WI",
+"v": "Coins, tokens, tools, buttons",
+"c": "documented",
+"s": "unknown",
+"p": "approx",
+"st": "The 1894 Sanborn fire insurance map of Cadott draws this building (Cadott Stave & Heading Co. mill) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Cadott, Chippewa County, Wisconsin (Sanborn Map & Publishing Co., 1894), Library of Congress",
+"https://www.loc.gov/item/sanborn09511_001/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the 1894 fire map, sheet 1: the sheet was fitted to 1 street crossing that still exists (fit error 0.0 m), so the pin is good to about 5 m."
+],
+"sf": 1
+},
+{
+"id": "sf-cadott-presbyterian-church",
+"L": "gather",
+"n": "Presbyterian church, Cadott (1894 fire map)",
+"la": 44.947604,
+"lo": -91.15282,
+"y": "By 1894",
+"pl": "Cadott, Chippewa County",
+"co": "Chippewa",
+"stt": "WI",
+"v": "Coins, religious medals, jewelry, buttons",
+"c": "documented",
+"s": "unknown",
+"p": "approx",
+"st": "The 1894 Sanborn fire insurance map of Cadott draws this building (Presbyterian church) on sheet 2. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Cadott, Chippewa County, Wisconsin (Sanborn Map & Publishing Co., 1894), Library of Congress",
+"https://www.loc.gov/item/sanborn09511_001/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from a small inset on sheet 2 of the 1894 fire map, fitted to the two street corners it shows (Pine and Maple at Ginty); the pin is good to about 15 m."
+],
+"sf": 1
+},
+{
+"id": "sf-cadott-methodist-episcopal-church",
+"L": "gather",
+"n": "Methodist Episcopal church, Cadott (1894 fire map)",
+"la": 44.947625,
+"lo": -91.152083,
+"y": "By 1894",
+"pl": "Cadott, Chippewa County",
+"co": "Chippewa",
+"stt": "WI",
+"v": "Coins, religious medals, jewelry, buttons",
+"c": "documented",
+"s": "unknown",
+"p": "approx",
+"st": "The 1894 Sanborn fire insurance map of Cadott draws this building (Methodist Episcopal church) on sheet 2. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Cadott, Chippewa County, Wisconsin (Sanborn Map & Publishing Co., 1894), Library of Congress",
+"https://www.loc.gov/item/sanborn09511_001/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from a small inset on sheet 2 of the 1894 fire map, fitted to the two street corners it shows (Pine and Maple at Ginty); the pin is good to about 15 m."
+],
+"sf": 1
+},
+{
 "id": "sf-chippewa-falls-chippewa-county-courthouse-1883",
 "L": "gather",
 "n": "Chippewa County courthouse (1883), Chippewa Falls (1883 fire map)",
@@ -3558,7 +4370,7 @@
 ],
 "pinconf": "B",
 "pinev": [
-"Placed from the 1883 fire map, sheet 4: the sheet was fitted to 1 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+"Placed from the 1883 fire map, sheet 4: the sheet was fitted to 1 street crossing that still exists (fit error 0.0 m), so the pin is good to about 5 m."
 ],
 "sf": 1
 },
@@ -3586,7 +4398,7 @@
 ],
 "pinconf": "B",
 "pinev": [
-"Placed from the 1883 fire map, sheet 4: the sheet was fitted to 1 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+"Placed from the 1883 fire map, sheet 4: the sheet was fitted to 1 street crossing that still exists (fit error 0.0 m), so the pin is good to about 5 m."
 ],
 "sf": 1
 },
@@ -3614,7 +4426,7 @@
 ],
 "pinconf": "B",
 "pinev": [
-"Placed from the 1883 fire map, sheet 4: the sheet was fitted to 1 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+"Placed from the 1883 fire map, sheet 4: the sheet was fitted to 1 street crossing that still exists (fit error 0.0 m), so the pin is good to about 5 m."
 ],
 "sf": 1
 },
@@ -3642,7 +4454,7 @@
 ],
 "pinconf": "B",
 "pinev": [
-"Placed from the 1883 fire map, sheet 4: the sheet was fitted to 1 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+"Placed from the 1883 fire map, sheet 4: the sheet was fitted to 1 street crossing that still exists (fit error 0.0 m), so the pin is good to about 5 m."
 ],
 "sf": 1
 },
@@ -3670,7 +4482,7 @@
 ],
 "pinconf": "B",
 "pinev": [
-"Placed from the 1883 fire map, sheet 4: the sheet was fitted to 1 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+"Placed from the 1883 fire map, sheet 4: the sheet was fitted to 1 street crossing that still exists (fit error 0.0 m), so the pin is good to about 5 m."
 ],
 "sf": 1
 },
@@ -3698,7 +4510,7 @@
 ],
 "pinconf": "B",
 "pinev": [
-"Placed from the 1883 fire map, sheet 4: the sheet was fitted to 1 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+"Placed from the 1883 fire map, sheet 4: the sheet was fitted to 1 street crossing that still exists (fit error 0.0 m), so the pin is good to about 5 m."
 ],
 "sf": 1
 },
@@ -3726,7 +4538,7 @@
 ],
 "pinconf": "B",
 "pinev": [
-"Placed from the 1883 fire map, sheet 4: the sheet was fitted to 1 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+"Placed from the 1883 fire map, sheet 4: the sheet was fitted to 1 street crossing that still exists (fit error 0.0 m), so the pin is good to about 5 m."
 ],
 "sf": 1
 },
@@ -3754,7 +4566,7 @@
 ],
 "pinconf": "A",
 "pinev": [
-"Placed from the 1883 fire map, sheet 5: the sheet was fitted to 2 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+"Placed from the 1883 fire map, sheet 5: the sheet was fitted to 3 street crossings that still exist (fit error 0.2 m), so the pin is good to about 5 m."
 ],
 "sf": 1
 },
@@ -3782,7 +4594,7 @@
 ],
 "pinconf": "A",
 "pinev": [
-"Placed from the 1883 fire map, sheet 5: the sheet was fitted to 2 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+"Placed from the 1883 fire map, sheet 5: the sheet was fitted to 3 street crossings that still exist (fit error 0.2 m), so the pin is good to about 5 m."
 ],
 "sf": 1
 },
@@ -3810,7 +4622,7 @@
 ],
 "pinconf": "A",
 "pinev": [
-"Placed from the 1883 fire map, sheet 5: the sheet was fitted to 2 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+"Placed from the 1883 fire map, sheet 5: the sheet was fitted to 3 street crossings that still exist (fit error 0.2 m), so the pin is good to about 5 m."
 ],
 "sf": 1
 },
@@ -3838,7 +4650,7 @@
 ],
 "pinconf": "A",
 "pinev": [
-"Placed from the 1883 fire map, sheet 5: the sheet was fitted to 2 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+"Placed from the 1883 fire map, sheet 5: the sheet was fitted to 3 street crossings that still exist (fit error 0.2 m), so the pin is good to about 5 m."
 ],
 "sf": 1
 },
@@ -3866,7 +4678,7 @@
 ],
 "pinconf": "A",
 "pinev": [
-"Placed from the 1883 fire map, sheet 5: the sheet was fitted to 2 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+"Placed from the 1883 fire map, sheet 5: the sheet was fitted to 3 street crossings that still exist (fit error 0.2 m), so the pin is good to about 5 m."
 ],
 "sf": 1
 },
@@ -4163,7 +4975,7 @@
 "v": "Coins, tokens, buttons, jewelry, bottle and harness parts",
 "c": "documented",
 "s": "unknown",
-"p": "exact",
+"p": "approx",
 "st": "The 1893 Sanborn fire insurance map of Cumberland draws this building (Hotel Cumberland) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
 "t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
 "src": [
@@ -4172,9 +4984,9 @@
 "https://www.loc.gov/item/sanborn09525_001/"
 ]
 ],
-"pinconf": "A",
+"pinconf": "B",
 "pinev": [
-"Placed from the 1893 fire map, sheet 1: the sheet was fitted to 6 street crossings that still exist (fit error 2.2 m), so the pin is good to about 7 m."
+"Placed from the 1893 fire map, sheet 1: the sheet was fitted to 5 street crossings that still exist (fit error 3.7 m), so the pin is good to about 10 m."
 ],
 "sf": 1
 },
@@ -4191,7 +5003,7 @@
 "v": "Coins, tokens, buttons, jewelry, bottle and harness parts",
 "c": "documented",
 "s": "unknown",
-"p": "exact",
+"p": "approx",
 "st": "The 1893 Sanborn fire insurance map of Cumberland draws this building (Commercial Hotel) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
 "t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
 "src": [
@@ -4200,9 +5012,9 @@
 "https://www.loc.gov/item/sanborn09525_001/"
 ]
 ],
-"pinconf": "A",
+"pinconf": "B",
 "pinev": [
-"Placed from the 1893 fire map, sheet 1: the sheet was fitted to 6 street crossings that still exist (fit error 2.2 m), so the pin is good to about 7 m."
+"Placed from the 1893 fire map, sheet 1: the sheet was fitted to 5 street crossings that still exist (fit error 3.7 m), so the pin is good to about 10 m."
 ],
 "sf": 1
 },
@@ -4219,7 +5031,7 @@
 "v": "Coins, tokens, buttons, jewelry, bottle and harness parts",
 "c": "documented",
 "s": "unknown",
-"p": "exact",
+"p": "approx",
 "st": "The 1893 Sanborn fire insurance map of Cumberland draws this building (Livery) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
 "t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
 "src": [
@@ -4228,9 +5040,9 @@
 "https://www.loc.gov/item/sanborn09525_001/"
 ]
 ],
-"pinconf": "A",
+"pinconf": "B",
 "pinev": [
-"Placed from the 1893 fire map, sheet 1: the sheet was fitted to 6 street crossings that still exist (fit error 2.2 m), so the pin is good to about 7 m."
+"Placed from the 1893 fire map, sheet 1: the sheet was fitted to 5 street crossings that still exist (fit error 3.7 m), so the pin is good to about 10 m."
 ],
 "sf": 1
 },
@@ -4247,7 +5059,7 @@
 "v": "Coins, religious medals, jewelry, buttons",
 "c": "documented",
 "s": "unknown",
-"p": "exact",
+"p": "approx",
 "st": "The 1893 Sanborn fire insurance map of Cumberland draws this building (Congregational church) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
 "t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
 "src": [
@@ -4256,9 +5068,9 @@
 "https://www.loc.gov/item/sanborn09525_001/"
 ]
 ],
-"pinconf": "A",
+"pinconf": "B",
 "pinev": [
-"Placed from the 1893 fire map, sheet 1: the sheet was fitted to 6 street crossings that still exist (fit error 2.2 m), so the pin is good to about 7 m."
+"Placed from the 1893 fire map, sheet 1: the sheet was fitted to 5 street crossings that still exist (fit error 3.7 m), so the pin is good to about 10 m."
 ],
 "sf": 1
 },
@@ -4275,7 +5087,7 @@
 "v": "Coins, tokens, tools, buttons",
 "c": "documented",
 "s": "unknown",
-"p": "exact",
+"p": "approx",
 "st": "The 1893 Sanborn fire insurance map of Cumberland draws this building (Post office) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
 "t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
 "src": [
@@ -4284,9 +5096,9 @@
 "https://www.loc.gov/item/sanborn09525_001/"
 ]
 ],
-"pinconf": "A",
+"pinconf": "B",
 "pinev": [
-"Placed from the 1893 fire map, sheet 1: the sheet was fitted to 6 street crossings that still exist (fit error 2.2 m), so the pin is good to about 7 m."
+"Placed from the 1893 fire map, sheet 1: the sheet was fitted to 5 street crossings that still exist (fit error 3.7 m), so the pin is good to about 10 m."
 ],
 "sf": 1
 },
@@ -4303,7 +5115,7 @@
 "v": "Coins, tokens, buttons, jewelry, bottle and harness parts",
 "c": "documented",
 "s": "unknown",
-"p": "exact",
+"p": "approx",
 "st": "The 1893 Sanborn fire insurance map of Cumberland draws this building (Livery) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
 "t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
 "src": [
@@ -4312,9 +5124,9 @@
 "https://www.loc.gov/item/sanborn09525_001/"
 ]
 ],
-"pinconf": "A",
+"pinconf": "B",
 "pinev": [
-"Placed from the 1893 fire map, sheet 1: the sheet was fitted to 6 street crossings that still exist (fit error 2.2 m), so the pin is good to about 7 m."
+"Placed from the 1893 fire map, sheet 1: the sheet was fitted to 5 street crossings that still exist (fit error 3.7 m), so the pin is good to about 10 m."
 ],
 "sf": 1
 },
@@ -4331,7 +5143,7 @@
 "v": "Coins, buttons, slate pencils, marbles, toy parts, lost jewelry",
 "c": "documented",
 "s": "unknown",
-"p": "exact",
+"p": "approx",
 "st": "The 1893 Sanborn fire insurance map of Cumberland draws this building (Public school) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
 "t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
 "src": [
@@ -4340,9 +5152,9 @@
 "https://www.loc.gov/item/sanborn09525_001/"
 ]
 ],
-"pinconf": "A",
+"pinconf": "B",
 "pinev": [
-"Placed from the 1893 fire map, sheet 1: the sheet was fitted to 6 street crossings that still exist (fit error 2.2 m), so the pin is good to about 7 m."
+"Placed from the 1893 fire map, sheet 1: the sheet was fitted to 5 street crossings that still exist (fit error 3.7 m), so the pin is good to about 10 m."
 ],
 "sf": 1
 },
@@ -6302,7 +7114,7 @@
 ],
 "pinconf": "B",
 "pinev": [
-"Placed from the 1883 fire map, sheet 5: the sheet was fitted to 6 street crossings that still exist (fit error 3.5 m), so the pin is good to about 10 m."
+"Placed from the 1883 fire map, sheet 5: the sheet was fitted to 4 street crossings that still exist (fit error 4.2 m), so the pin is good to about 11 m."
 ],
 "sf": 1
 },
@@ -6330,7 +7142,7 @@
 ],
 "pinconf": "B",
 "pinev": [
-"Placed from the 1883 fire map, sheet 5: the sheet was fitted to 6 street crossings that still exist (fit error 3.5 m), so the pin is good to about 10 m."
+"Placed from the 1883 fire map, sheet 5: the sheet was fitted to 4 street crossings that still exist (fit error 4.2 m), so the pin is good to about 11 m."
 ],
 "sf": 1
 },
@@ -6358,7 +7170,7 @@
 ],
 "pinconf": "B",
 "pinev": [
-"Placed from the 1883 fire map, sheet 5: the sheet was fitted to 6 street crossings that still exist (fit error 3.5 m), so the pin is good to about 10 m."
+"Placed from the 1883 fire map, sheet 5: the sheet was fitted to 4 street crossings that still exist (fit error 4.2 m), so the pin is good to about 11 m."
 ],
 "sf": 1
 },
@@ -6386,7 +7198,7 @@
 ],
 "pinconf": "B",
 "pinev": [
-"Placed from the 1883 fire map, sheet 5: the sheet was fitted to 6 street crossings that still exist (fit error 3.5 m), so the pin is good to about 10 m."
+"Placed from the 1883 fire map, sheet 5: the sheet was fitted to 4 street crossings that still exist (fit error 4.2 m), so the pin is good to about 11 m."
 ],
 "sf": 1
 },
@@ -6515,7 +7327,7 @@
 "v": "Coins, tokens, buttons, jewelry, bottle and harness parts",
 "c": "documented",
 "s": "unknown",
-"p": "approx",
+"p": "exact",
 "st": "The 1883 Sanborn fire insurance map of Eau Claire draws this building (Court house and jail yard (1883)) on sheet 8. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
 "t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
 "src": [
@@ -6524,9 +7336,9 @@
 "https://www.loc.gov/item/sanborn09538_001/"
 ]
 ],
-"pinconf": "B",
+"pinconf": "A",
 "pinev": [
-"Placed from the 1883 fire map, sheet 8: the sheet was fitted to 1 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+"Placed from the 1883 fire map, sheet 8: the sheet was fitted to 3 street crossings that still exist (fit error 1.6 m), so the pin is good to about 6 m."
 ],
 "sf": 1
 },
@@ -6543,7 +7355,7 @@
 "v": "Coins, tokens, buttons, jewelry, bottle and harness parts",
 "c": "documented",
 "s": "unknown",
-"p": "approx",
+"p": "exact",
 "st": "The 1883 Sanborn fire insurance map of Eau Claire draws this building (Business row on Bridge St (saloons, grocery, drug store)) on sheet 8. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
 "t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
 "src": [
@@ -6552,9 +7364,9 @@
 "https://www.loc.gov/item/sanborn09538_001/"
 ]
 ],
-"pinconf": "B",
+"pinconf": "A",
 "pinev": [
-"Placed from the 1883 fire map, sheet 8: the sheet was fitted to 1 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+"Placed from the 1883 fire map, sheet 8: the sheet was fitted to 3 street crossings that still exist (fit error 1.6 m), so the pin is good to about 6 m."
 ],
 "sf": 1
 },
@@ -6571,7 +7383,7 @@
 "v": "Coins, tokens, buttons, jewelry, bottle and harness parts",
 "c": "documented",
 "s": "unknown",
-"p": "approx",
+"p": "exact",
 "st": "The 1883 Sanborn fire insurance map of Eau Claire draws this building (Saloon) on sheet 8. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
 "t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
 "src": [
@@ -6580,9 +7392,9 @@
 "https://www.loc.gov/item/sanborn09538_001/"
 ]
 ],
-"pinconf": "B",
+"pinconf": "A",
 "pinev": [
-"Placed from the 1883 fire map, sheet 8: the sheet was fitted to 1 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+"Placed from the 1883 fire map, sheet 8: the sheet was fitted to 3 street crossings that still exist (fit error 1.6 m), so the pin is good to about 6 m."
 ],
 "sf": 1
 },
@@ -6599,7 +7411,7 @@
 "v": "Coins, tokens, tools, buttons",
 "c": "documented",
 "s": "unknown",
-"p": "approx",
+"p": "exact",
 "st": "The 1883 Sanborn fire insurance map of Eau Claire draws this building (Restaurant) on sheet 8. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
 "t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
 "src": [
@@ -6608,9 +7420,9 @@
 "https://www.loc.gov/item/sanborn09538_001/"
 ]
 ],
-"pinconf": "B",
+"pinconf": "A",
 "pinev": [
-"Placed from the 1883 fire map, sheet 8: the sheet was fitted to 1 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+"Placed from the 1883 fire map, sheet 8: the sheet was fitted to 3 street crossings that still exist (fit error 1.6 m), so the pin is good to about 6 m."
 ],
 "sf": 1
 },
@@ -6627,7 +7439,7 @@
 "v": "Coins, tokens, buttons, jewelry, bottle and harness parts",
 "c": "documented",
 "s": "unknown",
-"p": "approx",
+"p": "exact",
 "st": "The 1883 Sanborn fire insurance map of Eau Claire draws this building (Wagon shop and livery stable) on sheet 8. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
 "t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
 "src": [
@@ -6636,9 +7448,9 @@
 "https://www.loc.gov/item/sanborn09538_001/"
 ]
 ],
-"pinconf": "B",
+"pinconf": "A",
 "pinev": [
-"Placed from the 1883 fire map, sheet 8: the sheet was fitted to 1 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+"Placed from the 1883 fire map, sheet 8: the sheet was fitted to 3 street crossings that still exist (fit error 1.6 m), so the pin is good to about 6 m."
 ],
 "sf": 1
 },
@@ -6655,7 +7467,7 @@
 "v": "Coins, tokens, buttons, jewelry, bottle and harness parts",
 "c": "documented",
 "s": "unknown",
-"p": "approx",
+"p": "exact",
 "st": "The 1883 Sanborn fire insurance map of Eau Claire draws this building (Street car stables) on sheet 8. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
 "t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
 "src": [
@@ -6664,9 +7476,9 @@
 "https://www.loc.gov/item/sanborn09538_001/"
 ]
 ],
-"pinconf": "B",
+"pinconf": "A",
 "pinev": [
-"Placed from the 1883 fire map, sheet 8: the sheet was fitted to 1 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+"Placed from the 1883 fire map, sheet 8: the sheet was fitted to 3 street crossings that still exist (fit error 1.6 m), so the pin is good to about 6 m."
 ],
 "sf": 1
 },
@@ -6683,7 +7495,7 @@
 "v": "Coins, tokens, tools, buttons",
 "c": "documented",
 "s": "unknown",
-"p": "approx",
+"p": "exact",
 "st": "The 1883 Sanborn fire insurance map of Eau Claire draws this building (C. F. Mayhew's corn mill) on sheet 8. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
 "t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
 "src": [
@@ -6692,9 +7504,9 @@
 "https://www.loc.gov/item/sanborn09538_001/"
 ]
 ],
-"pinconf": "B",
+"pinconf": "A",
 "pinev": [
-"Placed from the 1883 fire map, sheet 8: the sheet was fitted to 1 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+"Placed from the 1883 fire map, sheet 8: the sheet was fitted to 3 street crossings that still exist (fit error 1.6 m), so the pin is good to about 6 m."
 ],
 "sf": 1
 },
@@ -6711,7 +7523,7 @@
 "v": "Coins, tokens, tools, buttons",
 "c": "documented",
 "s": "unknown",
-"p": "approx",
+"p": "exact",
 "st": "The 1883 Sanborn fire insurance map of Eau Claire draws this building (Thorp's Addition shops on Bridge St) on sheet 8. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
 "t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
 "src": [
@@ -6720,9 +7532,9 @@
 "https://www.loc.gov/item/sanborn09538_001/"
 ]
 ],
-"pinconf": "B",
+"pinconf": "A",
 "pinev": [
-"Placed from the 1883 fire map, sheet 8: the sheet was fitted to 1 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+"Placed from the 1883 fire map, sheet 8: the sheet was fitted to 3 street crossings that still exist (fit error 1.6 m), so the pin is good to about 6 m."
 ],
 "sf": 1
 },
@@ -6739,7 +7551,7 @@
 "v": "Coins, tokens, buttons, jewelry, bottle and harness parts",
 "c": "documented",
 "s": "unknown",
-"p": "approx",
+"p": "exact",
 "st": "The 1883 Sanborn fire insurance map of Eau Claire draws this building (Saloons at the bridge) on sheet 8. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
 "t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
 "src": [
@@ -6748,9 +7560,9 @@
 "https://www.loc.gov/item/sanborn09538_001/"
 ]
 ],
-"pinconf": "B",
+"pinconf": "A",
 "pinev": [
-"Placed from the 1883 fire map, sheet 8: the sheet was fitted to 1 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+"Placed from the 1883 fire map, sheet 8: the sheet was fitted to 3 street crossings that still exist (fit error 1.6 m), so the pin is good to about 6 m."
 ],
 "sf": 1
 },
@@ -6778,7 +7590,7 @@
 ],
 "pinconf": "B",
 "pinev": [
-"Placed from the 1883 fire map, sheet 8: the sheet was fitted to 1 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+"Placed from the 1883 fire map, sheet 8: the sheet was fitted to 1 street crossing that still exists (fit error 0.0 m), so the pin is good to about 5 m."
 ],
 "sf": 1
 },
@@ -6806,7 +7618,7 @@
 ],
 "pinconf": "B",
 "pinev": [
-"Placed from the 1883 fire map, sheet 8: the sheet was fitted to 1 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+"Placed from the 1883 fire map, sheet 8: the sheet was fitted to 1 street crossing that still exists (fit error 0.0 m), so the pin is good to about 5 m."
 ],
 "sf": 1
 },
@@ -6834,7 +7646,7 @@
 ],
 "pinconf": "B",
 "pinev": [
-"Placed from the 1883 fire map, sheet 8: the sheet was fitted to 1 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+"Placed from the 1883 fire map, sheet 8: the sheet was fitted to 1 street crossing that still exists (fit error 0.0 m), so the pin is good to about 5 m."
 ],
 "sf": 1
 },
@@ -6862,7 +7674,7 @@
 ],
 "pinconf": "B",
 "pinev": [
-"Placed from the 1883 fire map, sheet 8: the sheet was fitted to 1 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+"Placed from the 1883 fire map, sheet 8: the sheet was fitted to 1 street crossing that still exists (fit error 0.0 m), so the pin is good to about 5 m."
 ],
 "sf": 1
 },
@@ -7562,7 +8374,7 @@
 ],
 "pinconf": "B",
 "pinev": [
-"Placed from the 1883 fire map, sheet 13: the sheet was fitted to 1 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+"Placed from the 1883 fire map, sheet 13: the sheet was fitted to 1 street crossing that still exists (fit error 0.0 m), so the pin is good to about 5 m."
 ],
 "sf": 1
 },
@@ -7590,7 +8402,7 @@
 ],
 "pinconf": "B",
 "pinev": [
-"Placed from the 1883 fire map, sheet 13: the sheet was fitted to 1 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+"Placed from the 1883 fire map, sheet 13: the sheet was fitted to 1 street crossing that still exists (fit error 0.0 m), so the pin is good to about 5 m."
 ],
 "sf": 1
 },
@@ -7618,7 +8430,7 @@
 ],
 "pinconf": "B",
 "pinev": [
-"Placed from the 1883 fire map, sheet 13: the sheet was fitted to 1 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+"Placed from the 1883 fire map, sheet 13: the sheet was fitted to 1 street crossing that still exists (fit error 0.0 m), so the pin is good to about 5 m."
 ],
 "sf": 1
 },
@@ -7646,7 +8458,7 @@
 ],
 "pinconf": "B",
 "pinev": [
-"Placed from the 1883 fire map, sheet 13: the sheet was fitted to 1 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+"Placed from the 1883 fire map, sheet 13: the sheet was fitted to 1 street crossing that still exists (fit error 0.0 m), so the pin is good to about 5 m."
 ],
 "sf": 1
 },
@@ -7674,7 +8486,7 @@
 ],
 "pinconf": "B",
 "pinev": [
-"Placed from the 1883 fire map, sheet 13: the sheet was fitted to 1 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+"Placed from the 1883 fire map, sheet 13: the sheet was fitted to 1 street crossing that still exists (fit error 0.0 m), so the pin is good to about 5 m."
 ],
 "sf": 1
 },
@@ -7702,7 +8514,7 @@
 ],
 "pinconf": "B",
 "pinev": [
-"Placed from the 1883 fire map, sheet 13: the sheet was fitted to 1 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+"Placed from the 1883 fire map, sheet 13: the sheet was fitted to 1 street crossing that still exists (fit error 0.0 m), so the pin is good to about 5 m."
 ],
 "sf": 1
 },
@@ -7730,7 +8542,7 @@
 ],
 "pinconf": "B",
 "pinev": [
-"Placed from the 1883 fire map, sheet 13: the sheet was fitted to 1 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+"Placed from the 1883 fire map, sheet 13: the sheet was fitted to 1 street crossing that still exists (fit error 0.0 m), so the pin is good to about 5 m."
 ],
 "sf": 1
 },
@@ -7758,7 +8570,7 @@
 ],
 "pinconf": "B",
 "pinev": [
-"Placed from the 1883 fire map, sheet 14: the sheet was fitted to 1 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+"Placed from the 1883 fire map, sheet 14: the sheet was fitted to 1 street crossing that still exists (fit error 0.0 m), so the pin is good to about 5 m."
 ],
 "sf": 1
 },
@@ -7786,7 +8598,7 @@
 ],
 "pinconf": "B",
 "pinev": [
-"Placed from the 1883 fire map, sheet 14: the sheet was fitted to 1 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+"Placed from the 1883 fire map, sheet 14: the sheet was fitted to 1 street crossing that still exists (fit error 0.0 m), so the pin is good to about 5 m."
 ],
 "sf": 1
 },
@@ -7814,7 +8626,7 @@
 ],
 "pinconf": "B",
 "pinev": [
-"Placed from the 1883 fire map, sheet 14: the sheet was fitted to 1 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+"Placed from the 1883 fire map, sheet 14: the sheet was fitted to 1 street crossing that still exists (fit error 0.0 m), so the pin is good to about 5 m."
 ],
 "sf": 1
 },
@@ -7842,7 +8654,7 @@
 ],
 "pinconf": "B",
 "pinev": [
-"Placed from the 1883 fire map, sheet 14: the sheet was fitted to 1 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+"Placed from the 1883 fire map, sheet 14: the sheet was fitted to 1 street crossing that still exists (fit error 0.0 m), so the pin is good to about 5 m."
 ],
 "sf": 1
 },
@@ -7870,7 +8682,7 @@
 ],
 "pinconf": "A",
 "pinev": [
-"Placed from the 1894 fire map, sheet 2: the sheet was fitted to 5 street crossings that still exist (fit error 0.7 m), so the pin is good to about 5 m."
+"Placed from the 1894 fire map, sheet 2: the sheet was fitted to 3 street crossings that still exist (fit error 1.0 m), so the pin is good to about 5 m."
 ],
 "sf": 1
 },
@@ -7898,7 +8710,7 @@
 ],
 "pinconf": "A",
 "pinev": [
-"Placed from the 1894 fire map, sheet 2: the sheet was fitted to 5 street crossings that still exist (fit error 0.7 m), so the pin is good to about 5 m."
+"Placed from the 1894 fire map, sheet 2: the sheet was fitted to 3 street crossings that still exist (fit error 1.0 m), so the pin is good to about 5 m."
 ],
 "sf": 1
 },
@@ -7926,7 +8738,7 @@
 ],
 "pinconf": "A",
 "pinev": [
-"Placed from the 1894 fire map, sheet 2: the sheet was fitted to 5 street crossings that still exist (fit error 0.7 m), so the pin is good to about 5 m."
+"Placed from the 1894 fire map, sheet 2: the sheet was fitted to 3 street crossings that still exist (fit error 1.0 m), so the pin is good to about 5 m."
 ],
 "sf": 1
 },
@@ -8711,6 +9523,202 @@
 "pinconf": "A",
 "pinev": [
 "Placed from the 1893 fire map, sheet 4: the sheet was fitted to 7 street crossings that still exist (fit error 2.7 m), so the pin is good to about 8 m."
+],
+"sf": 1
+},
+{
+"id": "sf-greenwood-post-office",
+"L": "gather",
+"n": "Post office, Greenwood (1894 fire map)",
+"la": 44.765955,
+"lo": -90.598412,
+"y": "By 1894",
+"pl": "Greenwood, Clark County",
+"co": "Clark",
+"stt": "WI",
+"v": "Coins, tokens, tools, buttons",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1894 Sanborn fire insurance map of Greenwood draws this building (Post office) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Greenwood, Clark County, Wisconsin (Sanborn Map & Publishing Co., 1894), Library of Congress",
+"https://www.loc.gov/item/sanborn09567_001/"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the 1894 fire map, sheet 1: the sheet was fitted to 3 street crossings that still exist (fit error 1.7 m), so the pin is good to about 6 m."
+],
+"sf": 1
+},
+{
+"id": "sf-greenwood-presbyterian-church",
+"L": "gather",
+"n": "Presbyterian church, Greenwood (1894 fire map)",
+"la": 44.764765,
+"lo": -90.59848,
+"y": "By 1894",
+"pl": "Greenwood, Clark County",
+"co": "Clark",
+"stt": "WI",
+"v": "Coins, religious medals, jewelry, buttons",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1894 Sanborn fire insurance map of Greenwood draws this building (Presbyterian church) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Greenwood, Clark County, Wisconsin (Sanborn Map & Publishing Co., 1894), Library of Congress",
+"https://www.loc.gov/item/sanborn09567_001/"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the 1894 fire map, sheet 1: the sheet was fitted to 3 street crossings that still exist (fit error 1.7 m), so the pin is good to about 6 m."
+],
+"sf": 1
+},
+{
+"id": "sf-greenwood-bank-hall-upstairs",
+"L": "gather",
+"n": "Bank, hall upstairs, Greenwood (1894 fire map)",
+"la": 44.766892,
+"lo": -90.597948,
+"y": "By 1894",
+"pl": "Greenwood, Clark County",
+"co": "Clark",
+"stt": "WI",
+"v": "Coins, tokens, buttons, jewelry, bottle and harness parts",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1894 Sanborn fire insurance map of Greenwood draws this building (Bank, hall upstairs) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Greenwood, Clark County, Wisconsin (Sanborn Map & Publishing Co., 1894), Library of Congress",
+"https://www.loc.gov/item/sanborn09567_001/"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the 1894 fire map, sheet 1: the sheet was fitted to 3 street crossings that still exist (fit error 1.7 m), so the pin is good to about 6 m."
+],
+"sf": 1
+},
+{
+"id": "sf-greenwood-hardware-store-lodge-room-upstairs",
+"L": "gather",
+"n": "Hardware store, lodge room upstairs, Greenwood (1894 fire map)",
+"la": 44.76541,
+"lo": -90.598485,
+"y": "By 1894",
+"pl": "Greenwood, Clark County",
+"co": "Clark",
+"stt": "WI",
+"v": "Coins, tokens, tools, buttons",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1894 Sanborn fire insurance map of Greenwood draws this building (Hardware store, lodge room upstairs) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Greenwood, Clark County, Wisconsin (Sanborn Map & Publishing Co., 1894), Library of Congress",
+"https://www.loc.gov/item/sanborn09567_001/"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the 1894 fire map, sheet 1: the sheet was fitted to 3 street crossings that still exist (fit error 1.7 m), so the pin is good to about 6 m."
+],
+"sf": 1
+},
+{
+"id": "sf-greenwood-opera-house-lodge-rooms-upstairs",
+"L": "gather",
+"n": "Opera house, lodge rooms upstairs, Greenwood (1894 fire map)",
+"la": 44.769853,
+"lo": -90.597827,
+"y": "By 1894",
+"pl": "Greenwood, Clark County",
+"co": "Clark",
+"stt": "WI",
+"v": "Coins, tokens, buttons, jewelry, bottle and harness parts",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1894 Sanborn fire insurance map of Greenwood draws this building (Opera house, lodge rooms upstairs) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Greenwood, Clark County, Wisconsin (Sanborn Map & Publishing Co., 1894), Library of Congress",
+"https://www.loc.gov/item/sanborn09567_001/"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the 1894 fire map, sheet 1: the sheet was fitted to 2 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+],
+"sf": 1
+},
+{
+"id": "sf-greenwood-church",
+"L": "gather",
+"n": "Church, Greenwood (1894 fire map)",
+"la": 44.768121,
+"lo": -90.59851,
+"y": "By 1894",
+"pl": "Greenwood, Clark County",
+"co": "Clark",
+"stt": "WI",
+"v": "Coins, religious medals, jewelry, buttons",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1894 Sanborn fire insurance map of Greenwood draws this building (Church) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Greenwood, Clark County, Wisconsin (Sanborn Map & Publishing Co., 1894), Library of Congress",
+"https://www.loc.gov/item/sanborn09567_001/"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the 1894 fire map, sheet 1: the sheet was fitted to 2 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+],
+"sf": 1
+},
+{
+"id": "sf-greenwood-begley-house-hotel",
+"L": "gather",
+"n": "Begley House hotel, Greenwood (1894 fire map)",
+"la": 44.770404,
+"lo": -90.597845,
+"y": "By 1894",
+"pl": "Greenwood, Clark County",
+"co": "Clark",
+"stt": "WI",
+"v": "Coins, tokens, buttons, jewelry, bottle and harness parts",
+"c": "documented",
+"s": "unknown",
+"p": "approx",
+"st": "The 1894 Sanborn fire insurance map of Greenwood draws this building (Begley House hotel) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Greenwood, Clark County, Wisconsin (Sanborn Map & Publishing Co., 1894), Library of Congress",
+"https://www.loc.gov/item/sanborn09567_001/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the 1894 fire map, sheet 1: the sheet was fitted to 1 street crossing that still exists (fit error 0.0 m), so the pin is good to about 5 m."
 ],
 "sf": 1
 },
@@ -11011,6 +12019,230 @@
 "sf": 1
 },
 {
+"id": "sf-merrillan-post-office",
+"L": "gather",
+"n": "Post office, Merrillan (1904 fire map)",
+"la": 44.450922,
+"lo": -90.841581,
+"y": "By 1904",
+"pl": "Merrillan, Jackson County",
+"co": "Jackson",
+"stt": "WI",
+"v": "Coins, tokens, tools, buttons",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1904 Sanborn fire insurance map of Merrillan draws this building (Post office) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Merrillan, Jackson County, Wisconsin (Sanborn Map & Publishing Co., 1904), Library of Congress",
+"https://www.loc.gov/item/sanborn09620_001/"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the 1904 fire map, sheet 1: the sheet was fitted to 6 street crossings that still exist (fit error 0.8 m), so the pin is good to about 5 m."
+],
+"sf": 1
+},
+{
+"id": "sf-merrillan-city-hall-and-hose-house",
+"L": "gather",
+"n": "City hall and hose house, Merrillan (1904 fire map)",
+"la": 44.451323,
+"lo": -90.840293,
+"y": "By 1904",
+"pl": "Merrillan, Jackson County",
+"co": "Jackson",
+"stt": "WI",
+"v": "Coins, tokens, buttons, jewelry, bottle and harness parts",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1904 Sanborn fire insurance map of Merrillan draws this building (City hall and hose house) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Merrillan, Jackson County, Wisconsin (Sanborn Map & Publishing Co., 1904), Library of Congress",
+"https://www.loc.gov/item/sanborn09620_001/"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the 1904 fire map, sheet 1: the sheet was fitted to 6 street crossings that still exist (fit error 0.8 m), so the pin is good to about 5 m."
+],
+"sf": 1
+},
+{
+"id": "sf-merrillan-village-jail",
+"L": "gather",
+"n": "Village jail, Merrillan (1904 fire map)",
+"la": 44.451249,
+"lo": -90.840304,
+"y": "By 1904",
+"pl": "Merrillan, Jackson County",
+"co": "Jackson",
+"stt": "WI",
+"v": "Coins, tokens, tools, buttons",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1904 Sanborn fire insurance map of Merrillan draws this building (Village jail) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Merrillan, Jackson County, Wisconsin (Sanborn Map & Publishing Co., 1904), Library of Congress",
+"https://www.loc.gov/item/sanborn09620_001/"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the 1904 fire map, sheet 1: the sheet was fitted to 6 street crossings that still exist (fit error 0.8 m), so the pin is good to about 5 m."
+],
+"sf": 1
+},
+{
+"id": "sf-merrillan-american-house-hotel",
+"L": "gather",
+"n": "American House hotel, Merrillan (1904 fire map)",
+"la": 44.450868,
+"lo": -90.841017,
+"y": "By 1904",
+"pl": "Merrillan, Jackson County",
+"co": "Jackson",
+"stt": "WI",
+"v": "Coins, tokens, buttons, jewelry, bottle and harness parts",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1904 Sanborn fire insurance map of Merrillan draws this building (American House hotel) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Merrillan, Jackson County, Wisconsin (Sanborn Map & Publishing Co., 1904), Library of Congress",
+"https://www.loc.gov/item/sanborn09620_001/"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the 1904 fire map, sheet 1: the sheet was fitted to 6 street crossings that still exist (fit error 0.8 m), so the pin is good to about 5 m."
+],
+"sf": 1
+},
+{
+"id": "sf-merrillan-hotel-campbell",
+"L": "gather",
+"n": "Hotel Campbell, Merrillan (1904 fire map)",
+"la": 44.451425,
+"lo": -90.839457,
+"y": "By 1904",
+"pl": "Merrillan, Jackson County",
+"co": "Jackson",
+"stt": "WI",
+"v": "Coins, tokens, buttons, jewelry, bottle and harness parts",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1904 Sanborn fire insurance map of Merrillan draws this building (Hotel Campbell) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Merrillan, Jackson County, Wisconsin (Sanborn Map & Publishing Co., 1904), Library of Congress",
+"https://www.loc.gov/item/sanborn09620_001/"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the 1904 fire map, sheet 1: the sheet was fitted to 6 street crossings that still exist (fit error 0.8 m), so the pin is good to about 5 m."
+],
+"sf": 1
+},
+{
+"id": "sf-merrillan-commercial-house-hotel",
+"L": "gather",
+"n": "Commercial House hotel, Merrillan (1904 fire map)",
+"la": 44.452177,
+"lo": -90.841229,
+"y": "By 1904",
+"pl": "Merrillan, Jackson County",
+"co": "Jackson",
+"stt": "WI",
+"v": "Coins, tokens, buttons, jewelry, bottle and harness parts",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1904 Sanborn fire insurance map of Merrillan draws this building (Commercial House hotel) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Merrillan, Jackson County, Wisconsin (Sanborn Map & Publishing Co., 1904), Library of Congress",
+"https://www.loc.gov/item/sanborn09620_001/"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the 1904 fire map, sheet 1: the sheet was fitted to 6 street crossings that still exist (fit error 0.8 m), so the pin is good to about 5 m."
+],
+"sf": 1
+},
+{
+"id": "sf-merrillan-railroad-depot",
+"L": "gather",
+"n": "Railroad depot, Merrillan (1904 fire map)",
+"la": 44.451806,
+"lo": -90.83931,
+"y": "By 1904",
+"pl": "Merrillan, Jackson County",
+"co": "Jackson",
+"stt": "WI",
+"v": "Coins, tokens, buttons, jewelry, bottle and harness parts",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1904 Sanborn fire insurance map of Merrillan draws this building (Railroad depot) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Merrillan, Jackson County, Wisconsin (Sanborn Map & Publishing Co., 1904), Library of Congress",
+"https://www.loc.gov/item/sanborn09620_001/"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the 1904 fire map, sheet 1: the sheet was fitted to 6 street crossings that still exist (fit error 0.8 m), so the pin is good to about 5 m."
+],
+"sf": 1
+},
+{
+"id": "sf-merrillan-union-sunday-school-chapel",
+"L": "school2",
+"n": "Union Sunday School chapel, Merrillan (1904 fire map)",
+"la": 44.449866,
+"lo": -90.840983,
+"y": "By 1904",
+"pl": "Merrillan, Jackson County",
+"co": "Jackson",
+"stt": "WI",
+"v": "Coins, buttons, slate pencils, marbles, toy parts, lost jewelry",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1904 Sanborn fire insurance map of Merrillan draws this building (Union Sunday School chapel) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Merrillan, Jackson County, Wisconsin (Sanborn Map & Publishing Co., 1904), Library of Congress",
+"https://www.loc.gov/item/sanborn09620_001/"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the 1904 fire map, sheet 1: the sheet was fitted to 6 street crossings that still exist (fit error 0.8 m), so the pin is good to about 5 m."
+],
+"sf": 1
+},
+{
 "id": "sf-neillsville-presbyterian-church",
 "L": "gather",
 "n": "Presbyterian church, Neillsville (1887 fire map)",
@@ -11902,7 +13134,7 @@
 ],
 "pinconf": "B",
 "pinev": [
-"Placed from the 1887 fire map, sheet 2: the sheet was fitted to 1 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+"Placed from the 1887 fire map, sheet 2: the sheet was fitted to 1 street crossing that still exists (fit error 0.0 m), so the pin is good to about 5 m."
 ],
 "sf": 1
 },
@@ -11930,7 +13162,7 @@
 ],
 "pinconf": "B",
 "pinev": [
-"Placed from the 1887 fire map, sheet 2: the sheet was fitted to 1 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+"Placed from the 1887 fire map, sheet 2: the sheet was fitted to 1 street crossing that still exists (fit error 0.0 m), so the pin is good to about 5 m."
 ],
 "sf": 1
 },
@@ -11947,7 +13179,7 @@
 "v": "Coins, tokens, tools, buttons",
 "c": "documented",
 "s": "unknown",
-"p": "exact",
+"p": "approx",
 "st": "The 1884 Sanborn fire insurance map of Prescott draws this building (A. B. Failing machine and blacksmith shops) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
 "t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
 "src": [
@@ -11956,9 +13188,9 @@
 "https://www.loc.gov/item/sanborn09673_001/"
 ]
 ],
-"pinconf": "A",
+"pinconf": "B",
 "pinev": [
-"Placed from the 1884 fire map, sheet 1: the sheet was fitted to 3 street crossings that still exist (fit error 0.4 m), so the pin is good to about 5 m."
+"Placed from the 1884 fire map, sheet 1: the sheet was fitted to 4 street crossings that still exist (fit error 3.3 m), so the pin is good to about 10 m."
 ],
 "sf": 1
 },
@@ -11975,7 +13207,7 @@
 "v": "Coins, tokens, buttons, jewelry, bottle and harness parts",
 "c": "documented",
 "s": "unknown",
-"p": "exact",
+"p": "approx",
 "st": "The 1884 Sanborn fire insurance map of Prescott draws this building (Public hall) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
 "t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
 "src": [
@@ -11984,9 +13216,9 @@
 "https://www.loc.gov/item/sanborn09673_001/"
 ]
 ],
-"pinconf": "A",
+"pinconf": "B",
 "pinev": [
-"Placed from the 1884 fire map, sheet 1: the sheet was fitted to 3 street crossings that still exist (fit error 0.4 m), so the pin is good to about 5 m."
+"Placed from the 1884 fire map, sheet 1: the sheet was fitted to 4 street crossings that still exist (fit error 3.3 m), so the pin is good to about 10 m."
 ],
 "sf": 1
 },
@@ -13447,6 +14679,398 @@
 "sf": 1
 },
 {
+"id": "sf-spring-valley-railroad-depot",
+"L": "gather",
+"n": "Railroad depot, Spring Valley (1900 fire map)",
+"la": 44.845543,
+"lo": -92.24018,
+"y": "By 1900",
+"pl": "Spring Valley, Pierce County",
+"co": "Pierce",
+"stt": "WI",
+"v": "Coins, tokens, buttons, jewelry, bottle and harness parts",
+"c": "documented",
+"s": "unknown",
+"p": "approx",
+"st": "The 1900 Sanborn fire insurance map of Spring Valley draws this building (Railroad depot) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Spring Valley, Pierce County, Wisconsin (Sanborn Map & Publishing Co., 1900), Library of Congress",
+"https://www.loc.gov/item/sanborn09705_001/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the 1900 fire map, sheet 1: the sheet was fitted to 8 street crossings that still exist (fit error 3.1 m), so the pin is good to about 9 m."
+],
+"sf": 1
+},
+{
+"id": "sf-spring-valley-commercial-hotel",
+"L": "gather",
+"n": "Commercial Hotel, Spring Valley (1900 fire map)",
+"la": 44.846161,
+"lo": -92.238338,
+"y": "By 1900",
+"pl": "Spring Valley, Pierce County",
+"co": "Pierce",
+"stt": "WI",
+"v": "Coins, tokens, buttons, jewelry, bottle and harness parts",
+"c": "documented",
+"s": "unknown",
+"p": "approx",
+"st": "The 1900 Sanborn fire insurance map of Spring Valley draws this building (Commercial Hotel) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Spring Valley, Pierce County, Wisconsin (Sanborn Map & Publishing Co., 1900), Library of Congress",
+"https://www.loc.gov/item/sanborn09705_001/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the 1900 fire map, sheet 1: the sheet was fitted to 8 street crossings that still exist (fit error 3.1 m), so the pin is good to about 9 m."
+],
+"sf": 1
+},
+{
+"id": "sf-spring-valley-livery",
+"L": "gather",
+"n": "Livery, Spring Valley (1900 fire map)",
+"la": 44.846392,
+"lo": -92.239101,
+"y": "By 1900",
+"pl": "Spring Valley, Pierce County",
+"co": "Pierce",
+"stt": "WI",
+"v": "Coins, tokens, buttons, jewelry, bottle and harness parts",
+"c": "documented",
+"s": "unknown",
+"p": "approx",
+"st": "The 1900 Sanborn fire insurance map of Spring Valley draws this building (Livery) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Spring Valley, Pierce County, Wisconsin (Sanborn Map & Publishing Co., 1900), Library of Congress",
+"https://www.loc.gov/item/sanborn09705_001/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the 1900 fire map, sheet 1: the sheet was fitted to 8 street crossings that still exist (fit error 3.1 m), so the pin is good to about 9 m."
+],
+"sf": 1
+},
+{
+"id": "sf-spring-valley-opera-house",
+"L": "gather",
+"n": "Opera house, Spring Valley (1900 fire map)",
+"la": 44.845201,
+"lo": -92.238618,
+"y": "By 1900",
+"pl": "Spring Valley, Pierce County",
+"co": "Pierce",
+"stt": "WI",
+"v": "Coins, tokens, buttons, jewelry, bottle and harness parts",
+"c": "documented",
+"s": "unknown",
+"p": "approx",
+"st": "The 1900 Sanborn fire insurance map of Spring Valley draws this building (Opera house) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Spring Valley, Pierce County, Wisconsin (Sanborn Map & Publishing Co., 1900), Library of Congress",
+"https://www.loc.gov/item/sanborn09705_001/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the 1900 fire map, sheet 1: the sheet was fitted to 8 street crossings that still exist (fit error 3.1 m), so the pin is good to about 9 m."
+],
+"sf": 1
+},
+{
+"id": "sf-spring-valley-post-office",
+"L": "gather",
+"n": "Post office, Spring Valley (1900 fire map)",
+"la": 44.844799,
+"lo": -92.238595,
+"y": "By 1900",
+"pl": "Spring Valley, Pierce County",
+"co": "Pierce",
+"stt": "WI",
+"v": "Coins, tokens, tools, buttons",
+"c": "documented",
+"s": "unknown",
+"p": "approx",
+"st": "The 1900 Sanborn fire insurance map of Spring Valley draws this building (Post office) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Spring Valley, Pierce County, Wisconsin (Sanborn Map & Publishing Co., 1900), Library of Congress",
+"https://www.loc.gov/item/sanborn09705_001/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the 1900 fire map, sheet 1: the sheet was fitted to 8 street crossings that still exist (fit error 3.1 m), so the pin is good to about 9 m."
+],
+"sf": 1
+},
+{
+"id": "sf-spring-valley-public-school",
+"L": "school2",
+"n": "Public school, Spring Valley (1900 fire map)",
+"la": 44.84508,
+"lo": -92.237653,
+"y": "By 1900",
+"pl": "Spring Valley, Pierce County",
+"co": "Pierce",
+"stt": "WI",
+"v": "Coins, buttons, slate pencils, marbles, toy parts, lost jewelry",
+"c": "documented",
+"s": "unknown",
+"p": "approx",
+"st": "The 1900 Sanborn fire insurance map of Spring Valley draws this building (Public school) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Spring Valley, Pierce County, Wisconsin (Sanborn Map & Publishing Co., 1900), Library of Congress",
+"https://www.loc.gov/item/sanborn09705_001/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the 1900 fire map, sheet 1: the sheet was fitted to 8 street crossings that still exist (fit error 3.1 m), so the pin is good to about 9 m."
+],
+"sf": 1
+},
+{
+"id": "sf-spring-valley-bank",
+"L": "gather",
+"n": "Bank, Spring Valley (1900 fire map)",
+"la": 44.845451,
+"lo": -92.238196,
+"y": "By 1900",
+"pl": "Spring Valley, Pierce County",
+"co": "Pierce",
+"stt": "WI",
+"v": "Coins, tokens, tools, buttons",
+"c": "documented",
+"s": "unknown",
+"p": "approx",
+"st": "The 1900 Sanborn fire insurance map of Spring Valley draws this building (Bank) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Spring Valley, Pierce County, Wisconsin (Sanborn Map & Publishing Co., 1900), Library of Congress",
+"https://www.loc.gov/item/sanborn09705_001/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the 1900 fire map, sheet 1: the sheet was fitted to 8 street crossings that still exist (fit error 3.1 m), so the pin is good to about 9 m."
+],
+"sf": 1
+},
+{
+"id": "sf-spring-valley-lumber-yard",
+"L": "gather",
+"n": "Lumber yard, Spring Valley (1900 fire map)",
+"la": 44.844693,
+"lo": -92.239673,
+"y": "By 1900",
+"pl": "Spring Valley, Pierce County",
+"co": "Pierce",
+"stt": "WI",
+"v": "Coins, tokens, tools, buttons",
+"c": "documented",
+"s": "unknown",
+"p": "approx",
+"st": "The 1900 Sanborn fire insurance map of Spring Valley draws this building (Lumber yard) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Spring Valley, Pierce County, Wisconsin (Sanborn Map & Publishing Co., 1900), Library of Congress",
+"https://www.loc.gov/item/sanborn09705_001/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the 1900 fire map, sheet 1: the sheet was fitted to 8 street crossings that still exist (fit error 3.1 m), so the pin is good to about 9 m."
+],
+"sf": 1
+},
+{
+"id": "sf-spring-valley-congregational-church",
+"L": "gather",
+"n": "Congregational church, Spring Valley (1900 fire map)",
+"la": 44.843868,
+"lo": -92.239832,
+"y": "By 1900",
+"pl": "Spring Valley, Pierce County",
+"co": "Pierce",
+"stt": "WI",
+"v": "Coins, religious medals, jewelry, buttons",
+"c": "documented",
+"s": "unknown",
+"p": "approx",
+"st": "The 1900 Sanborn fire insurance map of Spring Valley draws this building (Congregational church) on sheet 2. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Spring Valley, Pierce County, Wisconsin (Sanborn Map & Publishing Co., 1900), Library of Congress",
+"https://www.loc.gov/item/sanborn09705_001/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the 1900 fire map, sheet 2: the sheet was fitted to 8 street crossings that still exist (fit error 3.8 m), so the pin is good to about 11 m."
+],
+"sf": 1
+},
+{
+"id": "sf-spring-valley-northern-grain-co-elevator",
+"L": "gather",
+"n": "Northern Grain Co. elevator, Spring Valley (1900 fire map)",
+"la": 44.843691,
+"lo": -92.239793,
+"y": "By 1900",
+"pl": "Spring Valley, Pierce County",
+"co": "Pierce",
+"stt": "WI",
+"v": "Coins, tokens, tools, buttons",
+"c": "documented",
+"s": "unknown",
+"p": "approx",
+"st": "The 1900 Sanborn fire insurance map of Spring Valley draws this building (Northern Grain Co. elevator) on sheet 2. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Spring Valley, Pierce County, Wisconsin (Sanborn Map & Publishing Co., 1900), Library of Congress",
+"https://www.loc.gov/item/sanborn09705_001/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the 1900 fire map, sheet 2: the sheet was fitted to 8 street crossings that still exist (fit error 3.8 m), so the pin is good to about 11 m."
+],
+"sf": 1
+},
+{
+"id": "sf-spring-valley-tanberg-bros-grain-elevator",
+"L": "gather",
+"n": "Tanberg Bros. grain elevator, Spring Valley (1900 fire map)",
+"la": 44.843686,
+"lo": -92.238719,
+"y": "By 1900",
+"pl": "Spring Valley, Pierce County",
+"co": "Pierce",
+"stt": "WI",
+"v": "Coins, tokens, tools, buttons",
+"c": "documented",
+"s": "unknown",
+"p": "approx",
+"st": "The 1900 Sanborn fire insurance map of Spring Valley draws this building (Tanberg Bros. grain elevator) on sheet 2. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Spring Valley, Pierce County, Wisconsin (Sanborn Map & Publishing Co., 1900), Library of Congress",
+"https://www.loc.gov/item/sanborn09705_001/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the 1900 fire map, sheet 2: the sheet was fitted to 8 street crossings that still exist (fit error 3.8 m), so the pin is good to about 11 m."
+],
+"sf": 1
+},
+{
+"id": "sf-spring-valley-tanberg-bros-lumber-yard",
+"L": "gather",
+"n": "Tanberg Bros. lumber yard, Spring Valley (1900 fire map)",
+"la": 44.843039,
+"lo": -92.239096,
+"y": "By 1900",
+"pl": "Spring Valley, Pierce County",
+"co": "Pierce",
+"stt": "WI",
+"v": "Coins, tokens, tools, buttons",
+"c": "documented",
+"s": "unknown",
+"p": "approx",
+"st": "The 1900 Sanborn fire insurance map of Spring Valley draws this building (Tanberg Bros. lumber yard) on sheet 2. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Spring Valley, Pierce County, Wisconsin (Sanborn Map & Publishing Co., 1900), Library of Congress",
+"https://www.loc.gov/item/sanborn09705_001/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the 1900 fire map, sheet 2: the sheet was fitted to 8 street crossings that still exist (fit error 3.8 m), so the pin is good to about 11 m."
+],
+"sf": 1
+},
+{
+"id": "sf-spring-valley-town-hall",
+"L": "gather",
+"n": "Town hall, Spring Valley (1900 fire map)",
+"la": 44.843454,
+"lo": -92.237032,
+"y": "By 1900",
+"pl": "Spring Valley, Pierce County",
+"co": "Pierce",
+"stt": "WI",
+"v": "Coins, tokens, buttons, jewelry, bottle and harness parts",
+"c": "documented",
+"s": "unknown",
+"p": "approx",
+"st": "The 1900 Sanborn fire insurance map of Spring Valley draws this building (Town hall) on sheet 2. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Spring Valley, Pierce County, Wisconsin (Sanborn Map & Publishing Co., 1900), Library of Congress",
+"https://www.loc.gov/item/sanborn09705_001/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the 1900 fire map, sheet 2: the sheet was fitted to 8 street crossings that still exist (fit error 3.8 m), so the pin is good to about 11 m."
+],
+"sf": 1
+},
+{
+"id": "sf-spring-valley-water-works-pump-house",
+"L": "gather",
+"n": "Water works pump house, Spring Valley (1900 fire map)",
+"la": 44.843323,
+"lo": -92.237034,
+"y": "By 1900",
+"pl": "Spring Valley, Pierce County",
+"co": "Pierce",
+"stt": "WI",
+"v": "Coins, tokens, buttons, jewelry, bottle and harness parts",
+"c": "documented",
+"s": "unknown",
+"p": "approx",
+"st": "The 1900 Sanborn fire insurance map of Spring Valley draws this building (Water works pump house) on sheet 2. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Spring Valley, Pierce County, Wisconsin (Sanborn Map & Publishing Co., 1900), Library of Congress",
+"https://www.loc.gov/item/sanborn09705_001/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the 1900 fire map, sheet 2: the sheet was fitted to 8 street crossings that still exist (fit error 3.8 m), so the pin is good to about 11 m."
+],
+"sf": 1
+},
+{
 "id": "sf-st-croix-falls-vincent-house-hotel",
 "L": "gather",
 "n": "Vincent House hotel, St. Croix Falls (1885 fire map)",
@@ -13667,6 +15291,370 @@
 "pinconf": "A",
 "pinev": [
 "Placed from the 1885 fire map, sheet 1: the sheet was fitted to 4 street crossings that still exist (fit error 0.2 m), so the pin is good to about 5 m."
+],
+"sf": 1
+},
+{
+"id": "sf-stanley-public-school",
+"L": "school2",
+"n": "Public school, Stanley (1895 fire map)",
+"la": 44.960873,
+"lo": -90.933891,
+"y": "By 1895",
+"pl": "Stanley, Chippewa County",
+"co": "Chippewa",
+"stt": "WI",
+"v": "Coins, buttons, slate pencils, marbles, toy parts, lost jewelry",
+"c": "documented",
+"s": "unknown",
+"p": "approx",
+"st": "The 1895 Sanborn fire insurance map of Stanley draws this building (Public school) on sheet 2. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Stanley, Chippewa County, Wisconsin (Sanborn Map & Publishing Co., 1895), Library of Congress",
+"https://www.loc.gov/item/sanborn09706_001/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the 1895 fire map, sheet 2: the sheet was fitted to 6 street crossings that still exist (fit error 3.8 m), so the pin is good to about 11 m."
+],
+"sf": 1
+},
+{
+"id": "sf-stanley-church",
+"L": "gather",
+"n": "Church, Stanley (1895 fire map)",
+"la": 44.960946,
+"lo": -90.93526,
+"y": "By 1895",
+"pl": "Stanley, Chippewa County",
+"co": "Chippewa",
+"stt": "WI",
+"v": "Coins, religious medals, jewelry, buttons",
+"c": "documented",
+"s": "unknown",
+"p": "approx",
+"st": "The 1895 Sanborn fire insurance map of Stanley draws this building (Church) on sheet 2. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Stanley, Chippewa County, Wisconsin (Sanborn Map & Publishing Co., 1895), Library of Congress",
+"https://www.loc.gov/item/sanborn09706_001/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the 1895 fire map, sheet 2: the sheet was fitted to 6 street crossings that still exist (fit error 3.8 m), so the pin is good to about 11 m."
+],
+"sf": 1
+},
+{
+"id": "sf-stanley-opera-hall-over-a-saloon",
+"L": "gather",
+"n": "Opera hall over a saloon, Stanley (1895 fire map)",
+"la": 44.960108,
+"lo": -90.935163,
+"y": "By 1895",
+"pl": "Stanley, Chippewa County",
+"co": "Chippewa",
+"stt": "WI",
+"v": "Coins, tokens, buttons, jewelry, bottle and harness parts",
+"c": "documented",
+"s": "unknown",
+"p": "approx",
+"st": "The 1895 Sanborn fire insurance map of Stanley draws this building (Opera hall over a saloon) on sheet 2. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Stanley, Chippewa County, Wisconsin (Sanborn Map & Publishing Co., 1895), Library of Congress",
+"https://www.loc.gov/item/sanborn09706_001/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the 1895 fire map, sheet 2: the sheet was fitted to 6 street crossings that still exist (fit error 3.8 m), so the pin is good to about 11 m."
+],
+"sf": 1
+},
+{
+"id": "sf-stanley-post-office-in-a-general-store",
+"L": "gather",
+"n": "Post office in a general store, Stanley (1895 fire map)",
+"la": 44.960114,
+"lo": -90.935658,
+"y": "By 1895",
+"pl": "Stanley, Chippewa County",
+"co": "Chippewa",
+"stt": "WI",
+"v": "Coins, tokens, tools, buttons",
+"c": "documented",
+"s": "unknown",
+"p": "approx",
+"st": "The 1895 Sanborn fire insurance map of Stanley draws this building (Post office in a general store) on sheet 2. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Stanley, Chippewa County, Wisconsin (Sanborn Map & Publishing Co., 1895), Library of Congress",
+"https://www.loc.gov/item/sanborn09706_001/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the 1895 fire map, sheet 2: the sheet was fitted to 6 street crossings that still exist (fit error 3.8 m), so the pin is good to about 11 m."
+],
+"sf": 1
+},
+{
+"id": "sf-stanley-lytle-house-hotel",
+"L": "gather",
+"n": "Lytle House hotel, Stanley (1895 fire map)",
+"la": 44.960755,
+"lo": -90.938119,
+"y": "By 1895",
+"pl": "Stanley, Chippewa County",
+"co": "Chippewa",
+"stt": "WI",
+"v": "Coins, tokens, buttons, jewelry, bottle and harness parts",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1895 Sanborn fire insurance map of Stanley draws this building (Lytle House hotel) on sheet 3. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Stanley, Chippewa County, Wisconsin (Sanborn Map & Publishing Co., 1895), Library of Congress",
+"https://www.loc.gov/item/sanborn09706_001/"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the 1895 fire map, sheet 3: the sheet was fitted to 6 street crossings that still exist (fit error 2.3 m), so the pin is good to about 8 m."
+],
+"sf": 1
+},
+{
+"id": "sf-stanley-livery",
+"L": "gather",
+"n": "Livery, Stanley (1895 fire map)",
+"la": 44.960203,
+"lo": -90.938512,
+"y": "By 1895",
+"pl": "Stanley, Chippewa County",
+"co": "Chippewa",
+"stt": "WI",
+"v": "Coins, tokens, buttons, jewelry, bottle and harness parts",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1895 Sanborn fire insurance map of Stanley draws this building (Livery) on sheet 3. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Stanley, Chippewa County, Wisconsin (Sanborn Map & Publishing Co., 1895), Library of Congress",
+"https://www.loc.gov/item/sanborn09706_001/"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the 1895 fire map, sheet 3: the sheet was fitted to 6 street crossings that still exist (fit error 2.3 m), so the pin is good to about 8 m."
+],
+"sf": 1
+},
+{
+"id": "sf-stanley-n-w-lumber-co-store",
+"L": "gather",
+"n": "N. W. Lumber Co. store, Stanley (1895 fire map)",
+"la": 44.962797,
+"lo": -90.937886,
+"y": "By 1895",
+"pl": "Stanley, Chippewa County",
+"co": "Chippewa",
+"stt": "WI",
+"v": "Coins, tokens, tools, buttons",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1895 Sanborn fire insurance map of Stanley draws this building (N. W. Lumber Co. store) on sheet 3. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Stanley, Chippewa County, Wisconsin (Sanborn Map & Publishing Co., 1895), Library of Congress",
+"https://www.loc.gov/item/sanborn09706_001/"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the 1895 fire map, sheet 3: the sheet was fitted to 6 street crossings that still exist (fit error 2.3 m), so the pin is good to about 8 m."
+],
+"sf": 1
+},
+{
+"id": "sf-stanley-scandinavian-lutheran-church",
+"L": "gather",
+"n": "Scandinavian Lutheran church, Stanley (1895 fire map)",
+"la": 44.962657,
+"lo": -90.935459,
+"y": "By 1895",
+"pl": "Stanley, Chippewa County",
+"co": "Chippewa",
+"stt": "WI",
+"v": "Coins, religious medals, jewelry, buttons",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1895 Sanborn fire insurance map of Stanley draws this building (Scandinavian Lutheran church) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Stanley, Chippewa County, Wisconsin (Sanborn Map & Publishing Co., 1895), Library of Congress",
+"https://www.loc.gov/item/sanborn09706_001/"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the 1895 fire map, sheet 1: the sheet was fitted to 2 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+],
+"sf": 1
+},
+{
+"id": "sf-stanley-school",
+"L": "school2",
+"n": "School, Stanley (1895 fire map)",
+"la": 44.962657,
+"lo": -90.935715,
+"y": "By 1895",
+"pl": "Stanley, Chippewa County",
+"co": "Chippewa",
+"stt": "WI",
+"v": "Coins, buttons, slate pencils, marbles, toy parts, lost jewelry",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1895 Sanborn fire insurance map of Stanley draws this building (School) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Stanley, Chippewa County, Wisconsin (Sanborn Map & Publishing Co., 1895), Library of Congress",
+"https://www.loc.gov/item/sanborn09706_001/"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the 1895 fire map, sheet 1: the sheet was fitted to 2 street crossings that still exist (fit error 0.0 m), so the pin is good to about 5 m."
+],
+"sf": 1
+},
+{
+"id": "sf-stanley-north-western-lumber-co-saw-mill",
+"L": "gather",
+"n": "North Western Lumber Co. saw mill, Stanley (1895 fire map)",
+"la": 44.962933,
+"lo": -90.942352,
+"y": "By 1895",
+"pl": "Stanley, Chippewa County",
+"co": "Chippewa",
+"stt": "WI",
+"v": "Coins, tokens, tools, buttons",
+"c": "documented",
+"s": "unknown",
+"p": "approx",
+"st": "The 1895 Sanborn fire insurance map of Stanley draws this building (North Western Lumber Co. saw mill) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Stanley, Chippewa County, Wisconsin (Sanborn Map & Publishing Co., 1895), Library of Congress",
+"https://www.loc.gov/item/sanborn09706_001/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Read off the small index map on sheet 1 of the 1895 fire map (the mill yards have no streets to fit), fitted to 6 street crossings with a 10 m error; the pin is good to about 25 m."
+],
+"sf": 1
+},
+{
+"id": "sf-stanley-north-western-lumber-co-planing-mill",
+"L": "gather",
+"n": "North Western Lumber Co. planing mill, Stanley (1895 fire map)",
+"la": 44.962189,
+"lo": -90.941547,
+"y": "By 1895",
+"pl": "Stanley, Chippewa County",
+"co": "Chippewa",
+"stt": "WI",
+"v": "Coins, tokens, tools, buttons",
+"c": "documented",
+"s": "unknown",
+"p": "approx",
+"st": "The 1895 Sanborn fire insurance map of Stanley draws this building (North Western Lumber Co. planing mill) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Stanley, Chippewa County, Wisconsin (Sanborn Map & Publishing Co., 1895), Library of Congress",
+"https://www.loc.gov/item/sanborn09706_001/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Read off the small index map on sheet 1 of the 1895 fire map (the mill yards have no streets to fit), fitted to 6 street crossings with a 10 m error; the pin is good to about 25 m."
+],
+"sf": 1
+},
+{
+"id": "sf-stanley-stanley-mfg-co-heading-works",
+"L": "gather",
+"n": "Stanley Mfg. Co. heading works, Stanley (1895 fire map)",
+"la": 44.959116,
+"lo": -90.940776,
+"y": "By 1895",
+"pl": "Stanley, Chippewa County",
+"co": "Chippewa",
+"stt": "WI",
+"v": "Coins, tokens, tools, buttons",
+"c": "documented",
+"s": "unknown",
+"p": "approx",
+"st": "The 1895 Sanborn fire insurance map of Stanley draws this building (Stanley Mfg. Co. heading works) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Stanley, Chippewa County, Wisconsin (Sanborn Map & Publishing Co., 1895), Library of Congress",
+"https://www.loc.gov/item/sanborn09706_001/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Read off the small index map on sheet 1 of the 1895 fire map (the mill yards have no streets to fit), fitted to 6 street crossings with a 10 m error; the pin is good to about 25 m."
+],
+"sf": 1
+},
+{
+"id": "sf-stanley-methodist-episcopal-church",
+"L": "gather",
+"n": "Methodist Episcopal church, Stanley (1895 fire map)",
+"la": 44.957668,
+"lo": -90.939345,
+"y": "By 1895",
+"pl": "Stanley, Chippewa County",
+"co": "Chippewa",
+"stt": "WI",
+"v": "Coins, religious medals, jewelry, buttons",
+"c": "documented",
+"s": "unknown",
+"p": "approx",
+"st": "The 1895 Sanborn fire insurance map of Stanley draws this building (Methodist Episcopal church) on sheet 1. In-town lots are usually built over or paved since; look for the lot, the alley behind it and any strip of old lawn or boulevard that was never dug.",
+"t": "Turn on the Fire maps view to see the whole block as it was. Alleys, back lots, hitching posts, the edge of the old boardwalk and the ground by the doors and wells got the most losses. Get the owner's permission; city land needs a permit.",
+"src": [
+[
+"Sanborn Fire Insurance Map from Stanley, Chippewa County, Wisconsin (Sanborn Map & Publishing Co., 1895), Library of Congress",
+"https://www.loc.gov/item/sanborn09706_001/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Read off the small index map on sheet 1 of the 1895 fire map (the mill yards have no streets to fit), fitted to 6 street crossings with a 10 m error; the pin is good to about 25 m."
 ],
 "sf": 1
 },

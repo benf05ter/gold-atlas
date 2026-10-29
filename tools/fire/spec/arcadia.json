@@ -7,5 +7,259 @@
   44.2524
  ],
  "r": 0.015,
- "sheets": []
+ "sheets": [
+  {
+   "f": "09484_1894-0001.jpg",
+   "clip": [
+    [
+     640,
+     0
+    ],
+    [
+     1628,
+     0
+    ],
+    [
+     1628,
+     1927
+    ],
+    [
+     640,
+     1927
+    ]
+   ],
+   "gcp": [
+    [
+     1096,
+     120,
+     "Main",
+     "Madison"
+    ],
+    [
+     1096,
+     580,
+     "Main",
+     "Monroe"
+    ],
+    [
+     1096,
+     1001,
+     "Main",
+     "Jackson"
+    ],
+    [
+     1096,
+     1430,
+     "Main",
+     "Grant"
+    ],
+    [
+     683,
+     580,
+     "Cleveland",
+     "Monroe"
+    ],
+    [
+     1533,
+     580,
+     "River",
+     "Monroe"
+    ],
+    [
+     1533,
+     1001,
+     "River",
+     "Jackson"
+    ],
+    [
+     1533,
+     1430,
+     "River",
+     "Grant"
+    ]
+   ],
+   "T": [
+    0.03275203131200661,
+    0.21028562145961904,
+    -372.13802880112314,
+    -149.13825531889665
+   ],
+   "feat": [
+    [
+     740,
+     920,
+     "Calaboose (village jail)",
+     -91.503237,
+     44.252186
+    ],
+    [
+     1040,
+     1180,
+     "Mineral water works",
+     -91.502428,
+     44.25268
+    ],
+    [
+     1590,
+     1565,
+     "Commercial House hotel",
+     -91.501187,
+     44.253612
+    ]
+   ]
+  },
+  {
+   "f": "09484_1894-0002.jpg",
+   "fix": {
+    "rot": 81.1,
+    "scale": 0.213
+   },
+   "gcp": [
+    [
+     1022,
+     160,
+     -91.500904,
+     44.252479
+    ],
+    [
+     1220,
+     165,
+     -91.500814,
+     44.252872
+    ]
+   ],
+   "T": [
+    0.03295331228178674,
+    0.21043545140887987,
+    -35.973077902752195,
+    -200.08945778347984
+   ],
+   "clip": [
+    [
+     0,
+     0
+    ],
+    [
+     1628,
+     0
+    ],
+    [
+     1628,
+     1430
+    ],
+    [
+     1136,
+     1430
+    ],
+    [
+     1136,
+     1927
+    ],
+    [
+     737,
+     1927
+    ],
+    [
+     737,
+     1175
+    ],
+    [
+     0,
+     1175
+    ]
+   ],
+   "feat": [
+    [
+     970,
+     320,
+     "Grossman's Hotel and hall",
+     -91.500506,
+     44.252341
+    ],
+    [
+     1022,
+     160,
+     "City hall and engine house",
+     -91.500907,
+     44.252488
+    ],
+    [
+     1220,
+     165,
+     "Passenger depot",
+     -91.500811,
+     44.252863
+    ],
+    [
+     850,
+     200,
+     "Arcadia Hall",
+     -91.500872,
+     44.252148
+    ],
+    [
+     780,
+     510,
+     "Livery",
+     -91.500083,
+     44.251923
+    ],
+    [
+     1010,
+     580,
+     "Bank",
+     -91.499803,
+     44.25234
+    ],
+    [
+     1015,
+     605,
+     "Post office",
+     -91.499735,
+     44.252342
+    ],
+    [
+     1225,
+     610,
+     "Mineral Springs Hotel",
+     -91.499635,
+     44.25274
+    ],
+    [
+     1250,
+     470,
+     "Old foundry",
+     -91.499994,
+     44.252829
+    ],
+    [
+     820,
+     720,
+     "Cigar factory",
+     -91.499512,
+     44.251936
+    ],
+    [
+     1365,
+     380,
+     "W. W. Cargill grain warehouse",
+     -91.500184,
+     44.253075
+    ]
+   ],
+   "conf": "B",
+   "ev": "Placed from the 1894 fire map, sheet 2. Washington St has been rerouted at Main since 1894, so this sheet was tied to sheet 1 at the depot and engine house, which both sheets draw; the pin is good to about 10 m."
+  }
+ ],
+ "b": [
+  -91.5057,
+  -91.4962,
+  44.25024,
+  44.25415
+ ],
+ "px": [
+  3032,
+  1728
+ ],
+ "note": "Old 2nd, 3rd, 4th and 5th Sts are today's Madison, Monroe, Jackson and Grant; 6th St is Cleveland St; the unnamed streets Sanborn calls Cat and Hare are River and Cleveland. Washington St has been moved east of its 1894 line at Main, so sheet 2 is tied to sheet 1 at the depot and engine house. The West Arcadia brewery and creamery, the public school and the Catholic church are on separate panels and not drawn."
 }
