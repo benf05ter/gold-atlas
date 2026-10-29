@@ -1967,7 +1967,7 @@ function tlPruneSoon(){ if(!TILES.pq) TILES.pq=requestAnimationFrame(tlPrune); }
 function tlWant(L,z,list,margin){ const cx=vb.x+vb.w/2, cy=vb.y+vb.h/2, N=2**z, U=tlU(z);
   const d=([x,y])=>{ const lo=(x+0.5)/N*360-180, la=ogMerc.lat(y+0.5,N); return ((lo*K-cx)/vb.w)**2+((-la-cy)/vb.h)**2; };
   list.sort((a,b)=>d(a)-d(b)); for(const [x,y] of list){ const k=`${z}_${x}_${y}`; L.want.add(k); const im=tlImg(L,z,x,y); if(!im.src) im.src=L.url(z,x,y); } }
-const tlStreet=tileLayer('b',ogURL.b,{base:true,max:()=>ogDark()?16:19,show:()=>GM.type==='default'&&OG.live&&navigator.onLine!==false});
+const tlStreet=tileLayer('b',ogURL.b,{base:true,max:()=>ogDark()?16:19,show:()=>(GM.type==='default'||GM.type==='old'||GM.type==='1800s')&&OG.live&&navigator.onLine!==false});
 const tlHill=tileLayer('h',ogURL.h,{max:()=>15,show:()=>(GM.type==='default'||(T3.on&&GM.type==='sat'))&&OG.live&&navigator.onLine!==false});
 const tlSat=tileLayer('s',ogURL.s,{base:true,max:()=>17,show:()=>GM.type==='sat'&&GM.live&&navigator.onLine!==false});
 tileRoot.appendChild(tlHill.div);   // relief sits above the imagery (3D satellite view)
