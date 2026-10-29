@@ -5091,57 +5091,46 @@ h1,h2,h3,.read h2,.read h3{font-family:var(--f-body);font-weight:700;letter-spac
 }
 </script>
 <script>
-// ---------- picture overlays stay small on screen when zoomed far in ----------
-// Old maps, 1800s sheets, heat maps and saved aerials are SVG <image>s laid over whole sheets or states. Zoomed far in on an
-// iPhone one of them can be tens of thousands of px across, and Safari quietly stops drawing it ("the overlay cuts out").
-// Past OVC.lim px the picture is swapped for a twin cut to the view (with a margin) at the source's own resolution, so what
-// Safari draws is never much bigger than the screen; the twin is re-cut when the view leaves it, and dropped when zoomed out.
-{ const OVC={lim:2400, max:6000, m:0.75, src:new Map(), live:new Set()};
-  const num=(im,a)=>+im.getAttribute(a)||0;
-  const shown=im=>{ if(parseFloat(im.getAttribute('opacity'))===0) return false; for(let e=im; e&&e!==svg; e=e.parentNode) if(e.style&&e.style.display==='none') return false; return !!im.isConnected; };
-  function drop(im){ const c=im._oc; if(!c) return; if(c.tw) c.tw.remove(); if(c.url) URL.revokeObjectURL(c.url); im._oc=null; im.style.visibility=''; OVC.live.delete(im); }
-  // the decoded source picture, shared by every twin cut from it (a few kept)
-  function source(href){ let r=OVC.src.get(href); if(r){ OVC.src.delete(href); OVC.src.set(href,r); return r; }
-    const i=new Image(); r={i,ok:false,bad:false}; i.decoding='async';
-    i.onload=()=>{ r.ok=true; drawMarkers(); }; i.onerror=()=>{ r.bad=true; }; i.src=href; OVC.src.set(href,r);
-    if(OVC.src.size>8) for(const [k,v] of OVC.src){ if(!v.ok||[...OVC.live].some(im=>im.getAttribute('href')===k)) continue; OVC.src.delete(k); if(OVC.src.size<=8) break; }
-    return r; }
-  function cut(im,s){ const x=num(im,'x'), y=num(im,'y'), w=num(im,'width'), h=num(im,'height'), href=im.getAttribute('href'); if(!(w>0&&h>0)||!href) return;
-    const m=OVC.m, vx0=Math.max(x,vb.x-vb.w*m), vx1=Math.min(x+w,vb.x+vb.w*(1+m)), vy0=Math.max(y,vb.y-vb.h*m), vy1=Math.min(y+h,vb.y+vb.h*(1+m));
-    const c=im._oc||(im._oc={tw:null,url:'',b:null,busy:false,again:false,href:''}); OVC.live.add(im);
-    if(vx1<=vx0||vy1<=vy0){ if(c.tw) c.tw.style.display='none'; im.style.visibility='hidden'; return; }   // off screen: nothing to draw
-    if(c.busy){ c.again=true; return; }
-    const r=source(href); if(r.bad){ drop(im); return; } if(!r.ok) return; const nw=r.i.naturalWidth, nh=r.i.naturalHeight; if(!nw||!nh) return;
-    const sx0=Math.max(0,Math.floor((vx0-x)/w*nw)), sx1=Math.min(nw,Math.ceil((vx1-x)/w*nw)), sy0=Math.max(0,Math.floor((vy0-y)/h*nh)), sy1=Math.min(nh,Math.ceil((vy1-y)/h*nh));
-    const sw=Math.max(1,sx1-sx0), sh=Math.max(1,sy1-sy0), b=[x+sx0/nw*w, y+sy0/nh*h, sw/nw*w, sh/nh*h];
-    const cv2=document.createElement('canvas'); cv2.width=sw; cv2.height=sh;
-    try{ cv2.getContext('2d').drawImage(r.i,sx0,sy0,sw,sh,0,0,sw,sh); }catch(e){ OGE.err('ovcut',e); r.bad=true; drop(im); return; }
-    c.busy=true; cv2.toBlob(bl=>{ c.busy=false; if(!bl||im._oc!==c){ if(!bl) r.bad=true; return; }
-      const url=URL.createObjectURL(bl), tw=el('image',{x:b[0],y:b[1],width:b[2],height:b[3],preserveAspectRatio:'none','data-ovc':'1'},null);
-      const op=im.getAttribute('opacity'); if(op!=null) tw.setAttribute('opacity',op); tw.style.pointerEvents='none';
-      tw.addEventListener('load',()=>{ if(im._oc!==c){ tw.remove(); URL.revokeObjectURL(url); return; }
-        if(c.tw&&c.tw!==tw){ c.tw.remove(); } if(c.url&&c.url!==url) URL.revokeObjectURL(c.url); c.tw=tw; c.url=url; c.b=b; c.href=href; im.style.visibility='hidden'; },{once:true});
-      tw.addEventListener('error',()=>{ tw.remove(); URL.revokeObjectURL(url); },{once:true});
-      tw.setAttribute('href',url); im.parentNode&&im.parentNode.insertBefore(tw,(c.tw||im).nextSibling);
-      if(c.again){ c.again=false; drawMarkers(); } },'image/png'); }
-  function ovcScan(s){ s=s||VIEW.s||scale(); if(!s) return;
-    for(const im of [...OVC.live]) if(!im.isConnected||!shown(im)||!im.getAttribute('href')) drop(im);
-    for(const im of svg.querySelectorAll('image[href]')){ if(im.dataset.ovc) continue; const w=num(im,'width')*s, h=num(im,'height')*s;
-      if(Math.max(w,h)<=OVC.lim||!shown(im)){ if(im._oc) drop(im); continue; }
-      const c=im._oc;
-      if(c&&c.tw&&c.href===im.getAttribute('href')&&c.b){ const [bx,by,bw,bh]=c.b; c.tw.style.display='';
-        const ix=num(im,'x'), iy=num(im,'y'), e=1e-9, ok=bx<=Math.max(vb.x,ix)+e&&bx+bw>=Math.min(vb.x+vb.w,ix+num(im,'width'))-e&&by<=Math.max(vb.y,iy)+e&&by+bh>=Math.min(vb.y+vb.h,iy+num(im,'height'))-e;
-        if(ok&&Math.max(bw,bh)*s<=OVC.max) continue; }
-      cut(im,s); } }
-  // the old-map and 1800s see-through sliders change the picture's opacity: the twin follows
-  // (a picture faded to nothing is not drawn or cut; one coming back from nothing gets a redraw so it is cut before it shows)
-  new MutationObserver(ms=>{ for(const m of ms){ const im=m.target, c=im._oc, op=im.getAttribute('opacity');
-      if(c&&c.tw){ if(op==null) c.tw.removeAttribute('opacity'); else c.tw.setAttribute('opacity',op); } else if(im.tagName==='image'&&parseFloat(m.oldValue)===0&&parseFloat(op)!==0) drawMarkers(); } })
-    .observe(svg,{subtree:true,attributes:true,attributeFilter:['opacity'],attributeOldValue:true});
-  OGE.on('post',s=>{ try{ ovcScan(s); }catch(e){ OGE.err('ovc',e); } });
-  window.OVC=OVC; OVC.scan=ovcScan;
-  drawMarkers();
-}
+// ---------- "Map not loading?" check, in the map type sheet ----------
+// Shows what the base map is doing on this phone (version, signal, tiles loaded / failed and why) and can test one tile of each
+// map live. "Reset map storage" empties only the saved map tiles and fetches the newest app; finds, tracks and settings stay.
+(()=>{ const MC={ok:{},err:{},last:{}};
+  tileRoot.addEventListener('load',e=>{ const t=e.target; if(t.tagName!=='IMG') return; const k=(t.parentNode&&t.parentNode.parentNode&&t.parentNode.parentNode.className||'').replace('ogtl ogtl-',''); MC.ok[k]=(MC.ok[k]||0)+1; },true);
+  tileRoot.addEventListener('error',e=>{ const t=e.target; if(t.tagName!=='IMG') return; const k=(t.parentNode&&t.parentNode.parentNode&&t.parentNode.parentNode.className||'').replace('ogtl ogtl-',''); MC.err[k]=(MC.err[k]||0)+1; MC.last[k]=t.src; },true);
+  const nm={b:'Street',h:'Relief',s:'Satellite'};
+  const sh=document.getElementById('gmSheet'); if(!sh) return;
+  sh.insertAdjacentHTML('beforeend',`<details class="mchk" id="mChk"><summary>Map not loading? Check it</summary>
+    <pre id="mChkOut" style="white-space:pre-wrap;font-size:12px;line-height:1.35;margin:6px 0;user-select:text;-webkit-user-select:text"></pre>
+    <div class="row" style="display:flex;gap:6px;flex-wrap:wrap"><button class="btn" id="mChkTest">Test the maps now</button><button class="btn" id="mChkCopy">Copy report</button><button class="btn" id="mChkReset">Reset map storage</button></div>
+    <p class="hint">Reset clears only saved map pictures and loads the newest app. Your finds, tracks and settings stay.</p></details>`);
+  const out=document.getElementById('mChkOut'); let extra='';
+  async function report(){ const L=[], reg=navigator.serviceWorker?await navigator.serviceWorker.getRegistration().catch(()=>null):null;
+    let run='-'; try{ const c=(await caches.keys()).find(k=>k.startsWith('atlas-v')); run=c?c.slice(7):'-'; }catch(_){}
+    L.push(`App ${run} · page ${document.documentElement.dataset.og||OGE.ver}${reg?(reg.waiting||reg.installing?' · update waiting':''):' · no offline worker'}`);
+    L.push(`Signal ${navigator.onLine?'yes':'no'} · map live ${OG.live?'yes':'no'} · type ${GM.type} · zoom ${ogZ()} · dark ${ogDark()?'yes':'no'}`);
+    for(const [id,Ly] of Object.entries(TILES.L)){ const on=Ly.div.style.display!=='none', ok=[...Ly.tiles.values()].filter(i=>i.dataset.ok).length;
+      L.push(`${nm[id]||id}: ${on?'on':'off'} · showing ${ok}/${Ly.tiles.size} · loaded ${MC.ok[id]||0} · failed ${MC.err[id]||0}`);
+      if(MC.last[id]) L.push('  last fail: '+MC.last[id].replace(/^https:\/\//,'').slice(0,110)); }
+    try{ const c=await caches.open('atlas-sat'); L.push(`Saved map pictures: ${(await c.keys()).length}`); }catch(e){ L.push('Saved map pictures: cache error '+(e&&e.name||e)); }
+    try{ const e=await navigator.storage.estimate(); L.push(`Storage used ${Math.round(e.usage/1048576)} MB of ${Math.round(e.quota/1048576)} MB`); }catch(_){}
+    if(OGE.log.length) L.push('Errors: '+OGE.log.slice(-4).join(' | '));
+    out.textContent=L.join('\n')+(extra?'\n'+extra:''); }
+  // one tile of each map, at the middle of the screen, fetched fresh
+  function probe(name,url){ return new Promise(res=>{ const t0=performance.now(), im=new Image(); let done=false;
+    const fin=s=>{ if(done) return; done=true; res(`${name}: ${s} (${Math.round(performance.now()-t0)} ms)`); };
+    im.onload=()=>fin('OK'); im.onerror=()=>fin('FAILED'); setTimeout(()=>fin('no answer in 15 s'),15000); im.src=url+(url.includes('?')?'&':'?')+'chk='+Date.now(); }); }
+  async function corsProbe(url){ try{ const r=await fetch(url+'?cors='+Date.now(),{mode:'cors',credentials:'omit',cache:'no-store'}); return `  direct: HTTP ${r.status} ${r.headers.get('content-type')||''}`; }catch(e){ return '  direct: '+(e&&e.message||e); } }
+  document.getElementById('mChkTest').onclick=async()=>{ extra='Testing…'; await report();
+    const z=Math.min(15,ogZ()||10), N=2**z, cx=(vb.x+vb.w/2)/K, cy=-(vb.y+vb.h/2), x=ogMerc.tx(cx,N), y=ogMerc.ty(cy,N), r=[];
+    for(const [n,f] of [['Street',ogURL.b],['Relief',ogURL.h],['Satellite',ogURL.s]]){ const u=f(z,x,y); r.push(await probe(n,u)); r.push(await corsProbe(u)); }
+    extra=r.join('\n'); report(); };
+  document.getElementById('mChkCopy').onclick=()=>{ try{ navigator.clipboard.writeText(out.textContent); document.getElementById('mChkCopy').textContent='Copied'; }catch(_){} };
+  document.getElementById('mChkReset').onclick=async()=>{ const b=document.getElementById('mChkReset'); b.disabled=true; b.textContent='Resetting…';
+    try{ await caches.delete('atlas-sat'); }catch(_){}
+    try{ const reg=navigator.serviceWorker&&await navigator.serviceWorker.getRegistration(); if(reg){ await reg.update().catch(()=>{}); if(reg.waiting) reg.waiting.postMessage('skip'); } }catch(_){}
+    OG.live=true; OG.err=0; GM.live=true; TILES.tries.clear(); setTimeout(()=>location.reload(),1200); };
+  document.getElementById('mChk').addEventListener('toggle',e=>{ if(e.target.open) report(); });
+})();
 
 // ---------- home-screen app: works offline and updates itself ----------
 (function(){ if(window.claude||!('serviceWorker' in navigator)||(location.protocol!=='https:'&&!/^(localhost|127\.0\.0\.1)$/.test(location.hostname))) return;
