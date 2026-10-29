@@ -1,0 +1,43 @@
+ru000|0|B 70 ENE
+ru000|1|V|Apollonia
+ru000|2|N|no cemetery drawn
+ru000|3|N|a building about 190 m north-west
+ru000|4|F
+ru000|5|N
+ru000|6|N|beside the railroad; buildings about 120 m north-east
+ru000|7|N|no cemetery drawn; buildings at the crossroads about 80 m north
+ru000|8|B 20 W|Assumption label to the north
+ru000|9|F|L an old railroad grade across the pin
+ru000|10|B 25 S
+ru000|11|N|the edge of Weyerhaeuser, with buildings about 150 m south
+ru001|0|N|Cloverland label to the north
+ru001|1|N|no railroad drawn here by 1945; a road about 90 m north
+ru001|2|B 100 SE
+ru001|3|N|at the crossroads; buildings about 160 m north-west
+ru001|4|B 10 S|beside the river
+ru001|5|B 40 W|the railroad about 70 m south
+ru001|6|F|a church symbol about 200 m south-east
+ru001|7|F
+ru001|8|V|Glen Flora
+ru001|9|B 50 W|Murry School label beside it
+ru001|10|N|Murry School label about 200 m south
+ru001|11|N|Ingram's buildings about 200 m south
+ru002|0|N|at a road junction
+ru002|1|F
+ru002|2|F
+ru002|3|N|a Cemetery about 165 m north
+ru002|4|B 80 SW|a School label to the south
+ru002|5|N
+ru002|6|N|on the river bend; a church symbol about 100 m south-west
+ru002|7|N|beside the creek; no railroad drawn here by 1948
+ru002|8|N
+ru002|9|K 0|Cemetery cross on the pin
+ru002|10|F
+ru002|11|N|on the creek at the south edge of Tony
+ru003|0|F|marsh and small ponds
+ru003|1|N|the pin falls in the Chippewa River; buildings line the south bank about 100-200 m south-east, so the post office stood there
+ru003|2|N|beside the road between ponds; a building about 170 m east by the lake
+ru003|3|B 95 SE|St. Francis Church label just north
+ru003|4|F
+ru003|5|N|on the road; buildings about 120 m east
+ru003|6|F|no railroad drawn here by 1945
