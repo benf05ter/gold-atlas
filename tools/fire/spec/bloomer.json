@@ -1,0 +1,144 @@
+{
+ "town": "Bloomer",
+ "id": "09503",
+ "year": "1893",
+ "c": [
+  -91.4885,
+  45.1002
+ ],
+ "r": 0.015,
+ "sheets": [
+  {
+   "f": "09503_1893-0001.jpg",
+   "clip": [
+    [
+     500,
+     0
+    ],
+    [
+     1600,
+     0
+    ],
+    [
+     1600,
+     1890
+    ],
+    [
+     500,
+     1890
+    ]
+   ],
+   "gcp": [
+    [
+     620,
+     718,
+     "Larson",
+     "14th"
+    ],
+    [
+     1155,
+     718,
+     "Larson",
+     "15th"
+    ],
+    [
+     1514,
+     718,
+     "Larson",
+     "16th"
+    ],
+    [
+     620,
+     222,
+     "Kranzfielder",
+     "14th"
+    ],
+    [
+     1155,
+     222,
+     "Kranzfielder",
+     "15th"
+    ],
+    [
+     1514,
+     222,
+     "Kranzfielder",
+     "16th"
+    ],
+    [
+     620,
+     1225,
+     "Main",
+     "14th"
+    ],
+    [
+     1155,
+     1225,
+     "Main",
+     "15th"
+    ]
+   ],
+   "feat": [
+    [
+     1050,
+     210,
+     "Bloomer House hotel",
+     -91.486136,
+     45.101612
+    ],
+    [
+     1260,
+     540,
+     "Opera house",
+     -91.487007,
+     45.101214
+    ],
+    [
+     1270,
+     1300,
+     "Hotel Hathaway",
+     -91.489019,
+     45.10119
+    ],
+    [
+     1460,
+     1300,
+     "Livery",
+     -91.489017,
+     45.100832
+    ],
+    [
+     1280,
+     1100,
+     "Post office",
+     -91.488489,
+     45.101172
+    ],
+    [
+     560,
+     1190,
+     "Union House hotel",
+     -91.488735,
+     45.102526
+    ]
+   ],
+   "T": [
+    0.0008601834348589094,
+    -0.20797764766795976,
+    228.5258472915897,
+    374.64205947349546
+   ]
+  }
+ ],
+ "note": "North is to the left. 1893 Front St = Main St, 1st St = Larson St, 2nd St = Kranzfielder St, Church/Van/South = 14th/15th/16th Ave (fit about 5 m). The left-hand panels (Liehe's Hill Brewery, elevators, Brooks planing mill, Cook & Barcume) are not drawn.",
+ "b": [
+  -91.49059,
+  -91.48557,
+  45.10056,
+  45.10265
+ ],
+ "px": [
+  1576,
+  921
+ ]
+}

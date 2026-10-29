@@ -1,0 +1,12 @@
+{
+ "town": "Stanley",
+ "id": "09706",
+ "year": "1895",
+ "c": [
+  -90.9371,
+  44.9597
+ ],
+ "r": 0.015,
+ "sheets": [],
+ "note": "Not fitted yet: street order on the sheet does not match today's names (renamed or renumbered streets); needs a closer look."
+}

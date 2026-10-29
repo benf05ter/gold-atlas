@@ -1,0 +1,334 @@
+{
+ "town": "Durand",
+ "id": "09534",
+ "year": "1894",
+ "c": [
+  -91.9657,
+  44.6266
+ ],
+ "r": 0.015,
+ "sheets": [
+  {
+   "f": "09534_1894-0001.jpg",
+   "clip": [
+    [
+     0,
+     0
+    ],
+    [
+     1610,
+     0
+    ],
+    [
+     1610,
+     1890
+    ],
+    [
+     0,
+     1890
+    ]
+   ],
+   "gcp": [
+    [
+     30,
+     277,
+     "1st",
+     "Main"
+    ],
+    [
+     30,
+     496,
+     "1st",
+     "Madison"
+    ],
+    [
+     30,
+     998,
+     "1st",
+     "Wells"
+    ],
+    [
+     30,
+     1504,
+     "1st",
+     "Prospect"
+    ],
+    [
+     480,
+     277,
+     "=2nd Avenue East",
+     "Main"
+    ],
+    [
+     480,
+     496,
+     "=2nd Avenue East",
+     "Madison"
+    ],
+    [
+     480,
+     998,
+     "=2nd Avenue East",
+     "Wells"
+    ],
+    [
+     480,
+     1504,
+     "=2nd Avenue East",
+     "Prospect"
+    ],
+    [
+     937,
+     277,
+     "=3rd Avenue East",
+     "Main"
+    ],
+    [
+     937,
+     496,
+     "=3rd Avenue East",
+     "Madison"
+    ],
+    [
+     937,
+     998,
+     "=3rd Avenue East",
+     "Wells"
+    ],
+    [
+     937,
+     1504,
+     "=3rd Avenue East",
+     "Prospect"
+    ],
+    [
+     1402,
+     496,
+     "=4th Avenue East",
+     "Madison"
+    ],
+    [
+     1402,
+     998,
+     "=4th Avenue East",
+     "Wells"
+    ],
+    [
+     1402,
+     1504,
+     "=4th Avenue East",
+     "Prospect"
+    ]
+   ],
+   "feat": [
+    [
+     941,
+     172,
+     "City hall",
+     -91.964591,
+     44.63042
+    ],
+    [
+     136,
+     543,
+     "C. Bruenn wagon shop",
+     -91.96558,
+     44.628928
+    ],
+    [
+     760,
+     760,
+     "Public school",
+     -91.963973,
+     44.629363
+    ],
+    [
+     579,
+     1402,
+     "Congregational church",
+     -91.963265,
+     44.628229
+    ],
+    [
+     344,
+     1691,
+     "First M. E. church",
+     -91.963252,
+     44.627535
+    ],
+    [
+     1293,
+     932,
+     "Zeisinger Bros. planing mill and cabinet shop",
+     -91.962623,
+     44.629753
+    ],
+    [
+     597,
+     232,
+     "John Polzer & Son wagon shop",
+     -91.965177,
+     44.629924
+    ],
+    [
+     1456,
+     597,
+     "M. Maxwell lumber yard",
+     -91.962855,
+     44.630427
+    ]
+   ],
+   "T": [
+    0.15812290971686502,
+    0.13195104868679153,
+    -83.614868848608,
+    325.30411946308374
+   ]
+  },
+  {
+   "f": "09534_1894-0002.jpg",
+   "clip": [
+    [
+     0,
+     0
+    ],
+    [
+     1610,
+     0
+    ],
+    [
+     1610,
+     975
+    ],
+    [
+     0,
+     975
+    ]
+   ],
+   "gcp": [
+    [
+     123,
+     222,
+     "=4th Avenue West",
+     "Main"
+    ],
+    [
+     123,
+     452,
+     "=4th Avenue West",
+     "Madison"
+    ],
+    [
+     600,
+     222,
+     "=3rd Avenue West",
+     "Main"
+    ],
+    [
+     600,
+     452,
+     "=3rd Avenue West",
+     "Madison"
+    ],
+    [
+     1072,
+     222,
+     "=2nd Avenue West",
+     "Main"
+    ],
+    [
+     1072,
+     452,
+     "=2nd Avenue West",
+     "Madison"
+    ],
+    [
+     1529,
+     222,
+     "1st",
+     "Main"
+    ],
+    [
+     1529,
+     452,
+     "1st",
+     "Madison"
+    ],
+    [
+     1529,
+     899,
+     "1st",
+     "Wells"
+    ]
+   ],
+   "feat": [
+    [
+     516,
+     127,
+     "Hotel",
+     -91.96846,
+     44.628067
+    ],
+    [
+     479,
+     298,
+     "Walker House hotel",
+     -91.968248,
+     44.627774
+    ],
+    [
+     1447,
+     127,
+     "Opera house",
+     -91.966572,
+     44.629189
+    ],
+    [
+     298,
+     525,
+     "Northwestern Lumber Co.",
+     -91.968233,
+     44.627226
+    ],
+    [
+     814,
+     742,
+     "County court house",
+     -91.966822,
+     44.627532
+    ],
+    [
+     235,
+     886,
+     "Freight house",
+     -91.967754,
+     44.626625
+    ],
+    [
+     371,
+     886,
+     "Passenger station",
+     -91.967478,
+     44.626789
+    ]
+   ],
+   "T": [
+    0.16066581349516557,
+    0.13325799789178108,
+    -318.51838112613467,
+    113.79141813327784
+   ]
+  }
+ ],
+ "note": "Streets run about 40 deg off north. 1894 River St = Main St; Wilson = 1st Ave; Spring/Charles/Clinton = 2nd/3rd/4th Ave East; W. Broadway/Woolcott/Wood = 2nd/3rd/4th Ave West. The lower panel of sheet 2 and the Drake planing mill panel are not drawn.",
+ "b": [
+  -91.96972,
+  -91.96039,
+  44.62621,
+  44.63146
+ ],
+ "px": [
+  2955,
+  2322
+ ]
+}
