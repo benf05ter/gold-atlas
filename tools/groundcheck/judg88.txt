@@ -1,0 +1,200 @@
+b000|0|B 20 NE|second farm building 60 m south
+b000|1|B 120 SSE|farmstead south of the road, nearest the plat spot
+b000|2|B 150 S|a Pleasant Plain School label nearby
+b000|3|B 140 NNE|creek 100 m west|L creek channel west of the pin
+b000|4|B 60 N|farmstead by the lane
+b000|5|N
+b000|6|N
+b000|7|B 75 W
+b000|8|N|creek about 100 m northwest|L creek channel to the northwest
+b000|9|S 60 E|M 60 34|Section Ten School label on the pin
+b000|10|B 45 S|edge of Rice Lake
+b000|11|N|Red Cedar River bottom|L river channel through the pin
+b001|0|N|on the Dallas Cemetery outline
+b001|1|K 20 E|Dallas Cemetery label and outline on the pin
+b001|2|N|creek 40 m west|L creek valley west of the pin
+b001|3|K 80 NW|Pleasant Plain Cemetery label and box
+b001|4|N
+b001|5|N
+b001|6|S 170 NE|M 120 124|School label to the west
+b001|7|N
+b001|8|B 0|building on the pin at the crossroads
+b001|9|V|Dallas|by the mill pond|L mill pond outlet beside the pin
+b001|10|F|on the lake shore woods
+b001|11|F
+b002|0|S 80 NW|Lincoln School label beside the symbol
+b002|1|B 85 NNE|in a woodlot
+b002|2|N|at the edge of woods
+b002|3|N
+b002|4|S 65 W|M -64 0|School label beside the symbol
+b002|5|N|small pond on the pin, under the Oak Grove label
+b002|6|S label|Center School label 150 m southwest of the crossroads
+b002|7|F
+b002|8|B 40 S
+b002|9|N
+b002|10|N|at the edge of woods
+b002|11|B 125 SW|on the lake shore|L lakeshore lots built up today
+b003|0|B 145 ESE|farmstead by the road bend
+b003|1|K 0|cemetery outline with a cross on the pin
+b003|2|K label|Cemetery label on the pin
+b003|3|B 110 SSW|south of the road
+b003|4|N|Granite Lake label, marsh and woods
+b003|5|N|L steep ravine heads where springs rise
+b003|6|N
+b003|7|N|L ravine heads below the road
+b003|8|B 115 ENE|two buildings on the road
+b003|9|B 85 NNE
+b003|10|B 90 SW|south side of the road
+b003|11|F|L no tram grade shows
+b004|0|N|L small drainage by the pin
+b004|1|B 130 NW|in the Sioux Creek valley
+b004|2|K 0|cemetery outline with a cross on the pin
+b004|3|F
+b004|4|S label|a School label just southeast of the crossroads
+b004|5|N
+b004|6|N|marsh to the northeast
+b004|7|N|L creek ravines around the pin
+b004|8|N|School label 250 m northwest
+b004|9|C 20 S|Dovre label on the pin
+b004|10|N
+b004|11|N
+b005|0|K 0|Sioux Creek Cemetery outline on the pin
+b005|1|B 95 E|on the Lake Chetek shore|L shore lots built up today
+b005|2|N
+b005|3|N|creek about 50 m west|L creek channel west of the pin
+b005|4|B 70 E|second building 115 m east
+b005|5|N|small spring ponds drawn on the pin, beside the Gravel Pits label|L small hollow on the pin
+b005|6|S 40 W|M -40 0|Palmer label to the southwest
+b005|7|V|Prairie Farm|L steep bluff and creek bottom on the pin
+b005|8|N|creek through the pin; Evergreen Cemetery 300 m northwest|L raised pad about 80 m across on the pin
+b005|9|N
+b005|10|N|wooded hillside
+b005|11|B 115 W
+b006|0|N
+b006|1|B 150 SE
+b006|2|B 60 S|beside the railroad at Poskin
+b006|3|D 20 E|dam across the lake outlet on the pin|L outlet channel and dam on the pin
+b006|4|N
+b006|5|N|no cemetery drawn here
+b006|6|N
+b006|7|N
+b006|8|B 85 S|creek on the pin
+b006|9|N|by the Sand Lake outlet|L road crossing of the outlet
+b006|10|N
+b006|11|N|Moose Ear Creek valley
+b007|0|N|marsh symbol about 90 m northeast
+b007|1|B 135 S
+b007|2|N
+b007|3|F|creek on the pin
+b007|4|B 100 N|Golden School and a Church label beside the pin|L creek and old lanes at the crossroads
+b007|5|N|L ravine heads to the northeast
+b007|6|N|in a woodlot
+b007|7|N
+b007|8|V|Turtle Lake|by the Soo Line tracks
+b007|9|V|Turtle Lake|beside the Soo Line|L creek channel east of the pin
+b007|10|B 70 NW
+b007|11|B 140 E|marsh on the pin, railroad 150 m southeast
+b008|0|B 50 N|farmstead on the road
+b008|1|N
+b008|2|B 80 S|small pond beside the pin
+b008|3|B 80 ENE
+b008|4|V|Chetek
+b008|5|B 40 E
+b008|6|N|on a Hay River bend, no dam drawn|L river channel through the pin
+b008|7|N|a Church label 120 m northwest
+b008|8|N
+b008|9|B 65 NW
+b008|10|B 115 W
+b008|11|F
+b009|0|S label|a School label on the pin|L steep valley side south of the pin
+b009|1|B 50 E|creek bend beside the pin|L creek channel through the pin
+b009|2|N
+b009|3|N
+b009|4|V|Poskin|L small curved hollow on the pin
+b009|5|S 0|Camp Dixon label below the pin|L creek 100 m west
+b009|6|N|no cemetery drawn here
+b009|7|K 0|Cemetery label and outline on the pin
+b009|8|V
+b009|9|N
+b009|10|B 80 WSW
+b009|11|B 140 SW
+b010|0|N|L ravine heads around the pin
+b010|1|K 0|Cemetery label and outline on the pin
+b010|2|F
+b010|3|K 0|cemetery outline with a cross on the pin, Cedar Lake label
+b010|4|N|a Cemetery outline 40 m south
+b010|5|K label|Cemetery label beside the crossroads
+b010|6|B 95 WSW|creek through the pin|L creek channel through the pin
+b010|7|K 10 S|Independent Cemetery label
+b010|8|B 90 NNW|no cemetery drawn here
+b010|9|B 115 N|L hillside with springs below
+b010|10|V|Sumner|L creek and old mill pond bed by the pin
+b010|11|K 30 S|St. Anne Cemetery label and outline
+b011|0|B 35 E|L large modern buildings on the pin
+b011|1|B 145 W
+b011|2|N|creek and marsh on the pin
+b011|3|N
+b011|4|N|creek about 30 m west|L creek channel west of the pin
+b011|5|N|Silver Creek about 20 m east|L creek channel beside the pin
+b011|6|N|wooded slope above Silver Creek
+b011|7|B 65 SE|Edgewood label just north
+b011|8|N|creek about 60 m east|L creek channel east of the pin
+b011|9|B 110 N
+b011|10|S 115 NW|M -66 94|Lake School label beside the symbol
+b011|11|N
+b012|0|S 130 N|M 30 136|School label beside the symbol
+b012|1|F
+b012|2|N|small ponds around the pin
+b012|3|N|marsh symbol on the pin
+b012|4|B 20 S|a cluster of four buildings on the pin
+b012|5|B 110 ENE|L pitted, hummocky ground
+b012|6|S 45 NW|M -40 25|Marquette School label beside the symbol
+b012|7|V|by the railroad|L old railroad grade and a curved hollow west of the pin
+b012|8|B 110 ESE|L ravine heads around the pin
+b012|9|N|in the Vance Creek valley|L ravines on the valley side
+b012|10|N|Vance Creek beside the pin|L creek channel at the pin
+b012|11|B 10 W|farmstead on the pin
+b013|0|B 65 ENE
+b013|1|B 140 N|creek through the pin|L creek channel through the pin
+b013|2|B 60 W|crossroads cluster
+b013|3|F|L steep wooded valley
+b013|4|N
+b013|5|N|at the edge of woods
+b013|6|C 20 S|Church label on the pin
+b013|7|N
+b013|8|K 20 NE|Faaberg Cemetery label and outline
+b013|9|N
+b013|10|N|a creek starts about 50 m northeast|L head of the creek channel by the pin
+b013|11|N|creek through the pin, marsh symbol 90 m south|L creek channel through the pin
+b014|0|N
+b014|1|K label|Meadow Creek label beside the pin
+b014|2|B 30 W|marsh just south
+b014|3|S 20 W|Halvorson School label on the pin
+b014|4|N|L pitted, hummocky ground
+b014|5|N|no cemetery drawn here
+b014|6|K label|Pioneer Rest Cemetery label on the pin|L creek channels around the pin
+b014|7|B 100 SE|creek to the northeast
+b014|8|N
+b014|9|B 25 SW
+b014|10|N
+b014|11|B 80 E
+b015|0|N|creek about 70 m east|L creek channel east of the pin
+b015|1|S 235 ENE|M 230 52|Fadness School label below the symbol; a church symbol 160 m northeast
+b015|2|B 80 SW|Granite Lake inlet creek through the pin
+b015|3|N|L ravine head on the pin
+b015|4|N|creek about 70 m south|L ravines below the pin
+b015|5|N
+b015|6|N
+b015|7|B 135 NW
+b015|8|N
+b015|9|F
+b015|10|F|creek about 80 m west
+b015|11|N|marsh symbols around the pin, railroad 120 m west|L uneven, pitted ground on the pin
+b016|0|B 35 S|on the lake shore by the railroad
+b016|1|N|the railroad passes the pin; nothing of the village is drawn
+b016|2|N|at the edge of woods
+b016|3|C 175 NNW|no cemetery drawn here; the Fadness School symbol is 10 m west
+b016|4|N|Sioux Creek about 40 m west|L creek channel west of the pin
+b016|5|N|creek to the north
+b016|6|S 45 SSE|M 20 -40|School label to the west
+b016|7|S 95 NNW|M -30 90|a School label to the east
