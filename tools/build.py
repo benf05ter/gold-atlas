@@ -40,6 +40,11 @@ if os.path.isdir(os.path.join(sd,'om13')):   # Plat 1913 map type (v139): the wh
   os.makedirs(out+'/om13',exist_ok=True)
   for f in os.listdir(os.path.join(sd,'om13')):
     if f.endswith('.webp'): shutil.copy(os.path.join(sd,'om13',f),out+'/om13/'+f)
+if os.path.isdir(os.path.join(sd,'om40')):   # Survey 1840s-50s map type (v149): one small picture per township, for when the tiles (ot/gs) are missing
+  if os.path.isdir(out+'/om40'): shutil.rmtree(out+'/om40')
+  os.makedirs(out+'/om40',exist_ok=True)
+  for f in os.listdir(os.path.join(sd,'om40')):
+    if f.endswith('.webp'): shutil.copy(os.path.join(sd,'om40',f),out+'/om40/'+f)
 for f in os.listdir(os.path.join(T,'..','tools','icons')) if os.path.isdir(os.path.join(T,'icons')) else []: pass
 os.system(f'python3 "{T}/icons.py" "{out}/icons"')
 if om:
