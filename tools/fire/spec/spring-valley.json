@@ -1,0 +1,12 @@
+{
+ "town": "Spring Valley",
+ "id": "09705",
+ "year": "1900",
+ "c": [
+  -92.2388,
+  44.8452
+ ],
+ "r": 0.015,
+ "sheets": [],
+ "note": "Not fitted yet: street order on the sheet does not match today's names (renamed or renumbered streets); needs a closer look."
+}
