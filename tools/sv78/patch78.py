@@ -34,8 +34,8 @@ if 'const OM78=' not in h:
 """+a)
   rep("the 1890 North-Western railway map when zoomed out.'","the 1890 North-Western railway map when zoomed out, and the 1878 county atlas around Eau Claire.'")
 # app tiles (only where the tile code is present)
-if "o19:()=>GM.type==='1800s'," in h and 'o78:' not in h:
-  rep("o19:()=>GM.type==='1800s',","o19:()=>GM.type==='1800s',o78:()=>GM.type==='1800s',")
+if "o19:()=>GM.type==='1800s'" in h and 'o78:' not in h:
+  a="o19:()=>GM.type==='1800s'"; i=h.index(a); h=h[:i]+"o78:()=>GM.type==='1800s',"+h[i:]
   rep("for(const id of ['o250','o15','o19',","for(const id of ['o250','o15','o19','o78',")
   rep("if(/^(h15_|h250_|h19_|","if(/^(h15_|h250_|h19_|sv78_|")
   rep("if(r19) set('o19',Math.min(1,+r19.value/100));","if(r19){ set('o19',Math.min(1,+r19.value/100)); set('o78',Math.min(1,+r19.value/100)); }")

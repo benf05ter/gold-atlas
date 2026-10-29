@@ -876,6 +876,15 @@ body.isapp .app{padding-top:max(14px,env(safe-area-inset-top,0px))}
           <li><b>Placer gold in the drift.</b> The Minnesota survey found traces of placer gold in the glacial drift on branches of the Zumbro and Root rivers; settlers washed it at Sacramento in 1855. Test inside bends and bedrock riffles below Mantorville.</li>
           <li><b>Prairie du Chien claim plats.</b> The French farm lots run in strips from the river to the bluffs; the 1828 government survey of private claims maps each one. Pull those plats before working any old house site on the prairie.</li>
         </ul>
+        <h3 id="k-plat">Reading a county plat book</h3>
+        <ul>
+          <li><b>The key.</b> In the 1893 Clark County book (and most plat books of the time): a square with an X is a schoolhouse, an empty square a town hall, a triangle a church, a star a mill, a little headstone a cemetery, and hatching means land cut into village lots. A black dot or small square on a farm is a house or barn.</li>
+          <li><b>Owners' names.</b> Each parcel carries its owner and acres. A shortened name is spelled out elsewhere in the same township. The name tells you whose farm a school or cheese factory sat on, which is what the old county histories and obituaries use.</li>
+          <li><b>Find the corner schools.</b> Country schools sat on a corner of a farm at a road crossing, usually on a quarter acre. When the plat puts a schoolhouse square on a corner where nothing stands today, that corner is a strong spot: the yard, the privy pit and the path to the road.</li>
+          <li><b>Dams and mills on the river.</b> A star or a dam line across a river where today's map shows only water or woods marks a logging dam or sawmill. The crew camp, store and dump were on the high bank beside it.</li>
+          <li><b>Dashed lines</b> are roads; many were later moved or closed. An old road that ran to a vanished school, mill or store is the path the people walked.</li>
+          <li><b>Plat books map type.</b> Turn it on to lay the books over today's map (see-through slider). The pins marked "1893 plat" or "1913 plat" are read from them. Accuracy is about 100 to 150 m, so walk the ground around the pin.</li>
+        </ul>
 
         <h2 id="k-safe">Caves, old mines and bad air</h2>
         <ul>
@@ -1635,6 +1644,8 @@ DATA.points.push(...[{"id": "ld-yellow-lodge", "n": "Yellow Lodge (old Rickard H
 // 1913 Chippewa County plat book (v139): what the plat draws at pins already on the map; data in og-data.js
 { if(typeof PB13_ENRICH!=='undefined'){ const S=["Atlas of Chippewa County, Wisconsin (Gailloux & Harris, Chippewa Falls, 1913; S. A. Carpenter), from Neb's screenshots","https://www.wisconsinhistory.org/record/map/W01B9BP!W01B9FX"];
   for(const p of DATA.points){ const e=PB13_ENRICH[p.id]; if(e){ p.st=(p.st||'')+e; if(!(p.src||[]).some(y=>y[0]===S[0])) p.src=[...(p.src||[]),S]; } } } }
+{ if(typeof PC93_ENRICH!=='undefined'){ const S=["Clark County Plats (C. S. Stockwell, Neillsville, 1893), Wisconsin Historical Society W01B9KC", "https://www.wisconsinhistory.org/record/maps/W01B9KC/clark-county-plats"];
+  for(const p of DATA.points){ const e=PC93_ENRICH[p.id]; if(e){ p.st=(p.st||'')+e; if(!(p.src||[]).some(y=>y[0]===S[0])) p.src=[...(p.src||[]),S]; } } } }
 {const p=DATA.points.find(q=>q.id==='sc-1578421'); if(p){
  p.y='1880s to 1940s (records from 1887)';
  p.st="Named Bowman School in the district's own history. The USGS place-name file spells it \"Bourman\", a misreading of Bowman; the school took its name from the Bowman family, who came from Porter's Mills and settled the farm that held the schoolyard. A district register goes back to 1887: that July the board set six months of school a year (three in summer, three in winter) at $25 a month for the teacher, with John Bowman as treasurer and John Culbert as clerk. The 1889 census lists the Culbert, Vance, Ward, Galey, Sherman, Martinson, Nelson, Tellstrom, Clark, Swanson and Bowman families. Swedish settlers (the Tellstroms) and the Wards and Hills (around Civil War days) were among the first here. The school house was also the place for church and community meetings. Teachers included Victoria Buttler, S. J. Tyler, J. M. McVicar, Anna Sewell, Cora Drake, Anna Bowman, Ethel Shepler, F. M. Bull, Thelma Oien, Amanda Brandan, Adda Wallum, Ella Tellstrom, Myrtle Gibson, Agnes Barland McDaniels, Lillian Porter Zahn, Fred Weggen, Dorothy Livingston, Myrtle Stamphill and A. Sofie Rone. Two buildings stood here: the first faced south, and when the road was rerouted a new school was built facing north. Part of the first building became part of the Marten Pederson home. "+p.st.replace(/^The USGS place-name file lists Bowman School[^.]*\. /,'');
@@ -5005,30 +5016,34 @@ body.ogp13 .ogland{display:none}
   OGE.on('draw',()=>v19());
   let saved=null; try{ saved=localStorage.getItem('og-1800s'); }catch(_){}
   if(saved==='1' && GM.type==='default') gmSetType('1800s'); else v19(); gmSheetSync(); }
-// ---------- Plat 1913 map type (v139): the 1913 Atlas of Chippewa County, 29 township pages fitted to the BLM survey corners and laid together ----------
-// as one county map: owners' names, schoolhouses, churches, cheese factories, mills and the rail lines before Lake Wissota. Tiled in the app (ot/p13).
-{ const B13=[-91.6676,-90.9203,44.855,45.2952];
-  const g13=el('g',{},gBase); gBase.insertBefore(g13,gBelt); g13.style.display='none';
-  const [ix,iy]=P(B13[0],B13[3]); const im13=el('image',{x:ix,y:iy,width:(B13[1]-B13[0])*K,height:B13[3]-B13[2],preserveAspectRatio:'none','data-f':'plat_chippewa_1913'},g13);
+// ---------- Plat books map type (v139 Chippewa 1913; a list since v142): county plat books, each page fitted to the BLM survey corners of its township
+// and laid together as one county map: owners' names, schoolhouses, churches, mills, cheese factories and the old roads and rail lines.
+// One picture per book (loaded when in view), one see-through slider for all of them. Tiled in the app (ot/<tile>). Add a book = add a PLATS entry.
+var PLATS=[{id:'chippewa',label:'Chippewa 1913',b:[-91.6676,-90.9203,44.855,45.2952],f:'plat_chippewa_1913',dir:'om13',tile:'p13'},
+  {id:'clark',label:'Clark 1893',b:[-90.9241,-90.314,44.4212,45.0348],f:'plat_clark_1893',dir:'om13',tile:'p-clark'}];
+{ const g13=el('g',{},gBase); gBase.insertBefore(g13,gBelt); g13.style.display='none';
+  for(const p of PLATS){ const [ix,iy]=P(p.b[0],p.b[3]); p.im=el('image',{x:ix,y:iy,width:(p.b[1]-p.b[0])*K,height:p.b[3]-p.b[2],preserveAspectRatio:'none','data-f':p.f},g13); }
   let op=100; try{ op=+(localStorage.getItem('og-13op')??100); }catch(_){}
   document.getElementById('gmNote').insertAdjacentHTML('afterend',`<div class="gm19" id="gm13" hidden>
-    <label>See-through <input type="range" id="gm13r" min="30" max="100" value="${op}" aria-label="1913 plat see-through"></label>
-    <div class="row"><button class="btn" id="gm13go">Go to Chippewa County</button></div>
+    <label>See-through <input type="range" id="gm13r" min="30" max="100" value="${op}" aria-label="Plat book see-through"></label>
+    <div class="row" id="gm13go">${PLATS.map(p=>`<button class="btn" data-plat="${p.id}">Go to ${p.label}</button>`).join('')}</div>
     <details><summary>Sources and fit</summary>
-    <p class="hint">Atlas of Chippewa County, Wisconsin (Gailloux &amp; Harris, Chippewa Falls, 1913; S. A. Carpenter), 29 township pages from Neb's screenshots. Each page's section grid was fitted to the BLM survey corners of its township, so section lines land within about 100 to 150 m. The village plats (Cadott, Boyd, Holcombe, Drywood, Anson, Edson Center and others) are too small to show here; their schools, stores, mills and depots are pins marked "1913 plat".</p>
-    <p class="hint">The plat is from before Lake Wissota (1917) and the Holcombe flowage, so the river, the mills and the old road lines show where the water is now. Screenshots are phone resolution: small names blur at the closest zoom.</p></details></div>`);
+    <p class="hint">Each book's township pages were fitted to the BLM survey corners of their townships, so section lines land within about 100 to 150 m. Village plats are too small to show here; their schools, stores, mills and depots are pins marked with the book's year ("1913 plat", "1893 plat").</p>
+    <p class="hint"><b>Chippewa 1913:</b> Atlas of Chippewa County, Wisconsin (Gailloux &amp; Harris, Chippewa Falls, 1913; S. A. Carpenter), 29 township pages from Neb's screenshots. It is from before Lake Wissota (1917) and the Holcombe flowage, so the river, the mills and the old road lines show where the water is now. Screenshots are phone resolution: small names blur at the closest zoom.</p>
+    <p class="hint"><b>Clark 1893:</b> Clark County Plats (C. S. Stockwell, Neillsville, 1893; E. P. Noll &amp; Co., Philadelphia), Wisconsin Historical Society W01B9KC: 34 township pages from the society's full-size scans, matched to Neb's screenshots. Logging-era county: dams on the Black River and its forks, sawmills, rail lines and many small schoolhouses on corners.</p></details></div>`);
   const p13=document.getElementById('gm13'), r13=document.getElementById('gm13r');
   const opA=()=>g13.setAttribute('opacity',(+r13.value/100).toFixed(2));
   r13.oninput=()=>{ opA(); try{ localStorage.setItem('og-13op',r13.value); }catch(_){} }; opA();
   function v13(){ const o=GM.type==='plat1913'; g13.style.display=o?'':'none'; if(p13) p13.hidden=!o; document.body.classList.toggle('ogp13',o&&typeof OGT!=='undefined'&&!!OGT.ix); if(!o) return;
     const lon0=vb.x/K, lon1=(vb.x+vb.w)/K, la1=-vb.y, la0=-(vb.y+vb.h);
-    if(!(B13[1]<lon0||B13[0]>lon1||B13[3]<la0||B13[2]>la1)&&!im13.getAttribute('href')) im13.setAttribute('href','om13/plat_chippewa_1913.webp'); }
-  document.getElementById('gm13go').onclick=()=>{ const [x0,y0]=P(B13[0],B13[3]),[x1,y1]=P(B13[1],B13[2]); vb={x:x0,y:y0,w:x1-x0,h:y1-y0}; fit(); apply(); try{ gmSheet(false); }catch(_){} drawMarkers(); };
+    for(const p of PLATS){ const B=p.b; if(p.im&&!(B[1]<lon0||B[0]>lon1||B[3]<la0||B[2]>la1)&&!p.im.getAttribute('href')) p.im.setAttribute('href',p.dir+'/'+p.f+'.webp'); } }
+  document.getElementById('gm13go').onclick=ev=>{ const b=ev.target.closest('[data-plat]'); if(!b) return; const B=PLATS.find(p=>p.id===b.dataset.plat).b;
+    const [x0,y0]=P(B[0],B[3]),[x1,y1]=P(B[1],B[2]); vb={x:x0,y:y0,w:x1-x0,h:y1-y0}; fit(); apply(); try{ gmSheet(false); }catch(_){} drawMarkers(); };
   const _gst13=gmSetType; gmSetType=function(t,open){
     if(t==='plat1913'){ _gst13('default',open); GM.type='plat1913'; try{ localStorage.setItem('atlas-maptype','plat1913'); localStorage.setItem('og-plat13','1'); }catch(_){} gmSheetSync(); drawMarkers(); }
     else{ try{ localStorage.removeItem('og-plat13'); }catch(_){} _gst13(t,open); } v13(); };
-  const _gn13=gmNote; gmNote=function(){ _gn13(); const n=document.getElementById('gmNote'); if(n&&GM.type==='plat1913') n.textContent='Plat book 1913: Chippewa County as the 1913 county atlas drew it, with every farm owner, schoolhouse, church, cheese factory and mill. Zoom in on a township to read the names.'; v13(); };
-  document.getElementById('gmTypes').insertAdjacentHTML('beforeend','<button data-mt="plat1913" aria-pressed="false"><i class="mt-plat"></i><span>Plat 1913</span></button>');
+  const _gn13=gmNote; gmNote=function(){ _gn13(); const n=document.getElementById('gmNote'); if(n&&GM.type==='plat1913') n.textContent='Plat books: '+PLATS.map(p=>p.label).join(', ')+'. Each county as its old plat book drew it, with every farm owner, schoolhouse, church, mill and dam. Zoom in on a township to read the names.'; v13(); };
+  document.getElementById('gmTypes').insertAdjacentHTML('beforeend','<button data-mt="plat1913" aria-pressed="false"><i class="mt-plat"></i><span>Plat books</span></button>');
   { const h=document.querySelector('#gmTypes button[data-wm]'); if(h) h.parentNode.appendChild(h); }
   OGE.on('draw',()=>v13());
   let saved=null; try{ saved=localStorage.getItem('og-plat13'); }catch(_){}
@@ -5237,8 +5252,9 @@ fetch('ot/index.json').then(r=>r.ok?r.json():null).then(ix=>{ if(!ix||!ix.o36) r
   for(const id in ix){ OGT.S[id]={}; for(const z in ix[id].t) OGT.S[id][z]=new Set(ix[id].t[z]?ix[id].t[z].split(','):[]); }
   // the slider maps cover the same box: a map hidden under a fully shown one, or faded to nothing, isn't loaded at all
   const old=()=>on.has('_oldmap'), A=()=>OGT.a||[1,0];
-  const SHOW={o250:old,o15:old,ogt:()=>old()&&A()[0]<1,o72:()=>old()&&A()[0]>0&&A()[1]<1,o36:()=>old()&&A()[1]>0,o19:()=>GM.type==='1800s',o78:()=>GM.type==='1800s',p13:()=>GM.type==='plat1913'};
-  for(const id of ['o250','o15','o19','o78','ogt','o72','o36','p13']){ if(!ix[id]) continue; const M=ix[id];
+  const SHOW={o250:old,o15:old,ogt:()=>old()&&A()[0]<1,o72:()=>old()&&A()[0]>0&&A()[1]<1,o36:()=>old()&&A()[1]>0,o78:()=>GM.type==='1800s',o19:()=>GM.type==='1800s'};
+  const PT=(typeof PLATS!=='undefined'?PLATS:[]).map(p=>p.tile); for(const t of PT) SHOW[t]=()=>GM.type==='plat1913';
+  for(const id of ['o250','o15','o19','o78','ogt','o72','o36',...PT]){ if(!ix[id]) continue; const M=ix[id];
     OGT.L[id]=tileLayer('t'+id,(z,x,y)=>`ot/${id}/${z}/${x}_${y}.webp`,{hd:true,minz:M.z[0],max:()=>M.z[1],has:(z,x,y)=>OGT.has(id,z,x,y),show:SHOW[id]}); }
   // the whole-sheet pictures step aside (taken out of the page, so they never download or decode)
   for(const im of document.querySelectorAll('svg image[data-f]')){ const f=im.dataset.f; if(/^(h15_|h250_|h19_|sv78_|plat_)/.test(f)||['ground-today','topo-1972','topo-1936'].includes(f)){ im.setAttribute('href','data:,'); im.remove(); } }
@@ -5249,7 +5265,7 @@ function ogtFade(){ const r=document.getElementById('omsR'); if(!r||!OGT.ix) ret
   const set=(id,a)=>{ const L=OGT.L[id]; if(L) L.div.style.opacity=a<1?a.toFixed(2):''; };
   set('o72',a72); set('o36',a36); set('o250',a72); set('o15',a72);
   const r19=document.getElementById('gm19r'); if(r19){ set('o19',Math.min(1,+r19.value/100)); set('o78',Math.min(1,+r19.value/100)); }
-  const r13=document.getElementById('gm13r'); if(r13) set('p13',Math.min(1,+r13.value/100)); document.body.classList.toggle('ogp13',GM.type==='plat1913'); }
+  const r13=document.getElementById('gm13r'); if(r13) for(const p of (typeof PLATS!=='undefined'?PLATS:[])) set(p.tile,Math.min(1,+r13.value/100)); document.body.classList.toggle('ogp13',GM.type==='plat1913'); }
 { const r=document.getElementById('omsR'); if(r) r.addEventListener('input',ogtFade); const r19=document.getElementById('gm19r'); if(r19) r19.addEventListener('input',ogtFade); const r13=document.getElementById('gm13r'); if(r13) r13.addEventListener('input',ogtFade); }
 OGE.on('draw',()=>ogtFade());
 
