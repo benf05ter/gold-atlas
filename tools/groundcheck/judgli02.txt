@@ -1,0 +1,58 @@
+li000|0|N|the Parrish sheet draws roads and buildings but nothing near this spot
+li000|1|B 110 SSE|two small buildings south of the pin by the road corner
+li000|2|N|on the railroad line, with a creek beside it; the nearest buildings are about 220 m north
+li000|3|B 90 S|buildings along the highway south of the pin; a church cross about 200 m south-west
+li000|4|N|the river channel and a dashed old railroad grade cross the pin; no streets are drawn
+li000|5|N|open ground at the edge of woods
+li000|6|B 20|two buildings at the road junction; the USGS place-name file puts it about 280 m south instead, so the pin was not moved
+li000|7|N|a road curve; buildings and a Mathews Church label about 180 m east
+li000|8|N|the Parrish sheet draws roads and buildings but nothing near this spot
+li000|9|B 85 NE|buildings along the road north-east of the pin
+li000|10|B 60 W|a building beside a small cemetery outline west of the pin
+li000|11|S 135 NNW|M -30 135|Lily Lake School label beside the symbol
+li001|0|N|a road crossing about 90 m north
+li001|1|N|at the woods edge; a Cem label about 180 m south
+li001|2|N|on the lake shore, with a dashed old railroad grade about 15 m south
+li001|3|S 120 WSW|M -110 -44|Heller School label beside the symbol
+li001|4|B 20|two buildings at the pin and a third about 60 m west-southwest
+li001|5|B 90 S|buildings by the road south of the pin; a Cem label at the pin, a cemetery outline about 120 m east, and the Doering School label about 230 m south
+li001|6|N|the Parrish sheet draws roads and buildings but nothing near this spot
+li001|7|F|woods with trails; a clearing about 110 m north
+li001|8|F|woods
+li001|9|N|the Parrish sheet draws roads and buildings but nothing near this spot
+li001|10|N|a road along the lake crosses the pin; a building about 230 m east-southeast
+li001|11|C 150 ESE|M 140 -56|Saint Paul Church label beside the symbol
+li002|0|C 140 NE|M 110 82|Saint Luke Church label beside the cross
+li002|1|N|a creek about 100 m north; buildings about 180 m east-northeast
+li002|2|N|the Parrish sheet draws roads and buildings but nothing near this spot
+li002|3|N|an old railroad grade about 110 m north-east; the Gleason buildings start about 180 m south
+li002|4|B 130 S|buildings at the road corner south of the pin
+li002|5|B 120 SSW|a School label about 240 m south-southwest
+li002|6|B 95 E|buildings east of the pin by the road bend
+li002|7|N|open ground
+li002|8|V|Spirit Falls|houses along the streets about 110 m west-southwest, by the railroad and the river
+li002|9|B 100 E|a Town Hall label at the pin
+li002|10|B 70 SSE|buildings by the road south-east of the pin
+li002|11|F|woods
+li003|0|N|beside the Lincoln-Marathon county line; L a road about 20 m south
+li003|1|S 70 SE|M 60 -38|Green Dale School label beside the symbol
+li003|2|N|at a road and railroad crossing; buildings about 200 m south-east
+li003|3|B 40 E|a string of buildings along the road and the lake shore
+li003|4|N|buildings about 200 m north-east along the road
+li003|5|B 70 SSW|Gleason's buildings along the road south of the pin
+li003|6|N|a creek about 70 m north-west; Corning label at the pin
+li003|7|N|on the railroad; buildings about 140 m west; no station drawn
+li003|8|B 105 NW|buildings at the road corner north-west, and another about 145 m north-east; Finn School label at the pin
+li003|9|N|the Parrish sheet draws roads and buildings but nothing near this spot
+li003|10|F|marsh on the lake shore
+li003|11|F|woods
+li004|0|F|woods with a stream; the Spirit Falls buildings start about 180 m south-east
+li004|1|N|a clearing above the river marsh
+li004|2|F|river channels in woods; a Chalmers label about 260 m north
+li004|3|N|a creek about 30 m south; an old railroad grade about 120 m east
+li004|4|T 0|the fair ground track, with city blocks just west
+li004|5|N|the railroad about 110 m west; buildings about 220 m north
+li004|6|S 150 SE|M 110 -100|Brickyard School label beside the symbol
+li004|7|N|a creek about 40 m south-east
+li004|8|B 30 SW|buildings along the road and a railroad spur about 120 m south; Bradley label west of the pin
+li004|9|B 140 NW|buildings at the road corners north-west and north-east
