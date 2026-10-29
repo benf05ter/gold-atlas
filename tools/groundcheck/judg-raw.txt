@@ -1,0 +1,1303 @@
+s000|0|N|L terrace edge, no dam berm
+s000|1|B 250 N
+s000|2|B 40 S
+s000|3|B 220 SE|crossroads hamlet cluster
+s000|4|N
+s000|5|B 190 SW
+s000|6|B 50 W|crossroads
+s000|7|F
+s000|8|N
+s000|9|N
+s000|10|B 80 NW|crossroads
+s000|11|N
+s001|0|N
+s001|1|N
+s001|2|B 20|crossroads
+s001|3|B 100 W
+s001|4|N
+s001|5|B 115 SW
+s001|6|V|Foster
+s001|7|B 30 E
+s001|8|N
+s001|9|B 70 S
+s001|10|N
+s001|11|N
+s002|0|N
+s002|1|B 35 W|church yard beside cemetery
+s002|2|B 50 SW
+s002|3|N|cemetery box 270 SE
+s002|4|S 60 W|labelled Ant.. Sch
+s002|5|B 120 W|crossroads
+s002|6|N
+s002|7|B 80 NE|village edge
+s002|8|N
+s002|9|N
+s002|10|B 40 S
+s002|11|S 0|Mill Sch label on pin
+s003|0|K 80 N|M 10 80|topo cemetery box labelled St..
+s003|1|N
+s003|2|N|Hadleyville Cem label 160 N
+s003|3|N
+s003|4|K 75 NE|M 40 65|Hadleyville Cem box
+s003|5|C 40 NW|Ch label
+s003|6|N
+s003|7|V|Cleghorn
+s003|8|N
+s003|9|N
+s003|10|N
+s003|11|S 70 W|Sch label
+s004|0|N
+s004|1|V|Brackett
+s004|2|B 80 NE
+s004|3|F
+s004|4|N
+s004|5|N|L pin on a gully edge
+s004|6|C label on pin|symbol possibly 250 E, not sure
+s004|7|S 100 SW
+s004|8|N
+s004|9|N
+s004|10|S 20 W
+s004|11|S 140 S|Rosedale label, unsure
+s005|0|N
+s005|1|C 85 S|M 30 -80|church symbol by road bend
+s005|2|C 220 WNW|M -210 72|church symbol, only one nearby
+s005|3|N
+s005|4|N|Mt Hope church or school symbol 280 NW
+s005|5|N
+s005|6|S 80 NW|symbol at Mt Hope corner
+s005|7|N
+s005|8|N
+s005|9|N
+s005|10|N
+s005|11|S 110 SSW|M -60 -96|labelled Green(meadow)
+s006|0|S 230 SW|M -170 -160|labelled Hillyview Sch; the old pin sat on the highway
+s006|1|B 70 E
+s006|2|N
+s006|3|N
+s006|4|B 120 NW
+s006|5|B 200 SW
+s006|6|B 70 SW
+s006|7|N
+s006|8|S 175 S|labelled Little.. Sch, not sure of the symbol
+s006|9|F
+s006|10|N
+s006|11|S 190 W|M -190 0|labelled Oak Ridge
+s007|0|F
+s007|1|B 80 E|crossroads
+s007|2|B 100 S|by the road
+s007|3|B 190 N
+s007|4|N
+s007|5|N|houses cover it today
+s007|6|N
+s007|7|F
+s007|8|N
+s007|9|N|L small pond hollow 140 S
+s007|10|N
+s007|11|V|Ludington
+s008|0|C 60 E|Zion Ch label, cemetery just south
+s008|1|V|Ludington
+s008|2|B 130 SE
+s008|3|N
+s008|4|B 90 SE
+s008|5|N|church 210 E
+s008|6|N
+s008|7|N
+s008|8|B 30 S
+s008|9|N|no building drawn in 1934
+s008|10|S label on pin|symbol unclear
+s008|11|N
+s009|0|K 110 SSE|M 50 -100|cemetery box
+s009|1|N
+s009|2|N
+s009|3|B 150 W
+s009|4|B 40 N|crossroads hamlet
+s009|5|N
+s009|6|B 80 S
+s009|7|C 170 WSW|M -150 -80|Ch label
+s009|8|N
+s009|9|N
+s009|10|B 130 W
+s009|11|B 70 S|Longview Sch label beside
+s010|0|N
+s010|1|N|Creek Ch church 180 E
+s010|2|V|Old Albertville
+s010|3|S 130 ENE|M 110 75|school flag symbol
+s010|4|B 90 E
+s010|5|B 90 SW
+s010|6|B 100 SE|..ove Ch label
+s010|7|S 105 SE|M 80 -70|Liberty Hill Sch label
+s010|8|V|Edson Center
+s010|9|K 0|cemetery box on the pin
+s010|10|V|Edson Center
+s010|11|V|Edson Center
+s011|0|V|Edson Center
+s011|1|C 0|church symbol on the pin
+s011|2|S 220 ESE|M 200 -90|Mohr Sch label; matches GNIS spot
+s011|3|V|Edson Center
+s011|4|B 120 NE
+s011|5|S 170 SE|M 130 -105|building beside the B(rown Sch) label
+s011|6|B 40 NW|crossroads
+s011|7|N|L gravel pit dug at the pin since 1934 (topo shows a hill)
+s011|8|N
+s011|9|B 195 WNW|Cran(dle) label, symbol unclear
+s011|10|N|houses cover it today
+s011|11|N|lake shore causeway
+s012|0|N|built over today
+s012|1|B 80 SE
+s012|2|N|Frazier Sch label on the pin, no church drawn
+s012|3|N|L the rail grades run 150 m SW
+s012|4|B 100 E
+s012|5|V|Boyd
+s012|6|V|Boyd
+s012|7|V|Boyd
+s012|8|V|Boyd
+s012|9|N|in the mill pond as drawn
+s012|10|N
+s012|11|B 50 NE
+s013|0|N
+s013|1|N|mill buildings by the spillway 200 W
+s013|2|S 115 NNW|M -70 90|Victory (Abandoned) label
+s013|3|B 140 SE
+s013|4|N
+s013|5|B 140 E|cemetery 260 S
+s013|6|N
+s013|7|S 115 NE|M 80 80|Mi(tchell) label
+s013|8|C 40 E
+s013|9|V|Anson corner
+s013|10|V|Anson corner
+s013|11|V|Anson corner
+s014|0|S 80 ENE|school flag by the corner
+s014|1|V|Anson corner
+s014|2|S 120 E|M 120 -10|Victory S(ch) label
+s014|3|N
+s014|4|N|M -13 -425|the village plat was fitted about 425 m too far north, and the Tilden hamlet on the 1949 topo and today sits south of it, as the plat's own SW 1/4 of SE 1/4 of sec. 11 says
+s014|5|N|M -13 -425|the village plat was fitted about 425 m too far north, and the Tilden hamlet on the 1949 topo and today sits south of it, as the plat's own SW 1/4 of SE 1/4 of sec. 11 says
+s014|6|N|M -13 -425|the village plat was fitted about 425 m too far north, and the Tilden hamlet on the 1949 topo and today sits south of it, as the plat's own SW 1/4 of SE 1/4 of sec. 11 says
+s014|7|N|ABS 45.00532 -91.44012|the 1949 topo draws the cemetery box beside the church west of the Tilden corner, 470 m southwest of the old pin
+s014|8|N|M -13 -425|the village plat was fitted about 425 m too far north, and the Tilden hamlet on the 1949 topo and today sits south of it, as the plat's own SW 1/4 of SE 1/4 of sec. 11 says
+s014|9|N|M -13 -425|the village plat was fitted about 425 m too far north, and the Tilden hamlet on the 1949 topo and today sits south of it, as the plat's own SW 1/4 of SE 1/4 of sec. 11 says
+s014|10|N|ABS 45.00606 -91.4379|the Tilden corner with its church, store and houses is 560 m south-southeast on the 1949 topo and today
+s014|11|N|..ey Ch church 100 SE
+s015|0|B 190 SE|St John(s) label
+s015|1|N
+s015|2|N
+s015|3|N
+s015|4|N|Dale Sch label south, symbol unclear
+s015|5|B 80 E|Brown label
+s015|6|B 60 S
+s015|7|V|Huron corner
+s015|8|C 40 S|St Anthony Ch label
+s015|9|N|creek bank; Drywood houses 200 m E
+s015|10|N|L no dam berm left in the channel
+s015|11|B 90 SE
+s016|0|V|Drywood
+s016|1|V|Drywood
+s016|2|V|Drywood
+s016|3|V|Crescent
+s016|4|V|Crescent
+s016|5|V|Crescent
+s016|6|N
+s016|7|B 80 NE|along the tracks
+s016|8|D 0|dam drawn across the river at the pin
+s016|9|N
+s016|10|V|Cobban
+s016|11|N|the rail line crosses 70 m W
+s017|0|V|Eagleton
+s017|1|V|Eagleton
+s017|2|V|Eagleton
+s017|3|V|Eagleton
+s017|4|V|Eagleton
+s017|5|V|Eagleton
+s017|6|C 160 W|M -160 0|church symbol on the main road
+s017|7|B 120 SW
+s017|8|B 110 W
+s017|9|N
+s017|10|N
+s017|11|N
+s018|0|S label on pin|Churchill Sch label
+s018|1|N
+s018|2|N
+s018|3|B 0|on the rail line as drawn
+s018|4|V|Bloomer
+s018|5|V|Bloomer
+s018|6|V|Bloomer
+s018|7|N
+s018|8|V|Bloomer
+s018|9|K 20 E|topo draws a cemetery here, not a school
+s018|10|N
+s018|11|S 50 NE|Spr(ingbrook) label
+s019|0|B 110 SE
+s019|1|V|Ruby
+s019|2|N
+s019|3|K 230 N|Estella cemetery box north
+s019|4|N
+s019|5|D 0|pin sits on the dam as drawn
+s019|6|D 100 S|M 60 -100|dam line and LiDAR dam berm 110 m S
+s019|7|V|Cornell
+s019|8|N
+s019|9|N|St Martin Ch label on the pin
+s019|10|N
+s019|11|F
+s020|0|N|a school label 270 m S
+s020|1|B 210 W
+s020|2|N|marsh
+s020|3|N
+s020|4|N
+s020|5|N|pond shore as drawn
+s020|6|N
+s020|7|K 80 SE|St C.. cemetery box beside the corner
+s020|8|N
+s020|9|V|Arnold
+s020|10|V|Arnold
+s020|11|V|Arnold
+s021|0|S 50 W|school flag symbol
+s021|1|V|Holcombe
+s021|2|N|by the flowage shore; nothing drawn
+s021|3|N
+s021|4|N
+s021|5|B 90 NE
+s021|6|S 115 W|M -110 40|school flag beside the Pine (Grove) label
+s021|7|N|marsh
+s021|8|F
+s021|9|N
+s021|10|B 125 S|church cross and buildings at the corner
+s021|11|N|St Pauls Ch label
+s022|0|N
+s022|1|N
+s022|2|N
+s022|3|N
+s022|4|N
+s022|5|N
+s022|6|B 70 SW|Shortville corner
+s022|7|N
+s022|8|N
+s022|9|N
+s022|10|N
+s022|11|N
+s023|0|N|L old sloughs and channels by the river
+s023|1|F
+s023|2|N
+s023|3|N
+s023|4|N
+s023|5|N|gravel pit marked just southeast on the 1953 topo
+s023|6|N|topo labels a gravel pit at the pin
+s023|7|B 120 SW
+s023|8|N
+s023|9|V|Lynn houses 150 m S
+s023|10|B 110 S
+s023|11|N
+s024|0|N|L an old channel or race bend at the pin
+s024|1|N
+s024|2|B 60 N
+s024|3|C 80 SSE|M 40 -70|church cross symbol by the road
+s024|4|N
+s024|5|B 90 SE
+s024|6|N
+s024|7|N
+s024|8|C 40 W|cemetery box 170 m SW
+s024|9|B 45 N
+s024|10|N
+s024|11|N
+s025|0|N
+s025|1|T 140 WNW|M -120 70|race track oval on the 1953 topo and in LiDAR
+s025|2|N|Town Hall 150 m SE
+s025|3|N|L gravel pits dug at the pin (topo labels Gravel Pits)
+s025|4|B 20 E
+s025|5|B 80 W
+s025|6|N
+s025|7|B 100 N
+s025|8|N
+s025|9|N
+s025|10|N
+s025|11|N
+s026|0|B 140 SW
+s026|1|V|Chili
+s026|2|N
+s026|3|N
+s026|4|S 100 S|M -20 -95|school symbol beside the Sch label
+s026|5|N
+s026|6|N
+s026|7|B 130 NW
+s026|8|B 190 W
+s026|9|V|Wilcox; Town Hall drawn 70 m S
+s026|10|N|Center Ch label about 290 m S
+s026|11|B 70 S|Town Hall label beside it
+s027|0|N
+s027|1|N
+s027|2|N
+s027|3|N
+s027|4|N
+s027|5|N|Uncle Sam Sch label on the pin, symbol not clear
+s027|6|S 40 W|Fairview Sch label
+s027|7|B 70 E|Christie houses along the road
+s027|8|B 60 E|Christie
+s027|9|N
+s027|10|N
+s027|11|N
+s028|0|N
+s028|1|B 100 E
+s028|2|B 50 SW
+s028|3|S 140 SE|M 100 -95|school flag by the road with a S.. label
+s028|4|B 90 NW
+s028|5|B 170 W|Coles Sch and cemetery here
+s028|6|B 80 S
+s028|7|S 130 WSW|M -110 -70|building by the Coles S(ch) label
+s028|8|N
+s028|9|N
+s028|10|N
+s028|11|N|on the rail line
+s029|0|N|on the rail line
+s029|1|V|Loyal
+s029|2|N
+s029|3|N
+s029|4|N
+s029|5|N
+s029|6|B 120 NE
+s029|7|N
+s029|8|V|Greenwood mill row by the river
+s029|9|N|L an old rail grade runs through the pin
+s029|10|N
+s029|11|F
+s030|0|N
+s030|1|B 170 WNW|Sch label nearby
+s030|2|N
+s030|3|N
+s030|4|B 60 SE|Sch (Abandoned) label 200 m NW
+s030|5|B 50 E|Sunnyside (Sch) label
+s030|6|N
+s030|7|N
+s030|8|B 50 S|cemetery box 150 m E
+s030|9|N|Beaver Cem label on the pin
+s030|10|N
+s030|11|S 125 W|M -120 -35|school symbol over the Grove Sch label
+s031|0|N|L a river loop or race just west of the pin
+s031|1|C 120 SW|M -80 -90|church cross with cemetery
+s031|2|B 70 N
+s031|3|B 100 NE
+s031|4|N
+s031|5|N
+s031|6|N|marsh
+s031|7|N
+s031|8|N
+s031|9|B 80 NE|Town Hall label on the pin
+s031|10|C 175 E|M 170 35|church cross by the St.. label
+s031|11|N
+s032|0|N
+s032|1|N|a pit 100 m N
+s032|2|S 70 E|Atwood Sch label
+s032|3|B 30 W
+s032|4|S 300 SE|M 240 -185|school symbol at the end of the Woodland Sch label
+s032|5|N
+s032|6|N
+s032|7|V|Longwood
+s032|8|N
+s032|9|B 60 NE
+s032|10|N
+s032|11|N
+s033|0|B 50 E|Reseburg label
+s033|1|N
+s033|2|N
+s033|3|S 50 E|Breezy.. label
+s033|4|N|Pioneer S(ch) label on the pin
+s033|5|N
+s033|6|V|village
+s033|7|B 30 E
+s033|8|N|Midway label on the pin
+s033|9|F
+s033|10|V|Owen
+s033|11|V|Withee
+s034|0|N|L pits and old grades around the pin; quarry symbol 60 m N
+s034|1|N
+s034|2|N
+s034|3|K 60 S|cemetery box at the corner
+s034|4|N
+s034|5|B 10|a building drawn on the pin
+s034|6|N
+s034|7|N
+s034|8|V|Edswold
+s034|9|N
+s034|10|N|..view Sch label on the pin
+s034|11|N
+s035|0|B 130 N|a building up a lane north of the road
+s035|1|N|houses cover it today
+s035|2|N
+s035|3|N
+s035|4|N
+s035|5|B 140 S
+s035|6|S 190 E|M 190 -30|school flag at the corner by the Robinson Sch label
+s035|7|N
+s035|8|N
+s035|9|N
+s035|10|N
+s035|11|N|at the edge of Lake Wissota, flooded in 1917
+s036|0|S 135 E|M 130 -40|school symbol above the Crandle Sch label
+s036|1|N
+s036|2|N
+s036|3|F
+s036|4|C 50 N|church cross drawn
+s036|5|N|Oak Grove Sch label 200 m S; highway interchange today
+s036|6|N|houses cover it today
+s036|7|N
+s036|8|B 80 N|Popple Grove label
+s036|9|N
+s036|10|B 55 S
+s036|11|N|houses cover it today
+s037|0|N
+s037|1|B 70 SE
+s037|2|N
+s037|3|N
+s037|4|N
+s037|5|B 70 W|cemetery box 80 m SE
+s037|6|N
+s037|7|C 125 WSW|M -110 -60|church symbol by the Elk Creek Ch label
+s037|8|N
+s037|9|F
+s037|10|N
+s037|11|N|..Creek Sch label 150 m S
+s038|0|N
+s038|1|N
+s038|2|N|cemetery box 140 m E
+s038|3|K 0|cemetery drawn on the pin
+s038|4|N
+s038|5|N
+s038|6|N|McKinley Sch drawn 35 m N; Cem label 190 m SE
+s038|7|N
+s038|8|K 85 SW|cemetery crosses
+s038|9|N
+s038|10|N
+s038|11|N|on the river bank
+s039|0|N|houses cover it today
+s039|1|N
+s039|2|N
+s039|3|N|L no dam left in the channel
+s039|4|N|L a dug hollow 80 m E, likely the clay pit
+s039|5|N
+s039|6|V|Stanley
+s039|7|N
+s039|8|N|houses cover it today
+s039|9|N
+s039|10|N|under Lake Wissota since 1917
+s039|11|B 60 SE
+s040|0|N
+s040|1|N
+s040|2|N
+s040|3|K 160 W|M -160 -25|Union Cem box
+s040|4|N|gravel pit dug just SW
+s040|5|B 30 E
+s040|6|N
+s040|7|N
+s040|8|N
+s040|9|N
+s040|10|N
+s040|11|N
+s041|0|N
+s041|1|N
+s041|2|B 60 W
+s041|3|N
+s041|4|N
+s041|5|N|at the edge of Lake Wissota, flooded in 1917
+s041|6|B 90 NE
+s041|7|N
+s041|8|N
+s041|9|B 0|a building drawn on the pin
+s041|10|B 120 NE|..verson Sch label
+s041|11|S 190 N|M 40 185|school symbol beside the Thomas Sch label
+s042|0|B 0|buildings drawn on the pin
+s042|1|N
+s042|2|B 110 ENE
+s042|3|K 65 NW|cemetery box beside the church
+s042|4|N
+s042|5|N
+s042|6|K 220 SW|M -110 -190|O'Neil Creek Cem box
+s042|7|N
+s042|8|N
+s042|9|N
+s042|10|N|marsh
+s042|11|N
+s043|0|N
+s043|1|N
+s043|2|B 120 N
+s043|3|N
+s043|4|N
+s043|5|N
+s043|6|B 10|buildings drawn on the pin
+s043|7|C 130 N|M 20 130|church cross under the St Johns label
+s043|8|B 70 W
+s043|9|N
+s043|10|N
+s043|11|N
+s044|0|N
+s044|1|B 120 ESE
+s044|2|N
+s044|3|N
+s044|4|N
+s044|5|N
+s044|6|V|Jim Falls
+s044|7|N
+s044|8|N
+s044|9|B 140 NE
+s044|10|N|Churchill Sch label on the pin
+s044|11|N
+s045|0|B 110 E
+s045|1|N
+s045|2|N
+s045|3|N|no cemetery box drawn; buildings 90 m E
+s045|4|N|L no dam berm left
+s045|5|S 165 NNW|M -60 155|school flag under the Sunny Side Sch label
+s045|6|N
+s045|7|N
+s045|8|N
+s045|9|N
+s045|10|N
+s045|11|N
+s046|0|N
+s046|1|N
+s046|2|N
+s046|3|N
+s046|4|N
+s046|5|N
+s046|6|N
+s046|7|N
+s046|8|B 80 N
+s046|9|B 140 S
+s046|10|N
+s046|11|N|L quarry benches and spoil heaps at the pin
+s047|0|K 45 E|cemetery box outline beside the pin
+s047|1|B 50 E
+s047|2|N
+s047|3|N
+s047|4|N
+s047|5|B 75 SE|buildings at the road fork
+s047|6|N
+s047|7|N
+s047|8|N
+s047|9|N
+s047|10|N
+s047|11|K 150 S|M 20 -150|North cemetery box with cross below the Corner S(ch) label
+s048|0|S 30 E|Center Sch label
+s048|1|C 60 NE|church cross beside the Br.. Sch label
+s048|2|B 100 S
+s048|3|B 80 NW|Zion corner
+s048|4|B 90 SE
+s048|5|N
+s048|6|B 50 S
+s048|7|C 150 SW|church cross under the Zion Ch label
+s048|8|B 100 N
+s048|9|N
+s048|10|B 120 N
+s048|11|N
+s049|0|N|L a mill-pond dam berm 60 m N
+s049|1|N
+s049|2|B 100 E
+s049|3|N
+s049|4|N|a school marked (Abandoned) 130 m SW
+s049|5|B 10|buildings drawn on the pin
+s049|6|N
+s049|7|B 40 W
+s049|8|V|Cox
+s049|9|D 30 SE|the dam and road at the foot of the pond
+s049|10|N
+s049|11|V|Estella
+s050|0|B 100 SE
+s050|1|B 20 N|by the road and creek
+s050|2|K 75 NE|cemetery crosses
+s050|3|B 140 N
+s050|4|N
+s050|5|S 70 E|school symbol beside the Keystone Sch label
+s050|6|N|Keystone Sch label on the pin; buildings 120 m W
+s050|7|B 10|buildings drawn on the pin
+s050|8|K 90 SW|M -60 -70|cemetery box
+s050|9|N
+s050|10|N
+s050|11|B 30 E
+s051|0|N
+s051|1|N|L the pond and the old road beside it are still there
+s051|2|N
+s051|3|N|L old gravel or clay pits all around the pin
+s051|4|N
+s051|5|N
+s051|6|B 70 SE
+s051|7|B 70 W
+s051|8|S 120 NE|ABS 45.238139 -91.478663|school flag by the Pine (Grove) label; same school as the 1913 pin
+s051|9|B 60 S|Grove Sch label 80 m NW
+s051|10|B 60 SE
+s051|11|S 110 E|school flag at the Long Lake road
+s052|0|N
+s052|1|N
+s052|2|N|Twin Lake Sch label on the pin; flag symbol 140 m NE
+s052|3|N
+s052|4|B 70 S
+s052|5|N
+s052|6|B 50 SW
+s052|7|C 70 E|church cross and cemetery box by the St Francis label
+s052|8|B 30 W
+s052|9|F
+s052|10|B 120 SW
+s052|11|N|cemetery box 170 m SE
+s053|0|B 90 SE
+s053|1|B 80 S
+s053|2|B 80 NW|the pin falls in a pond on the 1948 topo
+s053|3|B 50 SW
+s053|4|N
+s053|5|N
+s053|6|N
+s053|7|V|village
+s053|8|N
+s053|9|N|L a large pit or pond has been dug at the pin since 1948
+s053|10|N
+s053|11|N|L a mound of spoil or a dug patch 40 m E, likely the mine
+s054|0|B 50 E
+s054|1|N|marsh; LiDAR shows a ditch line across the pin
+s054|2|V|village
+s054|3|N|L a small hollow or pit 40 m N
+s054|4|N
+s054|5|V|Deertail
+s054|6|N
+s054|7|N|marsh
+s054|8|N
+s054|9|N|marsh by the tracks
+s054|10|N
+s054|11|N|a school-sized building today 60 m SE
+s055|0|N
+s055|1|B 70 NE|a cluster of buildings, likely the school and houses
+s055|2|B 120 N
+s055|3|F
+s055|4|B 60 W
+s055|5|V|Hawkins
+s055|6|F|L a terrace edge or old ditch 70 m E
+s055|7|F
+s055|8|N
+s055|9|N
+s055|10|F
+s055|11|N|the river bank, with a road ending at the river 100 m E
+s056|0|N
+s056|1|B 20 S|..urry Sch label
+s056|2|F
+s056|3|B 90 NE|a few buildings by the rail line in 1945
+s056|4|N
+s056|5|F
+s056|6|S 60 E|school flag beside the Sch label
+s056|7|B 30 W
+s056|8|N
+s056|9|N
+s056|10|N
+s056|11|V|Eau Galle
+s057|0|V|Eau Galle; L the drained mill-pond bed lies just south of the pin
+s057|1|D 30 E|L the old dam embankment still stands 30 m E
+s057|2|V|Eau Galle
+s057|3|V|Eau Galle
+s057|4|B 110 E
+s057|5|K 50 N|M 10 50|cemetery box with cross
+s057|6|B 80 NW
+s057|7|K 40 SE|cemetery box with cross by the Lo.. label
+s057|8|V|Rock Falls
+s057|9|N
+s057|10|B 60 W
+s057|11|N|L a straight ditch line crosses the marsh 100 m E
+s058|0|N|a building at the road corner 150 m SW
+s058|1|N
+s058|2|N
+s058|3|N|village 150 m S
+s058|4|N
+s058|5|N
+s058|6|V|Rock Creek village
+s058|7|V|Caryville
+s058|8|N|L the rail grade and river bank meet at the pin
+s058|9|N
+s058|10|N
+s058|11|B 50 N
+s059|0|B 120 E
+s059|1|B 70 W|Louisville
+s059|2|N
+s059|3|N
+s059|4|N
+s059|5|N
+s059|6|K 90 N|M 10 90|cemetery box with cross
+s059|7|N|cemetery box 150 m SE
+s059|8|N|cemetery box 190 m S
+s059|9|N
+s059|10|V|Downsville
+s059|11|S 60 SE|school flag
+s060|0|N
+s060|1|V|Downsville
+s060|2|N|L a large excavation, likely a gravel or sand pit, right beside the pin
+s060|3|V|Downsville
+s060|4|B 90 N|a box symbol at the corner, likely the school
+s060|5|N
+s060|6|B 70 W
+s060|7|N
+s060|8|K 0|cemetery box on the pin
+s060|9|N
+s060|10|N
+s060|11|B 60 SE
+s061|0|B 50 W|Unity buildings along the road
+s061|1|B 40 NE|Falls City label
+s061|2|N
+s061|3|N
+s061|4|B 70 SE|Prairie (Sch) label
+s061|5|B 60 SE
+s061|6|B 60 SE|Sch label 150 m NW
+s061|7|N
+s061|8|K 80 NW|cemetery box under the Little Elk Cem label
+s061|9|S 110 W|school flag beside the Oakland Sch label
+s061|10|N
+s061|11|N|Little (Elk) Sch label on the pin
+s062|0|N|buildings 120 m E along the highway
+s062|1|N|Little Elk Sch label on the pin
+s062|2|B 80 N
+s062|3|B 30 S|L a mill pond basin and its outlet below the pin
+s062|4|N
+s062|5|N
+s062|6|N
+s062|7|N
+s062|8|K 130 SE|M 90 -90|cemetery box under the Creek Cem label
+s062|9|K 0|topo draws a cemetery box here, not a school
+s062|10|K 110 W|cemetery box with cross
+s062|11|N
+s063|0|B 60 SW|L a square plot with small bumps shows at the pin, likely the cemetery
+s063|1|B 30 N
+s063|2|N|Blodget label on the pin
+s063|3|B 80 E
+s063|4|N
+s063|5|N
+s063|6|N|..Valley Sch label on the pin; cross symbol 160 m NE
+s063|7|N
+s063|8|V|Elk Mound
+s063|9|V|Menomonie edge
+s063|10|V|Elk Mound
+s063|11|N|houses and a large building today 150 m S
+s064|0|V|Elk Mound
+s064|1|N|L old clay pits and spoil ridges 30-80 m NE, the brickyard's workings
+s064|2|N
+s064|3|N|L a dug hollow and small mound right at the pin
+s064|4|N|large modern buildings cover the area
+s064|5|N
+s064|6|B 80 NE|..y Sch label
+s064|7|N
+s064|8|N
+s064|9|B 20 E|by the rail line
+s064|10|N
+s064|11|S 20 E|school flag and cross by the Ma(ple) label
+s065|0|K 40 E|small cemetery outline by the corner
+s065|1|N
+s065|2|N
+s065|3|B 40 S|Hudson Sch flag beside it
+s065|4|N
+s065|5|N
+s065|6|N
+s065|7|N|highway interchange today
+s065|8|B 100 NW|Hillside label
+s065|9|N
+s065|10|N|L quarry cuts and pits right at the pin
+s065|11|N
+s066|0|N|Rusk Sch flag 130 m W at the corner
+s066|1|B 50 S
+s066|2|N|L a ring of pits and mounds right at the pin, likely the kiln yard or clay pit
+s066|3|N|L creek channels and spoil around the pin
+s066|4|B 90 S|along the tracks by the Tramway label
+s066|5|N
+s066|6|N
+s066|7|B 50 E|by the tracks
+s066|8|N|..garden Cem label 100 m N
+s066|9|N
+s066|10|N
+s066|11|N|Tainter label 130 m N; houses today 20 m S
+s067|0|B 50 N
+s067|1|N
+s067|2|V|Tainter
+s067|3|N
+s067|4|N
+s067|5|N|..eck Sch label on the pin
+s067|6|N|Knapp Settlement Sch label on the pin
+s067|7|N
+s067|8|N
+s067|9|N
+s067|10|B 50 SE|by the tracks
+s067|11|K 110 NW|M -80 75|cemetery box with cross by the (Hill Gr)ove label
+s068|0|V|Colfax
+s068|1|B 60 NW|Cem label 120 m S
+s068|2|B 90 SW
+s068|3|N
+s068|4|N
+s068|5|N
+s068|6|N|no buildings drawn in 1949
+s068|7|N
+s068|8|B 80 S|..lley Sch label on the pin
+s068|9|K 0|cemetery box drawn at the pin
+s068|10|V|Haystown
+s068|11|N
+s069|0|N|L the drained pond bed and creek meanders at the pin
+s069|1|B 90 S|Haystown
+s069|2|B 90 E|Downing edge
+s069|3|N
+s069|4|N
+s069|5|B 40 NW
+s069|6|N
+s069|7|B 90 S
+s069|8|N
+s069|9|N
+s069|10|B 90 SE
+s069|11|N
+s070|0|N|Trout Creek Sch label on the pin; LiDAR shows an old field lane
+s070|1|N|L the river bank, with an old channel loop just W
+s070|2|N
+s070|3|N
+s070|4|B 20 W|buildings on Chimney Rock knoll
+s070|5|C 60 N|church cross and cemetery by the Popple Ch label
+s070|6|N
+s070|7|N|..ement Sch label on the pin
+s070|8|N
+s070|9|V|Bolan
+s070|10|N
+s070|11|N|L a mound or knoll south of the road
+s071|0|C 110 SW|M -95 -55|church cross and cemetery box at the corner
+s071|1|B 70 E|Sand Creek mill row by the river
+s071|2|V|Sand Creek
+s071|3|N|L creek channel at the pin; no dam left
+s071|4|B 80 SE
+s071|5|N|a building drawn 170 m N
+s071|6|K 100 NW|cemetery box by the Sand Creek label; buildings 120 m SW
+s071|7|N
+s071|8|K 30 W|cemetery box drawn by the Sand C(reek) label
+s071|9|S 50 SW|school flag beside the Hilson Sch label
+s071|10|B 60 N|M -100 0|the mill stood by the river 100 m W
+s071|11|N|village houses 150 m E
+s072|0|U|this corner of the 1949 sheet is blank
+s072|1|B 70 N
+s072|2|U|this corner of the 1949 sheet is blank
+s072|3|N|Sch label 100 m W
+s072|4|N
+s072|5|B 110 E|Marshland
+s072|6|N
+s072|7|C 50 W|church cross by the road below the Sch label
+s072|8|N|cross symbol 120 m SW
+s072|9|N
+s072|10|V|Buffalo City
+s072|11|N
+s073|0|N
+s073|1|N|L clay-pit gullies cut into the slope right at the pin
+s073|2|N
+s073|3|N
+s073|4|B 90 SE|Waumandee
+s073|5|N
+s073|6|N
+s073|7|C 70 N|church cross and cemetery box north of the pin
+s073|8|B 100 S
+s073|9|N
+s073|10|N
+s073|11|N
+s074|0|B 60 N|by the Mill (Creek) road
+s074|1|N
+s074|2|C 80 NE|church cross at the corner
+s074|3|N
+s074|4|N
+s074|5|N
+s074|6|N
+s074|7|N|Modena buildings 150 m E
+s074|8|K 40 E|cemetery box with cross
+s074|9|N
+s074|10|N
+s074|11|U|no old topo for this spot
+s075|0|B 60 SE|Urne
+s075|1|N
+s075|2|K 60 E|cemetery box with cross; Maxville buildings 100 m SW
+s075|3|N
+s075|4|B 70 W
+s075|5|B 10|a building by the tracks at the pin (1974 topo)
+s075|6|B 60 NE
+s075|7|N
+s075|8|N
+s075|9|N
+s075|10|N
+s075|11|N
+s076|0|N
+s076|1|N|ferry road ends at the river 80 m S; Durand town beside
+s076|2|N|L the creek bed and terrace edge at the pin
+s076|3|B 30 E
+s076|4|N|Sch label 120 m NW
+s076|5|B 10|a building drawn at the corner on the pin
+s076|6|N
+s076|7|K 30 NE|cemetery box with cross
+s076|8|K 70 SE|M 60 -40|cemetery box with cross by the tracks
+s076|9|N|on the river as drawn
+s076|10|N
+s076|11|K 30 W|cemetery box with cross
+s077|0|V|Centerville
+s077|1|C 60 W|church cross symbol west of the pin
+s077|2|K 70 S|cemetery box with cross
+s077|3|N|houses cover it today
+s077|4|N|Butman Corner label on the pin
+s077|5|B 70 N|Prairie label
+s077|6|N
+s077|7|C 50 SW|church cross beside the Ch label
+s077|8|B 30 E
+s077|9|N|cross symbol 60 m E on the road
+s077|10|N|L the creek loops through the pin
+s077|11|C 70 E|church cross symbol
+s078|0|N
+s078|1|N|church cross 210 m SE
+s078|2|N
+s078|3|N|L the creek now runs through the pin
+s078|4|N
+s078|5|N
+s078|6|N
+s078|7|V|Frenchville
+s078|8|N
+s078|9|C 110 W|church cross and cemetery box beside the French Ch label
+s078|10|N
+s078|11|B 30 W|Way(side) label at the road fork
+s079|0|B 50 NE|..k Ch label 80 m NW; cross symbol not clear
+s079|1|N
+s079|2|B 120 NE|Iduna buildings by the road
+s079|3|N|Iduna buildings 200 m NE
+s079|4|N|hill slope; no symbol drawn in 1926
+s079|5|B 90 E|by the road
+s079|6|N
+s079|7|B 100 N|Hegg buildings at the road
+s079|8|S 20 E|school flag by the Upper (French Creek) Sch label
+s079|9|N
+s079|10|S 80 SW|school flag beside the Penny label
+s079|11|V|Arcadia west edge
+s080|0|N|L quarry faces and benches cut into the hill at the pin
+s080|1|N
+s080|2|B 50 SW|beside the Sch label
+s080|3|S 50 W|school flag by the Rain(ey) label
+s080|4|C 60 NW|church cross and buildings around the pin
+s080|5|C 110 E|church cross symbol east of the creek
+s080|6|C 70 SW|church cross by the road below the pin
+s080|7|N
+s080|8|N
+s080|9|N
+s080|10|S 120 W|school flag by the Irvin C(oulee) label
+s080|11|S 70 W|school flag by the Fly C(reek) label
+s081|0|V|Whitehall
+s081|1|N
+s081|2|K 0|cemetery box with cross on the pin
+s081|3|B 80 E|large building group, the county farm
+s081|4|B 50 E|Coral City label 150 m N
+s081|5|N
+s081|6|N|Farm(ers) label on the pin
+s081|7|N
+s081|8|B 40 NE|D(aggett) corner
+s081|9|B 40 SE
+s081|10|V|Blair edge
+s081|11|N
+s082|0|N
+s082|1|N|Elk Creek buildings 150 m E
+s082|2|N|marsh by the Russell label
+s082|3|K 40 N|cemetery box with cross
+s082|4|C 20 W|church cross beside the pin
+s082|5|V|Pleasantville
+s082|6|V|Pleasantville
+s082|7|V|Pleasantville
+s082|8|N
+s082|9|B 50 NE|Hale buildings along the road
+s082|10|N
+s082|11|N
+s083|0|S 50 NW|school flag beside the (S)ch label
+s083|1|K 20 W|cemetery cross by the corner; church cross 80 m NW
+s083|2|C 60 W|church cross at the corner
+s083|3|C 80 S|church cross below the road
+s083|4|C 60 N|church cross north of the corner
+s083|5|B 50 W|..ch label 100 m W
+s083|6|S 50 NW|school flag by the South (Valley) Sch label
+s083|7|K 70 W|cemetery cross by the road
+s083|8|C 100 S|M -10 -100|church cross and cemetery box by the Nor(den) label
+s083|9|K 40 W|cemetery cross; same spot as the church pin
+s083|10|B 60 NE
+s083|11|N
+s084|0|N
+s084|1|K 0|cemetery outline at the pin
+s084|2|V|Eleva
+s084|3|V|Osseo; L the old pond basin west of the road
+s084|4|S 30 W|school flag by the Sch label
+s084|5|V|Osseo
+s084|6|S 20 W|school flag by the Big (Creek) label
+s084|7|N|cross symbol 80 m W
+s084|8|N
+s084|9|K 0|cemetery box with cross on the pin
+s084|10|K 90 E|cemetery box with cross; school likely gone by 1926
+s084|11|C 30 E|church cross symbol
+s085|0|K 60 S|cemetery cross below the road
+s085|1|N|..olz Cor(ner) label on the pin
+s085|2|N
+s085|3|S 0|school flag by the Par(adise?) Sch label at the pin
+s085|4|N
+s085|5|F
+s085|6|U|this part of the 1928 sheet is blank
+s085|7|U|this part of the 1928 sheet is blank
+s085|8|U|this part of the 1928 sheet is blank
+s085|9|N
+s085|10|U|this part of the 1928 sheet is blank
+s085|11|U|this part of the 1928 sheet is blank
+s086|0|U|this part of the 1928 sheet is blank
+s086|1|N|cranberry marsh beds
+s086|2|U|this part of the 1928 sheet is blank
+s086|3|U|this part of the 1928 sheet is blank
+s086|4|N
+s086|5|N
+s086|6|U|this part of the 1928 sheet is blank
+s086|7|U|this part of the 1928 sheet is blank
+s086|8|K 80 NW|cemetery box with cross by the Brookside Cem label
+s086|9|N
+s086|10|N|in the cranberry flowage as drawn
+s086|11|N|by the dam at the foot of Lee Lake
+s087|0|U|this part of the 1928 sheet is blank
+s087|1|N
+s087|2|N|in the cranberry marsh
+s087|3|K 40 NE|cemetery box with cross by the Morm(on?) Cem label
+s087|4|N
+s087|5|C 50 NE|church cross at the corner; buildings at the pin
+s087|6|N|a church cross 120 m NE at the road junction
+s087|7|S 0|school flag and church cross at the corner; the Dresch(er) Sch label
+s087|8|B 70 NE|corner buildings
+s087|9|B 40 E|corner buildings
+s087|10|B 60 SE
+s087|11|N|marsh
+s088|0|N
+s088|1|U|this part of the 1928 sheet is blank
+s088|2|K 80 E|small cemetery symbols east of the pin
+s088|3|N|..Run Sch label beside the pin
+s088|4|N
+s088|5|N
+s088|6|N|marsh
+s088|7|S 40 E|school flag by the Oak(dale) Sch label
+s088|8|K 60 N|cemetery symbol at the road bend
+s088|9|K 0|cemetery symbol at the pin
+s088|10|N|..e Grove S(ch) label on the pin
+s088|11|N|cemetery cross 70 m N
+s089|0|C 60 NE|church cross symbol by the road
+s089|1|B 50 NE
+s089|2|U|this part of the 1928 sheet is blank
+s089|3|N|Cloverdal(e) label on the pin
+s089|4|N
+s089|5|B 80 E
+s089|6|V|Disco
+s089|7|V|Disco
+s089|8|V|Disco
+s089|9|V|Disco
+s089|10|N|(Trump C)oulee School label on the pin
+s089|11|F
+s090|0|N|L a low dam line across the creek just west of the pin
+s090|1|N
+s090|2|F
+s090|3|N
+s090|4|T 0|race-track oval at the pin on the 1924 topo; LiDAR shows the track gone under newer buildings
+s090|5|B 70 W
+s090|6|F
+s090|7|B 40 E|(Squaw Cr)eek School label 60 m W; church cross 100 m SE
+s090|8|F
+s090|9|B 70 N|buildings along the road
+s090|10|B 70 SW
+s090|11|N
+s091|0|N|on the river bank
+s091|1|F|Potter Flowage covers it
+s091|2|K 0|cemetery box with cross at the pin, beside the (Sc)hool label
+s091|3|F
+s091|4|B 70 S|a clearing with buildings in the woods
+s091|5|N|Taylor village 100 m N
+s091|6|V|Taylor
+s091|7|K 40 W|cemetery box with cross
+s091|8|S 30 W|school flag by the (Pine Cr)eek (Scho)ol label
+s091|9|N|on the creek
+s091|10|B 30 NE
+s091|11|N
+s092|0|C 50 N|church cross and buildings in a clearing; the mission
+s092|1|K 110 NE|cemetery box with cross by the (City) Point Cem label
+s092|2|S 50 NE|school flag by the School label beside the tracks
+s092|3|K 0|cemetery box with cross on the pin
+s092|4|F
+s092|5|S 50 NE|school flag by The Elms School label
+s092|6|F
+s092|7|B 80 SW
+s092|8|F
+s092|9|N
+s092|10|C 70 S|church cross and buildings by the Spauld(ing) label
+s092|11|B 60 W|L Castle Rock shows as a small knob at the pin
+s093|0|F|a building 120 m N on the lane
+s093|1|B 20 E
+s093|2|F|a sand pit marked 150 m N
+s093|3|F|Cem label 200 m N
+s093|4|F|Cem label 200 m N
+s093|5|V|Pray
+s093|6|V|Pray
+s093|7|F|by the rail line
+s093|8|V|Pray
+s093|9|V|Sechlerville
+s093|10|F
+s093|11|F|L old pits and humps across the pin
+s094|0|B 30 SE
+s094|1|C 50 NE|church cross at the road fork
+s094|2|B 10|buildings drawn at the pin
+s094|3|F
+s094|4|K 0|cemetery box with cross on the pin
+s094|5|V|crossroads buildings
+s094|6|F
+s094|7|C 40 E|church cross symbol by the road
+s094|8|B 60 W
+s094|9|N|(Wri)ghtsvill(e) School label on the pin
+s094|10|N
+s094|11|F|L river bank and old channels at the pin
+s095|0|K 30 NE|cemetery box with cross
+s095|1|F
+s095|2|N
+s095|3|N
+s095|4|N|L a sand-pit scar dug into the knoll at the pin
+s095|5|N|Scherm(erhorn) label on the pin
+s095|6|K 30 NW|cemetery box with cross by the road
+s095|7|N|L the mill pond dam and race channel around the pin
+s095|8|B 40 E
+s095|9|B 70 W
+s095|10|B 50 W
+s095|11|N
+s096|0|V|York; mill pond drawn 80 m NE
+s096|1|V|York
+s096|2|K 70 S|cemetery box with cross south of the pin
+s096|3|V|York
+s096|4|N|York buildings 150 m W
+s096|5|K 70 S|cemetery box with cross at the corner; same site as the cemetery pin
+s096|6|N
+s096|7|V|Northfield
+s096|8|B 70 S
+s096|9|S 10|school flag at the pin
+s096|10|N|fairground long gone by 1924; field by the tracks
+s096|11|S 40 E|school flag by the P(omroy) label
+s097|0|N
+s097|1|B 50 SW
+s097|2|K 0|cemetery box with cross on the pin
+s097|3|B 30 E|a church cross and buildings by the corner
+s097|4|B 30 NE|by the Le(verett) label
+s097|5|S 30 N|school flag by the Na(pstad) Sc(h) label
+s097|6|N
+s097|7|K 0|cemetery box with cross on the pin
+s097|8|B 80 W
+s097|9|N|cemetery cross 100 m S at the corner
+s097|10|N
+s097|11|B 60 NE|Le(vis) corner
+s098|0|V|Levis
+s098|1|B 50 W
+s098|2|N
+s098|3|K 30 W|cemetery box with cross
+s098|4|B 70 E|buildings by the road and tracks
+s098|5|B 80 N|buildings at the road bend
+s098|6|C 70 E|church cross and buildings at the road bend
+s098|7|S 50 NW|school flag by the road
+s098|8|N
+s098|9|N|Price buildings 120 m N
+s098|10|B 50 W|Sun(ny ...) label
+s098|11|K 0|cemetery box drawn at the pin below the (Val)ley View label
+s099|0|N|Price buildings 120 m S
+s099|1|N|..ellis label; cemetery not drawn
+s099|2|N
+s099|3|K 40 E|cemetery box with cross by the (Cl)eveland Cem label
+s099|4|V|Arcadia
+s099|5|V|Arcadia; L the old pond basin and race along the creek
+s099|6|V|Arcadia
+s099|7|V|Barron
+s099|8|N|L river bend; houses cover the terrace today
+s099|9|T 60 NE|the old fairground track
+s099|10|N|on the river bank; highway ramps cover it today
+s099|11|N|in the river as drawn in 1934
+s100|0|V|Chippewa Falls
+s100|1|V|Chippewa Falls; the fairground track drawn 150 m N
+s100|2|N|on Duncan Creek by the old rail grade; a park today
+s100|3|B 60 NE|buildings on the campus
+s100|4|V|Galesville
+s100|5|V|Galesville; the upper dam and pond drawn at the pin
+s100|6|V|Galesville
+s100|7|V|Wisconsin Rapids
+s100|8|V|Wisconsin Rapids; a school building now covers the track site
+s100|9|V|Wisconsin Rapids; school building drawn at the pin
+s100|10|V|Wisconsin Rapids
+s100|11|V|Wisconsin Rapids; the big mill building drawn at the pin
+s101|0|V|Wisconsin Rapids
+s101|1|V|Wisconsin Rapids; rail yards drawn at the pin
+s101|2|V|Wisconsin Rapids
+s101|3|N|in the river channel as drawn in 1957
+s101|4|V|Hudson; buildings on Coulee Road at the pin
+s101|5|N|just off the shore in the water as drawn; the Hudson shore 50 m E
+s101|6|N|on the causeway at the Willow River mouth
+s101|7|V|Hudson; rail yard and shops drawn at the pin
+s101|8|V|Hudson
+s101|9|V|Medford
+s101|10|V|Medford
+s101|11|V|Medford
+s102|0|V|Medford
+s102|1|V|Menomonie; mill yards drawn at the pin
+s102|2|V|River Falls
+s102|3|V|River Falls; college buildings drawn at the pin
+s102|4|N|at the river fork as drawn; mill gone by 1946
+s102|5|V|Sparta (1976 photo map)
+s102|6|V|Sparta; an open field with a faint oval on the 1976 photo map
+s102|7|V|Sparta
+s102|8|V|Sparta
+s102|9|V|Sparta
+s102|10|V|Sparta
+s102|11|V|Sparta
+s103|0|N|Mormon Settlement is a hamlet; buildings and a church flag 200 m S
+s103|1|N|Urne buildings 150 m SW
+s103|2|N
+s103|3|N|Northfield 150 m S
+s103|4|N
+s103|5|B 70 NE|by the corner
+s103|6|B 40 SW|buildings by the old road
+s103|7|N|Dell City buildings 120 m NW
+s103|8|N|L a large oval loop shows around the pin; may be the old track or a creek meander, check on the ground
+s103|9|N|L river channel and old mill race lines at the pin
+s103|10|N|L Otter Creek channel and a straight race or grade beside it
+s103|11|B 60 SE
+s104|0|N|open ground in 1934; houses border it today
+s104|1|B 30 SE|by the road
+s104|2|V|Jewett Mills
+s104|3|N|buildings 130 m N and 160 m SE
+s104|4|N|in Chetek Lake as drawn; the shore 120 m N
+s104|5|N|buildings 150 m NE
+s104|6|N|Granum Cem label beside the pin
+s104|7|N|a farmstead 180 m NW; the lake shore 120 m E
+s104|8|B 60 E|by the Alabama Sch label
+s104|9|F|on the lake shore by the rail line
+s104|10|F
+s104|11|F|no LiDAR here
+s105|0|F|no LiDAR here
+s105|1|F|no LiDAR here
+s105|2|F|no LiDAR here; buildings 150 m S on the 1971 map
+s105|3|F|no LiDAR here
+s105|4|F
+s105|5|F|no LiDAR here
+s105|6|F|marsh; no LiDAR here
+s105|7|F|by the river; no LiDAR here
+s105|8|V|Trempealeau
+s105|9|V|Trempealeau
+s105|10|V|Trempealeau
+s105|11|N|open ground by the river in 1934; houses and a road cover it today
+s106|0|N|on the river edge as drawn in 1934; the shore may have moved since 1850
+s106|1|B 50 E|buildings by the Ch(ippewa) river bank
+s106|2|N
+s106|3|V|Chippewa Falls; the mill dam and race are at the pin
+s106|4|B 50 S
+s106|5|N|under the Jim Falls flowage, flooded by the dam
+s106|6|B 50 W
+s106|7|N|L sugar-bush slopes with small pits and terraces around the pin
+s106|8|B 100 NE|by the river road
+s106|9|N|under the Cornell flowage, flooded by the dam
+s106|10|B 80 SE
+s106|11|N|L the old river bank right below the Cornell dam
+s107|0|F|L creek bend and an old road trace at the pin
+s107|1|F
+s107|2|F|by the creek
+s107|3|F|L the pin sits inside an old river oxbow
+s107|4|V|Eau Galle
+s107|5|N|Dunnville; open ground in 1929
+s107|6|N
+s107|7|N|by the river and rail line
+s107|8|B 30 E|L the old pond and creek channels at the pin
+s107|9|F|L a hillside spring hollow at the pin
+s107|10|N|L river terrace; no mill remains seen
+s107|11|V|Menomonie edge; L old pond basin and dam lines around the pin
+s108|0|V|Menomonie; on the mill-pond shore by the dam
+s108|1|N|Cedar Falls buildings 200 m E
+s108|2|V|Eau Claire
+s108|3|V|Eau Claire; the river bank by the old upper dam
+s108|4|N
+s108|5|N
+s108|6|U|no old topo for this spot; L the old landing shore under the riverfront park
