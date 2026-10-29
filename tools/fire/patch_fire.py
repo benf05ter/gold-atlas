@@ -2,7 +2,7 @@
 #   python3 tools/fire/patch_fire.py <page.html> <og-data.js> <fire.json>
 import sys,json,re,os
 page,data,fj=sys.argv[1:4]; F=json.load(open(fj)); here=os.path.dirname(os.path.abspath(__file__))
-fire=[{k:p[k] for k in ('id','town','label','b','f','item')} for p in F['fire']]
+fire=[{k:p[k] for k in ('id','town','label','b','f','item','bn') if k in p} for p in F['fire']]
 blk=open(here+'/block.js').read().replace('/*FIRE*/[]',json.dumps(fire,separators=(',',':')))
 h=open(page).read()
 css='.mt-fire{background:repeating-linear-gradient(0deg,transparent 0 7px,#c9a77a 7px 8px),linear-gradient(90deg,#f2c6b4 0 45%,#f4e7c6 45% 70%,#c8dbe8 70%)}'
