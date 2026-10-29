@@ -1,0 +1,209 @@
+po000|0|N|the pin sits on the lake shore where the outlet creek leaves; no dam drawn
+po000|1|U
+po000|2|F|marsh along the river
+po000|3|K 0|a church site beside the Cemetery outline; L a ravine just east
+po000|4|K 0|Cemetery label and outline on the pin
+po000|5|N|buildings and a mill pond about 230 m north-east
+po000|6|N
+po000|7|N
+po000|8|S 0|Lincoln School label beside the symbol
+po000|9|F
+po000|10|F
+po000|11|K 50 S|Cemetery label south of the pin by Sand Lake
+po001|0|N|L a low knoll by the marsh
+po001|1|N
+po001|2|N|at a crossroads
+po001|3|N
+po001|4|B 75 NNW
+po001|5|N
+po001|6|B 65 W|buildings along the road at Little Falls
+po001|7|B 140 NW|a few buildings along the road west of the river
+po001|8|C 105 SE|M 75 -70|church beside the Cemetery label
+po001|9|F
+po001|10|N
+po001|11|N
+po002|0|B 125 NNW
+po002|1|B 110 N
+po002|2|B 50 NW|farm buildings
+po002|3|N
+po002|4|V|Clam Falls
+po002|5|B 120 E
+po002|6|V|North Valley
+po002|7|B 120 E
+po002|8|N|L many modern buildings around the pin
+po002|9|V|East Farmington
+po002|10|V|Alden
+po002|11|B 20 E
+po003|0|S 40 S|Maple School label beside the symbol
+po003|1|N
+po003|2|N|L a gully just east of the pin
+po003|3|N
+po003|4|N|beside the railroad
+po003|5|N
+po003|6|N|the pin is on the Apple River bank; a building about 100 m south
+po003|7|N
+po003|8|S 30 E|North Star School label beside the symbol
+po003|9|N|at the crossroads
+po003|10|K 0|Cemetery label and outline on the pin
+po003|11|N|L a ravine with seeps along it
+po004|0|K 0|Cemetery label on the pin; a church about 190 m north-east
+po004|1|N
+po004|2|V|Milltown
+po004|3|N|on the creek; L the creek channel at the pin
+po004|4|N
+po004|5|K 40 N|Cemetery label just north
+po004|6|N|a Cemetery label about 280 m south
+po004|7|B 30 SW|buildings at the crossroads
+po004|8|B 100 S
+po004|9|B 90 NE
+po004|10|B 50 N
+po004|11|N|on the creek above Long Lake
+po005|0|N
+po005|1|N
+po005|2|N|beside the railroad
+po005|3|F|a small marsh pond at the pin
+po005|4|C 35 E|a Cemetery outline about 210 m north-west
+po005|5|K 0|Cemetery outline on the pin
+po005|6|B 25 E|a Cemetery outline about 100 m south-west
+po005|7|V|East Farmington
+po005|8|V|East Farmington
+po005|9|B 70 E|the west edge of East Farmington
+po005|10|N
+po005|11|N
+po006|0|S 65 NW|School label beside the symbol; the USGS place-name file puts it south-west instead, so the pin was not moved
+po006|1|N|on the creek; buildings about 150 m north-east
+po006|2|B 15 N|the creek about 40 m south
+po006|3|B 25 W|M -160 65|a church symbol about 170 m west, where the pin now sits
+po006|4|N|L modern houses all around
+po006|5|B 70 NW
+po006|6|B 30 SE
+po006|7|B 80 S
+po006|8|N
+po006|9|B 80 S
+po006|10|N|a church and Cemetery about 120 m east
+po006|11|C 120 S|M 15 -120|church and cemetery symbols together
+po007|0|K 120 S|cemetery and church symbols together
+po007|1|N
+po007|2|B 100 NE|a row of buildings along the railroad
+po007|3|N
+po007|4|N|the railroad about 80 m north
+po007|5|N|beside the railroad
+po007|6|B 130 E
+po007|7|B 50 NW|next to the Town Hall label
+po007|8|N
+po007|9|F
+po007|10|N
+po007|11|F
+po008|0|N
+po008|1|B 90 ENE
+po008|2|B 60 N
+po008|3|N
+po008|4|N
+po008|5|N|beside the railroad junction
+po008|6|N|by the railroad; buildings about 115 m north-east
+po008|7|N|the railroad about 60 m south-west
+po008|8|N
+po008|9|N
+po008|10|B 25 SE
+po008|11|B 10 N
+po009|0|N
+po009|1|F|the pin falls in a marsh pond; a Cemetery about 250 m west
+po009|2|N
+po009|3|B 70 WSW|Wagon Landing label to the south
+po009|4|K 55 SSW|M -30 -45|Wagon Landing Cemetery label
+po009|5|N|a creek about 150 m south-east
+po009|6|N
+po009|7|N
+po009|8|B 30 E
+po009|9|N|on the Deer Lake shore
+po009|10|B 20 W
+po009|11|N
+po010|0|N|the pin falls in Butternut Lake, so the school stood on the shore nearby
+po010|1|N
+po010|2|N|the pin falls in a marsh; buildings about 160 m south-west
+po010|3|S 30 NE|High Bridge School label beside the symbol
+po010|4|B 80 W
+po010|5|N|a School label about 150 m north
+po010|6|N
+po010|7|N|on a creek-fed pond; buildings about 135 m north; L the creek channel
+po010|8|N
+po010|9|N|at the crossroads
+po010|10|B 15 W|no cemetery drawn; Shiloh label to the south
+po010|11|N
+po011|0|B 55 NW|beside Butternut Lake
+po011|1|B 70 S
+po011|2|B 75 E|a Church label about 250 m north
+po011|3|N|L the river bluff and a creek valley just east
+po011|4|N
+po011|5|B 80 E
+po011|6|C 90 E|M 90 15|Church label beside the symbol
+po011|7|K 80 S|a Cemetery label to the south-east
+po011|8|N
+po011|9|N
+po011|10|N
+po011|11|N
+po012|0|F
+po012|1|N|on the east shore of Butternut Lake
+po012|2|N
+po012|3|N|the pin falls in the St. Croix River: the river-edge townships were placed from patched section lines, so the spring is somewhere on the bank nearby
+po012|4|N|on the creek
+po012|5|N
+po012|6|N|on the creek
+po012|7|B 30 NE
+po012|8|N|L a large modern building on the pin
+po012|9|F
+po012|10|N
+po012|11|B 50 N
+po013|0|N
+po013|1|N|beside the creek crossing
+po013|2|N|on the railroad
+po013|3|C 100 W|M -100 -5|Church label beside the symbol
+po013|4|B 110 NNW
+po013|5|S 0|Blake School label beside the symbol
+po013|6|N
+po013|7|B 85 N
+po013|8|K 0|Hope Cemetery label and outline on the pin
+po013|9|N
+po013|10|B 60 E
+po013|11|N
+po014|0|N
+po014|1|N|the pin falls in Poplar Lake; the outlet, where a mill would stand, is about 120 m east
+po014|2|N
+po014|3|B 120 W|on the creek, with a Cemetery outline about 40 m east; L the creek channel
+po014|4|B 115 SW
+po014|5|B 60 NE
+po014|6|N
+po014|7|N
+po014|8|S 135 NW|M -80 110|Holst School label beside the symbol
+po014|9|N|the pin falls in the lake; check the shore
+po014|10|N
+po014|11|N
+po015|0|N|beside the railroad
+po015|1|B 80 E
+po015|2|N
+po015|3|S 100 E|a school, not a church, symbol in Alabama
+po015|4|N|a school symbol about 130 m south
+po015|5|N|L a deep ravine with springs heading it
+po015|6|B 25 SE
+po015|7|K 50 NW|church and cemetery symbols at Volga
+po015|8|N|church and cemetery symbols about 60 m north-west at Volga
+po015|9|F
+po015|10|N
+po015|11|N
+po016|0|K 0|Cemetery outline on the pin
+po016|1|N
+po016|2|N
+po016|3|B 30 E
+po016|4|B 75 E
+po016|5|U
+po016|6|N
+po016|7|C 60 ENE|M 50 30|church and cemetery together
+po016|8|U
+po016|9|B 60 ESE
+po016|10|K 0|Cemetery outline on the pin; Church label to the north
+po016|11|C 115 N|M 10 115|Church label beside the symbol; Cemetery label to the south
+po017|0|N|beside the railroad
+po017|1|N|beside the railroad and a small pond
+po017|2|N
+po017|3|N
+po017|4|F
