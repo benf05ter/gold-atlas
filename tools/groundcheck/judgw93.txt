@@ -1,0 +1,56 @@
+wo000|0|B 80 N|the west edge of Babcock
+wo000|1|B 100 N|beside the line about 60 m north
+wo000|2|B 110 E|M 110 0|Bethany label beside the building
+wo000|3|N|a building about 140 m east
+wo000|4|B 60 SSE|a River School label to the south-east
+wo000|5|N|on the creek
+wo000|6|N|on the railroad at Hewitt
+wo000|7|N|the west edge of Marshfield, by the railroad
+wo000|8|N|marsh; L a straight old grade or ditch just south of the pin
+wo000|9|U|L a railroad grade just south of the pin
+wo000|10|N
+wo000|11|N|at a road junction; a building about 230 m south
+wo001|0|F
+wo001|1|N
+wo001|2|N|an abandoned grade about 100 m east
+wo001|3|V|Lindsay
+wo001|4|U
+wo001|5|N|Altdorf label to the north-east
+wo001|6|F|no railroad drawn here by 1957
+wo001|7|N|a White Oak label at the pin, marked abandoned
+wo001|8|S 100 WSW|Pine Grove School label beside the symbol; the USGS place-name file puts it east instead, so the pin was not moved
+wo001|9|N|beside the railroad
+wo001|10|N|the old railroad grade about 150 m south-west
+wo001|11|N|a Gravel Pit label at the pin; L pit walls to the south-west
+wo002|0|B 110 E
+wo002|1|B 65 E
+wo002|2|N|on the creek; L the creek valley
+wo002|3|B 35 N
+wo002|4|F
+wo002|5|N|marsh and ditches; a Sandpit label about 150 m south
+wo002|6|B 140 NE
+wo002|7|N
+wo002|8|N|a Gravel Pit label at the pin
+wo002|9|F|woods by the river
+wo002|10|N|on the railroad
+wo002|11|N|Blenker label at the pin; buildings about 230 m north-west
+wo003|0|S|Plank Hill School label at the pin
+wo003|1|N|on the railroad
+wo003|2|N|marsh; no railroad drawn here by 1957
+wo003|3|B 90 SE|a Quarry label to the north; L small pits at the pin
+wo003|4|N|the railroad grade about 100 m east
+wo003|5|B 140 E
+wo003|6|N|at a crossroads
+wo003|7|N|buildings about 200 m south
+wo003|8|N|a Pride School label at the pin
+wo003|9|N|on the old railroad line, drawn as abandoned
+wo003|10|S 210 NW|Lincoln School label beside the symbol; the USGS place-name file puts it north-east instead, so the pin was not moved
+wo003|11|S|Mill Creek School label at the pin
+wo004|0|B 40 S|among railroad tracks at the edge of town
+wo004|1|N|marsh
+wo004|2|S 50 W|M -50 0|Spring Lake School label beside the symbol
+wo004|3|B 110 WSW
+wo004|4|B 45 E|a church and Cemetery about 160 m east
+wo004|5|F|woods by a creek
+wo004|6|N|beside a pond in cranberry beds
+wo004|7|V|Rudolph
