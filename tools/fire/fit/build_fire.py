@@ -4,6 +4,8 @@ sys.path.insert(0,os.path.dirname(__file__)); import geo
 D=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CO={r.split('\t')[0]:r.split('\t')[1] for r in open(D+'/oldest.tsv').read().strip().split('\n')}
 IT={r.split('\t')[0]:r.split('\t')[3] for r in open(D+'/oldest.tsv').read().strip().split('\n')}
+# towns whose pictures ship in a JSON bundle omf/<name>.json instead of one webp each
+BUNDLE={t:'fb2' for t in ['ladysmith','trempealeau','hammond','blair','boyd','baldwin','thorpe','glenwood-city']}
 def slug(t): return re.sub(r'[^a-z0-9]+','-',t.lower()).strip('-')[:48]
 def kind(n):
     l=n.lower()
@@ -24,7 +26,7 @@ for f in sorted(glob.glob(D+'/spec/*.json')):
         m=re.search(r'(\d+) pts, rms ([\d.]+) m',o.getvalue()); rms[sh['f']]=(int(m.group(1)),float(m.group(2)))
     grp=S.get('groups') or {'':{'b':S['b']}}
     for g,v in grp.items():
-        FIRE.append({'id':ts+('-'+g if g else ''),'town':town,'label':town+' '+yr+(' ('+{'east':'east side','west':'west side','shaw':'Shawtown'}.get(g,g)+')' if g and len(grp)>1 else ''),'b':v['b'],'f':'fire_'+ts.replace('-','_')+'_'+yr+('_'+g if g else ''),'item':item})
+        FIRE.append({**({'bn':BUNDLE[ts]} if ts in BUNDLE else {}),'id':ts+('-'+g if g else ''),'town':town,'label':town+' '+yr+(' ('+{'east':'east side','west':'west side','shaw':'Shawtown'}.get(g,g)+')' if g and len(grp)>1 else ''),'b':v['b'],'f':'fire_'+ts.replace('-','_')+'_'+yr+('_'+g if g else ''),'item':item})
     seen=set()
     for sh in S['sheets']:
         if 'T' not in sh: continue

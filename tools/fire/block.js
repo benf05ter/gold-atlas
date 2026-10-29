@@ -11,13 +11,17 @@ var FIRE=/*FIRE*/[];
     <label>Go to <select id="gmFgo"><option value="">Pick a town</option>${towns.map(t=>`<option>${t}</option>`).join('')}</select></label>
     <details><summary>Sources and fit</summary>
     <p class="hint">Sanborn Map &amp; Publishing Co. fire insurance maps from the Library of Congress, the oldest edition of each town (${FIRE.map(p=>p.label).filter((v,i,a)=>a.indexOf(v)===i).join(', ')}). Each sheet was fitted to street crossings that are still there today, so most buildings land within a few metres. Sheets of outlying mills with no streets on them are not drawn; their buildings are pins instead. The pins marked "fire map" are the hotels, saloons, liveries, depots, mills, schools, churches and halls drawn on these sheets.</p>
-    <p class="hint">Street names changed: Altoona's Florence, Cortland, Putnam and Hancock are today's 1st to 4th Street West; Menomonie's 12th to 5th Streets are today's 2nd to 9th Street East; Eau Claire's Bridge Street is Grand Avenue; Neillsville's 1887 numbered streets ran the other way (2nd to 4th are today's 6th to 4th); Colby's Graves, Broadway and Marathon are today's Spence, East Clark and East Graves; Cumberland's Front and Lake Streets are 1st Avenue and Sorensen Street; Durand's River Street is Main Street. Barron's oldest map online is from 1902.</p></details></div>`);
+    <p class="hint">Street names changed: Altoona's Florence, Cortland, Putnam and Hancock are today's 1st to 4th Street West; Menomonie's 12th to 5th Streets are today's 2nd to 9th Street East; Eau Claire's Bridge Street is Grand Avenue; Neillsville's 1887 numbered streets ran the other way (2nd to 4th are today's 6th to 4th); Colby's Graves, Broadway and Marathon are today's Spence, East Clark and East Graves; Cumberland's Front and Lake Streets are 1st Avenue and Sorensen Street; Durand's River Street is Main Street; Ladysmith's 1902 River, Hemlock and Birch Streets are Lake, Miner and Worden Avenues; Baldwin's 1902 Front and Main Streets are today's Main and Maple Streets. Barron's oldest map online is from 1902.</p></details></div>`);
   const pF=document.getElementById('gmF'), rF=document.getElementById('gmFr');
   const opA=()=>gF.setAttribute('opacity',(+rF.value/100).toFixed(2));
   rF.oninput=()=>{ opA(); try{ localStorage.setItem('og-fireop',rF.value); }catch(_){} }; opA();
   function vF(){ const o=GM.type==='fire'; gF.style.display=o?'':'none'; if(pF) pF.hidden=!o; if(!o) return;
     const lon0=vb.x/K, lon1=(vb.x+vb.w)/K, la1=-vb.y, la0=-(vb.y+vb.h); if(lon1-lon0>0.6) return;   // town pictures load only once zoomed toward a town
-    for(const p of FIRE){ const B=p.b; if(p.im&&!(B[1]<lon0||B[0]>lon1||B[3]<la0||B[2]>la1)&&!p.im.getAttribute('href')) p.im.setAttribute('href','omf/'+p.f+'.webp'); } }
+    for(const p of FIRE){ const B=p.b; if(p.im&&!(B[1]<lon0||B[0]>lon1||B[3]<la0||B[2]>la1)&&!p.im.getAttribute('href')&&!p.ld){
+      if(!p.bn){ p.im.setAttribute('href','omf/'+p.f+'.webp'); continue; }
+      const im=p.im; p.ld=1; fBundle(p.bn).then(d=>{ if(d[p.f]) im.setAttribute('href',d[p.f]); }).catch(()=>{ p.ld=0; }); } } }
+  // Later towns ship as a few JSON bundles of data URLs (the artifact has a file-count limit).
+  var FBN={}; function fBundle(n){ return FBN[n]||(FBN[n]=fetch('omf/'+n+'.json').then(r=>r.json()).catch(e=>{ delete FBN[n]; throw e; })); }
   document.getElementById('gmFgo').onchange=ev=>{ const t=ev.target.value; if(!t) return; const L=FIRE.filter(p=>p.town===t);
     const B=[Math.min(...L.map(p=>p.b[0])),Math.max(...L.map(p=>p.b[1])),Math.min(...L.map(p=>p.b[2])),Math.max(...L.map(p=>p.b[3]))];
     const [x0,y0]=P(B[0],B[3]),[x1,y1]=P(B[1],B[2]); vb={x:x0,y:y0,w:x1-x0,h:y1-y0}; fit(); apply(); try{ gmSheet(false); }catch(_){} drawMarkers(); };
