@@ -1,5 +1,5 @@
 # Builds the home-screen app from the published Claude atlas page.
-#   python3 tools/build.py <atlas.html> [oldmap-dir] [sat-dir] [img-dir] [pk-dir] [om-dir]   (og-data.js and og/ are picked up from the atlas folder)
+#   python3 tools/build.py <atlas.html> [oldmap-dir] [sat-dir] [img-dir] [pk-dir] [om-dir] [ot-dir]   (og-data.js and og/ are picked up from the atlas folder)
 # Writes the site into the folder named in tools/site-folder.txt. Commit and push; phones pick it up on next open.
 import sys,os,re,json,hashlib,shutil
 root=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); T=os.path.join(root,'tools')
@@ -66,6 +66,10 @@ if omr:
   os.makedirs(out+'/om',exist_ok=True)
   for f in sorted(os.listdir(omr)):
     if f.endswith('.webp'): shutil.copy(os.path.join(omr,f),out+'/om/'+f)
+ot=sys.argv[7] if len(sys.argv)>7 else None   # old maps cut into 512 px tiles by tools/tiles/tiler.py (ot/<layer>/<z>/<x>_<y>.webp + index.json); the page only asks for tiles the index lists
+if ot:
+  if os.path.isdir(out+'/ot'): shutil.rmtree(out+'/ot')
+  shutil.copytree(ot,out+'/ot',ignore=shutil.ignore_patterns('index-*.json')); satpre.append('ot/index.json')
 h=hashlib.sha256()
 for d,_,fs in sorted(os.walk(out)):
   for f in sorted(fs):
