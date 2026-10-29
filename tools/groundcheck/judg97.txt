@@ -1,0 +1,315 @@
+s9000|0|N
+s9000|1|K 0|German Settlement Cemetery label and outline on the pin
+s9000|2|B 50 E|several buildings at the crossroads
+s9000|3|B 105 S|L ravine heads around the pin
+s9000|4|N
+s9000|5|N
+s9000|6|N|creek about 120 m east
+s9000|7|B 65 W
+s9000|8|V|Burkhardt|beside the Willow River|L river channel west of the pin
+s9000|9|S 55 E|M 56 0|Sunny Slope School label beside the symbol
+s9000|10|C 70 W|M -70 10|Church label beside the symbol
+s9000|11|B 40 W
+s9001|0|B 140 NNE
+s9001|1|F
+s9001|2|B 105 S
+s9001|3|N|at the edge of woods
+s9001|4|N|railroad 70 m east|L ravine heads around the pin
+s9001|5|F
+s9001|6|B 40 SSE|a School label beside the pin
+s9001|7|K 0|cemetery outline with a cross on the pin, St. Bridget label
+s9001|8|B 75 S|a St. B. label; the cemetery outline is 145 m southeast; a School label to the southwest
+s9001|9|V|Huntington
+s9001|10|B 70 NW|Apple River through the pin|L river channel through the pin
+s9001|11|N|lake shore 150 m south
+s9002|0|S label|a Lakeside School label just south
+s9002|1|N
+s9002|2|K 0|cemetery outline with a cross on the pin, church just west
+s9002|3|C 65 SE|M 50 -44|church beside the cemetery outline
+s9002|4|B 80 S
+s9002|5|N
+s9002|6|N
+s9002|7|N
+s9002|8|B 10 S|buildings on both sides of the road
+s9002|9|N
+s9002|10|B 70 E
+s9002|11|N
+s9003|0|N
+s9003|1|S label|a School label just northwest
+s9003|2|B 95 SSW|buildings around the crossroads
+s9003|3|F|railroad 120 m north|L pitted ground in the woods
+s9003|4|N
+s9003|5|N
+s9003|6|N
+s9003|7|K 0|cemetery outline with a cross on the pin, Oakland label
+s9003|8|N|a Brookville School label 150 m southeast
+s9003|9|B 145 NE|a Brookville School label just south
+s9003|10|B 135 NNE
+s9003|11|N
+s9004|0|N|railroad through the pin|L railroad grade through the pin
+s9004|1|N
+s9004|2|B 40 W
+s9004|3|B 90 SE
+s9004|4|N|wooded hill just south
+s9004|5|N|creek about 40 m east|L creek channel east of the pin
+s9004|6|B 60 E|creek through the pin|L creek channel through the pin
+s9004|7|N
+s9004|8|N|a symbol and Wood. label 190 m west
+s9004|9|N|L buildings all around today
+s9004|10|S label|a Fairview School label on the pin
+s9004|11|N
+s9005|0|N|a Dry Run School label just south
+s9005|1|N
+s9005|2|N
+s9005|3|N
+s9005|4|S label|a School label just south
+s9005|5|N|railroad 100 m east
+s9005|6|N|railroad through the pin
+s9005|7|K 0|cemetery outline with a cross on the pin, Kinnickinnic Church label below
+s9005|8|B 130 SE
+s9005|9|N|a cemetery outline 250 m north
+s9005|10|K 10 S|cemetery outline with a cross, Warren label
+s9005|11|N|L a subdivision; houses cover it today
+s9006|0|N
+s9006|1|S label|an Oakdale School label just east
+s9006|2|K 0|cemetery outline with a cross on the pin, St. Patricks Church label; the church is 140 m east
+s9006|3|C 110 E|M 110 -10|church beside the cemetery outline
+s9006|4|B 70 S|buildings at the crossroads
+s9006|5|N
+s9006|6|N
+s9006|7|N|railroad and creek through the pin|L railroad grade and creek channel
+s9006|8|F|marsh
+s9006|9|B 80 SE|wooded bluff
+s9006|10|N|creek 40 m west
+s9006|11|N|L a subdivision; houses cover it today
+s9007|0|S 75 E|M 70 -24|Beaver Valley School label beside the symbol
+s9007|1|N
+s9007|2|N|railroad through the pin; buildings 140 m east
+s9007|3|N|L steep bluff above the pin
+s9007|4|B 90 NNW|railroad through the pin
+s9007|5|N
+s9007|6|N|L a subdivision; houses cover it today
+s9007|7|N|L a subdivision; houses cover it today
+s9007|8|B 80 W
+s9007|9|N
+s9007|10|N
+s9007|11|N
+s9008|0|N
+s9008|1|N|no cemetery drawn here
+s9008|2|N
+s9008|3|N|a pond 60 m southeast
+s9008|4|N
+s9008|5|C 90 N|M 20 86|Emanuel label beside the symbol
+s9008|6|B 95 N
+s9008|7|F|creek just south|L creek channel south of the pin
+s9008|8|K 10 E|cemetery outline with a cross, Cemetery label
+s9008|9|N|creek about 70 m south
+s9008|10|N
+s9008|11|N|creek through the pin
+s9009|0|N|L a subdivision; houses cover it today
+s9009|1|N
+s9009|2|N|river 120 m west|L river channel west of the pin
+s9009|3|K label|a small symbol and Schr. label on the pin
+s9009|4|N|creek about 30 m west|L creek channel west of the pin
+s9009|5|N
+s9009|6|B 80 NE
+s9009|7|N|L a divided highway is built over the pin today
+s9009|8|N|no cemetery drawn here|L edge of Baldwin; houses cover it today
+s9009|9|B 130 SW|a Jewett Mills label just south
+s9009|10|N|L a subdivision; houses cover it today
+s9009|11|V|Star Prairie
+s9010|0|B 75 E
+s9010|1|B 80 W
+s9010|2|N
+s9010|3|B 115 N|a cemetery symbol 115 m northwest
+s9010|4|K 0|cemetery symbol on the pin beside the railroad
+s9010|5|N|creek about 60 m east
+s9010|6|N|a Riverdale label just south; water 140 m west
+s9010|7|B 130 N
+s9010|8|N|L small gully on the pin
+s9010|9|N|Kinnickinnic River about 40 m north|L river channel north of the pin
+s9010|10|B 105 NNE|edge of Roberts
+s9010|11|B 80 E
+s9011|0|N|L large modern buildings around the pin
+s9011|1|B 140 N
+s9011|2|N
+s9011|3|N
+s9011|4|B 105 N|marsh to the north
+s9011|5|N
+s9011|6|N
+s9011|7|N|a label ending in ch just west
+s9011|8|N|L a subdivision; houses cover it today
+s9011|9|N|L ravines around the pin
+s9011|10|N|L a subdivision; houses cover it today
+s9011|11|N
+s9012|0|F|L small hollow on the pin
+s9012|1|B 80 E
+s9012|2|B 80 NW
+s9012|3|B 20 E
+s9012|4|N|creek 150 m south
+s9012|5|N|L hummocky ground east of the pin
+s9012|6|B 110 W
+s9012|7|B 120 E
+s9012|8|N|at the edge of woods
+s9012|9|N|L gully through the pin; houses around it today
+s9012|10|B 115 S
+s9012|11|N
+s9013|0|K 10 E|cemetery outline with a cross, St. Cemetery label
+s9013|1|B 60 E
+s9013|2|B 140 N
+s9013|3|N|creek starts about 20 m north|L creek channel at the pin
+s9013|4|S label|a Sand Hill School label on the pin
+s9013|5|N
+s9013|6|N
+s9013|7|K 20 S|cemetery outline with a cross
+s9013|8|B 75 W|a Palmer label just southeast; creek beside the pin
+s9013|9|N|a Greenwood Cemetery label 100 m south
+s9013|10|B 50 E
+s9013|11|B 110 N|creek about 140 m east
+s9014|0|B 130 SW|creek about 30 m east
+s9014|1|N
+s9014|2|F|L steep ravine through the pin
+s9014|3|N
+s9014|4|N
+s9014|5|S 90 ESE|the Wildwood School label is on the pin
+s9014|6|N|L a small pit just west and a hollow to the southeast
+s9014|7|N
+s9014|8|B 140 S|the Wildwood School the topo draws is about 1.5 km to the southwest
+s9014|9|N
+s9014|10|N|creek through the pin
+s9014|11|F|L ravine heads around the pin
+s9015|0|N|L a subdivision; houses cover it today
+s9015|1|N
+s9015|2|C 140 E|M 140 30|Immanuel Church label over a churchyard outline
+s9015|3|B 95 SW|railroad and creek beside the pin; no track drawn
+s9015|4|K 30 W|cemetery outline with a cross
+s9015|5|N|a pond 80 m south
+s9015|6|N
+s9015|7|N
+s9015|8|N|L a large pit or pond has been dug at the pin; the quarry hole is still open
+s9015|9|N|L quarry pits; the ground has been dug at the pin
+s9015|10|N
+s9015|11|N|creek through the pin
+s9016|0|B 90 NE
+s9016|1|N|no cemetery drawn here; creek through the pin
+s9016|2|S 110 E|M 110 -4|Bell School label over the symbol
+s9016|3|N|a Liberty School label 250 m south
+s9016|4|N|creek about 60 m south
+s9016|5|F|creek through the pin|L creek channel through the pin
+s9016|6|N
+s9016|7|N|a St. M. label 200 m south
+s9016|8|N|an East Baldwin label on the pin|L a divided highway runs past the pin today
+s9016|9|F|marsh at the edge of Twin Lake
+s9016|10|N
+s9016|11|N|L modern buildings around the pin
+s9017|0|N|creek through the pin|L creek channel through the pin
+s9017|1|B 100 SSW|L ravines around the pin
+s9017|2|N|railroad 60 m east|L railroad grade east of the pin
+s9017|3|C 65 W|M -64 0|a church symbol with a cemetery outline beside it, Cylon label
+s9017|4|N|L ravine heads around the pin
+s9017|5|B 45 W
+s9017|6|N
+s9017|7|F|marsh by the Willow River|L old river channel through the pin
+s9017|8|F|marsh beside a lake
+s9017|9|N|the Mill Pond label on the pin|L old pond bed and channel through the pin
+s9017|10|N
+s9017|11|N
+s9018|0|N|L hummocky ground; lake shore to the southeast
+s9018|1|N|Kinnickinnic River through the pin|L river channel through the pin
+s9018|2|F|L steep wooded bluff
+s9018|3|B 95 SSE
+s9018|4|N
+s9018|5|N|L houses around the pin today
+s9018|6|F|L ravine through the pin
+s9018|7|K 10 E|cemetery outline with a cross, Cem label
+s9018|8|V|Boardman|creek beside the pin
+s9018|9|K 0|cemetery outline with a cross on the pin|L houses close to the west
+s9018|10|N|L pitted ground just east, old clay diggings
+s9018|11|N|L a subdivision; houses cover it today
+s9019|0|K 0|cemetery outline with a cross on the pin|L modern buildings close to the north
+s9019|1|N|no cemetery drawn here|L large modern buildings around the pin
+s9019|2|N|L a highway is built across the pin
+s9019|3|K 20 E|small cemetery outline at the crossroads
+s9019|4|N|the pin sits in the mill pond the topo draws; railroad just south
+s9019|5|B 30 E|small hamlet at the crossroads
+s9019|6|N|a Viking label 150 m south
+s9019|7|N
+s9019|8|N|no cemetery drawn here
+s9019|9|S label|a Pine Heights School label on the pin
+s9019|10|N
+s9019|11|N
+s9020|0|B 15 NE
+s9020|1|F|L steep wooded ravine head
+s9020|2|C 40 NNW|a St. M. label; no cemetery outline drawn
+s9020|3|N
+s9020|4|N
+s9020|5|N
+s9020|6|F|lake edge|L old shoreline ridges south of the pin
+s9020|7|V|Cylon
+s9020|8|N|the Soo Line 100 m south; creek through the pin
+s9020|9|N
+s9020|10|K 80 S|M -10 -80|cemetery outline with a cross, Center label
+s9020|11|N
+s9021|0|N|creek through the pin|L creek channel and small pond beds by the pin
+s9021|1|N
+s9021|2|K 30 S|cemetery outline with a cross
+s9021|3|K 40 S|cemetery outline with a cross; no church drawn
+s9021|4|N|L a modern square pond or pit just east
+s9021|5|N
+s9021|6|N
+s9021|7|C 40 WSW|Holy Rosary label above the symbol
+s9021|8|N|L modern grounds; nothing of the 1897 building shows
+s9021|9|V|Centerville
+s9021|10|N|a mine or quarry symbol 100 m northwest
+s9021|11|N|creek about 60 m south|L creek channel south of the pin
+s9022|0|N|L a highway is built across the pin
+s9022|1|B 90 S|a pond 120 m northwest
+s9022|2|B 55 E|large buildings of the asylum grounds just east
+s9022|3|S label|a Camp School label on the pin
+s9022|4|N
+s9022|5|N|creek through the pin, railroad beside it
+s9022|6|N
+s9022|7|N|a quarry symbol on the pin|L quarry benches and pits; the ground has been dug at the pin
+s9022|8|B 40 N|Willow River 100 m east
+s9022|9|F|creek valley head on the pin|L ravine head on the pin
+s9022|10|B 90 NNE|creek beside the pin|L ravine through the pin
+s9022|11|N
+s9023|0|N|railroad 60 m south
+s9023|1|V|Jewett Mills
+s9023|2|V|Jewett Mills
+s9023|3|N|on the Willow River|L river channel through the pin
+s9023|4|N|small ponds around the pin; a Hennessy label to the south
+s9023|5|N
+s9023|6|N|a small pond beside the pin
+s9023|7|B 85 NE
+s9023|8|N|railroad 40 m north|L old railroad grades crossing the pin
+s9023|9|N
+s9023|10|N
+s9023|11|N|L hummocky ground with small ponds
+s9024|0|B 55 W|river 120 m northwest
+s9024|1|N|L houses around the pin today
+s9024|2|N
+s9024|3|S 30 SE|M 20 -20|Grove School label beside the symbol
+s9024|4|N|L a subdivision; houses cover it today
+s9024|5|S 50 E|M 50 0|Gopher Lawn School label beside the symbol
+s9024|6|N
+s9024|7|S 40 NE|M 25 30|Landing Hill School label beside the symbol
+s9024|8|N|railroad 120 m northeast|L steep wooded ridges
+s9024|9|N|creek 120 m west
+s9024|10|N
+s9024|11|N
+s9025|0|N|a Hutt. label just southeast
+s9025|1|F|creek through the pin|L creek channel through the pin
+s9025|2|V|Deer Park|a pond just east
+s9025|3|B 70 NE|railroad and road beside the pin
+s9025|4|N|the Deer Park label is on the pin; the village starts 150 m south
+s9025|5|N|L hummocky ground with gullies
+s9025|6|B 0|a building on the pin at the road
+s9025|7|N
+s9025|8|N|a small knob 150 m south|L a ring-shaped mound 150 m south
+s9025|9|F|L steep bluff edge
+s9025|10|F|small woodlot on the pin
+s9025|11|N
+s9026|0|B 100 SE
+s9026|1|N|L a highway is built beside the pin
+s9026|2|N|small ponds 70 m north and south
