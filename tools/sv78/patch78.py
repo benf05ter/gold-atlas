@@ -22,12 +22,12 @@ def rep(a,b):
 if 'SV78_ENRICH' not in h:
   a="  document.addEventListener('click',e=>{ const a=e.target.closest('a.frpin');"
   i=h.index(a); j=h.index('\n',i)+1
-  h=h[:j]+"""// 1878 county atlas (v142): what the Snyder, Van Vechten map draws at pins already on the map; data in og-data.js
+  h=h[:j]+"""// 1878 county atlas (v143): what the Snyder, Van Vechten map draws at pins already on the map; data in og-data.js
 { if(typeof SV78_ENRICH!=='undefined'){ const S=["Historical Atlas of Wisconsin (Snyder, Van Vechten & Co., Milwaukee, 1878), David Rumsey Map Collection copy on archive.org","https://archive.org/details/dr_map-of-eau-claire-county-state-of-wisconsin-copyright-1877-by-snyder-va-00484084"];
   for(const p of DATA.points){ const e=SV78_ENRICH[p.id]; if(e){ p.st=(p.st||'')+e; if(!(p.src||[]).some(y=>y[0]===S[0])) p.src=[...(p.src||[]),S]; } } } }
 """+h[j:]
 if 'const OM78=' not in h:
-  rep("  const CNW={b:[-94.6,-86.9,41.8,47.9]","  const OM78="+json.dumps(SHEETS)+"; OM19.push(...OM78);   // 1878 county atlas sheets (v142)\n  const CNW={b:[-94.6,-86.9,41.8,47.9]")
+  rep("  const CNW={b:[-94.6,-86.9,41.8,47.9]","  const OM78="+json.dumps(SHEETS)+"; OM19.push(...OM78);   // 1878 county atlas sheets (v143)\n  const CNW={b:[-94.6,-86.9,41.8,47.9]")
   rep("const fitTxt=r=>r[10]?","const fitTxt=r=>r[10]===2?'fitted to the survey lines, about '+r[9]+' m':r[10]?")
   a="    <ul>${OM19.slice().sort((a,b)=>a[2]-b[2])"
   rep(a,"""    <p class="hint">Around Eau Claire: the <i>Historical Atlas of Wisconsin</i> (Snyder, Van Vechten &amp; Co., Milwaukee, 1878), from the David Rumsey Map Collection copy on archive.org. The county page is fitted to the government survey township lines, so places land within about 300 m; the city plan is fitted to the section corners printed on it and lines up with Half Moon Lake and both rivers within about 100 m. It shows the 1878 roads, mills, farms by owner, schoolhouses, the race track, fair grounds and town plats that never grew.</p>
