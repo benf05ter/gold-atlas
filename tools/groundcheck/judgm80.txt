@@ -1,0 +1,37 @@
+ma000|0|B 70 NE|the river about 70 m south; L houses all around today
+ma000|1|F
+ma000|2|N|the pin falls in the Little Eau Pleine flowage, flooded since the mill days
+ma000|3|N|on the river at the bridge; a building about 90 m east
+ma000|4|N|the railroad about 100 m north-east
+ma000|5|B 70 E|Bruecker label beside it
+ma000|6|N|on the creek edge
+ma000|7|V|Rozellville
+ma000|8|N|the river about 100 m south
+ma000|9|N|beside the railroad; L city buildings all around today
+ma000|10|F|beside the railroad
+ma000|11|F|on the river at the railroad bridge
+ma001|0|F
+ma001|1|B 120 SW
+ma001|2|N|by the Wisconsin River shore marsh
+ma001|3|N|beside the railroad in marsh
+ma001|4|N|the railroad about 100 m west, with buildings along it; L a modern highway at the pin
+ma001|5|F|woods on the creek; no hamlet drawn
+ma001|6|F|Mosinee Hills label at the pin; L rough knobby ground
+ma001|7|N|a Gravel Pit label beside the pin; L a big pit dug since
+ma001|8|N
+ma001|9|N|on the river by the road crossing
+ma001|10|V|Norrie
+ma001|11|N|L buildings all around today
+ma002|0|N|beside the railroad; buildings about 160 m north-west
+ma002|1|N|the pin falls in Lake Du Bay, flooded in the 1940s, so the 1880 village plat is under water
+ma002|2|B 100 S|on the river bank by the bridge
+ma002|3|B 100 N|L a creek channel at the pin and houses all around
+ma002|4|N
+ma002|5|N|on the river
+ma002|6|T 0|Marathon Park label at the pin
+ma002|7|F|a long pond in woods
+ma002|8|N
+ma002|9|N|no cemetery drawn; buildings about 110 m east
+ma002|10|B 10 S
+ma002|11|N|the creek about 100 m north
+ma003|0|N|a creek about 100 m east

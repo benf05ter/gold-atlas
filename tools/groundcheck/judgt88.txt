@@ -1,0 +1,70 @@
+ta000|0|U|L houses all around today
+ta000|1|F
+ta000|2|N|buildings about 140 m east
+ta000|3|S 40 NE|Black School label beside the symbol
+ta000|4|F
+ta000|5|B 120 S|Pleasant Heights label to the south
+ta000|6|U
+ta000|7|U
+ta000|8|B 90 NE|beside the railroad
+ta000|9|U|L the river channel and old banks at the pin
+ta000|10|U|L Westboro's buildings around the pin
+ta000|11|U
+ta001|0|N|on the river; buildings about 115 m south-south-west; no dam drawn
+ta001|1|F
+ta001|2|S 30 W|Center School label beside the symbol
+ta001|3|U
+ta001|4|B 45 SE
+ta001|5|F|marsh at the pin; no cemetery drawn
+ta001|6|U
+ta001|7|U
+ta001|8|B 120 S|beside the river road
+ta001|9|B 75 E|M 75 0|the railroad about 40 m east
+ta001|10|B 125 SW
+ta001|11|F|the Yellow River about 100 m north-west
+ta002|0|N|on Otter Creek; no dam drawn
+ta002|1|S 85 E|M 85 10|Victory School label beside the symbol
+ta002|2|N|on the creek; buildings about 150 m east
+ta002|3|F|woods along a creek
+ta002|4|B 40 NW|on the creek
+ta002|5|S 50 E|M 50 0|Lincoln School label beside the symbol
+ta002|6|N
+ta002|7|F|on the river
+ta002|8|F|woods beside the river
+ta002|9|S 165 S|Mathey School label beside the symbol; the USGS place-name file puts it farther south-east, so the pin was not moved
+ta002|10|F|on the river
+ta002|11|B 100 SE
+ta003|0|N|L an old railroad grade crossing the pin
+ta003|1|B 80 W
+ta003|2|B 15 W
+ta003|3|N|on the creek
+ta003|4|N|buildings about 200 m north-east
+ta003|5|U|L Rib Lake's buildings all around today
+ta003|6|N|marsh at the pin
+ta003|7|U
+ta003|8|N
+ta003|9|B 120 W
+ta003|10|F|marsh by the lake
+ta003|11|N|on the river where the range line crosses; no dam drawn
+ta004|0|F|marsh by a small lake
+ta004|1|N|a creek about 100 m north-east; no dam drawn
+ta004|2|B 115 NW
+ta004|3|B 60 SSE
+ta004|4|B 80 ENE
+ta004|5|K 50 E|Cemetery label beside the pin
+ta004|6|B 60 WSW|Pine Tree label beside the pin
+ta004|7|N|marsh at the pin
+ta004|8|V|Gad
+ta004|9|F
+ta004|10|B 50 NNW
+ta004|11|F|marsh; a Meadow School label about 130 m north
+ta005|0|B 30 S
+ta005|1|U|L a creek channel at the pin
+ta005|2|B 120 NW|beside the airport landing field
+ta005|3|S 125 S|M 0 -125|Frey School label beside the symbol
+ta005|4|U
+ta005|5|N|on Little Black Creek; no cemetery drawn
+ta005|6|S 100 NE|M 70 70|White School label beside the symbol
+ta005|7|B 135 NE
+ta005|8|N
+ta005|9|U
