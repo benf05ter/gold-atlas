@@ -82,7 +82,9 @@ def main():
     Ts=[]
     for sh in S['sheets']:
         if not sh.get('gcp'): continue
-        T=fit_sheet(sh,R,c); Ts.append((sh,T)); kx0=111320*math.cos(math.radians(c[1]))
+        T=fit_sheet(sh,R,c)
+        if not sh.get('nodraw'): Ts.append((sh,T))   # nodraw: index/key map used only for pins
+        kx0=111320*math.cos(math.radians(c[1]))
         sh['T']=[float(v) for v in T]
         for fx in sh.get('feat',[]):
             X,Y=px2m(T,fx[0],fx[1]); fx[3:]=[round(c[0]+X/kx0,6),round(c[1]+Y/110540,6)]
