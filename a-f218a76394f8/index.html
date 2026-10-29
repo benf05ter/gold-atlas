@@ -1629,6 +1629,9 @@ DATA.points.push(...[{"id": "ld-yellow-lodge", "n": "Yellow Lodge (old Rickard H
 { if(typeof FR_ENRICH!=='undefined'){ for(const p of DATA.points){ const e=FR_ENRICH[p.id]; if(e){ p.st=(p.st||'')+e.add_st; if(e.src) p.src=[...(p.src||[]),...e.src.filter(x=>!(p.src||[]).some(y=>y[0]===x[0]))]; }
   const m=/^(vs|sc)-(\d+)$/.exec(p.id); if(m&&FR_VS[m[2]]){ p.st=p.st+FR_VS[m[2]]; p.src=[...(p.src||[]),['From the old books: see the Library page (full read, Oct. 2026)','']]; } } }
   document.addEventListener('click',e=>{ const a=e.target.closest('a.frpin'); if(!a) return; e.preventDefault(); try{ showView('map'); select(a.dataset.id,true); }catch(err){ console.warn(err); } }); }
+// 1878 county atlas (v142): what the Snyder, Van Vechten map draws at pins already on the map; data in og-data.js
+{ if(typeof SV78_ENRICH!=='undefined'){ const S=["Historical Atlas of Wisconsin (Snyder, Van Vechten & Co., Milwaukee, 1878), David Rumsey Map Collection copy on archive.org","https://archive.org/details/dr_map-of-eau-claire-county-state-of-wisconsin-copyright-1877-by-snyder-va-00484084"];
+  for(const p of DATA.points){ const e=SV78_ENRICH[p.id]; if(e){ p.st=(p.st||'')+e; if(!(p.src||[]).some(y=>y[0]===S[0])) p.src=[...(p.src||[]),S]; } } } }
 // 1913 Chippewa County plat book (v139): what the plat draws at pins already on the map; data in og-data.js
 { if(typeof PB13_ENRICH!=='undefined'){ const S=["Atlas of Chippewa County, Wisconsin (Gailloux & Harris, Chippewa Falls, 1913; S. A. Carpenter), from Neb's screenshots","https://www.wisconsinhistory.org/record/map/W01B9BP!W01B9FX"];
   for(const p of DATA.points){ const e=PB13_ENRICH[p.id]; if(e){ p.st=(p.st||'')+e; if(!(p.src||[]).some(y=>y[0]===S[0])) p.src=[...(p.src||[]),S]; } } } }
@@ -4966,19 +4969,21 @@ body.ogp13 .ogland{display:none}
 // Geneva and Shopiere scans were off by 150-390 m and were re-fitted to their printed corners). The 1890 railway map is a
 // schematic, fitted to 38 stations with a thin-plate spline: shown only when zoomed out, since it is about 20 km off near Eau Claire.
 { const OM19=[["h19_crystal_falls","Crystal Falls",1899,62500,"MI",-88.5,-88.25,46.0,46.25,14,0],["h19_iron_river","Iron River",1898,62500,"MI",-88.75,-88.5,46.0,46.25,14,0],["h19_ned_lake","Ned Lake",1895,62500,"MI",-88.5,-88.25,46.25,46.5,14,0],["h19_passage_island","Passage Island",1895,62500,"MI",-88.5,-88.25,48.0,48.25,13,0],["h19_perch_lake","Perch Lake",1895,62500,"MI",-88.75,-88.5,46.25,46.5,14,0],["h19_sagola","Sagola",1899,62500,"MI",-88.25,-88.0,46.0,46.25,14,0],["h19_witbeck","Witbeck",1899,62500,"MI",-88.25,-88.0,46.25,46.5,14,0],["h19_duluth","Duluth",1895,62500,"MN",-92.25,-92.0,46.75,47.0,27,0],["h19_minneapolis","Minneapolis",1896,62500,"MN",-93.5,-93.25,44.75,45.0,28,0],["h19_st_paul","St. Paul",1896,62500,"MN",-93.25,-93.0,44.75,45.0,28,0],["h19_baraboo","Baraboo",1895,62500,"WI",-89.75,-89.5,43.25,43.5,14,0],["h19_bayview","Bayview",1891,62500,"WI",-88.0,-87.75,42.75,43.0,15,0],["h19_brodhead","Brodhead",1893,62500,"WI",-89.5,-89.25,42.5,42.75,15,0],["h19_delavan","Delavan",1893,62500,"WI",-88.75,-88.5,42.5,42.75,15,0],["h19_eagle","Eagle",1892,62500,"WI",-88.5,-88.25,42.75,43.0,15,0],["h19_evansville","Evansville",1889,62500,"WI",-89.5,-89.25,42.75,43.0,15,0],["h19_geneva","Geneva",1893,62500,"WI",-88.5,-88.25,42.5,42.75,380,1],["h19_janesville","Janesville",1891,62500,"WI",-89.25,-89.0,42.5,42.75,15,0],["h19_koshkonong","Koshkonong",1891,62500,"WI",-89.0,-88.75,42.75,43.0,15,0],["h19_lancaster","Lancaster",1900,125000,"WI",-91.0,-90.5,42.5,43.0,22,0],["h19_madison","Madison",1890,62500,"WI",-89.5,-89.25,43.0,43.25,15,0],["h19_milwaukee","Milwaukee",1892,62500,"WI",-88.0,-87.75,43.0,43.25,15,0],["h19_muskego","Muskego",1891,62500,"WI",-88.25,-88.0,42.75,43.0,15,0],["h19_oconomowoc","Oconomowoc",1892,62500,"WI",-88.5,-88.25,43.0,43.25,15,0],["h19_port_washington","Port Washington",1892,62500,"WI",-88.0,-87.75,43.25,43.5,14,0],["h19_racine","Racine",1892,62500,"WI",-88.0,-87.75,42.5,42.75,15,0],["h19_shopiere","Shopiere",1893,62500,"WI",-89.0,-88.75,42.5,42.75,322,1],["h19_silver_lake","Silver Lake",1893,62500,"WI",-88.25,-88.0,42.5,42.75,15,0],["h19_st_croix_dalles","St Croix Dalles",1900,62500,"WI",-92.75,-92.5,45.25,45.5,28,0],["h19_stoughton","Stoughton",1890,62500,"WI",-89.25,-89.0,42.75,43.0,15,0],["h19_sun_prairie","Sun Prairie",1890,62500,"WI",-89.25,-89.0,43.0,43.25,15,0],["h19_waterloo","Waterloo",1891,62500,"WI",-89.0,-88.75,43.0,43.25,15,0],["h19_watertown","Watertown",1892,62500,"WI",-88.75,-88.5,43.0,43.25,15,0],["h19_waukesha","Waukesha",1892,62500,"WI",-88.25,-88.0,43.0,43.25,15,0],["h19_wausau","Wausau",1899,125000,"WI",-89.75,-89.25,44.75,45.25,21,0],["h19_whitewater","Whitewater",1892,62500,"WI",-88.75,-88.5,42.75,43.0,15,0]];
+  const OM78=[["sv78_eau_claire_co", "Eau Claire County (1878 county atlas)", 1878, 63360, "WI", -91.65123, -90.92033, 44.59612, 44.85849, 300, 2], ["sv78_eau_claire_city", "Eau Claire city plan (1878 county atlas)", 1878, 14400, "WI", -91.53926, -91.48708, 44.79248, 44.82278, 100, 2]]; OM19.push(...OM78);   // 1878 county atlas sheets (v142)
   const CNW={b:[-94.6,-86.9,41.8,47.9],rms:7.7,chk:22.1,chkEC:19.8};
   const g19=el('g',{},gBase); gBase.insertBefore(g19,gBelt); g19.style.display='none';
   const box=(b,f)=>{ const [x,y]=P(b[0],b[3]); const im=el('image',{x,y,width:(b[1]-b[0])*K,height:b[3]-b[2],preserveAspectRatio:'none','data-f':f},g19); im._b=b; return im; };
   const cnw=box(CNW.b,'cnw_1890'); cnw.setAttribute('opacity','.75');
   const q19=OM19.map(r=>box([r[5],r[6],r[7],r[8]],r[0]));
   let op=100; try{ op=+(localStorage.getItem('og-19op')??100); }catch(_){}
-  const fitTxt=r=>r[10]?'scan was off by a few hundred metres, re-fitted to its printed corners':'edges within '+r[9]+' m';
+  const fitTxt=r=>r[10]===2?'fitted to the survey lines, about '+r[9]+' m':r[10]?'scan was off by a few hundred metres, re-fitted to its printed corners':'edges within '+r[9]+' m';
   document.getElementById('gmNote').insertAdjacentHTML('afterend',`<div class="gm19" id="gm19" hidden>
     <label>See-through <input type="range" id="gm19r" min="30" max="100" value="${op}" aria-label="1800s map see-through"></label>
     <div class="row"><button class="btn" id="gm19go">Go to the nearest 1800s map</button></div>
     <details><summary>Sources and fit</summary>
     <p class="hint">USGS topographic sheets from the first surveys (public domain, USGS Historical Topographic Map Collection). Each one is placed by its corner coordinates; the printed border lines up within about 15 m, and checks at the Madison capitol and the Duluth ship canal land within about 70 m. Nothing from the 1800s was surveyed by USGS around Eau Claire; the nearest are St. Croix Dalles (1900), the Twin Cities (1896) and Wausau (1899).</p>
     <p class="hint">Zoomed out: Chicago &amp; North-Western Railway system map, May 1890 (from Neb's timetable book, p.455). It is a schematic, fitted to 38 station towns: about ${CNW.rms} km off on average at those towns and about ${CNW.chkEC} km between them near Eau Claire. Use it to see which lines and stations ran in 1890, not to find a spot.</p>
+    <p class="hint">Around Eau Claire: the <i>Historical Atlas of Wisconsin</i> (Snyder, Van Vechten &amp; Co., Milwaukee, 1878), from the David Rumsey Map Collection copy on archive.org. The county page is fitted to the government survey township lines, so places land within about 300 m; the city plan is fitted to the section corners printed on it and lines up with Half Moon Lake and both rivers within about 100 m. It shows the 1878 roads, mills, farms by owner, schoolhouses, the race track, fair grounds and town plats that never grew.</p>
     <ul>${OM19.slice().sort((a,b)=>a[2]-b[2]).map(r=>`<li>${esc(r[1])}, ${r[4]} <span>(${r[2]}, 1:${r[3].toLocaleString()}; ${fitTxt(r)})</span></li>`).join('')}</ul></details></div>`);
   const p19=document.getElementById('gm19'), r19=document.getElementById('gm19r');
   const opA=()=>g19.setAttribute('opacity',(+r19.value/100).toFixed(2));
@@ -4994,7 +4999,7 @@ body.ogp13 .ogland{display:none}
   const _gst19=gmSetType; gmSetType=function(t,open){
     if(t==='1800s'){ _gst19('default',open); GM.type='1800s'; try{ localStorage.setItem('atlas-maptype','1800s'); localStorage.setItem('og-1800s','1'); }catch(_){} gmSheetSync(); drawMarkers(); }
     else{ try{ localStorage.removeItem('og-1800s'); }catch(_){} _gst19(t,open); } v19(); };
-  const _gn19=gmNote; gmNote=function(){ _gn19(); const n=document.getElementById('gmNote'); if(n&&GM.type==='1800s') n.textContent='Maps from the 1800s: the first USGS surveys (1889 to 1900) around the Twin Cities, Duluth, Wausau, the St. Croix Dalles, southern Wisconsin and the Michigan iron ranges, and the 1890 North-Western railway map when zoomed out.'; v19(); };
+  const _gn19=gmNote; gmNote=function(){ _gn19(); const n=document.getElementById('gmNote'); if(n&&GM.type==='1800s') n.textContent='Maps from the 1800s: the first USGS surveys (1889 to 1900) around the Twin Cities, Duluth, Wausau, the St. Croix Dalles, southern Wisconsin and the Michigan iron ranges, and the 1890 North-Western railway map when zoomed out, and the 1878 county atlas around Eau Claire.'; v19(); };
   document.getElementById('gmTypes').insertAdjacentHTML('beforeend','<button data-mt="1800s" aria-pressed="false"><i class="mt-1800"></i><span>1800s</span></button>');
   { const h=document.querySelector('#gmTypes button[data-wm]'); if(h) h.parentNode.appendChild(h); }
   OGE.on('draw',()=>v19());
@@ -5232,18 +5237,18 @@ fetch('ot/index.json').then(r=>r.ok?r.json():null).then(ix=>{ if(!ix||!ix.o36) r
   for(const id in ix){ OGT.S[id]={}; for(const z in ix[id].t) OGT.S[id][z]=new Set(ix[id].t[z]?ix[id].t[z].split(','):[]); }
   // the slider maps cover the same box: a map hidden under a fully shown one, or faded to nothing, isn't loaded at all
   const old=()=>on.has('_oldmap'), A=()=>OGT.a||[1,0];
-  const SHOW={o250:old,o15:old,ogt:()=>old()&&A()[0]<1,o72:()=>old()&&A()[0]>0&&A()[1]<1,o36:()=>old()&&A()[1]>0,o19:()=>GM.type==='1800s',p13:()=>GM.type==='plat1913'};
-  for(const id of ['o250','o15','o19','ogt','o72','o36','p13']){ if(!ix[id]) continue; const M=ix[id];
+  const SHOW={o250:old,o15:old,ogt:()=>old()&&A()[0]<1,o72:()=>old()&&A()[0]>0&&A()[1]<1,o36:()=>old()&&A()[1]>0,o19:()=>GM.type==='1800s',o78:()=>GM.type==='1800s',p13:()=>GM.type==='plat1913'};
+  for(const id of ['o250','o15','o19','o78','ogt','o72','o36','p13']){ if(!ix[id]) continue; const M=ix[id];
     OGT.L[id]=tileLayer('t'+id,(z,x,y)=>`ot/${id}/${z}/${x}_${y}.webp`,{hd:true,minz:M.z[0],max:()=>M.z[1],has:(z,x,y)=>OGT.has(id,z,x,y),show:SHOW[id]}); }
   // the whole-sheet pictures step aside (taken out of the page, so they never download or decode)
-  for(const im of document.querySelectorAll('svg image[data-f]')){ const f=im.dataset.f; if(/^(h15_|h250_|h19_|plat_)/.test(f)||['ground-today','topo-1972','topo-1936'].includes(f)){ im.setAttribute('href','data:,'); im.remove(); } }
+  for(const im of document.querySelectorAll('svg image[data-f]')){ const f=im.dataset.f; if(/^(h15_|h250_|h19_|sv78_|plat_)/.test(f)||['ground-today','topo-1972','topo-1936'].includes(f)){ im.setAttribute('href','data:,'); im.remove(); } }
   ogtFade(); drawMarkers(); }).catch(()=>{});
 // the Today / 1972 / 1936 slider fades the tile layers the way it faded the pictures
 function ogtFade(){ const r=document.getElementById('omsR'); if(!r||!OGT.ix) return; const v=+r.value, a72=Math.min(1,v/100), a36=Math.max(0,Math.min(1,(v-100)/100));
   const was=OGT.a; OGT.a=[a72,a36]; if(was&&(was[0]>=1)!==(a72>=1)||was&&(was[0]>0)!==(a72>0)||was&&(was[1]>0)!==(a36>0)||was&&(was[1]>=1)!==(a36>=1)) tilesSoon();
   const set=(id,a)=>{ const L=OGT.L[id]; if(L) L.div.style.opacity=a<1?a.toFixed(2):''; };
   set('o72',a72); set('o36',a36); set('o250',a72); set('o15',a72);
-  const r19=document.getElementById('gm19r'); if(r19) set('o19',Math.min(1,+r19.value/100));
+  const r19=document.getElementById('gm19r'); if(r19){ set('o19',Math.min(1,+r19.value/100)); set('o78',Math.min(1,+r19.value/100)); }
   const r13=document.getElementById('gm13r'); if(r13) set('p13',Math.min(1,+r13.value/100)); document.body.classList.toggle('ogp13',GM.type==='plat1913'); }
 { const r=document.getElementById('omsR'); if(r) r.addEventListener('input',ogtFade); const r19=document.getElementById('gm19r'); if(r19) r19.addEventListener('input',ogtFade); const r13=document.getElementById('gm13r'); if(r13) r13.addEventListener('input',ogtFade); }
 OGE.on('draw',()=>ogtFade());

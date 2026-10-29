@@ -1,0 +1,176 @@
+[
+{
+"id": "sv78-dell-city",
+"L": "ghost",
+"n": "Dell City (1878 map)",
+"la": 44.72502,
+"lo": -91.14634,
+"y": "1850s-1870s",
+"pl": "T26N R6W sec. 19, on Bridge Creek at Dells Mill, 4 km north of Augusta",
+"co": "Eau Claire",
+"v": "Coins, tokens, buttons, wagon and mill hardware",
+"st": "The 1878 county atlas still prints DELL CITY in capitals at the mill on Bridge Creek, as big as Augusta, with a square for the mill and a dot for the town. Nothing called Dell City grew there: it was one of the town plats of the land-boom years, and only the 1864 Dells Mill and its farms stayed. The map's mark sits about 300 m from the mill today, so the platted lots, the road to the mill and the wagon yard are the ground to read.",
+"t": "Turn on the 1800s map type to see the 1878 page over today's map. Look at a 1938 aerial (WHAIFinder) for old lanes and foundations around the mill pond. The mill is a private museum: ask the owners before you look around.",
+"src": [
+[
+"Historical Atlas of Wisconsin (Snyder, Van Vechten & Co., Milwaukee, 1878): Map of Eau Claire County, p.111 (David Rumsey Map Collection copy on archive.org)",
+"https://archive.org/details/dr_map-of-eau-claire-county-state-of-wisconsin-copyright-1877-by-snyder-va-00484084"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the 1878 county map, fitted to the survey township lines (BLM corners from the Chippewa and Clark plat work). Town dots on this map land 150-300 m from today's GNIS points, so the pin is good to about 300 m.",
+"1878 county atlas, Eau Claire County page"
+],
+"stt": "WI",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"sv78": 1
+},
+{
+"id": "sv78-augusta-fairground",
+"L": "gather",
+"n": "Augusta fair ground (1878 map)",
+"la": 44.69181,
+"lo": -91.13701,
+"y": "1870s",
+"pl": "T26N R6W sec. 32, northwest edge of Augusta, where the roads from Dell City and Russell's Corners meet",
+"co": "Eau Claire",
+"v": "Coins, tokens, horse tack, fair losses",
+"st": "The 1878 county atlas marks a Fair Ground at a road crossing just northwest of Augusta, about 1.9 km from the later 1924-1939 county fair site. Country fairs of the 1870s drew whole townships for horse races, cattle shows and picnics, and the crowd stood in one place for days, which is where coins and small things were lost.",
+"t": "The pin is the 1878 label, about 300 m. A 1938 aerial may still show a race oval or a fenced square. Private farmland: ask the owner.",
+"src": [
+[
+"Historical Atlas of Wisconsin (Snyder, Van Vechten & Co., Milwaukee, 1878): Map of Eau Claire County, p.111 (David Rumsey Map Collection copy on archive.org)",
+"https://archive.org/details/dr_map-of-eau-claire-county-state-of-wisconsin-copyright-1877-by-snyder-va-00484084"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the 1878 county map, fitted to the survey township lines (BLM corners from the Chippewa and Clark plat work). Town dots on this map land 150-300 m from today's GNIS points, so the pin is good to about 300 m.",
+"1878 county atlas, Eau Claire County page"
+],
+"stt": "WI",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"sv78": 1
+},
+{
+"id": "sv78-county-line-house",
+"L": "gather",
+"n": "County Line House (1878 map)",
+"la": 44.8575,
+"lo": -91.45521,
+"y": "1870s",
+"pl": "T27N R9W sec. 3, on the Chippewa County line north of Eau Claire, beside the old railroad",
+"co": "Eau Claire",
+"v": "Coins, tokens, bottles, harness hardware",
+"st": "The 1878 county map names a County Line House on the line between Eau Claire and Chippewa counties, on the road and rail line between the two cities. A house named on a county map was a stopping place: a tavern or boarding house where teamsters and travellers ate and drank, and where the county line meant different saloon rules on each side.",
+"t": "About 300 m: the map dot is on the county line. Check the 1913 Chippewa plat (Plat 1913 map type) and a 1938 aerial for the building. Today this is built-up ground at the edge of Eau Claire and Lake Hallie; ask owners.",
+"src": [
+[
+"Historical Atlas of Wisconsin (Snyder, Van Vechten & Co., Milwaukee, 1878): Map of Eau Claire County, p.111 (David Rumsey Map Collection copy on archive.org)",
+"https://archive.org/details/dr_map-of-eau-claire-county-state-of-wisconsin-copyright-1877-by-snyder-va-00484084"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the 1878 county map, fitted to the survey township lines (BLM corners from the Chippewa and Clark plat work). Town dots on this map land 150-300 m from today's GNIS points, so the pin is good to about 300 m.",
+"1878 county atlas, Eau Claire County page"
+],
+"stt": "WI",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"sv78": 1
+},
+{
+"id": "sv78-otter-creek-mills",
+"L": "camp",
+"n": "Grist mill and woolen mill on Otter Creek (1878 map)",
+"la": 44.79717,
+"lo": -91.45475,
+"y": "1870s",
+"pl": "T27N R9W sec. 27, on Otter Creek 2-3 km southeast of downtown Eau Claire",
+"co": "Eau Claire",
+"v": "Coins, tokens, buttons, mill hardware",
+"st": "Just outside the 1878 city limits the county atlas draws a Grist Mill and a Woolen Mill side by side on Otter Creek, with T. Barland's place beside them. Farmers waited at a grist mill with their wagons, and a woolen mill brought people in to buy cloth and yarn, so these were busy little gathering spots that are gone from today's map.",
+"t": "Follow Otter Creek on the 1800s map type to the mill marks, then look for an old dam line or millrace on LiDAR (bare-earth). Mostly private and city land now: ask first.",
+"src": [
+[
+"Historical Atlas of Wisconsin (Snyder, Van Vechten & Co., Milwaukee, 1878): Map of Eau Claire County, p.111 (David Rumsey Map Collection copy on archive.org)",
+"https://archive.org/details/dr_map-of-eau-claire-county-state-of-wisconsin-copyright-1877-by-snyder-va-00484084"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the 1878 county map, fitted to the survey township lines (BLM corners from the Chippewa and Clark plat work). Town dots on this map land 150-300 m from today's GNIS points, so the pin is good to about 300 m.",
+"1878 county atlas, Eau Claire County page"
+],
+"stt": "WI",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"sv78": 1
+},
+{
+"id": "sv78-garden-park",
+"L": "gather",
+"n": "Garden Park and the race track (1878 map)",
+"la": 44.77428,
+"lo": -91.47208,
+"y": "1870s",
+"pl": "T27N R9W secs. 32-34, just south of the 1878 city limits on the hill south of Eau Claire",
+"co": "Eau Claire",
+"v": "Coins, tokens, horseshoes, picnic losses",
+"st": "The 1878 county map names a Garden Park south of the city, next to a Race Track drawn as a grey square in the northwest part of section 32. A named park beside a race track at the edge of town was a pleasure ground: picnics, races and Sunday outings. The atlas already has the 1870s horse track off State Street from a newspaper story; the 1878 map puts the track about 600 m southwest of that pin.",
+"t": "About 300 m. Compare the 1878 page (1800s map type) with a 1938 aerial for an oval or a grove. Built-up and private now: ask owners, and look at yards, school grounds and old field edges.",
+"src": [
+[
+"Historical Atlas of Wisconsin (Snyder, Van Vechten & Co., Milwaukee, 1878): Map of Eau Claire County, p.111 (David Rumsey Map Collection copy on archive.org)",
+"https://archive.org/details/dr_map-of-eau-claire-county-state-of-wisconsin-copyright-1877-by-snyder-va-00484084"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed from the 1878 county map, fitted to the survey township lines (BLM corners from the Chippewa and Clark plat work). Town dots on this map land 150-300 m from today's GNIS points, so the pin is good to about 300 m.",
+"1878 county atlas, Eau Claire County page"
+],
+"stt": "WI",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"sv78": 1
+},
+{
+"id": "sv78-westville",
+"L": "ghost",
+"n": "Westville and its flouring mill (1878 city plan)",
+"la": 44.79962,
+"lo": -91.5307,
+"y": "1870s",
+"pl": "West bank of the Chippewa where the Half Moon Lake outlet comes in (Menomonie St), Eau Claire's west side",
+"co": "Eau Claire",
+"v": "Coins, tokens, buttons, mill hardware",
+"st": "The 1878 city plan shows a separate little plat called WESTVILLE on the west bank of the Chippewa, with North, Middle, Union, Dell and Bench streets and a Flouring Mill on the outlet of Half Moon Lake where Menomonie Street crossed it. The name is gone; the ground became part of Shawtown and the Fourth Ward.",
+"t": "The mill pin is good to about 100 m. Turn on the 1800s map type to see the old streets over today's. Mostly private and city land: ask first.",
+"src": [
+[
+"Historical Atlas of Wisconsin (Snyder, Van Vechten & Co., Milwaukee, 1878): Eau Claire city plan, p.112 (David Rumsey Map Collection copy on archive.org)",
+"https://archive.org/details/dr_eau-claire-county-seat-of-eau-claire-co-with-medford-county-seat-of-ta-00484085"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the 1878 city plan, fitted to the section corners printed on it; Half Moon Lake and both rivers line up with the 1950s topo within about 50-100 m.",
+"1878 county atlas, Eau Claire city plan"
+],
+"stt": "WI",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"sv78": 1
+}
+]
