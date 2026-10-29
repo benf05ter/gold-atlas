@@ -1862,7 +1862,7 @@ function tapAt(clientX,clientY,e){ const r=svgRect(), cx=clientX-r.left, cy=clie
     const st=streamAt(cx,cy); if(st){ streamPop(st.t,st.lo,st.la,cx,cy); return; }
     const t=document.elementFromPoint(clientX,clientY);
     if(t&&t.classList&&t.classList.contains('stm')){ if(t.dataset.belt) beltPop(cx,cy); else if(t.dataset.gl) glPop(t.dataset.gl,cx,cy); return; }
-    closePop();
+    closePop(); if(window.ogTapAway) ogTapAway(now);
   }catch(err){ OGE.err('tap',err); } }
 
 // ---- pins, bubbles, names, parks, trails and gold streams on one canvas ----
@@ -2824,12 +2824,12 @@ function shSheetSync(){ const has=SH.phone&&detailEl.childElementCount>0; mwrap.
   const sid=selId||(detailEl.querySelector('h2')?.textContent||'x'); if(sheet.hidden||sheet.dataset.sid!==sid){ sheet.dataset.state='peek'; sbody.scrollTop=0; } sheet.dataset.sid=sid; sheet.hidden=false; }
 new MutationObserver(shSheetSync).observe(detailEl,{childList:true});
 function shSheetClose(){ const c=detailEl.querySelector('#closeD'); if(c) c.click(); else detailEl.innerHTML=''; selId=null; drawMarkers(); }
-{ let y0=null, h0=0, mv=false; const g=document.getElementById('shGrab');
-  g.addEventListener('pointerdown',e=>{ y0=e.clientY; h0=sheet.getBoundingClientRect().height; mv=false; g.setPointerCapture(e.pointerId); sheet.classList.add('drag'); });
+{ let y0=null, h0=0, mv=false, t0=0; const g=document.getElementById('shGrab');
+  g.addEventListener('pointerdown',e=>{ y0=e.clientY; t0=performance.now(); h0=sheet.getBoundingClientRect().height; mv=false; g.setPointerCapture(e.pointerId); sheet.classList.add('drag'); });
   g.addEventListener('pointermove',e=>{ if(y0==null) return; const dy=e.clientY-y0; if(Math.abs(dy)>6) mv=true; if(mv) sheet.style.height=Math.max(50,Math.min(mwrap.clientHeight-20,h0-dy))+'px'; });
   const end=e=>{ if(y0==null) return; const dy=e.clientY-y0; y0=null; sheet.classList.remove('drag'); sheet.style.height='';
     if(!mv){ sheet.dataset.state=sheet.dataset.state==='peek'?'full':'peek'; return; }
-    const st=sheet.dataset.state; if(dy<-40) sheet.dataset.state=st==='tuck'&&dy>-160?'peek':'full'; else if(dy>40){ if(st==='full') sheet.dataset.state=dy>260?'tuck':'peek'; else if(st==='peek') sheet.dataset.state='tuck'; else shSheetClose(); } };
+    const st=sheet.dataset.state, fl=dy/Math.max(1,performance.now()-t0); if(dy<-40) sheet.dataset.state=st==='tuck'&&dy>-160?'peek':'full'; else if(dy>40){ if(st==='full'&&dy<h0*.35&&fl<.8) sheet.dataset.state='peek'; else shSheetClose(); } };
   g.addEventListener('pointerup',end); g.addEventListener('pointercancel',end);
   g.addEventListener('keydown',e=>{ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); sheet.dataset.state=sheet.dataset.state==='full'?'peek':'full'; } }); }
 sbody.addEventListener('scroll',()=>{ if(sheet.dataset.state==='peek'&&sbody.scrollTop>30) sheet.dataset.state='full'; },{passive:true});
@@ -3029,7 +3029,7 @@ cld.addEventListener('click',e=>{ if(e.target.closest('.item[data-id]')) cldAway
 cldTab.onclick=()=>{ if(!cld.hidden) cldAway(false); };
 cld.dataset.swAll='1'; cldTab.dataset.swAll='1';
 { let sw=0; const mark=()=>{ sw=Date.now(); }; for(const n of [cld,cldTab]) n.addEventListener('click',e=>{ if(Date.now()-sw<350){ e.stopPropagation(); e.preventDefault(); } },true); window.plSwMark=mark; }
-plSwipe(cld,'x',{move:d=>{ if(d>0) cld.style.transform=`translateX(${d}px)`; },end:d=>{ cld.style.transform=''; if(d>60) cldAway(true); }});
+plSwipe(cld,'x',{move:d=>{ if(d>0) cld.style.transform=`translateX(${d}px)`; },end:d=>{ cld.style.transform=''; if(d>36) cldAway(true); }});
 plSwipe(cldTab,'x',{end:d=>{ if(d>30){ cld.hidden=true; cldC=null; } }});
 // --- spot card: drag down to tuck it to a slim bar (map stays in view), drag up or tap to bring it back; drag the slim bar down to put it away ---
 { const g=document.getElementById('shGrab'); g.insertAdjacentHTML('beforeend','<b class="shtt" id="shTT"></b>');
@@ -5151,5 +5151,46 @@ h1,h2,h3,.read h2,.read h3{font-family:var(--f-body);font-weight:700;letter-spac
     document.addEventListener('visibilitychange',()=>{ if(document.visibilityState==='visible') reg.update().catch(()=>{}); });
   }).catch(()=>{});
 })();
+</script>
+<style>
+/* OGCLOSE v136: easier to close spot cards and side panels on phones */
+@media (max-width:920px){
+  body.shell .shgrab{padding:15px 0 13px}
+  .shx{position:absolute;right:8px;top:6px;z-index:2;width:40px;height:40px;border-radius:50%;border:0;background:var(--bg);color:var(--ink);font:600 24px/1 var(--f-body);display:flex;align-items:center;justify-content:center;padding:0;cursor:pointer;box-shadow:0 1px 4px color-mix(in srgb,var(--ink) 14%,transparent)}
+  body.shell .shsheet[data-state="tuck"] .shx{top:12px}
+  body.shell .cldh .px{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;background:var(--bg)}
+  .cldtab{top:max(52%,calc(320px + env(safe-area-inset-top,0px)));min-height:84px;padding:14px 12px 14px 14px}
+  body.shell .mapwrap.plaway .ctl{right:10px}
+  .cldtab::before{content:'';position:absolute;top:-16px;bottom:-16px;left:-20px;right:0}
+  .cldtab span{font-size:28px}
+  .plgrab{padding:8px 0 12px;margin-top:-10px}
+}
+</style>
+<script>
+/* OGCLOSE v136: X on the spot card, pull the card down from its top to close it, a plain tap on the map puts away the top panel, pull the side tab left to bring the list back */
+(()=>{ try{
+  const sh=document.getElementById('shSheet'), sb=document.getElementById('shBody'), dEl=document.getElementById('detail'), mw=sh.parentElement, ly=document.getElementById('gmSheet'), mn=document.getElementById('shMenu'), cl=document.getElementById('cld'), ct=document.getElementById('cldTab');
+  sh.insertAdjacentHTML('afterbegin','<button class="shx" id="shX" aria-label="Close spot details">×</button>');
+  document.getElementById('shX').onclick=e=>{ e.stopPropagation(); shSheetClose(); };
+  // pull down on the card while it is scrolled to the top: one pull closes it (a short pull on a full card only drops it to half)
+  let y0=null, x0=0, t0=0, dy=0, on=false;
+  const reset=()=>{ y0=null; on=false; sh.classList.remove('drag'); sh.style.transform=''; };
+  sb.addEventListener('touchstart',e=>{ reset(); if(e.touches.length!==1||sb.scrollTop>0) return; y0=e.touches[0].clientY; x0=e.touches[0].clientX; t0=performance.now(); dy=0; },{passive:true});
+  sb.addEventListener('touchmove',e=>{ if(y0==null) return; const t=e.touches[0], d=t.clientY-y0, dx=t.clientX-x0;
+    if(!on){ if(e.touches.length!==1||sb.scrollTop>0||d<-6||Math.abs(dx)>Math.abs(d)+4){ y0=null; return; } if(d<10) return; on=true; sh.classList.add('drag'); y0+=d; t0=performance.now(); }
+    dy=Math.max(0,t.clientY-y0); sh.style.transform=`translateY(${dy}px)`; e.preventDefault(); },{passive:false});
+  const end=()=>{ if(y0==null) return; const was=on, h=sh.getBoundingClientRect().height, fl=dy/Math.max(1,performance.now()-t0); reset(); if(!was) return;
+    if(dy>40){ if(sh.dataset.state==='full'&&dy<h*.35&&fl<.8) sh.dataset.state='peek'; else shSheetClose(); } };
+  sb.addEventListener('touchend',end); sb.addEventListener('touchcancel',()=>{ dy=0; end(); });
+  // a plain tap on the map closes the top panel: the spot card, then the spots-here list (it slides to its side tab)
+  let busy=false;
+  mw.addEventListener('pointerdown',()=>{ busy=!ly.hidden||!mn.hidden||(typeof pop!=='undefined'&&!pop.hidden); },true);
+  const typing=()=>dEl.contains(document.activeElement)&&document.activeElement.matches('input,textarea,select')||[...dEl.querySelectorAll('input:not([type=button]):not([type=file]),textarea')].some(i=>i.offsetParent!==null&&i.value!==i.defaultValue); // never throw away something half typed
+  window.ogTapAway=now=>{ if(!SH.phone||busy) return; setTimeout(()=>{ if(GES.tapT!==now) return; // a double tap zooms instead
+      if(!sh.hidden){ if(!typing()) shSheetClose(); return; }
+      if(!cl.hidden&&!cl.classList.contains('away')) cldAway(true); },300); };
+  // the side tab: pull it left (or tap) to bring the list back, push it right to put it away
+  plSwipe(ct,'x',{move:d=>{ if(d<0) ct.style.transform=`translateX(${Math.max(d,-40)}px)`; },end:d=>{ ct.style.transform=''; if(d<-20&&!cl.hidden) cldAway(false); }});
+}catch(err){ (window.OGE&&OGE.err)?OGE.err('close',err):console.error(err); } })();
 </script>
 </body></html>
