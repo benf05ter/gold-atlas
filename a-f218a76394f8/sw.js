@@ -14,8 +14,16 @@ self.addEventListener('fetch',e=>{ const r=e.request; if(r.method!=='GET') retur
     const hit=(await c.match(r,{ignoreSearch:true}))||(r.mode==='navigate'?await c.match('index.html'):null); if(hit) return hit;
     try{ const res=await fetch(r); if(res.ok) c.put(r,res.clone()); return res; }catch(_){ return (await caches.match(r,{ignoreSearch:true}))||Response.error(); } })()); return; }
   // map tiles (USGS imagery and relief, Esri streets): saved areas and earlier views first, then the network
-  if(u.hostname==='basemap.nationalmap.gov'||u.hostname==='server.arcgisonline.com'){ e.respondWith((async()=>{ const c=await caches.open('atlas-sat'); const hit=await caches.match(r); if(hit) return hit;
-    try{ const res=await fetch(r); if(res.ok||res.type==='opaque') c.put(r,res.clone()); return res; }catch(_){ return Response.error(); } })()); return; }
+  // A cache that fails (storage full on iPhone) never blocks the map: fall back to the network. Tiles are fetched with CORS so a
+  // failed tile is never saved as a blank and Safari doesn't count each one as a 7 MB opaque entry; no-CORS only if CORS is refused.
+  if(u.hostname==='basemap.nationalmap.gov'||u.hostname==='server.arcgisonline.com'){ e.respondWith((async()=>{ let c=null;
+    // older saves are opaque (no way to tell a blank from a tile): with signal those are fetched again and replaced
+    let hit=null; try{ c=await caches.open('atlas-sat'); hit=await c.match(r.url); if(hit&&(hit.type!=='opaque'||!navigator.onLine)) return hit; }catch(_){ c=null; }
+    let res=null; try{ res=await fetch(r.url,{mode:'cors',credentials:'omit'}); }catch(_){ res=null; }
+    if(!res||!res.ok){ try{ const o=await fetch(r); if(o.type==='opaque'||o.ok||!res) res=o; }catch(_){} }
+    if(!res||(!res.ok&&res.type!=='opaque')) return hit||res||Response.error();
+    if(c&&res.ok) c.put(r.url,res.clone()).catch(()=>{});
+    return res; })()); return; }
   if(/(^|\.)fonts\.(googleapis|gstatic)\.com$/.test(u.hostname)){ e.respondWith((async()=>{ const c=await caches.open('atlas-fonts'); const hit=await c.match(r);
     const net=fetch(r).then(res=>{ if(res.ok||res.type==='opaque') c.put(r,res.clone()); return res; }).catch(()=>hit||Response.error());
     return hit||net; })()); } });
