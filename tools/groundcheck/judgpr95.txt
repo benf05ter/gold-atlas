@@ -1,0 +1,8 @@
+pr000|0|N|the railroad about 90 m east and a cemetery about 180 m north-east; L the old grade east of the pin
+pr000|1|F|between the river channels
+pr000|2|F|beside the river where the railroad crosses; L a raised bank at the pin
+pr000|3|F|woods, with a creek about 150 m south; no dam drawn
+pr000|4|N|beside the old railroad grade and the road
+pr000|5|N|about 110 m north of the railroad
+pr000|6|N|beside the railroad, under a power line
+pr000|7|F|beside the river and railroad, near a Dam label
