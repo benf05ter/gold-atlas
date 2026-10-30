@@ -1,0 +1,132 @@
+{
+ "new": [],
+ "edit": {
+  "tw-blackburn-gordon-1897": {
+   "set": {
+    "la": 46.1631,
+    "lo": -91.6891,
+    "p": "approx",
+    "pinconf": "B",
+    "pl": "Totagatic River, sec. 36 T43N R11W, town of Gordon, Douglas Co. (about 10 miles below Gordon station), with Mary Blackburn's grave chapel",
+    "pinev": [
+     "Moved 30 Oct 2026: the Superior Times (9 Oct 1897) gives his section, town and range (sec 36 T43N R11W) and says he was found \"ten miles below Gordon station on the Totogatic river\"; Folsom (1888) and an 1881 Corps of Engineers survey (\"Blackburn's\" on the Totogatic) agree. Pin on the river point nearest the section centre; good to about 800 m"
+    ]
+   },
+   "st": " Records check: Superior Times 9 Oct 1897 says he \"lived on section [36], town 4[3], range 11\" (OCR \"bo\"/\"4\">\"; sec 36 is the only x6 section in T43N R11W the Totagatic crosses) and was found dead at his door \"ten miles below Gordon station on the Totogatic river\". Folsom 1888 p.71: \"since 1860, on Totogatic river, in Douglas county, Wisconsin, ten miles from Gordon\". 1881 Corps of Engineers St. Croix reservoir survey names \"Blackburn\"s\" as the landmark on the Totogatic 10 miles below the Big Falls dam site. Card adds: kept a backwoods general store, reputed worth about $70,000; killer used an ax, took the keys, robbed the bedroom, forded the stream in moccasins; no will found; grand-nieces Lightbody of Superior said to be heirs. He built a house over his wife\"s grave and was buried beside her (graves: look-only). Superior Times says born Egypt, Ill.; Folsom says Cincinnati. His 1868 cash-sale patents in Burnett (T42N R14W sec 32, T41N R14W secs 4 and 20) are pine land near the Totagatic mouth, not the home.",
+   "src": [
+    [
+     "https://www.loc.gov/resource/sn85040344/1897-10-09/ed-1/?sp=3",
+     "https://www.loc.gov/resource/sn85040344/1897-10-09/ed-1/?sp=3"
+    ],
+    [
+     "https://archive.org/details/fiftyyearsinnort00folsuoft",
+     "https://archive.org/details/fiftyyearsinnort00folsuoft"
+    ],
+    [
+     "https://archive.org/details/indextoexcutive00reprgoog",
+     "https://archive.org/details/indextoexcutive00reprgoog"
+    ]
+   ],
+   "moved": true
+  },
+  "tw-horrigan-boscobel-1930": {
+   "set": {
+    "st": "Cornelius and Stephen Horrigan distrusted banks and were said to have hidden money around their farm about 17 miles from Boscobel. In November 1930 three men posing as hunters, with a well-dressed woman, killed Patrick Gorman, 65, and his son Paul, 18, visitors from South Dakota, and wounded both brothers (Stephen shot through the arm, Cornelius's jaw shattered), but fled without searching. Neighbors said there were many stories of buried treasure on the homestead, and the summer before three men and a woman had been run off the farm while digging. Placement is weak: the pin is on Boscobel and the farm is 17 miles off in an unknown direction."
+   },
+   "st": " Records check: Correction: Cornelius was NOT killed. The dead were Patrick Gorman, 65, and his son Paul, 18, visiting from South Dakota; Stephen Horrigan was shot through the arm and Cornelius's jaw shattered; their sister Ellen, 75, kept house. Attack Nov. 11, 1930; the gang had asked permission to hunt on the land first; they were believed to pass through Mt. Sterling. Dist. Atty. James Cullen and Sheriff Bert Scoville worked the case from Prairie du Chien and a suspect, Donald Alderman, was arrested at a Wauzeka roadhouse, which points to Crawford County (inference). Many people had dug over the farm in earlier years.",
+   "src": [
+    [
+     "https://www.loc.gov/resource/sn83045293/1930-11-12/ed-1/?sp=1",
+     "https://www.loc.gov/resource/sn83045293/1930-11-12/ed-1/?sp=1"
+    ],
+    [
+     "https://www.loc.gov/resource/sn83045293/1930-11-13/ed-1/?sp=1",
+     "https://www.loc.gov/resource/sn83045293/1930-11-13/ed-1/?sp=1"
+    ],
+    [
+     "https://www.loc.gov/resource/sn83045293/1930-11-17/ed-1/?sp=3",
+     "https://www.loc.gov/resource/sn83045293/1930-11-17/ed-1/?sp=3"
+    ]
+   ]
+  },
+  "tw-vollmer-hoard-1899": {
+   "set": {
+    "st": "George M. Vollmer of Stillwater, supposed to be rich, died in the fall of 1899 and little property could be found. His will left nearly everything to his sons George and Emil, and the daughters contested it; the special administrator and other parties got leave to search the house and found money of all kinds hidden in cracks and crevices everywhere, an estimated $7,000 to $10,000. He had always considered banks unsafe, and the search was to go on until every article in the house was examined. Pin is approximate (town or township only), not the spot itself."
+   },
+   "st": " Records check: Correction: the will left nearly all the property to the sons George and Emil Vollmer; the daughters contested it in Washington Co. probate court (Judge Wilson) in Nov. 1899. The special administrator and other parties got leave to search the house and found wads of $40 to $900 in every conceivable place; some contestants thought more remained. A Washington Co. probate file exists (contest).",
+   "src": [
+    [
+     "https://www.loc.gov/resource/sn90059523/1899-11-11/ed-1/?sp=9",
+     "https://www.loc.gov/resource/sn90059523/1899-11-11/ed-1/?sp=9"
+    ],
+    [
+     "https://www.loc.gov/resource/sn90059523/1899-11-12/ed-1/?sp=8",
+     "https://www.loc.gov/resource/sn90059523/1899-11-12/ed-1/?sp=8"
+    ],
+    [
+     "https://www.loc.gov/resource/sn90059523/1899-11-18/ed-1/?sp=3",
+     "https://www.loc.gov/resource/sn90059523/1899-11-18/ed-1/?sp=3"
+    ]
+   ]
+  },
+  "tw-mulchrone-liberty-pole-1899": {
+   "st": " Records check: Probate: Vernon County Court, estate of Patrick Mulchrone, administrator John Conner; order limiting claims published Nov.-Dec. 1899. The probate file (Vernon Co. Register in Probate, Viroqua) should give the 140-acre farm's legal description.",
+   "src": [
+    [
+     "https://www.loc.gov/resource/sn85040451/1899-11-15/ed-1/?sp=2",
+     "https://www.loc.gov/resource/sn85040451/1899-11-15/ed-1/?sp=2"
+    ],
+    [
+     "https://www.loc.gov/resource/sn85040451/1899-12-06/ed-1/?sp=2",
+     "https://www.loc.gov/resource/sn85040451/1899-12-06/ed-1/?sp=2"
+    ]
+   ]
+  },
+  "cr-schultz-recluse-1914": {
+   "st": " Records check: Princeton Union, Sept. 24, 1914: Harris Schultz was found dead in his home 'at the old Emerson farm in Spencer Brook', where he lived alone; neighbors noticed his stock neglected. An Emerson name on a Spencer Brook Twp. plat or patent would place the farm.",
+   "src": [
+    [
+     "https://www.loc.gov/resource/sn83016758/1914-09-24/ed-1/?sp=4",
+     "https://www.loc.gov/resource/sn83016758/1914-09-24/ed-1/?sp=4"
+    ]
+   ]
+  },
+  "tw-randall-north-bend-1901": {
+   "st": " Records check: WI DNR patents: William M. Randall, military warrant 1861, NENW/NWNE/SWNE sec 29 T19N R6W, right at North Bend (44.098,-91.12). Kinship to David Randall unknown.",
+   "src": [
+    [
+     "Wisconsin DNR original land patents (research/land-entries/first-patents-24-counties.tsv)",
+     ""
+    ]
+   ]
+  },
+  "tw-gallagher-morrison-creek": {
+   "st": " Records check: WI DNR patents: James Gallagher, military warrant 1860, NE SW and SE SW sec 27 T22N R4W (44.353,-90.854), about 7 km west of Morrison Creek's mouth. Same name and decade as 'Dad' Gallagher, but not on upper Morrison Creek; second spot to check.",
+   "src": [
+    [
+     "Wisconsin DNR original land patents (research/land-entries/first-patents-24-counties.tsv)",
+     ""
+    ]
+   ]
+  },
+  "tw-markee-amery-1936": {
+   "set": {
+    "la": 45.4013,
+    "lo": -92.4155,
+    "p": "approx",
+    "pl": "Markee family land, sec. 25 T34N R17W, about 10 km north of Amery (not proven to be Amil's farm)",
+    "pinev": [
+     "Moved 30 Oct 2026 from the Amery city point to the Markee family patents (Herman and Oscar Markee 1895 NW SE, John E. Markee 1892 SE SE, sec 25 T34N R17W). Family land, not proven to be Amil's farm; C"
+    ]
+   },
+   "st": " Records check: WI DNR original land patents: Herman and Oscar Markee, cash sale 1895, NW SE sec 25 T34N R17W; John E. Markee, cash sale 1892, SE SE sec 25. The 1936 find went to Amil's brother Oscar Markee. Family land only, not proven to be Amil's farm; suggest a card note, move only if you judge it better than the town pin.",
+   "src": [
+    [
+     "Wisconsin DNR original land patents (research/land-entries/first-patents-24-counties.tsv)",
+     ""
+    ]
+   ],
+   "moved": true
+  }
+ }
+}
