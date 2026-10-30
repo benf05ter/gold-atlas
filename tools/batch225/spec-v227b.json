@@ -1,0 +1,105 @@
+{
+"new": [],
+"edit": {
+"ot-bob-lake-school-s23-t31n-r8w": {
+"set": {},
+"st": " LiDAR (2020, read by eye): Plowed field at the cross; farm pond and mound about 70 m W belong to today's farmyard.",
+"src": []
+},
+"ot-evergreen-school-s14-t27n-r6w": {
+"set": {},
+"st": " LiDAR (2020, read by eye): Woods full of tip-up mounds; two small hollows by the road 25-30 m NNW could be a cellar or privy pit, or tip-ups.",
+"src": []
+},
+"ot-lowes-creek-school-s33-t27n-r9w": {
+"set": {},
+"st": " LiDAR (2020, read by eye): Subdivision lots and house pads all round; nothing old readable.",
+"src": []
+},
+"ot-goff-school-s4-t29n-r14w": {
+"set": {},
+"st": " LiDAR (2018, read by eye): Cross at a lane corner beside a level yard with faint building outlines SE; could be the school yard or today's farmstead.",
+"src": []
+},
+"ot-bountivale-school-s33-t28n-r12w": {
+"set": {},
+"st": " LiDAR (2018, read by eye): Brushy ground; a small round hollow and a long pond 60-70 m N; nothing at the cross.",
+"src": []
+},
+"ot-valley-glen-school-s34-t30n-r11w": {
+"set": {},
+"st": " LiDAR (2018, read by eye): Raised, level rectangular yard about 45 x 75 m with a bank round it, and a small deep pit right at the cross (SE corner of the yard): a school yard pad with a well or privy hole fits well.",
+"src": []
+},
+"ot-plainview-school-s26-t31n-r12w": {
+"set": {},
+"st": " LiDAR (2018, read by eye): Gullied hillside; a small round hollow about 15 m W of the cross. Ridgeland 1949 sheet: check the 1.1 km E-W fix was applied to this position.",
+"src": []
+},
+"ot-martin-church-s3-t31n-r6w": {
+"set": {},
+"st": " LiDAR (2020, read by eye): Wooded ring of raised ground; a small rectangular level pad about 15 m S of the cross inside it, building-sized.",
+"src": []
+},
+"ot-st-johns-church-s29-t31n-r15w": {
+"set": {},
+"st": " LiDAR (2021, read by eye): Cross on a raised level yard about 100 m wide with a bank on its south side; could be the church lot or a farmyard.",
+"src": []
+},
+"ot-hatchville-church-s7-t27n-r14w": {
+"set": {},
+"st": " LiDAR (2021, read by eye): Working farmstead (buildings, pond) just S; small pad at the cross is part of it.",
+"src": []
+},
+"ot-tainter-church-s35-t29n-r12w": {
+"set": {},
+"st": " LiDAR (2018, read by eye): Raised rectangular pad about 25 x 30 m, 35 m S of the cross, in a level yard by the road: building pad.",
+"src": []
+},
+"ot-st-pauls-church-s35-t32n-r13w": {
+"set": {},
+"st": " LiDAR (2018, read by eye): Farmstead with buildings; a mound right by the cross. Ridgeland 1949 sheet: check the E-W fix.",
+"src": []
+},
+"ot-zion-church-s26-t31n-r13w": {
+"set": {},
+"st": " LiDAR (2018, read by eye): Level rectangular yard about 40 x 50 m just E of the cross, and a pit with a spoil ring 60 m SE (could be a cellar or a rock pile). Ridgeland 1949 sheet: check the E-W fix.",
+"src": []
+},
+"ot-hay-river-church-s1-t30n-r13w": {
+"set": {},
+"st": " LiDAR (2018, read by eye): Large rectangular farmyard; nothing specific at the cross. Ridgeland 1949 sheet: check the E-W fix.",
+"src": []
+},
+"ot-pleasant-valley-church-s1-t27n-r5w": {
+"set": {},
+"st": " LiDAR (2020, read by eye): Raised pad 20 m E-NE of the cross at the edge of a yard; today's farm buildings 50 m S.",
+"src": []
+},
+"ot-st-pauls-church-s29-t32n-r12w": {
+"set": {},
+"st": " LiDAR (2018, read by eye): Cross on the road; small hollow with raised ground 30 m W. Ridgeland 1949 sheet: check the E-W fix.",
+"src": []
+},
+"cem-1846626": {
+"set": {},
+"st": " LiDAR (2020, read by eye): Cross at the road edge; level yard S with faint rows (cemetery?), no pad or hollow.",
+"src": []
+},
+"pd88-popple-creek-cemetery": {
+"set": {},
+"st": " LiDAR (2018, read by eye): Plowed corner; faint level rectangle N, no pad or hollow.",
+"src": []
+},
+"cem-1570366": {
+"set": {},
+"st": " LiDAR (2023, read by eye): Small raised rectangular pad about 20 x 30 m, 15-20 m S of the cross, between road and creek.",
+"src": []
+},
+"sc-1578204": {
+"set": {},
+"st": " LiDAR (2023, read by eye): Plowed floodplain between creek and road.",
+"src": []
+}
+}
+}

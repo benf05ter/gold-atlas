@@ -1,0 +1,502 @@
+{
+"new": [
+{
+"id": "ot-bob-lake-school-s23-t31n-r8w",
+"L": "school",
+"n": "Bob Lake School site (Bloomer 1949 topo)",
+"la": 45.15915,
+"lo": -91.3358,
+"y": "by 1949",
+"pl": "sec. 23 T31N R8W, Chippewa Co.",
+"co": "Chippewa",
+"stt": "WI",
+"v": "Coins, buttons, pencil caps, toys and slate pieces",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1949 USGS topo map (Bloomer 15-minute sheet) draws Bob Lake School here (school symbol, sec. 23 T31N R8W). No second source found yet; no building within 60 m today. The USGS place-name file also lists it (GNIS 1578472), but that list was taken from the topo maps, so it counts as the same source.",
+"t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+"src": [
+[
+"USGS Bloomer 15-minute topographic map (1949)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Bloomer 1949 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-evergreen-school-s14-t27n-r6w",
+"L": "school",
+"n": "Evergreen School site (Cadott 1952 topo)",
+"la": 44.82882,
+"lo": -91.0812,
+"y": "by 1952",
+"pl": "sec. 14 T27N R6W, Eau Claire Co.",
+"co": "Eau Claire",
+"stt": "WI",
+"v": "Coins, buttons, pencil caps, toys and slate pieces",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1952 USGS topo map (Cadott 15-minute sheet) draws Evergreen School here (school symbol, sec. 14 T27N R6W). No second source found yet; no building within 60 m today. The USGS place-name file also lists it (GNIS 1846662), but that list was taken from the topo maps, so it counts as the same source.",
+"t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+"src": [
+[
+"USGS Cadott 15-minute topographic map (1952)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Cadott 1952 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-lowes-creek-school-s33-t27n-r9w",
+"L": "school",
+"n": "Lowes Creek School site (Chippewa Falls 1934 topo)",
+"la": 44.77178,
+"lo": -91.4859,
+"y": "by 1934",
+"pl": "sec. 33 T27N R9W, Eau Claire Co.",
+"co": "Eau Claire",
+"stt": "WI",
+"v": "Coins, buttons, pencil caps, toys and slate pieces",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1934 USGS topo map (Chippewa Falls 15-minute sheet) draws Lowes Creek School here (school symbol, sec. 33 T27N R9W). No second source found yet; 6 buildings within 60 m today (it may still stand, or a newer house took its place).",
+"t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+"src": [
+[
+"USGS Chippewa Falls 15-minute topographic map (1934)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Chippewa Falls 1934 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-goff-school-s4-t29n-r14w",
+"L": "school",
+"n": "Goff School site (Downing 1948 topo)",
+"la": 45.02848,
+"lo": -92.09641,
+"y": "by 1948",
+"pl": "sec. 4 T29N R14W, Dunn Co.",
+"co": "Dunn",
+"stt": "WI",
+"v": "Coins, buttons, pencil caps, toys and slate pieces",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1948 USGS topo map (Downing 15-minute sheet) draws Goff School here (school symbol, sec. 4 T29N R14W). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place). The USGS place-name file also lists it (GNIS 1831712), but that list was taken from the topo maps, so it counts as the same source.",
+"t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+"src": [
+[
+"USGS Downing 15-minute topographic map (1948)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Downing 1948 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-bountivale-school-s33-t28n-r12w",
+"L": "school",
+"n": "Bountivale School site (Menomonie 1940 topo)",
+"la": 44.85862,
+"lo": -91.85296,
+"y": "by 1940",
+"pl": "sec. 33 T28N R12W, Dunn Co.",
+"co": "Dunn",
+"stt": "WI",
+"v": "Coins, buttons, pencil caps, toys and slate pieces",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1940 USGS topo map (Menomonie 15-minute sheet) draws Bountivale School here (school symbol, sec. 33 T28N R12W). No second source found yet; 3 buildings within 60 m today (it may still stand, or a newer house took its place). The USGS place-name file also lists it (GNIS 1578219), but that list was taken from the topo maps, so it counts as the same source.",
+"t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+"src": [
+[
+"USGS Menomonie 15-minute topographic map (1940)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Menomonie 1940 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-valley-glen-school-s34-t30n-r11w",
+"L": "school",
+"n": "Valley Glen School site (New Auburn 1949 topo)",
+"la": 45.0332,
+"lo": -91.7123,
+"y": "by 1949",
+"pl": "sec. 34 T30N R11W, Dunn Co.",
+"co": "Dunn",
+"stt": "WI",
+"v": "Coins, buttons, pencil caps, toys and slate pieces",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1949 USGS topo map (New Auburn 15-minute sheet) draws Valley Glen School here (school symbol, sec. 34 T30N R11W). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place). The USGS place-name file also lists it (GNIS 1578534), but that list was taken from the topo maps, so it counts as the same source.",
+"t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+"src": [
+[
+"USGS New Auburn 15-minute topographic map (1949)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the New Auburn 1949 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-plainview-school-s26-t31n-r12w",
+"L": "school",
+"n": "Plainview School site (Ridgeland 1949 topo)",
+"la": 45.13999,
+"lo": -91.81514,
+"y": "by 1949",
+"pl": "sec. 26 T31N R12W, Dunn Co.",
+"co": "Dunn",
+"stt": "WI",
+"v": "Coins, buttons, pencil caps, toys and slate pieces",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1949 USGS topo map (Ridgeland 15-minute sheet) draws Plainview School here (school symbol, sec. 26 T31N R12W). No second source found yet; no building within 60 m today.",
+"t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+"src": [
+[
+"USGS Ridgeland 15-minute topographic map (1949)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Ridgeland 1949 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-martin-church-s3-t31n-r6w",
+"L": "school2",
+"n": "Martin Church site (Cornell 1951 topo)",
+"la": 45.19258,
+"lo": -91.10792,
+"y": "by 1951",
+"pl": "sec. 3 T31N R6W, Chippewa Co.",
+"co": "Chippewa",
+"stt": "WI",
+"v": "Coins, religious medals, buttons, jewelry from church socials and picnics",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1951 USGS topo map (Cornell 15-minute sheet) draws Martin Church here (church symbol, sec. 3 T31N R6W). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+"t": "Look for the level church pad, fieldstone foundation corners, lilacs or old spruce, and the horse-shed line. If there is a churchyard cemetery, search only outside it. Ask the landowner first.",
+"src": [
+[
+"USGS Cornell 15-minute topographic map (1951)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Cornell 1951 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-st-johns-church-s29-t31n-r15w",
+"L": "school2",
+"n": "St. Johns Church site (Downing 1948 topo)",
+"la": 45.13676,
+"lo": -92.24662,
+"y": "by 1948",
+"pl": "sec. 29 T31N R15W, St. Croix Co.",
+"co": "St. Croix",
+"stt": "WI",
+"v": "Coins, religious medals, buttons, jewelry from church socials and picnics",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1948 USGS topo map (Downing 15-minute sheet) draws St. Johns Church here (church symbol, sec. 29 T31N R15W). No second source found yet; 3 buildings within 60 m today (it may still stand, or a newer house took its place).",
+"t": "Look for the level church pad, fieldstone foundation corners, lilacs or old spruce, and the horse-shed line. If there is a churchyard cemetery, search only outside it. Ask the landowner first.",
+"src": [
+[
+"USGS Downing 15-minute topographic map (1948)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Downing 1948 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-hatchville-church-s7-t27n-r14w",
+"L": "school2",
+"n": "Hatchville Church site (Knapp 1946 topo)",
+"la": 44.83298,
+"lo": -92.13574,
+"y": "by 1946",
+"pl": "sec. 7 T27N R14W, Pierce Co.",
+"co": "Pierce",
+"stt": "WI",
+"v": "Coins, religious medals, buttons, jewelry from church socials and picnics",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1946 USGS topo map (Knapp 15-minute sheet) draws Hatchville Church here (church symbol, sec. 7 T27N R14W). No second source found yet; 3 buildings within 60 m today (it may still stand, or a newer house took its place).",
+"t": "Look for the level church pad, fieldstone foundation corners, lilacs or old spruce, and the horse-shed line. If there is a churchyard cemetery, search only outside it. Ask the landowner first.",
+"src": [
+[
+"USGS Knapp 15-minute topographic map (1946)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Knapp 1946 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-tainter-church-s35-t29n-r12w",
+"L": "school2",
+"n": "Tainter Church site (Menomonie 1940 topo)",
+"la": 44.95472,
+"lo": -91.81322,
+"y": "by 1940",
+"pl": "sec. 35 T29N R12W, Dunn Co.",
+"co": "Dunn",
+"stt": "WI",
+"v": "Coins, religious medals, buttons, jewelry from church socials and picnics",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1940 USGS topo map (Menomonie 15-minute sheet) draws Tainter Church here (church symbol, sec. 35 T29N R12W). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+"t": "Look for the level church pad, fieldstone foundation corners, lilacs or old spruce, and the horse-shed line. If there is a churchyard cemetery, search only outside it. Ask the landowner first.",
+"src": [
+[
+"USGS Menomonie 15-minute topographic map (1940)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Menomonie 1940 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-st-pauls-church-s35-t32n-r13w",
+"L": "school2",
+"n": "St. Pauls Church site (Ridgeland 1949 topo)",
+"la": 45.20932,
+"lo": -91.94341,
+"y": "by 1949",
+"pl": "sec. 35 T32N R13W, Dunn Co.",
+"co": "Dunn",
+"stt": "WI",
+"v": "Coins, religious medals, buttons, jewelry from church socials and picnics",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1949 USGS topo map (Ridgeland 15-minute sheet) draws St. Pauls Church here (church symbol, sec. 35 T32N R13W). No second source found yet; 4 buildings within 60 m today (it may still stand, or a newer house took its place).",
+"t": "Look for the level church pad, fieldstone foundation corners, lilacs or old spruce, and the horse-shed line. If there is a churchyard cemetery, search only outside it. Ask the landowner first.",
+"src": [
+[
+"USGS Ridgeland 15-minute topographic map (1949)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Ridgeland 1949 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-zion-church-s26-t31n-r13w",
+"L": "school2",
+"n": "Zion Church site (Ridgeland 1949 topo)",
+"la": 45.15033,
+"lo": -91.94226,
+"y": "by 1949",
+"pl": "sec. 26 T31N R13W, Dunn Co.",
+"co": "Dunn",
+"stt": "WI",
+"v": "Coins, religious medals, buttons, jewelry from church socials and picnics",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1949 USGS topo map (Ridgeland 15-minute sheet) draws Zion Church here (church symbol, sec. 26 T31N R13W). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+"t": "Look for the level church pad, fieldstone foundation corners, lilacs or old spruce, and the horse-shed line. If there is a churchyard cemetery, search only outside it. Ask the landowner first.",
+"src": [
+[
+"USGS Ridgeland 15-minute topographic map (1949)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Ridgeland 1949 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-hay-river-church-s1-t30n-r13w",
+"L": "school2",
+"n": "Hay River Church site (Ridgeland 1949 topo)",
+"la": 45.1173,
+"lo": -91.91455,
+"y": "by 1949",
+"pl": "sec. 1 T30N R13W, Dunn Co.",
+"co": "Dunn",
+"stt": "WI",
+"v": "Coins, religious medals, buttons, jewelry from church socials and picnics",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1949 USGS topo map (Ridgeland 15-minute sheet) draws Hay River Church here (church symbol, sec. 1 T30N R13W). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+"t": "Look for the level church pad, fieldstone foundation corners, lilacs or old spruce, and the horse-shed line. If there is a churchyard cemetery, search only outside it. Ask the landowner first.",
+"src": [
+[
+"USGS Ridgeland 15-minute topographic map (1949)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Ridgeland 1949 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-pleasant-valley-church-s1-t27n-r5w",
+"L": "school2",
+"n": "Pleasant Valley Church site (Stanley 1952 topo)",
+"la": 44.84553,
+"lo": -90.93165,
+"y": "by 1952",
+"pl": "sec. 1 T27N R5W, Eau Claire Co.",
+"co": "Eau Claire",
+"stt": "WI",
+"v": "Coins, religious medals, buttons, jewelry from church socials and picnics",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1952 USGS topo map (Stanley 15-minute sheet) draws Pleasant Valley Church here (church symbol, sec. 1 T27N R5W). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+"t": "Look for the level church pad, fieldstone foundation corners, lilacs or old spruce, and the horse-shed line. If there is a churchyard cemetery, search only outside it. Ask the landowner first.",
+"src": [
+[
+"USGS Stanley 15-minute topographic map (1952)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Stanley 1952 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-st-pauls-church-s29-t32n-r12w",
+"L": "school2",
+"n": "St. Pauls Church site (Ridgeland 1949 topo)",
+"la": 45.23381,
+"lo": -91.88078,
+"y": "by 1949",
+"pl": "sec. 29 T32N R12W, Barron Co.",
+"co": "Barron",
+"stt": "WI",
+"v": "Coins, religious medals, buttons, jewelry from church socials and picnics",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1949 USGS topo map (Ridgeland 15-minute sheet) draws St. Pauls Church here (church symbol, sec. 29 T32N R12W). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+"t": "Look for the level church pad, fieldstone foundation corners, lilacs or old spruce, and the horse-shed line. If there is a churchyard cemetery, search only outside it. Ask the landowner first.",
+"src": [
+[
+"USGS Ridgeland 15-minute topographic map (1949)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Ridgeland 1949 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+}
+],
+"edit": {
+"cem-1846626": {
+"set": {},
+"st": " The 1952 topo also draws Bethlehem Church here.",
+"src": [
+[
+"USGS Cadott 15-minute topographic map (1952)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+]
+},
+"pd88-popple-creek-cemetery": {
+"set": {},
+"st": " The 1949 topo also draws Popple Creek Church here.",
+"src": [
+[
+"USGS New Auburn 15-minute topographic map (1949)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+]
+},
+"cem-1570366": {
+"set": {},
+"st": " The 1929 topo also draws North Branch School here.",
+"src": [
+[
+"USGS Durand 15-minute topographic map (1929)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+]
+},
+"sc-1578204": {
+"set": {
+"la": 44.56938,
+"lo": -91.87575,
+"p": "exact",
+"pinev": [
+"Moved 839 m to the schoolhouse the 1929 USGS Durand topo draws (sec. 7 T24N R12W)"
+]
+},
+"st": " The 1929 USGS topo map (Durand 15-minute sheet) draws Newton School here (school symbol, sec. 7 T24N R12W). No second source found yet; no building within 60 m today.",
+"src": [
+[
+"USGS Durand 15-minute topographic map (1929)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"moved": true
+}
+}
+}
