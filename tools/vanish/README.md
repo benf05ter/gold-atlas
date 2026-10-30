@@ -1,0 +1,6 @@
+# Vanished features and the agreement heat map (atlas v215)
+
+- `vanish.js`: the page section. Card box "When it went" (one dated line per old source, and "Gone between A and B"), two switch-on layers beside the old map slider: **Where old sources agree (heat map)** and **When it vanished (rings)**. Both are off at first and paint only while on. The heat map is worked out on the phone from the two-sources families (`SRC2`) of each history spot plus every history spot within 120 m, brightened a little by the best-spot score; it adds no picture files.
+- `VF` in og-data.js: per spot id, witness codes `YEAR SRC STATE [key]` joined by `|`, then `#A-B` when it was drawn in A and missing by B (`s` = still there on the 1936-41 air photo, gone since). SRC: P plat book, M 1878 county map, L survey plat, F fire map, G USGS place-name file, T earliest USGS topo, A air photo, N today. STATE: `+` drawn, `-` not drawn, `~` drawn nearby, `b` built over today.
+- Build: `node dump.js` (all spots as the app builds them) -> `python3 research/vanish/vf.py pts.json out/` -> `python3 tools/vanish/patch.py <atlas-dir> out/vf.json`. patch.py replaces an earlier VF block and the script section, so it can be re-run.
+- Restamp `sw.js` VERSION after patching the app.
