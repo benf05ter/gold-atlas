@@ -1,0 +1,134 @@
+{
+ "new": [
+  {
+   "id": "pfaff-sherman-mill-half-moon",
+   "L": "gather",
+   "n": "Sherman Lumber Co. mill, north shore of Half Moon Lake (1881)",
+   "la": 44.8145,
+   "lo": -91.5153,
+   "y": "1881-1890s",
+   "pl": "End of Randall Street, north shore of Half Moon Lake, Eau Claire",
+   "co": "Eau Claire",
+   "stt": "WI",
+   "v": "Mill-hand coins and tokens, tools, slab and sawdust fill along the shore",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Arthur and John Sherman built their lumber mill here in 1881, on the north shore of Half Moon Lake at the end of Randall Street, across the water from the Carson Park peninsula. It burned to the ground after two months and was rebuilt the next season. A painting of the mill from about 1885, probably by the Swiss-born travelling artist Frank C. Peyraud (the Eau Claire Daily Leader of September 1885 says he was painting the Sherman mill), is the cover of Pfaff's book; the Sherman sisters kept it over the fireplace at 700 Second Avenue. The Half Moon Lake beach is about 80 m south of this pin today.",
+   "t": "Mill sites leave slab and sawdust fill along the shore; workers' coins and tokens turn up by the old road to the mill. This is city park and beach ground: check the park rules first.",
+   "src": [
+    [
+     "Pfaff, Settlement and Survival: Building Towns in the Chippewa Valley 1850-1925 (Chippewa Valley Museum, 1994), your screenshots",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed at the west end of today's Randall Street on the lake shore, as Pfaff describes; the mill lot itself is not yet set from a Sanborn sheet, so good to about 100 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "pfaff-eau-claire-old-high-school",
+   "L": "gather",
+   "n": "Old Eau Claire High School, 4th Avenue between Lake Street and Grand Avenue",
+   "la": 44.80744,
+   "lo": -91.50722,
+   "y": "About 1900s-1920s",
+   "pl": "4th Avenue between Lake Street and West Grand Avenue, Eau Claire",
+   "co": "Eau Claire",
+   "stt": "WI",
+   "v": "Coins, class rings, buttons, slate pencils, marbles",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Pfaff (p. 111) shows a Victorian brick high school with a corner tower on 4th Avenue between Lake Street and Grand Avenue; the building is gone today. A 1925 letter from Aunt Mary Walmsley contrasts \"the first little schoolhouse\" with this \"handsome large building\". Decades of students passed through it.",
+   "t": "Lawn strips and any unbuilt corner of the block are where old coins and class rings turn up. Ask the current owner first.",
+   "src": [
+    [
+     "Pfaff, Settlement and Survival: Building Towns in the Chippewa Valley 1850-1925 (Chippewa Valley Museum, 1994), your screenshots",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed mid-block on 4th Avenue between today's Lake Street and West Grand Avenue; which side of the street is not fixed yet, so good to about 60 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "pfaff-hotel-eau-claire-1921",
+   "L": "gather",
+   "n": "Hotel Eau Claire (1921), Barstow and Eau Claire Streets",
+   "la": 44.81221,
+   "lo": -91.50065,
+   "y": "1921 onward",
+   "pl": "Corner of Barstow and Eau Claire Streets, downtown Eau Claire",
+   "co": "Eau Claire",
+   "stt": "WI",
+   "v": "Coins, tokens, room keys, buttons",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "The \"new million dollar fireproof\" Hotel Eau Claire opened on Wednesday, 1 June 1921, at the corner of Barstow and Eau Claire Streets, with Joseph P. Dilley as general manager and a modern cafe and coffee shop promising \"sudden service\" (1921 ad in Pfaff, pp. 106-107). A 1920s Library of Congress photo on the book's back cover shows cars crowding the street in front. On the 1883 Sanborn map the Eau Claire House hotel stood about 25 m from this corner (see that pin), so the corner may have held a hotel for 40 years or more.",
+   "t": "Downtown and paved: mainly a story stop for a historic walk. Look only at boulevard strips, with permission.",
+   "src": [
+    [
+     "Pfaff, Settlement and Survival: Building Towns in the Chippewa Valley 1850-1925 (Chippewa Valley Museum, 1994), your screenshots",
+     ""
+    ],
+    [
+     "Sanborn Fire Insurance Map from Eau Claire, Eau Claire County, Wisconsin (1883), Library of Congress",
+     "https://www.loc.gov/item/sanborn09538_001/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed at the Barstow and Eau Claire Streets intersection; which corner is not fixed yet, so good to about 40 m",
+    "Unconfirmed, one source"
+   ]
+  }
+ ],
+ "edit": {
+  "d-half-moon-beach": {
+   "st": " In the 1920s, with the log drives over, Half Moon Lake became a popular summer swimming hole (Pfaff, Settlement and Survival, p. 111). The Sherman Lumber Co. mill of 1881 stood about 80 m north of this pin, at the end of Randall Street (see that pin).",
+   "src": [
+    [
+     "Pfaff, Settlement and Survival: Building Towns in the Chippewa Valley 1850-1925 (Chippewa Valley Museum, 1994), your screenshots",
+     ""
+    ]
+   ]
+  },
+  "d-carson-park": {
+   "st": " Across the water on the north shore, at the end of Randall Street, stood the Sherman Lumber Co. mill (built 1881, burned after two months, rebuilt 1882; see that pin). The \"island\" was later deeded to the city and named for lumberman William Carson (Pfaff, p. 128).",
+   "src": [
+    [
+     "Pfaff, Settlement and Survival: Building Towns in the Chippewa Valley 1850-1925 (Chippewa Valley Museum, 1994), your screenshots",
+     ""
+    ]
+   ]
+  },
+  "sf-eau-claire-galloway-house-hotel": {
+   "st": " On 19 October 1916 the Galloway House hosted the downtown banquet for the dedication of the Eau Claire State Normal School, with Governor Emanuel Philipp and Regent Emmet Horan (Pfaff, p. 108, citing the Eau Claire Leader of 20 October 1916).",
+   "src": [
+    [
+     "Pfaff, Settlement and Survival: Building Towns in the Chippewa Valley 1850-1925 (Chippewa Valley Museum, 1994), your screenshots",
+     ""
+    ]
+   ]
+  },
+  "d-ghost-porters-mills": {
+   "st": "",
+   "src": [
+    [
+     "Pfaff, Settlement and Survival (1994), pp. 17, 18, 27, 73-75 and 77 on Porter's Mills (pages not yet read)",
+     ""
+    ],
+    [
+     "Randall Rohe, Ghosts of the Forests: Vanished Lumber Towns of Wisconsin, vol. I (unpublished manuscript, 1992), chapter on Porter's Mills (Porterville): its founding, the Northwestern Lumber Co. in the 1870s, its hazards and the town's end after the mill closed",
+     ""
+    ]
+   ]
+  }
+ }
+}
