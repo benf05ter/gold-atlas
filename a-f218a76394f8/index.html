@@ -5508,9 +5508,9 @@ const SSORT=(()=>{
         if(g.length<2) return null; const fam=new Set(o.map(x=>x[2]));
         const lbl=g.map(x=>{ const y0=x[0][0], y1=x[x.length-1][0], ls=[...new Set(x.map(z=>z[1]))].slice(0,2).join(' + '); return ls+' '+(y1-y0>=5?y0+'-'+y1:y0); });
         return [g.length*({A:120,B:100,C:60}[p.ug&&p.ug[0]]||70)+fam.size*5+sc(p)/100, g.length+' eras: '+lbl.join(' · ')]; }},
-    loot:{n:'Lost and never found',d:'Only the cache, hoard and lost-loot stories, best placed first: to the building, then the farm, the section, the town. Walk the ones placed to the building.',
-      f(p){ if(!(p.L==='treasure'||/^cr-/.test(p.id)||LOOT.test(p.n+' '+(p.v||''))||LOOTH.test(p.n+' '+(p.v||'')))) return null; const t=placed(p);
-        return [t*100+(EVW[p.c]??1)*10+sc(p)/100, 'Placed to the '+PLACE[t]+' · '+({documented:'documented',newspaper:'newspaper story',report:'report',rumor:'rumor',lead:'lead',legend:'legend'}[p.c]||'story')]; }},
+    loot:{n:'Lost and never found',d:'Only the cache, hoard and lost-loot stories not yet recovered (marked found or false ones drop out), best placed first: to the building, then the farm, the section, the town. Walk the ones placed to the building.',
+      f(p){ if(!(p.L==='treasure'||/^cr-/.test(p.id)||LOOT.test(p.n+' '+(p.v||''))||LOOTH.test(p.n+' '+(p.v||'')))) return null; if(p.s==='found'||p.s==='false') return null; const t=placed(p), fs={never:2,partly:1}[p.s]||0;
+        return [t*100+fs*20+(EVW[p.c]??1)*5+sc(p)/100, 'Placed to the '+PLACE[t]+' · '+({never:'never found · ',partly:'partly found · '}[p.s]||'')+({documented:'documented',newspaper:'newspaper story',report:'report',rumor:'rumor',lead:'lead',legend:'legend'}[p.c]||'story')]; }},
     money:{n:'Money passed hands',d:'Stores, hotels, saloons, banks, mills, ferry landings, stage stops and depots, sorted by how many separate sources confirm them (fire map, plat book, survey, newspaper, topo, air photo) within about 250 m.',
       f(p){ const m=moneyK(p); if(!m) return null; const fam=srcFam(p);
         for(const q of near(p,250)) if(q!==p&&ok(q)&&moneyK(q)===m) srcFam(q).forEach(x=>fam.add(x));
