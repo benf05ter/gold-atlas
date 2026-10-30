@@ -1,0 +1,87 @@
+{
+ "new": [
+  {
+   "id": "cd-pine-point-resort-cedar-falls",
+   "L": "gather",
+   "n": "Pine Point resort, Red Cedar above Cedar Falls (to 1945)",
+   "la": 44.948,
+   "lo": -91.88,
+   "y": "c. 1920s-1945",
+   "pl": "Red Cedar River above the Cedar Falls dam, Dunn County",
+   "co": "Dunn",
+   "stt": "WI",
+   "v": "River resort",
+   "c": "newspaper",
+   "s": "never",
+   "p": "approx",
+   "st": "Pine Point resort on the Red Cedar above Cedar Falls was developed and run by Leon Roach and sold in 1945 to W. F. McNulty of Wilmette, Illinois (Dunn County News, 14 Mar 1945, p. 1). The pin is a guess on the river above the dam; the point itself is not yet placed. Unconfirmed, one source.",
+   "t": "Find a pine-wooded point above the Cedar Falls dam on the 1938 air photo or a 1940s topo. Private shoreline: ask the owner.",
+   "src": [
+    [
+     "Dunn County News, 14 Mar 1945, p. 1 (newspapers.com, PC thread sweep)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": "Guess above the Cedar Falls dam; up to about 2 km."
+  }
+ ],
+ "edit": {
+  "ld-badger-mills": {
+   "st": " In the September 1884 flood the water at Badger Mills rose 20 ft and the log booms broke. The river stood about 27 ft, 4.5 ft above the great 1880 flood (Eau Claire News, 13 Sep 1884).",
+   "src": [
+    [
+     "Eau Claire News, 13 Sep 1884, p. 1, \"The Great September Flood\" (newspapers.com, PC thread sweep)",
+     ""
+    ]
+   ]
+  },
+  "mf-little-falls-dam": {
+   "st": " The September 1884 flood, about $1 million in losses, was blamed on the opening of the gates at the Little Falls dam. At Chippewa Falls it took four bridges on Duncan Creek, Stiles & Lego's livery, Stumm's machinery depot and Cahill's planing mill. At Eau Claire it broke the Price Street bridge, which took out piers of the Milwaukee bridge, and it broke the booms at Lafayette Mills and the Eddy mill, sending logs running from the Gravel Island mill (Eau Claire News, 13 Sep 1884).",
+   "src": [
+    [
+     "Eau Claire News, 13 Sep 1884, p. 1, \"The Great September Flood\" (newspapers.com, PC thread sweep)",
+     ""
+    ]
+   ]
+  },
+  "stark-seeleyburg": {
+   "st": " The flood that finished Seeleyburg came in June 1899, in the same storm as the New Richmond tornado of 12 June 1899. The Kickapoo cut across the main street, washed out the bridge, overturned Dr. Carpenter's drug store and hit Chas. Seeley's mill yard. Every mill dam on the river went out, with the water 2.5 ft above any earlier flood. The La Farge bridge and a stretch of railroad grade on David Barrie's farm were lost too. The village ground was scoured and re-laid by the river, so finds may be displaced or buried under flood sand. Later accounts give 1897 and 1905; the 1899 date is from the papers of the time.",
+   "src": [
+    [
+     "Epitaph-News (Viola/La Farge), 16 Jun 1899, p. 1; Vernon County Censor, 21 Jun 1899, p. 3 (newspapers.com, PC thread sweep)",
+     ""
+    ]
+   ]
+  },
+  "d-ghost-old-tyrone": {
+   "st": " A 1943 auction ad places \"the old Tyrone farm\" 21 miles west of Eau Claire, 11 miles east of Durand, 3 miles west of Meridean on the river road, and 1.5 miles north of Highway 85 (Dunn County News, 8 Sep 1943, p. 5). That fits this pin.",
+   "src": [
+    [
+     "Dunn County News, 8 Sep 1943, p. 5 (newspapers.com, PC thread sweep)",
+     ""
+    ]
+   ]
+  },
+  "mf-frenchtown": {
+   "set": {
+    "la": 44.9268,
+    "lo": -91.404,
+    "p": "approx",
+    "pl": "South bank of the Chippewa, half a mile below downtown Chippewa Falls, opposite the 1905 furniture factory site (east of the sugar factory)",
+    "pinconf": "B",
+    "pinev": [
+     "Moved 30 Oct 2026 to the south bank opposite the Chippewa Falls Furniture Co. site, which stood just east of the Chippewa Sugar Co. plant (Chippewa Herald-Telegram, 20 Sep 1905, p. 3). This matches \"half a mile below the city\" (1880). Two independent placements; good to about 300 m."
+    ]
+   },
+   "st": " Placement: the Chippewa Falls Furniture Co. (1905-09) stood \"east of the Chippewa Sugar Co.'s plant\" on the north bank (Chippewa Herald-Telegram, 20 Sep 1905, p. 3), so Frenchtown lay on the south bank opposite, about half a mile below downtown.",
+   "src": [
+    [
+     "Chippewa Herald-Telegram, 20 Sep 1905, p. 3 (newspapers.com, PC thread sweep)",
+     ""
+    ]
+   ],
+   "moved": true
+  }
+ }
+}
