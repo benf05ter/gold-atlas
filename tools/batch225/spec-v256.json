@@ -1,0 +1,32 @@
+{
+ "new": [],
+ "edit": {
+  "ld-water-st-1882": {
+   "st": " The 24 April 1882 fire started behind Kinnear's drug store in the Pioneer Block, destroyed 71 buildings and caused losses of more than $250,000 (contemporary Eau Claire report, \"ALL AFIRE!\"). Lots rebuilt after the fire can hold an 1882 burn layer with melted glass, coins and burned shop stock under the later floors and yards.",
+   "src": [
+    [
+     "Eau Claire newspaper, \"ALL AFIRE!\", 24-25 Apr 1882 (newspapers.com, PC thread sweep)",
+     ""
+    ]
+   ]
+  },
+  "sf-eau-claire-pioneer-block-stores": {
+   "st": " This is the block where the 24 April 1882 Water Street fire started, behind Kinnear's drug store. It burned 71 buildings. The block on this 1883 map is the rebuilt one.",
+   "src": [
+    [
+     "Eau Claire newspaper, \"ALL AFIRE!\", 24-25 Apr 1882 (newspapers.com, PC thread sweep)",
+     ""
+    ]
+   ]
+  },
+  "ld-downsville-mill": {
+   "st": " Newspapers date the dam failure to April 1883 (\"the great disaster at Downsville\", Dunn County News, Apr-May 1883).",
+   "src": [
+    [
+     "Dunn County News, 21 Apr and 26 May 1883 (newspapers.com, PC thread sweep)",
+     ""
+    ]
+   ]
+  }
+ }
+}

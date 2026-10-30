@@ -1,0 +1,215 @@
+{
+ "new": [
+  {
+   "id": "cd-shell-lake-legion-pavilion-1924",
+   "L": "gather",
+   "n": "American Legion dance pavilion and tourist camp, Shell Lake (1924)",
+   "la": 45.741,
+   "lo": -91.9215,
+   "y": "1900-1935",
+   "pl": "Shell Lake village, west shore of Shell Lake",
+   "co": "Washburn",
+   "stt": "WI",
+   "v": "Dance pavilion, town tourist camp and bathing beach; 1900 picnic grounds",
+   "c": "newspaper",
+   "s": "never",
+   "p": "town",
+   "st": "The American Legion dance pavilion at Shell Lake opened in Aug 1924 with 300 couples on the floor and marked its 10th anniversary in 1935. The same 1924 papers mention the town tourist camp and bathing beach. In 1900 \"Thomas' picnic grounds\" were deeded to Shell Lake as a public park (Washburn County Register). The pin is on the village lakefront by today's Memorial Park; the exact pavilion site is not given. Unconfirmed, one source.",
+   "t": "Lakefront public park: check city rules. Find the pavilion on a 1920s-30s Sanborn or air photo before detecting.",
+   "src": [
+    [
+     "Washburn County Register, 1900 and 1924-1935 (newspapers.com (PC thread sweep, 2026-10-30))",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": "Town-level: the exact ground is not given in the source; good to about 1-2 km."
+  },
+  {
+   "id": "cd-minong-engbretson-picnic-1929",
+   "L": "gather",
+   "n": "County picnic at the Peter Engbretson place, Pokegama Lake (1929)",
+   "la": 46.0938,
+   "lo": -91.8748,
+   "y": "1929",
+   "pl": "Pokegama Lake near Minong",
+   "co": "Washburn",
+   "stt": "WI",
+   "v": "Annual county picnic ground",
+   "c": "newspaper",
+   "s": "never",
+   "p": "lake",
+   "st": "The 1929 annual county picnic was held at the Peter Engbretson place on Pokegama Lake near Minong. The pin is on the lake; the Engbretson farm is not yet placed. Unconfirmed, one source.",
+   "t": "Private land: find Engbretson on a 1910s-30s Washburn plat, then ask the owner.",
+   "src": [
+    [
+     "Washburn County Register, 1929 (newspapers.com (PC thread sweep, 2026-10-30))",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": "Lake-level only; up to about 2 km."
+  },
+  {
+   "id": "cd-cochrane-picnic-grove-1923",
+   "L": "gather",
+   "n": "Picnic grove on the outskirts of Cochrane (1923)",
+   "la": 44.2275,
+   "lo": -91.8352,
+   "y": "1923",
+   "pl": "Edge of Cochrane village",
+   "co": "Buffalo",
+   "stt": "WI",
+   "v": "Village picnic grove",
+   "c": "newspaper",
+   "s": "never",
+   "p": "town",
+   "st": "A 1923 paper describes a \"picnic grove just on the outskirts of the village\" of Cochrane. The grove is not named or placed; the pin is at the village. Unconfirmed, one source.",
+   "t": "Check the 1930s Buffalo County plat and the 1938 air photo for a grove at the village edge. Goose Lake Park (pk-3103) is 200 m away and may or may not be the same ground.",
+   "src": [
+    [
+     "Newspaper, 1923 (newspapers.com (PC thread sweep, 2026-10-30))",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": "Town-level: the exact ground is not given in the source; good to about 1-2 km."
+  },
+  {
+   "id": "cd-merrill-dance-pavilion-1918",
+   "L": "gather",
+   "n": "Open-air dance pavilion in the park, Merrill (1918)",
+   "la": 45.1805,
+   "lo": -89.6835,
+   "y": "1918",
+   "pl": "Merrill, \"the park\" (not named)",
+   "co": "Lincoln",
+   "stt": "WI",
+   "v": "100 x 100 ft open-air dance pavilion",
+   "c": "newspaper",
+   "s": "never",
+   "p": "town",
+   "st": "For 4 July 1918 Merrill built a 100 x 100 ft open-air dance pavilion in \"the park\", with lumber from A. H. Stange (Merrill Daily Herald, 4 Jun 1918, p. 1). The park is not named; Stange's Park and Riverside Park are the likely candidates, so the pin is at the city. Unconfirmed, one source.",
+   "t": "City park: check rules. A 1910s-20s Merrill Sanborn sheet or the Herald's later stories should name the park.",
+   "src": [
+    [
+     "Merrill Daily Herald, 4 Jun 1918, p. 1 (newspapers.com (PC thread sweep, 2026-10-30))",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": "Town-level: the exact ground is not given in the source; good to about 1-2 km."
+  },
+  {
+   "id": "cd-chicagon-lake-leavens-pavilion",
+   "L": "gather",
+   "n": "C. W. Leavens's dance pavilion, Chicagon Lake (burned 1935)",
+   "la": 46.0604,
+   "lo": -88.5025,
+   "y": "to 1935",
+   "pl": "Chicagon Lake, about 10 miles from Iron River",
+   "co": "Iron",
+   "stt": "MI",
+   "v": "Lake dance pavilion, cabaret, cafe and generating plant ($30,000 loss)",
+   "c": "newspaper",
+   "s": "never",
+   "p": "lake",
+   "st": "C. W. Leavens's lake dance pavilion, cabaret, cafe and power plant on Chicagon Lake, about 10 miles from Iron River, burned on 9 Jun 1935 with a $30,000 loss (UP wire story, Merrill Daily Herald, 10 Jun 1935, p. 8). The pin is on the lake; the shore site is not yet placed. Unconfirmed, one source.",
+   "t": "Find the resort on a 1930s Iron County plat or air photo. Lakeshore is mostly private: ask the owner.",
+   "src": [
+    [
+     "Merrill Daily Herald, 10 Jun 1935, p. 8 (newspapers.com (PC thread sweep, 2026-10-30))",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": "Lake-level only; up to about 2 km."
+  },
+  {
+   "id": "cd-weyerhaeuser-ellison-pavilion-1922",
+   "L": "gather",
+   "n": "Ellison's dance pavilion near Weyerhaeuser (1922)",
+   "la": 45.4236,
+   "lo": -91.4085,
+   "y": "1922",
+   "pl": "\"A short distance out from\" Weyerhaeuser",
+   "co": "Rusk",
+   "stt": "WI",
+   "v": "Rural dance pavilion",
+   "c": "newspaper",
+   "s": "never",
+   "p": "town",
+   "st": "Ellison's dance pavilion stood \"a short distance out from\" Weyerhaeuser in 1922 (Ladysmith News-Budget, 15 Sep 1922, p. 1). The pin is at the village. Unconfirmed, one source.",
+   "t": "Find Ellison on a 1910s-20s Rusk plat near the village, then ask the landowner.",
+   "src": [
+    [
+     "Ladysmith News-Budget, 15 Sep 1922, p. 1 (newspapers.com (PC thread sweep, 2026-10-30))",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": "Town-level: the exact ground is not given in the source; good to about 1-2 km."
+  },
+  {
+   "id": "cd-island-lake-getchel-pavilion-1922",
+   "L": "gather",
+   "n": "Getchel's pavilion at Island Lake (1922)",
+   "la": 45.3195,
+   "lo": -91.384,
+   "y": "1922",
+   "pl": "Island Lake, Rusk County",
+   "co": "Rusk",
+   "stt": "WI",
+   "v": "Lake dance pavilion",
+   "c": "newspaper",
+   "s": "never",
+   "p": "lake",
+   "st": "\"Getchel's pavilion at Island Lake\" was a Rusk County dance spot in 1922 (Ladysmith News-Budget, 15 Sep 1922, p. 1). The pin is on the lake. Unconfirmed, one source.",
+   "t": "Find Getchel on a Rusk plat or the 1938 air photo of the lakeshore. Private lakeshore: ask the owner.",
+   "src": [
+    [
+     "Ladysmith News-Budget, 15 Sep 1922, p. 1 (newspapers.com (PC thread sweep, 2026-10-30))",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": "Lake-level only; up to about 1.5 km."
+  },
+  {
+   "id": "cd-menomonie-trotting-park-1873",
+   "L": "gather",
+   "n": "Trotting park and soldiers' reunion camp ground, south of Menomonie (1873-1880s)",
+   "la": 44.862,
+   "lo": -91.928,
+   "y": "1873-c. 1888",
+   "pl": "South of Menomonie village (120 acres leased 1878)",
+   "co": "Dunn",
+   "stt": "WI",
+   "v": "Mile trotting track and reunion camp ground",
+   "c": "newspaper",
+   "s": "never",
+   "p": "town",
+   "st": "In Sep 1873 Knapp, Stout & Co. were \"fitting up a fine trotting park, with a mile track\" at Menomonie. In Apr 1878 a Trotting Park Association leased 120 acres for ten years on a site \"south of the village near the reunion camp ground\" (Dunn County News, 20 Sep 1873 p. 3; 13 Apr 1878 p. 5). The 1915 plat shows no track south of the city, so it had gone by then. The pin is a guess just south of the 1915 city grid. Unconfirmed, one source. The 1938 air photo (Dunn BRT-3-48) shows no trotting oval south of town; the only oval in it is a quarter-mile athletic track inside the town, too small for a trotting park.",
+   "t": "Look for the oval on the 1888 Dunn plat, an 1880s Menomonie Sanborn sheet, or the 1938 air photo south of town.",
+   "src": [
+    [
+     "Dunn County News, 20 Sep 1873 p. 3 and 13 Apr 1878 p. 5 (newspapers.com (PC thread sweep, 2026-10-30))",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": "Guess south of the village; up to about 2 km."
+  }
+ ],
+ "edit": {
+  "cd-rice-lake-fair-1899": {
+   "st": " In 1919 the fair grounds had a dance pavilion with a 6,000 sq ft floor, called \"the largest in northern Wisconsin\" (Ladysmith News-Budget, 25 Jul 1919, p. 1). It is the same fairground as today's.",
+   "src": [
+    [
+     "Ladysmith News-Budget, 25 Jul 1919, p. 1 (newspapers.com (PC thread sweep, 2026-10-30))",
+     ""
+    ]
+   ]
+  }
+ }
+}
