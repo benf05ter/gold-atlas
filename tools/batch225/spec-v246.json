@@ -1,0 +1,233 @@
+{
+ "new": [
+  {
+   "id": "lf-bob-creek-homestead",
+   "L": "history",
+   "n": "Blanchard homestead and log schoolhouse at the mouth of Bob Creek (1877-1880s)",
+   "la": 45.1328,
+   "lo": -91.2112,
+   "y": "1877-1884",
+   "pl": "West bank of the Chippewa at the mouth of Bob Creek, about 8 miles above Jim Falls",
+   "co": "Chippewa",
+   "stt": "WI",
+   "v": "Coins, buttons, slate pencils and household losses from the 1870s-80s",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Louie Blanchard's father, a Civil War veteran from Drummondville, Quebec, took a homestead here in 1877 and built a 16 by 18 ft log house roofed with hollowed logs. About 1879 the four or five settler families built a little log schoolhouse; the first teacher, Annie Woodrick, was paid $26 a month. Old Lady Rindy lived in a clearing half a mile west, the Pekor family a mile away and the LeMay boys across the river. In spring 1880 the wooden dam at Little Falls washed out and put a foot of water in the cabin, and the 1884 flood, \"the biggest flood that ever come to the Chippewa\", swept away the barn, kitchen and milkhouse. Blanchard (1872-1959) said late in life: \"You can't even see where Bob Crick flows into the Chippewa.\" LiDAR shows flat water at the pin: as Blanchard said, the creek mouth is now under the flowage, and the nearest dry west bank is about 150 m west.",
+   "t": "If the mouth is above water, the homestead and school sites are classic small-finds ground of the 1870s-80s; if it is under the flowage, walk the shore at low water. Ask the owner.",
+   "src": [
+    [
+     "Wyman and Blanchard, The Lumberjack Frontier: The Life of a Logger in the Early Days on the Chippewa (1969), your screenshots",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed where today's mapped Bob Creek meets the Chippewa, on the west bank; the cabin and school sites are not placed yet, so good to about 400 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "lf-devils-nest-jump-river",
+   "L": "camp",
+   "n": "\"Devil's Nest\": the Jump River mouth drive camp",
+   "la": 45.26477,
+   "lo": -91.14618,
+   "y": "1880s-1900s",
+   "pl": "Where the Jump River enters Lake Holcombe (the Little Falls flowage)",
+   "co": "Chippewa",
+   "stt": "WI",
+   "v": "Spikes, peavey points, cans, coins",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Loggers called the Jump River mouth the Devil's Nest: many channels and brush, where logs hung up and took a big crew to clear. Randolph Smith was head man of the drive, and his brother Archie ran the Devil's Nest crew. In an 1891 snowstorm on the Jump the crew was frozen in for three days at the mouth of the Little Jump and walked out on ice piled ten feet high. LiDAR shows flat water at the pin: the old mouth and its channels are under the flowage today, so only the surrounding banks are left to search.",
+   "t": "River-drive camps leave spikes, peavey points, cans and coins on the high banks by the old channels. Flowage shore: check who owns the bank.",
+   "src": [
+    [
+     "Wyman and Blanchard, The Lumberjack Frontier: The Life of a Logger in the Early Days on the Chippewa (1969), your screenshots",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed at the mapped mouth of the Jump River on today's flowage; the old channels are now partly under water, so good to about 500 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "lf-big-falls-flambeau",
+   "L": "camp",
+   "n": "Big Falls of the Flambeau: drive landing and the 1890s drowning",
+   "la": 45.5558,
+   "lo": -90.96042,
+   "y": "1890s",
+   "pl": "Big Falls of the Flambeau, Rusk County",
+   "co": "Rusk",
+   "stt": "WI",
+   "v": "Drive-crew losses: spikes, peavey points, coins",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Jack Whittin was head man of the Flambeau drive crew. In Blanchard's first year on the Flambeau (about 1891-93), two Eau Claire men running the bateau ahead of the wannigan hit a rock in the rapids above the falls: Harrison jumped onto a log and drowned, and Redman swam over the falls and lived. This is not the Big Falls of the Eau Claire River.",
+   "t": "Look on the banks above the falls where crews camped and portaged. Check the dam owner's rules first.",
+   "src": [
+    [
+     "Wyman and Blanchard, The Lumberjack Frontier: The Life of a Logger in the Early Days on the Chippewa (1969), your screenshots",
+     ""
+    ],
+    [
+     "USGS GNIS: Big Falls Dam, Rusk Co.",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Pin is the GNIS Big Falls Dam point",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "lf-long-lake-lady-bernice",
+   "L": "camp",
+   "n": "Long Lake booms and the steamboat Lady Bernice",
+   "la": 45.6905,
+   "lo": -90.4335,
+   "y": "1890s",
+   "pl": "Long Lake, Price County (which Long Lake still to confirm)",
+   "co": "Price",
+   "stt": "WI",
+   "v": "Boom chain, spikes, anchor irons",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Blanchard says loggers landed logs on Long Lake at the head of the Flambeau and towed the booms across it. Later a little side-wheel steamboat, the Lady Bernice, under Capt. Martin Backtrash, hauled the booms across the narrows. A boom raft carried a cedar float, a capstan spool and 400-500 ft of Manila rope.",
+   "t": "Look for boom anchor points, chain and spikes on the shore at the narrows.",
+   "src": [
+    [
+     "Wyman and Blanchard, The Lumberjack Frontier: The Life of a Logger in the Early Days on the Chippewa (1969), your screenshots",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Long Lake by Phillips nearest GNIS Long Lake School; Blanchard does not say which Long Lake, so this needs a check on an old topo",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "lf-sugarbush-flowage",
+   "L": "camp",
+   "n": "Sugar Bush logging dam on the Flambeau",
+   "la": 45.93828,
+   "lo": -90.30461,
+   "y": "1890s",
+   "pl": "Sugar Bush flowage, Price County",
+   "co": "Price",
+   "stt": "WI",
+   "v": "Spikes, chain, cans, coins",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Blanchard rode logs here for days and nights at a time under foreman Gorman, sleeping on logs hidden in the brush or on the floor of the dam tender's shack.",
+   "t": "The dam tender's shack site and the bank camps by the dam are the ground. Check who owns it first.",
+   "src": [
+    [
+     "Wyman and Blanchard, The Lumberjack Frontier: The Life of a Logger in the Early Days on the Chippewa (1969), your screenshots",
+     ""
+    ],
+    [
+     "USGS GNIS: Sugarbush Dam, Price Co.",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Pin is the GNIS Sugarbush Dam point",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "lf-indian-grave-bog",
+   "L": "history",
+   "n": "Indian Grave Bog below Cedar Rapids, South Fork of the Flambeau: LOOK ONLY",
+   "la": 45.9302,
+   "lo": -90.0903,
+   "y": "Before 1894",
+   "pl": "South Fork of the Flambeau below Pike Lake, Price County (approximate)",
+   "co": "Price",
+   "stt": "WI",
+   "v": "None: a burial site, look only",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "A floating bog just below Cedar Rapids, the first rapids below Pike Lake. In spring 1894 Ed LeMay and Louie Blanchard dug at an old chief's grave that lumberjacks had already robbed, and found \"a little brass rim that goes underneath an old muzzleloader ... and a few teeth.\" This pin is here only to warn people off.",
+   "t": "LOOK ONLY. A burial site, protected by Wisconsin law (Wis. Stat. 157.70). Do not dig or detect anywhere near it.",
+   "src": [
+    [
+     "Wyman and Blanchard, The Lumberjack Frontier: The Life of a Logger in the Early Days on the Chippewa (1969), your screenshots",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Approximate: placed on the South Fork about 3 km below Pike Lake; Cedar Rapids is not placed yet",
+    "Unconfirmed, one source"
+   ],
+   "acc": [
+    "stop",
+    "Burial site, protected by law: do not dig or detect"
+   ]
+  }
+ ],
+ "edit": {
+  "gs-jim-falls-houses": {
+   "st": " Later history (Wyman and Blanchard, The Lumberjack Frontier, pp. 4-5, 68-69): a wooden dam crossed the river at the last of the five pitches of the falls. The sawmill there was run by French and Getty, then by Jackson Phillips, and \"a little village had growed up around the mill on the west side of the river and the company run a store.\" Lightning burned the mill in 1875 or 1876, it was never rebuilt, and the people were left stranded. Louie Blanchard was born in the village on 17 August 1872. Its west-bank flats and old roads are the same ground as this pin's 1849 west-bank house.",
+   "src": [
+    [
+     "Wyman and Blanchard, The Lumberjack Frontier: The Life of a Logger in the Early Days on the Chippewa (1969), your screenshots",
+     ""
+    ]
+   ],
+   "t": " The 1860s-70s mill village and company store were on the west bank below the falls."
+  },
+  "t-pan-holcombe": {
+   "st": " History: this was Little Falls. Loggers built a wooden dam here, \"the biggest wooden dam in the world\", which washed out in the spring 1880 flood. Drives on the Chippewa ended here, and logs were sluiced through all summer to the Chippewa Falls mill or down to Beef Slough. In July 1906 a crew brought up by train from Chippewa Falls, some of them drinking, put fourteen men into one bateau to break a center jam; it upset and eleven drowned (Blanchard pp. 13, 55, 63-64).",
+   "src": [
+    [
+     "Wyman and Blanchard, The Lumberjack Frontier: The Life of a Logger in the Early Days on the Chippewa (1969), your screenshots",
+     ""
+    ]
+   ]
+  },
+  "gs-brunet-house": {
+   "st": " Blanchard (pp. 11, 61-62): old Brunet ran a portage around the falls, charging 25 cents a hundredweight for supplies and a dollar a boat, with his oxen pulling them around; Indians built his buildings, and \"that is the way ... Cornell got its start as a town.\" He died around 1876, and Francis Gokee then ran the farm, with \"a nice set of buildings by the river, a nice spring, root cellar, and all\", and kept travelers overnight. Brunet Falls was about 25 ft high, and families speared 50-70 lb sturgeon from a ledge below it.",
+   "src": [
+    [
+     "Wyman and Blanchard, The Lumberjack Frontier: The Life of a Logger in the Early Days on the Chippewa (1969), your screenshots",
+     ""
+    ]
+   ],
+   "t": " The portage trail and the Gokee farm spring are the places to look."
+  },
+  "sf-chippewa-falls-stanley-house-hotel": {
+   "st": " Blanchard (pp. 21-22, 77-78): in spring the lumberjacks blew their winter wages in the Chippewa Falls saloons. Their time checks were cashed at the Chippewa Lumber & Boom Co. office, and the town hospital \"was built by the lumberjacks\" (Father Goldsmith collected money in the camps).",
+   "src": [
+    [
+     "Wyman and Blanchard, The Lumberjack Frontier: The Life of a Logger in the Early Days on the Chippewa (1969), your screenshots",
+     ""
+    ]
+   ]
+  },
+  "d-beef-slough": {
+   "st": " Blanchard (p. 55): \"there was a lot of big bunkhouses there where the crews stayed all summer, sorting out the logs rafted down there from all the different loggers.\"",
+   "src": [
+    [
+     "Wyman and Blanchard, The Lumberjack Frontier: The Life of a Logger in the Early Days on the Chippewa (1969), your screenshots",
+     ""
+    ]
+   ]
+  }
+ }
+}
