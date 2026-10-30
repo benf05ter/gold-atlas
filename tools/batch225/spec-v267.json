@@ -1,0 +1,75 @@
+{
+ "new": [
+  {
+   "id": "cd-road-lake-beach-tomahawk-1936",
+   "L": "beach",
+   "n": "Road Lake swimming spot near Tomahawk (1936)",
+   "la": 45.4382,
+   "lo": -89.7003,
+   "y": "1930s",
+   "pl": "Road Lake, west of Tomahawk",
+   "co": "Lincoln",
+   "stt": "WI",
+   "v": "Coins, rings, 1930s swim-era losses",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "In July 1936 the Tomahawk Leader reported Road Lake as a local swimming spot (Tomahawk Leader, 16 Jul 1936, p. 1). Where on the lake people swam isn't stated. The pin is where County Road S, the old road the lake is likely named for, meets the west shore, which is the likeliest public access.",
+   "t": "Check the 1938 aerial or the topo for a sandy landing near where the road meets the shore, then work the shallows and the bank there. Water hunting needs the shore owner's OK.",
+   "src": [
+    [
+     "Tomahawk Leader, 16 Jul 1936, p. 1 (newspapers.com image 1238759880)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Pin on the west shore where County Road S meets Road Lake; the 1936 item doesn't say where people swam, so the beach could be anywhere on the shore. Good to about 500 m",
+    "Unconfirmed, one source"
+   ]
+  }
+ ],
+ "edit": {
+  "pfaff-olinger-gardens": {
+   "st": " In April 1920 the garden was sold to the National Granite Co. for a monument works. The Eau Claire Leader calls it \"Olinger's garden\" at Forest and Huysen streets, the old beer garden \"where many a pleasant fiesta has been enjoyed\" (Eau Claire Leader, 25 Apr 1920, p. 6). That gives a corner for the pin and a second source, so the card can go above C once the corner is fixed.",
+   "src": [
+    [
+     "Eau Claire Leader, 25 Apr 1920, p. 6 (newspapers.com image 239437443)",
+     ""
+    ]
+   ],
+   "set": {
+    "la": 44.8209,
+    "lo": -91.5054,
+    "pl": "Corner of Forest and Huyssen streets, Eau Claire (block with Walter's City Brewery, 318 Elm St)",
+    "pinconf": "B",
+    "pinev": [
+     "Eau Claire Leader 25 Apr 1920 p. 6 puts \"Olinger's garden\" at Forest and Huysen streets; Pfaff p. 69 puts it on the opposite corner of the Walter's brewery block. Pin on the southeast corner of Forest and Huyssen, in that block; good to about 40 m"
+    ]
+   },
+   "moved": true
+  },
+  "ld-nine-mile-house": {
+   "st": " A 1945 article fills in its history (Chippewa Herald-Telegram, 25 May 1945, p. 1, \"Nine-Mile House Is Being Razed\"). It was a two-story frame hotel and stopping place built in the 1860s by Perry Hopkins, at Eagleton (\"Schnaapsburg\") in the Town of Eagle Point. George Stickney, a logger and partner of L. McPherson, ran it from 1885 to 1905, followed by John Hopkins and Amel Turner. Up to 100 loggers and tote teamsters bunked there, and two big barns stood just north. Berthiaume's tavern, at the wayside just north, was older than the hotel and still standing in 1945. Albert Liehe owned the house with 160 acres when Charles Monpas razed it in 1945. A 1925 item puts it on Highway 11 near a bridge (Herald-Telegram, 18 May 1925, p. 1). The 1913 plat's \"Hotel\" at the Eagleton corner (pin pb13-eagleton-hotel) is very likely this building.",
+   "src": [
+    [
+     "Chippewa Herald-Telegram, 25 May 1945, p. 1 (newspapers.com image 416676127)",
+     ""
+    ],
+    [
+     "Chippewa Herald-Telegram, 18 May 1925, p. 1 (newspapers.com image 417075553)",
+     ""
+    ]
+   ],
+   "set": {
+    "la": 45.06119,
+    "lo": -91.38792,
+    "pinconf": "B",
+    "pinev": [
+     "Two sources: the 1913 plat draws a \"Hotel\" at the Eagleton corner (sec. 19 T30N R8W, pin pb13-eagleton-hotel), and the 1945 Herald-Telegram razing article puts the Nine-Mile House at Eagleton on old Hwy 11. Pin on the plat's hotel; good to about 50 m. The two big barns stood just north, and Berthiaume's tavern at the wayside just north of that"
+    ]
+   },
+   "moved": true
+  }
+ }
+}

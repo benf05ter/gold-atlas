@@ -1,0 +1,41 @@
+{
+ "new": [
+  {
+   "id": "cd-rock-falls-days-grove-1906",
+   "L": "gather",
+   "n": "Day's grove, Rock Falls: creamery picnics (about 1903-1906)",
+   "la": 44.718,
+   "lo": -91.6855,
+   "y": "c.1903-1906",
+   "pl": "Just east of Rock Falls village, N\u00bd SW\u00bc sec. 23 T26N R11W, Town of Rock Creek",
+   "co": "Dunn",
+   "stt": "WI",
+   "v": "Coins, tokens, jewelry, picnic losses",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "In July 1906 the Rock Falls Creamery Co. held its 4th annual picnic in \"Day's grove, Rock Falls\", with hundreds attending, a band and a basket dinner (Dunn County News, 20 Jul 1906, p. 1). The picnics probably began about 1903. Jesse Day took out a federal land patent on the NE\u00bc SW\u00bc and NW\u00bc SW\u00bc of sec. 23 in 1858. That tract adjoins the village on the east, so the pin sits there. By the 1915 plat the quarter belonged to L. C. Spaulding, and no Day is shown in the township. The grove itself isn't mapped.",
+   "t": "Creamery picnics drew whole farm families: look for the shady flat nearest the village and the road, and the 1938 aerial for a surviving woodlot. Private farmland: ask the owner.",
+   "src": [
+    [
+     "Dunn County News, 20 Jul 1906, p. 1 (newspapers.com image 542669259)",
+     ""
+    ],
+    [
+     "BLM GLO patent, Jesse Day, 15 Jan 1858 (WI0790__.204)",
+     "https://glorecords.blm.gov/details/patent/default.aspx?accession=WI0790__.204&docClass=STA"
+    ],
+    [
+     "Standard Atlas of Dunn County (1915), Rock Creek township, research/plat-dunn/scans-1915/50-rock-creek.jpg",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Centre of Jesse Day's 1858 patent tract (N\u00bd SW\u00bc sec 23); grove spot not mapped",
+    "Unconfirmed, one source"
+   ]
+  }
+ ],
+ "edit": {}
+}

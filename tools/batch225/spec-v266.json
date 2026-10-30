@@ -1,0 +1,64 @@
+{
+ "new": [],
+ "edit": {
+  "d-electric-park": {
+   "st": " Newspapers date the change to Electric Park earlier than 1910. In January 1908 the Chippewa Valley Electric Railways, Light & Power Co. and Robert A. Lang announced that the Lake Hallie resort would reopen that summer as \"Electric Park\", at a cost of about $20,000. Plans included a bridge across the lake, dredging the lake, rowboats and gas launches, electric lights and interurban service from both cities (Eau Claire Leader, 4 Jan 1908, p. 8, from the Chippewa Herald). Anson graduates held their picnic there in 1913. In July 1916 the Wisconsin-Minnesota Light & Power Co. opened a swimming beach at the park, with the weeds cleared and an instructor (Chippewa Herald-Telegram, 28 Jul 1916, p. 3). A band played there on July 4th, 1917. Because the park reached the lake, the old beach, the bridge footings and the dredge spoil along the shore are worth checking along with the pavilion grounds.",
+   "src": [
+    [
+     "Eau Claire Leader, 4 Jan 1908, p. 8 (newspapers.com image 239398395)",
+     ""
+    ],
+    [
+     "Chippewa Herald-Telegram, 28 Jul 1916, p. 3 (newspapers.com image 417073470)",
+     ""
+    ],
+    [
+     "July 4th 1917 band concert at Electric Park (newspapers.com image 417012137)",
+     ""
+    ]
+   ]
+  },
+  "d-half-moon-beach": {
+   "st": " In September 1931 the city bought a 275 x 218 ft lot from New Dells Lumber \"between the municipal bathing beach on Half Moon Lake and the railroad tracks and south of Randall street extended\", giving the beach more than 200 ft of shore. The same item mentions the bath house, and says the timbers of \"the old flume extending out into the lake south of the bath house\" were to be removed (Eau Claire Leader, 4 Sep 1931, p. 3). That flume is probably the 1880 log flume from Dells Pond (ld-log-flume), so any footings left in the shallows south of the old bath house mark both the flume line and the 1930s swim area.",
+   "src": [
+    [
+     "Eau Claire Leader, 4 Sep 1931, p. 3 (newspapers.com image 267137978)",
+     ""
+    ]
+   ]
+  },
+  "fb-menomin-fan": {
+   "st": " Newspapers confirm the beach. In May 1917 Menomonie chose the sandy \"fan\" at the foot of Ninth Street on Lake Menomin as its bathing beach, with a drive to the bath house (Dunn County News, 24 May 1917, p. 3). In June 1929 the park commission was repairing the bath house; the same item covers restoring the Wilson Creek dam and Stout summer cottages at Pine Point (Dunn County News, 20 Jun 1929, p. 1). The bath house at the foot of Ninth St is a second spot to check, just east of the 8th St boathouse.",
+   "src": [
+    [
+     "Dunn County News, 24 May 1917, p. 3 (newspapers.com image 542682395)",
+     ""
+    ],
+    [
+     "Dunn County News, 20 Jun 1929, p. 1 (newspapers.com image 542793285)",
+     ""
+    ]
+   ]
+  },
+  "cd-eau-claire-city-dump-1898": {
+   "set": {
+    "la": 44.792,
+    "lo": -91.534,
+    "pl": "East bank of the Chippewa just below the Short Street (Shawtown) bridge, Eau Claire",
+    "st": "In June 1898 the Eau Claire city garbage dump was \"below Shawtown bridge on the East side within 30 feet of water in Chippewa river\" (Eau Claire Leader, 17 Jun 1898, p. 5). The Shawtown bridge was the Short Street bridge: built by the city in 1882 from Shawtown across the Chippewa to the east side, taken out by the September 1884 flood and rebuilt in wood (spans of 175 and 275 ft), which is the bridge standing in 1898. In 1924-25 a 525-ft three-span Parker truss replaced it a few feet to the south (WHS Architecture and History Inventory, HI41817); today's Short Street crossing follows the same line. The pin is on the east bank just downstream (south) of the crossing, between the river and Short Street. Old town dumps are where bottles and household finds collect.",
+    "t": "Work the east bank downstream of the Short Street crossing, above the water line within about 30 ft of the river, starting at the bridge and moving south. Riverbank: check ownership and city rules.",
+    "pinev": [
+     "Shawtown bridge = Short Street bridge (WHS HI41817); pin on the east bank just below today's Short Street crossing, which the 1924 truss and the 1880s wooden bridge followed within a few feet. Good to about 150 m along the bank",
+     "Unconfirmed, one source"
+    ]
+   },
+   "src": [
+    [
+     "Wisconsin Historical Society, Architecture and History Inventory HI41817 (Short Street bridge)",
+     "https://www.wisconsinhistory.org/Records/Property/HI41817"
+    ]
+   ],
+   "moved": true
+  }
+ }
+}
