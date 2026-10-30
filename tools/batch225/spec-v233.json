@@ -1,0 +1,1058 @@
+{
+ "new": [
+  {
+   "id": "ot-stone-school-s12-t103n-r5w",
+   "L": "school",
+   "n": "Stone School site (Brownsville 1956 topo)",
+   "la": 43.73515,
+   "lo": -91.38825,
+   "y": "by 1956",
+   "pl": "sec. 12 T103N R5W, Houston Co.",
+   "co": "Houston",
+   "stt": "MN",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1956 USGS topo map (Brownsville 15-minute sheet, Minnesota) draws Stone School here, marked \"(Abandoned)\" (school symbol, sec. 12 T103N R5W). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Brownsville topographic map (1956)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Brownsville 1956 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-snure-school-s29-t103n-r5w",
+   "L": "school",
+   "n": "Snure School site (Brownsville 1956 topo)",
+   "la": 43.69705,
+   "lo": -91.46174,
+   "y": "by 1956",
+   "pl": "sec. 29 T103N R5W, Houston Co.",
+   "co": "Houston",
+   "stt": "MN",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1956 USGS topo map (Brownsville 15-minute sheet, Minnesota) draws Snure School here (school symbol, sec. 29 T103N R5W). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Brownsville topographic map (1956)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Brownsville 1956 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-sullivan-school-s26-t103n-r5w",
+   "L": "school",
+   "n": "Sullivan School site (Brownsville 1956 topo)",
+   "la": 43.69522,
+   "lo": -91.39771,
+   "y": "by 1956",
+   "pl": "sec. 26 T103N R5W, Houston Co.",
+   "co": "Houston",
+   "stt": "MN",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1956 USGS topo map (Brownsville 15-minute sheet, Minnesota) draws Sullivan School here, marked \"(Abandoned)\" (school symbol, sec. 26 T103N R5W). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Brownsville topographic map (1956)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Brownsville 1956 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-buckley-school-s4-t102n-r5w",
+   "L": "school",
+   "n": "Buckley School site (Brownsville 1956 topo)",
+   "la": 43.66363,
+   "lo": -91.45163,
+   "y": "by 1956",
+   "pl": "sec. 4 T102N R5W, Houston Co.",
+   "co": "Houston",
+   "stt": "MN",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1956 USGS topo map (Brownsville 15-minute sheet, Minnesota) draws Buckley School here, marked \"(Abandoned)\" (school symbol, sec. 4 T102N R5W). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Brownsville topographic map (1956)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Brownsville 1956 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-gallagher-school-s11-t101n-r5w",
+   "L": "school",
+   "n": "Gallagher School site (Brownsville 1956 topo)",
+   "la": 43.57264,
+   "lo": -91.40457,
+   "y": "by 1956",
+   "pl": "sec. 11 T101N R5W, Houston Co.",
+   "co": "Houston",
+   "stt": "MN",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1956 USGS topo map (Brownsville 15-minute sheet, Minnesota) draws Gallagher School here, marked \"(Abandoned)\" (school symbol, sec. 11 T101N R5W). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Brownsville topographic map (1956)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Brownsville 1956 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-watson-school-s24-t101n-r6w",
+   "L": "school",
+   "n": "Watson School site (Brownsville 1956 topo)",
+   "la": 43.53687,
+   "lo": -91.49935,
+   "y": "by 1956",
+   "pl": "sec. 24 T101N R6W, Houston Co.",
+   "co": "Houston",
+   "stt": "MN",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1956 USGS topo map (Brownsville 15-minute sheet, Minnesota) draws Watson School here, marked \"(Abandoned)\" (school symbol, sec. 24 T101N R6W). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Brownsville topographic map (1956)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Brownsville 1956 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-mcnelly-school-s25-t101n-r6w",
+   "L": "school",
+   "n": "McNelly School site (Brownsville 1956 topo)",
+   "la": 43.51578,
+   "lo": -91.49197,
+   "y": "by 1956",
+   "pl": "sec. 25 T101N R6W, Houston Co.",
+   "co": "Houston",
+   "stt": "MN",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1956 USGS topo map (Brownsville 15-minute sheet, Minnesota) draws McNelly School here, marked \"(Abandoned)\" (school symbol, sec. 25 T101N R6W). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Brownsville topographic map (1956)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Brownsville 1956 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-gade-school-s31-t101n-r4w",
+   "L": "school",
+   "n": "Gade School site (Brownsville 1956 topo)",
+   "la": 43.50847,
+   "lo": -91.35369,
+   "y": "by 1956",
+   "pl": "sec. 31 T101N R4W, Houston Co.",
+   "co": "Houston",
+   "stt": "MN",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1956 USGS topo map (Brownsville 15-minute sheet, Minnesota) draws Gade School here, marked \"(Abandoned)\" (school symbol, sec. 31 T101N R4W). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Brownsville topographic map (1956)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Brownsville 1956 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-halloran-school-s14-t105n-r12w",
+   "L": "school",
+   "n": "Halloran School site (Chatfield 1954 topo)",
+   "la": 43.89347,
+   "lo": -92.22326,
+   "y": "by 1954",
+   "pl": "sec. 14 T105N R12W, Olmsted Co.",
+   "co": "Olmsted",
+   "stt": "MN",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1954 USGS topo map (Chatfield 15-minute sheet, Minnesota) draws Halloran School here (school symbol, sec. 14 T105N R12W). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Chatfield topographic map (1954)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Chatfield 1954 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-cravath-school-s14-t105n-r11w",
+   "L": "school",
+   "n": "Cravath School site (Chatfield 1954 topo)",
+   "la": 43.89588,
+   "lo": -92.1133,
+   "y": "by 1954",
+   "pl": "sec. 14 T105N R11W, Olmsted Co.",
+   "co": "Olmsted",
+   "stt": "MN",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1954 USGS topo map (Chatfield 15-minute sheet, Minnesota) draws Cravath School here (school symbol, sec. 14 T105N R11W). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Chatfield topographic map (1954)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Chatfield 1954 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-bear-creek-school-s18-t104n-r11w",
+   "L": "school",
+   "n": "Bear Creek School site (Chatfield 1954 topo)",
+   "la": 43.8124,
+   "lo": -92.18876,
+   "y": "by 1954",
+   "pl": "sec. 18 T104N R11W, Fillmore Co.",
+   "co": "Fillmore",
+   "stt": "MN",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1954 USGS topo map (Chatfield 15-minute sheet, Minnesota) draws Bear Creek School here (school symbol, sec. 18 T104N R11W). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Chatfield topographic map (1954)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Chatfield 1954 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-ward-school-s2-t104n-r11w",
+   "L": "school",
+   "n": "Ward School site (Chatfield 1954 topo)",
+   "la": 43.83715,
+   "lo": -92.12421,
+   "y": "by 1954",
+   "pl": "sec. 2 T104N R11W, Fillmore Co.",
+   "co": "Fillmore",
+   "stt": "MN",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1954 USGS topo map (Chatfield 15-minute sheet, Minnesota) draws Ward School here (school symbol, sec. 2 T104N R11W). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Chatfield topographic map (1954)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Chatfield 1954 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-golds-school-s21-t104n-r11w",
+   "L": "school",
+   "n": "Golds School site (Chatfield 1954 topo)",
+   "la": 43.79891,
+   "lo": -92.15372,
+   "y": "by 1954",
+   "pl": "sec. 21 T104N R11W, Fillmore Co.",
+   "co": "Fillmore",
+   "stt": "MN",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1954 USGS topo map (Chatfield 15-minute sheet, Minnesota) draws Golds School here (school symbol, sec. 21 T104N R11W). No second source found yet; 4 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Chatfield topographic map (1954)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Chatfield 1954 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-bailey-school-s31-t104n-r11w",
+   "L": "school",
+   "n": "Bailey School site (Chatfield 1954 topo)",
+   "la": 43.7713,
+   "lo": -92.20898,
+   "y": "by 1954",
+   "pl": "sec. 31 T104N R11W, Fillmore Co.",
+   "co": "Fillmore",
+   "stt": "MN",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1954 USGS topo map (Chatfield 15-minute sheet, Minnesota) draws Bailey School here (school symbol, sec. 31 T104N R11W). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Chatfield topographic map (1954)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Chatfield 1954 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-louiston-school-s22-t112n-r19w",
+   "L": "school",
+   "n": "Louiston School site (Farmington 1957 topo)",
+   "la": 44.50044,
+   "lo": -93.08023,
+   "y": "by 1957",
+   "pl": "sec. 22 T112N R19W, Dakota Co.",
+   "co": "Dakota",
+   "stt": "MN",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1957 USGS topo map (Farmington 15-minute sheet, Minnesota) draws Louiston School here, marked \"(Abandoned)\" (school symbol, sec. 22 T112N R19W). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Farmington topographic map (1957)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Farmington 1957 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-folkestad-school-s27-t106n-r16w",
+   "L": "school",
+   "n": "Folkestad School site (High Forest 1955 topo)",
+   "la": 43.95662,
+   "lo": -92.73789,
+   "y": "by 1955",
+   "pl": "sec. 27 T106N R16W, Dodge Co.",
+   "co": "Dodge",
+   "stt": "MN",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1955 USGS topo map (High Forest 15-minute sheet, Minnesota) draws Folkestad School here (school symbol, sec. 27 T106N R16W). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS High Forest topographic map (1955)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the High Forest 1955 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-gildrhus-school-s9-t105n-r16w",
+   "L": "school",
+   "n": "Gildrhus School site (High Forest 1955 topo)",
+   "la": 43.91274,
+   "lo": -92.73932,
+   "y": "by 1955",
+   "pl": "sec. 9 T105N R16W, Dodge Co.",
+   "co": "Dodge",
+   "stt": "MN",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1955 USGS topo map (High Forest 15-minute sheet, Minnesota) draws Gildrhus School here (school symbol, sec. 9 T105N R16W). No second source found yet; 4 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS High Forest topographic map (1955)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the High Forest 1955 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-flatta-school-s26-t106n-r16w",
+   "L": "school",
+   "n": "Flatta School site (High Forest 1955 topo)",
+   "la": 43.9504,
+   "lo": -92.69881,
+   "y": "by 1955",
+   "pl": "sec. 26 T106N R16W, Dodge Co.",
+   "co": "Dodge",
+   "stt": "MN",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1955 USGS topo map (High Forest 15-minute sheet, Minnesota) draws Flatta School here (school symbol, sec. 26 T106N R16W). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS High Forest topographic map (1955)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the High Forest 1955 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-sylverness-school-s12-t105n-r16w",
+   "L": "school",
+   "n": "Sylverness School site (High Forest 1955 topo)",
+   "la": 43.91287,
+   "lo": -92.69793,
+   "y": "by 1955",
+   "pl": "sec. 12 T105N R16W, Dodge Co.",
+   "co": "Dodge",
+   "stt": "MN",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1955 USGS topo map (High Forest 15-minute sheet, Minnesota) draws Sylverness School here (school symbol, sec. 12 T105N R16W). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS High Forest topographic map (1955)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the High Forest 1955 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-starkson-school-s26-t106n-r15w",
+   "L": "school",
+   "n": "Starkson School site (High Forest 1955 topo)",
+   "la": 43.95282,
+   "lo": -92.57857,
+   "y": "by 1955",
+   "pl": "sec. 26 T106N R15W, Olmsted Co.",
+   "co": "Olmsted",
+   "stt": "MN",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1955 USGS topo map (High Forest 15-minute sheet, Minnesota) draws Starkson School here (school symbol, sec. 26 T106N R15W). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS High Forest topographic map (1955)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the High Forest 1955 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-valley-school-s30-t106n-r14w",
+   "L": "school",
+   "n": "Valley School site (High Forest 1955 topo)",
+   "la": 43.96113,
+   "lo": -92.55737,
+   "y": "by 1955",
+   "pl": "sec. 30 T106N R14W, Olmsted Co.",
+   "co": "Olmsted",
+   "stt": "MN",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1955 USGS topo map (High Forest 15-minute sheet, Minnesota) draws Valley School here (school symbol, sec. 30 T106N R14W). No second source found yet; 4 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS High Forest topographic map (1955)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the High Forest 1955 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-dee-school-s29-t106n-r14w",
+   "L": "school",
+   "n": "Dee School site (High Forest 1955 topo)",
+   "la": 43.95724,
+   "lo": -92.51894,
+   "y": "by 1955",
+   "pl": "sec. 29 T106N R14W, Olmsted Co.",
+   "co": "Olmsted",
+   "stt": "MN",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1955 USGS topo map (High Forest 15-minute sheet, Minnesota) draws Dee School here (school symbol, sec. 29 T106N R14W). No second source found yet; 3 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS High Forest topographic map (1955)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the High Forest 1955 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-spencer-school-s8-t105n-r14w",
+   "L": "school",
+   "n": "Spencer School site (High Forest 1955 topo)",
+   "la": 43.92018,
+   "lo": -92.52786,
+   "y": "by 1955",
+   "pl": "sec. 8 T105N R14W, Olmsted Co.",
+   "co": "Olmsted",
+   "stt": "MN",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1955 USGS topo map (High Forest 15-minute sheet, Minnesota) draws Spencer School here (school symbol, sec. 8 T105N R14W). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS High Forest topographic map (1955)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the High Forest 1955 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-bergan-school-s11-t105n-r15w",
+   "L": "school",
+   "n": "Bergan School site (High Forest 1955 topo)",
+   "la": 43.90673,
+   "lo": -92.58857,
+   "y": "by 1955",
+   "pl": "sec. 11 T105N R15W, Olmsted Co.",
+   "co": "Olmsted",
+   "stt": "MN",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1955 USGS topo map (High Forest 15-minute sheet, Minnesota) draws Bergan School here (school symbol, sec. 11 T105N R15W). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS High Forest topographic map (1955)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the High Forest 1955 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-estby-school-s2-t104n-r16w",
+   "L": "school",
+   "n": "Estby School site (High Forest 1955 topo)",
+   "la": 43.83424,
+   "lo": -92.72003,
+   "y": "by 1955",
+   "pl": "sec. 2 T104N R16W, Mower Co.",
+   "co": "Mower",
+   "stt": "MN",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1955 USGS topo map (High Forest 15-minute sheet, Minnesota) draws Estby School here (school symbol, sec. 2 T104N R16W). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS High Forest topographic map (1955)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the High Forest 1955 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-lower-looney-valley-school-s23-t104n-r6w",
+   "L": "school",
+   "n": "Lower Looney Valley School site (Houston 1958 topo)",
+   "la": 43.78961,
+   "lo": -91.52693,
+   "y": "by 1958",
+   "pl": "sec. 23 T104N R6W, Houston Co.",
+   "co": "Houston",
+   "stt": "MN",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1958 USGS topo map (Houston 15-minute sheet, Minnesota) draws Lower Looney Valley School here (school symbol, sec. 23 T104N R6W). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Houston topographic map (1958)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Houston 1958 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-mill-school-no-4-s3-t104n-r5w",
+   "L": "school",
+   "n": "Mill School No. 4 site (La Crescent 1956 topo)",
+   "la": 43.84032,
+   "lo": -91.42671,
+   "y": "by 1956",
+   "pl": "sec. 3 T104N R5W, Houston Co.",
+   "co": "Houston",
+   "stt": "MN",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1956 USGS topo map (La Crescent 15-minute sheet, Minnesota) draws Mill School No. 4 here (school symbol, sec. 3 T104N R5W). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS La Crescent topographic map (1956)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the La Crescent 1956 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-mound-prairie-school-s4-t103n-r5w",
+   "L": "school",
+   "n": "Mound Prairie School site (La Crescent 1956 topo)",
+   "la": 43.75387,
+   "lo": -91.43332,
+   "y": "by 1956",
+   "pl": "sec. 4 T103N R5W, Houston Co.",
+   "co": "Houston",
+   "stt": "MN",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1956 USGS topo map (La Crescent 15-minute sheet, Minnesota) draws Mound Prairie School here (school symbol, sec. 4 T103N R5W). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS La Crescent topographic map (1956)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the La Crescent 1956 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-mccarthy-school-s22-t107n-r10w",
+   "L": "school",
+   "n": "McCarthy School site (Plainview 1934 topo)",
+   "la": 44.05682,
+   "lo": -92.019,
+   "y": "by 1934",
+   "pl": "sec. 22 T107N R10W, Winona Co.",
+   "co": "Winona",
+   "stt": "MN",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1934 USGS topo map (Plainview 15-minute sheet, Minnesota) draws McCarthy School here (school symbol, sec. 22 T107N R10W). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Plainview topographic map (1934)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Plainview 1934 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-marum-school-s23-t106n-r13w",
+   "L": "school",
+   "n": "Marum School site (Stewartville 1955 topo)",
+   "la": 43.96735,
+   "lo": -92.33998,
+   "y": "by 1955",
+   "pl": "sec. 23 T106N R13W, Olmsted Co.",
+   "co": "Olmsted",
+   "stt": "MN",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1955 USGS topo map (Stewartville 15-minute sheet, Minnesota) draws Marum School here (school symbol, sec. 23 T106N R13W). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Stewartville topographic map (1955)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Stewartville 1955 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-coccoran-school-s25-t106n-r14w",
+   "L": "school",
+   "n": "Coccoran School site (Stewartville 1955 topo)",
+   "la": 43.94986,
+   "lo": -92.45774,
+   "y": "by 1955",
+   "pl": "sec. 25 T106N R14W, Olmsted Co.",
+   "co": "Olmsted",
+   "stt": "MN",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1955 USGS topo map (Stewartville 15-minute sheet, Minnesota) draws Coccoran School here (school symbol, sec. 25 T106N R14W). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Stewartville topographic map (1955)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Stewartville 1955 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-benard-school-s25-t105n-r13w",
+   "L": "school",
+   "n": "Benard School site (Stewartville 1955 topo)",
+   "la": 43.86305,
+   "lo": -92.32881,
+   "y": "by 1955",
+   "pl": "sec. 25 T105N R13W, Olmsted Co.",
+   "co": "Olmsted",
+   "stt": "MN",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1955 USGS topo map (Stewartville 15-minute sheet, Minnesota) draws Benard School here (school symbol, sec. 25 T105N R13W). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Stewartville topographic map (1955)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Stewartville 1955 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-sumner-center-school-s15-t104n-r13w",
+   "L": "school",
+   "n": "Sumner Center School site (Stewartville 1955 topo)",
+   "la": 43.80524,
+   "lo": -92.38869,
+   "y": "by 1955",
+   "pl": "sec. 15 T104N R13W, Fillmore Co.",
+   "co": "Fillmore",
+   "stt": "MN",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1955 USGS topo map (Stewartville 15-minute sheet, Minnesota) draws Sumner Center School here (school symbol, sec. 15 T104N R13W). No second source found yet; 3 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Stewartville topographic map (1955)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Stewartville 1955 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-union-school-s14-t104n-r13w",
+   "L": "school",
+   "n": "Union School site (Stewartville 1955 topo)",
+   "la": 43.809,
+   "lo": -92.34954,
+   "y": "by 1955",
+   "pl": "sec. 14 T104N R13W, Fillmore Co.",
+   "co": "Fillmore",
+   "stt": "MN",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1955 USGS topo map (Stewartville 15-minute sheet, Minnesota) draws Union School here (school symbol, sec. 14 T104N R13W). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Stewartville topographic map (1955)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Stewartville 1955 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  }
+ ],
+ "edit": {
+  "cem-2050395": {
+   "set": {},
+   "st": " The Brownsville 1956 USGS topo: the topo draws Union Ridge Church beside this cemetery (9 m), at 43.70281, -91.46242.",
+   "src": [
+    [
+     "USGS Brownsville topographic map (1956)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ]
+  },
+  "cem-2050394": {
+   "set": {},
+   "st": " The Brownsville 1956 USGS topo: the topo draws St. Peters Church beside this cemetery (75 m), at 43.68178, -91.47156.",
+   "src": [
+    [
+     "USGS Brownsville topographic map (1956)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ]
+  },
+  "cem-644459": {
+   "set": {},
+   "st": " The Farmington 1957 USGS topo: the topo draws Eureka Church beside this cemetery (112 m), at 44.62374, -93.22927.",
+   "src": [
+    [
+     "USGS Farmington topographic map (1957)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ]
+  },
+  "cem-643356": {
+   "set": {},
+   "st": " The Farmington 1957 USGS topo: the topo draws Emmanuel Church beside this cemetery (24 m), at 44.62661, -93.05577.",
+   "src": [
+    [
+     "USGS Farmington topographic map (1957)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ]
+  },
+  "cem-2064093": {
+   "set": {},
+   "st": " The High Forest 1955 USGS topo: the topo draws South Zumbro School beside this cemetery (22 m), at 43.95174, -92.67774.",
+   "src": [
+    [
+     "USGS High Forest topographic map (1955)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ]
+  },
+  "cem-2064094": {
+   "set": {},
+   "st": " The High Forest 1955 USGS topo: the topo draws East St. Olaf Church beside this cemetery (123 m), at 43.93213, -92.63774.",
+   "src": [
+    [
+     "USGS High Forest topographic map (1955)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ]
+  },
+  "cem-2050333": {
+   "set": {},
+   "st": " The High Forest 1955 USGS topo: the topo draws Evanger Church beside this cemetery (89 m), at 43.84201, -92.72921.",
+   "src": [
+    [
+     "USGS High Forest topographic map (1955)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ]
+  },
+  "pwi67-school-wiscoy-township-sec-26-35": {
+   "set": {},
+   "st": " The Houston 1958 USGS topo: the topo names this school Corey Valley School and draws it 313 m away, at 43.86183, -91.64335.",
+   "src": [
+    [
+     "USGS Houston topographic map (1958)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ]
+  },
+  "pwi67-school-new-hartford-township-sec-6": {
+   "set": {},
+   "st": " The La Crescent 1956 USGS topo: the topo names this school Whitlock School and draws it 239 m away, at 43.92586, -91.47021.",
+   "src": [
+    [
+     "USGS La Crescent topographic map (1956)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ]
+  },
+  "cem-2050398": {
+   "set": {},
+   "st": " The La Crescent 1956 USGS topo: the topo draws South Ridge Church beside this cemetery (35 m), at 43.82167, -91.40321.",
+   "src": [
+    [
+     "USGS La Crescent topographic map (1956)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ]
+  }
+ }
+}
