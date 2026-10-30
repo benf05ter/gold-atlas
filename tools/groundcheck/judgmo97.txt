@@ -1,0 +1,242 @@
+mo000|0|N|the St. Marys buildings start about 200 m east-southeast; L hillside with a gully north of the pin
+mo000|1|S 100 NE|M 70 72|a School label beside the symbol
+mo000|2|B 75 SE|buildings along the road around the pin; a Ridgeville label north
+mo000|3|B 40 S|buildings and a church cross just south by the road; a St Johns label about 250 m south
+mo000|4|B 100 S|a Ridgeville School label at the pin; buildings and a church cross about 100 m south by the road
+mo000|5|K 0|St Johns Cem label beside the outline
+mo000|6|N|a road bend; the St Johns cemetery about 200 m south
+mo000|7|B 55 W
+mo000|8|U
+mo000|9|B 120 NE|a Spring Valley School label about 200 m north
+mo000|10|N|a road along the pin
+mo000|11|V|Clifton|houses along the road west of the pin
+mo001|0|B 95 W|the Clifton buildings along the road
+mo001|1|N|Chimney Rocks label at the pin on a steep bluff; L rocky knobs at the pin
+mo001|2|N|a valley head; L a gully at the pin
+mo001|3|N|a creek with woods; a cemetery outline about 230 m north by an Indian label
+mo001|4|F|woods along the creek; a cemetery outline about 210 m south-east
+mo001|5|B 80 S|a Farmers Valley label south of the pin
+mo001|6|B 45 E|buildings at the road crossing
+mo001|7|N|no cemetery drawn; a road about 30 m north
+mo001|8|N|a hilltop
+mo001|9|B 60 E|a Water Mill label south of the pin
+mo001|10|S|Paradise School label at the pin, on a hillside
+mo001|11|B 70 NW|the St. Marys buildings and church around the road corner
+mo002|0|B 20|the St. Marys buildings crowd around the pin
+mo002|1|N|a St Johns School label about 200 m south
+mo002|2|N|a road about 60 m north; a Ridgeville School label about 230 m north
+mo002|3|C 125 ESE|M 110 -64|a St Johns label beside the church and its buildings
+mo002|4|B 95 SE|at a road junction
+mo002|5|B 80 E|a School label at the pin
+mo002|6|B 120 SSE
+mo002|7|N|the 1949 sheet draws the tunnel mouth about 70 m north-north-west, with the line running on through the hill to the east; L the railroad cut ends just north of the pin
+mo002|8|N|the tunnel mouth about 100 m north-east and buildings about 160 m west; L the railroad cut just north of the pin
+mo002|9|N|the highway about 100 m north and a School label about 220 m north-north-west
+mo002|10|N|open ground about 80 m west of the railroad; L today's buildings start about 250 m north
+mo002|11|N|an unlabeled dashed outline around the pin at the north edge of Sparta
+mo003|0|V|Shennington|buildings and church crosses along the road north of the pin
+mo003|1|B 55 ESE|at a road crossing
+mo003|2|S 80 E|M 80 -10|Cold Spring School label beside the symbol
+mo003|3|S 110 NNE|M 56 96|Hill School label beside the symbol
+mo003|4|N|a steep ravine; L a road cut along the ravine at the pin
+mo003|5|N|open ground
+mo003|6|K 0|Cem label inside the outline
+mo003|7|N|a road about 10 m west
+mo003|8|F|woods
+mo003|9|N|a creek beside the railroad crossing
+mo003|10|S 220 W|M -210 -66|La Crosse Valley School label beside the symbol
+mo003|11|V|Portland|buildings along the roads west of the pin
+mo004|0|V|Portland|houses along the roads around the pin
+mo004|1|V|Portland|houses along the roads west and south-west of the pin
+mo004|2|B 70 W|the Portland buildings west of the pin
+mo004|3|S|Central Point School label about 100 m south-west of the pin
+mo004|4|S 40 S|Oak School label beside the symbol
+mo004|5|B 130 ESE|a cemetery outline about 150 m north
+mo004|6|S 55 NW|M -40 40|Randall School label beside the symbol
+mo004|7|F|marsh along the creek
+mo004|8|K 30 E|Cem label beside the outline
+mo004|9|U
+mo004|10|U
+mo004|11|S 75 NW|M -50 54|School label beside the symbol
+mo005|0|S|a School label just north of the pin
+mo005|1|K 0|Mt V Cem label beside the outline
+mo005|2|B 60 W|a cluster of farm buildings
+mo005|3|N|the railroad about 90 m south; no station drawn; L the railroad cut south of the pin
+mo005|4|N|the railroad about 80 m west, drawn dashed where it runs through the hill; L the grade curves past the pin to the south-west
+mo005|5|C 65 N|a St Johns Church label, with a cemetery outline at the pin; the USGS place-name file puts the church about 90 m east instead, so the pin was not moved
+mo005|6|B 135 WSW|an Elm Grove label south-west
+mo005|7|K 0|a Wood label beside the outline
+mo005|8|S 105 WSW|M -90 -50|Greenfield label beside the symbol; the La Grange cemetery outline just east
+mo005|9|K 0|La Grange Cem label beside the outline
+mo005|10|N|a creek about 20 m north
+mo005|11|N|beside a road and the railroad
+mo006|0|S 100 WSW|M -90 -38|Hohn School label below the symbol
+mo006|1|C 170 NW|M -110 132|Dorset Ridge Church label beside the cross
+mo006|2|N|no cemetery outline drawn; the Dorset Ridge church cross about 170 m north-west
+mo006|3|S|Bohn School label at the pin; the USGS place-name file puts it about 200 m west
+mo006|4|N|a church cross about 250 m west-north-west and marsh to the south-west
+mo006|5|U
+mo006|6|N|a Summit label at the pin; buildings about 150 m south-southwest
+mo006|7|N|beside the railroad and a dashed old road
+mo006|8|N|between the road and the Milwaukee railroad; no cemetery drawn; buildings about 190 m south
+mo006|9|N|a rocky hilltop; L rock knobs at the pin
+mo006|10|S 55 WSW|M -50 -26|Perry Valley School label below the symbol
+mo006|11|B 40 W|at the road and railroad crossing; a West Beaver School label east of the pin
+mo007|0|B 135 SE|a School label about 150 m south-west
+mo007|1|N|the railroad about 60 m north-east; no station drawn
+mo007|2|S 0|School label beside the symbol
+mo007|3|V|Portland|houses along the roads around the pin
+mo007|4|N|on a ridge; L a farm lane at the pin
+mo007|5|N|a road about 10 m south
+mo007|6|K 0|a cemetery outline at the pin
+mo007|7|N|a creek about 30 m south; a School label about 260 m north
+mo007|8|N|open ground
+mo007|9|N|a hillside
+mo007|10|S 95 NE|South Ridge School label beside the symbol; the USGS place-name file puts it about 80 m south-east instead, so the pin was not moved
+mo007|11|C 60 W|M -58 -16|a church cross beside the School label
+mo008|0|N|a road junction about 110 m west
+mo008|1|B 105 SW|Thompson School label at the pin
+mo008|2|B 95 W|a Wells Town Hall label at the pin
+mo008|3|B 120 NW|a Little Creek School label west of the pin
+mo008|4|B 45 SW|a Woodside School label east of the pin
+mo008|5|S 120 S|a Valley School label beside the symbol
+mo008|6|S 50 W|Tarr Valley School label beside the symbol
+mo008|7|B 70 N
+mo008|8|B 80 WSW|a Woodside label south
+mo008|9|N|a steep valley side
+mo008|10|N|a steep valley side
+mo008|11|B 90 NW
+mo009|0|B 100 W|a dashed lane at the pin, with a building at each end
+mo009|1|B 85 SE
+mo009|2|N|between the highway and the railroad
+mo009|3|S 100 W|M -100 0|Enterprise School label below the symbol
+mo009|4|S|Bear Creek School label at the pin
+mo009|5|C 45 NE|a Welch Church label beside the cross; no cemetery outline drawn
+mo009|6|S 85 NW|Mound Prairie School label beside the symbol; the USGS place-name file puts it about 20 m south-east instead, so the pin was not moved
+mo009|7|N|a St Peter cemetery outline about 170 m north-west
+mo009|8|U
+mo009|9|B 70 NW|a School label about 150 m south-west
+mo009|10|N|on the hill the railroad tunnels through; L a ravine at the pin
+mo009|11|S 50 W|Tug Hollow School label above the symbol
+mo010|0|N|a creek and woods; a Lemonweir label south
+mo010|1|B 80 E|the Greenfield cemetery outline about 70 m west-north-west
+mo010|2|K 30 S|Greenfield Cem label above the outline
+mo010|3|K 45 SW|St Marys Cem label beside the outline
+mo010|4|N|the railroad about 80 m east, with a few buildings beyond
+mo010|5|B 60 NW|a Dorset Valley label at the pin
+mo010|6|N|a hilltop; no cemetery drawn
+mo010|7|S 40 N|a School label beside the symbol
+mo010|8|S 45 N|Benjaminville label beside the symbol
+mo010|9|B 120 W|beside the road and railroad
+mo010|10|N|on the railroad line; L the railroad cut ends at the pin, where the line enters the tunnel
+mo010|11|K 105 S|a cemetery outline south of the pin, with buildings beyond
+mo011|0|S 90 W|Pleasant Valley School label beside the symbol; the USGS place-name file puts it at the pin, so the pin was not moved
+mo011|1|S|Leon Valley School label at the pin; the USGS place-name file puts it about 340 m west
+mo011|2|S 170 E|M 170 -18|Random School label above the symbol
+mo011|3|B 80 W|buildings by the road junction
+mo011|4|N|a hillside
+mo011|5|U
+mo011|6|N|a Mill label about 150 m south
+mo011|7|K 20 N|a small outline at the pin
+mo011|8|N|a cemetery outline about 130 m north-west and a School label beyond it
+mo011|9|K 0|a cemetery outline at the pin, below the Saints Peter and Paul School label
+mo011|10|S 100 W|Home School label beside the symbol
+mo011|11|K 0|a cemetery outline at the pin
+mo012|0|S|Council Creek School label just east of the pin
+mo012|1|B 40 E|the school campus buildings all around the pin
+mo012|2|U
+mo012|3|B 50 W|North Tomah School label beside the buildings
+mo012|4|F|woods along the creek
+mo012|5|N|a road about 40 m west
+mo012|6|K 0|a cemetery outline at the pin, below the Saints Peter and Paul School label
+mo012|7|B 30|a cluster of farm buildings at the pin
+mo012|8|N|a valley floor
+mo012|9|S 95 N|M -10 94|Lower Farmers Valley School label below the symbol
+mo012|10|F|woods edge
+mo012|11|U
+mo013|0|U
+mo013|1|U
+mo013|2|U
+mo013|3|F|woods and marsh by the creek
+mo013|4|C 70 SE|M 44 -54|the cross beside the Ch label
+mo013|5|K 75 E|Cem label beside the outline
+mo013|6|S 60 NNE|M 30 50|School label beside the symbol
+mo013|7|S 70 N|M 20 70|a School label beside the symbol
+mo013|8|N|a creek and road about 30 m north
+mo013|9|S 95 NNW|M -40 84|Ridge School label below the symbol
+mo013|10|B 80 W
+mo013|11|K|Cem label just south of the pin
+mo014|0|B 115 S|the Kirby buildings along the road south
+mo014|1|N|the Kirby buildings about 180 m south-west
+mo014|2|N|a dashed old road about 100 m west
+mo014|3|S 70 S|M -30 -64|Grand View School label beside the symbol
+mo014|4|S 50 W|Hopeville School label beside the symbol
+mo014|5|B 50 W|buildings along the road
+mo014|6|K 40 W|a cemetery outline at the edge of Tomah
+mo014|7|K 65 S|a Fish Creek Church label beside the outline
+mo014|8|K 150 WSW|a Fish Creek Church label beside the outline
+mo014|9|N|a steep hillside
+mo014|10|B 95 N|M 0 94|a building where the USGS place-name file puts the church
+mo014|11|S 105 N|M 0 105|a School label above the symbol
+mo015|0|B 120 ENE|the railroad about 60 m north
+mo015|1|N|at the highway; buildings about 150 m away to the west and south
+mo015|2|N|buildings about 160 m east
+mo015|3|C 45 N|a church cross by the road bend; no cemetery outline drawn
+mo015|4|K 45 N|Farmers Cem label beside the outline
+mo015|5|N|a rocky hilltop; L rock outcrops
+mo015|6|N|a road bend on a hillside
+mo015|7|B 20
+mo015|8|N|a Miller label at the pin, on a hillside
+mo015|9|N|a Heine Spring label at the pin
+mo015|10|B 60 NW
+mo015|11|B 80 E|M 80 -16|a building where the USGS place-name file puts the church
+mo016|0|B 110 E|a church label about 120 m south
+mo016|1|N|a School label about 150 m south
+mo016|2|S 65 W|M -60 -28|a Sunny School label below the symbol
+mo016|3|N|on the railroad; no depot drawn
+mo016|4|B 40 E|a Stowell label north of the pin
+mo016|5|N|a steep hillside
+mo016|6|N|a road about 30 m south; a church label about 180 m south-west
+mo016|7|S 45 W|Oak Grove School label beside the symbol
+mo016|8|S 200 W|M -200 -10|Tunnel School label beside the symbol
+mo016|9|B 90 NNE
+mo016|10|N|between patches of woods
+mo016|11|K|Cem label about 100 m south-west
+mo017|0|S 55 E|M 50 22|Hickory School label beside the symbol
+mo017|1|B 85 ENE|a Rock School label beside it
+mo017|2|C 205 NW|M -170 112|the church cross by the road junction
+mo017|3|C 50 N|a church cross by the road junction
+mo017|4|S 35 W|Eckleberg School label beside the symbol
+mo017|5|B 85 N
+mo017|6|N|between patches of woods, with a dashed old road about 120 m north
+mo017|7|S 30 N|Hillcrest School label beside the symbol
+mo017|8|B 80 W|no cemetery outline drawn
+mo017|9|B 140 NW|the edge of Tomah
+mo017|10|S 70 NNW|Progressive School label beside the symbol; the USGS place-name file puts it about 130 m north-east instead, so the pin was not moved
+mo017|11|N|buildings about 150 m south-east by the highway
+mo018|0|K 0|Angelo Cem label beside the outline
+mo018|1|S 45 W|Slabtown School label beside the symbol
+mo018|2|N|on the creek where the road crosses; no pond drawn
+mo018|3|B 90 NW|no cemetery outline drawn
+mo018|4|S 65 NNW|Gates School label beside the symbol
+mo018|5|B 80 W|by the road and the railroad
+mo018|6|B 120 NE|a church cross about 170 m north by the road corner
+mo018|7|B 120 NE|no cemetery outline drawn; a church cross about 170 m north
+mo018|8|N|a ridge
+mo018|9|B 65 NE|a Big Creek Church label and a cemetery outline about 180 m west-southwest
+mo018|10|K 130 W|a Big Creek Church label beside the outline
+mo018|11|N|a creek at the pin
+mo019|0|S|Anderson School label at the pin; the USGS place-name file puts it about 290 m west
+mo019|1|U
+mo019|2|S 170 NW|M -120 122|Clements School label beside the symbol
+mo019|3|N|in Angelo Pond
+mo019|4|B 115 S|no race track drawn
+mo019|5|V|Valley Junction|buildings and the railroad junction west and south-west of the pin
+mo019|6|B 20|a village of buildings around the pin
+mo019|7|B 110 S|a School label about 180 m north-east
+mo019|8|K 0|Oak Grove Cem label beside the outline
+mo019|9|K 0|Oak Grove Cem label beside the outline
+mo019|10|S 45 N|a School label beside the symbol
+mo019|11|N|a steep valley head; L a gully at the pin
+mo020|0|F|woods with a creek about 70 m south-west
+mo020|1|U

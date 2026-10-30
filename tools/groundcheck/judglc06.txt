@@ -1,0 +1,61 @@
+lc000|0|N|in a wooded ravine
+lc000|1|B 50 S|by the road
+lc000|2|B 30 SE|village buildings and a church cross beside the pin
+lc000|3|B 20 E|in the village, buildings all around
+lc000|4|N|by the road; the village and a church cross about 300 m south-west
+lc000|5|S 55 SW|School label beside the symbol; the USGS place-name file puts it about 60 m north-east instead, so the pin was not moved
+lc000|6|C 180 N|M 20 180|a church cross on the road
+lc000|7|N|open ground beside the creek
+lc000|8|K|a small square at the pin, likely the cemetery
+lc000|9|N|by the creek; buildings of Burr Oak about 180 m east
+lc000|10|N|open ground beside the Burr Oak label
+lc000|11|N|on a hillside under the Stevenstown label
+lc001|0|S 140 E|M 136 36|School label beside the symbol
+lc001|1|S 210 W|M -200 60|School label beside the symbol
+lc001|2|N|on the ridge road; buildings about 260 m west, where the USGS place-name file puts the school
+lc001|3|S 210 W|M -210 36|School label beside the symbol
+lc001|4|N|at a road junction; no school drawn
+lc001|5|N|beside the creek under the Barre Mills label
+lc001|6|S 210 ENE|M 190 84|School label beside the symbol
+lc001|7|N|a cemetery outline about 90 m north-east
+lc001|8|S 260 E|M 260 -10|School label beside the symbol
+lc001|9|N|open ground
+lc001|10|N|open ground by the road
+lc001|11|S 195 WNW|M -160 108|School label beside the symbol
+lc002|0|K|cemetery outline at the pin; L houses all around now
+lc002|1|B 140 N|by the creek
+lc002|2|N|by the creek; buildings and a church cross about 240 m north
+lc002|3|K|cemetery crosses at the pin
+lc002|4|N|open ground
+lc002|5|S|School label at the pin
+lc002|6|N|at a road end by the river; houses along the shore now
+lc002|7|C 70 NW|M -40 60|a church cross by the road
+lc002|8|N|open ground; no buildings drawn
+lc002|9|K 65 ENE|cemetery outline beside the road; the USGS place-name file puts it at the pin, so the pin was not moved
+lc002|10|B 60 SE|at a road junction
+lc002|11|N|by the creek near a road junction
+lc003|0|K 80 S|cemetery outline by the road; the USGS place-name file puts it at the pin, so the pin was not moved
+lc003|1|C 145 NW|M -120 80|Burns Ch label beside the church cross
+lc003|2|S 170 SSE|M 80 -148|School label beside the symbol
+lc003|3|S 250 SE|M 164 -188|School label beside the symbol
+lc003|4|S 250 NW|M -164 186|School label beside the symbol
+lc003|5|B 40 E|beside the railroad in town; houses now
+lc003|6|B 40 S|in town, under a highway shield; buildings all around now
+lc003|7|N|open ground by the road; houses now
+lc003|8|N|wooded hillside; L cut banks ring the pin
+lc003|9|N|marsh edge; buildings about 210 m east
+lc003|10|S 270 W|M -264 54|School label beside the symbol
+lc003|11|B 30 E|at a road and creek crossing
+lc004|0|K|CEM label at the pin; L houses all around now
+lc004|1|N|edge of town; a cemetery outline about 60 m north-west; L houses all over it now
+lc004|2|K 95 NNE|cemetery outline by the road; the USGS place-name file puts it at the pin, so the pin was not moved
+lc004|3|N|by the creek at the edge of town
+lc004|4|N|open ground; L houses now
+lc004|5|N|on a hillside
+lc004|6|B 60 E|in town, under a highway shield; buildings all around now
+lc004|7|B 100 NE|beside the highway
+lc004|8|S 230 W|M -230 0|School label beside the symbol
+lc004|9|K|cemetery symbol at the pin
+lc004|10|S 205 S|School label beside the symbol; the USGS place-name file puts it about 70 m south-west instead, so the pin was not moved
+lc004|11|N|open ground at a road
+lc005|0|N|M 0 -190|in a river slough; the railroad, where the station stood, runs about 190 m south

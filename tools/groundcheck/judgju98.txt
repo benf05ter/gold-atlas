@@ -1,0 +1,198 @@
+ju000|0|N|a road bend about 40 m north; a wooded ravine just east
+ju000|1|N|at a road crossing; no cemetery drawn
+ju000|2|N|a School label about 150 m north
+ju000|3|N|open ground beside woods
+ju000|4|N|a road bend; L the road cut through the ridge
+ju000|5|N|by the road near the river
+ju000|6|S 55 SE|School label beside the symbol
+ju000|7|F|marsh along the creek
+ju000|8|F|woods and marsh
+ju000|9|N|on the railroad in a clearing; no station drawn
+ju000|10|N|open ground
+ju000|11|N|at the road and railroad crossing; a Meadow Valley label just south-east
+ju001|0|F|woods
+ju001|1|N|a valley road
+ju001|2|N|a valley floor
+ju001|3|K 30 E|a cemetery outline beside the road
+ju001|4|S 90 E|M 90 -4|School label beside the symbol
+ju001|5|F|woods
+ju001|6|N|a valley floor
+ju001|7|B 120 NW
+ju001|8|N|on the bluff road
+ju001|9|B 65 NE|on the bluff face
+ju001|10|B 75 SW|a race-track oval just north
+ju001|11|S|Pleasant Ridge School label at the pin; the USGS place-name file puts it about 320 m south-east
+ju002|0|N|open ground
+ju002|1|S 140 SE|M 120 -78|School label beside the symbol
+ju002|2|S|Welsh School label at the pin
+ju002|3|B 130 NNE|a church cross about 170 m south
+ju002|4|B 65 S|at the road junction
+ju002|5|N|open ground
+ju002|6|N|a road junction about 60 m south
+ju002|7|N|open ground
+ju002|8|N|open ground
+ju002|9|K 0|a small fenced outline at the pin, in the woods
+ju002|10|N|a wooded ravine
+ju002|11|N|where two wooded ravines meet
+ju003|0|N|the road about 60 m north
+ju003|1|N|a cemetery symbol about 190 m east
+ju003|2|N|on a bend of the Lemonweir River; buildings about 200 m east
+ju003|3|F|woods edge
+ju003|4|D 165 SW|on the river channel
+ju003|5|N|on the island inside the river loops
+ju003|6|F|woods
+ju003|7|F|wooded slope
+ju003|8|N|a field below the bluff
+ju003|9|N|about 40 m from the edge of Petenwell reservoir, filled in 1950; the pin itself stays dry
+ju003|10|N|a Raese label just east
+ju003|11|N|a Raese label just east; no cemetery drawn
+ju004|0|K|Patricks Cemetery label at the pin
+ju004|1|N|open ground by the roads
+ju004|2|N|beside the railroad, about 50 m north of the tracks; no station drawn
+ju004|3|N|a creek about 110 m north
+ju004|4|K|Oak Cemetery label just east of the pin
+ju004|5|N|a wooded creek valley; L the creek channel at the pin
+ju004|6|N|open ground
+ju004|7|N|a dotted trail at the pin
+ju004|8|B 135 SSW|on a hillside
+ju004|9|F|a wooded ravine
+ju004|10|N|on a hillside, under a Hill label
+ju004|11|N|on a ridge road
+ju005|0|F|woods
+ju005|1|N|by the road, with the river to the south
+ju005|2|N|beside an old road
+ju005|3|N|a hillside road
+ju005|4|N|open ground; L today's houses all around
+ju005|5|S 55 NNE|M 20 50|a School label beside the symbol
+ju005|6|N|on the trunk highway
+ju005|7|N|a hillside
+ju005|8|N|open ground
+ju005|9|N|at a road junction
+ju005|10|N|a clearing beside the road
+ju005|11|N|a hilltop
+ju006|0|K 0|a Cemetery label beside the outline
+ju006|1|N|under the Military Reservation label; L an elongated hill at the pin
+ju006|2|N|beside a creek
+ju006|3|B 140 SE|at the road and railroad crossing
+ju006|4|F|woods beside an old road
+ju006|5|F|woods
+ju006|6|F|woods edge
+ju006|7|N|a ridge
+ju006|8|B 65 S
+ju006|9|N|a road about 80 m north-west
+ju006|10|N|at a road junction; no cemetery drawn
+ju006|11|B 80 W|a School label south-west
+ju007|0|N|a County label just east and a cemetery symbol about 160 m south, likely the farm's burial ground
+ju007|1|N|a road bend; buildings about 190 m east
+ju007|2|F|woods
+ju007|3|F|woods
+ju007|4|N|about 50 m from the railroad; no station drawn
+ju007|5|F|woods
+ju007|6|N|open ground
+ju007|7|N|beside the railroad
+ju007|8|K 0|an Eden Cemetery label beside the outline
+ju007|9|N|at a road junction
+ju007|10|F|woods
+ju007|11|F|woods
+ju008|0|K 20|Cem label beside the outline
+ju008|1|N|no race track drawn; a Landing Field label about 120 m south
+ju008|2|N|at the edge of the Castle Rock flowage, whose water covers the ground just east
+ju008|3|N|open ground by the road
+ju008|4|N|beside an old road
+ju008|5|B 85 S|a Cemetery label about 100 m east
+ju008|6|N|open ground
+ju008|7|B 60 N|a village label at the pin
+ju008|8|B 135 S|beside the railroad
+ju008|9|F|woods
+ju008|10|N|a hillside
+ju008|11|V|Elroy|a School label at the pin
+ju009|0|S|Fowler School label at the pin
+ju009|1|N|a Tunnel label at the pin
+ju009|2|N|the edge of a wooded ravine
+ju009|3|N|a creek about 60 m north
+ju009|4|N|a road about 40 m south
+ju009|5|B 95 W|at a highway junction
+ju009|6|N|on the railroad by the Sprague label; no station drawn
+ju009|7|F|woods
+ju009|8|N|open ground
+ju009|9|N|a road about 100 m west
+ju009|10|B 65 W|a School label about 180 m north
+ju009|11|N|open ground
+ju010|0|B 140 SW
+ju010|1|B 125 SE
+ju010|2|N|at a road junction
+ju010|3|N|wooded ground by the river backwater
+ju010|4|N|a hillside
+ju010|5|N|a church symbol about 250 m south-east
+ju010|6|C 50 NW|a church symbol at the road junction
+ju010|7|N|open ground
+ju010|8|N|open ground beside woods
+ju010|9|F|woods; a Church label about 120 m north-west
+ju010|10|N|open ground
+ju010|11|K 0|a cemetery outline at the pin
+ju011|0|K 0|Lindina Cemetery label beside the symbol
+ju011|1|K 0|Lindina Cemetery label beside the symbol
+ju011|2|N|beside the road
+ju011|3|F|woods by the creek
+ju011|4|N|on the hill above the tunnel; the railroad about 150 m west
+ju011|5|B 60 NE|at a road junction
+ju011|6|N|on the bluff face
+ju011|7|N|open ground
+ju011|8|S|Grove School label at the pin
+ju011|9|S|a School label just south of the pin
+ju011|10|N|a Sheep Pasture label at the pin, by the creek
+ju011|11|N|a Mill label about 100 m north
+ju012|0|N|under a Mill label, about 70 m from the railroad
+ju012|1|N|open ground
+ju012|2|N|a Rock Valley label at the pin
+ju012|3|N|a creek and road about 50 m south
+ju012|4|N|beside the road
+ju012|5|N|a woods edge
+ju012|6|F|a wooded bluff
+ju012|7|B 85 NW|a place label beside it
+ju012|8|B 40 NE|by the highway
+ju012|9|B 140 NW|the Castle Rock reservoir, filled in 1950, begins about 150 m east, so part of the old village may be under water
+ju012|10|N|a road bend
+ju012|11|N|an Oak School label about 150 m north-west
+ju013|0|N|a valley floor
+ju013|1|N|a road junction about 80 m south
+ju013|2|K 0|Evergreen Cemetery label beside the outline
+ju013|3|N|a hilltop by the road
+ju013|4|N|at a road crossing
+ju013|5|N|open ground
+ju013|6|N|a hillside
+ju013|7|S 90 W|M -80 -40|White School label beside the symbol
+ju013|8|F|woods
+ju013|9|N|at a road junction
+ju013|10|K 0|a cemetery outline at the pin
+ju013|11|N|beside the road
+ju014|0|K 75 E|a St Peters Cemetery label beside it
+ju014|1|K 75 E|a St Peters Cemetery label beside it
+ju014|2|B 35 E|by the railroad and highway
+ju014|3|N|a creek beside the road crossing
+ju014|4|N|beside a creek
+ju014|5|F|woods
+ju014|6|F|woods
+ju014|7|N|marsh by the creek
+ju014|8|C 55 W|a Union label beside the cross
+ju014|9|N|a German School label about 120 m south
+ju014|10|S 265 N|M -30 264|a School label beside the symbol
+ju014|11|C 130 W|a Suldal label beside it
+ju015|0|N|open ground
+ju015|1|N|a road crossing by the creek
+ju015|2|N|open ground
+ju015|3|N|a hillside
+ju015|4|N|beside an old road
+ju015|5|N|a dotted trail at the pin
+ju015|6|N|a road junction about 60 m south
+ju015|7|N|open ground
+ju015|8|N|a Suldal label at the pin
+ju015|9|N|a valley floor
+ju015|10|B 20|village buildings all around the pin
+ju015|11|B 80 SSE
+ju016|0|F|woods
+ju016|1|B 130 S
+ju016|2|S 85 E|M 80 30|Jordan School label beside the symbol
+ju016|3|K 60 E|a cemetery symbol by the road
+ju016|4|F|woods beside an old road
+ju016|5|F|woods and marsh
