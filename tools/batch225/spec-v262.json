@@ -1,0 +1,134 @@
+{
+ "new": [
+  {
+   "id": "bec-minnesota-old-loops-n-mankato",
+   "L": "history",
+   "n": "Minnesota River 1850s loops north of Mankato, now dry",
+   "la": 44.2009,
+   "lo": -94.0218,
+   "y": "1850s-1900s",
+   "pl": "GLO plat (1850s) draws two more westward loops in secs 36 and 25 T109N R27W; the 1874 Andreas county map still shows a bulge near 44.217; today the river runs s",
+   "co": "Nicollet",
+   "stt": "MN",
+   "v": "Old river channel, ford and lakeshore ground",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "North of Mankato, the river of the 1850s wound in tight loops 400-600 m west of today's straight channel. The land inside and along those old loops was riverbank when the Dakota and the first settlers used it, and it's dry floodplain now.",
+   "t": "Old cutbanks and point bars are where river-dropped coins and trade goods settle. Work the edge of the old channel, which shows as a low swale on LiDAR. North Mankato side. Access: Nicollet County land, owner not checked (parcel host blocked). Ask before going on.",
+   "src": [
+    [
+     "MN GLO survey plat mosaic, T108-109N R27W (1850s; MnGeo MN_GLO_Plats_cached)",
+     "https://feat.gisdata.mn.gov/arcgis/rest/services/MnGeo/MN_GLO_Plats_cached/MapServer"
+    ],
+    [
+     "Andreas, Illustrated Historical Atlas of Minnesota (1874)",
+     ""
+    ],
+    [
+     "USGS 1 m LiDAR",
+     ""
+    ]
+   ],
+   "pinconf": "B",
+   "pinev": [
+    "GLO plat (1850s) draws two more westward loops in secs 36 and 25 T109N R27W; the 1874 Andreas county map still shows a bulge near 44.217; today the river runs straight past them"
+   ]
+  },
+  {
+   "id": "bec-blue-earth-ford-1850s",
+   "L": "history",
+   "n": "Ford on the Blue Earth near the mouth, 1850s survey",
+   "la": 44.1562,
+   "lo": -94.0354,
+   "y": "1850s",
+   "pl": "GLO plat (1850s) writes \"Ford\" where the South Bend-Mankato trail crosses the Blue Earth in sec 14 T108N R27W; a \"Mill dam\" is drawn 400 m north (44.1596,-94.03",
+   "co": "Blue Earth",
+   "stt": "MN",
+   "v": "Old river channel, ford and lakeshore ground",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "The oldest mapped crossing of the Blue Earth: the wagon trail from South Bend to Mankato forded it here, by the Le Hillier town site and the Fort L'Huillier marker. The mill dam just downstream was one of the first in the county. Unconfirmed, one source.",
+   "t": "Fords scatter dropped coins, buckles and wagon iron along both approaches. Work the banks above high water. Access: W bank private residential (N Sturgis St); E bank no parcel (river/levee land). Ask first.",
+   "src": [
+    [
+     "MN GLO survey plat mosaic, T108-109N R27W (1850s; MnGeo MN_GLO_Plats_cached)",
+     "https://feat.gisdata.mn.gov/arcgis/rest/services/MnGeo/MN_GLO_Plats_cached/MapServer"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "GLO plat (1850s) writes \"Ford\" where the South Bend-Mankato trail crosses the Blue Earth in sec 14 T108N R27W; a \"Mill dam\" is drawn 400 m north (44.1596,-94.0354)"
+   ]
+  },
+  {
+   "id": "bec-sec24-lost-lake",
+   "L": "history",
+   "n": "Lost lake in the old Le Sueur valley, sec 24 (1850s)",
+   "la": 44.1491,
+   "lo": -94.0116,
+   "y": "1850s",
+   "pl": "GLO plat (1850s) draws a ~800 m lake with a creek through it in sec 24 T108N R27W; LiDAR shows the low basin; MSU 2006 places the old Le Sueur channel here (Ras",
+   "co": "Blue Earth",
+   "stt": "MN",
+   "v": "Old river channel, ford and lakeshore ground",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "A lake of the 1850s, now gone, that sat in the old Le Sueur riverbed on Mankato's south side. Lakeshores like this were camp spots.",
+   "t": "Look for the old shoreline terrace around the low ground. Access: City of Mankato land (38 + 48 ac), likely the Rasmussen Woods area. City permission needed, or look only.",
+   "src": [
+    [
+     "MN GLO survey plat mosaic, T108-109N R27W (1850s; MnGeo MN_GLO_Plats_cached)",
+     "https://feat.gisdata.mn.gov/arcgis/rest/services/MnGeo/MN_GLO_Plats_cached/MapServer"
+    ],
+    [
+     "Minnesota State Univ. Mankato undergraduate research, 2006, \"The Le Sueur River Capture\"",
+     "https://cornerstone.lib.mnsu.edu/urs/2006/poster-session-A/3"
+    ],
+    [
+     "USGS 1 m LiDAR",
+     ""
+    ]
+   ],
+   "pinconf": "B",
+   "pinev": [
+    "GLO plat (1850s) draws a ~800 m lake with a creek through it in sec 24 T108N R27W; LiDAR shows the low basin; MSU 2006 places the old Le Sueur channel here (Rasmussen Woods / Mankato West HS)"
+   ],
+   "acc": [
+    "warn",
+    "City land: ask the city first, or look only"
+   ]
+  }
+ ],
+ "edit": {
+  "bec-jefferson-bend-1908": {
+   "st": " the 1850s land-survey plat draws the loop, a westward bend through sec 1 T108N R27W that reaches 44.1863,-94.0202, right where Hiniker Pond is now. Today's river runs about 800 m east of the loop's tip.",
+   "src": [
+    [
+     "MN GLO survey plat mosaic, T108-109N R27W (1850s; MnGeo MN_GLO_Plats_cached)",
+     "https://feat.gisdata.mn.gov/arcgis/rest/services/MnGeo/MN_GLO_Plats_cached/MapServer"
+    ]
+   ]
+  },
+  "bec-jones-ford": {
+   "st": " in the 1850s the trails met the river at the sec 23/26 line (44.1373,-94.040), where an east-bank trail along the bluff and a west-bank road toward the Jones land in sec 27 reach the river. That is a second candidate for the ford, about 1.6 km NE of the 1950s bridge pin.",
+   "src": [
+    [
+     "MN GLO survey plat mosaic, T108-109N R27W (1850s; MnGeo MN_GLO_Plats_cached)",
+     "https://feat.gisdata.mn.gov/arcgis/rest/services/MnGeo/MN_GLO_Plats_cached/MapServer"
+    ]
+   ]
+  },
+  "bec-indian-lake-old-valley": {
+   "st": " the 1850s survey plat draws Indian Lake as a long crescent lake in sec 36 T108N R27W, on the same spot as today's gravel-pit trough.",
+   "src": [
+    [
+     "MN GLO survey plat mosaic, T108-109N R27W (1850s; MnGeo MN_GLO_Plats_cached)",
+     "https://feat.gisdata.mn.gov/arcgis/rest/services/MnGeo/MN_GLO_Plats_cached/MapServer"
+    ]
+   ]
+  }
+ }
+}
