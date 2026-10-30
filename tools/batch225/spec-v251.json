@@ -1,0 +1,53 @@
+{
+ "new": [
+  {
+   "id": "vf-summerwind",
+   "L": "history",
+   "n": "Summerwind ruins (Lamont's \"Lilac Hills\"), West Bay Lake: LOOK ONLY (spot approximate)",
+   "la": 46.1985,
+   "lo": -89.4216,
+   "y": "1916-1988",
+   "pl": "Wisconsin shore of West Bay Lake (Cisco Chain), near the sec. 18/19 line, T43N R9E, Town of Land O' Lakes",
+   "co": "Vilas",
+   "stt": "WI",
+   "v": "Look only: private, fenced and posted",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Robert Patterson Lamont of Chicago bought a small lakeside lodge-and-cabins retreat here in 1916. He was an American Steel Foundries executive and later Hoover's Secretary of Commerce. He rebuilt it as a 20-room, two-storey summer house with big stone fireplaces and called it Lilac Hills; Hoover and Harding are said to have visited. Lamont died in 1948, after the family had given up the house. The Keefer family owned it next, and the Hinshaws lived there about six months around 1970. It stood empty from the early 1970s, and Raymond Bober's 1979 book The Carver Effect and a 1980 Life magazine piece made \"Summerwind\" famous. In 1985 the town tried to burn it, and the owner boarded it up instead. In fall 1986 new owners bought it from the Lillian Keefer estate for a B&B and fenced and posted it. Lightning set it on fire on 19 June 1988, and the servants' quarters and laundry burned with it: \"Everything is gone except two chimneys and the cement and stone patio.\" Treasure angle: Bober claimed a 1700s \"Carver deed\" was hidden in the foundation, and seekers tore at the stone basement walls; the deed story is folklore and nothing was ever found. The intruder-shooting and madness stories are legend. SPOT APPROXIMATE: the pin is on the only high-ground building group on the Wisconsin shore of the 1981 topo, which fits the 1988 paper's \"on a high hill\"; it is good to about 150 m. The Wikipedia coordinate is only the lake's GNIS centre, on the Michigan side.",
+   "t": "LOOK ONLY. Private, fenced and posted: look from the lake or the road unless you have the owner's written permission. Get the current owner from the Vilas County land records before you ask.",
+   "src": [
+    [
+     "Vilas County News-Review, 22 Jun 1988 p1+p4 and 30 Oct 1985 p1+p3 (newspapers.com)",
+     "https://www.newspapers.com/image/1281026345/"
+    ],
+    [
+     "Vilas County News-Review, 4 Mar 1948 p1 (Lamont obituary)",
+     "https://www.newspapers.com/image/1280896368/"
+    ],
+    [
+     "AP wire, 22-23 Jun 1988 (Appleton Post-Crescent p2, Leader-Telegram p10, Green Bay Press-Gazette p15, Wausau Daily Herald p4)",
+     ""
+    ],
+    [
+     "Wikipedia: Summerwind",
+     "https://en.wikipedia.org/wiki/Summerwind"
+    ],
+    [
+     "USGS Thousand Island Lake 1:24,000 topographic map (1981)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "acc": [
+    "stop",
+    "Private, fenced and posted: look only"
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Spot approximate (about 150 m): the high-ground building group on the 1981 USGS topo; waiting on a satellite check",
+    "The history has two independent sources (1985 and 1988 local stories plus the 1948 obituary and the AP wire), but the spot is unconfirmed"
+   ]
+  }
+ ],
+ "edit": {}
+}
