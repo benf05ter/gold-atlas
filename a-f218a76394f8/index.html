@@ -6060,7 +6060,7 @@ const SRC2=(()=>{
     if(p.p==='nrhp'||(p.src||[]).some(s=>/national register|nrhp/i.test(s[0]||''))) f.add('stand'); // a listed building still standing is its own proof of place
     if(f.size>1) f.delete('osm'); // today's map only names the place; it never adds a second old source
     return [...f]; }
-  function get(p){ if(p._s2&&p._s2.n===p.st) return p._s2.v; const v=fams(p); p._s2={n:p.st,v}; return v; }
+  function get(p){ const l=(p.src||[]).length; if(p._s2&&p._s2.n===p.st&&p._s2.l===l) return p._s2.v; const v=fams(p); p._s2={n:p.st,l,v}; return v; }
   const applies=p=>RULE.has(p.L);
   const one=p=>applies(p)&&get(p).length<2;
   const neg=p=>typeof NEG==='object'&&NEG[p.id];
@@ -6069,11 +6069,11 @@ const SRC2=(()=>{
 const NEG=/*NEG*/{"cr-wabeno-bank-loot-1921": ["2026-10-30", "Court/probate thread", "The cache was found dug up and empty in July 1921; the gang probably moved the money", "La Crosse Tribune July 31 1921; court records; USGS 1 m LiDAR"], "tw-fountain-city-gold-bar-1913": ["2026-10-30", "Treasure-web thread", "Assayed at Madison: tin and copper worth about $1.50, a gold-brick swindler's prop", "newspapers.com clippings 1913"], "lc-t-whitehall-cave-7": ["2026-10-30", "County depth", "The 1924 cave is in Nelson Dewey State Park, Cassville (Grant Co.), so no Whitehall ledge can be it; parent pin moved", "Beloit Independent Sep 12 1924 p1; Milwaukee Journal Sep 7 1924"], "le-ole-hanson-t23n-r13w": ["2026-10-30", "Land-entries thread", "The only Ole Hanson patent on sec. 11 is an 1873 homestead; the name is too common to tie to the 1855 settler", "History of Northern Wisconsin 1881; GLO patents (WI DNR geodatabase)"], "le-william-phillips-t28n-r9w": ["2026-10-30", "Land-entries thread", "Settled 1860 and homesteaded 1870, not a first settler; a farm still worked in 1913", "History of Chippewa County 1913 vol 2; GLO patent"]}/*/NEG*/;
 { const C=TIER.C, g0=TIER.get;
   // tiers: one source caps at C; a rejected spot is F "checked, nothing". S rules are untouched.
-  TIER.get=function(p){ const b=g0(p); if(p._t2&&p._t2.b===b) return p._t2.v; let v=b;
+  TIER.get=function(p){ const b=g0(p), o=SRC2.one(p); if(p._t2&&p._t2.b===b&&p._t2.o===o) return p._t2.v; let v=b;
     const n=SRC2.neg(p);
     if(n) v={t:'F',sc:b.sc,w:'Checked, nothing: '+n[2]+' ('+n[1]+', '+n[0]+')'};
     else if(SRC2.one(p)&&TIER.IDX[b.t]<TIER.IDX.C) v={t:'C',sc:b.sc,w:'Unconfirmed, one source: held at C until a second source agrees on the place'+(b.w?'; '+b.w:'')};
-    p._t2={b,v}; return v; };
+    p._t2={b,o,v}; return v; };
   TIER.t=p=>TIER.get(p).t;
   // the card: which sources place the spot, under the tier line
   const rk0=rkHTML; rkHTML=function(p){ let h=rk0(p); try{
