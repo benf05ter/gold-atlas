@@ -1,0 +1,1053 @@
+{
+ "new": [
+  {
+   "id": "dodge-keel-ridge-mine-1883",
+   "L": "history",
+   "n": "Keel Ridge Mine: the 1883 cave-in tomb of eight miners",
+   "la": 45.8119,
+   "lo": -88.03735,
+   "y": "1880-1883",
+   "co": "Dickinson",
+   "stt": "MI",
+   "pl": "About two blocks north of US-2/141, half a mile east of the Iron Mountain city limits",
+   "v": "A miners' grave: look only",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The Keel Ridge Mine opened in 1880 and had shipped 53,445 tons of iron ore by spring 1883. With the ore worked out and the ground sinking, the pumps were pulled, and on 10 April 1883 the surface caved in and swallowed eight miners about 200 ft down. Their bodies were never recovered and now lie under about 100 ft of water. The old rail bed, stone foundations, ore piles, a shaft opening and deep cave holes remain.",
+   "t": "LOOK ONLY. It is the grave of eight men, and the cave pits are unstable and deep. Do not hunt here.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ],
+    [
+     "USGS GNIS: Keel Ridge Mine (629496)",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+    ]
+   ],
+   "acc": [
+    "stop",
+    "Miners' grave and unstable cave pits: look only, never dig or detect"
+   ],
+   "pinconf": "B",
+   "pinev": [
+    "Pin is the GNIS Keel Ridge Mine point, which matches Dodge's directions"
+   ]
+  },
+  {
+   "id": "dodge-sturgeon-lost-payroll",
+   "L": "treasure",
+   "n": "Sturgeon Mills and the lost camp payroll",
+   "la": 45.79,
+   "lo": -87.885,
+   "y": "1878 onward",
+   "co": "Dickinson",
+   "stt": "MI",
+   "pl": "Between Norway and Vulcan on the Chicago & North Western, by John O'Callaghan's 1878 sawmill",
+   "v": "A logging-camp payroll said to be over $100,000",
+   "c": "legend",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Sturgeon was split in half by the Chicago & North Western, with a spur to the lumber mill; the company houses were later moved to Vulcan, and the last resident left with the last house. Old-timers told of a lost payroll of more than $100,000 from one of the camps. Some say it was found, others that it never was.",
+   "t": "Town-level pin: find the mill spur and the house rows on a 1913-1930s topo first. Private or company land: ask first.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Approximate, between Norway and Vulcan near the Norway Spring marker; the mill spur is not placed yet",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "dodge-huron-bay-iron-range-summit-camp",
+   "L": "camp",
+   "n": "Huron Bay & Iron Range Railway: the summit cut and its construction camp (1890-93)",
+   "la": 46.756,
+   "lo": -88.16,
+   "y": "1890-1893",
+   "co": "Baraga",
+   "stt": "MI",
+   "pl": "Near Mount Arvon, at the 1,960-ft divide at the head of the Slate River",
+   "v": "Construction-camp losses: tools, spikes, bottles, coins and blacksmith scrap",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "The \"ghost railroad\": a $2,000,000, 35-mile line from Champion to an ore dock at Huron Bay that never ran a revenue train, and its one test run went into the ditch (Dodge, reprinting the L'Anse Sentinel of 23 September 1964). Near the summit cut, blasted through 40,000 cubic yards of granite, are signs of a big camp with a blacksmith shop and log buildings, and workers' huts built partly underground. A 500-ft rock fill and half a mile of decayed cedar trestle piling remain along the grade.",
+   "t": "Trace the grade on an old topo or air photo and look for the big rock cut; the hut pits and the blacksmith flat beside it are the ground. Mostly forest land: check who owns it first.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ],
+    [
+     "L'Anse Sentinel, 23 Sep 1964 (as reprinted by Dodge)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Approximate, near Mount Arvon at the divide; the cut itself still needs tracing on the grade",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "dodge-herman",
+   "L": "ghost",
+   "n": "Herman, Baraga County",
+   "la": 46.66688,
+   "lo": -88.36708,
+   "y": "1900s-1920s",
+   "co": "Baraga",
+   "stt": "MI",
+   "pl": "Herman, Baraga County, Michigan",
+   "v": "Coins, tokens, bottles, tools and household losses from the old village lots",
+   "c": "documented",
+   "s": "unknown",
+   "p": "town",
+   "st": "On the Soo Line in L'Anse Township, 8 miles southeast of L'Anse. In 1910 it had about 175 people, with John F. Keranen's general store and post office, a carpenter, wood dealers and a teacher; by 1917 it was down to 150, with a farmers' co-op flour and feed mill and a sawmill.",
+   "t": "Herman Cemetery is 1.4 km away and look-only. Find the old depot, store and house lots on a 1938-40 air photo or an old topo first; private or company forest land, so ask before you hunt.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ],
+    [
+     "USGS GNIS: Herman (628133)",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Pin is the GNIS populated-place point; the old business street is not placed yet",
+    "Its history rests on Dodge alone"
+   ]
+  },
+  {
+   "id": "dodge-larch",
+   "L": "ghost",
+   "n": "Larch, Delta County",
+   "la": 45.78969,
+   "lo": -87.06458,
+   "y": "1910s",
+   "co": "Delta",
+   "stt": "MI",
+   "pl": "Larch, Delta County, Michigan",
+   "v": "Coins, tokens, bottles, tools and household losses from the old village lots",
+   "c": "documented",
+   "s": "unknown",
+   "p": "town",
+   "st": "In 1910 Larch was a junction of the Chicago & North Western and Soo Line railroads, with its mail from Escanaba. Dodge says it was never a village, only a rail junction.",
+   "t": "Find the old depot, store and house lots on a 1938-40 air photo or an old topo first; private or company forest land, so ask before you hunt.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ],
+    [
+     "USGS GNIS: Larch (630162)",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Pin is the GNIS populated-place point; the old business street is not placed yet",
+    "Its history rests on Dodge alone"
+   ]
+  },
+  {
+   "id": "dodge-schaffer",
+   "L": "ghost",
+   "n": "Schaffer, Delta County",
+   "la": 45.76108,
+   "lo": -87.29874,
+   "y": "1870s-1900s",
+   "co": "Delta",
+   "stt": "MI",
+   "pl": "Schaffer, Delta County, Michigan",
+   "v": "Coins, tokens, bottles, tools and household losses from the old village lots",
+   "c": "documented",
+   "s": "unknown",
+   "p": "town",
+   "st": "Around 1900 Schaffer had charcoal kilns and a handful of businesses. Its few residents, probably fewer than 100, celebrated their centennial with Bark River in 1972, and none of them considered it a ghost town.",
+   "t": "The charcoal kiln sites are the best ground. Schaffer is still a small living place: work only the old kiln and business lots, with permission.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ],
+    [
+     "USGS GNIS: Schaffer (637319)",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Pin is the GNIS populated-place point; the old business street is not placed yet",
+    "Its history rests on Dodge alone"
+   ]
+  },
+  {
+   "id": "dodge-felch",
+   "L": "ghost",
+   "n": "Felch, Dickinson County",
+   "la": 45.99717,
+   "lo": -87.82569,
+   "y": "1882 onward",
+   "co": "Dickinson",
+   "stt": "MI",
+   "pl": "Felch, Dickinson County, Michigan",
+   "v": "Coins, tokens, bottles, tools and household losses from the old village lots",
+   "c": "documented",
+   "s": "unknown",
+   "p": "town",
+   "st": "Settled in 1882 on the Chicago & North Western in Felch Township, Felch dropped from more than 500 people to fewer than 200 by 1927. Until a few years before 1973 its road (now County 569) was M-69, the main route east to Escanaba.",
+   "t": "Felch is still a small living place: look for the vanished depot and business lots, with permission. Felch Cemetery is look-only.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ],
+    [
+     "USGS GNIS: Felch (625868)",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Pin is the GNIS populated-place point; the old business street is not placed yet",
+    "Its history rests on Dodge alone"
+   ]
+  },
+  {
+   "id": "dodge-hylas",
+   "L": "ghost",
+   "n": "Hylas, Dickinson County",
+   "la": 45.95718,
+   "lo": -87.67958,
+   "y": "1910s",
+   "co": "Dickinson",
+   "stt": "MI",
+   "pl": "Hylas, Dickinson County, Michigan",
+   "v": "Coins, tokens, bottles, tools and household losses from the old village lots",
+   "c": "documented",
+   "s": "unknown",
+   "p": "town",
+   "st": "In 1910 Hylas was a station on the Chicago & North Western, with its mail from Foster City.",
+   "t": "Find the old depot, store and house lots on a 1938-40 air photo or an old topo first; private or company forest land, so ask before you hunt.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ],
+    [
+     "USGS GNIS: Hylas (1617636)",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Pin is the GNIS populated-place point; the old business street is not placed yet",
+    "Its history rests on Dodge alone"
+   ]
+  },
+  {
+   "id": "dodge-merriman",
+   "L": "ghost",
+   "n": "Merriman, Dickinson County",
+   "la": 45.91745,
+   "lo": -88.05569,
+   "y": "1905",
+   "co": "Dickinson",
+   "stt": "MI",
+   "pl": "Merriman, Dickinson County, Michigan",
+   "v": "Coins, tokens, bottles, tools and household losses from the old village lots",
+   "c": "documented",
+   "s": "unknown",
+   "p": "town",
+   "st": "In 1905 Merriman was a station on the Superior Division of the Chicago, Milwaukee & St. Paul north of Iron Mountain, with its mail from Iron Mountain.",
+   "t": "Find the old depot, store and house lots on a 1938-40 air photo or an old topo first; private or company forest land, so ask before you hunt.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ],
+    [
+     "USGS GNIS: Merriman (1617717)",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Pin is the GNIS populated-place point; the old business street is not placed yet",
+    "Its history rests on Dodge alone"
+   ]
+  },
+  {
+   "id": "dodge-ralph",
+   "L": "ghost",
+   "n": "Ralph, Dickinson County",
+   "la": 46.10856,
+   "lo": -87.78374,
+   "y": "1900s-1910s",
+   "co": "Dickinson",
+   "stt": "MI",
+   "pl": "Ralph, Dickinson County, Michigan",
+   "v": "Coins, tokens, bottles, tools and household losses from the old village lots",
+   "c": "documented",
+   "s": "unknown",
+   "p": "town",
+   "st": "Formerly called Bryden, Ralph had about 200 people in 1905, on the Escanaba & Lake Superior Railroad in Felch Township. Hugh A. Campbell was postmaster and railroad agent, and the Pittsburgh & Lake Superior Iron Company, the Isaac Stephenson Company and other firms logged around it.",
+   "t": "Ralph Cemetery is 900 m away and look-only. Find the old depot, store and house lots on a 1938-40 air photo or an old topo first; private or company forest land, so ask before you hunt.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ],
+    [
+     "USGS GNIS: Ralph (635613)",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Pin is the GNIS populated-place point; the old business street is not placed yet",
+    "Its history rests on Dodge alone"
+   ]
+  },
+  {
+   "id": "dodge-randville",
+   "L": "ghost",
+   "n": "Randville, Dickinson County",
+   "la": 45.99162,
+   "lo": -88.05708,
+   "y": "1900s",
+   "co": "Dickinson",
+   "stt": "MI",
+   "pl": "Randville, Dickinson County, Michigan",
+   "v": "Coins, tokens, bottles, tools and household losses from the old village lots",
+   "c": "documented",
+   "s": "unknown",
+   "p": "town",
+   "st": "Randville stood on the Chicago, Milwaukee & St. Paul between Iron Mountain and Sagola, on what is now M-95. By 1973 a part-time gas station, a few houses and a faded railroad crossbuck reading \"Randville\" were all that remained.",
+   "t": "Find the old depot, store and house lots on a 1938-40 air photo or an old topo first; private or company forest land, so ask before you hunt.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ],
+    [
+     "USGS GNIS: Randville (1617810)",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Pin is the GNIS populated-place point; the old business street is not placed yet",
+    "Its history rests on Dodge alone"
+   ]
+  },
+  {
+   "id": "dodge-beacon-hill",
+   "L": "ghost",
+   "n": "Beacon Hill, Houghton County",
+   "la": 47.13909,
+   "lo": -88.80679,
+   "y": "1905-1915",
+   "co": "Houghton",
+   "stt": "MI",
+   "pl": "Beacon Hill, Houghton County, Michigan",
+   "v": "Coins, tokens, bottles, tools and household losses from the old village lots",
+   "c": "documented",
+   "s": "unknown",
+   "p": "town",
+   "st": "In 1905 Beacon Hill had about 260 people, on the Copper Range Railroad in Stanton Township, 16 miles northwest of Houghton. John R. Bennetts ran the post office and store, and W. J. Uren was superintendent of the Tri-Mountain copper mine.",
+   "t": "Copper-country location: mine houses, the store lot and the rail grade. Stay out of open shafts and posted mine land; ask first.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ],
+    [
+     "USGS GNIS: Beacon Hill (620808)",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Pin is the GNIS populated-place point; the old business street is not placed yet",
+    "Its history rests on Dodge alone"
+   ]
+  },
+  {
+   "id": "dodge-gregoryville",
+   "L": "ghost",
+   "n": "Gregoryville, Houghton County",
+   "la": 47.18604,
+   "lo": -88.39262,
+   "y": "1867 onward",
+   "co": "Houghton",
+   "stt": "MI",
+   "pl": "Gregoryville, Houghton County, Michigan",
+   "v": "Coins, tokens, bottles, tools and household losses from the old village lots",
+   "c": "documented",
+   "s": "unknown",
+   "p": "town",
+   "st": "Gregoryville, on Torch Lake opposite Lake Linden in Schoolcraft Township, was founded by Joseph Gregory (Gregoire) in 1867. He ran a sawmill there with partners Lewis Deschamp and a Mr. Normandin until 1872, then bought them out and improved the mill.",
+   "t": "The mill site and slab ground along the Torch Lake shore are the place to look. Torch Lake shore land is industrial and partly contaminated: check before you dig, and ask first.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ],
+    [
+     "USGS GNIS: Gregoryville (1618746)",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Pin is the GNIS populated-place point; the old business street is not placed yet",
+    "Its history rests on Dodge alone"
+   ]
+  },
+  {
+   "id": "dodge-mineral-hills",
+   "L": "ghost",
+   "n": "Mineral Hills, Iron County",
+   "la": 46.11329,
+   "lo": -88.64791,
+   "y": "1919-1920s",
+   "co": "Iron",
+   "stt": "MI",
+   "pl": "Mineral Hills, Iron County, Michigan",
+   "v": "Coins, tokens, bottles, tools and household losses from the old village lots",
+   "c": "documented",
+   "s": "unknown",
+   "p": "town",
+   "st": "Mineral Hills, 2.5 miles north of Iron River, was incorporated as a village in 1919 and had about 400 people in 1927. Cleveland-Cliffs, M. A. Hanna, the James Mining Company and other ore companies worked around it.",
+   "t": "Iron-range location: mine-house lots and dumps. Stay out of caving ground and posted mine land; ask first.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ],
+    [
+     "USGS GNIS: Mineral Hills (1620839)",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Pin is the GNIS populated-place point; the old business street is not placed yet",
+    "Its history rests on Dodge alone"
+   ]
+  },
+  {
+   "id": "dodge-arnold",
+   "L": "ghost",
+   "n": "Arnold, Marquette County",
+   "la": 46.05079,
+   "lo": -87.49208,
+   "y": "1909-1920s",
+   "co": "Marquette",
+   "stt": "MI",
+   "pl": "Arnold, Marquette County, Michigan",
+   "v": "Coins, tokens, bottles, tools and household losses from the old village lots",
+   "c": "documented",
+   "s": "unknown",
+   "p": "town",
+   "st": "Arnold had two names: the railroad called it Watson, and the post office named it for Ed Arnold of the Mashek Chemical & Iron Company of Escanaba. Henry Arnold became the first postmaster on 21 June 1909, and in 1915 it had about 50 people on the Escanaba & Lake Superior Railroad, 26 miles north of Escanaba.",
+   "t": "Find the old depot, store and house lots on a 1938-40 air photo or an old topo first; private or company forest land, so ask before you hunt.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ],
+    [
+     "USGS GNIS: Arnold (1617422)",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Pin is the GNIS populated-place point; the old business street is not placed yet",
+    "Its history rests on Dodge alone"
+   ]
+  },
+  {
+   "id": "dodge-birch",
+   "L": "ghost",
+   "n": "Birch, Marquette County",
+   "la": 46.69854,
+   "lo": -87.57819,
+   "y": "1909-1917",
+   "co": "Marquette",
+   "stt": "MI",
+   "pl": "Birch, Marquette County, Michigan",
+   "v": "Coins, tokens, bottles, tools and household losses from the old village lots",
+   "c": "documented",
+   "s": "unknown",
+   "p": "town",
+   "st": "In 1909 Birch had about 600 people, on the Marquette & Southeastern Railroad in Powell Township, 15 miles northwest of Marquette, around the Northern Lumber Company's sawmill and store. By 1917 it was down to 150.",
+   "t": "Birch Cemetery sits on the same GNIS point and is look-only: hunt only the mill and house lots away from it, with permission.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ],
+    [
+     "USGS GNIS: Birch (1617446)",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Pin is the GNIS populated-place point; the old business street is not placed yet",
+    "Its history rests on Dodge alone"
+   ]
+  },
+  {
+   "id": "dodge-cedar-bank",
+   "L": "ghost",
+   "n": "Cedar Bank, Marquette County",
+   "la": 46.29689,
+   "lo": -87.26681,
+   "y": "1910",
+   "co": "Marquette",
+   "stt": "MI",
+   "pl": "Cedar Bank, Marquette County, Michigan",
+   "v": "Coins, tokens, bottles, tools and household losses from the old village lots",
+   "c": "documented",
+   "s": "unknown",
+   "p": "town",
+   "st": "The 1910 Rand McNally atlas lists Cedar Bank as a stop on the Munising, Marquette & Southeastern Railroad, with its mail from Forsyth.",
+   "t": "Find the old depot, store and house lots on a 1938-40 air photo or an old topo first; private or company forest land, so ask before you hunt.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ],
+    [
+     "USGS GNIS: Cedar Bank (1617479)",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Pin is the GNIS populated-place point; the old business street is not placed yet",
+    "Its history rests on Dodge alone"
+   ]
+  },
+  {
+   "id": "dodge-north-lake",
+   "L": "ghost",
+   "n": "North Lake, Marquette County",
+   "la": 46.49355,
+   "lo": -87.72764,
+   "y": "1910",
+   "co": "Marquette",
+   "stt": "MI",
+   "pl": "North Lake, Marquette County, Michigan",
+   "v": "Coins, tokens, bottles, tools and household losses from the old village lots",
+   "c": "documented",
+   "s": "unknown",
+   "p": "town",
+   "st": "In 1910 North Lake was a stop on the Lake Superior & Ishpeming Railroad, a former mine location and suburb of Ishpeming.",
+   "t": "Mine-location ground: house lots and dumps. Stay out of caving ground and posted mine land; ask first.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ],
+    [
+     "USGS GNIS: North Lake (633596)",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Pin is the GNIS populated-place point; the old business street is not placed yet",
+    "Its history rests on Dodge alone"
+   ]
+  },
+  {
+   "id": "dodge-witbeck",
+   "L": "ghost",
+   "n": "Witbeck, Marquette County",
+   "la": 46.31522,
+   "lo": -88.0043,
+   "y": "1888-1909",
+   "co": "Marquette",
+   "stt": "MI",
+   "pl": "Witbeck, Marquette County, Michigan",
+   "v": "Coins, tokens, bottles, tools and household losses from the old village lots",
+   "c": "documented",
+   "s": "unknown",
+   "p": "town",
+   "st": "Witbeck's post office opened in November 1888. In 1909 it had 37 people, on the Chicago, Milwaukee & St. Paul 29 miles from Ishpeming, with Mrs. Agnes Schroeder's post office and boarding house, a summer resort and wood dealers.",
+   "t": "Find the old depot, store and house lots on a 1938-40 air photo or an old topo first; private or company forest land, so ask before you hunt.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ],
+    [
+     "USGS GNIS: Witbeck (1617950)",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Pin is the GNIS populated-place point; the old business street is not placed yet",
+    "Its history rests on Dodge alone"
+   ]
+  },
+  {
+   "id": "dodge-kew",
+   "L": "ghost",
+   "n": "Kew, Menominee County",
+   "la": 45.15859,
+   "lo": -87.61594,
+   "y": "1910",
+   "co": "Menominee",
+   "stt": "MI",
+   "pl": "Kew, Menominee County, Michigan",
+   "v": "Coins, tokens, bottles, tools and household losses from the old village lots",
+   "c": "documented",
+   "s": "unknown",
+   "p": "town",
+   "st": "In 1910 Kew was a stop on the Chicago & North Western a short way north of Menominee, on today's US-41. W. B. Linsley, a lover of flowers, named it after the Kew botanical gardens near London; old-timers said he was interested in the wild cherries that still grow there.",
+   "t": "Find the old depot, store and house lots on a 1938-40 air photo or an old topo first; private or company forest land, so ask before you hunt.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ],
+    [
+     "USGS GNIS: Kew (629639)",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Pin is the GNIS populated-place point; the old business street is not placed yet",
+    "Its history rests on Dodge alone"
+   ]
+  },
+  {
+   "id": "brody-veazie-settlement-dam",
+   "L": "camp",
+   "n": "Veazie Settlement and the Veazie logging dam on the Namekagon",
+   "la": 45.8953,
+   "lo": -91.7781,
+   "y": "1870s",
+   "co": "Washburn",
+   "stt": "WI",
+   "pl": "About 2 miles up the Namekagon from Trego, by Veazie Springs",
+   "v": "Logging-camp and tote-road losses: axe heads, harness, square nails, bottles and coins",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Brody quotes the historical marker: in the 1870s ox teams hauled logging supplies over the tote road from Stillwater to Veazie Settlement, two miles up river from Trego, where the great Veazie Dam held back water for the log drives down the Namekagon to Stillwater.",
+   "t": "The dam abutments, the camp and settlement flat beside them and the tote-road crossing are the ground. The Namekagon is part of the St. Croix National Scenic Riverway, where federal land is off limits to detecting: check ownership first.",
+   "src": [
+    [
+     "Brody, Discovering Wisconsin (1973), your screenshots",
+     ""
+    ],
+    [
+     "USGS GNIS: Veazie Springs, Washburn Co.",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+    ]
+   ],
+   "acc": [
+    "warn",
+    "St. Croix National Scenic Riverway: federal land is closed to detecting; check ownership"
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Approximate, at GNIS Veazie Springs; the dam site still needs placing on a 1930s-50s topo or air photo",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "brody-evergreen-park-sanitorium",
+   "L": "history",
+   "n": "Evergreen Park Cottage Sanitorium, Lake Nebagamon (1903-1905)",
+   "la": 46.515,
+   "lo": -91.7,
+   "y": "1903-1905",
+   "co": "Douglas",
+   "stt": "WI",
+   "pl": "Lake Nebagamon (village-level pin)",
+   "v": "Bottles, medicine vials, buttons and cottage losses",
+   "c": "documented",
+   "s": "unknown",
+   "p": "town",
+   "st": "Brody quotes the marker: Dr. W. B. Hopkins of Cumberland opened Wisconsin's first tuberculosis sanitorium here in 1903, with an office and three one-story screened frame buildings (a men's ward, a women's ward and a dining hall). Patients could also build their own cabin on the grounds and get treatment for $10 a month. Operating losses closed it in 1905.",
+   "t": "A short-lived cottage site: find the historical marker first, then look for the building pads and the dump. Private land: ask first.",
+   "src": [
+    [
+     "Brody, Discovering Wisconsin (1973), your screenshots",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Village-level pin; the marker spot is not placed yet",
+    "Unconfirmed, one source"
+   ]
+  }
+ ],
+ "edit": {
+  "fr-skanee-1871-lumber-camp-on-huron-bay": {
+   "st": " Dodge (1973): Skanee was named for the Skåne district of Sweden; a handful of residents and a hundred or more visitors celebrated Arvon Township's first 100 years here in July 1971. Old-timers told the story of lumberjack John \"Silver Jack\" Driscoll, who came back to camp from a stream in the Huron Mountains with a pocketful of silver nuggets and never told where. He died at the Ballenger Hotel in L'Anse on 1 April 1895, after the Yellow Dog River drive, and lies in an unmarked spot in the Old L'Anse Cemetery. Skanee people also told \"O'Neil gold\" legends, and gold, silver and (in 1941) uranium have all been found in the Huron Mountains.",
+   "t": " The nugget and gold stories are legends from one source; the Old L'Anse Cemetery is look-only.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ]
+   ]
+  },
+  "vs-2129316": {
+   "st": " Dodge (1973): Aura was settled in 1914 on the Duluth, South Shore & Atlantic and M-41 in L'Anse Township, 12 miles northwest of L'Anse. By 1927 it had about 200 people, a daily bus to L'Anse, Catholic, Lutheran and Methodist churches and the New Mazda movie theater; in 1973 only Dan's General Store, with the post office, was still open, across from the empty Aura Co-op Store.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ]
+   ]
+  },
+  "vs-2129275": {
+   "st": " Dodge (1973): Zeba, \"little river\", was an Indian mission with 300 or more people. Father Baraga had a mission here briefly in 1831 before moving across the bay to Assinins, and in 1832 the first Indian church on Lake Superior, a Methodist mission, was built here; it was rebuilt in 1835 and 1848, and the small yellow church standing on the same site dates from 1888.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ]
+   ],
+   "t": " The mission ground and churchyard are look-only."
+  },
+  "cd-hyde-delta-hotel": {
+   "st": " Dodge (1973): In 1910 Hyde was the station for Ford River, 6 miles south, under the railroad name Ford River Junction. It was never a village, only a country post office from 1905 with T. Derouin as postmaster and storekeeper; the old general store still stood in 1973 as a home and antique store.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ]
+   ]
+  },
+  "vs-2128585": {
+   "st": " Dodge (1973): In 1893 Floodwood was a post office and lumbering village of about 200 on the Milwaukee & Northern in Sagola Township, 32 miles north of Iron Mountain, with hotels, a shingle mill and the general stores and sawmills of Kirby, Carpenter & Co., N. Ludington Co. and others. Its post office was discontinued by 1905.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ]
+   ]
+  },
+  "vs-2128847": {
+   "st": " Dodge (1973): In 1893 Granite Bluff had about 50 people, with T. H. Strup's post office and a sawmill. It never grew into a village: by 1905 it was a siding and flag station on the Chicago, Milwaukee & St. Paul in Breitung Township, 4 miles from Randville, shipping cordwood, ties, posts and poles.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ]
+   ]
+  },
+  "vs-2128842": {
+   "st": " Dodge (1973): Loretto, between Waucedah and Vulcan on US-2, was named for the Loretto mine and was served by two railroads, the Wisconsin & Michigan (the \"Wisky-Mich\") and the Chicago & North Western. It kept about 500 people as late as 1940; the Wisky-Mich tracks were pulled up in 1971, and a few original buildings and families remained in 1973.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ]
+   ]
+  },
+  "vs-2126082": {
+   "st": " Dodge (1973): Dunham was on the Chicago & North Western in Bessemer Township, 17 miles southeast of Bessemer; its post office opened on 6 October 1902. In 1905 it had about 200 people, with the Ashland Iron & Steel Company's store, a blacksmith and a school.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ]
+   ]
+  },
+  "vs-2126079": {
+   "st": " Dodge (1973): Gogebic Station was established in Ontonagon County before Gogebic County was formed; its post office opened on 4 June 1886, with Frank Crowe as postmaster, and the name was changed to Gogebic on 25 May 1894.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ]
+   ]
+  },
+  "vs-2126069": {
+   "st": " Dodge (1973): Thomaston, on the Soo Line in Wakefield Township 8 miles from Bessemer, was settled about 1890 and got its post office on 7 November 1891. In 1893 it had about 150 people, with two restaurants and L. W. Dodendorf as postmaster and railroad agent.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ]
+   ]
+  },
+  "vs-1926616": {
+   "st": " Dodge (1973): Tula got its post office on 5 February 1907. In 1915 it had about 100 people, on the Soo Line 9 miles from Wakefield, around the Tula Lumber Company; the post office closed on 16 December 1916 and Tula became a rural route of Thomaston.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ]
+   ]
+  },
+  "vs-2124167": {
+   "st": " Dodge (1973): Askel, in Portage Township 20 miles south of Houghton, was settled in 1890. In 1915 it had a blacksmith, a flour mill, a threshing and milling company and a co-op store; by 1927 it was down to about 25 people, with tri-weekly mail on the Soo Line.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ]
+   ]
+  },
+  "cmine-19": {
+   "st": " Dodge (1973): Atlantic Mine was settled in 1865, a mining village of about 600 in Adams Township on the Copper Range Railroad, 3 miles south of Houghton. It had Methodist and Catholic churches, the Atlantic Copper Mining Company's stamp mill and hoisting works, and saloons, a blacksmith and a physician.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ]
+   ]
+  },
+  "cmine-20": {
+   "st": " Dodge (1973): Baltic had about 1,200 people in 1905, on the Copper Range Railroad in Adams Township, 6 miles southwest of Houghton, around the Baltic Mining Company. By 1918 it had grown to about 3,000.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ]
+   ]
+  },
+  "m-ghost-donken": {
+   "st": " Dodge (1973): Donken (also spelled Donkyn and Donkeyn) had about 100 people in 1927, on the Copper Range Railroad in Elm River Township, 20 miles south of Houghton, with the Case Lumber Company's mill and store, a hotel and a barber. Its post office ran from 1920 to about 1935, and in 1968 five postal boxes were still in use.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ]
+   ]
+  },
+  "cmine-15": {
+   "st": " Dodge (1973): Franklin Mine, formerly the Arcadian Mine, had about 500 people in 1910, on the Mineral Range Railroad in Franklin Township, 2 miles north of Hancock, and was linked to Houghton by an electric railway. It had the Franklin Mining Company, a saloon, a barber, a physician and a general store, and later the Houghton County detention hospital.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ]
+   ]
+  },
+  "vs-2124160": {
+   "st": " Dodge (1973): Freda had about 500 people in 1910, on the Copper Range Railroad in Stanton Township, 17 miles west of Houghton, with a Congregational church and the Champion Copper Company's stamp mill (and its Lake Shore band); by 1917 it also had a Catholic church, hotels and a movie theater. The Copper Range rails were pulled up in 1971.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ]
+   ]
+  },
+  "cd-centennial-mill-point-mills": {
+   "st": " Dodge (1973): In 1905 Point Mills had about 300 people in Torch Lake Township, 7 miles from Houghton and 3 from Dollar Bay, around the Arcadian and Franklin stamp mills, with a boarding house, saloon, livery, general store and school.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ]
+   ]
+  },
+  "vs-2129425": {
+   "st": " Dodge (1973): Basswood was a stop on the Chicago & North Western between Beechwood and Elmwood, with no post office. In the logging days a few lumberjacks built rough shacks here, and Archie McKrause homesteaded the land; nothing remained by 1973.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ]
+   ]
+  },
+  "vs-2129433": {
+   "st": " Dodge (1973): Pentoga had about 250 people in 1905, on the Chicago & North Western in Stambaugh Township, 15 miles southwest of Crystal Falls, with the Brule River House and Pentoga Hotel, a sawmill, general stores, a livery and a doctor. It still had about 300 people in 1915.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ]
+   ]
+  },
+  "vs-2336663": {
+   "st": " Dodge (1973): Clowry was on the Chicago & North Western between Michigamme and Ishpeming, a few miles northeast of Champion, on part of the Clowry homestead. Its post office ran only from 22 May 1892 to 4 May 1894; it was still listed as a station in 1910 and 1927.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ]
+   ]
+  },
+  "m-rep-michigamme-1906": {
+   "st": " Dodge (1973): Michigamme grew on an iron find of 1872; the Michigamme Mine produced nearly a million tons of ore in its 33 years before closing in 1905. In 1909 the town had about 1,000 people, with depots of the Duluth, South Shore & Atlantic and the Chicago & North Western 350 ft apart; by 1971 fewer than 100 people remained, and only a couple of freight trains passed each day.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ]
+   ]
+  },
+  "vs-2336634": {
+   "st": " Dodge (1973): Sands was a station on the Chicago & North Western 9 miles from Marquette in Chocolay Township, settled in 1874 and named for the lumberman Louie Sands; the village stood a mile back from the station. Its post office opened on 23 January 1878, and in 1887 it had about 200 people, with charcoal burning, a wagon maker and a general store.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ]
+   ]
+  },
+  "vs-2336629": {
+   "st": " Dodge (1973): Swanzy was the post-office name for Chesire Junction, about 5 miles from Forsyth on the Chicago & North Western in Forsyth Township. Its post office ran from October 1889 to 1905, when it had about 200 people, iron mines of the Escanaba River Land & Iron Company, a lumber dealer and a general store.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ]
+   ]
+  },
+  "pmi98-carbondale-station": {
+   "st": " Dodge (1973): In 1887 Carbondale was a recently settled stop of about 50 people on the Chicago & North Western, 12 miles north of Menominee, with James W. Osborne's post office, general store and cedar business. Its post office ran from December 1881 to April 1904.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ]
+   ]
+  },
+  "pme12-hathorn-1912": {
+   "st": " Dodge (1973): Faithorn (the 1912 plat's \"Hathorn\") was first called Pembina and was renamed for N. Faithorn, one of the Wisconsin & Michigan railroad's owners; the railroad called it Faithorn Junction. In 1910 it had about 175 people at the crossing of the Wisconsin & Michigan and the Soo Line.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ]
+   ]
+  },
+  "vs-2353171": {
+   "st": " Dodge (1973): Faunus was a Chicago & North Western stop, one of several the railroad named from ancient mythology. Its post office ran from 1896 to 1908, and nothing remained by 1973.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ]
+   ]
+  },
+  "pme12-guerley": {
+   "st": " Dodge (1973): Gourley (the 1912 plat's \"Guerley\") had about 100 people in 1905, in Cedarville Township, with the Mashek Lumber Company's mill. Three families from Nadeau settled here in 1883 and raised cabins the next year, and H. Jasper built the first sawmill, which burned in 1904.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ]
+   ]
+  },
+  "vs-2353168": {
+   "st": " Dodge (1973): Ingallston was first called Section 19; the Ingalls brothers of Menominee set up a sawmill here in 1866. Fisherman Robert Beattie settled in 1867 (Beattie Creek is named for him), and a cooper made kegs for the fishermen to pack their catch; in 1887 it was listed as Ingalls.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ]
+   ]
+  },
+  "pmi98-talbot-station": {
+   "st": " Dodge (1973): Talbot, also called Gravel Pit, was named for Samuel H. Talbot of a lumbering firm; in 1887 it had about 60 people in Nadeau Township, settled in 1879, with Fred W. Sensiba's post office and store and several logging jobbers.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ]
+   ]
+  },
+  "pmi98-vega-station": {
+   "st": " Dodge (1973): Vega was a Chicago & North Western stop in 1910, with its mail from Loretto. The name is Spanish for a tract of level, fruitful ground, meant to describe the spot; nothing remained by 1973.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ]
+   ]
+  },
+  "vs-2125275": {
+   "st": " Dodge (1973): Agate was named by the railroad in 1890 for the semi-precious stone, on the Duluth, South Shore & Atlantic in Interior Township, 3 miles from Trout Creek. In 1927 it had John Wakevainen Jr.'s store, post office (opened 6 May 1926) and depot, a filling station and a blacksmith.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ]
+   ]
+  },
+  "m-ghost-calderwood": {
+   "st": " Dodge (1973): Calderwood was named for the Calderwood Lumber Company, a logging and sawmill outfit organized by Minnesota men; it was settled in 1900 and had a new post office in 1909. By 1915 it had about 100 people in Interior Township, 9 miles from Trout Creek, and in 1927 a Congregational church and telephone service.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ]
+   ]
+  },
+  "wd2-43": {
+   "st": " Dodge (1973): Matchwood was the 1888 headquarters of the Diamond Match Company, set up to supply its many logging camps, hence the name; its post office opened on 23 April 1889, and in 1893 it had about 100 people on the Duluth, South Shore & Atlantic, with a hotel and stores.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ]
+   ]
+  },
+  "vs-2125251": {
+   "st": " Dodge (1973): Paulding was a post office and Chicago & North Western station about 5 miles south of Trout Creek, with a post office from about 1893 to 1904. It reopened on 1 May 1936 and had 29 people in 1938.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ]
+   ]
+  },
+  "vs-2125243": {
+   "st": " Dodge (1973): Rousseau began as Hubbell's Mills, a new post office called Rubicon in 1893, and was renamed in 1920 for Edward Rousseau, supervisor of Bohemian Township for 27 years. It had about 325 people in 1927, with loggers and a general store, and was still on the 1970 highway map.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ]
+   ]
+  },
+  "vs-2125238": {
+   "st": " Dodge (1973): Wainola was settled by Finns in 1887 and named for a legendary Finnish name. It had about 300 people in 1915 and 425 in 1927, in Greenland Township near Mass, with Finnish Evangelical and Lutheran churches, a sawmill, loggers and general stores; the post office closed on 31 October 1939.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ]
+   ]
+  },
+  "m-ghost-kearsarge": {
+   "st": " Dodge (1973): Phillipsville, listed under Kearsarge in the 1927 directory, is one of the old mine locations strung along US-41 between Mohawk and Calumet; in 1973 a two-story insulbrick building with an antique shop and a \"Phillipsville\" sign marked it.",
+   "src": [
+    [
+     "Dodge, Michigan Ghost Towns of the Upper Peninsula (1973; Glendon 1990 reprint), your screenshots",
+     "https://archive.org/details/michiganghosttow0000unse_g0p8"
+    ]
+   ]
+  }
+ }
+}

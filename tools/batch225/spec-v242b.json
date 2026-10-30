@@ -1,0 +1,978 @@
+{
+ "new": [
+  {
+   "id": "ot-sunny-view-school-s28-t23n-r17e",
+   "L": "school",
+   "n": "Sunny View School site (Appleton 1955 topo)",
+   "la": 44.43149,
+   "lo": -88.43387,
+   "y": "by 1955",
+   "pl": "sec. 28 T23N R17E, Outagamie Co.",
+   "co": "Outagamie",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1955 USGS topo map (Appleton 15-minute sheet) draws Sunny View School here (school symbol, sec. 28 T23N R17E). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Appleton topographic map (1955)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Appleton 1955 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-elm-hill-school-444142-882574",
+   "L": "school",
+   "n": "Elm Hill School site (Appleton 1955 topo)",
+   "la": 44.41424,
+   "lo": -88.25738,
+   "y": "by 1955",
+   "pl": "section not read, Outagamie Co.",
+   "co": "Outagamie",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1955 USGS topo map (Appleton 15-minute sheet) draws Elm Hill School here (school symbol). No second source found yet; 3 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Appleton topographic map (1955)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Appleton 1955 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-sunnyside-school-s17-t22n-r17e",
+   "L": "school",
+   "n": "Sunnyside School site (Appleton 1955 topo)",
+   "la": 44.38146,
+   "lo": -88.4747,
+   "y": "by 1955",
+   "pl": "sec. 17 T22N R17E, Outagamie Co.",
+   "co": "Outagamie",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1955 USGS topo map (Appleton 15-minute sheet) draws Sunnyside School here (school symbol, sec. 17 T22N R17E). No second source found yet; 4 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Appleton topographic map (1955)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Appleton 1955 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-pleasant-dale-school-s14-t22n-r17e",
+   "L": "school",
+   "n": "Pleasant Dale School site (Appleton 1955 topo)",
+   "la": 44.37955,
+   "lo": -88.41462,
+   "y": "by 1955",
+   "pl": "sec. 14 T22N R17E, Outagamie Co.",
+   "co": "Outagamie",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1955 USGS topo map (Appleton 15-minute sheet) draws Pleasant Dale School here (school symbol, sec. 14 T22N R17E). No second source found yet; 8 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Appleton topographic map (1955)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Appleton 1955 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-st-peters-school-s31-t22n-r18e",
+   "L": "school",
+   "n": "St. Peters School site (Appleton 1955 topo)",
+   "la": 44.33817,
+   "lo": -88.353,
+   "y": "by 1955",
+   "pl": "sec. 31 T22N R18E, Outagamie Co.",
+   "co": "Outagamie",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1955 USGS topo map (Appleton 15-minute sheet) draws St. Peters School here (school symbol, sec. 31 T22N R18E). No second source found yet; 3 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Appleton topographic map (1955)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Appleton 1955 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-twin-willows-school-s16-t21n-r17e",
+   "L": "school",
+   "n": "Twin Willows School site (Appleton 1955 topo)",
+   "la": 44.29478,
+   "lo": -88.446,
+   "y": "by 1955",
+   "pl": "sec. 16 T21N R17E, Outagamie Co.",
+   "co": "Outagamie",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1955 USGS topo map (Appleton 15-minute sheet) draws Twin Willows School here (school symbol, sec. 16 T21N R17E). No second source found yet; 3 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Appleton topographic map (1955)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Appleton 1955 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-ebben-school-s16-t21n-r18e",
+   "L": "school",
+   "n": "Ebben School site (Appleton 1955 topo)",
+   "la": 44.30137,
+   "lo": -88.33276,
+   "y": "by 1955",
+   "pl": "sec. 16 T21N R18E, Outagamie Co.",
+   "co": "Outagamie",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1955 USGS topo map (Appleton 15-minute sheet) draws Ebben School here (school symbol, sec. 16 T21N R18E). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Appleton topographic map (1955)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Appleton 1955 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-rector-school-s33-t35n-r19e",
+   "L": "school",
+   "n": "Rector School site (Athelstane 1940 topo)",
+   "la": 45.45666,
+   "lo": -88.11865,
+   "y": "by 1940",
+   "pl": "sec. 33 T35N R19E, Marinette Co.",
+   "co": "Marinette",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1940 USGS topo map (Athelstane 15-minute sheet) draws Rector School here (school symbol, sec. 33 T35N R19E). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Athelstane topographic map (1940)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Athelstane 1940 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-mathis-church-s25-t35n-r19e",
+   "L": "school2",
+   "n": "Mathis Church site (Athelstane 1940 topo)",
+   "la": 45.47268,
+   "lo": -88.06674,
+   "y": "by 1940",
+   "pl": "sec. 25 T35N R19E, Marinette Co.",
+   "co": "Marinette",
+   "stt": "WI",
+   "v": "Coins, religious medals, buttons, jewelry from church socials and picnics",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1940 USGS topo map (Athelstane 15-minute sheet) draws Mathis Church here (church symbol, sec. 25 T35N R19E). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level church pad, fieldstone foundation corners, lilacs or old spruce, and the horse-shed line. If there is a churchyard cemetery, search only outside it. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Athelstane topographic map (1940)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Athelstane 1940 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-cowie-school-s8-t34n-r20e",
+   "L": "school",
+   "n": "Cowie School site (Athelstane 1940 topo)",
+   "la": 45.43988,
+   "lo": -88.03667,
+   "y": "by 1940",
+   "pl": "sec. 8 T34N R20E, Marinette Co.",
+   "co": "Marinette",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1940 USGS topo map (Athelstane 15-minute sheet) draws Cowie School here (school symbol, sec. 8 T34N R20E). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Athelstane topographic map (1940)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Athelstane 1940 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-eagle-river-school-s12-t34n-r18e",
+   "L": "school",
+   "n": "Eagle River School site (Athelstane 1940 topo)",
+   "la": 45.43089,
+   "lo": -88.19927,
+   "y": "by 1940",
+   "pl": "sec. 12 T34N R18E, Marinette Co.",
+   "co": "Marinette",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1940 USGS topo map (Athelstane 15-minute sheet) draws Eagle River School here (school symbol, sec. 12 T34N R18E). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Athelstane topographic map (1940)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Athelstane 1940 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-high-falls-school-s1-t32n-r18e",
+   "L": "school",
+   "n": "High Falls School site (Athelstane 1940 topo)",
+   "la": 45.27621,
+   "lo": -88.20038,
+   "y": "by 1940",
+   "pl": "sec. 1 T32N R18E, Marinette Co.",
+   "co": "Marinette",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1940 USGS topo map (Athelstane 15-minute sheet) draws High Falls School here (school symbol, sec. 1 T32N R18E). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Athelstane topographic map (1940)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Athelstane 1940 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-konsted-school-s26-t33n-r19e",
+   "L": "school",
+   "n": "Konsted School site (Athelstane 1940 topo)",
+   "la": 45.31055,
+   "lo": -88.1021,
+   "y": "by 1940",
+   "pl": "sec. 26 T33N R19E, Marinette Co.",
+   "co": "Marinette",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1940 USGS topo map (Athelstane 15-minute sheet) draws Konsted School here (school symbol, sec. 26 T33N R19E). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Athelstane topographic map (1940)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Athelstane 1940 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-reeds-hill-school-s15-t31n-r19e",
+   "L": "school",
+   "n": "Reeds Hill School site (Coleman 1941 topo)",
+   "la": 45.1605,
+   "lo": -88.12225,
+   "y": "by 1941",
+   "pl": "sec. 15 T31N R19E, Marinette Co.",
+   "co": "Marinette",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1941 USGS topo map (Coleman 15-minute sheet) draws Reeds Hill School here (school symbol, sec. 15 T31N R19E). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Coleman topographic map (1941)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Coleman 1941 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-central-school-s24-t30n-r19e",
+   "L": "school",
+   "n": "Central School site (Coleman 1941 topo)",
+   "la": 45.06671,
+   "lo": -88.13734,
+   "y": "by 1941",
+   "pl": "sec. 24 T30N R19E, Oconto Co.",
+   "co": "Oconto",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1941 USGS topo map (Coleman 15-minute sheet) draws Central School here (school symbol, sec. 24 T30N R19E). No second source found yet; 7 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Coleman topographic map (1941)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Coleman 1941 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-spruce-school-s11-t29n-r19e",
+   "L": "school",
+   "n": "Spruce School site (Coleman 1941 topo)",
+   "la": 45.00264,
+   "lo": -88.16268,
+   "y": "by 1941",
+   "pl": "sec. 11 T29N R19E, Oconto Co.",
+   "co": "Oconto",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1941 USGS topo map (Coleman 15-minute sheet) draws Spruce School here (school symbol, sec. 11 T29N R19E). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Coleman topographic map (1941)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Coleman 1941 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-north-school-s13-t39n-r14e",
+   "L": "school",
+   "n": "North School site (Long Lake 1939 topo)",
+   "la": 45.85443,
+   "lo": -88.69341,
+   "y": "by 1939",
+   "pl": "sec. 13 T39N R14E, Forest Co.",
+   "co": "Forest",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1939 USGS topo map (Long Lake 15-minute sheet) draws North School here (school symbol, sec. 13 T39N R14E). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Long Lake topographic map (1939)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Long Lake 1939 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-tice-school-s33-t18n-r15e",
+   "L": "school",
+   "n": "Tice School site (Rosendale 1956 topo)",
+   "la": 43.98277,
+   "lo": -88.70505,
+   "y": "by 1956",
+   "pl": "sec. 33 T18N R15E, Winnebago Co.",
+   "co": "Winnebago",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1956 USGS topo map (Rosendale 15-minute sheet) draws Tice School here (school symbol, sec. 33 T18N R15E). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Rosendale topographic map (1956)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Rosendale 1956 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-new-bethel-church-s25-t17n-r16e",
+   "L": "school2",
+   "n": "New Bethel Church site (Rosendale 1956 topo)",
+   "la": 43.92176,
+   "lo": -88.54341,
+   "y": "by 1956",
+   "pl": "sec. 25 T17N R16E, Winnebago Co.",
+   "co": "Winnebago",
+   "stt": "WI",
+   "v": "Coins, religious medals, buttons, jewelry from church socials and picnics",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1956 USGS topo map (Rosendale 15-minute sheet) draws New Bethel Church here (church symbol, sec. 25 T17N R16E). No second source found yet; 16 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level church pad, fieldstone foundation corners, lilacs or old spruce, and the horse-shed line. If there is a churchyard cemetery, search only outside it. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Rosendale topographic map (1956)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Rosendale 1956 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-high-ridge-school-s10-t16n-r16e",
+   "L": "school",
+   "n": "High Ridge School site (Rosendale 1956 topo)",
+   "la": 43.86826,
+   "lo": -88.5771,
+   "y": "by 1956",
+   "pl": "sec. 10 T16N R16E, Fond du Lac Co.",
+   "co": "Fond du Lac",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1956 USGS topo map (Rosendale 15-minute sheet) draws High Ridge School here (school symbol, sec. 10 T16N R16E). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Rosendale topographic map (1956)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Rosendale 1956 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-townline-school-s5-t15n-r15e",
+   "L": "school",
+   "n": "Townline School site (Rosendale 1956 topo)",
+   "la": 43.80713,
+   "lo": -88.7366,
+   "y": "by 1956",
+   "pl": "sec. 5 T15N R15E, Fond du Lac Co.",
+   "co": "Fond du Lac",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1956 USGS topo map (Rosendale 15-minute sheet) draws Townline School here (school symbol, sec. 5 T15N R15E). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Rosendale topographic map (1956)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Rosendale 1956 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-emerson-school-s21-t15n-r15e",
+   "L": "school",
+   "n": "Emerson School site (Rosendale 1956 topo)",
+   "la": 43.75942,
+   "lo": -88.71932,
+   "y": "by 1956",
+   "pl": "sec. 21 T15N R15E, Fond du Lac Co.",
+   "co": "Fond du Lac",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1956 USGS topo map (Rosendale 15-minute sheet) draws Emerson School here (school symbol, sec. 21 T15N R15E). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Rosendale topographic map (1956)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Rosendale 1956 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-bell-school-s10-t15n-r15e",
+   "L": "school",
+   "n": "Bell School site (Rosendale 1956 topo)",
+   "la": 43.77885,
+   "lo": -88.68559,
+   "y": "by 1956",
+   "pl": "sec. 10 T15N R15E, Fond du Lac Co.",
+   "co": "Fond du Lac",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1956 USGS topo map (Rosendale 15-minute sheet) draws Bell School here (school symbol, sec. 10 T15N R15E). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Rosendale topographic map (1956)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Rosendale 1956 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-coles-corner-school-s23-t15n-r15e",
+   "L": "school",
+   "n": "Coles Corner School site (Rosendale 1956 topo)",
+   "la": 43.75724,
+   "lo": -88.6752,
+   "y": "by 1956",
+   "pl": "sec. 23 T15N R15E, Fond du Lac Co.",
+   "co": "Fond du Lac",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1956 USGS topo map (Rosendale 15-minute sheet) draws Coles Corner School here (school symbol, sec. 23 T15N R15E). No second source found yet; 4 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Rosendale topographic map (1956)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Rosendale 1956 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-perry-school-s7-t15n-r16e",
+   "L": "school",
+   "n": "Perry School site (Rosendale 1956 topo)",
+   "la": 43.7828,
+   "lo": -88.63348,
+   "y": "by 1956",
+   "pl": "sec. 7 T15N R16E, Fond du Lac Co.",
+   "co": "Fond du Lac",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1956 USGS topo map (Rosendale 15-minute sheet) draws Perry School here (school symbol, sec. 7 T15N R16E). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Rosendale topographic map (1956)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Rosendale 1956 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-elmwood-school-s7-t15n-r17e",
+   "L": "school",
+   "n": "Elmwood School site (Rosendale 1956 topo)",
+   "la": 43.78891,
+   "lo": -88.50279,
+   "y": "by 1956",
+   "pl": "sec. 7 T15N R17E, Fond du Lac Co.",
+   "co": "Fond du Lac",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1956 USGS topo map (Rosendale 15-minute sheet) draws Elmwood School here (school symbol, sec. 7 T15N R17E). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Rosendale topographic map (1956)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Rosendale 1956 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-otis-school-s18-t15n-r17e",
+   "L": "school",
+   "n": "Otis School site (Rosendale 1956 topo)",
+   "la": 43.76365,
+   "lo": -88.50306,
+   "y": "by 1956",
+   "pl": "sec. 18 T15N R17E, Fond du Lac Co.",
+   "co": "Fond du Lac",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1956 USGS topo map (Rosendale 15-minute sheet) draws Otis School here (school symbol, sec. 18 T15N R17E). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Rosendale topographic map (1956)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Rosendale 1956 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-randolph-school-s23-t15n-r16e",
+   "L": "school",
+   "n": "Randolph School site (Rosendale 1956 topo)",
+   "la": 43.75916,
+   "lo": -88.56297,
+   "y": "by 1956",
+   "pl": "sec. 23 T15N R16E, Fond du Lac Co.",
+   "co": "Fond du Lac",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1956 USGS topo map (Rosendale 15-minute sheet) draws Randolph School here (school symbol, sec. 23 T15N R16E). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Rosendale topographic map (1956)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Rosendale 1956 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-silver-cliff-school-s17-t34n-r17e",
+   "L": "school",
+   "n": "Silver Cliff School site (Thunder Mtn 1940 topo)",
+   "la": 45.42726,
+   "lo": -88.39533,
+   "y": "by 1940",
+   "pl": "sec. 17 T34N R17E, Marinette Co.",
+   "co": "Marinette",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1940 USGS topo map (Thunder Mtn 15-minute sheet) draws Silver Cliff School here (school symbol, sec. 17 T34N R17E). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Thunder Mtn topographic map (1940)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Thunder Mtn 1940 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-shady-nook-school-s29-t34n-r18e",
+   "L": "school",
+   "n": "Shady Nook School site (Thunder River 1940 topo)",
+   "la": 45.39634,
+   "lo": -88.27541,
+   "y": "by 1940",
+   "pl": "sec. 29 T34N R18E, Marinette Co.",
+   "co": "Marinette",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1940 USGS topo map (Thunder River 15-minute sheet) draws Shady Nook School here (school symbol, sec. 29 T34N R18E). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Thunder River topographic map (1940)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Thunder River 1940 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-rock-ledge-school-s4-t13n-r16e",
+   "L": "school",
+   "n": "Rock Ledge School site (Waupun 1955 topo)",
+   "la": 43.61825,
+   "lo": -88.59701,
+   "y": "by 1955",
+   "pl": "sec. 4 T13N R16E, Fond du Lac Co.",
+   "co": "Fond du Lac",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1955 USGS topo map (Waupun 15-minute sheet) draws Rock Ledge School here (school symbol, sec. 4 T13N R16E). No second source found yet; 4 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Waupun topographic map (1955)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Waupun 1955 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-elder-grove-school-s12-t13n-r16e",
+   "L": "school",
+   "n": "Elder Grove School site (Waupun 1955 topo)",
+   "la": 43.61625,
+   "lo": -88.52989,
+   "y": "by 1955",
+   "pl": "sec. 12 T13N R16E, Fond du Lac Co.",
+   "co": "Fond du Lac",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1955 USGS topo map (Waupun 15-minute sheet) draws Elder Grove School here (school symbol, sec. 12 T13N R16E). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Waupun topographic map (1955)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Waupun 1955 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-oakview-school-s17-t13n-r15e",
+   "L": "school",
+   "n": "Oakview School site (Waupun 1955 topo)",
+   "la": 43.60449,
+   "lo": -88.72546,
+   "y": "by 1955",
+   "pl": "sec. 17 T13N R15E, Fond du Lac Co.",
+   "co": "Fond du Lac",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1955 USGS topo map (Waupun 15-minute sheet) draws Oakview School here (school symbol, sec. 17 T13N R15E). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Waupun topographic map (1955)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Waupun 1955 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-immanuel-church-s4-t12n-r15e",
+   "L": "school2",
+   "n": "Immanuel Church site (Waupun 1955 topo)",
+   "la": 43.53973,
+   "lo": -88.70833,
+   "y": "by 1955",
+   "pl": "sec. 4 T12N R15E, Dodge Co.",
+   "co": "Dodge",
+   "stt": "WI",
+   "v": "Coins, religious medals, buttons, jewelry from church socials and picnics",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1955 USGS topo map (Waupun 15-minute sheet) draws Immanuel Church here (church symbol, sec. 4 T12N R15E). No second source found yet; 8 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level church pad, fieldstone foundation corners, lilacs or old spruce, and the horse-shed line. If there is a churchyard cemetery, search only outside it. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Waupun topographic map (1955)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Waupun 1955 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  }
+ ],
+ "edit": {
+  "cem-1849986": {
+   "set": {},
+   "st": " The USGS topo map (Appleton 1955 topo) draws St. Johns Church 24 m from this cemetery; the church site is next to it, and the cemetery itself is look-only.",
+   "src": [
+    [
+     "USGS Appleton topographic map (1955)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ]
+  },
+  "vs-1576715": {
+   "set": {},
+   "st": " The USGS topo map (Rosendale 1956 topo) also draws Widmer School about 100 m from this pin, a second independent source for the site.",
+   "src": [
+    [
+     "USGS Rosendale topographic map (1956)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ]
+  }
+ }
+}
