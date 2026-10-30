@@ -1,0 +1,47 @@
+{
+ "new": [
+  {
+   "id": "cd-chippewa-falls-wigwam-pavilion-1921",
+   "L": "gather",
+   "n": "The Wigwam dance pavilion, Bay St and Grand Ave, Chippewa Falls (1921-22)",
+   "la": 44.93623,
+   "lo": -91.39457,
+   "y": "1921-1922",
+   "pl": "Bay Street and Grand Avenue, Chippewa Falls",
+   "co": "Chippewa",
+   "stt": "WI",
+   "v": "Coins, tokens, jewelry, 1920s dance-hall losses",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "The Big Four Amusement Co. opened the Wigwam, a \"new dancing pavilion on Bay street and Grand Ave.\", on 2 June 1921, with 250 to 300 couples on the floor the first night (Chippewa Herald-Telegram, 3 Jun 1921, p. 5). It was still advertising dances in 1922. The 1916 Chautauqua grounds (cd-chippewa-falls-chautauqua-1916) were a block or so away at Bay and Island streets.",
+   "t": "A Prohibition-era dance pavilion: dimes, tokens, rings and earrings dropped around the floor, the entrance and the parking ground. The corner is in town, so check what stands there now and ask the owner.",
+   "src": [
+    [
+     "Chippewa Herald-Telegram, 3 Jun 1921, p. 5 (newspapers.com image 417066356)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Pin on the Bay Street x Grand Avenue intersection; which corner the pavilion stood on isn't stated, so good to about 60 m",
+    "Unconfirmed, one source"
+   ]
+  }
+ ],
+ "edit": {
+  "ld-basswood-resort": {
+   "st": " It was called the Basswood Inn. In October 1921 it was sold to George Wolfe of Chicago, who planned a lighted bathing beach, launches and cottages (Eau Claire Leader, 26 Oct 1921, p. 10). In July 1923 officials of the Yeomen, a fraternal insurance society, used it as headquarters while scouting Long Lake for a Yeoman Home (Chippewa Herald-Telegram, 2 Jul 1923, p. 1). The 1913 plat of T32N R8W marks no resort on the lake, so the inn was probably built or renamed after 1913. The 1888 plat's \"Lake House on Long Lake\" in sec. 18 (pc88-lake-house-on-long-lake-sec-18-t32n-r8w) is a possible forerunner.",
+   "src": [
+    [
+     "Eau Claire Leader, 26 Oct 1921, p. 10 (newspapers.com image 298947073)",
+     ""
+    ],
+    [
+     "Chippewa Herald-Telegram, 2 Jul 1923, p. 1 (newspapers.com image 417078508)",
+     ""
+    ]
+   ]
+  }
+ }
+}
