@@ -4,14 +4,16 @@
 // never vanish when zoomed far in (iPhone stops drawing pictures tens of thousands of pixels wide), and nothing big is decoded at once.
 // The 1936 slider map is rebuilt from the full-size USGS scans, lightly sharpened so names are readable up close.
 // Where the tiles aren't published (the Claude atlas page), the old whole-sheet pictures stay as they were.
-var OGT={ix:null, L:{}, has(id,z,x,y){ const s=this.S[id]&&this.S[id][z]; return !!s&&s.has(x+'_'+y); }, S:{}};
+// plat book tiles (p-*, p13) live in the second repo benf05ter/gold-atlas-maps (Pages 1 GB limit); same origin on github.io, so the service worker saves them like the rest
+var OGT={ix:null, L:{}, has(id,z,x,y){ const s=this.S[id]&&this.S[id][z]; return !!s&&s.has(x+'_'+y); }, S:{},
+  u(id,z,x,y){ return (/^p(-|13$)/.test(id)?(location.hostname==='benf05ter.github.io'?'/gold-atlas-maps/ot/':'https://benf05ter.github.io/gold-atlas-maps/ot/'):'ot/')+`${id}/${z}/${x}_${y}.webp`; }};
 fetch('ot/index.json').then(r=>r.ok?r.json():null).then(ix=>{ if(!ix||!ix.o36) return; OGT.ix=ix;
   for(const id in ix){ OGT.S[id]={}; for(const z in ix[id].t) OGT.S[id][z]=new Set(ix[id].t[z]?ix[id].t[z].split(','):[]); }
   // the slider maps cover the same box: a map hidden under a fully shown one, or faded to nothing, isn't loaded at all
   const old=()=>on.has('_oldmap'), A=()=>OGT.a||[1,0];
   const SHOW={o250:old,o15:old,ogt:()=>old()&&A()[0]<1,o72:()=>old()&&A()[0]>0&&A()[1]<1,o36:()=>old()&&A()[1]>0,o19:()=>GM.type==='1800s'};
   for(const id of ['o250','o15','o19','ogt','o72','o36']){ if(!ix[id]) continue; const M=ix[id];
-    OGT.L[id]=tileLayer('t'+id,(z,x,y)=>`ot/${id}/${z}/${x}_${y}.webp`,{hd:true,minz:M.z[0],max:()=>M.z[1],has:(z,x,y)=>OGT.has(id,z,x,y),show:SHOW[id]}); }
+    OGT.L[id]=tileLayer('t'+id,(z,x,y)=>OGT.u(id,z,x,y),{hd:true,minz:M.z[0],max:()=>M.z[1],has:(z,x,y)=>OGT.has(id,z,x,y),show:SHOW[id]}); }
   // the whole-sheet pictures step aside (taken out of the page, so they never download or decode)
   for(const im of document.querySelectorAll('svg image[data-f]')){ const f=im.dataset.f; if(/^(h15_|h250_|h19_)/.test(f)||['ground-today','topo-1972','topo-1936'].includes(f)){ im.setAttribute('href','data:,'); im.remove(); } }
   ogtFade(); drawMarkers(); }).catch(()=>{});
