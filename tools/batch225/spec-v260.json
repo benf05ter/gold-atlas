@@ -1,0 +1,73 @@
+{
+ "new": [
+  {
+   "id": "cd-west-veedum-1929-fire",
+   "L": "ghost",
+   "n": "West Veedum: Reick hotel, Woodman hall and store (burned 1929)",
+   "la": 44.41,
+   "lo": -90.185,
+   "y": "c. 1900s-1929",
+   "pl": "West Veedum, on the Milwaukee Road west of Pittsville, Wood County",
+   "co": "Wood",
+   "stt": "WI",
+   "v": "Hamlet hotel, lodge hall and store sites",
+   "c": "newspaper",
+   "s": "never",
+   "p": "approx",
+   "st": "On 6-7 Oct 1929 sparks from a Milwaukee Road train set fire to West Veedum. The fire levelled four buildings south and west of the track: the old unoccupied Reick hotel and its storeroom, the one-story Woodman hall, and a machine shed. The Pittsville fire department came out (Wisconsin Rapids Daily Tribune, 7 Oct 1929, p. 1). The Veedum Moravian church stood nearby (a 1930 backfire report). This is a separate Milwaukee Road stop from the older Veedum station on the North Western (pw93 pin). The pin is a guess west of Veedum; the site needs placing on the Milwaukee Road grade. Unconfirmed, one source. Ground check (30 Oct 2026): the only railroad through the Veedum area, on both the c1893 Wood plat and the 12 Aug 1938 air photo (Wood BIL 2-26), is the diagonal North Western line through Veedum station. Today's Overture rail data shows the Milwaukee line from Babcock running north into Pittsville, with no grade west of Pittsville toward Veedum. So 'West Veedum' may be a stop on the North Western line northwest of Veedum station, and the 1929 report's 'Milwaukee Road' may be an error. The pin stays a guess until a 1920s plat or timetable names the stop.",
+   "t": "Find West Veedum on a 1910s-30s Wood plat, a 1930s topo or the 1938 air photo where the Milwaukee Road passes west of Veedum, then look for cellar holes south and west of the grade. Ask the landowner first.",
+   "src": [
+    [
+     "Wisconsin Rapids Daily Tribune, 7 Oct 1929, p. 1, \"West Veedum Fire Levels 4 Buildings\" (newspapers.com image 243421161, PC thread sweep)",
+     ""
+    ],
+    [
+     "Wisconsin Rapids Daily Tribune, 22 Sep 1930, p. 1 (newspapers.com image 243385475)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Guess near Veedum; up to about 3 km until placed on the Milwaukee Road grade.",
+    "No Milwaukee Road grade found west of Pittsville on the 1938 photo; placement unresolved"
+   ]
+  },
+  {
+   "id": "cd-veedum-moravian-church",
+   "L": "history",
+   "n": "Veedum Moravian church",
+   "la": 44.40962,
+   "lo": -90.17143,
+   "y": "by 1930",
+   "pl": "Veedum, by County Hwy E and the old North Western grade, Wood County",
+   "co": "Wood",
+   "stt": "WI",
+   "v": "Church and churchyard",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The Veedum Moravian church is named in a Sept 1930 backfire report near West Veedum (Wisconsin Rapids Daily Tribune, 22 Sep 1930, p. 1). The pin is on the church's listed location today (Overture places). Church grounds and any churchyard are look-only.",
+   "t": "LOOK ONLY. Church grounds and churchyard.",
+   "acc": [
+    "stop",
+    "Church and churchyard: look only"
+   ],
+   "src": [
+    [
+     "Wisconsin Rapids Daily Tribune, 22 Sep 1930, p. 1 (newspapers.com image 243385475, PC thread sweep)",
+     ""
+    ],
+    [
+     "Overture Maps places: Veedum Moravian Church",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "On today's church location (Overture places); the 1930 church may have stood on the same lot",
+    "Unconfirmed, one source"
+   ]
+  }
+ ],
+ "edit": {}
+}
