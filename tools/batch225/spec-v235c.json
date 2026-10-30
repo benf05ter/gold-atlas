@@ -1,0 +1,65 @@
+{
+ "new": [
+  {
+   "id": "it-houghton-1911-indian-trail",
+   "L": "history",
+   "n": "Indian Trail on the 1911 Houghton County plat (T49N R36W)",
+   "co": "Houghton",
+   "stt": "MI",
+   "pinconf": "C",
+   "l": [
+    [
+     [
+      -88.751,
+      46.664
+     ],
+     [
+      -88.751,
+      46.6576
+     ],
+     [
+      -88.772,
+      46.6433
+     ],
+     [
+      -88.7722,
+      46.6289
+     ],
+     [
+      -88.7724,
+      46.6145
+     ],
+     [
+      -88.7935,
+      46.6001
+     ],
+     [
+      -88.7935,
+      46.593
+     ]
+    ]
+   ],
+   "la": 46.6289,
+   "lo": -88.7722,
+   "pl": "T49N R36W, through secs. 12, 14, 23, 26 and 34",
+   "st": "The 1911 Houghton County plat book (scan 59, T49N R36W east half) draws an 'Indian Trail' running north-south through sections 12, 14, 23, 26 and 34. The line here joins the middles of those sections, so it can be off by up to about 400 m; the plat shows the true bends. One source.",
+   "t": "Old trails follow dry ground between waters; walk the drawn line and look for a worn bench or the line of a later road on top of it. A 'Camp' sits just west of it at SE SE sec. 15.",
+   "src": [
+    [
+     "Houghton County plat book, 1911, scan 59 (UMich, via the county-depth thread)",
+     "https://quod.lib.umich.edu/m/micounty/5117704.0001.001/"
+    ]
+   ],
+   "y": "by 1911",
+   "v": "Coins, trade silver, buttons, old trail relics",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "pinev": [
+    "Line joins the section centres; up to about 400 m off the plat bends",
+    "Unconfirmed, one source"
+   ]
+  }
+ ],
+ "edit": {}
+}
