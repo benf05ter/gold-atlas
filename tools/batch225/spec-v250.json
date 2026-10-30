@@ -1,0 +1,716 @@
+{
+ "new": [
+  {
+   "id": "ghc-sevastopol",
+   "L": "ghost",
+   "n": "Sevastopol: the log-boom saloon town above Wacouta (1856-1864)",
+   "la": 44.553,
+   "lo": -92.465,
+   "y": "1856-1864",
+   "pl": "On the river bench a short way above (northwest of) Wacouta, Wacouta township",
+   "co": "Goodhue (MN)",
+   "stt": "MN",
+   "v": "Coins, bottles, boom chain and spikes, saloon losses",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Sevastopol stood on a plateau a short way above Wacouta at the head of Lake Pepin, between towering bluffs and \"hardly accessible on any front but that of the river.\" Booms chained across one channel caught runaway logs, and men sorted about 2,500 log marks into rafts. It was platted in 1857 and lots were sold, but \"the principal places of business were saloons\"; the town was deserted each winter and died when the booms moved upriver. The plat is still on file and was never vacated, and in 1935 a dog farm stood on the site. Dead Man's Slough and Fisherman's Point were across the river.",
+   "t": "A boom camp and saloon town of 1856-64: look for lot lines and cellar holes on LiDAR first. Private land: ask first.",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Approximate: placed on the bench about 1.5 km upriver of Wacouta; the plateau and the plat are not fitted yet, so good to about 1 km",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ghc-old-wanamingo",
+   "L": "ghost",
+   "n": "Old Wanamingo: the first village (1855 to about 1903)",
+   "la": 44.3165,
+   "lo": -92.8085,
+   "y": "1855-1903",
+   "pl": "About 1 mile west of today's Wanamingo, near Wanamingo Cemetery",
+   "co": "Goodhue (MN)",
+   "stt": "MN",
+   "v": "Coins, buttons, shop and household losses",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "The first Wanamingo had a store from 1855, a post office from 1856, two blacksmith shops (Chrislock & Gunderson; C. R. Chrislock), Isaacson's cobbler shop, Munson's harness and shoe store, a school, Wm. Miller's hotel and the Dirstine store (later Serum, then Halvorson to 1899). It was doomed when the Milwaukee Land Co. platted the railroad townsite at Clark's mill, and the post office moved to the new bank. The old church stood at the cemetery near Old Wanamingo and was abandoned. The book says the old village was a mile east of the present one, but also that Clark's 1858 mill, now inside the present village, was a mile east of the old one, so the old village was probably about a mile west.",
+   "t": "Look for the old store and shop lots near the road by the cemetery. The cemetery itself is look-only. Ask the owner first.",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Approximate: placed just east of Wanamingo Cemetery, about a mile west of today's village; the book contradicts itself on the direction, so good only to about 1 km",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ghc-spencer-vasa",
+   "L": "ghost",
+   "n": "Spencer, sec. 4 Vasa: the first Vasa post office",
+   "la": 44.5361,
+   "lo": -92.74152,
+   "y": "1850s",
+   "pl": "Sec. 4, Vasa township, on the old stage route",
+   "co": "Goodhue (MN)",
+   "stt": "MN",
+   "v": "Coins, buttons, stage-road losses",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Spencer was a hamlet and the first post office in Vasa, on the stage route to Faribault and the Cannon Falls-Red Wing road. Its promoters advertised three mill sites on Belle Creek with 14, 12 and 10 ft falls. It was gone by 1935.",
+   "t": "Look for an old crossroads or mill race on Belle Creek on the 1894 plat first. Private land: ask first.",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed at the centre of sec. 4 T112N R16W (Vasa); good to about 800 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ghc-ahlers-hotel-hay-creek",
+   "L": "gather",
+   "n": "Charles Ahlers' hotel and the 1858 camp-meeting grove, Hay Creek",
+   "la": 44.49233,
+   "lo": -92.54005,
+   "y": "1856-1860s",
+   "pl": "Sec. 19, Hay Creek township, on the Red Wing road",
+   "co": "Goodhue (MN)",
+   "stt": "MN",
+   "v": "Stage-road coins, buttons, harness",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Charles Ahlers built a travelers' hotel here on the Red Wing road in spring 1856. A grove nearby held a camp meeting in 1858, and the town meeting that year was nearly empty because most people were at it. A Hay Creek hotel still served the wheat haulers in 1867. The 1894 Hay Creek post office and station pin is in the same section.",
+   "t": "Stage-road coins and the camp-meeting grove. Private land: ask first.",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed at the centre of sec. 19 T112N R14W (Hay Creek); good to about 800 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ghc-featherstone-ne-hamlet",
+   "L": "ghost",
+   "n": "Featherstone's northeast-corner hamlet: tannery, sorghum mill and trout preserve",
+   "la": 44.53489,
+   "lo": -92.55929,
+   "y": "1860s-1900s",
+   "pl": "Sec. 1 (northeast corner), Featherstone township",
+   "co": "Goodhue (MN)",
+   "stt": "MN",
+   "v": "Coins, tokens, buttons, tannery hardware",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "A small hamlet grew up in the northeast corner of Featherstone near the site of the Foot tannery (before it moved), with a sorghum mill. A trout preserve, one of the first in the state, ran in the same section, and Ezekiel Burleigh kept a tavern here briefly in 1866; its well, found by a water witch, was later on the Schwartau place.",
+   "t": "Look for the tannery, mill and tavern lots along the creek; tannery ground can hold old chemical waste. Ask the owner.",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed at the centre of sec. 1 T112N R15W, the northeast corner of Featherstone; good to about 800 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ghc-burnside-stone-cairns",
+   "L": "history",
+   "n": "Burnside stone cairns: LOOK ONLY",
+   "la": 44.555,
+   "lo": -92.605,
+   "y": "Ancient",
+   "pl": "Bluffs south of Hwy 61 between Hay Creek and Spring Creek, just west of Spring Creek, Burnside",
+   "co": "Goodhue (MN)",
+   "stt": "MN",
+   "v": "None: burial cairns, look only",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "About a dozen conical stone piles up to 12 ft across stood on these bluffs. Rev. J. F. Aiton examined them in 1851; they were built hollow and thought to be very old stone graves. Very little remained by 1935.",
+   "t": "LOOK ONLY. Probable graves.",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Approximate: placed on the bluffs south of Hwy 61 just west of Spring Creek; good to about 800 m",
+    "Unconfirmed, one source"
+   ],
+   "acc": [
+    "stop",
+    "Burial ground: look only"
+   ]
+  },
+  {
+   "id": "ghc-fort-sweney",
+   "L": "history",
+   "n": "Fort Sweney earthwork, Welch: LOOK ONLY",
+   "la": 44.5625,
+   "lo": -92.737,
+   "y": "Ancient",
+   "pl": "Terrace spur directly south of the old Great Western depot, Welch",
+   "co": "Goodhue (MN)",
+   "stt": "MN",
+   "v": "None: mounds, look only",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "On a peninsula-like spur of the terrace directly south of the Great Western depot at Welch were six mounds with pits and embankments, 46 earthworks in all. State archaeologist Brower called it the finest fortification he had seen. The plowed terrace nearby gave up 14 grinding stones.",
+   "t": "LOOK ONLY. The mounds are burials.",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Approximate: placed just south of the Welch townsite (GNIS); good to about 400 m",
+    "Unconfirmed, one source"
+   ],
+   "acc": [
+    "stop",
+    "Burial ground: look only"
+   ]
+  },
+  {
+   "id": "ghc-union-mills-florence",
+   "L": "gather",
+   "n": "Union Mills, sec. 20 Florence, on Wells Creek",
+   "la": 44.49143,
+   "lo": -92.39953,
+   "y": "1850s-1900s",
+   "pl": "Sec. 20, Florence township, on Wells Creek",
+   "co": "Goodhue (MN)",
+   "stt": "MN",
+   "v": "Coins, tokens, mill hardware, harness",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "A four-run flour mill on Wells Creek, one of 21 water mills in Goodhue County, all gone by 1935.",
+   "t": "Look for the mill seat and race on Wells Creek. Private land: ask first.",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed at the centre of sec. 20 T112N R13W (Florence); the mill seat on the creek is not fixed, so good to about 800 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ghc-wells-creek-mill",
+   "L": "gather",
+   "n": "Hawkeye (Wells Creek) mill, sec. 24 Hay Creek",
+   "la": 44.49177,
+   "lo": -92.43965,
+   "y": "1863-1900s",
+   "pl": "Sec. 24, Hay Creek township",
+   "co": "Goodhue (MN)",
+   "stt": "MN",
+   "v": "Coins, tokens, mill hardware",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Hay Creek township records an 1863 flour mill at the water power in sec. 24; Rasmussen's mill list calls the sec. 24 mill the Hawkeye mill, with three run of stone. It was gone by 1935.",
+   "t": "Look for the mill seat and race. Private land: ask first.",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed at the centre of sec. 24 T112N R14W; good to about 800 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ghc-spring-creek-mill-burnside",
+   "L": "gather",
+   "n": "Spring Creek mill, sec. 27 Burnside (1856)",
+   "la": 44.56426,
+   "lo": -92.60151,
+   "y": "1856-about 1896",
+   "pl": "Sec. 27, Burnside township, on Spring Creek",
+   "co": "Goodhue (MN)",
+   "stt": "MN",
+   "v": "Coins, tokens, mill hardware",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Sterns & Hobart built this three-run flour mill on Spring Creek in 1856, and it ran for about 40 years.",
+   "t": "Look for the mill seat and race on Spring Creek. Private land: ask first.",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed at the centre of sec. 27 T113N R15W; good to about 800 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ghc-roscoe-mill",
+   "L": "gather",
+   "n": "Mill in sec. 26, Roscoe township",
+   "la": 44.21692,
+   "lo": -92.70057,
+   "y": "1850s-1900s",
+   "pl": "Sec. 26, Roscoe township",
+   "co": "Goodhue (MN)",
+   "stt": "MN",
+   "v": "Coins, tokens, mill hardware",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "A two-run flour mill, one of 21 water mills in Goodhue County, all gone by 1935.",
+   "t": "Find the mill seat on the creek in the section first. Private land: ask first.",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed at the centre of sec. 26 T109N R16W; good to about 800 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ghc-gaylord-mill",
+   "L": "gather",
+   "n": "Gaylord mill and the German Methodist church, Belvidere",
+   "la": 44.44858,
+   "lo": -92.48017,
+   "y": "1862-1933",
+   "pl": "Sec. 3, Belvidere township, on Wells Creek",
+   "co": "Goodhue (MN)",
+   "stt": "MN",
+   "v": "Coins, mill hardware, church-social losses",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "A log German Methodist church was built in 1862 near the Gaylord mill (N. B. Gaylord was an early town officer); a frame church in sec. 3 replaced it and was used until 1933, then torn down.",
+   "t": "Church ground may hold burials: look before you hunt and stay off any graves. Private land: ask first.",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed at the centre of sec. 3 T111N R14W; good to about 800 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ghc-cannon-falls-emigrant-camp",
+   "L": "gather",
+   "n": "Emigrant camping flat, Cannon Falls (1850s)",
+   "la": 44.5045,
+   "lo": -92.905,
+   "y": "1850s",
+   "pl": "The flat south of the Hwy 19 dike at the Cannon River crossing, Cannon Falls",
+   "co": "Goodhue (MN)",
+   "stt": "MN",
+   "v": "Coins, buttons, ox shoes, camp losses",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Hundreds of ox-team families passed through Cannon Falls to St. Paul in the 1850s, and their favorite camping place was the flat south of the dike that Hwy 19 runs over. Hugh Montgomery's first lime kiln stood a short distance east of Spring Garden Hill (Point Lookout addition, 1855).",
+   "t": "Look on any unbuilt part of the flat. City land needs a permit; ask the owner otherwise.",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Approximate: placed south of the Cannon River crossing in town; the dike is not fixed yet, so good to about 400 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ghc-free-methodist-cannon-falls",
+   "L": "school2",
+   "n": "Free Methodist church site, sec. 31 Cannon Falls township",
+   "la": 44.46377,
+   "lo": -92.90339,
+   "y": "Early days",
+   "pl": "Sec. 31, Cannon Falls township",
+   "co": "Goodhue (MN)",
+   "stt": "MN",
+   "v": "Coins, religious medals, buttons",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "A Free Methodist church met here for a number of years in the early days.",
+   "t": "Church ground may hold burials: look first and stay off any graves. Ask the owner.",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed at the centre of sec. 31 T112N R17W; good to about 800 m",
+    "Unconfirmed, one source"
+   ]
+  }
+ ],
+ "edit": {
+  "vs-2064876": {
+   "st": " Rasmussen (1935): Hader, Wanamingo township, was platted with 122 blocks and one block saved for a county court house that never came; the plat was never vacated (Rasmussen 1935 p 65). Wheat haulers from Holden went 'by way of Hader' and camped overnight by the 'thirteen mile post on the Hader and Red Wing road' (p 56). In 1935 Hader was the junction of highways 52 and 57.",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ],
+   "set": {
+    "pinconf": "B",
+    "pinev": [
+     "Pin is the GNIS point",
+     "Two sources: GNIS and Rasmussen (1935)"
+    ]
+   }
+  },
+  "vs-2064881": {
+   "st": " Rasmussen (1935): Fairpoint, southern Cherry Grove township, was platted in 1857 with a post office and several buildings; 'both village and post office have long since disappeared' (Rasmussen 1935 p 140). Cherry Grove also had early post offices at Ayr and Spring Creek, both closed.",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ],
+   "set": {
+    "pinconf": "B",
+    "pinev": [
+     "Pin is the GNIS point",
+     "Two sources: GNIS and Rasmussen (1935)"
+    ]
+   }
+  },
+  "vs-2064853": {
+   "st": " Rasmussen (1935): Skyberg, a hamlet on the south border of Kenyon township named for S. O. Skyberg, was a station on the Great Western 'Milk Shake' train that carried milk to the Twin Cities every morning; its plat was never vacated (Rasmussen 1935 pp 65, 163).",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ],
+   "set": {
+    "pinconf": "B",
+    "pinev": [
+     "Pin is the GNIS point",
+     "Two sources: GNIS and Rasmussen (1935)"
+    ]
+   }
+  },
+  "vs-2064855": {
+   "st": " Rasmussen (1935): Wastedo, in Leon township, was one of three 1856 town attempts 'all of which have long since passed into oblivion' (Rasmussen 1935 p 65).",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ],
+   "set": {
+    "pinconf": "B",
+    "pinev": [
+     "Pin is the GNIS point",
+     "Two sources: GNIS and Rasmussen (1935)"
+    ]
+   }
+  },
+  "vs-2064863": {
+   "st": " Rasmussen (1935): Ryan post office was on the stage route from Red Wing to Kenyon, Belle Creek township; long discontinued by 1935 (Rasmussen 1935 p 122).",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ],
+   "set": {
+    "pinconf": "B",
+    "pinev": [
+     "Pin is the GNIS point",
+     "Two sources: GNIS and Rasmussen (1935)"
+    ]
+   }
+  },
+  "vs-2064870": {
+   "st": " Rasmussen (1935): White Willow post office, northern Zumbrota township, ran for many years until rural delivery; 'near by, a tavern was conducted in the early days by John Gamble' (Rasmussen 1935 p 216).",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ],
+   "set": {
+    "pinconf": "B",
+    "pinev": [
+     "Pin is the GNIS point",
+     "Two sources: GNIS and Rasmussen (1935)"
+    ]
+   }
+  },
+  "vs-2064868": {
+   "st": " Rasmussen (1935): Holden township's first post office was Norway (1857, on the 1856 state road); later offices at Holden, Nansen and Ejidsvold (Eidsvold) were in general stores, all closed for rural delivery (Rasmussen 1935 p 160).",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ],
+   "set": {
+    "pinconf": "B",
+    "pinev": [
+     "Pin is the GNIS point",
+     "Two sources: GNIS and Rasmussen (1935)"
+    ]
+   }
+  },
+  "vs-2064864": {
+   "st": " Rasmussen (1935): the village of Roscoe was platted in 1856 with blocks and streets, a hotel and a post office; the 1857 crash closed the store and the town was abandoned; plat never vacated (Rasmussen 1935 pp 65, 189). The first church met in the Roscoe schoolhouse in 1857. The GNIS 'Roscoe Center' post office may be the later office, so check the 1856 plat position.",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ]
+  },
+  "vs-2064893": {
+   "st": " Rasmussen (1935): Belvidere Mills, northern Belvidere township, had a general store, a cheese factory and a community hall in 1935; post office closed. The Belvidere mill on Wells Creek ran two pair of stones (gone by 1935). Belvidere was first called York, then Elmira; an 1856 town attempt called Elmira is listed among the county's 'forgotten cities'. Thoten post office (location not given) was also in Belvidere. (Rasmussen 1935 pp 62, 65, 125, 233)",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ]
+  },
+  "vs-2064895": {
+   "st": " Rasmussen (1935): Belle Creek post office was at Rev. S. P. Chandler's house, which he opened as an overnight stop for settlers hauling wheat to Red Wing. Belle Creek township also had Burr Oak post office (1854-55, H. M. Doyle, on the St. Paul-Dubuque stage road; Doyle's house was the stage's all-night stop and hosted Gov. Ramsey, Gen. Sibley and Hole-in-the-Day with 26 Chippewa chiefs) and Troy City, platted 1856 by James Allen with one store (Jesse Johnson), vacated after 1857. Places not given. (Rasmussen 1935 pp 121-122)",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ]
+  },
+  "vs-2064886": {
+   "st": " Rasmussen (1935): the Claybank Cash Store was built in 1889 by Henry Holst, the first station agent and postmaster, and named for the pottery clay; later owners Diercks, Santleman and Edmund W. Berg. Goodhue township's clay bed was found by farmer John Paul, who made crocks, flower pots and small statues in a turf-covered kiln: the start of Red Wing's stoneware and sewer-pipe industry. Clay was still dug near the center of the township in 1935 and shipped to Red Wing. (Rasmussen 1935 pp 152, 326)",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ]
+  },
+  "vs-2064896": {
+   "st": " Rasmussen (1935): Bellechester had extensive clay digging, discontinued by 1935; Catholic church 1865 (Rasmussen 1935 p 125).",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ]
+  },
+  "pgo94-red-wing-stoneware-co-clay-works": {
+   "st": " Rasmussen (1935): the clay was first worked by farmer John Paul in a small turf-covered plant (crocks, flower pots, small statues); 'from this beginning grew the extensive stoneware and sewer pipe industries established in Red Wing'. Digging still went on in 1935 (Rasmussen 1935 p 152).",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ]
+  },
+  "pgo94-site-of-old-stanton": {
+   "st": " Rasmussen (1935): Stanton and Cascade, both in Stanton township, were town attempts whose plats were never vacated (Rasmussen 1935 p 65). The Cascade mill on the Cannon had three run of stone (p 233).",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ]
+  },
+  "pgo94-cascade-cannon-river-mill-village": {
+   "st": " Rasmussen (1935): Cascade's town plat was never vacated (Rasmussen 1935 p 65); the Cascade mill ran three pair of stones and was gone by 1935 (p 233).",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ]
+  },
+  "pgo94-flour-mill-hay-creek-sec-12": {
+   "st": " Rasmussen (1935): this is the Valley mill, sec. 12 Hay Creek, three run of stone; gone by 1935 (Rasmussen 1935 p 233). The Hawkeye mill (sec. 24, three run) and the City mills (sec. 36 Red Wing) were also on Hay Creek.",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ]
+  },
+  "pgo94-hay-creek-p-o-and-station": {
+   "st": " Rasmussen (1935): Hay Creek had a hotel used by ox-team wheat haulers in 1867 (Rasmussen 1935 p 56); Ahlers hotel 1856 in sec. 19.",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ]
+  },
+  "rv12-mn-wacouta": {
+   "st": " Rasmussen (1935): Wacouta village was platted in the early 1850s and hoped to be a city at the head of Lake Pepin; hotels by J. V. Smith (1854), Daniel Saunders (1854) and Bullard (1857); then 'one by one the buildings were removed elsewhere or torn down'. The old village site became the summer cottages of Wacouta Heights (about 1910); Presbyterian Point and Wacouta Beach colonies below. Sevastopol (see ghc-sevastopol) lay just above. (Rasmussen 1935 pp 197-198)",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ]
+  },
+  "fr-rest-island-inebriate-home-1891": {
+   "st": " Rasmussen (1935): Rest Island was a town attempt 'succeeding Central Point' (Rasmussen 1935 p 65); John G. Woolley's effort there in the early 1890s was abandoned after a few years (p 137).",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ]
+  },
+  "ob-frontenac-sandy-point": {
+   "st": " Rasmussen (1935): Fort Beauharnois (1727) stood on Pointe au Sable a short way below Frontenac; partly abandoned Oct 1728, wholly 1729. In the early 1730s Sieur de Linctot built a larger fort 'on higher ground beyond the reach of the water, a few hundred feet back', believed to be the site of the Ursuline convent (the second-growth timber showed an old clearing). Burned by its own garrison 13 May 1737; re-established by Marin 1750; abandoned 1755, the last French fort on the upper Mississippi. (Rasmussen 1935 pp 45-48)",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ]
+  },
+  "pgo94-ursuline-convent-frontenac": {
+   "st": " Rasmussen (1935): the convent (Villa Maria) is believed to stand on the site of the second Fort Beauharnois (de Linctot, early 1730s), on higher ground a few hundred feet back from the 1727 fort on Pointe au Sable (Rasmussen 1935 p 48; Villa Maria sketch p 336).",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ]
+  },
+  "fr-st-hubert-s-lodge-and-garrard-estate-front": {
+   "st": " Rasmussen (1935): James 'Bully' Wells traded at the site of Frontenac from 1839 in two unfinished stone buildings ringed by his Dakota wife's relatives' tipis; the first white residents on the lake 'probably on the terrace overlooking the lake near the later home of Gen. Garrard'. He sold in 1854 to Everett Westervelt, who laid out a town called Westervelt (renamed Frontenac 1859). A sawmill (1856) stood just above the point where the Frontenac Inn stands, with a stone quarry. The Moccasin Inn was the old parsonage of a burned church. (Rasmussen 1935 pp 37, 146-148)",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ]
+  },
+  "pgo94-site-of-florence-lake-pepin": {
+   "st": " Rasmussen (1935): A. M. C. Johnston settled in 1856 on the site of what became Florence village; Aaron Hudson kept the only store; the Florence Hotel was a polling place in 1856; the Union mills (four run) stood on Wells Creek in sec. 20 (Rasmussen 1935 pp 71, 147-148, 233).",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ]
+  },
+  "fur-sturgeon-lake-stockade": {
+   "st": " Rasmussen (1935): same T. H. Lewis palisade (four 10 x 20 ft buildings, stone fireplaces, wrought nails, two silver crosses) on the Kuhns farm, Sturgeon Lake shore, Prairie Island (Rasmussen 1935 pp 42-43).",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ]
+  },
+  "hist-33": {
+   "st": " Rasmussen (1935): the Oxford mill on the Little Cannon ran four pair of stones; one of 21 county water mills, all gone by 1935 (Rasmussen 1935 p 233).",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ]
+  },
+  "fur-fort-le-sueur": {
+   "st": " Rasmussen (1935): on Prairie Island, along the Sturgeon Lake shore, the W. A. Kuhns and Irving Johnson farms turned up clay fireplaces and parts of old kilns in early settlement days; T. H. Lewis about 1885 found a palisaded work by a mound with four buildings in a row (each 10 x 20 ft, on stone footings, four stone fireplaces); wrought nails and two silver crosses came from the site. Le Sueur's post is dated 1695. Reservation land: look-only. (Rasmussen 1935 pp 40-43)",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ],
+   "t": " Prairie Island reservation land: look only."
+  },
+  "vs-2064877": {
+   "st": " Rasmussen (1935): Forest Mills, Zumbrota township, had a big flour mill built 1865 about 2 mi below Zumbrota on the Zumbro; 250 barrels a day, 200 hp wood-fired engine; flour hauled to Red Wing every Thursday by about 30 teams; a large horse market grew up there (horses from as far as Texas); two streets of homes, a store, cooper shop, sash and door factory, harness shop. The company pushed a narrow-gauge railroad toward Wabasha, went insolvent, and the settlement 'dwindled away and almost wholly disappeared'. 'All that remains today to mark the mill is one of the old stones on the bank of the Zumbro.' Plat never vacated. Mill had 5 run of stone. (pp. 65, 213).",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ],
+   "set": {
+    "n": "Forest Mills: the 1865 flour mill and horse-market village",
+    "pinconf": "B",
+    "pinev": [
+     "Pin is the GNIS post office point",
+     "Two sources: GNIS and Rasmussen (1935)"
+    ]
+   }
+  },
+  "pgo94-mill-on-hay-creek": {
+   "st": " Rasmussen (1935, pp. 156-157): this sec. 18 mill matches Hack & Meyer's mill, built about 1865. The 1863 mill at the sec. 24 water power is a separate pin.",
+   "src": [
+    [
+     "Rasmussen, History of Goodhue County, Minnesota (1935), your screenshots",
+     ""
+    ]
+   ]
+  }
+ }
+}
