@@ -1,0 +1,1026 @@
+{
+ "new": [
+  {
+   "id": "ot-birchwood-school-s16-t31n-r2e",
+   "L": "school",
+   "n": "Birchwood School site (Athens 1951 topo)",
+   "la": 45.16727,
+   "lo": -90.23026,
+   "y": "by 1951",
+   "pl": "sec. 16 T31N R2E, Taylor Co.",
+   "co": "Taylor",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1951 USGS topo map (Athens 15-minute sheet) draws Birchwood School here (school symbol, sec. 16 T31N R2E). No second source found yet; 5 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Athens topographic map (1951)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Athens 1951 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-flat-meadow-school-s11-t30n-r2e",
+   "L": "school",
+   "n": "Flat Meadow School site (Athens 1951 topo)",
+   "la": 45.10543,
+   "lo": -90.22851,
+   "y": "by 1951",
+   "pl": "sec. 11 T30N R2E, Taylor Co.",
+   "co": "Taylor",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1951 USGS topo map (Athens 15-minute sheet) draws Flat Meadow School here (school symbol, sec. 11 T30N R2E). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Athens topographic map (1951)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Athens 1951 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-gad-school-s5-t30n-r3e",
+   "L": "school",
+   "n": "Gad School site (Athens 1951 topo)",
+   "la": 45.12,
+   "lo": -90.18034,
+   "y": "by 1951",
+   "pl": "sec. 5 T30N R3E, Taylor Co.",
+   "co": "Taylor",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1951 USGS topo map (Athens 15-minute sheet) draws Gad School here (school symbol, sec. 5 T30N R3E). No second source found yet; 3 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Athens topographic map (1951)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Athens 1951 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-baldwin-hill-school-s5-t30n-r4e",
+   "L": "school",
+   "n": "Baldwin Hill School site (Athens 1951 topo)",
+   "la": 45.10576,
+   "lo": -90.0649,
+   "y": "by 1951",
+   "pl": "sec. 5 T30N R4E, Marathon Co.",
+   "co": "Marathon",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1951 USGS topo map (Athens 15-minute sheet) draws Baldwin Hill School here, marked \"(Abandoned)\" (school symbol, sec. 5 T30N R4E). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Athens topographic map (1951)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Athens 1951 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-wells-school-s17-t30n-r4e",
+   "L": "school",
+   "n": "Wells School site (Athens 1951 topo)",
+   "la": 45.07708,
+   "lo": -90.05562,
+   "y": "by 1951",
+   "pl": "sec. 17 T30N R4E, Marathon Co.",
+   "co": "Marathon",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1951 USGS topo map (Athens 15-minute sheet) draws Wells School here (school symbol, sec. 17 T30N R4E). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Athens topographic map (1951)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Athens 1951 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-van-buren-school-s27-t30n-r3e",
+   "L": "school",
+   "n": "Van Buren School site (Athens 1951 topo)",
+   "la": 45.0617,
+   "lo": -90.13877,
+   "y": "by 1951",
+   "pl": "sec. 27 T30N R3E, Marathon Co.",
+   "co": "Marathon",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1951 USGS topo map (Athens 15-minute sheet) draws Van Buren School here, marked \"(Abandoned)\" (school symbol, sec. 27 T30N R3E). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Athens topographic map (1951)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Athens 1951 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-fairview-school-s29-t30n-r4e",
+   "L": "school",
+   "n": "Fairview School site (Athens 1951 topo)",
+   "la": 45.04808,
+   "lo": -90.04629,
+   "y": "by 1951",
+   "pl": "sec. 29 T30N R4E, Marathon Co.",
+   "co": "Marathon",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1951 USGS topo map (Athens 15-minute sheet) draws Fairview School here (school symbol, sec. 29 T30N R4E). No second source found yet; 3 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Athens topographic map (1951)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Athens 1951 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-ladd-school-s11-t29n-r3e",
+   "L": "school",
+   "n": "Ladd School site (Athens 1951 topo)",
+   "la": 45.00428,
+   "lo": -90.09868,
+   "y": "by 1951",
+   "pl": "sec. 11 T29N R3E, Marathon Co.",
+   "co": "Marathon",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1951 USGS topo map (Athens 15-minute sheet) draws Ladd School here (school symbol, sec. 11 T29N R3E). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Athens topographic map (1951)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Athens 1951 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-kinnamon-school-s21-t40n-r8w",
+   "L": "school",
+   "n": "Kinnamon School site (Couderay 1944 topo)",
+   "la": 45.94129,
+   "lo": -91.37601,
+   "y": "by 1944",
+   "pl": "sec. 21 T40N R8W, Sawyer Co.",
+   "co": "Sawyer",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1944 USGS topo map (Couderay 15-minute sheet) draws Kinnamon School here (school symbol, sec. 21 T40N R8W). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Couderay topographic map (1944)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Couderay 1944 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-boylan-school-s33-t40n-r9w",
+   "L": "school",
+   "n": "Boylan School site (Couderay 1944 topo)",
+   "la": 45.90727,
+   "lo": -91.49925,
+   "y": "by 1944",
+   "pl": "sec. 33 T40N R9W, Washburn Co.",
+   "co": "Washburn",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1944 USGS topo map (Couderay 15-minute sheet) draws Boylan School here (school symbol, sec. 33 T40N R9W). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Couderay topographic map (1944)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Couderay 1944 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-wild-rose-school-s3-t24n-r1w",
+   "L": "school",
+   "n": "Wild Rose School site (Granton 1954 topo)",
+   "la": 44.58247,
+   "lo": -90.49642,
+   "y": "by 1954",
+   "pl": "sec. 3 T24N R1W, Clark Co.",
+   "co": "Clark",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1954 USGS topo map (Granton 15-minute sheet) draws Wild Rose School here (school symbol, sec. 3 T24N R1W). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Granton topographic map (1954)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Granton 1954 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-roder-school-s14-t24n-r1w",
+   "L": "school",
+   "n": "Roder School site (Granton 1954 topo)",
+   "la": 44.55807,
+   "lo": -90.45717,
+   "y": "by 1954",
+   "pl": "sec. 14 T24N R1W, Clark Co.",
+   "co": "Clark",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1954 USGS topo map (Granton 15-minute sheet) draws Roder School here (school symbol, sec. 14 T24N R1W). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Granton topographic map (1954)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Granton 1954 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-grace-church-s26-t32n-r5e",
+   "L": "school2",
+   "n": "Grace Church site (Hamburg 1951 topo)",
+   "la": 45.23371,
+   "lo": -89.82687,
+   "y": "by 1951",
+   "pl": "sec. 26 T32N R5E, Lincoln Co.",
+   "co": "Lincoln",
+   "stt": "WI",
+   "v": "Coins, religious medals, buttons, jewelry from church socials and picnics",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1951 USGS topo map (Hamburg 15-minute sheet) draws Grace Church here (church symbol, sec. 26 T32N R5E). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level church pad, fieldstone foundation corners, lilacs or old spruce, and the horse-shed line. If there is a churchyard cemetery, search only outside it. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Hamburg topographic map (1951)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Hamburg 1951 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-emory-school-s24-t30n-r4e",
+   "L": "school",
+   "n": "Emory School site (Hamburg 1951 topo)",
+   "la": 45.07241,
+   "lo": -89.97469,
+   "y": "by 1951",
+   "pl": "sec. 24 T30N R4E, Marathon Co.",
+   "co": "Marathon",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1951 USGS topo map (Hamburg 15-minute sheet) draws Emory School here (school symbol, sec. 24 T30N R4E). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Hamburg topographic map (1951)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Hamburg 1951 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-st-pauls-church-s17-t30n-r5e",
+   "L": "school2",
+   "n": "St. Pauls Church site (Hamburg 1951 topo)",
+   "la": 45.0878,
+   "lo": -89.92687,
+   "y": "by 1951",
+   "pl": "sec. 17 T30N R5E, Marathon Co.",
+   "co": "Marathon",
+   "stt": "WI",
+   "v": "Coins, religious medals, buttons, jewelry from church socials and picnics",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1951 USGS topo map (Hamburg 15-minute sheet) draws St. Pauls Church here (church symbol, sec. 17 T30N R5E). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level church pad, fieldstone foundation corners, lilacs or old spruce, and the horse-shed line. If there is a churchyard cemetery, search only outside it. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Hamburg topographic map (1951)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Hamburg 1951 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-thayer-school-s32-t30n-r5e",
+   "L": "school",
+   "n": "Thayer School site (Hamburg 1951 topo)",
+   "la": 45.04558,
+   "lo": -89.93181,
+   "y": "by 1951",
+   "pl": "sec. 32 T30N R5E, Marathon Co.",
+   "co": "Marathon",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1951 USGS topo map (Hamburg 15-minute sheet) draws Thayer School here (school symbol, sec. 32 T30N R5E). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Hamburg topographic map (1951)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Hamburg 1951 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-salem-church-s33-t30n-r5e",
+   "L": "school2",
+   "n": "Salem Church site (Hamburg 1951 topo)",
+   "la": 45.04724,
+   "lo": -89.92578,
+   "y": "by 1951",
+   "pl": "sec. 33 T30N R5E, Marathon Co.",
+   "co": "Marathon",
+   "stt": "WI",
+   "v": "Coins, religious medals, buttons, jewelry from church socials and picnics",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1951 USGS topo map (Hamburg 15-minute sheet) draws Salem Church here (church symbol, sec. 33 T30N R5E). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level church pad, fieldstone foundation corners, lilacs or old spruce, and the horse-shed line. If there is a churchyard cemetery, search only outside it. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Hamburg topographic map (1951)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Hamburg 1951 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-zion-church-s12-t29n-r5e",
+   "L": "school2",
+   "n": "Zion Church site (Hamburg 1951 topo)",
+   "la": 45.01036,
+   "lo": -89.84478,
+   "y": "by 1951",
+   "pl": "sec. 12 T29N R5E, Marathon Co.",
+   "co": "Marathon",
+   "stt": "WI",
+   "v": "Coins, religious medals, buttons, jewelry from church socials and picnics",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1951 USGS topo map (Hamburg 15-minute sheet) draws Zion Church here (church symbol, sec. 12 T29N R5E). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level church pad, fieldstone foundation corners, lilacs or old spruce, and the horse-shed line. If there is a churchyard cemetery, search only outside it. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Hamburg topographic map (1951)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Hamburg 1951 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-moro-school-s8-t40n-r15w",
+   "L": "school",
+   "n": "Moro School site (Hertel 1949 topo)",
+   "la": 45.96713,
+   "lo": -92.24983,
+   "y": "by 1949",
+   "pl": "sec. 8 T40N R15W, Burnett Co.",
+   "co": "Burnett",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1949 USGS topo map (Hertel 15-minute sheet) draws Moro School here (school symbol, sec. 8 T40N R15W). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Hertel topographic map (1949)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Hertel 1949 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-hillside-school-s23-t29n-r5e",
+   "L": "school",
+   "n": "Hillside School site (Marathon 1953 topo)",
+   "la": 44.97392,
+   "lo": -89.87839,
+   "y": "by 1953",
+   "pl": "sec. 23 T29N R5E, Marathon Co.",
+   "co": "Marathon",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1953 USGS topo map (Marathon 15-minute sheet) draws Hillside School here (school symbol, sec. 23 T29N R5E). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Marathon topographic map (1953)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Marathon 1953 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-rib-falls-church-s13-t29n-r5e",
+   "L": "school2",
+   "n": "Rib Falls Church site (Marathon 1953 topo)",
+   "la": 44.98809,
+   "lo": -89.84993,
+   "y": "by 1953",
+   "pl": "sec. 13 T29N R5E, Marathon Co.",
+   "co": "Marathon",
+   "stt": "WI",
+   "v": "Coins, religious medals, buttons, jewelry from church socials and picnics",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1953 USGS topo map (Marathon 15-minute sheet) draws Rib Falls Church here (church symbol, sec. 13 T29N R5E). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level church pad, fieldstone foundation corners, lilacs or old spruce, and the horse-shed line. If there is a churchyard cemetery, search only outside it. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Marathon topographic map (1953)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Marathon 1953 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-trinity-church-s21-t29n-r6e",
+   "L": "school2",
+   "n": "Trinity Church site (Marathon 1953 topo)",
+   "la": 44.97631,
+   "lo": -89.78919,
+   "y": "by 1953",
+   "pl": "sec. 21 T29N R6E, Marathon Co.",
+   "co": "Marathon",
+   "stt": "WI",
+   "v": "Coins, religious medals, buttons, jewelry from church socials and picnics",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1953 USGS topo map (Marathon 15-minute sheet) draws Trinity Church here (church symbol, sec. 21 T29N R6E). No second source found yet; 3 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level church pad, fieldstone foundation corners, lilacs or old spruce, and the horse-shed line. If there is a churchyard cemetery, search only outside it. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Marathon topographic map (1953)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Marathon 1953 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-anderson-school-s8-t31n-r1e",
+   "L": "school",
+   "n": "Anderson School site (Medford 1951 topo)",
+   "la": 45.1909,
+   "lo": -90.37408,
+   "y": "by 1951",
+   "pl": "sec. 8 T31N R1E, Taylor Co.",
+   "co": "Taylor",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1951 USGS topo map (Medford 15-minute sheet) draws Anderson School here (school symbol, sec. 8 T31N R1E). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Medford topographic map (1951)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Medford 1951 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-st-paul-church-s21-t20n-r4e",
+   "L": "school2",
+   "n": "St. Paul Church site (Necedah 1958 topo)",
+   "la": 44.19805,
+   "lo": -90.02637,
+   "y": "by 1958",
+   "pl": "sec. 21 T20N R4E, Juneau Co.",
+   "co": "Juneau",
+   "stt": "WI",
+   "v": "Coins, religious medals, buttons, jewelry from church socials and picnics",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1958 USGS topo map (Necedah 15-minute sheet) draws St. Paul Church here (church symbol, sec. 21 T20N R4E). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level church pad, fieldstone foundation corners, lilacs or old spruce, and the horse-shed line. If there is a churchyard cemetery, search only outside it. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Necedah topographic map (1958)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Necedah 1958 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-norlin-school-s14-t34n-r2e",
+   "L": "school",
+   "n": "Norlin School site (Rib Lake 1945 topo)",
+   "la": 45.42584,
+   "lo": -90.18646,
+   "y": "by 1945",
+   "pl": "sec. 14 T34N R2E, Price Co.",
+   "co": "Price",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1945 USGS topo map (Rib Lake 15-minute sheet) draws Norlin School here (school symbol, sec. 14 T34N R2E). No second source found yet; 5 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Rib Lake topographic map (1945)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Rib Lake 1945 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-farrell-school-s17-t28n-r4e",
+   "L": "school",
+   "n": "Farrell School site (Stratford 1953 topo)",
+   "la": 44.90266,
+   "lo": -90.06463,
+   "y": "by 1953",
+   "pl": "sec. 17 T28N R4E, Marathon Co.",
+   "co": "Marathon",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1953 USGS topo map (Stratford 15-minute sheet) draws Farrell School here (school symbol, sec. 17 T28N R4E). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Stratford topographic map (1953)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Stratford 1953 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-upham-school-s28-t28n-r3e",
+   "L": "school",
+   "n": "Upham School site (Stratford 1953 topo)",
+   "la": 44.87354,
+   "lo": -90.13987,
+   "y": "by 1953",
+   "pl": "sec. 28 T28N R3E, Marathon Co.",
+   "co": "Marathon",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1953 USGS topo map (Stratford 15-minute sheet) draws Upham School here (school symbol, sec. 28 T28N R3E). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Stratford topographic map (1953)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Stratford 1953 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-lindbergh-school-s9-t27n-r3e",
+   "L": "school",
+   "n": "Lindbergh School site (Stratford 1953 topo)",
+   "la": 44.84255,
+   "lo": -90.14997,
+   "y": "by 1953",
+   "pl": "sec. 9 T27N R3E, Marathon Co.",
+   "co": "Marathon",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1953 USGS topo map (Stratford 15-minute sheet) draws Lindbergh School here (school symbol, sec. 9 T27N R3E). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Stratford topographic map (1953)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Stratford 1953 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-drake-school-s14-t27n-r3e",
+   "L": "school",
+   "n": "Drake School site (Stratford 1953 topo)",
+   "la": 44.82295,
+   "lo": -90.11886,
+   "y": "by 1953",
+   "pl": "sec. 14 T27N R3E, Marathon Co.",
+   "co": "Marathon",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1953 USGS topo map (Stratford 15-minute sheet) draws Drake School here (school symbol, sec. 14 T27N R3E). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Stratford topographic map (1953)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Stratford 1953 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-st-paul-church-s4-t26n-r4e",
+   "L": "school2",
+   "n": "St. Paul Church site (Stratford 1953 topo)",
+   "la": 44.7581,
+   "lo": -90.04353,
+   "y": "by 1953",
+   "pl": "sec. 4 T26N R4E, Marathon Co.",
+   "co": "Marathon",
+   "stt": "WI",
+   "v": "Coins, religious medals, buttons, jewelry from church socials and picnics",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1953 USGS topo map (Stratford 15-minute sheet) draws St. Paul Church here (church symbol, sec. 4 T26N R4E). No second source found yet; 3 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level church pad, fieldstone foundation corners, lilacs or old spruce, and the horse-shed line. If there is a churchyard cemetery, search only outside it. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Stratford topographic map (1953)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Stratford 1953 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  }
+ ],
+ "edit": {
+  "cem-1833667": {
+   "set": {},
+   "st": " The Athens 1951 USGS topo: the topo draws St. Peter Church beside this cemetery (49 m), at 45.24871, -90.16751.",
+   "src": [
+    [
+     "USGS Athens topographic map (1951)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ]
+  },
+  "cem-1573616": {
+   "set": {},
+   "st": " The Granton 1954 USGS topo: the topo draws Salem Church beside this cemetery (51 m), at 44.71398, -90.37647.",
+   "src": [
+    [
+     "USGS Granton topographic map (1954)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ]
+  },
+  "pbu15-cemetery-sec-12-t38n-r15w": {
+   "set": {},
+   "st": " The Hertel 1949 USGS topo: the topo draws Evangelical Church beside this cemetery (4 m), at 45.78416, -92.155.",
+   "src": [
+    [
+     "USGS Hertel topographic map (1949)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ]
+  },
+  "cem-1568952": {
+   "set": {},
+   "st": " The River Falls 1946 USGS topo: the topo draws Mann Valley Church beside this cemetery (109 m), at 44.85939, -92.71661.",
+   "src": [
+    [
+     "USGS River Falls topographic map (1946)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ]
+  },
+  "cem-1571422": {
+   "set": {},
+   "st": " The Granton 1954 USGS topo: the topo draws Pine Circle School beside this cemetery (46 m), at 44.61264, -90.37713.",
+   "src": [
+    [
+     "USGS Granton topographic map (1954)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ]
+  },
+  "pbu15-north-dewey-school": {
+   "set": {},
+   "st": " The Hertel 1949 USGS topo: the topo draws North Dewey School 355 m from this plat spot, at 45.79845, -92.0484.",
+   "src": [
+    [
+     "USGS Hertel topographic map (1949)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ]
+  },
+  "plc06-victory-school": {
+   "set": {},
+   "st": " The La Crosse 1927 USGS topo: the topo draws Victory School 615 m from this plat spot, at 43.75477, -91.0115.",
+   "src": [
+    [
+     "USGS La Crosse topographic map (1927)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ]
+  },
+  "pli02-schoolhouse-sec-12-t31n-r5e": {
+   "set": {},
+   "st": " The Hamburg 1951 USGS topo: the topo draws Farming Dale School 736 m from this plat spot, at 45.18622, -89.81778.",
+   "src": [
+    [
+     "USGS Hamburg topographic map (1951)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ]
+  },
+  "pmo97-church-sec-26-t19n-r1w": {
+   "set": {},
+   "st": " The Wyeville 1958 USGS topo: the topo draws St. Marks Church 440 m from this plat spot, at 44.10235, -90.45469.",
+   "src": [
+    [
+     "USGS Wyeville topographic map (1958)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ]
+  },
+  "lch-1566572": {
+   "set": {},
+   "st": " Find a Grave: this was St. John's Lutheran Cemetery and \"the church is gone\"; it sits at Boss Rd and Cemetery Rd, Town of Holton (https://www.findagrave.com/cemetery/ search Christ Lutheran Cemetery, Abbotsford). A second source that a church stood here.",
+   "src": [
+    [
+     "Find a Grave (read on the PC thread)",
+     "https://www.findagrave.com/"
+    ]
+   ]
+  },
+  "lch-1569384": {
+   "set": {},
+   "st": " Find a Grave: the cemetery of the German Methodist Church in the Town of Corning, built around 1860 and disbanded before 1930 (https://www.findagrave.com/cemetery/88438/methodist-cemetery). A second source that a church stood here.",
+   "src": [
+    [
+     "Find a Grave (read on the PC thread)",
+     "https://www.findagrave.com/"
+    ]
+   ]
+  },
+  "lch-2795392": {
+   "set": {},
+   "st": " Find a Grave: German Trinity Church was founded in 1857 and merged with Saint Peter's in 1875; the Washington County Historical Society marked the old cemetery in 1989 (https://www.findagrave.com/cemetery/2449841/german-trinity-cemetery). A second source: the church site dates 1857-1875.",
+   "src": [
+    [
+     "Find a Grave (read on the PC thread)",
+     "https://www.findagrave.com/"
+    ]
+   ]
+  },
+  "pd88-m-e-church-louisville": {
+   "set": {},
+   "st": " Find a Grave (Pleasant Valley Cemetery, 300 m away): the cemetery lies on the south side of the old Louisville Methodist Church, now a private home, and the town of Louisville was given up in 1900. A second source; the building is a house now, so ask first.",
+   "src": [
+    [
+     "Find a Grave (read on the PC thread)",
+     "https://www.findagrave.com/"
+    ]
+   ]
+  },
+  "pbp77-church-sec-11-t22n-r10w": {
+   "set": {},
+   "st": " Find a Grave (Saints Peter and Paul Catholic Cemetery, 150 m away): land given by Ferdinand Theisen in 1880 for a church and graveyard; a mission of St. Boniface, Waumandee; the church was torn down in the 1950s. A second source naming the church.",
+   "src": [
+    [
+     "Find a Grave (read on the PC thread)",
+     "https://www.findagrave.com/"
+    ]
+   ]
+  },
+  "ps97-saint-bridget-church": {
+   "set": {},
+   "st": " Find a Grave (Saint Bridgets Cemetery, 140 m away): the cemetery is part of the grounds of the old Saint Bridget's Church, and the church is no longer there. A second source.",
+   "src": [
+    [
+     "Find a Grave (read on the PC thread)",
+     "https://www.findagrave.com/"
+    ]
+   ]
+  },
+  "ppo87-catholic-church-and-cemetery-milltown-se": {
+   "set": {},
+   "st": " Find a Grave (Long Lake Cemetery, first called Saint Patrick's): the church stood on one side of the cemetery and a school, now gone, on the other; the church was moved away years ago. A second source, and a lost school site beside it.",
+   "src": [
+    [
+     "Find a Grave (read on the PC thread)",
+     "https://www.findagrave.com/"
+    ]
+   ]
+  },
+  "sc-1837519": {
+   "set": {},
+   "st": " Find a Grave (Rutchow Cemetery, 240 m away, County Road U between Gilmanton and Prague): this was a growing community called Urban, with a Methodist church, a school and a cheese factory; the congregation later merged with the Montana Methodist church. A second source for the church and the hamlet.",
+   "src": [
+    [
+     "Find a Grave (read on the PC thread)",
+     "https://www.findagrave.com/"
+    ]
+   ]
+  },
+  "pp77-church-by-h-hamman-sec-18-t26n-r19w": {
+   "set": {},
+   "st": " Find a Grave (Hamman Cemetery, 44.74287, -92.71932, 560 m from this pin): \"where a German Methodist Church was once located\", burials 1868-74. A second source; the church likely stood at the cemetery, so check there before this pin's spot.",
+   "src": [
+    [
+     "Find a Grave (read on the PC thread)",
+     "https://www.findagrave.com/"
+    ]
+   ]
+  }
+ }
+}
