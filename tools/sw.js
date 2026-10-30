@@ -25,6 +25,10 @@ self.addEventListener('fetch',e=>{ const r=e.request; if(r.method!=='GET') retur
     if(!res||(!res.ok&&res.type!=='opaque')) return hit||res||Response.error();
     if(c&&res.ok) c.put(r.url,res.clone()).catch(()=>{});
     return res; })()); return; }
+  // elevation tiles for the terrain tools (Terrarium, AWS open data): saved once, then served from the phone
+  if(u.hostname==='s3.amazonaws.com'&&u.pathname.startsWith('/elevation-tiles-prod/')){ e.respondWith((async()=>{ let c=null, hit=null;
+    try{ c=await caches.open('atlas-dem'); hit=await c.match(r.url); if(hit) return hit; }catch(_){ c=null; }
+    try{ const res=await fetch(r.url,{mode:'cors',credentials:'omit'}); if(c&&res.ok) c.put(r.url,res.clone()).catch(()=>{}); return res; }catch(_){ return Response.error(); } })()); return; }
   if(/(^|\.)fonts\.(googleapis|gstatic)\.com$/.test(u.hostname)){ e.respondWith((async()=>{ const c=await caches.open('atlas-fonts'); const hit=await c.match(r);
     const net=fetch(r).then(res=>{ if(res.ok||res.type==='opaque') c.put(r,res.clone()); return res; }).catch(()=>hit||Response.error());
     return hit||net; })()); } });
