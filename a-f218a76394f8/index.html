@@ -3616,7 +3616,7 @@ async function ogSaveArea(){ const note=document.getElementById('ogSaveNote'), b
   const U=new Set();
   for(let x=Math.floor(lon0);x<=Math.floor(lon1);x++) for(let y=Math.floor(la0);y<=Math.floor(la1);y++){ U.add(`pk/P_${x}_${y}.json`); U.add(`pk/T_${x}_${y}.json`); }
   U.add('pk/parks.json'); U.add('pk/lm.json');
-  for(const [f,a,b,c,d] of (typeof OMR!=='undefined'?OMR:[])) if(!(b<lon0||a>lon1||d<la0||c>la1)) U.add('om/'+f+'.webp');
+  for(const [f,a,b,c,d] of (typeof OMR!=='undefined'?OMR:[])) if(!(b<lon0||a>lon1||d<la0||c>la1)&&!(typeof OGT==='object'&&OGT.ix)) U.add('om/'+f+'.webp');
   const pts=PTS.filter(p=>p.lo>=lon0&&p.lo<=lon1&&p.la>=la0&&p.la<=la1);
   for(const p of pts.slice(0,3000)){ let h=''; try{ h=detailHTML(p); }catch(_){} for(const mm of h.matchAll(/data-li="([^"]+)"/g)) U.add('img/'+mm[1]+'.json'); }
   const z0=Math.max(8,ogZ()); let tl=[];
@@ -5592,7 +5592,7 @@ fetch('ot/index.json').then(r=>r.ok?r.json():null).then(ix=>{ if(!ix||!ix.o36) r
   for(const id of ['o250','o15','o19','o78','o78t','gs','ogt','o72','o36',...PT]){ if(!ix[id]) continue; const M=ix[id];
     OGT.L[id]=tileLayer('t'+id,(z,x,y)=>`ot/${id}/${z}/${x}_${y}.webp`,{hd:true,minz:M.z[0],max:()=>M.z[1],has:(z,x,y)=>OGT.has(id,z,x,y),show:SHOW[id]}); }
   // the whole-sheet pictures step aside (taken out of the page, so they never download or decode)
-  for(const im of document.querySelectorAll('svg image[data-f]')){ const f=im.dataset.f; if(/^(h15_|h250_|h19_|sv78_|gs_|plat_)/.test(f)||['ground-today','topo-1972','topo-1936'].includes(f)){ im.setAttribute('href','data:,'); im.remove(); } }
+  for(const im of document.querySelectorAll('svg image[data-f]')){ const f=im.dataset.f; if(/^(h15_|h250_|hx_|h19_|sv78_|gs_|plat_)/.test(f)||['ground-today','topo-1972','topo-1936'].includes(f)){ im.setAttribute('href','data:,'); im.remove(); } }
   ogtFade(); drawMarkers(); }).catch(()=>{});
 // the Today / 1972 / 1936 slider fades the tile layers the way it faded the pictures
 function ogtFade(){ const r=document.getElementById('omsR'); if(!r||!OGT.ix) return; const v=+r.value, a72=Math.min(1,v/100), a36=Math.max(0,Math.min(1,(v-100)/100));
