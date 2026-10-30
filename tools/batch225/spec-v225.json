@@ -1,0 +1,867 @@
+{
+"new": [
+{
+"id": "wpa-wasioja",
+"L": "ghost",
+"n": "Wasioja: the vanished seminary village (1850s-1860s)",
+"la": 44.08024,
+"lo": -92.81936,
+"y": "1850s-1860s",
+"pl": "Wasioja, west of Mantorville, Dodge Co. (USGS place-name point)",
+"co": "Dodge",
+"stt": "MN",
+"v": "Coins, buttons, Civil War-era relics, household items",
+"c": "documented",
+"s": "unknown",
+"p": "gnis",
+"st": "The WPA state guide (1938) says the ruined stone walls of the Methodist seminary, one of Minnesota's earliest colleges, built before the Civil War, and parts of an abandoned limestone mill 'are all that remain of the vanished village of Wasioja.' In 1861 Company C of the Second Minnesota was enlisted here; nearly all were killed, and the widows and orphans left the town. The pin is the USGS place-name point for Wasioja; the seminary ruins and the mill site are not yet placed separately.",
+"t": "Find the seminary ruins and the mill on the old topo and LiDAR, then work the old house lots and the road between them. The seminary ruins are a historic site: look only there, and ask before detecting any private lot.",
+"src": [
+[
+"Minnesota: A State Guide (Federal Writers' Project, WPA, 1938), Tour 12, p. 398",
+"https://archive.org/details/minnesotastategu00writrich"
+],
+[
+"USGS GNIS: Wasioja, Dodge Co., MN (feature 653827)",
+"https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+]
+],
+"pinconf": "B",
+"pinev": [
+"GNIS populated-place point; the WPA guide puts the village ruins 2 miles from Mantorville on the improved road. Ruins and mill not yet placed."
+]
+},
+{
+"id": "wpa-british-hollow",
+"L": "ghost",
+"n": "British Hollow: old lead-mining hamlet with stone ruins",
+"la": 42.70583,
+"lo": -90.68679,
+"y": "1830s-1850s",
+"pl": "British Hollow on US 61, between Lancaster and Dickeyville, Grant Co. (USGS place-name point)",
+"co": "Grant",
+"stt": "WI",
+"v": "Lead-mining relics, coins, buttons, house-site finds",
+"c": "documented",
+"s": "unknown",
+"p": "gnis",
+"st": "The WPA state guide (1941) describes British Hollow, 60.1 miles on US 61, 'with its tumble-down buildings and stone ruins set against a steep low ridge.' Arched stone bridges cross the creeks into farmyards, 'cultivated fields are pocked with the sod-covered test holes sunk by early lead miners', and 'occasionally a square outline of mossy yellow stone, the foundation of some pioneer's house, lies half buried in the pasture sod.' The pin is the USGS place-name point.",
+"t": "Use LiDAR to find the miners' test pits and the square house foundations in the pastures along the ridge, then ask the farm owners. Old foundations near the pits are where miners lived and dropped coins.",
+"src": [
+[
+"Wisconsin: A Guide to the Badger State (Writers' Program, WPA, 1941), Tour 11 (US 61), p. 423",
+"https://archive.org/details/in.ernet.dli.2015.155741"
+],
+[
+"USGS GNIS: British Hollow, Grant Co., WI (feature 1562221)",
+"https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+]
+],
+"pinconf": "B",
+"pinev": [
+"GNIS populated-place point; the WPA guide places British Hollow at 60.1 miles on US 61. Foundations not yet placed."
+]
+},
+{
+"id": "wpa-oehler-mill-cave",
+"L": "gather",
+"n": "Oehler's mill, stone dam and cave picnic grounds, Mormon Coulee (1850s-1940s)",
+"la": 43.75076,
+"lo": -91.18531,
+"y": "1850s-1940s",
+"pl": "Mormon Creek at County MM, Town of Shelby, about 0.5 mile from US 14 (centre of NW 1/4 sec. 26 T15N R7W; approximate)",
+"co": "La Crosse",
+"stt": "WI",
+"v": "Coins, picnic and mill relics",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "The WPA state guide (1941) sends travellers 0.5 mile down County MM from US 14 to Oehler's Cave (25 cents), 'a great opening in the sheer rock of a towering pine-grown hill beside a bend of Mormon Creek', with picnic grounds (10 cents a person) and the remains of an old stone dam and grinding mill built by the Oehler brothers. The mill complex was listed on the National Register in 2013 (W5539 and W5565 County Road MM). The register gives the date of the stone mill as 1862 and the sawmill as 1857-58; the 1950 flood took most of the dam. The pin is only the middle of the quarter-section, so it is not yet on the mill.",
+"t": "Put the pin on the mill from the 1927 La Crosse topo and LiDAR (mill pond, dam abutments). Paying picnic grounds in the 1920s-40s mean dropped coins on the flats by the creek and below the cave. Private land and a church shrine next door: ask first.",
+"src": [
+[
+"Wisconsin: A Guide to the Badger State (Writers' Program, WPA, 1941), Tour 20 (US 14), p. 515",
+"https://archive.org/details/in.ernet.dli.2015.155741"
+],
+[
+"National Register of Historic Places: Oehler Mill Complex, ref. 13000314 (listed 2013), Wisconsin Historical Society record",
+"https://www.wisconsinhistory.org/Records/NationalRegister/NR2374"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed at the centre of NW 1/4 sec. 26 T15N R7W (BLM PLSS). The state record says R6W, but sec. 26 of R6W is 11 km east and off Mormon Creek, so R7W is taken as right. Needs snapping to the mill.",
+"Ground check (LiDAR 2024): the pin sits on Mormon Creek where it leaves the bluffs; no dam, race or cave mouth shows at 1 m, so it is left here, good to about 300 m"
+]
+},
+{
+"id": "rl-south-afton-ferry",
+"L": "history",
+"n": "South Afton rope ferry and Furber's elevator (1860-1880s)",
+"la": 44.888,
+"lo": -92.78,
+"y": "1860-1880s",
+"co": "Washington (MN)",
+"stt": "MN",
+"p": "approx",
+"pl": "South Afton, one mile south of Afton village on Lake St. Croix",
+"v": "Coins, tokens, wagon and grain-landing hardware",
+"st": "Neill (1881): 'South Afton, located one mile south of the village of Afton, is a small burg' with a store, a steam-powered warehouse and elevator built by J. P. Furber in 1860, and 'a ferry across the river, owned by Mr. Furber, built in September, 1879, and operated with a rope.'",
+"t": "Find the elevator and ferry landing on the earliest topo south of Afton; the shore road and landing approach are the targets.",
+"src": [
+[
+"Neill, History of Washington County and the St. Croix Valley (1881)",
+"https://archive.org/details/mn-washington-1881-neill"
+]
+],
+"c": "documented",
+"s": "unknown",
+"pinconf": "C",
+"pinev": [
+"estimate one mile south of Afton, good to about 1 km"
+],
+"note": "Single source: C. Land cover: wooded 94%."
+},
+{
+"id": "rl-lakeland-lower-ferry",
+"L": "history",
+"n": "Lakeland landing of the 'lower ferry' to Willow River (Hudson), 1840s on",
+"la": 44.9563,
+"lo": -92.7663,
+"y": "1840s-1880s",
+"co": "Washington (MN)",
+"stt": "MN",
+"p": "approx",
+"pl": "Lakeland, west shore of Lake St. Croix opposite Hudson",
+"v": "1840s-80s coins, trade items, harness parts",
+"st": "Neill (1881): a half-breed settlement stood at Lakeland by 1840, and George Clark claimed 'the land where the ferry now lands' in 1842. A territorial road ran from St. Anthony Falls past John Morgan's tavern 'to the lower ferry on the west side of Lake St. Croix, opposite the village of Willow River, Wisconsin' (Hudson). Philip Aldrich (Jan. 1849) and W. H. Moses (June 1849) held ferry licenses across the lake.",
+"t": "The Minnesota landing and the old road down to it; much is now homes and parkland.",
+"src": [
+[
+"Neill, History of Washington County and the St. Croix Valley (1881)",
+"https://archive.org/details/mn-washington-1881-neill"
+],
+[
+"USGS GNIS: Lakeland (Hudson quad)",
+"https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+]
+],
+"c": "documented",
+"s": "unknown",
+"pinconf": "C",
+"pinev": [
+"pin is the village point; the landing is on the shore nearby"
+],
+"note": "Text + GNIS village name: C until the landing is placed. Land cover: wooded 88%."
+},
+{
+"id": "fur-cadotte-pukawawonaun",
+"L": "history",
+"n": "Michel Cadotte's post at Puk-a-wah-on-aun, above the Manitowish mouth (after 1784)",
+"la": 46.079,
+"lo": -90.033,
+"y": "after 1784",
+"pl": "A short distance above the mouth of the Manitowish River, on the upper Chippewa (Flambeau) waters",
+"co": "Iron",
+"stt": "WI",
+"v": "Fur-trade post: trade silver, beads, gun parts, kettle brass, lead bale seals",
+"c": "documented",
+"s": "unknown",
+"p": "approx",
+"st": "Warren (1885, p. 300): after his 1784 post on the Namekagon, Michel Cadotte traded on the Chippewa at Puk-a-wah-on-aun, 'a short distance above the mouth of Man-e-to-wish River'. The Manitowish joins the Flambeau branch of the Chippewa in the Turtle-Flambeau country.",
+"t": "Much of this shore is the Turtle-Flambeau Flowage (flooded 1926) and state land: check the owner and the water level. The site may be drowned.",
+"src": [
+[
+"Warren, History of the Ojibways, MHS Collections V (1885) pp. 12, 300, 321, 382 (read on the PC thread)",
+"https://archive.org/details/historyofojibway00warr"
+],
+[
+"USGS GNIS Domestic Names (2024 file in project folder)",
+"https://www.usgs.gov/tools/geographic-names-information-system-gnis"
+]
+],
+"pinconf": "C",
+"pinev": [
+"One source (Warren's landmark)",
+"GNIS Manitowish River mouth 46.07606, -90.02961; pin a short way above it",
+"Unconfirmed, one source"
+],
+"flag": "fur"
+},
+{
+"id": "gc-big-meadows-cranberry-ditches",
+"L": "history",
+"n": "Big Meadows cranberry works and drainage ditches (1870s-1902)",
+"la": 45.855,
+"lo": -92.6,
+"y": "1870s-1902",
+"pl": "Big Meadows, T39N R18W, Burnett Co.; Hay Creek is the main outlet",
+"co": "Burnett",
+"stt": "WI",
+"v": "Cranberry-works hardware, dry-house and camp relics, 1870s-1900s coins",
+"c": "documented",
+"s": "unknown",
+"p": "approx",
+"st": "Easton (1909) says several companies ran cranberry works on the Big Meadows of T38-39N R17-18W from the 1870s to 1894, with 30-40 miles of ditches, dry houses and a saw mill, but gives no sections or company names. Peet (1902) puts most of the Big Meadows in T39N R18W: former cranberry marshes lost to fire and water control and sold for taxes, drained by Hay Creek, a branch of Wood River. L. C. Erbes bought about 11,000 acres here in spring 1899, held about 15,000 by 1902, and was ditching it to drain and sell as farms. LiDAR (2022) shows long straight cuts across the flat that do not follow the section grid. They may be the cranberry ditches, Erbes's 1899-1902 drainage ditches, or both, and some may be old roads. The dry houses and the camp are not placed.",
+"t": "Walk the high edges beside the oldest-looking cuts, where a dry house or camp would stand clear of the water. Crossings and old dams on the ditches are the best targets.",
+"src": [
+[
+"Easton, History of the St. Croix Valley (1909), vol. 2 p. 1170 (read on the PC thread)",
+""
+],
+[
+"History of Burnett County (Rev. Emerson W. Peet, 1902), pp. 46, 52-56, via HathiTrust",
+"https://catalog.hathitrust.org/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Two county-history texts count as one source; neither gives a section",
+"Pin is the centre of the straight cuts seen on LiDAR in T39N R18W, good to about 2 km",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "wd5-stanley-coin-can",
+"L": "treasure",
+"n": "Tin can of old coins on the Wolf River bank near Stanley (1936)",
+"la": 44.96,
+"lo": -90.89,
+"y": "1936",
+"pl": "Wolf River bank east of Stanley (area pin)",
+"co": "Chippewa",
+"stt": "WI",
+"v": "Old foreign coins (Norway, Germany, Canada); more may sit along the same bank",
+"c": "documented",
+"s": "found",
+"p": "approx",
+"st": "On 20-21 April 1936 three Stanley children (Buddy Kerr 11, Kirby Harless 12, June Griffith 12) found an old tin can half buried in the mud on the Wolf River bank holding about 70 old coins from Norway, Germany and Canada, the oldest a Norwegian piece dated 1614. They split the coins. Looks like a collector's or immigrant's stash, so more could sit along the same bank.",
+"t": "Work the river bank east of town at the old crossing and path points. River bank: ask the owner.",
+"src": [
+[
+"AP, Stanley dateline 21 Apr 1936 (archive.org newspaper full-text sweep)",
+""
+]
+],
+"pinconf": "C",
+"pinev": [
+"Area pin on the Wolf River (GNIS) at Stanley's latitude; spot not placed",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "wd5-plainview-kettle",
+"L": "treasure",
+"n": "Peter Lambrecht's kettle of gold coins in his cellar, Plainview (1922)",
+"la": 44.1649655,
+"lo": -92.1715571,
+"y": "1922",
+"pl": "Plainview, Wabasha Co. (town pin; house not placed)",
+"co": "Wabasha",
+"stt": "MN",
+"v": "Gold coins (about $600 found)",
+"c": "documented",
+"s": "found",
+"p": "town",
+"st": "Peter Lambrecht, doing repairs in the cellar of a house he had bought some years before, uncovered an old buried kettle holding about $600 in gold coins of several denominations and then went over the whole cellar. The AP wire was carried by several papers, which count as one source.",
+"t": "Town-level pin only: a city directory or the 1920s Sanborn map would give the house. Inside a town lot, ask first.",
+"src": [
+[
+"AP 23 Oct 1922 (MNHS Digital Newspaper Hub, two papers; Chronicling America as Lamprecht)",
+""
+]
+],
+"pinconf": "C",
+"pinev": [
+"GNIS Plainview city point; house not placed",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "wpa-coon-rock-cave",
+"L": "treasure",
+"n": "Coon Rock bluff cave: counterfeiters' and Indian-gold legend, near Arena (1850s-1933)",
+"la": 43.1508264,
+"lo": -89.9895682,
+"y": "1850s-1933",
+"pl": "Coon Rock bluff near Arena, Iowa Co. (USGS place-name point; cave not placed)",
+"co": "Iowa",
+"stt": "WI",
+"v": "Legend site: 1850s-1930s relics around the dig",
+"c": "legend",
+"s": "unknown",
+"p": "gnis",
+"st": "Dr. W. H. Brisbane's serial 'Coon Bluff' (Mineral Point Weekly Tribune, Oct-Dec 1859) tells of a man-made cave dug into Coon Bluff near Arena, on the road to Helena, by a company of white men hunting a golden treasure that an Indian tradition told of; locals believed it a counterfeiters' hideout. The story is fiction, but it shows the belief was local by 1859. In October 1933 (AP, Arena dateline) William and Homer Sweeney of Wyoming drilled and blasted a shaft through the limestone into a sealed chamber 'which originally formed a part of a cave in Coon Rock bluff', after gold in government bars that Indians had told of. The 1941 WPA Wisconsin guide (Tour 20) also tells the legend. This is Coon Rock near Arena, not the Coon Bluff cliff in Sauk County.",
+"t": "Find the 1933 shaft and the old cave mouth on the bluff face with LiDAR. A cave: look only, do not dig or enter.",
+"src": [
+[
+"Mineral Point Weekly Tribune, 15 Nov-6 Dec 1859 (Chronicling America)",
+""
+],
+[
+"AP, Arena dateline 10 Oct 1933 (MNHS Digital Newspaper Hub)",
+""
+],
+[
+"Wisconsin: A Guide to the Badger State (WPA, 1941), Tour 20, p. 510",
+"https://archive.org/details/wisconsinguideto00federich"
+],
+[
+"USGS GNIS: Coon Rock (1577556)",
+"https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+]
+],
+"pinconf": "B",
+"pinev": [
+"1859 paper, 1933 AP and 1941 WPA guide agree on the Coon Rock bluff near Arena; pin is the GNIS point for the bluff, cave not placed"
+],
+"acc": [
+"stop",
+"Cave: look only, do not dig or enter"
+]
+},
+{
+"id": "wpa-cameron-canal",
+"L": "history",
+"n": "Peter Cameron's canal across the La Crescent bottoms (1854-55)",
+"la": 43.8105,
+"lo": -91.2755,
+"y": "1854-1855",
+"pl": "From the river in the lower part of sec. 13 to near the centre of sec. 14, T104N R4W, ending in a Pine Creek slough",
+"co": "Houston",
+"stt": "MN",
+"v": "1850s tools, coins and camp relics along the cut and at its ends",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "History of Houston County (1882, p. 423): Cameron's canal 'began at the river in the lower part of section thirteen, and terminated near the center of section fourteen, at a point in Pine Creek where a fragmentary lake or slough makes well up to the first bench.' It was started in 1854 and dropped at Cameron's death; a 150 ft steamer was built for it but never got machinery. The 1938 Minnesota guide says parts were still visible. The 1919 county history copies the 1882 text, so the histories count as one source. Ground check LiDAR (2024): no straight cut shows across the bottoms on the line between the two sections at 1 m; one short straight cut about 700 m north of the pin may be a later ditch. The line may have been filled or ploughed out.",
+"t": "Walk the line from the river end in the south half of sec. 13 west to the Pine Creek slough near the centre of sec. 14; the two ends and any spoil bank are the targets.",
+"src": [
+[
+"History of Houston County (1882) p. 423",
+"https://archive.org/"
+],
+[
+"Minnesota: A State Guide (Federal Writers' Project, WPA, 1938)",
+"https://archive.org/details/minnesotastategu00writrich"
+]
+],
+"pinconf": "B",
+"pinev": [
+"1882 history gives secs. 13-14 T104N R4W; the 1938 WPA guide puts the remains at La Crescent",
+"Pin is the midpoint of the line; LiDAR does not show it clearly"
+]
+}
+],
+"edit": {
+"ob-buchanan-mn": {
+"set": {},
+"st": " The WPA state guide (1938) puts a roadside marker for the site of Buchanan at 182.8 miles on US 61 from the Canadian line, between Knife River and Duluth, on the right going south: 'where in 1856 the first Federal land office at the head of the Lakes was established.' That agrees with Upham on the place, so the town sat on the lake side of the old road near the marker.",
+"src": [
+[
+"Minnesota: A State Guide (Federal Writers' Project, WPA, 1938), Tour 1, p. 290",
+"https://archive.org/details/minnesotastategu00writrich"
+]
+]
+},
+"ob-frontenac-sandy-point": {
+"set": {},
+"st": " The WPA state guide (1938) says Sand Point, the gravel spit east and south of Villa Maria, 'is believed to be the site of Fort Beauharnois, built in 1727 and rebuilt in 1732,' and that James Wells still had a trading post here as late as 1850. Wells Creek enters the lake here (Nicollet's 1843 map calls it Sand Point River). A trader's post of the 1840s is a second, later target on the same point.",
+"src": [
+[
+"Minnesota: A State Guide (Federal Writers' Project, WPA, 1938), Tour 1, p. 301",
+"https://archive.org/details/minnesotastategu00writrich"
+]
+]
+},
+"fr-st-hubert-s-lodge-and-garrard-estate-front": {
+"set": {},
+"st": " The WPA state guide (1938) adds that General Garrard raced thoroughbreds from his 22-horse stable in Meyer's pasture, brought in 200 Tyrolese workmen to rebuild the village he called Westervelt, and that Evert Westervelt's house nearby stands on an early trading post site. The race ground in Meyer's pasture is a place where crowds stood and watched.",
+"src": [
+[
+"Minnesota: A State Guide (Federal Writers' Project, WPA, 1938), Tour 1, p. 301",
+"https://archive.org/details/minnesotastategu00writrich"
+]
+]
+},
+"d-ghost-nininger": {
+"set": {},
+"st": " The WPA state guide (1938) says Nininger once had more than 500 people and that 'large sawmills, a flour mill, dance pavilion, hotel, and homes of ambitious pioneers were built in a short time and then abandoned. Only Donnelly remained.' Donnelly's first house was moved to Hastings; the later house still stood in 1938.",
+"src": [
+[
+"Minnesota: A State Guide (Federal Writers' Project, WPA, 1938), Tour 1, p. 298-99",
+"https://archive.org/details/minnesotastategu00writrich"
+]
+]
+},
+"d-ghost-point-douglas": {
+"set": {},
+"st": " The WPA state guide (1938) calls Point Douglas 'a pioneer Minnesota town, now abandoned', founded in 1839 by Levi Hertzell and Oscar Burris. Woodruff & Sons built a mill here in 1851 that was later moved to Prescott, and the Point was the starting place of the 1851 Point Douglas military road, the first in Minnesota.",
+"src": [
+[
+"Minnesota: A State Guide (Federal Writers' Project, WPA, 1938), Tour 16, p. 430",
+"https://archive.org/details/minnesotastategu00writrich"
+]
+]
+},
+"fr-red-rock-mission-and-camp-meeting": {
+"set": {},
+"st": " The WPA state guide (1938) puts Red Rock Park just across the tracks from Red Rock, an annual camp-meeting ground since 1869. The hotel was built about 1870 and the open pavilion, seating 1,800, in 1880. 'At the turn of the century these camp meetings drew as many as 30,000 on a single Sunday.' The mission's log house was moved onto the grounds in 1905. Thirty thousand people on one Sunday is about as big a crowd as any spot on the map ever drew.",
+"src": [
+[
+"Minnesota: A State Guide (Federal Writers' Project, WPA, 1938), Tour 1, p. 297",
+"https://archive.org/details/minnesotastategu00writrich"
+]
+]
+},
+"d-wildwood": {
+"set": {},
+"st": " The WPA state guide (1938) still lists Wild Wood Amusement Park, with picnic grounds, 5.8 miles out on the road round the east shore of White Bear Lake from State 96, past Dellwood, Mahtomedi and East Shore Park. That fixes the park on the east shore at the Mahtomedi end, as the pin has it.",
+"src": [
+[
+"Minnesota: A State Guide (Federal Writers' Project, WPA, 1938), Tour 1, p. 297",
+"https://archive.org/details/minnesotastategu00writrich"
+]
+]
+},
+"fr-almelund-hamlet-1887": {
+"set": {},
+"st": " The WPA state guide (1938) adds a gold note: 'Gold is being washed from the moraine here, about one dollar's worth to the ton.' That is fine glacial flour gold in the drift, worth a pan in the creeks around Almelund, not a lode.",
+"src": [
+[
+"Minnesota: A State Guide (Federal Writers' Project, WPA, 1938), Tour 1, p. 296",
+"https://archive.org/details/minnesotastategu00writrich"
+]
+]
+},
+"ob-sacramento-mn": {
+"set": {},
+"st": " The WPA state guide (1938) tells the same story from the other side: the founder came back from the California gold rush, sprinkled gold dust in the Zumbro and let it be gossiped that he was panning. It says his frame tavern, 'a stage stop and tavern on the old Dubuque-St. Paul Trail', still stood in 1938 on the east side of Main St., one block south of the Mantorville courthouse, and was 'still called Sacramento.' The pin here is a rounded point; Upham puts the village at the west edge of Mantorville, so check the pin against the 1878 map and LiDAR before trusting it.",
+"src": [
+[
+"Minnesota: A State Guide (Federal Writers' Project, WPA, 1938), Tour 12, p. 398",
+"https://archive.org/details/minnesotastategu00writrich"
+]
+]
+},
+"vs-2051798": {
+"set": {},
+"st": " The WPA state guide (1938): Concord, 15 miles by road from Berne, was settled by New Englanders and 'abandoned for the new settlement at West Concord when the Great Western Ry. laid its track 3 miles west of the town.' So this is the old village site, not just a post office.",
+"src": [
+[
+"Minnesota: A State Guide (Federal Writers' Project, WPA, 1938), Tour 12, p. 398",
+"https://archive.org/details/minnesotastategu00writrich"
+]
+]
+},
+"vs-2050627": {
+"set": {},
+"st": " The WPA state guide (1938): Forestville lost people to the Civil War and then the railroad, and 'the citizens abandoned their old mill.' From the porch of the 1850s Meighen store you could see the ruins of a brick district school, the drill ground of Union soldiers, and the ruins of a gristmill and dam; the stagecoach station stood just beyond the store. The drill ground is the best detecting lead here, but most of Forestville is state park: look only.",
+"src": [
+[
+"Minnesota: A State Guide (Federal Writers' Project, WPA, 1938), Tour 13, p. 410",
+"https://archive.org/details/minnesotastategu00writrich"
+]
+]
+},
+"ob-st-nicholas-mn": {
+"set": {},
+"st": " The WPA state guide (1938): a marker and plate 1 mile from the south end of Albert Lea, on a county road along the south shore of Albert Lea Lake, marks 'the SITE OF ST. NICHOLAS, a vanished town that was the first village in Freeborn County', with a sawmill. That agrees with Upham's sections 25 and 26 on the south side of the lake.",
+"src": [
+[
+"Minnesota: A State Guide (Federal Writers' Project, WPA, 1938), Tour 13, p. 413",
+"https://archive.org/details/minnesotastategu00writrich"
+]
+]
+},
+"fr-itasca-vanished-village-bancroft-sec-31": {
+"set": {},
+"st": " The WPA state guide (1938) puts the site of Itasca at the Itasca School, 2.2 miles out of Albert Lea on State 13 across Paradise Prairie. It also tells how Albert Lea men stole Itasca's race horse, Itasca Fly, the night before the 1859 race. Find the Itasca School on the old topo: the village ground is around it.",
+"src": [
+[
+"Minnesota: A State Guide (Federal Writers' Project, WPA, 1938), Tour 13, p. 413",
+"https://archive.org/details/minnesotastategu00writrich"
+]
+]
+},
+"ob-itasca-anoka": {
+"set": {},
+"st": " The WPA state guide (1938): Dayton Station, 51.3 miles on US 10 from Prescott, is 'an abandoned railroad-junction town, formerly an Indian trading post', platted in 1852 as Itasca and later overshadowed by Dayton across the river, near where the Crow enters the Mississippi.",
+"src": [
+[
+"Minnesota: A State Guide (Federal Writers' Project, WPA, 1938), Tour 16, p. 432",
+"https://archive.org/details/minnesotastategu00writrich"
+]
+]
+},
+"vs-2052238": {
+"set": {},
+"st": " The WPA state guide (1938): the site of High Forest, 'once a thriving village', is 2 miles off US 63 from a junction at 65.4 miles, a mile south of Stewartville. In 1938 it was marked only by a flagstaff with a banner given to the town after the Civil War by Rear Admiral Andrew Foote. So this is a vanished village, not only a post office.",
+"src": [
+[
+"Minnesota: A State Guide (Federal Writers' Project, WPA, 1938), Tour 18, p. 452",
+"https://archive.org/details/minnesotastategu00writrich"
+]
+]
+},
+"cr-franconia-mill-1864": {
+"set": {},
+"st": " The WPA state guide (1938) calls Franconia a deserted village, reached by a dirt road through a narrow wooded ravine 0.9 mile from State 95. Ansel Smith came in 1852 and named it for the White Mountains of New Hampshire.",
+"src": [
+[
+"Minnesota: A State Guide (Federal Writers' Project, WPA, 1938), Tour 19, p. 455",
+"https://archive.org/details/minnesotastategu00writrich"
+]
+]
+},
+"ps97-lime-kiln-east-of-wilson-sec-36-t29n-r15": {
+"set": {},
+"st": " The WPA state guide (1941) says US 12 'climbs a hillside filled with lime pits, the site of much activity until cement began to replace slaked lime. The shaft of the old kiln is near the base of the hill, 125.8 m.' That is 2.7 miles east of Hersey (128.5 m.) on old US 12, which is where this pin sits, about 2.9 miles east of Hersey. So the kiln shaft still stood in 1941; look for its stone ring at the foot of the slope and the quarry pits above it.",
+"src": [
+[
+"Wisconsin: A Guide to the Badger State (Writers' Program, WPA, 1941), Tour 19 (US 12), p. 499",
+"https://archive.org/details/in.ernet.dli.2015.155741"
+]
+]
+},
+"ob-newport-sauk": {
+"set": {},
+"st": " The WPA state guide (1941): before the railroad, 'the center of settlement and river traffic was Newport, now a ghost town, some 5 miles south [of Wisconsin Dells] on the west bank.' Rivermen re-made their rafts there after running the Dells, steamboats unloaded, and overland roads met. 'When the railroad was routed north to Wisconsin Dells, Newport died overnight.'",
+"src": [
+[
+"Wisconsin: A Guide to the Badger State (Writers' Program, WPA, 1941), Tour 8 (State 13), p. 400-02",
+"https://archive.org/details/in.ernet.dli.2015.155741"
+]
+]
+},
+"fr-richland-city-first-county-seat-at-the-low": {
+"set": {},
+"st": " The WPA state guide (1941): near Gotham lies 'the indistinguishable river bottom SITE OF RICHLAND CITY', at the fork of the Pine and Wisconsin Rivers. A Platteville paper six years after its founding called it the most populous town in the county, with five or six stores, a steam sawmill and one of the best steam flour mills in the state. The river later changed its channel, and the houses not already moved went with it.",
+"src": [
+[
+"Wisconsin: A Guide to the Badger State (Writers' Program, WPA, 1941), Tour 22 (State 60), p. 532",
+"https://archive.org/details/in.ernet.dli.2015.155741"
+]
+]
+},
+"ob-helena-1833": {
+"set": {},
+"st": " The WPA state guide (1941) puts the site of Helena, platted 1828, at the foot of the bluff in Tower Hill State Park, 36.5 miles on US 14, with the 1831 shot tower above. The hillside cemetery has headstones from 1829.",
+"src": [
+[
+"Wisconsin: A Guide to the Badger State (Writers' Program, WPA, 1941), Tour 20 (US 14), p. 510",
+"https://archive.org/details/in.ernet.dli.2015.155741"
+]
+]
+},
+"stark-belmont": {
+"set": {},
+"st": " The WPA state guide (1941) puts the First Capitol building at 3.2 miles on the side road, 'set in a small lawn,' on the site where Old Belmont stood; the building was used as a barn wing before it was put back in 1924.",
+"src": [
+[
+"Wisconsin: A Guide to the Badger State (Writers' Program, WPA, 1941), Tour 12 (US 151), p. 429",
+"https://archive.org/details/in.ernet.dli.2015.155741"
+]
+]
+},
+"pp77-martell-grist-and-saw-mill-sec-14-t27n-r": {
+"set": {},
+"st": " The WPA state guide (1941): Martell 'grew up around the sawmill now in ruins on the bank of the Rush River.' It was settled in 1847 by four French Canadians, Joseph Martell, Lewis Lepeau, John Doe and Xerxes Jock, a famous hunter. So the mill was a ruin by 1941.",
+"src": [
+[
+"Wisconsin: A Guide to the Badger State (Writers' Program, WPA, 1941), Tour 9 (US 63), p. 410-11",
+"https://archive.org/details/in.ernet.dli.2015.155741"
+]
+]
+},
+"tg-spring-valley-smelter": {
+"set": {},
+"st": " The WPA state guide (1941): Spring Valley was a logging camp until about 1890, when iron was found nearby. The furnace went up, a mining boom ran in summer 1892, the panic of 1893 shut the furnace, and it stopped for good in 1908. Stave, spoke and heading mills came and went with it.",
+"src": [
+[
+"Wisconsin: A Guide to the Badger State (Writers' Program, WPA, 1941), Tour 17 (State 29), p. 477",
+"https://archive.org/details/in.ernet.dli.2015.155741"
+]
+]
+},
+"t-hermit-island": {
+"set": {},
+"st": " The WPA state guide (1941) says that after Wilson was found dead in his cabin, 'men rushed to the island with shovels and picks, tore up the ground about the cabin, but discovered only a few coins.' So the ground around the cabin was dug over in the 1860s.",
+"src": [
+[
+"Wisconsin: A Guide to the Badger State (Writers' Program, WPA, 1941), Tour 14A (State 13), p. 451",
+"https://archive.org/details/in.ernet.dli.2015.155741"
+]
+]
+},
+"rr-dunbar": {
+"set": {},
+"st": " The WPA state guide (1941) calls Dunbar 'one of the ghost towns spaced at intervals throughout the north, little more than an opening in the low forest.'",
+"src": [
+[
+"Wisconsin: A Guide to the Badger State (Writers' Program, WPA, 1941), Tour 16 (US 8), p. 463",
+"https://archive.org/details/in.ernet.dli.2015.155741"
+]
+]
+},
+"ab3-chippewa-hamlet-durand": {
+"set": {},
+"st": " The WPA state guide (1941) agrees: Durand was 'first built in a valley to the north' and 'abandoned its old site after having been flooded twice by high spring waters.'",
+"src": [
+[
+"Wisconsin: A Guide to the Badger State (Writers' Program, WPA, 1941), Tour 18 (US 10), p. 486",
+"https://archive.org/details/in.ernet.dli.2015.155741"
+]
+]
+},
+"m-ghost-victoria": {
+"set": {},
+"st": " The WPA state guide (1941): the road runs through 'the abandoned village of Victoria', where trees had grown up round its 80 houses. Foreign investors backed the mines (the Empress of Russia held shares in one), and the last, the Victoria, closed in 1921.",
+"src": [
+[
+"Michigan: A Guide to the Wolverine State (Writers' Program, WPA, 1941), Tour 20B, p. 598",
+"https://archive.org/details/in.ernet.dli.2015.169551"
+]
+]
+},
+"m-ghost-silver-city": {
+"set": {},
+"st": " The WPA state guide (1941): Silver City 'stands upon the ruins of an old mining location.' Silver was found in 1872, claims were staked for 60 miles, and mining stopped by 1876. Indians here sold nuggets of pure silver to whites, and nobody found where they came from.",
+"src": [
+[
+"Michigan: A Guide to the Wolverine State (Writers' Program, WPA, 1941), Tour 20B, p. 600",
+"https://archive.org/details/in.ernet.dli.2015.169551"
+]
+]
+},
+"m-ghost-mandan": {
+"set": {},
+"st": " The WPA state guide (1941): Mandan, 7.4 miles from Copper Harbor, 'is a closed mine and deserted company village near Clear Lake, where a score of empty houses' were kept by a caretaker, with ruins of old mines in the maple woods round it.",
+"src": [
+[
+"Michigan: A Guide to the Wolverine State (Writers' Program, WPA, 1941), Tour 20, p. 584",
+"https://archive.org/details/in.ernet.dli.2015.169551"
+]
+]
+},
+"m-ghost-delaware": {
+"set": {},
+"st": " The WPA state guide (1941): Delaware, 12 miles on US 41, was 'a village of abandoned red buildings' with 8 people, after a long run of failed attempts at a copper mine. Horace Greeley is said to have visited in 1856 and helped manage it. Just east, 0.3 mile off the road, was Wyoming ('Helltown'), an abandoned village with four saloons in the 1870s-80s, on the site of a stamp mill.",
+"src": [
+[
+"Michigan: A Guide to the Wolverine State (Writers' Program, WPA, 1941), Tour 20, p. 584",
+"https://archive.org/details/in.ernet.dli.2015.169551"
+]
+]
+},
+"cmine-10": {
+"set": {},
+"st": " The WPA state guide (1941): Copper Falls Mine, 16 miles, was by then an abandoned location with 8 people, worked first by prehistoric miners. A seven-ton mass of copper turned up after 1845; the last company closed in 1898, and Eagle Harbor people tore down many of the houses, the school included, for the lumber.",
+"src": [
+[
+"Michigan: A Guide to the Wolverine State (Writers' Program, WPA, 1941), Tour 20, p. 586",
+"https://archive.org/details/in.ernet.dli.2015.169551"
+]
+]
+},
+"fr-lac-la-belle-smelter-pre-1867-and-ontonago": {
+"set": {},
+"st": " The WPA state guide (1941): the village of Lac La Belle, 0.5 mile right of the county road where the lake first comes into view, was 'now without permanent residents but once an important shipping point.'",
+"src": [
+[
+"Michigan: A Guide to the Wolverine State (Writers' Program, WPA, 1941), Tour 20, p. 584-85",
+"https://archive.org/details/in.ernet.dli.2015.169551"
+]
+]
+},
+"ls-burlington-bay": {
+"set": {},
+"st": " The WPA Arrowhead guide (1941) adds that J. J. Hibbard, his brother and brother-in-law built a sawmill at Burlington Bay in 1857-58, and that Burlington and Agate Bay 'succumbed during the financial panic' of 1857.",
+"src": [
+[
+"The Minnesota Arrowhead Country (Writers' Program, WPA, 1941), Two Harbors, p. 152",
+"https://archive.org/details/minnesotarrowhea00writrich"
+]
+]
+},
+"ab4-bush-tavern-deer-creek": {
+"set": {
+"la": 45.51246,
+"lo": -92.7266,
+"p": "approx",
+"pinev": [
+"moved to the Deer Creek mouth (GNIS); Easton 1909 puts the tavern and ferry at the mouth of Deer Creek"
+]
+},
+"st": "",
+"src": [],
+"moved": true
+},
+"rl-rumseys-landing": {
+"set": {
+"la": 44.746,
+"lo": -91.698,
+"p": "approx",
+"pinconf": "C",
+"pinev": [
+"on the Chippewa about 2 miles below Caryville (WHS photo IM39353 caption and 1881 text); exact landing not placed"
+]
+},
+"st": "",
+"src": [],
+"moved": true
+},
+"ab-sandy-lake-posts": {
+"set": {},
+"st": " Hart (Minnesota History 7, 1926, pp. 313-319): Schoolcraft put the NWC fort on the south side near the west end, a quarter mile south of the lake's discharge; an A. J. Hill map marks it 'on the mainland southwest of the northwest corner of section 1, township 49 north, range 24 west', on Brown's Point. Digging found stockade posts, sills, a filled cellar under the storehouse and a stone-lined well. Pike (1806): a stockade 100 ft square, blockhouses at the SE and NW corners, gate on the north toward the lake. Still a burial site: no pin on it.",
+"src": [
+[
+"Hart, \"The Site of the Northwest Company Post on Sandy Lake,\" Minnesota History 7 (1926) 311-325 (read on the PC thread)",
+"https://collections.mnhs.org/MNHistoryMagazine/articles/7/"
+]
+]
+},
+"tg-namekagon-portage": {
+"set": {
+"pinconf": "B",
+"pinev": [
+"Brody 1973 and Warren 1885 agree: the post was just below (north-west end of) the Namekagon-Lac Courte Oreilles portage"
+]
+},
+"st": " Warren (1885, p. 300) independently confirms that the remains of Cadotte's 1784 post 'are pointed out a short distance below the portage, which leads towards Lac Coutereille'. Corbin was Cadotte's clerk at the Lac Courte Oreilles post, was outfitted by the American Fur Company for that department in 1818, and still lived there in 1852 aged 76 (Warren pp. 321, 382).",
+"src": [
+[
+"Warren, History of the Ojibways, MHS Collections V (1885) pp. 12, 300, 321, 382 (read on the PC thread)",
+"https://archive.org/details/historyofojibway00warr"
+]
+]
+},
+"d-reads-landing": {
+"set": {},
+"st": " Featherstonhaugh in 1835 measured from 'Roque's trading-house, near the entrance of Lake [Pepin]'.",
+"src": [
+[
+"Featherstonhaugh, Report of a Geological Reconnoissance Made in 1835 (1836) p. 130",
+"https://archive.org/details/reportofgeologic00feat"
+]
+]
+},
+"prw87-saint-mary-platted-village": {
+"set": {
+"pinconf": "B",
+"pinev": [
+"1887 Foote map plat and Neill 1881 (sec. 14) agree; GNIS Saint Marys Point is in sec. 14"
+]
+},
+"st": " Neill (1881), Afton chapter: 'In 1857 Messrs Cathcart, Marshall, and others laid out and platted a town site on section 14, and named it St. Mary's. Several lots were sold and houses built.' The town did not grow; GNIS keeps the name as Saint Marys Point, inside section 14.",
+"src": [
+[
+"Neill, History of Washington County and the St. Croix Valley (1881)",
+"https://archive.org/details/mn-washington-1881-neill"
+],
+[
+"USGS GNIS: Saint Marys Point (Prescott quad)",
+"https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+]
+]
+},
+"sv78-barron-corner": {
+"set": {},
+"st": " The HOTEL south of Quaderer Creek is the Quaderer House. History of Barron County (1922) says John Quaderer built it in 1874 on the south bank of the creek, it served as the county courthouse from February 1875 and as a hotel for many years, and it was still standing in 1922. The WPA Barron County archives inventory calls the Quaderer place a stopping place on the south bank of the creek, opposite the courthouse, in the 1860s.",
+"src": [
+[
+"History of Barron County, Wisconsin (Curtiss-Wedge, 1922), ch. VII",
+"https://archive.org/details/wi-barron-1922-curtiss-wedge-1"
+],
+[
+"WPA Historical Records Survey, Inventory of the County Archives (county sketch), via HathiTrust",
+"https://catalog.hathitrust.org/"
+]
+]
+},
+"ppo87-jerusalem-stock-farm-sec-29-t34n-r18w": {
+"set": {},
+"st": " Possibly older than the plat: the WPA Polk County archives inventory names an 1839 farm called 'Jerusalem', the first farm in Polk County, near St. Croix Falls. This 1887 Jerusalem Stock Farm is about 1 km from St. Croix Falls and carries the same name, so it is likely the same farm, though that is not proved.",
+"src": [
+[
+"WPA Historical Records Survey, Inventory of the County Archives (county sketch), via HathiTrust",
+"https://catalog.hathitrust.org/"
+]
+]
+},
+"ob-tepeeota-mn": {
+"set": {},
+"st": " Wabasha 1884: Gov. Thomas H. Ford of Ohio and Judge Casey bought Timothy Enright's claim in fall 1856, a quarter section 'four miles below Wabashaw ... an island in the delta of the Zumbro', long the camp of Wapashaw's band; D. Sinclaire & Co. built a steam sawmill in 1857. Upham: the deserted mill, three-story hotel and stores burned by arson on a March night in 1859. WPA survey: boats could land only at high water; a plat with a levee was filed with the register of deeds.",
+"src": [
+[
+"WPA Historical Records Survey, Inventory of the County Archives of Minnesota: Wabasha County, historical sketch pp. 18-19 (HathiTrust, via the PC thread)",
+""
+],
+[
+"History of Wabasha County (1884)",
+"https://archive.org/details/historyofwabasha00hhhi"
+],
+[
+"Upham, Minnesota Geographic Names (1920)",
+"https://archive.org/details/minnesotageograp00upharich"
+]
+]
+},
+"d-ghost-west-newton": {
+"set": {},
+"st": " Wabasha 1884: began as a steamboat wood yard (the 'upper yard', Abner Tibbetts and B. C. Baldwin, 1852); the town was named for the wreck of the steamboat Newton, which lay a few yards offshore with its name still showing on the pilot house. Post office 1853. The land was low and the river kept washing it. WPA survey: store, hotel and post office, since washed away and nearly covered at high water. GNIS has the West Newton PO (historical) at 44.265,-91.9006, matching the pin.",
+"src": [
+[
+"WPA Historical Records Survey, Inventory of the County Archives of Minnesota: Wabasha County, historical sketch pp. 18-19 (HathiTrust, via the PC thread)",
+""
+],
+[
+"History of Wabasha County (1884)",
+"https://archive.org/details/historyofwabasha00hhhi"
+]
+]
+},
+"rl-cole-ferry-zumbro": {
+"set": {},
+"st": " WPA survey: a ferry and hotel in Greenfield Township on the Zumbro / Cook's Valley road, from 1854. This is probably Isaac Cole's (1851, sec. 22) but the WPA gives no section or name, so it supports the township, not the spot.",
+"src": [
+[
+"WPA Historical Records Survey, Inventory of the County Archives of Minnesota: Wabasha County, historical sketch pp. 18-19 (HathiTrust, via the PC thread)",
+""
+]
+]
+},
+"tw-vajvoda-rice-lake-1925": {
+"set": {},
+"st": " Milwaukee Leader (1925) also says John Vejvoda found about $6,000 buried on his farm northeast of Rice Lake. It is the same wire story as the other papers, so it adds detail, not a second source.",
+"src": [
+[
+"Milwaukee Leader 1925 (Chronicling America)",
+""
+]
+]
+},
+"wd4-trimbelle-zopp": {
+"set": {},
+"st": " Milwaukee Leader (1912, Prescott dateline) says relatives were digging on 'the farm that Michael Zopp owned', so the money was on a farm, not only at the village shop. Look for a Zopp or Kopp farm on the 1895-1900s Pierce plat; the pin stays at the village until then.",
+"src": [
+[
+"Milwaukee Leader 1912 (Chronicling America)",
+""
+]
+]
+},
+"cr-hudson-peterson-gold-1936": {
+"set": {
+"pl": "Garden of a small farm on the south slope of Liberty Hill, near Prospect Park, Hudson"
+},
+"st": " UP, Hudson dateline 12 June 1936: Peterson ran a small farm on the south slope of Liberty Hill near Prospect Park and had dug gold coins out of his garden plot over three years, over $100 in all, every coin dated before the Civil War, the latest a $10 piece. The pin is within 300 m of Prospect Park.",
+"src": [
+[
+"UP 12 Jun 1936 (Stillwater Gazette via MNHS Digital Newspaper Hub)",
+""
+]
+]
+}
+}
+}
