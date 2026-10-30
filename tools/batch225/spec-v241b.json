@@ -1,0 +1,565 @@
+{
+ "new": [
+  {
+   "id": "ot-river-bend-school-s1-t23n-r15e",
+   "L": "school",
+   "n": "River Bend School site (New London 1956 topo)",
+   "la": 44.49734,
+   "lo": -88.63556,
+   "y": "by 1956",
+   "pl": "sec. 1 T23N R15E, Outagamie Co.",
+   "co": "Outagamie",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1956 USGS topo map (New London 15-minute sheet) draws River Bend School here (school symbol, sec. 1 T23N R15E). No second source found yet; 6 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS New London topographic map (1956)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the New London 1956 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-riverside-school-s2-t23n-r16e",
+   "L": "school",
+   "n": "Riverside School site (New London 1956 topo)",
+   "la": 44.49201,
+   "lo": -88.5301,
+   "y": "by 1956",
+   "pl": "sec. 2 T23N R16E, Outagamie Co.",
+   "co": "Outagamie",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1956 USGS topo map (New London 15-minute sheet) draws Riverside School here (school symbol, sec. 2 T23N R16E). No second source found yet; 6 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS New London topographic map (1956)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the New London 1956 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-jefferson-school-s33-t23n-r16e",
+   "L": "school",
+   "n": "Jefferson School site (New London 1956 topo)",
+   "la": 44.43007,
+   "lo": -88.56741,
+   "y": "by 1956",
+   "pl": "sec. 33 T23N R16E, Outagamie Co.",
+   "co": "Outagamie",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1956 USGS topo map (New London 15-minute sheet) draws Jefferson School here (school symbol, sec. 33 T23N R16E). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS New London topographic map (1956)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the New London 1956 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-rexford-school-s9-t22n-r16e",
+   "L": "school",
+   "n": "Rexford School site (New London 1956 topo)",
+   "la": 44.40284,
+   "lo": -88.5658,
+   "y": "by 1956",
+   "pl": "sec. 9 T22N R16E, Outagamie Co.",
+   "co": "Outagamie",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1956 USGS topo map (New London 15-minute sheet) draws Rexford School here (school symbol, sec. 9 T22N R16E). No second source found yet; 4 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS New London topographic map (1956)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the New London 1956 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-lutheran-school-s25-t22n-r16e",
+   "L": "school",
+   "n": "Lutheran School site (New London 1956 topo)",
+   "la": 44.35184,
+   "lo": -88.51084,
+   "y": "by 1956",
+   "pl": "sec. 25 T22N R16E, Outagamie Co.",
+   "co": "Outagamie",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1956 USGS topo map (New London 15-minute sheet) draws Lutheran School here (school symbol, sec. 25 T22N R16E). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS New London topographic map (1956)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the New London 1956 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-sunny-slope-school-s16-t21n-r16e",
+   "L": "school",
+   "n": "Sunny Slope School site (New London 1956 topo)",
+   "la": 44.30219,
+   "lo": -88.56716,
+   "y": "by 1956",
+   "pl": "sec. 16 T21N R16E, Outagamie Co.",
+   "co": "Outagamie",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1956 USGS topo map (New London 15-minute sheet) draws Sunny Slope School here (school symbol, sec. 16 T21N R16E). No second source found yet; 6 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS New London topographic map (1956)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the New London 1956 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-wide-awake-school-s28-t21n-r16e",
+   "L": "school",
+   "n": "Wide Awake School site (New London 1956 topo)",
+   "la": 44.25858,
+   "lo": -88.55787,
+   "y": "by 1956",
+   "pl": "sec. 28 T21N R16E, Outagamie Co.",
+   "co": "Outagamie",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1956 USGS topo map (New London 15-minute sheet) draws Wide Awake School here (school symbol, sec. 28 T21N R16E). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS New London topographic map (1956)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the New London 1956 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-elm-tree-school-s36-t21n-r16e",
+   "L": "school",
+   "n": "Elm Tree School site (New London 1956 topo)",
+   "la": 44.25784,
+   "lo": -88.50739,
+   "y": "by 1956",
+   "pl": "sec. 36 T21N R16E, Outagamie Co.",
+   "co": "Outagamie",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1956 USGS topo map (New London 15-minute sheet) draws Elm Tree School here (school symbol, sec. 36 T21N R16E). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS New London topographic map (1956)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the New London 1956 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-clayton-school-s11-t20n-r16e",
+   "L": "school",
+   "n": "Clayton School site (Oshkosh 1961 topo)",
+   "la": 44.21481,
+   "lo": -88.54514,
+   "y": "by 1961",
+   "pl": "sec. 11 T20N R16E, Winnebago Co.",
+   "co": "Winnebago",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1961 USGS topo map (Oshkosh 15-minute sheet) draws Clayton School here (school symbol, sec. 11 T20N R16E). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Oshkosh topographic map (1961)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Oshkosh 1961 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-mears-school-s24-t19n-r16e",
+   "L": "school",
+   "n": "Mears School site (Oshkosh 1961 topo)",
+   "la": 44.11125,
+   "lo": -88.54303,
+   "y": "by 1961",
+   "pl": "sec. 24 T19N R16E, Winnebago Co.",
+   "co": "Winnebago",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1961 USGS topo map (Oshkosh 15-minute sheet) draws Mears School here (school symbol, sec. 24 T19N R16E). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Oshkosh topographic map (1961)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Oshkosh 1961 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-ham-school-s20-t18n-r15e",
+   "L": "school",
+   "n": "Ham School site (Oshkosh 1961 topo)",
+   "la": 44.01213,
+   "lo": -88.73538,
+   "y": "by 1961",
+   "pl": "sec. 20 T18N R15E, Winnebago Co.",
+   "co": "Winnebago",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1961 USGS topo map (Oshkosh 15-minute sheet) draws Ham School here (school symbol, sec. 20 T18N R15E). No second source found yet; 6 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Oshkosh topographic map (1961)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Oshkosh 1961 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-omro-union-school-s13-t18n-r15e",
+   "L": "school",
+   "n": "Omro Union School site (Oshkosh 1961 topo)",
+   "la": 44.03404,
+   "lo": -88.65404,
+   "y": "by 1961",
+   "pl": "sec. 13 T18N R15E, Winnebago Co.",
+   "co": "Winnebago",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1961 USGS topo map (Oshkosh 15-minute sheet) draws Omro Union School here (school symbol, sec. 13 T18N R15E). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Oshkosh topographic map (1961)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Oshkosh 1961 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-oakwood-school-s17-t18n-r16e",
+   "L": "school",
+   "n": "Oakwood School site (Oshkosh 1961 topo)",
+   "la": 44.03349,
+   "lo": -88.60348,
+   "y": "by 1961",
+   "pl": "sec. 17 T18N R16E, Winnebago Co.",
+   "co": "Winnebago",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1961 USGS topo map (Oshkosh 15-minute sheet) draws Oakwood School here (school symbol, sec. 17 T18N R16E). No second source found yet; 8 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Oshkosh topographic map (1961)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Oshkosh 1961 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-forest-school-s11-t27n-r15e",
+   "L": "school",
+   "n": "Forest School site (Shawano 1954 topo)",
+   "la": 44.82715,
+   "lo": -88.64571,
+   "y": "by 1954",
+   "pl": "sec. 11 T27N R15E, Shawano Co.",
+   "co": "Shawano",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1954 USGS topo map (Shawano 15-minute sheet) draws Forest School here (school symbol, sec. 11 T27N R15E). No second source found yet; 4 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Shawano topographic map (1954)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Shawano 1954 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-dallman-school-s5-t26n-r16e",
+   "L": "school",
+   "n": "Dallman School site (Shawano 1954 topo)",
+   "la": 44.76093,
+   "lo": -88.5729,
+   "y": "by 1954",
+   "pl": "sec. 5 T26N R16E, Shawano Co.",
+   "co": "Shawano",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1954 USGS topo map (Shawano 15-minute sheet) draws Dallman School here (school symbol, sec. 5 T26N R16E). No second source found yet; 4 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Shawano topographic map (1954)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Shawano 1954 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-yagers-corner-school-s33-t7n-r4e",
+   "L": "school",
+   "n": "Yagers Corner School site (Spring Green 1960 topo)",
+   "la": 43.0421,
+   "lo": -90.01621,
+   "y": "by 1960",
+   "pl": "sec. 33 T7N R4E, Iowa Co.",
+   "co": "Iowa",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1960 USGS topo map (Spring Green 15-minute sheet) draws Yagers Corner School here (school symbol, sec. 33 T7N R4E). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Spring Green topographic map (1960)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Spring Green 1960 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-five-point-school-s13-t6n-r2e",
+   "L": "school",
+   "n": "Five Point School site (Spring Green 1960 topo)",
+   "la": 43.00124,
+   "lo": -90.20626,
+   "y": "by 1960",
+   "pl": "sec. 13 T6N R2E, Iowa Co.",
+   "co": "Iowa",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1960 USGS topo map (Spring Green 15-minute sheet) draws Five Point School here (school symbol, sec. 13 T6N R2E). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Spring Green topographic map (1960)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Spring Green 1960 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-swan-school-s5-t34n-r15e",
+   "L": "school",
+   "n": "Swan School site (Wabeno 1942 topo)",
+   "la": 45.46374,
+   "lo": -88.64394,
+   "y": "by 1942",
+   "pl": "sec. 5 T34N R15E, Forest Co.",
+   "co": "Forest",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1942 USGS topo map (Wabeno 15-minute sheet) draws Swan School here (school symbol, sec. 5 T34N R15E). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Wabeno topographic map (1942)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Wabeno 1942 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-rummel-school-s13-t34n-r14e",
+   "L": "school",
+   "n": "Rummel School site (Wabeno 1942 topo)",
+   "la": 45.42605,
+   "lo": -88.69659,
+   "y": "by 1942",
+   "pl": "sec. 13 T34N R14E, Forest Co.",
+   "co": "Forest",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1942 USGS topo map (Wabeno 15-minute sheet) draws Rummel School here (school symbol, sec. 13 T34N R14E). No second source found yet; 6 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Wabeno topographic map (1942)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Wabeno 1942 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-windfall-school-s27-t34n-r14e",
+   "L": "school",
+   "n": "Windfall School site (Wabeno 1942 topo)",
+   "la": 45.394,
+   "lo": -88.7391,
+   "y": "by 1942",
+   "pl": "sec. 27 T34N R14E, Forest Co.",
+   "co": "Forest",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1942 USGS topo map (Wabeno 15-minute sheet) draws Windfall School here (school symbol, sec. 27 T34N R14E). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Wabeno topographic map (1942)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Wabeno 1942 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  }
+ ],
+ "edit": {}
+}
