@@ -1,0 +1,33 @@
+{
+ "new": [
+  {
+   "id": "tw-mn-aitkin-dick-mills-trader-money",
+   "L": "treasure",
+   "n": "Indian trader \"Uncle Dick\" Mills' rumored buried money, first Mills & Potter store on the Mud (Ripple) River, Aitkin",
+   "la": 46.5416,
+   "lo": -93.7002,
+   "y": "1870s (store founding)",
+   "pl": "Ripple (old Mud) River bank at Aitkin, Aitkin County",
+   "co": "Aitkin",
+   "stt": "MN",
+   "v": "Hidden money (story)",
+   "c": "rumor",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Old settler Cleve Stafford recalled that Warren Potter and Uncle Dick Mills, an old Indian trader, built their first store on the bank of the Mud River near the later C. E. Haines building, and that \"people say that Mills buried money at that point, but I don't know... there were no banks, no vaults nor safes in those days\". Mills later sold out to Potter and died at Duluth. The pin is the Ripple River mouth at Aitkin, good to about 500 m until the C. E. Haines building is placed.",
+   "t": "Hearsay that the writer doubted. Place the C. E. Haines building on a 1900s-1910s Aitkin Sanborn map or plat to fix the store site. Likely developed town land: check.",
+   "src": [
+    [
+     "Aitkin Independent Age 8 Jan 1916, \"Old Timer Tells of Early Days\" by Cleve Stafford (MNHS Newspaper Hub, PC read)",
+     ""
+    ]
+   ],
+   "acm": [
+    500,
+    "other"
+   ],
+   "pinev": "GNIS Ripple River (formerly Mud River) mouth at Aitkin; store was on the Mud River bank \"near where C. E. Haines afterward built\"; pin ~500 m until the Haines building is placed"
+  }
+ ],
+ "edit": {}
+}
