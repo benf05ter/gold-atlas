@@ -6,7 +6,7 @@
 // Where the tiles aren't published (the Claude atlas page), the old whole-sheet pictures stay as they were.
 // plat book tiles (p-*, p13) live in the second repo benf05ter/gold-atlas-maps (Pages 1 GB limit); same origin on github.io, so the service worker saves them like the rest
 var OGT={ix:null, L:{}, has(id,z,x,y){ const s=this.S[id]&&this.S[id][z]; return !!s&&s.has(x+'_'+y); }, S:{},
-  u(id,z,x,y){ return (/^p(-|13$)/.test(id)?(location.hostname==='benf05ter.github.io'?'/gold-atlas-maps/ot/':'https://benf05ter.github.io/gold-atlas-maps/ot/'):'ot/')+`${id}/${z}/${x}_${y}.webp`; }};
+  u(id,z,x,y){ return (/^(p(-|13$)|gsm$)/.test(id)?(location.hostname==='benf05ter.github.io'?'/gold-atlas-maps/ot/':'https://benf05ter.github.io/gold-atlas-maps/ot/'):'ot/')+`${id}/${z}/${x}_${y}.webp`; }};
 fetch('ot/index.json').then(r=>r.ok?r.json():null).then(ix=>{ if(!ix||!ix.o36) return; OGT.ix=ix;
   for(const id in ix){ OGT.S[id]={}; for(const z in ix[id].t) OGT.S[id][z]=new Set(ix[id].t[z]?ix[id].t[z].split(','):[]); }
   // the slider maps cover the same box: a map hidden under a fully shown one, or faded to nothing, isn't loaded at all
