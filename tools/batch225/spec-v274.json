@@ -1,0 +1,102 @@
+{
+ "new": [
+  {
+   "id": "cd-big-bend-stopping-place",
+   "L": "history",
+   "n": "Big Bend stopping place on the Chippewa pinery road (1870s), kept by Sebe Miles",
+   "la": 45.3349,
+   "lo": -91.3579,
+   "y": "1870s-1880s",
+   "pl": "Town of Big Bend, Rusk County (big bend of the main Chippewa)",
+   "co": "Rusk",
+   "stt": "WI",
+   "v": "Coins, tokens, harness and logging hardware",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "A logger's memoir of the 1870s walk from Eau Claire to the pineries puts supper, lodging and breakfast at the Big Bend on the third day, at a stopping place kept by Sebe Miles. The previous stops were the Twelve Mile House and the Lake House on Long Lake (Eau Claire Leader, 29 Jun 1917, p. 3). An 1882 list of log-scaling districts names \"the main Chippewa from Big Bend\" above the Long Lake and Bob's Creek district (Eau Claire News, 16 Dec 1882, p. 3), which puts Big Bend on the main river in today's Town of Big Bend. The house's section is not known, so the pin is the town centroid.",
+   "t": "Find the old tote road where it meets the river bend on the 1938 aerial or an old topo; stopping places stood by the road at the water. Private land: ask.",
+   "src": [
+    [
+     "Eau Claire Leader, 29 Jun 1917, p. 3 (newspapers.com image 239482597)",
+     ""
+    ],
+    [
+     "Eau Claire News, 16 Dec 1882, p. 3 (newspapers.com image 239411709)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "GNIS Town of Big Bend centroid; house section not found",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "cd-connors-lake-ccc-s56",
+   "L": "camp",
+   "n": "Connors Lake CCC camp S-56 (Co. 1610), 1933-1940",
+   "la": 45.7519,
+   "lo": -90.7363,
+   "y": "1933-c.1940",
+   "pl": "Connors Lake, Flambeau River State Forest, Sawyer County",
+   "co": "Sawyer",
+   "stt": "WI",
+   "v": "Coins, tokens, uniform buttons, camp junk",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Company 1610 opened state forest camp S-56 at Connors Lake on 23 June 1933, \"26 mi W of Phillips\". It had more than 300 men and side camps at Park Falls and Loretta, and was closed by 1940 (Price County CCC camp list, rootsweb, via the PC thread's research/ccc-camps.tsv). The pin is the lake (GNIS); the barracks clearing is not placed.",
+   "t": "CCC camps leave a cleared flat with footings, a dump and a flagpole base. Look on the 1938 aerial around the lake. This is state forest land, so check the DNR rules or get a permit before detecting. Flambeau River State Forest: check state forest rules before detecting.",
+   "src": [
+    [
+     "Price County CCC camp list (rootsweb, sites.rootsweb.com/~wiprice/ccc_camps.html) via research/ccc-camps.tsv on Neb's PC",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "GNIS Connors Lake; camp clearing not located",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "cd-sheep-ranch-ccc-f4",
+   "L": "camp",
+   "n": "Sheep Ranch (\"Skookum Valley\") CCC camp F-4 (Co. 644), 1933",
+   "la": 45.767,
+   "lo": -90.058,
+   "y": "1933-1930s",
+   "pl": "Jacob Steiger Road area, east Price County (Phillips post office)",
+   "co": "Price",
+   "stt": "WI",
+   "v": "Coins, tokens, uniform buttons, camp junk",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Company 644 opened forest camp F-4, called Sheep Ranch or \"Skookum Valley\", on 19 May 1933. The list places it on the Jacob Steiger Road, 4 miles east of the Joseph Loula Sr. homestead (Price County CCC camp list, rootsweb). Jacob Steiger took a federal patent in 1903 on part of sec. 24 T38N R3E, and the pin sits there on the guess that the road ran by his land. The Loula homestead is not yet found, so the spot may be off by miles.",
+   "t": "An F-camp was in the national forest, so the site is probably on Chequamegon-Nicolet land: look only, no digging. Use the 1938 aerial to find the clearing.",
+   "src": [
+    [
+     "Price County CCC camp list (rootsweb) via research/ccc-camps.tsv on Neb's PC",
+     ""
+    ],
+    [
+     "BLM GLO patent, Jacob Steiger, 1 Oct 1903 (land-entries file, sec 24 T38N R3E)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Jacob Steiger 1903 patent tract; Loula homestead not located",
+    "Unconfirmed, one source"
+   ],
+   "warn": "Look only: likely Chequamegon-Nicolet National Forest land"
+  }
+ ],
+ "edit": {
+  "pc88-lake-house-on-long-lake-sec-18-t32n-r8w": {
+   "st": " Later papers call it the \"Campbell lake house\" on Highway 40 by Long Lake."
+  }
+ }
+}
