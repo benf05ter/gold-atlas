@@ -1,0 +1,41 @@
+{
+ "new": [
+  {
+   "id": "cd-worham-houghton",
+   "L": "ghost",
+   "n": "Worham: the platted rail village on the South Shore line (1911 plat)",
+   "la": 46.98274,
+   "lo": -88.57986,
+   "y": "by 1911",
+   "pl": "Near the S line of sec. 14, R34W, Houghton County, where the South Shore railway crosses Worham Creek",
+   "co": "Houghton",
+   "stt": "MI",
+   "v": "Coins and rail-camp losses, tools, bottles",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "The 1911 Weston & Hancock plat book of Houghton County (Range 34 West page) draws WORHAM as a small platted village beside the South Shore railway, at the river crossing near the corner of secs. 14 and 23. An old road and a survey road run through it, and the township around it has scattered houses and schools. GNIS keeps the name only for Worham Creek. The 1954 USGS Pelkie topo no longer names the village, but it shows the railway crossing Worham Creek at the sec. 14/23 line with a couple of buildings beside it. The pin sits on the plat's block position just northwest of that crossing, about 550 m from the GNIS creek point. No other pin is within 4 km.",
+   "t": "Find the hatched village block beside the railroad on an old topo or a 1938-40 air photo, then ask the landowner or the forest office first.",
+   "src": [
+    [
+     "Plat book of Houghton County, Michigan (Weston & Hancock, c1911), Range 34 West page (UMich seq 31; Neb's screenshot)",
+     "https://quod.lib.umich.edu/m/micounty/5117704.0001.001/31"
+    ],
+    [
+     "USGS GNIS: Worham Creek, Houghton Co.",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+    ],
+    [
+     "USGS Pelkie topographic map (1954), railway crossing of Worham Creek",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the 1911 plat block position against the 1954 Pelkie topo railway crossing; good to about 150 m",
+    "Unconfirmed, one source"
+   ]
+  }
+ ],
+ "edit": {}
+}
