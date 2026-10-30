@@ -1,0 +1,112 @@
+{
+ "new": [],
+ "edit": {
+  "cem-661300": {
+   "set": {
+    "la": 46.840696,
+    "lo": -92.069911
+   },
+   "st": " Pin moved onto the Forest Hill Cemetery outline in Duluth: Find a Grave (FG 82331) and OpenStreetMap agree on the cemetery, the GNIS point sat about 450 m outside it.",
+   "moved": true,
+   "src": [
+    [
+     "Find a Grave cemetery page (FG 82331), read 2026-10-30",
+     "https://www.findagrave.com/cemetery/82331"
+    ],
+    [
+     "OpenStreetMap cemetery outline (Overture Maps land use, 2026-10-21)",
+     ""
+    ]
+   ]
+  },
+  "cem-2064357": {
+   "set": {
+    "la": 44.516065,
+    "lo": -95.998677
+   },
+   "st": " Pin moved about 550 m west onto the Hemnes cemetery: Find a Grave (FG 2370593, and Hemnes FG 82482 at the same spot) and the OpenStreetMap outline agree within 60 m.",
+   "moved": true,
+   "src": [
+    [
+     "Find a Grave cemetery page (FG 2370593), read 2026-10-30",
+     "https://www.findagrave.com/cemetery/2370593"
+    ],
+    [
+     "OpenStreetMap cemetery outline (Overture Maps land use, 2026-10-21)",
+     ""
+    ]
+   ]
+  },
+  "cem-2065702": {
+   "set": {
+    "la": 45.326122,
+    "lo": -95.360735
+   },
+   "st": " Pin moved about 400 m north: Find a Grave (FG 2427452) and the OpenStreetMap outline agree within 20 m.",
+   "moved": true,
+   "src": [
+    [
+     "Find a Grave cemetery page (FG 2427452), read 2026-10-30",
+     "https://www.findagrave.com/cemetery/2427452"
+    ],
+    [
+     "OpenStreetMap cemetery outline (Overture Maps land use, 2026-10-21)",
+     ""
+    ]
+   ]
+  },
+  "cem-2068843": {
+   "set": {
+    "la": 45.837398,
+    "lo": -94.916991
+   },
+   "st": " Pin moved about 500 m southwest onto the Svea Lund cemetery: Find a Grave (FG 2326071) and the OpenStreetMap outline agree within 20 m.",
+   "moved": true,
+   "src": [
+    [
+     "Find a Grave cemetery page (FG 2326071), read 2026-10-30",
+     "https://www.findagrave.com/cemetery/2326071"
+    ],
+    [
+     "OpenStreetMap cemetery outline (Overture Maps land use, 2026-10-21)",
+     ""
+    ]
+   ]
+  },
+  "cem-2050812": {
+   "st": " Find a Grave (FG 2206172) puts Wisel Cemetery within about 100 m of this pin, so the pin stays; an OpenStreetMap outline of the same name 600 m away is likely mislabeled.",
+   "src": [
+    [
+     "Find a Grave cemetery page (FG 2206172), read 2026-10-30",
+     "https://www.findagrave.com/cemetery/2206172"
+    ]
+   ]
+  },
+  "fg-2274757": {
+   "set": {
+    "la": 46.16591,
+    "lo": -92.36272
+   },
+   "st": " Pin moved about 9 km south to the Find a Grave coordinates, which sit in sec. 34 T42N R16W as the cemetery page states (east of Askov, near Cloverton).",
+   "moved": true
+  },
+  "tw-wi-new-london-hoffman-orchard": {
+   "set": {
+    "la": 44.36284,
+    "lo": -88.74207,
+    "pinev": [
+     "Centre of the SE¼ sec. 24 T22N R14E, where the 1889 plat draws C. Nordman's 160 acres; two separate 1908 dispatches name the hill; good to about 400 m"
+    ],
+    "pinconf": "B"
+   },
+   "st": " The 1889 Waupaca County plat shows \"C. Nordman 160\" on the SE¼ of sec. 24 T22N R14E (Mukwa), about 2 miles south-southeast of New London: that is Nordman's hill. The pin is the centre of that quarter (BLM section lines).",
+   "moved": true,
+   "src": [
+    [
+     "Waupaca County plat, 1889 (Wisconsin Historical Society W0174M6 / W0174N5), Mukwa township",
+     ""
+    ]
+   ]
+  }
+ }
+}
