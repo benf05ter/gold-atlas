@@ -1,0 +1,37 @@
+{
+ "new": [
+  {
+   "id": "lf-cameron-dam",
+   "L": "history",
+   "n": "Cameron Dam and the Dietz homestead (1904-1910)",
+   "la": 45.755,
+   "lo": -90.893,
+   "y": "1904-1910",
+   "pl": "Cameron Dam on the Thornapple River, Sawyer County (now a county park)",
+   "co": "Sawyer",
+   "stt": "WI",
+   "v": "Look and ask: coins, farm and logging-camp losses",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "After the Dietz family settled beside Cameron Dam on the Thornapple River in 1904, John F. Dietz stopped the Chippewa Lumber & Boom Co. from sluicing logs through it, saying the dam lay partly on his land and that he was owed a toll. Repeated attempts to serve papers or arrest him failed. A sheriff's posse traded gunfire with the family on 25 July 1906, and on 8 October 1910 another posse surrounded the house; Deputy Oscar Harp was killed, and John and his son Leslie were wounded before the family surrendered. Dietz was convicted in 1911 and sentenced to life, but his sentence was commuted in 1914 and he was pardoned in 1921. Blanchard (p. 51) lists Cameron Dam among the seven wooden dams of the Flambeau drive, twenty miles past the Height Dam; the Thornapple is a Flambeau-system river, but his mileage does not quite fit, so treat his placement as approximate. The dam is gone, and the homestead is now a county park.",
+   "t": "County park: check the park rules before any detecting, and look first for the dam abutments and the homestead clearing.",
+   "src": [
+    [
+     "Wyman and Blanchard, The Lumberjack Frontier: The Life of a Logger in the Early Days on the Chippewa (1969), your screenshots",
+     ""
+    ],
+    [
+     "Wikipedia: Battle of Cameron Dam",
+     "https://en.wikipedia.org/wiki/Battle_of_Cameron_Dam"
+    ]
+   ],
+   "pinconf": "B",
+   "pinev": [
+    "Pin is the Wikipedia coordinate for Cameron Dam on the Thornapple River; good to about 300 m",
+    "Two sources: Blanchard (1969) and the Wikipedia article on the Battle of Cameron Dam"
+   ]
+  }
+ ],
+ "edit": {}
+}
