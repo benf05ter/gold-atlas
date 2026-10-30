@@ -14,3 +14,8 @@ Layers: `o250` 1:250,000 sheets, `o15` 15-minute sheets, `o19` 1889-1900 sheets 
 `o72` 1972 topo, `o36` 1936 topo. `index.json` lists every tile, so the page never asks for one that does not exist.
 Pass the output folder to `tools/build.py` as its 7th argument. The page code that reads the tiles is `tools/perf/ogt.html`
 (added to the atlas by `tools/perf/speed.py`); without `ot/` (the Claude artifact) the atlas falls back to the whole sheets.
+
+Since 2026-10-30 the source sheets are not in this repo (GitHub Pages caps the site at 1 GB). They live in the project files under
+`app-sources/`: `sheets/om`, `sheets/om13`, `sheets/om19`, `sheets/om40` (the whole sheets the app used to carry) and `tiles-om13/`
+(the full-size plat scans). Copy those folders next to `spec.json` (`tiles-om13/` as `om13/`) before re-cutting a layer.
+`build.py` leaves every sheet that is cut into tiles out of the app.

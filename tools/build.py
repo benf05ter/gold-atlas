@@ -23,6 +23,11 @@ if not rid: i=c.rindex('</script>')+len('</script>'); c=c[:i]+open(os.path.join(
 c=c.replace('For trips with no signal, install the home-screen app: open <a href="https://benf05ter.github.io/gold-atlas/a-f218a76394f8/" target="_blank" rel="noopener">the app link</a> in Safari, tap Share, then Add to Home Screen. It keeps the whole atlas, old maps included, on your phone and updates itself when you have signal.','You are in the home-screen app: the whole atlas, old maps included, is saved on this phone, and it updates itself when you have signal.')
 c=c.replace('For trips with no signal, save the offline copy <span class="mono">Upper-Midwest-Gold-Atlas.html</span> from the project files to your phone and open it in your browser before you lose service.',
  'For trips with no signal, use the home-screen app: open its link in Safari, tap Share, then Add to Home Screen. It keeps the whole atlas on your phone and updates itself when you have signal.')
+# old-map sheets the app shows as tiles (ot/) stay out of the site (GitHub Pages caps a site at 1 GB); the Claude atlas keeps them.
+# Sources for re-cutting the tiles: project files app-sources/ (sheets/ and tiles-om13/).
+TILED=r'^(h15_|h250_|hx_|h19_|sv78_|gs_|plat_)'
+c=c.replace("/^(h15_|h250_|h19_|sv78_|gs_|plat_)/.test(f)","/"+TILED+"/.test(f)")   # the 1930s-60s sheets (hx_, v203) are in the o15 tiles too
+c=c.replace("if(!(b<lon0||a>lon1||d<la0||c>la1)) U.add('om/'+f+'.webp');","if(!(b<lon0||a>lon1||d<la0||c>la1)&&!(typeof OGT==='object'&&OGT.ix)) U.add('om/'+f+'.webp');")   # save area: the tiles, not the sheets
 open(out+'/index.html','w',encoding='utf-8').write(c)
 # since v120 the atlas is index.html + og-data.js (pins, towns, schools) + og/ (the two heat-map pictures); they sit next to the page
 sd=os.path.dirname(os.path.abspath(src))
@@ -85,6 +90,12 @@ ot=sys.argv[7] if len(sys.argv)>7 else None   # old maps cut into 512 px tiles b
 if ot:
   if os.path.isdir(out+'/ot'): shutil.rmtree(out+'/ot')
   shutil.copytree(ot,out+'/ot',ignore=shutil.ignore_patterns('index-*.json')); satpre.append('ot/index.json')
+if ot:
+  for d in ('om','om13','om19','om40'):
+    if os.path.isdir(out+'/'+d):
+      for f in os.listdir(out+'/'+d):
+        if re.match(TILED,f): os.remove(out+'/'+d+'/'+f)
+      if not os.listdir(out+'/'+d): os.rmdir(out+'/'+d)
 h=hashlib.sha256()
 for d,_,fs in sorted(os.walk(out)):
   for f in sorted(fs):
