@@ -1,0 +1,260 @@
+{
+ "new": [
+  {
+   "id": "cd-old-camps-sec11-t52n-r35w",
+   "L": "camp",
+   "n": "Old Camps, sec. 11 T52N R35W (1911 plat)",
+   "la": 46.9166,
+   "lo": -88.7195,
+   "y": "by 1911",
+   "pl": "W sec. 11 T52N R35W, by the W quarter line where the Trail crosses the creek, Houghton County",
+   "co": "Houghton",
+   "stt": "MI",
+   "v": "Logging-camp tools, spikes, bottles, coins",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "The 1911 Houghton County plat book (T52N R35W page) marks \"Old Camps\" in the west part of sec. 11, by the west quarter line on the creek where the Trail crosses. The H.C.&S.W. railway survey line runs across secs. 11-12. The camps were already abandoned by 1911.",
+   "t": "Look for the camp clearing, stove parts, bottles and horseshoes. Ask the landowner or the forest office first.",
+   "src": [
+    [
+     "Plat book of Houghton County, Michigan (Weston & Hancock, c1911), T52N R35W page (scan 45) (Neb's screenshot)",
+     "https://quod.lib.umich.edu/m/micounty/5117704.0001.001/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed by the W quarter corner of sec. 11; good to about 300 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "cd-camp-road-end-sec35-t52n-r35w",
+   "L": "camp",
+   "n": "Old camp at the road end, sec. 35 T52N R35W (1911 plat)",
+   "la": 46.8647,
+   "lo": -88.7131,
+   "y": "by 1911",
+   "pl": "NE NW sec. 35 T52N R35W, at the end of the Old Road, Houghton County",
+   "co": "Houghton",
+   "stt": "MI",
+   "v": "Logging-camp tools, spikes, bottles, coins",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "The 1911 Houghton County plat book (T52N R35W page) ends the Old Road from the south at a dot in NE NW sec. 35, beside a log road through secs. 35-25. This is likely the old camp that the \"To Old Camp\" road on the west half of the page leads to.",
+   "t": "Look for the camp clearing, stove parts, bottles and horseshoes. Ask the landowner or the forest office first.",
+   "src": [
+    [
+     "Plat book of Houghton County, Michigan (Weston & Hancock, c1911), T52N R35W page (scan 45) (Neb's screenshot)",
+     "https://quod.lib.umich.edu/m/micounty/5117704.0001.001/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed at the centre of NE NW sec. 35; good to about 250 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "cd-old-camps-sec21-t49n-r36w",
+   "L": "camp",
+   "n": "Old Camps, sec. 21 T49N R36W (1911 plat)",
+   "la": 46.6235,
+   "lo": -88.8219,
+   "y": "by 1911",
+   "pl": "SW SW sec. 21 T49N R36W, beside the Old Road, Houghton County",
+   "co": "Houghton",
+   "stt": "MI",
+   "v": "Logging-camp tools, spikes, bottles, coins",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "The 1911 Houghton County plat book (T49N R36W page) marks \"Old Camps\" beside the Old Road in SW SW sec. 21. The camps were already abandoned by 1911.",
+   "t": "Look for the camp clearing, stove parts, bottles and horseshoes. Ask the landowner or the forest office first.",
+   "src": [
+    [
+     "Plat book of Houghton County, Michigan (Weston & Hancock, c1911), T49N R36W page (scan 58) (Neb's screenshot)",
+     "https://quod.lib.umich.edu/m/micounty/5117704.0001.001/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed at the centre of SW SW sec. 21; good to about 250 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "cd-camps-sec32-t49n-r36w",
+   "L": "camp",
+   "n": "Camps on the Old Road, sec. 32 T49N R36W (1911 plat)",
+   "la": 46.5946,
+   "lo": -88.8327,
+   "y": "by 1911",
+   "pl": "SW SE sec. 32 T49N R36W, on the Old Road, Houghton County",
+   "co": "Houghton",
+   "stt": "MI",
+   "v": "Logging-camp tools, spikes, bottles, coins",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "The 1911 Houghton County plat book (T49N R36W page) marks \"Camps\" on the Old Road in SW SE sec. 32, with the Milwaukee Road (CM&StP) railway in sec. 31.",
+   "t": "Look for the camp clearing, stove parts, bottles and horseshoes. Ask the landowner or the forest office first.",
+   "src": [
+    [
+     "Plat book of Houghton County, Michigan (Weston & Hancock, c1911), T49N R36W page (scan 58) (Neb's screenshot)",
+     "https://quod.lib.umich.edu/m/micounty/5117704.0001.001/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed at the centre of SW SE sec. 32; good to about 250 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "cd-wyandotte-mine-t52n-r36w",
+   "L": "cmine",
+   "n": "Wyandotte Mine, T52N R36W (1911 plat)",
+   "la": 46.8899,
+   "lo": -88.869,
+   "y": "by 1911",
+   "pl": "sec. 21/22 line T52N R36W, near Wyandotte, Houghton County",
+   "co": "Houghton",
+   "stt": "MI",
+   "v": "Copper; poor-rock piles",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "The 1911 Houghton County plat book (T52N R36W page) marks the Wyandotte Mine at the sec. 21/22 line. GNIS keeps the place name Wyandotte about 500 m west, in SW NE sec. 21, near Wyandotte Falls. Keweenaw poor-rock piles are where native copper, silver and datolite turn up.",
+   "t": "Old mine ground about 560 m from Twin Lakes State Park: check the land is not park ground (Michigan state parks need a permit to detect), stay off shafts and adits, and ask the landowner first. Poor-rock piles are the place to look.",
+   "src": [
+    [
+     "Plat book of Houghton County, Michigan (Weston & Hancock, c1911), T52N R36W page (scan 64) (Neb's screenshot)",
+     "https://quod.lib.umich.edu/m/micounty/5117704.0001.001/"
+    ],
+    [
+     "USGS GNIS: Wyandotte, Houghton Co.",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+    ]
+   ],
+   "pinconf": "B",
+   "pinev": [
+    "Placed on the sec. 21/22 line at the GNIS Wyandotte latitude; good to about 300 m"
+   ]
+  },
+  {
+   "id": "cd-halfway-house-misery-bay-road",
+   "L": "history",
+   "n": "Halfway House on the Misery Bay Road (1911 plat)",
+   "la": 46.912,
+   "lo": -88.8389,
+   "y": "by 1911",
+   "pl": "SE SW sec. 11 T52N R36W, by the 11/14 line, Houghton County",
+   "co": "Houghton",
+   "stt": "MI",
+   "v": "Coins, tokens, horse tack, bottles",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "The 1911 Houghton County plat book (T52N R36W page) marks the Halfway House where the Misery Bay Road meets the road north from Twin Lakes, in SE SW sec. 11 by the 11/14 line. It was a stopping place for teams and travellers on the road to Misery Bay.",
+   "t": "Roadhouse ground: look for the building and barn pads at the road corner, the well, and the dump behind it. Ask the landowner first.",
+   "src": [
+    [
+     "Plat book of Houghton County, Michigan (Weston & Hancock, c1911), T52N R36W page (scan 65) (Neb's screenshot)",
+     "https://quod.lib.umich.edu/m/micounty/5117704.0001.001/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the plat \"x\" at the road corner; good to about 150 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "cd-paleston-station-twin-lakes",
+   "L": "vpo",
+   "n": "Paleston station, Twin Lakes (1911 plat)",
+   "la": 46.8831,
+   "lo": -88.8636,
+   "y": "by 1911",
+   "pl": "SW sec. 22 T52N R36W, W shore of Twin Lakes, Houghton County",
+   "co": "Houghton",
+   "stt": "MI",
+   "v": "Coins, tokens, railroad buttons and lantern parts, spikes, bottles",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "The 1911 Houghton County plat book (T52N R36W page) draws Paleston as a station circle on the Copper Range railway on the west shore of Twin Lakes, in SW sec. 22. It is about 800 m from the Twin Lakes State Park pin and is a separate place.",
+   "t": "Check first whether the spot is park ground (Michigan state parks need a permit to detect). Look for the depot or platform pad beside the old grade, cinder spots and the section-house site. Ask the landowner first.",
+   "src": [
+    [
+     "Plat book of Houghton County, Michigan (Weston & Hancock, c1911), T52N R36W page (scan 65) (Neb's screenshot)",
+     "https://quod.lib.umich.edu/m/micounty/5117704.0001.001/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the plat station circle; good to about 150 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "cd-elm-river-station-t52n-r36w",
+   "L": "vpo",
+   "n": "Elm River station (1911 plat)",
+   "la": 46.9193,
+   "lo": -88.8182,
+   "y": "by 1911",
+   "pl": "sec. 12 T52N R36W, on the railway, Houghton County",
+   "co": "Houghton",
+   "stt": "MI",
+   "v": "Coins, tokens, railroad buttons and lantern parts, spikes, bottles",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "The 1911 Houghton County plat book (T52N R36W page) draws Elm River as a station circle on the railway in sec. 12, northeast of Twin Lakes. GNIS keeps the name only for the stream.",
+   "t": "Look for the depot or platform pad beside the old grade, cinder spots and the section-house site. Ask the landowner first.",
+   "src": [
+    [
+     "Plat book of Houghton County, Michigan (Weston & Hancock, c1911), T52N R36W page (scan 65) (Neb's screenshot)",
+     "https://quod.lib.umich.edu/m/micounty/5117704.0001.001/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the plat station circle; good to about 150 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "cd-camp-sec15-t49n-r36w",
+   "L": "camp",
+   "n": "Camp west of the Indian Trail, sec. 15 T49N R36W (1911 plat)",
+   "la": 46.6368,
+   "lo": -88.785,
+   "y": "by 1911",
+   "pl": "SE SE sec. 15 T49N R36W, by the 15/22 line, Houghton County",
+   "co": "Houghton",
+   "stt": "MI",
+   "v": "Logging-camp tools, spikes, bottles, coins",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "The 1911 Houghton County plat book (T49N R36W page) marks a \"Camp\" in SE SE sec. 15 by the 15/22 line, on a road just west of the \"Indian Trail\", which the plat draws north-south through secs. 12, 14, 23, 26 and 34.",
+   "t": "Look for the camp clearing, stove parts, bottles and horseshoes. Ask the landowner or the forest office first.",
+   "src": [
+    [
+     "Plat book of Houghton County, Michigan (Weston & Hancock, c1911), T49N R36W page (scan 59) (Neb's screenshot)",
+     "https://quod.lib.umich.edu/m/micounty/5117704.0001.001/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed in SE SE sec. 15 by the 15/22 line; good to about 250 m",
+    "Unconfirmed, one source"
+   ]
+  }
+ ],
+ "edit": {}
+}

@@ -1,0 +1,33 @@
+{
+ "new": [
+  {
+   "id": "it-northern-belle-silver",
+   "L": "history",
+   "n": "Northern Belle silver mine (1880s-90s), Marengo",
+   "la": 46.3596,
+   "lo": -90.8557,
+   "y": "1880s-1890s",
+   "pl": "Ashland County, SW 1/4 sec. 22, T45N R4W",
+   "co": "Ashland",
+   "stt": "WI",
+   "c": "documented",
+   "s": "unknown",
+   "p": "plss",
+   "pinconf": "C",
+   "v": "Look only at the old workings",
+   "st": "WGNHS: 'Numerous small shows of silver were worked briefly in the 1880's and 1890's in several places in the county. These include the Northern Belle mine (SW sec. 22 T.45N R4W) the Jacobs prospect (sec. 32 T45N R2W) and the Holmes prospect (sec. 34 T.45N. R.2W) (Cox, 2002).' The quarter section was homesteaded by Edmond R. Green (patent 1884). It lies about 2.3 km NW of the Tanner forty (NE SW sec. 26) that author James Brakken calls Chief Namakagon's homestead in the 'Marengo silver fields', so the silver workings and the Chief's legend sit in the same square mile or two.",
+   "t": "Chequamegon National Forest today: old mine workings are a historic site, look only; detect and pan the open ground and the Brunsweiler River below. No 1 m LiDAR here; the 1938 air photo may show the dump or clearing.",
+   "src": [
+    [
+     "WGNHS: Silver in Wisconsin (Ashland County, citing Cox 2002)",
+     "https://home.wgnhs.wisc.edu/minerals/silver/"
+    ],
+    [
+     "BLM GLO patent WI0120__.072, Edmond R. Green (1884)",
+     "https://glorecords.blm.gov/details/patent/default.aspx?accession=WI0120__.072&docClass=STA"
+    ]
+   ]
+  }
+ ],
+ "edit": {}
+}
