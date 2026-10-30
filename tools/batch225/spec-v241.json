@@ -1,0 +1,838 @@
+{
+ "new": [
+  {
+   "id": "ot-clearing-school-s19-t47n-r4w",
+   "L": "school",
+   "n": "... Clearing School site (name partly readable, Ashland 1942 topo)",
+   "la": 46.54133,
+   "lo": -90.90715,
+   "y": "by 1942",
+   "pl": "sec. 19 T47N R4W, Ashland Co.",
+   "co": "Ashland",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1942 USGS topo map (Ashland 15-minute sheet) draws Clearing School here (school symbol, sec. 19 T47N R4W). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Ashland topographic map (1942)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Ashland 1942 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-olson-school-s2-t46n-r5w",
+   "L": "school",
+   "n": "Olson School site (Ashland 1942 topo)",
+   "la": 46.50184,
+   "lo": -90.95453,
+   "y": "by 1942",
+   "pl": "sec. 2 T46N R5W, Ashland Co.",
+   "co": "Ashland",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1942 USGS topo map (Ashland 15-minute sheet) draws Olson School here (school symbol, sec. 2 T46N R5W). No second source found yet; 3 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Ashland topographic map (1942)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Ashland 1942 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-king-school-s26-t49n-r10w",
+   "L": "school",
+   "n": "King School site (Brule 1947 topo)",
+   "la": 46.69137,
+   "lo": -91.57372,
+   "y": "by 1947",
+   "pl": "sec. 26 T49N R10W, Douglas Co.",
+   "co": "Douglas",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1947 USGS topo map (Brule 15-minute sheet) draws King School here (school symbol, sec. 26 T49N R10W). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Brule topographic map (1947)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Brule 1947 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-corner-school-s23-t48n-r11w",
+   "L": "school",
+   "n": "Corner School site (Brule 1947 topo)",
+   "la": 46.61949,
+   "lo": -91.71993,
+   "y": "by 1947",
+   "pl": "sec. 23 T48N R11W, Douglas Co.",
+   "co": "Douglas",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1947 USGS topo map (Brule 15-minute sheet) draws Corner School here (school symbol, sec. 23 T48N R11W). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Brule topographic map (1947)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Brule 1947 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-enterprise-school-s28-t35n-r10e",
+   "L": "school",
+   "n": "Enterprise School site (Elcho 1942 topo)",
+   "la": 45.49643,
+   "lo": -89.2471,
+   "y": "by 1942",
+   "pl": "sec. 28 T35N R10E, Oneida Co.",
+   "co": "Oneida",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1942 USGS topo map (Elcho 15-minute sheet) draws Enterprise School here (school symbol, sec. 28 T35N R10E). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Elcho topographic map (1942)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Elcho 1942 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-hohn-school-s18-t27n-r14e",
+   "L": "school",
+   "n": "Hohn School site (Gresham 1954 topo)",
+   "la": 44.81776,
+   "lo": -88.83832,
+   "y": "by 1954",
+   "pl": "sec. 18 T27N R14E, Shawano Co.",
+   "co": "Shawano",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1954 USGS topo map (Gresham 15-minute sheet) draws Hohn School here (school symbol, sec. 18 T27N R14E). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Gresham topographic map (1954)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Gresham 1954 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-immanuel-church-s23-t27n-r13e",
+   "L": "school2",
+   "n": "Immanuel Church site (Gresham 1954 topo)",
+   "la": 44.80481,
+   "lo": -88.89927,
+   "y": "by 1954",
+   "pl": "sec. 23 T27N R13E, Shawano Co.",
+   "co": "Shawano",
+   "stt": "WI",
+   "v": "Coins, religious medals, buttons, jewelry from church socials and picnics",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1954 USGS topo map (Gresham 15-minute sheet) draws Immanuel Church here (church symbol, sec. 23 T27N R13E). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level church pad, fieldstone foundation corners, lilacs or old spruce, and the horse-shed line. If there is a churchyard cemetery, search only outside it. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Gresham topographic map (1954)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Gresham 1954 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-weasel-d-school-s5-t26n-r13e",
+   "L": "school",
+   "n": "Weasel D... School site (name partly readable, Gresham 1954 topo)",
+   "la": 44.76747,
+   "lo": -88.94544,
+   "y": "by 1954",
+   "pl": "sec. 5 T26N R13E, Shawano Co.",
+   "co": "Shawano",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1954 USGS topo map (Gresham 15-minute sheet) draws Weasel D... School here (school symbol, sec. 5 T26N R13E). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Gresham topographic map (1954)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Gresham 1954 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-blaine-school-s25-t49n-r9w",
+   "L": "school",
+   "n": "Blaine School site (Iron Lake 1943 topo)",
+   "la": 46.69108,
+   "lo": -91.4469,
+   "y": "by 1943",
+   "pl": "sec. 25 T49N R9W, Bayfield Co.",
+   "co": "Bayfield",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1943 USGS topo map (Iron Lake 15-minute sheet) draws Blaine School here (school symbol, sec. 25 T49N R9W). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Iron Lake topographic map (1943)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Iron Lake 1943 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-miles-school-s29-t49n-r8w",
+   "L": "school",
+   "n": "Miles School site (Iron Lake 1943 topo)",
+   "la": 46.69087,
+   "lo": -91.40654,
+   "y": "by 1943",
+   "pl": "sec. 29 T49N R8W, Bayfield Co.",
+   "co": "Bayfield",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1943 USGS topo map (Iron Lake 15-minute sheet) draws Miles School here (school symbol, sec. 29 T49N R8W). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Iron Lake topographic map (1943)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Iron Lake 1943 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-town-hall-school-s20-t48n-r8w",
+   "L": "school",
+   "n": "Town Hall School site (Iron Lake 1943 topo)",
+   "la": 46.61912,
+   "lo": -91.39371,
+   "y": "by 1943",
+   "pl": "sec. 20 T48N R8W, Bayfield Co.",
+   "co": "Bayfield",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1943 USGS topo map (Iron Lake 15-minute sheet) draws Town Hall School here (school symbol, sec. 20 T48N R8W). No second source found yet; 4 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Iron Lake topographic map (1943)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Iron Lake 1943 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-southern-school-s28-t48n-r9w",
+   "L": "school",
+   "n": "Southern School site (Iron Lake 1943 topo)",
+   "la": 46.605,
+   "lo": -91.49113,
+   "y": "by 1943",
+   "pl": "sec. 28 T48N R9W, Bayfield Co.",
+   "co": "Bayfield",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1943 USGS topo map (Iron Lake 15-minute sheet) draws Southern School here (school symbol, sec. 28 T48N R9W). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Iron Lake topographic map (1943)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Iron Lake 1943 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-long-lake-school-s9-t48n-r5w",
+   "L": "school",
+   "n": "Long Lake School site (Moquah 1944 topo)",
+   "la": 46.65896,
+   "lo": -91.00872,
+   "y": "by 1944",
+   "pl": "sec. 9 T48N R5W, Bayfield Co.",
+   "co": "Bayfield",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1944 USGS topo map (Moquah 15-minute sheet) draws Long Lake School here (school symbol, sec. 9 T48N R5W). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Moquah topographic map (1944)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Moquah 1944 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-hillsdale-school-s7-t47n-r5w",
+   "L": "school",
+   "n": "Hillsdale School site (Moquah 1944 topo)",
+   "la": 46.57444,
+   "lo": -91.03433,
+   "y": "by 1944",
+   "pl": "sec. 7 T47N R5W, Ashland Co.",
+   "co": "Ashland",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1944 USGS topo map (Moquah 15-minute sheet) draws Hillsdale School here (school symbol, sec. 7 T47N R5W). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Moquah topographic map (1944)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Moquah 1944 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-red-oak-school-s24-t7n-r1w",
+   "L": "school",
+   "n": "Red Oak School site (Muscoda 1960 topo)",
+   "la": 43.06736,
+   "lo": -90.43824,
+   "y": "by 1960",
+   "pl": "sec. 24 T7N R1W, Grant Co.",
+   "co": "Grant",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1960 USGS topo map (Muscoda 15-minute sheet) draws Red Oak School here (school symbol, sec. 24 T7N R1W). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Muscoda topographic map (1960)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Muscoda 1960 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-strawberry-school-s10-t7n-r1e",
+   "L": "school",
+   "n": "Strawberry School site (Muscoda 1960 topo)",
+   "la": 43.09082,
+   "lo": -90.36474,
+   "y": "by 1960",
+   "pl": "sec. 10 T7N R1E, Iowa Co.",
+   "co": "Iowa",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1960 USGS topo map (Muscoda 15-minute sheet) draws Strawberry School here (school symbol, sec. 10 T7N R1E). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Muscoda topographic map (1960)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Muscoda 1960 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-school-no-4-s25-t17n-r10e",
+   "L": "school",
+   "n": "School No. 4 site (Neshkoro 1915 topo)",
+   "la": 43.92299,
+   "lo": -89.26483,
+   "y": "by 1915",
+   "pl": "sec. 25 T17N R10E, Marquette Co.",
+   "co": "Marquette",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1915 USGS topo map (Neshkoro 15-minute sheet) draws School No. 4 here (school symbol, sec. 25 T17N R10E). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Neshkoro topographic map (1915)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Neshkoro 1915 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-north-middle-school-s12-t48n-r12w",
+   "L": "school",
+   "n": "North Middle School site (Poplar 1949 topo)",
+   "la": 46.65531,
+   "lo": -91.80475,
+   "y": "by 1949",
+   "pl": "sec. 12 T48N R12W, Douglas Co.",
+   "co": "Douglas",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1949 USGS topo map (Poplar 15-minute sheet) draws North Middle School here (school symbol, sec. 12 T48N R12W). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Poplar topographic map (1949)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Poplar 1949 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-mckinley-school-s15-t47n-r13w",
+   "L": "school",
+   "n": "McKinley School site (Poplar 1949 topo)",
+   "la": 46.5471,
+   "lo": -91.97299,
+   "y": "by 1949",
+   "pl": "sec. 15 T47N R13W, Douglas Co.",
+   "co": "Douglas",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1949 USGS topo map (Poplar 15-minute sheet) draws McKinley School here (school symbol, sec. 15 T47N R13W). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Poplar topographic map (1949)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Poplar 1949 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-adventist-church-s11-t47n-r12w",
+   "L": "school2",
+   "n": "Adventist Church site (Poplar 1949 topo)",
+   "la": 46.56173,
+   "lo": -91.84132,
+   "y": "by 1949",
+   "pl": "sec. 11 T47N R12W, Douglas Co.",
+   "co": "Douglas",
+   "stt": "WI",
+   "v": "Coins, religious medals, buttons, jewelry from church socials and picnics",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1949 USGS topo map (Poplar 15-minute sheet) draws Adventist Church here (church symbol, sec. 11 T47N R12W). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level church pad, fieldstone foundation corners, lilacs or old spruce, and the horse-shed line. If there is a churchyard cemetery, search only outside it. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Poplar topographic map (1949)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Poplar 1949 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-clarks-mill-school-s11-t20n-r12e",
+   "L": "school",
+   "n": "Clarks Mill School site (Redgranite 1961 topo)",
+   "la": 44.21419,
+   "lo": -89.03708,
+   "y": "by 1961",
+   "pl": "sec. 11 T20N R12E, Waushara Co.",
+   "co": "Waushara",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1961 USGS topo map (Redgranite 15-minute sheet) draws Clarks Mill School here (school symbol, sec. 11 T20N R12E). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Redgranite topographic map (1961)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Redgranite 1961 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-glendale-school-s25-t20n-r12e",
+   "L": "school",
+   "n": "Glendale School site (Redgranite 1961 topo)",
+   "la": 44.17355,
+   "lo": -89.02627,
+   "y": "by 1961",
+   "pl": "sec. 25 T20N R12E, Waushara Co.",
+   "co": "Waushara",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1961 USGS topo map (Redgranite 15-minute sheet) draws Glendale School here (school symbol, sec. 25 T20N R12E). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Redgranite topographic map (1961)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Redgranite 1961 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-holden-church-s22-t19n-r11e",
+   "L": "school2",
+   "n": "Holden Church site (Redgranite 1961 topo)",
+   "la": 44.10118,
+   "lo": -89.18833,
+   "y": "by 1961",
+   "pl": "sec. 22 T19N R11E, Waushara Co.",
+   "co": "Waushara",
+   "stt": "WI",
+   "v": "Coins, religious medals, buttons, jewelry from church socials and picnics",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1961 USGS topo map (Redgranite 15-minute sheet) draws Holden Church here (church symbol, sec. 22 T19N R11E). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level church pad, fieldstone foundation corners, lilacs or old spruce, and the horse-shed line. If there is a churchyard cemetery, search only outside it. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Redgranite topographic map (1961)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Redgranite 1961 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-torgerson-school-s10-t23n-r11e",
+   "L": "school",
+   "n": "Torgerson School site (Waupaca 1957 topo)",
+   "la": 44.48958,
+   "lo": -89.15411,
+   "y": "by 1957",
+   "pl": "sec. 10 T23N R11E, Waupaca Co.",
+   "co": "Waupaca",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1957 USGS topo map (Waupaca 15-minute sheet) draws Torgerson School here (school symbol, sec. 10 T23N R11E). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Waupaca topographic map (1957)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Waupaca 1957 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-wrolstad-school-s12-t23n-r11e",
+   "L": "school",
+   "n": "Wrolstad School site (Waupaca 1957 topo)",
+   "la": 44.48249,
+   "lo": -89.12287,
+   "y": "by 1957",
+   "pl": "sec. 12 T23N R11E, Waupaca Co.",
+   "co": "Waupaca",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1957 USGS topo map (Waupaca 15-minute sheet) draws Wrolstad School here (school symbol, sec. 12 T23N R11E). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Waupaca topographic map (1957)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Waupaca 1957 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-pete-school-s29-t23n-r11e",
+   "L": "school",
+   "n": "Pete... School site (name partly readable, Waupaca 1957 topo)",
+   "la": 44.4388,
+   "lo": -89.18934,
+   "y": "by 1957",
+   "pl": "sec. 29 T23N R11E, Waupaca Co.",
+   "co": "Waupaca",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1957 USGS topo map (Waupaca 15-minute sheet) draws Pete... School here (school symbol, sec. 29 T23N R11E). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Waupaca topographic map (1957)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Waupaca 1957 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-townsend-school-s2-t22n-r11e",
+   "L": "school",
+   "n": "Townsend School site (Waupaca 1957 topo)",
+   "la": 44.41188,
+   "lo": -89.12509,
+   "y": "by 1957",
+   "pl": "sec. 2 T22N R11E, Waupaca Co.",
+   "co": "Waupaca",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1957 USGS topo map (Waupaca 15-minute sheet) draws Townsend School here (school symbol, sec. 2 T22N R11E). No second source found yet; 6 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Waupaca topographic map (1957)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Waupaca 1957 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-badger-school-s25-t22n-r10e",
+   "L": "school",
+   "n": "Badger School site (Waupaca 1957 topo)",
+   "la": 44.35259,
+   "lo": -89.24385,
+   "y": "by 1957",
+   "pl": "sec. 25 T22N R10E, Waupaca Co.",
+   "co": "Waupaca",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1957 USGS topo map (Waupaca 15-minute sheet) draws Badger School here (school symbol, sec. 25 T22N R10E). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Waupaca topographic map (1957)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Waupaca 1957 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-badger-church-s25-t22n-r10e",
+   "L": "school2",
+   "n": "Badger Church site (Waupaca 1957 topo)",
+   "la": 44.35186,
+   "lo": -89.2245,
+   "y": "by 1957",
+   "pl": "sec. 25 T22N R10E, Waupaca Co.",
+   "co": "Waupaca",
+   "stt": "WI",
+   "v": "Coins, religious medals, buttons, jewelry from church socials and picnics",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1957 USGS topo map (Waupaca 15-minute sheet) draws Badger Church here (church symbol, sec. 25 T22N R10E). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level church pad, fieldstone foundation corners, lilacs or old spruce, and the horse-shed line. If there is a churchyard cemetery, search only outside it. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Waupaca topographic map (1957)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Waupaca 1957 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  }
+ ],
+ "edit": {
+  "cem-1876884": {
+   "set": {},
+   "st": " The 1954 USGS topo map (Gresham 15-minute sheet) draws St. Johns Church 98 m from this cemetery; the church site is next to it, and the cemetery itself is look-only.",
+   "src": [
+    [
+     "USGS Gresham topographic map (1954)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ]
+  },
+  "cem-1850450": {
+   "set": {},
+   "st": " The 1957 USGS topo map (Waupaca 15-minute sheet) draws Farmington Church 50 m from this cemetery; the church site is next to it, and the cemetery itself is look-only.",
+   "src": [
+    [
+     "USGS Waupaca topographic map (1957)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ]
+  }
+ }
+}
