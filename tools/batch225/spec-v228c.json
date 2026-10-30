@@ -1,0 +1,68 @@
+{
+"new": [
+{
+"id": "it-tanner-forty-sec26",
+"L": "history",
+"n": "Tanner forty, Brakken's 'Chief Namakagon homestead' (Marengo)",
+"la": 46.3472,
+"lo": -90.8322,
+"y": "1881-1886",
+"pl": "Ashland County, NE SW sec. 26, T45N R4W, by the Brunsweiler River and the old Wisconsin Central grade",
+"co": "Ashland",
+"stt": "WI",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"pinconf": "C",
+"st": "Federal land patent: Sumner W. Tanner and John Marshal(l) Tanner (indexed as SUMNER, TANNER, W | MARSHAL, JOHN) bought NE SW sec. 26, T45N R4W by cash sale, signed 20 Aug 1881. The 1898 plat labels this forty 'S.W. & J. Tanner', with E. Johnson south, Geo. Bolls and E. Erickson east, matching the patents (Erik Johnson 1899, George Bolls 1901, Edward Erickson 1902). Author James Brakken argues the Ojibwe man known as Chief Namakagon was John (Falcon) Tanner and that this was his homestead; after his 1886 death the Tanner heirs (nephew James Tanner) let it go to the county for taxes. Brakken also writes that farmer Johnson said the Chief never had silver, but Tom Mattison said he often did when he stopped on his way to Ashland. The Tanner ownership has two records (patent, 1898 plat); the Chief identification is one author's theory.",
+"t": "Chequamegon National Forest today: the old homestead itself is a historic site, so look only there (36 CFR 261.9). Brakken says the Brunsweiler actually runs a few hundred yards NE of the forty, the railroad grade is now a town road; park SW of the bridge and look for the trail. No 1 m LiDAR here; check the 1938 air photo for a clearing.",
+"v": "Look only",
+"src": [
+[
+"BLM GLO patent WI0050__.195, Tanner (1881)",
+"https://glorecords.blm.gov/details/patent/default.aspx?accession=WI0050__.195&docClass=STA"
+],
+[
+"Wisconsin Original Land Patents Geodatabase (WI DNR)",
+"https://www.arcgis.com/home/item.html?id=4da3c08881cb4bd880bf9f695840b29b"
+],
+[
+"James A. Brakken, The Secret Life of Chief Namakagon (Badger Valley, author's page with 1898 plat image; author's theory)",
+"https://badgervalley.com/3-secret-life-of-namakagon.php"
+]
+]
+},
+{
+"id": "it-mattison-homestead-sec14",
+"L": "history",
+"n": "Tom Mattison homestead, where the Chief stopped on the way to Ashland",
+"la": 46.3735,
+"lo": -90.9506,
+"y": "1880s",
+"pl": "Bayfield County, Town of Lincoln, SE 1/4 sec. 14, T45N R5W",
+"co": "Bayfield",
+"stt": "WI",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"pinconf": "C",
+"st": "Thomas Mattison homesteaded the SE quarter of sec. 14, T45N R5W (patent signed 27 Aug 1889). Local tradition (Neb's family, and author James Brakken) says Chief Namakagon stopped here on his way to Ashland and often carried silver. Charles Brown's 1930 Indian trails map runs the easternmost Bayfield County trail within about 600 m of this quarter. Neighbors in sec. 14: Martinus L. Moe 1888 (NE), Crist Smith 1892 (SW), Charles Larson 1893 (NW).",
+"t": "Private land unless shown otherwise: ask the owner. Look for the 1880s house flat, and for the old trail line running north-south through the section.",
+"src": [
+[
+"BLM GLO patent WI0120__.173, Thomas Mattison (1889)",
+"https://glorecords.blm.gov/details/patent/default.aspx?accession=WI0120__.173&docClass=STA"
+],
+[
+"Charles E. Brown, Wisconsin Indian Trails Map, 1930 (WHS W014AUB)",
+"https://www.wisconsinhistory.org/record/multi/W014AUB"
+],
+[
+"James A. Brakken, The Secret Life of Chief Namakagon (Badger Valley, author's page with 1898 plat image; author's theory)",
+"https://badgervalley.com/3-secret-life-of-namakagon.php"
+]
+]
+}
+],
+"edit": {}
+}

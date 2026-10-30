@@ -1,0 +1,2042 @@
+{
+"new": [
+{
+"id": "rv12-cassian",
+"L": "vpo",
+"n": "Cassian depot (Deer Trail Sta)",
+"la": 45.60252,
+"lo": -89.71375,
+"y": "By 1912",
+"pl": "Oneida County, Wisconsin",
+"co": "Oneida",
+"stt": "WI",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "topo",
+"st": "The 1939 Cassian USGS topographic map labels \"Cassian (Deer Trail Sta)\" here beside the track. The 1912 Rand McNally index lists it as a station: \"Cassian, Oneida, O-13, (Ry 23)\" (Milwaukee Road). The Town of Cassian history puts the depot in sec. 14 T36N R6E on today's Highway L near Rocky Road; the 1939 sheet draws it at the southwest corner of sec. 14 beside the Milwaukee Road track. The 1890 timetable stop 'Deer Trail' is the same place. Placed from the 1939 Cassian topographic map.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, cord-wood or pulp landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Rand McNally 1912 Wisconsin index of towns and railroad stations (Rumsey collection, archive.org dr_index-page-wisconsin-2790169, -2790173, -2790174)",
+"https://archive.org/details/dr_index-page-wisconsin-2790169"
+],
+[
+"USGS 1939 Cassian topographic map (topoView scan 801450)",
+"https://ngmdb.usgs.gov/topoview/"
+],
+[
+"Town of Cassian history",
+"https://townofcassianwi.gov/cassian-history"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed on the station label/symbol of the 1939 Cassian topo (good to about 50-100 m)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-schulz",
+"L": "vpo",
+"n": "Schulz station (Shultz)",
+"la": 45.27912,
+"lo": -89.69632,
+"y": "By 1912",
+"pl": "Lincoln County, Wisconsin",
+"co": "Lincoln",
+"stt": "WI",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "topo",
+"st": "The 1950 Tomahawk USGS topographic map labels \"Shultz\" here beside the track. The 1912 Rand McNally index lists it as a station: \"Schulz, Lincoln, N-14, (Ry 23), r d from Irma\" (Milwaukee Road). The sheet labels Shultz beside the railroad north of Otis, with Shultz Spur school to the east. Placed from the 1950 Tomahawk topographic map.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, cord-wood or pulp landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Rand McNally 1912 Wisconsin index of towns and railroad stations (Rumsey collection, archive.org dr_index-page-wisconsin-2790169, -2790173, -2790174)",
+"https://archive.org/details/dr_index-page-wisconsin-2790169"
+],
+[
+"USGS 1950 Tomahawk topographic map (topoView scan 503577)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed on the station label/symbol of the 1950 Tomahawk topo (good to about 50-100 m)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-granite-heights",
+"L": "vpo",
+"n": "Heights station (Granite Heights)",
+"la": 45.0578,
+"lo": -89.64019,
+"y": "By 1912",
+"pl": "Marathon County, Wisconsin",
+"co": "Marathon",
+"stt": "WI",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "topo",
+"st": "The 1951 Merrill USGS topographic map labels \"Granite Heights (Heights Sta)\" here beside the track. The 1912 Rand McNally index lists it as a station: \"Heights, Marathon, O-15, (Ry 23) P. O. name Granite Heights\" (Milwaukee Road). The sheet prints the label east of the Milwaukee Road track; the pin is on the track opposite the label, where the station stood for the granite quarries. Placed from the 1951 Merrill topographic map.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, cord-wood or pulp landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Rand McNally 1912 Wisconsin index of towns and railroad stations (Rumsey collection, archive.org dr_index-page-wisconsin-2790169, -2790173, -2790174)",
+"https://archive.org/details/dr_index-page-wisconsin-2790169"
+],
+[
+"USGS 1951 Merrill topographic map (topoView scan 503390)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed on the station label/symbol of the 1951 Merrill topo (good to about 50-100 m)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-clifford",
+"L": "vpo",
+"n": "Clifford station",
+"la": 45.55565,
+"lo": -90.04324,
+"y": "By 1912",
+"pl": "Price County, Wisconsin",
+"co": "Price",
+"stt": "WI",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "topo",
+"st": "The 1941 Brantwood USGS topographic map labels \"Clifford\" here beside the track. The 1912 Rand McNally index lists it as a station: \"Clifford, Price, M-13, (Ry 107)\" (Wisconsin Central). The sheet draws the hamlet on the Lincoln County line where the old Wisconsin Central (Soo) track crosses it. Placed from the 1941 Brantwood topographic map.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, cord-wood or pulp landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Rand McNally 1912 Wisconsin index of towns and railroad stations (Rumsey collection, archive.org dr_index-page-wisconsin-2790169, -2790173, -2790174)",
+"https://archive.org/details/dr_index-page-wisconsin-2790169"
+],
+[
+"USGS 1941 Brantwood topographic map (topoView scan 801423)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed on the station label/symbol of the 1941 Brantwood topo (good to about 50-100 m)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-sydney",
+"L": "vpo",
+"n": "Sydney station (Sidney)",
+"la": 44.55117,
+"lo": -90.64095,
+"y": "By 1912",
+"pl": "Clark County, Wisconsin",
+"co": "Clark",
+"stt": "WI",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "topo",
+"st": "The 1953 Neillsville USGS topographic map labels \"Sidney\" here beside the track. The 1912 Rand McNally index lists it as a station: \"Sydney, Clark, J-18, (Ry 28), mail Neillsville\" (Omaha Road). The sheet spells it Sidney, beside the North Western (Omaha) line south of Neillsville in Pine Valley. Placed from the 1953 Neillsville topographic map.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, cord-wood or pulp landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Rand McNally 1912 Wisconsin index of towns and railroad stations (Rumsey collection, archive.org dr_index-page-wisconsin-2790169, -2790173, -2790174)",
+"https://archive.org/details/dr_index-page-wisconsin-2790169"
+],
+[
+"USGS 1953 Neillsville topographic map (topoView scan 802925)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed on the station label/symbol of the 1953 Neillsville topo (good to about 50-100 m)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-leonards",
+"L": "vpo",
+"n": "Leonard station (Leonards)",
+"la": 46.16976,
+"lo": -91.32099,
+"y": "By 1912",
+"pl": "Sawyer County, Wisconsin",
+"co": "Sawyer",
+"stt": "WI",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "topo",
+"st": "The 1944 Hayward USGS topographic map labels \"Leonards\" here beside the track. The 1912 Rand McNally index lists it as a station: \"Leonard, Sawyer, H-10, (Ry 28)\" (Omaha Road). The sheet labels Leonards beside the Omaha Road track and US 63. Placed from the 1944 Hayward topographic map.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, cord-wood or pulp landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Rand McNally 1912 Wisconsin index of towns and railroad stations (Rumsey collection, archive.org dr_index-page-wisconsin-2790169, -2790173, -2790174)",
+"https://archive.org/details/dr_index-page-wisconsin-2790169"
+],
+[
+"USGS 1944 Hayward topographic map (topoView scan 503293)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed on the station label/symbol of the 1944 Hayward topo (good to about 50-100 m)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-mn-bombay",
+"L": "vpo",
+"n": "Bombay depot grounds (Milwaukee Road)",
+"la": 44.28337,
+"lo": -92.89168,
+"y": "1915-20 valuation",
+"pl": "Goodhue County, Minnesota",
+"co": "Goodhue",
+"stt": "MN",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "topo",
+"st": "Minnesota DOT keeps a railroad station plat for Bombay on the Milwaukee Road, drawn for the 1915-20 federal valuation survey; the pin sits on the middle of its station grounds. The 1968 Kenyon USGS topographic map shows the track and labels Bombay here. Placed from the 1968 Kenyon topographic map.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, grain or cord-wood landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Minnesota DOT railroad station plat (ICC valuation era, RWMM MapServer export; research/rail-valuation/mndot-station-plats.csv)",
+"https://webgis.dot.state.mn.us/"
+],
+[
+"USGS 1968 Kenyon topographic map (topoView scan 504933)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed on the centre of the MnDOT station-plat footprint (good to about 100-200 m along the track)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-mn-beroun",
+"L": "vpo",
+"n": "Beroun depot grounds (Northern Pacific)",
+"la": 45.9147,
+"lo": -92.95825,
+"y": "1915-20 valuation",
+"pl": "Pine County, Minnesota",
+"co": "Pine",
+"stt": "MN",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "topo",
+"st": "Minnesota DOT keeps a railroad station plat for Beroun on the Northern Pacific, drawn for the 1915-20 federal valuation survey; the pin sits on the middle of its station grounds. The 1961 Pine City USGS topographic map shows the track and labels Beroun here. Placed from the 1961 Pine City topographic map.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, grain or cord-wood landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Minnesota DOT railroad station plat (ICC valuation era, RWMM MapServer export; research/rail-valuation/mndot-station-plats.csv)",
+"https://webgis.dot.state.mn.us/"
+],
+[
+"USGS 1961 Pine City topographic map (topoView scan 805270)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed on the centre of the MnDOT station-plat footprint (good to about 100-200 m along the track)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-mn-carnelian-junction",
+"L": "vpo",
+"n": "Carnelian Junction depot grounds (Soo Line)",
+"la": 45.12463,
+"lo": -92.82533,
+"y": "1915-20 valuation",
+"pl": "Washington County, Minnesota",
+"co": "Washington",
+"stt": "MN",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "topo",
+"st": "Minnesota DOT keeps a railroad station plat for Carnelian Junction on the Soo Line, drawn for the 1915-20 federal valuation survey; the pin sits on the middle of its station grounds. The 1951 Stillwater USGS topographic map shows the track and labels Carnelian Junction here. Placed from the 1951 Stillwater topographic map.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, grain or cord-wood landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Minnesota DOT railroad station plat (ICC valuation era, RWMM MapServer export; research/rail-valuation/mndot-station-plats.csv)",
+"https://webgis.dot.state.mn.us/"
+],
+[
+"USGS 1951 Stillwater topographic map (topoView scan 471560)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed on the centre of the MnDOT station-plat footprint (good to about 100-200 m along the track)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-mn-cloverton",
+"L": "vpo",
+"n": "Cloverton depot grounds (Soo Line)",
+"la": 46.17118,
+"lo": -92.31896,
+"y": "1915-20 valuation",
+"pl": "Pine County, Minnesota",
+"co": "Pine",
+"stt": "MN",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "topo",
+"st": "Minnesota DOT keeps a railroad station plat for Cloverton on the Soo Line, drawn for the 1915-20 federal valuation survey; the pin sits on the middle of its station grounds. The 1962 Danbury USGS topographic map shows the track and labels Cloverton here. Placed from the 1962 Danbury topographic map.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, grain or cord-wood landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Minnesota DOT railroad station plat (ICC valuation era, RWMM MapServer export; research/rail-valuation/mndot-station-plats.csv)",
+"https://webgis.dot.state.mn.us/"
+],
+[
+"USGS 1962 Danbury topographic map (topoView scan 502338)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed on the centre of the MnDOT station-plat footprint (good to about 100-200 m along the track)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-mn-denham",
+"L": "vpo",
+"n": "Denham depot grounds (Soo Line)",
+"la": 46.36337,
+"lo": -92.94372,
+"y": "1915-20 valuation",
+"pl": "Pine County, Minnesota",
+"co": "Pine",
+"stt": "MN",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "topo",
+"st": "Minnesota DOT keeps a railroad station plat for Denham on the Soo Line, drawn for the 1915-20 federal valuation survey; the pin sits on the middle of its station grounds. The 1961 Moose Lake USGS topographic map shows the track and labels Denham here. Placed from the 1961 Moose Lake topographic map.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, grain or cord-wood landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Minnesota DOT railroad station plat (ICC valuation era, RWMM MapServer export; research/rail-valuation/mndot-station-plats.csv)",
+"https://webgis.dot.state.mn.us/"
+],
+[
+"USGS 1961 Moose Lake topographic map (topoView scan 805025)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed on the centre of the MnDOT station-plat footprint (good to about 100-200 m along the track)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-mn-dennison",
+"L": "vpo",
+"n": "Dennison depot grounds (Chicago Great Western)",
+"la": 44.40373,
+"lo": -93.03928,
+"y": "1915-20 valuation",
+"pl": "Goodhue County, Minnesota",
+"co": "Goodhue",
+"stt": "MN",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "topo",
+"st": "Minnesota DOT keeps a railroad station plat for Dennison on the Chicago Great Western, drawn for the 1915-20 federal valuation survey; the pin sits on the middle of its station grounds. The 1960 Dennison USGS topographic map shows the track and labels Dennison here. Placed from the 1960 Dennison topographic map.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, grain or cord-wood landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Minnesota DOT railroad station plat (ICC valuation era, RWMM MapServer export; research/rail-valuation/mndot-station-plats.csv)",
+"https://webgis.dot.state.mn.us/"
+],
+[
+"USGS 1960 Dennison topographic map (topoView scan 504332)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed on the centre of the MnDOT station-plat footprint (good to about 100-200 m along the track)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-mn-duquette-spur",
+"L": "vpo",
+"n": "Duquette Spur depot grounds (Great Northern)",
+"la": 46.37024,
+"lo": -92.5532,
+"y": "1915-20 valuation",
+"pl": "Pine County, Minnesota",
+"co": "Pine",
+"stt": "MN",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "topo",
+"st": "Minnesota DOT keeps a railroad station plat for Duquette Spur on the Great Northern, drawn for the 1915-20 federal valuation survey; the pin sits on the middle of its station grounds. The 1962 Bruno USGS topographic map shows the track and labels Duquette Spur here. Placed from the 1962 Bruno topographic map.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, grain or cord-wood landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Minnesota DOT railroad station plat (ICC valuation era, RWMM MapServer export; research/rail-valuation/mndot-station-plats.csv)",
+"https://webgis.dot.state.mn.us/"
+],
+[
+"USGS 1962 Bruno topographic map (topoView scan 504068)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed on the centre of the MnDOT station-plat footprint (good to about 100-200 m along the track)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-mn-friesland",
+"L": "vpo",
+"n": "Friesland depot grounds (Northern Pacific)",
+"la": 46.08933,
+"lo": -92.93258,
+"y": "1915-20 valuation",
+"pl": "Pine County, Minnesota",
+"co": "Pine",
+"stt": "MN",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "topo",
+"st": "Minnesota DOT keeps a railroad station plat for Friesland on the Northern Pacific, drawn for the 1915-20 federal valuation survey; the pin sits on the middle of its station grounds. The 1961 Sandstone USGS topographic map shows the track and labels Friesland here. Placed from the 1961 Sandstone topographic map.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, grain or cord-wood landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Minnesota DOT railroad station plat (ICC valuation era, RWMM MapServer export; research/rail-valuation/mndot-station-plats.csv)",
+"https://webgis.dot.state.mn.us/"
+],
+[
+"USGS 1961 Sandstone topographic map (topoView scan 805348)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed on the centre of the MnDOT station-plat footprint (good to about 100-200 m along the track)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-mn-groningen",
+"L": "vpo",
+"n": "Groningen depot grounds (Northern Pacific)",
+"la": 46.15075,
+"lo": -92.92337,
+"y": "1915-20 valuation",
+"pl": "Pine County, Minnesota",
+"co": "Pine",
+"stt": "MN",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "topo",
+"st": "Minnesota DOT keeps a railroad station plat for Groningen on the Northern Pacific, drawn for the 1915-20 federal valuation survey; the pin sits on the middle of its station grounds. The 1961 Sandstone USGS topographic map shows the track and labels Groningen here. Placed from the 1961 Sandstone topographic map.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, grain or cord-wood landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Minnesota DOT railroad station plat (ICC valuation era, RWMM MapServer export; research/rail-valuation/mndot-station-plats.csv)",
+"https://webgis.dot.state.mn.us/"
+],
+[
+"USGS 1961 Sandstone topographic map (topoView scan 805348)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed on the centre of the MnDOT station-plat footprint (good to about 100-200 m along the track)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-mn-langdon",
+"L": "vpo",
+"n": "Langdon depot grounds (Milwaukee Road)",
+"la": 44.80977,
+"lo": -92.92932,
+"y": "1915-20 valuation",
+"pl": "Washington County, Minnesota",
+"co": "Washington",
+"stt": "MN",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "topo",
+"st": "Minnesota DOT keeps a railroad station plat for Langdon on the Milwaukee Road, drawn for the 1915-20 federal valuation survey; the pin sits on the middle of its station grounds. The 1950 St Paul Park USGS topographic map shows the track and labels Langdon here. Placed from the 1950 St Paul Park topographic map.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, grain or cord-wood landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Minnesota DOT railroad station plat (ICC valuation era, RWMM MapServer export; research/rail-valuation/mndot-station-plats.csv)",
+"https://webgis.dot.state.mn.us/"
+],
+[
+"USGS 1950 St Paul Park topographic map (topoView scan 805344)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed on the centre of the MnDOT station-plat footprint (good to about 100-200 m along the track)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-mn-markville",
+"L": "vpo",
+"n": "Markville depot grounds (Soo Line)",
+"la": 46.0952,
+"lo": -92.32947,
+"y": "1915-20 valuation",
+"pl": "Pine County, Minnesota",
+"co": "Pine",
+"stt": "MN",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "topo",
+"st": "Minnesota DOT keeps a railroad station plat for Markville on the Soo Line, drawn for the 1915-20 federal valuation survey; the pin sits on the middle of its station grounds. The 1962 Danbury USGS topographic map shows the track and labels Markville here. Placed from the 1962 Danbury topographic map.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, grain or cord-wood landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Minnesota DOT railroad station plat (ICC valuation era, RWMM MapServer export; research/rail-valuation/mndot-station-plats.csv)",
+"https://webgis.dot.state.mn.us/"
+],
+[
+"USGS 1962 Danbury topographic map (topoView scan 502338)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed on the centre of the MnDOT station-plat footprint (good to about 100-200 m along the track)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-mn-mission-creek",
+"L": "vpo",
+"n": "Mission Creek depot grounds (Northern Pacific)",
+"la": 45.969,
+"lo": -92.95037,
+"y": "1915-20 valuation",
+"pl": "Pine County, Minnesota",
+"co": "Pine",
+"stt": "MN",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "topo",
+"st": "Minnesota DOT keeps a railroad station plat for Mission Creek on the Northern Pacific, drawn for the 1915-20 federal valuation survey; the pin sits on the middle of its station grounds. The 1961 Pine City USGS topographic map shows the track and labels Mission Creek here. Placed from the 1961 Pine City topographic map.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, grain or cord-wood landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Minnesota DOT railroad station plat (ICC valuation era, RWMM MapServer export; research/rail-valuation/mndot-station-plats.csv)",
+"https://webgis.dot.state.mn.us/"
+],
+[
+"USGS 1961 Pine City topographic map (topoView scan 805270)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed on the centre of the MnDOT station-plat footprint (good to about 100-200 m along the track)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-mn-nickerson",
+"L": "vpo",
+"n": "Nickerson depot grounds (Great Northern)",
+"la": 46.41039,
+"lo": -92.50091,
+"y": "1915-20 valuation",
+"pl": "Pine County, Minnesota",
+"co": "Pine",
+"stt": "MN",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "topo",
+"st": "Minnesota DOT keeps a railroad station plat for Nickerson on the Great Northern, drawn for the 1915-20 federal valuation survey; the pin sits on the middle of its station grounds. The 1962 Bruno USGS topographic map shows the track and labels Nickerson here. Placed from the 1962 Bruno topographic map.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, grain or cord-wood landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Minnesota DOT railroad station plat (ICC valuation era, RWMM MapServer export; research/rail-valuation/mndot-station-plats.csv)",
+"https://webgis.dot.state.mn.us/"
+],
+[
+"USGS 1962 Bruno topographic map (topoView scan 504068)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed on the centre of the MnDOT station-plat footprint (good to about 100-200 m along the track)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-mn-norma",
+"L": "vpo",
+"n": "Norma depot grounds (Milwaukee Road)",
+"la": 43.76507,
+"lo": -91.28729,
+"y": "1915-20 valuation",
+"pl": "Houston County, Minnesota",
+"co": "Houston",
+"stt": "MN",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "topo",
+"st": "Minnesota DOT keeps a railroad station plat for Norma on the Milwaukee Road, drawn for the 1915-20 federal valuation survey; the pin sits on the middle of its station grounds. The 1956 La Crescent USGS topographic map shows the track and labels Norma here. Placed from the 1956 La Crescent topographic map.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, grain or cord-wood landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Minnesota DOT railroad station plat (ICC valuation era, RWMM MapServer export; research/rail-valuation/mndot-station-plats.csv)",
+"https://webgis.dot.state.mn.us/"
+],
+[
+"USGS 1956 La Crescent topographic map (topoView scan 804746)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed on the centre of the MnDOT station-plat footprint (good to about 100-200 m along the track)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-mn-summit",
+"L": "vpo",
+"n": "Summit depot grounds (Northern Pacific)",
+"la": 45.07241,
+"lo": -92.85995,
+"y": "1915-20 valuation",
+"pl": "Washington County, Minnesota",
+"co": "Washington",
+"stt": "MN",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "topo",
+"st": "Minnesota DOT keeps a railroad station plat for Summit on the Northern Pacific, drawn for the 1915-20 federal valuation survey; the pin sits on the middle of its station grounds. The 1951 Stillwater USGS topographic map shows the track and labels Summit here. Placed from the 1951 Stillwater topographic map.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, grain or cord-wood landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Minnesota DOT railroad station plat (ICC valuation era, RWMM MapServer export; research/rail-valuation/mndot-station-plats.csv)",
+"https://webgis.dot.state.mn.us/"
+],
+[
+"USGS 1951 Stillwater topographic map (topoView scan 471560)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed on the centre of the MnDOT station-plat footprint (good to about 100-200 m along the track)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-mn-wacouta",
+"L": "vpo",
+"n": "Wacouta depot grounds (Milwaukee Road)",
+"la": 44.54485,
+"lo": -92.44706,
+"y": "1915-20 valuation",
+"pl": "Goodhue County, Minnesota",
+"co": "Goodhue",
+"stt": "MN",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "topo",
+"st": "Minnesota DOT keeps a railroad station plat for Wacouta on the Milwaukee Road, drawn for the 1915-20 federal valuation survey; the pin sits on the middle of its station grounds. The 1950 Maiden Rock USGS topographic map shows the track and labels Wacouta here. Placed from the 1950 Maiden Rock topographic map.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, grain or cord-wood landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Minnesota DOT railroad station plat (ICC valuation era, RWMM MapServer export; research/rail-valuation/mndot-station-plats.csv)",
+"https://webgis.dot.state.mn.us/"
+],
+[
+"USGS 1950 Maiden Rock topographic map (topoView scan 802876)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed on the centre of the MnDOT station-plat footprint (good to about 100-200 m along the track)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-mn-castle-rock",
+"L": "vpo",
+"n": "Castle Rock depot grounds (Milwaukee Road)",
+"la": 44.54458,
+"lo": -93.15187,
+"y": "1915-20 valuation",
+"pl": "Dakota County, Minnesota",
+"co": "Dakota",
+"stt": "MN",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "topo",
+"st": "Minnesota DOT keeps a railroad station plat for Castle Rock on the Milwaukee Road, drawn for the 1915-20 federal valuation survey; the pin sits on the middle of its station grounds. The 1957 Farmington USGS topographic map shows the track and labels Castle Rock here. Placed from the 1957 Farmington topographic map.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, grain or cord-wood landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Minnesota DOT railroad station plat (ICC valuation era, RWMM MapServer export; research/rail-valuation/mndot-station-plats.csv)",
+"https://webgis.dot.state.mn.us/"
+],
+[
+"USGS 1957 Farmington topographic map (topoView scan 504504)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed on the centre of the MnDOT station-plat footprint (good to about 100-200 m along the track)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-mn-frontenac",
+"L": "vpo",
+"n": "Frontenac depot grounds (Milwaukee Road)",
+"la": 44.51029,
+"lo": -92.35453,
+"y": "1915-20 valuation",
+"pl": "Goodhue County, Minnesota",
+"co": "Goodhue",
+"stt": "MN",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "topo",
+"st": "Minnesota DOT keeps a railroad station plat for Frontenac on the Milwaukee Road, drawn for the 1915-20 federal valuation survey; the pin sits on the middle of its station grounds. The 1950 Maiden Rock USGS topographic map shows the track and labels Frontenac here. Placed from the 1950 Maiden Rock topographic map.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, grain or cord-wood landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Minnesota DOT railroad station plat (ICC valuation era, RWMM MapServer export; research/rail-valuation/mndot-station-plats.csv)",
+"https://webgis.dot.state.mn.us/"
+],
+[
+"USGS 1950 Maiden Rock topographic map (topoView scan 802876)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed on the centre of the MnDOT station-plat footprint (good to about 100-200 m along the track)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-mn-hay-creek",
+"L": "vpo",
+"n": "Hay Creek depot grounds (Chicago Great Western)",
+"la": 44.49198,
+"lo": -92.55081,
+"y": "1915-20 valuation",
+"pl": "Goodhue County, Minnesota",
+"co": "Goodhue",
+"stt": "MN",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "gnis",
+"st": "Minnesota DOT keeps a railroad station plat for Hay Creek on the Chicago Great Western, drawn for the 1915-20 federal valuation survey; the pin sits on the middle of its station grounds. The USGS place-name file puts Hay Creek 560 m away.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, grain or cord-wood landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Minnesota DOT railroad station plat (ICC valuation era, RWMM MapServer export; research/rail-valuation/mndot-station-plats.csv)",
+"https://webgis.dot.state.mn.us/"
+],
+[
+"USGS GNIS place names (2021 archive)",
+"https://www.usgs.gov/tools/geographic-names-information-system-gnis"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed on the centre of the MnDOT station-plat footprint (good to about 100-200 m along the track)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-mn-read-s-landing",
+"L": "vpo",
+"n": "Read's Landing depot grounds (Milwaukee Road)",
+"la": 44.40406,
+"lo": -92.08065,
+"y": "1915-20 valuation",
+"pl": "Wabasha County, Minnesota",
+"co": "Wabasha",
+"stt": "MN",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "gnis",
+"st": "Minnesota DOT keeps a railroad station plat for Read's Landing on the Milwaukee Road, drawn for the 1915-20 federal valuation survey; the pin sits on the middle of its station grounds. The USGS place-name file puts Reads Landing 240 m away.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, grain or cord-wood landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Minnesota DOT railroad station plat (ICC valuation era, RWMM MapServer export; research/rail-valuation/mndot-station-plats.csv)",
+"https://webgis.dot.state.mn.us/"
+],
+[
+"USGS GNIS place names (2021 archive)",
+"https://www.usgs.gov/tools/geographic-names-information-system-gnis"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed on the centre of the MnDOT station-plat footprint (good to about 100-200 m along the track)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-mn-river-junction",
+"L": "vpo",
+"n": "River Junction depot grounds (Milwaukee Road)",
+"la": 43.84675,
+"lo": -91.29763,
+"y": "1915-20 valuation",
+"pl": "Houston County, Minnesota",
+"co": "Houston",
+"stt": "MN",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "gnis",
+"st": "Minnesota DOT keeps a railroad station plat for River Junction on the Milwaukee Road, drawn for the 1915-20 federal valuation survey; the pin sits on the middle of its station grounds. The USGS place-name file puts River Junction 80 m away.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, grain or cord-wood landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Minnesota DOT railroad station plat (ICC valuation era, RWMM MapServer export; research/rail-valuation/mndot-station-plats.csv)",
+"https://webgis.dot.state.mn.us/"
+],
+[
+"USGS GNIS place names (2021 archive)",
+"https://www.usgs.gov/tools/geographic-names-information-system-gnis"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed on the centre of the MnDOT station-plat footprint (good to about 100-200 m along the track)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-mn-roseport",
+"L": "vpo",
+"n": "Roseport depot grounds (Chicago Great Western)",
+"la": 44.76796,
+"lo": -93.04974,
+"y": "1915-20 valuation",
+"pl": "Dakota County, Minnesota",
+"co": "Dakota",
+"stt": "MN",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "gnis",
+"st": "Minnesota DOT keeps a railroad station plat for Roseport on the Chicago Great Western, drawn for the 1915-20 federal valuation survey; the pin sits on the middle of its station grounds. The USGS place-name file puts Roseport 870 m away.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, grain or cord-wood landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Minnesota DOT railroad station plat (ICC valuation era, RWMM MapServer export; research/rail-valuation/mndot-station-plats.csv)",
+"https://webgis.dot.state.mn.us/"
+],
+[
+"USGS GNIS place names (2021 archive)",
+"https://www.usgs.gov/tools/geographic-names-information-system-gnis"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed on the centre of the MnDOT station-plat footprint (good to about 100-200 m along the track)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-mn-bear-creek",
+"L": "vpo",
+"n": "Bear Creek depot grounds (Chicago Great Western)",
+"la": 44.0643,
+"lo": -91.89992,
+"y": "1915-20 valuation",
+"pl": "Winona County, Minnesota",
+"co": "Winona",
+"stt": "MN",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "other",
+"st": "Minnesota DOT keeps a railroad station plat for Bear Creek on the Chicago Great Western, drawn for the 1915-20 federal valuation survey; the pin sits on the middle of its station grounds.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, grain or cord-wood landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Minnesota DOT railroad station plat (ICC valuation era, RWMM MapServer export; research/rail-valuation/mndot-station-plats.csv)",
+"https://webgis.dot.state.mn.us/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the centre of the MnDOT station-plat footprint (good to about 100-200 m along the track)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-mn-bellechester-junction",
+"L": "vpo",
+"n": "Bellechester Junction depot grounds (Chicago Great Western)",
+"la": 44.37618,
+"lo": -92.61043,
+"y": "1915-20 valuation",
+"pl": "Goodhue County, Minnesota",
+"co": "Goodhue",
+"stt": "MN",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "other",
+"st": "Minnesota DOT keeps a railroad station plat for Bellechester Junction on the Chicago Great Western, drawn for the 1915-20 federal valuation survey; the pin sits on the middle of its station grounds.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, grain or cord-wood landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Minnesota DOT railroad station plat (ICC valuation era, RWMM MapServer export; research/rail-valuation/mndot-station-plats.csv)",
+"https://webgis.dot.state.mn.us/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the centre of the MnDOT station-plat footprint (good to about 100-200 m along the track)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-mn-christiana",
+"L": "vpo",
+"n": "Christiana depot grounds (Minneapolis, Northfield & Southern)",
+"la": 44.56535,
+"lo": -93.20506,
+"y": "1915-20 valuation",
+"pl": "Dakota County, Minnesota",
+"co": "Dakota",
+"stt": "MN",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "other",
+"st": "Minnesota DOT keeps a railroad station plat for Christiana on the Minneapolis, Northfield & Southern, drawn for the 1915-20 federal valuation survey; the pin sits on the middle of its station grounds. The 1957 Farmington topo shows the line but no station name, so this rests on the plat alone.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, grain or cord-wood landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Minnesota DOT railroad station plat (ICC valuation era, RWMM MapServer export; research/rail-valuation/mndot-station-plats.csv)",
+"https://webgis.dot.state.mn.us/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the centre of the MnDOT station-plat footprint (good to about 100-200 m along the track)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-mn-egbert",
+"L": "vpo",
+"n": "Egbert depot grounds (Milwaukee Road)",
+"la": 43.63354,
+"lo": -91.44874,
+"y": "1915-20 valuation",
+"pl": "Houston County, Minnesota",
+"co": "Houston",
+"stt": "MN",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "other",
+"st": "Minnesota DOT keeps a railroad station plat for Egbert on the Milwaukee Road, drawn for the 1915-20 federal valuation survey; the pin sits on the middle of its station grounds.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, grain or cord-wood landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Minnesota DOT railroad station plat (ICC valuation era, RWMM MapServer export; research/rail-valuation/mndot-station-plats.csv)",
+"https://webgis.dot.state.mn.us/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the centre of the MnDOT station-plat footprint (good to about 100-200 m along the track)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-mn-eggleston",
+"L": "vpo",
+"n": "Eggleston depot grounds (Milwaukee Road)",
+"la": 44.63926,
+"lo": -92.67183,
+"y": "1915-20 valuation",
+"pl": "Goodhue County, Minnesota",
+"co": "Goodhue",
+"stt": "MN",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "other",
+"st": "Minnesota DOT keeps a railroad station plat for Eggleston on the Milwaukee Road, drawn for the 1915-20 federal valuation survey; the pin sits on the middle of its station grounds. The 1952 Red Wing topo shows the line but no station name, so this rests on the plat alone.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, grain or cord-wood landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Minnesota DOT railroad station plat (ICC valuation era, RWMM MapServer export; research/rail-valuation/mndot-station-plats.csv)",
+"https://webgis.dot.state.mn.us/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the centre of the MnDOT station-plat footprint (good to about 100-200 m along the track)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-mn-garen",
+"L": "vpo",
+"n": "Garen depot grounds (Northern Pacific)",
+"la": 45.22683,
+"lo": -92.98264,
+"y": "1915-20 valuation",
+"pl": "Washington County, Minnesota",
+"co": "Washington",
+"stt": "MN",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "other",
+"st": "Minnesota DOT keeps a railroad station plat for Garen on the Northern Pacific, drawn for the 1915-20 federal valuation survey; the pin sits on the middle of its station grounds. The 1954 Hugo topo shows the line but no station name, so this rests on the plat alone.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, grain or cord-wood landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Minnesota DOT railroad station plat (ICC valuation era, RWMM MapServer export; research/rail-valuation/mndot-station-plats.csv)",
+"https://webgis.dot.state.mn.us/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the centre of the MnDOT station-plat footprint (good to about 100-200 m along the track)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-mn-kiltey",
+"L": "vpo",
+"n": "Kiltey depot grounds (Soo Line)",
+"la": 45.1142,
+"lo": -92.85169,
+"y": "1915-20 valuation",
+"pl": "Washington County, Minnesota",
+"co": "Washington",
+"stt": "MN",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "other",
+"st": "Minnesota DOT keeps a railroad station plat for Kiltey on the Soo Line, drawn for the 1915-20 federal valuation survey; the pin sits on the middle of its station grounds. The 1951 Stillwater topo shows the line but no station name, so this rests on the plat alone.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, grain or cord-wood landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Minnesota DOT railroad station plat (ICC valuation era, RWMM MapServer export; research/rail-valuation/mndot-station-plats.csv)",
+"https://webgis.dot.state.mn.us/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the centre of the MnDOT station-plat footprint (good to about 100-200 m along the track)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-mn-king-s-cooley",
+"L": "vpo",
+"n": "King's Cooley depot grounds (Milwaukee Road)",
+"la": 44.41132,
+"lo": -92.16563,
+"y": "1915-20 valuation",
+"pl": "Wabasha County, Minnesota",
+"co": "Wabasha",
+"stt": "MN",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "other",
+"st": "Minnesota DOT keeps a railroad station plat for King's Cooley on the Milwaukee Road, drawn for the 1915-20 federal valuation survey; the pin sits on the middle of its station grounds.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, grain or cord-wood landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Minnesota DOT railroad station plat (ICC valuation era, RWMM MapServer export; research/rail-valuation/mndot-station-plats.csv)",
+"https://webgis.dot.state.mn.us/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the centre of the MnDOT station-plat footprint (good to about 100-200 m along the track)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-mn-lena",
+"L": "vpo",
+"n": "Lena depot grounds (Chicago & North Western and Chicago Great Western)",
+"la": 44.26898,
+"lo": -92.61243,
+"y": "1915-20 valuation",
+"pl": "Goodhue County, Minnesota",
+"co": "Goodhue",
+"stt": "MN",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "other",
+"st": "Minnesota DOT keeps a railroad station plat for Lena on the Chicago & North Western and Chicago Great Western, drawn for the 1915-20 federal valuation survey; the pin sits on the middle of its station grounds. The 1968 Mazeppa topo shows the line but no station name, so this rests on the plat alone.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, grain or cord-wood landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Minnesota DOT railroad station plat (ICC valuation era, RWMM MapServer export; research/rail-valuation/mndot-station-plats.csv)",
+"https://webgis.dot.state.mn.us/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the centre of the MnDOT station-plat footprint (good to about 100-200 m along the track)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-mn-livingston",
+"L": "vpo",
+"n": "Livingston depot grounds (Minneapolis, Northfield & Southern)",
+"la": 44.60499,
+"lo": -93.2288,
+"y": "1915-20 valuation",
+"pl": "Dakota County, Minnesota",
+"co": "Dakota",
+"stt": "MN",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "other",
+"st": "Minnesota DOT keeps a railroad station plat for Livingston on the Minneapolis, Northfield & Southern, drawn for the 1915-20 federal valuation survey; the pin sits on the middle of its station grounds. The 1957 Farmington topo shows the line but no station name, so this rests on the plat alone.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, grain or cord-wood landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Minnesota DOT railroad station plat (ICC valuation era, RWMM MapServer export; research/rail-valuation/mndot-station-plats.csv)",
+"https://webgis.dot.state.mn.us/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the centre of the MnDOT station-plat footprint (good to about 100-200 m along the track)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-mn-manhart",
+"L": "vpo",
+"n": "Manhart depot grounds (Minneapolis, Northfield & Southern)",
+"la": 44.52966,
+"lo": -93.19069,
+"y": "1915-20 valuation",
+"pl": "Dakota County, Minnesota",
+"co": "Dakota",
+"stt": "MN",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "other",
+"st": "Minnesota DOT keeps a railroad station plat for Manhart on the Minneapolis, Northfield & Southern, drawn for the 1915-20 federal valuation survey; the pin sits on the middle of its station grounds. The 1957 Farmington topo shows the line but no station name, so this rests on the plat alone.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, grain or cord-wood landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Minnesota DOT railroad station plat (ICC valuation era, RWMM MapServer export; research/rail-valuation/mndot-station-plats.csv)",
+"https://webgis.dot.state.mn.us/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the centre of the MnDOT station-plat footprint (good to about 100-200 m along the track)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-mn-money-creek",
+"L": "vpo",
+"n": "Money Creek depot grounds (Milwaukee Road)",
+"la": 43.77541,
+"lo": -91.64816,
+"y": "1915-20 valuation",
+"pl": "Houston County, Minnesota",
+"co": "Houston",
+"stt": "MN",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "other",
+"st": "Minnesota DOT keeps a railroad station plat for Money Creek on the Milwaukee Road, drawn for the 1915-20 federal valuation survey; the pin sits on the middle of its station grounds. The 1958 Houston topo shows the line but no station name, so this rests on the plat alone.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, grain or cord-wood landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Minnesota DOT railroad station plat (ICC valuation era, RWMM MapServer export; research/rail-valuation/mndot-station-plats.csv)",
+"https://webgis.dot.state.mn.us/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the centre of the MnDOT station-plat footprint (good to about 100-200 m along the track)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-mn-peninsula",
+"L": "vpo",
+"n": "Peninsula depot grounds (Northern Pacific)",
+"la": 45.08521,
+"lo": -92.96823,
+"y": "1915-20 valuation",
+"pl": "Washington County, Minnesota",
+"co": "Washington",
+"stt": "MN",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "other",
+"st": "Minnesota DOT keeps a railroad station plat for Peninsula on the Northern Pacific, drawn for the 1915-20 federal valuation survey; the pin sits on the middle of its station grounds. The 1951 White Bear Lake East topo shows the line but no station name, so this rests on the plat alone.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, grain or cord-wood landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Minnesota DOT railroad station plat (ICC valuation era, RWMM MapServer export; research/rail-valuation/mndot-station-plats.csv)",
+"https://webgis.dot.state.mn.us/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the centre of the MnDOT station-plat footprint (good to about 100-200 m along the track)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-mn-richmond",
+"L": "vpo",
+"n": "Richmond depot grounds (Milwaukee Road)",
+"la": 43.96399,
+"lo": -91.41062,
+"y": "1915-20 valuation",
+"pl": "Winona County, Minnesota",
+"co": "Winona",
+"stt": "MN",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "other",
+"st": "Minnesota DOT keeps a railroad station plat for Richmond on the Milwaukee Road, drawn for the 1915-20 federal valuation survey; the pin sits on the middle of its station grounds. The 1930 La Crescent topo shows the line but no station name, so this rests on the plat alone.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, grain or cord-wood landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Minnesota DOT railroad station plat (ICC valuation era, RWMM MapServer export; research/rail-valuation/mndot-station-plats.csv)",
+"https://webgis.dot.state.mn.us/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the centre of the MnDOT station-plat footprint (good to about 100-200 m along the track)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-mn-trout-brook",
+"L": "vpo",
+"n": "Trout Brook depot grounds (Chicago Great Western)",
+"la": 44.51345,
+"lo": -92.56285,
+"y": "1915-20 valuation",
+"pl": "Goodhue County, Minnesota",
+"co": "Goodhue",
+"stt": "MN",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "other",
+"st": "Minnesota DOT keeps a railroad station plat for Trout Brook on the Chicago Great Western, drawn for the 1915-20 federal valuation survey; the pin sits on the middle of its station grounds. The 1952 Red Wing topo shows the line but no station name, so this rests on the plat alone.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, grain or cord-wood landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Minnesota DOT railroad station plat (ICC valuation era, RWMM MapServer export; research/rail-valuation/mndot-station-plats.csv)",
+"https://webgis.dot.state.mn.us/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the centre of the MnDOT station-plat footprint (good to about 100-200 m along the track)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-mn-wallace",
+"L": "vpo",
+"n": "Wallace depot grounds (Chicago Great Western and Milwaukee Road)",
+"la": 44.50958,
+"lo": -93.07138,
+"y": "1915-20 valuation",
+"pl": "Dakota County, Minnesota",
+"co": "Dakota",
+"stt": "MN",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "other",
+"st": "Minnesota DOT keeps a railroad station plat for Wallace on the Chicago Great Western and Milwaukee Road, drawn for the 1915-20 federal valuation survey; the pin sits on the middle of its station grounds. The 1957 Farmington topo shows the line but no station name, so this rests on the plat alone.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, grain or cord-wood landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Minnesota DOT railroad station plat (ICC valuation era, RWMM MapServer export; research/rail-valuation/mndot-station-plats.csv)",
+"https://webgis.dot.state.mn.us/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the centre of the MnDOT station-plat footprint (good to about 100-200 m along the track)."
+],
+"rv12": 1
+},
+{
+"id": "rv12-mn-whitman",
+"L": "vpo",
+"n": "Whitman depot grounds (Milwaukee Road)",
+"la": 44.14485,
+"lo": -91.79465,
+"y": "1915-20 valuation",
+"pl": "Winona County, Minnesota",
+"co": "Winona",
+"stt": "MN",
+"v": "Coins, tokens, railroad buttons and lantern parts, spikes and tie plates, bottles",
+"c": "documented",
+"s": "unknown",
+"p": "other",
+"st": "Minnesota DOT keeps a railroad station plat for Whitman on the Milwaukee Road, drawn for the 1915-20 federal valuation survey; the pin sits on the middle of its station grounds.",
+"t": "Flag stops and small depots: the platform edge, the path from the road to the depot door, the section house yard and any loading spot (stock pens, grain or cord-wood landing) are where pockets were emptied. Stay off active railroad right-of-way.",
+"src": [
+[
+"Minnesota DOT railroad station plat (ICC valuation era, RWMM MapServer export; research/rail-valuation/mndot-station-plats.csv)",
+"https://webgis.dot.state.mn.us/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the centre of the MnDOT station-plat footprint (good to about 100-200 m along the track)."
+],
+"rv12": 1
+}
+],
+"edit": {
+"pd88-red-cedar-p-o": {
+"set": {},
+"st": " This was Red Cedar Junction on the Milwaukee Road: the 1912 Rand McNally index lists \"Red Cedar Junction, Dunn, E-17\" (railroad 23, mail Downsville), the 1929 Durand topo labels Red Cedar where the Menomonie branch leaves the Chippewa Valley line, and Railroads of Wisconsin 1827-1937 dates the Red Cedar Jct to Cedar Falls branch to 1882. Look for a section house, water tank and the wye between the two tracks.",
+"src": []
+},
+"vs-1876741": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Staadt, Marathon, M-17, as a station on railroad 34 (the Chicago & North Western), and the 1951 topo labels Staadts beside the North Western track.",
+"src": []
+},
+"ppr95-pennington-station-sec-5-t35n-r1e": {
+"set": {},
+"st": " The 1941 Phillips USGS topographic map labels Pennington beside the Soo Line at 45.53295, -90.39838, about 1.25 km from this pin; Ground check should compare the two spots on LiDAR before moving it.",
+"src": []
+},
+"vs-1833562": {
+"set": {},
+"st": " The 1941 Brantwood USGS topographic map labels Viola Villa Sch here. Viola Villa was also a Price County railroad siding name (WIGenWeb Price County, Wayback copy), but no station by that name shows on the 1938-55 topos, so the siding spot is still unknown.",
+"src": []
+},
+"pc-edswold": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Eidsvold, Clark County, map square J-16, as a station on the Wisconsin Central (later Soo Line). The 1952 Stanley USGS topographic map labels Eidsvold beside the Soo track at 44.96001, -90.87184, about 550 m from this pin.",
+"src": []
+},
+"ld-badger-mills": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Badger Mills, Chippewa County, map square G-16, as a railroad station. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pj01-beaver-creek-p-o-sec-9-t20n-r6w": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Beavercreek, Jackson County, map square H-20, as a railroad station. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pb13-bateman": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Bateman, Chippewa County, map square H-16, as a railroad station. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"ps97-boardman-station-sec-29-t30n-r18w": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Boardman, St. Croix County, map square B-15, as a railroad station. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"stark-belmont": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Belmont, Lafayette County, map square L-27, as a railroad station. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pli02-bloomville-post-office-sec-32-t33n-r8e": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Bloomville, Lincoln County, map square P-14, as a railroad station on the Milwaukee Road. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pb13-bloomer-depot": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Bloomer, Chippewa County, map square G-15, as a railroad station. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pw93-cary-station-sec-10-t23n-r2e": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Cary, Wood County, map square L-18, as a railroad station. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pc-cedarhurst": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Cedarhurst, Clark County, map square L-17, as a railroad station. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pju98-cloverdale-station-sec-18-t18n-r3e": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Cloverdale, Juneau County, map square L-21, as a railroad station on the Chicago & North Western, mail Necedah. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pb13-cobban": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Cobban, Chippewa County, map square H-15, as a railroad station on the Omaha Road. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pc-columbia": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Columbia, Clark County, map square J-18, as a railroad station on the Omaha Road. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pt01-centerville-p-o-sec-3-t18n-r9w": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Centerville, Trempealeau County, map square G-20, as a railroad station. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"sv78-chimney-rock-po": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Chimney Rock, Trempealeau County, map square G-18, as a railroad station. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pb13-cornell-depot": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Cornell, Chippewa County, map square I-15, as a railroad station. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"rr-cleghorn": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Cleghorn, Eau Claire County, map square G-17, as a railroad station. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pju98-cranberry-center-sec-22-t18n-r2e": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Cranberry Center, Juneau County, map square L-20, as a railroad station on the Chicago & North Western. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"ppo87-deronda-station-sec-35-t33n-r17w": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Deronda, Polk County, map square C-14, as a railroad station on the Wisconsin Central. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"ps97-cylon-village-sec-33-t31n-r16w": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Cylon, St. Croix County, map square C-15, as a railroad station on the Wisconsin Central. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pd88-davis-p-o": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Davis, Dunn County, map square E-16, as a railroad station on the Marinette, Tomahawk & Western, mail Spirit. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"dx-dexterville": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Dexterville, Wood County, map square M-19, as a railroad station on the Milwaukee Road and Green Bay & Western. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pw93-dexterville-station-sec-14-t22n-r3e": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Dexterville, Wood County, map square M-19, as a railroad station on the Milwaukee Road and Green Bay & Western. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pw93-elm-lake-station-sec-14-t22n-r4e": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Elm Lake, Wood County, map square M-19, as a railroad station on the Green Bay & Western, mail Grand Rapids. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pb13-eagle-point-depot": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Eagle Point, Chippewa County, map square G-16, as a railroad station on the Omaha Road. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pc88-eagle-point-p-o-sec-6-t29n-r8w": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Eagle Point, Chippewa County, map square G-16, as a railroad station on the Omaha Road. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"ps97-glover-station-sec-15-t28n-r19w": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Glover, St. Croix County, map square B-16, as a railroad station on the Omaha Road. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pt01-hale-p-o-sec-20-t23n-r7w": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Hale, Trempealeau County, map square H-18, as a railroad station. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pw93-hansen-station-sec-22-t23n-r4e": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Hansen, Wood County, map square M-18, as a railroad station on the Milwaukee Road. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pli02-heineman-sec-12-t32n-r7e": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Heineman, Lincoln County, map square O-14, as a railroad station on the Milwaukee Road. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"ab3-hemlock-dam": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Hemlock, Clark County, map square J-17, as a railroad station on the Omaha Road, mail Raddisson. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"rr-heafford-jc": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Heafford Junction, Lincoln County, map square O-13, as a railroad station. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pbu15-hertel-post-office-sec-2-t38n-r15w": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Hertel, Burnett County, map square D-12, as a railroad station. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"rr-hiles": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Hiles, Forest County, map square R-12, as a railroad station. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"rr-hughey": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Hughey, Taylor County, map square J-14, as a railroad station on the Omaha Road. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"rr-kaiser": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Kaiser, Price County, map square K-11, as a railroad station on the Omaha Road. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"gt-kennedy": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Kennedy, Price County, map square K-11, as a railroad station on the Omaha Road. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"ps97-jewett-p-o-jewett-mills-sec-4-t30n-r17w": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Jewett, St. Croix County, map square C-15, as a railroad station on the Wisconsin Central. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"d-ghost-kurth": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Kurth, Clark County, map square J-18, as a railroad station on the Omaha Road. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pm80-knowlton-depot-sec-20-t26n-r7e": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Knowlton, Marathon County, map square O-17, as a railroad station. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pc-lynn": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Lynn, Clark County, as a railroad station on the Milwaukee Road. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"tg-lynxville-raft": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Lynxville, Crawford County, as a railroad station on the Burlington. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pj01-levis-p-o-sec-27-t24n-r6w": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Levis, Jackson County, map square H-18, as a railroad station. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pt88-little-black-station-sec-2-t30n-r1e": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Little Black, Taylor County, map square L-15, as a railroad station on the Wisconsin Central. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pc-lombard-station": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Lombard, Clark County, map square J-16, as a railroad station on the Wisconsin Central. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pc-longwood": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Longwood, Clark County, map square K-16, as a railroad station. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"plc06-lytles-station-sec-9-t17n-r8w": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Lytles, La Crosse County, map square G-21, as a railroad station on the Burlington. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pw93-altdorf-p-o-sec-2-t22n-r4e": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Altdorf, Wood County, map square M-19, as a railroad station. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pw93-amelia-station-sec-23-t23n-r2e": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Amelia, Wood County, map square L-18, as a railroad station. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"rr90-menomonie-jc": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Menomonie Junction, Dunn County, map square D-16, as a railroad station. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pbp77-marshland-p-o-sec-34-t19n-r10w": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Marshland, Buffalo County, map square F-20, as a railroad station on the Chicago & North Western. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pg03-murry-p-o-sec-22-t36n-r7w": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Murry, Rusk County, map square H-13, as a railroad station on the Wisconsin Central. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pbu15-orange-post-office-sec-35-t40n-r16w": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Orange, Burnett County, map square C-11, as a railroad station. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pm80-norrie-sec-23-t28n-r10e": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Norrie, Marathon County, map square Q-16, as a railroad station on the Chicago & North Western. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pb88-perley-sec-8-t34n-r14w": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Perley, Barron County, map square D-13, as a railroad station on the Omaha Road. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"wd2-02": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Phipps, Sawyer County, map square G-10, as a railroad station on the Omaha Road. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"ps97-pleasant-valley-p-o-sec-18-t28n-r17w": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Pleasant Valley, St. Croix County, map square C-16, as a railroad station on the Green Bay & Western. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"d-ghost-porters-mills": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Porters Mills, Eau Claire County, map square F-17, as a railroad station on the Milwaukee Road. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pj01-pray-sec-22-t22n-r1w": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Pray, Jackson County, map square K-19, as a railroad station on the Green Bay & Western. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"ps97-prescott-road-station-troy-sec-6-t28n-r1": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Prescott Road, St. Croix County, map square A-16, as a railroad station. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"cr-progress-ghost-town-wood": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Progress, Wood County, map square L-18, as a railroad station. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pj01-price-p-o-sec-1-t24n-r6w": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Price, Jackson County, map square I-18, as a railroad station on the Omaha Road. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"ppo87-richardson-sec-26-t33n-r15w": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Richardson, Polk County, map square D-14, as a railroad station on the Omaha Road. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"ppo87-richardson-post-office-sec-27-t33n-r15w": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Richardson, Polk County, map square D-14, as a railroad station on the Omaha Road. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"rr-saunders": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Saunders, Douglas County, map square D-8, as a railroad station. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pw93-scranton-station-sec-29-t22n-r2e": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Scranton, Wood County, map square L-19, as a railroad station on the Green Bay & Western. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pm80-romeo-sec-19-t27n-r2e": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Romeo, Marathon County, map square L-17, as a railroad station, mail Spencer. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pb13-ruby": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Ruby, Chippewa County, as a railroad station. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pw93-saratoga-p-o-sec-26-t21n-r5e": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Saratoga, Wood County, map square N-19, as a railroad station. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pj01-sheppard-siding-sec-32-t21n-r3w": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Sheppard, Jackson County, map square J-19, as a railroad station on the Omaha Road, mail Black River Falls. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pj01-spaulding-sec-29-t22n-r1e": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Spaulding, Jackson County, map square L-19, as a railroad station on the Green Bay & Western. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pc-spokeville-p-o": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Spokeville, Clark County, map square K-17, as a railroad station on the Wisconsin Central. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pju98-sprague-station-sec-3-t19n-r3e": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Sprague, Juneau County, map square M-20, as a railroad station on the Milwaukee Road. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pmo97-summit-station-rapp-p-o-sec-18-t16n-r2w": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Summit, Monroe County, map square K-21, as a railroad station on the Chicago & North Western. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pd88-tramway-station": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Tramway, Dunn County, map square D-16, as a railroad station on the Omaha Road. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"rr-trevino": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Trevino, Buffalo County, map square D-18, as a railroad station on the Burlington. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"d-ghost-trow": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Trow, Clark County, map square J-18, as a railroad station on the Omaha Road, mail Col. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pc-veefkind-p-o": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Veefkind, Clark County, map square L-17, as a railroad station on the Wisconsin Central. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pj01-waterbury-sec-15-t22n-r2w": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Waterbury, Jackson County, map square K-19, as a railroad station on the Green Bay & Western. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"ppo87-west-denmark-post-office-sec-31-t36n-r17": {
+"set": {},
+"st": " The 1912 Rand McNally index lists West Denmark, Polk County, map square B-13, as a railroad station on the Omaha Road. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pd88-weston": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Weston, Dunn County, map square D-17, as a railroad station on the Omaha Road. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pd88-weston-p-o": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Weston, Dunn County, map square D-17, as a railroad station on the Omaha Road. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pt88-whittlesey-sec-26-t32n-r1e": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Whittlesey, Taylor County, map square L-15, as a railroad station on the Wisconsin Central. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"ab2-worcester-101": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Worcester, Price County, map square L-13, as a railroad station on the Wisconsin Central. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"wd2-04": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Yarnell, Sawyer County, map square G-12, as a railroad station on the Omaha Road, mail Couderay. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"pc-yolo": {
+"set": {},
+"st": " The 1912 Rand McNally index lists Yolo, Clark County, as a railroad station on the Omaha Road, mail Chili. (The index places it only to the map square, so it confirms the name and the railroad, not the exact spot.)",
+"src": []
+},
+"d-ghost-belden": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for Belden on the Soo Line, drawn for the 1915-20 federal valuation survey. Its station grounds sit at this pin; that is the depot and section-house ground to search.",
+"src": []
+},
+"vs-2064896": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for Bellechester on the Chicago Great Western, drawn for the 1915-20 federal valuation survey. Its station grounds sit about 756 m north of this pin (44.37505, -92.51267); that is the depot and section-house ground to search.",
+"src": []
+},
+"vs-2051985": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for Bethany on the Chicago Great Western, drawn for the 1915-20 federal valuation survey. Its station grounds sit at this pin; that is the depot and section-house ground to search.",
+"src": []
+},
+"vs-2051986": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for Bethany on the Chicago Great Western, drawn for the 1915-20 federal valuation survey. Its station grounds sit at this pin; that is the depot and section-house ground to search.",
+"src": []
+},
+"vs-2064886": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for Clayback (Claybank) on the Chicago Great Western, drawn for the 1915-20 federal valuation survey. Its station grounds sit at this pin; that is the depot and section-house ground to search.",
+"src": []
+},
+"vs-2094738": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for Coates on the Chicago Great Western, drawn for the 1915-20 federal valuation survey. Its station grounds sit about 191 m west of this pin (44.7173, -93.03687); that is the depot and section-house ground to search.",
+"src": []
+},
+"fr-vasa-copas-former-village": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for Copas on the Soo Line, drawn for the 1915-20 federal valuation survey. Its station grounds sit about 837 m southwest of this pin (45.23079, -92.77386); that is the depot and section-house ground to search.",
+"src": []
+},
+"vs-2051979": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for Dresbach on the Milwaukee Road, drawn for the 1915-20 federal valuation survey. Its station grounds sit about 546 m southeast of this pin (43.891, -91.3405); that is the depot and section-house ground to search.",
+"src": []
+},
+"vs-2051980": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for Dresbach on the Milwaukee Road, drawn for the 1915-20 federal valuation survey. Its station grounds sit about 546 m southeast of this pin (43.891, -91.3405); that is the depot and section-house ground to search.",
+"src": []
+},
+"vs-2094735": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for Empire on the Chicago Great Western and Milwaukee Road, drawn for the 1915-20 federal valuation survey. Its station grounds sit about 195 m south of this pin (44.65746, -93.01387); that is the depot and section-house ground to search.",
+"src": []
+},
+"vs-2094736": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for Empire on the Chicago Great Western and Milwaukee Road, drawn for the 1915-20 federal valuation survey. Its station grounds sit about 195 m south of this pin (44.65746, -93.01387); that is the depot and section-house ground to search.",
+"src": []
+},
+"vs-2094733": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for Etter on the Milwaukee Road, drawn for the 1915-20 federal valuation survey. Its station grounds sit about 348 m northeast of this pin (44.66311, -92.73969); that is the depot and section-house ground to search.",
+"src": []
+},
+"vs-2094734": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for Etter on the Milwaukee Road, drawn for the 1915-20 federal valuation survey. Its station grounds sit about 348 m northeast of this pin (44.66311, -92.73969); that is the depot and section-house ground to search.",
+"src": []
+},
+"vs-2064877": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for Forest Mills on the Milwaukee Road, drawn for the 1915-20 federal valuation survey. Its station grounds sit about 224 m north of this pin (44.29973, -92.63981); that is the depot and section-house ground to search.",
+"src": []
+},
+"vs-2068998": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for Franconia on the Northern Pacific, drawn for the 1915-20 federal valuation survey. Its station grounds sit about 1238 m north of this pin (45.38122, -92.68828); that is the depot and section-house ground to search.",
+"src": []
+},
+"vs-2050503": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for Freeburg on the Milwaukee Road, drawn for the 1915-20 federal valuation survey. Its station grounds sit about 332 m east of this pin (43.61036, -91.36028); that is the depot and section-house ground to search.",
+"src": []
+},
+"vs-2064599": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for Hammond on the Milwaukee Road, drawn for the 1915-20 federal valuation survey. Its station grounds sit about 242 m east of this pin (44.22245, -92.3703); that is the depot and section-house ground to search.",
+"src": []
+},
+"vs-2064595": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for Jarretts on the Milwaukee Road, drawn for the 1915-20 federal valuation survey. Its station grounds sit about 183 m southeast of this pin (44.23529, -92.33689); that is the depot and section-house ground to search.",
+"src": []
+},
+"vs-2070031": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for Kingsdale on the Soo Line, drawn for the 1915-20 federal valuation survey. Its station grounds sit about 248 m northwest of this pin (46.24, -92.31355); that is the depot and section-house ground to search.",
+"src": []
+},
+"vs-2070032": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for Kingsdale on the Soo Line, drawn for the 1915-20 federal valuation survey. Its station grounds sit about 248 m northwest of this pin (46.24, -92.31355); that is the depot and section-house ground to search.",
+"src": []
+},
+"vs-2051966": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for Lamoille on the Milwaukee Road, drawn for the 1915-20 federal valuation survey. Its station grounds sit about 366 m southeast of this pin (44.00063, -91.46832); that is the depot and section-house ground to search.",
+"src": []
+},
+"vs-2051967": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for Lamoille on the Milwaukee Road, drawn for the 1915-20 federal valuation survey. Its station grounds sit about 366 m southeast of this pin (44.00063, -91.46832); that is the depot and section-house ground to search.",
+"src": []
+},
+"vs-2097767": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for Maple Island on the Soo Line, drawn for the 1915-20 federal valuation survey. Its station grounds sit at this pin; that is the depot and section-house ground to search.",
+"src": []
+},
+"vs-2050590": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for Mound Prairie on the Milwaukee Road, drawn for the 1915-20 federal valuation survey. Its station grounds sit about 1043 m southeast of this pin (43.78035, -91.44458); that is the depot and section-house ground to search.",
+"src": []
+},
+"vs-2050492": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for Newhouse on the Milwaukee Road, drawn for the 1915-20 federal valuation survey. Its station grounds sit at this pin; that is the depot and section-house ground to search.",
+"src": []
+},
+"vs-2050493": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for Newhouse on the Milwaukee Road, drawn for the 1915-20 federal valuation survey. Its station grounds sit at this pin; that is the depot and section-house ground to search.",
+"src": []
+},
+"d-ghost-point-douglas": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for Point Douglas on the Burlington and Milwaukee Road, drawn for the 1915-20 federal valuation survey. Its station grounds sit about 951 m west of this pin (44.75273, -92.82985); that is the depot and section-house ground to search.",
+"src": []
+},
+"vs-2050488": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for Reno on the Milwaukee Road, drawn for the 1915-20 federal valuation survey. Its station grounds sit about 178 m east of this pin (43.60166, -91.27306); that is the depot and section-house ground to search.",
+"src": []
+},
+"vs-2094690": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for Rich Valley on the Chicago Great Western, drawn for the 1915-20 federal valuation survey. Its station grounds sit at this pin; that is the depot and section-house ground to search.",
+"src": []
+},
+"vs-2094691": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for Rich Valley on the Chicago Great Western, drawn for the 1915-20 federal valuation survey. Its station grounds sit at this pin; that is the depot and section-house ground to search.",
+"src": []
+},
+"vs-2070030": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for Rutledge on the Northern Pacific, drawn for the 1915-20 federal valuation survey. Its station grounds sit about 199 m southwest of this pin (46.26314, -92.86901); that is the depot and section-house ground to search.",
+"src": []
+},
+"vs-2064858": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for Stanton on the Chicago Great Western, drawn for the 1915-20 federal valuation survey. Its station grounds sit about 447 m southwest of this pin (44.46822, -93.02495); that is the depot and section-house ground to search.",
+"src": []
+},
+"vs-2064859": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for Stanton on the Chicago Great Western, drawn for the 1915-20 federal valuation survey. Its station grounds sit about 447 m southwest of this pin (44.46822, -93.02495); that is the depot and section-house ground to search.",
+"src": []
+},
+"vs-2052173": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for Stockton on the Chicago & North Western, drawn for the 1915-20 federal valuation survey. Its station grounds sit about 349 m north of this pin (44.03053, -91.76887); that is the depot and section-house ground to search.",
+"src": []
+},
+"vs-2064742": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for Theilman on the Milwaukee Road, drawn for the 1915-20 federal valuation survey. Its station grounds sit at this pin; that is the depot and section-house ground to search.",
+"src": []
+},
+"vs-2094687": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for Waterford on the Chicago Great Western, drawn for the 1915-20 federal valuation survey. Its station grounds sit at this pin; that is the depot and section-house ground to search.",
+"src": []
+},
+"vs-2064580": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for Weaver on the Milwaukee Road, drawn for the 1915-20 federal valuation survey. Its station grounds sit about 305 m north of this pin (44.21773, -91.92905); that is the depot and section-house ground to search.",
+"src": []
+},
+"vs-2064900": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for Welch on the Chicago Great Western and Milwaukee Road, drawn for the 1915-20 federal valuation survey. Its station grounds sit about 185 m north of this pin (44.56552, -92.73744); that is the depot and section-house ground to search.",
+"src": []
+},
+"vs-2064869": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for White Willow on the Chicago Great Western, drawn for the 1915-20 federal valuation survey. Its station grounds sit about 574 m southwest of this pin (44.361, -92.65683); that is the depot and section-house ground to search.",
+"src": []
+},
+"vs-2064870": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for White Willow on the Chicago Great Western, drawn for the 1915-20 federal valuation survey. Its station grounds sit about 574 m southwest of this pin (44.361, -92.65683); that is the depot and section-house ground to search.",
+"src": []
+},
+"d-ghost-withrow": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for Withrow on the Soo Line, drawn for the 1915-20 federal valuation survey. Its station grounds sit at this pin; that is the depot and section-house ground to search.",
+"src": []
+},
+"vs-2097776": {
+"set": {},
+"st": " Minnesota DOT keeps a railroad station plat for Withrow on the Soo Line, drawn for the 1915-20 federal valuation survey. Its station grounds sit at this pin; that is the depot and section-house ground to search.",
+"src": []
+}
+}
+}
