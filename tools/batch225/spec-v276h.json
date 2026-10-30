@@ -1,0 +1,34 @@
+{
+ "new": [
+  {
+   "id": "tw-mn-winona-schmidt-crocks-1933",
+   "L": "treasure",
+   "n": "Louis Schmidt's missing $7,000 in jars and crocks, 653 W. Third St., Winona",
+   "la": 44.05576,
+   "lo": -91.65353,
+   "y": "hidden before 1933; dug Mar-May 1933",
+   "pl": "653 W. Third St., Winona (Winona County address point, parcel 320701550)",
+   "co": "Winona",
+   "stt": "MN",
+   "v": "Hidden money (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "exact",
+   "st": "Louis Schmidt, a Chicago & North Western machinist and hoarder, hid about $14,800 in jars and crocks under his house at 653 W. Third St. In early 1933 relatives, attorneys and a police officer dug for it: nephew Alfred Priewert recovered $2,610 (9 Mar), niece Mrs. Emma McKenzie $2,770 (22 Mar), and a First National Bank crew $1,785 in gold (13 May) from a crock holding a pint fruit jar about 4 ft down. Court evidence showed about $7,000 still unaccounted for. The pin is today's Winona County address point for 653 W. 3rd St., set from the parcel. Winona house numbers could have changed since 1933, which a city directory would confirm.",
+   "t": "Urban private lot with an exact address: story pin only, LOOK-ONLY. The house may still stand; the rest of the money may have been quietly taken in 1933.",
+   "src": [
+    [
+     "Winona Daily News 27 Oct 1933 p1 \"$7,000 of Hoarded Gold Still Missing, Evidence in Schmidt Case Shows\" (newspapers.com image 547047918, PC read). Single source: C",
+     "https://www.newspapers.com/image/547047918/"
+    ],
+    [
+     "Winona County address points (parcel 320701550)",
+     "https://services.arcgis.com/n4v88Dv33V9Mhi0b/arcgis/rest/services/Winona_County_Addresses/FeatureServer"
+    ]
+   ],
+   "warn": "Private city lot: look only.",
+   "pinev": "Winona County address point 653 W 3RD ST, assigned by parcel/PIN 320701550"
+  }
+ ],
+ "edit": {}
+}

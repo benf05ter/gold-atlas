@@ -1,0 +1,50 @@
+{
+ "new": [
+  {
+   "id": "it-armstrong-silver-bar",
+   "L": "treasure",
+   "n": "Armstrong's lost silver bar (Bayfield peninsula, c.1820s find)",
+   "la": 46.81,
+   "lo": -90.82,
+   "p": "area",
+   "pinconf": "C",
+   "co": "Bayfield",
+   "stt": "WI",
+   "y": "c. 1820s; told 1892",
+   "st": "Benjamin G. Armstrong, Early Life Among the Indians (Ashland, 1892), pp. 185-189: an Ojibwe man resting with his brother while carrying a deer tapped his pipe on a moss-covered stone by a creek and found it was silver; he cut off about a pound with his hatchet, which Armstrong kept for years (Ervin Leihy of Bayfield saw it). Three times he started to lead Armstrong to the place and turned back within half a mile; dying, he told his son Armstrong should 'go just one-half mile toward the setting sun from the moss-covered log where he had turned back from on his first visit'. He later died falling through a defective dock at Bayfield. Armstrong also heard an old man at a La Pointe council in the 1840s say the Great Spirit hid his silver in a 'huge cave' (pp. 184-85). Neither story names Chief Namakagon. Area pin at Bayfield: no place is given beyond a creek within a day's carry.",
+   "t": "Treat as a legend. The Keweenawan rocks of the Bayfield peninsula carry native copper; a silver nugget in drift is possible. Pan creeks and look for a moss-covered outcrop.",
+   "src": [
+    [
+     "Benj. G. Armstrong, Early Life Among the Indians (1892), pp. 184-189",
+     "https://archive.org/details/bp_1446654"
+    ]
+   ],
+   "c": "legend",
+   "s": "unknown",
+   "v": "Lost silver (legend)"
+  }
+ ],
+ "edit": {
+  "it-tanner-forty-sec26": {
+   "st": " Checks (2026-10-30): Find a Grave lists S. W. Tanner, 1845-1913, buried at Mount Hope, Ashland (memorial 25313483), so the 'S.W.' of 'S.W. & J. Tanner' lived in Ashland until 1913; only the 'J.' could be the Chief. No Tanner dying in 1886-87 in Ashland or Bayfield County is on Find a Grave. Brakken's websites give no newspaper dates or courthouse citation. The Chief link stays the author's theory.",
+   "src": [
+    [
+     "Find a Grave: S. W. Tanner (1845-1913), Mount Hope Cemetery, Ashland",
+     "https://www.findagrave.com/memorial/25313483"
+    ]
+   ]
+  },
+  "ls-davis-hill": {
+   "st": " Guy M. Burnham, The Lake Superior Country in History and in Story (1930), p. 342, independently records 'Namakagon's Hermit ... called Ice Feathers', a native of the Soo, falsely accused of killing a white man, who lived in seclusion at Namakagon in the 1870s or 1880s (no silver mentioned). On p. 154 Burnham says copper and silver run through the range from Namakagon to the Michigan line, and on p. 156 he describes an old excavation a few rods into the timber off the Namakagon road, where there is a flowing well near the top of the long hill.",
+   "src": [
+    [
+     "Guy M. Burnham, The Lake Superior Country in History and in Story (1930), pp. 154-156, 342",
+     "https://hdl.handle.net/2027/mdp.39015071190881"
+    ]
+   ],
+   "set": {
+    "t": "Look for reddish, sandy gravel with red basalt and red sandstone pebbles in road cuts, ditches and small pits around Foster; pan the bottom of those gravels. Look for Burnham's old excavation: off the old Namakagon road, a flowing well near the top of a long hill, a few rods into the timber."
+   }
+  }
+ }
+}

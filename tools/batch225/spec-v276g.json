@@ -1,0 +1,93 @@
+{
+ "new": [],
+ "edit": {
+  "t-fort-st-antoine": {
+   "set": {
+    "la": 44.48006,
+    "lo": -92.25925
+   },
+   "moved": true,
+   "st": " The pin used to fall in the water on today's map; it now sits on the nearest shore, about 60 m away (USGS 1 m LiDAR). The source gives no closer spot."
+  },
+  "sf-menomonie-knapp-stout-co-pork-packing-house": {
+   "set": {
+    "la": 44.87697,
+    "lo": -91.9252
+   },
+   "moved": true,
+   "st": " The 1885 fire map placement fell about 104 m out in Lake Menomin on today's map, so the pin now sits on the nearest shore (USGS 1 m LiDAR). The building may have stood on fill or a shoreline that is now under water."
+  },
+  "sv78-school-s1-t19n-r5w": {
+   "set": {
+    "la": 44.15566,
+    "lo": -90.92424
+   },
+   "moved": true,
+   "st": " The pin used to fall in the water on today's map; it now sits on the nearest shore, about 57 m away (USGS 1 m LiDAR). The source gives no closer spot."
+  },
+  "t-polk-gold-1902": {
+   "set": {
+    "la": 45.431,
+    "lo": -92.39994
+   },
+   "moved": true,
+   "st": " The pin used to fall in the water on today's map; it now sits on the nearest shore, about 111 m away (USGS 1 m LiDAR). The source gives no closer spot."
+  },
+  "d-ghost-winston": {
+   "set": {
+    "la": 47.79585,
+    "lo": -92.36921
+   },
+   "moved": true,
+   "st": " The pin used to fall in the water on today's map; it now sits on the nearest shore, about 83 m away (USGS 1 m LiDAR). The source gives no closer spot."
+  },
+  "tg-phillips-1894": {
+   "set": {
+    "la": 45.69666,
+    "lo": -90.39906
+   },
+   "moved": true,
+   "st": " The pin used to fall in the water on today's map; it now sits on the nearest shore, about 82 m away (USGS 1 m LiDAR). The source gives no closer spot."
+  },
+  "tg-old-abe": {
+   "set": {
+    "la": 45.05684,
+    "lo": -91.26989
+   },
+   "moved": true,
+   "st": " Pin nudged 19 m out of the river onto the bank (USGS 1 m LiDAR)."
+  },
+  "sv78-moose-ear-po": {
+   "set": {
+    "la": 45.31541,
+    "lo": -91.62307
+   },
+   "moved": true,
+   "st": " The pin used to fall in the water on today's map; it now sits on the nearest shore, about 163 m away (USGS 1 m LiDAR). The source gives no closer spot."
+  },
+  "hh-old-clitherall": {
+   "set": {
+    "la": 46.26728,
+    "lo": -95.65242
+   },
+   "moved": true,
+   "st": " The pin used to fall in the water on today's map; it now sits on the nearest shore, about 143 m away (USGS 1 m LiDAR). The source gives no closer spot."
+  },
+  "ps97-joint-school-no-1-houlton-sec-27-t30n-r2": {
+   "set": {
+    "la": 45.06442,
+    "lo": -92.7861
+   },
+   "moved": true,
+   "st": " Correction: the pin had been put one section too far east (in sec. 23). It now sits on the sec. 22/27 line at Houlton, where the plat draws the school, in the same spot within the section (BLM PLSS); good to a few hundred metres."
+  },
+  "plc06-church-sec-27-t17n-r8w": {
+   "set": {
+    "la": 43.91974,
+    "lo": -91.31067
+   },
+   "moved": true,
+   "st": " Correction: the pin had been put one section too far north (in sec. 22). It now sits in sec. 27, the section the atlas names, in the same spot within the section (BLM PLSS); good to a few hundred metres."
+  }
+ }
+}

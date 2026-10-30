@@ -1,0 +1,40 @@
+{
+ "new": [
+  {
+   "id": "cd-romadka-extension-grade-york-10",
+   "L": "history",
+   "n": "Romadka railroad extension grade and depot site, York sec. 10 (1880s-90s)",
+   "la": 44.64238,
+   "lo": -90.46948,
+   "y": "1880s-1890s",
+   "pl": "Grade in York sec. 14, T25N R1W, about 1 km west-northwest of the mill; the line runs toward sec. 10, Clark County",
+   "co": "Clark",
+   "stt": "WI",
+   "v": "Railroad spikes, tools, camp losses, coins",
+   "c": "report",
+   "s": "unknown",
+   "p": "lidar",
+   "st": "In fall 1883 the Romadka Bros. of Milwaukee bought about 4,500 acres in York and Fremont towns. They built the Romadka sawmill in York sec. 24, with a Milwaukee Road spur to Lynn that was being pulled up about 1923. A planned extension was graded as far as sec. 10 of York, where a 10-acre depot site was laid out. A local history says the frames of abandoned bridges \"still stand concealed in the woods\" (Romadka History, wiclarkcountyhistory.org). The 2018 USGS 1 m LiDAR shows a straight raised grade about 480 m long in sec. 14, running west-northwest from the mill toward sec. 10 (ends at 44.64319,-90.47128 and 44.64158,-90.46769), with higher fills at both ends where it crossed low ground. The pin is on the middle of that grade. Section 10 itself (centre 44.6619,-90.4864) shows no grade on the LiDAR, so the depot ground there is not placed yet.",
+   "t": "Look for the straight grade and the bridge frames on the LiDAR, where an unbuilt rail grade shows as a raised line through the woods. Grading camps and the depot site are where the losses are. Ask the landowner.",
+   "src": [
+    [
+     "Clark County history: \"Romadka History\", wiclarkcountyhistory.org/0data/0/228.htm (read on Neb's PC)",
+     ""
+    ]
+   ],
+   "pinconf": "approx",
+   "pinev": "USGS 3DEP 1 m LiDAR (2018): raised straight grade in York sec. 14 (BLM PLSS), on line from the sec. 24 mill toward sec. 10"
+  }
+ ],
+ "edit": {
+  "pc-mill-york-sec-24": {
+   "st": " This was the Romadka sawmill. Romadka Bros. of Milwaukee bought about 4,500 acres in York and Fremont in fall 1883 and built the mill here, served by a Milwaukee Road spur to Lynn that was taken up about 1923 (Romadka History, wiclarkcountyhistory.org). Romadka was \"the next station west\" of Lynn in 1900.",
+   "src": [
+    [
+     "Clark County history: \"Romadka History\", wiclarkcountyhistory.org/0data/0/228.htm (read on Neb's PC)",
+     ""
+    ]
+   ]
+  }
+ }
+}

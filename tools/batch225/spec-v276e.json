@@ -1,0 +1,47 @@
+{
+ "new": [
+  {
+   "id": "tw-mi-coldwater-twp-delaney-boiling-spring",
+   "L": "treasure",
+   "n": "War of 1812 money buried by a boiling spring, Delaney homestead, Coldwater Twp",
+   "la": 43.7626,
+   "lo": -85.0186,
+   "y": "buried c.1812-15 (tradition); recorded 1884",
+   "pl": "Edward Delaney homestead, sec. 22 T16N R6W, Coldwater Twp, Isabella Co.",
+   "co": "Isabella",
+   "stt": "MI",
+   "v": "Hidden money (story)",
+   "c": "report",
+   "s": "unknown",
+   "p": "plss",
+   "st": "The 1884 Isabella county album says the farm of Civil War veteran Edward Delaney (b. 1837 Rochester NY), sec 22, in Coldwater Twp held a boiling spring (~500 gal/min) venerated by the Ojibwe as an ancient burial place of their chiefs, and that \"several individuals claim that in its immediate vicinity a large sum of money was buried during the second war with Great Britain\". Copper was reported in the spring. His father-in-law William F. Baker (d. 1876) is buried on the farm. Pin is the section centre (about 800 m); the spring is not yet placed within the section.",
+   "t": "Find the 80 acres within sec 22 on a 1879-1900 Isabella plat or the GLO homestead entry, then find the spring on LiDAR or the 1938 aerial. The spring area is a reputed Indian burial place and there is a family grave on the farm: LOOK-ONLY there; search only the wider vicinity with permission. Access: private; burial ground and family grave look-only.",
+   "src": [
+    [
+     "Portrait and Biographical Album of Isabella County, Mich. (Chapman Bros., 1884), Coldwater Twp sketch of Delaney (archive.org portraitbiograph00ch)",
+     "https://archive.org/details/portraitbiograph00ch"
+    ]
+   ],
+   "warn": "Reputed Ojibwe burial place at the spring and a family grave on the farm: look only there.",
+   "pinev": "Edward Delaney residence sec 22 T16N R6W (1884 album); pin = section centre (BLM PLSS), ~800 m; 80-acre homestead filed 1867, \"the first homesteaded north of the Indian reserve\"; spring not yet placed within the section"
+  }
+ ],
+ "edit": {
+  "tw-mn-sigel-kuehn-plum-trees-1906": {
+   "set": {
+    "la": 44.2287,
+    "lo": -94.5477,
+    "p": "plss",
+    "pinev": "1905 Polk atlas of Brown Co., Sigel Twp: \"Fred. Kuehn 160\" in sec. 22; SW1/4 sec. 22 T109N R31W, quarter centre from BLM PLSS (about 400 m)"
+   },
+   "moved": true,
+   "st": " Placed from the 1905 Brown County atlas (Sigel Twp map): Fred. Kuehn held 160 acres in sec. 22, most likely the SW quarter of sec. 22 T109N R31W; the pin is that quarter's centre, good to about 400 m. Neighbours were Anton Baumann (sec. 21), Thos. Forstner, Hubert Hillesheim and Otto Schultz; John Kuehn had 131 acres on the west shore of School Lake in sec. 16.",
+   "src": [
+    [
+     "1905 Polk atlas of Brown County, Sigel Twp map (UMN UMedia p16022coll231:5451)",
+     "https://umedia.lib.umn.edu/item/p16022coll231:5451"
+    ]
+   ]
+  }
+ }
+}

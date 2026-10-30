@@ -1,0 +1,38 @@
+{
+ "new": [
+  {
+   "id": "it-dan-morgan-homestead",
+   "L": "history",
+   "n": "Capt. Dan Morgan's homestead at Morgan Falls",
+   "la": 46.3549,
+   "lo": -90.928,
+   "p": "approx",
+   "pinconf": "C",
+   "co": "Ashland",
+   "stt": "WI",
+   "y": "1880s-90s",
+   "v": "Look only",
+   "st": "Guy Burnham (The Lake Superior Country, 1930, pp. 155-156): Capt. Dan Morgan homesteaded at Morgan's Falls on Morgan's Creek, 'Morgan Heights, eight miles south of Sanborn'; house ruins stood near the falls and the creek flows west into the Marengo; reached via the Provost schoolhouse, taking the left turn from Sanborn. Dan and his wife are buried at Mount Hope, Ashland. Same pages: in the 1890s 'there were mines galore, from Montreal River to Namakagon. On the Namakagon road ... where there is a flowing well near the top of the long hill, there is an excavation back in the timber a few rods, where somebody dug.' That excavation can't be placed closer than the old Ashland-Marengo-Namakagon road over the hills south of Marengo. Pin = the falls (approximate), about 3 km east of Tom Mattison's homestead. The pin is on the steepest drop of the creek in the 2022 USGS 1 m LiDAR, about 150 m west of the handed-over point.",
+   "t": "Chequamegon National Forest (Morgan Falls / St. Peter's Dome area): the house ruins are a historic site, look only. Check the 1938 air photo for the clearing near the falls. Along the old Namakagon road, watch for a flowing well near a hilltop with a pit a few rods into the timber.",
+   "src": [
+    [
+     "Guy M. Burnham, The Lake Superior Country in History and in Story (1930), pp. 155-157",
+     "https://hdl.handle.net/2027/mdp.39015071190881"
+    ]
+   ],
+   "c": "documented",
+   "s": "unknown"
+  }
+ ],
+ "edit": {
+  "tw-wi-lynn-olesen-maple-box-1900": {
+   "set": {
+    "la": 44.618,
+    "lo": -90.432,
+    "p": "approx"
+   },
+   "moved": true,
+   "st": " Plat check: no Andrew Olesen (or Ols-) shows on the 1893 Lynn, Fremont or York plats or the 1906 Lynn plat along the line, and Romadka is York sec. 24 (T25N R1W). The farm lies somewhere along the roughly 3-mile rail corridor between Lynn and Romadka, so the pin sits at its midpoint."
+  }
+ }
+}
