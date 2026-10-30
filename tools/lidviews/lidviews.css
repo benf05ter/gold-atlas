@@ -1,0 +1,6 @@
+.lvrow{display:flex;flex-wrap:wrap;gap:4px;margin:2px 0}
+.lvrow .chip{padding:2px 8px;font-size:12px}
+.tcn{margin:6px 0 0;font-size:13.5px;padding:6px 8px;border-left:3px solid var(--line);background:var(--land2,transparent);border-radius:3px}
+.tcI{border-left-color:#2f9a3b}.tcD{border-left-color:#d8321e}
+.tcv{position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:none;z-index:1}
+.lvrow .chip[aria-pressed="false"]{text-decoration:none;opacity:.75}
