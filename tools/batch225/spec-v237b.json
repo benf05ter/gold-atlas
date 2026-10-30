@@ -1,0 +1,287 @@
+{
+ "new": [
+  {
+   "id": "gt-wilson-winona",
+   "L": "ghost",
+   "n": "Wilson, Winona County (old hamlet)",
+   "la": 43.95996,
+   "lo": -91.68459,
+   "y": "1800s",
+   "co": "Winona",
+   "stt": "MN",
+   "pl": "Wilson, about 6 miles south of Winona",
+   "v": "Coins, tokens, buttons and household losses from the old store, school and house lots",
+   "c": "documented",
+   "s": "unknown",
+   "p": "town",
+   "st": "The U.S. Treasure Atlas vol. 5 (1985) lists Wilson, 6 miles south of Winona, as a ghost town. GNIS keeps it as a populated place.",
+   "t": "Town-level pin: place the old store, church and school lots on the 1867 plat and a 1938 air photo first. Private land: permission first.",
+   "src": [
+    [
+     "U.S. Treasure Atlas vol. 5 (1985), ghost-town list (quote via Neb, Oct 2026)",
+     ""
+    ],
+    [
+     "USGS GNIS: Wilson, Winona Co.",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Pin is the GNIS Wilson point; the old lots are not placed yet",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "gt-hart-winona",
+   "L": "ghost",
+   "n": "Hart, Winona County (old hamlet)",
+   "la": 43.87552,
+   "lo": -91.73987,
+   "y": "1800s",
+   "co": "Winona",
+   "stt": "MN",
+   "pl": "Hart, about 4 miles north of Rushford",
+   "v": "Coins, tokens, buttons and household losses from the old store, school and house lots",
+   "c": "documented",
+   "s": "unknown",
+   "p": "town",
+   "st": "The U.S. Treasure Atlas vol. 5 (1985) lists Hart, 4 miles north of Rushford, as a ghost town. GNIS keeps it as a populated place.",
+   "t": "Town-level pin: place the old lots on the 1867 plat and a 1938 air photo before hunting. Private land: permission first.",
+   "src": [
+    [
+     "U.S. Treasure Atlas vol. 5 (1985), ghost-town list (quote via Neb, Oct 2026)",
+     ""
+    ],
+    [
+     "USGS GNIS: Hart, Winona Co.",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Pin is the GNIS Hart point; the old lots are not placed yet",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "gt-herold-buffalo",
+   "L": "ghost",
+   "n": "Herold, Buffalo County (vanished hamlet)",
+   "la": 44.30552,
+   "lo": -91.8421,
+   "y": "1800s",
+   "co": "Buffalo",
+   "stt": "WI",
+   "pl": "Herold, about 2.5 miles east of Alma",
+   "v": "Coins, tokens, buttons and household losses from the old store, school and house lots",
+   "c": "documented",
+   "s": "unknown",
+   "p": "town",
+   "st": "The U.S. Treasure Atlas vol. 5 lists Herold, 2.5 miles east of Alma, as a ghost town. GNIS places it (1566324), and the 1877 plat book draws a church in sec. 16 and a school in sec. 9, both already pinned 150-300 m from here. Herold Cemetery is next to the pin.",
+   "t": "Hunt the church and school lots already pinned; this pin ties them together. The cemetery is look-only. Private land: permission first.",
+   "src": [
+    [
+     "U.S. Treasure Atlas vol. 5 (1985), ghost-town list (quote via Neb, Oct 2026)",
+     ""
+    ],
+    [
+     "USGS GNIS: Herold (1566324), Buffalo Co.",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Pin is the GNIS Herold point; the 1877 plat church and school pins sit 150-300 m away",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "gt-cushing-morrison",
+   "L": "ghost",
+   "n": "Cushing, Morrison County (rail hamlet)",
+   "la": 46.13969,
+   "lo": -94.57696,
+   "y": "1900s",
+   "co": "Morrison",
+   "stt": "MN",
+   "pl": "Hwy 10 and the railroad, about 6 miles northwest of Randall",
+   "v": "Coins, tokens, buttons and household losses from the old store, school and house lots",
+   "c": "documented",
+   "s": "unknown",
+   "p": "town",
+   "st": "The U.S. Treasure Atlas vol. 5 lists Cushing, on Hwy 10 and the railroad 6 miles northwest of Randall, as a ghost town.",
+   "t": "Depot and store lots beside the tracks; the railroad right of way is off limits. Private land: permission first.",
+   "src": [
+    [
+     "U.S. Treasure Atlas vol. 5 (1985), ghost-town list (quote via Neb, Oct 2026)",
+     ""
+    ],
+    [
+     "USGS GNIS: Cushing, Morrison Co.",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Pin is the GNIS Cushing point, at Hwy 10 and 260th St",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "gt-gregory-morrison",
+   "L": "ghost",
+   "n": "Gregory, Morrison County (rail stop)",
+   "la": 45.93941,
+   "lo": -94.35639,
+   "y": "1900s",
+   "co": "Morrison",
+   "stt": "MN",
+   "pl": "On the railroad about 2.5 miles southeast of Little Falls",
+   "v": "Coins, tokens, buttons and household losses from the old store, school and house lots",
+   "c": "documented",
+   "s": "unknown",
+   "p": "town",
+   "st": "The U.S. Treasure Atlas vol. 5 lists Gregory, on the railroad 2.5 miles southeast of Little Falls, as a ghost town.",
+   "t": "Depot and store lots beside the tracks; the railroad right of way is off limits. Private land: permission first.",
+   "src": [
+    [
+     "U.S. Treasure Atlas vol. 5 (1985), ghost-town list (quote via Neb, Oct 2026)",
+     ""
+    ],
+    [
+     "USGS GNIS: Gregory, Morrison Co.",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Pin is the GNIS Gregory point, at Hwy 10 and 123rd St",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "gt-little-rock-morrison",
+   "L": "ghost",
+   "n": "Little Rock, Morrison County",
+   "la": 45.83247,
+   "lo": -94.09277,
+   "y": "1800s",
+   "co": "Morrison",
+   "stt": "MN",
+   "pl": "Hwy 25 and Nature Rd, about 4.5 miles south of Buckman",
+   "v": "Coins, tokens, buttons and household losses from the old store, school and house lots",
+   "c": "documented",
+   "s": "unknown",
+   "p": "town",
+   "st": "The U.S. Treasure Atlas vol. 5 lists Little Rock, 4.5 miles south of Buckman, as a ghost town.",
+   "t": "Look for the old crossroads lots on a 1938 air photo. Private land: permission first.",
+   "src": [
+    [
+     "U.S. Treasure Atlas vol. 5 (1985), ghost-town list (quote via Neb, Oct 2026)",
+     ""
+    ],
+    [
+     "USGS GNIS: Little Rock, Morrison Co.",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Pin is the GNIS Little Rock point, at Hwy 25 and Nature Rd",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "gt-camp-ripley-junction",
+   "L": "ghost",
+   "n": "Camp Ripley Junction",
+   "la": 46.07024,
+   "lo": -94.32833,
+   "y": "1900s",
+   "co": "Morrison",
+   "stt": "MN",
+   "pl": "Hwy 371 and Hwy 115, about 7 miles south of Fort Ripley",
+   "v": "Coins, tokens, buttons and household losses from the old store, school and house lots",
+   "c": "documented",
+   "s": "unknown",
+   "p": "town",
+   "st": "The U.S. Treasure Atlas vol. 5 lists Camp Ripley Junction, a rail junction hamlet 7 miles south of Fort Ripley, as a ghost town. The Minnesota State Veterans Cemetery is 600 m away.",
+   "t": "Camp Ripley itself is military land with no entry; only the junction lots outside the fence. The veterans cemetery is look-only. Permission first.",
+   "src": [
+    [
+     "U.S. Treasure Atlas vol. 5 (1985), ghost-town list (quote via Neb, Oct 2026)",
+     ""
+    ],
+    [
+     "USGS GNIS: Camp Ripley Junction, Morrison Co.",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Pin is the GNIS Camp Ripley Junction point",
+    "Unconfirmed, one source"
+   ],
+   "acc": [
+    "warn",
+    "Military reservation next door: stay outside the fence"
+   ]
+  },
+  {
+   "id": "gt-theisen-buffalo",
+   "L": "ghost",
+   "n": "Theisen settlement and church, Buffalo County",
+   "la": 44.399,
+   "lo": -91.564,
+   "y": "1870s",
+   "co": "Buffalo",
+   "stt": "WI",
+   "pl": "On the east county line, about 7 miles northeast of Independence",
+   "v": "Coins, tokens, buttons and household losses from the old store, school and house lots",
+   "c": "documented",
+   "s": "unknown",
+   "p": "town",
+   "st": "The U.S. Treasure Atlas vol. 5 lists Theisen, on the east county line 7 miles northeast of Independence, as a ghost town. The 1878 Buffalo County map labels Theisen Creek here, with a church about 1 km west in sec. 11; the 1877 plat church pin in sec. 11 T22N R10W is 760 m from this pin.",
+   "t": "Church lot first; a cemetery, if any, is look-only. Private land: permission first.",
+   "src": [
+    [
+     "U.S. Treasure Atlas vol. 5 (1985), ghost-town list (quote via Neb, Oct 2026)",
+     ""
+    ],
+    [
+     "1878 Snyder, Van Vechten county atlas, Buffalo County sheet (David Rumsey Map Collection)",
+     "https://www.davidrumsey.com/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Pin is the 1878 map's Theisen Creek label; the church is about 1 km west",
+    "Unconfirmed, one source"
+   ]
+  }
+ ],
+ "edit": {
+  "sc-1837550": {
+   "st": " The Praag hamlet (GNIS 1571867, 80 m from this pin) is listed as a ghost town in the U.S. Treasure Atlas vol. 5, 3 miles north of Cream.",
+   "src": [
+    [
+     "U.S. Treasure Atlas vol. 5 (1985), ghost-town list (quote via Neb, Oct 2026)",
+     ""
+    ]
+   ]
+  },
+  "sc-1837565": {
+   "st": " Whelan, 4 miles south of Gilmanton, is listed as a ghost town in the U.S. Treasure Atlas vol. 5; this school is the one placed remnant of it.",
+   "src": [
+    [
+     "U.S. Treasure Atlas vol. 5 (1985), ghost-town list (quote via Neb, Oct 2026)",
+     ""
+    ]
+   ]
+  },
+  "t-tr-le-sueur": {
+   "t": " The fort ground is on the hillside behind locked gates (private). The big grass meadow between the road and the hill, running to the river, is said to be county park land: get written OK from Blue Earth County Parks before detecting. The river edge at low water is the other target."
+  }
+ }
+}

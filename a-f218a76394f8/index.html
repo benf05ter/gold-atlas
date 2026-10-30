@@ -3497,7 +3497,7 @@ Object.defineProperty(GM,'tilt',{get:()=>T3.on,set:v=>T3.set(v),configurable:tru
 // Merged pairs keep both stories on one pin; the old id still opens the merged pin. Dropped pins stay openable from old saved lists but leave the map and search; they are listed with their full data in research/map-polish/cleanup.md.
 { const MERGE=[['d-dells-mill','hist-0'],['rx-7','hist-52'],['g-MN1','hist-39'],['m-ghost-silver-city','m-rep-silver-city'],['t-pit-redwingreadymixpit-532','t-pit-redwingreadymixmill-469'],
     ['sc-2702801','sc-2702802'],['sc-2702801','sc-2702803'],['g-MI6','m-rep-ropes-1881'],['rx-16','hist-56'],['g-MN7','t-rep-gold-island-vermilion'],['g-PC','t-plum-creek-diamonds']];
-  const DROP=['t-badger-gold-fowl','t-battaglan-beaver-lake','t-rep-mize-1878','t-tr-sherburne','t-tr-pepin-spanish','t-tr-st-croix-traders','t-tr-vermilion-silver','m-tr-civil-war-gold',
+  const DROP=['t-badger-gold-fowl','t-battaglan-beaver-lake','t-rep-mize-1878','t-tr-pepin-spanish','t-tr-st-croix-traders','t-tr-vermilion-silver','m-tr-civil-war-gold',
     'm-tr-rc-0','m-tr-rc-1','m-tr-rc-2','m-tr-rc-3','m-tr-rc-4','m-tr-rc-5','ob-flambeau-silver','ob-brunson-silver','ob-chippewa-headsprings-gold'];
   const gone=new Set();
   for(const [k,d] of MERGE){ const a=BYID[k], b=BYID[d]; if(!a||!b||a===b) continue;
