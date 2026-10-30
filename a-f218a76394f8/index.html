@@ -6626,6 +6626,9 @@ const NEG=/*NEG*/{"cr-wabeno-bank-loot-1921": ["2026-10-30", "Court/probate thre
         src:maps.map(m=>[`${mn?'MN':'WI'} DNR lake map ${m[0]}${m[1]?' ('+m[1]+')':''}`,murl(m)]),lk:{w,maps,img}}); }
     loaded(); }); }
   OGE.on('draw',()=>{ if(on.has('bev')) beLoad(); if(on.has('lkm')) lkLoad(); if(on.has('bbr')||on.has('bbl')) bbLoad(); if(NL.bbG||on.has('bbr')) bbDraw(); flDraw(); });
+  // pins that carry a drawn line (p.l: [[[lon,lat],...]], e.g. a trail traced off an old plat), shown with the pin's own layer
+  { let G; OGE.on('draw',()=>{ if(!G||!G.isConnected||!G.childNodes.length){ if(G) G.remove(); G=el('g',{class:'gpline'},gBase); for(const p of DATA.points) if(p.l) for(const s of p.l) el('path',{class:'bbline','data-l':p.L,d:'M'+s.map(([lo,la])=>toXY(la,lo).map(v=>v.toFixed(4)).join(',')).join('L')},G); }
+    for(const c of G.childNodes) c.style.display=on.has(c.getAttribute('data-l'))?'':'none'; }); }
   // flood zones (FEMA) on the map
   const flTile=k=>{ if(NL.fl.has(k)) return NL.fl.get(k); const pr=NJ(`nl/fl/F_${k}.json`).then(a=>{ NL.fl.set(k,a||[]); return a||[]; }); NL.fl.set(k,pr); return pr; };
   const gFl=el('g',{class:'gfl'},gBase);
