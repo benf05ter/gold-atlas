@@ -19,3 +19,8 @@ Since 2026-10-30 the source sheets are not in this repo (GitHub Pages caps the s
 `app-sources/`: `sheets/om`, `sheets/om13`, `sheets/om19`, `sheets/om40` (the whole sheets the app used to carry) and `tiles-om13/`
 (the full-size plat scans). Copy those folders next to `spec.json` (`tiles-om13/` as `om13/`) before re-cutting a layer.
 `build.py` leaves every sheet that is cut into tiles out of the app.
+
+Plat book layers (`p-*`, `p13`) no longer live in this repo: since 2026-10-30 they are served from the second repo
+benf05ter/gold-atlas-maps (https://benf05ter.github.io/gold-atlas-maps/ot/), to keep this site under the 1 GB Pages limit.
+Tile a new plat book here, merge its index entry into `ot/index.json` as before, then copy `ot/<layer>/` to gold-atlas-maps/ot/
+instead of committing it here. The page picks the host in `OGT.u()` (tools/perf/ogt.html).

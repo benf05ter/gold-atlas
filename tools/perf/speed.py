@@ -60,7 +60,7 @@ rep("tlWant(L,zb,lb); L.vis=ogTileList(zb,0).map(([x,y])=>`${zb}_${x}_${y}`); tl
 rep("L.vis=lb.map(([x,y])=>`${zf}_${x}_${y}`); tlPlace(L);","L.vis=lb.filter(([x,y])=>!L.has||L.has(zf,x,y)).map(([x,y])=>`${zf}_${x}_${y}`); tlPlace(L);")
 # offline save: today's satellite source, and the old-map tiles of the area
 rep("tl.push(`https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer/tile/${z}/${y}/${x}`); } }",
-    "tl.push(ogURL.s(z,x,y)); } }\n  if(typeof OGT==='object'&&OGT.ix) for(const id in OGT.ix){ const M=OGT.ix[id]; for(let z=M.z[0];z<=M.z[1];z++){ const b=ogTileList(z,0,lon0,lon1,la0,la1); if(b.length>600) continue; for(const [x,y] of b) if(OGT.has(id,z,x,y)) U.add(`ot/${id}/${z}/${x}_${y}.webp`); } }")
+    "tl.push(ogURL.s(z,x,y)); } }\n  if(typeof OGT==='object'&&OGT.ix) for(const id in OGT.ix){ const M=OGT.ix[id]; for(let z=M.z[0];z<=M.z[1];z++){ const b=ogTileList(z,0,lon0,lon1,la0,la1); if(b.length>600) continue; for(const [x,y] of b) if(OGT.has(id,z,x,y)) U.add(OGT.u(id,z,x,y)); } }")
 # 10. touches never hit-test the base map's huge outline paths (pins are hit on the canvas); only the belt and glacial areas stay tappable
 rep("svg.addEventListener('pointerdown',()=>{ if(HR.rec) HR.follow=false; });","m3d.addEventListener('pointerdown',()=>{ if(HR.rec) HR.follow=false; });")
 rep("svg.addEventListener('pointerdown',()=>{ if(!gmS.hidden) gmSheet(false); },{passive:true});","m3d.addEventListener('pointerdown',()=>{ if(!gmS.hidden) gmSheet(false); },{passive:true});")
