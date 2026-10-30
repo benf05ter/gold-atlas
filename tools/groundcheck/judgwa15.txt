@@ -1,0 +1,130 @@
+wa000|0|N|open ground at the edge of woods
+wa000|1|N|open ground; farm buildings about 165 m south-west
+wa000|2|N|on the lake shore; no dam drawn
+wa000|3|F|marsh in woods
+wa000|4|S 200 E|M 200 0|School label beside the symbol
+wa000|5|N|by the road
+wa000|6|F|woods
+wa000|7|N|the pin sits in the lake; the school stood on a shore nearby
+wa000|8|N|by the road in cutover
+wa000|9|N|open ground at the edge of Sarona
+wa000|10|F|woods by a trail
+wa000|11|F|woods near a marsh
+wa001|0|S 180 W|M -180 16|School label beside the symbol
+wa001|1|N|open ground by the lake
+wa001|2|S|Little School label at the pin
+wa001|3|F|woods
+wa001|4|B 15 W|farm buildings at the pin
+wa001|5|S 170 W|M -170 36|School label beside the symbol
+wa001|6|K|cemetery outline at the pin
+wa001|7|S|West Sarona School label at the pin
+wa001|8|B 260 ESE|M 220 -140|the pin sits on the water; moved onto the island with its ring of cabins
+wa001|9|B 35 SW|a Hall label just south-west
+wa001|10|N|at the lake shore; no hall drawn
+wa001|11|B 20 E|a Hall label at the pin
+wa002|0|N|open ground by a pond; a building about 165 m south-east
+wa002|1|F|woods and marsh
+wa002|2|F|woods among small lakes
+wa002|3|N|open ground; no cemetery drawn
+wa002|4|S 265 W|M -260 -54|School label beside the symbol
+wa002|5|F|at a trail junction in woods
+wa002|6|B 145 SE
+wa002|7|N|beside the highway
+wa002|8|B 180 E|a Town Hall label beside the pin
+wa002|9|K|cemetery outline at the pin
+wa002|10|N|on a trail by the lake shore
+wa002|11|K|Anah Cemetery label at the pin
+wa003|0|K|cemetery outline at the pin
+wa003|1|N|open ground by the lake
+wa003|2|N|on a road in marsh country
+wa003|3|S 270 SW|M -220 -154|School label beside the symbol
+wa003|4|S|Anah School label beside the pin
+wa003|5|N|woods and clearings
+wa003|6|N|on a river bend
+wa003|7|F|woods
+wa003|8|N|by the road beside a pond
+wa003|9|N|at a trail junction
+wa003|10|N|on the lake shore; a row of cabins about 200 m south-east
+wa003|11|S 210 WSW|M -200 -56|School label beside the symbol
+wa004|0|S|Beaver School label beside the pin
+wa004|1|B 85 W|by a road junction; no cemetery drawn
+wa004|2|F|in marsh along the river; no dam drawn
+wa004|3|N|the pin sits in the lake; cabins on the shore about 180 m east
+wa004|4|B 130 WNW|beside the railroad
+wa004|5|F|woods
+wa004|6|N|the pin sits in the lake
+wa004|7|N|open ground
+wa004|8|B 125 NNW|a Dunn label beside the building
+wa004|9|N|on the railroad at a trail crossing; no siding building drawn
+wa004|10|N|by a road in woods; no cemetery drawn
+wa004|11|B 140 SSE|a clearing by the lake road
+wa005|0|B 130 NNE|woods by the road
+wa005|1|C 200 S|M -30 -196|Long Lake Church label beside the church cross
+wa005|2|N|open ground under a Long Lake label; no cemetery drawn
+wa005|3|F|by a road in woods
+wa005|4|B 15 E|buildings all around the pin
+wa005|5|N|at a highway corner; no cemetery drawn
+wa005|6|B 155 E|an Evergreen Church label at the pin; no cemetery drawn
+wa005|7|F|creek in woods near a lake
+wa005|8|N|open ground by the lake road
+wa005|9|S|Hillside label at the pin
+wa005|10|K 90 NE|M 70 54|cemetery outline beside the Lampson Cem label
+wa005|11|B 95 E|by the county road
+wa006|0|B 65 WSW|cabins along the lake shore road
+wa006|1|F|woods by the road
+wa006|2|B 120 N|by the highway
+wa006|3|B 110 S|by a creek at the edge of Stanberry
+wa006|4|B 115 NW|by the road below the Brickyard School label; no cemetery drawn
+wa006|5|S 160 ESE|M 140 -74|School label beside the symbol
+wa006|6|N|open ground
+wa006|7|N|open ground; Earl about 270 m south
+wa006|8|F|marsh in woods
+wa006|9|N|open ground
+wa006|10|N|open ground among ponds
+wa006|11|S 185 W|M -180 44|School label beside the symbol
+wa007|0|F|woods by the lake
+wa007|1|F|woods in a clearing
+wa007|2|N|on a river bend
+wa007|3|N|by the river
+wa007|4|F|marsh in woods
+wa007|5|K|cemetery outline at the pin
+wa007|6|N|open ground by the highway
+wa007|7|N|by a county road
+wa007|8|B 160 WNW|under the Experimental Farm label
+wa007|9|F|woods; a Tadpole label about 250 m south-west
+wa007|10|B 190 E|by the Earl label; no cemetery drawn; a church cross about 190 m south-west
+wa007|11|S|Pine Grove label at the pin
+wa008|0|N|open ground by a creek
+wa008|1|S 135 W|M -130 -28|School label beside the symbol
+wa008|2|N|the pin sits in the lake; no cemetery drawn
+wa008|3|F|woods
+wa008|4|N|open ground
+wa008|5|N|open ground by the road among ponds
+wa008|6|F|woods
+wa008|7|N|under the Stinnett School label; buildings about 200 m west by the railroad
+wa008|8|S 300 SW|M -200 -210|School label beside the symbol
+wa008|9|S 210 SSE|M 130 -166|School label beside the symbol
+wa008|10|N|at the edge of Birchwood
+wa008|11|N|woods and clearings
+wa009|0|N|by the road under the Lampson label
+wa009|1|N|edge of woods
+wa009|2|F|woods near a pond
+wa009|3|N|open ground by marsh, below the Tadpole School label
+wa009|4|B 75 S|on the lake shore
+wa009|5|N|at a road bend
+wa009|6|F|woods
+wa009|7|N|by the road at a creek
+wa009|8|F|woods
+wa009|9|F|woods
+wa009|10|N|open ground
+wa009|11|B 85 NE|by the road
+wa010|0|B 55 NE|by the road
+wa010|1|B 65 NNW|by the road
+wa010|2|S 165 NW|M -144 82|School label beside the symbol
+wa010|3|F|woods by the road
+wa010|4|N|open ground
+wa010|5|F|woods along a creek
+wa010|6|F|woods along a creek
+wa010|7|B 145 N|by a pond at a road junction
+wa010|8|B 80 SW|by the highway
+wa010|9|N|open ground
