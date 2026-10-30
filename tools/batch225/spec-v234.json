@@ -1,0 +1,33 @@
+{
+ "new": [
+  {
+   "id": "cd-springer-hotel-menominee",
+   "L": "history",
+   "n": "Charles B. Springer Hotel, bay shore north of Menominee (1912 atlas)",
+   "la": 45.1815,
+   "lo": -87.5645,
+   "y": "1911-12",
+   "pl": "bay shore of sec. 7 T32N R26W, Menominee County",
+   "co": "Menominee",
+   "stt": "MI",
+   "v": "Coins, jewelry, resort-era bottles and tokens",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "The 1912 Standard Atlas of Menominee County shows the Charles B. Springer Hotel, \"located four miles from Menominee on the Bay Shore\", under construction in 1911-12. Its advertising page says it opened among evergreens with a 40-acre lakeside. The atlas's patron directory lists Chas. B. Springer, farmer and lumber manufacturer, at sec. 7 T32N R26W, so the pin sits on that section's Green Bay shore. Where the hotel stood within the shore lots is not yet known.",
+   "t": "Look for the hotel foundation, the drive and the beach front along the shore lots, with resort-era bottles and coins. Ask the landowner first.",
+   "src": [
+    [
+     "Standard Atlas of Menominee County, Michigan (Geo. A. Ogle and Co., Chicago, 1912): hotel photo page, advertising section and patron directory",
+     "https://archive.org/details/3927899.0001.001.umich.edu"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Green Bay shore of sec. 7 T32N R26W from the patron directory; the hotel can be anywhere along about 1 km of shore",
+    "Unconfirmed, one source"
+   ]
+  }
+ ],
+ "edit": {}
+}
