@@ -1,0 +1,63 @@
+{
+ "new": [
+  {
+   "id": "bec-jefferson-bend-1908",
+   "L": "history",
+   "n": "Jefferson Bend: Minnesota River loop cut off in 1908",
+   "la": 44.1863,
+   "lo": -94.0178,
+   "y": "to June 1908",
+   "pl": "Hiniker Pond and the old loop, north side of Mankato",
+   "co": "Blue Earth",
+   "stt": "MN",
+   "v": "Old river channel and bank",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "The Minnesota used to swing west in a big ear-shaped loop on Mankato's north side, called the Jefferson Bend after landowner Adam Jefferson. Three days of June thunderstorms in 1908 sent a flood that cut straight across. A 1910 map marks \"Cutoff 1908\", and water ran in both channels for a while. The cut-off land, from Hiniker Pond to the old Happy Chef, is still in Mankato on the \"wrong\" side of the river. This is the one documented case near Mankato of the river changing course after settlement.",
+   "t": "LOOK ONLY at Hiniker Pond (city park). Most of the old loop is now built over. Any farm or field edges along the old bank on the Nicollet County side are the places to ask about.",
+   "acc": [
+    "stop",
+    "City park: look only"
+   ],
+   "src": [
+    [
+     "Mankato Free Press, \"Ask Us\" (2020), citing MSU geographer Cindy Miller, the 1910 and 1914 county atlases and historian Robert Sandeen",
+     ""
+    ],
+    [
+     "Blue Earth Co. 2022 parcels; USGS Mankato West 1974 topo (city line along the old channel)",
+     ""
+    ]
+   ],
+   "pinconf": "B",
+   "pinev": [
+    "Hiniker Pond sits in the old loop; county and city lines still follow the abandoned channel (2022 parcels, 1974 topo). Good to about 300 m"
+   ]
+  }
+ ],
+ "edit": {
+  "vs-1843090": {
+   "st": " Warner's Landing was a polling place in the 1851 Bad Ax county-seat vote (Vernon County Censor, 28 May 1902, p. 1). On 12 March 1868 a three-ton rock fell about 400 ft from the bluff above the landing and went through Mr. Brundage's house, injuring four people, with the steamer Northern Belle lying nearby (La Crosse Republican, reprinted in the Vernon County Censor, 25 Mar 1868, p. 2). So the house stood at the foot of the bluff by the landing, about 12 miles below La Crosse.",
+   "src": [
+    [
+     "Vernon County Censor, 25 Mar 1868, p. 2 (from the La Crosse Republican; newspapers.com image 602766208)",
+     ""
+    ],
+    [
+     "Vernon County Censor, 28 May 1902, p. 1",
+     ""
+    ]
+   ]
+  },
+  "bec-indian-lake-old-valley": {
+   "st": " An MSU undergraduate study (2006, \"The Le Sueur River Capture\") confirms that the Le Sueur once flowed north through Indian Creek, Rasmussen Woods and the Mankato West High School site, until the Blue Earth captured it \"thousands of years ago\".",
+   "src": [
+    [
+     "Minnesota State Univ. Mankato undergraduate research, 2006, \"The Le Sueur River Capture\"",
+     "https://cornerstone.lib.mnsu.edu/urs/2006/poster-session-A/3"
+    ]
+   ]
+  }
+ }
+}
