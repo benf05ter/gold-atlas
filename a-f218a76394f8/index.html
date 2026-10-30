@@ -1940,7 +1940,9 @@ function pcBub(cl,s){ const c=PCV.c||pcx, n=cl.m.length, [X,Y]=P(cl.p.lo,cl.p.la
   c.globalAlpha=0.18; c.beginPath(); c.arc(x,y,r*1.15,0,6.2832); c.fillStyle=acc; c.fill();
   c.globalAlpha=0.82; c.beginPath(); c.arc(x,y,r,0,6.2832); c.fill(); c.globalAlpha=1; c.lineWidth=1.5; c.strokeStyle=panel; c.stroke();
   pcText(n>999?Math.round(n/100)/10+'k':String(n),x,y+r*0.34,r*(n>99?0.82:1),panel);
-  if(best<=2){ const bx=x+r*0.8, by=y-r*0.8, br=Math.max(r*0.45,5); c.beginPath(); c.arc(bx,by,br,0,6.2832); c.fillStyle=cv('var(--L-ghost)'); c.fill(); c.lineWidth=1.4; c.strokeStyle=panel; c.stroke(); pcText(String(best),bx,by+br*0.4,br*1.15,panel); } }
+  const bt=typeof TIER==='object'&&TIER.col?Math.min(...cl.m.map(p=>TIER.IDX[TIER.t(p)])):9;
+  if(bt<=3){ const t=TIER.T[bt], bx=x+r*0.8, by=y-r*0.8, br=Math.max(r*0.45,5); c.beginPath(); c.arc(bx,by,br,0,6.2832); c.fillStyle=TIER.C[t]; c.fill(); c.lineWidth=1.4; c.strokeStyle='#1a1a1a'; c.stroke(); pcText(t,bx,by+br*0.4,br*1.15,'#1a1a1a'); }
+  else if(bt===9&&best<=2){ const bx=x+r*0.8, by=y-r*0.8, br=Math.max(r*0.45,5); c.beginPath(); c.arc(bx,by,br,0,6.2832); c.fillStyle=cv('var(--L-ghost)'); c.fill(); c.lineWidth=1.4; c.strokeStyle=panel; c.stroke(); pcText(String(best),bx,by+br*0.4,br*1.15,panel); } }
 function pcNames(){ const c=PCV.c||pcx, pr=p=>p.id===selId?-1:(()=>{ const r=RK(p); return typeof r==='number'&&r?r:r==='X'?7:6; })();
   const pts=PCV.dr.filter(([,x,y])=>x>-40&&x<PCV.vw+40&&y>-20&&y<PCV.vh+40), boxes=pts.map(([,x,y])=>[x-8,y-8,x+8,y+8]), hit=b=>boxes.some(q=>b[0]<q[2]&&b[2]>q[0]&&b[1]<q[3]&&b[3]>q[1]);
   c.font=`700 11.5px ${PCV.ff}`; PCV.lf=null; c.lineWidth=3; c.lineJoin='round'; c.strokeStyle=cv('var(--panel)'); c.fillStyle=cv('var(--ink)');
@@ -2105,9 +2107,9 @@ renderLayers();
 // list
 const q=document.getElementById('q'), dist=document.getElementById('dist'), stf=document.getElementById('stf');
 function renderList(){ if(BOOT.skip('renderList')) return; if(typeof SSORT==='object'&&SSORT.list&&SSORT.list()) return; const s=q.value.trim().toLowerCase(), dm=+dist.value;
-  const sv=stf.value; const v=PTS.filter(p=>(on.has(p.L)||savedOnly||ugOnly) && (!savedOnly||saved.has(p.id)) && (!ugOnly||(p.ug&&'AB'.includes(p.ug[0])&&!(typeof WKS==='function'&&WKS(p.id)==='worked'))) && p.mi<=dm && (!sv||p.stt===sv) && (!s || [p.n,p.pl,p.co,p.y,p.st].join(' ').toLowerCase().includes(s))).sort((a,b)=>ugOnly?(UGR(a)-UGR(b)||a.mi-b.mi):a.mi-b.mi);
+  const sv=stf.value; const v=PTS.filter(p=>(on.has(p.L)||savedOnly||ugOnly) && (!savedOnly||saved.has(p.id)) && (!ugOnly||(p.ug&&'AB'.includes(p.ug[0])&&!(typeof WKS==='function'&&WKS(p.id)==='worked'))) && p.mi<=dm && (!sv||p.stt===sv) && (typeof TIER!=='object'||TIER.ok(p)) && (!s || [p.n,p.pl,p.co,p.y,p.st].join(' ').toLowerCase().includes(s))).sort((a,b)=>ugOnly?(UGR(a)-UGR(b)||a.mi-b.mi):a.mi-b.mi);
   document.getElementById('count').textContent=ugOnly?`${v.length} spots with old ground left, best first`:`${v.length} spots, nearest first`;
-  document.getElementById('list').innerHTML = v.length? v.map(p=>`<button class="item${p.id===selId?' sel':''}" data-id="${p.id}"><span style="margin-top:2px">${ico(p.L,18)}</span><span><span class="t">${saved.has(p.id)?'★ ':''}${RK(p)?'['+RK(p)+'] ':''}${esc(p.n)}${FINDS.some(f=>f.spot===p.id)?' <span class="hint">· visited</span>':''}</span><br><span class="m">${esc(LBY[p.L].n)} &middot; ${p.stt}${p.co?' &middot; '+esc(p.co)+(p.co.includes('(')?'':' Co.'):''}</span></span><span class="d">${p.mi<10?p.mi.toFixed(1):Math.round(p.mi)} mi</span></button>`).join('') : '<p class="empty">No spots match. Turn on more layers or widen the distance.</p>';
+  document.getElementById('list').innerHTML = v.length? v.map(p=>`<button class="item${p.id===selId?' sel':''}" data-id="${p.id}"><span style="margin-top:2px">${ico(p.L,18)}</span><span><span class="t">${saved.has(p.id)?'★ ':''}${typeof TIER==='object'?TIER.chip(p):RK(p)?'['+RK(p)+'] ':''}${esc(p.n)}${FINDS.some(f=>f.spot===p.id)?' <span class="hint">· visited</span>':''}</span><br><span class="m">${esc(LBY[p.L].n)} &middot; ${p.stt}${p.co?' &middot; '+esc(p.co)+(p.co.includes('(')?'':' Co.'):''}</span></span><span class="d">${p.mi<10?p.mi.toFixed(1):Math.round(p.mi)} mi</span></button>`).join('') : '<p class="empty">No spots match. Turn on more layers or widen the distance.</p>';
   document.querySelectorAll('#list .item').forEach(b=>b.onclick=()=>select(b.dataset.id,true));
 }
 document.getElementById('savedOnly').onclick=e=>{ savedOnly=!savedOnly; e.target.setAttribute('aria-pressed',savedOnly); renderList(); };
@@ -3374,13 +3376,15 @@ function ogGlyph(c,g,x,y,r,col){ c.save(); c.translate(x-r*0.62,y-r*0.62); const
 pcPin=function(p,s){ const c=PCV.c||pcx, [X,Y]=P(p.lo,p.la), [x,y]=pcXY(X,Y,s); if(x<-40||y<-40||x>PCV.vw+40||y>PCV.vh+40) return;
   const fa=typeof ogFade==='function'?ogFade(p):1, sel=p.id===selId, big=s>=110, r=(big?9:7)*PCV.dk*(sel?1.4:1), panel=cv('var(--panel)'), rk=RK(p), w=WKS(p.id), pm=OG.P[p.id];
   const base=p.L==='lake'?cv(LAKEC[p.acc?.[0]]||'var(--ogn)'):cv(ogCol(p.L)), faded=(p.c==='legend'||p.c==='rumor'), hollow=(p.s==='found'||p.s==='false');
-  const ranked=typeof rk==='number'&&rk>=1&&rk<=5, fill=hollow?panel:ranked?cv(`var(--rk${rk})`):rk==='X'?cv('var(--L-restricted)'):base;
+  const ranked=typeof rk==='number'&&rk>=1&&rk<=5, tr=typeof TIER==='object'&&TIER.col&&p.L!=='mine'?TIER.t(p):'', ink='#1a1a1a', fill=hollow?panel:tr?TIER.C[tr]:ranked?cv(`var(--rk${rk})`):rk==='X'?cv('var(--L-restricted)'):base;
   c.globalAlpha=fa*(w==='worked'?0.38:1)*(faded&&!hollow?0.6:1);
   c.beginPath(); c.arc(x,y+0.6,r+0.6,0,6.2832); c.fillStyle='rgba(0,0,0,.18)'; c.fill(); // soft shadow
-  c.beginPath(); c.arc(x,y,r,0,6.2832); c.fillStyle=fill; c.fill(); c.lineWidth=sel?2.6:hollow?2:1.5; c.strokeStyle=sel?cv('var(--ink)'):hollow?base:panel; c.stroke();
-  if(ranked&&!big) pcText(String(rk),x,y+r*0.42,r*1.2,panel);
-  else ogGlyph(c,rk==='X'?'ban':ogGly(p.L),x,y,r,hollow?base:'#fff');
-  if(ranked&&big){ const bx=x+r*0.78, by=y-r*0.78, br=r*0.5; c.beginPath(); c.arc(bx,by,br,0,6.2832); c.fillStyle=cv('var(--ink)'); c.fill(); c.lineWidth=1.2; c.strokeStyle=panel; c.stroke(); pcText(String(rk),bx,by+br*0.42,br*1.25,panel); }
+  c.beginPath(); c.arc(x,y,r,0,6.2832); c.fillStyle=fill; c.fill(); c.lineWidth=sel?2.6:hollow?2:1.5; c.strokeStyle=sel?cv('var(--ink)'):hollow?(tr?TIER.C[tr]:base):tr?'rgba(0,0,0,.5)':panel; c.stroke();
+  if(tr&&!big) pcText(tr,x,y+r*0.42,r*1.2,ink);
+  else if(ranked&&!big&&!tr) pcText(String(rk),x,y+r*0.42,r*1.2,panel);
+  else ogGlyph(c,rk==='X'?'ban':ogGly(p.L),x,y,r,tr?ink:hollow?base:'#fff');
+  if(tr&&big){ const bx=x+r*0.78, by=y-r*0.78, br=r*0.55; c.beginPath(); c.arc(bx,by,br,0,6.2832); c.fillStyle=TIER.C[tr]; c.fill(); c.lineWidth=1.2; c.strokeStyle=ink; c.stroke(); pcText(tr,bx,by+br*0.42,br*1.25,ink); }
+  else if(ranked&&big){ const bx=x+r*0.78, by=y-r*0.78, br=r*0.5; c.beginPath(); c.arc(bx,by,br,0,6.2832); c.fillStyle=cv('var(--ink)'); c.fill(); c.lineWidth=1.2; c.strokeStyle=panel; c.stroke(); pcText(String(rk),bx,by+br*0.42,br*1.25,panel); }
   if(pm&&(pm.st==='yes'||pm.st==='den')){ const bx=x+r*0.8, by=y+r*0.8, br=Math.max(4,r*0.42); c.beginPath(); c.arc(bx,by,br,0,6.2832); c.fillStyle=pm.st==='yes'?'#1e8449':'#b03a2e'; c.fill(); c.lineWidth=1.2; c.strokeStyle=panel; c.stroke();
     c.beginPath(); if(pm.st==='yes'){ c.moveTo(bx-br*.45,by); c.lineTo(bx-br*.1,by+br*.38); c.lineTo(bx+br*.5,by-br*.35); } else { c.moveTo(bx-br*.45,by); c.lineTo(bx+br*.45,by); } c.lineWidth=1.6; c.lineCap='round'; c.strokeStyle='#fff'; c.stroke(); }
   if(w==='worked'){ const q=r; c.beginPath(); c.moveTo(x-q*.5,y+q*1.05); c.lineTo(x-q*.15,y+q*1.4); c.lineTo(x+q*.55,y+q*.7); c.lineWidth=1.8; c.lineCap='round'; c.strokeStyle=cv('var(--ink)'); c.stroke(); }
@@ -3403,7 +3407,7 @@ function ogCard(p){ const d=document.querySelector('#detail .detail'); if(!d||d.
     im.onerror=()=>hero.remove(); hero.appendChild(im); hero.insertAdjacentHTML('beforeend','<span class="ogx" aria-hidden="true"></span><span class="ogcap">Aerial view (USGS), pin at the center</span>'); }
   else return;
   d.insertBefore(hero,h2);
-  const rk=RK(p); if(rk) h2.insertAdjacentHTML('afterbegin',`<span class="ogrk" style="background:${rk==='X'?'var(--L-restricted)':`var(--rk${rk})`}" title="${esc(RKL[rk]||'')}">${RKP[rk]||''}</span>`);
+  const rk=RK(p); if(rk) h2.insertAdjacentHTML('afterbegin',`<span class="ogrk" style="background:${rk==='X'?'var(--L-restricted)':`var(--rk${rk})`}" title="${esc(RKL[rk]||'')}">${RKP[rk]||''}</span>`); if(typeof TIER==='object') h2.insertAdjacentHTML('afterbegin',TIER.badge(p));
   const dir=d.querySelector('a[href*="/maps/dir/"]'), pm=OG.P[p.id], tags=d.querySelector('.tags');
   const q=document.createElement('div'); q.className='ogq';
   q.innerHTML=`<a class="ogqb" href="${dir?dir.href:`https://www.google.com/maps/dir/?api=1&destination=${p.la},${p.lo}`}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 2.5L21.5 12L12 21.5L2.5 12Z M9 14.5V11.5H14.5M12.5 9.5L14.5 11.5L12.5 13.5"/></svg>Directions</a>`+
@@ -5559,11 +5563,11 @@ const SSORT=(()=>{
     for(const p of SSORT.run(SSORT.k)) on.add(p.L); SSORT.ids=new Set(SSORT.run(SSORT.k).map(p=>p.id)); renderList(); if(bar){ bar.hidden=false; bar.querySelector('span').textContent=SSORT.SORTS[SSORT.k].n+' · '+SSORT.ids.size+' spots'; } drawMarkers(); try{ const t=document.querySelector('#shTabs button[data-t="map"]'); if(t&&document.body.classList.contains('shell')) t.click(); else showView('map'); }catch(_){} };
   const _uxS=UXdraw; UXdraw=function(vis,s){ if(SSORT.map&&SSORT.ids) vis=vis.filter(p=>p.L==='mine'||p.id===selId||SSORT.ids.has(p.id)); return _uxS(vis,s); };
   SSORT.list=function(){ if(!SSORT.k) return false; const s=q.value.trim().toLowerCase(), dm=+dist.value, sv=stf.value, k=SSORT.k;
-    const v=SSORT.run(k).filter(p=>p.mi<=dm&&(!sv||p.stt===sv)&&(!savedOnly||saved.has(p.id))&&(!s||[p.n,p.pl,p.co,p.y,p.st].join(' ').toLowerCase().includes(s)));
+    const v=SSORT.run(k).filter(p=>p.mi<=dm&&(typeof TIER!=='object'||TIER.ok(p))&&(!sv||p.stt===sv)&&(!savedOnly||saved.has(p.id))&&(!s||[p.n,p.pl,p.co,p.y,p.st].join(' ').toLowerCase().includes(s)));
     if(SSORT.map){ SSORT.ids=new Set(v.map(p=>p.id)); const bs=document.querySelector('#ssBar span'); if(bs) bs.textContent=SSORT.SORTS[k].n+' · '+v.length+' spots'; }
     document.getElementById('count').textContent=`${v.length} spots, ${SSORT.SORTS[k].n.toLowerCase()}`;
     const show=v.slice(0,300);
-    document.getElementById('list').innerHTML=v.length? show.map((p,i)=>`<button class="item${p.id===selId?' sel':''}" data-id="${p.id}"><span style="margin-top:2px">${ico(p.L,18)}</span><span><span class="t">${i+1}. ${saved.has(p.id)?'★ ':''}${RK(p)?'['+RK(p)+'] ':''}${esc(p.n)}${WKS(p.id)==='worked'?' <span class="hint">· worked</span>':''}</span><br><span class="m">${esc(p._ss[k][1])}</span><br><span class="m">${esc(LBY[p.L].n)} &middot; ${p.stt}${p.co?' &middot; '+esc(p.co)+(p.co.includes('(')?'':' Co.'):''}</span></span><span class="d">${p.mi<10?p.mi.toFixed(1):Math.round(p.mi)} mi</span></button>`).join('')+(v.length>show.length?`<p class="note">Showing the top ${show.length}. Narrow the distance or search to see the rest.</p>`:'') : '<p class="empty">No spots match. Widen the distance or clear the search.</p>';
+    document.getElementById('list').innerHTML=v.length? show.map((p,i)=>`<button class="item${p.id===selId?' sel':''}" data-id="${p.id}"><span style="margin-top:2px">${ico(p.L,18)}</span><span><span class="t">${i+1}. ${saved.has(p.id)?'★ ':''}${typeof TIER==='object'?TIER.chip(p):RK(p)?'['+RK(p)+'] ':''}${esc(p.n)}${WKS(p.id)==='worked'?' <span class="hint">· worked</span>':''}</span><br><span class="m">${esc(p._ss[k][1])}</span><br><span class="m">${esc(LBY[p.L].n)} &middot; ${p.stt}${p.co?' &middot; '+esc(p.co)+(p.co.includes('(')?'':' Co.'):''}</span></span><span class="d">${p.mi<10?p.mi.toFixed(1):Math.round(p.mi)} mi</span></button>`).join('')+(v.length>show.length?`<p class="note">Showing the top ${show.length}. Narrow the distance or search to see the rest.</p>`:'') : '<p class="empty">No spots match. Widen the distance or clear the search.</p>';
     document.querySelectorAll('#list .item').forEach(b=>b.onclick=()=>select(b.dataset.id,true));
     if(SSORT.map) drawMarkers(); return true; };
   // the card: which smart sorts this spot does well in
@@ -5571,6 +5575,147 @@ const SSORT=(()=>{
       if(ls.length) h+=`<details class="sscard"><summary>Smart sorts (${ls.length})</summary><ul class="ev">${ls.join('')}</ul></details>`; }catch(e){ OGE.err&&OGE.err('ssort card',e); } return h; };
   let k0=''; try{ k0=localStorage.getItem('og-ssort')||''; }catch(_){} if(k0) BOOT.later.add(function ssRestore(){ setSort(k0); });
   if(sel&&!document.getElementById('ssCss')) document.head.insertAdjacentHTML('beforeend','<style id="ssCss">.ssrow select{font-weight:600}.sscard{margin-top:6px;font-size:13.5px}.sscard summary{cursor:pointer;font-weight:700}#list .item .m+br+.m{opacity:.85}.ssbar{position:absolute;left:50%;transform:translateX(-50%);top:calc(104px + env(safe-area-inset-top,0px));z-index:6;display:flex;align-items:center;gap:6px;max-width:calc(100% - 120px);padding:4px 4px 4px 12px;border-radius:999px;background:var(--ink);color:var(--panel);font:700 13px var(--f-body);box-shadow:0 2px 8px color-mix(in srgb,var(--ink) 25%,transparent)}.ssbar[hidden]{display:none}.ssbar span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.ssbar button{flex:none;width:28px;height:28px;border-radius:50%;border:0;background:var(--panel);color:var(--ink);font:700 13px var(--f-body);cursor:pointer}</style>');
+}
+</script>
+<script>
+// ---------- Tiers (v197): every spot gets one tier, S (best) to F, worked out from the best-spot score, the ground grade, layers stacked and lost-loot placing ----------
+// Detecting spots: the best-spot score (RKX) plus a bonus for eras of use stacked on the same ground and for never-found loot placed close,
+// then held under the ground-grade cap (the same cap the rank uses: grade B can't pass A, no grade can't pass B, a town-level pin can't pass B).
+// Gold, geology and reference layers use what they carry: prospect tier and rank, trap rank, evidence and pin precision, access.
+// Look only (burial, archaeological, state park, protected wreck) and spots you marked worked out are F.
+const TIER=(()=>{
+  const T=['S','A','B','C','D','E','F'];
+  const NAME={S:'S tier: the best there is',A:'A tier: excellent',B:'B tier: good',C:'C tier: worth a look',D:'D tier: long shot',E:'E tier: slim chance',F:'F tier: look only or little left'};
+  const CUT=[[90,'S'],[76,'A'],[64,'B'],[52,'C'],[40,'D'],[0,'E']];
+  const CAPT={1:'S',2:'A',3:'B',4:'C',5:'D'};
+  const lower=(a,b)=>T[Math.max(T.indexOf(a),T.indexOf(b))];
+  const at=s=>{ for(const [v,t] of CUT) if(s>=v) return t; return 'F'; };
+  const PIN={exact:3,nrhp:3,mylist:3,gnis:3,google:3,topo:3,naip:3,plss:2,approx:2,area:1,island:1,town:1,mrds:2,county:0,unknown:0};
+  const EV={documented:3,newspaper:2,report:1,lead:1,legend:0,rumor:0,model:0};
+  function geo(p){ // [tier, why] for layers the best-spot score skips
+    const L=p.L, ev=EV[p.c]??1, pin=PIN[p.p]??1, st=p.acc&&p.acc[0];
+    if(L==='restricted') return ['F','Closed or restricted land'];
+    if(L==='prehist') return ['F','Look only: archaeological site'];
+    if(L==='wreck') return ['F','Look only: protected shipwreck'];
+    if(L==='landmark') return ['E','Historic marker or building: read the story, hunt only with permission nearby'];
+    if(st==='stop') return ['F','Closed to digging or panning'];
+    let t, w;
+    if(L==='target'){ t=p.tier==='A'?(p.rank<=3?'S':'A'):p.tier==='B'?'B':'C'; w='Gold prospect target, tier '+p.tier+', rank '+p.rank; }
+    else if(L==='trap'){ t=p.srank<=3?'A':p.srank<=8?'B':p.srank<=14?'C':'D'; w='Gold trap, stream rank '+p.srank; }
+    else if(L==='panning'){ t=ev>=3?(pin>=3?'A':'B'):ev===2?'C':'D'; w='Panning spot: '+({3:'documented gold',2:'newspaper report'}[ev]||'rumor only')+(pin>=3?', exact place':''); }
+    else if(L==='report'){ t=ev>=3?'B':ev===2?'C':'D'; w='Gold report: '+(p.c||'unknown source'); }
+    else if(L==='model'){ t=p.rank<=5?'C':'D'; w='Computer model pick, rank '+p.rank; }
+    else if(L==='deposit'||L==='cmine'||L==='copper'||L==='superior'||L==='rock'){ t=ev>=3?(pin>=3?'B':'C'):'C'; w=ev>=3?'Documented mineral site':'Mineral site'; }
+    else if(L==='lake'){ t=st==='ok'?'B':'C'; w=st==='ok'?'Lake open for panning':'Lake: check rules first'; }
+    else if(L==='public'){ t=st==='ok'?'C':'D'; w=st==='ok'?'Public land open to detecting':'Public land: ask first'; }
+    else if(L==='drill'||L==='pit'||L==='glacial'){ t='D'; w=L==='drill'?'Drill core hole: reference point':L==='pit'?'Gravel pit: concentrates, ask first':'Glacial feature: reference'; }
+    else { t='E'; w='Reference point'; }
+    if(st==='warn'&&t<'C'&&t!=='S') t=T[T.indexOf(t)+1];
+    if(p.s==='false') t=lower(t,'E'); else if(p.s==='found') t=lower(t,'D');
+    return [t,w]; }
+  function calc(p){
+    if(typeof WKS==='function'&&WKS(p.id)==='worked') return {t:'F',sc:0,w:'You marked it worked out'};
+    const c=RKX(p); if(c.skip){ const [t,w]=geo(p); return {t,sc:-1,w}; }
+    if(c.r==='X') return {t:'F',sc:0,w:c.w[0]?c.w[0][1]:'Look only'};
+    if(p.ug&&p.ug[0]==='D') return {t:'F',sc:c.sc,w:'Ground paved, built over or scoured'};
+    if(p.s==='false') return {t:'F',sc:c.sc,w:'The story proved false'};
+    let sc=c.sc, w=[];
+    try{ SSORT.run('layers'); const l=p._ss&&p._ss.layers; if(l){ const n=parseInt(l[1]); if(n>=2){ sc+=Math.min(n-1,3)*4; w.push(n+' eras of use stacked'); } } }catch(_){}
+    try{ SSORT.run('loot'); const l=p._ss&&p._ss.loot; if(l){ const pl=SSORT.placed(p); sc+=pl*4+(p.s==='never'?6:0); w.push('lost loot, placed to the '+['county','town','section','farm','exact spot'][pl]); } }catch(_){}
+    let t=at(sc);
+    if(c.r===1) t='S';
+    t=lower(t,CAPT[Math.min(Math.max(+c.cap||1,1),5)]);
+    if(p.s==='found') t=lower(t,'D');
+    if(t==='F') t='E'; // F is kept for look-only, worked-out, false and built-over ground
+    const top=c.w.find(x=>x[0]===1); if(top) w.unshift(top[1]);
+    return {t,sc,w:w.join('; ')||'Not much is known yet'}; }
+  function get(p){ const k=(typeof RKV!=='undefined'?RKV:0)+'|'+(p.ug?p.ug[0]:'-'); let c=p._tr; if(!c||c.k!==k){ try{ c=calc(p); }catch(e){ c={t:'E',sc:0,w:''}; OGE.err&&OGE.err('tier',e); } c.k=k; p._tr=c; } return c; }
+  return {T,NAME,get,t:p=>get(p).t}; })();
+
+// Tier colors from the common tier chart, letters on pins, Sort by tier, tier filter and layer sorting in the layers sheet
+{ const C={S:'#ff7f7f',A:'#ffbf7f',B:'#ffdf7f',C:'#ffff7f',D:'#bfff7f',E:'#7fff7f',F:'#7fffff'}, IDX={S:0,A:1,B:2,C:3,D:4,E:5,F:6};
+  const ls=(k,v)=>{ try{ if(v===undefined) return localStorage.getItem(k); localStorage.setItem(k,v); }catch(_){ return null; } };
+  TIER.C=C; TIER.IDX=IDX;
+  TIER.F=new Set((ls('og-tierf')||TIER.T.join('')).split('').filter(t=>t in IDX));
+  TIER.col=ls('og-tiercol')!=='0'; TIER.lay=ls('og-tierlay')==='1';
+  TIER.ok=p=>TIER.F.size===7||TIER.F.has(TIER.t(p));
+  TIER.chip=p=>{ const c=TIER.get(p); return `<i class="tierb" style="background:${C[c.t]}" title="${esc(TIER.NAME[c.t]+(c.w?': '+c.w:''))}">${c.t}</i>`; };
+  TIER.badge=p=>{ const c=TIER.get(p); return `<span class="ogrk tierb tierh" style="background:${C[c.t]}" title="${esc(TIER.NAME[c.t]+(c.w?': '+c.w:''))}">${c.t} tier</span>`; };
+  document.head.insertAdjacentHTML('beforeend',`<style id="tierCss">
+.tierb{display:inline-grid;place-items:center;min-width:19px;height:19px;padding:0 3px;box-sizing:border-box;margin-right:6px;border-radius:4px;color:#1a1a1a!important;font:800 12px/1 var(--f-body);font-style:normal;vertical-align:1px;box-shadow:inset 0 0 0 1px rgba(0,0,0,.28)}
+.ogrk.tierh{padding:2px 8px;font-size:12px;border-radius:6px;vertical-align:3px}
+.tierwhy{border-left:6px solid;padding:7px 10px;border-radius:5px;background:var(--bg);font-size:14px}
+.tierwhy b{font-family:var(--f-display)}
+#list .tierhd{position:sticky;top:0;z-index:1;display:flex;align-items:center;gap:8px;padding:6px 14px;font:700 13px var(--f-body);color:#1a1a1a;border-bottom:1px solid var(--line)}
+#list .tierhd .tierb{width:26px;height:26px;font-size:15px;background:rgba(255,255,255,.55)}
+.tierf{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:5px}
+.tierf button{display:grid;justify-items:center;gap:1px;border:2px solid transparent;border-radius:8px;padding:5px 0 4px;color:#1a1a1a;font:800 16px/1.1 var(--f-body);cursor:pointer;box-shadow:inset 0 0 0 1px rgba(0,0,0,.2)}
+.tierf button small{font:600 10.5px var(--f-mono)}
+.tierf button[aria-pressed="false"]{opacity:.3;filter:grayscale(.6)}
+.tierf button[aria-pressed="true"]{border-color:rgba(0,0,0,.45)}
+.tiersw{display:flex;flex-wrap:wrap;gap:6px}
+.pllay .tbar{display:flex;width:44px;height:5px;border-radius:3px;overflow:hidden;margin-top:-2px;box-shadow:inset 0 0 0 1px rgba(0,0,0,.15)}
+.pllay .tbar b{display:block;height:100%}
+</style>`);
+
+  // Sort by tier: all spots on the layers you have on, S first, best score first inside a tier
+  const run0=SSORT.run; let rc=null;
+  SSORT.SORTS.tier={n:'Tier: S to F',d:'Every spot ranked S (best) to F (look only or little left). The tier comes from the best-spot score and ground grade, with extra credit for eras of use stacked on the same ground and lost loot placed close. Gold and geology spots use their prospect rank, evidence and access. Tap a tier letter on the map\'s Layers sheet to hide tiers.'};
+  SSORT.run=function(k){ if(k!=='tier') return run0(k);
+    const key=PTS.length+'|'+(typeof RKV!=='undefined'?RKV:'')+'|'+[...on].join()+'|'+[...TIER.F].join(''); if(rc&&rc.key===key) return rc.v;
+    const v=PTS.filter(p=>on.has(p.L)&&TIER.ok(p)).sort((a,b)=>IDX[TIER.t(a)]-IDX[TIER.t(b)]||TIER.get(b).sc-TIER.get(a).sc||a.mi-b.mi);
+    rc={key,v}; return v; };
+  const list0=SSORT.list; SSORT.list=function(){ if(SSORT.k!=='tier') return list0();
+    const s=q.value.trim().toLowerCase(), dm=+dist.value, sv=stf.value;
+    const v=SSORT.run('tier').filter(p=>p.mi<=dm&&(!sv||p.stt===sv)&&(!savedOnly||saved.has(p.id))&&(!s||[p.n,p.pl,p.co,p.y,p.st].join(' ').toLowerCase().includes(s)));
+    if(SSORT.map){ SSORT.ids=new Set(v.map(p=>p.id)); const bs=document.querySelector('#ssBar span'); if(bs) bs.textContent='Tiers · '+v.length+' spots'; }
+    const n={}; for(const p of v){ const t=TIER.t(p); n[t]=(n[t]||0)+1; }
+    document.getElementById('count').textContent=`${v.length} spots by tier: `+TIER.T.filter(t=>n[t]).map(t=>t+' '+n[t]).join(', ');
+    let h='', last=''; const per={};
+    for(const p of v){ const t=TIER.t(p); per[t]=(per[t]||0)+1; if(per[t]>120) continue;
+      if(t!==last){ last=t; h+=`<div class="tierhd" style="background:${C[t]}"><i class="tierb">${t}</i>${esc(TIER.NAME[t].replace(/^. tier: /,''))} · ${n[t]} spot${n[t]===1?'':'s'}${n[t]>120?' (top 120 shown; search or narrow the distance for more)':''}</div>`; }
+      const c=TIER.get(p);
+      h+=`<button class="item${p.id===selId?' sel':''}" data-id="${p.id}"><span style="margin-top:2px">${ico(p.L,18)}</span><span><span class="t">${TIER.chip(p)}${saved.has(p.id)?'★ ':''}${esc(p.n)}${WKS(p.id)==='worked'?' <span class="hint">· worked</span>':''}</span><br><span class="m">${esc(c.w||'')}</span><br><span class="m">${esc(LBY[p.L].n)} &middot; ${p.stt}${p.co?' &middot; '+esc(p.co)+(p.co.includes('(')?'':' Co.'):''}</span></span><span class="d">${p.mi<10?p.mi.toFixed(1):Math.round(p.mi)} mi</span></button>`; }
+    document.getElementById('list').innerHTML=h||'<p class="empty">No spots match. Turn on more layers or tiers, or widen the distance.</p>';
+    document.querySelectorAll('#list .item').forEach(b=>b.onclick=()=>select(b.dataset.id,true));
+    if(SSORT.map) drawMarkers(); return true; };
+  { const sel=document.getElementById('ssSort'); if(sel&&!sel.querySelector('option[value="tier"]')){ sel.options[0].insertAdjacentHTML('afterend','<option value="tier">Tier: S to F</option>');
+      let k0=''; try{ k0=localStorage.getItem('og-ssort')||''; }catch(_){} if(k0==='tier') sel.value='tier'; } }
+
+  // the card: a tier line above the best-spot reasons
+  const rkH0=rkHTML; rkHTML=function(p){ let h=rkH0(p); try{ const c=TIER.get(p); h=`<div class="tierwhy" style="border-color:${C[c.t]}"><i class="tierb" style="background:${C[c.t]}">${c.t}</i><b>${esc(TIER.NAME[c.t])}.</b> ${esc(c.w||'')}</div>`+h; }catch(e){ OGE.err&&OGE.err('tier card',e); } return h; };
+
+  // the map: hide tiers you turned off (your own spots and the open card always stay)
+  const ux0=UXdraw; UXdraw=function(vis,s){ if(TIER.F.size<7) vis=vis.filter(p=>p.L==='mine'||p.id===selId||TIER.ok(p)); return ux0(vis,s); };
+
+  // the layers sheet: tier buttons with counts, pin colours by tier, sort layers by tier
+  const lay=document.getElementById('plLay');
+  if(lay){ const at=lay.previousElementSibling&&lay.previousElementSibling.matches('b.gml')?lay.previousElementSibling:lay; at.insertAdjacentHTML('beforebegin','<b class="gml">Tiers</b><div class="tierf" id="tierF"></div><div class="tiersw"><button class="chip uxt" id="tierCol"></button><button class="chip uxt" id="tierLay"></button><button class="chip" id="tierAll">Show all tiers</button></div><p class="hint" id="tierHint" style="margin:0">S is best, F is look only or little left. Tap a letter to hide or show that tier on the map and in the Spots list.</p>');
+    const box=document.getElementById('tierF');
+    box.onclick=e=>{ const b=e.target.closest('button[data-t]'); if(!b) return; const t=b.dataset.t; TIER.F.has(t)?TIER.F.delete(t):TIER.F.add(t); save(); };
+    document.getElementById('tierAll').onclick=()=>{ TIER.T.forEach(t=>TIER.F.add(t)); save(); };
+    document.getElementById('tierCol').onclick=()=>{ TIER.col=!TIER.col; ls('og-tiercol',TIER.col?'1':'0'); plLaySync(); drawMarkers(); };
+    document.getElementById('tierLay').onclick=()=>{ TIER.lay=!TIER.lay; ls('og-tierlay',TIER.lay?'1':'0'); plLaySync(); };
+    function save(){ ls('og-tierf',TIER.T.filter(t=>TIER.F.has(t)).join('')); plLaySync(); drawMarkers(); try{ renderList(); }catch(_){} } }
+  let mix=null, mixN=-1;
+  function layMix(){ const k=PTS.length+'|'+(typeof RKV!=='undefined'?RKV:''); if(mix&&mixN===k) return mix; mix={}; mixN=k;
+    for(const p of PTS){ const m=mix[p.L]||(mix[p.L]={n:0,s:0}); const t=TIER.t(p); m[t]=(m[t]||0)+1; m.n++; m.s+=6-IDX[t]; } return mix; }
+  const pl0=plLaySync; plLaySync=function(){ pl0(); try{
+    const M=layMix(), box=document.getElementById('tierF');
+    if(box){ const n={}; for(const l in M) if(on.has(l)) for(const t of TIER.T) n[t]=(n[t]||0)+(M[l][t]||0);
+      box.innerHTML=TIER.T.map(t=>`<button data-t="${t}" aria-pressed="${TIER.F.has(t)}" style="background:${C[t]}" title="${esc(TIER.NAME[t])}">${t}<small>${n[t]>=1000?(n[t]/1000).toFixed(1)+'k':n[t]||0}</small></button>`).join('');
+      const a=document.getElementById('tierAll'); if(a) a.hidden=TIER.F.size===7;
+      const cb=document.getElementById('tierCol'); if(cb){ cb.setAttribute('aria-pressed',TIER.col); cb.textContent='Pin colors by tier'; }
+      const lb=document.getElementById('tierLay'); if(lb){ lb.setAttribute('aria-pressed',TIER.lay); lb.textContent='Sort layers by tier'; } }
+    const lay=document.getElementById('plLay'); if(!lay) return;
+    lay.querySelectorAll('button[data-l]').forEach(b=>{ const m=M[b.dataset.l]; if(!m||!m.n||b.querySelector('.tbar')) return;
+      b.querySelector('i')?.insertAdjacentHTML('afterend',`<span class="tbar" title="${TIER.T.filter(t=>m[t]).map(t=>t+' '+m[t]).join(' · ')}">${TIER.T.filter(t=>m[t]).map(t=>`<b style="width:${(100*m[t]/m.n).toFixed(1)}%;background:${C[t]}"></b>`).join('')}</span>`); });
+    if(TIER.lay){ const avg=b=>{ const m=M[b.dataset.l]; return m&&m.n?m.s/m.n:-1; }; let run=[];
+      const flush=at=>{ if(run.length>1){ run.sort((a,b)=>avg(b)-avg(a)); for(const b of run) lay.insertBefore(b,at); } run=[]; };
+      for(const el of [...lay.children]){ if(el.matches('button[data-l]')) run.push(el); else flush(el); } flush(null); }
+    const hn=lay.nextElementSibling; if(hn&&hn.classList.contains('hint')) hn.textContent=hn.textContent.replace(/Numbers on pins = rank, 1 is best\.|Letters on pins = tier, S is best\./,TIER.col?'Letters on pins = tier, S is best.':'Numbers on pins = rank, 1 is best.');
+  }catch(e){ OGE.err&&OGE.err('tier sheet',e); } };
+  plLaySync();
 }
 </script>
 </body></html>
