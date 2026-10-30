@@ -1,0 +1,44 @@
+{
+ "new": [
+  {
+   "id": "cd-bashaw-burned-1894",
+   "L": "ghost",
+   "n": "Bashaw, railroad hamlet burned out in the September 1894 fires",
+   "la": 45.7691,
+   "lo": -92.0632,
+   "y": "1880s-1894",
+   "pl": "Bashaw, Burnett County (by the Washburn line), on the Omaha railroad",
+   "co": "Burnett",
+   "stt": "WI",
+   "v": "Burned railroad hamlet",
+   "c": "newspaper",
+   "s": "never",
+   "p": "town",
+   "st": "Bashaw was an Omaha railroad stop. On 1 September 1894, the day of the Hinckley fire, the forest fires burned it out: \"all the inhabitants had fled... everything a blazing mass of flames\", and section foreman A. Cloutier was reported killed \"in the fire at Bashaw\". The same fires nearly destroyed Spooner and burned the Long Lake summer cottages (Weekly Herald, Chippewa Falls, 7 Sep 1894, p. 5). GNIS still names the place Bashaw. The fire account is from one paper so far.",
+   "t": "Look for the depot ground and house sites by the old grade on the 1938 air photo. A burn layer of 1894 glass, nails and coins may lie just under the sod. Ask the landowner first.",
+   "src": [
+    [
+     "Weekly Herald (Chippewa Falls), 7 Sep 1894, p. 5 (newspapers.com, PC thread sweep)",
+     ""
+    ],
+    [
+     "USGS GNIS: Bashaw (populated place), Burnett County",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+    ]
+   ],
+   "pinconf": "B",
+   "pinev": "On the GNIS point for Bashaw; the 1894 depot and houses may be a few hundred metres off."
+  }
+ ],
+ "edit": {
+  "ld-badger-mills": {
+   "st": " By 1897 Badger Mills was a Wisconsin Central stop, with extra trains between Chippewa Falls, Badger Mills and Eau Claire at a 10-cent fare (Chippewa Herald-Telegram, 24 Jul 1897, p. 1).",
+   "src": [
+    [
+     "Chippewa Herald-Telegram, 24 Jul 1897, p. 1",
+     ""
+    ]
+   ]
+  }
+ }
+}
