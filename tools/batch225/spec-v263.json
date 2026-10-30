@@ -1,0 +1,60 @@
+{
+ "new": [
+  {
+   "id": "cd-chippewa-falls-chautauqua-1916",
+   "L": "gather",
+   "n": "Lincoln Chautauqua tent, Bay and Island street school grounds, Chippewa Falls (1916)",
+   "la": 44.9357,
+   "lo": -91.395,
+   "y": "1916",
+   "pl": "School grounds at Bay Street and Island Street, Chippewa Falls",
+   "co": "Chippewa",
+   "stt": "WI",
+   "v": "Chautauqua tent on a school ground",
+   "c": "newspaper",
+   "s": "never",
+   "p": "approx",
+   "st": "The Lincoln Chautauqua of 9-14 July 1916 held its programs in \"the big tent on the Bay and Island street school grounds\" in Chippewa Falls (Chippewa Herald-Telegram, 10 Jul 1916, p. 3; organizers named on 11 May 1916, p. 3). A week of crowds on a school yard leaves coins and small losses. The pin is on the school block between Bay and Island streets, where the 1883 fire map draws the high school.",
+   "t": "Place on the school block at Bay and Island streets from a Sanborn sheet. Public school ground: ask the school district.",
+   "src": [
+    [
+     "Chippewa Herald-Telegram, 10 Jul 1916, p. 3 (newspapers.com image 417070770) and 11 May 1916, p. 3",
+     ""
+    ]
+   ],
+   "pinconf": "B",
+   "pinev": [
+    "On the school block between Bay and Island streets: the 1883 Sanborn (sheet 5) draws the high school there, 34 m from Bay St and 87 m from Island St. Two sources: the 1916 report names the 'Bay and Island street school grounds', and the 1883 map draws a school on that block. Good to about 60 m"
+   ]
+  },
+  {
+   "id": "cd-eau-claire-city-dump-1898",
+   "L": "lead",
+   "n": "Eau Claire city garbage dump below Shawtown bridge (1898)",
+   "la": 44.7975,
+   "lo": -91.5245,
+   "y": "1898",
+   "pl": "East bank of the Chippewa below the Shawtown bridge, Eau Claire",
+   "co": "Eau Claire",
+   "stt": "WI",
+   "v": "Bottles, crockery and household throwaways",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "In June 1898 the Eau Claire city garbage dump was \"below Shawtown bridge on the East side within 30 feet of water in Chippewa river\" (Eau Claire Leader, 17 Jun 1898, p. 5). Old town dumps are where bottles and household finds collect. The spot here is approximate, on the east bank downstream of where the Shawtown bridge is thought to have crossed; it needs the bridge fixed from a plat or Sanborn map. Riverbank, check ownership and city rules before going.",
+   "t": "Find the Shawtown bridge on a 1890s plat or Sanborn first, then work the east bank downstream, above the water line. Riverbank: check ownership and city rules.",
+   "src": [
+    [
+     "Eau Claire Leader, 17 Jun 1898, p. 5 (newspapers.com image 239407678)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placeholder near Shawtown; the Shawtown bridge is not yet placed, so this is good to about 1 km",
+    "Unconfirmed, one source"
+   ]
+  }
+ ],
+ "edit": {}
+}
