@@ -1,0 +1,207 @@
+{
+ "new": [
+  {
+   "id": "tw-blue-lake-baldwin-coins",
+   "L": "treasure",
+   "n": "Gold coins lost through the ice, Blue Lake channel",
+   "la": 45.488,
+   "lo": -93.496,
+   "y": "1800s; early 1920s",
+   "co": "Isanti",
+   "stt": "MN",
+   "pl": "Channel narrows between Blue Lake and Baxter (old Bastion or Walker) Lake, just east of Baldwin Township",
+   "v": "A pouch of gold coins; about $500 in gold coins spilled in a fish house",
+   "c": "legend",
+   "s": "never",
+   "p": "approx",
+   "st": "Blue Lake was once Bleau's Lake, after a French trapper whose cabin stood on the southwest corner. A man crossing thin ice at the channel narrows to Bastion (Walker) Lake broke through and dropped a pouch of gold coins in about 3 ft of water over mud and weeds. In the early 1920s commercial fishermen in a bunk fish house spilled about $500 in gold coins from their bib overalls, and most went through the ice. The north lake fits today's Baxter Lake, with Walker School (historical) beside it in GNIS.",
+   "t": "Shallow-water hunt (3 ft, muck): waders and a waterproof detector at the channel narrows. Also check the trapper's cabin corner on the SW shore. Confirm the channel on a 1938 air photo. The water is public; ask for shore access.",
+   "src": [
+    [
+     "Sherburne Co. Hist. Soc., \"There's Gold in Them Thar Hills\" (text via Neb, Oct 2026)",
+     ""
+    ],
+    [
+     "USGS GNIS: Blue Lake (640291), Baxter Lake, Walker School (historical), Isanti Co.",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+    ]
+   ],
+   "acc": [
+    "warn",
+    "Public water; the shore is private, so ask first"
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Pin is the narrows between the GNIS Blue Lake and Baxter Lake points; the story gives no closer spot",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-judson-jesse-james-cache",
+   "L": "treasure",
+   "n": "Jesse James box, five oaks north of the Judson bridge",
+   "la": 44.204,
+   "lo": -94.199,
+   "y": "1876 (legend)",
+   "co": "Nicollet",
+   "stt": "MN",
+   "pl": "North bank of the Minnesota River across the Judson bridge, by the Swan Lake Outlet",
+   "v": "A box of gold, coins and cash",
+   "c": "legend",
+   "s": "never",
+   "p": "approx",
+   "st": "Local legend says Jesse James buried a box of gold, coins and cash while dodging a posse, in a meadow inside a ring of five giant oaks next to a creek, between the river and the hillside just north of the Judson bridge. Rex McBeth and a Judson storyteller told it, and others have hunted for it. The house right of the bridge turned up Indian artifacts when its foundation was dug. The James-Younger gang did flee west across this country after the Northfield raid in September 1876, so the setting fits, but the cache rests on one oral source.",
+   "t": "Look for the oldest open-grown oaks on the valley floor along the outlet creek; a 1938 air photo helps. There is an Indian site nearby: never dig artifacts or burials. Private land: permission first.",
+   "src": [
+    [
+     "Mankato-area treasure-hunting forum thread (text via Neb, Oct 2026)",
+     ""
+    ],
+    [
+     "USGS GNIS: Judson; Swan Lake Outlet (652907), Nicollet Co.",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Pin is on the valley floor by the GNIS Swan Lake Outlet, north of the Judson bridge, as the story describes",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ab-camp-lincoln-mankato-1862",
+   "L": "history",
+   "n": "Camp Lincoln, 1862 Dakota prisoner camp (Sibley Park)",
+   "la": 44.1608,
+   "lo": -94.03218,
+   "y": "1862-1863",
+   "co": "Blue Earth",
+   "stt": "MN",
+   "pl": "Sibley Park, Mankato, at the mouth of the Blue Earth River",
+   "v": "Site of the camp where about 300 condemned Dakota men were held",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "The condemned Dakota prisoners, about 300 men, were held at Camp Lincoln, at what is now Sibley Park, while President Lincoln reviewed their sentences; 38 were hanged in Mankato on 26 December 1862. A forum claim that a \"Fort Lincoln\" stood 5 miles south near the Red Jacket bridge is not supported; the marker there is Fort L'Huillier's. Land of Memories Park, on the west side of Sibley, is remembered as a Dakota camp.",
+   "t": "LOOK ONLY. A city park and a place of Dakota grief, with Sibley Mound Cemetery next to it. No detecting.",
+   "src": [
+    [
+     "Wikipedia: 1862 Mankato mass execution",
+     "https://en.wikipedia.org/wiki/1862_Mankato_mass_execution"
+    ],
+    [
+     "MPR News: Dakota War, part 11 (2012)",
+     "https://www.mprnews.org/"
+    ],
+    [
+     "Mankato-area treasure-hunting forum thread (text via Neb, Oct 2026)",
+     ""
+    ]
+   ],
+   "acc": [
+    "stop",
+    "City park and a place of Dakota grief: look only, never dig or detect"
+   ],
+   "pinconf": "B",
+   "pinev": [
+    "Pin is the GNIS Sibley Park point (652010); the camp covered the park, so the exact tent ground is not fixed"
+   ]
+  },
+  {
+   "id": "ab-pipe-lake-sod-fort-1863",
+   "L": "history",
+   "n": "Pipe Lake sod fort (1863)",
+   "la": 44.9369,
+   "lo": -94.5728,
+   "y": "1863",
+   "co": "Meeker",
+   "stt": "MN",
+   "pl": "Pipe Lake, east of Cosmos (the exact site is withheld on the National Register record)",
+   "v": "The only complete sod fort of the 1863 frontier forts in Minnesota",
+   "c": "documented",
+   "s": "partly",
+   "p": "approx",
+   "st": "One of about 12 forts thrown up in spring 1863 after the Dakota War, and the only complete sod fortification of that period left in Minnesota. A landowner found it in his woods. A club dig turned up a bullet carved \"1863\" and a soldier's brass name plate, now at the Meeker County Historical Society. Listed on the National Register in 2003 (#03000576).",
+   "t": "LOOK ONLY: private land, on the National Register, and already detected. See the finds at the Meeker County Historical Society in Litchfield.",
+   "src": [
+    [
+     "National Register of Historic Places #03000576 (Wikipedia list for Meeker County)",
+     "https://en.wikipedia.org/wiki/National_Register_of_Historic_Places_listings_in_Meeker_County,_Minnesota"
+    ],
+    [
+     "Minnesota Lawyer, 25 Sep 2003",
+     ""
+    ],
+    [
+     "Detecting club member's account (text via Neb, Oct 2026)",
+     ""
+    ]
+   ],
+   "acc": [
+    "stop",
+    "Private National Register site, already dug by permission: look only"
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Pin is Pipe Lake itself; the fort's spot is withheld on the National Register record, so it may be up to about 1 km off"
+   ]
+  }
+ ],
+ "edit": {
+  "t-tr-sherburne": {
+   "moved": true,
+   "set": {
+    "la": 45.49858,
+    "lo": -93.7133,
+    "p": "approx",
+    "y": "1857-1882; 1862",
+    "pl": "Blue Hill, the glacial mound in Blue Hill Township (GNIS 640287)",
+    "st": "\"Old Sherburne,\" a hermit in a skin-clothed dugout, was said to hold over $40,000 in gold coin from a business he sold back East. He died in 1882 and is buried in Blue Hill (Galbraith) Cemetery; his brother came from Indiana, searched a month and found nothing. The belief is that it lies in or near the Blue Hill glacial mound, about 75 ft high. A second legend says soldiers carrying the 1862 Fort Snelling to Fort Ripley payroll buried it in two saddlebags under oak roots when they heard of the uprising; McDonald's 1978 version puts it just north of Elk Lake along Battle Brook, on the Baldwin Township side, and says a fire burned the area and the spot was lost. No record of a lost army payroll has been found, and the 1862 Dakota annuity gold reached Fort Ridgely safely.",
+    "t": "The pin is the Blue Hill mound. The payroll version has a second spot: Battle Brook north of Elk Lake (about 45.4869, -93.6267). The cemetery is look-only. Private land: permission first.",
+    "pinconf": "C",
+    "pinev": [
+     "Pin moved about 10 km from a township guess to the GNIS Blue Hill summit (640287), the mound the story names",
+     "Unconfirmed, one source"
+    ]
+   },
+   "src": [
+    [
+     "Sherburne Co. Hist. Soc., \"There's Gold in Them Thar Hills\" (text via Neb, Oct 2026)",
+     ""
+    ]
+   ]
+  },
+  "t-tr-le-sueur": {
+   "st": " The 1926 bronze plaque (DAR Anthony Wayne Chapter, 27 June 1926) reads \"Near this spot stood Fort Le Hillier ... erected by Pierre Charles Le Sueur, who with twenty-seven men here spent the winter of 1700.\" It sits on gravel-pit land about 100 yd from the Blue Earth River, facing a hillside with a fenced treeline and homes; a local detectorist thinks the fort stood on the open meadow below. GNIS keeps a LeHillier locale at 44.1519, -94.0352.",
+   "src": [
+    [
+     "1926 Fort Le Hillier plaque (photo via Neb, old/clippings/fort-lehillier-plaque-1926.jpg)",
+     ""
+    ],
+    [
+     "Mankato-area treasure-hunting forum thread (text via Neb, Oct 2026)",
+     ""
+    ]
+   ]
+  },
+  "t-tr-bremer-ransom": {
+   "st": " The U.S. Treasure Atlas vol. 5 version: half the money, $150,000 in $5 and $10 bills, in a canvas-wrapped metal box under a fence post along a 10-mile stretch of old State Hwy 52 between Chatfield and Rochester. (The Atlas wrongly has Bremer pushed from the car north of Rochester; he was released near Rochester.)",
+   "src": [
+    [
+     "U.S. Treasure Atlas vol. 5 (Neb quote, Oct 2026)",
+     ""
+    ]
+   ]
+  },
+  "t-tr-lake-city": {
+   "st": " The U.S. Treasure Atlas vol. 5 (nos. 656A-B) says Lake City holds several caches hidden by Prohibition bootleggers and by wealthy farmers and businessmen, and that a Rochester treasure hunter dug up three separate caches here. So caches here were real, and some are already gone.",
+   "t": " Old house lots and lakeshore yards.",
+   "src": [
+    [
+     "U.S. Treasure Atlas vol. 5 (Neb quote, Oct 2026)",
+     ""
+    ]
+   ]
+  }
+ }
+}

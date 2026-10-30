@@ -1,0 +1,71 @@
+{
+ "new": [
+  {
+   "id": "tw-springville-gold-rush-1894",
+   "L": "treasure",
+   "n": "Springville, the 1894 gold rush at Patterson's Rapids",
+   "la": 44.6271,
+   "lo": -95.1927,
+   "y": "1894",
+   "co": "Redwood",
+   "stt": "MN",
+   "pl": "Gold Mine Lake beside the Minnesota River at Patterson's Rapids (Springville itself is not in GNIS)",
+   "v": "Coins, tokens, tools and bottles from a short-lived boom camp",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "The Minnesota DNR's water-trail notes for the Granite Falls to Hwy 4 stretch say a gold vein found near Patterson's Rapids in 1894 set off a short rush; the vein soon played out and the boom town of Springville became a ghost town. GNIS keeps the name Gold Mine Lake here, and the USGS mineral database's Delhi gold prospect (gold in hornfels) is about 600 m away, likely the same vein. Charles Patterson's trading post of about 1783 stood at the rapids.",
+   "t": "Hunt the camp ground, not the vein: coins, tokens, tools and bottles where the miners lived. The edge of range, about 3 hours from Eau Claire. Private land: check who owns the river bank first.",
+   "src": [
+    [
+     "Minnesota DNR, Minnesota River water trail notes (quoted on TreasureNet 'Old River Crossings')",
+     "https://www.dnr.state.mn.us/watertrails/minnesotariver/index.html"
+    ],
+    [
+     "USGS GNIS: Gold Mine Lake, Redwood Co.",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Pin is the GNIS Gold Mine Lake point; the camp itself is not placed",
+    "The USGS Delhi gold prospect is about 600 m away"
+   ]
+  }
+ ],
+ "edit": {
+  "t-rep-delhi": {
+   "st": " This is likely the vein of the short 1894 gold rush at Patterson's Rapids, when the boom camp of Springville sprang up and died; see that pin, about 600 m away."
+  },
+  "t-tr-le-sueur": {
+   "st": " A 2006 TreasureNet poster reports that the researched fort site now lies under a subdivision on River Fort Drive southeast of Mankato, posted No Trespassing.",
+   "t": " The fort ground is built over and private; the meadow and the riverbank are what is left.",
+   "src": [
+    [
+     "TreasureNet forum: Places in Southern MN That May Hold Interest (2006)",
+     "https://www.treasurenet.com/"
+    ]
+   ]
+  },
+  "t-dillinger-little-bohemia": {
+   "st": " A 2007 Treasure Cache / Treasure Facts writer cites an FBI supplemental report: an informant placed Dillinger in Fort Wayne about 10 days after the shootout with a suitcase of money ($210,000 in all), so the suitcase was probably never buried. The informant said Dillinger hid ammunition behind the lodge when he arrived and went back for it, and the ground would still have been frozen in late April.",
+   "t": " Treat the cash cache as unlikely: anything cache-like behind the lodge is more likely 1934 ammunition.",
+   "src": [
+    [
+     "TreasureNet forum: New info on Dillinger's Little Bohemia cache (citing the FBI Dillinger file)",
+     "https://www.treasurenet.com/"
+    ]
+   ]
+  },
+  "ab-fort-ridgely": {
+   "st": " The park itself is strictly off limits, but detectorists report round balls, three-ring bullets, shrapnel and a Bormann fuse from the private farm fields around it, hunted with landowner permission for years.",
+   "t": " Ask the farm owners around the park, never inside it.",
+   "src": [
+    [
+     "TreasureNet forum: Weekend hunt of Military Fort (2 reports)",
+     "https://www.treasurenet.com/"
+    ]
+   ]
+  }
+ }
+}
