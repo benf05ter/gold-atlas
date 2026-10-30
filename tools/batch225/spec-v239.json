@@ -1,0 +1,154 @@
+{
+ "new": [
+  {
+   "id": "bec-indian-lake-old-valley",
+   "L": "treasure",
+   "n": "Indian Lake: the dry old river valley south of Mankato",
+   "la": 44.125,
+   "lo": -94.0255,
+   "y": "Before settlement (the lake still there in 1874)",
+   "co": "Blue Earth",
+   "stt": "MN",
+   "pl": "Indian Lake Rd / Hwy 66 valley, secs. 25-26 T108N R27W, between the Le Sueur valley and Mankato's east side",
+   "v": "Whatever the Dakota gold story is about; otherwise Dakota and settler-era losses on the old valley rims",
+   "c": "legend",
+   "s": "never",
+   "p": "approx",
+   "st": "A whole abandoned river valley: the Le Sueur (or the Blue Earth) once ran north through here straight to the Minnesota at Mankato, before it was captured into today's channel (MSU 2006 \"Le Sueur River Capture\" study). The 1874 Andreas map still draws a crescent \"Indian Lake\" in it; USGS LiDAR shows a flat-floored valley about 15 m above today's river, and the 1974 topo marks gravel pits. An oral story says the Dakota hid a great amount of gold in the hills south of Mankato along the Blue Earth \"before the river changed course\" (one forum source). The old-channel test found the Blue Earth itself runs within about 100 m of its 1874 course from the Le Sueur confluence to the mouth, so the only real moved river here is this valley, abandoned long before settlement. If the story is true, this is where to look.",
+   "t": "The lake bed has been dug out for county road gravel. The untouched ground is the old valley rims and terrace edges on both sides, mainly the west rim above Indian Lake Rd. Hunt in spring before the grass comes up. The pit and road land is Blue Earth County's: get written permission; the rims are private, so ask the owners.",
+   "src": [
+    [
+     "Illustrated historical atlas of the State of Minnesota (Andreas 1874), Blue Earth County map (David Rumsey Map Collection)",
+     "https://www.davidrumsey.com/luna/servlet/view/search?q=22501.750009"
+    ],
+    [
+     "USGS 3DEP 1 m LiDAR, MN_RiverEast 2023 (old-channel test)",
+     ""
+    ],
+    [
+     "USGS topographic map, Mankato West 1974 1:24,000",
+     ""
+    ],
+    [
+     "Mankato-area treasure-hunting forum thread (text via Neb, Oct 2026)",
+     ""
+    ]
+   ],
+   "acc": [
+    "warn",
+    "County gravel-pit and road land: written county permission first; rims are private"
+   ],
+   "pinconf": "B",
+   "pinev": [
+    "The 1874 Andreas map's Indian Lake, the LiDAR valley floor and the 1974 topo gravel pits all agree on the place",
+    "The gold story itself rests on one oral source"
+   ]
+  },
+  {
+   "id": "bec-jones-ford",
+   "L": "history",
+   "n": "Jones' Ford, probable site, Blue Earth River",
+   "la": 44.1318,
+   "lo": -94.0588,
+   "y": "1850s-1870s",
+   "co": "Blue Earth",
+   "stt": "MN",
+   "pl": "Blue Earth River beside the J. D. Jones farm, sec. 27 T108N R27W",
+   "v": "Coins, harness and wagon iron along both approaches",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "A wagon crossing on the Blue Earth for traffic heading south and west from Mankato, remembered as Jones' Ford (a Blue Earth County Historical Society article mentions a proposed bridge \"at Jones' Ford\"). The 1874 Andreas map shows J. D. Jones with 204 acres in sec. 27, with the road crossing the river beside his land, and the 1951 and 1974 USGS topos keep a road bridge at the same spot. Matching the name to this crossing is an inference.",
+   "t": "Old fords spread coins, harness and wagon iron along both approaches. Work the low bank terraces up and downstream of the crossing, not the road fill. Both banks are private: ask first.",
+   "src": [
+    [
+     "Illustrated historical atlas of the State of Minnesota (Andreas 1874), Blue Earth County map (David Rumsey Map Collection)",
+     "https://www.davidrumsey.com/luna/servlet/view/search?q=22501.750009"
+    ],
+    [
+     "USGS topographic map, Mankato West 1951 1:62,500",
+     ""
+    ],
+    [
+     "USGS topographic map, Mankato West 1974 1:24,000",
+     ""
+    ],
+    [
+     "Blue Earth County Historical Society article (\"bridge at Jones' Ford\")",
+     "https://www.blueearthcountyhistory.com/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed at the 1874 road crossing beside the Jones farm; the ford's name is tied to it by inference",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "bec-le-sueur-old-bends",
+   "L": "history",
+   "n": "Cut-off bends inside the lower Le Sueur loop",
+   "la": 44.122,
+   "lo": -94.052,
+   "y": "1800s-1900s",
+   "co": "Blue Earth",
+   "stt": "MN",
+   "pl": "Inside the last Le Sueur River loop above the Blue Earth confluence",
+   "v": "Anything the river carried: coins, relics and lost tools on old sand and gravel bars",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "USGS LiDAR shows 3 or 4 abandoned channel scars inside the last Le Sueur loop above the Blue Earth confluence, old bends left dry as the river shifted. Their dates are not known; a Mankato Free Press column (from the 1914 county atlas) mentions a 1908 cutoff, not yet placed.",
+   "t": "Sand and gravel bars in old bends hold anything the river carried; check after high water. This is Blue Earth County land: written county permission first.",
+   "src": [
+    [
+     "USGS 3DEP 1 m LiDAR, MN_RiverEast 2023 (old-channel test)",
+     ""
+    ],
+    [
+     "Mankato Free Press \"Ask Us\" column (1908 cutoff; not yet read)",
+     ""
+    ]
+   ],
+   "acc": [
+    "warn",
+    "County land: written county permission first"
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the LiDAR channel scars",
+    "Unconfirmed, one source"
+   ]
+  }
+ ],
+ "edit": {
+  "ab-camp-lincoln-mankato-1862": {
+   "st": " The 1874 Mankato city map draws Sibley Mound with the Blue Earth running right along its west side, just as today (LiDAR puts the mound at 44.1622, -94.0333), so the river mouth has not moved since 1874. The Land of Memories ground across the river is City of Mankato park land.",
+   "src": [
+    [
+     "Andreas 1874, Mankato city map (David Rumsey Map Collection)",
+     "https://www.davidrumsey.com/luna/servlet/view/search?q=22502.750010"
+    ]
+   ]
+  },
+  "sf-chippewa-falls-gas-works": {
+   "set": {
+    "himg": [
+     "nb_cf_east_hill_gasworks"
+    ]
+   },
+   "st": " An early-1900s winter view from the bluff above (\"East Hill in the early 1900s\") shows the works: the round gas holder, the brick and stone purifier and plant buildings, slab and log piles from the Chippewa Lumber & Boom yard, and the Omaha Road track curving along the hill behind. By 1903 it was the Chippewa Water, Light & Power Co. electric light plant and gas works on the Duncan Creek tail race (Sanborn 1903 sheet 22).",
+   "t": " The slab-piling grounds around the works were open working ground for decades; the edges by the old tail race and along the rail grade are the places to look, with permission.",
+   "src": [
+    [
+     "Sanborn fire map, Chippewa Falls 1903, sheet 22 (Library of Congress)",
+     "https://www.loc.gov/item/sanborn09518_005/"
+    ],
+    [
+     "Old Chippewa Falls Wisconsin Facebook group photo (your upload)",
+     ""
+    ]
+   ]
+  }
+ }
+}
