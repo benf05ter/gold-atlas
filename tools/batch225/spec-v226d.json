@@ -1,0 +1,67 @@
+{
+"new": [
+{
+"id": "cd-west-prairie-holcomb-mill",
+"L": "history",
+"n": "West Prairie mill: the Holcomb brothers' dam on Tamarack Creek",
+"la": 44.067225,
+"lo": -91.478924,
+"y": "1850s-1937",
+"pl": "SW 1/4 NE 1/4 sec. 5 T18N R9W, Tamarack Creek, West Prairie (Trempealeau Co.)",
+"co": "Trempealeau",
+"stt": "WI",
+"v": "Coins 1850s-1930s, mill and farm-trade losses, tools",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "History of Trempealeau County (1917): Al and Abe Holcomb, brothers who settled on West Prairie, put a dam in Tamarack Creek in sec. 5 T18N R9W and built a saw mill. They cut the logs of Holcomb Cooley, which is named for them, into lumber for the settlers. In 1917 West Prairie still had a mill, a church, a band stand, a cemetery and a school. Wisconsin DNR records list the 'West Prairie Mill' dam at this point (owner H. Wachter, 23 ft high), removed in 1937.",
+"t": "Work the dam ends, the mill yard below the dam and the old road to the prairie. Ask the landowner.",
+"src": [
+[
+"History of Trempealeau County (Curtiss-Wedge, 1917)",
+"https://archive.org/details/historyoftrempea00curt"
+],
+[
+"Wisconsin DNR dam records (removed / not on landscape), via the PC thread",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "B",
+"pinev": [
+"DNR dam point in SW NE sec. 5; the 1917 history gives the same section for the Holcomb dam."
+]
+},
+{
+"id": "cd-riley-creek-ccc",
+"L": "history",
+"n": "Riley Creek CCC Camp (Co. 642), 1933-37",
+"la": 45.8979,
+"lo": -90.136,
+"y": "1933-1937",
+"pl": "On Hwy 70 about 16 miles east of Park Falls, by Riley Creek (Price Co.)",
+"co": "Price",
+"stt": "WI",
+"v": "1930s coins, CCC buttons and insignia, mess-hall and tool losses",
+"c": "documented",
+"s": "unknown",
+"p": "topo",
+"st": "Price County history pages (WIGenWeb) list the Riley Creek CCC camp, Company 642, 1933-37, 16 miles east of Park Falls on Hwy 70. The 1941 USGS Pike Lake 15-minute topo prints 'Riley Creek CCC Camp' on Hwy 70 at this spot, about 1.2 km south of the GNIS Riley Creek point.",
+"t": "CCC camps had barracks rows, a mess hall, a rec hall and dumps at the edge of the woods. This is national forest land, so check the rules before digging.",
+"src": [
+[
+"Price County WIGenWeb history pages (recovered from the Wayback Machine)",
+"http://web.archive.org/"
+],
+[
+"USGS Pike Lake 15-minute topographic map (1941)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Read off the 1941 topo label, good to about 100 m (Ground check)."
+]
+}
+],
+"edit": {}
+}
