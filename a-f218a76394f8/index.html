@@ -2157,7 +2157,9 @@ liFill(document.body);
 // detail
 function aerialHTML(p){ const a=AIRIMG[p.id]; if(!a) return '';
   return `<div class="lid"><b style="font-size:13px">Aerial photo (USDA NAIP ${a[1]}, 600 m across)</b><img ${ISRC(a[0])} data-lik="${esc(p.id)}" width="200" height="200" alt="Aerial photo around ${esc(p.n)}"><span class="hint">Red cross = pin. Same square as the LiDAR view, so you can match bare ground, pits and piles between them.</span></div>`; }
-function lidarHTML(p){ if(!p.lid||!LIDIMG[p.id]) return '';
+function lidKey(p){ return LIDIMG[p.id]?p.id:(/-pit$/.test(p.id)&&LIDIMG[p.id.slice(0,-4)]?p.id.slice(0,-4):''); }
+function lidarHTML(p){ const k=lidKey(p); if(!k) return '';
+  if(!p.lid) return `<div class="lid"><b style="font-size:13px">1 m LiDAR view (bare earth, 360 m across)</b><img ${ISRC(LIDIMG[k])} data-lik="${esc(k)}" width="220" height="220" alt="LiDAR hillshade around ${esc(p.n)}" style="width:200px;height:200px"><span class="hint">Red cross = ${k===p.id?'pin':'farm pin'}${/^af-/.test(k)?'; yellow ring = LiDAR pit':''}. Reddish = raised ground (mounds, banks, buildings); bluish = hollows (cellar holes, wells, privies, ditches). Bar = 50 m. USGS 3DEP 1 m LiDAR.</span></div>`;
   const [pits,deep,mounds,marea,relief,tile]=p.lid;
   return `<div class="lid"><b style="font-size:13px">1 m LiDAR view (bare earth, 600 m across)</b><img ${ISRC(LIDIMG[p.id])} data-lik="${esc(p.id)}" width="220" height="220" alt="LiDAR hillshade around ${esc(p.n)}" style="width:200px;height:200px"><span class="hint">Red cross = pin. Reddish = raised ground (rock piles, mounds, buildings); bluish = hollows (pits, shafts, trenches, cellar holes, ditches). Within 300 m: ${pits} hollows (${deep} deeper than 2.5 m), ${mounds} raised features covering ${marea.toLocaleString()} m\u00b2, ${relief} m of relief. USGS 3DEP tile ${esc(tile)}.</span></div>`; }
 function researchLinks(p){
@@ -2188,7 +2190,7 @@ function detailHTML(p){
   }
   return `<div class="detail"><div class="row" style="justify-content:space-between"><span class="hint">Spot details</span><button class="btn" id="closeD" style="padding:2px 9px">Close</button></div>
     <h2>${esc(p.n)}</h2><div class="tags">${tags}</div>${notesHTML(p)}${body}${seasonHTML(p)}
-    <div class="row"><a class="btn" href="${gm}" target="_blank" rel="noopener">Open in Google Maps</a><a class="btn" href="${dir}" target="_blank" rel="noopener">Directions</a><button class="btn" id="copyC">Copy coordinates</button><button class="btn" id="saveS">${saved.has(p.id)?"★ Saved":"☆ Save"}</button></div>${findsHTML(p)}${p.cover?`<p class="hint">${esc(p.cover)}</p>`:''}${(p.himg||AIRIMG[p.id]||(p.lid&&LIDIMG[p.id]))?'<p class="hint">Tap a picture to enlarge it.</p>':''}<div class="imgs">${histImgHTML(p)}${aerialHTML(p)}${lidarHTML(p)}</div>${researchLinks(p)}
+    <div class="row"><a class="btn" href="${gm}" target="_blank" rel="noopener">Open in Google Maps</a><a class="btn" href="${dir}" target="_blank" rel="noopener">Directions</a><button class="btn" id="copyC">Copy coordinates</button><button class="btn" id="saveS">${saved.has(p.id)?"★ Saved":"☆ Save"}</button></div>${findsHTML(p)}${p.cover?`<p class="hint">${esc(p.cover)}</p>`:''}${(p.himg||AIRIMG[p.id]||lidKey(p))?'<p class="hint">Tap a picture to enlarge it.</p>':''}<div class="imgs">${histImgHTML(p)}${aerialHTML(p)}${lidarHTML(p)}</div>${researchLinks(p)}
     ${p.pn?`<p class="hint">${esc(p.pn)}</p>`:''}<span class="mono">${p.la.toFixed(5)}, ${p.lo.toFixed(5)}</span></div>`;
 }
 function select(id,pan){ const p=BYID[id]; if(!p) return; selId=id; if(!on.has(p.L)){ on.add(p.L); renderLayers(); }
@@ -3416,7 +3418,7 @@ mwrap.insertAdjacentHTML('beforeend','<div class="ogattr" aria-label="Map credit
 // --- 5. photo-first spot cards: big picture, name and rank, then Directions, Start hunt and Permission ---
 function ogCard(p){ const d=document.querySelector('#detail .detail'); if(!d||d.querySelector('.oghero,.ogq')) return; const h2=d.querySelector('h2'); if(!h2) return;
   const hero=document.createElement('div'); hero.className='oghero';
-  const first=d.querySelector('.imgs .lid, .imgs figure, .imgs > div');
+  const first=d.querySelector('.imgs figure, .imgs > div:not(.lid)');
   if(first&&first.querySelector('img')){ const im=first.querySelector('img'); im.classList.add('ogheroimg'); hero.appendChild(im); const cap=first.querySelector('b'); if(cap){ const c=document.createElement('span'); c.className='ogcap'; c.textContent=cap.textContent; hero.appendChild(c); } first.remove(); }
   else if(navigator.onLine!==false){ const dx=0.0035/Math.cos(p.la*Math.PI/180), dy=0.00175, im=new Image(); im.className='ogheroimg'; im.alt='Aerial view around '+p.n; im.loading='lazy';
     im.src=`https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer/export?bbox=${p.lo-dx},${p.la-dy},${p.lo+dx},${p.la+dy}&bboxSR=4326&imageSR=3857&size=640,320&format=jpg&f=image`;
