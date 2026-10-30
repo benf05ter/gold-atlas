@@ -3254,6 +3254,100 @@ renderLayers(); drawMarkers(); renderList(); if(typeof gmSheetSync==='function')
   renderLayers(); if(typeof gmSheetSync==='function') gmSheetSync(); }
 </script>
 <script>
+// ---------- Trip sheets (v209): a county's S and A spots as a printable sheet (Save as PDF) and a GPX file, built on the phone when asked ----------
+// Nothing is stored in the page: the sheet is made from PTS, TIER, RKX, LIDIMG/img chunks and (when the public-land section is present) plLookup + pl/rules.json.
+{ const TS={rules:null};
+  const tsKey=p=>(p.stt||'')+'|'+(p.co||'');
+  const tsName=(co,stt)=>co?`${co}${/\(/.test(co)?'':' County'}, ${STN[stt]||stt}`:`${STN[stt]||stt}, no county set`;
+  const tsFile=(co,stt)=>`trip-${stt}-${(co||'no-county').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')}`;
+  window.tsSpots=(co,stt)=>PTS.filter(p=>p.stt===stt&&(p.co||'')===(co||'')&&/^[SA]$/.test(TIER.t(p))).sort((a,b)=>(TIER.t(a)==='S'?0:1)-(TIER.t(b)==='S'?0:1)||(TIER.get(b).sc-TIER.get(a).sc)||(a.mi||0)-(b.mi||0));
+  window.tsCounties=()=>{ const m=new Map(); for(const p of PTS){ if(!/^[SA]$/.test(TIER.t(p))) continue; const k=tsKey(p), o=m.get(k)||{stt:p.stt,co:p.co||'',S:0,A:0}; o[TIER.t(p)]++; m.set(k,o); }
+    return [...m.values()].sort((a,b)=>'WIMNMI'.indexOf(a.stt)-'WIMNMI'.indexOf(b.stt)||(!a.co)-(!b.co)||a.co.localeCompare(b.co)); };
+  const tsRules=()=>TS.rules?Promise.resolve(TS.rules):fetch('pl/rules.json',{cache:'force-cache'}).then(r=>r.ok?r.json():{}).catch(()=>({})).then(a=>TS.rules=a);
+  function tsLand(p){ if(typeof window.plLookup!=='function') return Promise.resolve(null);
+    return Promise.all([tsRules(),plLookup(p)]).then(([R,u])=>{ if(!u) return {ok:-1,t:'Private land, or public land not in the list. Ask the owner first; the plat book or county land records name them.'};
+      const [ok,kind,rule]=R[u[1]]||[1,'Public land','Check with the managing agency.'];
+      return {ok,t:`${ok===2?'Public land, detecting allowed with care':ok===1?'Public land, permit or check first':'Public land, no hobby detecting'}: ${u[2]||kind} (${kind}, ${u[3]}). ${rule}`}; }).catch(()=>null); }
+  function tsLid(p){ const k=lidKey(p), b=k&&LIDIMG[k]; if(!b) return Promise.resolve('');
+    const mk=s=>s?`data:image/${s.startsWith('UklG')?'webp':'jpeg'};base64,${s}`:'';
+    return b[0]!=='@'?Promise.resolve(mk(b)):liChunk(b.slice(1)).then(d=>mk(d[k])).catch(()=>''); }
+  function tsWhy(p){ const g=TIER.get(p), r=RKX(p), out=[];
+    if(r&&!r.skip&&r.w&&r.w.length) for(const [s,t] of r.w) out.push([s,t]); else if(g.w) out.push([1,g.w]);
+    if(p.ev) for(const e of p.ev) out.push([1,e]);
+    if(p.srcs) out.push([1,'Fed by: '+p.srcs.join(', ')]);
+    return out; }
+  function tsCard(p,i,land,img){ const t=TIER.t(p), LS=p.lid||p.lidc||(typeof LIDC!=='undefined'&&LIDC[p.id]);
+    const why=tsWhy(p).map(([s,w])=>`<li class="${s>0?'p':s<0?'n':'o'}">${esc(w)}</li>`).join('');
+    const kv=[['Where',p.pl],['Years',p.y],['Look for',p.v],['Pin',[PREC[p.p],p.pn].filter(Boolean).join('. ')],['Record',CONF[p.c]],['Ground',p.ug?p.ug[0]+': '+p.ug[1]:''],['Caution',p.acc&&p.acc[1]||p.warn]].filter(x=>x[1]);
+    return `<section class="tsp"><div class="tsh"><span class="tst" style="background:${TIER.C[t]}">${t}</span><b>${i}. ${esc(p.n)}</b></div>
+<div class="tsm">${esc(LBY[p.L]?LBY[p.L].n:p.L)} &middot; <span class="tsc">${p.la.toFixed(5)}, ${p.lo.toFixed(5)}</span>${p.mi?` &middot; ${Math.round(p.mi)} mi from ${esc(ORG.n)}`:''}</div>
+${img?`<figure class="tsl"><img src="${img}" alt="LiDAR around ${esc(p.n)}"><figcaption>1 m LiDAR, pin at the cross${LS?`; ${LS[0]} hollows, ${LS[2]} raised within 300 m`:''}</figcaption></figure>`:''}
+${land?`<p class="tsland tsl${land.ok}"><b>Land.</b> ${esc(land.t)}</p>`:''}
+<ul class="tsw">${why}</ul>
+${kv.length?`<dl>${kv.map(([k,v])=>`<dt>${k}</dt><dd>${esc(v)}</dd>`).join('')}</dl>`:''}
+${p.st?`<p><b>Story.</b> ${esc(p.st)}</p>`:''}${p.t?`<p><b>How to work it.</b> ${esc(p.t)}</p>`:''}
+${p.src&&p.src.length?`<p class="tss2"><b>Sources.</b> ${p.src.map(([l,u])=>esc(l)+(u?` <span class="tsu">${esc(u)}</span>`:'')).join('; ')}</p>`:''}
+${!img&&LS?`<p class="tss2">1 m LiDAR within 300 m: ${LS[0]} hollows (${LS[1]} deeper than 2.5 m), ${LS[2]} raised features, ${LS[4]} m of relief.</p>`:''}</section>`; }
+  const TSCSS=`.tss{font:10pt/1.38 Georgia,'Times New Roman',serif;color:#111;background:#fff;max-width:7.6in;margin:0 auto;padding:0 .1in}
+.tss h1{font-size:18pt;margin:.1in 0 2pt}.tss .tsi{font-size:9pt;color:#444;margin:0 0 8pt}.tss .tsi b{color:#111}
+.tss .tsx{font-size:8.5pt;border:1px solid #bbb;border-radius:6px;padding:5pt 7pt;margin:0 0 10pt}
+.tss table{border-collapse:collapse;width:100%;font-size:8.5pt;margin:0 0 12pt}.tss td,.tss th{border-bottom:1px solid #ddd;padding:2pt 4pt;text-align:left;vertical-align:top}
+.tss .tsp{border-top:1.5pt solid #333;padding:6pt 0 8pt;overflow:hidden}
+.tss .tsh,.tss .tsm{break-after:avoid;page-break-after:avoid}.tss .tsl,.tss .tsland,.tss li,.tss dl{break-inside:avoid}.tss .tsh{font-size:11.5pt;display:flex;gap:6pt;align-items:baseline}.tss .tst{display:inline-block;min-width:16pt;text-align:center;font:700 10pt Arial,sans-serif;border-radius:4px;padding:1pt 3pt;color:#1a1a1a;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.tss .tsm{font:8.5pt Arial,sans-serif;color:#444;margin:2pt 0 4pt}.tss .tsc{font-weight:700;color:#111}
+.tss .tsl{float:right;width:1.45in;margin:0 0 4pt 8pt}.tss .tsl img{width:1.45in;height:1.45in;display:block;border:1px solid #999}.tss figcaption{font:7pt Arial,sans-serif;color:#555}
+.tss .tsland{font-size:9pt;padding:3pt 5pt;border-left:3pt solid #888;margin:3pt 0}.tss .tsl0{border-color:#d33}.tss .tsl1{border-color:#e8a020}.tss .tsl2{border-color:#2a9d4b}
+.tss ul.tsw{margin:3pt 0;padding-left:14pt;font-size:9pt}.tss ul.tsw li.n{color:#a00}.tss ul.tsw li.o{color:#555}
+.tss dl{display:grid;grid-template-columns:auto 1fr;gap:1pt 8pt;font-size:9pt;margin:3pt 0}.tss dt{font-weight:700}.tss dd{margin:0}
+.tss p{margin:3pt 0}.tss .tss2{font-size:8pt;color:#333}.tss .tsu{word-break:break-all;color:#555}
+@page{size:letter;margin:.45in}`;
+  window.tsBuild=async(co,stt)=>{ const L=tsSpots(co,stt), d=new Date().toISOString().slice(0,10), nm=tsName(co,stt);
+    const lands=await Promise.all(L.map(tsLand)), imgs=await Promise.all(L.map(tsLid));
+    const nS=L.filter(p=>TIER.t(p)==='S').length, nNo=lands.filter(x=>x&&x.ok===0).length;
+    const hasL=lands.some(Boolean), idx=L.map((p,i)=>`<tr><td>${i+1}</td><td>${TIER.t(p)}</td><td>${esc(p.n)}</td><td>${p.la.toFixed(5)}, ${p.lo.toFixed(5)}</td>${hasL?`<td>${lands[i]?['No detecting','Check first','Allowed','Private'][lands[i].ok<0?3:lands[i].ok]:''}</td>`:''}</tr>`).join('');
+    const body=`<div class="tss"><h1>${esc(nm)}: trip sheet</h1><p class="tsi"><b>${L.length}</b> top spots (${nS} S, ${L.length-nS} A) from Old Ground, made ${d}. Best first, then nearest to ${esc(ORG.n)}.${nNo?` <b>${nNo}</b> sit on land with no hobby detecting: look only there.`:''}</p>
+<div class="tsx"><b>Before you go.</b> Get the owner's permission for private land, in writing if you can. Fill every hole. Leave anything over 100 years old on public land where it lies. Coordinates are WGS84 decimal degrees; the GPX file has the same pins for a GPS or map app.</div>
+<table><tr><th>#</th><th>Tier</th><th>Spot</th><th>Coordinates</th>${hasL?'<th>Land</th>':''}</tr>${idx}</table>
+${L.map((p,i)=>tsCard(p,i+1,lands[i],imgs[i])).join('\n')}</div>`;
+    const html=`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(nm)} trip sheet</title><style>body{margin:0;background:#fff}${TSCSS}</style></head><body>${body}</body></html>`;
+    const x=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&apos;'}[c]));
+    const gpx=`<?xml version="1.0" encoding="UTF-8"?>\n<gpx version="1.1" creator="Old Ground" xmlns="http://www.topografix.com/GPX/1/1">\n<metadata><name>${x(nm)}: S and A spots</name><time>${new Date().toISOString()}</time></metadata>\n`+
+      L.map((p,i)=>`<wpt lat="${p.la.toFixed(6)}" lon="${p.lo.toFixed(6)}"><name>${x(`${TIER.t(p)} ${i+1}. ${p.n}`)}</name><desc>${x([TIER.get(p).w,p.v&&'Look for: '+p.v,p.t,lands[i]&&'Land: '+lands[i].t].filter(Boolean).join('\n'))}</desc><type>Tier ${TIER.t(p)}</type><sym>${TIER.t(p)==='S'?'Flag, Red':'Flag, Blue'}</sym></wpt>`).join('\n')+'\n</gpx>\n';
+    return {n:L.length,nS,name:nm,file:tsFile(co,stt),html,body,gpx}; };
+  // hand a file to the phone: share sheet when it takes files (Save to Files, a GPS app), else a download
+  function tsSave(name,type,text){ const f=new File([text],name,{type});
+    if(navigator.canShare&&navigator.canShare({files:[f]})) return navigator.share({files:[f],title:name}).catch(()=>{});
+    const a=document.createElement('a'); a.href=URL.createObjectURL(f); a.download=name; document.body.appendChild(a); a.click(); setTimeout(()=>{ URL.revokeObjectURL(a.href); a.remove(); },4000); }
+  function tsPrint(r){ let w=document.getElementById('tsPrint'); if(!w){ w=document.createElement('div'); w.id='tsPrint'; document.body.appendChild(w); }
+    w.innerHTML=`<style>${TSCSS}</style>`+r.body; document.documentElement.classList.add('tsprinting');
+    const done=()=>{ document.documentElement.classList.remove('tsprinting'); w.innerHTML=''; removeEventListener('afterprint',done); };
+    addEventListener('afterprint',done); setTimeout(()=>window.print(),60); } // no timed clean-up: iOS print() returns at once, and the sheet must stay until afterprint
+  document.head.insertAdjacentHTML('beforeend',`<style>#tsPrint{display:none}@media print{html.tsprinting body>*:not(#tsPrint){display:none!important}html.tsprinting #tsPrint{display:block}html.tsprinting,html.tsprinting body{background:#fff!important;height:auto!important;overflow:visible!important}}
+.tsbox{margin:8px 0;padding:10px;border:1px solid var(--line);border-radius:12px;background:var(--panel)}.tsbox select{width:100%;margin:6px 0;padding:8px;font-size:15px;border-radius:8px;border:1px solid var(--line);background:var(--panel);color:var(--ink)}
+.tsrow{display:flex;gap:6px;flex-wrap:wrap}.tsrow button{flex:1 1 30%;padding:9px 6px;border-radius:10px;border:1px solid var(--line);background:var(--panel);color:var(--ink);font:700 13px var(--f-body);cursor:pointer}.tsrow button:first-child{background:var(--accent);color:#fff;border-color:var(--accent)}
+.tscard{display:block;width:100%;margin:8px 0;padding:9px 10px;border-radius:12px;border:1px dashed var(--line);background:none;color:var(--ink);font:600 13.5px var(--f-body);text-align:left;cursor:pointer}</style>`);
+  // one small panel does the work for a county: print / Save as PDF, the sheet as a file, and the GPX
+  async function tsRun(co,stt,how,msg){ msg&&(msg.textContent='Building the sheet...'); try{ const r=await tsBuild(co,stt);
+      if(!r.n){ msg&&(msg.textContent='No S or A spots in this county yet.'); return; }
+      if(how==='pdf') tsPrint(r); else if(how==='gpx') await tsSave(r.file+'.gpx','application/gpx+xml',r.gpx); else await tsSave(r.file+'.html','text/html',r.html);
+      msg&&(msg.textContent=`${r.n} spots (${r.nS} S). ${how==='pdf'?'In the print screen, choose Save to Files or Save as PDF.':'Saved.'}`); }
+    catch(e){ msg&&(msg.textContent='Could not build the sheet: '+e.message); } }
+  function tsPanel(sel){ const cs=tsCounties(); const cur=sel||''; return `<div class="tsbox"><b>Trip sheets for no-signal days</b><p class="hint" style="margin:4px 0 0">Every S and A spot in one county: clues, coordinates, land rule and LiDAR picture, as a sheet to print or save as a PDF, plus a GPX file for a GPS or map app. Made on this phone when you tap, so it works offline (LiDAR pictures need one visit with signal).</p>
+<select class="tssel" aria-label="County">${cs.map(c=>{ const k=c.stt+'|'+c.co; return `<option value="${esc(k)}"${k===cur?' selected':''}>${esc(tsName(c.co,c.stt))}: ${c.S+c.A} spots${c.S?` (${c.S} S)`:''}</option>`; }).join('')}</select>
+<div class="tsrow"><button type="button" data-ts="pdf">Print / PDF</button><button type="button" data-ts="gpx">GPX file</button><button type="button" data-ts="html">Sheet file</button></div><p class="hint tsmsg" style="margin:6px 0 0"></p></div>`; }
+  function tsWire(root){ root.querySelectorAll('[data-ts]').forEach(b=>b.onclick=()=>{ const box=b.closest('.tsbox'), [stt,co]=box.querySelector('.tssel').value.split('|'); tsRun(co,stt,b.dataset.ts,box.querySelector('.tsmsg')); }); }
+  // Library > Offline use gets the county picker (filled when first scrolled into view, so start-up is not slowed)
+  { const h=document.getElementById('k-offline'); if(h){ const host=document.createElement('div'); host.id='tsLib'; h.nextElementSibling.after(host);
+      const fill=()=>{ if(host.firstChild) return; host.innerHTML=tsPanel('WI|Eau Claire'); tsWire(host); };
+      if('IntersectionObserver' in window){ const io=new IntersectionObserver(es=>{ if(es.some(e=>e.isIntersecting)){ fill(); io.disconnect(); } }); io.observe(host); } else fill(); } }
+  // every S or A spot card offers its county's sheet
+  const _selTS=select; select=function(id,pan){ const r=_selTS(id,pan), p=BYID[id]; if(!p||!/^[SA]$/.test(TIER.t(p))) return r;
+    const d=document.querySelector('#detail .detail'); if(!d||d.querySelector('.tscard')) return r; const at=d.querySelector('.ogq')||d.querySelector('.tags'); if(!at) return r;
+    const n=tsSpots(p.co||'',p.stt).length, b=document.createElement('button'); b.type='button'; b.className='tscard'; b.textContent=`Trip sheet: ${tsName(p.co||'',p.stt)} (${n} S and A spots, for offline)`;
+    b.onclick=()=>{ const w=document.createElement('div'); w.innerHTML=tsPanel(tsKey(p)); b.replaceWith(w.firstChild); const box=d.querySelector('.tsbox'); tsWire(box); }; at.after(b); return r; };
+}
+</script>
+<script>
 // ---------- cleanup: orphan photos, stacked pins, first-draw coalescing ----------
 // Irvine Park photos that no pin showed
 { const p=BYID['d-irvine-park']; if(p){ const used=new Set(PTS.flatMap(q=>q.himg||[])); p.himg=(p.himg||[]).concat(['nb_irvine_bear_den','nb_irvine_birdseye'].filter(k=>HIMG[k]&&!used.has(k))); } }
@@ -5775,5 +5869,83 @@ const TIER=(()=>{
   }catch(e){ OGE.err&&OGE.err('tier sheet',e); } };
   plLaySync();
 }
+</script>
+<script>
+// ---------- Two sources (v210): a spot needs two independent sources agreeing on where it was before it can sit above C; checked-and-rejected spots show as F ----------
+// A source counts only when it places the spot: a plat book or fire map that draws it, an old topo that draws something at or within 200 m of the pin,
+// an air photo or LiDAR that shows the feature there, a GLO survey plat, a newspaper or county history that names the place. Map checks that found nothing don't count.
+// Sources copied from each other are one family: GNIS was read off the topo sheets, so GNIS and old topo count once; all websites together count once.
+// Parks, standing landmarks and your own My spots are left out (they are there to see). NEG holds spots from research/negatives.tsv marked rejected.
+const SRC2=(()=>{
+  const N={plat:'plat book',sanborn:'fire map',topo:'old USGS topo or place-name file',glo:'1840s-50s land survey',air:'old air photo',lidar:'LiDAR',news:'newspaper',hist:'county history or old book',reg:'official register (NRHP, MRDS, wreck list)',photo:'old photo',own:'your own notes or visit',stand:'still standing (NRHP)',osm:'today\'s map',web:'website',other:'another written source'};
+  const RULE=new Set(['gather','beach','flood84','camp','ghost','school','school2','vpo','history','treasure','lead','af15','af38','af64']); // not parks, landmarks, gold and geology, or your own My spots
+  const AUTO=/^USGS historical topographic maps, 1924-1958|^Wisconsin Historic Aerial Imagery Finder|^USGS 3DEP 1 m LiDAR|^USGS \d?DEP/; // added to every checked pin, found or not: the card text decides
+  const TI=[ // source titles -> family
+    [/^your /i,'own'],
+    [/sanborn|fire (insurance )?map/i,'sanborn'],
+    [/plat book|county plats|plat of |\batlas of\b|standard atlas|historical atlas|illustrated historical atlas|map of (the )?county|map of \w+ county|town plan|village plat|township plat/i,'plat'],
+    [/original government survey|general land office|survey plat|field notes/i,'glo'],
+    [/gnis|place-name|usgs .*\btopo|topographic/i,'topo'],
+    [/national register|nrhp|mineral resources data|mrds|wreck list|published wreck/i,'reg'],
+    [/newspaper|chronicling america|\b(leader|telegram|gazette|herald|journal|tribune|republican|democrat|free press|courier|sentinel|daily|weekly|messenger|times|news|record|telegraph|dispatch|enterprise|advocate|independent|reporter|argus|banner|chronicle|observer)\b/i,'news'],
+    [/history of|historical society|collections of|geographic names|ghost towns|discovering wisconsin|old books|centennial|curtiss-wedge|menacing waters|wisconsin lore|reminisc|district history|directory|memoir|biograph/i,'hist'],
+    [/openstreetmap|overture/i,'osm'],
+    [/website|wikipedia|treasure|\.com|\.org|rock chasing|cinematreasures|visit /i,'web']];
+  const PLATK=/^p[a-z]{1,3}\d\d$/;
+  const sents=t=>(t||'').split(/(?<=[.!?])\s+/);
+  function fams(p){
+    const f=new Set();
+    for(const k in p) if(PLATK.test(k)&&p[k]===1) f.add('plat');
+    if(p.sv78) f.add('plat'); if(p.sf||p.fr) f.add('sanborn'); if(p.gs) f.add('glo'); if(p.nw||p.c==='newspaper') f.add('news'); if(p.book) f.add('hist');
+    if(p.himg&&(!Array.isArray(p.himg)||p.himg.length)) f.add('photo');
+    if(p.p==='topo'||p.p==='gnis') f.add('topo'); if(p.p==='nrhp'||p.p==='mrds') f.add('reg'); if(p.p==='mylist') f.add('own');
+    for(const e of p.pinev||[]){ if(/plat book|township plat|village plat|town plan/i.test(e)) f.add('plat'); if(/fire map/i.test(e)) f.add('sanborn'); if(/original survey plat|^Survey plat/i.test(e)) f.add('glo'); if(/wreck list/i.test(e)) f.add('reg'); }
+    for(const s of p.src||[]){ const t=s[0]||''; if(AUTO.test(t)||!t.trim()) continue; const m=TI.find(x=>x[0].test(t)); if(m) f.add(m[1]); else if(!/census geocoder|^BLM PLSS|section boundaries/i.test(t)) f.add('other'); }
+    for(const s of sents(p.st)){
+      if(/topo map \([^)]*\) (draws|labels) (?!no |nothing)/.test(s)){ const m=s.match(/about (\d+) m [a-z-]+ of the pin/); if(!m||+m[1]<=200) f.add('topo'); }
+      if(/era USGS topo draws it at the pin|onto what the topo draws|placed from the [\w .'-]+ topographic map/i.test(s)) f.add('topo');
+      if(/^Air photo check[^:]*:/.test(s)){ // the photo has to show the feature on the pin (first part of the note) or within 60 m
+        const a=s.replace(/^[^:]*:\s*/,''), FT=/building|farmstead|farm\b|barn|house|dam\b|mill|school|church|cemetery|ruin|foundation|race\b|track|grandstand|pavilion|dock|depot|station|camp|yard/i;
+        if(!/^(no |nothing)/i.test(a)&&a.split(';').some((c,i)=>FT.test(c)&&(i===0&&!/\d+ m\b/.test(c)||+(c.match(/(\d+)(-\d+)? m\b/)||[])[1]<=60))) f.add('air'); }
+      if(/farmstead stands here on the \d+ air photo|photo shows a farmstead about/.test(s)) f.add('air');
+      if(/^Your [\w-]* ?aerials? (shows?|tell)/.test(s)) f.add('air');
+      if(/LiDAR shows (?!houses|a subdivision|no )[^.]*\b(on|at) the pin|cellar pit|foundation pit/.test(s)) f.add('lidar'); }
+    if(p.p==='nrhp'||(p.src||[]).some(s=>/national register|nrhp/i.test(s[0]||''))) f.add('stand'); // a listed building still standing is its own proof of place
+    if(f.size>1) f.delete('osm'); // today's map only names the place; it never adds a second old source
+    return [...f]; }
+  function get(p){ if(p._s2&&p._s2.n===p.st) return p._s2.v; const v=fams(p); p._s2={n:p.st,v}; return v; }
+  const applies=p=>RULE.has(p.L);
+  const one=p=>applies(p)&&get(p).length<2;
+  const neg=p=>typeof NEG==='object'&&NEG[p.id];
+  return {N,get,applies,one,neg,names:p=>get(p).map(k=>N[k])}; })();
+// research/negatives.tsv rows marked "rejected" whose spot is on the map: [date, who, reason, sources checked]
+const NEG=/*NEG*/{"cr-wabeno-bank-loot-1921": ["2026-10-30", "Court/probate thread", "The cache was found dug up and empty in July 1921; the gang probably moved the money", "La Crosse Tribune July 31 1921; court records; USGS 1 m LiDAR"], "tw-fountain-city-gold-bar-1913": ["2026-10-30", "Treasure-web thread", "Assayed at Madison: tin and copper worth about $1.50, a gold-brick swindler's prop", "newspapers.com clippings 1913"], "lc-t-whitehall-cave-7": ["2026-10-30", "County depth", "The 1924 cave is in Nelson Dewey State Park, Cassville (Grant Co.), so no Whitehall ledge can be it; parent pin moved", "Beloit Independent Sep 12 1924 p1; Milwaukee Journal Sep 7 1924"]}/*/NEG*/;
+{ const C=TIER.C, g0=TIER.get;
+  // tiers: one source caps at C; a rejected spot is F "checked, nothing". S rules are untouched.
+  TIER.get=function(p){ const b=g0(p); if(p._t2&&p._t2.b===b) return p._t2.v; let v=b;
+    const n=SRC2.neg(p);
+    if(n) v={t:'F',sc:b.sc,w:'Checked, nothing: '+n[2]+' ('+n[1]+', '+n[0]+')'};
+    else if(SRC2.one(p)&&TIER.IDX[b.t]<TIER.IDX.C) v={t:'C',sc:b.sc,w:'Unconfirmed, one source: held at C until a second source agrees on the place'+(b.w?'; '+b.w:'')};
+    p._t2={b,v}; return v; };
+  TIER.t=p=>TIER.get(p).t;
+  // the card: which sources place the spot, under the tier line
+  const rk0=rkHTML; rkHTML=function(p){ let h=rk0(p); try{
+    const n=SRC2.neg(p);
+    if(n) h=`<div class="tierwhy" style="border-color:${C.F}"><b>Checked, nothing.</b> ${esc(n[2].replace(/[.\s]*$/,'.'))} Checked by ${esc(n[1])} on ${esc(n[0])}${n[3]?' against '+esc(n[3]):''}. Kept on the map so nobody re-checks it; a new source can revive it.</div>`+h;
+    else if(SRC2.applies(p)){ const s=SRC2.names(p);
+      h+=s.length<2?`<div class="tierwhy src2" style="border-color:${C.C}"><b>Unconfirmed, one source.</b> ${s.length?'Only the '+esc(s[0])+' places this spot':'No old source places this spot yet'}. It stays at C or below until a second, independent source (old topo, air photo, LiDAR, fire map, plat book, survey plat, newspaper or county history) agrees on the place.</div>`
+        :`<div class="tierwhy src2" style="border-color:#7fbf7f"><b>Placed by ${s.length} sources:</b> ${esc(s.join(', '))}.</div>`; }
+  }catch(e){ OGE.err&&OGE.err('src2 card',e); } return h; };
+  // the layers sheet: how many spots on your layers rest on one source
+  const pl0=plLaySync; plLaySync=function(){ pl0(); try{ const hint=document.getElementById('tierHint'); if(!hint) return;
+    let one=0, all=0, ng=0; for(const p of PTS){ if(!on.has(p.L)) continue; if(SRC2.neg(p)) ng++; if(SRC2.applies(p)){ all++; if(SRC2.one(p)) one++; } }
+    let el=document.getElementById('src2Hint'); if(!el){ hint.insertAdjacentHTML('afterend','<p class="hint" id="src2Hint" style="margin:0"></p>'); el=document.getElementById('src2Hint'); }
+    el.textContent=all?`Unconfirmed: ${one.toLocaleString()} of ${all.toLocaleString()} history spots on your layers rest on one source, so they sit at C or below until a second source agrees.${ng?' '+ng+' checked and rejected (F).':''}`:'';
+  }catch(e){ OGE.err&&OGE.err('src2 sheet',e); } };
+  if(typeof RKV!=='undefined') RKV++; // drop the tier caches built before this block
+  plLaySync();
+  try{ renderList(); }catch(_){}
+}
+// ---------- end two sources
 </script>
 </body></html>
