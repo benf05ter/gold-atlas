@@ -1,0 +1,118 @@
+{
+"new": [
+{
+"id": "cd-swanson-menominee",
+"L": "ghost",
+"n": "Swanson: depot, store and post office hamlet (1912)",
+"la": 45.4747,
+"lo": -87.7087,
+"y": "by 1912",
+"pl": "NE 1/4 NW 1/4 sec. 36 T36N R28W (1912 atlas); GNIS Swanson",
+"co": "Menominee",
+"stt": "MI",
+"v": "Coins, depot and store losses",
+"c": "documented",
+"s": "unknown",
+"p": "gnis",
+"st": "The 1912 Menominee County atlas shows Swanson in the NE 1/4 of the NW 1/4 of sec. 36 T36N R28W, with a school, a depot, a post office and a general store. No other pin is within 1 km.",
+"t": "Find the depot, store and school lots on the atlas plate and a 1938-40 air photo; ask first.",
+"src": [
+[
+"Standard Atlas of Menominee County, Michigan (Geo. A. Ogle & Co., 1912), p. 39 and county plates, UMich Michigan County Histories & Atlases",
+"https://quod.lib.umich.edu/m/micounty/"
+],
+[
+"USGS GNIS (Michigan)",
+"https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Pin is the GNIS point; the atlas section agrees, but the buildings are not placed."
+]
+},
+{
+"id": "cd-koss-fisher-menominee",
+"L": "ghost",
+"n": "Koss (platted as Fisher): rail hamlet (1912)",
+"la": 45.3905,
+"lo": -87.7065,
+"y": "by 1912",
+"pl": "Corner of secs. 25/30/36/31, T35N R28W (1912 atlas); GNIS Koss",
+"co": "Menominee",
+"stt": "MI",
+"v": "Coins, depot and store losses",
+"c": "documented",
+"s": "unknown",
+"p": "gnis",
+"st": "The 1912 Menominee County atlas shows Koss, platted as Fisher, at the corner of secs. 25, 30, 36 and 31, T35N R28W. No other pin is within 1 km.",
+"t": "Find the depot, store and school lots on the atlas plate and a 1938-40 air photo; ask first.",
+"src": [
+[
+"Standard Atlas of Menominee County, Michigan (Geo. A. Ogle & Co., 1912), p. 39 and county plates, UMich Michigan County Histories & Atlases",
+"https://quod.lib.umich.edu/m/micounty/"
+],
+[
+"USGS GNIS (Michigan)",
+"https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Pin is the GNIS point; the atlas section agrees, but the buildings are not placed."
+]
+}
+],
+"edit": {
+"pe10-pond-sec-4-t26n-r9w": {
+"set": {},
+"st": " The Wisconsin DNR's removed-dam records list 'Washington Mill', a mill dam in the NW 1/4 of the NW 1/4 of sec. 4 T26N R9W (44.76792,-91.48511), about 100 m from this pin. So the 1910 pond is the Washington Mill's millpond, and the mill and dam ends are the ground to work.",
+"src": [
+[
+"Wisconsin DNR dam records (removed/abandoned dams export), via the PC thread",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+]
+},
+"mf-little-falls-dam": {
+"set": {},
+"st": " The Wisconsin DNR's removed-dam records list an 'Old Holcombe dam' in the NW 1/4 of the SW 1/4 of sec. 28 T32N R6W, about 300 m from this pin.",
+"src": [
+[
+"Wisconsin DNR dam records (removed/abandoned dams export), via the PC thread",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+]
+},
+"pbu15-trade-lake-sec-15-t37n-r18w": {
+"set": {},
+"st": " The Wisconsin DNR's removed-dam records list the Trade Lake Roller Mill dam in the SE 1/4 of the SE 1/4 of sec. 16 T37N R18W, about 400 m from this pin. The roller mill was part of the hamlet.",
+"src": [
+[
+"Wisconsin DNR dam records (removed/abandoned dams export), via the PC thread",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+]
+},
+"pmi98-nadeau-station": {
+"set": {},
+"st": " Second source, the 1912 Standard Atlas of Menominee County (p. 39), which prints a village plat of Nadeau in sec. 7 T37N R26W. A sawmill stood north of the village on a spur east of the C&NW, near Joe Nadeau's lot. S. J. Mathews' creamery was at the far northwest, west of the tracks. H. L. Lowenstein's planing mill was west of the tracks. The village had a depot, a post office on Main Street, a school, the Nadeau Home Club hall on the south line and St. Bruno Church, with the cemetery just south of the church in the SE 1/4 of the SE 1/4 of sec. 7, by the 7/8/17/18 section corner.",
+"src": [
+[
+"Standard Atlas of Menominee County, Michigan (Geo. A. Ogle & Co., 1912), p. 39 and county plates, UMich Michigan County Histories & Atlases",
+"https://quod.lib.umich.edu/m/micounty/"
+]
+]
+},
+"fr-ingalls-caldwell-log-cabin-dobeas-store-an": {
+"set": {},
+"st": " The 1912 Menominee County atlas plat of Ingalls (T35N R27W) shows Ira Carley's sawmill and mill pond on the Cedar River just north of the section corner at the south edge of the plat (probably near the south line of sec. 32; the numbers are hard to read), plus a co-op creamery and a school.",
+"src": [
+[
+"Standard Atlas of Menominee County, Michigan (Geo. A. Ogle & Co., 1912), p. 39 and county plates, UMich Michigan County Histories & Atlases",
+"https://quod.lib.umich.edu/m/micounty/"
+]
+]
+}
+}
+}
