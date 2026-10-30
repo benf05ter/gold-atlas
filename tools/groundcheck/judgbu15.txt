@@ -1,0 +1,181 @@
+bu000|0|N|at a road junction
+bu000|1|B 95 NW|by the road
+bu000|2|F|woods by a lake; no cemetery drawn
+bu000|3|K|cemetery outline at the pin
+bu000|4|N|open ground; no church drawn
+bu000|5|S 260 NW|M -220 136|School label beside the symbol
+bu000|6|N|the pin sits in the lake by the shore
+bu000|7|B 85 NE|at a road junction
+bu000|8|F|woods; L a winding ridge runs past the pin
+bu000|9|F|woods by a pond; L houses near it now
+bu000|10|N|open ground by the creek
+bu000|11|B 110 E|by the highway
+bu001|0|F|marsh under the Swan label
+bu001|1|N|open ground by the road
+bu001|2|S 215 NNW|M -140 162|School label beside the symbol
+bu001|3|F|woods
+bu001|4|N|open ground
+bu001|5|F|woods by a trail
+bu001|6|F|woods
+bu001|7|K 240 SE|M 180 -160|cemetery outline by the road
+bu001|8|F|marsh
+bu001|9|B 120 NE|by the road
+bu001|10|F|woods
+bu001|11|B 55 E|in woods; L a low ring of banks around the pin
+bu002|0|N|open ground
+bu002|1|N|open ground under an Evangelical Church label
+bu002|2|N|the pin sits in the lake
+bu002|3|F|woods at the edge of a marsh
+bu002|4|S 55 NW|M -44 36|School label beside the symbol
+bu002|5|F|woods by the road
+bu002|6|N|open ground by the road
+bu002|7|K|cemetery outline at the pin
+bu002|8|F|woods
+bu002|9|N|open ground by a marsh
+bu002|10|N|by a pond
+bu002|11|B 60 W|by the road
+bu003|0|N|in the cranberry beds the topo draws
+bu003|1|B 130 N|by the road
+bu003|2|K 40 E|cemetery outline by the road
+bu003|3|F|woods
+bu003|4|F|woods
+bu003|5|B 20 S|in town, buildings all around
+bu003|6|C 245 SE|M 200 -140|a church by the lake road
+bu003|7|K|cemetery outline at the pin
+bu003|8|N|under the Bluff Lake Cemetery label
+bu003|9|F|marsh
+bu003|10|C 160 W|M -160 -10|Wood River Church label beside the church
+bu003|11|F|marsh under the Mongola label
+bu004|0|N|open ground by the road; a cemetery label about 150 m west
+bu004|1|N|open ground
+bu004|2|N|the pin sits in the lake; buildings on the west shore about 240 m
+bu004|3|B 90 E|at the edge of Falun
+bu004|4|F|woods by a road junction
+bu004|5|F|woods
+bu004|6|F|woods by the river
+bu004|7|N|open ground by the creek
+bu004|8|S|School label beside the pin
+bu004|9|F|woods and marsh
+bu004|10|F|woods by a road; L several small round hollows about 150-250 m east, natural kettles or old pits
+bu004|11|B 75 E|Bethany Church label at the pin
+bu005|0|K 275 NE|M 190 202|cemetery cross beside the Freya Church label
+bu005|1|C 220 WNW|M -210 68|Freya Church label beside the church
+bu005|2|N|open ground; buildings about 180 m east
+bu005|3|F|woods at a road corner
+bu005|4|B 65 S|by the road junction
+bu005|5|F|woods
+bu005|6|S 20 N|School label beside the symbol at the pin
+bu005|7|F|woods by the creek
+bu005|8|N|open ground; no cemetery drawn
+bu005|9|B 50 W|by the creek
+bu005|10|N|by the road
+bu005|11|N|by a creek
+bu006|0|F|marsh meadow by the river
+bu006|1|F|woods by a trail
+bu006|2|B 135 SW|at a highway junction
+bu006|3|N|by the road under the Timberland label
+bu006|4|F|woods at the edge of a marsh
+bu006|5|F|marsh
+bu006|6|B 60 SW|by the road
+bu006|7|K|cemetery outline at the pin
+bu006|8|B 20 W|a row of buildings at the pin by the lake
+bu006|9|B 130 W|by the creek
+bu006|10|N|at the edge of woods; L a long straight bank about 180 m west
+bu006|11|N|by the road at the edge of woods; no cemetery drawn
+bu007|0|B 50 SW|by a road junction
+bu007|1|B 55 W|by the river road
+bu007|2|B 120 SW|by the road
+bu007|3|F|marsh edge
+bu007|4|N|open ground
+bu007|5|N|by the road; no cemetery drawn; L a square-banked enclosure about 150 m east, likely a modern pond
+bu007|6|N|open ground by the highway
+bu007|7|F|woods
+bu007|8|F|woods
+bu007|9|N|the pin sits in the lake
+bu007|10|F|woods
+bu007|11|F|woods; no cemetery drawn
+bu008|0|F|woods; a cemetery about 235 m south-south-east
+bu008|1|N|at a road corner; no cemetery drawn
+bu008|2|F|woods and marsh by a creek
+bu008|3|N|on the lake shore road
+bu008|4|N|the pin sits in the lake; buildings on the west shore about 210 m
+bu008|5|B 150 NE|by the highway
+bu008|6|F|woods
+bu008|7|B 40 S|at a crossroads hamlet
+bu008|8|B 75 NW|by a lane
+bu008|9|N|open ground at a crossroads; L a large dug area, likely a gravel pit, starts about 40 m south
+bu008|10|B 135 N|by the road
+bu008|11|S 95 NW|M -84 44|School label beside the symbol
+bu009|0|F|woods
+bu009|1|N|open ground by a marsh
+bu009|2|F|woods north of the Maple Grove label
+bu009|3|N|open ground
+bu009|4|B 75 W|by the road
+bu009|5|S 135 E|M 134 0|School label beside the symbol
+bu009|6|F|marsh by the highway
+bu009|7|K|cemetery outline at the pin
+bu009|8|S 70 W|M -70 0|School label beside the symbol
+bu009|9|N|open ground at a marsh edge
+bu009|10|F|woods above a creek
+bu009|11|S|Jackson School label at the pin
+bu010|0|N|by the highway near the lake; L houses along the shore now
+bu010|1|F|woods
+bu010|2|F|woods
+bu010|3|F|woods at a road junction
+bu010|4|F|marsh along the river bottom; L a bluff edge about 200 m south
+bu010|5|N|the pin sits in the lake
+bu010|6|S 90 N|M 10 90|School label beside the symbol
+bu010|7|N|on the lake shore road
+bu010|8|B 120 NNE|by the highway
+bu010|9|N|open ground by a creek
+bu010|10|B 85 SW|by the road
+bu010|11|F|woods
+bu011|0|F|by a creek in woods
+bu011|1|F|marsh
+bu011|2|F|woods at the edge of a marsh
+bu011|3|F|woods; no cemetery drawn
+bu011|4|N|by a creek; no cemetery drawn
+bu011|5|N|open ground below a Grove School label
+bu011|6|N|open ground
+bu011|7|N|on the county road
+bu011|8|F|woods at a road junction
+bu011|9|N|open ground
+bu011|10|S 10 W|School label beside the symbol at the pin
+bu011|11|N|open ground
+bu012|0|N|open ground; no cemetery drawn
+bu012|1|N|at the edge of woods
+bu012|2|K|cemetery outline at the pin
+bu012|3|B 110 ESE|by the road
+bu012|4|N|open ground by the road
+bu012|5|N|open ground
+bu012|6|F|woods by a small pond
+bu012|7|B 130 W|no cemetery drawn
+bu012|8|F|woods by the river
+bu012|9|N|by the highway on the lake shore; no cemetery drawn
+bu012|10|N|under the South Dewey School label
+bu012|11|N|the pin sits in a pond; a building about 180 m north-east
+bu013|0|F|marsh
+bu013|1|N|beside the old railroad grade below the bluff
+bu013|2|N|by a creek below the bluff; no cemetery drawn
+bu013|3|B 30 NE|by the road
+bu013|4|F|woods by the lake
+bu013|5|F|woods; no cemetery drawn
+bu013|6|F|woods
+bu013|7|F|woods by the road
+bu013|8|B 110 N|by the road
+bu013|9|F|marsh by the road
+bu013|10|S 300 SE|M 180 -236|School label beside the symbol
+bu013|11|F|marsh
+bu014|0|B 85 ESE|at a crossroads
+bu014|1|F|marsh
+bu014|2|F|marsh
+bu014|3|B 95 SE|by the lake road
+bu014|4|B 110 NE|by the lake road
+bu014|5|B 85 NE|by the highway
+bu014|6|N|at a road
+bu014|7|F|woods by the creek
+bu014|8|N|open ground by the road
+bu014|9|B 105 NE|by the road
+bu014|10|N|open ground
+bu014|11|F|woods by a small lake
+bu015|0|B 60 N|by the road
