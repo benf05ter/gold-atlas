@@ -1,0 +1,2767 @@
+{
+"new": [
+{
+"id": "ot-trinity-church-s21-t33n-r17w",
+"L": "school2",
+"n": "Trinity Church site (Balsam Lake 1950 topo)",
+"la": 45.32974,
+"lo": -92.48966,
+"y": "by 1950",
+"pl": "sec. 21 T33N R17W, Polk Co.",
+"co": "Polk",
+"stt": "WI",
+"v": "Coins, religious medals, buttons, jewelry from church socials and picnics",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1950 USGS topo map (Balsam Lake 15-minute sheet) draws Trinity Church here (church symbol, sec. 21 T33N R17W). No second source found yet; 3 buildings within 60 m today (it may still stand, or a newer house took its place).",
+"t": "Look for the level church pad, fieldstone foundation corners, lilacs or old spruce, and the horse-shed line. If there is a churchyard cemetery, search only outside it. Ask the landowner first.",
+"src": [
+[
+"USGS Balsam Lake topographic map (1950)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Balsam Lake 1950 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-beckwith-school-s26-t34n-r12w",
+"L": "school",
+"n": "Beckwith School site (Barron 1951 topo)",
+"la": 45.40047,
+"lo": -91.81781,
+"y": "by 1951",
+"pl": "sec. 26 T34N R12W, Barron Co.",
+"co": "Barron",
+"stt": "WI",
+"v": "Coins, buttons, pencil caps, toys and slate pieces",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1951 USGS topo map (Barron 15-minute sheet) draws Beckwith School here (school symbol, sec. 26 T34N R12W). No second source found yet; 3 buildings within 60 m today (it may still stand, or a newer house took its place). The USGS place-name file also lists it (GNIS 1837883), but that list was taken from the topo maps, so it counts as the same source.",
+"t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+"src": [
+[
+"USGS Barron topographic map (1951)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Barron 1951 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-coomer-school-s29-t38n-r15w",
+"L": "school",
+"n": "Coomer School site (Cumberland 1951 topo)",
+"la": 45.74898,
+"lo": -92.24621,
+"y": "by 1951",
+"pl": "sec. 29 T38N R15W, Polk Co.",
+"co": "Polk",
+"stt": "WI",
+"v": "Coins, buttons, pencil caps, toys and slate pieces",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1951 USGS topo map (Cumberland 15-minute sheet) draws Coomer School here (school symbol, sec. 29 T38N R15W). No second source found yet; 3 buildings within 60 m today (it may still stand, or a newer house took its place).",
+"t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+"src": [
+[
+"USGS Cumberland topographic map (1951)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Cumberland 1951 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-shady-dell-school-s29-t37n-r15w",
+"L": "school",
+"n": "Shady Dell School site (Cumberland 1951 topo)",
+"la": 45.65912,
+"lo": -92.24913,
+"y": "by 1951",
+"pl": "sec. 29 T37N R15W, Polk Co.",
+"co": "Polk",
+"stt": "WI",
+"v": "Coins, buttons, pencil caps, toys and slate pieces",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1951 USGS topo map (Cumberland 15-minute sheet) draws Shady Dell School here (school symbol, sec. 29 T37N R15W). No second source found yet; no building within 60 m today.",
+"t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+"src": [
+[
+"USGS Cumberland topographic map (1951)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Cumberland 1951 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-east-pine-lake-school-s5-t29n-r16w",
+"L": "school",
+"n": "East Pine Lake School site (Deer Park 1950 topo)",
+"la": 45.0239,
+"lo": -92.35884,
+"y": "by 1950",
+"pl": "sec. 5 T29N R16W, St. Croix Co.",
+"co": "St. Croix",
+"stt": "WI",
+"v": "Coins, buttons, pencil caps, toys and slate pieces",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1950 USGS topo map (Deer Park 15-minute sheet) draws East Pine Lake School here (school symbol, sec. 5 T29N R16W). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place). The USGS place-name file also lists it (GNIS 1831643), but that list was taken from the topo maps, so it counts as the same source.",
+"t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+"src": [
+[
+"USGS Deer Park topographic map (1950)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Deer Park 1950 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-maple-valley-school-s26-t37n-r16w",
+"L": "school",
+"n": "Maple Valley School site (Frederic 1951 topo)",
+"la": 45.66497,
+"lo": -92.32401,
+"y": "by 1951",
+"pl": "sec. 26 T37N R16W, Polk Co.",
+"co": "Polk",
+"stt": "WI",
+"v": "Coins, buttons, pencil caps, toys and slate pieces",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1951 USGS topo map (Frederic 15-minute sheet) draws Maple Valley School here (school symbol, sec. 26 T37N R16W). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+"t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+"src": [
+[
+"USGS Frederic topographic map (1951)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Frederic 1951 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-red-brick-school-s25-t30n-r4w",
+"L": "school",
+"n": "Red Brick School site (Gilman 1951 topo)",
+"la": 45.0466,
+"lo": -90.81993,
+"y": "by 1951",
+"pl": "sec. 25 T30N R4W, Taylor Co.",
+"co": "Taylor",
+"stt": "WI",
+"v": "Coins, buttons, pencil caps, toys and slate pieces",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1951 USGS topo map (Gilman 15-minute sheet) draws Red Brick School here (school symbol, sec. 25 T30N R4W). No second source found yet; 3 buildings within 60 m today (it may still stand, or a newer house took its place). The USGS place-name file also lists it (GNIS 1833659), but that list was taken from the topo maps, so it counts as the same source.",
+"t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+"src": [
+[
+"USGS Gilman topographic map (1951)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Gilman 1951 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-russian-church-s5-t29n-r3w",
+"L": "school2",
+"n": "Russian Church site (Gilman 1951 topo)",
+"la": 45.03105,
+"lo": -90.78028,
+"y": "by 1951",
+"pl": "sec. 5 T29N R3W, Taylor Co.",
+"co": "Taylor",
+"stt": "WI",
+"v": "Coins, religious medals, buttons, jewelry from church socials and picnics",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1951 USGS topo map (Gilman 15-minute sheet) draws Russian Church here (church symbol, sec. 5 T29N R3W). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+"t": "Look for the level church pad, fieldstone foundation corners, lilacs or old spruce, and the horse-shed line. If there is a churchyard cemetery, search only outside it. Ask the landowner first.",
+"src": [
+[
+"USGS Gilman topographic map (1951)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Gilman 1951 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-pioneer-school-s26-t36n-r4w",
+"L": "school",
+"n": "Pioneer School site (Ingram 1945 topo)",
+"la": 45.56734,
+"lo": -90.83664,
+"y": "by 1945",
+"pl": "sec. 26 T36N R4W, Rusk Co.",
+"co": "Rusk",
+"stt": "WI",
+"v": "Coins, buttons, pencil caps, toys and slate pieces",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1945 USGS topo map (Ingram 15-minute sheet) draws Pioneer School here (school symbol, sec. 26 T36N R4W). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+"t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+"src": [
+[
+"USGS Ingram topographic map (1945)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Ingram 1945 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-riley-school-s24-t35n-r2w",
+"L": "school",
+"n": "Riley School site (Jump River Fire Tower 1949 topo)",
+"la": 45.49369,
+"lo": -90.57582,
+"y": "by 1949",
+"pl": "sec. 24 T35N R2W, Price Co.",
+"co": "Price",
+"stt": "WI",
+"v": "Coins, buttons, pencil caps, toys and slate pieces",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1949 USGS topo map (Jump River Fire Tower 15-minute sheet) draws Riley School here (school symbol, sec. 24 T35N R2W). No second source found yet; no building within 60 m today.",
+"t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+"src": [
+[
+"USGS Jump River Fire Tower topographic map (1949)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Jump River Fire Tower 1949 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-pleasant-view-school-s3-t34n-r7w",
+"L": "school",
+"n": "Pleasant View School site (Ladysmith 1948 topo)",
+"la": 45.45015,
+"lo": -91.23496,
+"y": "by 1948",
+"pl": "sec. 3 T34N R7W, Rusk Co.",
+"co": "Rusk",
+"stt": "WI",
+"v": "Coins, buttons, pencil caps, toys and slate pieces",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1948 USGS topo map (Ladysmith 15-minute sheet) draws Pleasant View School here (school symbol, sec. 3 T34N R7W). No second source found yet; 6 buildings within 60 m today (it may still stand, or a newer house took its place).",
+"t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+"src": [
+[
+"USGS Ladysmith topographic map (1948)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Ladysmith 1948 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-bollman-school-45-364-91-217",
+"L": "school",
+"n": "Bollman School site (Ladysmith 1948 topo)",
+"la": 45.36396,
+"lo": -91.21667,
+"y": "by 1948",
+"pl": "Rusk Co.",
+"co": "Rusk",
+"stt": "WI",
+"v": "Coins, buttons, pencil caps, toys and slate pieces",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1948 USGS topo map (Ladysmith 15-minute sheet) draws Bollman School here (school symbol, ). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place). The USGS place-name file also lists it (GNIS 1867768), but that list was taken from the topo maps, so it counts as the same source.",
+"t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+"src": [
+[
+"USGS Ladysmith topographic map (1948)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Ladysmith 1948 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-center-school-s15-t33n-r6w",
+"L": "school",
+"n": "Center School site (Ladysmith 1948 topo)",
+"la": 45.34237,
+"lo": -91.11039,
+"y": "by 1948",
+"pl": "sec. 15 T33N R6W, Rusk Co.",
+"co": "Rusk",
+"stt": "WI",
+"v": "Coins, buttons, pencil caps, toys and slate pieces",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1948 USGS topo map (Ladysmith 15-minute sheet) draws Center School here (school symbol, sec. 15 T33N R6W). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+"t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+"src": [
+[
+"USGS Ladysmith topographic map (1948)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Ladysmith 1948 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-larson-school-s5-t30n-r1w",
+"L": "school",
+"n": "Larson School site (Lublin 1951 topo)",
+"la": 45.10374,
+"lo": -90.51668,
+"y": "by 1951",
+"pl": "sec. 5 T30N R1W, Taylor Co.",
+"co": "Taylor",
+"stt": "WI",
+"v": "Coins, buttons, pencil caps, toys and slate pieces",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1951 USGS topo map (Lublin 15-minute sheet) draws Larson School here (school symbol, sec. 5 T30N R1W). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+"t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+"src": [
+[
+"USGS Lublin topographic map (1951)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Lublin 1951 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-pine-creek-school-s17-t30n-r1w",
+"L": "school",
+"n": "Pine Creek School site (Lublin 1951 topo)",
+"la": 45.07478,
+"lo": -90.53523,
+"y": "by 1951",
+"pl": "sec. 17 T30N R1W, Taylor Co.",
+"co": "Taylor",
+"stt": "WI",
+"v": "Coins, buttons, pencil caps, toys and slate pieces",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1951 USGS topo map (Lublin 15-minute sheet) draws Pine Creek School here (school symbol, sec. 17 T30N R1W). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+"t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+"src": [
+[
+"USGS Lublin topographic map (1951)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Lublin 1951 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-redville-school-s34-t30n-r2w",
+"L": "school",
+"n": "Redville School site (Lublin 1951 topo)",
+"la": 45.04471,
+"lo": -90.59893,
+"y": "by 1951",
+"pl": "sec. 34 T30N R2W, Taylor Co.",
+"co": "Taylor",
+"stt": "WI",
+"v": "Coins, buttons, pencil caps, toys and slate pieces",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1951 USGS topo map (Lublin 15-minute sheet) draws Redville School here (school symbol, sec. 34 T30N R2W). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+"t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+"src": [
+[
+"USGS Lublin topographic map (1951)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Lublin 1951 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-pioneer-school-s36-t37n-r11w",
+"L": "school",
+"n": "Pioneer School site (Rice Lake 1949 topo)",
+"la": 45.64944,
+"lo": -91.68161,
+"y": "by 1949",
+"pl": "sec. 36 T37N R11W, Washburn Co.",
+"co": "Washburn",
+"stt": "WI",
+"v": "Coins, buttons, pencil caps, toys and slate pieces",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1949 USGS topo map (Rice Lake 15-minute sheet) draws Pioneer School here (school symbol, sec. 36 T37N R11W). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+"t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+"src": [
+[
+"USGS Rice Lake topographic map (1949)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Rice Lake 1949 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-wilson-center-school-s20-t36n-r9w",
+"L": "school",
+"n": "Wilson Center School site (Rice Lake 1949 topo)",
+"la": 45.59343,
+"lo": -91.50934,
+"y": "by 1949",
+"pl": "sec. 20 T36N R9W, Barron Co.",
+"co": "Barron",
+"stt": "WI",
+"v": "Coins, buttons, pencil caps, toys and slate pieces",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1949 USGS topo map (Rice Lake 15-minute sheet) draws Wilson Center School here (school symbol, sec. 20 T36N R9W). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+"t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+"src": [
+[
+"USGS Rice Lake topographic map (1949)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Rice Lake 1949 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-elmwood-school-s36-t36n-r11w",
+"L": "school",
+"n": "Elmwood School site (Rice Lake 1949 topo)",
+"la": 45.55915,
+"lo": -91.68247,
+"y": "by 1949",
+"pl": "sec. 36 T36N R11W, Barron Co.",
+"co": "Barron",
+"stt": "WI",
+"v": "Coins, buttons, pencil caps, toys and slate pieces",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1949 USGS topo map (Rice Lake 15-minute sheet) draws Elmwood School here (school symbol, sec. 36 T36N R11W). No second source found yet; no building within 60 m today.",
+"t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+"src": [
+[
+"USGS Rice Lake topographic map (1949)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Rice Lake 1949 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-oak-grove-school-s9-t34n-r5w",
+"L": "school",
+"n": "Oak Grove School site (Sheldon 1947 topo)",
+"la": 45.44484,
+"lo": -90.997,
+"y": "by 1947",
+"pl": "sec. 9 T34N R5W, Rusk Co.",
+"co": "Rusk",
+"stt": "WI",
+"v": "Coins, buttons, pencil caps, toys and slate pieces",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1947 USGS topo map (Sheldon 15-minute sheet) draws Oak Grove School here (school symbol, sec. 9 T34N R5W). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+"t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+"src": [
+[
+"USGS Sheldon topographic map (1947)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Sheldon 1947 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-mennonite-church-s3-t33n-r5w",
+"L": "school2",
+"n": "Mennonite Church site (Sheldon 1947 topo)",
+"la": 45.36848,
+"lo": -90.98612,
+"y": "by 1947",
+"pl": "sec. 3 T33N R5W, Rusk Co.",
+"co": "Rusk",
+"stt": "WI",
+"v": "Coins, religious medals, buttons, jewelry from church socials and picnics",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1947 USGS topo map (Sheldon 15-minute sheet) draws Mennonite Church here (church symbol, sec. 3 T33N R5W). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+"t": "Look for the level church pad, fieldstone foundation corners, lilacs or old spruce, and the horse-shed line. If there is a churchyard cemetery, search only outside it. Ask the landowner first.",
+"src": [
+[
+"USGS Sheldon topographic map (1947)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Sheldon 1947 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-linden-school-s11-t33n-r5w",
+"L": "school",
+"n": "Linden School site (Sheldon 1947 topo)",
+"la": 45.36145,
+"lo": -90.96584,
+"y": "by 1947",
+"pl": "sec. 11 T33N R5W, Rusk Co.",
+"co": "Rusk",
+"stt": "WI",
+"v": "Coins, buttons, pencil caps, toys and slate pieces",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1947 USGS topo map (Sheldon 15-minute sheet) draws Linden School here (school symbol, sec. 11 T33N R5W). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+"t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+"src": [
+[
+"USGS Sheldon topographic map (1947)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Sheldon 1947 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-riverdale-school-s29-t33n-r4w",
+"L": "school",
+"n": "Riverdale School site (Sheldon 1947 topo)",
+"la": 45.31453,
+"lo": -90.90368,
+"y": "by 1947",
+"pl": "sec. 29 T33N R4W, Rusk Co.",
+"co": "Rusk",
+"stt": "WI",
+"v": "Coins, buttons, pencil caps, toys and slate pieces",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1947 USGS topo map (Sheldon 15-minute sheet) draws Riverdale School here (school symbol, sec. 29 T33N R4W). No second source found yet; no building within 60 m today.",
+"t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+"src": [
+[
+"USGS Sheldon topographic map (1947)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Sheldon 1947 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-wood-prairie-school-s30-t33n-r3w",
+"L": "school",
+"n": "Wood Prairie School site (Sheldon 1947 topo)",
+"la": 45.31294,
+"lo": -90.78316,
+"y": "by 1947",
+"pl": "sec. 30 T33N R3W, Taylor Co.",
+"co": "Taylor",
+"stt": "WI",
+"v": "Coins, buttons, pencil caps, toys and slate pieces",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1947 USGS topo map (Sheldon 15-minute sheet) draws Wood Prairie School here (school symbol, sec. 30 T33N R3W). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+"t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+"src": [
+[
+"USGS Sheldon topographic map (1947)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Sheldon 1947 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-silver-lake-school-s26-t36n-r13w",
+"L": "school",
+"n": "Silver Lake School site (Shell Lake 1951 topo)",
+"la": 45.57194,
+"lo": -91.93544,
+"y": "by 1951",
+"pl": "sec. 26 T36N R13W, Barron Co.",
+"co": "Barron",
+"stt": "WI",
+"v": "Coins, buttons, pencil caps, toys and slate pieces",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1951 USGS topo map (Shell Lake 15-minute sheet) draws Silver Lake School here (school symbol, sec. 26 T36N R13W). No second source found yet; no building within 60 m today.",
+"t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+"src": [
+[
+"USGS Shell Lake topographic map (1951)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Shell Lake 1951 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-pipe-lake-church-s26-t35n-r15w",
+"L": "school2",
+"n": "Pipe Lake Church site (Turtle Lake 1950 topo)",
+"la": 45.49539,
+"lo": -92.19666,
+"y": "by 1950",
+"pl": "sec. 26 T35N R15W, Polk Co.",
+"co": "Polk",
+"stt": "WI",
+"v": "Coins, religious medals, buttons, jewelry from church socials and picnics",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1950 USGS topo map (Turtle Lake 15-minute sheet) draws Pipe Lake Church here (church symbol, sec. 26 T35N R15W). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+"t": "Look for the level church pad, fieldstone foundation corners, lilacs or old spruce, and the horse-shed line. If there is a churchyard cemetery, search only outside it. Ask the landowner first.",
+"src": [
+[
+"USGS Turtle Lake topographic map (1950)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Turtle Lake 1950 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-sunny-slope-school-s32-t33n-r14w",
+"L": "school",
+"n": "Sunny Slope School site (Turtle Lake 1950 topo)",
+"la": 45.30883,
+"lo": -92.12596,
+"y": "by 1950",
+"pl": "sec. 32 T33N R14W, Barron Co.",
+"co": "Barron",
+"stt": "WI",
+"v": "Coins, buttons, pencil caps, toys and slate pieces",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1950 USGS topo map (Turtle Lake 15-minute sheet) draws Sunny Slope School here (school symbol, sec. 32 T33N R14W). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+"t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+"src": [
+[
+"USGS Turtle Lake topographic map (1950)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Turtle Lake 1950 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-silver-church-s26-t33n-r14w",
+"L": "school2",
+"n": "Silver Church site (Turtle Lake 1950 topo)",
+"la": 45.31029,
+"lo": -92.06295,
+"y": "by 1950",
+"pl": "sec. 26 T33N R14W, Barron Co.",
+"co": "Barron",
+"stt": "WI",
+"v": "Coins, religious medals, buttons, jewelry from church socials and picnics",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1950 USGS topo map (Turtle Lake 15-minute sheet) draws Silver Church here (church symbol, sec. 26 T33N R14W). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+"t": "Look for the level church pad, fieldstone foundation corners, lilacs or old spruce, and the horse-shed line. If there is a churchyard cemetery, search only outside it. Ask the landowner first.",
+"src": [
+[
+"USGS Turtle Lake topographic map (1950)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Turtle Lake 1950 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "ot-st-philips-church-s33-t33n-r15w",
+"L": "school2",
+"n": "St. Philips Church site (Turtle Lake 1950 topo)",
+"la": 45.30551,
+"lo": -92.23954,
+"y": "by 1950",
+"pl": "sec. 33 T33N R15W, Polk Co.",
+"co": "Polk",
+"stt": "WI",
+"v": "Coins, religious medals, buttons, jewelry from church socials and picnics",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "The 1950 USGS topo map (Turtle Lake 15-minute sheet) draws St. Philips Church here (church symbol, sec. 33 T33N R15W). No second source found yet; no building within 60 m today.",
+"t": "Look for the level church pad, fieldstone foundation corners, lilacs or old spruce, and the horse-shed line. If there is a churchyard cemetery, search only outside it. Ask the landowner first.",
+"src": [
+[
+"USGS Turtle Lake topographic map (1950)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the Turtle Lake 1950 topo symbol (old-maps-over-today pass); good to about 50 m",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-4072-levis-mill",
+"L": "vpo",
+"n": "Levis Mill (removed dam, Jackson Co.)",
+"la": 44.31127,
+"lo": -90.82405,
+"y": "",
+"pl": "Jackson County, Wisconsin",
+"co": "Jackson",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Levis Mill on Levis Creek (removed 1914; DNR status removed). Look for the old mill race, foundation stones and the drained millpond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-4075-woolen-mill",
+"L": "vpo",
+"n": "Woolen Mill (removed dam, Jackson Co.)",
+"la": 44.28916,
+"lo": -90.90096,
+"y": "",
+"pl": "Jackson County, Wisconsin",
+"co": "Jackson",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Woolen Mill on Kenyon Creek (removed 1914; DNR status removed). Look for the old mill race, foundation stones and the drained millpond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-4078-edmond-s-sash-and-door-mill",
+"L": "vpo",
+"n": "Edmond's sash and door mill (removed dam, Jackson Co.)",
+"la": 44.26431,
+"lo": -90.85635,
+"y": "",
+"pl": "Jackson County, Wisconsin",
+"co": "Jackson",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Edmond's sash and door mill on Perry Creek (removed 1914; DNR status removed). Look for the old mill race, foundation stones and the drained millpond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-4082-saw-mill",
+"L": "vpo",
+"n": "Saw Mill (removed dam, Jackson Co.)",
+"la": 44.25822,
+"lo": -90.84181,
+"y": "",
+"pl": "Jackson County, Wisconsin",
+"co": "Jackson",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Saw Mill on Perry Creek (removed 1914; DNR status removed). Look for the old mill race, foundation stones and the drained millpond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-4089-lyon-s-mill",
+"L": "vpo",
+"n": "Lyon's Mill (removed dam, Jackson Co.)",
+"la": 44.48515,
+"lo": -90.83244,
+"y": "",
+"pl": "Jackson County, Wisconsin",
+"co": "Jackson",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Lyon's Mill on an unnamed stream (removed 1914; DNR status removed). Look for the old mill race, foundation stones and the drained millpond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-3866-cream-mill",
+"L": "vpo",
+"n": "Cream Mill (removed dam, Buffalo Co.)",
+"la": 44.30309,
+"lo": -91.76862,
+"y": "",
+"pl": "Buffalo County, Wisconsin",
+"co": "Buffalo",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Cream Mill on Little Waumandee Creek (removed 1919; DNR status removed). Look for the old mill race, foundation stones and the drained millpond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-3933-robert-schofields",
+"L": "vpo",
+"n": "Robert Schofields (removed dam, Clark Co.)",
+"la": 44.85264,
+"lo": -90.60843,
+"y": "",
+"pl": "Clark County, Wisconsin",
+"co": "Clark",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Robert Schofields on an unnamed stream (date not recorded; DNR status removed). Look for the old mill race, foundation stones and the drained millpond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-4010-planing-mill",
+"L": "vpo",
+"n": "Planing Mill (removed dam, Eau Claire Co.)",
+"la": 44.68114,
+"lo": -91.13496,
+"y": "",
+"pl": "Eau Claire County, Wisconsin",
+"co": "Eau Claire",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Planing Mill on First Trestle Creek (removed 1961; DNR status removed). Look for the old mill race, foundation stones and the drained millpond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-4023-coolie-lake",
+"L": "vpo",
+"n": "Coolie Lake (removed dam, Eau Claire Co.)",
+"la": 44.75121,
+"lo": -91.58409,
+"y": "",
+"pl": "Eau Claire County, Wisconsin",
+"co": "Eau Claire",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Coolie Lake on an unnamed stream (removed 1940; DNR status removed). Look for the old dam footing and the drained pond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-4260-el-paso-grist-mill",
+"L": "vpo",
+"n": "El Paso Grist Mill (removed dam, Pierce Co.)",
+"la": 44.78905,
+"lo": -92.36598,
+"y": "",
+"pl": "Pierce County, Wisconsin",
+"co": "Pierce",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: El Paso Grist Mill on Rush River (removed 1932; DNR status removed). Look for the old mill race, foundation stones and the drained millpond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-4261-forest-mill",
+"L": "vpo",
+"n": "Forest Mill (removed dam, Pierce Co.)",
+"la": 44.71912,
+"lo": -92.57597,
+"y": "",
+"pl": "Pierce County, Wisconsin",
+"co": "Pierce",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Forest Mill on Trimbelle River (removed 1922; DNR status removed). Look for the old mill race, foundation stones and the drained millpond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-4262-rush-river-power",
+"L": "vpo",
+"n": "Rush River Power (removed dam, Pierce Co.)",
+"la": 44.74986,
+"lo": -92.3352,
+"y": "",
+"pl": "Pierce County, Wisconsin",
+"co": "Pierce",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Rush River Power on Rush River (removed 1922; DNR status removed). Look for the old dam footing and the drained pond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-3860-olaf-rod",
+"L": "vpo",
+"n": "Olaf Rod (removed dam, Buffalo Co.)",
+"la": 44.47762,
+"lo": -91.60794,
+"y": "",
+"pl": "Buffalo County, Wisconsin",
+"co": "Buffalo",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Olaf Rod on an unnamed stream (removed 1906; DNR status removed). Look for the old dam footing and the drained pond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-4091-wonewoc-mill",
+"L": "vpo",
+"n": "Wonewoc Mill (removed dam, Juneau Co.)",
+"la": 43.65536,
+"lo": -90.22623,
+"y": "",
+"pl": "Juneau County, Wisconsin",
+"co": "Juneau",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Wonewoc Mill on Baraboo River (removed 1996; DNR status removed). Look for the old mill race, foundation stones and the drained millpond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-3890-durchs",
+"L": "vpo",
+"n": "Durchs (removed dam, Chippewa Co.)",
+"la": 45.12318,
+"lo": -91.42801,
+"y": "",
+"pl": "Chippewa County, Wisconsin",
+"co": "Chippewa",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Durchs on McCann Creek (removed 1934; DNR status removed). Look for the old mill race, foundation stones and the drained millpond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-4154-wausau-paper-mills",
+"L": "vpo",
+"n": "Wausau Paper Mills (removed dam, Marathon Co.)",
+"la": 45.0227,
+"lo": -89.65454,
+"y": "",
+"pl": "Marathon County, Wisconsin",
+"co": "Marathon",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Wausau Paper Mills on Wisconsin River (first dam 1883, removed 1990; DNR status removed). Look for the old mill race, foundation stones and the drained millpond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-4158-mcmillan-and-brothers",
+"L": "vpo",
+"n": "MCMILLAN AND BROTHERS (removed dam, Marathon Co.)",
+"la": 44.72999,
+"lo": -90.1798,
+"y": "",
+"pl": "Marathon County, Wisconsin",
+"co": "Marathon",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: MCMILLAN AND BROTHERS on Little Eau Pleine River (removed 1918; DNR status removed). Look for the old mill race, foundation stones and the drained millpond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-29-mound-plant",
+"L": "vpo",
+"n": "Mound Plant (removed dam, St. Croix Co.)",
+"la": 45.02773,
+"lo": -92.64864,
+"y": "",
+"pl": "St. Croix County, Wisconsin",
+"co": "St. Croix",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Mound Plant on Willow River (first dam 1925, removed 1997; DNR status removed). Look for the old dam footing and the drained pond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-20-prairie-dells",
+"L": "vpo",
+"n": "Prairie Dells (removed dam, Lincoln Co.)",
+"la": 45.25603,
+"lo": -89.56276,
+"y": "",
+"pl": "Lincoln County, Wisconsin",
+"co": "Lincoln",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Prairie Dells on PRAIRIE (first dam 1905, removed 1992; DNR status removed). Look for the old dam footing and the drained pond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-4749-vermillion-river-ewha-dike-1",
+"L": "vpo",
+"n": "Vermillion River Ewha Dike #1 (removed dam, Barron Co.)",
+"la": 45.47917,
+"lo": -91.96684,
+"y": "",
+"pl": "Barron County, Wisconsin",
+"co": "Barron",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Vermillion River Ewha Dike #1 on Vermillion River (date not recorded; DNR status not on landscape). Look for the old mill race, foundation stones and the drained millpond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-4366-sawyer",
+"L": "vpo",
+"n": "Sawyer (removed dam, Taylor Co.)",
+"la": 45.03425,
+"lo": -90.64267,
+"y": "",
+"pl": "Taylor County, Wisconsin",
+"co": "Taylor",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Sawyer on Black River (removed 1914; DNR status removed). Look for the old mill race, foundation stones and the drained millpond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-4361-sour-bread",
+"L": "vpo",
+"n": "Sour Bread (removed dam, Sawyer Co.)",
+"la": 45.87088,
+"lo": -90.93962,
+"y": "",
+"pl": "Sawyer County, Wisconsin",
+"co": "Sawyer",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Sour Bread on Brunet River (removed 1906; DNR status removed). Look for the old dam footing and the drained pond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-4473-unknown",
+"L": "vpo",
+"n": "Unknown (removed dam, Sawyer Co.)",
+"la": 45.71196,
+"lo": -91.26442,
+"y": "",
+"pl": "Sawyer County, Wisconsin",
+"co": "Sawyer",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Unknown on an unnamed stream (removed 1914; DNR status removed). Look for the old dam footing and the drained pond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-4475-unknown",
+"L": "vpo",
+"n": "Unknown (removed dam, Sawyer Co.)",
+"la": 45.6647,
+"lo": -91.26912,
+"y": "",
+"pl": "Sawyer County, Wisconsin",
+"co": "Sawyer",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Unknown on Swan Creek (removed 1914; DNR status removed). Look for the old dam footing and the drained pond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-174-ridler",
+"L": "vpo",
+"n": "Ridler (removed dam, Polk Co.)",
+"la": 45.39636,
+"lo": -92.36385,
+"y": "",
+"pl": "Polk County, Wisconsin",
+"co": "Polk",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Ridler on Apple River (first dam 1910, removed 2009; DNR status removed). Look for the old dam footing and the drained pond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-3875-trade-river-flour-and-feed",
+"L": "vpo",
+"n": "Trade River Flour And Feed (removed dam, Burnett Co.)",
+"la": 45.64897,
+"lo": -92.66947,
+"y": "",
+"pl": "Burnett County, Wisconsin",
+"co": "Burnett",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Trade River Flour And Feed on TRADE RIVER (removed 1896; DNR status removed). Look for the old mill race, foundation stones and the drained millpond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-1535-cartwright",
+"L": "vpo",
+"n": "Cartwright (removed dam, Washburn Co.)",
+"la": 46.10527,
+"lo": -91.81775,
+"y": "",
+"pl": "Washburn County, Wisconsin",
+"co": "Washburn",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Cartwright on SHELL CREEK (first dam 1906, removed 1995; DNR status removed). Look for the old dam footing and the drained pond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-3527-stenberg-mill",
+"L": "vpo",
+"n": "Stenberg Mill (removed dam, Burnett Co.)",
+"la": 45.75649,
+"lo": -92.56569,
+"y": "",
+"pl": "Burnett County, Wisconsin",
+"co": "Burnett",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Stenberg Mill on WOOD (removed 2023; DNR status removed). Look for the old mill race, foundation stones and the drained millpond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-4114-boom-company",
+"L": "vpo",
+"n": "Boom Company (removed dam, Lincoln Co.)",
+"la": 45.18563,
+"lo": -89.75177,
+"y": "",
+"pl": "Lincoln County, Wisconsin",
+"co": "Lincoln",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Boom Company on Wisconsin River (removed 1910; DNR status removed). Look for the old mill race, foundation stones and the drained millpond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-443-nelson",
+"L": "vpo",
+"n": "Nelson (removed dam, Taylor Co.)",
+"la": 45.27246,
+"lo": -90.43606,
+"y": "",
+"pl": "Taylor County, Wisconsin",
+"co": "Taylor",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Nelson on SOUTH TWIN LAKE OUTLET (removed 1900; DNR status removed). Look for the old dam footing and the drained pond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-4545-nevers",
+"L": "vpo",
+"n": "Nevers (removed dam, Polk Co.)",
+"la": 45.53669,
+"lo": -92.72491,
+"y": "",
+"pl": "Polk County, Wisconsin",
+"co": "Polk",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Nevers on Saint Croix River (removed 1955; DNR status removed). Look for the old dam footing and the drained pond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-4391-none",
+"L": "vpo",
+"n": "None (removed dam, Sawyer Co.)",
+"la": 45.96007,
+"lo": -91.27354,
+"y": "",
+"pl": "Sawyer County, Wisconsin",
+"co": "Sawyer",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: None on UNKNOWN (removed 1914; DNR status removed). Look for the old dam footing and the drained pond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-4478-reserve",
+"L": "vpo",
+"n": "Reserve (removed dam, Sawyer Co.)",
+"la": 45.90072,
+"lo": -91.17192,
+"y": "",
+"pl": "Sawyer County, Wisconsin",
+"co": "Sawyer",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Reserve on an unnamed stream (removed 1914; DNR status removed). Look for the old dam footing and the drained pond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-57-grimh",
+"L": "vpo",
+"n": "Grimh (removed dam, Sawyer Co.)",
+"la": 45.76099,
+"lo": -91.22034,
+"y": "",
+"pl": "Sawyer County, Wisconsin",
+"co": "Sawyer",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Grimh on Couderay River (first dam 1929, removed 2011; DNR status removed). Look for the old dam footing and the drained pond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-3898-reim-brothers",
+"L": "vpo",
+"n": "Reim Brothers (removed dam, Chippewa Co.)",
+"la": 45.05678,
+"lo": -91.30188,
+"y": "",
+"pl": "Chippewa County, Wisconsin",
+"co": "Chippewa",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Reim Brothers on POPPLE CREEK (removed 1950; DNR status removed). Look for the old dam footing and the drained pond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-3902-hemlock",
+"L": "vpo",
+"n": "Hemlock (removed dam, Clark Co.)",
+"la": 44.82154,
+"lo": -90.61318,
+"y": "",
+"pl": "Clark County, Wisconsin",
+"co": "Clark",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Hemlock on Black River (removed 1914; DNR status removed). Look for the old dam footing and the drained pond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-4077-gilberts-s-mill",
+"L": "vpo",
+"n": "Gilberts's Mill (removed dam, Jackson Co.)",
+"la": 44.26717,
+"lo": -90.85926,
+"y": "",
+"pl": "Jackson County, Wisconsin",
+"co": "Jackson",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Gilberts's Mill on Perry Creek (removed 1914; DNR status removed). Look for the old mill race, foundation stones and the drained millpond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-4094-dodge-mill",
+"L": "vpo",
+"n": "Dodge Mill (removed dam, Jackson Co.)",
+"la": 44.19462,
+"lo": -90.81098,
+"y": "",
+"pl": "Jackson County, Wisconsin",
+"co": "Jackson",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Dodge Mill on Robinson Creek (removed 1937; DNR status removed). Look for the old mill race, foundation stones and the drained millpond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-4106-badger-mill",
+"L": "vpo",
+"n": "Badger Mill (removed dam, La Crosse Co.)",
+"la": 44.02913,
+"lo": -91.13596,
+"y": "",
+"pl": "La Crosse County, Wisconsin",
+"co": "La Crosse",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Badger Mill on Fleming Creek (removed 1914; DNR status removed). Look for the old mill race, foundation stones and the drained millpond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-3178-whitehall",
+"L": "vpo",
+"n": "Whitehall (removed dam, Trempealeau Co.)",
+"la": 44.3697,
+"lo": -91.312,
+"y": "",
+"pl": "Trempealeau County, Wisconsin",
+"co": "Trempealeau",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Whitehall on Trempealeau River (removed 1988; DNR status removed). Look for the old mill race, foundation stones and the drained millpond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-3864-glencoe-mill",
+"L": "vpo",
+"n": "Glencoe Mill (removed dam, Buffalo Co.)",
+"la": 44.25648,
+"lo": -91.54535,
+"y": "",
+"pl": "Buffalo County, Wisconsin",
+"co": "Buffalo",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Glencoe Mill on an unnamed stream (removed 1928; DNR status removed). Look for the old mill race, foundation stones and the drained millpond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-3869-fishers-mill",
+"L": "vpo",
+"n": "Fishers Mill (removed dam, Buffalo Co.)",
+"la": 44.56063,
+"lo": -91.66052,
+"y": "",
+"pl": "Buffalo County, Wisconsin",
+"co": "Buffalo",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Fishers Mill on an unnamed stream (removed 1919; DNR status removed). Look for the old mill race, foundation stones and the drained millpond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-4092-elroy-mill",
+"L": "vpo",
+"n": "Elroy Mill (removed dam, Juneau Co.)",
+"la": 43.73352,
+"lo": -90.26796,
+"y": "",
+"pl": "Juneau County, Wisconsin",
+"co": "Juneau",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Elroy Mill on Baraboo River (removed 1928; DNR status removed). Look for the old mill race, foundation stones and the drained millpond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-4149-johnson-creek-lumber-co",
+"L": "vpo",
+"n": "Johnson Creek Lumber Co (removed dam, Marathon Co.)",
+"la": 44.73248,
+"lo": -89.50378,
+"y": "",
+"pl": "Marathon County, Wisconsin",
+"co": "Marathon",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Johnson Creek Lumber Co on an unnamed stream (removed 1912; DNR status removed). Look for the old mill race, foundation stones and the drained millpond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-4151-dessert-mill-pond",
+"L": "vpo",
+"n": "Dessert Mill Pond (removed dam, Marathon Co.)",
+"la": 44.84574,
+"lo": -89.71272,
+"y": "",
+"pl": "Marathon County, Wisconsin",
+"co": "Marathon",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Dessert Mill Pond on Fourmile Creek (removed 1914; DNR status removed). Look for the old mill race, foundation stones and the drained millpond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-3904-bender",
+"L": "vpo",
+"n": "Bender (removed dam, Clark Co.)",
+"la": 44.63862,
+"lo": -90.3378,
+"y": "",
+"pl": "Clark County, Wisconsin",
+"co": "Clark",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Bender on S BR YELLOW RIVER (removed 1961; DNR status removed). Look for the old dam footing and the drained pond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-149-ward-paper-company",
+"L": "vpo",
+"n": "Ward Paper Company (removed dam, Lincoln Co.)",
+"la": 45.19153,
+"lo": -89.68737,
+"y": "",
+"pl": "Lincoln County, Wisconsin",
+"co": "Lincoln",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Ward Paper Company on Prairie River (first dam 1904, removed 1999; DNR status removed). Look for the old mill race, foundation stones and the drained millpond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-4750-vermillion-river-ewha-dike-2",
+"L": "vpo",
+"n": "Vermillion River Ewha Dike #2 (removed dam, Barron Co.)",
+"la": 45.47564,
+"lo": -91.96814,
+"y": "",
+"pl": "Barron County, Wisconsin",
+"co": "Barron",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Vermillion River Ewha Dike #2 on Vermillion River (date not recorded; DNR status not on landscape). Look for the old mill race, foundation stones and the drained millpond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-4487-hay-creek",
+"L": "vpo",
+"n": "Hay Creek (removed dam, Sawyer Co.)",
+"la": 45.99507,
+"lo": -91.17114,
+"y": "",
+"pl": "Sawyer County, Wisconsin",
+"co": "Sawyer",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Hay Creek on Hay Creek (removed 1940; DNR status removed). Look for the old dam footing and the drained pond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-3571-lower-camp-four-springs",
+"L": "vpo",
+"n": "Lower Camp Four Springs (removed dam, Price Co.)",
+"la": 45.94698,
+"lo": -90.19132,
+"y": "",
+"pl": "Price County, Wisconsin",
+"co": "Price",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Lower Camp Four Springs on NEWMAN CREEK (removed 2017; DNR status removed). Look for the old mill race, foundation stones and the drained millpond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-4086-woodbury-burnt-mills",
+"L": "vpo",
+"n": "Woodbury Burnt Mills (removed dam, Jackson Co.)",
+"la": 44.33894,
+"lo": -90.56625,
+"y": "",
+"pl": "Jackson County, Wisconsin",
+"co": "Jackson",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Woodbury Burnt Mills on an unnamed stream (removed 1914; DNR status removed). Look for the old mill race, foundation stones and the drained millpond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-6146-millerman",
+"L": "vpo",
+"n": "Millerman (removed dam, Barron Co.)",
+"la": 45.57907,
+"lo": -91.95807,
+"y": "",
+"pl": "Barron County, Wisconsin",
+"co": "Barron",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Millerman on an unnamed stream (first dam 1960; DNR status removed). Look for the old mill race, foundation stones and the drained millpond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-1470-little-round-lake",
+"L": "vpo",
+"n": "Little Round Lake (removed dam, Sawyer Co.)",
+"la": 45.98295,
+"lo": -91.3093,
+"y": "",
+"pl": "Sawyer County, Wisconsin",
+"co": "Sawyer",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Little Round Lake on Osprey Creek (removed 2020; DNR status removed). Look for the old mill race, foundation stones and the drained millpond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-dam-265-burns",
+"L": "vpo",
+"n": "Burns (removed dam, La Crosse Co.)",
+"la": 43.93727,
+"lo": -90.97548,
+"y": "",
+"pl": "La Crosse County, Wisconsin",
+"co": "La Crosse",
+"stt": "WI",
+"v": "Mill hardware, coins and tokens from the mill yard",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR dam records: Burns on BURNS CREEK (first dam 1896, removed 2025; DNR status removed). Look for the old dam footing and the drained pond bed. Single source: unconfirmed.",
+"t": "Ask the landowner first. Look along the old race and pond edge, and at the mill or camp yard beside the dam.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-tower-stang",
+"L": "history",
+"n": "Stang fire tower site (Chippewa Co.)",
+"la": 45.28484,
+"lo": -91.47167,
+"y": "",
+"pl": "Chippewa County, Wisconsin",
+"co": "Chippewa",
+"stt": "WI",
+"v": "Fire-tower and lookout-camp relics, coins",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR fire tower list: Stang fire lookout (T32N R9W sec. 03), status removed. Towers like this went up in the 1930s, many built by CCC crews, with a towerman's cabin and garage nearby. Check the footings and cabin site, and who owns the land. Single source: unconfirmed.",
+"t": "The tower footings and the keeper's cabin site are the targets. Check who owns the land first: many tower sites are county or state forest.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-tower-lugerville",
+"L": "history",
+"n": "Lugerville fire tower site (Price Co.)",
+"la": 45.78042,
+"lo": -90.5212,
+"y": "",
+"pl": "Price County, Wisconsin",
+"co": "Price",
+"stt": "WI",
+"v": "Fire-tower and lookout-camp relics, coins",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR fire tower list: Lugerville fire lookout (T38N R1W sec. 08), status scheduled for removal. Towers like this went up in the 1930s, many built by CCC crews, with a towerman's cabin and garage nearby. Check the footings and cabin site, and who owns the land. Single source: unconfirmed.",
+"t": "The tower footings and the keeper's cabin site are the targets. Check who owns the land first: many tower sites are county or state forest.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-tower-ladysmith",
+"L": "history",
+"n": "Ladysmith fire tower site (Rusk Co.)",
+"la": 45.46462,
+"lo": -91.13431,
+"y": "",
+"pl": "Rusk County, Wisconsin",
+"co": "Rusk",
+"stt": "WI",
+"v": "Fire-tower and lookout-camp relics, coins",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR fire tower list: Ladysmith fire lookout (T34N R6W sec. 05), status scheduled for removal. Towers like this went up in the 1930s, many built by CCC crews, with a towerman's cabin and garage nearby. Check the footings and cabin site, and who owns the land. Single source: unconfirmed.",
+"t": "The tower footings and the keeper's cabin site are the targets. Check who owns the land first: many tower sites are county or state forest.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-tower-meteor",
+"L": "history",
+"n": "Meteor fire tower site (Sawyer Co.)",
+"la": 45.6934,
+"lo": -91.34778,
+"y": "",
+"pl": "Sawyer County, Wisconsin",
+"co": "Sawyer",
+"stt": "WI",
+"v": "Fire-tower and lookout-camp relics, coins",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR fire tower list: Meteor fire lookout (T37N R8W sec. 15), status scheduled for removal. Towers like this went up in the 1930s, many built by CCC crews, with a towerman's cabin and garage nearby. Check the footings and cabin site, and who owns the land. Single source: unconfirmed.",
+"t": "The tower footings and the keeper's cabin site are the targets. Check who owns the land first: many tower sites are county or state forest.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-tower-connors-lk",
+"L": "history",
+"n": "Connors Lk fire tower site (Sawyer Co.)",
+"la": 45.75842,
+"lo": -90.71403,
+"y": "",
+"pl": "Sawyer County, Wisconsin",
+"co": "Sawyer",
+"stt": "WI",
+"v": "Fire-tower and lookout-camp relics, coins",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR fire tower list: Connors Lk fire lookout (T38N R3W sec. 23), status inactive. Towers like this went up in the 1930s, many built by CCC crews, with a towerman's cabin and garage nearby. Check the footings and cabin site, and who owns the land. Single source: unconfirmed.",
+"t": "The tower footings and the keeper's cabin site are the targets. Check who owns the land first: many tower sites are county or state forest.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-tower-gilman",
+"L": "history",
+"n": "Gilman fire tower site (Taylor Co.)",
+"la": 45.0459,
+"lo": -90.88906,
+"y": "",
+"pl": "Taylor County, Wisconsin",
+"co": "Taylor",
+"stt": "WI",
+"v": "Fire-tower and lookout-camp relics, coins",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR fire tower list: Gilman fire lookout (T30N R4W sec. 32), status removed. Towers like this went up in the 1930s, many built by CCC crews, with a towerman's cabin and garage nearby. Check the footings and cabin site, and who owns the land. Single source: unconfirmed.",
+"t": "The tower footings and the keeper's cabin site are the targets. Check who owns the land first: many tower sites are county or state forest.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-tower-rindt",
+"L": "history",
+"n": "Rindt fire tower site (Taylor Co.)",
+"la": 45.33901,
+"lo": -90.33162,
+"y": "",
+"pl": "Taylor County, Wisconsin",
+"co": "Taylor",
+"stt": "WI",
+"v": "Fire-tower and lookout-camp relics, coins",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR fire tower list: Rindt fire lookout (T33N R1E sec. 14), status scheduled for removal. Towers like this went up in the 1930s, many built by CCC crews, with a towerman's cabin and garage nearby. Check the footings and cabin site, and who owns the land. Single source: unconfirmed.",
+"t": "The tower footings and the keeper's cabin site are the targets. Check who owns the land first: many tower sites are county or state forest.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-tower-matson-n",
+"L": "history",
+"n": "Matson (N) fire tower site (Marathon Co.)",
+"la": 44.94604,
+"lo": -89.34584,
+"y": "",
+"pl": "Marathon County, Wisconsin",
+"co": "Marathon",
+"stt": "WI",
+"v": "Fire-tower and lookout-camp relics, coins",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR fire tower list: Matson (N) fire lookout (T29N R10E sec. 31), status scheduled for removal. Towers like this went up in the 1930s, many built by CCC crews, with a towerman's cabin and garage nearby. Check the footings and cabin site, and who owns the land. Single source: unconfirmed.",
+"t": "The tower footings and the keeper's cabin site are the targets. Check who owns the land first: many tower sites are county or state forest.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+},
+{
+"id": "dnr-tower-cataract",
+"L": "history",
+"n": "Cataract fire tower site (Monroe Co.)",
+"la": 44.02331,
+"lo": -90.82155,
+"y": "",
+"pl": "Monroe County, Wisconsin",
+"co": "Monroe",
+"stt": "WI",
+"v": "Fire-tower and lookout-camp relics, coins",
+"c": "documented",
+"s": "unknown",
+"p": "exact",
+"st": "WI DNR fire tower list: Cataract fire lookout (T18N R42 sec. 23), status scheduled for removal. Towers like this went up in the 1930s, many built by CCC crews, with a towerman's cabin and garage nearby. Check the footings and cabin site, and who owns the land. Single source: unconfirmed.",
+"t": "The tower footings and the keeper's cabin site are the targets. Check who owns the land first: many tower sites are county or state forest.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+],
+"pinconf": "C",
+"pinev": [
+"Placed on the DNR record's point",
+"Unconfirmed, one source"
+]
+}
+],
+"edit": {
+"cem-1964274": {
+"set": {},
+"st": " The Baldwin 1949 USGS topo: the Gilman church is drawn beside this cemetery (25 m), at 44.83124, -92.29924.",
+"src": [
+[
+"USGS Baldwin topographic map (1949)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+]
+},
+"cem-1988543": {
+"set": {},
+"st": " The Shell Lake 1951 USGS topo: the Stanfold church is drawn beside this cemetery (0 m), at 45.50912, -91.8328.",
+"src": [
+[
+"USGS Shell Lake topographic map (1951)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+]
+},
+"cem-1571112": {
+"set": {},
+"st": " The Turtle Lake 1950 USGS topo: the Peace church is drawn beside this cemetery (60 m), at 45.34156, -92.10507.",
+"src": [
+[
+"USGS Turtle Lake topographic map (1950)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+]
+},
+"cem-1988535": {
+"set": {},
+"st": " The Turtle Lake 1950 USGS topo: the Holy Trinity church is drawn beside this cemetery (4 m), at 45.2851, -92.13569.",
+"src": [
+[
+"USGS Turtle Lake topographic map (1950)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+]
+},
+"pc-church-reseburg-sec-9": {
+"set": {},
+"st": " The Owen 1953 USGS topo: the topo draws the church 718 m from this plat spot, at 44.91416, -90.73822.",
+"src": [
+[
+"USGS Owen topographic map (1953)",
+"https://ngmdb.usgs.gov/topoview/"
+]
+]
+},
+"pd88-rock-falls": {
+"set": {},
+"st": " Second source (54 m away): WI DNR dam records: Rock Falls on Rock Creek (first dam 1864, removed 2021; DNR status removed). Look for the old dam footing and the drained pond bed.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+]
+},
+"pk-3848": {
+"set": {},
+"st": " Second source (178 m away): WI DNR dam records: Mill on Black Creek (removed 1938; DNR status removed). Look for the old mill race, foundation stones and the drained millpond bed.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+]
+},
+"hm-385": {
+"set": {},
+"st": " Second source (239 m away): WI DNR dam records: Upper Balsam Lake on an unnamed stream (first dam 1850, removed 2006; DNR status removed). Look for the old dam footing and the drained pond bed.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+]
+},
+"pk-2842": {
+"set": {},
+"st": " Second source (74 m away): WI DNR dam records: Upper Osceola on OSCEOLA CREEK (first dam 1874, removed 2006; DNR status removed). Look for the old dam footing and the drained pond bed.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+]
+},
+"ab4-wolf-creek-post": {
+"set": {},
+"st": " Second source (39 m away): WI DNR dam records: Wolf Creek Roller Mills on Wolf Creek (removed 1922; DNR status removed). Look for the old mill race, foundation stones and the drained millpond bed.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+]
+},
+"sv78-sparta-milwdepot": {
+"set": {},
+"st": " Second source (212 m away): WI DNR dam records: City Mills on Farmers Valley Creek (removed 1935; DNR status removed). Look for the old mill race, foundation stones and the drained millpond bed.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+]
+},
+"t-pan-holcombe": {
+"set": {},
+"st": " Second source (149 m away): WI DNR dam records: Old Holcombe on CHIPPEWA RIVER (first dam 1878, removed 1925; DNR status removed). Look for the old dam footing and the drained pond bed.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+]
+},
+"ab3-westons-rapids": {
+"set": {},
+"st": " Second source (248 m away): WI DNR dam records: Sawmill on Black River (date not recorded; DNR status removed). Look for the old mill race, foundation stones and the drained millpond bed.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+]
+},
+"pk-3638": {
+"set": {},
+"st": " Second source (40 m away): WI DNR dam records: Colfax on EIGHTEEN MILE CREEK (first dam 1870, removed 1998; DNR status removed). Look for the old dam footing and the drained pond bed.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+]
+},
+"sf-chippewa-falls-chippewa-lumber-boom-co-sawmill-water-power": {
+"set": {},
+"st": " Second source (98 m away): WI DNR dam records: Chippewa Falls on Chippewa River (removed 1947; DNR status removed). Look for the old dam footing and the drained pond bed.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+]
+},
+"pk-2909": {
+"set": {},
+"st": " Second source (132 m away): WI DNR dam records: Huntington on Apple River (first dam 1903, removed 1965; DNR status removed). Look for the old dam footing and the drained pond bed.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+]
+},
+"pk-2955": {
+"set": {},
+"st": " WI DNR fire tower list: Frederic fire lookout (T36N R17W sec. 01), status scheduled for removal. Towers like this went up in the 1930s, many built by CCC crews, with a towerman's cabin and garage nearby. Check the footings and cabin site, and who owns the land. Single source: unconfirmed.",
+"src": [
+[
+"Wisconsin DNR dam records and fire tower list (export read on the old-map-layers thread, 2026)",
+"https://dnr.wisconsin.gov/topic/Dams"
+]
+]
+},
+"ls-davis-hill": {
+"set": {},
+"st": " A second state record: the WGNHS silver page reports a Keweenawan conglomerate sampled in sec. 11, T44N R6W, north of Namekagon Lake, assaying 0.36 to 1.74 troy ounces of silver per ton (Dutton, 1972); whether it is native silver is not known. This is the ground of the Chief Namakagon legend: an Ojibwe man who lived at Lake Namakagon until 1886 and, by Ashland Daily Press stories retold later, traded silver in Ashland and never showed where he got it. Charles Brown's 1930 Indian trails map runs a trail from the north end of Lake Namakagon north-east past this section and on to Ashland.",
+"t": " National forest land (Chequamegon): detecting the open ground is allowed, but not at old camps or Native sites; ask the Washburn ranger district before taking rock samples. Follow the 1930 trail line north-east toward sec. 14 T45N R5W, where four homesteaders (Moe, Mattison, Smith, Larson) took up land in 1888-1893.",
+"src": [
+[
+"WGNHS: Silver in Wisconsin (cites Dutton 1972)",
+"https://home.wgnhs.wisc.edu/minerals/silver/"
+],
+[
+"Charles E. Brown, Wisconsin Indian Trails Map, 1930 (WHS W014AUB)",
+"https://www.wisconsinhistory.org/record/multi/W014AUB"
+]
+]
+}
+}
+}
