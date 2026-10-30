@@ -1,0 +1,1018 @@
+{
+ "new": [
+  {
+   "id": "ot-morrill-school-s30-t23n-r9e",
+   "L": "school",
+   "n": "Morrill School site (Amherst 1957 topo)",
+   "la": 44.43977,
+   "lo": -89.48796,
+   "y": "by 1957",
+   "pl": "sec. 30 T23N R9E, Portage Co.",
+   "co": "Portage",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1957 USGS topo map (Amherst 15-minute sheet) draws Morrill School here (school symbol, sec. 30 T23N R9E). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Amherst topographic map (1957)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Amherst 1957 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-mountain-grove-school-s31-t23n-r10e",
+   "L": "school",
+   "n": "Mountain Grove School site (Amherst 1957 topo)",
+   "la": 44.43214,
+   "lo": -89.34498,
+   "y": "by 1957",
+   "pl": "sec. 31 T23N R10E, Portage Co.",
+   "co": "Portage",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1957 USGS topo map (Amherst 15-minute sheet) draws Mountain Grove School here (school symbol, sec. 31 T23N R10E). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Amherst topographic map (1957)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Amherst 1957 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-longfellow-school-s11-t31n-r10e",
+   "L": "school",
+   "n": "Longfellow School site (Antigo 1952 topo)",
+   "la": 45.18188,
+   "lo": -89.20925,
+   "y": "by 1952",
+   "pl": "sec. 11 T31N R10E, Langlade Co.",
+   "co": "Langlade",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1952 USGS topo map (Antigo 15-minute sheet) draws Longfellow School here (school symbol, sec. 11 T31N R10E). No second source found yet; 3 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Antigo topographic map (1952)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Antigo 1952 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-mayflower-school-s8-t31n-r11e",
+   "L": "school",
+   "n": "Mayflower School site (Antigo 1952 topo)",
+   "la": 45.18556,
+   "lo": -89.14843,
+   "y": "by 1952",
+   "pl": "sec. 8 T31N R11E, Langlade Co.",
+   "co": "Langlade",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1952 USGS topo map (Antigo 15-minute sheet) draws Mayflower School here (school symbol, sec. 8 T31N R11E). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Antigo topographic map (1952)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Antigo 1952 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-zielenski-school-s14-t31n-r11e",
+   "L": "school",
+   "n": "Zielenski School site (Antigo 1952 topo)",
+   "la": 45.1628,
+   "lo": -89.07305,
+   "y": "by 1952",
+   "pl": "sec. 14 T31N R11E, Langlade Co.",
+   "co": "Langlade",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1952 USGS topo map (Antigo 15-minute sheet) draws Zielenski School here (school symbol, sec. 14 T31N R11E). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Antigo topographic map (1952)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Antigo 1952 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-highland-school-s20-t31n-r12e",
+   "L": "school",
+   "n": "Highland School site (Antigo 1952 topo)",
+   "la": 45.16086,
+   "lo": -89.01871,
+   "y": "by 1952",
+   "pl": "sec. 20 T31N R12E, Langlade Co.",
+   "co": "Langlade",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1952 USGS topo map (Antigo 15-minute sheet) draws Highland School here (school symbol, sec. 20 T31N R12E). No second source found yet; 3 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Antigo topographic map (1952)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Antigo 1952 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-st-johns-church-s20-t31n-r12e",
+   "L": "school2",
+   "n": "St. Johns Church site (Antigo 1952 topo)",
+   "la": 45.15364,
+   "lo": -89.01292,
+   "y": "by 1952",
+   "pl": "sec. 20 T31N R12E, Langlade Co.",
+   "co": "Langlade",
+   "stt": "WI",
+   "v": "Coins, religious medals, buttons, jewelry from church socials and picnics",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1952 USGS topo map (Antigo 15-minute sheet) draws St. Johns Church here (church symbol, sec. 20 T31N R12E). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level church pad, fieldstone foundation corners, lilacs or old spruce, and the horse-shed line. If there is a churchyard cemetery, search only outside it. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Antigo topographic map (1952)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Antigo 1952 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-franklin-school-s32-t31n-r12e",
+   "L": "school",
+   "n": "Franklin School site (Antigo 1952 topo)",
+   "la": 45.13219,
+   "lo": -89.0312,
+   "y": "by 1952",
+   "pl": "sec. 32 T31N R12E, Langlade Co.",
+   "co": "Langlade",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1952 USGS topo map (Antigo 15-minute sheet) draws Franklin School here (school symbol, sec. 32 T31N R12E). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Antigo topographic map (1952)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Antigo 1952 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-st-peters-church-s33-t31n-r12e",
+   "L": "school2",
+   "n": "St. Peters Church site (Antigo 1952 topo)",
+   "la": 45.13212,
+   "lo": -89.01133,
+   "y": "by 1952",
+   "pl": "sec. 33 T31N R12E, Langlade Co.",
+   "co": "Langlade",
+   "stt": "WI",
+   "v": "Coins, religious medals, buttons, jewelry from church socials and picnics",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1952 USGS topo map (Antigo 15-minute sheet) draws St. Peters Church here (church symbol, sec. 33 T31N R12E). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level church pad, fieldstone foundation corners, lilacs or old spruce, and the horse-shed line. If there is a churchyard cemetery, search only outside it. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Antigo topographic map (1952)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Antigo 1952 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-pinewood-school-s22-t36n-r6e",
+   "L": "school",
+   "n": "Pinewood School site (Cassian 1939 topo)",
+   "la": 45.58588,
+   "lo": -89.72272,
+   "y": "by 1939",
+   "pl": "sec. 22 T36N R6E, Oneida Co.",
+   "co": "Oneida",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1939 USGS topo map (Cassian 15-minute sheet) draws Pinewood School here (school symbol, sec. 22 T36N R6E). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Cassian topographic map (1939)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Cassian 1939 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-hall-school-s24-t45n-r9w",
+   "L": "school",
+   "n": "Hall School site (Drummond 1944 topo)",
+   "la": 46.37214,
+   "lo": -91.42791,
+   "y": "by 1944",
+   "pl": "sec. 24 T45N R9W, Bayfield Co.",
+   "co": "Bayfield",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1944 USGS topo map (Drummond 15-minute sheet) draws Hall School here (school symbol, sec. 24 T45N R9W). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Drummond topographic map (1944)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Drummond 1944 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-faith-church-s25-t37n-r6e",
+   "L": "school2",
+   "n": "Faith Church site (Heafford Junction 1966 topo)",
+   "la": 45.66713,
+   "lo": -89.67742,
+   "y": "by 1966",
+   "pl": "sec. 25 T37N R6E, Oneida Co.",
+   "co": "Oneida",
+   "stt": "WI",
+   "v": "Coins, religious medals, buttons, jewelry from church socials and picnics",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1966 USGS topo map (Heafford Junction 15-minute sheet) draws Faith Church here (church symbol, sec. 25 T37N R6E). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level church pad, fieldstone foundation corners, lilacs or old spruce, and the horse-shed line. If there is a churchyard cemetery, search only outside it. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Heafford Junction topographic map (1966)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Heafford Junction 1966 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-frances-willard-school-s18-t46n-r10w",
+   "L": "school",
+   "n": "Frances Willard School site (Highland 1945 topo)",
+   "la": 46.47384,
+   "lo": -91.67528,
+   "y": "by 1945",
+   "pl": "sec. 18 T46N R10W, Douglas Co.",
+   "co": "Douglas",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1945 USGS topo map (Highland 15-minute sheet) draws Frances Willard School here (school symbol, sec. 18 T46N R10W). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Highland topographic map (1945)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Highland 1945 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-volker-school-s36-t46n-r10w",
+   "L": "school",
+   "n": "Volker School site (Highland 1945 topo)",
+   "la": 46.43152,
+   "lo": -91.5719,
+   "y": "by 1945",
+   "pl": "sec. 36 T46N R10W, Douglas Co.",
+   "co": "Douglas",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1945 USGS topo map (Highland 15-minute sheet) draws Volker School here (school symbol, sec. 36 T46N R10W). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Highland topographic map (1945)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Highland 1945 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-maple-ridge-school-s21-t46n-r5w",
+   "L": "school",
+   "n": "Maple Ridge School site (Marengo 1942 topo)",
+   "la": 46.44386,
+   "lo": -90.99655,
+   "y": "by 1942",
+   "pl": "sec. 21 T46N R5W, Bayfield Co.",
+   "co": "Bayfield",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1942 USGS topo map (Marengo 15-minute sheet) draws Maple Ridge School here (school symbol, sec. 21 T46N R5W). No second source found yet; 3 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Marengo topographic map (1942)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Marengo 1942 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-agnew-school-s10-t46n-r4w",
+   "L": "school",
+   "n": "Agnew School site (Marengo 1942 topo)",
+   "la": 46.48082,
+   "lo": -90.84118,
+   "y": "by 1942",
+   "pl": "sec. 10 T46N R4W, Ashland Co.",
+   "co": "Ashland",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1942 USGS topo map (Marengo 15-minute sheet) draws Agnew School here (school symbol, sec. 10 T46N R4W). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Marengo topographic map (1942)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Marengo 1942 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-argo-school-s25-t46n-r5w",
+   "L": "school",
+   "n": "Argo School site (Marengo 1942 topo)",
+   "la": 46.43635,
+   "lo": -90.94446,
+   "y": "by 1942",
+   "pl": "sec. 25 T46N R5W, Ashland Co.",
+   "co": "Ashland",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1942 USGS topo map (Marengo 15-minute sheet) draws Argo School here (school symbol, sec. 25 T46N R5W). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Marengo topographic map (1942)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Marengo 1942 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-brunsweiler-school-s2-t45n-r4w",
+   "L": "school",
+   "n": "Brunsweiler School site (Marengo 1942 topo)",
+   "la": 46.40743,
+   "lo": -90.82364,
+   "y": "by 1942",
+   "pl": "sec. 2 T45N R4W, Ashland Co.",
+   "co": "Ashland",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1942 USGS topo map (Marengo 15-minute sheet) draws Brunsweiler School here (school symbol, sec. 2 T45N R4W). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Marengo topographic map (1942)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Marengo 1942 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-mattson-school-s14-t45n-r5w",
+   "L": "school",
+   "n": "Mattson School site (Marengo 1942 topo)",
+   "la": 46.37707,
+   "lo": -90.94578,
+   "y": "by 1942",
+   "pl": "sec. 14 T45N R5W, Bayfield Co.",
+   "co": "Bayfield",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1942 USGS topo map (Marengo 15-minute sheet) draws Mattson School here (school symbol, sec. 14 T45N R5W). No second source found yet; no building within 60 m today. The school stood about 570 m from the Tom Mattison homestead pin in the same section, where Chief Namakagon stopped on his way to Ashland, so it likely carries that family's name.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Marengo topographic map (1942)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Marengo 1942 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-erney-school-s7-t45n-r2w",
+   "L": "school",
+   "n": "Erney School site (Mellen 1942 topo)",
+   "la": 46.39762,
+   "lo": -90.65329,
+   "y": "by 1942",
+   "pl": "sec. 7 T45N R2W, Ashland Co.",
+   "co": "Ashland",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1942 USGS topo map (Mellen 15-minute sheet) draws Erney School here (school symbol, sec. 7 T45N R2W). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Mellen topographic map (1942)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Mellen 1942 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-grage-school-s23-t45n-r3w",
+   "L": "school",
+   "n": "Grage School site (Mellen 1942 topo)",
+   "la": 46.35725,
+   "lo": -90.71468,
+   "y": "by 1942",
+   "pl": "sec. 23 T45N R3W, Ashland Co.",
+   "co": "Ashland",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1942 USGS topo map (Mellen 15-minute sheet) draws Grage School here (school symbol, sec. 23 T45N R3W). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Mellen topographic map (1942)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Mellen 1942 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-worcester-school-s22-t37n-r1e",
+   "L": "school",
+   "n": "Worcester School site (Philliips 1943 topo)",
+   "la": 45.68183,
+   "lo": -90.34903,
+   "y": "by 1943",
+   "pl": "sec. 22 T37N R1E, Price Co.",
+   "co": "Price",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1943 USGS topo map (Philliips 15-minute sheet) draws Worcester School here (school symbol, sec. 22 T37N R1E). No second source found yet; 5 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Philliips topographic map (1943)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Philliips 1943 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-friendship-school-s29-t11n-r4e",
+   "L": "school",
+   "n": "Friendship School site (Plain 1960 topo)",
+   "la": 43.39527,
+   "lo": -90.04365,
+   "y": "by 1960",
+   "pl": "sec. 29 T11N R4E, Sauk Co.",
+   "co": "Sauk",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1960 USGS topo map (Plain 15-minute sheet) draws Friendship School here (school symbol, sec. 29 T11N R4E). No second source found yet; 3 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Plain topographic map (1960)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Plain 1960 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-oak-view-school-s7-t10n-r4e",
+   "L": "school",
+   "n": "Oak View School site (Plain 1960 topo)",
+   "la": 43.35553,
+   "lo": -90.06892,
+   "y": "by 1960",
+   "pl": "sec. 7 T10N R4E, Sauk Co.",
+   "co": "Sauk",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1960 USGS topo map (Plain 15-minute sheet) draws Oak View School here (school symbol, sec. 7 T10N R4E). No second source found yet; 4 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Plain topographic map (1960)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Plain 1960 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-burkhart-school-s19-t37n-r9e",
+   "L": "school",
+   "n": "Burkhart School site (Rhinelander 1940 topo)",
+   "la": 45.68144,
+   "lo": -89.42752,
+   "y": "by 1940",
+   "pl": "sec. 19 T37N R9E, Oneida Co.",
+   "co": "Oneida",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1940 USGS topo map (Rhinelander 15-minute sheet) draws Burkhart School here (school symbol, sec. 19 T37N R9E). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Rhinelander topographic map (1940)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Rhinelander 1940 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-bernstein-school-s16-t37n-r9e",
+   "L": "school",
+   "n": "Bernstein School site (Rhinelander 1940 topo)",
+   "la": 45.68807,
+   "lo": -89.36516,
+   "y": "by 1940",
+   "pl": "sec. 16 T37N R9E, Oneida Co.",
+   "co": "Oneida",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1940 USGS topo map (Rhinelander 15-minute sheet) draws Bernstein School here (school symbol, sec. 16 T37N R9E). No second source found yet; 4 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Rhinelander topographic map (1940)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Rhinelander 1940 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-fairview-school-s14-t26n-r10e",
+   "L": "school",
+   "n": "Fairview School site (Tigerton 1955 topo)",
+   "la": 44.73876,
+   "lo": -89.24516,
+   "y": "by 1955",
+   "pl": "sec. 14 T26N R10E, Marathon Co.",
+   "co": "Marathon",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1955 USGS topo map (Tigerton 15-minute sheet) draws Fairview School here (school symbol, sec. 14 T26N R10E). No second source found yet; 3 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Tigerton topographic map (1955)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Tigerton 1955 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-northland-school-s30-t25n-r11e",
+   "L": "school",
+   "n": "Northland School site (Tigerton 1955 topo)",
+   "la": 44.6172,
+   "lo": -89.21385,
+   "y": "by 1955",
+   "pl": "sec. 30 T25N R11E, Waupaca Co.",
+   "co": "Waupaca",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1955 USGS topo map (Tigerton 15-minute sheet) draws Northland School here (school symbol, sec. 30 T25N R11E). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Tigerton topographic map (1955)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Tigerton 1955 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-harrison-center-school-s16-t25n-r11e",
+   "L": "school",
+   "n": "Harrison Center School site (Tigerton 1955 topo)",
+   "la": 44.64091,
+   "lo": -89.16387,
+   "y": "by 1955",
+   "pl": "sec. 16 T25N R11E, Waupaca Co.",
+   "co": "Waupaca",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1955 USGS topo map (Tigerton 15-minute sheet) draws Harrison Center School here (school symbol, sec. 16 T25N R11E). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Tigerton topographic map (1955)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Tigerton 1955 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-selmer-school-s36-t25n-r11e",
+   "L": "school",
+   "n": "Selmer School site (Tigerton 1955 topo)",
+   "la": 44.59152,
+   "lo": -89.12211,
+   "y": "by 1955",
+   "pl": "sec. 36 T25N R11E, Waupaca Co.",
+   "co": "Waupaca",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1955 USGS topo map (Tigerton 15-minute sheet) draws Selmer School here (school symbol, sec. 36 T25N R11E). No second source found yet; 3 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Tigerton topographic map (1955)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Tigerton 1955 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-dou-school-s34-t24n-r12e",
+   "L": "school",
+   "n": "\"Dou...\" School site (Tigerton 1955 topo, name partly readable)",
+   "la": 44.50999,
+   "lo": -89.02171,
+   "y": "by 1955",
+   "pl": "sec. 34 T24N R12E, Waupaca Co.",
+   "co": "Waupaca",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1955 USGS topo map (Tigerton 15-minute sheet) draws a school labelled \"Dou... Sch\" here (school symbol, sec. 34 T24N R12E). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Tigerton topographic map (1955)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Tigerton 1955 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-webb-school-s5-t19n-r10e",
+   "L": "school",
+   "n": "Webb School site (Wautoma 1959 topo)",
+   "la": 44.14132,
+   "lo": -89.3317,
+   "y": "by 1959",
+   "pl": "sec. 5 T19N R10E, Waushara Co.",
+   "co": "Waushara",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1959 USGS topo map (Wautoma 15-minute sheet) draws Webb School here (school symbol, sec. 5 T19N R10E). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Wautoma topographic map (1959)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Wautoma 1959 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-west-holden-church-s10-t19n-r10e",
+   "L": "school2",
+   "n": "West Holden Church site (Wautoma 1959 topo)",
+   "la": 44.13235,
+   "lo": -89.29683,
+   "y": "by 1959",
+   "pl": "sec. 10 T19N R10E, Waushara Co.",
+   "co": "Waushara",
+   "stt": "WI",
+   "v": "Coins, religious medals, buttons, jewelry from church socials and picnics",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1959 USGS topo map (Wautoma 15-minute sheet) draws West Holden Church here (church symbol, sec. 10 T19N R10E). No second source found yet; 2 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level church pad, fieldstone foundation corners, lilacs or old spruce, and the horse-shed line. If there is a churchyard cemetery, search only outside it. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Wautoma topographic map (1959)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Wautoma 1959 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  }
+ ],
+ "edit": {
+  "sv78-school-s32-t23n-r9e": {
+   "set": {
+    "n": "Prairie School site (1878 map and 1957 topo)",
+    "pinconf": "B",
+    "pinev": [
+     "Two independent sources: the 1878 county atlas draws a schoolhouse here and the 1957 USGS topo (Amherst) names Prairie School 399 m away; the 1878 sheet fit is rough, so the topo spot may be the better one"
+    ]
+   },
+   "st": " The 1957 USGS topo map (Amherst 15-minute sheet) draws Prairie School 399 m from this pin, so this 1878 schoolhouse has its name and a second independent source.",
+   "src": [
+    [
+     "USGS Amherst topographic map (1957)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ]
+  },
+  "sv78-school-s1-t22n-r9e": {
+   "set": {
+    "n": "Polley School site (1878 map and 1957 topo)",
+    "pinconf": "B",
+    "pinev": [
+     "Two independent sources: the 1878 county atlas draws a schoolhouse here and the 1957 USGS topo (Amherst) names Polley School 455 m away; the 1878 sheet fit is rough, so the topo spot may be the better one"
+    ]
+   },
+   "st": " The 1957 USGS topo map (Amherst 15-minute sheet) draws Polley School 455 m from this pin, so this 1878 schoolhouse has its name and a second independent source.",
+   "src": [
+    [
+     "USGS Amherst topographic map (1957)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ]
+  },
+  "sv78-school-s9-t22n-r10e": {
+   "set": {
+    "n": "General Irwin School site (1878 map and 1957 topo)",
+    "pinconf": "B",
+    "pinev": [
+     "Two independent sources: the 1878 county atlas draws a schoolhouse here and the 1957 USGS topo (Amherst) names General Irwin School 428 m away; the 1878 sheet fit is rough, so the topo spot may be the better one"
+    ]
+   },
+   "st": " The 1957 USGS topo map (Amherst 15-minute sheet) draws General Irwin School 428 m from this pin, so this 1878 schoolhouse has its name and a second independent source.",
+   "src": [
+    [
+     "USGS Amherst topographic map (1957)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ]
+  },
+  "cem-1846927": {
+   "set": {},
+   "st": " The 1960 USGS topo map (Plain 15-minute sheet) draws St. Pauls Church 47 m from this cemetery; the church site is next to it, and the cemetery itself is look-only.",
+   "src": [
+    [
+     "USGS Plain topographic map (1960)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ]
+  },
+  "cem-1834366": {
+   "set": {},
+   "st": " The 1960 USGS topo map (Richland Center 15-minute sheet) draws Dayton Corners Church 56 m from this cemetery; the church site is next to it, and the cemetery itself is look-only.",
+   "src": [
+    [
+     "USGS Richland Center topographic map (1960)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ]
+  },
+  "cem-1566487": {
+   "set": {},
+   "st": " The 1955 USGS topo map (Tigerton 15-minute sheet) draws Hitterdahl Church 24 m from this cemetery; the church site is next to it, and the cemetery itself is look-only.",
+   "src": [
+    [
+     "USGS Tigerton topographic map (1955)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ]
+  },
+  "it-mattison-homestead-sec14": {
+   "set": {},
+   "st": " The 1942 USGS topo map (Marengo 15-minute sheet) draws a Mattson School about 570 m from this pin in the same section, likely named for the family; it is pinned separately.",
+   "src": [
+    [
+     "USGS Marengo topographic map (1942)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ]
+  }
+ }
+}

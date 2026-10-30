@@ -1,0 +1,218 @@
+{
+ "new": [
+  {
+   "id": "cd-zopp-farm-trimbelle-1877",
+   "L": "treasure",
+   "n": "Zopp farm, Trimbelle (1877 plat)",
+   "la": 44.7118,
+   "lo": -92.618,
+   "y": "1877-1912",
+   "pl": "S½ NW¼ sec. 30, T26N R18W, town of Trimbelle, Pierce County",
+   "co": "Pierce",
+   "stt": "WI",
+   "v": "Possible house site for the 1912 Zopp hidden-money story",
+   "c": "documented",
+   "s": "never",
+   "p": "approx",
+   "st": "The 1877 Nash & Morgan atlas shows \"M. Zopp\" with 80 acres, the S½ of the NW¼ of sec. 30, and a house square at the west edge by the Oak Grove town line. This is the only Zopp land in Trimbelle on that plat. Michael Zopp died in May 1912 and never told his family where he had hidden his savings. In Aug 1912 the River Falls Journal's Trimbelle column reported that Chester Keyser had bought and moved onto \"the Jos. Zopp, Jr. farm\", and that \"Joss Zopp and family\" had moved to Oak Grove. By 1917 the Kenyon plat shows no Zopp in Trimbelle: this eighty belongs to J. M. Huppert, with a house still on the parcel. Across the line, J. Zopp has 160.50 acres in sec. 36 of Oak Grove (T26N R19W), which is the family's later farm, not the 1912 one. The Zopp Jr. farm Keyser bought is not named on either plat. This eighty is the best documented Zopp homestead, but it is not proven to be the 1912 house. 1939 air photo check (Pierce BRW-5-15, 20 June 1939): no farmstead stands on the sec. 30 side of the town-line road by the S½ NW¼; the eighty is open pasture with a small fenced lot and a lane off the road, and a bright bare patch (likely a rock outcrop or a small pit) about 140 m in. The only farmstead nearby is across the road on the Oak Grove side. So the 1877 house was gone by 1939, or it is that Oak Grove farmstead drawn on the wrong side of the line.",
+   "t": "Private farmland: ask the landowner. The fenced lot by the road is the first place to look for the house cellar and dump. A later Pierce plat (1920s) or a 1912 tax roll could name the Jos. Zopp Jr. farm.",
+   "src": [
+    [
+     "Atlas of Pierce County (Nash & Morgan, 1877-78), Trimbelle (T26N R18W), p. 23",
+     "https://www.wisconsinhistory.org/record/maps/W0170OL/x"
+    ],
+    [
+     "Atlas and Plat Book of Pierce County (Kenyon, 1917), Trimbelle and Oak Grove townships",
+     "https://www.wisconsinhistory.org/record/multi/W0177JX/atlas-and-plat-book-of-pierce-county-wisconsin"
+    ],
+    [
+     "River Falls Journal, 1 and 15 Aug 1912 (Trimbelle column; Chronicling America)",
+     "https://chroniclingamerica.loc.gov/"
+    ],
+    [
+     "Wisconsin Historic Aerial Imagery Finder: Pierce County 1939, roll 5 frame 15",
+     "https://www.sco.wisc.edu/data/whaifinder/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the fenced lot off the town-line road in the S½ NW¼ sec. 30, read off the 1939 air photo against the BLM section lines; the 1877 house square is about 150 m accuracy, and the handoff point fell 40 m west of the line in Oak Grove",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "brody-lead-mine-village",
+   "L": "ghost",
+   "n": "Lead Mine, Lafayette County (old lead-mining village)",
+   "la": 42.57083,
+   "lo": -90.34541,
+   "y": "1800s",
+   "co": "Lafayette",
+   "stt": "WI",
+   "pl": "West of Shullsburg off Hwy 11, near New Diggings",
+   "v": "Coins, tokens, miners' tools, lead and pottery from the village and the diggings",
+   "c": "documented",
+   "s": "unknown",
+   "p": "town",
+   "st": "Brody (1973) names Lead Mine and Benton, west of Shullsburg on Hwy 11, as former mining towns. GNIS keeps Lead Mine as a place, with a Lead Mine Church and Lead Mine School just north (about 42.5803, -90.342).",
+   "t": "Check the 1938 air photo and LiDAR for diggings (pits and dumps) and for the old school and church yards. Private farmland: ask first.",
+   "src": [
+    [
+     "Brody, Discovering Wisconsin (1973), pp. 162-169 (your screenshots)",
+     ""
+    ],
+    [
+     "USGS GNIS: Lead Mine, Lead Mine Church, Lead Mine School (Lafayette Co.)",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Pin is the GNIS Lead Mine point; the village's history rests on Brody alone"
+   ]
+  },
+  {
+   "id": "brody-point-of-beginning",
+   "L": "history",
+   "n": "Point of Beginning: the 4th Principal Meridian mound (1831)",
+   "la": 42.50706,
+   "lo": -90.42689,
+   "y": "1831",
+   "co": "Grant",
+   "stt": "WI",
+   "pl": "Wisconsin-Illinois line south of Hazel Green, where the 4th Principal Meridian meets the state line",
+   "v": "The starting corner of every Wisconsin land survey",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "Brody quotes the marker: in 1831 U.S. commissioner Lucius Lyon built a mound 6 ft square and 6 ft high, 45 chains (2,970 ft) east of the marker, to fix where the state line meets the 4th Principal Meridian. Every Wisconsin public land survey starts from it. The mound itself is long gone.",
+   "t": "LOOK ONLY: a historic marker by the road; the field around the corner is private.",
+   "src": [
+    [
+     "Brody, Discovering Wisconsin (1973), pp. 162-169 (your screenshots)",
+     ""
+    ],
+    [
+     "BLM PLSS (CadNSDI): corner of T1N R1E and R1W on the state line",
+     ""
+    ]
+   ],
+   "acc": [
+    "stop",
+    "Historic survey corner and marker: look only; the field is private"
+   ],
+   "pinconf": "B",
+   "pinev": [
+    "Pin is the BLM corner where the 4th Principal Meridian meets the state line (T1N R1E/R1W)",
+    "Brody's marker text gives the same point"
+   ]
+  },
+  {
+   "id": "brody-hardys-scrape",
+   "L": "ghost",
+   "n": "Hardy's Scrape: the 1825 miners' camp at Hazel Green",
+   "la": 42.53278,
+   "lo": -90.43457,
+   "y": "1825",
+   "co": "Grant",
+   "stt": "WI",
+   "pl": "Hazel Green (village-level pin)",
+   "v": "Early lead-rush coins, tools and lead from the diggings",
+   "c": "documented",
+   "s": "unknown",
+   "p": "town",
+   "st": "Brody says the first miners came to Hazel Green in 1825. James Hardy and Moses Meeker fought over a mine and Hardy won, so the camp was called Hardy's Scrape, later Hard Scrabble, and then Hazel Green.",
+   "t": "The old diggings sit around the village edges, and LiDAR shows pits. Private land: ask first.",
+   "src": [
+    [
+     "Brody, Discovering Wisconsin (1973), pp. 162-169 (your screenshots)",
+     ""
+    ],
+    [
+     "USGS GNIS: Hazel Green, Grant Co.",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Village-level pin on the GNIS Hazel Green point",
+    "Unconfirmed, one source"
+   ]
+  }
+ ],
+ "edit": {
+  "wd4-trimbelle-zopp": {
+   "st": " Plat check (2026): the 1877 Pierce atlas puts M. Zopp on 80 acres in the S½ NW¼ sec. 30 T26N R18W, about 3 km west of the village (pinned separately as the Zopp farm). In Aug 1912 the River Falls Journal gives the spelling as Zopp and reports that Chester Keyser bought the Jos. Zopp, Jr. farm and that Joss Zopp's family moved to Oak Grove. The 1917 Kenyon plat shows J. Zopp, 160.50 acres, in sec. 36 Oak Grove, and no Zopp left in Trimbelle. The 1939 air photo check on that eighty (Pierce BRW-5-15, 20 June 1939): no farmstead stands on the sec. 30 side of the town-line road by the S½ NW¼; the eighty is open pasture with a small fenced lot and a lane off the road, and a bright bare patch (likely a rock outcrop or a small pit) about 140 m in. The only farmstead nearby is across the road on the Oak Grove side. So the 1877 house was gone by 1939, or it is that Oak Grove farmstead drawn on the wrong side of the line.",
+   "src": [
+    [
+     "Atlas of Pierce County (Nash & Morgan, 1877-78), Trimbelle (T26N R18W), p. 23",
+     "https://www.wisconsinhistory.org/record/maps/W0170OL/x"
+    ],
+    [
+     "Atlas and Plat Book of Pierce County (Kenyon, 1917), Trimbelle and Oak Grove townships",
+     "https://www.wisconsinhistory.org/record/multi/W0177JX/atlas-and-plat-book-of-pierce-county-wisconsin"
+    ],
+    [
+     "River Falls Journal, 1 and 15 Aug 1912 (Trimbelle column; Chronicling America)",
+     "https://chroniclingamerica.loc.gov/"
+    ]
+   ]
+  },
+  "hist-lead-1": {
+   "st": " Brody (1973): at the Badger Mine and Museum in Shullsburg, visitors walked about half a mile of the main passage, and mines honeycomb the ground under the town. Also in Shullsburg: the Pick and Gad newspaper office and the Tower House, built by a former actress to overlook her mine holdings. The \"Wisconsin Lead Region\" marker, 1 mile west of Shullsburg on Hwy 11, says winter miners lived in caves or dug-outs and were nicknamed Badgers.",
+   "src": [
+    [
+     "Brody, Discovering Wisconsin (1973), pp. 162-169 (your screenshots)",
+     ""
+    ]
+   ]
+  },
+  "fr-new-diggings-1827-dug-out-camp-of-the-lead": {
+   "st": " Brody (1973): New Diggings, southeast of Benton on County W, was founded by Illinois lead miners from the \"old diggings\" near Galena. Father Mazzuchelli named its streets Truth, Mercy and Judgment and built the wooden St. Augustine's church. The first Masonic Temple in Wisconsin and the only Masonic cemetery are here (the cemetery is look-only). Old mine dumps and abandoned foundations can still be seen along County W.",
+   "t": " The dumps and foundation edges off the road are the ground; private, so ask.",
+   "src": [
+    [
+     "Brody, Discovering Wisconsin (1973), pp. 162-169 (your screenshots)",
+     ""
+    ]
+   ]
+  },
+  "stark-belmont": {
+   "st": " Brody (1973): First Capitol State Park is on County G about 2.5 miles off Hwy 151. When the railroad bypassed Old Belmont about two miles to the southeast, many residents moved their buildings to \"new\" Belmont; only the Council House and the \"Supreme Court\" building remain.",
+   "t": " The vanished house lots of the 1836 village lie around the park, mostly on private land.",
+   "src": [
+    [
+     "Brody, Discovering Wisconsin (1973), pp. 162-169 (your screenshots)",
+     ""
+    ]
+   ]
+  },
+  "hist-lead-2": {
+   "st": " Brody (1973): Shake-Rag-Under-the-Hill got its name because at mealtime the women shook rags to call the men from the mines on the opposite hill. Pendarvis, restored by Neal and Hellum from the 1930s, is now a Wisconsin Historical Society site.",
+   "src": [
+    [
+     "Brody, Discovering Wisconsin (1973), pp. 162-169 (your screenshots)",
+     ""
+    ]
+   ]
+  },
+  "hist-24": {
+   "st": " Brody (1973): Saint John's Mine at Potosi was first a cave, La Salle Cave, worked by Indians before the 1827 lead rush; the first white miner was Willis Saint John. Potosi shipped lead by barge and in 1836 hoped to be the capital.",
+   "src": [
+    [
+     "Brody, Discovering Wisconsin (1973), pp. 162-169 (your screenshots)",
+     ""
+    ]
+   ]
+  },
+  "fr-sinsinawa-mound-attack": {
+   "st": " Brody (1973): Father Mazzuchelli bought the fort-like building at Sinsinawa in 1844 (it had served as a stable and granary) and founded St. Clara's Academy of the Sinsinawa Dominicans there.",
+   "src": [
+    [
+     "Brody, Discovering Wisconsin (1973), pp. 162-169 (your screenshots)",
+     ""
+    ]
+   ]
+  }
+ }
+}

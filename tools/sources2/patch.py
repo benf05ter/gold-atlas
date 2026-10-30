@@ -9,7 +9,7 @@ if '// ---------- Tiers (v197)' not in s: sys.exit('needs the v197 tier block fi
 neg={}
 if os.path.exists(tsv):
     for r in csv.DictReader(open(tsv,encoding='utf-8'),delimiter='\t'):
-        if (r.get('outcome') or '').strip()=='rejected' and (r.get('spot_id') or '').strip():
+        if (r.get('outcome') or '').strip()=='rejected' and (r.get('spot_id') or '').strip() not in ('','-'):
             neg[r['spot_id'].strip()]=[r['date'].strip(),r['who'].strip(),r['reason'].strip(),r['sources_checked'].strip()]
 blk=open(os.path.join(here,'src2.js'),encoding='utf-8').read()
 blk=blk.replace('/*NEG*/{}/*/NEG*/','/*NEG*/'+json.dumps(neg,ensure_ascii=False).replace('</','<\\/')+'/*/NEG*/')
