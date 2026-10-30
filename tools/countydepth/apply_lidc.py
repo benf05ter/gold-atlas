@@ -1,6 +1,6 @@
 # LiDAR counts for card text only: LIDC[id]=[pits,deep,mounds,marea,relief,tile] (p.lid stays the scored field). usage: apply_lidc.py lid.tsv og-data.js
 import sys,csv,json
-rows=list(csv.reader(open(sys.argv[1]),delimiter='\t')); hdr=rows[0]; rows=rows[1:]
+rows=[r for r in csv.reader(open(sys.argv[1]),delimiter='\t') if r and r[0]!='id']
 f=sys.argv[2]; s=open(f,encoding='utf-8').read(); tag='\n// LiDAR counts (card text only) from '+sys.argv[1].split('/')[-1]+'\n'
 assert tag not in s,'already applied'
 num=lambda x: float(x) if '.' in x else int(x)
