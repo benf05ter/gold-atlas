@@ -5298,6 +5298,7 @@ var PLATS=[{id:'chippewa',label:'Chippewa 1913',b:[-91.6676,-90.9203,44.855,45.2
   {id:'dakota74',label:'Dakota MN 1874',b:[-93.32431, -92.72912, 44.4418, 44.96758],f:'plat_dakota_1874',dir:'om13',tile:'p-dakota74'},
   {id:'houston71',label:'Houston MN 1871',b:[-91.73133, -91.24195, 43.49729, 43.85382],f:'plat_houston_1871',dir:'om13',tile:'p-houston71'},
   {id:'menominee98',label:'Menominee MI 1898',b:[-87.90622, -87.24531, 45.08975, 45.98937],f:'plat_menominee_1898',dir:'om13',tile:'p-menominee98'},
+  {id:'menominee12',label:'Menominee MI 1912',b:[-87.69921, -87.26055, 45.28717, 45.98599],f:'plat_menominee_1912',dir:'om13',tile:'p-menominee12'},
   {id:'gogebic87',label:'Gogebic/Ontonagon MI 1887',b:[-90.42601, -88.94263, 46.09643, 46.94767],f:'plat_gogebic_ontonagon_1887',dir:'om13',tile:'p-gogebic87'}];
 { const g13=el('g',{},gBase); gBase.insertBefore(g13,gBelt); g13.style.display='none';
   for(const p of PLATS){ const [ix,iy]=P(p.b[0],p.b[3]); p.im=el('image',{x:ix,y:iy,width:(p.b[1]-p.b[0])*K,height:p.b[3]-p.b[2],preserveAspectRatio:'none','data-f':p.f},g13); }
@@ -5334,6 +5335,7 @@ var PLATS=[{id:'chippewa',label:'Chippewa 1913',b:[-91.6676,-90.9203,44.855,45.2
     <p class="hint"><b>Dakota MN 1874:</b> Map of Dakota County, Minnesota (A. H. Hoenck, Hoenck &amp; Roosen, St. Paul, 1874), Library of Congress 2012593028. Fit: median 24 m.</p>
     <p class="hint"><b>Houston MN 1871:</b> Map of Houston County, Minnesota (H. I. Bliss &amp; J. M. Marti, La Crosse, 1871), Library of Congress 2012593030: village plats like Riceford, Clinton and Sheldon that faded later. Fit: median 41 m.</p>
     <p class="hint"><b>Menominee MI 1898:</b> Map of Menominee County, Mich. (Albert Hass and A. W. Blom, Menominee, 1898), Library of Congress 2012593145: logging-era camps, rail sidings and schools. Fit: median 43 m.</p>
+    <p class="hint"><b>Menominee MI 1912:</b> Standard Atlas of Menominee County, Michigan (Geo. A. Ogle and Co., Chicago, 1912), University of Michigan copy on Internet Archive: 20 township plates with landowners, schools, churches, rail stations and sidings. Fit: each plate matched to BLM section corners, about 50-150 m.</p>
     <p class="hint"><b>Gogebic/Ontonagon MI 1887:</b> Map of the Mineral Regions of Gogebic and Ontonagon Counties, Michigan (Allis and Merrell, Milwaukee; J. M. Longyear and J. M. Case, 1887), Library of Congress 2012593363: the Gogebic iron range mines and their locations in the 1887 boom. Mine pins are within 200-500 m.</p>
     <p class="hint">Minnesota page-book counties (Chisago 1888, Goodhue 1894, Wabasha 1896, Winona 1867) have pins only, no map picture yet.</p>
     </details></div>`);

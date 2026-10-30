@@ -1,0 +1,647 @@
+{
+ "new": [
+  {
+   "id": "ot-cottonville-school-s7-t18n-r6e",
+   "L": "school",
+   "n": "Cottonville School site (Arkdale 1958 topo)",
+   "la": 44.0501,
+   "lo": -89.83393,
+   "y": "by 1958",
+   "pl": "sec. 7 T18N R6E, Adams Co.",
+   "co": "Adams",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1958 USGS topo map (Arkdale 15-minute sheet) draws Cottonville School here (school symbol, sec. 7 T18N R6E). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Arkdale topographic map (1958)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Arkdale 1958 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-pershing-school-s33-t36n-r3e",
+   "L": "school",
+   "n": "Pershing School site (Brantwood 1941 topo)",
+   "la": 45.55467,
+   "lo": -90.12078,
+   "y": "by 1941",
+   "pl": "sec. 33 T36N R3E, Price Co.",
+   "co": "Price",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1941 USGS topo map (Brantwood 15-minute sheet) draws Pershing School here (school symbol, sec. 33 T36N R3E). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Brantwood topographic map (1941)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Brantwood 1941 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-knox-mills-school-s21-t35n-r3e",
+   "L": "school",
+   "n": "Knox Mills School site (Brantwood 1941 topo)",
+   "la": 45.5004,
+   "lo": -90.10915,
+   "y": "by 1941",
+   "pl": "sec. 21 T35N R3E, Price Co.",
+   "co": "Price",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1941 USGS topo map (Brantwood 15-minute sheet) draws Knox Mills School here (school symbol, sec. 21 T35N R3E). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Brantwood topographic map (1941)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Brantwood 1941 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-elmer-school-s27-t42n-r1w",
+   "L": "school",
+   "n": "Elmer School site (Butternut 1940 topo)",
+   "la": 46.08415,
+   "lo": -90.48773,
+   "y": "by 1940",
+   "pl": "sec. 27 T42N R1W, Ashland Co.",
+   "co": "Ashland",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1940 USGS topo map (Butternut 15-minute sheet) draws Elmer School here (school symbol, sec. 27 T42N R1W). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Butternut topographic map (1940)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Butternut 1940 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-chippanazie-school-s8-t41n-r9w",
+   "L": "school",
+   "n": "Chippanazie School site (Chittamo 1947 topo)",
+   "la": 46.05537,
+   "lo": -91.51953,
+   "y": "by 1947",
+   "pl": "sec. 8 T41N R9W, Sawyer Co.",
+   "co": "Sawyer",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1947 USGS topo map (Chittamo 15-minute sheet) draws Chippanazie School here (school symbol, sec. 8 T41N R9W). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Chittamo topographic map (1947)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Chittamo 1947 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-st-francis-church-s28-t26n-r7e",
+   "L": "school2",
+   "n": "St. Francis Church site (Stevens Point 1956 topo)",
+   "la": 44.71347,
+   "lo": -89.68097,
+   "y": "by 1956",
+   "pl": "sec. 28 T26N R7E, Marathon Co.",
+   "co": "Marathon",
+   "stt": "WI",
+   "v": "Coins, religious medals, buttons, jewelry from church socials and picnics",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1956 USGS topo map (Stevens Point 15-minute sheet) draws St. Francis Church here (church symbol, sec. 28 T26N R7E). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level church pad, fieldstone foundation corners, lilacs or old spruce, and the horse-shed line. If there is a churchyard cemetery, search only outside it. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Stevens Point topographic map (1956)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Stevens Point 1956 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-lily-school-s30-t25n-r7e",
+   "L": "school",
+   "n": "Lily School site (Stevens Point 1956 topo)",
+   "la": 44.62674,
+   "lo": -89.71988,
+   "y": "by 1956",
+   "pl": "sec. 30 T25N R7E, Portage Co.",
+   "co": "Portage",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1956 USGS topo map (Stevens Point 15-minute sheet) draws Lily School here (school symbol, sec. 30 T25N R7E). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Stevens Point topographic map (1956)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Stevens Point 1956 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-wilson-school-s26-t25n-r7e",
+   "L": "school",
+   "n": "Wilson School site (Stevens Point 1956 topo)",
+   "la": 44.62067,
+   "lo": -89.62804,
+   "y": "by 1956",
+   "pl": "sec. 26 T25N R7E, Portage Co.",
+   "co": "Portage",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1956 USGS topo map (Stevens Point 15-minute sheet) draws Wilson School here, marked \"(Abandoned)\" (school symbol, sec. 26 T25N R7E). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Stevens Point topographic map (1956)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Stevens Point 1956 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-casimir-school-s18-t24n-r8e",
+   "L": "school",
+   "n": "Casimir School site (Stevens Point 1956 topo)",
+   "la": 44.56841,
+   "lo": -89.5903,
+   "y": "by 1956",
+   "pl": "sec. 18 T24N R8E, Portage Co.",
+   "co": "Portage",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1956 USGS topo map (Stevens Point 15-minute sheet) draws Casimir School here (school symbol, sec. 18 T24N R8E). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Stevens Point topographic map (1956)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Stevens Point 1956 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-cary-school-s18-t24n-r7e",
+   "L": "school",
+   "n": "Cary School site (Stevens Point 1956 topo)",
+   "la": 44.56024,
+   "lo": -89.72608,
+   "y": "by 1956",
+   "pl": "sec. 18 T24N R7E, Portage Co.",
+   "co": "Portage",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1956 USGS topo map (Stevens Point 15-minute sheet) draws Cary School here (school symbol, sec. 18 T24N R7E). No second source found yet; 5 buildings within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Stevens Point topographic map (1956)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Stevens Point 1956 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-green-meadow-school-s20-t24n-r7e",
+   "L": "school",
+   "n": "Green Meadow School site (Stevens Point 1956 topo)",
+   "la": 44.54117,
+   "lo": -89.69853,
+   "y": "by 1956",
+   "pl": "sec. 20 T24N R7E, Portage Co.",
+   "co": "Portage",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1956 USGS topo map (Stevens Point 15-minute sheet) draws Green Meadow School here (school symbol, sec. 20 T24N R7E). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Stevens Point topographic map (1956)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Stevens Point 1956 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-sims-school-s33-t24n-r7e",
+   "L": "school",
+   "n": "Sims School site (Stevens Point 1956 topo)",
+   "la": 44.51789,
+   "lo": -89.67221,
+   "y": "by 1956",
+   "pl": "sec. 33 T24N R7E, Portage Co.",
+   "co": "Portage",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1956 USGS topo map (Stevens Point 15-minute sheet) draws Sims School here, marked \"(Abandoned)\" (school symbol, sec. 33 T24N R7E). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Stevens Point topographic map (1956)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Stevens Point 1956 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-axen-lake-school-s19-t33n-r8e",
+   "L": "school",
+   "n": "Axen Lake School site (Tomahawk 1950 topo)",
+   "la": 45.331,
+   "lo": -89.54787,
+   "y": "by 1950",
+   "pl": "sec. 19 T33N R8E, Lincoln Co.",
+   "co": "Lincoln",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1950 USGS topo map (Tomahawk 15-minute sheet) draws Axen Lake School here (school symbol, sec. 19 T33N R8E). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Tomahawk topographic map (1950)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Tomahawk 1950 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-drew-school-s1-t32n-r7e",
+   "L": "school",
+   "n": "Drew School site (Tomahawk 1950 topo)",
+   "la": 45.29336,
+   "lo": -89.54925,
+   "y": "by 1950",
+   "pl": "sec. 1 T32N R7E, Lincoln Co.",
+   "co": "Lincoln",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1950 USGS topo map (Tomahawk 15-minute sheet) draws Drew School here (school symbol, sec. 1 T32N R7E). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Tomahawk topographic map (1950)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Tomahawk 1950 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-pleasant-view-school-s16-t29n-r7e",
+   "L": "school",
+   "n": "Pleasant View School site (Wausau 1953 topo)",
+   "la": 44.9886,
+   "lo": -89.69147,
+   "y": "by 1953",
+   "pl": "sec. 16 T29N R7E, Marathon Co.",
+   "co": "Marathon",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1953 USGS topo map (Wausau 15-minute sheet) draws Pleasant View School here (school symbol, sec. 16 T29N R7E). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Wausau topographic map (1953)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Wausau 1953 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-paine-school-s1-t27n-r7e",
+   "L": "school",
+   "n": "Paine School site (Wausau 1953 topo)",
+   "la": 44.85055,
+   "lo": -89.62763,
+   "y": "by 1953",
+   "pl": "sec. 1 T27N R7E, Marathon Co.",
+   "co": "Marathon",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1953 USGS topo map (Wausau 15-minute sheet) draws Paine School here (school symbol, sec. 1 T27N R7E). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Wausau topographic map (1953)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Wausau 1953 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-st-paul-church-s27-t27n-r8e",
+   "L": "school2",
+   "n": "St. Paul Church site (Wausau 1953 topo)",
+   "la": 44.7872,
+   "lo": -89.55125,
+   "y": "by 1953",
+   "pl": "sec. 27 T27N R8E, Marathon Co.",
+   "co": "Marathon",
+   "stt": "WI",
+   "v": "Coins, religious medals, buttons, jewelry from church socials and picnics",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1953 USGS topo map (Wausau 15-minute sheet) draws St. Paul Church here (church symbol, sec. 27 T27N R8E). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level church pad, fieldstone foundation corners, lilacs or old spruce, and the horse-shed line. If there is a churchyard cemetery, search only outside it. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Wausau topographic map (1953)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Wausau 1953 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-webb-lake-school-s16-t41n-r14w",
+   "L": "school",
+   "n": "Webb Lake School site (Webb Lake 1949 topo)",
+   "la": 46.0276,
+   "lo": -92.11264,
+   "y": "by 1949",
+   "pl": "sec. 16 T41N R14W, Burnett Co.",
+   "co": "Burnett",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1949 USGS topo map (Webb Lake 15-minute sheet) draws Webb Lake School here (school symbol, sec. 16 T41N R14W). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Webb Lake topographic map (1949)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Webb Lake 1949 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-four-corners-school-s9-t40n-r16w",
+   "L": "school",
+   "n": "Four Corners School site (Webster 1950 topo)",
+   "la": 45.97279,
+   "lo": -92.36362,
+   "y": "by 1950",
+   "pl": "sec. 9 T40N R16W, Burnett Co.",
+   "co": "Burnett",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1950 USGS topo map (Webster 15-minute sheet) draws Four Corners School here (school symbol, sec. 9 T40N R16W). No second source found yet; no building within 60 m today.",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Webster topographic map (1950)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Webster 1950 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "ot-pleasant-view-school-s2-t23n-r5e",
+   "L": "school",
+   "n": "Pleasant View School site (Wisconsin Rapids 1957 topo)",
+   "la": 44.49677,
+   "lo": -89.87,
+   "y": "by 1957",
+   "pl": "sec. 2 T23N R5E, Wood Co.",
+   "co": "Wood",
+   "stt": "WI",
+   "v": "Coins, buttons, pencil caps, toys and slate pieces",
+   "c": "documented",
+   "s": "unknown",
+   "p": "exact",
+   "st": "The 1957 USGS topo map (Wisconsin Rapids 15-minute sheet) draws Pleasant View School here (school symbol, sec. 2 T23N R5E). No second source found yet; 1 building within 60 m today (it may still stand, or a newer house took its place).",
+   "t": "Look for the level school-yard pad, a fieldstone foundation corner, lilacs and the old well; the road edge in front was the playground. Ask the landowner first.",
+   "src": [
+    [
+     "USGS Wisconsin Rapids topographic map (1957)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the Wisconsin Rapids 1957 topo symbol (old-maps-over-today pass); good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "cd-shermans-camp-otter-lake",
+   "L": "camp",
+   "n": "Sherman's Camp, Otter Lake (1911 plat)",
+   "la": 46.909,
+   "lo": -88.5868,
+   "y": "by 1911",
+   "pl": "NE NW sec. 14 T52N R34W, Houghton County, west shore of Otter Lake",
+   "co": "Houghton",
+   "stt": "MI",
+   "v": "Coins, tokens, logging-camp tools, bottles, buttons",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "The 1911 Houghton County plat book (T52N R34W page) prints \"Sherman's Camp\" on the west shore of Otter Lake, just below the sec. 11/14 line, with the Old Road running along the shore past it. The 1954 USGS Pelkie topo still draws the shore road there, with a few buildings beside it. The pin sits on the shore at the plat's position.",
+   "t": "Look for a level camp clearing between the shore road and the lake, with old bottles, stove parts and horseshoes. Ask the landowner first.",
+   "src": [
+    [
+     "Plat book of Houghton County, Michigan (Weston & Hancock, c1911), T52N R34W page (UMich scan 29; Neb's screenshot)",
+     "https://quod.lib.umich.edu/m/micounty/5117704.0001.001/29"
+    ],
+    [
+     "USGS Pelkie topographic map (1954)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the 1911 plat label against the 1954 Pelkie topo shore road and section line; good to about 150 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "cd-old-camp-site-sec19-t53n-r34w",
+   "L": "camp",
+   "n": "\"Old Camp Site\", sec. 19 T53N R34W (1911 plat)",
+   "la": 46.9748,
+   "lo": -88.6683,
+   "y": "before 1911",
+   "pl": "sec. 19 T53N R34W, Houghton County, on the Old Road",
+   "co": "Houghton",
+   "stt": "MI",
+   "v": "Coins, tokens, logging-camp tools, bottles, buttons",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "The 1911 Houghton County plat book marks an \"Old Camp Site\" with building squares on the Old Road in sec. 19 T53N R34W, so the camp was already abandoned by 1911. The 1954 USGS Pelkie topo shows the section inside the Baraga State Forest, with old woods roads but no buildings. The pin is at the section centre until the plat's exact spot is read.",
+   "t": "State forest land: check the Michigan state forest rules before you detect. Look for the camp clearing along the old road, with bottles, stove parts and horseshoes.",
+   "src": [
+    [
+     "Plat book of Houghton County, Michigan (Weston & Hancock, c1911), T53N R34W page (Neb's screenshot)",
+     "https://quod.lib.umich.edu/m/micounty/5117704.0001.001/12"
+    ],
+    [
+     "USGS Pelkie topographic map (1954)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed at the section centre; the camp can be anywhere in the section, up to about 800 m away",
+    "Unconfirmed, one source"
+   ]
+  }
+ ],
+ "edit": {
+  "pbu15-schoolhouse-sec-17-t40n-r17w": {
+   "set": {},
+   "st": " The Webster 1950 USGS topo: the topo draws Bluff School 387 m from this plat spot, at 45.94909, -92.4976.",
+   "src": [
+    [
+     "USGS Webster topographic map (1950)",
+     "https://ngmdb.usgs.gov/topoview/"
+    ]
+   ]
+  },
+  "cd-worham-houghton": {
+   "set": {
+    "pl": "SW SE sec. 14 T53N R34W, Houghton County, where the South Shore railway crosses Worham Creek"
+   },
+   "st": "",
+   "src": []
+  }
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "new": [],
+ "edit": {
+  "cd-old-camp-site-sec19-t53n-r34w": {
+   "set": {
+    "la": 46.9742,
+    "lo": -88.665,
+    "pl": "NW SE sec. 19 T53N R34W, Houghton County, just north of the Old Road",
+    "st": "The 1911 Houghton County plat book (T53N R34W page) marks an \"Old Camp Site\" across the middle of sec. 19, just north of the Old Road, with two small building squares east of the section centre. So the camp was already abandoned by 1911. The 1954 USGS Pelkie topo shows the section inside the Baraga State Forest, with old woods roads but no buildings. The pin sits at the plat's building squares.",
+    "pinev": [
+     "Placed from the 1911 plat building squares (NW SE sec. 19); good to about 200 m",
+     "Unconfirmed, one source"
+    ]
+   },
+   "st": "",
+   "src": [],
+   "moved": true
+  }
+ }
+}
