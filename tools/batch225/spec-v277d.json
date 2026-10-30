@@ -1,0 +1,76 @@
+{
+ "new": [
+  {
+   "id": "d-electric-park-1913-plat",
+   "L": "gather",
+   "n": "Electric Park grounds on the 1913 plat (R. A. Lang land, Lake Hallie)",
+   "la": 44.8745,
+   "lo": -91.4485,
+   "y": "c.1908-1944",
+   "pl": "S\u00bd sec. 27 to the sec. 26 line, T28N R9W, between the Omaha railroad and the south lobe of Lake Hallie, Chippewa County",
+   "co": "Chippewa",
+   "stt": "WI",
+   "v": "Silver coins, tokens, interurban tickets, jewelry",
+   "c": "documented",
+   "s": "unknown",
+   "p": "plss",
+   "st": "The 1913 Chippewa County plat prints \"Electric Park\" across this land, about 1.1 km west-southwest of the main Electric Park pin, which stays where Neb placed it at the Eau Claire Press building. The pavilion and the Silhouette Inn still stood in 1944, when Northern States Power sold the 166-acre park, so they should show on the 1938 air photo. That photo would settle which spot the crowds used most. Until then, treat both pins as the same park.",
+   "t": "Private land and lots today: ask. Look for the pavilion pad and the walks between the interurban stop and the lake shore.",
+   "src": [
+    [
+     "Atlas of Chippewa County (1913), T28N R9W page (research/plat-chippewa/scans-1913/34-range-9-west.jpg)",
+     "https://www.wisconsinhistory.org/record/map/W01B9BP!W01B9FX"
+    ],
+    [
+     "Chippewa Herald-Telegram, 28 Jul 1944, p. 1 (newspapers.com image 416714994)",
+     ""
+    ]
+   ],
+   "acm": [
+    500,
+    "plat"
+   ],
+   "pinev": "1913 Chippewa County plat, T28N R9W: 'Electric Park' label on R. A. Lang's 200 acres"
+  }
+ ],
+ "edit": {
+  "d-electric-park": {
+   "st": " The 1913 Chippewa County plat labels \"Electric Park\" across the south half of sec. 27 and the edge of sec. 26, T28N R9W. That is R. A. Lang's 200 acres between the Omaha railroad and the south lobe of Lake Hallie, and Lang also held 320 acres around the lake. In 1923 the pavilion was still holding a dance season, run by Wisconsin-Minnesota Light & Power (Chippewa Herald-Telegram, 8 May 1923, p. 1). In July 1944 Northern States Power sold the 166-acre park bordering Lake Hallie to Clark Hughes of Winona. The paper recalled that it \"drew thousands of visitors each Sunday and holiday\" in the interurban days. The old pavilion and the former Silhouette Inn were still standing and were to be kept for recreation, with the rest cut into lots (Herald-Telegram, 28 Jul 1944, p. 1). So the park ran from about 1908 to 1944, and the pavilion stood until at least 1944, which means it should show on the 1938 aerial. The plat's park land is pinned separately as d-electric-park-1913-plat.",
+   "src": [
+    [
+     "Atlas of Chippewa County (1913), T28N R9W page (research/plat-chippewa/scans-1913/34-range-9-west.jpg)",
+     "https://www.wisconsinhistory.org/record/map/W01B9BP!W01B9FX"
+    ],
+    [
+     "Chippewa Herald-Telegram, 8 May 1923, p. 1 (newspapers.com image 417066811)",
+     ""
+    ],
+    [
+     "Chippewa Herald-Telegram, 28 Jul 1944, p. 1 (newspapers.com image 416714994)",
+     ""
+    ]
+   ]
+  },
+  "tw-mn-grand-rapids-ahonen-jars-1939": {
+   "set": {
+    "s": "found"
+   },
+   "st": " Found story: AP (Grand Rapids, 23 May 1939) reports $722 dug up in all, $340 of it in $20 gold pieces in six glass jars around the cabin and fields, plus jars of quarters and half-dollars, held by the county for old-age assistance. Nothing suggests any jars were left.",
+   "src": [
+    [
+     "AP, Grand Rapids 23 May 1939: Duluth News Tribune 24 May 1939 p. 1 (newspapers.com image 1131413756)",
+     ""
+    ]
+   ]
+  },
+  "tw-mn-turtle-lake-marcell-brunette": {
+   "st": " A separate dispatch from Marcell (Duluth News Tribune, 23 Jul 1935, p. 6) says settlers were already digging on a lonely Turtle Lake island, and describes the cache as a thermos bottle set in concrete. That makes two accounts, but the island is still unnamed.",
+   "src": [
+    [
+     "Duluth News Tribune 23 Jul 1935 p. 6, Marcell dispatch (newspapers.com image 1131089454)",
+     ""
+    ]
+   ]
+  }
+ }
+}

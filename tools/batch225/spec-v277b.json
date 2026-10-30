@@ -1,0 +1,44 @@
+{
+ "new": [
+  {
+   "id": "cd-lee-myre-tavern-tomahawk-1936",
+   "L": "gather",
+   "n": "Lee Myre's Tavern, 2 miles north of Tomahawk on Hwy 51 (1936)",
+   "la": 45.5,
+   "lo": -89.73,
+   "y": "1930s",
+   "pl": "Old US 51, about 2 miles north of Tomahawk, Lincoln County",
+   "co": "Lincoln",
+   "stt": "WI",
+   "v": "Coins, tokens, bottle caps, jewelry",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "A 1936 newspaper ad places Lee Myre's Tavern \"2 Miles North on 51\" from Tomahawk (Tomahawk Leader, 6 Aug 1936, p. 2). The pin is a placeholder 2 miles north of town; US 51 has since been rebuilt, so the old roadside lot still has to be found. There is no 1 m LiDAR for this stretch, and the 1938 air photo has not been read yet, so the pin is still only the 2-mile mark.",
+   "t": "Roadhouse yards, parking areas and the ground by the door collect coins and tokens. Find the old 51 alignment on the 1938 aerial and look for a building lot 2 miles out. Private land: ask.",
+   "src": [
+    [
+     "Tomahawk Leader, 6 Aug 1936, p. 2, ads (newspapers.com image 1238760030)",
+     ""
+    ]
+   ],
+   "pinconf": "approx",
+   "pinev": "Placeholder 2 mi N of Tomahawk; Ground check to set on the 1930s Hwy 51 alignment",
+   "acm": [
+    1500,
+    "area"
+   ]
+  }
+ ],
+ "edit": {
+  "cd-road-lake-beach-tomahawk-1936": {
+   "st": " Road Lake also had a night club in 1936: the Road Lake Nite Club, run by Archie \"Curley\" Daigle, with dancing every night except Monday to the Road Lake Swingers (Tomahawk Leader, 6 Aug 1936, p. 2, ad). The club and the swimming spot together made Road Lake a summer crowd site.",
+   "src": [
+    [
+     "Tomahawk Leader, 6 Aug 1936, p. 2, ads (newspapers.com image 1238760030)",
+     ""
+    ]
+   ]
+  }
+ }
+}
