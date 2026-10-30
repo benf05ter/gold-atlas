@@ -1,0 +1,2176 @@
+{
+ "new": [
+  {
+   "id": "tw-wi-eaton-swantek-1932",
+   "L": "treasure",
+   "n": "Robbers torture farmer Frank Swantek for a $10,000 cache, Eaton",
+   "la": 44.4439,
+   "lo": -87.8261,
+   "y": "Oct 1932",
+   "pl": "GNIS Town of Eaton (Brown), centroid; 12 mi E of Green Bay",
+   "co": "Brown",
+   "stt": "WI",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Oct 1932: four young men held six people for three hours at the home of carpenter-contractor Frank Swantek at Eaton, 12 mi E of Green Bay, torturing him and ransacking the house for a supposed $10,000 cache. Whether they found it is not stated. Pin is approximate, not the spot itself.",
+   "t": "Find Swantek on a 1930s Brown plat (Eaton). Access: private.",
+   "src": [
+    [
+     "La Crosse Tribune 12 Oct 1932 (AP) (TN TreasureNet Treasure Legends - Wisconsin thread 626034)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Town of Eaton (Brown), centroid; 12 mi E of Green Bay",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-wi-green-bay-doehm-fox-river",
+   "L": "treasure",
+   "n": "Joseph Doehm threw $3,000-$4,000 into the Fox River, Green Bay",
+   "la": 44.5192,
+   "lo": -88.0198,
+   "y": "c.1900s",
+   "pl": "Green Bay (city); river spot near his home unknown",
+   "co": "Brown",
+   "stt": "WI",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Before hanging himself, Joseph Doehm wrote that he threw $3,000-$4,000 in cash into the Fox River so relatives would not get it. Pin is approximate, not the spot itself.",
+   "t": "Paper money: likely gone. Record only. Access: river.",
+   "src": [
+    [
+     "Green Bay dispatch 21 May (TN TreasureNet Treasure Legends - Wisconsin thread 667160)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: Green Bay (city); river spot near his home unknown",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-wi-glencoe-roland-1893",
+   "L": "treasure",
+   "n": "Old soldier Patrick Roland's money, Town of Glencoe",
+   "la": 44.326,
+   "lo": -91.551,
+   "y": "1893",
+   "pl": "GNIS Town of Glencoe (Buffalo Co.) centroid; town assumed (OCR garbled the nearby city)",
+   "co": "Buffalo",
+   "stt": "WI",
+   "v": "Hidden money or valuables (story)",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Patrick Roland, an old soldier living alone in the town of Glencoe, was killed with an axe by two strangers who demanded his money (1893); he was reported to have a large amount about the place. Unknown how much they got. Pin is approximate, not the spot itself.",
+   "t": "Verify which Glencoe (Buffalo Co. is the only WI town of that name). Find Roland on the 1888 Buffalo plat; check his pension file. Access: private.",
+   "src": [
+    [
+     "Clipping 1893 (TN TreasureNet Treasure Legends - Wisconsin thread 563669)",
+     ""
+    ],
+    [
+     "BLM GLO patents, Patrick Rowland, secs 1, 2 and 12 T21N R10W (1865-76)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Moved onto Patrick Rowland's ~600-acre patent block (E½ sec 2 / W½ sec 1 T21N R10W, Town of Glencoe; BLM patents 1865-76); same name (Roland/Rowland), same town",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-wi-lynn-olesen-maple-box-1900",
+   "L": "treasure",
+   "n": "Robbers' box of silver dollars and silverware under a maple, Lynn",
+   "la": 44.5825,
+   "lo": -90.4099,
+   "y": "buried c.1860; found Nov 1900",
+   "pl": "GNIS Lynn (Clark Co.); Andrew Olesen pasture, between Lynn and Romadka",
+   "co": "Clark",
+   "stt": "WI",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Nov 1900: Andrew Olesen, cutting a maple in his pasture, found a 2-ft wooden box at its base: 120 American and Mexican silver dollars (1846-59), about $200 in gold eagles, pounds of old gold and silver watch cases, candlesticks and solid silver tableware. It recalled a farmer between Lynn and Romadka supposed murdered, robbed and his house burned some twenty years earlier (c.1880); a skeleton was found buried by the roadside near the box in 1899. A neighbor was suspected but never charged; he was later caught burglarizing a store at Pittsville and was serving 20 years at Waupun. Pin is approximate, not the spot itself.",
+   "t": "Found, but a robbery cache of that size suggests the murdered farmer's homestead (burned house site) is nearby: find it on the 1870s-1893 Clark plat between Lynn and Romadka. Roadside burial = grave, look-only. Access: private: permission.",
+   "src": [
+    [
+     "Lynn dispatch Nov 1900, one wire story (Wisconsin Weekly Advocate 8 Nov",
+     ""
+    ],
+    [
+     "Wisconsin Tobacco Reporter 9 Nov",
+     ""
+    ],
+    [
+     "Grant County Herald 8 Nov",
+     ""
+    ],
+    [
+     "Vernon County Censor 14 Nov",
+     ""
+    ],
+    [
+     "Wausau Pilot 20 Nov 1900",
+     ""
+    ],
+    [
+     "TN TreasureNet Treasure Legends - Wisconsin thread 543323). Wire copies = one source, stays C. Olesen not on 1893 Clark plat (county-depth). Second source: Neillsville/Greenwood papers Nov 1900 or 1899 skeleton story",
+     ""
+    ],
+    [
+     "Waupun inmate register for the Pittsville burglar",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Lynn (Clark Co.); Andrew Olesen pasture, between Lynn and Romadka",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-wi-madison-roth-farm-1907",
+   "L": "treasure",
+   "n": "Matthew Roth's forgotten $3,000, farm just east of Madison",
+   "la": 43.09,
+   "lo": -89.31,
+   "y": "1907",
+   "pl": "Just E of Madison (likely developed)",
+   "co": "Dane",
+   "stt": "WI",
+   "v": "Hidden money or valuables (story)",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Miser farmer Matthew Roth, 82, could not remember where he hid his money; $500 was found under the barn floor two years earlier; after his death (1907) relatives dug all over the farm for ~$3,000 more. Pin is approximate, not the spot itself.",
+   "t": "Probably developed now. Access: developed?.",
+   "src": [
+    [
+     "Clipping \"Seeks $3,000 miser hid\" 1907 (TN TreasureNet Treasure Legends - Wisconsin thread 557935)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: Just E of Madison (likely developed)",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-wi-wisconsin-mouth-coins-1887",
+   "L": "treasure",
+   "n": "Old half dollars and a Mexican coin in the shallows, mouth of the Wisconsin River",
+   "la": 42.98,
+   "lo": -91.15,
+   "y": "found 1887",
+   "pl": "Confluence of the Wisconsin and Mississippi (Wyalusing side)",
+   "co": "Grant",
+   "stt": "WI",
+   "v": "Hidden money or valuables (story)",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Raftmen tied up at the confluence found old coins in 2 ft of water among weeds: about $58 in old half dollars and a Mexican coin (114 pieces of halves). Pin is approximate, not the spot itself.",
+   "t": "A spill or lost purse: shallow-water hunt near the old raft tie-up. Wyalusing State Park nearby (no detecting in the park). Access: check ownership; state park adjacent.",
+   "src": [
+    [
+     "Clipping 1887 \"A singular find\" (TN TreasureNet Treasure Legends - Wisconsin thread 557027)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: Confluence of the Wisconsin and Mississippi (Wyalusing side)",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-wi-mineral-point-ravine-gold-1852",
+   "L": "treasure",
+   "n": "Gold lumps in a ravine in Mineral Point village (1852)",
+   "la": 42.86,
+   "lo": -90.1798,
+   "y": "1852",
+   "pl": "Mineral Point (city)",
+   "co": "Iowa",
+   "stt": "WI",
+   "v": "Hidden money or valuables (story)",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "1852: lumps of gold found in a ravine in the village; next day half the town dug and took $200 of \"gold, silver and diamonds\" by noon. A tall story. Pin is approximate, not the spot itself.",
+   "t": "Record only. Access: city.",
+   "src": [
+    [
+     "1852 clipping (TN TreasureNet Treasure Legends - Wisconsin thread 569767)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: Mineral Point (city)",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-wi-koshkonong-buckskin-gold",
+   "L": "treasure",
+   "n": "Buckskin bag of treaty gold sunk by a rock, Lake Koshkonong",
+   "la": 42.8724,
+   "lo": -88.9612,
+   "y": "c.1830s-1850s; dive 1863",
+   "pl": "GNIS Lake Koshkonong (lake); the rock in ~7 ft of water not identified",
+   "co": "Jefferson",
+   "stt": "WI",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "A tale sent by Frank Allen (Iron River, Mich.) to the Duluth Herald: Black Hawk's people, paid by the government, sank the gold in a buckskin bag beside a rock standing in about 7 ft of water; in 1863 a mixed-blood man dove around the rock for days without success. Pin is approximate, not the spot itself.",
+   "t": "Lake bottom near a big glacial rock in ~7 ft. Look-only for atlas purposes. Access: public water.",
+   "src": [
+    [
+     "Whitewater Register reprint of Duluth Herald letter (c.1880s) (TN TreasureNet Treasure Legends - Wisconsin thread 616396)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Lake Koshkonong (lake); the rock in ~7 ft of water not identified",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-wi-marinette-burglar-loot-1913",
+   "L": "treasure",
+   "n": "Burglars' loot half-buried off the Peshtigo road by a saloon",
+   "la": 45.09,
+   "lo": -87.68,
+   "y": "found Jul 1913",
+   "pl": "About 3 mi from Marinette on the Peshtigo road",
+   "co": "Marinette",
+   "stt": "WI",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Boys found $500 of watches, jewelry and monogrammed silver half-buried in the woods near a saloon 3 mi out of Marinette on the Peshtigo road. Pin is approximate, not the spot itself.",
+   "t": "Found 1913; the old saloon site itself may be worth a look. Access: unknown.",
+   "src": [
+    [
+     "Racine Journal Times 24 Jul 1913 p2 (TN TreasureNet Treasure Legends - Wisconsin thread 710206)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: About 3 mi from Marinette on the Peshtigo road",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-wi-pound-heisel-1906",
+   "L": "treasure",
+   "n": "Mrs. John Heisel's $1,800, farm west of Pound",
+   "la": 45.0941,
+   "lo": -88.06,
+   "y": "Mar 1906",
+   "pl": "West of Pound (GNIS Pound moved ~2 km W)",
+   "co": "Marinette",
+   "stt": "WI",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Mrs. John Heisel hid $1,800 shortly before she died of convulsions; the family searched the farm west of Pound. A second 1906 thread (\"Search for $1,800 in 1906 Pound\") covers the same hunt. Pin is approximate, not the spot itself.",
+   "t": "Find Heisel on a 1900s Marinette plat (Pound / Stephenson towns). Recovery not reported. Access: private: permission.",
+   "src": [
+    [
+     "Pound dispatch 17 Mar 1906 (TN TreasureNet Treasure Legends - Wisconsin thread 616066)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: West of Pound (GNIS Pound moved ~2 km W)",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-wi-franklin-ford-gold-1875",
+   "L": "treasure",
+   "n": "James Ford's California gold by an old stump, southern Town of Franklin",
+   "la": 42.85,
+   "lo": -88.0384,
+   "y": "buried 1858; found in part 1875",
+   "pl": "Southern Town of Franklin (GNIS Franklin, Milwaukee Co., moved S); Ford farm not located; Town of Franklin county is an assumption",
+   "co": "Milwaukee",
+   "stt": "WI",
+   "v": "Hidden money or valuables (story)",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "James Ford came from California in 1858 and buried about $1,500 in gold in a box by an old stump, California style; he later could not find it. In 1875 his brother John Ford's hired man picked up a $20 gold piece in the field and six $20s ($120) were found, scattered; the rest was not reported found. Pin is approximate, not the spot itself.",
+   "t": "A plow-scattered cache: grid the field with a detector. Find Ford on the 1858/1876 Milwaukee County plat (Franklin). Verify the county (several Towns of Franklin). Access: private: permission.",
+   "src": [
+    [
+     "Wisconsin paper 1875 \"After many days. The buried gold turns up\" (TN TreasureNet Treasure Legends - Wisconsin thread 570307)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: Southern Town of Franklin (GNIS Franklin, Milwaukee Co., moved S); Ford farm not located; Town of Franklin county is an assumption",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-wi-milwaukee-burke-expressway",
+   "L": "treasure",
+   "n": "Widow Burke's missing $8,000 cache, Milwaukee suburb (1962)",
+   "la": 43.03,
+   "lo": -88.0,
+   "y": "1962",
+   "pl": "Milwaukee suburb; house razed for the expressway",
+   "co": "Milwaukee",
+   "stt": "WI",
+   "v": "Hidden money or valuables (story)",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Workers razing Thomas Burke's house for the expressway found $7,700; his widow said a cache of over $8,000 was never found. Pin is approximate, not the spot itself.",
+   "t": "Under the expressway: F. Access: gone.",
+   "src": [
+    [
+     "Treasure-guide snippet (TN TreasureNet Treasure Legends - Wisconsin thread 209580)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: Milwaukee suburb; house razed for the expressway",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-wi-milwaukee-schuerman-bottles",
+   "L": "treasure",
+   "n": "Dr. Caspar Schuerman's 25 bottles of money, Mrs. Mathilda Hille's back yard, Milwaukee (1902)",
+   "la": 43.0389,
+   "lo": -87.9065,
+   "y": "buried over ~15 yrs; found 1902",
+   "pl": "Milwaukee (city); address not given",
+   "co": "Milwaukee",
+   "stt": "WI",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Mrs. Mathilda Hille (also printed Martha S. Hill), digging in her back yard, found 25 bottles of coins and paper money (~$7,000) buried by the late Dr. Caspar Schuerman; charts in the bottles showed he buried about $10,000, so ~$3,000 may remain. His widow claimed it. Pin is approximate, not the spot itself.",
+   "t": "Find Schuerman's address in Milwaukee directories (died ~3 yrs before the find). Urban lot. Access: urban lot.",
+   "src": [
+    [
+     "Montreal River Miner and Iron County Republican 22 Oct 1902",
+     ""
+    ],
+    [
+     "\"Money in pickle jars\" 1902 (TN TreasureNet Treasure Legends - Wisconsin thread 716500, 560294, 563579)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: Milwaukee (city); address not given",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-wi-milwaukee-tenhaaf-clinton-st",
+   "L": "treasure",
+   "n": "John Tenhaaf's $25,000-$50,000, 561 Clinton Street, Milwaukee",
+   "la": 43.025,
+   "lo": -87.907,
+   "y": "c.1900s-1910s",
+   "pl": "561 Clinton St (old numbering; Walker's Point); coords approximate",
+   "co": "Milwaukee",
+   "stt": "WI",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Frugal landlord John Tenhaaf was reputed to have buried $25,000-$50,000 at his home, 561 Clinton St; the coroner found only $561; no relatives; scores of people came to dig. Pin is approximate, not the spot itself.",
+   "t": "Urban; record only. Access: urban.",
+   "src": [
+    [
+     "Milwaukee dispatch 25 Jan (TN TreasureNet Treasure Legends - Wisconsin thread 72442)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: 561 Clinton St (old numbering; Walker's Point); coords approximate",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-wi-dover-gregg-hoard",
+   "L": "treasure",
+   "n": "Mrs. Armstrong Gregg's money in \"improbable places\", Dover",
+   "la": 42.7132,
+   "lo": -88.1302,
+   "y": "1800s",
+   "pl": "Town of Dover (Racine Co.) centroid; county is an assumption",
+   "co": "Racine",
+   "stt": "WI",
+   "v": "Hidden money or valuables (story)",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Eccentric Mrs. Armstrong Gregg died on a trip to Milwaukee; large sums were found hidden all over her premises. Pin is approximate, not the spot itself.",
+   "t": "Found; maybe more. Low. Access: unknown.",
+   "src": [
+    [
+     "Clipping (TN TreasureNet Treasure Legends - Wisconsin thread 563427)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: Town of Dover (Racine Co.) centroid; county is an assumption",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-wi-blackhawk-jaeger-1923",
+   "L": "treasure",
+   "n": "Hermit Robert Jaeger's hidden wealth, Black Hawk (Sauk Co.)",
+   "la": 43.2692,
+   "lo": -89.9273,
+   "y": "killed Aug 1923",
+   "pl": "GNIS Black Hawk (hamlet, Troy Twp)",
+   "co": "Sauk",
+   "stt": "WI",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Recluse Robert Jaeger, nine years in a shack at Black Hawk, was beaten to death by robbers (Alvin Jensen, John Galloway) on 8 Aug 1923; they got only $1,000 from his tin-box \"bank\". Sauk authorities ripped the shack apart and found no more, though he was supposed to have more hidden. Pin is approximate, not the spot itself.",
+   "t": "Find the shack site (1920s plat / 1938 aerial). Yard and outbuildings were never searched like the shack was. Access: private: permission.",
+   "src": [
+    [
+     "Baraboo dispatch 25 Aug 1923 (TN TreasureNet Treasure Legends - Wisconsin thread 671831)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Black Hawk (hamlet, Troy Twp)",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-wi-pell-lake-amatuna-cash",
+   "L": "treasure",
+   "n": "\"Samoots\" Amatuna's $50,000 getaway cash, Hwy 12 north of Pell Lake",
+   "la": 42.57,
+   "lo": -88.35,
+   "y": "1925",
+   "pl": "A few miles N of Pell Lake on Hwy 12",
+   "co": "Walworth",
+   "stt": "WI",
+   "v": "Hidden money or valuables (story)",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Chicago gangster Samuel \"Samoots\" Amatuna (killed 1925) reputedly buried getaway money along highways out of Chicago, ~$50,000 near Hwy 12 a few miles N of Pell Lake. Pin is approximate, not the spot itself.",
+   "t": "Treasure-magazine tale; record only. Access: unknown.",
+   "src": [
+    [
+     "Treasure magazine article (TN TreasureNet Treasure Legends - Wisconsin thread 38631)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: A few miles N of Pell Lake on Hwy 12",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-wi-hartford-bauer-1898",
+   "L": "treasure",
+   "n": "Missing $1,125 from the Graeven-Bauer shooting, road to Holy Hill",
+   "la": 43.3178,
+   "lo": -88.379,
+   "y": "June 1898",
+   "pl": "Near Hartford on the road toward Holy Hill; spot not fixed",
+   "co": "Washington",
+   "stt": "WI",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "June 1898: Nicholas Bauer shot Adolph Graeven on the road to Holy Hill and took his money (~$1,125, conflicting stories); folks believed Bauer hid the money and the revolver in the woods. Pin is approximate, not the spot itself.",
+   "t": "Weak; record only. Access: unknown.",
+   "src": [
+    [
+     "Hartford dispatch June 1898 (TN TreasureNet Treasure Legends - Wisconsin thread 563350)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: Near Hartford on the road toward Holy Hill; spot not fixed",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-wi-new-london-hoffman-orchard",
+   "L": "treasure",
+   "n": "$30,000 under an orchard tree, Nordman's hill, 2 mi S of New London",
+   "la": 44.364,
+   "lo": -88.7398,
+   "y": "found c.1900s",
+   "pl": "2 mi S of New London (GNIS New London moved S); Louis Hoffman farm on \"Nordman's hill\"",
+   "co": "Waupaca",
+   "stt": "WI",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Farmer Louis Hoffman found about $30,000 in money buried under a tree in his orchard on Nordman's hill; origin a mystery. Pin is approximate, not the spot itself.",
+   "t": "Found; whoever buried that much may have left more. Old orchard on the 1938 aerial. Access: private.",
+   "src": [
+    [
+     "New London dispatch 31 Jan (TN TreasureNet Treasure Legends - Wisconsin thread 559802)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: 2 mi S of New London (GNIS New London moved S); Louis Hoffman farm on \"Nordman's hill\"",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mn-sigel-kuehn-plum-trees-1906",
+   "L": "treasure",
+   "n": "Fred Kuehn's jars under the plum trees, Sigel Township",
+   "la": 44.2401,
+   "lo": -94.5566,
+   "y": "found Apr 1906",
+   "pl": "GNIS Township of Sigel (centroid); farm not located. Lead: an F. W. (Fred W.) Kuehn was a Stark Twp pioneer and Ibera postmaster 1881 (Brown Co. history 1916 pp. 342-343); Stark adjoins Sigel on the west, so the farm may lie near the Sigel-Stark line. Needs Brown Co. 1890s-1910s plat (not reachable from cloud: umedia 403, HathiTrust/Ancestry blocked)",
+   "co": "Brown",
+   "stt": "MN",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Fred Kuehn, 76, widower, settled his Sigel farm in 1856, was driven off in the 1862 Dakota War, and died alone there early Mar 1906; his will and property papers were buried somewhere in the yard (New Ulm Review 7 Mar 1906). In Apr 1906 special administrator Otto Schell and relative August Schultz, after repeated searches, found by some plum trees a jar encased in shingles, barely covered, holding $6,815 ($1,035 gold, the rest notes and certificates of deposit). Estate figures disagree ($17,000 / $25,000 / ~$10,000 found in inventory); how much more was hidden is unknown. Son contested the will. Pin is approximate, not the spot itself.",
+   "t": "Two papers (New Ulm and Worthington). Farmstead garden: find Kuehn on a 1900s Brown County plat (Sigel). Access: private: permission.",
+   "src": [
+    [
+     "New Ulm Review 7 Mar 1906 (local obituary, buried papers)",
+     ""
+    ],
+    [
+     "Mankato Free Press 20 Apr 1906",
+     ""
+    ],
+    [
+     "Bemidji Daily Pioneer 14 Apr 1906",
+     ""
+    ],
+    [
+     "Princeton Union 19 Apr 1906",
+     ""
+    ],
+    [
+     "Fargo Forum 14 Apr 1906",
+     ""
+    ],
+    [
+     "Worthington Advance 20 Apr 1906 (TN TreasureNet Treasure Legends - Minnesota thread 617099, 569938). LoC Chronicling America",
+     ""
+    ]
+   ],
+   "pinconf": "B",
+   "pinev": [
+    "Placed from the source text: GNIS Township of Sigel (centroid); farm not located. Lead: an F. W. (Fred W.) Kuehn was a Stark Twp pioneer and Ibera postmaster 1881 (Brown Co. history 1916 pp. 342-343); Stark adjoins Sigel on the west, so the farm may lie near the Sigel-Stark line. Needs Brown Co. 1890s-1910s plat (not reachable from cloud: umedia 403, HathiTrust/Ancestry blocked)"
+   ]
+  },
+  {
+   "id": "tw-mn-bloomington-kehoe-1915",
+   "L": "treasure",
+   "n": "Recluse James Kehoe's supposed hidden fortune, Bloomington Twp",
+   "la": 44.8408,
+   "lo": -93.2983,
+   "y": "1915",
+   "pl": "Bloomington (now suburban)",
+   "co": "Hennepin",
+   "stt": "MN",
+   "v": "Hidden money or valuables (story)",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Search of James Kehoe's shack failed; he had lived ~40 years in Bloomington Twp. Pin is approximate, not the spot itself.",
+   "t": "Developed; record only. Access: developed.",
+   "src": [
+    [
+     "Wood County Reporter 18 Mar 1915 (TN TreasureNet Treasure Legends - Minnesota thread 617662)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: Bloomington (now suburban)",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mn-grand-rapids-ahonen-jars-1939",
+   "L": "treasure",
+   "n": "Iver Ahonen's X-marked jars of gold, cabin and fields near Grand Rapids",
+   "la": 47.2372,
+   "lo": -93.5302,
+   "y": "found May 1939",
+   "pl": "GNIS Grand Rapids (city); cabin not located",
+   "co": "Itasca",
+   "stt": "MN",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Old-age pensioner Iver Ahonen died \"penniless\"; friends followed X marks on maps among his papers and with the county attorney and sheriff dug up $340 in gold pieces in his cabin and glass jars buried in nearby fields, plus silver. Pin is approximate, not the spot itself.",
+   "t": "Several X-marked spots; not all may have been dug. Find his cabin (1930s Itasca plat / 1939 news). Access: private: permission.",
+   "src": [
+    [
+     "York Dispatch 24 May 1939 (AP) (TN TreasureNet Treasure Legends - Minnesota thread 623938)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Grand Rapids (city); cabin not located",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mn-turtle-lake-marcell-brunette",
+   "L": "treasure",
+   "n": "Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell",
+   "la": 47.6243,
+   "lo": -93.7114,
+   "y": "buried 1925; parole plea 1930s",
+   "pl": "GNIS Turtle Lake (Itasca), near Marcell; the island not identified",
+   "co": "Itasca",
+   "stt": "MN",
+   "v": "Hidden money or valuables (story)",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Life prisoner Hugh C. Brunette (murder, 1929; tried to escape Marquette prison 1933) asked for release to dig $15,000 in gold and securities he buried in 1925 on a lonely island in Turtle Lake near Marcell, sealed in a concrete block, to dodge a civil judgment. Grand Rapids residents got out their shovels. Pin is approximate, not the spot itself.",
+   "t": "Several islands. Check Chippewa NF ownership (NF land = look-only); private islands need permission. Concrete block = big target for a detector or probe. Access: check: Chippewa NF / private.",
+   "src": [
+    [
+     "Clipping \"Lifer asks parole to dig treasure\", Grand Rapids (Minn.) 1930s (TN TreasureNet Treasure Legends - Michigan thread 619763)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Turtle Lake (Itasca), near Marcell; the island not identified",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mn-le-center-tree-gold-1906",
+   "L": "treasure",
+   "n": "Gold coins in an old tree trunk near Le Sueur Center (the 1858 Reinhart murder)",
+   "la": 44.3894,
+   "lo": -93.7302,
+   "y": "1858; found May 1906",
+   "pl": "GNIS Le Center (village); tree / Reinhart clearing not located",
+   "co": "Le Sueur",
+   "stt": "MN",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "May 1906: gold coins were found in an old tree trunk near Le Sueur Center. William Grover (La Crosse alderman, formerly of Henderson) tied them to a young German settler who arrived in spring 1858 with about $69 in gold, went to Reinhart's place at the edge of the prairie, and vanished; his remains were found in the Reinhart clearing that fall and Reinhart was hanged. Pin is approximate, not the spot itself.",
+   "t": "If the German's gold was in the tree, the find may be all of it. Worth a look only once the Reinhart claim is placed (1858 land entries, Le Sueur / Sibley line). Access: private.",
+   "src": [
+    [
+     "Minneapolis Tribune (Star Tribune) 19 May 1906 p1 (TN TreasureNet Treasure Legends - Minnesota thread 714572)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Le Center (village); tree / Reinhart clearing not located",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mn-fay-ravine-dugout-1890",
+   "L": "treasure",
+   "n": "Outlaw dugout with a hidden back room, Fay Ravine",
+   "la": 44.4,
+   "lo": -94.2,
+   "y": "found Dec 1890",
+   "pl": "PLACEHOLDER Nicollet County; Fay ravine not in GNIS",
+   "co": "Nicollet",
+   "stt": "MN",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Hunters in the \"great Fay ravine\" found an old door into a dugout; a blind door of hewed logs led to a 20x16 ft room with bunks for ~30; claimed as a James-Younger hideout. Pin is approximate, not the spot itself.",
+   "t": "Locate the ravine (Nicollet plat / county history). Access: unknown.",
+   "src": [
+    [
+     "Yorkville (S.C.) Enquirer 7 Jan 1891",
+     ""
+    ],
+    [
+     "Indianapolis Journal 21 Dec 1890 (TN TreasureNet Treasure Legends - Minnesota thread 588898, 491633)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: PLACEHOLDER Nicollet County; Fay ravine not in GNIS",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mn-fergus-falls-trombler-1903",
+   "L": "treasure",
+   "n": "Miner F. W. Trombler's hut hoard, Fergus Falls",
+   "la": 46.283,
+   "lo": -96.0776,
+   "y": "1903",
+   "pl": "Fergus Falls (city)",
+   "co": "Otter Tail",
+   "stt": "MN",
+   "v": "Hidden money or valuables (story)",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "F. W. Trombler, 70, a miner living alone in a hut in Fergus Falls, died; neighbors found $2,850 in nooks of the hut and the search continued. Pin is approximate, not the spot itself.",
+   "t": "Mostly found; urban now. Access: urban.",
+   "src": [
+    [
+     "Chicago Eagle 3 Oct 1903 (TN TreasureNet Treasure Legends - Minnesota thread 617604)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: Fergus Falls (city)",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mn-briggs-lake-stump-coins-1922",
+   "L": "treasure",
+   "n": "Civil War-era coin hoard under a stump, Briggs Lake (Palmer Twp)",
+   "la": 45.505,
+   "lo": -93.9391,
+   "y": "hidden c.1862; found 1922",
+   "pl": "North shore of Briggs Lake (GNIS Briggs Lake, Sherburne, moved to N shore); old Jones-Gorlick farm pasture",
+   "co": "Sherburne",
+   "stt": "MN",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "F. Peters, plowing the pasture of the old Jones-Gorlick farm on the north shore of Briggs Lake, overturned a stump and unearthed gold and silver coins dated 1847-1862 with remnants of a sack and a wad of rotted bills; over $18 gathered. Probably a Civil War specie hoard. Pin is approximate, not the spot itself.",
+   "t": "Plow-scattered hoard in a pasture untouched for 60 years: grid the field around the old stump with a detector. Find Jones / Gorlick on the 1890s-1910s Sherburne plat. Access: private: permission.",
+   "src": [
+    [
+     "Clipping relayed in Colville (Wash.) Examiner 29 Jul 1922 from a Minnesota paper (TN TreasureNet Treasure Legends - Minnesota thread 556519). SINGLE SOURCE: graded C (was B in batch 1 by mistake). Princeton Union 1922 and LoC MN papers searched: no second account. Sherburne Co. Star News (Elk River) Jul 1922 would be the local source",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: North shore of Briggs Lake (GNIS Briggs Lake, Sherburne, moved to N shore); old Jones-Gorlick farm pasture",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mn-browerville-cushing-stage-bars",
+   "L": "treasure",
+   "n": "Stage-robbery gold bars buried between Browerville and Cushing",
+   "la": 46.113,
+   "lo": -94.72,
+   "y": "c.1900 (legend); dug 1960s-70s",
+   "pl": "Midway between Browerville and Cushing",
+   "co": "Todd / Morrison",
+   "stt": "MN",
+   "v": "Hidden money or valuables (story)",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Outlaws robbed a stage carrying gold bars too heavy to carry; buried between Browerville and Cushing or thrown in a lake. People tore up the land looking in the 1960s-70s. Pin is approximate, not the spot itself.",
+   "t": "Hearsay; no newspaper found yet. Access: private.",
+   "src": [
+    [
+     "TreasureNet Treasure Legends - Minnesota thread 71616",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: Midway between Browerville and Cushing",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mn-byronville-heckes-1905",
+   "L": "treasure",
+   "n": "Thieves' $15,000 by the haunted house, Byronville",
+   "la": 43.93,
+   "lo": -93.53,
+   "y": "dug June 1905",
+   "pl": "A few miles NW of New Richland (Byronville not in GNIS); H. Heckes farm",
+   "co": "Waseca",
+   "stt": "MN",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "June 1905: a well-dressed stranger from Indiana boarded with farmer H. Heckes and dug holes for days around a vacant \"haunted\" house on a Heckes farm, after $15,000 an old resident thought was cached by early thieves; nothing found. Pin is approximate, not the spot itself.",
+   "t": "Spirit-guided digging; low. Access: private.",
+   "src": [
+    [
+     "Minneapolis Journal 20 Jun 1905 (TN TreasureNet Treasure Legends - Minnesota thread 616750)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: A few miles NW of New Richland (Byronville not in GNIS); H. Heckes farm",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mn-washington-honey-woods-1902",
+   "L": "treasure",
+   "n": "Madman Peter Honey's $10,000-$25,000 in the woods by his house",
+   "la": 45.03,
+   "lo": -92.88,
+   "y": "1902",
+   "pl": "PLACEHOLDER Washington County (forum title); dateline may be elsewhere",
+   "co": "Washington",
+   "stt": "MN",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Peter Honey died without telling where he hid $10,000-$25,000; his sister thought he buried it in the woods near the house where he spent his time. Searches failed. Pin is approximate, not the spot itself.",
+   "t": "Verify the place first (St. Paul Globe 28 Sep 1902). Access: unknown.",
+   "src": [
+    [
+     "Saint Paul Globe 28 Sep 1902 (TN TreasureNet Treasure Legends - Minnesota thread 562294)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: PLACEHOLDER Washington County (forum title); dateline may be elsewhere",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mi-bertrand-bushel",
+   "L": "treasure",
+   "n": "Joseph Bertrand's bushel of gold and silver, deserted village of Bertrand",
+   "la": 41.7745,
+   "lo": -86.2622,
+   "y": "1830s-1850s; searched 1898",
+   "pl": "GNIS Bertrand (village site, Bertrand Twp); orchard spot not located",
+   "co": "Berrien",
+   "stt": "MI",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "French trader Joseph Bertrand, founder of Bertrand (4 mi S of Niles), sold land and buried \"a full bushel of gold and silver coins\" from fear of robbers, then forgot the spot; he believed it was under an apple tree in his orchard. Hundreds searched; \"every foot of the orchard\" was dug by 1898-99. Pin is approximate, not the spot itself.",
+   "t": "The village is gone; Michigan marker S0286 (Bertrand Rd at Bond). Find Bertrand's own land on the 1829-31 GLO plat / 1860s Berrien plat, then the orchard on the 1938 aerial. Wire story, one origin: second source wanted (Berrien county history 1880). Access: private farmland: permission.",
+   "src": [
+    [
+     "Waterbury Evening Democrat 22 Dec 1898",
+     ""
+    ],
+    [
+     "Harrisburg Telegraph 18 Jan 1899 (same story)",
+     ""
+    ],
+    [
+     "TreasureNet Treasure Legends - Michigan thread 723035, 567916",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Bertrand (village site, Bertrand Twp); orchard spot not located",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mi-buchanan-burton-phonograph",
+   "L": "treasure",
+   "n": "Hodson Burton's money buried on his farm; the record that broke, Buchanan",
+   "la": 41.8273,
+   "lo": -86.3611,
+   "y": "died c.1906; 1911",
+   "pl": "GNIS Buchanan (city); farm not located",
+   "co": "Berrien",
+   "stt": "MI",
+   "v": "Hidden money or valuables (story)",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Wealthy farmer Hodson Burton spoke his will onto a phonograph record; a codicil said he had buried a large sum on his farm and that the record told where. In 1911, as the lawyer carried the record to the waiting heirs, he tripped and it shattered. Pin is approximate, not the spot itself.",
+   "t": "Find Burton's farm on a 1900s Berrien plat (Buchanan Twp). Recovery not reported. Access: private.",
+   "src": [
+    [
+     "Mitchell (S.D.) Capital 13 Apr 1911 p6 (TN TreasureNet Treasure Legends - Michigan thread 559829)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Buchanan (city); farm not located",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mi-niles-andrew-jackson-gold",
+   "L": "treasure",
+   "n": "Andrew Jackson's hidden gold, Niles",
+   "la": 41.8298,
+   "lo": -86.2542,
+   "y": "c.1900s",
+   "pl": "Niles (city)",
+   "co": "Berrien",
+   "stt": "MI",
+   "v": "Hidden money or valuables (story)",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Andrew Jackson of Niles hid several thousand dollars in gold after a local bank failed; a stroke took his speech and he died without telling where. His children planned to search. Pin is approximate, not the spot itself.",
+   "t": "Find his home in city directories / Sanborn. Year unknown (bank failure + 3 yrs). Access: town lot.",
+   "src": [
+    [
+     "Clipping \"Paralysis leads to mystery\", Niles 26 Jun (TN TreasureNet Treasure Legends - Michigan thread 617291)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: Niles (city)",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mi-niles-perkins-hut-1904",
+   "L": "treasure",
+   "n": "Woodchopper John Perkins' money, burned hut 7 mi S of Niles",
+   "la": 41.73,
+   "lo": -86.2542,
+   "y": "Nov 1904",
+   "pl": "7 mi S of Niles (Indiana line area)",
+   "co": "Berrien",
+   "stt": "MI",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "John Perkins, aged wood chopper, was found burned in the ruins of his hut in a woods 7 mi S of Niles; police thought he was killed and robbed. Pin is approximate, not the spot itself.",
+   "t": "Probably robbed. Low. Access: unknown.",
+   "src": [
+    [
+     "Niles dispatch 18 Nov 1904 (TN TreasureNet Treasure Legends - Michigan thread 529137)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: 7 mi S of Niles (Indiana line area)",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mi-weesaw-spanish-coins-1897",
+   "L": "treasure",
+   "n": "Spanish and Mexican gold coins plowed up, northern Weesaw Township",
+   "la": 41.8559,
+   "lo": -86.5131,
+   "y": "found 1897; legend older",
+   "pl": "GNIS Township of Weesaw (township centroid; story says northern part)",
+   "co": "Berrien",
+   "stt": "MI",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Mathew Paddock plowed up Spanish and Mexican gold coins dated back to the 1700s in northern Weesaw Township. Old legend: a large sum buried there; Indians had searched in vain about 30 years earlier. Farmers neglected work to dig. Pin is approximate, not the spot itself.",
+   "t": "Find Paddock's farm on an 1880s-1890s Berrien plat (Weesaw sections 1-18). Spot finds of 1700s gold suggest a scatter or a disturbed cache: grid the plowed field. Access: private farm: permission.",
+   "src": [
+    [
+     "Newspaper clipping 1897 (TN TreasureNet Treasure Legends - Michigan thread 714570 and Weesaw 1897 thread)",
+     ""
+    ],
+    [
+     "second paper wanted",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Township of Weesaw (township centroid; story says northern part)",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mi-bronson-gold-farm-1939",
+   "L": "treasure",
+   "n": "The Bronson \"gold farm\": $3,000 in gold dug up, one plugged tile still missing",
+   "la": 41.8723,
+   "lo": -85.272,
+   "y": "coins 1882-1902; found July 1939",
+   "pl": "4 mi W of Bronson (GNIS Bronson 41.8723,-85.1947, moved 4 mi west on the same line); farm of John/Laddie Kregger, tenant Frank Belote",
+   "co": "Branch",
+   "stt": "MI",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "July 1939: the three young Belote boys dug up a drain tile holding $1,880 in $5/$10/$20 gold (1882-1902) on the farm 4 mi W of Bronson; days later Frank Belote kicked up an iron pipe with $1,120 in gold 12 ft away. A second tile, plugged with concrete at both ends, which the boys had used as a toy smokestack, was never found again. Owner Kregger ordered no more digging and evicted the Belotes. Pin is approximate, not the spot itself.",
+   "t": "Strong site: two caches 12 ft apart in the house yard; a third plugged tile is unaccounted for. Find the Kregger farm on a 1930s Branch County plat (Bronson Twp, about 4 mi W of town), check the house yard on the 1938-40 aerial. Access: private farm: permission.",
+   "src": [
+    [
+     "Reading Times 19 Jul 1939 p1 (AP)",
+     ""
+    ],
+    [
+     "Coldwater-area paper on the eviction (TN thread)",
+     ""
+    ],
+    [
+     "TreasureNet Treasure Legends - Michigan thread 708728, 678344, 711?",
+     ""
+    ],
+    [
+     "two stories, two finds",
+     ""
+    ]
+   ],
+   "pinconf": "B",
+   "pinev": [
+    "Placed from the source text: 4 mi W of Bronson (GNIS Bronson 41.8723,-85.1947, moved 4 mi west on the same line); farm of John/Laddie Kregger, tenant Frank Belote"
+   ]
+  },
+  {
+   "id": "tw-mi-homer-laker-cans-1896",
+   "L": "treasure",
+   "n": "Harry Laker's tin cans of savings, Homer",
+   "la": 42.1459,
+   "lo": -84.8089,
+   "y": "to 1896",
+   "pl": "GNIS Homer (village); he lived in an old barn in town",
+   "co": "Calhoun",
+   "stt": "MI",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Old Harry Laker, odd-job man who lived 16 years in an old barn with a hen coop for a kitchen, died March 1896; for years he had buried his savings in tin cans \"about the premises\". Pin is approximate, not the spot itself.",
+   "t": "In-town site: find which barn on the 1890s Sanborn / plat. Recovery not reported. Access: town lots.",
+   "src": [
+    [
+     "Jackson Citizen Patriot 11 Mar 1896",
+     ""
+    ],
+    [
+     "Homer Index 1896",
+     ""
+    ],
+    [
+     "plus Detroit Free Press, Kalamazoo Gazette, Bay City Times, Saginaw Courier-Herald copies (TN TreasureNet Treasure Legends - Michigan thread 721819)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Homer (village); he lived in an old barn in town",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mi-escanaba-koster-1900s",
+   "L": "treasure",
+   "n": "Nicholas Koster, miser, house burned near Escanaba",
+   "la": 45.7453,
+   "lo": -87.0646,
+   "y": "c.1900s",
+   "pl": "Escanaba area; house not located",
+   "co": "Delta",
+   "stt": "MI",
+   "v": "Hidden money or valuables (story)",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Eccentric bachelor Nicholas Koster, oldest resident of Delta County, died when his house near Escanaba burned; he was said to have hidden his fortune in the house. Pin is approximate, not the spot itself.",
+   "t": "House burned; coins could survive in the cellar hole. Access: unknown.",
+   "src": [
+    [
+     "Clipping (TN TreasureNet Treasure Legends - Michigan thread 243614)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: Escanaba area; house not located",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mi-poverty-island-bullion",
+   "L": "treasure",
+   "n": "Poverty Island bullion ship",
+   "la": 45.5275,
+   "lo": -86.6646,
+   "y": "legend",
+   "pl": "GNIS Poverty Island",
+   "co": "Delta",
+   "stt": "MI",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "An unidentified vessel said to carry $4.5 million in gold bullion sank near Poverty Island. Dunathan (1953) judged it less grounded than the Sand Bay story. Pin is approximate, not the spot itself.",
+   "t": "Underwater; look-only for the atlas. Access: water.",
+   "src": [
+    [
+     "Escanaba Daily Press 8 Aug 1953",
+     ""
+    ],
+    [
+     "Inside Michigan magazine c.1953",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Poverty Island",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mi-bellevue-dolph-stumps",
+   "L": "treasure",
+   "n": "Strangers dig under stumps, Charles Dolph farm near Bellevue",
+   "la": 42.4434,
+   "lo": -85.018,
+   "y": "c.1900s",
+   "pl": "GNIS Bellevue (village); Dolph farm not located",
+   "co": "Eaton",
+   "stt": "MI",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Two strangers came to Bellevue, went to the Charles Dolph farm and dug up two or three old stumps, then left; the town went \"treasure mad\" digging the rest of the stumps. Pin is approximate, not the spot itself.",
+   "t": "Likely the strangers took it. Only worth it with a plat showing Dolph. Access: private farm.",
+   "src": [
+    [
+     "Charlotte, Mich. dispatch 14 Mar (year to confirm) (TN TreasureNet Treasure Legends - Michigan thread 675493)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Bellevue (village); Dolph farm not located",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mi-dimondale-carr-gold",
+   "L": "treasure",
+   "n": "The poisoned Englishman Carr's California gold, Potter farm east of Dimondale",
+   "la": 42.6456,
+   "lo": -84.571,
+   "y": "buried c.1850; part found Aug 1895",
+   "pl": "4 mi E of Dimondale (GNIS Dimondale moved ~4 mi E; the line falls near the Eaton/Ingham line); Lewis Potter 40-acre farm, earlier Joseph Jessup",
+   "co": "Eaton",
+   "stt": "MI",
+   "v": "Hidden money or valuables (story)",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "An Englishman named Carr, returning from California in 1850, was poisoned while staying on the Joseph Jessup place and buried his gold nuggets and money before he died. Aug 1895: Frank Lonsbury, dragging a side hill in Lewis Potter's orchard, turned up a box of gold nuggets, quartz and a sack of flakes, reported as over $20,000 at the Ingham County Savings Bank. The story says Carr buried \"this gold with other nuggets and money in this neighborhood\". Pin is approximate, not the spot itself.",
+   "t": "Only part was found: hunt the side hill of the old orchard. Find Potter's 40 acres on the 1895 Eaton (Windsor Twp) plat. Treat the $20,000 figure with care; a second paper is needed. Access: private farm: permission.",
+   "src": [
+    [
+     "Clipping Aug 1895 \"Nuggets and quartz found\" (TN TreasureNet Treasure Legends - Michigan thread 678322",
+     ""
+    ],
+    [
+     "also \"Treasure on the Lewis Potter Farm, Diamondale 1895\")",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: 4 mi E of Dimondale (GNIS Dimondale moved ~4 mi E; the line falls near the Eaton/Ingham line); Lewis Potter 40-acre farm, earlier Joseph Jessup",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mi-petoskey-bear-river-ottawa-gold",
+   "L": "treasure",
+   "n": "Ottawa bars of gold in iron boxes, Bear River gravel pit, Petoskey",
+   "la": 45.3772,
+   "lo": -84.9609,
+   "y": "legend; dug c.1870s-1900s",
+   "pl": "GNIS Bear River mouth, Petoskey; gravel pit \"on the bank of Bear River in the southern part of the city\"",
+   "co": "Emmet",
+   "stt": "MI",
+   "v": "Hidden money or valuables (story)",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Indian story: at war, the Ottawas paddled across Little Traverse Bay, up the Bear River a short way and buried gold bars in strong boxes on the shore; all who knew the spot were killed. Hermit Isaac Williams dug there for years; the spot later became a gravel pit. Pin is approximate, not the spot itself.",
+   "t": "Gravel pit on the Bear River south side of Petoskey; much was dug out. Low. Access: city land.",
+   "src": [
+    [
+     "New York Sun reprint, c.1900s (TN TreasureNet Treasure Legends - Michigan thread 564335)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Bear River mouth, Petoskey; gravel pit \"on the bank of Bear River in the southern part of the city\"",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mi-mineral-range-express-1893",
+   "L": "treasure",
+   "n": "Mineral Range express-car robbery: $75,000 never found",
+   "la": 47.127,
+   "lo": -88.581,
+   "y": "Sept 1893",
+   "pl": "PLACEHOLDER Hancock area (Mineral Range RR); robbery spot not fixed",
+   "co": "Houghton",
+   "stt": "MI",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Sept 1893: the express car on the Mineral Range road was robbed of about $75,000; detectives caught everyone in the plot but the booty trail ended; robbers either hid it or said they had none. Pin is approximate, not the spot itself.",
+   "t": "Find the robbery spot in Houghton papers; check whether money was later recovered. Access: unknown.",
+   "src": [
+    [
+     "Detroit News special from Marquette, 20 Sep 1893 (TN TreasureNet Treasure Legends - Michigan thread 562447)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: PLACEHOLDER Hancock area (Mineral Range RR); robbery spot not fixed",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mi-grass-lake-bank-coins",
+   "L": "treasure",
+   "n": "Grass Lake bank robbery: $400 in gold and silver never recovered",
+   "la": 42.2509,
+   "lo": -84.213,
+   "y": "1920s",
+   "pl": "GNIS Grass Lake (village); hotel off Wolf Lake Rd not located",
+   "co": "Jackson",
+   "stt": "MI",
+   "v": "Hidden money or valuables (story)",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Robbers of the Grass Lake (Farmers State) bank fled to a hotel off Wolf Lake Road; police recovered all the loot except about $400 in gold and silver coins. Pin is approximate, not the spot itself.",
+   "t": "Find the date and the hotel in the Jackson Citizen Patriot (Newspapers.com). Access: unknown.",
+   "src": [
+    [
+     "TreasureNet Treasure Legends - Michigan thread 110909",
+     ""
+    ],
+    [
+     "listicles say Farmers State Bank 1920",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Grass Lake (village); hotel off Wolf Lake Rd not located",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mi-liberty-twp-keeler-beans",
+   "L": "treasure",
+   "n": "Noah Keeler's missing $7,000, Liberty Township",
+   "la": 42.1168,
+   "lo": -84.4214,
+   "y": "died c.1890s",
+   "pl": "GNIS Township of Liberty (Jackson), centroid",
+   "co": "Jackson",
+   "stt": "MI",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Eccentric Noah D. Keeler of Liberty Twp died at 82; about $7,000 he left could not be found. He once hid gold in a sack of beans his wife sold. Pin is approximate, not the spot itself.",
+   "t": "Find Keeler on the 1874/1890s Jackson plat (Liberty Twp). Access: private.",
+   "src": [
+    [
+     "Jackson dispatch July (1890s) \"Gold among the beans\" (TN TreasureNet Treasure Legends - Michigan thread 564685)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Township of Liberty (Jackson), centroid",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mi-bogus-island-counterfeiters",
+   "L": "treasure",
+   "n": "Bogus Island counterfeiters' cave, Portage Marsh",
+   "la": 42.2,
+   "lo": -85.58,
+   "y": "1849",
+   "pl": "PLACEHOLDER near Portage (Kalamazoo Co); \"Bogus Island\" not in GNIS",
+   "co": "Kalamazoo",
+   "stt": "MI",
+   "v": "Hidden money or valuables (story)",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Bogus Island, once ringed by water in the great Portage Marsh near the Michigan Central RR, was the 1849 base of a gang of counterfeiters who dug a cave on high ground and made silver coins until federal agents rounded them up. Pin is approximate, not the spot itself.",
+   "t": "Need the Bogus Island location (plane-crash story, 1930s-40s, gives it near the Michigan Central). Look for coin-making debris. Access: unknown.",
+   "src": [
+    [
+     "Plane-crash news story (TN TreasureNet Treasure Legends - Michigan thread 355839)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: PLACEHOLDER near Portage (Kalamazoo Co); \"Bogus Island\" not in GNIS",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mi-kalamazoo-van-arsdale-1907",
+   "L": "treasure",
+   "n": "Hermit Frank Van Arsdale's gold, 500 diggers, Kalamazoo",
+   "la": 42.2917,
+   "lo": -85.5872,
+   "y": "Mar 1907",
+   "pl": "Kalamazoo (city); home not located",
+   "co": "Kalamazoo",
+   "stt": "MI",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "When hermit Frank Van Arsdale died (Mar 1907) more than 500 people dug for his hidden gold around his home. Pin is approximate, not the spot itself.",
+   "t": "Heavily dug. Access: unknown.",
+   "src": [
+    [
+     "Kalamazoo dispatch 20 Mar 1907 (TN TreasureNet Treasure Legends - Michigan thread 463343)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: Kalamazoo (city); home not located",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mi-wabasis-lake-gold",
+   "L": "treasure",
+   "n": "Chief John Wabasis' kettle of treaty money, creek between Little Wabasis and Wabasis lakes",
+   "la": 43.147,
+   "lo": -85.366,
+   "y": "1830s-1840s",
+   "pl": "Frank G. Stocking letter 1914: \"south side of the creek about 1/2 or 3/4 of a mile above the lake and about 10 rods back from the creek\"; camp on E side of Little Wabasis Lake (GNIS 43.1539,-85.3594). Pin = creek midway between the lakes",
+   "co": "Kent",
+   "stt": "MI",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Frank G. Stocking (Morgan Hill, Cal., 1914), whose family knew Wabasis, wrote that the chief's oldest daughter told his grandmother the money (silver, in a copper kettle covered with moss) was taken by canoe up the creek and buried. He hunted it and left a pick and shovel there about 1879. The 1922 nephew account says gold in a tin pail inside an iron kettle. Pin is approximate, not the spot itself.",
+   "t": "Two family accounts give a tight search box: S side of the creek, 1/2-3/4 mi above Wabasis Lake, ~10 rods (165 ft) back. Find Stocking's rusted pick/shovel = near the spot. Check the creek course on the 1938 aerial and LiDAR. Access: county park / private: check.",
+   "src": [
+    [
+     "Belding Banner 11 Mar 1914 p1",
+     ""
+    ],
+    [
+     "Belding Banner 1 Apr 1914 p3 (Stocking letter)",
+     ""
+    ],
+    [
+     "Belding Banner-News 4 Jan 1922 p5 (nephew)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: Frank G. Stocking letter 1914: \"south side of the creek about 1/2 or 3/4 of a mile above the lake and about 10 rods back from the creek\"; camp on E side of Little Wabasis Lake (GNIS 43.1539,-85.3594). Pin = creek midway between the lakes",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mi-nepessing-lake-1896",
+   "L": "treasure",
+   "n": "$8,000 in gold, Nepessing Lake",
+   "la": 43.0163,
+   "lo": -83.3728,
+   "y": "legend; dug Oct 1896",
+   "pl": "GNIS Nepessing Lake (lake centroid)",
+   "co": "Lapeer",
+   "stt": "MI",
+   "v": "Hidden money or valuables (story)",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Oct 1896: night diggers left a 10-ft hole and a smaller hole from which a box seemed to have been taken, along the Nepessing (\"Nipsing\") Lake shore. Local story: $8,000 in gold buried nearby. Pin is approximate, not the spot itself.",
+   "t": "Probably already dug in 1896. Low priority. Access: private shore.",
+   "src": [
+    [
+     "Lapeer clipping Oct 1896 (TN TreasureNet Treasure Legends - Michigan thread 675317)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Nepessing Lake (lake centroid)",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mi-cathead-point-chicago-fire-gold",
+   "L": "treasure",
+   "n": "Chicago-fire bank looters' gold, Cathead Point",
+   "la": 45.183,
+   "lo": -85.617,
+   "y": "1871",
+   "pl": "Cathead Point (Leelanau State Park area); coords approximate",
+   "co": "Leelanau",
+   "stt": "MI",
+   "v": "Hidden money or valuables (story)",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Looters of several banks in the 1871 Chicago fire are supposed to have buried gold coins at Cathead Point. Same family of tales as North Manitou and North Fox. Pin is approximate, not the spot itself.",
+   "t": "State park: check rules. Look-only for now. Access: state park.",
+   "src": [
+    [
+     "Treasure-guide snippet (TN TreasureNet Treasure Legends - Michigan thread 209514)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: Cathead Point (Leelanau State Park area); coords approximate",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mi-north-fox-german-gold",
+   "L": "treasure",
+   "n": "North Fox Island: German land-payment gold (1850) and the reported 1900s find",
+   "la": 45.48,
+   "lo": -85.7759,
+   "y": "1850; 1871; reported find",
+   "pl": "GNIS North Fox Island",
+   "co": "Leelanau",
+   "stt": "MI",
+   "v": "Hidden money or valuables (story)",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Two stories: (1) 1850, two Germans' land-payment gold vanished from a schooner and was said buried on the stony beach; (2) a widely reprinted item says $150,000 in Spanish gold, Chicago-fire booty, was dug up on North Fox after a robber's chart was found. The \"find\" is unconfirmed and likely a newspaper hoax. Pin is approximate, not the spot itself.",
+   "t": "State land: check DNR rules. Access: state land: check.",
+   "src": [
+    [
+     "AP feature c.1951",
+     ""
+    ],
+    [
+     "\"$150,000 Chicago gold found\" clipping (TN TreasureNet Treasure Legends - Michigan thread 623071, 606129, 38369)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS North Fox Island",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mi-north-manitou-chicago-fire-gold",
+   "L": "treasure",
+   "n": "Gold from a Chicago bank in the 1871 fire, North Manitou Island",
+   "la": 45.1083,
+   "lo": -86.0209,
+   "y": "1871",
+   "pl": "GNIS North Manitou Island (Sleeping Bear Dunes NL)",
+   "co": "Leelanau",
+   "stt": "MI",
+   "v": "Hidden money or valuables (story)",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Sporadic hunts for $5,000-$25,000 in gold said stolen from a Chicago bank during the 1871 fire and buried on North Manitou. Pin is approximate, not the spot itself.",
+   "t": "National Lakeshore: LOOK-ONLY. Access: national park: look-only.",
+   "src": [
+    [
+     "AP feature c.1951 (TN TreasureNet Treasure Legends - Michigan thread 623071)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS North Manitou Island (Sleeping Bear Dunes NL)",
+    "Unconfirmed, one source"
+   ],
+   "warn": "Look only: national park: look-only"
+  },
+  {
+   "id": "tw-mi-south-fox-dishpans",
+   "L": "treasure",
+   "n": "$35,000 in dishpans, South Fox Island",
+   "la": 45.4408,
+   "lo": -85.8798,
+   "y": "1870s+",
+   "pl": "GNIS South Fox Island",
+   "co": "Leelanau",
+   "stt": "MI",
+   "v": "Hidden money or valuables (story)",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Light keeper Willis Warner (from 1876) handed down that a hired murderer, wrecked off South Fox with his payoff, hid it on the island; island children c.1920 heard $35,000 in large dishpans by a tree with a nail driven in it. Pin is approximate, not the spot itself.",
+   "t": "South Fox is mostly state land (island access by boat; check DNR rules). Family tradition via Kathleen Craker Firestone's Fox Islands book. Access: state land: check rules.",
+   "src": [
+    [
+     "K. C. Firestone, North and South Fox Islands book (excerpt via TreasureNet Treasure Legends - Michigan thread 51738)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS South Fox Island",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mi-pinckney-dillon-coins-1932",
+   "L": "treasure",
+   "n": "Ancient coins dug on Patrick Dillon's farm, Pinckney",
+   "la": 42.4567,
+   "lo": -83.9463,
+   "y": "found 1932",
+   "pl": "GNIS Pinckney (village)",
+   "co": "Livingston",
+   "stt": "MI",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "$20 in old coins found by Patrick Dillon on his farm at Pinckney, May 1932. Pin is approximate, not the spot itself.",
+   "t": "Small find; only worth a hunt if the farm is an early homestead. Access: private.",
+   "src": [
+    [
+     "Bay City Times 16 May 1932 p2 (TN TreasureNet Treasure Legends - Michigan thread 715184)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Pinckney (village)",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mi-big-sable-1731-spanish-coin",
+   "L": "treasure",
+   "n": "1731 Spanish coin and old canoe in the sands, Big Sable Point",
+   "la": 44.0578,
+   "lo": -86.5143,
+   "y": "found c.1927-1930",
+   "pl": "GNIS Big Sable Point",
+   "co": "Mason",
+   "stt": "MI",
+   "v": "Hidden money or valuables (story)",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Coast Guard crews at Big Sable Point found coins and antiques in the sand; a large canoe washed out c.1927; Albert Howard found a Spanish coin dated 1731. Pin is approximate, not the spot itself.",
+   "t": "Ludington State Park: detecting rules apply (check DNR permit). Beach shifts after storms. Access: state park: check permit.",
+   "src": [
+    [
+     "Coast Guard feature c.1930 (TN TreasureNet Treasure Legends - Michigan thread 562465)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Big Sable Point",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mi-eden-twp-noyes-gold-1935",
+   "L": "treasure",
+   "n": "Frank Noyes' $25,000 in gold, farm in Eden Township near Scottville",
+   "la": 43.8605,
+   "lo": -86.2184,
+   "y": "buried c.1885; hunt Nov 1935",
+   "pl": "GNIS Township of Eden (Mason), township centroid",
+   "co": "Mason",
+   "stt": "MI",
+   "v": "Hidden money or valuables (story)",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Nov 1935: farmer Frank Noyes said $25,000 in gold was buried on his Eden Twp farm 50 years earlier; he had lost the map, and the rail fence and house used as landmarks were gone. He got a federal search warrant (gold-coin ban) and dug with a federal agent; a day's digging failed. Pin is approximate, not the spot itself.",
+   "t": "Find Noyes on a 1900-1930s Mason plat; old fence line and house site on the 1938 aerial. Access: private: permission.",
+   "src": [
+    [
+     "INS wire, Scranton paper 9 Nov 1935 (TN TreasureNet Treasure Legends - Michigan thread 623072)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Township of Eden (Mason), township centroid",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mi-arthur-bay-souvigner-1907",
+   "L": "treasure",
+   "n": "Miser John Souvigner's hoard, Arthur Bay cabin",
+   "la": 45.3089,
+   "lo": -87.4357,
+   "y": "died Nov 1907",
+   "pl": "GNIS Arthur Bay (populated place)",
+   "co": "Menominee",
+   "stt": "MI",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "John Souvigner, no relatives in the country, found dead in his Arthur Bay cabin with only frozen crusts; supposed to have hoarded large sums. Pin is approximate, not the spot itself.",
+   "t": "Recovery not reported. Cabin site needed (1900s plat). Access: unknown.",
+   "src": [
+    [
+     "Menominee dispatch 17 Nov 1907 (TN TreasureNet Treasure Legends - Michigan thread 651354)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Arthur Bay (populated place)",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mi-menominee-ole-johnson-cans",
+   "L": "treasure",
+   "n": "Ole Johnson's salmon cans of $10 gold under stone piles, farm near Menominee",
+   "la": 45.1078,
+   "lo": -87.6143,
+   "y": "c.1900s",
+   "pl": "Menominee (city); farm not located",
+   "co": "Menominee",
+   "stt": "MI",
+   "v": "Hidden money or valuables (story)",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "In a divorce suit, Ole Johnson's wife said he was a miser with \"hoards of money over his farm\": once he lifted stones from a stone pile and took out an old salmon can full of $10 gold pieces. Pin is approximate, not the spot itself.",
+   "t": "Stone piles on the farm = targets. Find Johnson's farm (needs first name/date; jailed for murder). Common name: hard. Access: private.",
+   "src": [
+    [
+     "Menominee clipping (TN TreasureNet Treasure Legends - Michigan thread 563517)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: Menominee (city); farm not located",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mi-pierson-trufant-loot-1924",
+   "L": "treasure",
+   "n": "Trufant bank loot and gun buried \"between two houses\" in Pierson",
+   "la": 43.3197,
+   "lo": -85.4978,
+   "y": "Aug 1924",
+   "pl": "GNIS Pierson (village)",
+   "co": "Montcalm",
+   "stt": "MI",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Aug 16 1924: Clayton Raub, 28, of Elkhart robbed the Trufant State Bank, was caught on a train, and confessed he buried about $1,000 and his gun between two houses in Pierson, 7 mi W of Trufant. He took deputies to the spot but the search failed. Pin is approximate, not the spot itself.",
+   "t": "Small village: the cache was between two houses in 1924. Use the 1938 aerial to list house pairs. Check whether a later paper reports recovery. Access: town lots: permission.",
+   "src": [
+    [
+     "Richmond (Ind.) Item 17 Aug 1924 (AP) (TN TreasureNet Treasure Legends - Michigan thread 662394)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Pierson (village)",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mi-muskegon-larson-norwegian-coin",
+   "L": "treasure",
+   "n": "Ole Larson's $308,000 in Norwegian coin under his shanty, Muskegon",
+   "la": 43.2342,
+   "lo": -86.2484,
+   "y": "1870 robbery; dug 1903",
+   "pl": "Muskegon (city); shanty not located",
+   "co": "Muskegon",
+   "stt": "MI",
+   "v": "Hidden money or valuables (story)",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Ole Larson, on his deathbed in Oct 1901, told Adolph Miller that loot from a Trondhjem bank robbery (1870) was buried under his shanty; James Anderson excavated under an old building in 1903. Pin is approximate, not the spot itself.",
+   "t": "Probably a tall tale; record only. Access: city.",
+   "src": [
+    [
+     "Twice-a-Week Plain Dealer (Cresco, Iowa) 3 Mar 1903 (TN TreasureNet Treasure Legends - Michigan thread 557882)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: Muskegon (city); shanty not located",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mi-north-muskegon-chilson-gold",
+   "L": "treasure",
+   "n": "Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon",
+   "la": 43.2561,
+   "lo": -86.2676,
+   "y": "c.1890s-1900s",
+   "pl": "GNIS North Muskegon (city); his house not located",
+   "co": "Muskegon",
+   "stt": "MI",
+   "v": "Hidden money or valuables (story)",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Aged veteran Harvey Chilson, a miser who swapped silver for gold, died alone in his North Muskegon home; about $3,000 in gold could not be found; a deputy guarded the house. Pin is approximate, not the spot itself.",
+   "t": "Find his address (directories / pension file). Urban lot. Access: town lot.",
+   "src": [
+    [
+     "Clipping \"Muskegon miser's wealth can not be found\" (TN TreasureNet Treasure Legends - Michigan thread 617310)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS North Muskegon (city); his house not located",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mi-benton-lake-stage-gold",
+   "L": "treasure",
+   "n": "1874 payroll stage gold in a stove between two stumps, Benton Lake",
+   "la": 43.6713,
+   "lo": -85.8884,
+   "y": "1874",
+   "pl": "GNIS Benton Lake (Newaygo), Huron-Manistee NF",
+   "co": "Newaygo",
+   "stt": "MI",
+   "v": "Hidden money or valuables (story)",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "A stage carrying lumber-camp payroll gold was robbed in 1874; the robbers hid the gold in an iron stove buried between two stumps on the Benton Lake shore. A Traverse City variant ($50,000, four robbers, pot-belly stove, 1870-90) is likely the same tale. Pin is approximate, not the spot itself.",
+   "t": "National forest campground lake: LOOK-ONLY per project rule. Shoreline and stumps are gone. Access: national forest: look-only.",
+   "src": [
+    [
+     "WFMK radio feature 2018",
+     ""
+    ],
+    [
+     "lostinmichigan.net",
+     ""
+    ],
+    [
+     "TreasureNet Treasure Legends - Michigan thread 620151, 4113 (variant)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Benton Lake (Newaygo), Huron-Manistee NF",
+    "Unconfirmed, one source"
+   ],
+   "warn": "Look only: national forest: look-only"
+  },
+  {
+   "id": "tw-mi-big-beaver-harris-tin-box",
+   "L": "treasure",
+   "n": "Miser's tin box ($1,100) found, more believed, Big Beaver",
+   "la": 42.5628,
+   "lo": -83.1241,
+   "y": "died c.1879; found Dec 1909",
+   "pl": "GNIS Big Beaver (now Troy suburbs)",
+   "co": "Oakland",
+   "stt": "MI",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Ed Harris tearing down a shed found his miser grandfather's tin box with $1,100 in gold and currency; earlier searches had failed and more was believed hidden. Pin is approximate, not the spot itself.",
+   "t": "Now suburban; record only. Access: developed.",
+   "src": [
+    [
+     "Big Beaver dispatch 13 Dec 1909 (TN TreasureNet Treasure Legends - Michigan thread 617995)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Big Beaver (now Troy suburbs)",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mi-holly-fagan-brothers-1893",
+   "L": "treasure",
+   "n": "The Fagan brothers' money, near Holly",
+   "la": 42.792,
+   "lo": -83.6277,
+   "y": "Feb 1893",
+   "pl": "GNIS Holly (village); home \"near here\"",
+   "co": "Oakland",
+   "stt": "MI",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Thomas and John Fagan (Fagin), ~90, wealthy bachelors, froze to death in their house near Holly (Feb 1893). $50,000 in currency was found in old wool fleeces; later over $20,000 more dug up incl. a pot with $5,000 in gold in the cellar. Relatives had not yet searched for money believed hidden elsewhere. Pin is approximate, not the spot itself.",
+   "t": "Find the Fagan farm on an 1890s Oakland plat (Holly / Rose twps). Cellar and yard. Access: private.",
+   "src": [
+    [
+     "Holly dispatches 25 Feb 1893 and later (TN TreasureNet Treasure Legends - Michigan thread 571062, 616267)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Holly (village); home \"near here\"",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mi-cobmoosa-lake-gold",
+   "L": "treasure",
+   "n": "Chief Cobmoosa's buried treaty gold, Cobmoosa Lake",
+   "la": 43.6636,
+   "lo": -86.1897,
+   "y": "1860s",
+   "pl": "GNIS Cobmoosa Lake (Elbridge Twp area)",
+   "co": "Oceana",
+   "stt": "MI",
+   "v": "Hidden money or valuables (story)",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Local tradition: Chief Cobmoosa buried the gold coins from his government land settlement near the lake that bears his name; large state land nearby. Pin is approximate, not the spot itself.",
+   "t": "Forum hearsay only; needs a printed source (Oceana county history). Access: state land nearby.",
+   "src": [
+    [
+     "TreasureNet Treasure Legends - Michigan thread 174603",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Cobmoosa Lake (Elbridge Twp area)",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mi-knaggs-bridge-gold",
+   "L": "treasure",
+   "n": "Whitmore Knaggs' gold, Shiawassee River south of Knaggs Bridge",
+   "la": 42.9978,
+   "lo": -84.1766,
+   "y": "1830s",
+   "pl": "PLACEHOLDER: Owosso (county); Knaggs' trading post / Knaggs Bridge not in GNIS",
+   "co": "Shiawassee",
+   "stt": "MI",
+   "v": "Hidden money or valuables (story)",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "\"Old Whit\" Knaggs, one of the county's first settlers, kept a trading post and was said to have gathered gold from land speculators; he buried it along the Shiawassee River just south of Knaggs' Bridge. Pin is approximate, not the spot itself.",
+   "t": "Need Knaggs Bridge location (1875 Shiawassee atlas / county history). William May 1936 article is the only source seen. Access: unknown.",
+   "src": [
+    [
+     "William May, \"Buried Treasure, Shiawassee County\" (1936) via TreasureNet Treasure Legends - Michigan thread 43350",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: PLACEHOLDER: Owosso (county); Knaggs' trading post / Knaggs Bridge not in GNIS",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mi-brockway-mill-creek-gambler",
+   "L": "treasure",
+   "n": "Dying gambler's gold on Mill Creek above Old Brockway",
+   "la": 43.0745,
+   "lo": -82.7655,
+   "y": "told 1898",
+   "pl": "GNIS Brockway; Mill Creek above it",
+   "co": "St. Clair",
+   "stt": "MI",
+   "v": "Hidden money or valuables (story)",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "A man dying in Bay City told a nurse that a gambler, dying in California, said he had hidden a large sum in gold on the banks of Mill Creek just above Old Brockway; he had searched many times. Pin is approximate, not the spot itself.",
+   "t": "The paper itself doubted it. Access: unknown.",
+   "src": [
+    [
+     "Yale Expositor 14 Oct 1898 p4 (TN TreasureNet Treasure Legends - Michigan thread 505339)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Brockway; Mill Creek above it",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mi-sturgis-strang-mormon-gold",
+   "L": "treasure",
+   "n": "Strang's Mormon gold and \"spectacles\" near Sturgis",
+   "la": 41.7992,
+   "lo": -85.4191,
+   "y": "1840s",
+   "pl": "GNIS Sturgis (city)",
+   "co": "St. Joseph",
+   "stt": "MI",
+   "v": "Hidden money or valuables (story)",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Old story: James Strang planned a colony near Sturgis; the \"spectacles\" and $126,000 in gold are said buried near the town. Pin is approximate, not the spot itself.",
+   "t": "Folklore; record only. Access: unknown.",
+   "src": [
+    [
+     "Clipping \"Tale of hidden Mormon gold still told of in Michigan town\" (TN TreasureNet Treasure Legends - Michigan thread 621626)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Sturgis (city)",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mi-agards-landing-gold",
+   "L": "treasure",
+   "n": "John Agard's buried gold, Agard's Landing on the Paw Paw River",
+   "la": 42.2395,
+   "lo": -85.8911,
+   "y": "1833-1835",
+   "pl": "1.5 mi N of Paw Paw village (GNIS Paw Paw moved 1.5 mi N) at the old head of navigation on the Paw Paw River",
+   "co": "Van Buren",
+   "stt": "MI",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "John Agard founded a landing at the head of navigation 1.5 mi N of today's Paw Paw in 1833 (about nine log cabins, two warehouses, docks). He buried his gold near the landing shortly before he died in 1835; he was the first white man buried in Van Buren County (walnut coffin). Neither his grave nor his gold has been found. Only dock-piling rocks in the river and a dry spring remain. Pin is approximate, not the spot itself.",
+   "t": "Look for the dock rocks on the river bottom and the old spring. Agard's grave is somewhere near too: graves are look-only. Local historian Harry Bush (1949). Access: private river bottom: permission.",
+   "src": [
+    [
+     "News-Palladium (Benton Harbor) 26 Jul 1949 \"Ghost of Agard's Landing holds hidden gold secret\" (TN TreasureNet Treasure Legends - Michigan thread 652265)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: 1.5 mi N of Paw Paw village (GNIS Paw Paw moved 1.5 mi N) at the old head of navigation on the Paw Paw River",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mi-hartford-cora-miller-1897",
+   "L": "treasure",
+   "n": "\"Seventeen hundred dollars, dig, dig\": Cora Miller, Hartford",
+   "la": 42.2067,
+   "lo": -86.1667,
+   "y": "Mar 1897",
+   "pl": "GNIS Hartford (city); Lewis Miller home not located",
+   "co": "Van Buren",
+   "stt": "MI",
+   "v": "Hidden money or valuables (story)",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Cora Miller, daughter of Lewis Miller, died March 1897; her last words were \"Seventeen hundred dollars, dig, dig.\" Pin is approximate, not the spot itself.",
+   "t": "Find Lewis Miller's place on the 1895 Van Buren plat. Access: unknown.",
+   "src": [
+    [
+     "True Northerner (Paw Paw) 24 Mar 1897 (TN TreasureNet Treasure Legends - Michigan thread 559796)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Hartford (city); Lewis Miller home not located",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "tw-mi-van-buren-bumpus-strongbox",
+   "L": "treasure",
+   "n": "Stolen strongbox of gold on the Bumpus farm, Van Buren Twp",
+   "la": 42.2048,
+   "lo": -83.4852,
+   "y": "1800s",
+   "pl": "Belleville area; farm is now a K-Mart parking lot",
+   "co": "Wayne",
+   "stt": "MI",
+   "v": "Hidden money or valuables (story)",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "A hired hand buried a strongbox of stolen gold coins on Isaac Bumpus's back 40; a New York detective later tracked him there. Diane Wilson's township history notes the Bumpus farm is now the K-Mart parking lot. Pin is approximate, not the spot itself.",
+   "t": "Paved over: F, record only. Access: paved.",
+   "src": [
+    [
+     "Diane Wilson, Water Under the Bridge (Van Buren Twp history), via Belleville paper 24 Nov 2005 (TreasureNet Treasure Legends - Michigan thread 16553)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: Belleville area; farm is now a K-Mart parking lot",
+    "Unconfirmed, one source"
+   ]
+  }
+ ],
+ "edit": {
+  "wpa-coon-rock-cave": {
+   "st": " Early 1880s: Indian robbers burglarized a Mississippi steamboat purser's safe at Prairie du Chien and said they hid the loot in a cave high in the Coon Rock bluffs near Arena; never recovered.",
+   "src": [
+    [
+     "Magazine piece \"Wisconsin's Indian outlaw loot\" (TN TreasureNet Treasure Legends - Wisconsin thread 38410)",
+     ""
+    ]
+   ]
+  },
+  "t-tr-ney-brewery": {
+   "st": " 1925: Anton Specht of St. Paul claimed, as heir of brewer Joseph Ritter, a share of 40 barrels of beer said buried 60 years under an abandoned brewery in Henderson (Volstead consulted).",
+   "src": [
+    [
+     "Minneapolis Star 21 Oct 1925 (TN TreasureNet Treasure Legends - Minnesota thread 647447)",
+     ""
+    ]
+   ]
+  },
+  "cr-homer-bandit-cave": {
+   "st": " Mar 1901: two Kentuckians searched Homer caves for $8,500 from a Milwaukee Road train robbery, told by a dying old man; Oct 1903: a Homer resident planned a systematic search for ~$6,000 hidden by train bandits, the one who knew the place being in prison for life.",
+   "src": [
+    [
+     "Minneapolis Journal 9 Mar 1901, 22 Oct 1903",
+     ""
+    ],
+    [
+     "Washburn Times 20 Mar 1901 (TN TreasureNet Treasure Legends - Minnesota thread 569637, 617017, 561559, 615090)",
+     ""
+    ]
+   ]
+  },
+  "ob-silver-mountain-baraga": {
+   "st": " Prospectors worked near Baraga on an Indian tradition of a rich silver mine near the hill called Silver Mountain; older Chippewa knew it and searchers met misfortune.",
+   "src": [
+    [
+     "Baraga dispatch 12 Jul (TN TreasureNet Treasure Legends - Michigan thread 585469)",
+     ""
+    ]
+   ]
+  },
+  "coff-house-of-david": {
+   "st": " Jan 1931: a search for King Benjamin Purnell's reputed $1,000,000 cache of cash and jewels began after colony auditor Ada Ross Schneider (25 years) described the hiding place to members, during H. T. Dewhirst's lawsuit.",
+   "src": [
+    [
+     "INS wire 21-22 Jan 1931 (Indiana Gazette",
+     ""
+    ],
+    [
+     "Shamokin News-Dispatch) (TN TreasureNet Treasure Legends - Michigan thread 626047, 614035)",
+     ""
+    ]
+   ]
+  },
+  "m-tr-rc-2": {
+   "st": " Alphonse Bellanguette (Berlanquette), French-Canadian, came 1872 and ran a saloon on the beach 2 mi from Fayette (liquor banned in town); distrusted banks; his wife knew he buried much of his fortune but could not find it. Searches recur.",
+   "src": [
+    [
+     "Clipping \"Hunt lost currency buried half century\" (c.1920s) (TN TreasureNet Treasure Legends - Michigan thread 568960)",
+     ""
+    ]
+   ]
+  }
+ }
+}

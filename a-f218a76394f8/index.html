@@ -5429,6 +5429,18 @@ GSV.push(...[["MN 43.5N 91.250W","gs_mn_435_91250",[-91.25,-91.125,43.5,43.6]],[
   if(saved==='1' && GM.type==='default') gmSetType('survey'); else vGS(); gmSheetSync(); }
 </script>
 <script>
+// ---------- Twin pins (v273): a place-name point (GNIS school, post office or park) that sits on top of the hand-made pin for the same place
+// (same name, within 60 m) comes off the map and the lists, and so does a pin pushed twice. Its card still opens from saved finds and links (BYID keeps it).
+addEventListener('load',()=>{ const gen=/^(vs|sc|pk|hm|hm2)-/, nm=s=>(s||'').toLowerCase().replace(/\(.*?\)/g,'').replace(/\bsite\b/g,'').replace(/[^a-z0-9]+/g,' ').trim();
+  const G={}; for(const p of PTS) if(!gen.test(p.id)&&p.la){ const k=Math.round(p.la*200)+','+Math.round(p.lo*200); (G[k]=G[k]||[]).push(p); }
+  const seen=new Set(), drop=[];
+  for(let i=0;i<PTS.length;i++){ const p=PTS[i]; if(seen.has(p.id)){ drop.push(i); continue; } seen.add(p.id);
+    if(!gen.test(p.id)||!p.la) continue; const a=nm(p.n); if(!a) continue; const k0=Math.round(p.la*200), k1=Math.round(p.lo*200); let hit=null;
+    for(let x=-1;x<=1&&!hit;x++) for(let y=-1;y<=1&&!hit;y++) for(const q of G[(k0+x)+','+(k1+y)]||[]) if(nm(q.n)===a&&Math.hypot((p.la-q.la)*111000,(p.lo-q.lo)*79000)<=60){ hit=q; break; }
+    if(hit){ p.twin=hit.id; drop.push(i); } }
+  if(!drop.length) return; for(let j=drop.length-1;j>=0;j--) PTS.splice(drop[j],1); drawMarkers(); });
+</script>
+<script>
 // ---------- Drive mode (v130): phone on a dash mount. The map follows you heading-up in the tilted view, the screen stays on,
 // and big cards show the ranked spots ahead (rank word, distance, side of the road, the main reason) with one-tap directions in Google or Apple Maps.
 // CarPlay is not possible for a web app; Navigate hands the spot to a maps app that is. Redraws only when you move a few px or turn, at most once a second.
