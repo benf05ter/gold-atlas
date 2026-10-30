@@ -1,0 +1,625 @@
+{
+ "new": [
+  {
+   "id": "hh-plowville",
+   "L": "gather",
+   "n": "Plowville: the 1952 national plow matches (125,000 people)",
+   "la": 44.0258,
+   "lo": -92.828,
+   "y": "6 Sept 1952",
+   "pl": "Farm fields by U.S. 14, about 1.5 miles east of Dodge Center",
+   "co": "Dodge (MN)",
+   "stt": "MN",
+   "v": "1950s coins, tokens, campaign buttons, pins",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "On 6 September 1952 Minnesota's first National Soil Conservation Districts' Field Day and Plow Matches drew 125,000 spectators to the farm fields here, and both presidential candidates, Dwight Eisenhower and Adlai Stevenson, spoke. The marker (H-59) says the site was donated in memory of J. L. Gossard.",
+   "t": "One of the biggest one-day crowds in Minnesota history, spread over open farm fields: 1950s coins, tokens and campaign buttons. Private farmland: ask the owner.",
+   "src": [
+    [
+     "History Along the Highways: A Guide to Minnesota's Historic Markers and Sites (Minnesota Historical Society, 1967), your screenshots",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on U.S. 14 about 1.5 miles east of Dodge Center, where the marker stands; the fields used are not mapped, so good to about 800 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "hh-old-clitherall",
+   "L": "ghost",
+   "n": "Old Clitherall (\"Old Town\"): the 1865 Latter Day Saints settlement",
+   "la": 46.267,
+   "lo": -95.6506,
+   "y": "1865-1880s",
+   "pl": "About 1/4 mile south of the marker on Hwy 210, 1 mile west of Clitherall",
+   "co": "Otter Tail (MN)",
+   "stt": "MN",
+   "v": "Coins, buttons, household losses from the 1860s-80s",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Settled in 1865 by Latter Day Saints, Old Clitherall broke up after the railroad built New Clitherall, and it has nearly disappeared (marker H-38).",
+   "t": "Look for the house lots and the old road on a 1930s air photo first. Private land: ask first.",
+   "src": [
+    [
+     "History Along the Highways: A Guide to Minnesota's Historic Markers and Sites (Minnesota Historical Society, 1967), your screenshots",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed 1/4 mile south of the old Hwy 210 line, 1 mile west of Clitherall, as the marker describes; good to about 400 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "hh-itasca-village",
+   "L": "ghost",
+   "n": "Itasca village and the 1849 Holmes & Beatty trading post",
+   "la": 45.2464,
+   "lo": -93.4993,
+   "y": "1849-1860s",
+   "pl": "800 ft east of the Dayton Port roadside marker on U.S. 10, Anoka County",
+   "co": "Anoka (MN)",
+   "stt": "MN",
+   "v": "Trade goods, coins, buttons, oxcart parts",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Holmes & Beatty set up a trading post here in 1849, 800 ft east of today's marker. A hotel followed in 1852, then the first post office in Anoka County, and the village became a Red River oxcart stop; in 1857 the carts brought $120,000 of furs, robes and meat. It was deserted by the early 1860s, though the post office lasted to 1879 and was the first mailing address of Oliver Kelley's National Grange. The marker says traces of the old oxcart trail can be seen a few feet west of it (H-98).",
+   "t": "Look for the oxcart ruts west of the marker and the post site 800 ft east. Ask the owner; the highway right-of-way is off limits.",
+   "src": [
+    [
+     "History Along the Highways: A Guide to Minnesota's Historic Markers and Sites (Minnesota Historical Society, 1967), your screenshots",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed 800 ft east of the Dayton Port stop on U.S. 10; good to about 300 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "hh-pine-bend-village",
+   "L": "history",
+   "n": "Medicine Bottle's village at Pine Bend (1838-1852): LOOK ONLY",
+   "la": 44.7795,
+   "lo": -93.025,
+   "y": "1838-1852",
+   "pl": "Between the U.S. 52 marker at the north edge of Pine Bend and the Mississippi",
+   "co": "Dakota (MN)",
+   "stt": "MN",
+   "v": "None: village site, look only",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Medicine Bottle's Dakota village and its cornfields lay between the marker and the river from 1838 to 1852. The marker stands on the abandoned roadbed of the St. Paul & Southern railway (H-42).",
+   "t": "LOOK ONLY. A village site that may hold burials.",
+   "src": [
+    [
+     "History Along the Highways: A Guide to Minnesota's Historic Markers and Sites (Minnesota Historical Society, 1967), your screenshots",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed between the Pine Bend marker and the river; good to about 800 m",
+    "Unconfirmed, one source"
+   ],
+   "acc": [
+    "stop",
+    "Look only: battle or village site with possible burials"
+   ]
+  },
+  {
+   "id": "hh-indian-battleground-stillwater",
+   "L": "history",
+   "n": "The 1839 Dakota-Ojibwe battleground, Stillwater: LOOK ONLY",
+   "la": 45.066,
+   "lo": -92.8075,
+   "y": "3 July 1839",
+   "pl": "Ravine at the north edge of Stillwater, by Hwy 95",
+   "co": "Washington (MN)",
+   "stt": "MN",
+   "v": "None: battlefield, look only",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "On 3 July 1839 Dakota warriors caught an Ojibwe party in a ravine at the north edge of Stillwater; about 50 Ojibwe were killed or wounded (marker H-27).",
+   "t": "LOOK ONLY. A battlefield with probable burials.",
+   "src": [
+    [
+     "History Along the Highways: A Guide to Minnesota's Historic Markers and Sites (Minnesota Historical Society, 1967), your screenshots",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed in the ravine country at the north edge of Stillwater by Hwy 95; the ravine itself is not fixed, so good to about 500 m",
+    "Unconfirmed, one source"
+   ],
+   "acc": [
+    "stop",
+    "Look only: battle or village site with possible burials"
+   ]
+  },
+  {
+   "id": "hh-troy-mill",
+   "L": "gather",
+   "n": "Troy Mill (1857-1900) on the Winona-Chatfield territorial road",
+   "la": 43.87089,
+   "lo": -92.06944,
+   "y": "1857-1900",
+   "pl": "Hwy 74 at Troy, Winona County",
+   "co": "Winona (MN)",
+   "stt": "MN",
+   "v": "Coins, tokens, harness and mill hardware",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Joseph and Samuel Musser built a four-story mill here in 1857 on the old Winona-Chatfield territorial road. It was a meeting place and a refuge during Indian raids, ran until 1900 and was razed in 1943 (marker H-79).",
+   "t": "Mill seat, millpond and the road stop around it. Private land: ask first.",
+   "src": [
+    [
+     "History Along the Highways: A Guide to Minnesota's Historic Markers and Sites (Minnesota Historical Society, 1967), your screenshots",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on Hwy 74 at Troy; the mill seat on the creek is not fixed yet, so good to about 300 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "hh-pond-mission",
+   "L": "history",
+   "n": "Samuel Pond's mission to the Shakopee Dakota (1847)",
+   "la": 44.8024,
+   "lo": -93.4908,
+   "y": "1847-about 1907",
+   "pl": "East edge of Shakopee, by Hwy 101",
+   "co": "Scott (MN)",
+   "stt": "MN",
+   "v": "Buttons, trade goods, coins, mission-house losses",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Rev. Samuel W. Pond built a two-story frame mission here in 1847 for the Shakopee band of Dakota, with an eight-foot stockade around the house and a half-acre garden. The building was wrecked about 1907, and the marker (H-60) says its foundations remain. This is not the Gideon Pond house in Bloomington.",
+   "t": "Look around the foundations and garden ground only with permission; mission grounds can hold burials, so stay off any graves.",
+   "src": [
+    [
+     "History Along the Highways: A Guide to Minnesota's Historic Markers and Sites (Minnesota Historical Society, 1967), your screenshots",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on Hwy 101 at the east edge of Shakopee; the foundations are not fixed yet, so good to about 400 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "hh-osakis-stage",
+   "L": "gather",
+   "n": "Osakis stage station on the Red River road (1859)",
+   "la": 45.8669,
+   "lo": -95.15236,
+   "y": "1859-1860s",
+   "pl": "Osakis, Douglas County (town-level pin)",
+   "co": "Douglas (MN)",
+   "stt": "MN",
+   "v": "Coins, harness, stage and teamster losses",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "In 1859 the Burbank Minnesota Stage Co. kept a stop here on its line to the Red River, and troops patrolled it during 1862 (marker H-41).",
+   "t": "Town-level pin: find the station lot on an early plat first, then ask the owner.",
+   "src": [
+    [
+     "History Along the Highways: A Guide to Minnesota's Historic Markers and Sites (Minnesota Historical Society, 1967), your screenshots",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Town-level pin in Osakis; the station lot is not placed, so good to about 800 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "hh-fort-lake-johanna",
+   "L": "history",
+   "n": "Fort Lake Johanna (1863 frontier log fort)",
+   "la": 45.45274,
+   "lo": -95.25392,
+   "y": "1863",
+   "pl": "Hwy 104 by Lake Johanna, south of Glenwood near Terrace, Pope County",
+   "co": "Pope (MN)",
+   "stt": "MN",
+   "v": "Military buttons, buckles, coins",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "A crude log fort on the 1863 frontier defense line, abandoned after a few months; neighbors hauled off the logs (marker H-93). The West Lake Johanna Cemetery is about 300 m from this pin and is look-only.",
+   "t": "A short-lived fort: find the building pad on a 1930s air photo first. Ask the owner, and keep well clear of the cemetery.",
+   "src": [
+    [
+     "History Along the Highways: A Guide to Minnesota's Historic Markers and Sites (Minnesota Historical Society, 1967), your screenshots",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on Hwy 104 by the west end of Lake Johanna; good to about 1.5 km",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "hh-glencoe-fort",
+   "L": "history",
+   "n": "Glencoe Fort (winter 1862-63)",
+   "la": 44.76745,
+   "lo": -94.13421,
+   "y": "1862-1863",
+   "pl": "U.S. 212 at the east edge of Glencoe, McLeod County",
+   "co": "McLeod (MN)",
+   "stt": "MN",
+   "v": "Military buttons, buckles, coins",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Glencoe was laid out in 1855. In the winter of 1862-63 the town was heavily fortified and held by as many as four companies of troops (marker H-22).",
+   "t": "Town ground: look on old lawns and lots in the original town with permission.",
+   "src": [
+    [
+     "History Along the Highways: A Guide to Minnesota's Historic Markers and Sites (Minnesota Historical Society, 1967), your screenshots",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed at the marker on U.S. 212 at the east edge of Glencoe; the fort works are not placed, so good to about 1 km",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "hh-hutchinson-stockade",
+   "L": "history",
+   "n": "Hutchinson Stockade (defended 4 Sept 1862)",
+   "la": 44.89226,
+   "lo": -94.36931,
+   "y": "1862",
+   "pl": "The public square, Hutchinson",
+   "co": "McLeod (MN)",
+   "stt": "MN",
+   "v": "Military buttons, coins",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "A 100-ft square stockade stood on the town square and was defended on 4 September 1862; several unprotected buildings burned (marker H-26).",
+   "t": "City land: detecting needs a city permit. The square's lawn is the ground.",
+   "src": [
+    [
+     "History Along the Highways: A Guide to Minnesota's Historic Markers and Sites (Minnesota Historical Society, 1967), your screenshots",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed at Main Street and Washington Avenue by the public square; good to about 100 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "hh-fort-cox",
+   "L": "history",
+   "n": "Fort Cox (Camp Wilkin), Madelia (1862)",
+   "la": 44.05181,
+   "lo": -94.41696,
+   "y": "1862",
+   "pl": "Center Avenue North and First Street NE, Madelia",
+   "co": "Watonwan (MN)",
+   "stt": "MN",
+   "v": "Military buttons, buckles, coins",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "A hexagonal two-story log fort built in fall 1862 as an outpost in the cordon from New Ulm to the Iowa border; it was later moved to St. Paul Street (marker H-102).",
+   "t": "Town lots: ask the owner. The fort was moved, so look for the first site's lawn.",
+   "src": [
+    [
+     "History Along the Highways: A Guide to Minnesota's Historic Markers and Sites (Minnesota Historical Society, 1967), your screenshots",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed at the street corner the marker names; good to about 50 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "hh-acton",
+   "L": "history",
+   "n": "Acton: Howard Baker's cabin, where the 1862 war began: LOOK ONLY",
+   "la": 45.10627,
+   "lo": -94.69608,
+   "y": "17 Aug 1862",
+   "pl": "Hwy 4, about 3.25 miles southwest of Grove City, Meeker County",
+   "co": "Meeker (MN)",
+   "stt": "MN",
+   "v": "None: monument site, look only",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "The killings at Howard Baker's cabin here on 17 August 1862 were the first blood of the Dakota War; the victims are buried at Ness Lutheran Cemetery (marker H-101).",
+   "t": "LOOK ONLY. A monument and death site.",
+   "src": [
+    [
+     "History Along the Highways: A Guide to Minnesota's Historic Markers and Sites (Minnesota Historical Society, 1967), your screenshots",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on Hwy 4 about 3.25 miles south of Grove City; good to about 500 m",
+    "Unconfirmed, one source"
+   ],
+   "acc": [
+    "stop",
+    "Monument and death site: look only"
+   ]
+  },
+  {
+   "id": "hh-dustin-massacre",
+   "L": "history",
+   "n": "Dustin family ambush site (29 June 1863): LOOK ONLY",
+   "la": 45.0688,
+   "lo": -94.1084,
+   "y": "29 June 1863",
+   "pl": "About 1/3 mile northwest of the marker on U.S. 12, 1.5 miles west of Howard Lake",
+   "co": "Wright (MN)",
+   "stt": "MN",
+   "v": "None: death site, look only",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "On 29 June 1863 Amos Dustin's family was ambushed here; the dead are buried at Waverly (marker H-86).",
+   "t": "LOOK ONLY. A death site.",
+   "src": [
+    [
+     "History Along the Highways: A Guide to Minnesota's Historic Markers and Sites (Minnesota Historical Society, 1967), your screenshots",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed 1/3 mile northwest of U.S. 12, 1.5 miles west of Howard Lake; good to about 400 m",
+    "Unconfirmed, one source"
+   ],
+   "acc": [
+    "stop",
+    "Death site: look only"
+   ]
+  },
+  {
+   "id": "hh-clifton-french-river",
+   "L": "ghost",
+   "n": "Clifton: the first North Shore townsite (1855) and the French River copper shafts",
+   "la": 46.8955,
+   "lo": -91.8985,
+   "y": "1855-1866",
+   "pl": "West of the French River mouth, St. Louis County",
+   "co": "St. Louis (MN)",
+   "stt": "MN",
+   "v": "Coins, mining tools, townsite losses",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Clifton, platted in 1855 just west of the French River mouth, was the first townsite surveyed on the North Shore. The French River Mining Co. and North Shore Mining Co. sank exploratory shafts in 1864-66 but found no paying copper (marker H-74).",
+   "t": "Old exploratory shafts are dangerous: look only near any opening. Private shore land: ask first.",
+   "src": [
+    [
+     "History Along the Highways: A Guide to Minnesota's Historic Markers and Sites (Minnesota Historical Society, 1967), your screenshots",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed just west of the French River mouth; the townsite and shafts are not placed yet, so good to about 800 m",
+    "Unconfirmed, one source"
+   ]
+  }
+ ],
+ "edit": {
+  "hm2-79": {
+   "st": " Seppman Mill: a stone windmill gristmill built in 1864 by Louis Seppman and Herman Hegley, now in Minneopa State Park (marker H-77).",
+   "src": [
+    [
+     "History Along the Highways: A Guide to Minnesota's Historic Markers and Sites (Minnesota Historical Society, 1967), your screenshots",
+     ""
+    ]
+   ],
+   "t": " LOOK ONLY: Minnesota state park.",
+   "set": {
+    "acc": [
+     "stop",
+     "State park or wayside: look only (no detecting without a permit)"
+    ]
+   }
+  },
+  "fr-fountain-cave-st-paul": {
+   "st": " Marker H-84: known by 1811 and visited by Long (1817), Schoolcraft (1820) and Nicollet (1837). Pierre \"Pig's Eye\" Parrant's 1838 saloon, the first building in St. Paul, stood where the ravine met the river. Highway fill of the early 1960s buried the entrance, and there is no visible sign of the cave today.",
+   "src": [
+    [
+     "History Along the Highways: A Guide to Minnesota's Historic Markers and Sites (Minnesota Historical Society, 1967), your screenshots",
+     ""
+    ]
+   ]
+  },
+  "fr-carver-s-cave-treaty-site-1767": {
+   "st": " Marker H-92: Jonathan Carver reached the cave (\"Wakon-teebe\") on 10 November 1766 and held council with 300 Dakota there in April 1767. Railroad building about 1869 partly destroyed it; the burial mounds above are look-only.",
+   "src": [
+    [
+     "History Along the Highways: A Guide to Minnesota's Historic Markers and Sites (Minnesota Historical Society, 1967), your screenshots",
+     ""
+    ]
+   ]
+  },
+  "fr-little-rapids-fur-trading-posts-minnesota": {
+   "st": " Marker H-30 (U.S. 212, 1 mile west of Chaska): Jean B. Faribault traded here for the North West Co. by 1804, at the Little Rapids of the Minnesota 5 miles south of the marker.",
+   "src": [
+    [
+     "History Along the Highways: A Guide to Minnesota's Historic Markers and Sites (Minnesota Historical Society, 1967), your screenshots",
+     ""
+    ]
+   ]
+  },
+  "ob-crow-wing-village": {
+   "st": " Marker H-40: a trading post stood opposite the Crow Wing River mouth from about 1826, a village grew around it, and in the 1860s the Red River trail crossed the Mississippi here before the town gradually disappeared. It is now Crow Wing State Park.",
+   "src": [
+    [
+     "History Along the Highways: A Guide to Minnesota's Historic Markers and Sites (Minnesota Historical Society, 1967), your screenshots",
+     ""
+    ]
+   ],
+   "t": " LOOK ONLY: Minnesota state park.",
+   "set": {
+    "acc": [
+     "stop",
+     "State park or wayside: look only (no detecting without a permit)"
+    ]
+   }
+  },
+  "fr-bolles-flouring-mill-and-grindstone-quarry": {
+   "st": " Marker H-72 (Hwy 95 at the north edge of Afton): Lemuel Bolles built the first commercial flour mill in the Minnesota country about 1843 on Bolles Creek, a mile and a half upstream, and it ran until 1875.",
+   "src": [
+    [
+     "History Along the Highways: A Guide to Minnesota's Historic Markers and Sites (Minnesota Historical Society, 1967), your screenshots",
+     ""
+    ]
+   ]
+  },
+  "hm-253": {
+   "st": " Marker H-78: Joseph R. Brown laid out the town of Dahcotah here in 1839 and built the Tamarack House as the St. Croix County courthouse, called the first capitol building in Minnesota. The townsite has vanished.",
+   "src": [
+    [
+     "History Along the Highways: A Guide to Minnesota's Historic Markers and Sites (Minnesota Historical Society, 1967), your screenshots",
+     ""
+    ]
+   ]
+  },
+  "vs-2073138": {
+   "st": " Marker H-3 (Hwy 108, 5 miles east of Ottertail): Leaf City was a trading post on the Red River trail by 1857, with a post office from 1857 to 1860, and was broken up by the 1862 war.",
+   "src": [
+    [
+     "History Along the Highways: A Guide to Minnesota's Historic Markers and Sites (Minnesota Historical Society, 1967), your screenshots",
+     ""
+    ]
+   ]
+  },
+  "fr-camp-pope-redwood-falls": {
+   "st": " Marker H-13: the 1863 troop concentration point about a mile north of the marker on Hwy 19; 3,300 men left on 16 June 1863 for the Missouri, and the camp was used again in 1864. The Camp Pope Burial Plot nearby is look-only.",
+   "src": [
+    [
+     "History Along the Highways: A Guide to Minnesota's Historic Markers and Sites (Minnesota Historical Society, 1967), your screenshots",
+     ""
+    ]
+   ]
+  },
+  "fr-kaposia-little-crow-s-village-sites-and-th": {
+   "st": " Markers H-10 and H-53: in June 1842 an Ojibwe war party attacked from the Battle Creek ravine. Kaposia village stood on the Mendota trail from 1839 to 1852 at the north edge of South St. Paul.",
+   "src": [
+    [
+     "History Along the Highways: A Guide to Minnesota's Historic Markers and Sites (Minnesota Historical Society, 1967), your screenshots",
+     ""
+    ]
+   ]
+  },
+  "ab4-pokegama-mission": {
+   "st": " Markers H-43 and H-58: Rev. Frederick Ayer's mission and school for the Ojibwe stood on the east shore of Lake Pokegama, 3 miles west of the U.S. 61 marker 1 mile north of Pine City; it was founded in 1836 and abandoned in 1846 after the 1841 attack.",
+   "src": [
+    [
+     "History Along the Highways: A Guide to Minnesota's Historic Markers and Sites (Minnesota Historical Society, 1967), your screenshots",
+     ""
+    ]
+   ]
+  },
+  "cem-640504": {
+   "st": " Marker M-9: two trenches east of the Brook Park fire monument hold 23 victims of the 1894 Hinckley fire; the Hinckley Memorial Cemetery holds 248 more in four trenches (M-17). These are graves: look only.",
+   "src": [
+    [
+     "History Along the Highways: A Guide to Minnesota's Historic Markers and Sites (Minnesota Historical Society, 1967), your screenshots",
+     ""
+    ]
+   ]
+  },
+  "hm2-189": {
+   "st": " Marker H-46: one of three pentagonal green-timber blockhouses with 50-ft sides built at St. Joseph in August 1862; a second stood near St. Benedict's College.",
+   "src": [
+    [
+     "History Along the Highways: A Guide to Minnesota's Historic Markers and Sites (Minnesota Historical Society, 1967), your screenshots",
+     ""
+    ]
+   ]
+  },
+  "hm2-52": {
+   "st": " Marker H-70: Farther and Gay Castle, Joseph R. Brown's 1861 stone house, was looted and burned on 19 August 1862. Now the Joseph R. Brown State Memorial Wayside.",
+   "src": [
+    [
+     "History Along the Highways: A Guide to Minnesota's Historic Markers and Sites (Minnesota Historical Society, 1967), your screenshots",
+     ""
+    ]
+   ],
+   "t": " LOOK ONLY: state wayside.",
+   "set": {
+    "acc": [
+     "stop",
+     "State park or wayside: look only (no detecting without a permit)"
+    ]
+   }
+  },
+  "t-rep-vermilion-1865": {
+   "st": " Marker H-66 (west edge of Tower): it displays an ore crusher \"used in search for gold, one of the first pieces of mining equipment in the area\", found under water in Trout Creek. Tower was the end of the Vermilion Trail, built from Duluth in 1865 for the gold rush prospectors.",
+   "src": [
+    [
+     "History Along the Highways: A Guide to Minnesota's Historic Markers and Sites (Minnesota Historical Society, 1967), your screenshots",
+     ""
+    ]
+   ]
+  },
+  "ab4-chengwatana-village": {
+   "st": " Marker H-58 (Pine City): \"A rich deposit of copper was discovered here and a $250,000 company was formed which sank some 150-foot shafts.\" The old copper mine site is not placed yet. Old shafts are dangerous: look only near any opening.",
+   "src": [
+    [
+     "History Along the Highways: A Guide to Minnesota's Historic Markers and Sites (Minnesota Historical Society, 1967), your screenshots",
+     ""
+    ]
+   ]
+  },
+  "t-pan-oronoco": {
+   "st": " State marker H-106 at Oronoco State Wayside (U.S. 52 north of Oronoco): gold was found along the Zumbro in summer 1858, and several hundred men panned and sluiced until spring floods and the Panic of 1857 ended it. The marker was re-erected in 1967.",
+   "src": [
+    [
+     "History Along the Highways: A Guide to Minnesota's Historic Markers and Sites (Minnesota Historical Society, 1967), your screenshots",
+     ""
+    ]
+   ]
+  },
+  "ab-fort-ripley": {
+   "st": " Marker H-103 (U.S. 371, 8 miles north of Camp Ripley Junction): built 1848-50 on the west bank opposite the marker, first called Fort Marcy and then Fort Gaines, and renamed Fort Ripley on 4 November 1850. Settlers sheltered here in 1862; it burned in 1877 and was abandoned in 1880, and a powder magazine ruin is the only stone left.",
+   "src": [
+    [
+     "History Along the Highways: A Guide to Minnesota's Historic Markers and Sites (Minnesota Historical Society, 1967), your screenshots",
+     ""
+    ]
+   ]
+  }
+ }
+}
