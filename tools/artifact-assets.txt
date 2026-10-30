@@ -234,3 +234,4 @@ om13/plat_dakota_1874.webp c496eef940eb85f3c9cfdb7a196f3325
 om13/plat_houston_1871.webp 9ad50b42af8f4f16e24959733f2828bb
 om13/plat_menominee_1898.webp d1f2af5163c81c1b1d09baa643839a83
 om13/plat_gogebic_ontonagon_1887.webp 119487a8590e06afb5f216fb414d837a
+om13/plat_menominee_1912.webp 0a2aa919dd335cfc15ee5cd3bc953954
