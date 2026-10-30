@@ -1,0 +1,361 @@
+{
+ "new": [
+  {
+   "id": "cd-roycroft-farm-sidnaw",
+   "L": "history",
+   "n": "Roycroft Farm, north of Sidnaw (1911 plat)",
+   "la": 46.5085,
+   "lo": -88.7,
+   "y": "by 1911",
+   "pl": "S edge of secs. 32-33 T48N R35W, Houghton County",
+   "co": "Houghton",
+   "stt": "MI",
+   "v": "Coins, buttons, farm and rail-camp relics",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "The 1911 Houghton County plat book (T48N R35W page) draws Roycroft Farm as a long tract along the south edge of secs. 32 and 33, just north of Sidnaw, with an old railroad bed running north from it through secs. 28-29 to the county line.",
+   "t": "Look for the farmstead clearing, foundation stones and the old rail bed edge. Ask the landowner first.",
+   "src": [
+    [
+     "Plat book of Houghton County, Michigan (Weston & Hancock, c1911), T48N R35W page (Neb's screenshot)",
+     "https://quod.lib.umich.edu/m/micounty/5117704.0001.001/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed at the 32/33 line on the south edge; the tract is long, so the farmstead may be up to about 600 m east or west",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "cd-nestee-log-railroad-junction",
+   "L": "camp",
+   "n": "Nestee's old log railroad junction, sec. 20 T47N R35W (1911 plat)",
+   "la": 46.4562,
+   "lo": -88.7107,
+   "y": "by 1911",
+   "pl": "sec. 20 T47N R35W, Houghton County",
+   "co": "Houghton",
+   "stt": "MI",
+   "v": "Logging-camp tools, spikes, bottles, coins",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "The 1911 Houghton County plat book (T47N R35W page) draws \"Nestee's old log railroad\", a logging grade running from sec. 30 northeast through secs. 19, 20 and 17 to the railway at the sec. 9/16 line, crossing the Old Road in sec. 20. There are log roads and a trail in secs. 28-29, and farm dots in secs. 7, 8 and 18. Junctions of logging grades often had a camp or a landing.",
+   "t": "Walk the old grade for a camp clearing, spikes, stove parts and bottles. Ask the landowner first.",
+   "src": [
+    [
+     "Plat book of Houghton County, Michigan (Weston & Hancock, c1911), T47N R35W page (Neb's screenshot)",
+     "https://quod.lib.umich.edu/m/micounty/5117704.0001.001/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed at the section centre; the grade junction can be up to about 800 m away",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "cd-washburn-resort-upper-entrance",
+   "L": "history",
+   "n": "Washburn Resort, Portage Ship Canal Upper Entrance (1911 plat)",
+   "la": 47.2245,
+   "lo": -88.6205,
+   "y": "by 1911",
+   "pl": "E side of sec. 28 T56N R34W, east of the Ship Canal, Houghton County",
+   "co": "Houghton",
+   "stt": "MI",
+   "v": "Coins, jewelry, resort-era bottles and tokens",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "The 1911 Houghton County plat book (T56N R34W page) prints \"Washburn Resort\" east of the Ship Canal at the Upper Entrance, beside the Life Saving Station and the Light House. This is close to F.J. McLain State Park, so part of the ground may be park land.",
+   "t": "Check first whether the spot is inside McLain State Park: Michigan state parks need a permit to detect. Outside the park, ask the landowner first.",
+   "src": [
+    [
+     "Plat book of Houghton County, Michigan (Weston & Hancock, c1911), T56N R34W page (Neb's screenshot)",
+     "https://quod.lib.umich.edu/m/micounty/5117704.0001.001/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the plat label east of the canal; good to about 250 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "cd-franklin-mill-point-mills",
+   "L": "history",
+   "n": "Franklin Mill, Point Mills on Torch Lake (1911 plat)",
+   "la": 47.0892,
+   "lo": -88.4807,
+   "y": "by 1911",
+   "pl": "sec. 10 T54N R33W, Torch Lake shore, Houghton County",
+   "co": "Houghton",
+   "stt": "MI",
+   "v": "Coins, tokens, tools, bottles",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "The 1911 Houghton County plat book (R33W page) marks the Franklin Mill on the Torch Lake shore in sec. 10, at Point Mills. GNIS keeps the name Point Mills for the place.",
+   "t": "Stamp-mill ground: look along the shore for the mill foundations and the worker houses behind them; mind old sand tailings and the water's edge. Ask the landowner first.",
+   "src": [
+    [
+     "Plat book of Houghton County, Michigan (Weston & Hancock, c1911), R33W page (Neb's screenshot)",
+     "https://quod.lib.umich.edu/m/micounty/5117704.0001.001/"
+    ],
+    [
+     "USGS GNIS: Point Mills, Houghton Co.",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the plat mill symbol; good to about 200 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "cd-centennial-mill-point-mills",
+   "L": "history",
+   "n": "Centennial Mill, Point Mills on Torch Lake (1911 plat)",
+   "la": 47.0935,
+   "lo": -88.4664,
+   "y": "by 1911",
+   "pl": "NW sec. 11 T54N R33W, Torch Lake shore, Houghton County",
+   "co": "Houghton",
+   "stt": "MI",
+   "v": "Coins, tokens, tools, bottles",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "The 1911 Houghton County plat book (R33W page) marks the Centennial Mill on the Torch Lake shore in sec. 11, east of Point Mills, below the Centennial mine lands in sec. 3.",
+   "t": "The mill site is about 120 m from the Point Mills Nature Area, so check who owns the ground and whether detecting is allowed there. Look along the shore for the mill foundations and the worker houses behind them, and mind the old sand tailings and the water's edge.",
+   "src": [
+    [
+     "Plat book of Houghton County, Michigan (Weston & Hancock, c1911), R33W page (Neb's screenshot)",
+     "https://quod.lib.umich.edu/m/micounty/5117704.0001.001/"
+    ],
+    [
+     "USGS GNIS: Point Mills, Houghton Co.",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the plat mill symbol; good to about 200 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "cd-worcester-lumber-mill-chassell",
+   "L": "history",
+   "n": "W.L. Co.'s Mill (Worcester Lumber Co.), Chassell (1911 plat)",
+   "la": 47.0262,
+   "lo": -88.5238,
+   "y": "by 1911",
+   "pl": "S edge of sec. 32 T54N R33W, Pike Bay shore at Chassell, Houghton County",
+   "co": "Houghton",
+   "stt": "MI",
+   "v": "Coins, tokens, tools, bottles",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "The 1911 Houghton County plat book (T54N R33W page) marks \"W.L. Co.'s Mill\", the Worcester Lumber Company sawmill, on the Pike Bay shore at the south edge of sec. 32, just below Chassell.",
+   "t": "Look for the mill foundations, slab piles and the boarding-house sites along the shore. Ask the landowner first.",
+   "src": [
+    [
+     "Plat book of Houghton County, Michigan (Weston & Hancock, c1911), T54N R33W page (Neb's screenshot)",
+     "https://quod.lib.umich.edu/m/micounty/5117704.0001.001/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the plat mill symbol; good to about 150 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "cd-lakeside-floral-chassell",
+   "L": "history",
+   "n": "Lakeside Floral Co., north of Chassell (1911 plat)",
+   "la": 47.0392,
+   "lo": -88.5201,
+   "y": "by 1911",
+   "pl": "N sec. 32 T54N R33W, Portage Lake shore, Houghton County",
+   "co": "Houghton",
+   "stt": "MI",
+   "v": "Coins, buttons, bottles, tools",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "The 1911 Houghton County plat book (T54N R33W page) prints \"Lakeside Floral Co.\" on the Portage Lake shore at the north edge of sec. 32, just north of Chassell.",
+   "t": "Look for greenhouse foundations, boiler bricks and the house site by the shore. Ask the landowner first.",
+   "src": [
+    [
+     "Plat book of Houghton County, Michigan (Weston & Hancock, c1911), T54N R33W page (Neb's screenshot)",
+     "https://quod.lib.umich.edu/m/micounty/5117704.0001.001/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the plat label at the shore; good to about 200 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "cd-club-house-pilgrim-point",
+   "L": "history",
+   "n": "Club House at Pilgrim Point, Portage Lake (1911 plat)",
+   "la": 47.1012,
+   "lo": -88.5145,
+   "y": "by 1911",
+   "pl": "sec. 5 T54N R33W, Portage Lake shore near the Pilgrim River, Houghton County",
+   "co": "Houghton",
+   "stt": "MI",
+   "v": "Coins, jewelry, bottles, tokens",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "The 1911 Houghton County plat book (T54N R33W page) draws a Club House on the Portage Lake shore in sec. 5, north of the Pilgrim River mouth. GNIS Pilgrim Point is about 400 m away.",
+   "t": "Look for the club house foundation, its dock line and picnic ground. Ask the landowner first.",
+   "src": [
+    [
+     "Plat book of Houghton County, Michigan (Weston & Hancock, c1911), T54N R33W page (Neb's screenshot)",
+     "https://quod.lib.umich.edu/m/micounty/5117704.0001.001/"
+    ],
+    [
+     "USGS GNIS: Pilgrim Point, Houghton Co.",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the plat building square; good to about 150 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "cd-white-city-portage-entry",
+   "L": "history",
+   "n": "White City excursion park, Portage Entry (1911 plat)",
+   "la": 46.98215,
+   "lo": -88.42512,
+   "y": "by 1911",
+   "pl": "SW SW sec. 18 T53N R32W, at Portage Entry, Houghton County",
+   "co": "Houghton",
+   "stt": "MI",
+   "v": "Coins, jewelry, tokens, bottles",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "The 1911 Houghton County plat book (T53N R33W page) prints WHITE CITY along the shore at Portage Entry, with a platted block beside it. White City was an excursion park that steamers served. GNIS keeps White City at this spot.",
+   "t": "Excursion-park ground: look for the dance hall and pavilion pads, the dock line and the picnic grove. Ask the landowner first.",
+   "src": [
+    [
+     "Plat book of Houghton County, Michigan (Weston & Hancock, c1911), T53N R33W page (Neb's screenshot)",
+     "https://quod.lib.umich.edu/m/micounty/5117704.0001.001/"
+    ],
+    [
+     "USGS GNIS: White City, Houghton Co.",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on the GNIS White City point, which agrees with the plat block; good to about 150 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "cd-camps-old-road-sec22-t53n-r33w",
+   "L": "camp",
+   "n": "Camps on the Old Road, sec. 22 T53N R33W (1911 plat)",
+   "la": 46.9725,
+   "lo": -88.4878,
+   "y": "by 1911",
+   "pl": "W edge of sec. 22 T53N R33W, on the Old Road, Houghton County",
+   "co": "Houghton",
+   "stt": "MI",
+   "v": "Logging-camp tools, bottles, coins",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "The 1911 Houghton County plat book (T53N R33W page) marks \"Camps\" with a building square at the west edge of sec. 22, on the Old Road west of the Portage River.",
+   "t": "Look for the camp clearing, stove parts, bottles and horseshoes along the old road. Ask the landowner first.",
+   "src": [
+    [
+     "Plat book of Houghton County, Michigan (Weston & Hancock, c1911), T53N R33W page (Neb's screenshot)",
+     "https://quod.lib.umich.edu/m/micounty/5117704.0001.001/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the plat building square; good to about 200 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "cd-santy-dam-t54n-r36w",
+   "L": "history",
+   "n": "Santy Dam, sec. 14 T54N R36W (1911 plat)",
+   "la": 47.0764,
+   "lo": -88.8278,
+   "y": "by 1911",
+   "pl": "E quarter corner of sec. 14 T54N R36W, Houghton County",
+   "co": "Houghton",
+   "stt": "MI",
+   "v": "Logging-camp tools, spikes, bottles",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "The 1911 Houghton County plat book (T54N R36W page) prints Santy Dam on the east edge of sec. 14, where a NE-SW trail, the Old Road and the stream meet, with a building dot in NE sec. 14. It was most likely a logging dam for driving logs. No 1950s topo sheet covering this spot was found to check for the pond.",
+   "t": "Look for the dam crib timbers, the old pond flat and the camp site beside it. Ask the landowner first.",
+   "src": [
+    [
+     "Plat book of Houghton County, Michigan (Weston & Hancock, c1911), T54N R36W page (Neb's screenshot)",
+     "https://quod.lib.umich.edu/m/micounty/5117704.0001.001/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed at the east quarter corner of sec. 14; good to about 200 m",
+    "Unconfirmed, one source"
+   ]
+  },
+  {
+   "id": "cd-grave-rod-river-t54n-r36w",
+   "L": "history",
+   "n": "Grave by the Rod River, T54N R36W (1911 plat)",
+   "la": 47.0982,
+   "lo": -88.8491,
+   "y": "by 1911",
+   "pl": "NE corner of sec. 10 / NW sec. 11 T54N R36W, by the old river road, Houghton County",
+   "co": "Houghton",
+   "stt": "MI",
+   "v": "None: look only",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "The 1911 Houghton County plat book (T54N R36W page) prints \"Grave\" beside the Rod River at the NE corner of sec. 10 and NW sec. 11, next to the old road that follows the river. Look only: this is a burial.",
+   "t": "Look only. Never detect or dig at or near a grave: disturbing a burial is a crime in Michigan.",
+   "src": [
+    [
+     "Plat book of Houghton County, Michigan (Weston & Hancock, c1911), T54N R36W page (Neb's screenshot)",
+     "https://quod.lib.umich.edu/m/micounty/5117704.0001.001/"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed at the sec. 10/11 corner; good to about 200 m",
+    "Unconfirmed, one source"
+   ],
+   "acc": [
+    "stop",
+    "Grave: look only"
+   ]
+  }
+ ],
+ "edit": {}
+}
