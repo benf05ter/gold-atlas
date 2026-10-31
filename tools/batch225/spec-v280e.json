@@ -1,0 +1,147 @@
+{
+ "new": [
+  {
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "stt": "WI",
+   "id": "bur-welton-mill-white-river",
+   "L": "history",
+   "n": "Welton's sawmill on the White River (1855-57)",
+   "la": 46.501,
+   "lo": -90.8945,
+   "y": "1855-57",
+   "pl": "White River just below the power dam, SW of Ashland",
+   "co": "Ashland",
+   "v": "Mill irons, square nails, camp trash",
+   "st": "Burnham (1929) puts Welton's sawmill of 1855-57 on the White River \"just below the present power dam\". It was one of the first mills of the Chequamegon Bay settlements.",
+   "t": "Look on the river terrace just below the dam on LiDAR. Utility and private land: ask first.",
+   "src": [
+    [
+     "Burnham, The Lake Superior Country in History and in Story (1929), leaf 53-54, 282",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed just below the White River dam on the NHDPlus flowline (about 400 m)."
+   ],
+   "acm": [
+    500,
+    "approx"
+   ]
+  },
+  {
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "stt": "WI",
+   "id": "bur-pikes-creek-log-dam",
+   "L": "history",
+   "n": "Pike's Creek log dam near the fish hatchery (failed about 1886)",
+   "la": 46.788,
+   "lo": -90.879,
+   "y": "1880s",
+   "pl": "Pikes Creek by the state fish hatchery S of Bayfield",
+   "co": "Bayfield",
+   "v": "Dam cribbing, spikes, chain",
+   "st": "Burnham (1929) tells of a logging dam on Pike's Creek \"near the present fish hatchery\" that gave way about 1886.",
+   "t": "Look on LiDAR along Pikes Creek by the hatchery for the old dam abutments. State land at the hatchery: look only.",
+   "warn": "State fish hatchery grounds: look only.",
+   "src": [
+    [
+     "Burnham, The Lake Superior Country in History and in Story (1929), leaf 172",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed on Pikes Creek by the hatchery from the NHDPlus flowline (about 800 m)."
+   ],
+   "acm": [
+    800,
+    "approx"
+   ]
+  }
+ ],
+ "edit": {
+  "g-PG": {
+   "st": " Burnham (1929) places the Chicago silver mine \"on the north side of Brunschweiler Creek about four miles west of Minersville\"; the shaft \"went down about three hundred feet ... sunk in sand, and a long sluiceway\". Four miles west of Minersville is the north bank of the Brunsweiler River near 46.407,-90.881, on the Marengo side, about 5 km north of this pin. The pin stays on the geochemical target until LiDAR or the 1938 photo shows the shaft dump at the Brunsweiler spot.",
+   "src": [
+    [
+     "Burnham, The Lake Superior Country in History and in Story (1929), leaf 177",
+     ""
+    ]
+   ],
+   "set": {
+    "n": "PG: Chicago silver mine area (Brunsweiler River)"
+   }
+  },
+  "rr-hotel-chequamegon": {
+   "st": " Burnham (1929): the hotel's excursion steamer Emerald ended her days at the old Durfee dock east of the pig-iron dock in Ashland, \"all under the water\".",
+   "src": [
+    [
+     "Burnham, The Lake Superior Country in History and in Story (1929), leaf 398-405",
+     ""
+    ]
+   ]
+  },
+  "ob-bay-city-ashland": {
+   "st": " Burnham (1929), second source: \"Lusk Prentice & Co., in 1855, started a dock, and began clearing off the site of the expected city, which they called Bay City\", by Bay City Creek near the later Soo ore dock. The first Bayport election was held 1 Apr 1856 \"at the store of Schuyler Goff, in Bay City (Ellis Division)\".",
+   "src": [
+    [
+     "Burnham, The Lake Superior Country in History and in Story (1929), leaf 207, 280, 443",
+     ""
+    ]
+   ]
+  },
+  "tg-radisson-fort-ashland": {
+   "st": " Burnham (1929) puts Radisson's 1659 dwelling \"near the mouths of Fish Creek and Whittlesey Creek\", at the west end of Chequamegon Bay.",
+   "src": [
+    [
+     "Burnham, The Lake Superior Country in History and in Story (1929), leaf 85-86",
+     ""
+    ]
+   ]
+  },
+  "ab2-afc-la-pointe-ruins": {
+   "st": " Burnham (1929) on the French palisade fort at La Pointe: \"at the mouth of a small creek, or midway between the present location of the American Fur Company establishment and the Mission House\".",
+   "src": [
+    [
+     "Burnham, The Lake Superior Country in History and in Story (1929), leaf 98",
+     ""
+    ]
+   ]
+  },
+  "tg-namekagon-portage": {
+   "st": " Burnham (1929) dates Cadotte's post on the Namakagon River to 1784 and Corbin's post at Lac Courte Oreilles to 1808.",
+   "src": [
+    [
+     "Burnham, The Lake Superior Country in History and in Story (1929), leaf 76, 144",
+     ""
+    ]
+   ]
+  },
+  "cqc-peerless-logging-railroad": {
+   "st": " Burnham (1929), second source: the Peerless \"went along the edge of the water clear across Fish Creek. You can see the piling on the bay side of the highway on the bay front drive\". Cook's mill stood \"below Prentice Park, opposite the flowing well\" and burned.",
+   "src": [
+    [
+     "Burnham, The Lake Superior Country in History and in Story (1929), leaf 258, 362",
+     ""
+    ]
+   ],
+   "set": {
+    "pinconf": "B"
+   }
+  },
+  "t-hermit-island": {
+   "st": " Burnham (1929) is a second telling: \"stories of the mysterious gold which he was supposed to have buried near his lone cabin on the island\"; \"Hermit Island took its name from the cooper Wilson\". Still legend only; Harris (1976) debunks it.",
+   "src": [
+    [
+     "Burnham, The Lake Superior Country in History and in Story (1929), leaf 126, 153",
+     ""
+    ]
+   ]
+  }
+ }
+}

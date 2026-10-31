@@ -1,0 +1,46 @@
+{
+ "new": [
+  {
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "stt": "WI",
+   "id": "hwi-hatchville-village",
+   "L": "ghost",
+   "n": "Hatchville, faded village (and the 1872-73 Lynch homestead nearby)",
+   "la": 44.858,
+   "lo": -92.1363,
+   "y": "1870s-1900s",
+   "pl": "Hatchville crossroads, Dunn/St. Croix county line",
+   "co": "Dunn",
+   "v": "Coins, buttons, household goods",
+   "st": "Haunted Wisconsin (1980) calls it \"the once-thriving village of Hatchville\". Nearby in Cady township stood Richard Lynch's log homestead, scene of the 1872-73 \"Lynch poltergeist\" that drew more than 300 visitors through the Big Woods; \"today, the log house and the Big Woods in Cady Township are gone\". The Lynch land is not yet placed; the 1888 and 1914 plats should show it. A church site is pinned separately (ot-hatchville-church-s7-t27n-r14w).",
+   "t": "Check the 1888 and 1914 plats for the village lots and the Lynch land in Cady township. Private land: ask first.",
+   "src": [
+    [
+     "Scott & Norman, Haunted Wisconsin (1980)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed at the GNIS point for Hatchville (about 300 m)."
+   ],
+   "acm": [
+    400,
+    "gnis"
+   ]
+  }
+ ],
+ "edit": {
+  "sf-merrill-t-b-scott-lumber-co-planing-mill": {
+   "st": " Haunted Wisconsin (1980): the T. B. Scott mansion stood on Jenny's hill at the south end of Merrill (a ghost tale).",
+   "src": [
+    [
+     "Scott & Norman, Haunted Wisconsin (1980)",
+     ""
+    ]
+   ]
+  }
+ }
+}
