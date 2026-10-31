@@ -5329,6 +5329,7 @@ var PLATS=[{id:'chippewa',label:'Chippewa 1913',b:[-91.6676,-90.9203,44.855,45.2
   {id:'paloalto08',label:'Palo Alto IA 1908',b:[-94.913907,-94.44248,42.908069,43.255394],f:'plat_paloalto_1908',dir:'om13',tile:'p-paloalto-1908'},
   {id:'polk07',label:'Polk IA 1907',b:[-93.815913,-93.34791,41.600274,41.863457],f:'plat_polk_1907',dir:'om13',tile:'p-polk-1907'},
   {id:'clinton25',label:'Clinton IA 1925',b:[-90.898756,-90.315058,41.771315,42.033638],f:'plat_clinton_1925',dir:'om13',tile:'p-clinton-1925'},
+  {id:'johnson00',label:'Johnson IA 1900',b:[-91.483076,-91.365877,41.51027,41.77285],f:'plat_johnson_1900',dir:'om13',tile:'p-johnson-1900'},
   {id:'gogebic87',label:'Gogebic/Ontonagon MI 1887',b:[-90.42601, -88.94263, 46.09643, 46.94767],f:'plat_gogebic_ontonagon_1887',dir:'om13',tile:'p-gogebic87'}];
 { const g13=el('g',{},gBase); gBase.insertBefore(g13,gBelt); g13.style.display='none';
   for(const p of PLATS){ const [ix,iy]=P(p.b[0],p.b[3]); p.im=el('image',{x:ix,y:iy,width:(p.b[1]-p.b[0])*K,height:p.b[3]-p.b[2],preserveAspectRatio:'none','data-f':p.f},g13); }
