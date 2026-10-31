@@ -1,0 +1,36 @@
+{
+ "new": [
+  {
+   "id": "tw-mn-walnut-grove-bergblom-copper-box-1930",
+   "L": "treasure",
+   "n": "Copper box of gold coins in a creek bank, 3 mi SW of Walnut Grove",
+   "la": 44.1923,
+   "lo": -95.5121,
+   "y": "found late May 1930",
+   "pl": "'Three miles southwest of Walnut Grove' (GNIS Walnut Grove offset 3 miles SW); the farm is not yet placed on a plat.",
+   "co": "Redwood",
+   "stt": "MN",
+   "v": "Gold coins ($250 found)",
+   "c": "newspaper",
+   "s": "found",
+   "p": "approx",
+   "st": "A farmer digging along a small creek bank on his farm found a watertight copper box, smaller than a brick, holding twelve $20 and one $10 gold pieces ($250). Who buried it was never learned. One source so far. Pin: 'Three miles southwest of Walnut Grove' (GNIS Walnut Grove offset 3 miles SW); the farm is not yet placed on a plat.",
+   "t": "Found, but whoever buried a copper box may have left more along the same creek bank. Find the farm and the creek on a c.1930 Redwood County plat and the 1938 aerial, then detect the bank with permission. Access: Private farmland: ask permission.",
+   "src": [
+    [
+     "Sauk Centre Herald, 26 Jun 1930, p. 8, 'Excited Over Finding Gold', reprinted from the Tracy Headlight Herald (newspapers.com image 879918517, PC read)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: 'Three miles southwest of Walnut Grove' (GNIS Walnut Grove offset 3 miles SW); the farm is not yet placed on a plat."
+   ],
+   "acm": [
+    1500,
+    "area"
+   ]
+  }
+ ],
+ "edit": {}
+}
