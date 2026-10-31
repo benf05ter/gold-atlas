@@ -1,0 +1,415 @@
+{
+ "new": [
+  {
+   "id": "au-ia-steamboat-rock-holcomb-1857",
+   "L": "panning",
+   "y": "1857",
+   "co": "Hardin",
+   "stt": "IA",
+   "v": "Gold flakes and nuggets",
+   "s": "unknown",
+   "p": "plss",
+   "n": "O. M. Holcomb's 1857 gold working, west bank of the Iowa River, sec. 29 T88N R19W",
+   "la": 42.4047,
+   "lo": -93.0906,
+   "pl": "Sec. 29 T88N R19W (BLM PLSS), on the west bank of the Iowa River; quarter not given.",
+   "st": "1911 Hardin County history: 'In 1857 gold was discovered on section 29, on the west bank of the Iowa, being worked by O. M. Holcomb and others, he being an old gold miner of California.' It is the first named working on the Iowa River here. Pin: Sec. 29 T88N R19W (BLM PLSS), on the west bank of the Iowa River; quarter not given.",
+   "t": "The river crosses sec. 29 just west of Steamboat Rock. Pan the west-bank gravels and any old cut bank. Private land; ask first. Access: Iowa Code 461A.35: no removing sand, gravel, earth or stone from state parks, preserves, meandered streams or other DNR commission lands except on commission terms; metal detectors limited by 571 IAC 64. Private banks and fields need the owner's OK.",
+   "src": [
+    [
+     "1911 History of Hardin County, Clay Township (IAGenWeb, read on Neb's PC 2026-10-31); Iowa Geological Survey EM-16 'Gold in Iowa' (R. R. Anderson, 1999), read on Neb's PC 2026-10-31",
+     "https://www.iihr.uiowa.edu/igs/publications/uploads/EM-16.pdf"
+    ]
+   ],
+   "acm": [
+    900,
+    "report"
+   ],
+   "c": "newspaper",
+   "pinconf": "approx",
+   "pinev": "Sec. 29 T88N R19W (BLM PLSS), on the west bank of the Iowa River; quarter not given."
+  },
+  {
+   "id": "au-ia-des-moines-river-pella",
+   "L": "panning",
+   "y": "historic reports",
+   "co": "Marion",
+   "stt": "IA",
+   "v": "Gold flakes and nuggets",
+   "s": "unknown",
+   "p": "area",
+   "n": "Des Moines River gold near Pella",
+   "la": 41.44,
+   "lo": -92.92,
+   "pl": "Region-level on the Des Moines River north of Pella. Much of this reach is now under Lake Red Rock (1969).",
+   "st": "EM-16 lists the Des Moines River near Pella among Iowa's historic gold reports. (It also names Douds and Farmington on the Des Moines and Vasser Creek in NE Davis County, but those are more than 6 hours from Eau Claire and are left out.) Pin: Region-level on the Des Moines River north of Pella. Much of this reach is now under Lake Red Rock (1969).",
+   "t": "Try the river below Red Rock Dam at low water; the reservoir shore is federal (Corps of Engineers) land with its own rules. Access: Iowa Code 461A.35: no removing sand, gravel, earth or stone from state parks, preserves, meandered streams or other DNR commission lands except on commission terms; metal detectors limited by 571 IAC 64. Private banks and fields need the owner's OK.",
+   "src": [
+    [
+     "Iowa Geological Survey EM-16 'Gold in Iowa' (R. R. Anderson, 1999), read on Neb's PC 2026-10-31",
+     "https://www.iihr.uiowa.edu/igs/publications/uploads/EM-16.pdf"
+    ]
+   ],
+   "acm": [
+    8000,
+    "area"
+   ],
+   "c": "newspaper",
+   "pinconf": "approx",
+   "pinev": "Region-level on the Des Moines River north of Pella. Much of this reach is now under Lake Red Rock (1969)."
+  },
+  {
+   "id": "au-wi-hawthorne-placer",
+   "L": "panning",
+   "y": "undated",
+   "co": "Douglas",
+   "stt": "WI",
+   "v": "Gold flakes and nuggets",
+   "s": "unknown",
+   "p": "plss",
+   "n": "Hawthorne placer, T46-47N R12W",
+   "la": 46.489,
+   "lo": -91.917,
+   "pl": "Township line between T46N and T47N in R12W (BLM PLSS), near Hawthorne; the exact working is not given.",
+   "st": "The WGNHS gold list records a placer near Hawthorne in T46-47N R12W, Douglas County. Pin: Township line between T46N and T47N in R12W (BLM PLSS), near Hawthorne; the exact working is not given.",
+   "t": "Douglas County forest land is common here; check the county forest rules. Pan the creeks that cut the sandy outwash. Access: Wisconsin: recreational panning with pans, screens, shovels, small manual sluices and metal detectors needs no DNR permit; no more than 2 cubic yards a year per waterway; no panning in State Parks, State Trails, State Recreation Areas, State Wild and Scenic Rivers, State Natural Areas or state-owned lakebeds (WI DNR Gold Panning page).",
+   "src": [
+    [
+     "WGNHS web page  and WOFR 1985-05 county list https://wgnhs.wisc.edu/pubshare/WOFR1985-05.pdf (read on Neb's PC 2026-10-31",
+     "https://home.wgnhs.wisc.edu/gold/"
+    ]
+   ],
+   "acm": [
+    5000,
+    "report"
+   ],
+   "c": "newspaper",
+   "pinconf": "approx",
+   "pinev": "Township line between T46N and T47N in R12W (BLM PLSS), near Hawthorne; the exact working is not given."
+  },
+  {
+   "id": "au-wi-knapp-mining-co-shaft-1909",
+   "L": "report",
+   "y": "1909",
+   "co": "Dunn",
+   "stt": "WI",
+   "v": "Gold (reported); quartz specimens",
+   "s": "unknown",
+   "p": "plss",
+   "n": "Knapp Mining and Investment Co. shaft, sec. 16 T28N R14W (1909)",
+   "la": 44.9086,
+   "lo": -92.0859,
+   "pl": "Sec. 16 T28N R14W (BLM PLSS).",
+   "st": "WGNHS gold list: a shaft in sec. 16 T28N R14W, near Knapp, with Knapp Mining and Investment Co. stock sold in 1909. Pin: Sec. 16 T28N R14W (BLM PLSS). The 1901 Knapp gold story (t-knapp-tufts-1901) is about 5 km away; the two may be the same diggings.",
+   "t": "The existing 1901 Knapp gold-digging pin (t-knapp-tufts-1901) sits about 5 km north. Ground check should decide whether the two are the same site. Look for the shaft hollow on LiDAR. Access: Wisconsin: recreational panning with pans, screens, shovels, small manual sluices and metal detectors needs no DNR permit; no more than 2 cubic yards a year per waterway; no panning in State Parks, State Trails, State Recreation Areas, State Wild and Scenic Rivers, State Natural Areas or state-owned lakebeds (WI DNR Gold Panning page). Private land; ask first.",
+   "src": [
+    [
+     "WGNHS web page  and WOFR 1985-05 county list https://wgnhs.wisc.edu/pubshare/WOFR1985-05.pdf (read on Neb's PC 2026-10-31",
+     "https://home.wgnhs.wisc.edu/gold/"
+    ]
+   ],
+   "acm": [
+    900,
+    "report"
+   ],
+   "c": "newspaper",
+   "pinconf": "approx",
+   "pinev": "Sec. 16 T28N R14W (BLM PLSS)."
+  },
+  {
+   "id": "au-wi-neillsville-granton-conglomerate",
+   "L": "report",
+   "y": "undated",
+   "co": "Clark",
+   "stt": "WI",
+   "v": "Gold (reported); quartz specimens",
+   "s": "unknown",
+   "p": "area",
+   "n": "Basal Mt. Simon conglomerate gold, Neillsville-Granton",
+   "la": 44.587,
+   "lo": -90.55,
+   "pl": "Region-level between Neillsville and Granton.",
+   "st": "WGNHS lists gold in the basal Mount Simon conglomerate around Neillsville and Granton in Clark County. This is the gravel at the bottom of the Cambrian sandstone, lying right on the old Precambrian bedrock. Pin: Region-level between Neillsville and Granton.",
+   "t": "Look where creeks such as the Black River and O'Neill Creek cut down through the sandstone to the Precambrian rock. Access: Wisconsin: recreational panning with pans, screens, shovels, small manual sluices and metal detectors needs no DNR permit; no more than 2 cubic yards a year per waterway; no panning in State Parks, State Trails, State Recreation Areas, State Wild and Scenic Rivers, State Natural Areas or state-owned lakebeds (WI DNR Gold Panning page). Private land; ask first.",
+   "src": [
+    [
+     "WGNHS web page  and WOFR 1985-05 county list https://wgnhs.wisc.edu/pubshare/WOFR1985-05.pdf (read on Neb's PC 2026-10-31",
+     "https://home.wgnhs.wisc.edu/gold/"
+    ]
+   ],
+   "acm": [
+    9000,
+    "area"
+   ],
+   "c": "newspaper",
+   "pinconf": "approx",
+   "pinev": "Region-level between Neillsville and Granton."
+  }
+ ],
+ "edit": {
+  "au-wi-lorain-eckerts-1905": {
+   "set": {
+    "la": 45.6759,
+    "lo": -92.227,
+    "pl": "Sec. 21 T37N R15W (BLM PLSS). WGNHS files it under Barron (Cumberland), but the section is in the town of Lorain, Polk County.",
+    "st": "Oct 1905: Chas. Eckerts claimed gold nuggets on his farm in the town of Lorain, with 'pay dirt' said to be worth $2,000 a ton (Glenwood Tribune, via River Falls Journal). The WGNHS gold list independently records 1905 'Cumberland' nuggets in sec. 21 T37N R15W, the same place and year, so this is two sources. Pin: Sec. 21 T37N R15W (BLM PLSS). WGNHS files it under Barron (Cumberland), but the section is in the town of Lorain, Polk County.",
+    "t": "Find Eckerts (or Eckert) in sec. 21 on the 1914-15 Polk County plat and look for creek gravel on that land. Treat the $2,000 a ton as boom talk. Access: Wisconsin: recreational panning with pans, screens, shovels, small manual sluices and metal detectors needs no DNR permit; no more than 2 cubic yards a year per waterway; no panning in State Parks, State Trails, State Recreation Areas, State Wild and Scenic Rivers, State Natural Areas or state-owned lakebeds (WI DNR Gold Panning page). Streambed to the center belongs to the riparian owner, and reaching the stream across private land needs the owner's OK.",
+    "src": [
+     [
+      "Chronicling America, River Falls Journal, Oct 19, 1905, p. 5 (from Glenwood Tribune)",
+      "https://www.loc.gov/resource/sn85033255/1905-10-19/ed-1/?sp=5"
+     ],
+     [
+      "WGNHS web page  and WOFR 1985-05 county list https://wgnhs.wisc.edu/pubshare/WOFR1985-05.pdf (read on Neb's PC 2026-10-31",
+      "https://home.wgnhs.wisc.edu/gold/"
+     ]
+    ],
+    "acm": [
+     900,
+     "report"
+    ],
+    "c": "documented",
+    "pinconf": "B",
+    "pinev": "Sec. 21 T37N R15W (BLM PLSS). WGNHS files it under Barron (Cumberland), but the section is in the town of Lorain, Polk County."
+   },
+   "moved": true
+  },
+  "au-wi-brunsweiler-1880": {
+   "set": {
+    "n": "Brunsweiler Creek gold claims, secs. 15 and 23 T45N R4W (1880)",
+    "la": 46.3636,
+    "lo": -90.8297,
+    "pl": "Sec. 23 T45N R4W (BLM PLSS), next to WGNHS's 'Brunschweiler Creek placer sec 22'. The 1880 paper says R. 3 W; WGNHS and the river's course say R. 4 W. The R3W sections 15/23 would be about 9 km east (46.371,-90.716), so a plat check is still wanted.",
+    "st": "Spring 1880: gold 'discovered on Brunsweiler's creek some 12 or 15 miles south of Ashland. Quite a number of people are on the ground and claim shanties are being erected. So far the best find has been on sections 15 and 23, T. 45, R. 3 west' (Superior Times; numbers read from the page image). WGNHS lists a Brunschweiler Creek placer in sec. 22 T45N R4W, beside the Chicago Mine (1879-81, N½ sec. 22) and the Northern Belle (W½ SW sec. 22). Pin: Sec. 23 T45N R4W (BLM PLSS), next to WGNHS's 'Brunschweiler Creek placer sec 22'. The 1880 paper says R. 3 W; WGNHS and the river's course say R. 4 W. The R3W sections 15/23 would be about 9 km east (46.371,-90.716), so a plat check is still wanted.",
+    "t": "This is the same square mile as the existing Chicago Mine target (g-PG) and a mile from the Chief Namakagon homestead (sec. 26). Pan the creek gravels in secs. 22-23 and look for claim-shanty pits on LiDAR. Check national forest ownership first. Access: Wisconsin: recreational panning with pans, screens, shovels, small manual sluices and metal detectors needs no DNR permit; no more than 2 cubic yards a year per waterway; no panning in State Parks, State Trails, State Recreation Areas, State Wild and Scenic Rivers, State Natural Areas or state-owned lakebeds (WI DNR Gold Panning page). May be inside Chequamegon-Nicolet National Forest: historic sites there are look-only; check the district office before panning.",
+    "src": [
+     [
+      "Superior Times, May 1, 1880, p. 4 (page image read on Neb's PC 2026-10-31)",
+      "https://www.loc.gov/resource/sn85040344/1880-05-01/ed-1/?sp=4"
+     ],
+     [
+      "WGNHS web page  and WOFR 1985-05 county list https://wgnhs.wisc.edu/pubshare/WOFR1985-05.pdf (read on Neb's PC 2026-10-31",
+      "https://home.wgnhs.wisc.edu/gold/"
+     ]
+    ],
+    "acm": [
+     1500,
+     "report"
+    ],
+    "c": "documented",
+    "pinconf": "B",
+    "pinev": "Sec. 23 T45N R4W (BLM PLSS), next to WGNHS's 'Brunschweiler Creek placer sec 22'. The 1880 paper says R. 3 W; WGNHS and the river's course say R. 4 W. The R3W sections 15/23 would be about 9 km east (46.371,-90.716), so a plat check is still wanted."
+   },
+   "moved": true
+  },
+  "au-mn-tenstrike-railcut-1901": {
+   "set": {
+    "src": [
+     [
+      "Chronicling America, Kanabec County Times, Mar 15, 1901, p. 7",
+      "https://www.loc.gov/resource/sn91059411/1901-03-15/ed-1/?sp=7"
+     ],
+     [
+      "Minneapolis Journal, Mar 1, 1901, p. 12 (same); Bemidji Pioneer, Aug 1, 1901, p. 5",
+      ""
+     ]
+    ]
+   },
+   "moved": false
+  },
+  "au-ia-klondike-placer": {
+   "set": {
+    "st": "EM-16: 'Along the Big Sioux River at Klondike in Lyon County, a small placer mining operation recovered gold from river gravels in the early 1900s - Iowa's only known commercial gold mining venture.' The bulletin gives no closer spot. Pin: Klondike locality on the Big Sioux near Larchwood (mindat locality, via web search). Exact working not placed.",
+    "t": "Big Sioux gravel bars at low water; the Klondike Bridge site (180th St) is the public access point. The 1900s working is not placed; an early-1900s Lyon County plat or the county history may name the operator. Access: Iowa Code 461A.35: no removing sand, gravel, earth or stone from state parks, preserves, meandered streams or other DNR commission lands except on commission terms; metal detectors limited by 571 IAC 64. Private banks and fields need the owner's OK.",
+    "src": [
+     [
+      "Iowa Geological Survey EM-16 'Gold in Iowa' (R. R. Anderson, 1999), read on Neb's PC 2026-10-31: https://www.iihr.uiowa.edu/igs/publications/uploads/EM-16.pdf; mindat Klondike, Lyon Co.",
+      "https://www.mindat.org/locdetailed-255792.html"
+     ]
+    ]
+   },
+   "moved": false
+  },
+  "au-ia-eldora-1853-rush": {
+   "set": {
+    "st": "EM-16: in 1853 Eldora innkeeper John Ellsworth reported gold on his farm on the Iowa River, and as many as 3,000 would-be miners came; all left disappointed. The 1911 county history also records gold excitements in Hardin County in 1857 and 1876. Pin: Iowa River between Eldora and Steamboat Rock; John Ellsworth's farm not placed.",
+    "t": "Iowa River gravel bars between Eldora and Steamboat Rock. Pine Lake State Park is nearby: no collecting inside it. Find Ellsworth on an early Hardin County plat. Access: Iowa Code 461A.35: no removing sand, gravel, earth or stone from state parks, preserves, meandered streams or other DNR commission lands except on commission terms; metal detectors limited by 571 IAC 64. Private banks and fields need the owner's OK.",
+    "src": [
+     [
+      "Iowa Geological Survey EM-16 'Gold in Iowa' (R. R. Anderson, 1999), read on Neb's PC 2026-10-31:  NPS Hardin County travel itinerary: https://www.nps.gov/nr/travel/hardin/settle.htm (blocked here, not read",
+      "https://www.iihr.uiowa.edu/igs/publications/uploads/EM-16.pdf;"
+     ]
+    ]
+   },
+   "moved": false
+  },
+  "au-ia-steamboat-rock-sec22": {
+   "set": {
+    "n": "Gold in the east bank of the Iowa River, NW¼ sec. 22 T88N R19W, north of Steamboat Rock (1858-59)",
+    "la": 42.4232,
+    "lo": -93.0566,
+    "pl": "NW¼ sec. 22 T88N R19W (BLM PLSS; Steamboat Rock town is in sec. 28 of the same township). East bank of the river within that quarter.",
+    "st": "1911 Hardin County history (Clay Township): gold 'also found in small amounts on the northwest quarter of section 22, in 1858-59, in the east bank of the river, north from Steamboat Rock.' EM-16 also names the Iowa River near Steamboat Rock. Pin: NW¼ sec. 22 T88N R19W (BLM PLSS; Steamboat Rock town is in sec. 28 of the same township). East bank of the river within that quarter.",
+    "t": "Work the east-bank gravel inside the NW¼ of sec. 22. Private land, so ask first. Access: Iowa Code 461A.35: no removing sand, gravel, earth or stone from state parks, preserves, meandered streams or other DNR commission lands except on commission terms; metal detectors limited by 571 IAC 64. Private banks and fields need the owner's OK.",
+    "src": [
+     [
+      "1911 History of Hardin County, Clay Township page on IAGenWeb (https://mail.iagenweb.org/hardin/township/clay.htm, read on Neb's PC 2026-10-31); Iowa Geological Survey EM-16 'Gold in Iowa' (R. R. Anderson, 1999), read on Neb's PC 2026-10-31",
+      "https://www.iihr.uiowa.edu/igs/publications/uploads/EM-16.pdf"
+     ]
+    ],
+    "acm": [
+     600,
+     "report"
+    ],
+    "pinev": "NW¼ sec. 22 T88N R19W (BLM PLSS; Steamboat Rock town is in sec. 28 of the same township). East bank of the river within that quarter."
+   },
+   "moved": true
+  },
+  "au-ia-marshall-1858-rock-deans-creek": {
+   "set": {
+    "t": "Find Rock Creek and Dean's Creek on an 1870s Marshall County atlas, then pan where they cut glacial till. Also see the 1877 Iowa River nugget report below Marshalltown. Access: Iowa Code 461A.35: no removing sand, gravel, earth or stone from state parks, preserves, meandered streams or other DNR commission lands except on commission terms; metal detectors limited by 571 IAC 64. Private banks and fields need the owner's OK."
+   },
+   "moved": false
+  },
+  "au-ia-marshalltown-iowa-river-1877": {
+   "set": {
+    "t": "Iowa River bars downstream of town. Treat 'solid nuggets' as doubtful until a second paper turns up. Access: Iowa Code 461A.35: no removing sand, gravel, earth or stone from state parks, preserves, meandered streams or other DNR commission lands except on commission terms; metal detectors limited by 571 IAC 64. Private banks and fields need the owner's OK."
+   },
+   "moved": false
+  },
+  "au-ia-iowa-falls-1870": {
+   "set": {
+    "t": "Iowa River gorge through limestone at Iowa Falls: pan the crevices and bars below the dam. Access: Iowa Code 461A.35: no removing sand, gravel, earth or stone from state parks, preserves, meandered streams or other DNR commission lands except on commission terms; metal detectors limited by 571 IAC 64. Private banks and fields need the owner's OK."
+   },
+   "moved": false
+  },
+  "au-ia-otter-creek-west-union": {
+   "set": {
+    "st": "Fayette County had a gold excitement in June 1877. EM-16 cites T. E. Savage's 1904 Iowa Geological Survey report: a patient washer could pan $1.00 to $1.50 a day from Otter Creek near West Union (gold was then $20.67 an ounce). Pin: Otter Creek near West Union (EM-16 wording); reach not placed.",
+    "t": "Two independent sources: the 1877 newspaper and the 1904 state survey report (via EM-16), so B. Work the creek where it cuts glacial drift; private land, ask first. Access: Iowa Code 461A.35: no removing sand, gravel, earth or stone from state parks, preserves, meandered streams or other DNR commission lands except on commission terms; metal detectors limited by 571 IAC 64. Private banks and fields need the owner's OK.",
+    "c": "documented",
+    "pinconf": "B"
+   },
+   "moved": false
+  },
+  "au-ia-volga-brush-creek": {
+   "set": {
+    "t": "Volga River State Recreation Area is state land: check rules before panning there. Access: Iowa Code 461A.35: no removing sand, gravel, earth or stone from state parks, preserves, meandered streams or other DNR commission lands except on commission terms; metal detectors limited by 571 IAC 64. Private banks and fields need the owner's OK.",
+    "src": [
+     [
+      "Iowa Geological Survey EM-16 'Gold in Iowa' (R. R. Anderson, 1999), read on Neb's PC 2026-10-31",
+      "https://www.iihr.uiowa.edu/igs/publications/uploads/EM-16.pdf"
+     ]
+    ]
+   },
+   "moved": false
+  },
+  "au-ia-garner-leeby-1911": {
+   "set": {
+    "t": "Find Leeby on a 1910s Hancock County plat. Glacial outwash country; expect flour gold at best. Access: Iowa Code 461A.35: no removing sand, gravel, earth or stone from state parks, preserves, meandered streams or other DNR commission lands except on commission terms; metal detectors limited by 571 IAC 64. Private banks and fields need the owner's OK.",
+    "src": [
+     [
+      "Chronicling America, Denison Review, July 26, 1911, p. 7",
+      "https://www.loc.gov/resource/sn84038095/1911-07-26/ed-1/?sp=7"
+     ],
+     [
+      "Oskaloosa Herald, June 22, 1911, p. 1; Decorah Public Opinion, June 28, 1911, p. 6 (same story)",
+      ""
+     ]
+    ]
+   },
+   "moved": false
+  },
+  "au-ia-armstrong-well-nugget-1903": {
+   "set": {
+    "t": "Deep-drift nugget: nothing to dig for, but it shows gold in the till. Find Thomas on a 1900s plat. Access: Iowa Code 461A.35: no removing sand, gravel, earth or stone from state parks, preserves, meandered streams or other DNR commission lands except on commission terms; metal detectors limited by 571 IAC 64. Private banks and fields need the owner's OK."
+   },
+   "moved": false
+  },
+  "au-ia-mapleton-whiting-1896": {
+   "set": {
+    "t": "Maple River valley. Find Whiting on a Monona County plat. Access: Iowa Code 461A.35: no removing sand, gravel, earth or stone from state parks, preserves, meandered streams or other DNR commission lands except on commission terms; metal detectors limited by 571 IAC 64. Private banks and fields need the owner's OK."
+   },
+   "moved": false
+  },
+  "au-ia-little-sioux-cherokee": {
+   "set": {
+    "t": "Gravel bars at low water; private banks. Access: Iowa Code 461A.35: no removing sand, gravel, earth or stone from state parks, preserves, meandered streams or other DNR commission lands except on commission terms; metal detectors limited by 571 IAC 64. Private banks and fields need the owner's OK.",
+    "src": [
+     [
+      "Iowa Geological Survey EM-16 'Gold in Iowa' (R. R. Anderson, 1999), read on Neb's PC 2026-10-31",
+      "https://www.iihr.uiowa.edu/igs/publications/uploads/EM-16.pdf"
+     ]
+    ]
+   },
+   "moved": false
+  },
+  "au-il-elgin-hammond-pit-1895": {
+   "set": {
+    "t": "Fox River outwash. Find the Hammond pit on an 1890s Kane County plat; most old pits near Elgin are built over now. Access: Illinois 17 Ill. Adm. Code 110.70: no removing natural property from IDNR land without consent, and no artifact collecting without a permit. Most Illinois streambeds are private, so ask the owner."
+   },
+   "moved": false
+  },
+  "au-il-waukegan-heiting-1895": {
+   "set": {
+    "t": "Low priority; likely a hoax or mistaken mineral. Access: Illinois 17 Ill. Adm. Code 110.70: no removing natural property from IDNR land without consent, and no artifact collecting without a permit. Most Illinois streambeds are private, so ask the owner."
+   },
+   "moved": false
+  },
+  "au-il-rockford-well-sand": {
+   "set": {
+    "t": "Rock River gravel bars are the only public place to try; expect flour gold at most. Access: Illinois 17 Ill. Adm. Code 110.70: no removing natural property from IDNR land without consent, and no artifact collecting without a permit. Most Illinois streambeds are private, so ask the owner."
+   },
+   "moved": false
+  },
+  "ls-davis-hill": {
+   "st": " The WGNHS gold list places a gold occurrence at Davis Hill, NW NW sec. 11 T44N R6W, north of Namekagon Lake. The atlas already uses 'Davis Hill conglomerate' as the source for the White River gold traps, but had no pin at the hill itself.",
+   "src": [
+    [
+     "WGNHS web page  and WOFR 1985-05 county list https://wgnhs.wisc.edu/pubshare/WOFR1985-05.pdf (read on Neb's PC 2026-10-31",
+     "https://home.wgnhs.wisc.edu/gold/"
+    ]
+   ]
+  },
+  "g-PG": {
+   "st": " WGNHS gold list: Chicago Mine 1879-81 in N½ sec. 22 T45N R4W; Northern Belle in W½ SW sec. 22; Brunschweiler Creek placer in sec. 22. See the new au-wi-brunsweiler-1880 pin next door.",
+   "src": [
+    [
+     "WGNHS web page  and WOFR 1985-05 county list https://wgnhs.wisc.edu/pubshare/WOFR1985-05.pdf (read on Neb's PC 2026-10-31",
+     "https://home.wgnhs.wisc.edu/gold/"
+    ]
+   ]
+  },
+  "t-big-falls-shaft-1896": {
+   "st": " WGNHS: a shaft or test pit in the centre of the Eau Claire River at Big Falls, about 1930, SW sec. 13 T27N R8W.",
+   "src": [
+    [
+     "WGNHS web page  and WOFR 1985-05 county list https://wgnhs.wisc.edu/pubshare/WOFR1985-05.pdf (read on Neb's PC 2026-10-31",
+     "https://home.wgnhs.wisc.edu/gold/"
+    ]
+   ]
+  },
+  "t-pan-st-croix-dalles": {
+   "st": " WGNHS: residents panned at the Dalles (SW sec. 30 T34N R18W) when the logging dam was closed; a placer is recorded in the W½ of secs. 18, 19 and 30, T34N R18W.",
+   "src": [
+    [
+     "WGNHS web page  and WOFR 1985-05 county list https://wgnhs.wisc.edu/pubshare/WOFR1985-05.pdf (read on Neb's PC 2026-10-31",
+     "https://home.wgnhs.wisc.edu/gold/"
+    ]
+   ]
+  },
+  "gwl-old-silver-mine-porters-mills": {
+   "set": {
+    "c": "documented",
+    "pinconf": "B"
+   },
+   "st": " Second source: WGNHS (Eau Claire, 'poor documentation'): 'Silver Mine Hill--several adits reported in east and west side of hill near Chippewa River, now filled with water, gold and silver rumored ... in Mt. Simon sandstone.' With Gard this makes two independent sources.",
+   "src": [
+    [
+     "WGNHS web page  and WOFR 1985-05 county list https://wgnhs.wisc.edu/pubshare/WOFR1985-05.pdf (read on Neb's PC 2026-10-31",
+     "https://home.wgnhs.wisc.edu/gold/"
+    ]
+   ]
+  }
+ }
+}

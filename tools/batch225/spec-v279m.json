@@ -1,0 +1,20 @@
+{
+ "new": [],
+ "edit": {
+  "vs-2064895": {
+   "set": {
+    "acm": [
+     400,
+     "topo"
+    ]
+   },
+   "src": [
+    [
+     "Plat Book of Goodhue County, Minnesota (c.1921), University of Minnesota Borchert Map Library",
+     "https://umedia.lib.umn.edu/search?q=goodhue%20county%20plat%20book"
+    ]
+   ],
+   "st": " The c.1921 Goodhue plat book prints no Belle Creek label in the township. Its only place name is Ryan in sec. 14, and a school, a church and probably the town hall sit at the sec. 17/20 line on the diagonal road, about 1.5 km south. The 1968 USGS White Rock topo labels Belle Creek on the road in sec. 8 by Belle Creek, which matches this pin. Church ground is look-only."
+  }
+ }
+}

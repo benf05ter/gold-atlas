@@ -1,0 +1,598 @@
+{
+ "new": [
+  {
+   "id": "gwl-old-silver-mine-porters-mills",
+   "L": "treasure",
+   "n": "The Old Silver Mine: Bill Pond's 1870s shaft across from Porter's Mills",
+   "la": 44.7776,
+   "lo": -91.5775,
+   "y": "1870s; later a picnic grove",
+   "pl": "Base of the sandstone ridge on the west bank of the Chippewa, along Silver Mine Drive, across the river from Porter's Mills",
+   "co": "Eau Claire",
+   "stt": "WI",
+   "v": "Coins and picnic losses from the grove years; the pit itself",
+   "c": "lead",
+   "s": "unknown",
+   "p": "approx",
+   "st": "In the 1870s a clairvoyant's spirit guide 'Big Heart' pointed to a spot 'four miles south of the city', and logging contractor Bill Pond 'dug a shaft or pit down through the soil and into the sandstone rock'. Gard: 'This place, still known as the Old Silver Mine, is located at the base of a sandstone ridge across the Chippewa River from the once thriving lumbering settlement of Porters Mills.' It was later a favorite Eau Claire picnic ground in an oak grove. The 1972 USGS Eau Claire West topo names the road at the foot of that ridge Silver Mine Drive (sec. 34 T27N R10W), which fixes the stretch; the pin is on the drive opposite Porter's Mills. The 2020 LiDAR shows a small square-cut notch in the slope about 50 m north of the pin, a candidate for the old pit; good to about 400 m along the drive.",
+   "t": "No silver here: the coins to look for are from the picnic-grove years, in the oak grove along the ridge foot. Check the notch 50 m north of the pin first. Private land along the drive: ask.",
+   "src": [
+    [
+     "Gard, Wisconsin Lore (1962), ch. 8 Buried Treasure Tales (PC on-screen read of borrowed copy)",
+     ""
+    ],
+    [
+     "USGS Eau Claire West 1:24,000 topo (1972): Silver Mine Drive",
+     ""
+    ]
+   ],
+   "acm": [
+    400,
+    "area"
+   ],
+   "pinconf": "approx",
+   "pinev": "Base of the sandstone ridge on the west bank of the Chippewa, along Silver Mine Drive, across the river from Porter's Mills"
+  },
+  {
+   "id": "gwl-tompkins-farm-coins",
+   "L": "treasure",
+   "n": "Tompkins farm coins in postholes, Hwy 51 about 4 mi south of Portage",
+   "la": 43.481,
+   "lo": -89.455,
+   "y": "Told by 1962",
+   "pl": "Old US 51 about 4 miles south of Portage; farm not placed",
+   "co": "Columbia",
+   "stt": "WI",
+   "v": "Coins and caches (legend)",
+   "c": "lead",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Coins said hidden in tin cans in the postholes of the Tompkins farm, about 4 miles south of Portage on Highway 51. Pin is the 4-mile mark on 51; the farm has to be found on a 1890s-1910s Columbia County plat. (Gard 1962).",
+   "t": "Legend from a folklore book: treat it as a story until a record backs it. Private land: ask, and fill every hole.",
+   "src": [
+    [
+     "Gard, Wisconsin Lore (1962), ch. 8 Buried Treasure Tales (PC on-screen read of borrowed copy) pp 234-235",
+     ""
+    ]
+   ],
+   "acm": [
+    2000,
+    "area"
+   ],
+   "pinconf": "approx",
+   "pinev": "Old US 51 about 4 miles south of Portage; farm not placed"
+  },
+  {
+   "id": "gwl-lone-rock-pay-chest",
+   "L": "treasure",
+   "n": "Lone Rock lost pay chest: pits on the river bluff",
+   "la": 43.212,
+   "lo": -90.19,
+   "y": "Told by 1962",
+   "pl": "River bluffs north of Lone Rock; no closer spot given",
+   "co": "Richland",
+   "stt": "WI",
+   "v": "Coins and caches (legend)",
+   "c": "lead",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Pits were dug on the bluff on the east bank of the Wisconsin near Lone Rock for a lost pay chest. No closer spot is given, so the pin is the river bluffs north of the village. (Gard 1962).",
+   "t": "Legend from a folklore book: treat it as a story until a record backs it. Private land: ask, and fill every hole.",
+   "src": [
+    [
+     "Gard, Wisconsin Lore (1962), ch. 8 Buried Treasure Tales (PC on-screen read of borrowed copy) p 238",
+     ""
+    ]
+   ],
+   "acm": [
+    4000,
+    "area"
+   ],
+   "pinconf": "approx",
+   "pinev": "River bluffs north of Lone Rock; no closer spot given"
+  },
+  {
+   "id": "gwl-mendota-ice-chest",
+   "L": "treasure",
+   "n": "Lake Mendota chest through the ice (legend)",
+   "la": 43.105,
+   "lo": -89.42,
+   "y": "Told by 1962",
+   "pl": "Lake Mendota, Madison; no closer spot given",
+   "co": "Dane",
+   "stt": "WI",
+   "v": "Coins and caches (legend)",
+   "c": "lead",
+   "s": "unknown",
+   "p": "approx",
+   "st": "A chest is said to have gone through the ice of Lake Mendota. No spot is given. Lakebed: not a detecting site. (Gard 1962).",
+   "t": "Legend from a folklore book: treat it as a story until a record backs it. Private land: ask, and fill every hole.",
+   "src": [
+    [
+     "Gard, Wisconsin Lore (1962), ch. 8 Buried Treasure Tales (PC on-screen read of borrowed copy) pp 238-239",
+     ""
+    ]
+   ],
+   "acm": [
+    5000,
+    "area"
+   ],
+   "pinconf": "approx",
+   "pinev": "Lake Mendota, Madison; no closer spot given"
+  },
+  {
+   "id": "gwl-poygan-ice-chest",
+   "L": "treasure",
+   "n": "Lake Poygan chest through the ice (legend)",
+   "la": 44.155,
+   "lo": -88.86,
+   "y": "Told by 1962",
+   "pl": "Lake Poygan; no closer spot given",
+   "co": "Winnebago",
+   "stt": "WI",
+   "v": "Coins and caches (legend)",
+   "c": "lead",
+   "s": "unknown",
+   "p": "approx",
+   "st": "A chest is said to have been lost through the ice of Lake Poygan. The Menominee annuity payment grounds were on this lake (see the Poygan paygrounds pin); the tale may tie to the payments. Lakebed: not a detecting site. (Gard 1962).",
+   "t": "Legend from a folklore book: treat it as a story until a record backs it. Private land: ask, and fill every hole.",
+   "src": [
+    [
+     "Gard, Wisconsin Lore (1962), ch. 8 Buried Treasure Tales (PC on-screen read of borrowed copy) pp 238-239",
+     ""
+    ]
+   ],
+   "acm": [
+    6000,
+    "area"
+   ],
+   "pinconf": "approx",
+   "pinev": "Lake Poygan; no closer spot given"
+  },
+  {
+   "id": "gwl-table-mound",
+   "L": "treasure",
+   "n": "Table Mound treasure tale, between Black Earth and Cross Plains",
+   "la": 43.125,
+   "lo": -89.7,
+   "y": "Told by 1962",
+   "pl": "Between Black Earth and Cross Plains; the mound is not yet placed",
+   "co": "Dane",
+   "stt": "WI",
+   "v": "Coins and caches (legend)",
+   "c": "lead",
+   "s": "unknown",
+   "p": "approx",
+   "st": "A buried-treasure tale is told of Table Mound between Black Earth and Cross Plains. The pin is between the two villages until the mound is found on a topo. (Gard 1962).",
+   "t": "Legend from a folklore book: treat it as a story until a record backs it. Private land: ask, and fill every hole.",
+   "src": [
+    [
+     "Gard, Wisconsin Lore (1962), ch. 8 Buried Treasure Tales (PC on-screen read of borrowed copy) p 240",
+     ""
+    ]
+   ],
+   "acm": [
+    3000,
+    "area"
+   ],
+   "pinconf": "approx",
+   "pinev": "Between Black Earth and Cross Plains; the mound is not yet placed"
+  },
+  {
+   "id": "gwl-trewitt-lost-lead-mine",
+   "L": "treasure",
+   "n": "Trewitt's lost lead mine near Platteville",
+   "la": 42.734,
+   "lo": -90.478,
+   "y": "Told by 1962",
+   "pl": "Near Platteville; no closer spot given",
+   "co": "Grant",
+   "stt": "WI",
+   "v": "Coins and caches (legend)",
+   "c": "lead",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Trewitt's lost lead mine is said to lie near Platteville. No closer spot is given. (Gard 1962).",
+   "t": "Legend from a folklore book: treat it as a story until a record backs it. Private land: ask, and fill every hole.",
+   "src": [
+    [
+     "Gard, Wisconsin Lore (1962), ch. 8 Buried Treasure Tales (PC on-screen read of borrowed copy) p 241",
+     ""
+    ]
+   ],
+   "acm": [
+    6000,
+    "area"
+   ],
+   "pinconf": "approx",
+   "pinev": "Near Platteville; no closer spot given"
+  },
+  {
+   "id": "gwl-clarno-pot-of-gold",
+   "L": "treasure",
+   "n": "Clarno pot of gold in a dry well",
+   "la": 42.556,
+   "lo": -89.627,
+   "y": "Told by 1962",
+   "pl": "Town of Clarno; no closer spot given",
+   "co": "Green",
+   "stt": "WI",
+   "v": "Coins and caches (legend)",
+   "c": "lead",
+   "s": "unknown",
+   "p": "approx",
+   "st": "A pot of gold is said to lie in a dry well in Clarno township, Green County. No farm is named. (Gard 1962).",
+   "t": "Legend from a folklore book: treat it as a story until a record backs it. Private land: ask, and fill every hole.",
+   "src": [
+    [
+     "Gard, Wisconsin Lore (1962), ch. 8 Buried Treasure Tales (PC on-screen read of borrowed copy) pp 242-243",
+     ""
+    ]
+   ],
+   "acm": [
+    4000,
+    "area"
+   ],
+   "pinconf": "approx",
+   "pinev": "Town of Clarno; no closer spot given"
+  },
+  {
+   "id": "gwl-nashotah-boot-treasure",
+   "L": "treasure",
+   "n": "Boot treasure about 5 miles northeast of Nashotah",
+   "la": 43.149,
+   "lo": -88.33,
+   "y": "Told by 1962",
+   "pl": "About 5 miles NE of Nashotah; no closer spot given",
+   "co": "Waukesha",
+   "stt": "WI",
+   "v": "Coins and caches (legend)",
+   "c": "lead",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Money in a boot is said to be buried about 5 miles northeast of Nashotah. (Gard 1962).",
+   "t": "Legend from a folklore book: treat it as a story until a record backs it. Private land: ask, and fill every hole.",
+   "src": [
+    [
+     "Gard, Wisconsin Lore (1962), ch. 8 Buried Treasure Tales (PC on-screen read of borrowed copy) p 244",
+     ""
+    ]
+   ],
+   "acm": [
+    3000,
+    "area"
+   ],
+   "pinconf": "approx",
+   "pinev": "About 5 miles NE of Nashotah; no closer spot given"
+  },
+  {
+   "id": "gwl-finch-caches",
+   "L": "treasure",
+   "n": "Finch caches: Lake Mills, Fort Atkinson and NW Lake Koshkonong",
+   "la": 42.905,
+   "lo": -88.97,
+   "y": "Told by 1962",
+   "pl": "NW shore of Lake Koshkonong (one of three spots named)",
+   "co": "Jefferson",
+   "stt": "WI",
+   "v": "Coins and caches (legend)",
+   "c": "lead",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Caches are credited to Finch at Lake Mills, Fort Atkinson and the northwest shore of Lake Koshkonong, and a jar was found in 1882. The pin is the Koshkonong spot; the other two are named only by town. (Gard 1962).",
+   "t": "Legend from a folklore book: treat it as a story until a record backs it. Private land: ask, and fill every hole.",
+   "src": [
+    [
+     "Gard, Wisconsin Lore (1962), ch. 8 Buried Treasure Tales (PC on-screen read of borrowed copy) p 244",
+     ""
+    ]
+   ],
+   "acm": [
+    4000,
+    "area"
+   ],
+   "pinconf": "approx",
+   "pinev": "NW shore of Lake Koshkonong (one of three spots named)"
+  },
+  {
+   "id": "gwl-wyalusing-treasure-cave",
+   "L": "treasure",
+   "n": "Treasure Cave, Wyalusing State Park",
+   "la": 42.977,
+   "lo": -91.118,
+   "y": "Told by 1962",
+   "pl": "Wyalusing State Park; the cave is on the park trail system",
+   "co": "Grant",
+   "stt": "WI",
+   "v": "Coins and caches (legend)",
+   "c": "lead",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Gard tells a treasure tale of Treasure Cave in Wyalusing State Park.",
+   "t": "State park: look only. Detecting is not allowed here.",
+   "src": [
+    [
+     "Gard, Wisconsin Lore (1962), ch. 8 Buried Treasure Tales (PC on-screen read of borrowed copy) p 239",
+     ""
+    ]
+   ],
+   "acm": [
+    1000,
+    "area"
+   ],
+   "pinconf": "approx",
+   "pinev": "Wyalusing State Park; the cave is on the park trail system",
+   "warn": "Wisconsin state park: look only, no detecting or digging."
+  },
+  {
+   "id": "hnw-stevenson-creek-chimney",
+   "L": "camp",
+   "n": "Stevenson Creek chimney and lumber camp, Trout Lake (about 1905-1911)",
+   "la": 46.0625,
+   "lo": -89.6478,
+   "y": "About 1905-1911",
+   "pl": "Mouth of Stevenson Creek on Trout Lake (NHDPlus), by Hwy M",
+   "co": "Vilas",
+   "stt": "WI",
+   "v": "Coins, camp iron, buttons, bottles",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "A big three-story stone chimney stands on the north shore of Stevenson Creek where it feeds Trout Lake: Arthur L. Stevenson's home, about 1905-1911. Across the creek was a lumber camp with a sawmill and a railroad spur: 'the big lumber mill across the creek lay where the North Trout Lake nature trail is today just west of Highway M'. Barracks were in use in 1910, and a rotted bunkhouse was still seen in 1936 (Hollatz 2000). Pin: the creek mouth as NHDPlus draws it.",
+   "t": "State forest land (Northern Highland-American Legion): the chimney is a ruin to look at; ask the DNR before detecting the camp side.",
+   "src": [
+    [
+     "Hollatz, The Haunted Northwoods (2000) (PC on-screen read of borrowed copy) pp 118-127",
+     ""
+    ]
+   ],
+   "acm": [
+    300,
+    "area"
+   ],
+   "pinconf": "approx",
+   "pinev": "Mouth of Stevenson Creek on Trout Lake (NHDPlus), by Hwy M",
+   "warn": "State forest land: the chimney ruin is look only; ask the DNR before detecting."
+  },
+  {
+   "id": "hnw-white-sand-lake-ccc",
+   "L": "camp",
+   "n": "White Sand Lake CCC camp (1930s)",
+   "la": 46.088,
+   "lo": -89.6,
+   "y": "1930s",
+   "pl": "White Sand Lake, NE of Stevenson Creek; camp site not yet placed on the lake",
+   "co": "Vilas",
+   "stt": "WI",
+   "v": "Coins, CCC insignia, buttons, mess-kit parts",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "A CCC camp stood at White Sand Lake, northeast of the Stevenson farm (1934 photo, Hollatz 2000). The camp number and exact site are not yet known, so the pin is the lake.",
+   "t": "State forest land: CCC camp sites are historic; look, and ask the DNR before detecting.",
+   "src": [
+    [
+     "Hollatz, The Haunted Northwoods (2000) (PC on-screen read of borrowed copy) pp 118-127",
+     ""
+    ]
+   ],
+   "acm": [
+    1500,
+    "area"
+   ],
+   "pinconf": "approx",
+   "pinev": "White Sand Lake, NE of Stevenson Creek; camp site not yet placed on the lake"
+  },
+  {
+   "id": "wmn-shawano-house-pequot",
+   "L": "gather",
+   "n": "Shawano House bootlegger lodge, Pequot Lakes",
+   "la": 46.6035,
+   "lo": -94.3165,
+   "y": "Prohibition era",
+   "pl": "Point on Sibley Lake at West Lake St and Pequot Blvd, just west of downtown",
+   "co": "Crow Wing",
+   "stt": "MN",
+   "v": "Coins, bottles, tokens",
+   "c": "lead",
+   "s": "unknown",
+   "p": "approx",
+   "st": "A Prohibition-era lodge used by Chicago bootleggers, just west of downtown Pequot Lakes on a point on Lake Sibley at West Lake St and Pequot Blvd (Dregni, Weird Minnesota 2006).",
+   "t": "Private land; the lake shallows off the point are worth a look from a boat.",
+   "src": [
+    [
+     "Dregni, Weird Minnesota (2006) (PC on-screen read of borrowed copy) p 206",
+     ""
+    ]
+   ],
+   "acm": [
+    300,
+    "area"
+   ],
+   "pinconf": "approx",
+   "pinev": "Point on Sibley Lake at West Lake St and Pequot Blvd, just west of downtown"
+  },
+  {
+   "id": "news-poskin-lake-pavilion",
+   "L": "gather",
+   "n": "Poskin Lake dance pavilion (1926)",
+   "la": 45.4228,
+   "lo": -91.977,
+   "y": "1926",
+   "pl": "South shore of Poskin Lake by the old Poskin P.O.; pavilion not yet placed",
+   "co": "Barron",
+   "stt": "WI",
+   "v": "Coins, jewelry, tokens",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Poskin Lake dance pavilion, Barron Co.: on a touring band's 1926 list of NW Wisconsin dance pavilions (with Amery, St. Croix Falls, Glidden, Solon Springs, Shell Lake Legion and Rice Lake). Pin: South shore of Poskin Lake by the old Poskin P.O.; pavilion not yet placed.",
+   "t": "Dance pavilion grounds shed coins and jewelry. Find the building on the 1938 aerial first. Private land: ask.",
+   "src": [
+    [
+     "Washburn County Register 12 Jun 1926 p 1 (newspapers.com image 1356165268, PC read)",
+     ""
+    ]
+   ],
+   "acm": [
+    800,
+    "area"
+   ],
+   "pinconf": "approx",
+   "pinev": "South shore of Poskin Lake by the old Poskin P.O.; pavilion not yet placed"
+  },
+  {
+   "id": "news-solon-springs-pavilion",
+   "L": "gather",
+   "n": "Solon Springs dance pavilion (1926)",
+   "la": 46.352,
+   "lo": -91.817,
+   "y": "1926",
+   "pl": "Solon Springs lakefront on Upper St. Croix Lake; pavilion not yet placed",
+   "co": "Douglas",
+   "stt": "WI",
+   "v": "Coins, jewelry, tokens",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Solon Springs dance pavilion, Douglas Co., on the same 1926 touring-band list. Pin: Solon Springs lakefront on Upper St. Croix Lake; pavilion not yet placed.",
+   "t": "Dance pavilion grounds shed coins and jewelry. Find the building on the 1938 aerial first. Private land: ask.",
+   "src": [
+    [
+     "Washburn County Register 12 Jun 1926 p 1 (newspapers.com image 1356165268, PC read)",
+     ""
+    ]
+   ],
+   "acm": [
+    800,
+    "area"
+   ],
+   "pinconf": "approx",
+   "pinev": "Solon Springs lakefront on Upper St. Croix Lake; pavilion not yet placed"
+  },
+  {
+   "id": "cd-eau-claire-schutzen-park",
+   "L": "gather",
+   "n": "Schutzen Park: German shooting-club park and dance hall (about 1885-1899)",
+   "la": 44.8121,
+   "lo": -91.4855,
+   "y": "c.1885-1899",
+   "pl": "20 acres about 1.5 blocks from the Second Ward school (Main St east of McGraw St, 1897 Sanborn sheet 10), Eau Claire",
+   "co": "Eau Claire",
+   "stt": "WI",
+   "v": "Coins, tokens, lead bullets and shot, beer-garden finds",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Schutzen Park was the German sharpshooters' park, with a shooting range and a dance hall. The Germania Singing Society held galas there, and it hosted Fourth of July crowds (Eau Claire Leader, 5 Jul 1896, p. 5; about 254 Leader hits 1885-1899). In November 1899 it was offered for sale as \"20 acres of city property one and a half blocks from the Second Ward school house, known as the Schutzen Park\" (Eau Claire Leader, 2 Nov 1899, p. 2). The 1897 Sanborn map shows the Second Ward No. 1 public school on Main Street, east of McGraw Street (sheet 10). The pin is on that school block (Main St just east of McGraw St, from today's parcel addresses); the 20-acre park lay within about 1.5 blocks, so it is good to about 400 m until the tract is found on the 1897 Sanborn edges or the 1902 county map.",
+   "t": "Shooting parks leave lead shot and bullets behind the targets and coins around the dance hall and tables. Twenty open acres in 1899 should show as an unbuilt tract on the 1897 Sanborn edges or the 1902 county map. Most of it is likely house lots now, so look for park or school lawns that survive.",
+   "src": [
+    [
+     "Eau Claire Leader, 2 Nov 1899, p. 2 (newspapers.com image 239428945)",
+     ""
+    ],
+    [
+     "Eau Claire Leader, 5 Jul 1896, p. 5 (newspapers.com image 239414122)",
+     ""
+    ],
+    [
+     "Sanborn map of Eau Claire, 1897, sheet 10 (2nd Ward No. 1 Public School)",
+     "https://www.loc.gov/item/sanborn09538_004/"
+    ]
+   ],
+   "pinconf": "approx",
+   "pinev": "Block east of McGraw St on Main St (the 1897 Second Ward school), Eau Claire",
+   "acm": [
+    400,
+    "area"
+   ]
+  }
+ ],
+ "edit": {
+  "t-hurlburt-rush-river": {
+   "st": " Gard (1962) tells it as hermit Hulbert of St. Croix County: his money 'hid in the woods'; he had 40 acres and a log cabin and hauled water about a mile with oxen. No town named. Gard's county differs from this pin's (Pierce, Rush River): check the plats on both sides of the county line.",
+   "src": [
+    [
+     "Gard, Wisconsin Lore (1962), ch. 8 Buried Treasure Tales (PC on-screen read of borrowed copy) p 243",
+     ""
+    ]
+   ]
+  },
+  "wpa-coon-rock-cave": {
+   "st": " Gard (1962): Coon Rock Cave is 4.5 mi W of Arena on the Hodgson farm.",
+   "src": [
+    [
+     "Gard, Wisconsin Lore (1962), ch. 8 Buried Treasure Tales (PC on-screen read of borrowed copy) p 243",
+     ""
+    ]
+   ]
+  },
+  "wd3-bogus-bluff": {
+   "st": " Gard (1962) tells the Bogus Bluff cave tale (Gotham-Muscoda); nothing new on location.",
+   "src": [
+    [
+     "Gard, Wisconsin Lore (1962), ch. 8 Buried Treasure Tales (PC on-screen read of borrowed copy) p 233",
+     ""
+    ]
+   ]
+  },
+  "pj01-silver-mound-small-hill-sec-21-t21n-r3w": {
+   "st": " Gard (1962): the LeSueur legend; tools said cached at the Mound and later found; digs in 1856, 1872, 1873 and 1895.",
+   "src": [
+    [
+     "Gard, Wisconsin Lore (1962), ch. 8 Buried Treasure Tales (PC on-screen read of borrowed copy) pp 236-237",
+     ""
+    ]
+   ]
+  },
+  "t-dillinger-little-bohemia": {
+   "st": " Hollatz (2000) repeats the Little Bohemia story; no buried-loot claim in the book.",
+   "src": [
+    [
+     "Hollatz, The Haunted Northwoods (2000) (PC on-screen read of borrowed copy) pp 102-103",
+     ""
+    ]
+   ]
+  },
+  "hist-11": {
+   "st": " 1926: Glidden's pavilion (Marion Park) was on a touring dance band's circuit of NW Wisconsin pavilions (Washburn County Register 12 Jun 1926).",
+   "src": [
+    [
+     "Washburn County Register 12 Jun 1926 p 1 (newspapers.com image 1356165268, PC read)",
+     ""
+    ]
+   ]
+  },
+  "vf-summerwind": {
+   "st": " The Carver Grant deed: Weird Minnesota (p 51) tells it as a Wabasha lost land deed; Haunted Northwoods (p 8) puts the deed in a box in Summerwind's foundation, which is why treasure-seekers tore out the basement walls.",
+   "src": [
+    [
+     "Dregni, Weird Minnesota (2006) (PC on-screen read of borrowed copy) p 51",
+     ""
+    ],
+    [
+     "Hollatz, Haunted Northwoods (2000) p 8",
+     ""
+    ]
+   ]
+  },
+  "fb-meridean-ferry": {
+   "st": " Weird Wisconsin (2005) tells of a lumber town on an island in the Chippewa across from Caryville (almost certainly Meridean), with a church belfry, the Caryville Road bridge, an old cemetery (look only), a schoolhouse and the Meridean boat landing. Legend book; adds the landing and school as places to check.",
+   "src": [
+    [
+     "Godfrey & Hendricks, Weird Wisconsin (2005) (PC on-screen read of borrowed copy) p 217",
+     ""
+    ]
+   ]
+  },
+  "rr-kaiser": {
+   "st": " Weird Wisconsin (2005): a Kaiser Lumber Co. shanty near Winter, Sawyer Co., in Jan 1908 (ghost tale). Confirms a Kaiser company camp near Winter.",
+   "src": [
+    [
+     "Godfrey & Hendricks, Weird Wisconsin (2005) (PC on-screen read of borrowed copy) p 124",
+     ""
+    ]
+   ]
+  }
+ }
+}

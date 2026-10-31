@@ -1,0 +1,35 @@
+{
+ "new": [],
+ "edit": {
+  "vs-2051953": {
+   "set": {
+    "acm": [
+     300,
+     "topo"
+    ]
+   },
+   "src": [
+    [
+     "1914 Webb atlas of Winona County (University of Minnesota Borchert Map Library, UMedia)",
+     "https://umedia.lib.umn.edu/search?q=winona%20county%201914"
+    ]
+   ],
+   "st": " The 1914 Webb atlas (Saratoga township, T105N R10W) draws a small townsite of irregular blocks at a road junction in sec. 30, with school district 80 just south in sec. 31. The 1974 USGS Pilot Mound topo still labels Troy at the road junction on Trout Creek in sec. 30, where the pin sits."
+  },
+  "vs-2051944": {
+   "set": {
+    "acm": [
+     300,
+     "topo"
+    ]
+   },
+   "src": [
+    [
+     "1914 Webb atlas of Winona County (University of Minnesota Borchert Map Library, UMedia)",
+     "https://umedia.lib.umn.edu/search?q=winona%20county%201914"
+    ]
+   ],
+   "st": " The 1914 Webb atlas (Warren township) prints the name only, with no plat, in sec. 33 on the east-west road, with a house beside the road and a school to the west in sec. 32. The 1974 USGS Lewiston topo labels Wyattville at the same crossroads, where the pin sits. Almon was another crossroads name in the same township, around secs. 20 and 29."
+  }
+ }
+}

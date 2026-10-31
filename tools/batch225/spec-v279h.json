@@ -1,0 +1,123 @@
+{
+ "new": [],
+ "edit": {
+  "au-wi-rudolph-1894": {
+   "set": {
+    "n": "Rudolph gold-quartz prospect, about a mile east of the Rudolph post office (1884-1894)",
+    "la": 44.4925,
+    "lo": -89.7772,
+    "y": "c.1884; Apr-May 1894",
+    "pl": "N½ sec. 10 T23N R6E (BLM PLSS): one mile east of the Rudolph P.O., which the c.1893 Wood County plat shows in the NW¼ of sec. 9.",
+    "p": "plss",
+    "st": "Apr 1894: 'GOLD IN WOOD COUNTY. Rudolph Is Said to Be the Place.' Gold and silver were alleged on a farm about a mile east of the Rudolph post office, with a quartz vein said to lie 80 rods south of a neighbour's place. About 1884 the owner found the mineral, borrowed on the farm, and mined until the money ran out, leaving 'nothing but a few holes in the ground'; the farm went at sheriff's sale. In 1892 two Chicago men tried to buy the adjoining forty, and by 1894 Chicago parties were buying land and keeping quiet. The papers called it a gold excitement. No outcome is recorded: no later item says the Chicago men dug or got an assay. Pin: N½ sec. 10 T23N R6E (BLM PLSS): one mile east of the Rudolph P.O., which the c.1893 Wood County plat shows in the NW¼ of sec. 9.",
+    "t": "Look on LiDAR for the 1880s prospect holes in the N½ of sec. 10, and on the plat for the forty marked as a stone company. Expect pyrite rather than gold. Private farmland, so ask first. Access: Wisconsin: recreational panning with pans, screens, shovels, small manual sluices and metal detectors needs no DNR permit; no more than 2 cubic yards a year per waterway; no panning in State Parks, State Trails, State Recreation Areas, State Wild and Scenic Rivers, State Natural Areas or state-owned lakebeds (WI DNR Gold Panning page). Streambed to the center belongs to the riparian owner, and reaching the stream across private land needs the owner's OK.",
+    "src": [
+     [
+      "Marshfield News and Wisconsin Hub, Apr 26, 1894, p. 1 (newspapers.com image 266251495)",
+      ""
+     ],
+     [
+      "Grand Rapids/Centralia Daily Tribune, Apr 28, 1894, p. 1, 'Is It Gold?' (newspapers.com image 242807708)",
+      ""
+     ],
+     [
+      "Chronicling America, Grant County Herald, May 17, 1894, p. 7 (wire)",
+      "https://www.loc.gov/resource/sn85033133/1894-05-17/ed-1/?sp=7"
+     ],
+     [
+      "Wood County plat, c.1893, Rudolph page",
+      ""
+     ]
+    ],
+    "acm": [
+     500,
+     "plss"
+    ],
+    "c": "documented",
+    "pinconf": "B",
+    "pinev": "N½ sec. 10 T23N R6E (BLM PLSS): one mile east of the Rudolph P.O., which the c.1893 Wood County plat shows in the NW¼ of sec. 9."
+   },
+   "moved": true
+  },
+  "vs-2051987": {
+   "set": {
+    "la": 44.1505,
+    "lo": -92.0134,
+    "acm": [
+     250,
+     "plat"
+    ],
+    "pinev": "Townsite on the sec. 15/22 line (1914 Webb plat; 1972 USGS Beaver topo)."
+   },
+   "moved": true,
+   "src": [
+    [
+     "1914 Webb atlas of Winona County (University of Minnesota Borchert Map Library, UMedia)",
+     "https://umedia.lib.umn.edu/search?q=winona%20county%201914"
+    ]
+   ],
+   "st": " The 1914 Webb atlas shows the platted townsite, about 3 by 3 blocks, straddling the sec. 15/22 line on the Whitewater road (T108N R10W). A Methodist church stood just south of the plat in the north part of sec. 22, and school district 45 was also in sec. 22. The 1972 topo still labels Beaver at this spot, west of the Whitewater River bridge. Pin moved onto the townsite. Church and cemetery ground is look-only."
+  },
+  "vs-2051963": {
+   "set": {
+    "la": 43.8791,
+    "lo": -91.4751,
+    "acm": [
+     250,
+     "plat"
+    ],
+    "pinev": "Townsite in SW¼ sec. 19 T105N R5W (1914 Webb plat; 1973 USGS Pickwick topo)."
+   },
+   "moved": true,
+   "src": [
+    [
+     "1914 Webb atlas of Winona County (University of Minnesota Borchert Map Library, UMedia)",
+     "https://umedia.lib.umn.edu/search?q=winona%20county%201914"
+    ]
+   ],
+   "st": " The 1914 Webb atlas shows a platted townsite of about 4 by 5 blocks in the SW¼ of sec. 19 at the west township line (T105N R5W), with no church or school symbol. The 1973 topo labels New Hartford on the same spot on Pine Creek. Pin tightened onto the townsite."
+  },
+  "vs-2051946": {
+   "set": {
+    "acm": [
+     400,
+     "topo"
+    ]
+   },
+   "src": [
+    [
+     "1914 Webb atlas of Winona County (University of Minnesota Borchert Map Library, UMedia)",
+     "https://umedia.lib.umn.edu/search?q=winona%20county%201914"
+    ]
+   ],
+   "st": " The 1980 USGS Witoka topo puts the village on the T106N/T105N line, matching the 1867 atlas (sec. 35 T106N R7W). The 1914 Webb atlas (Wiscoy township, T105N R7W) agrees: WITOKA is printed at the north edge of sec. 1 where the Winona road crosses the township line, with a Congregational church in the NE corner of sec. 2 and a school in NW sec. 12. Witoka Cemetery is just north of the line in Wilson township. Church and cemetery ground is look-only."
+  },
+  "tw-ia-tipton-iwers-farm-1936": {
+   "set": {
+    "st": "Bachelor brothers John, Henry and William Iwers hid their money on their 880-acre farm. After Henry, the last of them, died on 30 May 1936, an iron box with $112,000 in gold coin, gold and silver certificates and securities was dug from the machine shed floor under an early-model automobile, partly gold coins wrapped in newspaper in a sack, after an earlier iron box with $88,000 in securities; more was hidden in the house. Over $212,000 was found in all against an estate put at $350,000, and in late July 1936 the court held the estate open for a search for $21,000 more. Guards were posted during the hunts. Pin is approximate, not the spot itself.",
+    "src": [
+     [
+      "Des Moines Tribune, 21 Oct 1936, p. 1 (non-wire; Newspapers.com, PC read)",
+      ""
+     ],
+     [
+      "AP, Cedar Rapids Gazette 5 Jul 1936 p25 (Newspapers.com, PC read)",
+      ""
+     ],
+     [
+      "AP, Evening Star 5, 6, 10 and 21 Jul 1936",
+      ""
+     ],
+     [
+      "UP, Washington Daily News 6-7 Jul 1936, Waterbury Democrat 6 Jul 1936 (LoC)",
+      ""
+     ],
+     [
+      "AP and UP are separate reports",
+      ""
+     ]
+    ]
+   }
+  }
+ }
+}

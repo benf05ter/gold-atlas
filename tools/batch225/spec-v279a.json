@@ -1,0 +1,826 @@
+{
+ "new": [
+  {
+   "id": "au-wi-lorain-eckerts-1905",
+   "L": "report",
+   "n": "Chas. Eckerts' gold nuggets, town of Lorain (1905)",
+   "la": 45.6939,
+   "lo": -92.2367,
+   "y": "Oct 1905",
+   "pl": "Town of Lorain (Wikipedia/GNIS centre); farm not placed. The paper says Barron County, but Lorain is in Polk County (T37N R15W).",
+   "co": "Polk",
+   "stt": "WI",
+   "v": "Gold (reported); quartz specimens",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "town",
+   "st": "Oct 1905: Chas. Eckerts claimed to have found gold nuggets on his farm in the town of Lorain, with 'pay dirt' said to be worth $2,000 a ton. Item reprinted from the Glenwood Tribune. Pin: Town of Lorain (Wikipedia/GNIS centre); farm not placed. The paper says Barron County, but Lorain is in Polk County (T37N R15W).",
+   "t": "Find Eckerts (or Eckert) on the 1914-15 Polk County plat for Lorain to place the farm; then look for creek gravel on it. Treat the $2,000 a ton as boom talk. Access: Wisconsin: recreational panning with pans, screens, shovels, small manual sluices and metal detectors needs no DNR permit; no more than 2 cubic yards a year per waterway; no panning in State Parks, State Trails, State Recreation Areas, State Wild and Scenic Rivers, State Natural Areas or state-owned lakebeds (WI DNR Gold Panning page). Streambed to the center belongs to the riparian owner, and reaching the stream across private land needs the owner's OK.",
+   "src": [
+    [
+     "Chronicling America, River Falls Journal, Oct 19, 1905, p. 5 (from Glenwood Tribune)",
+     "https://www.loc.gov/resource/sn85033255/1905-10-19/ed-1/?sp=5"
+    ]
+   ],
+   "acm": [
+    4000,
+    "town"
+   ],
+   "pinconf": "approx",
+   "pinev": "Town of Lorain (Wikipedia/GNIS centre); farm not placed. The paper says Barron County, but Lorain is in Polk County (T37N R15W)."
+  },
+  {
+   "id": "au-wi-rudolph-1894",
+   "L": "report",
+   "n": "Gold excitement in the town of Rudolph (1894)",
+   "la": 44.497,
+   "lo": -89.802,
+   "y": "May 1894",
+   "pl": "Village of Rudolph; the find is town-level only.",
+   "co": "Wood",
+   "stt": "WI",
+   "v": "Gold (reported); quartz specimens",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "town",
+   "st": "May 1894: 'Gold excitement in the town of Rudolph, Wood county, is at a high pitch.' A farmer said the metal was there, and Chicago parties were behind it. The same wire item ran in several papers (one source). Pin: Village of Rudolph; the find is town-level only.",
+   "t": "Rudolph sits on the old Wisconsin River terraces and glacial outwash. Look for a Rudolph gravel pit or creek named in the Wood County Reporter for May 1894 (PC read) to place it. Access: Wisconsin: recreational panning with pans, screens, shovels, small manual sluices and metal detectors needs no DNR permit; no more than 2 cubic yards a year per waterway; no panning in State Parks, State Trails, State Recreation Areas, State Wild and Scenic Rivers, State Natural Areas or state-owned lakebeds (WI DNR Gold Panning page). Streambed to the center belongs to the riparian owner, and reaching the stream across private land needs the owner's OK.",
+   "src": [
+    [
+     "Chronicling America, Grant County Herald, May 17, 1894, p. 7",
+     "https://www.loc.gov/resource/sn85033133/1894-05-17/ed-1/?sp=7"
+    ],
+    [
+     "River Falls Journal, May 10, 1894, p. 2 (same wire)",
+     ""
+    ]
+   ],
+   "acm": [
+    6000,
+    "town"
+   ],
+   "pinconf": "approx",
+   "pinev": "Village of Rudolph; the find is town-level only."
+  },
+  {
+   "id": "au-wi-genoa-monti-1900",
+   "L": "report",
+   "n": "Monti brothers' gold-copper quartz vein, bluffs near Genoa (1900)",
+   "la": 43.5767,
+   "lo": -91.2242,
+   "y": "Aug 1900",
+   "pl": "Village of Genoa; 'the general belief is that the vein exists in the bluffs near Genoa'.",
+   "co": "Vernon",
+   "stt": "WI",
+   "v": "Gold (reported); quartz specimens",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "town",
+   "st": "Aug 1900: Louis Monti and his brother, who had prospected around Genoa for years, showed quartz with gold and copper in La Crosse; an assay gave about $20 a ton. They took a life lease on the land and kept the spot secret. Several papers carried the La Crosse Press story (one source). Pin: Village of Genoa; 'the general belief is that the vein exists in the bluffs near Genoa'.",
+   "t": "Driftless bluffs: any gold here is a curiosity, not a placer. Worth a look only with the landowner's OK; look for an old adit or prospect pit in the bluffs above Genoa on LiDAR. Access: Wisconsin: recreational panning with pans, screens, shovels, small manual sluices and metal detectors needs no DNR permit; no more than 2 cubic yards a year per waterway; no panning in State Parks, State Trails, State Recreation Areas, State Wild and Scenic Rivers, State Natural Areas or state-owned lakebeds (WI DNR Gold Panning page). Streambed to the center belongs to the riparian owner, and reaching the stream across private land needs the owner's OK.",
+   "src": [
+    [
+     "Chronicling America, Vernon County Censor, Aug 15, 1900, p. 1 (from La Crosse Press, Aug 8)",
+     "https://www.loc.gov/resource/sn85040451/1900-08-15/ed-1/?sp=1"
+    ],
+    [
+     "Eagle River Review, Aug 23, 1900, p. 3 (same story)",
+     ""
+    ]
+   ],
+   "acm": [
+    3000,
+    "town"
+   ],
+   "pinconf": "approx",
+   "pinev": "Village of Genoa; 'the general belief is that the vein exists in the bluffs near Genoa'."
+  },
+  {
+   "id": "au-wi-la-farge-bear-creek-1901",
+   "L": "report",
+   "n": "Bear Creek 'mines' gold excitement, La Farge (1901)",
+   "la": 43.5767,
+   "lo": -90.6383,
+   "y": "Oct 1901",
+   "pl": "La Farge village; the Bear Creek workings are not placed.",
+   "co": "Vernon",
+   "stt": "WI",
+   "v": "Gold (reported); quartz specimens",
+   "c": "lead",
+   "s": "unknown",
+   "p": "town",
+   "st": "Oct 1901: 'La Farge section has another gold excitement. This enthusiasm originates from Bear Creek mines, which have their annual discovery.' The editor plainly doubted it. Pin: La Farge village; the Bear Creek workings are not placed.",
+   "t": "Low priority. Pairs with the Avalanche (Allen farm) vein pin in the same county. Access: Wisconsin: recreational panning with pans, screens, shovels, small manual sluices and metal detectors needs no DNR permit; no more than 2 cubic yards a year per waterway; no panning in State Parks, State Trails, State Recreation Areas, State Wild and Scenic Rivers, State Natural Areas or state-owned lakebeds (WI DNR Gold Panning page). Streambed to the center belongs to the riparian owner, and reaching the stream across private land needs the owner's OK.",
+   "src": [
+    [
+     "Chronicling America, Vernon County Censor, Oct 30, 1901, p. 1",
+     "https://www.loc.gov/resource/sn85040451/1901-10-30/ed-1/?sp=1"
+    ]
+   ],
+   "acm": [
+    6000,
+    "town"
+   ],
+   "pinconf": "approx",
+   "pinev": "La Farge village; the Bear Creek workings are not placed."
+  },
+  {
+   "id": "au-wi-brunsweiler-1880",
+   "L": "report",
+   "n": "Brunsweiler River gold claims, 12-15 mi south of Ashland (1880)",
+   "la": 46.41,
+   "lo": -90.8,
+   "y": "Apr-May 1880",
+   "pl": "On the Brunsweiler River 12-15 mi S of Ashland; the section numbers in the paper are unreadable in the OCR.",
+   "co": "Ashland",
+   "stt": "WI",
+   "v": "Gold (reported); quartz specimens",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Spring 1880: 'Our Ashland neighbors are having a little gold excitement.' Gold in paying quantities was said to be found on Brunsweiler's creek 12 or 15 miles south of Ashland; people were on the ground and claim shanties were going up. Pin: On the Brunsweiler River 12-15 mi S of Ashland; the section numbers in the paper are unreadable in the OCR.",
+   "t": "The Brunsweiler cuts the Penokee-Gogebic range edge, the same belt as the Holmes and Baraba prospects. Ask for a PC read of the page image to get the section and township, then pin at plat level. Access: Wisconsin: recreational panning with pans, screens, shovels, small manual sluices and metal detectors needs no DNR permit; no more than 2 cubic yards a year per waterway; no panning in State Parks, State Trails, State Recreation Areas, State Wild and Scenic Rivers, State Natural Areas or state-owned lakebeds (WI DNR Gold Panning page). May be inside Chequamegon-Nicolet National Forest: historic sites there are look-only; check the district office before panning.",
+   "src": [
+    [
+     "Chronicling America, Superior Times, May 1, 1880, p. 4",
+     "https://www.loc.gov/resource/sn85040344/1880-05-01/ed-1/?sp=4"
+    ]
+   ],
+   "acm": [
+    4000,
+    "report"
+   ],
+   "pinconf": "approx",
+   "pinev": "On the Brunsweiler River 12-15 mi S of Ashland; the section numbers in the paper are unreadable in the OCR."
+  },
+  {
+   "id": "au-mn-carlton-fay-shafts-1902",
+   "L": "report",
+   "n": "Capt. Fay's four gold shafts south of Carlton (1902)",
+   "la": 46.62,
+   "lo": -92.42,
+   "y": "Mar-Apr 1902",
+   "pl": "'Near the Sauntry location, south of Carlton'; Sauntry location not yet found.",
+   "co": "Carlton",
+   "stt": "MN",
+   "v": "Gold (reported); quartz specimens",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Spring 1902: 'quite a gold excitement in Carlton county.' Capt. M. L. Fay of Virginia had four crews sinking four shafts near the Sauntry location south of Carlton, with options on 3,000 acres where gold-bearing quartz was found. From the Duluth News Tribune; reprinted widely (one source). Pin: 'Near the Sauntry location, south of Carlton'; Sauntry location not yet found.",
+   "t": "Thomson slate country along the St. Louis River. Find 'Sauntry' on a 1900s Carlton County plat (William Sauntry was a Stillwater lumberman) to place the shafts, then check LiDAR for four shaft hollows. Access: Minnesota DNR: no permit for minimal-impact hand panning in rivers; not in state parks. Banks are mostly private farmland, so ask first.",
+   "src": [
+    [
+     "Chronicling America, Virginia Enterprise, Apr 4, 1902, p. 1 (from Duluth News Tribune)",
+     "https://www.loc.gov/resource/sn90059180/1902-04-04/ed-1/?sp=1"
+    ],
+    [
+     "Little Falls Herald, Apr 4, 1902 (same)",
+     ""
+    ]
+   ],
+   "acm": [
+    6000,
+    "report"
+   ],
+   "pinconf": "approx",
+   "pinev": "'Near the Sauntry location, south of Carlton'; Sauntry location not yet found."
+  },
+  {
+   "id": "au-mn-tenstrike-railcut-1901",
+   "L": "report",
+   "n": "Gold in the railroad rock cut at Tenstrike (1901)",
+   "la": 47.6567,
+   "lo": -94.6747,
+   "y": "Mar 1901",
+   "pl": "Tenstrike village (new site on the rail line, 1901).",
+   "co": "Beltrami",
+   "stt": "MN",
+   "v": "Gold (reported); quartz specimens",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "town",
+   "st": "Mar 1901: blasting a cut for the new railroad at the new site of Tenstrike, halfway between Bemidji and Blackduck, turned up rock said to be excellent gold specimens; several men washed out nearly four ounces in one evening; samples went to the state. One wire story in many papers. A Bemidji paper in Aug 1901 said things at Tenstrike were 'not very encouraging'. Pin: Tenstrike village (new site on the rail line, 1901).",
+   "t": "Bemidji area is deep glacial drift; a rail cut through drift could expose gravel with gold. Look along the old Minnesota and International grade at Tenstrike for the cut. Access: Minnesota DNR: no permit for minimal-impact hand panning in rivers; not in state parks. Banks are mostly private farmland, so ask first.",
+   "src": [
+    [
+     "Chronicling America, Kanabec County Times, Mar 15, 1901, p. 7",
+     "https://www.loc.gov/resource/sn91059411/1901-03-15/ed-1/?sp=7"
+    ],
+    [
+     "Minneapolis Journal, Mar 1, 1901, p. 12 (same)",
+     ""
+    ],
+    [
+     "Bemidji Pioneer, Aug 1, 1901, p. 5",
+     ""
+    ]
+   ],
+   "acm": [
+    1500,
+    "town"
+   ],
+   "pinconf": "approx",
+   "pinev": "Tenstrike village (new site on the rail line, 1901)."
+  },
+  {
+   "id": "au-mn-virginia-mccann-1894",
+   "L": "report",
+   "n": "Gold on P. J. McCann's land, about 5 mi north of Virginia (1894)",
+   "la": 47.59,
+   "lo": -92.54,
+   "y": "Mar 1894",
+   "pl": "About five miles north of Virginia (Ely Times, recalled in 1943); found during iron exploration.",
+   "co": "St. Louis",
+   "stt": "MN",
+   "v": "Gold (reported); quartz specimens",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Mar 1894: 'an extensive find of gold' on property of P. J. McCann at Virginia, found by accident during iron explorations; A. W. Watkins and G. W. Martin of West Superior were interested. The Ely Times put it about five miles north of Virginia. Pin: About five miles north of Virginia (Ely Times, recalled in 1943); found during iron exploration.",
+   "t": "Near the Virginia Horn greenstone. Place the McCann land on a 1900s St. Louis County plat. Much of this ground is now mine land; ask before going on it. Access: Minnesota DNR: no permit for minimal-impact hand panning in rivers; not in state parks. Banks are mostly private farmland, so ask first.",
+   "src": [
+    [
+     "Chronicling America, St. Paul Daily Globe, Mar 26, 1894, p. 1",
+     "https://www.loc.gov/resource/sn90059522/1894-03-26/ed-1/?sp=1"
+    ],
+    [
+     "Ely Miner, Apr 1, 1943, p. 5 ('Forty-nine years ago' from Ely Times, Mar 30, 1894)",
+     ""
+    ]
+   ],
+   "acm": [
+    3000,
+    "report"
+   ],
+   "pinconf": "approx",
+   "pinev": "About five miles north of Virginia (Ely Times, recalled in 1943); found during iron exploration."
+  },
+  {
+   "id": "au-mn-ely-long-lake-mcintosh-1894",
+   "L": "report",
+   "n": "Ed McIntosh's 30-foot gold vein, a mile west of Long Lake near Ely (1894)",
+   "la": 47.9,
+   "lo": -91.86,
+   "y": "Oct 1894",
+   "pl": "'Near here' (Ely); which Long Lake is not stated. PLACEHOLDER at Ely.",
+   "co": "St. Louis",
+   "stt": "MN",
+   "v": "Gold (reported); quartz specimens",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Oct 1894: 'The gold excitement near here will not die down.' Ed McIntosh and several Duluth men showed a vein 30 feet wide about a mile west of Long Lake, traced for miles, 13 feet down; first assays $4 a ton. Pin: 'Near here' (Ely); which Long Lake is not stated. PLACEHOLDER at Ely.",
+   "t": "Find a Long Lake within a few miles of Ely on the 1890s USGS sheet, then look for trenches on LiDAR. Some lakes here are in the BWCAW or Superior NF: look-only there. Access: Minnesota DNR: no permit for minimal-impact hand panning in rivers; not in state parks. Banks are mostly private farmland, so ask first. Superior National Forest and BWCAW: look only.",
+   "src": [
+    [
+     "Chronicling America, Ely Miner, Oct 14, 1943, p. 4 ('Forty-nine years ago' column from the Ely Times, Oct 1894)",
+     "https://www.loc.gov/resource/sn90059182/1943-10-14/ed-1/?sp=4"
+    ]
+   ],
+   "acm": [
+    8000,
+    "report"
+   ],
+   "pinconf": "approx",
+   "pinev": "'Near here' (Ely); which Long Lake is not stated. PLACEHOLDER at Ely."
+  },
+  {
+   "id": "au-mn-little-falls-currie-placer-1895",
+   "L": "panning",
+   "n": "John Currie's placer gold mine south of Little Falls (1895)",
+   "la": 45.95,
+   "lo": -94.36,
+   "y": "Aug 1895",
+   "pl": "'South of the city'; claim not placed.",
+   "co": "Morrison",
+   "stt": "MN",
+   "v": "Gold flakes and nuggets",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Aug 1895: George Weatherstow, a miner from Ishpeming, with Judge Gaudet and Felix Cardinal, examined John Currie's placer gold mine south of Little Falls; several pans of gravel were washed and traces of gold found. Pin: 'South of the city'; claim not placed.",
+   "t": "Mississippi terrace gravels below Little Falls. Find Currie on an 1890s Morrison County plat; work exposed gravel bars on the Mississippi at low water. Access: Minnesota DNR: no permit for minimal-impact hand panning in rivers; not in state parks. Banks are mostly private farmland, so ask first.",
+   "src": [
+    [
+     "Chronicling America, Little Falls Weekly Transcript, Aug 16, 1895, p. 7",
+     "https://www.loc.gov/resource/sn89064526/1895-08-16/ed-1/?sp=7"
+    ]
+   ],
+   "acm": [
+    3000,
+    "report"
+   ],
+   "pinconf": "approx",
+   "pinev": "'South of the city'; claim not placed."
+  },
+  {
+   "id": "au-mn-granite-falls-smith-mine-1882",
+   "L": "report",
+   "n": "The Smith gold mine at Granite Falls, and Rock Valley quartz (1882)",
+   "la": 44.81,
+   "lo": -95.54,
+   "y": "Dec 1882",
+   "pl": "Granite Falls; the Smith mine is not placed.",
+   "co": "Yellow Medicine",
+   "stt": "MN",
+   "v": "Gold (reported); quartz specimens",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Dec 1882 (Granite Falls Journal): the gold excitement picked up after good specimens came from the Smith mine, and rich quartz was reported in Rock Valley in Redwood County, about 16 miles below Granite Falls. Pin: Granite Falls; the Smith mine is not placed.",
+   "t": "Old gneiss bedrock along the Minnesota River. Pairs with the existing Granite Falls panning pin and the Delhi prospect downstream. Access: Minnesota DNR: no permit for minimal-impact hand panning in rivers; not in state parks. Banks are mostly private farmland, so ask first.",
+   "src": [
+    [
+     "Chronicling America, New Ulm Weekly Review, Dec 6, 1882, p. 2",
+     "https://www.loc.gov/resource/sn89064939/1882-12-06/ed-1/?sp=2"
+    ]
+   ],
+   "acm": [
+    4000,
+    "report"
+   ],
+   "pinconf": "approx",
+   "pinev": "Granite Falls; the Smith mine is not placed."
+  },
+  {
+   "id": "au-ia-klondike-placer",
+   "L": "panning",
+   "n": "Klondike placer on the Big Sioux, Iowa's only commercial gold venture (early 1900s)",
+   "la": 43.3878,
+   "lo": -96.5209,
+   "y": "early 1900s",
+   "pl": "Klondike locality on the Big Sioux near Larchwood (mindat locality, via web search). Exact working not placed.",
+   "co": "Lyon",
+   "stt": "IA",
+   "v": "Gold flakes and nuggets",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "The Iowa Geological Survey's 'Gold in Iowa' (EM-16, 1999) says a small placer operation recovered gold from river gravels at Klondike in Lyon County in the early 1900s, Iowa's only known commercial gold mining venture. Pin: Klondike locality on the Big Sioux near Larchwood (mindat locality, via web search). Exact working not placed.",
+   "t": "Big Sioux gravel bars at low water. The Klondike Bridge site (180th St) is the public access point. Read EM-16 for the exact spot (PC read). Access: Iowa: rules not yet read (PC read asked). Assume private land needs the owner's OK and no collecting in state parks or preserves. The Big Sioux is the state line with South Dakota.",
+   "src": [
+    [
+     "Iowa Geological Survey EM-16 'Gold in Iowa' (R. R. Anderson, 1999), https://www.iihr.uiowa.edu/igs/publications/uploads/EM-16.pdf (read only via web-search summary so far); mindat Klondike, Lyon Co.",
+     "https://www.mindat.org/locdetailed-255792.html"
+    ]
+   ],
+   "acm": [
+    1500,
+    "report"
+   ],
+   "pinconf": "approx",
+   "pinev": "Klondike locality on the Big Sioux near Larchwood (mindat locality, via web search). Exact working not placed."
+  },
+  {
+   "id": "au-ia-eldora-1853-rush",
+   "L": "panning",
+   "n": "Eldora gold rush on the Iowa River (1852-1853)",
+   "la": 42.4,
+   "lo": -93.1,
+   "y": "1852-1853",
+   "pl": "Iowa River between Eldora and Steamboat Rock; John Ellsworth's farm not placed.",
+   "co": "Hardin",
+   "stt": "IA",
+   "v": "Gold flakes and nuggets",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Iowa's own gold rush: in 1852-53 gold was reported in river shoals a few miles north of Eldora, credited to innkeeper John Ellsworth's farm on the Iowa River. Estimates of the crowd run from hundreds to 3,000 (the IGS figure); all left disappointed. Pin: Iowa River between Eldora and Steamboat Rock; John Ellsworth's farm not placed.",
+   "t": "Iowa River gravel bars between Eldora and Steamboat Rock. Pine Lake State Park is nearby: no collecting inside it. Find Ellsworth on an early Hardin County plat. Access: Iowa: rules not yet read (PC read asked). Assume private land needs the owner's OK and no collecting in state parks or preserves.",
+   "src": [
+    [
+     "Iowa Geological Survey EM-16 'Gold in Iowa' (1999) as summarized by web search",
+     ""
+    ],
+    [
+     "NPS Hardin County travel itinerary: https://www.nps.gov/nr/travel/hardin/settle.htm (blocked here, not read)",
+     ""
+    ]
+   ],
+   "acm": [
+    4000,
+    "report"
+   ],
+   "pinconf": "approx",
+   "pinev": "Iowa River between Eldora and Steamboat Rock; John Ellsworth's farm not placed."
+  },
+  {
+   "id": "au-ia-steamboat-rock-sec22",
+   "L": "panning",
+   "n": "Gold in the east bank of the Iowa River, NW¼ sec. 22, north of Steamboat Rock (1858-59)",
+   "la": 42.43,
+   "lo": -93.06,
+   "y": "1858-1859",
+   "pl": "NW¼ sec. 22 of Clay Township per a 1911 county history quoted on IAGenWeb; township and range not yet checked. PLACEHOLDER 2 km N of Steamboat Rock.",
+   "co": "Hardin",
+   "stt": "IA",
+   "v": "Gold flakes and nuggets",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "A 1911 Hardin County history notes gold was found in small amounts in 1858-59 on the northwest quarter of section 22, in the east bank of the river, north from Steamboat Rock. Pin: NW¼ sec. 22 of Clay Township per a 1911 county history quoted on IAGenWeb; township and range not yet checked. PLACEHOLDER 2 km N of Steamboat Rock.",
+   "t": "Once sec. 22 is confirmed, pin it at quarter-section level. The east bank there is likely private. Access: Iowa: rules not yet read (PC read asked). Assume private land needs the owner's OK and no collecting in state parks or preserves.",
+   "src": [
+    [
+     "1911 History of Hardin County, via IAGenWeb Clay Township page (https://mail.iagenweb.org/hardin/township/clay.htm, blocked here; seen only as a web-search excerpt)",
+     ""
+    ]
+   ],
+   "acm": [
+    1500,
+    "report"
+   ],
+   "pinconf": "approx",
+   "pinev": "NW¼ sec. 22 of Clay Township per a 1911 county history quoted on IAGenWeb; township and range not yet checked. PLACEHOLDER 2 km N of Steamboat Rock."
+  },
+  {
+   "id": "au-ia-marshall-1858-rock-deans-creek",
+   "L": "panning",
+   "n": "Marshall County gold fever: Rock Creek and Dean's Creek (1858)",
+   "la": 42.15,
+   "lo": -92.92,
+   "y": "June 1858",
+   "pl": "Marion and Vienna townships north of Marshalltown; PLACEHOLDER, township positions not yet checked.",
+   "co": "Marshall",
+   "stt": "IA",
+   "v": "Gold flakes and nuggets",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "June 1858 (Marietta Weekly Express, reprinted 1915): 'Marshall now takes her place in the list of counties in Iowa in which gold has been discovered.' Mr. Glass of Vienna township showed gold-bearing quartz from near his house; Mr. Brock and another young man washed gold dust from the gulches along Rock Creek and Dean's Creek in Marion township. Pin: Marion and Vienna townships north of Marshalltown; PLACEHOLDER, township positions not yet checked.",
+   "t": "Find Rock Creek and Dean's Creek on an 1870s Marshall County atlas, then pan where they cut glacial till. Also see the 1877 Iowa River nugget report below Marshalltown. Access: Iowa: rules not yet read (PC read asked). Assume private land needs the owner's OK and no collecting in state parks or preserves.",
+   "src": [
+    [
+     "Chronicling America, Evening Times-Republican (Marshalltown), Dec 1, 1915, p. 9",
+     "https://www.loc.gov/resource/sn85049554/1915-12-01/ed-1/?sp=9"
+    ]
+   ],
+   "acm": [
+    12000,
+    "report"
+   ],
+   "pinconf": "approx",
+   "pinev": "Marion and Vienna townships north of Marshalltown; PLACEHOLDER, township positions not yet checked."
+  },
+  {
+   "id": "au-ia-marshalltown-iowa-river-1877",
+   "L": "panning",
+   "n": "Gold nuggets in the Iowa River two miles below Marshalltown (1877)",
+   "la": 42.02,
+   "lo": -92.87,
+   "y": "June 1877",
+   "pl": "Two miles below Marshalltown on the Iowa River.",
+   "co": "Marshall",
+   "stt": "IA",
+   "v": "Gold flakes and nuggets",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "June 1877 (from the Marshall Times): gold 'in the shape of solid nuggets, and of very pure quality' found in the Iowa River two miles below Marshalltown. The same item says 'the gold excitement in Fayette county increases.' Pin: Two miles below Marshalltown on the Iowa River.",
+   "t": "Iowa River bars downstream of town. Treat 'solid nuggets' as doubtful until a second paper turns up. Access: Iowa: rules not yet read (PC read asked). Assume private land needs the owner's OK and no collecting in state parks or preserves.",
+   "src": [
+    [
+     "Chronicling America, Ottumwa Weekly Courier, June 13, 1877, p. 4",
+     "https://www.loc.gov/resource/sn92056106/1877-06-13/ed-1/?sp=4"
+    ]
+   ],
+   "acm": [
+    2500,
+    "report"
+   ],
+   "pinconf": "approx",
+   "pinev": "Two miles below Marshalltown on the Iowa River."
+  },
+  {
+   "id": "au-ia-iowa-falls-1870",
+   "L": "report",
+   "n": "Gold excitement at Iowa Falls (1870)",
+   "la": 42.5167,
+   "lo": -93.2667,
+   "y": "Apr 1870",
+   "pl": "Iowa Falls town.",
+   "co": "Hardin",
+   "stt": "IA",
+   "v": "Gold (reported); quartz specimens",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "town",
+   "st": "Apr 1870: 'The gold excitement at Iowa Falls still continues'; the Cedar Falls Gazette joked about someone having 'discovered a gold mine in Iowa Falls'. Pin: Iowa Falls town.",
+   "t": "Iowa River gorge through limestone at Iowa Falls: pan the crevices and bars below the dam. Access: Iowa: rules not yet read (PC read asked). Assume private land needs the owner's OK and no collecting in state parks or preserves.",
+   "src": [
+    [
+     "Chronicling America, Tipton Advertiser, Apr 14, 1870, p. 3",
+     "https://www.loc.gov/resource/sn84027398/1870-04-14/ed-1/?sp=3"
+    ],
+    [
+     "Cedar Falls Gazette, Apr 15, 1870, p. 3",
+     ""
+    ]
+   ],
+   "acm": [
+    3000,
+    "town"
+   ],
+   "pinconf": "approx",
+   "pinev": "Iowa Falls town."
+  },
+  {
+   "id": "au-ia-otter-creek-west-union",
+   "L": "panning",
+   "n": "Otter Creek gold near West Union (1877 excitement; 1904 survey)",
+   "la": 42.94,
+   "lo": -91.82,
+   "y": "1877; 1904",
+   "pl": "Otter Creek near West Union (EM-16 wording); reach not placed.",
+   "co": "Fayette",
+   "stt": "IA",
+   "v": "Gold flakes and nuggets",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Fayette County had a gold excitement in June 1877. The 1904 Iowa Geological Survey report on Fayette County (T. E. Savage) said a patient washer could pan $1.00 to $1.50 a day from Otter Creek, at $20.67 an ounce. Pin: Otter Creek near West Union (EM-16 wording); reach not placed.",
+   "t": "Grade C for now; it goes to B once the 1904 Savage report (via EM-16) is read directly, since the 1877 paper is a second, independent source. Work the creek where it cuts glacial drift; private land, ask first. Access: Iowa: rules not yet read (PC read asked). Assume private land needs the owner's OK and no collecting in state parks or preserves.",
+   "src": [
+    [
+     "Ottumwa Weekly Courier, June 13, 1877, p. 4 ('gold excitement in Fayette county')",
+     "https://www.loc.gov/resource/sn92056106/1877-06-13/ed-1/?sp=4"
+    ],
+    [
+     "Savage, Geology of Fayette County, Iowa Geol. Survey Annual Report 15 (1904), as cited in EM-16",
+     ""
+    ]
+   ],
+   "acm": [
+    5000,
+    "report"
+   ],
+   "pinconf": "approx",
+   "pinev": "Otter Creek near West Union (EM-16 wording); reach not placed."
+  },
+  {
+   "id": "au-ia-volga-brush-creek",
+   "L": "panning",
+   "n": "Volga River and Brush Creek gold (Fayette and Clayton counties)",
+   "la": 42.8,
+   "lo": -91.54,
+   "y": "historic reports",
+   "pl": "Region-level along the Volga near Volga city.",
+   "co": "Fayette / Clayton",
+   "stt": "IA",
+   "v": "Gold flakes and nuggets",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "area",
+   "st": "EM-16 lists Brush Creek and the Volga River among historic gold reports in northeast Iowa. Pin: Region-level along the Volga near Volga city.",
+   "t": "Volga River State Recreation Area is state land: check rules before panning there. Access: Iowa: rules not yet read (PC read asked). Assume private land needs the owner's OK and no collecting in state parks or preserves.",
+   "src": [
+    [
+     "Iowa Geological Survey EM-16 (1999), via web-search summary",
+     ""
+    ]
+   ],
+   "acm": [
+    8000,
+    "area"
+   ],
+   "pinconf": "approx",
+   "pinev": "Region-level along the Volga near Volga city."
+  },
+  {
+   "id": "au-ia-garner-leeby-1911",
+   "L": "report",
+   "n": "Placer gold claimed on the J. J. Leeby farm north of Garner (1911)",
+   "la": 43.13,
+   "lo": -93.604,
+   "y": "June 1911",
+   "pl": "'North of Garner'; farm not placed.",
+   "co": "Hancock",
+   "stt": "IA",
+   "v": "Gold (reported); quartz specimens",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "June 1911: gold found in a sand and gravel bed on the J. J. Leeby farm north of Garner; an assayer at Rapid City reported $83 a ton, with about six acres of such dirt. One wire story in several papers. Pin: 'North of Garner'; farm not placed.",
+   "t": "Find Leeby on a 1910s Hancock County plat. Glacial outwash country; expect flour gold at best. Access: Iowa: rules not yet read (PC read asked). Assume private land needs the owner's OK and no collecting in state parks or preserves.",
+   "src": [
+    [
+     "Chronicling America, Denison Review, July 26, 1911, p. 7",
+     "https://www.loc.gov/resource/sn84038095/1911-07-26/ed-1/?sp=7"
+    ],
+    [
+     "Oskaloosa Herald, June 22, 1911, p. 1",
+     ""
+    ],
+    [
+     "Decorah Public Opinion, June 28, 1911, p. 6 (same story)",
+     ""
+    ]
+   ],
+   "acm": [
+    3000,
+    "report"
+   ],
+   "pinconf": "approx",
+   "pinev": "'North of Garner'; farm not placed."
+  },
+  {
+   "id": "au-ia-armstrong-well-nugget-1903",
+   "L": "report",
+   "n": "Gold nugget from a 140-ft well, J. F. Thomas place, 12 mi SW of Armstrong (1903)",
+   "la": 43.273,
+   "lo": -94.666,
+   "y": "Aug 1903",
+   "pl": "Computed 12 mi SW of Armstrong; may fall in Kossuth or Palo Alto County. Farm not placed.",
+   "co": "Emmet",
+   "stt": "IA",
+   "v": "Gold (reported); quartz specimens",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Aug 1903: digging a well on the J. F. Thomas place twelve miles southwest of Armstrong, George Davis saw a gold nugget fall from the slush bucket at about 140 feet; tested as genuine, worth about $10. Pin: Computed 12 mi SW of Armstrong; may fall in Kossuth or Palo Alto County. Farm not placed.",
+   "t": "Deep-drift nugget: nothing to dig for, but it shows gold in the till. Find Thomas on a 1900s plat. Access: Iowa: rules not yet read (PC read asked). Assume private land needs the owner's OK and no collecting in state parks or preserves.",
+   "src": [
+    [
+     "Chronicling America, Evening Times-Republican, Aug 24, 1903, p. 4",
+     "https://www.loc.gov/resource/sn85049554/1903-08-24/ed-1/?sp=4"
+    ]
+   ],
+   "acm": [
+    3000,
+    "report"
+   ],
+   "pinconf": "approx",
+   "pinev": "Computed 12 mi SW of Armstrong; may fall in Kossuth or Palo Alto County. Farm not placed."
+  },
+  {
+   "id": "au-ia-mapleton-whiting-1896",
+   "L": "report",
+   "n": "Placer gold on banker C. J. Whiting's farm, a mile east of Mapleton (1896)",
+   "la": 42.166,
+   "lo": -95.773,
+   "y": "June 1896",
+   "pl": "About a mile east of Mapleton (Norwegian 'en Mil i Øst'; taken as an English mile).",
+   "co": "Monona",
+   "stt": "IA",
+   "v": "Gold (reported); quartz specimens",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "June 1896 (Decorah-Posten, Norwegian): gold found on banker C. J. Whiting's farm a mile east of Mapleton; several old gold diggers who examined it said it was likely placer gold worth working. Pin: About a mile east of Mapleton (Norwegian 'en Mil i Øst'; taken as an English mile).",
+   "t": "Maple River valley. Find Whiting on a Monona County plat. Access: Iowa: rules not yet read (PC read asked). Assume private land needs the owner's OK and no collecting in state parks or preserves.",
+   "src": [
+    [
+     "Chronicling America, Decorah-Posten, June 9, 1896, p. 1",
+     "https://www.loc.gov/resource/sn84024501/1896-06-09/ed-1/?sp=1"
+    ]
+   ],
+   "acm": [
+    2000,
+    "report"
+   ],
+   "pinconf": "approx",
+   "pinev": "About a mile east of Mapleton (Norwegian 'en Mil i Øst'; taken as an English mile)."
+  },
+  {
+   "id": "au-ia-little-sioux-cherokee",
+   "L": "panning",
+   "n": "Little Sioux River gold near Cherokee and Correctionville",
+   "la": 42.7556,
+   "lo": -95.553,
+   "y": "historic reports",
+   "pl": "Region-level on the Little Sioux.",
+   "co": "Cherokee / Woodbury",
+   "stt": "IA",
+   "v": "Gold flakes and nuggets",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "area",
+   "st": "Web-search summaries of the Iowa survey's EM-16 say gold has been reported in the Little Sioux near Correctionville and Cherokee. Pin: Region-level on the Little Sioux.",
+   "t": "Gravel bars at low water; private banks. Access: Iowa: rules not yet read (PC read asked). Assume private land needs the owner's OK and no collecting in state parks or preserves.",
+   "src": [
+    [
+     "Iowa Geological Survey EM-16 (1999), via web-search summary",
+     ""
+    ]
+   ],
+   "acm": [
+    10000,
+    "area"
+   ],
+   "pinconf": "approx",
+   "pinev": "Region-level on the Little Sioux."
+  },
+  {
+   "id": "au-il-elgin-hammond-pit-1895",
+   "L": "pit",
+   "n": "Gold in the Hammond gravel pit near Elgin (1895)",
+   "la": 42.038,
+   "lo": -88.323,
+   "y": "Nov 1895",
+   "pl": "Near Elgin; pit not placed.",
+   "co": "Kane",
+   "stt": "IL",
+   "v": "Gold flakes and nuggets",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "town",
+   "st": "Nov 1895: particulars of gold found in the Hammond gravel pit near Elgin caused some excitement; the gravel was to be washed. Pin: Near Elgin; pit not placed.",
+   "t": "Fox River outwash. Find the Hammond pit on an 1890s Kane County plat; most old pits near Elgin are built over now. Access: Illinois: rules not yet read (PC read asked). Most Illinois streambeds are private; no collecting in state parks.",
+   "src": [
+    [
+     "Chronicling America, Twice-a-Week Plain Dealer (Cresco IA), Nov 12, 1895, p. 4",
+     "https://www.loc.gov/resource/sn88059319/1895-11-12/ed-1/?sp=4"
+    ]
+   ],
+   "acm": [
+    4000,
+    "town"
+   ],
+   "pinconf": "approx",
+   "pinev": "Near Elgin; pit not placed."
+  },
+  {
+   "id": "au-il-waukegan-heiting-1895",
+   "L": "report",
+   "n": "'Gold mine' claim on the Henry Heiting farm SW of Waukegan (1895)",
+   "la": 42.33,
+   "lo": -87.93,
+   "y": "Feb 1895",
+   "pl": "Southwest of Waukegan; farm not placed.",
+   "co": "Lake",
+   "stt": "IL",
+   "v": "Gold (reported); quartz specimens",
+   "c": "lead",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Feb 1895: a Mr. Westerfield claimed a 'gold mine' on Henry Heiting's farm southwest of Waukegan, but the item names quicksilver, mica and some copper, plus 'evidence of ancient mining'. Shown so it is not mistaken for a real gold lead. Pin: Southwest of Waukegan; farm not placed.",
+   "t": "Low priority; likely a hoax or mistaken mineral. Access: Illinois: rules not yet read (PC read asked). Most Illinois streambeds are private; no collecting in state parks.",
+   "src": [
+    [
+     "Chronicling America, Telegraph-Courier (Kenosha), Feb 14, 1895, p. 8",
+     "https://www.loc.gov/resource/sn85040310/1895-02-14/ed-1/?sp=8"
+    ]
+   ],
+   "acm": [
+    4000,
+    "report"
+   ],
+   "pinconf": "approx",
+   "pinev": "Southwest of Waukegan; farm not placed."
+  },
+  {
+   "id": "au-il-rockford-well-sand",
+   "L": "report",
+   "n": "Gold in Rockford well sand",
+   "la": 42.2594,
+   "lo": -89.0644,
+   "y": "undated",
+   "pl": "City-level.",
+   "co": "Winnebago",
+   "stt": "IL",
+   "v": "Gold (reported); quartz specimens",
+   "c": "lead",
+   "s": "unknown",
+   "p": "town",
+   "st": "Prospecting websites, citing a 1978 Illinois State Geological Survey letter, say sand from a well in Rockford carried gold, and that McHenry County outwash also yielded gold. Not checked against the ISGS. Pin: City-level.",
+   "t": "Rock River gravel bars are the only public place to try; expect flour gold at most. Access: Illinois: rules not yet read (PC read asked). Most Illinois streambeds are private; no collecting in state parks.",
+   "src": [
+    [
+     "raregoldnuggets.com 'Where and How to Find Gold' (secondhand, citing a 1978 ISGS letter)",
+     "https://raregoldnuggets.com/?p=645"
+    ]
+   ],
+   "acm": [
+    6000,
+    "town"
+   ],
+   "pinconf": "approx",
+   "pinev": "City-level."
+  }
+ ],
+ "edit": {
+  "g-FS": {
+   "st": " Florence gold-quartz excitement, May 1881: May 1881: 'The gold excitement still seems to be on the increase' at Florence. Quartz ledges said to yield $750 a ton; Dr. Bond had a specimen; the best quartz came from near the Pine River by the granite to the south. The same item ran again in the Crystal Falls Diamond Drill in 1887.",
+   "src": [
+    [
+     "Chronicling America, Watertown Republican, May 11, 1881, p. 1",
+     "https://www.loc.gov/resource/sn85033295/1881-05-11/ed-1/?sp=1"
+    ]
+   ]
+  },
+  "t-rep-delhi": {
+   "st": " Add: in 1907 the Redwood Gazette recalled 'expensive undertakings made for gold along the Minnesota north of Delhi nearly twenty years ago,' with remains of buildings and stamping machinery still seen until recently. Capt. Jacob Hinderman of Ridgely township told the New Ulm News about the gold fever. In July 1894 over 500 people visited a mine where gold quartz came from a 12-foot hole (Redwood Gazette, Jul 19, 1894, p. 5; check that it is the same mine).",
+   "src": [
+    [
+     "Chronicling America, Redwood Gazette, Aug 7, 1907, p. 1",
+     "https://www.loc.gov/resource/sn85025570/1907-08-07/ed-1/?sp=1"
+    ],
+    [
+     "Redwood Gazette, Jul 19, 1894, p. 5",
+     "https://www.loc.gov/resource/sn85025570/1894-07-19/ed-1/?sp=5"
+    ]
+   ]
+  }
+ }
+}

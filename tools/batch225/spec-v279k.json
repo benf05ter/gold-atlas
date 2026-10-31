@@ -1,0 +1,37 @@
+{
+ "new": [],
+ "edit": {
+  "vs-2064584": {
+   "set": {
+    "la": 44.2049,
+    "lo": -92.4315,
+    "acm": [
+     250,
+     "plat"
+    ],
+    "pinev": "Range line R14W/R13W between sec. 36 and sec. 31 (1896 Ogle plat; 1972 USGS Zumbro Lake topo)."
+   },
+   "moved": true,
+   "src": [
+    [
+     "Standard Atlas of Wabasha County, Minnesota (Geo. A. Ogle & Co., Chicago, 1896), University of Minnesota Borchert Map Library",
+     "https://umedia.lib.umn.edu/search?q=standard%20atlas%20of%20wabasha%20county%201896"
+    ]
+   ],
+   "st": " The 1896 Ogle atlas (Zumbro township) prints SOUTH TROY P.O. at a residence on the west edge of sec. 31, just east of the R14W/R13W range line, with a blacksmith shop to the north. A church is drawn just west of the north-south road at the east edge of sec. 36, and a school at the sec. 31/36 corner to the south. The 1972 topo still shows a church on that spot by the South Troy label. Pin moved onto the crossroads. Church ground is look-only."
+  },
+  "tw-wi-new-london-hoffman-orchard": {
+   "st": " The wallet was dug up under an orchard tree on Nordman's Hill, 2 miles south of New London, some weeks before 29 Jan 1908. It is thought to have been buried by a farmhand who called himself \"Harry Palmer of Chicago\". He vanished, was arrested in Chicago for robbery and killed himself in jail. No owner of the money was ever found.",
+   "src": [
+    [
+     "Appleton Post-Crescent, 30 Jan 1908, p. 8 and 6 Feb 1908, p. 2 (local)",
+     ""
+    ],
+    [
+     "Bay City Times, 1 Feb 1908, p. 1 (wire)",
+     ""
+    ]
+   ]
+  }
+ }
+}
