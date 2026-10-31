@@ -1,0 +1,370 @@
+{
+ "new": [
+  {
+   "n": "Express-car loot thrown in a corn field, SW of Columbus Junction",
+   "la": 41.15,
+   "lo": -91.43,
+   "y": "Sept 1904",
+   "pl": "Confession: 'about eight or ten miles south and three miles west of Columbus Junction'; elsewhere 'thirteen miles southwest'. Centre between the two; wide ring",
+   "co": "Louisa",
+   "stt": "IA",
+   "c": "newspaper",
+   "st": "The Whiskey Hollow robbers examined their haul after riding the stolen engine and threw it away in a corn field: watches, cutlery and cheap jewelry from the express safe. The gang leader described the place in his deathbed statement to St. Louis police in October 1904. No recovery was reported. Pin is approximate, not the spot itself.",
+   "t": "Small brass and silver items in farm fields; landowner permission. One account only (the confession), so C. Access: private.",
+   "src": [
+    [
+     "Muscatine News-Tribune 25 Oct 1904 p1 (Newspapers.com, PC read)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: Confession: 'about eight or ten miles south and three miles west of Columbus Junction'; elsewhere 'thirteen miles southwest'. Centre between the two; wide ring",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    8000,
+    "area"
+   ],
+   "id": "tw-ia-columbus-jct-loot-field-1904",
+   "L": "treasure",
+   "v": "Hidden money or valuables (story)",
+   "s": "unknown",
+   "p": "approx"
+  }
+ ],
+ "edit": {
+  "tw-ia-whiskey-hollow-train-1910": {
+   "set": {
+    "n": "Whiskey Hollow hold-up of Rock Island No. 11, south of Muscatine",
+    "la": 41.377,
+    "lo": -91.103,
+    "y": "night of 12-13 Sept 1904",
+    "pl": "Up-grade on the Rock Island (BCR&N) line between Muscatine and Fruitland, where it climbs out of the Mississippi bottoms (paper: train 'laboring up grade' entering Whiskey Hollow, 'darkness and dense woods'); spot on the grade not fixed",
+    "co": "Muscatine",
+    "stt": "IA",
+    "c": "newspaper",
+    "st": "Five men stopped Rock Island train No. 11 at a bonfire in Whiskey Hollow, after the leader rode from Muscatine on a ticket to Fruitland and pulled the emergency brake. They blew the express safe with nitroglycerin, cut off the engine and ran it through Letts toward Columbus Junction. The railway said no money was taken; the dying leader later said they got only cheap jewelry, watches, knives and forks. The gang kept a tent camp across the Mississippi and came over by skiff. The forum's '1910' date is this 1904 robbery. Pin is approximate, not the spot itself.",
+    "t": "History pin: the loot was thrown away elsewhere (see the corn-field pin SW of Columbus Junction). Old grade cuts south of Muscatine may show on LiDAR. Access: private.",
+    "src": [
+     [
+      "Muscatine News-Tribune 13 Sep 1904 p1",
+      ""
+     ],
+     [
+      "14 Sep 1904 p1",
+      ""
+     ],
+     [
+      "25 Oct 1904 p1 'Dying Bandit Describes Whiskey Hollow Hold-Up' (Newspapers.com, PC read)",
+      ""
+     ]
+    ],
+    "pinconf": "C",
+    "pinev": [
+     "Placed from the source text: Up-grade on the Rock Island (BCR&N) line between Muscatine and Fruitland, where it climbs out of the Mississippi bottoms (paper: train 'laboring up grade' entering Whiskey Hollow, 'darkness and dense woods'); spot on the grade not fixed",
+     "Unconfirmed, one source"
+    ],
+    "acm": [
+     2500,
+     "area"
+    ]
+   },
+   "moved": true
+  },
+  "tw-ia-columbus-jct-train-gold-1904": {
+   "set": {
+    "n": "'$10,000 found near Letts in 1934' (forum only; no paper found)",
+    "la": 41.3284,
+    "lo": -91.2371,
+    "y": "1904; claimed find 1934",
+    "pl": "GNIS Letts; forum gives no farm",
+    "co": "Louisa",
+    "stt": "IA",
+    "c": "lead",
+    "st": "A 2023 forum post says $30,000 in coin was taken in a 1904 train robbery near Columbus Junction and that a man digging a septic tank near Letts found $10,000 of it in 1934. The 1904 papers say the railway reported no money taken and the robbers said they got only jewelry (see Whiskey Hollow). No 1933-35 Iowa paper on Newspapers.com mentions the 1934 find. Pin is approximate, not the spot itself.",
+    "t": "Treat as unconfirmed. The Wapello Republican (not on Newspapers.com) is the only untried paper. Access: private.",
+    "src": [
+     [
+      "TreasureNet Treasure Legends thread 679983",
+      ""
+     ],
+     [
+      "negative search Newspapers.com Iowa 1933-35 (PC)",
+      ""
+     ]
+    ],
+    "pinconf": "C",
+    "pinev": [
+     "Placed from the source text: GNIS Letts; forum gives no farm",
+     "Unconfirmed, one source"
+    ],
+    "acm": [
+     3000,
+     "area"
+    ]
+   },
+   "moved": true
+  },
+  "tw-il-dixon-mail-plane-diamonds-1929": {
+   "set": {
+    "n": "Black diamonds lost in the 1929 mail-plane crash, SW of Harmon",
+    "la": 41.651,
+    "lo": -89.622,
+    "y": "22 March 1929; search to June 1929",
+    "pl": "Sterling Daily Gazette: pilot landed about 6 mi SW of Harmon, plane crashed about 1 mi SE of where he landed; pin offset from Harmon by those distances, farm not yet on a plat",
+    "co": "Lee",
+    "stt": "IL",
+    "c": "documented",
+    "st": "A National Air Transport mail plane (Curtiss Falcon) lost in fog jumped by its pilot on 22 March 1929 crashed and burned on a farm southwest of Harmon. It carried a shipment of black (industrial) diamonds from El Paso to New York worth over $30,000. Postal inspectors dug and sifted tons of swamp mud and ash and recovered about $25,000; in June 1929 twenty-nine stones worth about $5,000 were still being sought. The pilot was taken to Walnut. Pin is approximate, not the spot itself.",
+    "t": "Green River lowland farm fields; landowner permission. A 1920s Lee County plat would give the section (owner names are in research/ia-il). Access: private.",
+    "src": [
+     [
+      "Sterling Daily Gazette 22 Mar 1929 p1",
+      ""
+     ],
+     [
+      "Moline Daily Dispatch 13 Apr 1929 p5",
+      ""
+     ],
+     [
+      "UP, Urbana Daily Courier 4 Jun 1929 p1 (Newspapers.com, PC read)",
+      ""
+     ],
+     [
+      "Elizabeth City Independent 26 Apr 1929",
+      ""
+     ],
+     [
+      "AP, Evening Star 4 Jun 1929",
+      ""
+     ]
+    ],
+    "pinconf": "B",
+    "pinev": [
+     "Placed from the source text: Sterling Daily Gazette: pilot landed about 6 mi SW of Harmon, plane crashed about 1 mi SE of where he landed; pin offset from Harmon by those distances, farm not yet on a plat",
+     "Two separate accounts"
+    ],
+    "acm": [
+     2500,
+     "area"
+    ]
+   },
+   "moved": true
+  },
+  "tw-ia-palmyra-dickson-farm-1909": {
+   "set": {
+    "n": "Andy Dickson's buried gold, farm NW of Palmyra",
+    "la": 41.4566,
+    "lo": -93.4655,
+    "y": "died Aug 1909; dug Sept-Oct 1909",
+    "pl": "Des Moines Register 31 Oct 1909: farm 'about ten miles northeast of Indianola, and two miles northwest of Palmyra'; pin 2 mi NW of GNIS Palmyra, farm not yet on a plat",
+    "co": "Warren",
+    "stt": "IA",
+    "c": "documented",
+    "st": "Andy Dickson, 80, died in August 1909 with no money in any bank. Digging around an old shed used as a smoke house, about twenty yards from the house, turned up $2,300 in gold, then two jars holding $10,005; by the end of October $13,300 in $20, $10, $5 and $1 gold pieces had been found. Officials believed more than $25,000 was buried. The night before he died he said he had 'lots and lots of money' and would have to show where it was. The house was a 1.5-story frame house on a rise over 100 ft back from the road, hidden in a grove of elm and maple, with 10-12 outbuildings. Pin is approximate, not the spot itself.",
+    "t": "Find Dickson on a 1900s-1910s Warren County plat to fix the forty. About half the believed total was never reported found. Access: private: permission.",
+    "src": [
+     [
+      "Des Moines Register 19 Sep 1909 p1 (Indianola special) and 31 Oct 1909 p25 (Newspapers.com, PC read)",
+      ""
+     ],
+     [
+      "Indianola dispatch in Daily Gate City 20 Sep 1909, Oskaloosa Herald 23 Sep 1909 (LoC",
+      ""
+     ],
+     [
+      "same wire text)",
+      ""
+     ]
+    ],
+    "pinconf": "B",
+    "pinev": [
+     "Placed from the source text: Des Moines Register 31 Oct 1909: farm 'about ten miles northeast of Indianola, and two miles northwest of Palmyra'; pin 2 mi NW of GNIS Palmyra, farm not yet on a plat",
+     "Two separate accounts"
+    ],
+    "acm": [
+     1200,
+     "report"
+    ]
+   },
+   "moved": true
+  },
+  "tw-ia-hamilton-bennett-miser": {
+   "set": {
+    "n": "Reuben Bennett, the Hamilton County miser, farm 2 mi from Webster City",
+    "la": 42.4694,
+    "lo": -93.8161,
+    "y": "lived there c.1878-1898; died autumn 1898; searched to 1903",
+    "pl": "Papers: 800-acre farm 'two miles from the city' (Webster City), next to the county poor farm; direction not given, pin at Webster City with a 3.5 km ring",
+    "co": "Hamilton",
+    "stt": "IA",
+    "c": "newspaper",
+    "st": "Reuben Bennett, formerly of Portsmouth, Ohio, lived alone for about twenty years in a small hut on his 800-acre farm two miles from Webster City, refusing to sell hay or stock; the manager of the neighbouring poor farm found him dead in bed in autumn 1898. Relatives and a daughter from Helena fought over the estate, and in 1903 relatives were still searching for his buried thousands, which had not been found. Pin is approximate, not the spot itself.",
+    "t": "Place Bennett's 800 acres and the Hamilton County poor farm on an 1890s-1900s plat. Buried money is in one paper only (1903), so C. Access: private.",
+    "src": [
+     [
+      "Twice-a-Week Plain Dealer (Cresco) 25 Oct 1898 p4",
+      ""
+     ],
+     [
+      "Kansas City Journal 27 Nov 1898 p18 (Helena corr., Chicago Daily News)",
+      ""
+     ],
+     [
+      "Manchester Democrat 3 Jun 1903 p3 (LoC Chronicling America)",
+      ""
+     ],
+     [
+      "TreasureNet thread 576654",
+      ""
+     ]
+    ],
+    "pinconf": "C",
+    "pinev": [
+     "Placed from the source text: Papers: 800-acre farm 'two miles from the city' (Webster City), next to the county poor farm; direction not given, pin at Webster City with a 3.5 km ring",
+     "Unconfirmed, one source"
+    ],
+    "acm": [
+     3500,
+     "area"
+    ]
+   },
+   "moved": true
+  },
+  "tw-ia-lansing-callahan-farm-1921": {
+   "set": {
+    "n": "$1,300 in gold plowed up, old Patrick Callahan farm near Lansing",
+    "la": 43.3622,
+    "lo": -91.2165,
+    "y": "found May 1921",
+    "pl": "GNIS Lansing; farm not located",
+    "co": "Allamakee",
+    "stt": "IA",
+    "c": "newspaper",
+    "st": "In May 1921 farm hand John Brazell (Brassell) plowed up a glass fruit jar of gold coins, $2.50 to $20 pieces, about $1,300 in all, in a field on the old Patrick Callahan farm near Lansing; it had been buried for many years. One wire copy printed $19,300; the Iowa copies say $1,300. Pin is approximate, not the spot itself.",
+    "t": "Found, but plowed caches scatter. Place Callahan on the 1886 or 1917 Allamakee plat. Access: private.",
+    "src": [
+     [
+      "Webster City Freeman 30 May 1921",
+      ""
+     ],
+     [
+      "Decorah Public Opinion 11 May 1921",
+      ""
+     ],
+     [
+      "Richmond Palladium 4 May 1921",
+      ""
+     ],
+     [
+      "Alexandria Gazette 6 May 1921 (one story",
+      ""
+     ],
+     [
+      "LoC Chronicling America)",
+      ""
+     ]
+    ],
+    "pinconf": "C",
+    "pinev": [
+     "Placed from the source text: GNIS Lansing; farm not located",
+     "Unconfirmed, one source"
+    ],
+    "acm": [
+     4000,
+     "area"
+    ]
+   },
+   "moved": true
+  },
+  "tw-ia-tipton-iwers-farm-1936": {
+   "set": {
+    "n": "The Iwers brothers' hidden fortune, 880-acre farm near Sunbury",
+    "la": 41.71,
+    "lo": -90.93,
+    "y": "hidden to 1936; dug July 1936; $21,000 still sought",
+    "pl": "AP: farm 'twelve miles east of' Tipton, '880-acre farm near Sunbury, ten miles east of here'; pin between due-east-of-Tipton and GNIS Sunbury, farm not yet on a plat",
+    "co": "Cedar",
+    "stt": "IA",
+    "c": "documented",
+    "st": "Bachelor brothers John, Henry and William Iwers hid their money on their 880-acre farm. After Henry, the last of them, died on 30 May 1936, an iron box with $112,000 in gold coin, gold and silver certificates and securities was dug from an old machine shed, after an earlier iron box with $88,000 in securities; more was hidden in the house. Over $212,000 was found in all against an estate put at $350,000, and in late July 1936 the court held the estate open for a search for $21,000 more. Guards were posted during the hunts. Pin is approximate, not the spot itself.",
+    "t": "Place the Iwers 880 acres on a 1920s-30s Cedar County plat near Sunbury. Most was found; the July 1936 search for $21,000 more has no reported result. Access: private: permission.",
+    "src": [
+     [
+      "AP, Cedar Rapids Gazette 5 Jul 1936 p25 (Newspapers.com, PC read)",
+      ""
+     ],
+     [
+      "AP, Evening Star 5, 6, 10 and 21 Jul 1936",
+      ""
+     ],
+     [
+      "UP, Washington Daily News 6-7 Jul 1936, Waterbury Democrat 6 Jul 1936 (LoC)",
+      ""
+     ],
+     [
+      "AP and UP are separate reports",
+      ""
+     ]
+    ],
+    "pinconf": "B",
+    "pinev": [
+     "Placed from the source text: AP: farm 'twelve miles east of' Tipton, '880-acre farm near Sunbury, ten miles east of here'; pin between due-east-of-Tipton and GNIS Sunbury, farm not yet on a plat",
+     "Two separate accounts"
+    ],
+    "acm": [
+     4000,
+     "area"
+    ]
+   },
+   "moved": true
+  },
+  "tw-il-south-chicago-mattson-1905": {
+   "set": {
+    "n": "Fisherman Andrew Mattson's $8,000 on the lake shore, South Chicago",
+    "la": 41.7075,
+    "lo": -87.529,
+    "y": "Dec 1905",
+    "pl": "Washington Times 24 Dec 1905: his cabin stood on the Lake Michigan shore at the foot of 103rd Street; money said to be on the shore between Calumet Park and the Indiana line",
+    "co": "Cook",
+    "stt": "IL",
+    "c": "newspaper",
+    "st": "Andrew Mattson, the 'hermit fisherman' of South Chicago, lived thirty years in a weather-beaten cabin on the lake shore at the foot of 103rd Street. Dying in December 1905 he told his wife of about $8,000 saved and hidden on the shore, then lost his speech. His widow kept watch on the cabin and hundreds searched; by January 1906 the money had not been found near the hut.",
+    "t": "Lakefront is park and industry now: check rules. Access: city park/industrial: check.",
+    "src": [
+     [
+      "Washington Times 24 Dec 1905",
+      ""
+     ],
+     [
+      "Deseret Evening News 21 Dec 1905",
+      ""
+     ],
+     [
+      "Los Angeles Herald 31 Dec 1905 p3",
+      ""
+     ],
+     [
+      "Wisconsin Weekly Advocate 11 Jan 1906 (LoC",
+      ""
+     ],
+     [
+      "one wire story)",
+      ""
+     ]
+    ],
+    "pinconf": "C",
+    "pinev": [
+     "Placed from the source text: Washington Times 24 Dec 1905: his cabin stood on the Lake Michigan shore at the foot of 103rd Street; money said to be on the shore between Calumet Park and the Indiana line",
+     "Unconfirmed, one source"
+    ],
+    "acm": [
+     800,
+     "report"
+    ]
+   },
+   "moved": true
+  }
+ }
+}
