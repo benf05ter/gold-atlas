@@ -7020,4 +7020,27 @@ const NEG=/*NEG*/{"tw-fountain-city-gold-bar-1913": ["2026-10-30", "Treasure-web
 .omy .chip[aria-pressed="true"]{background:var(--ink);color:var(--panel);border-color:var(--ink);box-shadow:none}
 .omy .omc{margin-left:auto}
 </style>
+<script>
+// (v358 MEMFREE) iPhone white screen when zooming out or panning: old-map and fire-map pictures were loaded when they came into view and never let go.
+// A morning of panning kept every picture decoded (13 fire-map towns = 168 megapixels, about 670 MB), and zooming out asked Safari to draw them all at once,
+// so iOS closed the page and the home-screen app showed white. After the map settles, pictures that are hidden (other map type or layer off) or more than a
+// screen away drop their picture; the usual loaders put it back when it comes into view. Fire maps also drop when zoomed out past town level (they stop loading there).
+(function(){
+  if(window.MEMFREE) return;
+  const MF=window.MEMFREE={t:0,freed:0};
+  function pass(){ MF.t=0;
+    const W=innerWidth, H=innerHeight, fire=new Set();
+    const far=im=>{ const r=im.getBoundingClientRect(); return r.width===0||r.right<-W||r.left>2*W||r.bottom<-H||r.top>2*H; };
+    try{ if(typeof FIRE!=='undefined'){ const wide=GM.type!=='fire'||vb.w/K>0.6; for(const p of FIRE){ if(!p.im) continue; fire.add(p.im); if(p.im.getAttribute('href')&&(wide||far(p.im))){ p.im.removeAttribute('href'); p.ld=0; MF.freed++; } } } }catch(_){}
+    for(const im of document.querySelectorAll('svg image')){
+      if(fire.has(im)||im.dataset.k) continue;            // fire maps handled above; satellite pieces are already pruned by their own loader
+      const h=im.getAttribute('href'), away=far(im);
+      if(h&&h!=='data:,'&&away){ im._mfH=h; im.removeAttribute('href'); MF.freed++; }
+      else if(!h&&im._mfH&&!away){ im.setAttribute('href',im._mfH); }   // back in view: put the picture back if its loader has not
+    } }
+  const soon=()=>{ if(MF.t) clearTimeout(MF.t); MF.t=setTimeout(pass,1200); };
+  if(window.OGE&&OGE.on) OGE.on('post',soon);
+  document.addEventListener('visibilitychange',()=>{ if(document.hidden) pass(); });
+})();
+</script>
 </body></html>
