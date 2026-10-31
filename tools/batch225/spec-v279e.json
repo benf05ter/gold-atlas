@@ -1,0 +1,104 @@
+{
+ "new": [
+  {
+   "id": "wmn-birchdale-villas-bertha",
+   "L": "gather",
+   "n": "Birchdale Villas on Bertha Lake and the Old Whiskey Road",
+   "la": 46.6659,
+   "lo": -94.2556,
+   "y": "Prohibition era",
+   "pl": "Shore of Bertha Lake (GNIS 46.6637,-94.2535) on the Whitefish chain; resort site not yet placed",
+   "co": "Crow Wing",
+   "stt": "MN",
+   "v": "Coins, bottles, tokens",
+   "c": "lead",
+   "s": "unknown",
+   "p": "approx",
+   "st": "A gangster-era liquor drop on Bertha Lake (Whitefish chain), reached by the 'Old Whiskey Road', today County Road 145 through Jenkins (Dregni, Weird Minnesota 2006). Pin: the nearest shore to the GNIS lake point; the resort itself is not yet placed on the lake, so this is good only to about 1 km.",
+   "t": "Trace CR 145 from Jenkins (46.646,-94.335) to the lake on a 1930s-50s topo to find the old resort lot. Private land: ask.",
+   "src": [
+    [
+     "Dregni, Weird Minnesota (2006) (PC on-screen read of borrowed copy) p 206",
+     ""
+    ],
+    [
+     "USGS GNIS 2021 state file (lake point); NHDPlus V2.1 lake outline",
+     ""
+    ]
+   ],
+   "acm": [
+    1000,
+    "area"
+   ],
+   "pinconf": "approx",
+   "pinev": "Shore of Bertha Lake (GNIS 46.6637,-94.2535) on the Whitefish chain; resort site not yet placed"
+  },
+  {
+   "id": "wmn-widstrand-lake-constance",
+   "L": "ghost",
+   "n": "Widstrand's commune on Constance Lake (late 1870s)",
+   "la": 45.2151,
+   "lo": -93.864,
+   "y": "Late 1870s",
+   "pl": "Shore of Constance Lake (GNIS 45.2179,-93.8635), Wright County; colony land not yet placed",
+   "co": "Wright",
+   "stt": "MN",
+   "v": "Coins, buttons, household items",
+   "c": "lead",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Widstrand's utopian commune stood on Lake Constance, Wright County, in the late 1870s; the land was later lost to squatters (Dregni, Weird Minnesota 2006). Pin: the nearest shore to the GNIS lake point; the colony land has to be found on the 1879-80 Wright County plat, so this is good only to about 800 m.",
+   "t": "Find Widstrand's land on the 1879-80 Wright County plat before going. Private land: ask.",
+   "src": [
+    [
+     "Dregni, Weird Minnesota (2006) (PC on-screen read of borrowed copy) p 50",
+     ""
+    ],
+    [
+     "USGS GNIS 2021 state file (lake point); NHDPlus V2.1 lake outline",
+     ""
+    ]
+   ],
+   "acm": [
+    800,
+    "area"
+   ],
+   "pinconf": "approx",
+   "pinev": "Shore of Constance Lake (GNIS 45.2179,-93.8635), Wright County; colony land not yet placed"
+  },
+  {
+   "id": "wwi-elk-lake-dam",
+   "L": "vpo",
+   "n": "Old Elk Lake dam site (Weird Wisconsin tale)",
+   "la": 44.8349,
+   "lo": -91.7218,
+   "y": "Before 1974",
+   "pl": "Outlet of Old Elk Lake (NHDPlus), Dunn County, between Eau Claire and Menomonie",
+   "co": "Dunn",
+   "stt": "WI",
+   "v": "Coins, dam iron, fishing gear",
+   "c": "lead",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Weird Wisconsin (2005) sets a 1974 murder tale at the 'Elk Lake Dam', a dilapidated old dam between Eau Claire and Menomonie. GNIS has an Old Elk Lake here (Elk Creek Lake quad), and the pin is its outlet, where NHDPlus starts the stream that drains it. The 2018 LiDAR shows only flat wet ground at the outlet, with no embankment, so the dam left no mound or stood elsewhere on the lake; good to about 300 m. This is not the modern Elk Creek flood-control dam (WP-247) to the east.",
+   "t": "Check a 1950s-70s topo or the 1938 aerial for the dam line before going. Private land: ask.",
+   "src": [
+    [
+     "Godfrey & Hendricks, Weird Wisconsin (2005) (PC on-screen read of borrowed copy) pp 222-224",
+     ""
+    ],
+    [
+     "USGS GNIS 2021 state file (lake point); NHDPlus V2.1 lake outline",
+     ""
+    ]
+   ],
+   "acm": [
+    300,
+    "area"
+   ],
+   "pinconf": "approx",
+   "pinev": "Outlet of Old Elk Lake (NHDPlus), Dunn County, between Eau Claire and Menomonie"
+  }
+ ],
+ "edit": {}
+}

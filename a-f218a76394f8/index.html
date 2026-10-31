@@ -763,7 +763,7 @@ body.trtool #bsCard,body.trtool #qaFab{display:none!important}
           <div class="sec">
             <input type="search" id="q" placeholder="Search name, town, county, year" aria-label="Search spots">
             <div class="row">
-              <select id="stf" aria-label="State" style="width:auto"><option value="">All states</option><option value="WI">Wisconsin</option><option value="MN">Minnesota</option><option value="MI">Michigan</option></select><select id="dist" aria-label="Distance" style="width:auto"><option value="9999">Any distance</option><option value="45">Within about 1 hour</option><option value="100">Within about 2 hours</option><option value="160">Within about 3 hours</option><option value="230">Within about 4 hours</option></select><button class="chip" id="savedOnly" aria-pressed="false">★ Saved</button><button class="chip" id="ugOnly" aria-pressed="false" title="Show only spots where old ground likely survives (A and B), best first">Undisturbed ground</button>
+              <select id="stf" aria-label="State" style="width:auto"><option value="">All states</option><option value="WI">Wisconsin</option><option value="MN">Minnesota</option><option value="MI">Michigan</option><option value="IA">Iowa</option><option value="IL">Illinois</option></select><select id="dist" aria-label="Distance" style="width:auto"><option value="9999">Any distance</option><option value="45">Within about 1 hour</option><option value="100">Within about 2 hours</option><option value="160">Within about 3 hours</option><option value="230">Within about 4 hours</option></select><button class="chip" id="savedOnly" aria-pressed="false">★ Saved</button><button class="chip" id="ugOnly" aria-pressed="false" title="Show only spots where old ground likely survives (A and B), best first">Undisturbed ground</button>
               <span class="hint" id="count"></span>
             </div>
             <div class="near"><button class="btn" id="nearMe">📍 Near me</button><button class="btn" id="nearPick">Set my spot on the map</button><button class="btn" id="nearReset" hidden>Back to Eau Claire</button><span class="hint" id="nearNote">Distances are from Eau Claire.</span></div>
@@ -1519,7 +1519,7 @@ const LAYERS = [
 ];
 const LBY = Object.fromEntries(LAYERS.map(l=>[l.id,l]));
 const on = new Set(LAYERS.filter(l=>l.on).map(l=>l.id));
-const STN = {WI:'Wisconsin', MN:'Minnesota', MI:'Michigan'};
+const STN = {WI:'Wisconsin', MN:'Minnesota', MI:'Michigan', IA:'Iowa', IL:'Illinois'};
 const CONF = {model:'Computer model idea (untested)', documented:'Documented record', newspaper:'Newspaper story', legend:'Legend', rumor:'Forum rumor (unverified)'};
 const STATUS = {never:'Never found', partly:'Partly found', found:'Found', unknown:'', false:'False alarm'};
 const PREC = {mylist:'Pin from your Google Maps list',plss:'Pin is the center of the survey section named in the old record',area:'Pin marks the general area only', exact:'Pin is on the spot', approx:'Pin is approximate', town:'Pin is the town only', county:'Pin is county-level only', island:'Pin is the island only', unknown:'Place not yet known', google:'Pin checked on Google Maps', nrhp:'Pin is the National Register point', gnis:'Pin is the official USGS place point', mrds:'Pin is the USGS mine record', naip:'Pin checked on aerial photo and LiDAR', model:'Pin is the center of a model zone', topo:'Pin read off an old USGS topo map and checked on LiDAR'};
@@ -1692,9 +1692,10 @@ DATA.points.push(...[{"id": "ld-yellow-lodge", "n": "Yellow Lodge (old Rickard H
  const VAL2={Sc:'Coins, marbles, pencil ferrules, toy and school pins, lost jewelry',Ch:'Coins and lost personal items from churchgoers and socials',Ai:'Coins, aviation pins and buttons, tools',Po:'Coins, tokens, stamps tins, buttons and store goods from the store or farmhouse that held the post office',Mi:'Coins, tokens, tools, mill hardware and the change farmers dropped while waiting on their grist',Fe:"Coins and travelers' losses around the landings",St:'Coins, railroad buttons and locks, lantern parts, tokens',Ca:'Coins, buttons, CCC and camp insignia, tools, mess-kit parts',Dr:'Coins, keys, jewelry dropped in the car rows'};
  const WHY1={A0:'No building within 50 m, and woods or brush now cover the spot. A schoolyard grown over with trees has likely never been plowed or built on since it closed.',B1:'No building on the spot itself, but there are buildings within 50 m (likely the farmstead next door). The yard may be lawn or field now.',B2:'Open ground with no building within 50 m, most likely a crop field or pasture now. Plowing spreads finds through the top 8 to 10 inches, but they are still there, and fields are easy to search after harvest.',B0:'No building within 50 m; a mix of open ground and trees. Parts of the old yard likely survive.'};
  const WHY2={A0:'No building within 50 m, and woods or brush now cover the spot. Ground grown over with trees has likely never been plowed or built on since the site closed.',B1:'No building on the spot itself, but there are buildings within 50 m (likely the farmstead next door). The old yard may be lawn or field now.',B2:'Open ground with no building within 50 m, most likely a crop field or pasture now. Plowing spreads finds through the top 8 to 10 inches, but they are still there, and fields are easy to search after harvest.',B0:'No building within 50 m; a mix of open ground and trees. Parts of the old yard likely survive.'};
- const SL={WI:'Wisconsin',MN:'Minnesota',MI:'Michigan'};
+ const SL={WI:'Wisconsin',MN:'Minnesota',MI:'Michigan',IA:'Iowa',IL:'Illinois'};
  const T1="Before you go, compare a 1930s to 1960s aerial (WHAIFinder) with today's satellite view to find the building footprint and the yard; country schools usually stood right at the road, with the play yard beside or behind. Nearly all of these sit on private land: get the landowner's permission, ideally in writing, and fill every hole.";
  const T2="Before you go, compare a 1930s to 1960s aerial (WHAIFinder in Wisconsin, MHAPO in Minnesota) with today's satellite view to find the building footprint and the yard; most of these stood right at the road. Nearly all sit on private land: get the landowner's permission, ideally in writing, and fill every hole.";
+ const T2X="Before you go, compare a 1930s to 1960s aerial (the Iowa Geographic Map Server in Iowa, the ISGS 1937-47 ILHAP photos in Illinois) with today's satellite view to find the building footprint and the yard; most of these stood right at the road. Nearly all sit on private land: get the landowner's permission, ideally in writing, and fill every hole.";
  const CHK={sch:()=>' 2020 LiDAR check: ',vs:stt=>` LiDAR check (${SL[stt]} statewide survey): `,vs4:()=>' Satellite check (no LiDAR covers this spot, so this uses Overture building footprints and the ESA 10 m land-cover map): '};
  const VSP={
   get st(){ const [nm,c,map,g,pits,cem,k,kind]=this._v, sch=kind==='sch';
@@ -1704,13 +1705,15 @@ DATA.points.push(...[{"id": "ld-yellow-lodge", "n": "Yellow Lodge (old Rickard H
    st+=CHK[kind](this.stt)+(sch?WHY1:WHY2)[g]; if(pits) st+=` The LiDAR also shows ${pits} small hollow${pits>1?'s':''} within 50 m, which could be a cellar, well or privy pit marking the building spot.`;
    if(cem<400) st+=` A cemetery is ${cem} m away: stay well clear of it.`; return st; },
   set st(v){ Object.defineProperty(this,'st',{value:v,writable:true,configurable:true,enumerable:true}); },
-  get t(){ return this._v[7]==='sch'?T1:T2; },
+  get t(){ return this._v[7]==='sch'?T1:(this.stt==='IA'||this.stt==='IL')?T2X:T2; },
   set t(v){ Object.defineProperty(this,'t',{value:v,writable:true,configurable:true,enumerable:true}); } };
- const add=(rows,kind)=>{ for(const [id,nm,c,co,la,lo,map,g,pits,cem,stt0] of rows){ const sch=kind==='sch', stt=sch?'WI':stt0, k=(sch?KIND1:KIND2)[c]||'site', school=sch||['Sc','Ch','Ai','Pp'].includes(c);
+ const add=(rows,kind)=>{ for(const [id,nm,c,co,la,lo,map,g,pits,cem,stt0,rad] of rows){ const sch=kind==='sch', stt=sch?'WI':stt0, k=(sch?KIND1:KIND2)[c]||'site', school=sch||['Sc','Ch','Ai','Pp'].includes(c);
    const p=Object.create(VSP); Object.assign(p,{id:(sch?'sc-':'vs-')+id,L:school?(g[0]==='A'?'school':'school2'):'vpo',n:`${nm} site (${k})`,la,lo,co,pl:`${co} County, ${map} quad`,y:sch?'Before the 1960s':'Before 1964',v:(sch?VAL1:VAL2)[c]||'Coins, tokens, buttons, household and farm items',c:'documented',s:'unknown',p:'gnis',stt,
-    src:[['USGS GNIS feature '+id+' (historical features file, 2021)','https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/'+id]], ug:[g[0],(sch?WHY1:WHY2)[g]], _v:[nm,c,map,g,pits,cem,k,kind]});
+    src:[['USGS GNIS feature '+id+' (historical features file, 2021)','https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/'+id]], ug:[g[0],(sch?WHY1:WHY2)[g]], _v:[nm,c,map,g,pits,cem,k,kind]}); if(rad) p.acm=[rad,'gnis'];
    DATA.points.push(p); } };
- add(SCH,'sch'); add(VS2,'vs'); add(VS3,'vs'); add(VS4,'vs4'); }
+ add(SCH,'sch'); add(VS2,'vs'); add(VS3,'vs'); add(VS4,'vs4');
+ // VS5 (v279): Iowa and Illinois within 6 h; 'lid' rows were graded on 3DEP LiDAR, 'wc' rows on the satellite check
+ if(typeof VS5!=='undefined'){ add(VS5.filter(r=>r[12]!=='wc'),'vs'); add(VS5.filter(r=>r[12]==='wc'),'vs4'); } }
 // ABANDONED FARMS (v198): farmhouses on the old plat books that are gone later, one switch-on layer (off at first, kept out of the main lists until it is on); data AF_LAYER in og-data.js
 { if(typeof AF_LAYER!=='undefined'){ const KL={gone_by_1915:'af15',gone_by_1938:'af38',gone_after_1938:'af64',rebuilt:'af64'},
    KN={gone_by_1915:'gone by 1915',gone_by_1938:'gone by 1938',gone_after_1938:'gone after 1938',rebuilt:'gone by 1915, rebuilt by 1938'},
@@ -1721,7 +1724,7 @@ DATA.points.push(...[{"id": "ld-yellow-lodge", "n": "Yellow Lodge (old Rickard H
    if(r.lid_la!=null) DATA.points.push({id:r.id+'-pit',L,n:`LiDAR pit by the abandoned farm, ${where}`,la:r.lid_la,lo:r.lid_lo,co:r.co,pl:`${r.co} County${m?', '+m[0]:''}`,y:r.era,v:V,c:'documented',s:'unknown',p:'exact',stt:'WI',
     st:r.lid,src:[LS],ug:[r.lid_g||r.g,r.gw],parent:r.id}); } } }
 // CEMETERIES (v226): look-only red points, one switch-on layer like the farms; data CEM_LAYER in og-data.js
-{ if(typeof CEM_LAYER!=='undefined'){ const TIP='Never detect inside a cemetery, and keep well clear of its edges: unmarked graves often lie outside the fence or the mowed line, and in Wisconsin, Minnesota and Michigan disturbing a burial is a crime.';
+{ if(typeof CEM_LAYER!=='undefined'){ const TIP='Never detect inside a cemetery, and keep well clear of its edges: unmarked graves often lie outside the fence or the mowed line, and in Wisconsin, Minnesota, Michigan, Iowa and Illinois disturbing a burial is a crime.';
   for(const r of CEM_LAYER){ const fag=typeof r[0]==='string';
    DATA.points.push({id:fag?r[0]:'cem-'+r[0],L:'cem',n:r[1],la:r[4],lo:r[5],co:r[3],stt:r[2],pl:`${r[3]} County`,y:'',v:'None: look only',c:'documented',s:'unknown',p:fag?'gps':'gnis',
     st:fag?r[7]:`The USGS place-name file lists ${r[1]} here, placed from the ${r[6]} topographic map. Look only: no detecting or digging.`,t:TIP,
@@ -1945,7 +1948,7 @@ function stageFast(){ if(!VIEW.vb||!VIEW.W) return; const g=VIEW.vb, k=g.w/vb.w,
   stage.style.transform=`matrix(${k},0,0,${k},${tx},${ty})`; if(T3.on) T3.fast(); tilesSoon(); }
 const gmFast=stageFast, gmFastQ=stageFast; function gmCommit(){ apply(); }
 function settle(ms){ clearTimeout(GES.settle); GES.settle=setTimeout(()=>{ if(GES.ptr.size){ settle(200); return; } GES.active=false; commit(true); },ms); }
-function zoomAt(f,cx,cy){ const nw=vb.w/f; if(!(nw>0)||nw<0.015||nw>V.WI.w*2.5) return; vb={x:cx-(cx-vb.x)/f,y:cy-(cy-vb.y)/f,w:nw,h:vb.h/f};
+function zoomAt(f,cx,cy){ let nw=vb.w/f; if(!(nw>0)) return; const lo=Math.min(0.015,vb.w), hi=Math.max(V.WI.w*2.5,vb.w); if(nw<lo){ nw=lo; f=vb.w/lo; } else if(nw>hi){ nw=hi; f=vb.w/hi; } if(f===1) return; vb={x:cx-(cx-vb.x)/f,y:cy-(cy-vb.y)/f,w:nw,h:vb.h/f};
   GES.active=true; stageFast(); settle(GES.ptr.size?400:160); }
 function plZoomAnim(f,cx,cy){ let i=0; const n=9, st=Math.pow(f,1/n); const go=()=>{ zoomAt(st,cx,cy); if(++i<n) requestAnimationFrame(go); }; requestAnimationFrame(go); }
 
@@ -2241,8 +2244,8 @@ function lidarHTML(p){ const k=lidKey(p), LS=p.lid||p.lidc||(typeof LIDC!=='unde
 function researchLinks(p){
   const sat=`https://www.google.com/maps/@${p.la},${p.lo},700m/data=!3m1!1e3`;
   const topo=`https://ngmdb.usgs.gov/topoview/viewer/#14/${p.la}/${p.lo}`;
-  const air={WI:['Wisconsin historic aerials (WHAIFinder)','https://maps.sco.wisc.edu/WHAIFinder/'],MN:['Minnesota historic aerials (MHAPO)','https://apps.lib.umn.edu/mhapo/'],MI:['Historic aerials (NETR)','https://www.historicaerials.com/viewer']}[p.stt];
-  const lid={WI:['Wisconsin LiDAR and elevation','https://www.sco.wisc.edu/data/elevationlidar/'],MN:['MnTOPO LiDAR viewer','https://arcgis.dnr.state.mn.us/ewr/mntopo/'],MI:['USGS 3DEP LiDAR viewer','https://apps.nationalmap.gov/lidar-explorer/']}[p.stt];
+  const air={WI:['Wisconsin historic aerials (WHAIFinder)','https://maps.sco.wisc.edu/WHAIFinder/'],MN:['Minnesota historic aerials (MHAPO)','https://apps.lib.umn.edu/mhapo/'],MI:['Historic aerials (NETR)','https://www.historicaerials.com/viewer'],IA:['Iowa historic aerials (Iowa Geographic Map Server)','https://ortho.gis.iastate.edu/'],IL:['Illinois 1937-47 aerials (ISGS ILHAP)','https://isgs.illinois.edu/ilhap']}[p.stt];
+  const lid={WI:['Wisconsin LiDAR and elevation','https://www.sco.wisc.edu/data/elevationlidar/'],MN:['MnTOPO LiDAR viewer','https://arcgis.dnr.state.mn.us/ewr/mntopo/'],MI:['USGS 3DEP LiDAR viewer','https://apps.nationalmap.gov/lidar-explorer/'],IA:['USGS 3DEP LiDAR viewer','https://apps.nationalmap.gov/lidar-explorer/'],IL:['USGS 3DEP LiDAR viewer','https://apps.nationalmap.gov/lidar-explorer/']}[p.stt];
   return `<div class="links"><b style="font-size:13px">Cross-check this spot</b><a href="${sat}" target="_blank" rel="noopener">Satellite view (Google Maps)</a><a href="${topo}" target="_blank" rel="noopener">Old USGS topo maps here (TopoView, 1880s on)</a><a href="${air[1]}" target="_blank" rel="noopener">${air[0]}</a><a href="${lid[1]}" target="_blank" rel="noopener">${lid[0]}</a><a href="https://mrdata.usgs.gov/general/map-us.html" target="_blank" rel="noopener">USGS mineral deposits, geology and magnetic maps</a></div>`;
 }
 function detailHTML(p){
@@ -2632,7 +2635,7 @@ const uxCoarse=()=>window.matchMedia('(pointer:coarse)').matches;
 // ---- grouped pins ----
 // Simple mode shows only ranked spots on its layers; nearby pins merge into a numbered bubble until you zoom in.
 function UXdraw(vis,s){ if(!UX) return vis.filter(p=>p.id!==selId);
-  let v=vis; if(UX.simple) v=v.filter(p=>!UX.SL.has(p.L)||p.L==='mine'||RK(p)||p.id===selId);
+  let v=vis; if(UX.simple) v=v.filter(p=>!UX.SL.has(p.L)||p.L==='mine'||p.L==='treasure'||p.bur===1||RK(p)||p.id===selId);
   const rest=v.filter(p=>p.id!==selId); UX.hid=new Set(); UX.cls=[];
   if(!UX.cl||s>UX.maxS||rest.length<UX.minC){ UX.drawn=v; UX.ds=new Set(v.map(p=>p.id)); return rest; }
   const R=uxCoarse()?46:40, G=new Map(), C=[];
@@ -3341,7 +3344,7 @@ renderLayers(); drawMarkers(); renderList(); if(typeof gmSheetSync==='function')
   const tsFile=(co,stt)=>`trip-${stt}-${(co||'no-county').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')}`;
   window.tsSpots=(co,stt)=>PTS.filter(p=>p.stt===stt&&(p.co||'')===(co||'')&&/^[SA]$/.test(TIER.t(p))).sort((a,b)=>(TIER.t(a)==='S'?0:1)-(TIER.t(b)==='S'?0:1)||(TIER.get(b).sc-TIER.get(a).sc)||(a.mi||0)-(b.mi||0));
   window.tsCounties=()=>{ const m=new Map(); for(const p of PTS){ if(!/^[SA]$/.test(TIER.t(p))) continue; const k=tsKey(p), o=m.get(k)||{stt:p.stt,co:p.co||'',S:0,A:0}; o[TIER.t(p)]++; m.set(k,o); }
-    return [...m.values()].sort((a,b)=>'WIMNMI'.indexOf(a.stt)-'WIMNMI'.indexOf(b.stt)||(!a.co)-(!b.co)||a.co.localeCompare(b.co)); };
+    return [...m.values()].sort((a,b)=>'WIMNMIIAIL'.indexOf(a.stt)-'WIMNMIIAIL'.indexOf(b.stt)||(!a.co)-(!b.co)||a.co.localeCompare(b.co)); };
   const tsRules=()=>TS.rules?Promise.resolve(TS.rules):fetch('pl/rules.json',{cache:'force-cache'}).then(r=>r.ok?r.json():{}).catch(()=>({})).then(a=>TS.rules=a);
   function tsLand(p){ if(typeof window.plLookup!=='function') return Promise.resolve(null);
     return Promise.all([tsRules(),plLookup(p)]).then(([R,u])=>{ if(!u) return {ok:-1,t:'Private land, or public land not in the list. Ask the owner first; the plat book or county land records name them.'};
@@ -5511,7 +5514,7 @@ addEventListener('load',()=>{ const box=document.getElementById('drv'), row=box&
     if(!NA.on){ NA.on=true; NA.done.clear(); cands(); } else if(Date.now()-NA.ct>300000) cands();
     const pos=DRV.pos; if(!NA.d||!pos) return; const dl=NA.d/69.17*1.05, dlo=dl/Math.cos(pos.la*R), hit=[];
     for(const [p,t] of NA.cand){ if(Math.abs(p.la-pos.la)>dl||Math.abs(p.lo-pos.lo)>dlo||NA.done.has(p.id)) continue; const d=mi(pos.lo,pos.la,p.lo,p.la); if(d<=NA.d) hit.push([p,t,d]); }
-    if(!hit.length) return; hit.sort((a,b)=>a[2]-b[2]); for(const h of hit) NA.done.add(h[0].id); show(...hit[0],hit.length-1); }
+    if(!hit.length) return; hit.sort((a,b)=>a[2]-b[2]); NA.done.add(hit[0][0].id); show(...hit[0],hit.length-1); }
   NA.t=setInterval(tick,2000); window.NA=NA; });
 </script>
 <script>
@@ -5527,7 +5530,7 @@ addEventListener('load',()=>{ const box=document.getElementById('drv'), row=box&
   function rings(){ const show=on.has('_buried'); const z=vb.h<0.7;
     const k=show&&z?[vb.x,vb.y,vb.w].map(v=>v.toFixed(3)).join():''; if(k===last) return; last=k; gR.innerHTML=''; if(!k||typeof precOf!=='function') return;
     const x0=vb.x, x1=vb.x+vb.w, y0=vb.y, y1=vb.y+vb.h; let n=0;
-    for(const p of PTS){ const x=p.lo*K, y=-p.la; if(x<x0||x>x1||y<y0||y>y1) continue; if(p.bur===undefined) p.bur=BURQ(p); if(p.bur!==1) continue;
+    for(const p of PTS){ const x=p.lo*K, y=-p.la; if(x<x0||x>x1||y<y0||y>y1) continue; if(p.bur===undefined) p.bur=BURQ(p); if(p.bur!==1) continue; if(window.UX&&UX.ds&&!UX.ds.has(p.id)) continue;
       const r=precOf(p)||(PREF[p.p]?[PREF[p.p]]:null); if(!r||r[0]>20000||r[0]<30) continue; const ry=r[0]/111320, rx=ry/Math.cos(p.la*Math.PI/180)*K;
       el('ellipse',{cx:x,cy:y,rx,ry,fill:'none',stroke:'var(--L-treasure,#6d3fa0)','stroke-opacity':.55,'stroke-width':1.2,'stroke-dasharray':'3 4','vector-effect':'non-scaling-stroke'},gR); if(++n>300) break; } }
   OGE.on('draw',rings); }
@@ -6004,7 +6007,9 @@ const SSORT=(()=>{
     if(S.cache[k]&&S.cache[k].key===key) return S.cache[k].v;
     const f=SORTS[k].f, v=[]; for(const p of PTS){ if(!ok(p)) continue; let r=null; try{ r=f(p); }catch(e){ OGE.err&&OGE.err('ssort',e); } if(r){ p._ss=p._ss||{}; p._ss[k]=r; v.push(p); } }
     v.sort((a,b)=>(worked(a)-worked(b))||(b._ss[k][0]-a._ss[k][0])||(a.mi-b.mi)); S.cache[k]={key,v}; return v; }
-  S.SORTS=SORTS; S.run=run; S.obs=obs; S.placed=placed;
+  // one pin's reasons for the card: no full sort runs, so the first card open stays quick (QA 2026-10-31)
+  function one(k,p){ if(!ok(p)) return null; let r=null; try{ r=SORTS[k].f(p); }catch(_){} if(r){ p._ss=p._ss||{}; p._ss[k]=r; } return r; }
+  S.SORTS=SORTS; S.run=run; S.one=one; S.obs=obs; S.placed=placed;
   return S; })();
 
 // The Sort menu on the Spots list, a "Show on map" switch, and a "Smart sorts" line on each card
@@ -6030,7 +6035,7 @@ const SSORT=(()=>{
     document.querySelectorAll('#list .item').forEach(b=>b.onclick=()=>select(b.dataset.id,true));
     if(SSORT.map) drawMarkers(); return true; };
   // the card: which smart sorts this spot does well in
-  const _rkH=rkHTML; rkHTML=function(p){ let h=_rkH(p); try{ const ls=[]; for(const k in SSORT.SORTS){ SSORT.run(k); const r=p._ss&&p._ss[k]; if(r) ls.push(`<li><b>${SSORT.SORTS[k].n}:</b> ${esc(r[1])}</li>`); }
+  const _rkH=rkHTML; rkHTML=function(p){ let h=_rkH(p); try{ const ls=[]; for(const k in SSORT.SORTS){ const r=SSORT.one(k,p); if(r) ls.push(`<li><b>${SSORT.SORTS[k].n}:</b> ${esc(r[1])}</li>`); }
       if(ls.length) h+=`<details class="sscard"><summary>Smart sorts (${ls.length})</summary><ul class="ev">${ls.join('')}</ul></details>`; }catch(e){ OGE.err&&OGE.err('ssort card',e); } return h; };
   let k0=''; try{ k0=localStorage.getItem('og-ssort')||''; }catch(_){} if(k0) BOOT.later.add(function ssRestore(){ setSort(k0); });
   if(sel&&!document.getElementById('ssCss')) document.head.insertAdjacentHTML('beforeend','<style id="ssCss">.ssrow select{font-weight:600}.sscard{margin-top:6px;font-size:13.5px}.sscard summary{cursor:pointer;font-weight:700}#list .item .m+br+.m{opacity:.85}.ssbar{position:absolute;left:50%;transform:translateX(-50%);top:calc(104px + env(safe-area-inset-top,0px));z-index:6;display:flex;align-items:center;gap:6px;max-width:calc(100% - 120px);padding:4px 4px 4px 12px;border-radius:999px;background:var(--ink);color:var(--panel);font:700 13px var(--f-body);box-shadow:0 2px 8px color-mix(in srgb,var(--ink) 25%,transparent)}.ssbar[hidden]{display:none}.ssbar span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.ssbar button{flex:none;width:28px;height:28px;border-radius:50%;border:0;background:var(--panel);color:var(--ink);font:700 13px var(--f-body);cursor:pointer}</style>');
@@ -6290,7 +6295,7 @@ const NEG=/*NEG*/{"cr-wabeno-bank-loot-1921": ["2026-10-30", "Court/probate thre
         const r=rs.find(r=>r.o)||rs[0]; DK.c.set(p.id,r); ls(LS+p.id,r); return r; }catch(e){ err=e.name==='AbortError'?'the parcel map took too long':String(e.message||e); } }
     return c||{err}; }
   window.dkLookup=dkFind;
-  const countyQ=p=>{ const co=(p.co||'').split(/[/(]/)[0].trim(), st={WI:'Wisconsin',MN:'Minnesota',MI:'Michigan'}[p.stt]||p.stt;
+  const countyQ=p=>{ const co=(p.co||'').split(/[/(]/)[0].trim(), st={WI:'Wisconsin',MN:'Minnesota',MI:'Michigan',IA:'Iowa',IL:'Illinois'}[p.stt]||p.stt;
     return `https://www.google.com/search?q=${encodeURIComponent((co?co+' County ':'')+st+' parcel search owner GIS map')}`; };
   const me=()=>ls(ME)||{n:'',ph:'',em:'',tw:'near Eau Claire'};
   const title=s=>String(s||'').toLowerCase().replace(/\b([a-z])/g,m=>m.toUpperCase()).replace(/\b(Llc|Lp|Llp|Ii|Iii|Iv|Etal|Rlt|Po|Wi|Mn|Mi|Ia|Il|Nd|Sd)\b/g,m=>m.toUpperCase());

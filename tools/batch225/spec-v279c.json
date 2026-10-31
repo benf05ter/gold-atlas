@@ -1,0 +1,1774 @@
+{
+ "new": [
+  {
+   "id": "tw-ia-dubuque-kelly-bluff",
+   "L": "treasure",
+   "n": "Tom Kelly's buried lead-mine gold, Kelly's Bluff, Dubuque",
+   "la": 42.4958,
+   "lo": -90.6687,
+   "y": "1830s-1867; caches found 1867-68",
+   "pl": "GNIS Kellys Bluff (cliff)",
+   "co": "Dubuque",
+   "stt": "IA",
+   "v": "Hidden money or valuables (story)",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Tom Kelly, a miserly Irish lead miner, smelted his own ore from a cave on the bluff and never trusted banks. After he died (1867) his heirs dug between $4,000 and $5,000 in gold from the ground under his hut, and further caches turned up later; local tradition says much more was never found. Detectorists still report scattered gold coins on the wooded bluff side.",
+   "t": "Two separate accounts: the Dubuque Times item on the heirs' find and the \"Western Hermit\" correspondent piece on Kelly's cave. Work the wooded slope below the old hut site, and only where the owner allows; much of the bluff is now house lots. Access: city lots and wooded bluff: permission.",
+   "src": [
+    [
+     "Dubuque Times, Sept 1868, reprinted Evening Telegraph 3 Sep 1868 p1",
+     ""
+    ],
+    [
+     "\"A Western Hermit\" (correspondent, c.1868)",
+     ""
+    ],
+    [
+     "TreasureNet Treasure Legends thread 715274, 570950, 564550",
+     ""
+    ]
+   ],
+   "pinconf": "B",
+   "pinev": [
+    "Placed from the source text: GNIS Kellys Bluff (cliff)",
+    "Two separate accounts"
+   ],
+   "acm": [
+    300,
+    "report"
+   ]
+  },
+  {
+   "id": "tw-ia-patterson-sugar-camp-1907",
+   "L": "treasure",
+   "n": "Murdered man's money at the old sugar camp near Patterson",
+   "la": 41.3483,
+   "lo": -93.8805,
+   "y": "hidden before 1907; part found July 1907",
+   "pl": "GNIS Patterson (village); sugar camp \"near here\", not located",
+   "co": "Madison",
+   "stt": "IA",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "July 1907: W. A. Maulsby and B. W. Stout of Patterson dug up a considerable sum (guessed at $5,000, probably less) near the site of an old sugar camp. The money was believed hidden by a murdered man; local legends surround the spot and more was believed hidden there. Others joined the search. Pin is approximate, not the spot itself.",
+   "t": "An old sugar camp = a maple grove on a creek bottom. Find it on the 1875 Madison County atlas or the 1912 atlas (archive.org atlasofmadisonco5875midl) near Patterson, then the 1930s air photo. Access: private: permission.",
+   "src": [
+    [
+     "Evening Times-Republican (Marshalltown) 25 Jul 1907 (TN TreasureNet Treasure Legends thread 562278, 616175)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Patterson (village); sugar camp \"near here\", not located",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    2500,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-ia-palmyra-dickson-farm-1909",
+   "L": "treasure",
+   "n": "Andy Dickson's buried gold, farm 3 mi from Palmyra",
+   "la": 41.4361,
+   "lo": -93.4383,
+   "y": "died Aug 1909; dug Sept 1909",
+   "pl": "GNIS Palmyra; farm \"three miles from Palmyra and 13 miles from Indianola\", direction not given",
+   "co": "Warren",
+   "stt": "IA",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Andy Dickson died aged 80 in August 1909 at his home three miles from Palmyra. Over $12,000 was dug from the ground where he buried it, and Judge Edmund Nichols ordered the authorities back to keep searching: more than $25,000 in gold pieces was believed to be on the place. Pin is approximate, not the spot itself.",
+   "t": "Find Dickson on a 1900s-1910s Warren County plat (the 13 mi from Indianola fixes the side of Palmyra). If the court search stopped short, the rest may still be there. Access: private: permission.",
+   "src": [
+    [
+     "Indianola dispatch 28 Sep 1909 (TN TreasureNet Treasure Legends thread 625235)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Palmyra; farm \"three miles from Palmyra and 13 miles from Indianola\", direction not given",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    4800,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-ia-tipton-iwers-farm-1936",
+   "L": "treasure",
+   "n": "The Iwers brothers' hidden fortune, farm near Tipton and Sunbury",
+   "la": 41.72,
+   "lo": -91.03,
+   "y": "to 1935-36; $213,500 found by July 1936",
+   "pl": "Between Tipton and Sunbury (GNIS) and Durant (Henry Iwers buried at Durant); farm not located",
+   "co": "Cedar",
+   "stt": "IA",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Three bachelor brothers named Iwers kept their money at home. After John (1935) and Henry Iwers died, a court-ordered search of the farm turned up $213,500 by July 1936, and treasure seekers swarmed the place; Henry's body was exhumed. Searchers believed more was still hidden. Pin is approximate, not the spot itself.",
+   "t": "Place the Iwers farm on a 1930s Cedar County plat (Sunbury/Tipton area). Big money already found; the yard, outbuildings and fence lines may still hold strays. Access: private: permission.",
+   "src": [
+    [
+     "AP, Evening Star (Washington) 6 Jul 1936 and other AP copies (one wire story)",
+     ""
+    ],
+    [
+     "later feature \"Sunbury, Iowa treasure\" (TN TreasureNet Treasure Legends thread 615706, 621354, 625069)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: Between Tipton and Sunbury (GNIS) and Durant (Henry Iwers buried at Durant); farm not located",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    6000,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-ia-eldora-webster-casks-1897",
+   "L": "treasure",
+   "n": "James Webster's $50,000 in casks, tenant farm 4 mi from Eldora",
+   "la": 42.3608,
+   "lo": -93.0996,
+   "y": "buried 1893; lost by 1897",
+   "pl": "GNIS Eldora; \"four miles from Eldora\", direction not given",
+   "co": "Hardin",
+   "stt": "IA",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "When the 1893 panic came, farmer James Webster turned his property into about $50,000 in coin and buried it in casks (another copy says small boxes) on a farm he still rented. His mind failed and he could not remember the spot; he was expected to die in the county poorhouse. Pin is approximate, not the spot itself.",
+   "t": "Find Webster as a tenant on an 1890s Hardin County plat (owner name will differ). One wire story. Access: private: permission.",
+   "src": [
+    [
+     "The True Democrat (Bayou Sara, La.) 4 Sep 1897",
+     ""
+    ],
+    [
+     "Lebanon (Pa.) Daily News 17 Sep 1897 (same story) (TN TreasureNet Treasure Legends thread 490016, 677804)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Eldora; \"four miles from Eldora\", direction not given",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    6500,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-ia-clinton-robbers-cave-bluffs",
+   "L": "treasure",
+   "n": "Robbers' Cave gold in the bluffs north of Clinton",
+   "la": 41.88,
+   "lo": -90.18,
+   "y": "legend 1870s-80s; dynamited 1906",
+   "pl": "Bluffs a few miles above (north of) Clinton; cave not located",
+   "co": "Clinton",
+   "stt": "IA",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Tales of buried wealth near Robbers' Cave, a few miles above Clinton, were rife in the 1870s-80s and people spent months searching. In March 1906 trappers George Woods and C. L. Henry, guided by a dream, dynamited the cliff near the cave without result. The cave's depth was never found. Pin is approximate, not the spot itself.",
+   "t": "Find \"Robbers Cave\" on an old Clinton County map or the county history; bluffs between Clinton and Lyons/Camanche. One story printed in several papers. Access: check ownership (bluffs).",
+   "src": [
+    [
+     "Evening Times-Republican 2 Mar 1906",
+     ""
+    ],
+    [
+     "Evening Statesman (Walla Walla) 15 Mar 1906",
+     ""
+    ],
+    [
+     "West Schuylkill Press 16 Jun 1906 (TN TreasureNet Treasure Legends thread 491571, 572040, 687051)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: Bluffs a few miles above (north of) Clinton; cave not located",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    3000,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-ia-clarksville-harvey-boiler",
+   "L": "treasure",
+   "n": "Wash boiler of gold coins, old bachelor's farm near Clarksville",
+   "la": 42.7847,
+   "lo": -92.6677,
+   "y": "found early 1920s",
+   "pl": "GNIS Clarksville; farm \"near Clarksville\"",
+   "co": "Butler",
+   "stt": "IA",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Waterloo Times-Tribune: Mrs. Harvey, an elderly widow near Clarksville, dug up an old wash boiler said to hold about $100,000 in gold coins on her farm, formerly the home of an eccentric old bachelor said to have buried his money instead of banking it. She would not say how much. Pin is approximate, not the spot itself.",
+   "t": "Found, but bachelors who bury money rarely use one hole. Place the farm on a 1910s-20s Butler County plat. Access: private.",
+   "src": [
+    [
+     "Waterloo Times-Tribune report, early 1920s (TN TreasureNet Treasure Legends thread 514223)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Clarksville; farm \"near Clarksville\"",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    3000,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-ia-cedar-falls-smalling-crib-1904",
+   "L": "treasure",
+   "n": "Civil War soldier's coins under the corn crib, D. K. Smalling farm",
+   "la": 42.5278,
+   "lo": -92.4455,
+   "y": "hidden c.1861-65; found Aug 1904",
+   "pl": "GNIS Cedar Falls; farm \"near Cedar Falls\"",
+   "co": "Black Hawk",
+   "stt": "IA",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "August 1904: nearly $300 in coin was gathered where it \"oozed out of the soil\" at the old granary site on the D. K. Smalling farm. It was believed hidden about 30 years earlier by J. H. Parsons, who buried it when he went to war and never recovered it. Pin is approximate, not the spot itself.",
+   "t": "Place the Smalling farm on an 1890s-1910 Black Hawk plat. Granary and crib sites spread coins: grid around it. Access: private.",
+   "src": [
+    [
+     "Evening Times-Republican 15 Aug 1904 (TN TreasureNet Treasure Legends thread 559307)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Cedar Falls; farm \"near Cedar Falls\"",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    3000,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-ia-lake-city-bader-farm-1906",
+   "L": "treasure",
+   "n": "Henry Bader's woodshed gold, farm 9 mi NW of Lake City",
+   "la": 42.36,
+   "lo": -94.83,
+   "y": "to 1906",
+   "pl": "Moved 9 mi NW of GNIS Lake City along the line",
+   "co": "Calhoun",
+   "stt": "IA",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Nov 1906: two small boys digging in an old woodshed on the farm of the late Henry Bader, a frugal recluse, found a half-gallon bucket holding $675, mostly gold. Bader was thought to have hidden more, and a fresh search began. Pin is approximate, not the spot itself.",
+   "t": "Place Bader on a 1900s Calhoun County plat about 9 mi NW of Lake City. Access: private.",
+   "src": [
+    [
+     "Minneapolis Journal 26 Nov 1906 (TN TreasureNet Treasure Legends thread 560149)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: Moved 9 mi NW of GNIS Lake City along the line",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    2500,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-ia-fraser-joseph-brown-1911",
+   "L": "treasure",
+   "n": "Joseph Brown's gold buried about his home, Fraser",
+   "la": 42.1272,
+   "lo": -93.965,
+   "y": "to 1911",
+   "pl": "GNIS Fraser (Dodge Township)",
+   "co": "Boone",
+   "stt": "IA",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Sept 1911: Joseph Brown, a central Iowa pioneer who never trusted banks, died without telling where he had hoarded and buried gold at different places about his home at Fraser. No gold had been found.",
+   "t": "Find Brown's house in Fraser on the 1900s plat; several caches in the yard. Access: town lot: permission.",
+   "src": [
+    [
+     "Omaha Daily Bee 21 Sep 1911 (TN TreasureNet Treasure Legends thread 617660)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Fraser (Dodge Township)",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    800,
+    "report"
+   ]
+  },
+  {
+   "id": "tw-ia-rickardsville-maxwell-place-1915",
+   "L": "treasure",
+   "n": "James Maxwell's gold under the back porch, Rickardsville",
+   "la": 42.5833,
+   "lo": -90.884,
+   "y": "found Dec 1915",
+   "pl": "GNIS Rickardsville; house on the old Maxwell place in town",
+   "co": "Dubuque",
+   "stt": "IA",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Dec 1915: John Datisman's dog dug up $20 gold pieces under the back porch (east side of the kitchen) of the house on the old Maxwell place. James Maxwell, said to be miserly and to bury his money, had been killed in a railroad wreck; some coins were over 50 years old.",
+   "t": "Small village: find the Maxwell place on the 1906 Dubuque County plat. Misers bury in several spots. Access: private: permission.",
+   "src": [
+    [
+     "Dubuque dispatch 3 Dec 1915",
+     ""
+    ],
+    [
+     "Erie (Kan.) Sentinel 17 Jan 1916",
+     ""
+    ],
+    [
+     "Clarksville Leaf-Chronicle 7 Jan 1916 (same story) (TN TreasureNet Treasure Legends thread 621991, 655465, 714588)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Rickardsville; house on the old Maxwell place in town",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    400,
+    "report"
+   ]
+  },
+  {
+   "id": "tw-ia-lansing-callahan-farm-1921",
+   "L": "treasure",
+   "n": "$19,300 in gold plowed up, old Patrick Callahan farm near Lansing",
+   "la": 43.3622,
+   "lo": -91.2165,
+   "y": "found May 1921",
+   "pl": "GNIS Lansing; farm not located",
+   "co": "Allamakee",
+   "stt": "IA",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "May 1921: farm hand John Brazell's plow turned up $19,300 in gold in a glass jar on the old Patrick Callahan farm near Lansing; it had been buried many years. Pin is approximate, not the spot itself.",
+   "t": "Found, but plowed caches scatter. Place Callahan on the 1886 or 1917 Allamakee plat. Access: private.",
+   "src": [
+    [
+     "Alexandria Gazette 6 May 1921 (TN TreasureNet Treasure Legends thread 563890)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Lansing; farm not located",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    4000,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-ia-new-albin-black-hawk-gold",
+   "L": "treasure",
+   "n": "\"Black Hawk gold\": fleeing Indian's sack, Christopher Meyer farm west of New Albin",
+   "la": 43.49,
+   "lo": -91.33,
+   "y": "1832 legend; hunted to 1920s",
+   "pl": "West of New Albin (GNIS); Meyer farm with a clearing later used for the community schoolhouse and a spring half a mile on",
+   "co": "Allamakee",
+   "stt": "IA",
+   "v": "Hidden money or valuables (story)",
+   "c": "lead",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Legend (Des Moines Register 1927): a lone Indian fleeing pursuers in 1832 with a heavy two-lobed sack of plunder crossed a clearing on what became the Christopher Meyer farm; at a spring about half a mile on he was seen without the sack and was later shot. Meyer built his house between the clearing and the spring and dug for years; his daughter Dora (Mrs. Timmerman) and the school children hunted the hummocks. Pin is approximate, not the spot itself.",
+   "t": "Tall tale, but specific: the old schoolhouse clearing and the spring. Place the Meyer farm and school on the 1886/1917 Allamakee plat (GNIS historical schools west of New Albin). Access: private.",
+   "src": [
+    [
+     "Des Moines Register Sunday magazine 6 Feb 1927 (TN TreasureNet Treasure Legends thread 662389)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: West of New Albin (GNIS); Meyer farm with a clearing later used for the community schoolhouse and a spring half a mile on",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    3000,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-ia-north-mcgregor-taylor-gold",
+   "L": "treasure",
+   "n": "$80,000 of army gold said buried by Zachary Taylor's men, Mississippi bluffs near North McGregor / Waukon",
+   "la": 43.0444,
+   "lo": -91.1782,
+   "y": "legend, Black Hawk War era",
+   "pl": "GNIS Marquette (formerly North McGregor); another version places it near Waukon",
+   "co": "Clayton",
+   "stt": "IA",
+   "v": "Hidden money or valuables (story)",
+   "c": "lead",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Wire legend: four soldiers of Col. Zachary Taylor buried $80,000 in army gold in the hills on the Mississippi near North McGregor during the Black Hawk war; scores searched. A 1905 version says \"very close to where the town of Waukon now stands\" and that the government would claim it. Pin is approximate, not the spot itself.",
+   "t": "Legend with no fixed spot; Effigy Mounds National Monument and Pikes Peak State Park nearby are no-dig. Record only. Access: federal/state land near: look only.",
+   "src": [
+    [
+     "Rock Island Argus 18 Mar 1905",
+     ""
+    ],
+    [
+     "East Oregonian 19 Jun 1905 (TN TreasureNet Treasure Legends thread 619702, 559007)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Marquette (formerly North McGregor); another version places it near Waukon",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    8000,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-ia-tiffin-booty-diagram-1903",
+   "L": "treasure",
+   "n": "Escaped burglar's diagram of buried booty, southeast of Tiffin",
+   "la": 41.699,
+   "lo": -91.656,
+   "y": "Oct 1903",
+   "pl": "SE of GNIS Tiffin (pin ~0.8 km SE)",
+   "co": "Johnson",
+   "stt": "IA",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Oct 1903: an escaped Illinois prisoner carried a diagram, given him by a cell-mate, of buried loot near Tiffin. Watchers caught him pacing off distances and digging at a point southeast of the village; he fled to Oxford. Scores of Tiffin people then dug for the money; some tied it to an unknown man found murdered near Oxford. Pin is approximate, not the spot itself.",
+   "t": "Recovery not reported. Ground SE of the village. Access: private.",
+   "src": [
+    [
+     "Muscatine Journal 20 Oct 1903 (TN TreasureNet Treasure Legends thread 625397)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: SE of GNIS Tiffin (pin ~0.8 km SE)",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    1500,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-ia-dubuque-lunning-farm-1916",
+   "L": "treasure",
+   "n": "Herman Lunning's hidden money, recluse's farm near Dubuque",
+   "la": 42.5,
+   "lo": -90.664,
+   "y": "Jan 1916",
+   "pl": "PLACEHOLDER: Dubuque (farm \"near here\")",
+   "co": "Dubuque",
+   "stt": "IA",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Jan 1916: aged recluse Herman Lunning was found dying at his farm near Dubuque, struck down by robbers; he was known to have large sums of money, presumably hidden on his farm. Pin is approximate, not the spot itself.",
+   "t": "Place Lunning on the 1906 Dubuque County plat. Access: private.",
+   "src": [
+    [
+     "El Paso Herald 24 Jan 1916 (TN TreasureNet Treasure Legends thread 615030)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: PLACEHOLDER: Dubuque (farm \"near here\")",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    8000,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-ia-chariton-buchanan-cabin",
+   "L": "treasure",
+   "n": "Joseph Buchanan's money in his cabin, Chariton",
+   "la": 41.0139,
+   "lo": -93.3066,
+   "y": "Oct (year to confirm)",
+   "pl": "GNIS Chariton",
+   "co": "Lucas",
+   "stt": "IA",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Joseph Buchanan, an old man living alone, was found murdered with an axe; he was thought to have considerable money hidden in his cabin. Pin is approximate, not the spot itself.",
+   "t": "Year and cabin site needed (county history 1881/1913). Access: unknown.",
+   "src": [
+    [
+     "Clipping \"Miser found murdered\", Chariton Oct (TN TreasureNet Treasure Legends thread 596376)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Chariton",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    3000,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-ia-hamilton-bennett-miser",
+   "L": "treasure",
+   "n": "Reuben Bennett, the miser farmer of Hamilton County",
+   "la": 42.38,
+   "lo": -93.7,
+   "y": "died c.1900s",
+   "pl": "PLACEHOLDER: Hamilton County centre",
+   "co": "Hamilton",
+   "stt": "IA",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Relatives of Reuben Bennett, a miser farmer who died a few years earlier, were still searching for his buried thousands; none had been found. Pin is approximate, not the spot itself.",
+   "t": "Place Bennett on a 1890s-1900s Hamilton plat. Access: private.",
+   "src": [
+    [
+     "Clipping (TN TreasureNet Treasure Legends thread 576654)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: PLACEHOLDER: Hamilton County centre",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    15000,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-ia-barnum-barner-farm-1914",
+   "L": "treasure",
+   "n": "Stolen jewelry \"plant\" on the Steve Barner farm, 4 mi N of Barnum",
+   "la": 42.5665,
+   "lo": -94.3652,
+   "y": "June 1914",
+   "pl": "4 mi N of GNIS Barnum",
+   "co": "Webster",
+   "stt": "IA",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "June 1914: Fort Dodge officers found a cache of stolen jewelry worth thousands buried on the Steve Barner farm four miles north of Barnum, part of a scheme to rob wholesale houses (George and Frank Rentz and others). Pin is approximate, not the spot itself.",
+   "t": "Recovered by police; strays possible. Low. Access: private.",
+   "src": [
+    [
+     "Webster City Freeman 9 Jun 1914 (TN TreasureNet Treasure Legends thread 615987)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: 4 mi N of GNIS Barnum",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    1500,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-ia-steamboat-rock-gold-digging",
+   "L": "treasure",
+   "n": "Where \"1,200 or 1,500 men dug for gold\", Iowa River below Steamboat Rock",
+   "la": 42.39,
+   "lo": -93.07,
+   "y": "1850s",
+   "pl": "Iowa River just below GNIS Steamboat Rock (geologist's journal, walking downriver)",
+   "co": "Hardin",
+   "stt": "IA",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "An 1850s state geologist's field journal (quoted in the 1883 history) passed, going down the Iowa River from Steamboat Rock, \"the place where, they say, 1,200 or 1,500 men dug for gold, a few years since, before the Indians were out of the country.\" Pin is approximate, not the spot itself.",
+   "t": "A forgotten gold-rush camp: look for old pits and camp debris on the river terraces below Steamboat Rock. Pine Lake State Park and county land along the river: check rules. Access: state park/county land near: check.",
+   "src": [
+    [
+     "History of Hardin County (1883), geologist's journal 22 June (archive.org bub_gb_Mk40AQAAMAAJ)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: Iowa River just below GNIS Steamboat Rock (geologist's journal, walking downriver)",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    2500,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-ia-washington-gallup-red-oak",
+   "L": "treasure",
+   "n": "George Gallup's gallows confession: $5,000 under a red oak, NW corner of section 16",
+   "la": 41.3,
+   "lo": -91.7,
+   "y": "before 1909",
+   "pl": "PLACEHOLDER: Washington County (Clay Township neighbourhood); \"section 16 in Iowa\" township not given",
+   "co": "Washington",
+   "stt": "IA",
+   "v": "Hidden money or valuables (story)",
+   "c": "lead",
+   "s": "unknown",
+   "p": "approx",
+   "st": "George Gallup of Clay Township sold his place and deserted his family; years later word came that he was hanged in California and on the gallows said he had buried $5,000 at the foot of a red oak in the northwest corner of section 16 \"in Iowa\". It was hunted for but never found. Pin is approximate, not the spot itself.",
+   "t": "Section 16 was the school section in every township; Gallup's own land would be the first guess (1870s plat). Access: private.",
+   "src": [
+    [
+     "History of Washington County (Burrell, 1909), Clay chapter (archive.org historyofwashing00burr)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: PLACEHOLDER: Washington County (Clay Township neighbourhood); \"section 16 in Iowa\" township not given",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    8000,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-ia-iowa-city-terrell-can-1906",
+   "L": "treasure",
+   "n": "Walter Terrell's can of gold coins, across the river from his mill, Iowa City",
+   "la": 41.675,
+   "lo": -91.54,
+   "y": "died 1887; found 1906",
+   "pl": "PLACEHOLDER: Terrell's Mill area, Iowa River, north Iowa City",
+   "co": "Johnson",
+   "stt": "IA",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Following directions on a slip of paper, searchers dug up a can of gold coins on land across the river from Terrell's mill in 1906, 19 years after Walter Terrell died; some coins went to Iowa City friends as souvenirs.",
+   "t": "Found. City park land now (Terrell Mill Park): no dig. Access: city park: look only.",
+   "src": [
+    [
+     "Johnson County History (WPA, 1941) (archive.org johnsoncountyhis00writ)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: PLACEHOLDER: Terrell's Mill area, Iowa River, north Iowa City",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    800,
+    "report"
+   ],
+   "warn": "Look only: city park land, where detecting and digging are not allowed."
+  },
+  {
+   "id": "tw-ia-cherokee-adsit-yard-1915",
+   "L": "treasure",
+   "n": "Mysterious stranger's dig under the tree, W. C. Adsit yard, Cherokee",
+   "la": 42.7494,
+   "lo": -95.5517,
+   "y": "April 1915",
+   "pl": "GNIS Cherokee (city)",
+   "co": "Cherokee",
+   "stt": "IA",
+   "v": "Hidden money or valuables (story)",
+   "c": "lead",
+   "s": "unknown",
+   "p": "approx",
+   "st": "A sunken spot under a large tree in deputy treasurer W. C. Adsit's yard was left by a stranger \"from Illinois\" who borrowed a pick and shovel years before; Adsit believed treasure had been buried there. Pin is approximate, not the spot itself.",
+   "t": "Probably already taken. Record only. Access: town lot.",
+   "src": [
+    [
+     "Evening Times-Republican 28 Apr 1915 (TN TreasureNet Treasure Legends thread 619856)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Cherokee (city)",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    1500,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-ia-millersburg-race-track",
+   "L": "treasure",
+   "n": "Millersburg race track (19th century)",
+   "la": 41.5733,
+   "lo": -92.1599,
+   "y": "1870s-1900s",
+   "pl": "GNIS Millersburg; track not located",
+   "co": "Iowa",
+   "stt": "IA",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "The Williamsburg Journal-Tribune (1946) recalled the old Millersburg race track; race crowds drop coins, tokens and tack. Pin is approximate, not the spot itself.",
+   "t": "Find the oval on the 1900 Iowa County atlas (archive.org atlasofiowacount00unse) or the 1930s air photo. Access: private: permission.",
+   "src": [
+    [
+     "Williamsburg Journal Tribune 10 Oct 1946 p3 (TN TreasureNet Treasure Legends thread 676632)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Millersburg; track not located",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    1500,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-ia-columbus-jct-train-gold-1904",
+   "L": "treasure",
+   "n": "Train robbery coins, Letts to Columbus Junction (forum only)",
+   "la": 41.3,
+   "lo": -91.3,
+   "y": "1904; $10,000 found 1934",
+   "pl": "Between GNIS Letts and Columbus Junction",
+   "co": "Louisa",
+   "stt": "IA",
+   "v": "Hidden money or valuables (story)",
+   "c": "lead",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Forum post: $30,000 in gold and silver coin was taken in a train robbery near Columbus Junction in 1904; in 1934 a man digging a septic tank near Letts found $10,000 believed to be from it. Pin is approximate, not the spot itself.",
+   "t": "No newspaper seen yet; needs a 1904 and 1934 paper (PC newspapers). Access: private.",
+   "src": [
+    [
+     "TreasureNet Treasure Legends thread 679983",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: Between GNIS Letts and Columbus Junction",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    6000,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-ia-whiskey-hollow-train-1910",
+   "L": "treasure",
+   "n": "Whiskey Hollow train robbery loot, 7 mi south of Muscatine (forum only)",
+   "la": 41.35,
+   "lo": -91.1,
+   "y": "1910",
+   "pl": "PLACEHOLDER 7 mi S of Muscatine",
+   "co": "Muscatine",
+   "stt": "IA",
+   "v": "Hidden money or valuables (story)",
+   "c": "lead",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Forum post: two robbers of a train at Whiskey Hollow, about 7 mi south of Muscatine (1910), were caught near Columbus Junction with no loot, and none was reported found; amounts given range from $5,000 to nearly $50,000. Pin is approximate, not the spot itself.",
+   "t": "Needs a 1910 paper. Access: private.",
+   "src": [
+    [
+     "TreasureNet Treasure Legends thread 679984",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: PLACEHOLDER 7 mi S of Muscatine",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    4000,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-ia-silver-lake-ghost-1889",
+   "L": "treasure",
+   "n": "\"Frank James's ghost\" digging around Silver Lake near Casey",
+   "la": 41.505,
+   "lo": -94.5194,
+   "y": "1889",
+   "pl": "PLACEHOLDER Casey (GNIS); the lake not located",
+   "co": "Guthrie",
+   "stt": "IA",
+   "v": "Hidden money or valuables (story)",
+   "c": "lead",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Casey Vindicator (1889): a night figure seen around Silver Lake was said to be hunting buried treasure (newspapers called it Frank James's ghost). Pin is approximate, not the spot itself.",
+   "t": "Tall tale. Record only. Access: unknown.",
+   "src": [
+    [
+     "Casey Vindicator via Oakes (N.D.) Weekly Republican 12 Apr 1889 (TN TreasureNet Treasure Legends thread 560258, 616775)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: PLACEHOLDER Casey (GNIS); the lake not located",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    4000,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-ia-marshalltown-mcknight-1907",
+   "L": "treasure",
+   "n": "Honora McKnight's money hidden \"in strange places\", Marshalltown",
+   "la": 42.0494,
+   "lo": -92.908,
+   "y": "May 1907",
+   "pl": "GNIS Marshalltown",
+   "co": "Marshall",
+   "stt": "IA",
+   "v": "Hidden money or valuables (story)",
+   "c": "lead",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Aged recluse Honora McKnight burned to death; she was known to keep money hidden about the house in strange places. Pin is approximate, not the spot itself.",
+   "t": "House lot in town; record only. Access: town lot.",
+   "src": [
+    [
+     "Wibaux Pioneer 16 May 1907 (TN TreasureNet Treasure Legends thread 564252)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Marshalltown",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    2000,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-ia-grundy-center-ludtke-1907",
+   "L": "treasure",
+   "n": "Herman Ludtke, Grundy Center \"man of mystery\"",
+   "la": 42.3617,
+   "lo": -92.7685,
+   "y": "Aug 1907",
+   "pl": "GNIS Grundy Center",
+   "co": "Grundy",
+   "stt": "IA",
+   "v": "Hidden money or valuables (story)",
+   "c": "lead",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Musician Herman Ludtke died at the county poor farm; he was thought to have hidden money. Pin is approximate, not the spot itself.",
+   "t": "Record only. Access: unknown.",
+   "src": [
+    [
+     "Evening Times-Republican 24 Aug 1907 (TN TreasureNet Treasure Legends thread 665752)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Grundy Center",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    2000,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-ia-webster-city-lempke-hut-1906",
+   "L": "treasure",
+   "n": "Old Lempke's miser hut at the edge of Webster City",
+   "la": 42.4694,
+   "lo": -93.8161,
+   "y": "1906",
+   "pl": "GNIS Webster City",
+   "co": "Hamilton",
+   "stt": "IA",
+   "v": "Hidden money or valuables (story)",
+   "c": "lead",
+   "s": "unknown",
+   "p": "approx",
+   "st": "An aged miser lived for years in a tumble-down hut at the edge of town and was believed to have money stored away; his son F. C. Lempke of Chicago begged him to leave. Pin is approximate, not the spot itself.",
+   "t": "Record only. Access: unknown.",
+   "src": [
+    [
+     "Evening Times-Republican 23 Aug 1906 (TN TreasureNet Treasure Legends thread 564443)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Webster City",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    2000,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-ia-beaver-island-box-1897",
+   "L": "treasure",
+   "n": "Iron box of gold and notes dug on Beaver Island, Clinton",
+   "la": 41.8125,
+   "lo": -90.204,
+   "y": "found Oct 1897",
+   "pl": "GNIS Beaver Island",
+   "co": "Clinton",
+   "stt": "IA",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Oct 1897: Adolph Johnson, 16, digging fish bait on Beaver Island in the south part of Clinton, struck an iron box with gold and paper money reported as $50,000 (another copy $90,000). Who buried it was never known. Pin is approximate, not the spot itself.",
+   "t": "Found. Island is Mississippi bottomland, largely public: check rules. Access: public river island: check.",
+   "src": [
+    [
+     "Roanoke Times 31 Oct 1897",
+     ""
+    ],
+    [
+     "Harrisburg Telegraph 29 Oct 1897 (same story) (TN TreasureNet Treasure Legends thread 556515, 621076)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Beaver Island",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    1500,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-il-paw-paw-grove-banditti",
+   "L": "treasure",
+   "n": "Paw Paw Grove banditti: tavern doubloons and the prairie silver",
+   "la": 41.6881,
+   "lo": -88.9393,
+   "y": "1830s-1840s; finds 1840s-50s",
+   "pl": "GNIS East Paw Paw (the Wirick tavern stood in East Paw Paw)",
+   "co": "Lee",
+   "stt": "IL",
+   "v": "Hidden money or valuables (story)",
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Paw Paw Grove was a rendezvous of the horse-thief and counterfeiting gang (\"Bogus\" Gates, John Bryant, Bill Rogers, Webber). A guest at Jacob Wirick's tavern in East Paw Paw, later jailed for horse stealing, buried his sack of money near a fence and marked it with a notched stick; Harris Breese found the stick and with Robert Hampton dug up $900 in Spanish doubloons. Ten or twelve years after the gang left, two settlers found about $800 in silver coin buried on the prairie. Pin is approximate, not the spot itself.",
+   "t": "Two separate county histories (DeKalb 1868, Lee 1914). Both known caches were found; the gang's grove west of Paw Paw and the tavern site are the hunting ground. Access: private: permission.",
+   "src": [
+    [
+     "History of DeKalb County (Boies, 1868), Paw Paw township (archive.org historyofdekalbc00boie)",
+     ""
+    ],
+    [
+     "History of Lee County (Stevens, 1914) p.508-509 (archive.org historyleecount01stevgoog)",
+     ""
+    ]
+   ],
+   "pinconf": "B",
+   "pinev": [
+    "Placed from the source text: GNIS East Paw Paw (the Wirick tavern stood in East Paw Paw)",
+    "Two separate accounts"
+   ],
+   "acm": [
+    1500,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-il-crow-creek-reeves-claim",
+   "L": "treasure",
+   "n": "George Reeves' claim on Crow Creek, where the old lady came back for \"hidden treasure\"",
+   "la": 41.0603,
+   "lo": -89.4054,
+   "y": "1830s-1840s",
+   "pl": "PLACEHOLDER on Crow Creek (GNIS), Whitefield Twp T13N R9E; claim \"partly prairie, partly timbered bluff\"",
+   "co": "Marshall",
+   "stt": "IL",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "The Reeves brothers took the first claim in Whitefield township on Crow Creek. George Reeves' family was tied to the freebooters in the creek ravines; a mob burned his cabin, sold his stock and shipped the family downriver by steamboat. It was thought the old lady returned months later to recover hidden treasure. Pin is approximate, not the spot itself.",
+   "t": "Find the Reeves claim on the GLO tract book / 1870 Marshall atlas (LoC \"Atlas of Marshall Co. 1870\"). Access: private.",
+   "src": [
+    [
+     "Past and Present of Marshall and Putnam Counties (1907), Whitefield chapter (archive.org pastpresentofmar00burt)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: PLACEHOLDER on Crow Creek (GNIS), Whitefield Twp T13N R9E; claim \"partly prairie, partly timbered bluff\"",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    2500,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-il-bulbona-grove-trading-post",
+   "L": "treasure",
+   "n": "Old Bulbona's trading post farm (Spanish coin of 1786 found), Bureau County",
+   "la": 41.365,
+   "lo": -89.584,
+   "y": "1820s-1830s; coin found c.1900",
+   "pl": "PLACEHOLDER near Wyanet (Bulbona Grove); Mount farm not located",
+   "co": "Bureau",
+   "stt": "IL",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "The Mount farm near Wyanet was where \"old Bulbona\" (Bourbonnais), a mixed-blood trader, his Indian wife and children lived and traded with the Indians. Mrs. Mount found a 1786 Spanish silver coin among her plants. Pin is approximate, not the spot itself.",
+   "t": "A trading-post site: trade silver, coins, beads. Place Bulbona Grove on the 1875/1905 Bureau atlas (LoC 1905 atlas). Access: private: permission.",
+   "src": [
+    [
+     "Past and Present of Bureau County (1906) p.322 (archive.org pastpresentofbur00harr)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: PLACEHOLDER near Wyanet (Bulbona Grove); Mount farm not located",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    2500,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-il-hennepin-feeder-spanish-chest-1901",
+   "L": "treasure",
+   "n": "Iron chest of Spanish coins dug from the Hennepin Canal, 20 mi south of Sterling",
+   "la": 41.4,
+   "lo": -89.7,
+   "y": "found Aug 1901",
+   "pl": "Hennepin Canal feeder about 20 mi S of Sterling (feeder meets the main line near Sheffield/Wyanet)",
+   "co": "Bureau",
+   "stt": "IL",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Aug 1901: canal excavators found an iron chest ten feet down, first taken for petrified wood, holding about $4,000 in Spanish coins, many dated 1668 and some earlier. Pin is approximate, not the spot itself.",
+   "t": "Found. The canal is Hennepin Canal Parkway State Park: no detecting on park land. Access: state park: look only.",
+   "src": [
+    [
+     "Inter Ocean 18 Aug 1901 p6 (Sterling dispatch)",
+     ""
+    ],
+    [
+     "Woodford County Journal 26 Sep 1901",
+     ""
+    ],
+    [
+     "Pine Grove Press Herald 9 Aug 1901 (same story) (TN TreasureNet Treasure Legends thread 626363, 663856, 715127)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: Hennepin Canal feeder about 20 mi S of Sterling (feeder meets the main line near Sheffield/Wyanet)",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    6000,
+    "area"
+   ],
+   "warn": "Look only: state park land, where detecting and digging are not allowed."
+  },
+  {
+   "id": "tw-il-dover-hudson-jar-1913",
+   "L": "treasure",
+   "n": "James Hudson's $1,200 he hid twice, farm at Dover",
+   "la": 41.4367,
+   "lo": -89.3934,
+   "y": "1913",
+   "pl": "GNIS Dover; small farm \"here\"",
+   "co": "Bureau",
+   "stt": "IL",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "James Hudson came back from the West, bought a small farm at Dover and buried $1,200 in an earthen jar; fox hunters' dogs dug it up and brought it to him, and he hid it again so well his failing memory lost it. Pin is approximate, not the spot itself.",
+   "t": "Place Hudson on a 1910s Bureau plat. Access: private.",
+   "src": [
+    [
+     "Republican and Herald 22 Nov 1913 p3 and other copies (TN TreasureNet Treasure Legends thread 700240, 708682)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Dover; small farm \"here\"",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    1500,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-il-persifer-court-creek-kettle",
+   "L": "treasure",
+   "n": "Indian woman's iron kettle of gold and silver, banks of Court Creek (Persifer Township)",
+   "la": 40.9181,
+   "lo": -90.1112,
+   "y": "1830s",
+   "pl": "GNIS Court Creek near Dahinda",
+   "co": "Knox",
+   "stt": "IL",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Portrait and Biographical Album of Knox County (1886): an Indian woman living in Persifer township had gathered gold and silver; leaving with her tribe, she buried part of it in one of her iron kettles on the banks of Court Creek. Her son came back for it but could not find it. Pin is approximate, not the spot itself.",
+   "t": "Creek banks flood and shift; a kettle reads big on a detector. Spot unknown along the creek in Persifer Twp. Access: private: permission.",
+   "src": [
+    [
+     "Portrait and Biographical Album of Knox County (1886) (TN TreasureNet Treasure Legends thread 55361)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Court Creek near Dahinda",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    4000,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-il-eureka-onnen-henhouse",
+   "L": "treasure",
+   "n": "Henry Onnen's fruit jars under the henhouse, and the missing coin collection, Eureka",
+   "la": 40.7214,
+   "lo": -89.2729,
+   "y": "died Oct 1940; dug 1940-42",
+   "pl": "GNIS Eureka; Onnen's place not located",
+   "co": "Woodford",
+   "stt": "IL",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Recluse Henry W. Onnen, who scorned banks and courts, left a pencilled will on a 1937 calendar telling three nephews to dig under the henhouse \"all at once\". They found about $7,000 in eight fruit jars; the heirs then fought in court over money and a coin collection that seemed to be missing. Pin is approximate, not the spot itself.",
+   "t": "Place Onnen's farm on a 1930s Woodford plat. The missing part may be elsewhere on the place. Access: private.",
+   "src": [
+    [
+     "AP, Eureka 3 Oct (1941)",
+     ""
+    ],
+    [
+     "The Pantagraph 2 Oct 1942 (TN TreasureNet Treasure Legends thread 115316, 621555)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Eureka; Onnen's place not located",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    2000,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-il-alexis-garnett-barn-1913",
+   "L": "treasure",
+   "n": "North Henderson bank loot hidden in Richard Garnett's barn, 2.5 mi NE of Alexis",
+   "la": 41.09,
+   "lo": -90.52,
+   "y": "May 1913",
+   "pl": "2.5 mi NE of GNIS Alexis (lands in Mercer County)",
+   "co": "Mercer",
+   "stt": "IL",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "May 1913: robbers Charles Wilson and Frank Shea took $1,900 from the North Henderson bank; $639.75 was found in a barn on Richard Garnett's farm 2.5 mi NE of Alexis, and the rest (about $1,260) was not reported found. Other gang members were still at large. Pin is approximate, not the spot itself.",
+   "t": "Place Garnett on a 1910s Mercer/Warren plat. Access: private.",
+   "src": [
+    [
+     "Rock Island Argus 19 May 1913 p6 (TN TreasureNet Treasure Legends thread 552815, 561106, 605913)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: 2.5 mi NE of GNIS Alexis (lands in Mercer County)",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    1000,
+    "report"
+   ]
+  },
+  {
+   "id": "tw-il-dekalb-yocum-jar-1939",
+   "L": "treasure",
+   "n": "Ray Yocum's forgotten fruit jar of $100 bills, DeKalb back yard",
+   "la": 41.9295,
+   "lo": -88.7504,
+   "y": "buried Nov 1938; dug 1939",
+   "pl": "GNIS DeKalb (city)",
+   "co": "DeKalb",
+   "stt": "IL",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Ray Yocum buried $2,300 in $100 bills in a fruit jar in his back yard one night in Nov 1938, forgot to mark it, and was still digging two months later in July 1939. Pin is approximate, not the spot itself.",
+   "t": "Town lot; outcome unknown. Access: town lot.",
+   "src": [
+    [
+     "AP, Los Angeles Times 2 Jul 1939 (TN TreasureNet Treasure Legends thread 620846)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS DeKalb (city)",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    2000,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-il-rochelle-rr-bridge-coins-1964",
+   "L": "treasure",
+   "n": "$500 in stolen coins in a pillowcase under a railroad bridge, Rochelle",
+   "la": 41.9239,
+   "lo": -89.0687,
+   "y": "April 1964",
+   "pl": "GNIS Rochelle; bridge not named",
+   "co": "Ogle",
+   "stt": "IL",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "April 1964: two men admitted burgling $500 in coins from a Rochelle grocery and said they hid them in a pillowcase under a railroad bridge in town; police never found the coins. Pin is approximate, not the spot itself.",
+   "t": "Small. Railroad property: permission. Access: railroad: permission.",
+   "src": [
+    [
+     "Dixon Evening Telegraph 21 Apr 1964 (TN TreasureNet Treasure Legends thread 720246)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Rochelle; bridge not named",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    1500,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-il-northbrook-tatge-1924",
+   "L": "treasure",
+   "n": "Ferdinand Tatge's supposed hidden fortune, farm at Northbrook",
+   "la": 42.1275,
+   "lo": -87.829,
+   "y": "Jan 1924",
+   "pl": "GNIS Northbrook; farm not located",
+   "co": "Cook",
+   "stt": "IL",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Jan 1924: wealthy recluse Ferdinand Tatge was tortured and murdered by thugs hunting his supposed hidden fortune; his body was found in the corncrib on his farm. Pin is approximate, not the spot itself.",
+   "t": "Northbrook is built up: find the farm on a 1920s plat, likely suburb now. Access: suburban: check.",
+   "src": [
+    [
+     "Clipping 12 Jan 1924 (TN TreasureNet Treasure Legends thread 671886)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Northbrook; farm not located",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    2000,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-il-deerfield-schulz-jar-1920",
+   "L": "treasure",
+   "n": "Fruit jar of 1850s gold dug on Adolph Schulz's new farm near Deerfield",
+   "la": 42.1711,
+   "lo": -87.8445,
+   "y": "found Sept 1920",
+   "pl": "GNIS Deerfield (\"Dearfield\" in the clipping)",
+   "co": "Lake",
+   "stt": "IL",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Sept 1920: digging on his newly bought farm near Deerfield, Adolph Schulz found an old fruit jar with $1,800 in gold coins dated about 1850, and began digging over the whole place for more. Pin is approximate, not the spot itself.",
+   "t": "Likely suburb now. Access: suburban: check.",
+   "src": [
+    [
+     "Omaha Daily Bee 23 Sep 1920 (TN TreasureNet Treasure Legends thread 617206)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Deerfield (\"Dearfield\" in the clipping)",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    3000,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-il-south-chicago-mattson-1905",
+   "L": "treasure",
+   "n": "Fisherman Andrew Mattson's $8,000 on the lake shore, Calumet Park to the Indiana line",
+   "la": 41.7184,
+   "lo": -87.5292,
+   "y": "Dec 1905",
+   "pl": "GNIS Calumet Park (Cook, lakefront) to the state line, half a mile",
+   "co": "Cook",
+   "stt": "IL",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Dec 1905: Andrew Mattson, the \"hermit fisherman\" of South Chicago, told his wife of $8,000 saved over 30 years and buried somewhere on the lake shore between Calumet Park and the Indiana line; he lost his speech that night and died. Hundreds searched.",
+   "t": "Lakefront is park and industry now: check rules. Access: city park/industrial: check.",
+   "src": [
+    [
+     "Los Angeles Herald 31 Dec 1905 p3 (TN TreasureNet Treasure Legends thread 512878)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Calumet Park (Cook, lakefront) to the state line, half a mile",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    800,
+    "report"
+   ]
+  },
+  {
+   "id": "tw-il-fullersburg-kammeyer-mill-1934",
+   "L": "treasure",
+   "n": "CCC worker's tin box of old bills in the Kammeyer grist mill wall, Fullersburg",
+   "la": 41.8181,
+   "lo": -87.9184,
+   "y": "found March 1934",
+   "pl": "GNIS Fullersburg",
+   "co": "DuPage",
+   "stt": "IL",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "March 1934: CCC worker Stanley Wojtyslak, razing the 100-year-old Kammeyer grist mill at Fullersburg, chopped into a brick wall and a tin box of old $10 and $20 bills (about $4,200) fell out.",
+   "t": "Found. Fullersburg Woods is a forest preserve: no detecting. Access: forest preserve: look only.",
+   "src": [
+    [
+     "UP, Salt Lake Telegram 19 Mar 1934 (TN TreasureNet Treasure Legends thread 626051)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Fullersburg",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    500,
+    "report"
+   ],
+   "warn": "Look only: forest preserve land, where detecting and digging are not allowed."
+  },
+  {
+   "id": "tw-il-trask-bridge-grange-picnic",
+   "L": "treasure",
+   "n": "Burritt Grange picnic grove at Trask Bridge (20,000 people, 1920)",
+   "la": 42.3692,
+   "lo": -89.2623,
+   "y": "1910s-1920s",
+   "pl": "GNIS Trask Bridge; grove NW of the bridge (now forest preserve)",
+   "co": "Winnebago",
+   "stt": "IL",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Aug 1920: nearly 20,000 people attended the Burritt Grange picnic at the Trask Bridge grove, twice any earlier crowd.",
+   "t": "Forest preserve now: look only. Access: forest preserve: look only.",
+   "src": [
+    [
+     "Belvidere Daily Republican 26 Aug 1920 p1 (TN TreasureNet Treasure Legends thread 712726)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Trask Bridge; grove NW of the bridge (now forest preserve)",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    400,
+    "report"
+   ],
+   "warn": "Look only: forest preserve land, where detecting and digging are not allowed."
+  },
+  {
+   "id": "tw-il-dixon-mail-plane-diamonds-1929",
+   "L": "treasure",
+   "n": "Black diamonds lost in a mail-plane crash in a swamp (Dixon / Moline accounts)",
+   "la": 41.8389,
+   "lo": -89.4795,
+   "y": "March 1929",
+   "pl": "PLACEHOLDER Dixon; one copy says near Moline",
+   "co": "Lee",
+   "stt": "IL",
+   "v": "Hidden money or valuables (story)",
+   "c": "lead",
+   "s": "unknown",
+   "p": "approx",
+   "st": "132 black diamonds worth $30,000 were lost when a mail plane crashed and burned in a swamp in March 1929; muck was sifted at Dixon and in New York, 103 stones were recovered and diggers kept sifting for the rest (about $5,000). Pin is approximate, not the spot itself.",
+   "t": "Crash site must be fixed first (Dixon Evening Telegraph March 1929, PC). Access: unknown.",
+   "src": [
+    [
+     "Elizabeth City Independent 26 Apr 1929",
+     ""
+    ],
+    [
+     "AP, Evening Star 4 Jun 1929 (TN TreasureNet Treasure Legends thread 595260)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: PLACEHOLDER Dixon; one copy says near Moline",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    10000,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-il-bureau-junction-wade-pot",
+   "L": "treasure",
+   "n": "The magician Wade's pot of gold in the bluff near Bureau Junction",
+   "la": 41.2892,
+   "lo": -89.3665,
+   "y": "1840s",
+   "pl": "PLACEHOLDER GNIS Bureau (Bureau Junction)",
+   "co": "Bureau",
+   "stt": "IL",
+   "v": "Hidden money or valuables (story)",
+   "c": "lead",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Matson (1872): the \"magician\" Wade of Dover persuaded two Dover men that a pot of gold lay in the bluff near Bureau Junction; they dug a gravel knoll all day while he watched it \"move\" in his hat. Pin is approximate, not the spot itself.",
+   "t": "Swindle story. Record only. Access: unknown.",
+   "src": [
+    [
+     "Reminiscences of Bureau County (Matson, 1872) pp.372-374",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: PLACEHOLDER GNIS Bureau (Bureau Junction)",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    3000,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-il-kewanee-johnston-1897",
+   "L": "treasure",
+   "n": "Bachelor James Johnston's secret hoard, farm near Kewanee",
+   "la": 41.2456,
+   "lo": -89.9248,
+   "y": "Aug 1897",
+   "pl": "GNIS Kewanee",
+   "co": "Henry",
+   "stt": "IL",
+   "v": "Hidden money or valuables (story)",
+   "c": "lead",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Aug 1897: masked men bound and gagged wealthy bachelor farmer James Johnston and searched the house for the secret hoard they believed he had. Pin is approximate, not the spot itself.",
+   "t": "Record only. Access: private.",
+   "src": [
+    [
+     "Rock Island Argus 13 Aug 1897 (TN TreasureNet Treasure Legends thread 618036)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Kewanee",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    5000,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-il-elgin-force-gold",
+   "L": "treasure",
+   "n": "Jonathan Force's family-legend gold, Elgin fruit farm",
+   "la": 42.043,
+   "lo": -88.27,
+   "y": "c.1865-1890s",
+   "pl": "Force's 40 acres east of N. Liberty St between Park St and Linden Ave, Elgin (house at 625 Park St)",
+   "co": "Kane",
+   "stt": "IL",
+   "v": "Hidden money or valuables (story)",
+   "c": "lead",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Jonathan Force scorned paper money and used only gold; family legend says he buried gold on his Elgin land. A great-grandson wrote \"It's thar somewheres.\"",
+   "t": "City lots now. Record only. Access: city lots.",
+   "src": [
+    [
+     "Elgin local-history column via TreasureNet Treasure Legends thread 113899",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: Force's 40 acres east of N. Liberty St between Park St and Linden Ave, Elgin (house at 625 Park St)",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    400,
+    "report"
+   ]
+  },
+  {
+   "id": "tw-il-chicago-conway-state-st",
+   "L": "treasure",
+   "n": "Felix Conway's gold under the back yard, 1200 block N. State St, Chicago",
+   "la": 41.9045,
+   "lo": -87.6283,
+   "y": "1868",
+   "pl": "1200 block of N. State St",
+   "co": "Cook",
+   "stt": "IL",
+   "v": "Hidden money or valuables (story)",
+   "c": "lead",
+   "s": "unknown",
+   "p": "approx",
+   "st": "A 1950 press-agent tale: cattle buyer Felix Conway hid $200,000-$250,000 in gold in his back yard (or privy) in 1868 to keep it from his estranged wife.",
+   "t": "Built over. Record only. Access: built over.",
+   "src": [
+    [
+     "Chicago Tribune 8 May 1950 p20",
+     ""
+    ],
+    [
+     "Miami item (TN TreasureNet Treasure Legends thread 38771, 67635)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: 1200 block of N. State St",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    150,
+    "report"
+   ]
+  },
+  {
+   "id": "tw-il-chicago-white-feather",
+   "L": "treasure",
+   "n": "White Feather's $20,000 buckskin bag, southwest of early Chicago",
+   "la": 41.8,
+   "lo": -87.75,
+   "y": "1830s legend",
+   "pl": "PLACEHOLDER SW Chicago",
+   "co": "Cook",
+   "stt": "IL",
+   "v": "Hidden money or valuables (story)",
+   "c": "lead",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Chicago News legend (1883): chief White Feather fled with $20,000 from the lake-front sale and was overtaken and killed several miles southwest of the settlement; the money was never found. Pin is approximate, not the spot itself.",
+   "t": "Legend, built over. Record only. Access: built over.",
+   "src": [
+    [
+     "Forest Republican 19 Sep 1883",
+     ""
+    ],
+    [
+     "Weekly Register 12 Nov 1884 (TN TreasureNet Treasure Legends thread 598887, 619098)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: PLACEHOLDER SW Chicago",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    8000,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-il-arsenal-island-davenport-1845",
+   "L": "treasure",
+   "n": "Col. George Davenport's money, Arsenal Island (1845 murder)",
+   "la": 41.5188,
+   "lo": -90.5416,
+   "y": "July 1845",
+   "pl": "GNIS Rock Island Arsenal",
+   "co": "Rock Island",
+   "stt": "IL",
+   "v": "Hidden money or valuables (story)",
+   "c": "lead",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Robbers who murdered Col. George Davenport on 4 July 1845 were after at least $20,000 believed kept in his house on the island. Pin is approximate, not the spot itself.",
+   "t": "Federal arsenal: look only. Access: federal: look only.",
+   "src": [
+    [
+     "Forum history post (TN TreasureNet Treasure Legends thread 118095)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Rock Island Arsenal",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    1500,
+    "area"
+   ],
+   "warn": "Look only: federal land, where detecting and digging are not allowed."
+  }
+ ],
+ "edit": {}
+}
