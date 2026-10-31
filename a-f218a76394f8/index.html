@@ -7043,4 +7043,8 @@ const NEG=/*NEG*/{"tw-fountain-city-gold-bar-1913": ["2026-10-30", "Treasure-web
   document.addEventListener('visibilitychange',()=>{ if(document.hidden) pass(); });
 })();
 </script>
+<script>
+// TOV (v283v): a lead thread's grade wins over the best-spot score when the card sets p.tov (e.g. an unproven legend on look-only land stays a visible D, not F); p.tovw is the reason shown
+if(typeof TIER==='object'){ const g=TIER.get; TIER.get=p=>{ const b=g(p); return p.tov?{t:p.tov,sc:b.sc,w:p.tovw||b.w,k:b.k}:b; }; TIER.t=p=>TIER.get(p).t; }
+</script>
 </body></html>
