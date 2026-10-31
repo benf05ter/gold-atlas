@@ -5319,6 +5319,8 @@ var PLATS=[{id:'chippewa',label:'Chippewa 1913',b:[-91.6676,-90.9203,44.855,45.2
   {id:'houston71',label:'Houston MN 1871',b:[-91.73133, -91.24195, 43.49729, 43.85382],f:'plat_houston_1871',dir:'om13',tile:'p-houston71'},
   {id:'menominee98',label:'Menominee MI 1898',b:[-87.90622, -87.24531, 45.08975, 45.98937],f:'plat_menominee_1898',dir:'om13',tile:'p-menominee98'},
   {id:'menominee12',label:'Menominee MI 1912',b:[-87.69921, -87.26055, 45.28717, 45.98599],f:'plat_menominee_1912',dir:'om13',tile:'p-menominee12'},
+  {id:'hancock05',label:'Hancock IA 1905',b:[-93.971604,-93.497325,42.90762,43.255676],f:'plat_hancock_1905',dir:'om13',tile:'p-hancock-1905'},
+  {id:'butler95',label:'Butler IA 1895',b:[-93.026994,-92.554167,42.555617,42.907621],f:'plat_butler_1895',dir:'om13',tile:'p-butler-1895'},
   {id:'gogebic87',label:'Gogebic/Ontonagon MI 1887',b:[-90.42601, -88.94263, 46.09643, 46.94767],f:'plat_gogebic_ontonagon_1887',dir:'om13',tile:'p-gogebic87'}];
 { const g13=el('g',{},gBase); gBase.insertBefore(g13,gBelt); g13.style.display='none';
   for(const p of PLATS){ const [ix,iy]=P(p.b[0],p.b[3]); p.im=el('image',{x:ix,y:iy,width:(p.b[1]-p.b[0])*K,height:p.b[3]-p.b[2],preserveAspectRatio:'none','data-f':p.f},g13); }
