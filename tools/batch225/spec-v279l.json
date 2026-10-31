@@ -1,0 +1,35 @@
+{
+ "new": [],
+ "edit": {
+  "vs-2052225": {
+   "set": {
+    "acm": [
+     200,
+     "plat"
+    ]
+   },
+   "src": [
+    [
+     "Standard Atlas of Olmsted County, Minnesota (Geo. A. Ogle & Co., Chicago, 1896), University of Minnesota Borchert Map Library",
+     "https://umedia.lib.umn.edu/search?q=standard%20atlas%20of%20olmsted%20county%201896"
+    ]
+   ],
+   "st": " The 1896 Ogle atlas village inset (Farmington township) puts Potsdam on the common corner of secs. 11, 12, 13 and 14, where the pin sits. It shows a general store on the corner lot in the SW corner of sec. 12, a harness shop in the SE corner of sec. 11, a school and church on the north edge of sec. 13, St. Immanuel's church and cemetery (5.98 acres) in sec. 13, and a feed mill in sec. 14. Church and cemetery ground is look-only."
+  },
+  "vs-2050491": {
+   "set": {
+    "acm": [
+     250,
+     "plat"
+    ]
+   },
+   "src": [
+    [
+     "Standard Atlas of Houston County, Minnesota (Geo. A. Ogle & Co., Chicago, 1896), University of Minnesota Borchert Map Library",
+     "https://umedia.lib.umn.edu/search?q=standard%20atlas%20of%20houston%20county%201896"
+    ]
+   ],
+   "st": " The 1896 Ogle atlas puts WILMINGTON P.O. in the south part of sec. 15, with a general store, a creamery and a third small lot (likely a blacksmith) by the north-south road just north of the east-west road, where the pin sits. The town hall and school stood at the north edge of sec. 21 by the sec. 16/21 line."
+  }
+ }
+}
