@@ -2,11 +2,11 @@
  "new": [],
  "edit": {
   "vs-2064856": {
-   "st": " A county plat book read for this pin (UMedia) shows a school and church at the sec. 10/11 line that may be the Wangs settlement; the reading gave T111N R17W, while this GNIS point is in sec. 22 T111N R18W, so the match is a guess and the pin stays at GNIS.",
+   "st": " The 1894 Foote plat book prints \"WANGS P.O.\" in Warsaw township, T111N R18W, at the south end of the sec. 21/22 line, with a store and wagon shop and School No. 128 across in sec. 22. This agrees with the pin.",
    "src": [
     [
-     "Goodhue County plat book (UMedia, University of Minnesota)",
-     ""
+     "Foote, Plat book of Goodhue County, Minnesota (1894), Warsaw twp p. 33",
+     "https://umedia.lib.umn.edu/item/p16022coll231:1853"
     ]
    ]
   },
