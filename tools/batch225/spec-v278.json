@@ -1,0 +1,27 @@
+{
+ "new": [],
+ "edit": {
+  "cd-chippewa-falls-wigwam-pavilion-1921": {
+   "st": " Still running in August 1922: \"Cool dance? Where? At the Wigwam Wednesday evening\" (Chippewa Herald-Telegram, 15 Aug 1922, p. 1).",
+   "src": [
+    [
+     "Chippewa Herald-Telegram, 15 Aug 1922, p. 1 (newspapers.com)",
+     ""
+    ]
+   ]
+  },
+  "ld-hendrickson-hill": {
+   "set": {
+    "warn": "University of Wisconsin-Eau Claire land (Putnam Park natural area): look only unless the university gives written permission."
+   },
+   "st": " The Wisconsin parcel map puts the hill on University of Wisconsin land (Putnam Park)."
+  },
+  "gs-shanty-t26n-r5w-south": {
+   "set": {
+    "co": "Eau Claire",
+    "pl": "Eau Claire County (Town of Bridge Creek), sec. 21, T26N R5W"
+   },
+   "st": " Correction: the pin and its parcel are in Eau Claire County (Town of Bridge Creek, county forest), not Clark County."
+  }
+ }
+}
