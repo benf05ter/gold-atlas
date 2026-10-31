@@ -1,0 +1,52 @@
+{
+ "new": [
+  {
+   "id": "pc-schoolhouse-mayville-sec-26",
+   "L": "school2",
+   "n": "Schoolhouse site, Mayville sec. 26 (1893 plat)",
+   "la": 44.97377,
+   "lo": -90.34644,
+   "y": "By 1893",
+   "pl": "T29N R1E sec. 26, Town of Mayville, Clark County",
+   "co": "Clark",
+   "stt": "WI",
+   "v": "Coins, slate pencils, marbles, buttons",
+   "c": "documented",
+   "s": "unknown",
+   "p": "plss",
+   "st": "The 1893 plat book of Clark County (C. S. Stockwell) draws a schoolhouse at the north line of sec. 26, on the J. Breyer land, T29N R1E (Town of Mayville). No GNIS school is within 1.5 km, so this is a school the later lists missed.",
+   "t": "Country school yards: look along the road edge and where the outhouse and woodshed stood behind the school.",
+   "src": [
+    [
+     "Clark County Plats (C. S. Stockwell, Neillsville, 1893), Mayville page (T29N R1E)",
+     "https://www.wisconsinhistory.org/record/maps/W01B9KC/clark-county-plats"
+    ]
+   ],
+   "pinconf": "B",
+   "pinev": [
+    "Placed from the 1893 plat on the fitted section grid, good to about 100-150 m",
+    "1893 plat book, Mayville page"
+   ]
+  }
+ ],
+ "edit": {
+  "vs-1840251": {
+   "st": " The 1893 Clark County plat draws this schoolhouse at the northwest corner of the Carl Meyer land, sec. 9 T29N R1E, about 150 m from the pin, so it was standing by 1893.",
+   "src": [
+    [
+     "Clark County Plats (C. S. Stockwell, Neillsville, 1893), Mayville page (T29N R1E)",
+     "https://www.wisconsinhistory.org/record/maps/W01B9KC/clark-county-plats"
+    ]
+   ]
+  },
+  "vs-1840248": {
+   "st": " The 1893 Clark County plat draws a schoolhouse at the southwest corner of sec. 7 T29N R1E on the range line, about 200 m from the pin, so it was standing by 1893.",
+   "src": [
+    [
+     "Clark County Plats (C. S. Stockwell, Neillsville, 1893), Mayville page (T29N R1E)",
+     "https://www.wisconsinhistory.org/record/maps/W01B9KC/clark-county-plats"
+    ]
+   ]
+  }
+ }
+}
