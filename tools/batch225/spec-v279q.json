@@ -1,0 +1,315 @@
+{
+ "new": [
+  {
+   "id": "tw-ia-medora-ogle-farm-1907",
+   "L": "treasure",
+   "n": "Marion Ogle's hidden gold, farm near Medora",
+   "la": 41.1869,
+   "lo": -93.6027,
+   "y": "died July 1907",
+   "pl": "GNIS Medora; 'the farm near Medora', direction not given",
+   "co": "Warren",
+   "stt": "IA",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Marion Ogle, an eccentric and wealthy farmer, died in 1907 after a runaway accident without regaining consciousness. A few days before, he had brought $10,000 he had hidden about the farm to an Indianola bank; his fortune was put at $50,000 to $80,000 and the popular belief was that more gold was still hidden on the farm, which relatives searched. Pin is approximate, not the spot itself.",
+   "t": "Find Ogle on a 1900s Warren County plat near Medora. One paper so far, so C. Access: private: permission.",
+   "src": [
+    [
+     "Twice-a-Week Plain Dealer (Cresco) 2 Aug 1907 p3 (LoC Chronicling America)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Medora; 'the farm near Medora', direction not given",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    4000,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-ia-iowa-city-meade-barn-1911",
+   "L": "treasure",
+   "n": "John Meade's gold in baking-powder cans, old barn 9 mi east of Iowa City",
+   "la": 41.6611,
+   "lo": -91.356,
+   "y": "buried c.1896; found Aug 1911",
+   "pl": "'a wealthy farmer nine miles east of town' (Iowa City); pin 9 mi due east, direction approximate",
+   "co": "Johnson",
+   "stt": "IA",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "In August 1911 T. T. Meade found more than $3,000 in $10 and $20 gold pieces packed in old baking-powder cans while tearing down an old barn built by his father John Meade, who had died four years before; the coin dates suggested it was buried about fifteen years earlier. Pin is approximate, not the spot itself.",
+   "t": "Found; a farmer who used cans may have used more than one spot. Find Meade on a 1900s Johnson County plat. Access: private: permission.",
+   "src": [
+    [
+     "Oskaloosa Herald 10 Aug 1911 p1 (Iowa City special, LoC Chronicling America)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: 'a wealthy farmer nine miles east of town' (Iowa City); pin 9 mi due east, direction approximate",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    4000,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-ia-leland-branstad-shed-1922",
+   "L": "treasure",
+   "n": "Erick Davidson's gold in an old shed, Branstad homestead a mile east of Leland",
+   "la": 43.3372,
+   "lo": -93.6155,
+   "y": "found Jan 1922",
+   "pl": "'the old E. F. Branstad homestead, a mile east of Leland'; pin 1 mi E of GNIS Leland",
+   "co": "Winnebago",
+   "stt": "IA",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Children playing in an old shed on the E. F. Branstad homestead a mile east of Leland found a box of gold; a further search found a second box, $1,024 in gold in all, packed long before. It was believed to be the hidden savings of Erick Davidson, who had lived with the Branstads before his death. Pin is approximate, not the spot itself.",
+   "t": "Found. A second hiding place turned up when they looked again, so more is possible. Access: private: permission.",
+   "src": [
+    [
+     "Decorah Public Opinion 18 Jan 1922 p5 (LoC Chronicling America)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: 'the old E. F. Branstad homestead, a mile east of Leland'; pin 1 mi E of GNIS Leland",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    1000,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-ia-grandview-stevens-cellar-1916",
+   "L": "treasure",
+   "n": "Recluse's gold in a cellar, Grandview",
+   "la": 41.2759,
+   "lo": -91.1885,
+   "y": "found May 1916",
+   "pl": "GNIS Grandview (house in or near the village, not named)",
+   "co": "Louisa",
+   "stt": "IA",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "In May 1916 Ruth Stevens of Grandview, cleaning the cellar of her home, moved a barrel and found a $5 gold piece, then about $300 more in gold. An eccentric recluse who had lived on the place years before was believed to have hidden his savings there. Pin is approximate, not the spot itself.",
+   "t": "Found. House not identified. Access: private.",
+   "src": [
+    [
+     "Rock Island Argus 19 May 1916 p2 (Muscatine dispatch, LoC Chronicling America)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Grandview (house in or near the village, not named)",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    1500,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-ia-columbus-jct-jones-pot-1917",
+   "L": "treasure",
+   "n": "William Jones's pot of gold, farm near Columbus Junction",
+   "la": 41.28,
+   "lo": -91.3607,
+   "y": "Aug 1917",
+   "pl": "GNIS Columbus Junction; 'a farmer near this city'",
+   "co": "Louisa",
+   "stt": "IA",
+   "v": "Hidden money or valuables (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "In August 1917 William Jones, a farmer near Columbus Junction, dug up a pot of gold holding more than $200; he did not make the amount public and no one knew how it came to be hidden. Pin is approximate, not the spot itself.",
+   "t": "Found; farm not identified. Access: private.",
+   "src": [
+    [
+     "Evening Times-Republican 20 Aug 1917 p5 (LoC Chronicling America)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Placed from the source text: GNIS Columbus Junction; 'a farmer near this city'",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    5000,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-ia-des-moines-brown-iron-pot-1905",
+   "L": "treasure",
+   "n": "Iron pot of pre-1860 coins in a cornfield, Hyde Park near Des Moines",
+   "la": 41.6005,
+   "lo": -93.6091,
+   "y": "found Sept 1905",
+   "pl": "PLACEHOLDER Des Moines; 'his rented land in Hyde Park' near Des Moines, not located",
+   "co": "Polk",
+   "stt": "IA",
+   "v": "Hidden money or valuables (story)",
+   "c": "lead",
+   "s": "unknown",
+   "p": "approx",
+   "st": "In September 1905 George Brown, cutting corn on rented land at Hyde Park near Des Moines, struck an iron pot of gold and silver coins worth $400-500, all dated before 1860; it was thought a farmer who went to the Civil War had buried it and never came back. Pin is approximate, not the spot itself.",
+   "t": "Hyde Park not yet located; probably built over now. Access: unknown.",
+   "src": [
+    [
+     "Evening Times-Republican 4 Oct 1905 p3 (LoC Chronicling America)",
+     ""
+    ]
+   ],
+   "pinconf": "D",
+   "pinev": [
+    "Placed from the source text: PLACEHOLDER Des Moines; 'his rented land in Hyde Park' near Des Moines, not located",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    8000,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-ia-le-claire-suiter-cellar-1900",
+   "L": "treasure",
+   "n": "Pot of old gold and silver coins in a cellar, Le Claire",
+   "la": 41.5986,
+   "lo": -90.3435,
+   "y": "found Aug 1900",
+   "pl": "GNIS Le Claire; house (built 1850, once a saloon) not identified",
+   "co": "Scott",
+   "stt": "IA",
+   "v": "Hidden money or valuables (story)",
+   "c": "lead",
+   "s": "unknown",
+   "p": "approx",
+   "st": "In August 1900 Capt. Zach G. Suiter of Le Claire, digging for fish worms in a cellar, found a pot of gold and silver coins, silver dated to 1818 and gold to 1850, in a house built in 1850 that had once been a saloon. The papers joked that it was Buffalo Bill's first savings, since Cody grew up in Le Claire. Pin is approximate, not the spot itself.",
+   "t": "Found, in town. History pin only. Access: town lot.",
+   "src": [
+    [
+     "Evening Times-Republican 1 Sep 1900 p3",
+     ""
+    ],
+    [
+     "Ottumwa Semi-Weekly Courier 4 Sep 1900 p1 (Clinton dispatch, LoC Chronicling America)",
+     ""
+    ]
+   ],
+   "pinconf": "D",
+   "pinev": [
+    "Placed from the source text: GNIS Le Claire; house (built 1850, once a saloon) not identified",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    800,
+    "area"
+   ]
+  },
+  {
+   "id": "tw-ia-muscatine-kegel-lot-1902",
+   "L": "treasure",
+   "n": "Rusted can of gold and silver coins, old Kegel homestead lot, Muscatine",
+   "la": 41.4245,
+   "lo": -91.0432,
+   "y": "found March 1902",
+   "pl": "GNIS Muscatine; city lot not identified",
+   "co": "Muscatine",
+   "stt": "IA",
+   "v": "Hidden money or valuables (story)",
+   "c": "lead",
+   "s": "unknown",
+   "p": "approx",
+   "st": "In March 1902 workmen grading a Muscatine lot, long the homestead of the widow Mrs. C. Kegel and her daughter, dug up a rusted tin can and scrambled for the gold and silver coins that rolled out; the first man got $130. Pin is approximate, not the spot itself.",
+   "t": "City lot, built over. History pin only. Access: town lot.",
+   "src": [
+    [
+     "Evening Times-Republican 27 Mar 1902 p3 (LoC Chronicling America)",
+     ""
+    ]
+   ],
+   "pinconf": "D",
+   "pinev": [
+    "Placed from the source text: GNIS Muscatine; city lot not identified",
+    "Unconfirmed, one source"
+   ],
+   "acm": [
+    1500,
+    "area"
+   ]
+  }
+ ],
+ "edit": {
+  "tw-ia-north-mcgregor-taylor-gold": {
+   "set": {
+    "n": "Fort Crawford soldiers' buried gold, McGregor Heights and the bluffs at McGregor",
+    "la": 43.0339,
+    "lo": -91.1774,
+    "y": "legend, 1830s; hunted 1905 and 1913",
+    "pl": "1913 McGregor account: gold buried 'on one of the hills, supposedly the Heights hill now used as a summer resort' (GNIS McGregor Heights); legend, no fixed spot",
+    "co": "Clayton",
+    "stt": "IA",
+    "v": "Hidden money or valuables (story)",
+    "c": "newspaper",
+    "s": "unknown",
+    "p": "approx",
+    "st": "Several versions of one legend. Soldiers from Fort Crawford crossing to McGregor's landing with $8,000 in gold to pay the Fort Atkinson garrison were killed by Indians after burying it on a hill, said to be the Heights; other tellings have a canoe of gold sunk in the Mississippi, a sack buried near Fort Crawford, or $80,000 buried by four of Col. Zachary Taylor's soldiers near North McGregor. Early settlers hunted the hills, and in 1913 a man with a 'gold magnet' came to McGregor to search. Pin is approximate, not the spot itself.",
+    "t": "Legend with no fixed spot. Effigy Mounds National Monument and Pikes Peak State Park nearby are no-dig; McGregor Heights is residential. Access: private / state and federal land near: look only.",
+    "src": [
+     [
+      "Evening Times-Republican 17 Oct 1913",
+      ""
+     ],
+     [
+      "Webster City Freeman 21 Oct 1913 p7",
+      ""
+     ],
+     [
+      "Decorah Public Opinion 22 Oct 1913 (one 1913 McGregor story, LoC Chronicling America)",
+      ""
+     ],
+     [
+      "Rock Island Argus 18 Mar 1905",
+      ""
+     ],
+     [
+      "East Oregonian 19 Jun 1905 (TN threads 619702, 559007)",
+      ""
+     ]
+    ],
+    "pinconf": "C",
+    "pinev": [
+     "Placed from the source text: 1913 McGregor account: gold buried 'on one of the hills, supposedly the Heights hill now used as a summer resort' (GNIS McGregor Heights); legend, no fixed spot",
+     "Unconfirmed, one source"
+    ],
+    "acm": [
+     1500,
+     "area"
+    ]
+   },
+   "moved": true
+  }
+ }
+}
