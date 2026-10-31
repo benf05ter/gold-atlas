@@ -1,0 +1,3252 @@
+[
+{
+"id": "psh20-rhine-mills",
+"L": "school2",
+"n": "Rhine Mills (1920 plat)",
+"la": 43.85391,
+"lo": -88.02785,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 18, T16N R21E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, tokens, buttons, harness and household items",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Rhine Mills\" mill hamlet on the Sheboygan River and the C.&N.W. railroad, sec. 18, Rhine Twp. Map data (2026) shows a building within 30 m today, so part of the site may be under a farmstead or a house; ask first.",
+"t": "Find each lot on the plat page, then check a 1938 aerial for the old buildings. The crossroads corners and the store, shop and mill lots get the most traffic.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T16N R21E, page 07)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-church-sec-16-t16n-r21e",
+"L": "school2",
+"n": "Church site, sec. 16 T16N R21E (1920 plat)",
+"la": 43.86014,
+"lo": -87.99868,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 16, T16N R21E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, religious medals, rings, buttons from churchgoers and socials",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "The c.1920 Donohue plat book of Sheboygan County draws a church here (on the 1920 plat). It is farm field or pasture today with no building within 134 m: plowed ground, so finds may be scattered.",
+"t": "The yard and the road edge in front of the door are best; churches held picnics and socials outside. Leave any burials alone.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T16N R21E, page 07)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-elkhart-lake-sand-and-concrete-co-pit-se",
+"L": "vpo",
+"n": "Elkhart Lake Sand and Concrete Co. pit, sec. 29 T16N R21E (1920 plat)",
+"la": 43.82802,
+"lo": -88.00606,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 29, T16N R21E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Tools, drill steel, coins and lost gear from quarry crews",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"E.L. Sand & Concrete Co.\" tract on the 1920 plat. Map data (2026) shows a building within 30 m today, so part of the site may be under a farmstead or a house; ask first.",
+"t": "Quarry crews and teams worked here for years: search the flat ground by the old face, the loading spot and the haul road. Never climb an old face; ask the owner.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T16N R21E, page 07)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-elkhart-lake-realty-co-resort-lots-sec-3",
+"L": "vpo",
+"n": "Elkhart Lake Realty Co. resort lots, sec. 30 T16N R21E (1920 plat)",
+"la": 43.83179,
+"lo": -88.03717,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 30, T16N R21E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, tokens, keys, jewelry",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Elkhart Lake Realty Co.\" and lake-shore lots on the 1920 plat. The ground is wooded today, with no building within 60 m, so the old surface may be undisturbed.",
+"t": "Front yard and the road edge; hotels also had a stable or barn lot behind.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T16N R21E, page 07)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-cemetery-sec-15-t16n-r21e",
+"L": "school2",
+"n": "Cemetery, sec 15 T16N R21E (1920 plat)",
+"la": 43.84841,
+"lo": -87.97959,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 15, T16N R21E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Look only: do not detect in cemeteries",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "The c.1920 Donohue plat book of Sheboygan County draws a cemetery here (on the 1920 plat). The USGS place-name file lists Saint George Cemetery (GNIS 1572949) about 170 m west of the plat spot. Look only: never detect in a cemetery.",
+"t": "Look only. Use it to locate the church and the old road; never detect in a cemetery.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T16N R21E, page 07)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-rhine",
+"L": "school2",
+"n": "Rhine (1920 plat)",
+"la": 43.86291,
+"lo": -87.95391,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 11, T16N R21E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, tokens, buttons, harness and household items",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Rhine\" crossroads hamlet, sec. 11/14, Rhine Twp. The USGS place-name file has Rhine (GNIS 1572230) about 230 m west of the plat spot. It is open field today with a building nearby.",
+"t": "Find each lot on the plat page, then check a 1938 aerial for the old buildings. The crossroads corners and the store, shop and mill lots get the most traffic.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T16N R21E, page 07)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-rhine-town-hall-sec-14-t16n-r21e",
+"L": "school2",
+"n": "Rhine town hall, sec. 14 T16N R21E (1920 plat)",
+"la": 43.84835,
+"lo": -87.9599,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 14, T16N R21E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, jewelry, buttons from dances and meetings",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Town Hall\" on the 1920 plat. Map data (2026) shows a building within 30 m today, so part of the site may be under a farmstead or a house; ask first.",
+"t": "Dances and meetings: the yard and the parking edge by the door.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T16N R21E, page 07)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-church-sec-36-t16n-r21e",
+"L": "school2",
+"n": "Church, sec 36 T16N R21E (1920 plat)",
+"la": 43.81243,
+"lo": -87.93694,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 36, T16N R21E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, religious medals, rings, buttons from churchgoers and socials",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "The c.1920 Donohue plat book of Sheboygan County draws a church here (and 'Cem.' on the 1920 plat). The USGS place-name file lists Doar Church (GNIS 1564011) about 320 m west of the plat spot. It is farm field or pasture today with no building within 331 m: plowed ground, so finds may be scattered.",
+"t": "The yard and the road edge in front of the door are best; churches held picnics and socials outside. Leave any burials alone.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T16N R21E, page 07)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-cemetery-sec-36-t16n-r21e",
+"L": "school2",
+"n": "Cemetery, sec 36 T16N R21E (1920 plat)",
+"la": 43.81163,
+"lo": -87.93828,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 36, T16N R21E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Look only: do not detect in cemeteries",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "The c.1920 Donohue plat book of Sheboygan County draws a cemetery here (on the 1920 plat). The USGS place-name file lists Zoar Salem Cemetery (GNIS 1833490) about 260 m west of the plat spot. Look only: never detect in a cemetery.",
+"t": "Look only. Use it to locate the church and the old road; never detect in a cemetery.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T16N R21E, page 07)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-cemetery-sec-25-t16n-r21e",
+"L": "school2",
+"n": "Cemetery, sec 25 T16N R21E (1920 plat)",
+"la": 43.83303,
+"lo": -87.92768,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 25, T16N R21E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Look only: do not detect in cemeteries",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "The c.1920 Donohue plat book of Sheboygan County draws a cemetery here (on the 1920 plat). The USGS place-name file lists Liberty Cemetery (GNIS 1568011) about 320 m west of the plat spot. Look only: never detect in a cemetery.",
+"t": "Look only. Use it to locate the church and the old road; never detect in a cemetery.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T16N R21E, page 07)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-garden-city-land-and-lime-co-drained-she",
+"L": "vpo",
+"n": "Garden City Land and Lime Co. drained Sheboygan Marsh lots, sec. 17 T16N R20E (1920 plat)",
+"la": 43.85757,
+"lo": -88.12782,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 17, T16N R20E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins and lost items from picnics and visitors",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: Dozens of 40-acre lots all marked \"G.C.L.&L.Co.\" (Garden City Land & Lime Co.) with \"Edge of old marsh\" on the 1920 plat (land company drainage and sale of the Sheboygan Marsh edge). The ground is wooded today, with no building within 60 m, so the old surface may be undisturbed.",
+"t": "Landmarks drew picnics and Sunday visitors: search the flat ground at the foot and along the old approach road.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T16N R20E, page 09)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-garden-city-land-and-lime-co-tract-sec-1",
+"L": "vpo",
+"n": "Garden City Land and Lime Co. tract, sec. 14 T16N R20E (1920 plat)",
+"la": 43.85101,
+"lo": -88.066,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 14, T16N R20E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins and lost items from picnics and visitors",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Garden City Land & Lime Co.\" 131-acre tract beside its 40-acre marsh lots on the 1920 plat (Sheboygan Marsh drainage scheme). The ground is wooded today, with no building within 60 m, so the old surface may be undisturbed.",
+"t": "Landmarks drew picnics and Sunday visitors: search the flat ground at the foot and along the old approach road.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T16N R20E, page 09)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-cemetery-sec-13-t16n-r20e",
+"L": "school2",
+"n": "Cemetery, sec 13 T16N R20E (1920 plat)",
+"la": 43.86217,
+"lo": -88.05303,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 13, T16N R20E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Look only: do not detect in cemeteries",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "The c.1920 Donohue plat book of Sheboygan County draws a cemetery here (on the 1920 plat). The USGS place-name file lists Saint Paul's Christian Cemetery (GNIS 1833480) about 30 m northwest of the plat spot. Look only: never detect in a cemetery.",
+"t": "Look only. Use it to locate the church and the old road; never detect in a cemetery.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T16N R20E, page 09)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-ada",
+"L": "school2",
+"n": "Ada (1920 plat)",
+"la": 43.87786,
+"lo": -87.89358,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 5, T16N R22E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, tokens, buttons, harness and household items",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Ada\" crossroads hamlet on the Sheboygan-Calumet road, sec. 5/8, Herman Twp. The USGS place-name file has Ada (GNIS 1560679) about 190 m southwest of the plat spot. It is farm field or pasture today with no building within 60 m: plowed ground, so finds may be scattered.",
+"t": "Find each lot on the plat page, then check a 1938 aerial for the old buildings. The crossroads corners and the store, shop and mill lots get the most traffic.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T16N R22E, page 11)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-german-reformed-congregation-church-sec-",
+"L": "school2",
+"n": "German Reformed Congregation church, sec. 16 T16N R22E (1920 plat)",
+"la": 43.85139,
+"lo": -87.87727,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 16, T16N R22E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, religious medals, rings, buttons from churchgoers and socials",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"German Ref. Congregation\" and \"Cem.\" on the 1920 plat. The ground is wooded today, with no building within 60 m, so the old surface may be undisturbed.",
+"t": "The yard and the road edge in front of the door are best; churches held picnics and socials outside. Leave any burials alone.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T16N R22E, page 11)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-cemetery-sec-16-t16n-r22e",
+"L": "school2",
+"n": "Cemetery, sec. 16 T16N R22E (1920 plat)",
+"la": 43.85203,
+"lo": -87.87904,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 16, T16N R22E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Look only: do not detect in cemeteries",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "The c.1920 Donohue plat book of Sheboygan County draws a cemetery here (on the 1920 plat). Look only: never detect in a cemetery.",
+"t": "Look only. Use it to locate the church and the old road; never detect in a cemetery.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T16N R22E, page 11)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-german-reformed-church-sec-20-t16n-r22e",
+"L": "school2",
+"n": "German Reformed church, sec. 20 T16N R22E (1920 plat)",
+"la": 43.84275,
+"lo": -87.8949,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 20, T16N R22E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, religious medals, rings, buttons from churchgoers and socials",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"German Ref. Church\" on the 1920 plat by Franklin. It is farm field or pasture today with no building within 349 m: plowed ground, so finds may be scattered.",
+"t": "The yard and the road edge in front of the door are best; churches held picnics and socials outside. Leave any burials alone.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T16N R22E, page 11)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-mission-house-sec-20-t16n-r22e",
+"L": "vpo",
+"n": "Mission House, sec. 20 T16N R22E (1920 plat)",
+"la": 43.84113,
+"lo": -87.88395,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 20, T16N R22E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins and lost items from picnics and visitors",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Mission House\" (Reformed Church seminary) on the 1920 plat. Map data (2026) shows a building within 30 m today, so part of the site may be under a farmstead or a house; ask first.",
+"t": "Landmarks drew picnics and Sunday visitors: search the flat ground at the foot and along the old approach road.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T16N R22E, page 11)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-franklin",
+"L": "school2",
+"n": "Franklin (1920 plat)",
+"la": 43.83477,
+"lo": -87.89503,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 20, T16N R22E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, tokens, buttons, harness and household items",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Franklin\" mill hamlet on the Sheboygan River with millpond, sec. 20, Herman Twp. The USGS place-name file has Franklin (GNIS 1565252) about 520 m west of the plat spot. It is farm field or pasture today with no building within 90 m: plowed ground, so finds may be scattered.",
+"t": "Find each lot on the plat page, then check a 1938 aerial for the old buildings. The crossroads corners and the store, shop and mill lots get the most traffic.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T16N R22E, page 11)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-franklin-millpond-sec-20-t16n-r22e",
+"L": "vpo",
+"n": "Franklin millpond, sec. 20 T16N R22E (1920 plat)",
+"la": 43.84402,
+"lo": -87.89749,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 20, T16N R22E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins and tools along the old banks and dam",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: Mill pond on the Sheboygan River above Franklin on the 1920 plat. It is farm field or pasture today with no building within 150 m: plowed ground, so finds may be scattered.",
+"t": "The old dam end and the banks where the road crossed are best; the pond bed itself is usually silted over.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T16N R22E, page 11)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-herman-town-hall-sec-15-t16n-r22e",
+"L": "school2",
+"n": "Herman town hall, sec. 15 T16N R22E (1920 plat)",
+"la": 43.84909,
+"lo": -87.8603,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 15, T16N R22E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, jewelry, buttons from dances and meetings",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Town Hall\" on the 1920 plat. The ground is wooded today, with no building within 60 m, so the old surface may be undisturbed.",
+"t": "Dances and meetings: the yard and the parking edge by the door.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T16N R22E, page 11)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-church-sec-4-t16n-r22e",
+"L": "school2",
+"n": "Church site, sec. 4 T16N R22E (1920 plat)",
+"la": 43.88395,
+"lo": -87.86242,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 4, T16N R22E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, religious medals, rings, buttons from churchgoers and socials",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "The c.1920 Donohue plat book of Sheboygan County draws a church here (on the 1920 plat). It is farm field or pasture today with no building within 83 m: plowed ground, so finds may be scattered.",
+"t": "The yard and the road edge in front of the door are best; churches held picnics and socials outside. Leave any burials alone.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T16N R22E, page 11)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-edwards",
+"L": "school2",
+"n": "Edwards (1920 plat)",
+"la": 43.88879,
+"lo": -87.83761,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 2, T16N R22E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, tokens, buttons, harness and household items",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Edwards\" crossroads hamlet, sec. 2, Herman Twp. The USGS place-name file has Edwards (GNIS 2741525) about 580 m east of the plat spot. It is farm field or pasture today with no building within 333 m: plowed ground, so finds may be scattered.",
+"t": "Find each lot on the plat page, then check a 1938 aerial for the old buildings. The crossroads corners and the store, shop and mill lots get the most traffic.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T16N R22E, page 11)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-lutheran-church-sec-23-t16n-r22e",
+"L": "school2",
+"n": "Lutheran church, sec 23 T16N R22E (1920 plat)",
+"la": 43.84723,
+"lo": -87.8355,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 23, T16N R22E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, religious medals, rings, buttons from churchgoers and socials",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Luth. Church\" and \"School\" on the 1920 plat. The USGS place-name file lists Trinity Lutheran Church (GNIS 1834724) about 340 m east of the plat spot. It is farm field or pasture today with no building within 109 m: plowed ground, so finds may be scattered.",
+"t": "The yard and the road edge in front of the door are best; churches held picnics and socials outside. Leave any burials alone.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T16N R22E, page 11)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-howards-grove",
+"L": "school2",
+"n": "Howards Grove (1920 plat)",
+"la": 43.83464,
+"lo": -87.81249,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 24, T16N R22E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, tokens, buttons, harness and household items",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Howards Grove\" village on the Pigeon River, sec. 24/25, Herman Twp. Map data (2026) shows a building within 30 m today, so part of the site may be under a farmstead or a house; ask first.",
+"t": "Find each lot on the plat page, then check a 1938 aerial for the old buildings. The crossroads corners and the store, shop and mill lots get the most traffic.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T16N R22E, page 11)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-millersville",
+"L": "school2",
+"n": "Millersville (1920 plat)",
+"la": 43.81959,
+"lo": -87.82254,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 26, T16N R22E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, tokens, buttons, harness and household items",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Millersville\" mill hamlet on the Pigeon River, sec. 26/35, Herman Twp. Map data (2026) shows a building within 30 m today, so part of the site may be under a farmstead or a house; ask first.",
+"t": "Find each lot on the plat page, then check a 1938 aerial for the old buildings. The crossroads corners and the store, shop and mill lots get the most traffic.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T16N R22E, page 11)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-lutheran-church-sec-1-t15n-r22e",
+"L": "school2",
+"n": "Lutheran church, sec. 1 T15N R22E (1920 plat)",
+"la": 43.80442,
+"lo": -87.81578,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 1, T15N R22E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, religious medals, rings, buttons from churchgoers and socials",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Luth. Church\" on the 1920 plat. It is farm field or pasture today with no building within 83 m: plowed ground, so finds may be scattered.",
+"t": "The yard and the road edge in front of the door are best; churches held picnics and socials outside. Leave any burials alone.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T15N R22E, page 11)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-cheese-factory-sec-9-t16n-r23e",
+"L": "vpo",
+"n": "Cheese factory, sec. 9 T16N R23E (1920 plat)",
+"la": 43.86971,
+"lo": -87.75905,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 9, T16N R23E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, milk-can tags, tokens, farm hardware",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Cheese Factory\" on the 1920 plat. It is farm field or pasture today with no building within 194 m: plowed ground, so finds may be scattered.",
+"t": "Farmers lined up their wagons at the factory every morning: search the road edge and the yard by the old intake door.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T16N R23E, page 13)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-haven",
+"L": "school2",
+"n": "Haven (1920 plat)",
+"la": 43.8481,
+"lo": -87.75042,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 21, T16N R23E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, tokens, buttons, harness and household items",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Haven\" crossroads hamlet on Seven Mile Creek, sec. 16/21, Mosel Twp. The USGS place-name file has Haven (GNIS 1577198) about 240 m west of the plat spot. It is farm field or pasture today with no building within 184 m: plowed ground, so finds may be scattered.",
+"t": "Find each lot on the plat page, then check a 1938 aerial for the old buildings. The crossroads corners and the store, shop and mill lots get the most traffic.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T16N R23E, page 13)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-catholic-church-haven-sec-16-t16n-r23e",
+"L": "school2",
+"n": "Catholic church, Haven, sec. 16 T16N R23E (1920 plat)",
+"la": 43.85052,
+"lo": -87.74338,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 16, T16N R23E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, religious medals, rings, buttons from churchgoers and socials",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"R.C. Church\" and \"Cem.\" on the 1920 plat. It is farm field or pasture today with no building within 135 m: plowed ground, so finds may be scattered.",
+"t": "The yard and the road edge in front of the door are best; churches held picnics and socials outside. Leave any burials alone.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T16N R23E, page 13)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-cheese-factory-sec-18-t16n-r23e",
+"L": "vpo",
+"n": "Cheese factory, sec. 18 T16N R23E (1920 plat)",
+"la": 43.85136,
+"lo": -87.80075,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 18, T16N R23E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, milk-can tags, tokens, farm hardware",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Cheese Factory\" on the 1920 plat. It is farm field or pasture today with no building within 246 m: plowed ground, so finds may be scattered.",
+"t": "Farmers lined up their wagons at the factory every morning: search the road edge and the yard by the old intake door.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T16N R23E, page 13)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-cheese-factory-sec-20-t16n-r23e",
+"L": "vpo",
+"n": "Cheese factory, sec. 20 T16N R23E (1920 plat)",
+"la": 43.8341,
+"lo": -87.77928,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 20, T16N R23E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, milk-can tags, tokens, farm hardware",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Cheese Factory\" on the 1920 plat. It is farm field or pasture today with no building within 111 m: plowed ground, so finds may be scattered.",
+"t": "Farmers lined up their wagons at the factory every morning: search the road edge and the yard by the old intake door.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T16N R23E, page 13)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-erdman",
+"L": "school2",
+"n": "Erdman (1920 plat)",
+"la": 43.79163,
+"lo": -87.75701,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 4, T15N R23E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, tokens, buttons, harness and household items",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Erdman\" hamlet on the Sheboygan-Calumet road, sec. 4/5, Sheboygan Twp. The USGS place-name file has Erdman (GNIS 1564684) about 270 m southwest of the plat spot. It is farm field or pasture today with no building within 145 m: plowed ground, so finds may be scattered.",
+"t": "Find each lot on the plat page, then check a 1938 aerial for the old buildings. The crossroads corners and the store, shop and mill lots get the most traffic.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T15N R23E, page 15)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-sheboygan-lime-works-sec-9-t15n-r23e",
+"L": "vpo",
+"n": "Sheboygan Lime Works, sec. 9 T15N R23E (1920 plat)",
+"la": 43.77906,
+"lo": -87.74596,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 9, T15N R23E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, tools, maker-marked brick",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Sheboygan Lime Works\" on the 1920 plat. The ground is wooded today, with no building within 60 m, so the old surface may be undisturbed.",
+"t": "Brickyards and kilns had crews and teamsters all day: search the yard edges and the old haul road.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T15N R23E, page 15)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-crystal-springs-sec-16-t15n-r23e",
+"L": "vpo",
+"n": "Crystal Springs, sec. 16 T15N R23E (1920 plat)",
+"la": 43.77005,
+"lo": -87.75714,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 16, T15N R23E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, bottles and lost items where travelers stopped for water",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Crystal Springs\" on the Pigeon River on the 1920 plat. Map data (2026) shows a building within 30 m today, so part of the site may be under a farmstead or a house; ask first.",
+"t": "Travelers and farm families stopped at springs: search the ground around the outflow and the path to the road.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T15N R23E, page 15)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-city-of-sheboygan-park-sec-9-t15n-r23e",
+"L": "vpo",
+"n": "City of Sheboygan park, sec. 9 T15N R23E (1920 plat)",
+"la": 43.77779,
+"lo": -87.74547,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 9, T15N R23E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins and lost items from picnics and visitors",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"City of Sheb. Park\" on the 1920 plat. The ground is mostly wooded today.",
+"t": "Landmarks drew picnics and Sunday visitors: search the flat ground at the foot and along the old approach road.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T15N R23E, page 15)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-kohler",
+"L": "school2",
+"n": "Kohler (1920 plat)",
+"la": 43.74338,
+"lo": -87.77651,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 29, T15N R23E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, tokens, buttons, harness and household items",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Kohler\" company village and works, sec. 29/30, Sheboygan Twp. Map data (2026) shows a building within 30 m today, so part of the site may be under a farmstead or a house; ask first.",
+"t": "Find each lot on the plat page, then check a 1938 aerial for the old buildings. The crossroads corners and the store, shop and mill lots get the most traffic.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T15N R23E, page 15)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-country-club-sec-21-t15n-r23e",
+"L": "vpo",
+"n": "Country Club, sec. 21 T15N R23E (1920 plat)",
+"la": 43.74752,
+"lo": -87.74225,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 21, T15N R23E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins and lost items from picnics and visitors",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Country Club\" on the 1920 plat. Map data (2026) shows a building within 30 m today, so part of the site may be under a farmstead or a house; ask first.",
+"t": "Landmarks drew picnics and Sunday visitors: search the flat ground at the foot and along the old approach road.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T15N R23E, page 15)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-sheboygan-county-poor-farm-and-insane-as",
+"L": "vpo",
+"n": "Sheboygan County Poor Farm and Insane Asylum, sec. 22 T15N R23E (1920 plat)",
+"la": 43.75838,
+"lo": -87.73526,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 22, T15N R23E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins and lost items from picnics and visitors",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Sheboygan Poor Farm\" and \"Insane Asylum\" beside the county's 251-acre tract on the 1920 plat. Look only: institutional burials. Map data (2026) shows a building within 30 m today, so part of the site may be under a farmstead or a house; ask first.",
+"t": "Landmarks drew picnics and Sunday visitors: search the flat ground at the foot and along the old approach road.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T15N R23E, page 15)"
+],
+"psh20": 1,
+"warn": "Institutional ground (poor farm and asylum): look only. Unmarked burials possible; do not dig."
+},
+{
+"id": "psh20-wildwood-cemetery-sec-22-t15n-r23e",
+"L": "school2",
+"n": "Wildwood Cemetery, sec 22 T15N R23E (1920 plat)",
+"la": 43.74996,
+"lo": -87.73352,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 22, T15N R23E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Look only: do not detect in cemeteries",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Wildwood Cemetery\" on the 1920 plat. The USGS place-name file lists Wildwood Cemetery (GNIS 1576746) about 190 m northwest of the plat spot. Look only: never detect in a cemetery.",
+"t": "Look only. Use it to locate the church and the old road; never detect in a cemetery.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T15N R23E, page 15)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-johnsonville",
+"L": "school2",
+"n": "Johnsonville (1920 plat)",
+"la": 43.79742,
+"lo": -87.9141,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 6, T15N R22E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, tokens, buttons, harness and household items",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Johnsonville\" mill hamlet with millpond on the Sheboygan River, sec. 6, Sheboygan Falls Twp. The USGS place-name file has Johnsonville (GNIS 1567252) about 380 m east of the plat spot. It is open field today with a building nearby.",
+"t": "Find each lot on the plat page, then check a 1938 aerial for the old buildings. The crossroads corners and the store, shop and mill lots get the most traffic.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T15N R22E, page 17)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-johnsonville-millpond-sec-6-t15n-r22e",
+"L": "vpo",
+"n": "Johnsonville millpond, sec. 6 T15N R22E (1920 plat)",
+"la": 43.80237,
+"lo": -87.91684,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 6, T15N R22E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins and tools along the old banks and dam",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: Mill pond on the Sheboygan River above Johnsonville on the 1920 plat. The ground is wooded today, with no building within 60 m, so the old surface may be undisturbed.",
+"t": "The old dam end and the banks where the road crossed are best; the pond bed itself is usually silted over.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T15N R22E, page 17)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-lutheran-church-sec-5-t15n-r22e",
+"L": "school2",
+"n": "Lutheran church, sec 5 T15N R22E (1920 plat)",
+"la": 43.79336,
+"lo": -87.88907,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 5, T15N R22E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, religious medals, rings, buttons from churchgoers and socials",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Luth. Church\" on the 1920 plat. The USGS place-name file lists Saron Church (GNIS 1573727) about 260 m southeast of the plat spot. It is farm field or pasture today with no building within 193 m: plowed ground, so finds may be scattered.",
+"t": "The yard and the road edge in front of the door are best; churches held picnics and socials outside. Leave any burials alone.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T15N R22E, page 17)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-st-paul-s-congregation-church-sec-2-t15n",
+"L": "school2",
+"n": "St. Paul's Congregation church, sec. 2 T15N R22E (1920 plat)",
+"la": 43.80465,
+"lo": -87.82546,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 2, T15N R22E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, religious medals, rings, buttons from churchgoers and socials",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"St. Paul Cong.\" on the 1920 plat. It is farm field or pasture today with no building within 338 m: plowed ground, so finds may be scattered.",
+"t": "The yard and the road edge in front of the door are best; churches held picnics and socials outside. Leave any burials alone.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T15N R22E, page 17)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-cemetery-sec-2-t15n-r22e",
+"L": "school2",
+"n": "Cemetery, sec 2 T15N R22E (1920 plat)",
+"la": 43.79284,
+"lo": -87.82805,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 2, T15N R22E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Look only: do not detect in cemeteries",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "The c.1920 Donohue plat book of Sheboygan County draws a cemetery here (on the 1920 plat). The USGS place-name file lists Concord Cemetery (GNIS 1563309) about 220 m southwest of the plat spot. Look only: never detect in a cemetery.",
+"t": "Look only. Use it to locate the church and the old road; never detect in a cemetery.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T15N R22E, page 17)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-elkhart-lake-sand-and-gravel-co-pit-sec-",
+"L": "vpo",
+"n": "Elkhart Lake Sand and Gravel Co. pit, sec. 5 T15N R21E (1920 plat)",
+"la": 43.79701,
+"lo": -88.00514,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 5, T15N R21E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Tools, drill steel, coins and lost gear from quarry crews",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"E.L.S.&G.Co.\" tract along the railroad on the 1920 plat. The ground is wooded today, with no building within 60 m, so the old surface may be undisturbed.",
+"t": "Quarry crews and teams worked here for years: search the flat ground by the old face, the loading spot and the haul road. Never climb an old face; ask the owner.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T15N R21E, page 19)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-cemetery-sec-21-t15n-r21e",
+"L": "school2",
+"n": "Cemetery, sec 21 T15N R21E (1920 plat)",
+"la": 43.75971,
+"lo": -88.00098,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 21, T15N R21E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Look only: do not detect in cemeteries",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "The c.1920 Donohue plat book of Sheboygan County draws a cemetery here (on the 1920 plat north-west of Plymouth). The USGS place-name file lists Woodlawn Cemetery (GNIS 1577011) about 70 m southeast of the plat spot. Look only: never detect in a cemetery.",
+"t": "Look only. Use it to locate the church and the old road; never detect in a cemetery.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T15N R21E, page 19)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-cemetery-sec-10-t15n-r21e",
+"L": "school2",
+"n": "Cemetery, sec 10 T15N R21E (1920 plat)",
+"la": 43.78519,
+"lo": -87.96316,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 10, T15N R21E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Look only: do not detect in cemeteries",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "The c.1920 Donohue plat book of Sheboygan County draws a cemetery here (on the 1920 plat). The USGS place-name file lists Maple Grove Cemetery (GNIS 1568973) about 30 m south of the plat spot. Look only: never detect in a cemetery.",
+"t": "Look only. Use it to locate the church and the old road; never detect in a cemetery.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T15N R21E, page 19)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-new-paris",
+"L": "school2",
+"n": "New Paris (1920 plat)",
+"la": 43.7321,
+"lo": -87.97623,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 34, T15N R21E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, tokens, buttons, harness and household items",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"New Paris\" platted hamlet south of Plymouth, sec. 34, Plymouth Twp. The USGS place-name file has New Paris (GNIS 1577746) about 350 m east of the plat spot. Map data (2026) shows a building within 30 m today, so part of the site may be under a farmstead or a house; ask first.",
+"t": "Find each lot on the plat page, then check a 1938 aerial for the old buildings. The crossroads corners and the store, shop and mill lots get the most traffic.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T15N R21E, page 19)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-plymouth-canning-co-sec-26-t15n-r21e",
+"L": "vpo",
+"n": "Plymouth Canning Co., sec. 26 T15N R21E (1920 plat)",
+"la": 43.74331,
+"lo": -87.95827,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 26, T15N R21E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, milk-can tags, tokens, farm hardware",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Plymouth Can. Co.\" tract on the 1920 plat. Map data (2026) shows a building within 30 m today, so part of the site may be under a farmstead or a house; ask first.",
+"t": "Farmers lined up their wagons at the factory every morning: search the road edge and the yard by the old intake door.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T15N R21E, page 19)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-plymouth-canning-co-farm-sec-34-t15n-r21",
+"L": "vpo",
+"n": "Plymouth Canning Co. farm, sec. 34 T15N R21E (1920 plat)",
+"la": 43.72701,
+"lo": -87.9741,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 34, T15N R21E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, milk-can tags, tokens, farm hardware",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Plymouth Can Co.\" tract on the 1920 plat at New Paris. It is farm field or pasture today with no building within 278 m: plowed ground, so finds may be scattered.",
+"t": "Farmers lined up their wagons at the factory every morning: search the road edge and the yard by the old intake door.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T15N R21E, page 19)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-cemetery-sec-5-t15n-r20e",
+"L": "school2",
+"n": "Cemetery, sec 5 T15N R20E (1920 plat)",
+"la": 43.79724,
+"lo": -88.13508,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 5, T15N R20E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Look only: do not detect in cemeteries",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "The c.1920 Donohue plat book of Sheboygan County draws a cemetery here (on the 1920 plat). The USGS place-name file lists West Greenbush Cemetery (GNIS 1576511) about 60 m south of the plat spot. Look only: never detect in a cemetery.",
+"t": "Look only. Use it to locate the church and the old road; never detect in a cemetery.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T15N R20E, page 21)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-millpond-on-the-mullet-river-sec-17-t15n",
+"L": "vpo",
+"n": "Millpond on the Mullet River, sec. 17 T15N R20E (1920 plat)",
+"la": 43.77228,
+"lo": -88.12193,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 17, T15N R20E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins and tools along the old banks and dam",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: Small pond on the Mullet River by the Limberg farm on the 1920 plat (likely old mill pond). It is farm field or pasture today with no building within 82 m: plowed ground, so finds may be scattered.",
+"t": "The old dam end and the banks where the road crossed are best; the pond bed itself is usually silted over.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T15N R20E, page 21)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-greenbush-millpond-sec-10-t15n-r20e",
+"L": "vpo",
+"n": "Greenbush millpond, sec. 10 T15N R20E (1920 plat)",
+"la": 43.78031,
+"lo": -88.09068,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 10, T15N R20E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins and tools along the old banks and dam",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: Mill pond on the Mullet River at Greenbush on the 1920 plat. The ground is wooded today, with no building within 60 m, so the old surface may be undisturbed.",
+"t": "The old dam end and the banks where the road crossed are best; the pond bed itself is usually silted over.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T15N R20E, page 21)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-moraine-gravel-co-pit-sec-1-t15n-r20e",
+"L": "vpo",
+"n": "Moraine Gravel Co. pit, sec. 1 T15N R20E (1920 plat)",
+"la": 43.79321,
+"lo": -88.04845,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 1, T15N R20E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Tools, drill steel, coins and lost gear from quarry crews",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Moraine Gravel Co.\" tract at Glenbeulah on the 1920 plat. Map data (2026) shows a building within 30 m today, so part of the site may be under a farmstead or a house; ask first.",
+"t": "Quarry crews and teams worked here for years: search the flat ground by the old face, the loading spot and the haul road. Never climb an old face; ask the owner.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T15N R20E, page 21)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-cemetery-glenbeulah-sec-1-t15n-r20e",
+"L": "school2",
+"n": "Cemetery, Glenbeulah, sec 1 T15N R20E (1920 plat)",
+"la": 43.79161,
+"lo": -88.04712,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 1, T15N R20E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Look only: do not detect in cemeteries",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "The c.1920 Donohue plat book of Sheboygan County draws a cemetery here (on the 1920 plat). The USGS place-name file lists Walnut Grove Cemetery (GNIS 1576176) about 70 m southwest of the plat spot. Look only: never detect in a cemetery.",
+"t": "Look only. Use it to locate the church and the old road; never detect in a cemetery.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T15N R20E, page 21)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-cemetery-greenbush-sec-14-t15n-r20e",
+"L": "school2",
+"n": "Cemetery, Greenbush, sec 14 T15N R20E (1920 plat)",
+"la": 43.77271,
+"lo": -88.07453,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 14, T15N R20E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Look only: do not detect in cemeteries",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "The c.1920 Donohue plat book of Sheboygan County draws a cemetery here (on the 1920 plat east of Greenbush). The USGS place-name file lists Greenbush Cemetery (GNIS 1833473) about 70 m southwest of the plat spot. Look only: never detect in a cemetery.",
+"t": "Look only. Use it to locate the church and the old road; never detect in a cemetery.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T15N R20E, page 21)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-cheese-factory-sec-34-t15n-r20e",
+"L": "vpo",
+"n": "Cheese factory, sec. 34 T15N R20E (1920 plat)",
+"la": 43.72324,
+"lo": -88.08504,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 34, T15N R20E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, milk-can tags, tokens, farm hardware",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Cheese Factory\" on the 1920 plat. It is open field today with a building nearby.",
+"t": "Farmers lined up their wagons at the factory every morning: search the road edge and the yard by the old intake door.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T15N R20E, page 21)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-small-lot-cluster-sec-17-t14n-r20e",
+"L": "school2",
+"n": "Small-lot cluster, sec. 17 T14N R20E (1920 plat)",
+"la": 43.67843,
+"lo": -88.12296,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 17, T14N R20E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, tokens, buttons, harness and household items",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: Cluster of small town lots at the sec. 8/9/16/17 corner on the 1920 plat. The ground is wooded today, with no building within 60 m, so the old surface may be undisturbed.",
+"t": "Find each lot on the plat page, then check a 1938 aerial for the old buildings. The crossroads corners and the store, shop and mill lots get the most traffic.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T14N R20E, page 23)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-cemetery-sec-31-t14n-r20e",
+"L": "school2",
+"n": "Cemetery, sec. 31 T14N R20E (1920 plat)",
+"la": 43.64406,
+"lo": -88.1417,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 31, T14N R20E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Look only: do not detect in cemeteries",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "The c.1920 Donohue plat book of Sheboygan County draws a cemetery here (on the 1920 plat). Look only: never detect in a cemetery.",
+"t": "Look only. Use it to locate the church and the old road; never detect in a cemetery.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T14N R20E, page 23)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-parnell",
+"L": "school2",
+"n": "Parnell (1920 plat)",
+"la": 43.66007,
+"lo": -88.09638,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 22, T14N R20E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, tokens, buttons, harness and household items",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Parnell\" crossroads hamlet, sec. 22, Mitchell Twp. The ground is wooded today, with no building within 60 m, so the old surface may be undisturbed.",
+"t": "Find each lot on the plat page, then check a 1938 aerial for the old buildings. The crossroads corners and the store, shop and mill lots get the most traffic.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T14N R20E, page 23)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-winooski",
+"L": "school2",
+"n": "Winooski (1920 plat)",
+"la": 43.7053,
+"lo": -87.99456,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 4, T14N R21E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, tokens, buttons, harness and household items",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Winooski\" mill hamlet on the Onion River, sec. 4, Lyndon Twp. It is farm field or pasture today with no building within 132 m: plowed ground, so finds may be scattered.",
+"t": "Find each lot on the plat page, then check a 1938 aerial for the old buildings. The crossroads corners and the store, shop and mill lots get the most traffic.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T14N R21E, page 25)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-cascade-millpond-sec-20-t14n-r21e",
+"L": "vpo",
+"n": "Cascade millpond, sec. 20 T14N R21E (1920 plat)",
+"la": 43.66666,
+"lo": -88.01133,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 20, T14N R21E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins and tools along the old banks and dam",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: Mill pond on the creek at the north edge of Cascade on the 1920 plat. The ground is wooded today, with no building within 60 m, so the old surface may be undisturbed.",
+"t": "The old dam end and the banks where the road crossed are best; the pond bed itself is usually silted over.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T14N R21E, page 25)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-waldo-millpond-sec-14-t14n-r21e",
+"L": "vpo",
+"n": "Waldo millpond, sec. 14 T14N R21E (1920 plat)",
+"la": 43.68167,
+"lo": -87.94488,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 14, T14N R21E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins and tools along the old banks and dam",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: Long mill pond on the Onion River at Waldo on the 1920 plat. It is farm field or pasture today with no building within 384 m: plowed ground, so finds may be scattered.",
+"t": "The old dam end and the banks where the road crossed are best; the pond bed itself is usually silted over.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T14N R21E, page 25)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-waldo-canning-co-sec-24-t14n-r21e",
+"L": "vpo",
+"n": "Waldo Canning Co., sec. 24 T14N R21E (1920 plat)",
+"la": 43.6643,
+"lo": -87.93313,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 24, T14N R21E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, milk-can tags, tokens, farm hardware",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Waldo Can. Co.\" 154-acre tract on the 1920 plat. It is farm field or pasture today with no building within 99 m: plowed ground, so finds may be scattered.",
+"t": "Farmers lined up their wagons at the factory every morning: search the road edge and the yard by the old intake door.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T14N R21E, page 25)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-waldo-canning-co-farm-sec-13-t14n-r21e",
+"L": "vpo",
+"n": "Waldo Canning Co. farm, sec. 13 T14N R21E (1920 plat)",
+"la": 43.68435,
+"lo": -87.93126,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 13, T14N R21E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, milk-can tags, tokens, farm hardware",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Waldo Can. Co.\" tract on the 1920 plat. It is farm field or pasture today with no building within 120 m: plowed ground, so finds may be scattered.",
+"t": "Farmers lined up their wagons at the factory every morning: search the road edge and the yard by the old intake door.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T14N R21E, page 25)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-milwaukee-land-co-tract-sec-3-t14n-r21e",
+"L": "vpo",
+"n": "Milwaukee Land Co. tract, sec. 3 T14N R21E (1920 plat)",
+"la": 43.71128,
+"lo": -87.97333,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 3, T14N R21E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins and lost items from picnics and visitors",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Milwaukee Land Co.\" tract on the 1920 plat. It is farm field or pasture today with no building within 93 m: plowed ground, so finds may be scattered.",
+"t": "Landmarks drew picnics and Sunday visitors: search the flat ground at the foot and along the old approach road.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T14N R21E, page 25)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-cemetery-sec-9-t14n-r22e",
+"L": "school2",
+"n": "Cemetery, sec. 9 T14N R22E (1920 plat)",
+"la": 43.70316,
+"lo": -87.87011,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 9, T14N R22E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Look only: do not detect in cemeteries",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "The c.1920 Donohue plat book of Sheboygan County draws a cemetery here (on the 1920 plat). Look only: never detect in a cemetery.",
+"t": "Look only. Use it to locate the church and the old road; never detect in a cemetery.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T14N R22E, page 27)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-hingham-millpond-sec-30-t14n-r22e",
+"L": "vpo",
+"n": "Hingham millpond, sec. 30 T14N R22E (1920 plat)",
+"la": 43.64793,
+"lo": -87.90755,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 30, T14N R22E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins and tools along the old banks and dam",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: Mill pond on the Mullet/Onion River at Hingham on the 1920 plat. It is farm field or pasture today with no building within 108 m: plowed ground, so finds may be scattered.",
+"t": "The old dam end and the banks where the road crossed are best; the pond bed itself is usually silted over.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T14N R22E, page 27)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-mill-pond-east-of-hingham-sec-32-t14n-r2",
+"L": "vpo",
+"n": "Mill pond east of Hingham, sec. 32 T14N R22E (1920 plat)",
+"la": 43.64081,
+"lo": -87.89073,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 32, T14N R22E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins and tools along the old banks and dam",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: Second pond on the river east of Hingham on the 1920 plat. The ground is wooded today, with no building within 60 m, so the old surface may be undisturbed.",
+"t": "The old dam end and the banks where the road crossed are best; the pond bed itself is usually silted over.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T14N R22E, page 27)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-ourtown",
+"L": "school2",
+"n": "Ourtown (1920 plat)",
+"la": 43.69872,
+"lo": -87.81663,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 12, T14N R22E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, tokens, buttons, harness and household items",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Ourtown\" hamlet on the Onion River, sec. 11/12, Lima Twp. The USGS place-name file has Ourtown (GNIS 1570950) about 400 m southwest of the plat spot. It is farm field or pasture today with no building within 105 m: plowed ground, so finds may be scattered.",
+"t": "Find each lot on the plat page, then check a 1938 aerial for the old buildings. The crossroads corners and the store, shop and mill lots get the most traffic.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T14N R22E, page 27)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-oostburg-canning-co-sec-14-t14n-r22e",
+"L": "vpo",
+"n": "Oostburg Canning Co., sec. 14 T14N R22E (1920 plat)",
+"la": 43.67809,
+"lo": -87.82438,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 14, T14N R22E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, milk-can tags, tokens, farm hardware",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Oostburg Can. Co.\" 118-acre tract on the 1920 plat. It is farm field or pasture today with no building within 293 m: plowed ground, so finds may be scattered.",
+"t": "Farmers lined up their wagons at the factory every morning: search the road edge and the yard by the old intake door.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T14N R22E, page 27)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-gibbsville",
+"L": "school2",
+"n": "Gibbsville (1920 plat)",
+"la": 43.64912,
+"lo": -87.82139,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 26, T14N R22E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, tokens, buttons, harness and household items",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Gibbsville\" hamlet with millpond on the Onion River, sec. 26, Lima Twp. The USGS place-name file has Gibbsville (GNIS 1565504) about 550 m northwest of the plat spot. It is farm field or pasture today with no building within 142 m: plowed ground, so finds may be scattered.",
+"t": "Find each lot on the plat page, then check a 1938 aerial for the old buildings. The crossroads corners and the store, shop and mill lots get the most traffic.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T14N R22E, page 27)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-gibbsville-millpond-sec-25-t14n-r22e",
+"L": "vpo",
+"n": "Gibbsville millpond, sec. 25 T14N R22E (1920 plat)",
+"la": 43.64852,
+"lo": -87.8134,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 25, T14N R22E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins and tools along the old banks and dam",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: Mill pond on the Onion River at Gibbsville on the 1920 plat. It is farm field or pasture today with no building within 351 m: plowed ground, so finds may be scattered.",
+"t": "The old dam end and the banks where the road crossed are best; the pond bed itself is usually silted over.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T14N R22E, page 27)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-pinehurst-farm-company-sec-1-t14n-r22e",
+"L": "vpo",
+"n": "Pinehurst Farm Company, sec. 1 T14N R22E (1920 plat)",
+"la": 43.7124,
+"lo": -87.80685,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 1, T14N R22E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins and lost items from picnics and visitors",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Pinehurst Farm Company\" on the 1920 plat. It is farm field or pasture today with no building within 78 m: plowed ground, so finds may be scattered.",
+"t": "Landmarks drew picnics and Sunday visitors: search the flat ground at the foot and along the old approach road.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T14N R22E, page 27)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-church-sec-27-t14n-r22e",
+"L": "school2",
+"n": "Church site, sec. 27 T14N R22E (1920 plat)",
+"la": 43.65582,
+"lo": -87.85224,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 27, T14N R22E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, religious medals, rings, buttons from churchgoers and socials",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "The c.1920 Donohue plat book of Sheboygan County draws a church here (on the 1920 plat). It is farm field or pasture today with no building within 285 m: plowed ground, so finds may be scattered.",
+"t": "The yard and the road edge in front of the door are best; churches held picnics and socials outside. Leave any burials alone.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T14N R22E, page 27)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-weedens-station-sec-4-t14n-r23e",
+"L": "vpo",
+"n": "Weedens Station, sec. 4 T14N R23E (1920 plat)",
+"la": 43.70335,
+"lo": -87.75964,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 4, T14N R23E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, railroad buttons, tokens, baggage tags, spikes",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Weedens Station\" on the C.&N.W. railroad on the 1920 plat. It is open field today with a building nearby.",
+"t": "Platforms and the ground between the depot and the street had the most coin drops. Railroad land is private: ask the railroad or the owner.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T14N R23E, page 29)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-cheese-factory-sec-9-t14n-r23e",
+"L": "vpo",
+"n": "Cheese factory, sec. 9 T14N R23E (1920 plat)",
+"la": 43.68787,
+"lo": -87.74903,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 9, T14N R23E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, milk-can tags, tokens, farm hardware",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Cheese Fac.\" on the 1920 plat. It is farm field or pasture today with no building within 80 m: plowed ground, so finds may be scattered.",
+"t": "Farmers lined up their wagons at the factory every morning: search the road edge and the yard by the old intake door.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T14N R23E, page 29)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-wilson-town-hall-sec-16-t14n-r23e",
+"L": "school2",
+"n": "Wilson town hall, sec. 16 T14N R23E (1920 plat)",
+"la": 43.68536,
+"lo": -87.74942,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 16, T14N R23E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, jewelry, buttons from dances and meetings",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Town Hall\" and \"Saloon\" at the crossroads on the 1920 plat. It is farm field or pasture today with no building within 175 m: plowed ground, so finds may be scattered.",
+"t": "Dances and meetings: the yard and the parking edge by the door.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T14N R23E, page 29)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-school-sec-4-t14n-r23e",
+"L": "school2",
+"n": "School, sec 4 T14N R23E (1920 plat)",
+"la": 43.70398,
+"lo": -87.74321,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 4, T14N R23E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, buttons, slate pencils, marbles, toy parts, lost jewelry",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "The c.1920 Donohue plat book of Sheboygan County draws a schoolhouse here (on the 1920 plat). The USGS place-name file lists A2 Charter School (GNIS 2716365) about 210 m southeast of the plat spot. It is open field today with a building nearby.",
+"t": "Schoolyards were used for 30 to 60 years. Look for the cleared square, a well or pump and lilacs; on a 1938 aerial the yard often shows as a bare patch by the road.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T14N R23E, page 29)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-school-sec-19-t14n-r23e",
+"L": "school2",
+"n": "School, sec 19 T14N R23E (1920 plat)",
+"la": 43.67269,
+"lo": -87.79878,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 19, T14N R23E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, buttons, slate pencils, marbles, toy parts, lost jewelry",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "The c.1920 Donohue plat book of Sheboygan County draws a schoolhouse here (and 'Cem.' on the 1920 plat). The USGS place-name file lists Saint George School (GNIS 1572950) about 280 m south of the plat spot. It is farm field or pasture today with no building within 102 m: plowed ground, so finds may be scattered.",
+"t": "Schoolyards were used for 30 to 60 years. Look for the cleared square, a well or pump and lilacs; on a 1938 aerial the yard often shows as a bare patch by the road.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T14N R23E, page 29)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-cemetery-sec-19-t14n-r23e",
+"L": "school2",
+"n": "Cemetery, sec 19 T14N R23E (1920 plat)",
+"la": 43.67141,
+"lo": -87.79891,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 19, T14N R23E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Look only: do not detect in cemeteries",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "The c.1920 Donohue plat book of Sheboygan County draws a cemetery here (on the 1920 plat). The USGS place-name file lists Saint George Catholic Cemetery (GNIS 1833475) about 140 m south of the plat spot. Look only: never detect in a cemetery.",
+"t": "Look only. Use it to locate the church and the old road; never detect in a cemetery.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T14N R23E, page 29)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-forest-preservation-association-dunes-tr",
+"L": "vpo",
+"n": "Forest Preservation Association dunes tract, sec. 14 T14N R23E (1920 plat)",
+"la": 43.68108,
+"lo": -87.71298,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 14, T14N R23E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins and lost items from picnics and visitors",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Forest Preservation Association\" 206-acre lakeshore tract on the 1920 plat (later Terry Andrae State Park). State park ground: look only. The ground is wooded today, with no building within 60 m, so the old surface may be undisturbed.",
+"t": "Landmarks drew picnics and Sunday visitors: search the flat ground at the foot and along the old approach road.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T14N R23E, page 29)"
+],
+"psh20": 1,
+"warn": "State park land today (Terry Andrae/Kohler-Andrae dunes): look only, no detecting."
+},
+{
+"id": "psh20-cheese-factory-sec-9-t13n-r22e",
+"L": "vpo",
+"n": "Cheese factory, sec. 9 T13N R22E (1920 plat)",
+"la": 43.61488,
+"lo": -87.87747,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 9, T13N R22E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, milk-can tags, tokens, farm hardware",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Cheese\" factory at the crossroads on the 1920 plat. It is farm field or pasture today with no building within 151 m: plowed ground, so finds may be scattered.",
+"t": "Farmers lined up their wagons at the factory every morning: search the road edge and the yard by the old intake door.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T13N R22E, page 31)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-dacada",
+"L": "school2",
+"n": "Dacada (1920 plat)",
+"la": 43.54418,
+"lo": -87.90864,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 31, T13N R22E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, tokens, buttons, harness and household items",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Dacada\" hamlet with St. Nicholas church, sec. 31, Holland Twp. The USGS place-name file has Dacada (GNIS 1563654) about 90 m south of the plat spot. It is open field today with a building nearby.",
+"t": "Find each lot on the plat page, then check a 1938 aerial for the old buildings. The crossroads corners and the store, shop and mill lots get the most traffic.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T13N R22E, page 31)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-st-nicholas-catholic-church-dacada-sec-6",
+"L": "school2",
+"n": "St. Nicholas Catholic church, Dacada, sec. 6 T12N R22E (1920 plat)",
+"la": 43.54321,
+"lo": -87.90946,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 6, T12N R22E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, religious medals, rings, buttons from churchgoers and socials",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"St. Nic. Cong.\" on the 1920 plat. Map data (2026) shows a building within 30 m today, so part of the site may be under a farmstead or a house; ask first.",
+"t": "The yard and the road edge in front of the door are best; churches held picnics and socials outside. Leave any burials alone.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T12N R22E, page 31)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-schoolhouse-sec-20-t13n-r22e",
+"L": "school2",
+"n": "Schoolhouse site, sec. 20 T13N R22E (1920 plat)",
+"la": 43.58677,
+"lo": -87.88383,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 20, T13N R22E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, buttons, slate pencils, marbles, toy parts, lost jewelry",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "The c.1920 Donohue plat book of Sheboygan County draws a schoolhouse here (on the 1920 plat). Map data (2026) shows a building within 30 m today, so part of the site may be under a farmstead or a house; ask first.",
+"t": "Schoolyards were used for 30 to 60 years. Look for the cleared square, a well or pump and lilacs; on a 1938 aerial the yard often shows as a bare patch by the road.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T13N R22E, page 31)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-union-cemetery-sec-11-t13n-r22e",
+"L": "school2",
+"n": "Union Cemetery, sec 11 T13N R22E (1920 plat)",
+"la": 43.60891,
+"lo": -87.82406,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 11, T13N R22E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Look only: do not detect in cemeteries",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Union Cem. Assoc.\" on the 1920 plat. The USGS place-name file lists Union Cemetery (GNIS 1575880) about 210 m southwest of the plat spot. Look only: never detect in a cemetery.",
+"t": "Look only. Use it to locate the church and the old road; never detect in a cemetery.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T13N R22E, page 31)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-dutch-canning-and-pickle-co-sec-11-t13n-",
+"L": "vpo",
+"n": "Dutch Canning and Pickle Co., sec. 11 T13N R22E (1920 plat)",
+"la": 43.6054,
+"lo": -87.83306,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 11, T13N R22E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, milk-can tags, tokens, farm hardware",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Dutch C.& P. Co.\" tract on the 1920 plat. It is farm field or pasture today with no building within 320 m: plowed ground, so finds may be scattered.",
+"t": "Farmers lined up their wagons at the factory every morning: search the road edge and the yard by the old intake door.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T13N R22E, page 31)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-cemetery-sec-11-t13n-r22e",
+"L": "school2",
+"n": "Cemetery, sec 11 T13N R22E (1920 plat)",
+"la": 43.60828,
+"lo": -87.82808,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 11, T13N R22E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Look only: do not detect in cemeteries",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "The c.1920 Donohue plat book of Sheboygan County draws a cemetery here (on the 1920 plat). The USGS place-name file lists Union Cemetery (GNIS 1575880) about 130 m east of the plat spot. Look only: never detect in a cemetery.",
+"t": "Look only. Use it to locate the church and the old road; never detect in a cemetery.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T13N R22E, page 31)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-oostburg-cemetery-sec-18-t13n-r23e",
+"L": "school2",
+"n": "Oostburg Cemetery, sec 18 T13N R23E (1920 plat)",
+"la": 43.58838,
+"lo": -87.79899,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 18, T13N R23E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Look only: do not detect in cemeteries",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Oostburg Cem.\" on the 1920 plat. The USGS place-name file lists Oostburg Cemetery (GNIS 1570843) about 130 m south of the plat spot. Look only: never detect in a cemetery.",
+"t": "Look only. Use it to locate the church and the old road; never detect in a cemetery.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T13N R23E, page 31)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-reformed-church-cedar-grove-sec-26-t13n-",
+"L": "school2",
+"n": "Reformed church, Cedar Grove, sec 26 T13N R22E (1920 plat)",
+"la": 43.57073,
+"lo": -87.822,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 26, T13N R22E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, religious medals, rings, buttons from churchgoers and socials",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Ref. Church\" on the 1920 plat. The USGS place-name file lists First Reformed Church (GNIS 1834564) about 100 m southeast of the plat spot. Map data (2026) shows a building within 30 m today, so part of the site may be under a farmstead or a house; ask first.",
+"t": "The yard and the road edge in front of the door are best; churches held picnics and socials outside. Leave any burials alone.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T13N R22E, page 31)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-cemetery-sec-5-t13n-r21e",
+"L": "school2",
+"n": "Cemetery, sec 5 T13N R21E (1920 plat)",
+"la": 43.62998,
+"lo": -88.01855,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 5, T13N R21E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Look only: do not detect in cemeteries",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "The c.1920 Donohue plat book of Sheboygan County draws a cemetery here (on the 1920 plat). The USGS place-name file lists Union Cemetery (GNIS 1575881) about 150 m west of the plat spot. Look only: never detect in a cemetery.",
+"t": "Look only. Use it to locate the church and the old road; never detect in a cemetery.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T13N R21E, page 33)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-millpond-on-the-milwaukee-river-sec-17-t",
+"L": "vpo",
+"n": "Millpond on the Milwaukee River, sec. 17 T13N R21E (1920 plat)",
+"la": 43.59088,
+"lo": -88.01639,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 17, T13N R21E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins and tools along the old banks and dam",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: Mill pond on the Milwaukee River with mill buildings (\"H.W.Lang\") on the 1920 plat. The ground is wooded today, with no building within 60 m, so the old surface may be undisturbed.",
+"t": "The old dam end and the banks where the road crossed are best; the pond bed itself is usually silted over.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T13N R21E, page 33)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-silver-creek",
+"L": "school2",
+"n": "Silver Creek (1920 plat)",
+"la": 43.55749,
+"lo": -88.0139,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 29, T13N R21E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, tokens, buttons, harness and household items",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Silver Creek\" hamlet, sec. 29/32, Sherman Twp. It is farm field or pasture today with no building within 360 m: plowed ground, so finds may be scattered.",
+"t": "Find each lot on the plat page, then check a 1938 aerial for the old buildings. The crossroads corners and the store, shop and mill lots get the most traffic.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T13N R21E, page 33)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-catholic-cemetery-sec-28-t13n-r21e",
+"L": "school2",
+"n": "Catholic cemetery, sec 28 T13N R21E (1920 plat)",
+"la": 43.55815,
+"lo": -87.98782,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 28, T13N R21E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Look only: do not detect in cemeteries",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Cath. Cem.\" on the 1920 plat. The USGS place-name file lists Saint Marys Cemetery (GNIS 1573282) about 200 m east of the plat spot. Look only: never detect in a cemetery.",
+"t": "Look only. Use it to locate the church and the old road; never detect in a cemetery.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T13N R21E, page 33)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-millpond-on-silver-creek-sec-31-t13n-r21",
+"L": "vpo",
+"n": "Millpond on Silver Creek, sec. 31 T13N R21E (1920 plat)",
+"la": 43.55386,
+"lo": -88.02837,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 31, T13N R21E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins and tools along the old banks and dam",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: Mill pond on the creek near Silver Creek on the 1920 plat. Map data (2026) shows a building within 30 m today, so part of the site may be under a farmstead or a house; ask first.",
+"t": "The old dam end and the banks where the road crossed are best; the pond bed itself is usually silted over.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T13N R21E, page 33)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-adell",
+"L": "school2",
+"n": "Adell (1920 plat)",
+"la": 43.62026,
+"lo": -87.954,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 2, T13N R21E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, tokens, buttons, harness and household items",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Adell\" village on the C.&N.W., sec. 2, Sherman Twp. The USGS place-name file has Adell (GNIS 1560695) about 200 m southeast of the plat spot. Map data (2026) shows a building within 30 m today, so part of the site may be under a farmstead or a house; ask first.",
+"t": "Find each lot on the plat page, then check a 1938 aerial for the old buildings. The crossroads corners and the store, shop and mill lots get the most traffic.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T13N R21E, page 33)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-adell-canning-co-sec-2-t13n-r21e",
+"L": "vpo",
+"n": "Adell Canning Co., sec. 2 T13N R21E (1920 plat)",
+"la": 43.62604,
+"lo": -87.95395,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 2, T13N R21E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, milk-can tags, tokens, farm hardware",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Adell Canning Co.\" on the 1920 plat. The ground is wooded today, with no building within 60 m, so the old surface may be undisturbed.",
+"t": "Farmers lined up their wagons at the factory every morning: search the road edge and the yard by the old intake door.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T13N R21E, page 33)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-adell-canning-co-farm-sec-13-t13n-r21e",
+"L": "vpo",
+"n": "Adell Canning Co. farm, sec. 13 T13N R21E (1920 plat)",
+"la": 43.5943,
+"lo": -87.9359,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 13, T13N R21E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, milk-can tags, tokens, farm hardware",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Adell Canning Co.\" tract on the 1920 plat. The ground is wooded today, with no building within 60 m, so the old surface may be undisturbed.",
+"t": "Farmers lined up their wagons at the factory every morning: search the road edge and the yard by the old intake door.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T13N R21E, page 33)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-cemetery-sec-1-t13n-r21e",
+"L": "school2",
+"n": "Cemetery, sec 1 T13N R21E (1920 plat)",
+"la": 43.61857,
+"lo": -87.9301,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 1, T13N R21E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Look only: do not detect in cemeteries",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "The c.1920 Donohue plat book of Sheboygan County draws a cemetery here (on the 1920 plat). The USGS place-name file lists Saint Patrick Catholic Cemetery (GNIS 1833479) about 110 m south of the plat spot. Look only: never detect in a cemetery.",
+"t": "Look only. Use it to locate the church and the old road; never detect in a cemetery.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T13N R21E, page 33)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-lutheran-church-sec-24-t13n-r21e",
+"L": "school2",
+"n": "Lutheran church, sec 24 T13N R21E (1920 plat)",
+"la": 43.57682,
+"lo": -87.93906,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 24, T13N R21E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, religious medals, rings, buttons from churchgoers and socials",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Luth. Church\" on the 1920 plat. The USGS place-name file lists Saint Paul Church (GNIS 1834679) about 150 m southwest of the plat spot. The ground is wooded today, with no building within 60 m, so the old surface may be undisturbed.",
+"t": "The yard and the road edge in front of the door are best; churches held picnics and socials outside. Leave any burials alone.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T13N R21E, page 33)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-altenhofen-bros-brick-works-random-lake-",
+"L": "vpo",
+"n": "Altenhofen Bros. brick works, Random Lake, sec. 34 T13N R21E (1920 plat)",
+"la": 43.55478,
+"lo": -87.96717,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 34, T13N R21E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, tools, maker-marked brick",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Altenhofen Bros.\" works at Random Lake on the 1920 plat. Map data (2026) shows a building within 30 m today, so part of the site may be under a farmstead or a house; ask first.",
+"t": "Brickyards and kilns had crews and teamsters all day: search the yard edges and the old haul road.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T13N R21E, page 33)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-beechwood",
+"L": "school2",
+"n": "Beechwood (1920 plat)",
+"la": 43.59066,
+"lo": -88.12604,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 17, T13N R20E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, tokens, buttons, harness and household items",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Beechwood\" hamlet on the Mayville road, sec. 17, Scott Twp. The USGS place-name file has Beechwood (GNIS 1561498) about 510 m northeast of the plat spot. It is farm field or pasture today with no building within 250 m: plowed ground, so finds may be scattered.",
+"t": "Find each lot on the plat page, then check a 1938 aerial for the old buildings. The crossroads corners and the store, shop and mill lots get the most traffic.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T13N R20E, page 35)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-cemetery-sec-18-t13n-r20e",
+"L": "school2",
+"n": "Cemetery, sec 18 T13N R20E (1920 plat)",
+"la": 43.60083,
+"lo": -88.14317,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 18, T13N R20E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Look only: do not detect in cemeteries",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "The c.1920 Donohue plat book of Sheboygan County draws a cemetery here (on the 1920 plat). The USGS place-name file lists Warden Cemetery (GNIS 1576208) about 120 m west of the plat spot. Look only: never detect in a cemetery.",
+"t": "Look only. Use it to locate the church and the old road; never detect in a cemetery.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T13N R20E, page 35)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-cemetery-sec-28-t13n-r20e",
+"L": "school2",
+"n": "Cemetery, sec 28 T13N R20E (1920 plat)",
+"la": 43.57133,
+"lo": -88.11919,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 28, T13N R20E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Look only: do not detect in cemeteries",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "The c.1920 Donohue plat book of Sheboygan County draws a cemetery here (& Cem.' on the 1920 plat). The USGS place-name file lists Immanuel Lutheran Cemetery (GNIS 1833472) about 110 m southwest of the plat spot. Look only: never detect in a cemetery.",
+"t": "Look only. Use it to locate the church and the old road; never detect in a cemetery.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T13N R20E, page 35)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-church-sec-28-t13n-r20e",
+"L": "school2",
+"n": "Church, sec 28 T13N R20E (1920 plat)",
+"la": 43.57114,
+"lo": -88.11964,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 28, T13N R20E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, religious medals, rings, buttons from churchgoers and socials",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "The c.1920 Donohue plat book of Sheboygan County draws a church here (& Cem.' on the 1920 plat). The USGS place-name file lists Immanuel Church (GNIS 1566869) about 70 m southwest of the plat spot. The ground is mostly wooded today.",
+"t": "The yard and the road edge in front of the door are best; churches held picnics and socials outside. Leave any burials alone.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T13N R20E, page 35)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-scott-town-hall-sec-15-t13n-r20e",
+"L": "school2",
+"n": "Scott town hall, sec. 15 T13N R20E (1920 plat)",
+"la": 43.58663,
+"lo": -88.09802,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 15, T13N R20E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, jewelry, buttons from dances and meetings",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Town House\" on the 1920 plat. It is farm field or pasture today with no building within 133 m: plowed ground, so finds may be scattered.",
+"t": "Dances and meetings: the yard and the parking edge by the door.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "B",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T13N R20E, page 35)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-batavia-and-scott-p-o",
+"L": "school2",
+"n": "Batavia and Scott P.O. (1920 plat)",
+"la": 43.59445,
+"lo": -88.04872,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 13, T13N R20E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Coins, tokens, buttons, harness and household items",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "From the 1920 Donohue atlas of Sheboygan County: \"Batavia\" hamlet with \"Scott P.O.\", sec. 13, Scott Twp. The USGS place-name file has Batavia (GNIS 1561299) about 180 m west of the plat spot. The ground is wooded today, with no building within 60 m, so the old surface may be undisturbed.",
+"t": "Find each lot on the plat page, then check a 1938 aerial for the old buildings. The crossroads corners and the store, shop and mill lots get the most traffic.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T13N R20E, page 35)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-cemetery-sec-14-t13n-r20e",
+"L": "school2",
+"n": "Cemetery, sec 14 T13N R20E (1920 plat)",
+"la": 43.60005,
+"lo": -88.07562,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 14, T13N R20E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Look only: do not detect in cemeteries",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "The c.1920 Donohue plat book of Sheboygan County draws a cemetery here (on the 1920 plat). The USGS place-name file lists Winfield Cemetery (GNIS 1576864) about 40 m north of the plat spot. Look only: never detect in a cemetery.",
+"t": "Look only. Use it to locate the church and the old road; never detect in a cemetery.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T13N R20E, page 35)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-cemetery-sec-13-t13n-r20e",
+"L": "school2",
+"n": "Cemetery, sec 13 T13N R20E (1920 plat)",
+"la": 43.60007,
+"lo": -88.04545,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 13, T13N R20E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Look only: do not detect in cemeteries",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "The c.1920 Donohue plat book of Sheboygan County draws a cemetery here (on the 1920 plat). The USGS place-name file lists Saint Stephens Lutheran Cemetery (GNIS 1833485) about 130 m west of the plat spot. Look only: never detect in a cemetery.",
+"t": "Look only. Use it to locate the church and the old road; never detect in a cemetery.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T13N R20E, page 35)"
+],
+"psh20": 1
+},
+{
+"id": "psh20-cemetery-sec-34-t13n-r20e",
+"L": "school2",
+"n": "Cemetery, sec 34 T13N R20E (1920 plat)",
+"la": 43.55627,
+"lo": -88.09127,
+"y": "By 1920",
+"pl": "Sheboygan County, sec. 34, T13N R20E",
+"co": "Sheboygan",
+"stt": "WI",
+"v": "Look only: do not detect in cemeteries",
+"c": "documented",
+"s": "unknown",
+"p": "plss",
+"st": "The c.1920 Donohue plat book of Sheboygan County draws a cemetery here (on the 1920 plat). The USGS place-name file lists Scott Union Cemetery (GNIS 1573849) about 40 m north of the plat spot. Look only: never detect in a cemetery.",
+"t": "Look only. Use it to locate the church and the old road; never detect in a cemetery.",
+"src": [
+[
+"Atlas of Sheboygan County, Wisconsin (Jerry Donohue, Sheboygan, 1920), from the Wisconsin Historical Society scan",
+"https://www.wisconsinhistory.org/record/multi/W017572"
+]
+],
+"pinconf": "A",
+"pinev": [
+"Placed from the township plat: the page's section grid was fitted and tied to the BLM survey section corners, so the pin is good to about 100-200 m.",
+"1920 plat book, township page (T13N R20E, page 35)"
+],
+"psh20": 1
+}
+]
