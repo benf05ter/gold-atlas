@@ -1,0 +1,1 @@
+{ addEventListener("DOMContentLoaded",()=>{ const p=DATA.points.find(q=>q.id==="bur-drummond-dam"); if(p&&p.st) p.st=p.st.replace(" The Lake Owen dam is not yet placed."," The Lake Owen dam has its own pin (bur-lake-owen-dam)."); }); }
