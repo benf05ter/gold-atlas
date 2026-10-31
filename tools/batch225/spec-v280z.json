@@ -1,0 +1,29 @@
+{
+ "new": [],
+ "edit": {
+  "tw-mn-warsaw-murphy-crock-1920": {
+   "moved": true,
+   "set": {
+    "la": 44.2299,
+    "lo": -93.3044,
+    "st": "Early settler James Murphy, on this farm since 1864, kept \"large amounts hidden about the house\" and \"died suddenly\" on 16 May 1901 without telling where. His widow had once counted the hoard at about $30,000. In April 1920 a cow's hoof broke through a rotten board in the barnyard by the cow barn, and grandson Sylvester found an old crock with $6,000 in gold, at a spot once \"just outside the barnyard\" and later taken into the lot. The family felt \"more akin to disappointment than elation\": roughly $24,000 was still missing. James's farmstead stood in the SE quarter of sec. 23 just west of the sec. 23/24 line (1900 plat); the 1915 atlas shows no farmstead on the sec. 24 side, and the 1938 aerial shows one farmstead about 80 m west of Bagley Ave and 480 m north of 250th St W, gone today. 2021 LiDAR still shows its building pads and a pit.",
+    "t": "James Murphy's old home place: house, cow barn and barnyard stood here until after 1938; now cropland, but the building pads still show in LiDAR. The 1920 crock was under a rotten board in the barnyard by the cow barn; the rest was kept \"about the house\". Private land: ask permission first.",
+    "pl": "James Murphy farmstead, E half of SE quarter of sec. 23 T109N R21W (Warsaw township), Rice County; about 80 m W of Bagley Ave",
+    "acm": [
+     75,
+     "aerial"
+    ],
+    "pinev": [
+     "Four sources agree: the 1900 plat's only Murphy farmstead dot west of the 23/24 line in SE sec. 23; no farmstead on the sec. 24 side in 1915; one farmstead on the 1938 aerial (MHAPO Rice WG-7-418) about 80 m W of Bagley Ave and 480 m N of 250th St W; building pads and a pit on 2021 LiDAR (about 75 m)."
+    ]
+   },
+   "st": "",
+   "src": [
+    [
+     "1938 aerial photo, Rice County WG-7-418 (MHAPO); 1900 Rice County plat; 2021 MN LiDAR (deep-dive notes)",
+     ""
+    ]
+   ]
+  }
+ }
+}

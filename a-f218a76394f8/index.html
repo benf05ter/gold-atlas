@@ -5333,6 +5333,17 @@ var PLATS=[{id:'chippewa',label:'Chippewa 1913',b:[-91.6676,-90.9203,44.855,45.2
   {id:'scott05',label:'Scott IA 1905',b:[-90.899943,-90.432431,41.508949,41.772017],f:'plat_scott_1905',dir:'om13',tile:'p-scott-1905'},
   {id:'obrien11',label:'O’Brien IA 1911',b:[-95.862391,-95.387635,42.909181,43.258429],f:'plat_obrien_1911',dir:'om13',tile:'p-obrien-1911'},
   {id:'marshall07',label:'Marshall IA 1907',b:[-93.231899,-92.765688,41.862207,42.210256],f:'plat_marshall_1907',dir:'om13',tile:'p-marshall-1907'},
+  {id:'iowa30',label:'Iowa County IA 1930',b:[-92.300142,-91.827005,41.509805,41.862928],f:'plat_iowa_1930',dir:'om13',tile:'p-iowa-1930'},
+  {id:'madison12',label:'Madison County IA 1912',b:[-94.241734,-93.789213,41.15649,41.511902],f:'plat_madison_1912',dir:'om13',tile:'p-madison-1912'},
+  {id:'muscatine16',label:'Muscatine County IA 1916',b:[-91.369359,-90.783777,41.334547,41.597947],f:'plat_muscatine_1916',dir:'om13',tile:'p-muscatine-1916'},
+  {id:'marion09',label:'Marion County IA 1909',b:[-93.328529,-92.869934,41.160672,41.508541],f:'plat_marion_1909',dir:'om13',tile:'p-marion-1909'},
+  {id:'poweshiek27',label:'Poweshiek County IA 1927',b:[-92.766909,-92.297349,41.508673,41.862886],f:'plat_poweshiek_1927',dir:'om13',tile:'p-poweshiek-1927'},
+  {id:'warren20',label:'Warren County IA 1920s',b:[-93.790963,-93.327953,41.160417,41.512068],f:'plat_warren_1920s',dir:'om13',tile:'p-warren-1920s'},
+  {id:'clarke09',label:'Clarke County IA 1909',b:[-94.014859,-93.556475,40.896771,41.162254],f:'plat_clarke_1909',dir:'om13',tile:'p-clarke-1909'},
+  {id:'washington74',label:'Washington County IA 1874',b:[-91.94686,-91.483166,41.161584,41.511825],f:'plat_washington_1874',dir:'om13',tile:'p-washington-1874'},
+  {id:'knox48',label:'Knox County IL 1948',b:[-90.444268,-89.984483,40.712247,41.152114],f:'plat_knox_1948',dir:'om13',tile:'p-knox-1948'},
+  {id:'plymouth14',label:'Plymouth County IA 1914',b:[-96.450415,-95.858629,42.560588,42.910269],f:'plat_plymouth_1914',dir:'om13',tile:'p-plymouth-1914'},
+  {id:'louisa17',label:'Louisa County IA 1917',b:[-91.485984,-91.023996,41.072961,41.380343],f:'plat_louisa_1917',dir:'om13',tile:'p-louisa-1917'},
   {id:'gogebic87',label:'Gogebic/Ontonagon MI 1887',b:[-90.42601, -88.94263, 46.09643, 46.94767],f:'plat_gogebic_ontonagon_1887',dir:'om13',tile:'p-gogebic87'}];
 { const g13=el('g',{},gBase); gBase.insertBefore(g13,gBelt); g13.style.display='none';
   for(const p of PLATS){ const [ix,iy]=P(p.b[0],p.b[3]); p.im=el('image',{x:ix,y:iy,width:(p.b[1]-p.b[0])*K,height:p.b[3]-p.b[2],preserveAspectRatio:'none','data-f':p.f},g13); }
