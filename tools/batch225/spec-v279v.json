@@ -1,0 +1,148 @@
+{
+ "new": [
+  {
+   "id": "xr-summit-united-brethren-church",
+   "L": "school2",
+   "n": "Summit United Brethren Church site",
+   "la": 43.53136,
+   "lo": -90.59041,
+   "y": "historical",
+   "pl": "GNIS historical church point, Richland County",
+   "co": "Richland",
+   "stt": "WI",
+   "v": "Look only: church and cemetery ground",
+   "c": "documented",
+   "s": "unknown",
+   "p": "gnis",
+   "st": "USGS GNIS archive lists Summit United Brethren Church (historical) here (Church, West Lima quad). Find a Grave lists Booher Cemetery (also known as Summit Cemetery) (id 2538484, 3 memorials) about 63 m from the GNIS church point, which confirms the church site. The church ground and the cemetery are look-only. Only 3 burials are listed, the latest in 1864.",
+   "t": "Look only. Read the stones and the church history; do not dig or detect on church or cemetery ground.",
+   "src": [
+    [
+     "USGS GNIS archive feature 1956949 (historical features file, 2021)",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1956949"
+    ],
+    [
+     "Find a Grave: Booher Cemetery (also known as Summit Cemetery) (context, not evidence)",
+     "https://www.findagrave.com/cemetery/2538484"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "GNIS historical church point; Find a Grave cemetery within 63 m."
+   ],
+   "acm": [
+    100,
+    "gnis"
+   ],
+   "warn": "Look only: church site beside Booher Cemetery"
+  },
+  {
+   "id": "xr-john-cook-church",
+   "L": "school2",
+   "n": "John Cook Church site",
+   "la": 43.39026,
+   "lo": -90.55374,
+   "y": "historical",
+   "pl": "GNIS historical church point, Richland County",
+   "co": "Richland",
+   "stt": "WI",
+   "v": "Look only: church and cemetery ground",
+   "c": "documented",
+   "s": "unknown",
+   "p": "gnis",
+   "st": "USGS GNIS archive lists John Cook Church (historical) here (Church, Sabin quad). Find a Grave lists Mill Creek Cemetery (id 88443, 262 memorials, burials from 1855) about 46 m from the GNIS church point, which confirms the church site. The church ground and the cemetery are look-only.",
+   "t": "Look only. Read the stones and the church history; do not dig or detect on church or cemetery ground.",
+   "src": [
+    [
+     "USGS GNIS archive feature 1840595 (historical features file, 2021)",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1840595"
+    ],
+    [
+     "Find a Grave: Mill Creek Cemetery (context, not evidence)",
+     "https://www.findagrave.com/cemetery/88443"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "GNIS historical church point; Find a Grave cemetery within 46 m."
+   ],
+   "acm": [
+    100,
+    "gnis"
+   ],
+   "warn": "Look only: church site beside Mill Creek Cemetery"
+  },
+  {
+   "id": "xr-little-church",
+   "L": "school2",
+   "n": "Little Church site",
+   "la": 43.41971,
+   "lo": -89.60096,
+   "y": "historical",
+   "pl": "GNIS historical church point, Sauk County",
+   "co": "Sauk",
+   "stt": "WI",
+   "v": "Look only: church and cemetery ground",
+   "c": "documented",
+   "s": "unknown",
+   "p": "gnis",
+   "st": "USGS GNIS archive lists Little Church (historical) here (School, Durwards Glen quad). Find a Grave lists St Johns German Evangelical Lutheran Cemetery (id 2465097, 33 memorials, burials from 1889) about 16 m from the GNIS church point, which confirms the church site. The church ground and the cemetery are look-only. Find a Grave says the church was built about 1890 near the cemetery and the building was moved in 1982 to the corner of Hwy 78 and Bluff Road.",
+   "t": "Look only. Read the stones and the church history; do not dig or detect on church or cemetery ground.",
+   "src": [
+    [
+     "USGS GNIS archive feature 1846863 (historical features file, 2021)",
+     "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1846863"
+    ],
+    [
+     "Find a Grave: St Johns German Evangelical Lutheran Cemetery (context, not evidence)",
+     "https://www.findagrave.com/cemetery/2465097"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "GNIS historical church point; Find a Grave cemetery within 16 m."
+   ],
+   "acm": [
+    100,
+    "gnis"
+   ],
+   "warn": "Look only: church site beside St Johns German Evangelical Lutheran Cemetery"
+  },
+  {
+   "id": "vs-ia-marietta-townsite",
+   "L": "ghost",
+   "n": "Marietta (old town site, first county seat of Marshall County)",
+   "la": 42.083,
+   "lo": -93.0005,
+   "y": "1850s-1903",
+   "pl": "Old Marietta town site, Marshall County (GNIS Marietta and Marietta Post Office, historical)",
+   "co": "Marshall",
+   "stt": "IA",
+   "v": "Coins, tokens, household items from the old town lots",
+   "c": "documented",
+   "s": "unknown",
+   "p": "gnis",
+   "st": "Marietta once promised to be the metropolis of central Iowa and was prominent before the railroads, then drifted back until nothing was left; by 1903 the old town site was farm land, and an action to quiet title to about 1,000 acres named 500 defendants, the heirs of old lot owners. Marietta Cemetery lies about 1.7 km south. The cemetery is look-only.",
+   "t": "Farm land now: compare the GNIS point with a 1870s-1900s Marshall County plat and the 1930s air photo for the old street grid, then ask the landowner.",
+   "src": [
+    [
+     "USGS GNIS: Marietta and Marietta Post Office (historical)",
+     ""
+    ],
+    [
+     "Rock Island Argus, 16 Sep 1903, p. 1 (Chronicling America)",
+     ""
+    ]
+   ],
+   "pinconf": "B",
+   "pinev": [
+    "GNIS town and post office points; 1903 quiet-title suit on the old town site."
+   ],
+   "acm": [
+    400,
+    "gnis"
+   ]
+  }
+ ],
+ "edit": {}
+}
