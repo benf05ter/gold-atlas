@@ -5345,6 +5345,7 @@ var PLATS=[{id:'chippewa',label:'Chippewa 1913',b:[-91.6676,-90.9203,44.855,45.2
   {id:'plymouth14',label:'Plymouth County IA 1914',b:[-96.450415,-95.858629,42.560588,42.910269],f:'plat_plymouth_1914',dir:'om13',tile:'p-plymouth-1914'},
   {id:'louisa17',label:'Louisa County IA 1917',b:[-91.485984,-91.023996,41.072961,41.380343],f:'plat_louisa_1917',dir:'om13',tile:'p-louisa-1917'},
   {id:'woodbury02',label:'Woodbury County IA 1902',b:[-96.33235,-95.669274,42.211357,42.561767],f:'plat_woodbury_1902',dir:'om13',tile:'p-woodbury-1902'},
+  {id:'johnson70',label:'Johnson County IA 1870',b:[-91.834084,-91.365877,41.510528,41.860813],f:'plat_johnson_1870',dir:'om13',tile:'p-johnson-1870'},
   {id:'gogebic87',label:'Gogebic/Ontonagon MI 1887',b:[-90.42601, -88.94263, 46.09643, 46.94767],f:'plat_gogebic_ontonagon_1887',dir:'om13',tile:'p-gogebic87'}];
 { const g13=el('g',{},gBase); gBase.insertBefore(g13,gBelt); g13.style.display='none';
   for(const p of PLATS){ const [ix,iy]=P(p.b[0],p.b[3]); p.im=el('image',{x:ix,y:iy,width:(p.b[1]-p.b[0])*K,height:p.b[3]-p.b[2],preserveAspectRatio:'none','data-f':p.f},g13); }
