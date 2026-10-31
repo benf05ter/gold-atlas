@@ -1,0 +1,162 @@
+{
+ "new": [
+  {
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "pinconf": "C",
+   "id": "bur-penokee-gap-terminus",
+   "L": "history",
+   "n": "Penokee Gap end of track, Wisconsin Central (1873-77)",
+   "la": 46.3,
+   "lo": -90.66,
+   "y": "1873-1879",
+   "pl": "Where the Bad River breaks through the Penokee Range, just south of Mellen",
+   "co": "Ashland",
+   "stt": "WI",
+   "v": "Coins, bottles, rail spikes, camp trash",
+   "st": "Burnham (1929): the Wisconsin Central's end of track stood at Penokee Gap, \"where Bad River breaks through\" the range \"just south of Mellen, thirty miles from Ashland\", from 1873 to 1877; travelers went on \"by stage or on foot from Penokee down to Park Falls\". In 1878-79 there was an O'Riley boarding house and \"a water tank ... piped from a spring high up on the mountain\". Now \"not a vestige of a single house\".",
+   "t": "Look on LiDAR along the rail line in the gap for building flats and the spring pipe line. Check land ownership first.",
+   "src": [
+    [
+     "Burnham, The Lake Superior Country in History and in Story (1929), leaf 166, 183, 287",
+     ""
+    ]
+   ],
+   "pinev": [
+    "Placed in the Bad River gap south of Mellen from the NHDPlus flowline and the book's description (about 1.5 km)."
+   ],
+   "acm": [
+    1500,
+    "approx"
+   ]
+  },
+  {
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "pinconf": "C",
+   "id": "bur-emerald-wreck-durfee-dock",
+   "L": "history",
+   "n": "Wreck of the steamer Emerald at the old Durfee dock, Ashland",
+   "la": 46.5935,
+   "lo": -90.9,
+   "y": "1880s-1900s",
+   "pl": "West End bay front, Ashland, about 14th Ave W (Durfee dock, east of the pig-iron dock)",
+   "co": "Ashland",
+   "stt": "WI",
+   "v": "Steamboat hardware, brass fittings",
+   "st": "Burnham (1929): the side-wheeler Emerald, the Hotel Chequamegon's excursion boat, ended her days \"at the old Durfee dock east of the pig iron dock ... all under the water\". Durfee's mill was the last bay-front mill \"in the west end ... just west of the power plant of the lighting company\", and the Durfee Hose Co. stood at 14th Ave and Front St.",
+   "t": "Shallow-water wreck inside city limits. Look only; ask the harbor and the state before any diving.",
+   "warn": "Shipwreck in city waters: look only.",
+   "src": [
+    [
+     "Burnham, The Lake Superior Country in History and in Story (1929), leaf 398-405",
+     ""
+    ]
+   ],
+   "pinev": [
+    "Placed on the West End bay front near 14th Ave W from the book's street clues (about 800 m)."
+   ],
+   "acm": [
+    800,
+    "approx"
+   ]
+  },
+  {
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "pinconf": "C",
+   "id": "bur-morgan-heights-gold",
+   "L": "report",
+   "n": "Morgan Heights gold find (1883), Morgan Creek",
+   "la": 46.345,
+   "lo": -90.905,
+   "y": "1883",
+   "pl": "Morgan Creek near the falls, about 8 mi south of Sanborn",
+   "co": "Ashland",
+   "stt": "WI",
+   "v": "Gold-bearing rock (report)",
+   "st": "Burnham (1929): \"along back in 83 ... Old Captain Dan Morgan of Morgan Heights fame, had discovered a piece of rock with gold in it\". Morgan Heights is \"eight miles south of Sanborn\"; \"Morgan's creek runs westward, and empties into the Marengo\", with the \"ruins of the Morgan residence near the falls\". The same page tells of an 1890s dig \"a few rods\" back in the timber near a flowing well at the top of the long hill on the Namakagon road.",
+   "t": "Much of this is Chequamegon National Forest: look only, no digging.",
+   "warn": "National Forest: look only.",
+   "src": [
+    [
+     "Burnham, The Lake Superior Country in History and in Story (1929), leaf 179-180",
+     ""
+    ]
+   ],
+   "pinev": [
+    "Placed on Morgan Creek between its head and the Marengo from NHDPlus, near the falls area (about 2 km)."
+   ],
+   "acm": [
+    2000,
+    "approx"
+   ]
+  },
+  {
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "pinconf": "C",
+   "id": "bur-drummond-dam",
+   "L": "history",
+   "n": "Drummond logging dam (about 1882)",
+   "la": 46.336,
+   "lo": -91.258,
+   "y": "about 1882",
+   "pl": "Drummond Lake outlet where the Ashland-Barnes road crosses, Drummond",
+   "co": "Bayfield",
+   "stt": "WI",
+   "v": "Dam cribbing, spikes, chain",
+   "st": "Burnham (1929): Rust-Owen built logging dams about 1882, one \"where it [the White River branch] leaves Lake Owen\" and the other at Drummond, \"the dam we drive across on the Ashland-Minneapolis-Barnes road\". The Lake Owen dam is not yet placed. See also the Rust-Owen mill pin (cqc-drummond-rust-owen-mill).",
+   "t": "Look at the road crossing at the lake outlet for old cribbing. Public road right of way: look only.",
+   "src": [
+    [
+     "Burnham, The Lake Superior Country in History and in Story (1929), leaf 396",
+     ""
+    ]
+   ],
+   "pinev": [
+    "Placed at the Drummond Lake outlet by the village from the book's description (about 800 m)."
+   ],
+   "acm": [
+    800,
+    "approx"
+   ]
+  },
+  {
+   "c": "documented",
+   "s": "unknown",
+   "p": "approx",
+   "pinconf": "C",
+   "id": "kmr-oneal-knife-river-landing",
+   "L": "camp",
+   "n": "O'Neal Bros. log landing at the Knife River dam above Mora (1895-1902)",
+   "la": 46.0097,
+   "lo": -93.3928,
+   "y": "1895-1902",
+   "pl": "Knife River about seven miles upstream from Mora, Kanabec County",
+   "co": "Kanabec",
+   "stt": "MN",
+   "v": "Chain, log dogs, spikes, camp trash",
+   "st": "King (1981): the O'Neal Bros. logging railroad ran \"from their log landing on Knife River some seven miles upstream from the village of Mora, about 27 miles north to Camp A\"; a photo is captioned \"Knife River Dam near Mora\". Logs went down the Knife to the Snake and St. Croix for Laird-Norton of Winona, and the rails were sold to Weyerhaeuser in 1902. The pin is at the Knife Lake outlet, the likely dam site; the landing could be lower on the river.",
+   "t": "Look on LiDAR along the Knife River below the lake for the landing and the grade running north. Private land: ask first.",
+   "src": [
+    [
+     "Frank A. King, Minnesota Logging Railroads (1981), pp 59-60",
+     ""
+    ]
+   ],
+   "pinev": [
+    "Placed at the Knife Lake outlet on the NHDPlus flowline as the likely dam; seven river miles above Mora may be lower (about 3 km)."
+   ],
+   "acm": [
+    3000,
+    "approx"
+   ]
+  }
+ ],
+ "edit": {}
+}

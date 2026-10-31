@@ -1,0 +1,221 @@
+{
+ "new": [
+  {
+   "id": "vs-ia-elk-rapids-town",
+   "L": "ghost",
+   "n": "Elk Rapids (first town laid out in Boone County)",
+   "la": 41.8707,
+   "lo": -93.8645,
+   "y": "historical",
+   "pl": "Approximate site, Boone County (see sources)",
+   "co": "Boone",
+   "stt": "IA",
+   "v": "Coins, tokens, household items from the old town",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Elk Rapids stood on the east bank of the Des Moines River in section 34, T82N R26W, named for the shallow rapids where elk crossed. In 1855 it had three stores and dwellings for 150 people, a mill and a post office; a freshet carried the mill away in 1857 and the town declined. The schoolhouse at the foot of the hill stood until 1870. 'No one could now tell by looking at the site of Elk Rapids that a village ever stood there.' The Elk Rapids bridge keeps the name.",
+   "t": "Compare the pin with an old county plat and the 1930s air photo for the town grid, then ask the landowner. Cemeteries are look-only.",
+   "src": [
+    [
+     "History of Boone County (Goldthwait, 1914) (archive.org historyofbooneco01gold)",
+     ""
+    ],
+    [
+     "section centre from BLM PLSS",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Approximate town site; see the card."
+   ],
+   "acm": [
+    900,
+    "area"
+   ]
+  },
+  {
+   "id": "vs-il-happy-hollow-mining-town",
+   "L": "ghost",
+   "n": "Happy Hollow (coal-mining town, Hampton Township)",
+   "la": 41.545,
+   "lo": -90.37,
+   "y": "historical",
+   "pl": "Approximate site, Rock Island County (see sources)",
+   "co": "Rock Island",
+   "stt": "IL",
+   "v": "Coins, tokens, household items from the old town",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Mining town on sections 15, 16 and 22 of Hampton Township (T18N R1E), where Heagy & Stoddard and Taylor Williams worked coal; at one time it had about 1,000 people. A railroad to the mines was built in the winter of 1872-73 to the Western Union line at Watertown. Extinct by 1908.",
+   "t": "Compare the pin with an old county plat and the 1930s air photo for the town grid, then ask the landowner. Cemeteries are look-only.",
+   "src": [
+    [
+     "Historic Rock Island County (1908) (archive.org historicrockisla00rock)",
+     ""
+    ],
+    [
+     "section centres from BLM PLSS",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Approximate town site; see the card."
+   ],
+   "acm": [
+    1200,
+    "area"
+   ]
+  },
+  {
+   "id": "vs-ia-dudley-river-town",
+   "L": "ghost",
+   "n": "Dudley (river town washed away in 1851)",
+   "la": 41.506,
+   "lo": -93.432,
+   "y": "historical",
+   "pl": "Approximate site, Polk County (see sources)",
+   "co": "Polk",
+   "stt": "IA",
+   "v": "Coins, tokens, household items from the old town",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Jeremiah Church laid out Dudley on the Des Moines River one mile below the mouth of North River in 1846. It grew fast until the great flood of 1851 carried the village away; Church moved two miles inland and started Carlisle.",
+   "t": "Compare the pin with an old county plat and the 1930s air photo for the town grid, then ask the landowner. Cemeteries are look-only.",
+   "src": [
+    [
+     "Centennial history of Polk County (archive.org centennialhisto00supegoog)",
+     ""
+    ],
+    [
+     "GNIS North River mouth",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Approximate town site; see the card."
+   ],
+   "acm": [
+    1200,
+    "area"
+   ]
+  },
+  {
+   "id": "vs-ia-wittemberg-college-town",
+   "L": "ghost",
+   "n": "Wittemberg (college town plat, Newton Township)",
+   "la": 41.7685,
+   "lo": -93.0436,
+   "y": "historical",
+   "pl": "Approximate site, Jasper County (see sources)",
+   "co": "Jasper",
+   "stt": "IA",
+   "v": "Coins, tokens, household items from the old town",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Wittemberg was platted on the east half of section 3, T80N R19W, on 15 Dec 1856 by the Wittemberg Manual Labor College; the plat was vacated in 1878 and 1890. Wittemberg Church, Cemetery and Grange Hall (GNIS) mark the neighbourhood.",
+   "t": "Compare the pin with an old county plat and the 1930s air photo for the town grid, then ask the landowner. Cemeteries are look-only.",
+   "src": [
+    [
+     "Past and Present of Jasper County (Weaver, 1912) (archive.org pastpresentofjas01weav)",
+     ""
+    ],
+    [
+     "BLM PLSS",
+     ""
+    ],
+    [
+     "GNIS Wittemberg Church/Cemetery",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Approximate town site; see the card."
+   ],
+   "acm": [
+    600,
+    "area"
+   ]
+  },
+  {
+   "id": "vs-il-coltonville-first-seat",
+   "L": "ghost",
+   "n": "Coltonville (first county seat of DeKalb County)",
+   "la": 41.9714,
+   "lo": -88.7362,
+   "y": "historical",
+   "pl": "Approximate site, DeKalb County (see sources)",
+   "co": "DeKalb",
+   "stt": "IL",
+   "v": "Coins, tokens, household items from the old town",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "Coltonville, on the bluff overlooking the rapids of the west fork of the South Branch of the Kishwaukee near the site of an old Indian town, was where the first DeKalb County court met in a hewed-log cabin; a 'paper town' rival of Centerville, Brush Point and Sycamore. Pin at GNIS Coltonville School (historical).",
+   "t": "Compare the pin with an old county plat and the 1930s air photo for the town grid, then ask the landowner. Cemeteries are look-only.",
+   "src": [
+    [
+     "Portrait and Biographical Album of DeKalb County (1885) (archive.org portraitbiograph85chic)",
+     ""
+    ],
+    [
+     "GNIS Coltonville School (historical)",
+     ""
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Approximate town site; see the card."
+   ],
+   "acm": [
+    800,
+    "area"
+   ]
+  }
+ ],
+ "edit": {
+  "vs-1948823": {
+   "st": " Site of Buckland Mills on the Yellow River near the centre of the township; laid out 28 Apr 1858 (Smith, Davis, Candee); the town plat was vacated 10 May 1881. Post office still there in 1892.",
+   "src": [
+    [
+     "Past and Present of Allamakee County (1913)",
+     ""
+    ]
+   ]
+  },
+  "vs-1999563": {
+   "st": " Village with a 100-barrel flouring mill (1875), a Methodist church and its own string band; it 'went down' when the Great Western railroad passed it by.",
+   "src": [
+    [
+     "Past and Present of Jasper County (1912)",
+     ""
+    ]
+   ]
+  },
+  "vs-2000450": {
+   "st": " Geneva was laid out in 1836 by Dr. Eli Reynolds and Harvey Gillett about three miles up the river from Muscatine, in Sweetland Township; Reynolds got a bill through the 1837-38 legislature to make it the county seat, but the governor never signed it. Extinct by 1911.",
+   "src": [
+    [
+     "History of Muscatine County (Richman, 1911)",
+     ""
+    ]
+   ]
+  },
+  "xr-mann-valley-church": {
+   "st": " A second, older burial ground, Old Mann Valley Cemetery (Find a Grave 2346708, 21 memorials, burials from about 1855; the Mann family came in 1853), lies about 1.7 km away at 44.8730,-92.7067. It is also look-only.",
+   "src": [
+    [
+     "Find a Grave: Old Mann Valley Cemetery (context, not evidence)",
+     "https://www.findagrave.com/cemetery/2346708"
+    ]
+   ]
+  }
+ }
+}

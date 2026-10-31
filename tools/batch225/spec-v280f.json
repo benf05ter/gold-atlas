@@ -1,0 +1,340 @@
+{
+ "new": [
+  {
+   "id": "cd-teepeota-townsite-1856",
+   "L": "ghost",
+   "n": "Teepeota townsite (1856-1859)",
+   "la": 44.342,
+   "lo": -91.974,
+   "y": "1856",
+   "pl": "Sand Prairie, Greenfield twp",
+   "co": "Wabasha",
+   "stt": "MN",
+   "v": "",
+   "c": "C",
+   "s": "",
+   "p": "",
+   "st": "Town platted 1856 by Thomas H. Forde and Judge Casey on the Mississippi shore at an old Dakota tepee village, 'four miles southeast of Wabasha'. 1857: three-story hotel, two stores, blacksmith shop, ~30 houses; Sinclair & Co. sawmill (30 men) from spring 1858. Boats stopped landing; the deserted buildings were burned by an incendiary one March night in 1859. 'No trace of it can now be seen' (1884).",
+   "t": "Pin is the stated distance from Wabasha only (4 mi SE, on the shore at Sand Prairie). Needs a plat or GLO note for the section. Single source, C.",
+   "src": [
+    [
+     "History of Winona and Wabasha Counties (1884), Wabasha part",
+     "https://archive.org/details/historyofwabasha00hill"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": "1884 county history, distance and direction only",
+   "radius_m": 1500
+  },
+  {
+   "id": "cd-pauselim-village-1863",
+   "L": "ghost",
+   "n": "Pauselim village, NW1/4 sec. 27 Greenfield (1863)",
+   "la": 44.3051,
+   "lo": -92.0044,
+   "y": "1863",
+   "pl": "NW1/4 sec 27 T110N R10W",
+   "co": "Wabasha",
+   "stt": "MN",
+   "v": "",
+   "c": "C",
+   "s": "",
+   "p": "",
+   "st": "Defunct village laid out 1863 by William A. Johnson on 40 acres, NW1/4 sec. 27, on Orin Hancock's claim (Hancock hotel on sec. 22, 1857; post office 1862; store 1862, later Henry Etting). The railroad went farther east (Kellogg), and by 1884 only three or four houses marked the 'ancient site of Pauselim'.",
+   "t": "Section and quarter from the 1884 text; check the T/R against the Greenfield township grid (Kellogg is the east neighbour). Single source, C.",
+   "src": [
+    [
+     "History of Winona and Wabasha Counties (1884), Wabasha part",
+     "https://archive.org/details/historyofwabasha00hill"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": "1884 county history quarter-section",
+   "radius_m": 400
+  },
+  {
+   "id": "cd-burnt-tavern-west-albany-1855",
+   "L": "ghost",
+   "n": "Brink's tavern / 'the Burnt Tavern', West Albany (1855)",
+   "la": 44.3133,
+   "lo": -92.2648,
+   "y": "1855",
+   "pl": "SW1/4 sec 21 T110N R12W",
+   "co": "Wabasha",
+   "stt": "MN",
+   "v": "",
+   "c": "C",
+   "s": "",
+   "p": "",
+   "st": "Samuel Brink built a two-story log hotel 24x46 ft on the SW1/4 of sec. 21 in June 1855, the first building in West Albany township; it burned the next summer while Frederick Jacobs had it, and the settlement was called 'the Burnt Tavern' for some time. First road through: Read's Landing to Oronoco and Mazeppa via West Albany.",
+   "t": "Quarter-section from 1884 text. Single source, C.",
+   "src": [
+    [
+     "History of Winona and Wabasha Counties (1884), Wabasha part",
+     "https://archive.org/details/historyofwabasha00hill"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": "1884 county history quarter-section",
+   "radius_m": 400
+  },
+  {
+   "id": "cd-union-townsite-west-albany-1857",
+   "L": "ghost",
+   "n": "Union townsite, West Albany (1857 paper town)",
+   "la": 44.306,
+   "lo": -92.2474,
+   "y": "1857",
+   "pl": "W1/2 NW1/4 sec 27 T110N R12W",
+   "co": "Wabasha",
+   "stt": "MN",
+   "v": "",
+   "c": "C",
+   "s": "",
+   "p": "",
+   "st": "John McCollom platted the town of Union on the W1/2 of the NW1/4 of sec. 27 in spring 1857; 'agriculture was the only business ever carried on within its limits'.",
+   "t": "Quarter-section from 1884 text. Paper town, no buildings. Single source, C.",
+   "src": [
+    [
+     "History of Winona and Wabasha Counties (1884), Wabasha part",
+     "https://archive.org/details/historyofwabasha00hill"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": "1884 county history quarter-section",
+   "radius_m": 300
+  },
+  {
+   "id": "cd-whipple-cave-chester-sec-12",
+   "L": "history",
+   "n": "Whipple's cave, Chester sec. 12 (found 1856)",
+   "la": 44.3466,
+   "lo": -92.4408,
+   "y": "1856",
+   "pl": "sec 12 T110N R14W",
+   "co": "Wabasha",
+   "stt": "MN",
+   "v": "",
+   "c": "C",
+   "s": "",
+   "p": "",
+   "st": "'A rare natural cave of large dimensions' on sec. 12 of Chester (Bear Valley) township, found by Tyler Whipple in summer 1856; entrance on the side of a small mound, down a narrow passage to several rooms; visited by many exploring parties (1884).",
+   "t": "Section centre only. Private land, look-only. Single source, C.",
+   "src": [
+    [
+     "History of Winona and Wabasha Counties (1884), Wabasha part",
+     "https://archive.org/details/historyofwabasha00hill"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": "1884 county history section",
+   "radius_m": 800
+  },
+  {
+   "id": "cd-bear-valley-grange-hall-1874",
+   "L": "gather",
+   "n": "Bear Valley Grange hall (1874)",
+   "la": 44.314,
+   "lo": -92.4661,
+   "y": "1874",
+   "pl": "SW1/4 sec 23 T110N R14W",
+   "co": "Wabasha",
+   "stt": "MN",
+   "v": "",
+   "c": "C",
+   "s": "",
+   "p": "",
+   "st": "Bear Valley Grange (c.1870, 100+ members) built a two-story 28x40 ft hall on the SW1/4 of sec. 23 in 1874; by 1884 the grange was gone and the hall was used for church services and town meetings.",
+   "t": "Quarter-section from 1884 text. Single source, C.",
+   "src": [
+    [
+     "History of Winona and Wabasha Counties (1884), Wabasha part",
+     "https://archive.org/details/historyofwabasha00hill"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": "1884 county history quarter-section",
+   "radius_m": 400
+  },
+  {
+   "id": "cd-midland-brewery-millville",
+   "L": "history",
+   "n": "Midland brewery ruins, Millville (1879-1881)",
+   "la": 44.2445,
+   "lo": -92.296,
+   "y": "1879",
+   "pl": "Millville, T109N R12W",
+   "co": "Wabasha",
+   "stt": "MN",
+   "v": "",
+   "c": "C",
+   "s": "",
+   "p": "",
+   "st": "Claus Behrns ran the Midland brewery at Millville c.1879-1881; it burned by accident and 'its ruins still remain' (1884).",
+   "t": "Village-level placement only; Ground check please place on the 1896 Wabasha plat if a brewery is drawn. Single source, C.",
+   "src": [
+    [
+     "History of Winona and Wabasha Counties (1884), Wabasha part",
+     "https://archive.org/details/historyofwabasha00hill"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": "1884 county history, village only",
+   "radius_m": 600
+  },
+  {
+   "id": "cd-gold-drift-chester-sec-25",
+   "L": "panning",
+   "n": "Gold washed from the drift, SE1/4 sec. 25 Chester",
+   "la": 44.2996,
+   "lo": -92.4359,
+   "y": "1888",
+   "pl": "SE1/4 sec 25 T110N R14W",
+   "co": "Wabasha",
+   "stt": "MN",
+   "v": "",
+   "c": "C",
+   "s": "",
+   "p": "",
+   "st": "The state geological survey (Winchell, 1888) says gold had been washed out of the drift on the SE1/4 of sec. 25, Chester, and at other points southeastward to Zumbro Falls. Fine flour gold with black 'mother of gold' sand, not paying by hand.",
+   "t": "Private land: permission first. Survey text copied in the 1920 county history, so one source, C.",
+   "src": [
+    [
+     "The Geology of Minnesota, vol. II (1888), Wabasha and Fillmore county chapters, archive.org cu31924004931758 / cu31924004931741",
+     "https://archive.org/details/cu31924004931758"
+    ],
+    [
+     "History of Wabasha County (Curtiss-Wedge 1920), ch. I (copies the 1888 survey)",
+     "https://archive.org/details/historyofwabasha00curt"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": "state survey quarter-section or section",
+   "radius_m": 500
+  },
+  {
+   "id": "cd-gold-drift-mazeppa-sec-6",
+   "L": "panning",
+   "n": "Gold washed from the drift, sec. 6 Mazeppa",
+   "la": 44.2744,
+   "lo": -92.5411,
+   "y": "1888",
+   "pl": "sec 6 T109N R14W",
+   "co": "Wabasha",
+   "stt": "MN",
+   "v": "",
+   "c": "C",
+   "s": "",
+   "p": "",
+   "st": "Geology of Minnesota (1888): gold washed from the drift on secs. 6 and 27, Mazeppa (sec. 27 is the existing Zumbro sluice reach pin).",
+   "t": "Section centre; the Zumbro crosses the section at Mazeppa village. Private land. C.",
+   "src": [
+    [
+     "The Geology of Minnesota, vol. II (1888), Wabasha and Fillmore county chapters, archive.org cu31924004931758 / cu31924004931741",
+     "https://archive.org/details/cu31924004931758"
+    ],
+    [
+     "History of Wabasha County (Curtiss-Wedge 1920), ch. I (copies the 1888 survey)",
+     "https://archive.org/details/historyofwabasha00curt"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": "state survey quarter-section or section",
+   "radius_m": 800
+  },
+  {
+   "id": "cd-gold-drift-hague-spring-valley",
+   "L": "panning",
+   "n": "Gold in gravel on Hugh Hague's land, Spring Valley",
+   "la": 43.6997,
+   "lo": -92.3543,
+   "y": "1888",
+   "pl": "NE1/4 sec 26, Spring Valley twp (T103N R13W)",
+   "co": "Fillmore",
+   "stt": "MN",
+   "v": "",
+   "c": "C",
+   "s": "",
+   "p": "",
+   "st": "Geology of Minnesota (1888), Fillmore chapter: small amounts of gold washed 'by rude methods' from gravel on Hugh Hague's land, NE1/4 sec. 26, Spring Valley.",
+   "t": "Township/range not double-checked against a Fillmore plat; Ground check please confirm. Private land. C.",
+   "src": [
+    [
+     "The Geology of Minnesota, vol. II (1888), Wabasha and Fillmore county chapters, archive.org cu31924004931758 / cu31924004931741",
+     "https://archive.org/details/cu31924004931758"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": "state survey quarter-section or section",
+   "radius_m": 600
+  },
+  {
+   "id": "cd-gold-drift-yeariton-mill-jordan",
+   "L": "panning",
+   "n": "Gold at Yeariton's saw mill, sec. 31 Jordan",
+   "la": 43.7681,
+   "lo": -92.1994,
+   "y": "1888",
+   "pl": "sec 31, Jordan twp (T104N R11W)",
+   "co": "Fillmore",
+   "stt": "MN",
+   "v": "",
+   "c": "C",
+   "s": "",
+   "p": "",
+   "st": "Geology of Minnesota (1888), Fillmore chapter: gold found in the drift at Yeariton's saw mill, sec. 31, Jordan.",
+   "t": "Section centre; mill seat likely on the stream through the section. Check T/R. Private land. C.",
+   "src": [
+    [
+     "The Geology of Minnesota, vol. II (1888), Wabasha and Fillmore county chapters, archive.org cu31924004931758 / cu31924004931741",
+     "https://archive.org/details/cu31924004931758"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": "state survey quarter-section or section",
+   "radius_m": 800
+  }
+ ],
+ "edit": {
+  "t-pan-zumbro-sluice": {
+   "st": " 1884 county history: the Oronoco Mining Company (fall 1858) set its sluices on sec. 22 of Mazeppa township (T109N R14W, centre about 44.2309,-92.4812) in a clay bank in the narrow valley that gave 'shot gold'. Spring 1859 high water took the first works; the rebuilt works cleaned up a little over $20 on their first Saturday and were swept away by the flood of 3 July 1859, ending the work. Ground check: consider moving this pin to sec. 22. Geology of Minnesota (1888) also names secs. 6 and 27 of Mazeppa for gold washed from the drift, and says gold occurs along the Zumbro from Rochester and Oronoco to the Wabasha border, mostly in the stream bed.",
+   "src": [
+    [
+     "History of Winona and Wabasha Counties (1884), Wabasha part",
+     "https://archive.org/details/historyofwabasha00hill"
+    ],
+    [
+     "The Geology of Minnesota, vol. II (1888)",
+     "https://archive.org/details/cu31924004931758"
+    ]
+   ]
+  },
+  "vs-2064578": {
+   "st": " 1884: West Albany village grew around Richard Dawson's hotel, Applegarth's gristmill, McIntyre's store and saloon and Fister's blacksmith shop (late 1850s); the hotel burned and was rebuilt; Frank Ryan ran it as a hotel and dance hall from 1862, and in 1867 the Catholic congregation bought it and used it as a church. By 1884 'business of all kinds has entirely deserted this part of the township'.",
+   "src": [
+    [
+     "History of Winona and Wabasha Counties (1884), Wabasha part",
+     "https://archive.org/details/historyofwabasha00hill"
+    ]
+   ]
+  },
+  "d-reads-landing": {
+   "st": " 1884: Wabasha County's first newspaper, the Journal, was started at Read's Landing in autumn 1856 (moved to Wabasha 1857); Read's Landing I.O.O.F. Lodge No. 81 chartered 1881; Milwaukee Road pontoon bridge at Read's Landing.",
+   "src": [
+    [
+     "History of Winona and Wabasha Counties (1884), Wabasha part",
+     "https://archive.org/details/historyofwabasha00hill"
+    ]
+   ]
+  },
+  "cd-pauselim-village-1863": {
+   "st": " 1920 county history adds: laid out by Johnson and a Mr. Morgan, named after a make of pottery because they thought the land held the right clay; Kellogg (1871 railroad) superseded it, the post office moved there, and the 1863-64 Methodist church was moved to Kellogg.",
+   "src": [
+    [
+     "History of Wabasha County (Curtiss-Wedge 1920), ch. I (copies the 1888 survey)",
+     "https://archive.org/details/historyofwabasha00curt"
+    ]
+   ]
+  }
+ }
+}

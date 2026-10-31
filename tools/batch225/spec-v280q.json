@@ -1,0 +1,149 @@
+{
+ "new": [
+  {
+   "id": "um-carimona-mill-1896",
+   "L": "vpo",
+   "n": "Carimona mill on the Root River (1896 atlas)",
+   "la": 43.659,
+   "lo": -92.1591,
+   "y": "1890s",
+   "pl": "N line of sec. 9 T102N R11W at the South Branch / Root confluence, Carimona",
+   "co": "Fillmore",
+   "stt": "MN",
+   "v": "Mill irons, millstone pieces, coins",
+   "c": "documented",
+   "s": "unknown",
+   "p": "plss",
+   "st": "The 1896 Fillmore County atlas village plat of Carimona shows a \"Mill\" on a 2.50-acre lot on the Root River at the South Branch confluence, just south of Water St. On the township plate it sits at the north line of sec. 9 near the north-south quarter line.",
+   "t": "Look for the dam abutments and mill foundation on the riverbank on LiDAR. Private land: ask first.",
+   "src": [
+    [
+     "Standard Atlas of Fillmore County, Minnesota (Ogle, 1896), Carimona twp p. 24 and village plats p. 36",
+     "https://umedia.lib.umn.edu/item/p16022coll231:11309"
+    ]
+   ],
+   "pinconf": "B",
+   "pinev": [
+    "Village plat and township plate agree on the north line of sec. 9 near the quarter line; placed from the BLM PLSS section (about 150 m)."
+   ],
+   "acm": [
+    200,
+    "plss"
+   ]
+  },
+  {
+   "id": "um-severson-grist-mill-choice",
+   "L": "vpo",
+   "n": "Severson grist mill at Choice (1896 atlas)",
+   "la": 43.6523,
+   "lo": -91.8101,
+   "y": "1890s",
+   "pl": "East edge of sec. 8 T102N R8W on the Root River, by Choice",
+   "co": "Fillmore",
+   "stt": "MN",
+   "v": "Mill irons, millstone pieces, coins",
+   "c": "documented",
+   "s": "unknown",
+   "p": "plss",
+   "st": "The 1896 Fillmore County atlas shows the \"Severson Grist Mill\" on the Root River at the east edge of sec. 8, mid-section by the 8/9 line, with a cluster of small lots. Choice P.O. stood on the Root at the sec. 4/9 line.",
+   "t": "Look for the dam abutments and mill foundation on the riverbank on LiDAR. Private land: ask first.",
+   "src": [
+    [
+     "Standard Atlas of Fillmore County, Minnesota (Ogle, 1896), Preble twp p. 21",
+     "https://umedia.lib.umn.edu/item/p16022coll231:11295"
+    ]
+   ],
+   "pinconf": "B",
+   "pinev": [
+    "Atlas label at mid east edge of sec. 8; placed from the BLM PLSS section (about 200 m)."
+   ],
+   "acm": [
+    200,
+    "plss"
+   ]
+  }
+ ],
+ "edit": {
+  "vs-2050640": {
+   "st": " The 1896 Fillmore County atlas shows Carimona as a platted townsite of 27 blocks in the south part of the SW quarter of sec. 4, with a school (block 12), store and post office (block 17), a mill on the Root River just south of Water St (pinned separately), and a cemetery southeast across the river.",
+   "src": [
+    [
+     "Standard Atlas of Fillmore County, Minnesota (Ogle, 1896), Carimona twp p. 24, village plat p. 36",
+     "https://umedia.lib.umn.edu/item/p16022coll231:11309"
+    ]
+   ]
+  },
+  "vs-2050613": {
+   "st": " The 1896 Fillmore County atlas shows Newburg as a small four-block plat at the east edge of sec. 8 by the 8/9 line, at a road junction, with the post office and store at Main and Washington, a cemetery just north, and Spring Creek along the west edge.",
+   "src": [
+    [
+     "Standard Atlas of Fillmore County, Minnesota (Ogle, 1896), Newburg twp p. 32, village inset p. 36",
+     "https://umedia.lib.umn.edu/item/p16022coll231:11306"
+    ]
+   ]
+  },
+  "vs-2050649": {
+   "st": " The 1896 Fillmore County atlas prints no Amherst label. A guess: the nearest cluster is about 20 small lots at the east edge of sec. 24 and north sec. 25, with a possible church in north sec. 25. Henrytown P.O. had a nine-block plat with a church and cemetery at the sec. 32/33 line.",
+   "src": [
+    [
+     "Standard Atlas of Fillmore County, Minnesota (Ogle, 1896), Amherst twp p. 22",
+     "https://umedia.lib.umn.edu/item/p16022coll231:11296"
+    ]
+   ]
+  },
+  "vs-2050625": {
+   "st": " The 1896 Fillmore County atlas shows Greenleafton P.O. in the east half of sec. 1 of York township, just south of the quarter line, with a church and cemetery at the centre of sec. 1, a blacksmith and the post office at the east edge on the range line, and a second church at the SE corner.",
+   "src": [
+    [
+     "Standard Atlas of Fillmore County, Minnesota (Ogle, 1896), York twp p. 28",
+     "https://umedia.lib.umn.edu/item/p16022coll231:11302"
+    ]
+   ]
+  },
+  "vs-2050637": {
+   "st": " The 1896 Fillmore County atlas shows Choice P.O. on the Root at the sec. 4/9 line, with the Severson grist mill (pinned separately) at the east edge of sec. 8 and a school at the north edge of sec. 5.",
+   "src": [
+    [
+     "Standard Atlas of Fillmore County, Minnesota (Ogle, 1896), Preble twp p. 21",
+     "https://umedia.lib.umn.edu/item/p16022coll231:11295"
+    ]
+   ]
+  },
+  "vs-2050602": {
+   "st": " The 1896 Fillmore County atlas prints no Tawney label. A guess: a crossroads at the corner of secs. 21/22/27/28 with four houses and a school at the NE corner of sec. 21; a school and church stood farther south at the sec. 33/34 south edge, with a cemetery on the 27/34 line.",
+   "src": [
+    [
+     "Standard Atlas of Fillmore County, Minnesota (Ogle, 1896), Preble twp p. 21",
+     "https://umedia.lib.umn.edu/item/p16022coll231:11295"
+    ]
+   ]
+  },
+  "vs-2052238": {
+   "st": " The 1896 Olmsted County atlas shows High Forest as a village plat of about 44 blocks (Original Town and Russell's Addition) between the North Branch and the Root, at the south edge of SW sec. 31 straddling the township line, with a public square, school, two churches, post office, a hall in block 9 and a cemetery east across the Root. A bridge or dam line crosses the North Branch at the north end; no mill is labelled.",
+   "src": [
+    [
+     "Standard Atlas of Olmsted County, Minnesota (1896), pp. 38-39",
+     "https://umedia.lib.umn.edu/item/p16022coll231:826"
+    ]
+   ]
+  },
+  "vs-2050485": {
+   "st": " The 1896 Houston County atlas shows Sheldon as a small village plat at the SE corner of sec. 31 on the 31/32 line, on a creek running south, with a cemetery in NE sec. 31 and a small blacksmith(?) lot.",
+   "src": [
+    [
+     "Atlas of Houston County, Minnesota (1896), p. 37",
+     "https://umedia.lib.umn.edu/item/p16022coll231:7777"
+    ]
+   ]
+  },
+  "vs-2050440": {
+   "st": " The 1896 Houston County atlas has a post office label at the sec. 9/16 line that fits Yucatan, a church at the north edge of sec. 16 and School No. 18 near the 16/17 corner. Howe P.O. stood on the Root at the sec. 13/24 line with School No. 21 and a cemetery in sec. 14.",
+   "src": [
+    [
+     "Atlas of Houston County, Minnesota (1896), pp. 44-45",
+     "https://umedia.lib.umn.edu/item/p16022coll231:7780"
+    ]
+   ]
+  }
+ }
+}

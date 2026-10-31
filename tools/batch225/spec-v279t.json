@@ -1,0 +1,67 @@
+{
+ "new": [
+  {
+   "id": "glo-stcroixfalls-warehouses-1847",
+   "L": "history",
+   "n": "Lumber-era warehouses and landing below the falls, St. Croix Falls (1847 GLO plat)",
+   "la": 45.41,
+   "lo": -92.6463,
+   "y": "1840s",
+   "pl": "East bank of the St. Croix below the falls, sec. 30 T34N R18W (1847 GLO plat; 1978 USGS St. Croix Dalles topo)",
+   "co": "Polk",
+   "stt": "WI",
+   "v": "Coins, trade goods, steamboat and lumber-camp hardware, bottles",
+   "c": "documented",
+   "s": "unknown",
+   "p": "plss",
+   "st": "The 1847 government survey plat draws \"ST. CROIX VILLAGE\", a grid of about 20 blocks in the west part of sec. 30, and two warehouses on the river bank below the falls. These were the 1840s landing for the St. Croix Falls lumber and mill settlement. The plat also notes the rock as \"60 feet perpendicular\" at the river. The Road to Stillwater left from the SW part of sec. 30, and the Road to Osceola ran south along the river through sec. 31. Single source so far (the plat). The bank is now partly city and park land, with the power dam above.",
+   "t": "Interstate Park and the Riverway shore are federal and state land, look only. Compare the bank on the 1938 aerial with the plat. Detect only on private lots, with permission.",
+   "src": [
+    [
+     "GLO township plat T34N R18W, Wisconsin (1847), UW Digital Collections",
+     "https://search.library.wisc.edu/digital/A2BFUQQCOPGGWS8A"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Plat label on the east bank in sec. 30 below the falls, placed on the 1978 topo (about 300 m)."
+   ],
+   "acm": [
+    300,
+    "plss"
+   ]
+  },
+  {
+   "id": "glo-stcroixfalls-adams-house-1847",
+   "L": "history",
+   "n": "Adam's house and fenced field east of St. Croix village (1847 GLO plat)",
+   "la": 45.4082,
+   "lo": -92.6312,
+   "y": "1847",
+   "pl": "Sec. 29/30 line just east of the 1847 village, T34N R18W (1847 GLO plat); north-south spot not fixed",
+   "co": "Polk",
+   "stt": "WI",
+   "v": "Early coins, household items, farm hardware",
+   "c": "documented",
+   "s": "unknown",
+   "p": "plss",
+   "st": "The 1847 government survey plat draws \"ADAM'S HOUSE\" with a fenced field on the sec. 29/30 line, just east of St. Croix village. It is one of the few farm clearings around the 1840s falls settlement. Single source so far (the plat). The north-south position along the section line is approximate.",
+   "t": "Look along the sec. 29/30 line east of town on the 1938 aerial for an old field edge or house flat. Private land: ask first.",
+   "src": [
+    [
+     "GLO township plat T34N R18W, Wisconsin (1847), UW Digital Collections",
+     "https://search.library.wisc.edu/digital/A2BFUQQCOPGGWS8A"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Plat label on the sec. 29/30 line; the position along the line is estimated (about 500 m)."
+   ],
+   "acm": [
+    500,
+    "plss"
+   ]
+  }
+ ],
+ "edit": {}
+}

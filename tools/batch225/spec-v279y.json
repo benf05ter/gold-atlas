@@ -1,0 +1,40 @@
+{
+ "new": [
+  {
+   "id": "glo-eagle-rapids-oneal-mill-1848",
+   "L": "history",
+   "n": "H. O'Neal's saw mill at Eagle Rapids, 1848 (GLO plat and field notes)",
+   "la": 44.9945,
+   "lo": -91.3495,
+   "y": "1848",
+   "pl": "NE¼ sec. 16 T29N R8W, west bank of the Chippewa at the mouth of O'Neil Creek, Chippewa County (GLO plat and field notes; NHDPlus creek mouth)",
+   "co": "Chippewa",
+   "stt": "WI",
+   "v": "Early coins, mill hardware, trade items, tools",
+   "c": "documented",
+   "s": "unknown",
+   "p": "plss",
+   "st": "The 1848-49 government survey field notes say \"H. O'Neal has a Saw mill & House on the N.E. quarter of Section 16.\" The plat draws a saw mill, a blacksmith shop, a house and a fenced field on the west bank of the Chippewa at a creek mouth, with \"Eagle Rapids\" lettered along the river to the south. The creek still carries his name as O'Neil Creek. Cabins and \"Allen's\" stood across the river opposite an island in sec. 22. A road ran down the east bank and a trail led SW from the mill. This is one of the earliest mills on the upper Chippewa. The later Cornell dam may have raised the water over part of the site: check the shoreline.",
+   "t": "Compare the creek mouth on the 1938 aerial and LiDAR with today's shoreline; look for the mill race, house flat and blacksmith slag on the dry ground. Private land: ask first. Any flooded part is state lakebed and off limits.",
+   "src": [
+    [
+     "GLO township plat T29N R8W, Wisconsin (1848-49, C. H. Booth), UW Digital Collections",
+     "https://search.library.wisc.edu/digital/AY5QN34XGYNGXH86"
+    ],
+    [
+     "GLO interior field notes T29N R8W (1848-49), line between secs. 9 and 16, UW Digital Collections",
+     "https://search.library.wisc.edu/digital/A3YDVB7XF6D3PO8C"
+    ]
+   ],
+   "pinconf": "B",
+   "pinev": [
+    "Field notes put the mill and house in NE¼ sec. 16; the plat draws them at the creek mouth on the west bank; the NHDPlus O'Neil Creek mouth is on the sec. 16 east edge (about 200 m)."
+   ],
+   "acm": [
+    200,
+    "plss"
+   ]
+  }
+ ],
+ "edit": {}
+}

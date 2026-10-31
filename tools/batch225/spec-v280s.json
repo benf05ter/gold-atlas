@@ -1,0 +1,153 @@
+{
+ "new": [
+  {
+   "id": "um-riceford-mill",
+   "L": "vpo",
+   "n": "Riceford mill pond and mill (1896 atlas)",
+   "la": 43.5762,
+   "lo": -91.7255,
+   "y": "1880s-1890s",
+   "pl": "East end of Mill St on Riceford Creek, SW part of sec. 6 T101N R7W, Houston County",
+   "co": "Houston",
+   "stt": "MN",
+   "v": "Mill irons, millstone pieces, coins",
+   "c": "documented",
+   "s": "unknown",
+   "p": "plss",
+   "st": "The 1896 Houston County atlas inset of Riceford shows a mill pond with a dam and a race to a building at the east end of Mill St by the creek, the mill site, though the word \"mill\" is not printed.",
+   "t": "Look for the dam, race and mill foundation on LiDAR. Private land: ask first.",
+   "src": [
+    [
+     "Atlas of Houston County, Minnesota (1896), Spring Grove twp p. 49 and inset p. 21",
+     "https://umedia.lib.umn.edu/item/p16022coll231:7770"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Inset mill pond and race at the east end of Mill St, in the SW part of sec. 6; placed by the village plat (about 300 m)."
+   ],
+   "acm": [
+    300,
+    "plss"
+   ]
+  },
+  {
+   "id": "um-stark-saw-mill",
+   "L": "vpo",
+   "n": "Saw mill at the Horseshoe Lake outlet, Stark (1888 plat)",
+   "la": 45.5872,
+   "lo": -93.0637,
+   "y": "1880s-1890s",
+   "pl": "Little Horseshoe / Horseshoe Lake outlet, about the south edge of secs. 22/23 T36N R22W, Chisago County",
+   "co": "Chisago",
+   "stt": "MN",
+   "v": "Mill irons, millstone pieces, coins",
+   "c": "documented",
+   "s": "unknown",
+   "p": "plss",
+   "st": "The 1888 Chisago County plat book marks a \"SAW MILL\" at the Little Horseshoe / Horseshoe Lake outlet, about the south edge of secs. 22 and 23 in Fish Lake township, near the Stark settlement.",
+   "t": "Look for the dam, race and mill foundation on LiDAR. Private land: ask first.",
+   "src": [
+    [
+     "Foote, Plat book of Chisago County, Minnesota (1888), Fish Lake twp p. 21",
+     "https://umedia.lib.umn.edu/item/p16022coll231:2473"
+    ]
+   ],
+   "pinconf": "B",
+   "pinev": [
+    "Plat label at the lake outlet on the south edge of secs. 22/23; placed from the BLM PLSS corner (about 300 m)."
+   ],
+   "acm": [
+    350,
+    "plss"
+   ]
+  },
+  {
+   "id": "um-ringe-creamery-mill",
+   "L": "vpo",
+   "n": "Creamery and mill at the Farmington-Haverhill line (1896 atlas)",
+   "la": 44.1083,
+   "lo": -92.3993,
+   "y": "1880s-1890s",
+   "pl": "SW corner of sec. 33 / SE corner of sec. 32 on the south township line, T108N R13W, Olmsted County",
+   "co": "Olmsted",
+   "stt": "MN",
+   "v": "Mill irons, millstone pieces, coins",
+   "c": "documented",
+   "s": "unknown",
+   "p": "plss",
+   "st": "The 1896 Olmsted County atlas marks a \"CREAMERY & MILL\" at the SW corner of sec. 33 and SE corner of sec. 32 on the south township line, with a \"QUARRY\" in NW sec. 33 by a creek and a spring at the north edge of NW sec. 33. This is at the Ringe post office point, though the atlas prints no Ringe label.",
+   "t": "Look for the dam, race and mill foundation on LiDAR. Private land: ask first.",
+   "src": [
+    [
+     "Standard Atlas of Olmsted County, Minnesota (1896), Farmington twp p. 29",
+     "https://umedia.lib.umn.edu/item/p16022coll231:822"
+    ]
+   ],
+   "pinconf": "B",
+   "pinev": [
+    "Atlas label at the sec. 32/33 corner on the south township line; placed from the BLM PLSS corner (about 150 m)."
+   ],
+   "acm": [
+    200,
+    "plss"
+   ]
+  }
+ ],
+ "edit": {
+  "vs-2052232": {
+   "st": " The 1896 Olmsted County atlas shows Marion as a village in the north half of sec. 35 T106N R13W, with a cemetery at the north line of sec. 35. Predmore, about a mile SE in sec. 36 on the Winona & Western, had a store and post office, elevator and depot.",
+   "src": [
+    [
+     "Standard Atlas of Olmsted County, Minnesota (1896), p. 25",
+     "https://umedia.lib.umn.edu/item/p16022coll231:820"
+    ]
+   ]
+  },
+  "vs-2052221": {
+   "st": " The 1896 Olmsted County atlas prints no Ringe label; at this point it marks a creamery and mill (pinned separately) on the south township line, with a quarry and a spring in NW sec. 33.",
+   "src": [
+    [
+     "Standard Atlas of Olmsted County, Minnesota (1896), Farmington twp p. 29",
+     "https://umedia.lib.umn.edu/item/p16022coll231:822"
+    ]
+   ]
+  },
+  "vs-2050622": {
+   "st": " The 1896 Fillmore County atlas inset shows Henrytown as a nine-block plat around a public square, covering the SE quarter of the SE quarter of sec. 32 and the SW quarter of the SW quarter of sec. 33 on the south township line (Lafayette St is the 32/33 line), with the post office at Main and Lafayette and a church and cemetery lot just east.",
+   "src": [
+    [
+     "Standard Atlas of Fillmore County, Minnesota (Ogle, 1896), Amherst twp p. 22, inset p. 36",
+     "https://umedia.lib.umn.edu/item/p16022coll231:11296"
+    ]
+   ]
+  },
+  "vs-2050486": {
+   "st": " The 1896 Houston County atlas shows Riceford as a platted village in the SW part of sec. 6 against the county line on Riceford Creek, with a mill pond and mill (pinned separately), a church in block F and the post office in block G. The \"N. L. Church of Black Hammer\" lot was in east sec. 6.",
+   "src": [
+    [
+     "Atlas of Houston County, Minnesota (1896), Spring Grove twp p. 49, inset p. 21",
+     "https://umedia.lib.umn.edu/item/p16022coll231:7770"
+    ]
+   ]
+  },
+  "vs-2068994": {
+   "st": " Palmdale is not on the 1888 Chisago plat book; a 1914 atlas ad reads \"Palmdale, Minn., Almelund Merc. Co.\". A guess: the 1888 cluster in Amador township with a Swedish Lutheran church and a store in NE sec. 25 at the range line, and School No. 36 in north sec. 36.",
+   "src": [
+    [
+     "Foote, Plat book of Chisago County, Minnesota (1888), Amador twp",
+     "https://umedia.lib.umn.edu/item/p16022coll231:2469"
+    ]
+   ]
+  },
+  "vs-2068990": {
+   "st": " The 1888 Chisago County plat book shows Stark at the west edge of sec. 26, mid-section, on the 26/27 line in Fish Lake township: store and post office, a second store, blacksmith, parsonage and church, with the Lutheran church and cemetery in west-central sec. 26 and School No. 23 at the north edge. A saw mill (pinned separately) stood at the Horseshoe Lake outlet.",
+   "src": [
+    [
+     "Foote, Plat book of Chisago County, Minnesota (1888), Fish Lake twp p. 21, inset p. 13",
+     "https://umedia.lib.umn.edu/item/p16022coll231:2473"
+    ]
+   ]
+  }
+ }
+}
