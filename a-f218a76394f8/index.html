@@ -1056,7 +1056,7 @@ body.trtool #bsCard,body.trtool #qaFab{display:none!important}
         <p>The Library holds From the old books (what county histories, travel guides and treasure books say, place by place), the full Field Book (17 chapters: how the gold got here, red drift, the Wisconsin gold belt, every gold report and treasure tale, copper and agates, history, research toolkit and links) and the Target Areas and Idea Bank research notebooks.</p>
 
         <h2 id="k-offline">Offline use</h2>
-        <p>Everything here, including the map, is built into this one page. Nothing loads from the internet except the fonts, which fall back to your phone's own. You are in the home-screen app: the whole atlas, old maps included, is saved on this phone, and it updates itself when you have signal. Google Maps and source links still need a connection. The old-map slider pictures (1936, 1972 and today) load from the online atlas, so open the slider once with a signal; the offline copy does not have them. Finds, worked marks and river levels save to your atlas when you are online and to your phone when you are not.</p>
+        <p>Everything here, including the map, is built into this one page. Nothing loads from the internet except the fonts, which fall back to your phone's own. You are in the home-screen app: the whole atlas, old maps included, is saved on this phone, and it updates itself when you have signal. Google Maps and source links still need a connection. The old-map pictures (1936 and 1972) load from the online atlas, so open them once with a signal; the offline copy does not have them. Finds, worked marks and river levels save to your atlas when you are online and to your phone when you are not.</p>
       </article>
     </section><section class="readview" id="rv-finds" hidden><article class="read pad"><h2>Finds log</h2><p class="lede">Every visit you log from a spot's details. Logging empty trips matters too: it tells the weekly update which spots don't pay.</p><p id="findsSum" class="hint"></p><div class="row"><button class="btn" id="findsCopy">Copy all as text</button></div><div id="findsList"></div></article></section><section class="readview" id="rv-rules" hidden><article class="read pad">
         <h2>Rules by state</h2>
@@ -2584,14 +2584,21 @@ document.addEventListener('click',e=>{ const im=e.target.closest('img.fph'); if(
 const OLDMAP={b:[-91.625,-91.375,44.75,45.0],img:[['ground-today','Today: bare ground (USGS elevation)'],['topo-1972','1972 USGS topo (1:24,000)'],['topo-1936','1936 USGS topo (1:62,500)']]};
 const gOM=el('g',{},gBase); gBase.insertBefore(gOM,gBelt);
 const omImgs=OLDMAP.img.map(([f])=>{ const [x,y]=P(OLDMAP.b[0],OLDMAP.b[3]); return el('image',{x,y,width:(OLDMAP.b[1]-OLDMAP.b[0])*K,height:OLDMAP.b[3]-OLDMAP.b[2],preserveAspectRatio:'none','data-f':f},gOM); });
-document.querySelector('.mapwrap').insertAdjacentHTML('beforeend','<div class="oms" id="oms" hidden><div class="row" style="justify-content:space-between"><b>Old map</b><span class="hint" id="omsLbl"></span></div><input type="range" id="omsR" min="0" max="200" step="1" value="100" aria-label="Fade between today, 1972 and 1936"><div class="omt"><span>Today</span><span>1972</span><span>1936</span></div></div>');
+document.querySelector('.mapwrap').insertAdjacentHTML('beforeend','<div class="oms" id="oms" hidden><div class="row" style="justify-content:space-between"><b>Old map</b><span class="hint" id="omsLbl"></span></div><input type="range" id="omsR" min="0" max="200" step="1" value="100" hidden aria-hidden="true" tabindex="-1"><div class="row omy" role="group" aria-label="Old map year"><button type="button" class="chip" data-oy="200">1936</button><button type="button" class="chip" data-oy="100">1972</button><button type="button" class="chip omc" id="omsCmp">Swipe against today</button></div></div>');
 document.querySelector('.ctl').insertAdjacentHTML('beforeend','<button id="vOld" class="txt" title="Old maps vs today" aria-label="Old maps vs today">Old</button><button id="vFind" class="txt" title="Log a find where you stand" aria-label="Log a find where you stand">+Find</button>');
-let omV=100; try{ omV=+(localStorage.getItem('atlas-oms')??100); }catch(_){}
+let omV=100; try{ omV=+(localStorage.getItem('atlas-oms')??100); }catch(_){} omV=omV>=150?200:100;
 const omsR=document.getElementById('omsR'); omsR.value=omV;
 function omApply(){ const v=+omsR.value, a72=Math.min(1,v/100), a36=Math.max(0,Math.min(1,(v-100)/100));
   omImgs[1].setAttribute('opacity',a72.toFixed(2)); omImgs[2].setAttribute('opacity',a36.toFixed(2));
   document.getElementById('omsLbl').textContent=v<15?OLDMAP.img[0][1]:v<115?(v<85?'Today fading to 1972':OLDMAP.img[1][1]):(v<185?'1972 fading to 1936':OLDMAP.img[2][1]); }
 omsR.oninput=()=>{ omApply(); try{ localStorage.setItem('atlas-oms',omsR.value); }catch(_){} };
+// (v354) the old map is 1936 or 1972, picked with two buttons; Swipe compare (Map tools) puts today beside it, so the fade slider is gone
+function omYr(){ return +omsR.value>=150?'200':'100'; }
+function omSync(){ document.querySelectorAll('#oms [data-oy]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.oy===omYr()))); }
+window.omYr=omYr; window.omSetYr=y=>{ omsR.value=y; omsR.dispatchEvent(new Event('input')); omSync(); };
+document.querySelectorAll('#oms [data-oy]').forEach(b=>b.onclick=()=>omSetYr(b.dataset.oy));
+document.getElementById('omsCmp').onclick=()=>{ if(typeof gmSheet==='function') gmSheet(false); if(window.TR&&TR.tool!=='cmp'&&window.trSet) trSet('cmp'); };
+omSync();
 function omVis(){ const o=on.has('_oldmap'); gOM.style.display=o?'':'none'; document.getElementById('oms').hidden=!o||document.querySelector('.main').hidden;
   if(o&&!omImgs[0].getAttribute('href')) omImgs.forEach(im=>im.setAttribute('href','oldmap/'+im.dataset.f+'.webp')); }
 omApply();
@@ -2949,7 +2956,7 @@ const ctl=document.querySelector('.ctl');
 ctl.insertAdjacentHTML('beforeend','<button id="shHome" title="Back to Eau Claire" aria-label="Reset the map to Eau Claire"><svg viewBox="0 0 24 24" width="20" height="20"><path d="M3.5 11.5L12 4l8.5 7.5M6 10v9.5h4.5v-5.5h3v5.5H18V10" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg></button><button id="shMe" title="Find me" aria-label="Find me"><svg viewBox="0 0 24 24" width="20" height="20"><circle cx="12" cy="12" r="4" fill="currentColor"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="7.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button><button id="shDots" title="More map tools" aria-label="More map tools" aria-expanded="false">⋯</button>');
 mwrap.insertAdjacentHTML('beforeend',`<div class="shmenu" id="shMenu" hidden role="menu">
   <b>Jump to</b><button data-c="vEC">Around Eau Claire</button><button data-c="vCF">Chippewa Falls, 1884 flood</button><button data-c="vNorth">Lake Superior gold country</button><button data-c="vWI">All three states</button>
-  <b>Tools</b><button data-c="vOld">Old maps slider (1936, 1972, today)</button><button data-c="key">Map key</button><button data-c="layers">All map layers</button><button data-c="find">Log a find where I stand</button></div>
+  <b>Tools</b><button data-c="vOld">Old maps (1936, 1972)</button><button data-c="key">Map key</button><button data-c="layers">All map layers</button><button data-c="find">Log a find where I stand</button></div>
   <div class="shfab" id="shFab"><button class="shfind" id="shFind" type="button">+ Find</button><button class="shrec" id="shRec" type="button"><span></span>Start hunt</button></div>`);
 const shMenu=document.getElementById('shMenu'), shDots=document.getElementById('shDots');
 shDots.onclick=e=>{ e.stopPropagation(); shMenu.hidden=!shMenu.hidden; shDots.setAttribute('aria-expanded',!shMenu.hidden); };
@@ -3129,7 +3136,7 @@ mwrap.insertAdjacentHTML('beforeend',`<section class="gmsheet" id="gmSheet" hidd
     <button data-x="cl">Group pins</button><button data-x="tilt">3D tilt</button><button data-x="all">All layers…</button>
   </div></section>`);
 const gmS=document.getElementById('gmSheet');
-{ const o=document.getElementById('oms'); if(o){ document.getElementById('gmOms').appendChild(o); o.querySelector('b').textContent='Fade between today, 1972 and 1936'; } }
+{ const o=document.getElementById('oms'); if(o){ document.getElementById('gmOms').appendChild(o); o.querySelector('b').textContent='Old map year'; } }
 function gmSheet(open){ gmS.hidden=!open; document.getElementById('gmLayers').setAttribute('aria-expanded',open); if(open){ shMenu.hidden=true; gmSheetSync(); } }
 function gmSheetSync(){ gmS.querySelectorAll('#gmTypes button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.mt===GM.type));
   gmS.querySelectorAll('#gmModes button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.m===SH.mode));
@@ -3449,8 +3456,8 @@ function omRVis(){ if(!on.has('_oldmap')) return; const s=scale(), lon0=vb.x/K, 
   for(const im of v) if(!im.getAttribute('href')) im.setAttribute('href','om/'+im.dataset.f+'.webp'); }
 const _omA=omApply; omApply=function(){ _omA(); const a=Math.min(1,(+omsR.value)/100).toFixed(2); for(const im of omR) im.setAttribute('opacity',a); };
 OGE.on('draw',()=>omRVis());
-const _gnO=gmNote; gmNote=function(){ _gnO(); const n=document.getElementById('gmNote'); if(n&&GM.type==='old') n.textContent='Old USGS topo maps: 1936 and 1972 around Eau Claire and Chippewa Falls, 15-minute maps from 1927 to 1952 within about an hour, and 1950s regional maps across all three states (zoom in to about a third of a state to load them). Slide right to fade from today to the old map.'; };
-LBY._oldmap.n='Old maps: USGS topos from 1927 to 1972'; LBY._oldmap.d='Old USGS topo maps under the pins. Around Eau Claire and Chippewa Falls the slider fades from today\'s bare ground to the 1972 and 1936 maps; within about an hour there are 15-minute maps from 1927 to 1952, and across all three states the 1950s regional maps.';
+const _gnO=gmNote; gmNote=function(){ _gnO(); const n=document.getElementById('gmNote'); if(n&&GM.type==='old') n.textContent='Old USGS topo maps: 1936 and 1972 around Eau Claire and Chippewa Falls, 15-minute maps from 1927 to 1952 within about an hour, and 1950s regional maps across all three states (zoom in to about a third of a state to load them). Pick 1936 or 1972; Swipe against today puts today\'s map beside it.'; };
+LBY._oldmap.n='Old maps: USGS topos from 1927 to 1972'; LBY._oldmap.d='Old USGS topo maps under the pins. Around Eau Claire and Chippewa Falls you pick the 1936 or the 1972 map (Swipe compare puts today beside it); within about an hour there are 15-minute maps from 1927 to 1952, and across all three states the 1950s regional maps.';
 omApply(); omRVis(); gmSheetSync();
 
 </script>
@@ -5580,7 +5587,9 @@ addEventListener('load',()=>{ const box=document.getElementById('drv'), row=box&
         t:'Shipwrecks and everything on them are protected by state and federal law: look only, from shore or the water. Divers may visit but must not take anything.',
         src:[src], acm:hide?[5000,'area']:lc==='5'?[100,'wreck']:[2000,'report']};
       p.mi=miles(p.lo,p.la); PTS.push(p); BYID[id]=p; }
-    drawMarkers(); try{ renderList(); }catch(_){} }).catch(()=>{ WK=null; }); }
+    drawMarkers(); try{ renderList(); }catch(_){} try{ renderLayers(); }catch(_){} }).catch(()=>{ WK=null; }); }
+  // (v354) the layer badge counted only the 97 wrecks already in the pins until the WHS file loaded; add the 586 it brings (630 less 44 that merge into existing pins)
+  { const _lcW=LCNT; LCNT=function(id){ const n=_lcW(id); return id==='wreck'&&!(WK&&WK.length)?n+586:n; }; try{ renderLayers(); }catch(_){} }
   OGE.on('draw',()=>{ if(on.has('wreck')) wkLoad(); });
   if(LBY.wreck) LBY.wreck.d='About 700 Great Lakes and river wrecks, most from the Wisconsin Historical Society database: look only from shore or the water; wrecks and their contents are protected'; }
 </script>
@@ -6521,7 +6530,7 @@ const NEG=/*NEG*/{"cr-wabeno-bank-loot-1921": ["2026-10-30", "Court/probate thre
     const lx=(sx-tx)/k; tlCmp.div.style.clipPath=`polygon(${lx.toFixed(1)}px -99999px,99999px -99999px,99999px 99999px,${lx.toFixed(1)}px 99999px)`;
     const g=VIEW.vb; if(g&&W){ const wx=g.x+lx/W*g.w; cpr.setAttribute('x',g.x-g.w*20); cpr.setAttribute('width',Math.max(0,wx-(g.x-g.w*20))); cpr.setAttribute('y',g.y-g.h*20); cpr.setAttribute('height',g.h*41); }
     knob.style.left=(TR.cmpF*100)+'%';
-    document.getElementById('cmpA').textContent=TYPEN[GM.type]||'This map'; document.getElementById('cmpB').textContent='Today: '+(cmpSrc()==='s'?'satellite':'street map'); }
+    document.getElementById('cmpA').textContent=GM.type==='old'&&window.omYr?(omYr()==='200'?'1936 topo':'1972 topo'):(TYPEN[GM.type]||'This map'); document.getElementById('cmpB').textContent='Today: '+(cmpSrc()==='s'?'satellite':'street map'); }
   const _sfC=stageFast; stageFast=function(){ _sfC(); if(TR.tool==='cmp') cmpClip(); };
   OGE.on('post',()=>{ if(TR.tool==='cmp'||!knob.hidden) cmpClip(); });
   { const h=document.getElementById('cmpH'); let drag=null;
@@ -6532,11 +6541,11 @@ const NEG=/*NEG*/{"cr-wabeno-bank-loot-1921": ["2026-10-30", "Court/probate thre
     h.addEventListener('keydown',e=>{ if(e.key==='ArrowLeft'||e.key==='ArrowRight'){ TR.cmpF=Math.max(0.03,Math.min(0.97,TR.cmpF+(e.key==='ArrowLeft'?-0.05:0.05))); cmpClip(); e.preventDefault(); } }); }
   try{ TR.cmpSrc=localStorage.getItem('og-cmp-src')||'s'; TR.cmpF=+(localStorage.getItem('og-cmp-f')||0.5)||0.5; }catch(_){}
   function cmpBar(){ barB.innerHTML=`<div class="trrow"><span>Right side, today:</span><button class="trc" data-src="s" aria-pressed="${cmpSrc()==='s'}"${GM.type==='sat'?' disabled':''}>Satellite</button><button class="trc" data-src="b" aria-pressed="${cmpSrc()==='b'}">Street map</button></div>
-<div class="trrow trs"><span>Left side:</span>${Object.entries(TYPEN).map(([k,v])=>`<button class="trc" data-mt2="${k}" aria-pressed="${GM.type===k}">${esc(v.replace(/ \(.*\)/,''))}</button>`).join('')}</div>`;
+<div class="trrow trs"><span>Left side:</span>${Object.entries(TYPEN).map(([k,v])=>k==='old'&&window.omYr?[['200','1936 topo'],['100','1972 topo']].map(([y,n])=>`<button class="trc" data-mt2="old" data-oy="${y}" aria-pressed="${GM.type==='old'&&omYr()===y}">${n}</button>`).join(''):`<button class="trc" data-mt2="${k}" aria-pressed="${GM.type===k}">${esc(v.replace(/ \(.*\)/,''))}</button>`).join('')}</div>`;
     say(T3.on?'Compare works in the flat map. Tap 2D to use it.':'Drag the round handle. Left: '+(TYPEN[GM.type]||'this map')+'. Right: today. Old maps only cover the areas they were drawn for.'); }
   barB.addEventListener('click',e=>{ const b=e.target.closest('button'); if(!b) return;
     if(b.dataset.src){ TR.cmpSrc=b.dataset.src; try{ localStorage.setItem('og-cmp-src',TR.cmpSrc); }catch(_){} tilesSoon(); cmpBar(); cmpClip(); }
-    else if(b.dataset.mt2){ if(typeof gmSetType==='function') gmSetType(b.dataset.mt2); if(typeof gmSheetSync==='function') try{ gmSheetSync(); }catch(_){} tilesSoon(); drawMarkers(); setTimeout(()=>{ cmpBar(); cmpClip(); },60); }
+    else if(b.dataset.mt2){ if(b.dataset.oy&&window.omSetYr) omSetYr(b.dataset.oy); if(typeof gmSetType==='function') gmSetType(b.dataset.mt2); if(typeof gmSheetSync==='function') try{ gmSheetSync(); }catch(_){} tilesSoon(); drawMarkers(); setTimeout(()=>{ cmpBar(); cmpClip(); },60); }
     else if(b.dataset.vr){ TR.viewR=+b.dataset.vr; viewBar(); if(TR.view) viewRun(TR.view[0],TR.view[1]); }
     else if(b.dataset.pf==='undo'){ TR.prof.pop(); profRun(); } else if(b.dataset.pf==='clear'){ TR.prof=[]; profRun(); } });
 
@@ -6997,4 +7006,18 @@ const NEG=/*NEG*/{"cr-wabeno-bank-loot-1921": ["2026-10-30", "Court/probate thre
 // ---------- end 1950s-60s air photo check
 
 </script>
+<style>
+/* (v354) Drive mode: the Alert, Voice and directions row sits at the top of the panel, so it is never below the fold */
+.drvp>.drvo{order:-1}
+/* (v354) landscape phone: the + button and its menu move to the bottom left, clear of the map tools column on the right */
+@media (orientation:landscape) and (max-height:560px){
+  .qafab{right:auto;left:14px}
+  .qamenu{right:auto;left:14px;width:min(540px,calc(100% - 28px));grid-template-columns:repeat(2,minmax(0,1fr));max-height:calc(100% - 100px);overflow:auto}
+}
+/* (v354) old map year buttons */
+.omy{gap:6px;flex-wrap:wrap}
+.omy .chip{opacity:1;text-decoration:none;font-size:14px;padding:6px 14px}
+.omy .chip[aria-pressed="true"]{background:var(--ink);color:var(--panel);border-color:var(--ink);box-shadow:none}
+.omy .omc{margin-left:auto}
+</style>
 </body></html>
