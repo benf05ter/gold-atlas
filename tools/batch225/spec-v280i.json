@@ -1,0 +1,385 @@
+{
+ "new": [
+  {
+   "id": "cd-reed-storehouse-winona-1842",
+   "L": "history",
+   "n": "James Reed's log storehouse, Wabasha prairie (1842-45)",
+   "la": 44.053,
+   "lo": -91.6385,
+   "y": "1842",
+   "pl": "Second & Center Sts, Winona",
+   "co": "Winona",
+   "stt": "MN",
+   "v": "",
+   "c": "C",
+   "s": "",
+   "p": "",
+   "st": "James Reed, government farmer to Wabasha's band from 1842, built a white-ash log storehouse on Wabasha prairie for supplies and as his quarters (Bunnell helped build it in 1844). It stood where S. C. White's store stood in 1884, on the corner of Second and Center streets. The first settlers found broken plows in its ruins.",
+   "t": "Street corner from 1884 text; Ground check please snap to the Second/Center corner. Single source, C.",
+   "src": [
+    [
+     "History of Winona County (1884, with Wabasha), archive.org historyofwabasha00hill",
+     "https://archive.org/details/historyofwabasha00hill"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": "1884 street corner",
+   "radius_m": 120
+  },
+  {
+   "id": "cd-borrette-east-moor-post-1840",
+   "L": "history",
+   "n": "Borrette's East Moor winter trading post and the 1842-43 payment grove, Winona",
+   "la": 44.049,
+   "lo": -91.618,
+   "y": "1840",
+   "pl": "East end of Winona, by the Green Bay elevator",
+   "co": "Winona",
+   "stt": "MN",
+   "v": "",
+   "c": "C",
+   "s": "",
+   "p": "",
+   "st": "After La Bathe's Rolling Stone post closed about 1840, his nephew Joseph Borrette built a small cabin 'near the site of the Green Bay elevator, at East Moor', used as a winter post until about 1843. The 1842-43 annuity payment to Wabasha's band, probably the last paid to the band individually, was held in the oak grove below the elevator site.",
+   "t": "Placed loosely in Winona's east end. Please place on the Green Bay & Western elevator from a Winona Sanborn if you can. Single source, C.",
+   "src": [
+    [
+     "History of Winona County (1884, with Wabasha), archive.org historyofwabasha00hill",
+     "https://archive.org/details/historyofwabasha00hill"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": "1884 county history description",
+   "radius_m": 1200
+  },
+  {
+   "id": "cd-labathe-cabin-ruins-below-whitewater",
+   "L": "history",
+   "n": "Ruined trader's cabin with stone chimney, 4 mi below the Whitewater (seen 1852-54)",
+   "la": 44.175,
+   "lo": -91.855,
+   "y": "1852",
+   "pl": "Bluff where the Mississippi leaves the mainland, ~4 mi below the Whitewater mouth",
+   "co": "Winona",
+   "stt": "MN",
+   "v": "",
+   "c": "C",
+   "s": "",
+   "p": "",
+   "st": "Thought to be La Bathe's trading post: 1852 settlers found the ruins of a large log cabin with a huge stone fireplace and chimney still standing, at a bluff 'near where the river leaves the mainland, about four miles below the mouth of the White Water' (Bunnell saw it often in 1854).",
+   "t": "Distance-only placement; r 2500. Stone chimney base might still show on LiDAR. Single source, C.",
+   "src": [
+    [
+     "History of Winona County (1884, with Wabasha), archive.org historyofwabasha00hill",
+     "https://archive.org/details/historyofwabasha00hill"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": "1884 distance and description",
+   "radius_m": 2500
+  },
+  {
+   "id": "cd-kittson-station-haddock-slough-1840",
+   "L": "history",
+   "n": "Kittson's trading station above Minnesota City (c.1840)",
+   "la": 44.104,
+   "lo": -91.77,
+   "y": "1840",
+   "pl": "Foot of the bluff where Haddock's slough leaves the mainland",
+   "co": "Winona",
+   "stt": "MN",
+   "v": "",
+   "c": "C",
+   "s": "",
+   "p": "",
+   "st": "N. W. Kittson, for La Bathe & Co. about 1840, kept a trading station above the Rolling Stone, which he described as above Minnesota City at the foot of the bluff where Haddock's slough leaves the mainland. D. L. Burley, who owned the land for 30 years, had seen no sign of it.",
+   "t": "Description-only placement; r 1500. Single source, C.",
+   "src": [
+    [
+     "History of Winona County (1884, with Wabasha), archive.org historyofwabasha00hill",
+     "https://archive.org/details/historyofwabasha00hill"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": "1884 county history description",
+   "radius_m": 1500
+  },
+  {
+   "id": "cd-minnesota-city-colony-plat-1852",
+   "L": "ghost",
+   "n": "Original Minnesota City colony plat (1852, never recorded)",
+   "la": 44.0935,
+   "lo": -91.749,
+   "y": "1852",
+   "pl": "Minnesota City, Winona Co.",
+   "co": "Winona",
+   "stt": "MN",
+   "v": "",
+   "c": "C",
+   "s": "",
+   "p": "",
+   "st": "The Western Farm and Village Association (Rolling Stone colony) laid out Minnesota City in 1852 under W. Haddock. The plat was never recorded and was 'swept entirely away' when members pre-empted the lots by government survey lines; the later village grew on Israel Noracong's claim.",
+   "t": "Exact original plat not located; pin near the present village. Single source, C.",
+   "src": [
+    [
+     "History of Winona County (1884, with Wabasha), archive.org historyofwabasha00hill",
+     "https://archive.org/details/historyofwabasha00hill"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": "1884 county history description",
+   "radius_m": 800
+  },
+  {
+   "id": "cd-dacota-brown-trading-post-1849",
+   "L": "history",
+   "n": "Nathan Brown's trading post and the Dacota townsite (1849-1855)",
+   "la": 43.9127,
+   "lo": -91.36,
+   "y": "1849",
+   "pl": "Dakota, Winona Co.",
+   "co": "Winona",
+   "stt": "MN",
+   "v": "",
+   "c": "C",
+   "s": "",
+   "p": "",
+   "st": "Nathan Brown held a trading station here for Prairie du Chien traders B. W. Brisbois and F. S. Richards, 1849-55: a 12x16 log cabin and a 1 1/2-story hewed-log storehouse with shingled roofs. He traded with the Winnebago and sold steamboat wood. It was entered as the Dacota townsite in 1855, failed as a landing, and became Brown's farm. In 1884 he still lived near his 1849 cabins.",
+   "t": "Village-level; the 1884 text says the Dakota railroad station marks the site. Single source, C.",
+   "src": [
+    [
+     "History of Winona County (1884, with Wabasha), archive.org historyofwabasha00hill",
+     "https://archive.org/details/historyofwabasha00hill"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": "1884 county history description",
+   "radius_m": 500
+  },
+  {
+   "id": "cd-catlin-townsite-below-dakota",
+   "L": "ghost",
+   "n": "Catlin townsite and trading station, 3/4 mi below Dakota (c.1849)",
+   "la": 43.9035,
+   "lo": -91.35,
+   "y": "1849",
+   "pl": "3/4 mile below Brown's post, Dakota",
+   "co": "Winona",
+   "stt": "MN",
+   "v": "",
+   "c": "C",
+   "s": "",
+   "p": "",
+   "st": "A second townsite chosen by Chute and Ewing (Capt. D. S. Harris had a share), held first by a French Canadian and then by Jerry Tibbits as a trading station; after two or three years it was joined to Dacota and the name Catlin dropped. A Catlin's Rocks landing is pinned separately in Richmond township (fr-catlin-s-rocks-landing-richmond), about 13 km NW; they may be the same Catlin.",
+   "t": "Ground check: the existing fr-catlin-s-rocks-landing-richmond pin (44.02,-91.41) may be the same Catlin; this text puts Catlin 3/4 mi below Dakota. Single source, C.",
+   "src": [
+    [
+     "History of Winona County (1884, with Wabasha), archive.org historyofwabasha00hill",
+     "https://archive.org/details/historyofwabasha00hill"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": "1884 county history description",
+   "radius_m": 700
+  },
+  {
+   "id": "cd-robbers-roost-crooked-creek",
+   "L": "treasure",
+   "n": "Robbers' Roost: Civil War river thieves' camp, sec. 36 Crooked Creek",
+   "la": 43.5941,
+   "lo": -91.2631,
+   "y": "1862",
+   "pl": "sec 36 T102N R4W, Mississippi lowlands",
+   "co": "Houston",
+   "stt": "MN",
+   "v": "",
+   "c": "C",
+   "s": "",
+   "p": "",
+   "st": "1882 county history: 'On the Mississippi lowlands, in section thirty-six, nearly opposite the Bad Axe, is a place where, during the war, ten or twelve men lived by plundering on the river and along the banks on both sides. The roost was finally raided and some of the men shot, and some drowned, and others were sent to the Wisconsin State prison.' No loot story is told.",
+   "t": "Section centre on the bottoms near Reno; much of sec. 36 may now be under Pool 9 backwater. Second source needed (a Wisconsin or La Crosse paper on the raid). C.",
+   "src": [
+    [
+     "History of Houston County (Neill 1882), archive.org mn-houston-1882-neill",
+     "https://archive.org/details/mn-houston-1882-neill"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": "county history section",
+   "radius_m": 900
+  },
+  {
+   "id": "cd-fairy-rock-cave-reno",
+   "L": "history",
+   "n": "Fairy Rock cave, sec. 23 Crooked Creek (names back to 1856)",
+   "la": 43.6229,
+   "lo": -91.2828,
+   "y": "1856",
+   "pl": "sec 23 T102N R4W, 1/2 mi N of Caledonia Junction",
+   "co": "Houston",
+   "stt": "MN",
+   "v": "",
+   "c": "C",
+   "s": "",
+   "p": "",
+   "st": "A sandstone bluff cave 24 x 10 x 7 ft with three entrances, near the top of the bluff about 200 ft above the river, half a mile north of the railroad junction. Its walls carried visitors' names going back to 1856, and Charles Brown of Brownsville lived in it for a while.",
+   "t": "Section from 1882 text; '1/2 mi north of the junction' narrows it. Look-only on private or public bluff land. C.",
+   "src": [
+    [
+     "History of Houston County (Neill 1882), archive.org mn-houston-1882-neill",
+     "https://archive.org/details/mn-houston-1882-neill"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": "county history section",
+   "radius_m": 500
+  },
+  {
+   "id": "cd-reno-pictograph-cave",
+   "L": "history",
+   "n": "Reno cave pictographs: LOOK ONLY",
+   "la": 43.5978,
+   "lo": -91.2879,
+   "y": "1919",
+   "pl": "NW1/4 sec 35 T102N R4W, 150 ft above Minnesota slough",
+   "co": "Houston",
+   "stt": "MN",
+   "v": "",
+   "c": "C",
+   "s": "",
+   "p": "",
+   "st": "1919 county history: Reno cave, NW1/4 sec 35 T102 R4, 150 ft above Minnesota slough, 12 ft long, 5 ft wide and 12 ft high, its walls covered with crude outlines of animals, men, fish and birds, and an 8-rayed star.",
+   "t": "Native rock art: LOOK ONLY, do not touch or dig; protected cultural site. Quarter-section from text. C.",
+   "src": [
+    [
+     "History of Houston County (Curtiss-Wedge 1919), archive.org mn-houston-1919-curtiss-wedge",
+     "https://archive.org/details/mn-houston-1919-curtiss-wedge"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": "county history section",
+   "radius_m": 300,
+   "warn": "Rock art cave: look only, touch nothing."
+  },
+  {
+   "id": "cd-looneyville-paper-village-1857",
+   "L": "ghost",
+   "n": "Looneyville paper village and post office (1855-1858)",
+   "la": 43.7858,
+   "lo": -91.5318,
+   "y": "1857",
+   "pl": "W1/2 NW1/4 sec 26 + E1/2 NE1/4 sec 27 T104N R6W",
+   "co": "Houston",
+   "stt": "MN",
+   "v": "",
+   "c": "C",
+   "s": "",
+   "p": "",
+   "st": "Looney valley's 1857 town-site company (Looney, Hunt and Wilson) platted 40 acres (surveyor Isaac Thompson) at the crossroads, centred on the W1/2 NW1/4 of sec. 26 and the E1/2 NE1/4 of sec. 27. Looneyville post office ran 1855-1858 (D. D. Wilson), and Corydon Looney opened a store in 1855. The lot stakes later snagged mowing machines, 'the ruins of this deserted village'.",
+   "t": "The 1882 history gives the exact location; the 1919 history repeats it. One source line, C.",
+   "src": [
+    [
+     "History of Houston County (Neill 1882), archive.org mn-houston-1882-neill",
+     "https://archive.org/details/mn-houston-1882-neill"
+    ],
+    [
+     "History of Houston County (Curtiss-Wedge 1919), archive.org mn-houston-1919-curtiss-wedge",
+     "https://archive.org/details/mn-houston-1919-curtiss-wedge"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": "county history section",
+   "radius_m": 300
+  },
+  {
+   "id": "cd-carrier-cave-gold-coin-black-hammer",
+   "L": "treasure",
+   "n": "Carrier cave where a gold coin was found, north Black Hammer",
+   "la": 43.6664,
+   "lo": -91.6805,
+   "y": "1882",
+   "pl": "near the Carrier farms, sec 4 area, T102N R7W, near Riceford Creek",
+   "co": "Houston",
+   "stt": "MN",
+   "v": "",
+   "c": "C",
+   "s": "",
+   "p": "",
+   "st": "1882 county history: near the old earthworks by William and Peter Carrier's homes (north part of Black Hammer, near Riceford Creek) is a cave 'that may have been formed or modified by human hands', with a door-like entrance 4 ft square, running about 1,000 ft and 5-6 ft high. Peter C. Carrier found an unmarked gold coin about the size of a $5 piece in it and sold it to James Vincent of Houston.",
+   "t": "Placed on sec. 4, the Stevens/Carrier claim with a ruined log house; the cave is only 'in this vicinity', r 1500. Earthworks nearby may be mounds, so look-only near them. C.",
+   "src": [
+    [
+     "History of Houston County (Neill 1882), archive.org mn-houston-1882-neill",
+     "https://archive.org/details/mn-houston-1882-neill"
+    ],
+    [
+     "History of Houston County (Curtiss-Wedge 1919), archive.org mn-houston-1919-curtiss-wedge",
+     "https://archive.org/details/mn-houston-1919-curtiss-wedge"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": "county history section",
+   "radius_m": 1500
+  },
+  {
+   "id": "cd-st-marys-townsite-afton-1857",
+   "L": "ghost",
+   "n": "St. Mary's townsite and burned sawmill, Afton (1857)",
+   "la": 44.9128,
+   "lo": -92.7745,
+   "y": "1857",
+   "pl": "sec. 14 T28N R20W, Afton township",
+   "co": "Washington",
+   "stt": "MN",
+   "v": "",
+   "c": "C",
+   "s": "",
+   "p": "",
+   "st": "In 1857 Cathcart, Marshall and others platted the St. Mary's townsite on sec. 14 of Afton; lots sold and houses went up, and Norristown, Pennsylvania men built a sawmill 'on the point' that ran one year and failed. By 1881 it had 'vanished in smoke, leaving only a few blackened ruins to mark the spot'.",
+   "t": "Placeholder near Afton; section 14 not yet laid out here (my PLSS fetch had gaps). Please move it to sec. 14 / the point. Single source, C.",
+   "src": [
+    [
+     "History of Washington County and the St. Croix Valley (Neill 1881), archive.org mn-washington-1881-neill",
+     "https://archive.org/details/mn-washington-1881-neill"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "1881 county history description",
+    "Placed in sec. 14 T28N R20W from the BLM PLSS section layer (fractional river section)."
+   ],
+   "radius_m": 1500,
+   "acm": [
+    500,
+    "plss"
+   ]
+  },
+  {
+   "id": "cd-dahkotah-townsite-1839",
+   "L": "ghost",
+   "n": "Dahkotah: Joseph R. Brown's townsite and first St. Croix county seat (c.1839-40)",
+   "la": 45.064,
+   "lo": -92.805,
+   "y": "1839",
+   "pl": "Head of Lake St. Croix, 1/2 mi above original Stillwater",
+   "co": "Washington",
+   "stt": "MN",
+   "v": "",
+   "c": "C",
+   "s": "",
+   "p": "",
+   "st": "Joseph R. Brown laid out the townsite of Dahkotah at the head of Lake St. Croix, about half a mile above the original site of Stillwater, around 1839, and made it the county seat of the St. Croix County he got the Wisconsin legislature to create in 1840.",
+   "t": "Distance-only placement north of downtown Stillwater. Single source here, but well known; a second source should be easy (MNHS). C.",
+   "src": [
+    [
+     "History of Washington County and the St. Croix Valley (Neill 1881), archive.org mn-washington-1881-neill",
+     "https://archive.org/details/mn-washington-1881-neill"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": "1881 county history description",
+   "radius_m": 800
+  }
+ ],
+ "edit": {}
+}
