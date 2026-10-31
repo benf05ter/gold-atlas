@@ -1,0 +1,1 @@
+{ if(typeof VS5!=='undefined'){ const i=VS5.findIndex(r=>r[0]==="1949190"); if(i>=0) VS5.splice(i,1); } addEventListener("DOMContentLoaded",()=>{ DATA.points=DATA.points.filter(p=>p.id!=="vs-1949190"); }); }
