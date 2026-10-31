@@ -1,0 +1,1 @@
+{ addEventListener("DOMContentLoaded",()=>{ const p=DATA.points.find(q=>q.id==="t-hermit-island"); if(p&&p.st) p.st=p.st.replace(/ Brody \(1973, p 277\) says lumberjacks[\s\S]*?his suitcase\./,""); }); }
