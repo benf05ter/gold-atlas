@@ -1,0 +1,96 @@
+{
+ "new": [
+  {
+   "id": "glo-pepin-marchand-1848",
+   "L": "history",
+   "n": "P. Marchand's place on the Lake Pepin shore, 1848 GLO plat",
+   "la": 44.4672,
+   "lo": -92.235,
+   "y": "1848",
+   "pl": "Lake Pepin shore at the sec. 17/20 line, T23N R15W, NW of the Bogus Creek mouth (1848-49 GLO plat; 1974 USGS Pepin topo)",
+   "co": "Pepin",
+   "stt": "WI",
+   "v": "Early coins, trade items, household goods",
+   "c": "documented",
+   "s": "unknown",
+   "p": "plss",
+   "st": "The 1848-49 government survey plat marks \"P. Marchand's\" on the Lake Pepin shore at the sec. 17/20 line, northwest of the Bogus (Begus) Creek mouth. A shore road ran from here southeast through secs. 21 and 22 toward McCain's farm at Lakeport. This is one of the earliest settler places on this reach of the lake. The railroad later took the shore strip, so check how much ground is left. Single source so far (the plat).",
+   "t": "Check the shore strip between the railroad and the lake at the sec. 17/20 line on the 1938 aerial and LiDAR for a house flat or cellar. Look only from the road or lake, or ask the landowner first. Private land.",
+   "src": [
+    [
+     "GLO township plat T23N R15W, Wisconsin (surveyed 1848-49), UW Digital Collections",
+     "https://search.library.wisc.edu/digital/AYGHC3NUL2P7AB8X"
+    ]
+   ],
+   "pinconf": "C",
+   "pinev": [
+    "Plat label on the shore at the sec. 17/20 line, placed on the 1974 topo shoreline (about 400 m)."
+   ],
+   "acm": [
+    400,
+    "plss"
+   ]
+  },
+  {
+   "id": "glo-pepin-mckean-landing-1848",
+   "L": "history",
+   "n": "McCain's (\"McKean's\") landing on Lake Pepin, 1848 GLO plat",
+   "la": 44.4478,
+   "lo": -92.1818,
+   "y": "1846-1860s",
+   "pl": "Lake Pepin shore in sec. 27 T23N R15W below Lakeport (1848-49 GLO plat; 1974 USGS Pepin topo)",
+   "co": "Pepin",
+   "stt": "WI",
+   "v": "Coins, steamboat and keel-boat hardware, bottles",
+   "c": "documented",
+   "s": "unknown",
+   "p": "plss",
+   "st": "The 1848-49 government survey plat marks \"McKean's landing\" on the Lake Pepin shore in sec. 27, below John McCain's farm at Lakeport. McCain was a river pilot, and this was his boat landing. Huts stood along the creek in secs. 26 and 27. The 1881 county history says McCain settled at Lakeport in 1846.",
+   "t": "Look along the shore below Lakeport for the old landing and the creek-side hut sites on the 1938 aerial. The shore is lined with lake lots now. Look only from the road or lake, or ask the landowner first. Private land.",
+   "src": [
+    [
+     "GLO township plat T23N R15W, Wisconsin (surveyed 1848-49), UW Digital Collections",
+     "https://search.library.wisc.edu/digital/AYGHC3NUL2P7AB8X"
+    ],
+    [
+     "History of Northern Wisconsin (Western Historical Co., 1881), Pepin County chapter, John McCain sketch",
+     "https://archive.org/details/historyofnorther00west"
+    ]
+   ],
+   "pinconf": "B",
+   "pinev": [
+    "Plat label on the shore in sec. 27, placed on the 1974 topo shoreline below Lakeport (about 300 m)."
+   ],
+   "acm": [
+    300,
+    "plss"
+   ]
+  }
+ ],
+ "edit": {
+  "cd-lakeport-mccain-1846": {
+   "set": {
+    "la": 44.457,
+    "lo": -92.1762,
+    "p": "plss",
+    "pl": "House on the sec. 22/23 line by Lost Creek, T23N R15W, at the north edge of McCain's fenced farm (1848-49 GLO plat; 1974 USGS Pepin topo)",
+    "acm": [
+     300,
+     "plss"
+    ],
+    "pinconf": "B",
+    "pinev": [
+     "The 1848-49 GLO plat draws the house on the sec. 22/23 line by the creek, with the fenced farm at the sec. 22/23/26/27 corner; the 1881 sketch names the farm Lakeport. Two sources."
+    ]
+   },
+   "moved": true,
+   "src": [
+    [
+     "GLO township plat T23N R15W, Wisconsin (surveyed 1848-49), UW Digital Collections",
+     "https://search.library.wisc.edu/digital/AYGHC3NUL2P7AB8X"
+    ]
+   ],
+   "st": " The 1848-49 government survey plat (spelled \"McKean's Farm\") draws a fenced field at the sec. 22/23/26/27 corner, with a house on the sec. 22/23 line by the creek, huts along the creek in secs. 26 and 27, and \"McKean's landing\" on the shore in sec. 27. Pin moved to the house on the plat."
+  }
+ }
+}
