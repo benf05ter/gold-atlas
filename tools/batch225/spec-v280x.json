@@ -1,0 +1,39 @@
+{
+ "new": [],
+ "edit": {
+  "tw-mn-warsaw-murphy-crock-1920": {
+   "st": "",
+   "t": " Search first around James's own house site (1900 plat: SE quarter of sec. 23 by the sec. 23/24 line, where a farmstead still stands today), then the old barnyard edge. Frank's 1915 yard on the sec. 24 side is plowed field now.",
+   "src": [
+    [
+     "James Murphy obituary (May 1901) and estate tax record; Mankato 1920 wire story (deep-dive notes, research/treasure-statewide/deep-dives/)",
+     ""
+    ]
+   ]
+  },
+  "tw-mn-sigel-kuehn-plum-trees-1906": {
+   "st": " Later reading: the jar of notes and certificates was very likely the buried papers, and the will contest was settled in May 1906, so the odds that more money remains are modest. A farm building group still stands in the NW part of the SW quarter of sec. 22 by the sec. 21/22 road (about 44.2305,-94.5517).",
+   "src": [
+    [
+     "Deep-dive notes, research/treasure-statewide/deep-dives/",
+     ""
+    ]
+   ]
+  },
+  "tw-mn-winona-schmidt-crocks-1933": {
+   "moved": true,
+   "set": {
+    "la": 44.0558,
+    "lo": -91.6535,
+    "acm": [
+     40,
+     "parcel"
+    ],
+    "pinev": [
+     "Parcel centroid of 653 W 3rd St (Chutes Addition Lot 14 Block 11), about 700 m from the earlier street-grid guess; the 1933 paper gives the same house number."
+    ]
+   },
+   "st": " The pin now sits on the 653 W 3rd St lot (Chutes Addition Lot 14, Block 11). The Winona Republican-Herald of 27 Oct 1933 gives the address as 653 West Third St: $1,785 in gold was dug up under the house on 13 May 1933, about $7,800 was still unaccounted for, and the last court ruling came on 1 Mar 1934."
+  }
+ }
+}
