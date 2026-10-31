@@ -1,0 +1,48 @@
+{
+ "new": [
+  {
+   "id": "tw-mn-warsaw-murphy-crock-1920",
+   "L": "treasure",
+   "n": "James Murphy's missing ~$24,000, Murphy farm barnyard, Warsaw Twp (Rice Co.)",
+   "la": 44.2327,
+   "lo": -93.3025,
+   "y": "hidden before c.1902; $6,000 found Apr 1920",
+   "pl": "Murphy farmstead on the sec. 23/24 line, T109N R21W (Warsaw township), Rice County (1915 Webb atlas)",
+   "co": "Rice",
+   "stt": "MN",
+   "v": "About $24,000 in gold coin (1902 value), unfound",
+   "c": "newspaper",
+   "s": "partly",
+   "p": "plss",
+   "st": "Early settler James Murphy kept \"large amounts hidden about the house\" and died suddenly about 1902 without telling where. His widow had once counted the hoard at about $30,000. In April 1920 a cow's hoof broke through a rotten board in the barnyard of son Frank Murphy's farm, and grandson Sylvester found an old crock with $6,000 in gold, at a spot once \"just outside the barnyard\" and later taken into the lot. The family felt \"more akin to disappointment than elation\": roughly $24,000 was still missing. The 1915 Webb atlas shows the Murphy farm in the west part of sec. 24 with building dots on the sec. 23/24 line, the farmstead and its barnyard.",
+   "t": "About four-fifths of a counted hoard never found, on a farm that can be placed. Check the old barnyard and house site on the 1938 aerial. Private land: ask permission first.",
+   "src": [
+    [
+     "Faribault Daily News via People's Press (Owatonna), 14 May 1920, p. 2 (newspapers.com 1025567305)",
+     ""
+    ],
+    [
+     "Dodge County Republican, 29 Apr 1920, p. 1 (newspapers.com 1203032435); wire story also in the Austin Herald 21 Apr 1920 and others",
+     ""
+    ],
+    [
+     "Webb, Atlas of Rice County, Minnesota (1915), Warsaw twp",
+     "https://umedia.lib.umn.edu/item/p16022coll231:12989"
+    ]
+   ],
+   "acc": [
+    "warn",
+    "Private farm: ask permission first."
+   ],
+   "pinconf": "B",
+   "pinev": [
+    "1915 atlas building dots on the sec. 23/24 line near mid-section, placed from the BLM PLSS section line (about 150 m)."
+   ],
+   "acm": [
+    150,
+    "plss"
+   ]
+  }
+ ],
+ "edit": {}
+}
