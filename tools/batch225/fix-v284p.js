@@ -1,0 +1,1 @@
+{ addEventListener("DOMContentLoaded",()=>{ const p=DATA.points.find(q=>q.id==="cr-lemuel-hill-hoard-1906"); if(p&&p.st) p.st=p.st.replace(" Solved: newspapers of the time report that his notes and deeds were recovered.",""); }); }
