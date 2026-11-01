@@ -409,3 +409,133 @@ About 15 minutes per item if empty. A find = F; a placed farm or a later "still 
 - Duluth N-T miser + "News Tribune Special" 1900-30 (6): 1910-05-22 p1 = Evansville IND (McMurren); 1914-05-12 p5 = an Ashland forgery (noise).
 - Duluth N-T "'hidden money' 'News Tribune Special'" (8): 1907-08-10 p2 = TOMAH, WIS.: Fred Schoot found an old tin box of money in a wall of the former Michael Larkin house (recovered, F; WI color only).
 - T56: no unrecovered MN caches. T53-T56 complete.
+# TREASURE LIST T58-T62 (relay 13:08Z). Odell = F and Tomah/Larkin = F (both in negatives). Same state-column method; ~15 min per block; unrecovered or partly recovered only, named person and place; check TSVs and negatives first. If T58-T62 net nothing, the WI/MN/MI cache lane counts as worked out.
+- [ ] T58 Green Bay Press-Gazette "Wisconsin News" briefs 1900-1935
+- [ ] T59 Wisconsin State Journal state briefs 1890-1935
+- [ ] T60 Grand Rapids Press "Michigan News" briefs 1900-1935
+- [ ] T61 Minneapolis Star / Star Tribune "Northwest" briefs 1920-1940
+- [ ] T62 St. Cloud Times + Stillwater Gazette 1890-1930 local items## T58-T62 results
+### T58 Green Bay Press-Gazette 1900-35: EMPTY
+- "'hidden money' Wis" Brown (26): 1903-01-06 p1 = Eicher, Connellsville PA (wire). 1921-07-29 p1 likely Wabeno (known).
+- "miser money 'Wis.' hoard" (31): Semi-Weekly 1908-02-01 p2 = "Mrs. Helena Miser" (surname) in the state-papers column. Noise.
+- "'secreted' money farm 'Wis.' died" (148): 1922-12-26 p1 = Louisiana witness "secreted" (noise).
+### T59 Wisconsin State Journal / Capital Times 1890-1935: block 1 EMPTY
+- "'hidden money' Wis. farmer" Dane (27): Stoughton Courier 1933-04-24 p1 = split-word; Capital Times 1920-10-08 p1 = Wassley theft of $1,000 from George T. Esser's Union House, Madison: he hid it in a wood near DE FOREST, at LEEDS, and in an old shed at SUN PRAIRIE; mostly recovered, about $135 missing with officers searching (minor, not logged as a lead).### T59 block 2: EMPTY
+- miser "'Wis.' money found dead" Dane 1890-1935 (418, loose): Capital Times 1926-11-11 p1 = OCR mismatch. Too loose; closed. T59 done, no leads.
+### T60 Grand Rapids Press 1900-35: EMPTY
+- "'hidden money' Mich." Kent (25): 1904-09-24 p1 = split; 1921-04-23 p1 = child forgers; 1931-01-08 p1 = a grocery burglar ($66). Noise.
+- "'buried money' Mich. farm" Kent (12): 1920-09-24 p1 = noise (fair / Ziegfeld).### T61 Minneapolis Star/Tribune 1920-40: EMPTY
+- "'hidden money' Minn. farmer" Hennepin 1920-40 (44): Star Tribune 1940-02-12 p3 = Balkan travel feature; MJ 1924-12-16 p9 = Council Bluffs IA mail-robbery loot (out of region). Noise.
+### T62 St. Cloud Times + Stillwater 1890-1930: EMPTY
+- Stearns "'hidden money'" (7): St. Cloud Times 1930-02-03 p4 = Los Angeles (Biddle, bug-eaten bills); Sauk Centre Herald 1919-08-21 p3 = serial fiction (Leila/Norton). Noise.
+- Washington Co "'hidden money'" (2): only The Mirror 1906/1922 inner pages; the Stillwater Gazette is not indexed for these terms.
+## T58-T62 COMPLETE: no new leads. Per Treasure, the newspapers.com WI/MN/MI cache lane is now WORKED OUT.
+# SECOND-SOURCE / OUTCOME LIST S1-S7 + K1-K3 (relay 13:20Z). ~15 min each, drop if empty, highlights only, report per item. Skip Mattrick, Heisel, Ole Johnson, Souvigner.
+- [ ] S1 ST. CHARLES 1913: Winona Republican-Herald, Rochester Post-Bulletin Sep 1913-Mar 1914: trial/plea/confession of J. C. Ball and W. C. McGinnis; where the silver was planted; any found; the accomplices.
+- [ ] S2 GRASS LAKE 1920: Jackson Citizen Patriot and Jackson News, 30 Jul-Sep 1920: getaway route (roads, car stop/crash, hotel off Wolf Lake Rd), later find of the $1,300 in coins.
+- [ ] S3 WOLF RIVER JACK 1939: Antigo Daily Journal and Rhinelander 1939-41: shack location (section, landowner, road/rapids), later find.
+- [ ] S4 ANDREW JACKSON, Niles 1902: Niles Daily Star 1895-1903: street or house, later find.
+- [ ] S5 HECKES/Byronville 1905: New Richland Star 1905-10: later dig at the Philbrook house or grove.
+- [ ] S6 TWEIT 1927: New Richland Star and Waseca Herald 1927-30: dig or find on the Vivian farm after the estate sale.
+- [ ] S7 HORRIGAN 1930: Kickapoo Scout and Crawford papers 1931-40: later dig or find.
+- [ ] K1 BADER (Calhoun IA): Lake City Graphic, Rockwell City Advocate, Fort Dodge Messenger, Carroll papers, Nov 1906-1908: woodshed gold 9 mi NW of Lake City; local account, sum, found?, twp/section.
+- [ ] K2 MARCUS (Jackson IA / Carroll IL): Savanna Times-Journal, Mount Carroll Mirror-Democrat, Sabula Gazette, Clinton Herald, Dubuque T-H, Aug 1902-Jun 1903: trial outcome; buried silver dug up?; where on the Iowa bank.
+- [ ] K3 McGREGOR (Clayton IA): North Iowa Times and McGregor papers 1880-1940, "buried gold"/"Heights"/"Fort Crawford gold": any find, or a named hill/ravine.
+### S1-S2 results (run of 2026-11-01)
+
+**S1 St. Charles 1913: RECOVERED, so the pin should be downgraded.** The Post and Record (Rochester, MN), 5 Sep 1913, p3, "Robbers Dig Up Stolen Coin" (https://www.newspapers.com/image/1169815625/):
+- $1,000 was stolen from the Great Western station at St. Charles.
+- W. S. McGinnis and J. C. Bell were arrested with $100 on them. They "weakened" under questioning on Monday night.
+- One of them took the sheriff to the McCraney farm near St. Charles, and the $900 was dug up.
+- Both waived examination. They were to plead guilty before Judge Snow.
+- Hundreds of people had searched before the confession.
+- So all $1,000 is accounted for, and no accomplices are named.
+- Dodge Center Record 1914-03-26 was noise.
+
+**S2 Grass Lake 1920: RECOVERED, so the pin should be downgraded.** Jackson Citizen Patriot, 30 Jul 1920, p1, "Robbers Are Taken by Officers After Gun Fight at Lake" (https://www.newspapers.com/image/1162708616/):
+- The gang was taken in a cottage after a gun battle in which Under Sheriff Harry Worden was killed.
+- The paper says "All the loot taken from the bank was secured."
+- The bandits were "Doc" James Stowe, Walter Wilson, Dan (Dave) Rosenberg and W. E. "Ted" Harris. Lester Bacon and George Comfort of Jackson were also held.
+- All except Bacon had been stopping at the Mack Island hotel (Wolf Lake).
+- Jackson News, 24 Nov 1920, p5 (https://www.newspapers.com/image/1167238931/): all four were given life terms in Marquette.
+- No later find is needed, because nothing is outstanding.
+**S2 correction (coordinator, 2026-11-01):**
+- S2 stays tier C. The 30 Jul "all loot secured" was a first-day claim.
+- The Jackson News of 1 Aug 1920, written after the bank's count, still reports a $1,300 shortage: two stacks of gold were never found, and the silver was thought to have been thrown out along the route.
+- Only a later item (Aug-Dec 1920) saying the $1,300 turned up would make it F. Check that if ticks remain after K3.
+### S3-S4 results (2026-11-01)
+
+**S3 Wolf River Jack: dropped (nothing new).**
+- "Wolf River Jack" in WI 1938-45 gives 4 hits. The Rhinelander 1939-11-16 p1 hit is split-word noise.
+- "Warnick Lily" gives the 6 Feb 1940 UP wire on Willie Cook's 7-14 year sentence, already logged from the Stevens Point copy.
+- Third copy: Merrill Daily Herald 1940-02-06 p4 (https://www.newspapers.com/image/1123070855/). It adds that the pair "admitted that their intention was to rob Warnick of his supposed hoard. However, a watch was the only article known to be missing from the place."
+- So the hoard was not taken by the killers. There is no shack location; the Antigo papers aren't on the site. The pin stays Lily, r~1.5 km.
+
+**S4 Andrew Jackson, Niles: partial (estate, but no street).**
+- Source: Niles Republican 1902-12-18 p1, "Three Wives After Andrew Jackson's Estate" (https://www.newspapers.com/image/1064523833/).
+- His estate was "valued at about $1,600, which included $800 in cash now in the possession of Charles Lafler, administrator", with the balance in real estate.
+- No will. Three wives are contesting:
+  - Matilda Warfield (married at Indianapolis in 1869), with her children Mary McCown and William Jackson, represented by N. H. Bacon;
+  - Julia Washington of Chicago (married 1875), represented by C. E. White;
+  - the Niles widow and four children, represented by Judge J. J. Van Riper.
+- He made his money from odd jobs, then the dime carryall business.
+- Reading: $800 cash reached the administrator. It's not stated whether that was the hidden gold, found, or bank money. The obituary said he feared banks, so this suggests at least part of the "couple of thousand" was found.
+- No street was given. An ad overlay hid one paragraph. The Niles Daily Star 1895-1903 has no address hit.
+- Suggest: downgrade to C/F-partial unless a later hearing item (Dec 1902-1903) says where the cash came from.
+### S5-S7 results (2026-11-01)
+
+**S5 Heckes / Philbrook, Byronville: no later dig, closed.**
+- Source: New Richland Star 1905-11-09 p8, Byronville column (https://www.newspapers.com/image/1025229785/): "Ona Brisbane, Bill Heckas and Seth Winegar captured several skunks in the cellar of the old Philbrook's house last Sunday. Guess the gold mine has turned into skunks."
+- So the old Philbrook house, with its cellar, still stood in Nov 1905, and nothing was found.
+- Other searches: "Philbrook farm money" 1905-15 (7 hits) and "Byronville buried" / "Heckes treasure" 1905-30. The hits are burials and "treasurer" noise. No later dig.
+
+**S6 Tweit: dropped.**
+- Already covered: "Tweit money/buried/Vivian/Waldorf" 1927-35 in targeted-tweit-dickey.md and second-sources-open-leads.md.
+- "Tweit farm" MN 1927-40 has 3 hits, all already logged (1927-06-17, 1927-06-24, 1931-10-09).
+
+**S7 Horrigan: third account, the township confirmed, no find.**
+- Source: La Crosse Tribune 1940-01-15 p4, "Crawford Bank Scandal Involves Horrigan Family" (https://www.newspapers.com/image/510872385/).
+- Cornelius Horrigan allegedly signed a note as security for Fred Lowe (Chaseburg State Bank / Lynxville bank fraud, federal court in Madison).
+- The story recaps 1930: Ellen and her two bachelor brothers "lived on a large farm in THE TOWN OF CLAYTON in Crawford county", and "somewhere on their farm was buried their hoarded gold". The bandits "commanded them to reveal the hiding place of their money, dig it up".
+- No recovery is mentioned. "Allegedly shunned all banks" is still being said in 1940.
+- This supports the Kickapoo Scout 1940-12-19 "Horrigan farm in Clayton township" timber item belonging to the brothers.
+- Same wire: Wisconsin State Journal 1940-01-18 p2 and Capital Times 1940-01-18 p6 (not read).
+- Pin unchanged (sec 2 T10N R3W).
+### K1-K2 results (2026-11-01)
+
+**K1 Bader (Calhoun IA): dropped.**
+- Searches: "Bader 'Lake City'" IA 1906-08 (31 hits) and "Bader gold" IA Nov 1906-Mar 1907 (22 hits).
+- Hits read: DM Tribune 1908-06-12 p6 and Sioux City Journal 1906-11-11 p9 are both baseball (a Pueblo player named Bader). Council Bluffs Nonpareil 1906-11-20 p7 is a letter list.
+- Still no second account. The Lake City Graphic, Rockwell City and Fort Dodge papers don't surface.
+
+**K2 Marcus: no recovery found, but an amount conflict.**
+- Inter Ocean 1903-01-10 p1 (https://www.newspapers.com/image/34855834/): the same La Crosse wire as the logged Saginaw copy. "They got into the skiff, went across the river, buried the money, and sunk the boat. Several half-dollars which fell from the pile of $2,200 they secured were found in the sand."
+- NEW: Davenport Weekly Leader 1903-01-13 p2, "Mystery of Marcus Hold-Up" (https://www.newspapers.com/image/299971411/).
+  - H. B. Estelle was identified in Chicago after his arrest in Memphis.
+  - The loot was "variously estimated at from $20,000 to $30,000. Some reports had the amount even larger, but no accurate figures could be obtained."
+  - The dead bandit's photo was matched to George Gordon (who escaped from Leavenworth on 6 Aug 1898).
+  - So the $2,200 silver may be only part of the haul.
+- Quad-City Times 1902-09-29 p1 is noise.
+- Still no statement that the silver buried on the Iowa bank was dug up, and no Jackson IA or Carroll IL papers are on the site.
+### K3 + S2 follow-up (2026-11-01)
+
+**K3 McGregor: a REAL FIND, a second source with named spots (logged to leads.tsv).**
+- Clayton Co. has no papers on the site; county-filtered searches return 0. The IA-wide search "McGregor 'buried gold'" 1880-1940 gives 21 hits.
+- Cedar Rapids Gazette 1937-04-29 p18 (Special, McGREGOR) (https://www.newspapers.com/image/548663527/):
+  - On Tuesday, 11-year-old Julia Slyfield (daughter of Capt. and Mrs. Jack Slyfield) found a $10 gold piece dated 1851 while picking wildflowers "on a Mississippi river hill south of McGregor".
+  - Years before, Ida Brooks (still of McGregor), her sister and Willie Johnson found a $20 gold piece "on the same side hill above the river, just a little north of where Julia made her find". The paper says both coins "could have been washed down from a cache higher up in the bluff."
+  - The legend: "several thousand dollars in gold, the payroll for U.S. soldiers" was buried in the river hills at the time of an Indian uprising. "Many holes can be seen in the hills."
+  - "The IRVIN MEYER farm west of McGregor is named the 'GOLD MINE' farm because of the extensive digging for buried gold which was done on it at one time."
+- Placement:
+  - The bluff face S of McGregor along the river (toward Pikes Peak).
+  - The Meyer farm W of town, which needs a plat check.
+  - The atlas pin (McGregor Heights, r1500) may need widening.
+
+**S2 Grass Lake $1,300 check: still open.**
+- Jackson News 1920-08-04 p5, "Who Got the $1,300 Missed in Bank Loot? There Are Plenty of Theories But Few Facts to Go On" (https://www.newspapers.com/image/1167251776/).
+  - The searchers are "no nearer the point of placing their hands on the missing money than... when the count was first made". The confessed men say nothing.
+  - Harris couldn't have taken it; he was caught in the swamp with bonds.
+  - "evidence seems to indicate that the money was taken from the table or the floor after the battle had started" at the Mack Island cottage.
+  - Wilson's satchel with currency was found under him on the stair landing.
+- Search "'Grass Lake' gold found" Aug 1920-Jun 1921 (Jackson CP 1920-08-03 p4 is filler). Jackson CP 1920-09-28 p1 is Harris trial jury selection, with no money mention.
+- No report that the $1,300 turned up. It stays C.
