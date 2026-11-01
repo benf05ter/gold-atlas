@@ -2110,3 +2110,7 @@ DATA.points.push(...[]);
 // Hand-off batch v288m (tools/batch225)
 DATA.points.push(...[]);
 { const E={"cr-wabeno-bank-loot-1921":[{}," In June 1922 the sheriff brought robber Lesperance from Waupun to search the woods near Wabeno for the $8,000 he said was hidden in the underbrush; the Yaeger brothers were promised 10 years off if it was found. Nothing turned up.",[["Superior Evening Telegram 1922-06-06 p7 (newspapers.com image 1240717664); Merrill Daily Herald 1922-06-08 p8 (same wire)","https://www.newspapers.com/image/1240717664/"]],false,""]}; for(const id of []) delete LIDC[id]; addEventListener("DOMContentLoaded",()=>{ for(const p of OGIX(E)){ const x=E[p.id]; if(!x) continue; Object.assign(p,x[0]); if(x[3]) p.st=(p.st||"").replace(/ Air photo check \(UW[^)]*\):[^.]*\./g,"").replace(/ LiDAR cache check[^.]*\.[^.]*\./g,""); p.st=(p.st||"")+x[1]; if(x[4]) p.t=(p.t||"")+x[4]; if(x[2].length) p.src=[...(p.src||[]),...x[2]]; } }); }
+
+// Hand-off batch v288n (tools/batch225)
+DATA.points.push(...[]);
+{ const E={"cr-wabeno-bank-loot-1921":[{"tov":"C","tovw":"Lead grade C (court/probate thread)"},"",[],false,""]}; for(const id of []) delete LIDC[id]; addEventListener("DOMContentLoaded",()=>{ for(const p of OGIX(E)){ const x=E[p.id]; if(!x) continue; Object.assign(p,x[0]); if(x[3]) p.st=(p.st||"").replace(/ Air photo check \(UW[^)]*\):[^.]*\./g,"").replace(/ LiDAR cache check[^.]*\.[^.]*\./g,""); p.st=(p.st||"")+x[1]; if(x[4]) p.t=(p.t||"")+x[4]; if(x[2].length) p.src=[...(p.src||[]),...x[2]]; } }); }
