@@ -1,0 +1,14 @@
+Targeted queue from the coordinator (2026-10-31). Finds go to the coordinator (IA/IL thread and gold file).
+1. [DONE] Columbus Junction / Whiskey Hollow 1904 (confession: loot thrown in a corn field 8-13 mi S/SW of Columbus Jct; Whiskey Hollow = an up-grade S of Muscatine toward Fruitland). The 1934 Letts $10k is D (TreasureNet only).
+2. [DONE] Whiskey Hollow = item 1.
+3. [DONE] Black diamonds plane, 1929-03-22: Ted Knoll farm, 6-7 mi SW of Harmon IL.
+4. [DONE] Andy Dickson, about 2 mi NW of Palmyra, Warren Co. IA: $13,300 of an est. $25k+ found.
+5. [DONE] Iwers farm, 880 ac near Sunbury, 10-12 mi E of Tipton IA (second-search results unread: Des Moines Trib 1936-10-21 p1, Davenport Times 1936-07-21 p11).
+
+GOLD second sources (coordinator's clarified list, in priority order):
+G1. CURRIE, Little Falls MN, 1895. FIRST SOURCE found (Transcript 1895-08-16 p7). Need another 1895-96 paper with the section or distance from town (Star Trib 1895-11-24 p2, 12-24 p2, 1896-02-04 p5; Transcript 1896-01-24 p11).
+G2. LEEBY, J.J., farmer N of Garner, Hancock Co. IA, June 1911: placer bed assayed $83/ton, about 6 acres. Need farm location or outcome (Garner Signal/Leader).
+G3. RUDOLPH (town), Wood Co. WI, May 1894 "gold excitement", Chicago parties. Need farmer/farm/outcome (Wood County Reporter, Grand Rapids Tribune, Centralia Enterprise, Apr-Jun 1894).
+G4. CARLTON MN 1902: Capt. M.L. Fay of Virginia sank 4 shafts for gold quartz "near the Sauntry location, south of Carlton", options on 3,000 ac (Duluth News Trib, about Mar 1902). Need shaft location (section, or near Thomson/Wrenshall) and outcome.
+G5. LORAIN (town), Polk Co. WI, T37N R15W: Chas. Eckerts' gold nuggets, Oct 1905. LOW priority; farm location only.
+G6. Optional: Tenstrike, Beltrami Co. MN, Mar 1901: gold in the railroad rock cut; Bemidji Pioneer assay follow-up.

@@ -1,0 +1,4 @@
+Michigan treasure pass, gap counties (from the statewide thread, 2026-10-30). Run AFTER the MN weeklies and the CCC towns.
+Query: "buried money" OR "hidden money" OR "pot of gold" OR "miser's hoard" OR "found buried" + gold, 1880-1940, in each county-seat paper (region=us-mi&county=NAME).
+Counties: Alcona, Allegan, Antrim, Arenac, Barry, Bay, Benzie, Cass, Cheboygan, Clare, Clinton, Genesee, Gladwin, Grand Traverse, Gratiot, Hillsdale, Ingham, Ionia, Iosco, Kalkaska, Lake, Lenawee, Macomb, Manistee, Mecosta, Midland, Monroe, Montmorency, Ogemaw, Osceola, Oscoda, Otsego, Ottawa, Roscommon, Saginaw, Sanilac, Tuscola, Washtenaw, Wexford.
+Cloud sources are exhausted for these counties, so newspapers.com is the only route.

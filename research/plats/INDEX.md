@@ -1,0 +1,50 @@
+﻿# research/plats: index (all notes dated 2026-10-31)
+
+One line per note: **file** | lead | pin lat,lon (radius) | sources | verdict.
+
+| File | Lead | Pin (radius) | Source(s) | Verdict |
+|---|---|---|---|---|
+| bergblom-plat.md | Bergblom, Redwood Co MN | 44.2547,-95.5099 (r100) | UMedia Redwood 1914/1930 plat; MHAPO bse01038 (1938) | Moved: grove farmstead in W SWÂ¼ sec 11 matches the plat dot; old pin on cropland |
+| bjornaa-grantsburg.md | Bjornaa, Grantsburg, Burnett Co WI | none | WHS W0176Y4 (1915 Burnett atlas, 4 plates + patrons); BLM GLO | Clean negative; probate on the Sunday list |
+| dickson-warren.md | Dickson/Dixon, Warren Co IA | 41.4584,-93.4627 (r150) | Iowa ortho_1930 ImageServer | Farmstead at the pin; plat blocked (UIowa human check) |
+| eliza-wilson-elk-creek.md | Eliza Wilson, Elk Creek dam (Dunn/Eau Claire WI) | 44.8137,-91.6515 (dam) | WHS W01BA0F (1915 Dunn), W01BA1H (1910 Eau Claire); WHAIFinder Dunn BRU 1-6 (1938) | E. T. Wilson 148.40 at the Elk Creek dam/old mill; old US-12 unverified |
+| eliza-wilson-plat.md | Eliza Wilson, sec 19 T27N R10W | 44.8135,-91.6484 (r150-200) | WHAIFinder Dunn BRU 1-6 (1938) | Only building site on the Wilson tract, at the dam corner; tighten from r350 |
+| heisel-pound-plat.md | Heisel, Pound, Marinette Co WI | 45.0860,-88.0343 (r120); alt 45.0851,-88.0329 | 1912 Ogle Marinette (WHS); WHAIFinder BIA 6-58 (1938) | Farmsteads on Gus 50 (W of hwy) and Ludwig 30; W side favoured |
+| jacobson-star-lake-plat.md | Mons Jacobson, Dora/Star Lake, Otter Tail MN | A 46.5431,-95.8653; B 46.5385,-95.8630 | UMedia 1933 Otter Tail (10615); MHAPO da04084 (1939); Chronicling America | A = 1933 tract yard (primary); B = 1888 homestead; Abbott not on plats |
+| keeler-jackson-plat.md | Noah Keeler, Liberty Twp, Jackson Co MI | 42.1290,-84.4023 (r150) | 1874 Beers atlas (archive.org 3927884..., leaf 48) | Pin on the 1874 house marks, NWÂ¼ sec 14; correct |
+| knaggs-bridge.md | Knaggs Bridge / Chief Knaggs' gully, Shiawassee MI | bridge 42.8610,-84.0321; ravine 42.8615,-84.0295 (r350) | USGS Corunna SE 1972 / Corunna 1926 topos; 1875 atlas (3928007..., leaf 81); 1873 Walling | Burns P.O. mill hamlet; E bank = Gaylord / Van Ben Schoten land; no Knaggs name |
+| knoll-harmon-plat.md | Knoll diamonds, Harmon IL | none | HathiTrust uiuc.5441698 (limited); archive.org 1965 Lee plat | Not placed; Mark Knoll at Harmon 1965 |
+| murphy-warsaw-plat.md | Murphy hoard, Warsaw Twp, Rice MN | 44.2299,-93.3044 (r75) | MHAPO Rice WG-7-418 (1938) | Pin on the 1938 farmstead |
+| murphy-warsaw.md | Murphy, plat owner | 44.2299,-93.3044 | UMedia 1915 (12989), 1900 (2422) | Mary Murphy 80 (1915), James Murphy 160 (1900) |
+| mulchrone-plat.md | Patrick Mulchrone, Franklin Twp, Vernon WI | 43.4610,-90.9347 (r450) | WHAIFinder Vernon BHP 3-26 (1938); WHS W0170V6 (1896) | NÂ½ sec 2; site (a) 430 m N is on Mulchrone land |
+| nielson-morken-plat.md | Lars Nielson, Morken Twp, Clay MN | 47.0222,-96.5987; 47.0306,-96.6008 | UMedia 1909 Clay (10304); BLM GLO; MHAPO bxr06057 (1939); Chronicling America | WÂ½ sec 14 (homestead SWÂ¼ + tree claim NWÂ¼); two farmsteads |
+| nielson-morken.md | Nielson pins summary | 47.0221,-96.6016 (r300); alt 47.0303,-96.6010 (r150) | as above | Both have buildings; primary (homestead) favoured |
+| olesen-lynn-plat.md | Andrew Olesen maple box, Lynn, Clark WI | corridor 44.58-44.65 N, -90.41..-90.47 W | WHS W01B9I3 (1906), W0174GJ (Gates); BLM GLO | Negative; corridor only |
+| swantek-eaton-plat.md | Swantek, Eaton, Brown WI | hamlet 44.444,-87.826 | WHS W0175WJ (1920s Brown) | No Swantek; Anton Swiontek 70 in sec 29 |
+| tweit-jacobson-aerial.md | Tweit + Jacobson pin summary | see the tweit/jacobson rows | MHAPO bip08101, we05224, da04084 | Tweit: Medo favoured by documents; Jacobson: A favoured |
+| tweit-medo-plat.md | Tweit home farm, Medo Twp, Blue Earth MN | 43.9394,-93.8113 (r100) | UMedia 1895 (4046), 1921 (13517); MHAPO bip08101 (1938) | T. T. Tweet / Thos. T. Tweit Est. E sec 34; farmstead confirmed |
+| tweit-vivian-plat.md | Michael Twite, Vivian Twp, Waseca MN | 43.8946,-93.6769 (r120); alt 43.8920,-93.6668 | UMedia 1914 Waseca (10886), 1937 (4220); MHAPO we05224 (1938) | SEÂ¼ sec 14 farmstead; no Tweit in sec 13 (1914) |
+| vejvoda-barron.md | Vejvoda, Bear Lake Twp, Barron WI | 45.5818,-91.6898 (r100) | WHS W017VNM (c.1915); WHAIFinder BRO 3-34 (1939) | Pin on the farmstead, SÂ½ SEÂ¼ sec 23 |
+| wabeno-athelstane.md | Wabeno 1921 bank-loot car, W of Athelstane | 45.424,-88.16 (r2-3 km) | WHS W0174RP (1912 Marinette); WHAIFinder BIA 8-12 (1938) | Lumber-company cut-over with logging trails; no single site |
+| wolf-river-jack-plat.md | Wolf River Jack, Lily, Langlade WI | none | WHS W0176Q7 (1913 Langlade) | No Warnick or J. Smith; company timberland |
+| wolf-river-jack.md | Wolf River Jack, pin check | 45.3069,-88.8540 (r~1.5 km) | WHAIFinder BHW 16-42 (1939) | Pin is Lily village; no cabin resolvable |
+| zopp-trimbelle.md | Michael Zopp, Trimbelle, Pierce WI | 44.7112,-92.6085 (r150â†’200) | WHS W0171UC (1909 Pierce); WHAIFinder BRW 5-15 (1939) | Zopp 80 = SÂ½ NEÂ¼ sec 30; field by 1939; farmstead 150 m NW |
+| olson-bristol.md | Olson brothers murder 1936, Bristol Twp, Fillmore MN | 43.5400,-92.1884 (r200) | UMedia 1928 Fillmore (8714, plate ptr 8701 + directory); MHAPO none indexed | Knute A. Olson 80 WÂ½ NWÂ¼ sec 20 + 40 sec 19 (T101N R11W); house mark; no aerial |
+| bennett-postoffice-loot.md | Superior P.O. loot 1925, Arcklet farm E of Bennett, Douglas WI | deserted B 46.4463,-91.8191 (r100); farm C 46.4467,-91.8134 (r250); swamp 46.4466,-91.8178 | WHS W01B8D6 (c.1920-23 Douglas, T46N sheet); WHAIFinder BRS 5-38 (1938) | No Arcklet on plat; W sec 24 T46N R12W farm/deserted-yard/swamp cluster on the S road 1.5 mi E |
+| kmr-gilpatrick-lake-hq.md | Gull Lake & Northern HQ, Gilpatrick (= Lake Margaret), Cass MN | 46.4953,-94.3640 (r1 km) | King leaf 51; OSM | Lake identified (King); HQ point not placed; C |
+| kmr-flemming-road-yellow-banks.md | Empire Lumber Flemming Road landing, Yellow Banks, Pine MN | 45.9754,-92.5416 (r1 km) | King leaf 62-63; OSM; GNIS; 1916 Pine plat | Yellow Banks name area found; landing not confirmed within 300 m; C |
+| kmr-paine-carlton-rr.md | J. M. Paine mill, Carlton MN | 46.667,-92.425 (r400) | LoC Sanborn Carlton 1892 (3 sheets); MHAPO BXP-1-168 | Mill on Otter Creek mill pond by the courthouse; not within 300 m; Mud Lake Camp not placed; C |
+| bur-battleaxe-logging-rr.md | Battleaxe / WB&IR grade, Iron River, Bayfield WI | candidate 46.564,-91.455 (r1 km) | Burnham leaf 362-364; WHS W017VNM (c.1915 Iron River twp); WHAIFinder BRP 3-96 (1938) | SW-NE line crossing the NP in sec 11 T47N R9W; identity and position unconfirmed; not within 300 m; C |
+| lake-owen-dam.md | Lake Owen outlet dam (1880-82), Bayfield WI | 46.30115,-91.22024 (r200) | WI DNR dams key 765 | Placed; B |
+| hwi-aldrich-coulee-road.md | Paschal Aldrich house, Coulee Rd, Hudson WI | none (Coulee Rd ~44.964,-92.725) | Haunted Wisconsin leaf 27-29; WHS W017VNM (c.1915 Hudson twp); OSM | No Aldrich c.1915; 1877 plat not online; not placed within 200 m |
+
+| blackburn-gordon.md | Blackburn murder 1897, Totagatic R., Gordon, Douglas WI | pin 46.1631,-91.6891; farmstead 46.162,-91.694 (r500) | WHS W01B8D6 (1920s Douglas, T43N sheet); WHAIFinder BRS 8-66 (1938) | No Blackburn on 1920s plat (Graham / Ayers / unnamed SW¼); 1938 farmstead on the lake shore ~400 m W of pin; low confidence |
+| franklin-house-lansing.md | Franklin House hotel 1896 cellar dig, North Lansing, Ingham MI | 42.7467,-84.5487 (r40) | LoC Sanborn Lansing 1898 sheet 21 | 414 Franklin St E, SW corner Franklin (now E Cesar E Chavez Ave) and Center St; B+ |
+| roth-madison.md | Matthew Roth farm c.1907, Town of Madison (Maple Bluff edge), Dane WI | 43.118,-89.3652 (r150) | WHS W017VNM c.1915 Dane (Town of Madison) | M. Roth 20, N part NE NE sec 1 T7N R9E, E of Golf Links; now built over (Sheridan Triangle); Woodward/Schlimgen unchecked; C+ |
+| dolph-bellevue.md | Charles Dolph farm stump dig 1914, Bellevue Twp, Eaton MI | 42.4376,-84.9993 (r150) | 1913 Ogle Eaton atlas (archive.org fl-3657716-756450, leaf 44) | C. Dolph 20, S part W half SE quarter sec 27 T1N R6W; Battle Creek R. 1/4 mi N; rural; no house mark; B |
+| swantek-eaton.md | Frank Swantek, Town of Eaton, Brown WI | 44.442,-87.848 (r300) | WHS W017VNM c.1915 Brown (Eaton); W0175WJ 1920s | No Frank; Swiontek family NE sec 29 T23N R22E with P.O. label at the 20/21/28/29 corner (Martin 70 in 1915, Anton 70 in 1920s); C |
+| schauer-hartford.md | Wm. Schauer farm, 1898 Graeven shooting, Town of Hartford, Washington WI | 43.2868,-88.3350 (r250) | WHS W017VNM c.1915 Washington (Hartford) | W. Schauer 80, N half SW quarter sec 35 T10N R18E, on the Hartford-Holy Hill road; no house mark legible; woods not shown; B |
+| heckes-byronville.md | Philbrook/Heckes farm grove dig 1905, Byron Twp, Waseca MN | 43.8984,-93.5554 (r200) | UMedia 1896 Ogle Waseca (1150, p.29); 1914 Webb dir (10902); MHAPO we07367 (1938) | Roscoe Philbrook 160 SE quarter sec 14 T105N R23W with house mark; H. Heckes NE quarter; Herman Heckes 320 in sec 14 by 1914; 1938 farmstead with grove; B |
+| trombler-fergus-falls.md | Trombler house on Mill St 1903, Fergus Falls MN | street 46.270-46.2865, -96.0742 (no lot) | LoC Sanborn Fergus Falls Jan 1903 (index sheet); OSM | Mill St = today's N/S Mill St (N 100-319, S 100-725 in 1903); no Trombler lot; C (street only) |
+| hille-milwaukee.md | Hille back yard (Schuerman bottle money) 1902, 541 Third St, Milwaukee | 43.0540,-87.9152 (r100) | LoC Sanborn Milwaukee 1894 Vol 1 index + sheet 64 | Old 541 = W (odd) side of Third St, block just S of Walnut (now MLK Dr); Vol 2 lot sheet not reachable; C |
+| larson-muskegon.md | Ole Larson shop / electric light plant 1902-03, Muskegon MI | candidate 43.2340,-86.2550 (r150) | LoC Sanborn Muskegon 1911 Vol 1 (sheets 1-8, 63-64) | Muskegon Traction & Lighting power/gas plant between Western Ave and Morris St at N 2nd-3rd, W of Indian Cemetery (1911); 1902 site unconfirmed; C- |
