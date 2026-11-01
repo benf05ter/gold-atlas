@@ -22,3 +22,7 @@ Source: UMedia 1914 *Atlas and Farmers' Directory of Isanti County* (Webb; p1602
 - **Suggested pin: sec 6 T35N R25W, centre 45.5514, -93.5013, r800**, with the river strip in the S part as the likeliest spot for a small tract.
   - Confidence C: the section comes from the directory; the parcel is not visible on the plate.
 - If the pin came from another source (e.g. a later residence or a news story), keep that source's reasoning in view. This atlas does not support sec 22.
+
+## Modern-parcel check (2026-11-01, PC (a))
+- Isanti County is not on Beacon. The county site (isanticountymn.gov) links a "GIS Hub" (geospatial-isanticounty.hub.arcgis.com). The hub's dataset search returned parcel layers from other counties (one covers California), and none had features at sec 6 T35N R25W. The county's own parcel service was not found.
+- Even with modern parcels, a 1914 25-acre owner can't be identified from today's ownership. **No change.** Suggested pin stays sec 6 centre, 45.5514,-93.5013, r800 (C).
