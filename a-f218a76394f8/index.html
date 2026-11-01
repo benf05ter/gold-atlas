@@ -3467,11 +3467,14 @@ omApply(); omRVis(); gmSheetSync();
 // The ground (tiles + map + ground canvas) is a square bigger than the screen, tilted by one CSS transform. Pins are painted upright on a flat
 // canvas at the projected spot, so taps, pop-ups and cards work exactly as in 2D. Twist two fingers to turn; N points north; 2D goes back.
 // Geometry: ground px (gx,gy) -> centre at (S/2,S/2) -> rotate by the bearing -> tilt by the pitch -> perspective P -> screen, anchored at (W/2, A*H).
-T3=Object.assign(T3,{on:false, pitch:42, bear:0, P:0, S:0, A:0.56, th:0, follow:false, head:null, fq:0, anim:0, max:3400});
+T3=Object.assign(T3,{on:false, pitch:42, bear:0, P:0, S:0, A:0.56, th:0, follow:false, head:null, fq:0, anim:0, max:3400, top:120, dev:4608});
 T3.geom=function(W,H){ const th=T3.pitch*Math.PI/180, P=1.15*H, A=T3.A, c=Math.cos(th), s=Math.sin(th);
   const yAt=v=>{ const d=P*c+v*s; return v*P/Math.max(0.12*P,d); };   // ground distance (px from the anchor) seen at screen row v
-  const yf=yAt(-A*H), yn=yAt((1-A)*H), kf=P/(P-yf*s), R=Math.hypot(W/2/kf,Math.max(-yf,yn));
-  return {th,P,S:Math.min(T3.max,Math.ceil((2*R+48)/64)*64)}; };
+  // Nov 2026 (iPhone white screen on 3D): the tilted ground is rasterised at full screen density, several layers deep, so its size is memory squared.
+  // The ground now stops under the search bar and the sky haze (top T3.top px of the map, which they cover anyway) instead of the very top row,
+  // and it is capped at T3.dev device px a side: about 0.5 of the old area on a phone, where 1856 px at 3x was ~0.7 GB of layers and iOS killed the page.
+  const top=Math.min(T3.top,0.18*H), yf=yAt(top-A*H), yn=yAt((1-A)*H), kf=P/(P-yf*s), R=Math.hypot(W/2/kf,Math.max(-yf,yn)), cap=Math.max(1024,T3.dev/Math.max(1,window.devicePixelRatio||1));
+  return {th,P,S:Math.min(T3.max,cap,Math.ceil((2*R+48)/64)*64)}; };
 T3.ground=function(W,H){ const g=T3.geom(W,H); T3.th=g.th; T3.P=g.P; T3.S=g.S; return [g.S,g.S]; };
 T3.layout=function(){ if(!T3.on) return; const S=T3.S, W=VP.W, H=VP.H; if(!S||!W) return;
   ground.style.cssText=`left:${(W-S)/2}px;top:${T3.A*H-S/2}px;width:${S}px;height:${S}px;transform:perspective(${T3.P}px) rotateX(${T3.pitch}deg) rotateZ(${T3.bear}rad)`; };
