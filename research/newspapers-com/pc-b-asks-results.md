@@ -58,3 +58,39 @@ Search URL format: `/search/results/?region=us-mn&date-start=YYYY&date-end=YYYY&
   - The murderers were thought to have taken about $1,000 in greenbacks carried in a belt. Mice destroyed about $400 in his hut a few years earlier.
   - He was buried "in the Glencoe Lutheran cemetery".
   - So the hidden gold was recovered by the searchers in Nov 1893.
+
+# Batch 3 (2026-11-01, from 17:00Z relay)
+
+## 1. Schaeffermeyer miser, La Crosse Co. WI
+**Holdings:**
+- The La Crosse Tribune runs 1905 onward on newspapers.com; the La Crosse Chronicle and 1902-04 La Crosse papers are not there.
+- Nord Stern (German, 1900-21) is held but its OCR returned no hits.
+- Winona papers had no hits. The coverage below is from Minneapolis and statewide reprints.
+
+**Spellings:** the papers use Schaffermeyer, Scheffermeyer and Schaeffermeyer. The grave reads **Schaefermeyer**.
+
+**Identity and death:**
+- Find a Grave memorial 67784436: **C. Henry Schaefermeyer, b. 26 Feb 1823, d. 1 Mar 1903**, buried in the Catholic Cemetery of La Crosse (plot Old 8). Wife Annie (1829-1897); six children who all died young (1863-1881). The papers call him "Conrad" or "Henry".
+- Minneapolis Journal **1903-03-02 p9**, "Suit Hurried His Death: Scheffermeyer Won It, but the Excitement Was Fatal" (LA CROSSE, March 2): "Conrad Scheffermeyer, the wealthy La Crosse man against whom Josephine MacDougal instituted an action for divorce... is dead. His testimony was taken on his death bed and the judge found a verdict in his favor." https://www.newspapers.com/image/76285560/
+  - Statewide reprints: Wausau Pilot 1903-03-17 p7 (image 826908594) and others.
+
+**The will and estate fight:**
+- Minneapolis Journal **1903-01-07 p17**, "Denies the Marriage: Peculiar Divorce Case of the Schaffermeyers at La Crosse". https://www.newspapers.com/image/76279393/
+  - Josephine Schaffermeyer sued Henry Schaffermeyer, "a wealthy La Crosse county farmer 80 years of age", for divorce.
+  - She claimed they married on 19 Jun 1900 during a buggy drive; he denied any marriage.
+- Minneapolis Journal **1903-02-19 p11**, "Bribery and Perjury: Allegations of Fraud in Mrs. Schaffermeyer's Suit for a Fortune". https://www.newspapers.com/image/76283193/
+  - Attorney Frank E. Withrow testified she tried to bribe him to swear he married them.
+  - Schaffermeyer, "in a deposition taken at his bedside," said he was never married to her.
+- St. Paul Globe **1904-05-07 p1**, "Farm Hides a Hoard: Sister of Dead Miser Is Satisfied With Her Share". https://www.newspapers.com/image/84111757/
+  - The $20,000 estate of Henry Schaeffermeyer was settled out of court after 8 months of litigation.
+  - Mrs. Hahn, his sister, took "a large farm in La Crosse county"; Mrs. Bothenfelt, another relative, got "all the other property".
+  - It is said "something over $10,000 is concealed on the farm".
+
+**Dig or find:** none reported, 1903-1915.
+- WI hits for the variant spellings after March 1903 are noise: a May 1914 wire item about a Denver inventor named Schaefermeyer.
+- "Hahn miser La Crosse" 1903-15: 3 hits, not relevant.
+- Not F.
+
+**Farm location:** not given in any item ("a large farm in La Crosse county"). See the plat item.
+
+**Rating suggestion:** C on sources (several independent 1903-04 accounts), but the farm is still unplaced.

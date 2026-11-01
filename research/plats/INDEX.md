@@ -1,4 +1,4 @@
-# research/plats: index (all notes dated 2026-10-31)
+﻿# research/plats: index (all notes dated 2026-10-31)
 
 One line per note: **file** | lead | pin lat,lon (radius) | sources | verdict.
 
@@ -66,3 +66,4 @@ One line per note: **file** | lead | pin lat,lon (radius) | sources | verdict.
 | brunette-turtle-lake.md | Hugh C. Brunette $15,000 cache, an island in Turtle Lake near Marcell, Itasca Co MN (1935; plat job 10) | not placed; lake 47.6274,-93.7114 (r3000) | OpenStreetMap relation 538294 inner rings (Overpass, 2026-11-01) | 10 unnamed islands listed with centres; the 4 largest are 53688423, 53688424, 53687894 and 53687900; the 1935 print names no island |
 | delaney-spring-isabella.md | Delaney boiling-spring money, sec 22 T16N R6W, Coldwater Twp, Isabella Co MI (plat job 16) | suggested 43.7600,-85.0250 (r600), SW¼ creek valley | USGS 1:62,500 Lake, Mich. 1959 (TNM 278264); BLM PLSS | No spring symbol in sec 22; Brinton (NE corner), Odd Fellows Cem (NW¼), creek and marsh in SW¼, 5 farmsteads; D |
 | ole-johnson-menominee.md (GLO, job 12) | Ole Johnson, Carney, Menominee Co MI: GLO patents | Carney village (unchanged) | BLM GLO Records portal, MI/Menominee with T37-38N R26-27W filters | No Ole Johnson patentee; only Orren H. Johnson (1878, sec 4 T37N R26W) and Isham Johnson (1890, sec 26 T38N R26W); the rest are 1860s lumber-company entries |
+| schaeffermeyer-la-crosse.md | Schaefermeyer miser farm (sister Mrs. Hahn), La Crosse Co WI (d. 1903) | not placed; weak candidate Theresa Hahn tract NW sec 14 T16N R7W 43.8658,-91.1874 (r200) | Hixson c.1915 La Crosse plates (WHS); BLM GLO | no Schaefermeyer, Hahn farm or Bothenfelt in any of the 8 La Crosse towns on the Hixson plates (only small Theresa Hahn and J. Hahn 13.44 tracts); no GLO patent; D |
