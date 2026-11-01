@@ -2107,12 +2107,8 @@ function tlImg(L,z,x,y){ const k=`${z}_${x}_${y}`; let im=L.tiles.get(k); if(im)
 function tilesShown(v){ if(TILES.shown===v) return; TILES.shown=v; document.body.classList.toggle('ogt',v); }
 function tlPrune(){ TILES.pq=0; const m=0.6, x0=vb.x-vb.w*m, x1=vb.x+vb.w*(1+m), y0=vb.y-vb.h*m, y1=vb.y+vb.h*(1+m);
   for(const L of Object.values(TILES.L)){ const ready=L.vis.every(k=>L.tiles.get(k)?.dataset.ok);
-    // 3D: every zoom level is its own GPU layer on the tilted ground, so zooming out on a slow connection stacked up to 8 waiting levels per map
-    // (~550 MB on iPhone, white screen). Keep the levels in use plus the one nearest, as the stand-in while the new tiles arrive.
-    let lvOk=null; if(T3.on){ const wz=new Set(); for(const k of L.want) wz.add(+k.slice(0,k.indexOf('_'))); let nz=null;
-      for(const z of L.levels.keys()) if(!wz.has(z)&&(nz===null||Math.abs(z-L.zb)<Math.abs(nz-L.zb))) nz=z; lvOk=z=>wz.has(z)||z===nz; }
     for(const [k,im] of L.tiles){ if(L.want.has(k)) continue; const b=(im.dataset.bx||'').split(',').map(Number);
-      const off=b.length<4||b[0]>x1||b[0]+b[2]<x0||b[1]>y1||b[1]+b[3]<y0, far=Math.abs(+im.dataset.z-L.zb)>4||(lvOk&&!lvOk(+im.dataset.z));
+      const off=b.length<4||b[0]>x1||b[0]+b[2]<x0||b[1]>y1||b[1]+b[3]<y0, far=Math.abs(+im.dataset.z-L.zb)>4;
       if(off||far||!im.dataset.ok||ready){ im.remove(); L.tiles.delete(k); const lv=L.levels.get(+im.dataset.z); if(lv&&lv.n>0) lv.n--; } }
     for(const [z,lv] of L.levels) if(!lv.n&&z!==L.zb){ lv.div.remove(); L.levels.delete(z); } } }
 function tlPruneSoon(){ if(!TILES.pq) TILES.pq=requestAnimationFrame(tlPrune); }

@@ -1,0 +1,12 @@
+{"new": [], "edit": {
+"tw-ia-palmyra-dickson-farm-1909": {"set": {"tov": "F", "tovw": "Grade F (treasure thread): gold found 1909, search closed by the court; look-only history marker", "y": "died Aug 1909; gold found Sept 1909; search closed Oct 1909", "t": "Found in 1909 and the search was closed by the court. History marker only; private farm."},
+ "st": " The court record closes it: the administrator's report of 1 Oct 1909 says a second search found nothing more and the searchers were satisfied no other money was on the place. The $13,300 total was the $10,005 in gold plus about $3,354 in the bank.",
+ "src": [["Warren Co IA probate case 2574 (Iowa Wills and Probate): supplemental inventory 23 Sep 1909; Report on Discovery of Property 1 Oct 1909; inheritance-tax appraisement; research/ancestry/dickson-dixon-warren-ia.md", ""]]},
+"tw-mi-bellevue-dolph-stumps": {"set": {"t": "The strangers may have taken it; nothing confirmed. Private farm."},
+ "st": " A third local account (Battle Creek Enquirer, 15 Feb 1914) told it differently: about 1884 a Marshall store was robbed of jewels and silks, the robber was caught in Canada and convicted at Marshall, and the silks were recovered but the jewelry never was. The Bay City diggers had permission to dig the stumps and were thought to have found something; no find was ever confirmed.",
+ "src": [["Battle Creek Enquirer 15 Feb 1914 p9 (newspapers.com 1044379521, PC (a))", ""]]},
+"tw-mi-petoskey-bear-river-ottawa-gold": {"moved": true, "set": {"la": 45.362, "lo": -84.951, "acm": [1000, "approx"], "pinconf": "D",
+ "pinev": ["Detroit News 2 Nov 1913 puts the pit on the bank of Bear River in the southern part of the city (inside Petoskey), and says the Ottawas went a short way up from the mouth near the Pere Marquette station. Pin on the lower river reach in south Petoskey, r1 km. Pin conf D."],
+ "t": "Gravel pit on the Bear River bank in south Petoskey; much was dug out. Low. Access: city / urban land along the river: look-only."},
+ "st": " The 1913 account names the pit owner of the time and says fortune hunters had dug there about 30 years earlier.",
+ "src": [["Detroit News 2 Nov 1913 p59 (newspapers.com 1378050769, PC (a)); reprinted 1915", ""]]}}}
