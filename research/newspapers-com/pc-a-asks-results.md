@@ -511,3 +511,28 @@ Format: paper/area | years | terms | what changes the grade. Skip any paper not 
   - archive.org has only Snyder 1878 Kenosha *views* (farm lithographs) and the low-res Racine & Kenosha county map (owner names illegible at about 1500 px).
   - The WHS c.1915 Hixson record (W017VNM) has **no Kenosha Co. plates** in its 317-plate list.
   - No 1887/1899 Kenosha atlas found on archive.org or HathiTrust. Sunday list (or the Hixson Kenosha volume if WHS holds it under another record).
+
+### Treasure list (20:02Z), D-lead two-source checks: NO NEW SOURCE ON ANY
+- **1 KOSHKONONG:** "Koshkonong buckskin" WI 1880-1945: 96 hits. The earliest remains the Wisconsin Tobacco Reporter (Edgerton) 1913-03-21 p8 (already logged). Janesville Weekly Gazette 1913-01-07 p4 = a shoe ad; Capital Times 1937-10-20 p4 = a West Koshkonong lutefisk dinner. "Koshkonong treasure" Rock Co. 1900-40: 187 scattered hits, not a story cluster. No second account.
+- **2 NEPESSING:** Lapeer Co. filter 1890-1900: **0 (no Lapeer papers indexed).** (Statewide was already checked: B2-12.)
+- **3 COBMOOSA:** Oceana Co. filter 1870-1970: **0 (no Hart/Shelby papers indexed).** The 1950 print stays the earliest.
+- **4 BENTON LAKE:** Newaygo Co. filter "Benton Lake" 1870-1970: **0 (no Newaygo papers indexed).**
+- **5 BROCKWAY:** "Brockway gambler", St. Clair Co. 1880-1950: **0.** "Brockway 'Mill Creek' gold" MI: 185 hits; these are mostly the Yale Expositor (Brockway Centre = Yale, another place) and Port Huron 1940-10-18 p4 (road news). No gambler item.
+- **6 KOSTER:** Schoolcraft Co. filter 1908-12: 0. "Koster Garden" MI 1908-06 to 1912: 186 scattered hits (Cassopolis, GR, Flint...); no Delta item. Escanaba 1908-12 is still not indexed.
+
+### Treasure list (20:06Z): plats and GLO
+- **1 BENNETT (Hamilton IA) and 2 BARNER (Webster IA): BLOCKED.** digital.lib.uiowa.edu is again showing its "Let's confirm you are human" page (tab 1378489901, "Begin" button). Neb's earlier pass has expired; not clicked per Neb's rule. **Sunday list / needs Neb.**
+- **3 GARNETT (Mercer IL):** archive.org has only the 1876 Union Atlas county map (dr_...00464042; low-res Rumsey, before 1913). No Mercer plat 1900-1915 on archive.org; HathiTrust and IDA not reached this run (see below). Not placed.
+- **4 KOSTER (Delta MI): GLO, no patent.** BLM GLO Records, MI/Delta: "Koster" 0, "Koester" 0, "Kuster" 0. He held no federal patent (bought privately). Not placed.
+- **5 OLE JOHNSON (Menominee MI): partial.**
+  - Earlier (plats/ole-johnson-menominee.md): T37-38N R26-27W has no Ole Johnson patent.
+  - Now: "Johnson" plus Menominee plus township 0360N gives **26 patents** (e.g. John A. Johnson 1900-01-14, T36N R25W sec 8 SENE + E½SE; Niels Johnson 1910-06-27 serial patent ...). I could not list all 26: the results are not readable as text, and **Chrome screenshots began timing out** (CDP capture timeout on tab 1378489680), so I stopped.
+  - T36N and R25W in T37-38N remain to be read.
+- **GARNETT, follow-up (20:1xZ):** HathiTrust has **"Atlas and farm directory of Mercer & Henderson Counties, Illinois" (Standard Map Co., 1914), FULL VIEW, uiuc.1149205** (74 scans; catalog Record 100319158), plus a Hixson "Plat book of Mercer County" (uiuc.5574345, Record 100895250) and a 1926 Hixson Warren Co. plat (full view).
+  - The in-volume text search finds **nothing, not even "Alexis"**, so the OCR is unusable; the plates must be read by eye.
+  - Target (BLM): Alexis = T12N R2W sec 1 (Warren Co.); 2.5 mi NE ≈ **T13N R1W sec 29, Mercer Co. (Rivoli Twp)**. That's the plate to read.
+  - **STOPPED: HathiTrust returned "Page Blocked: Sorry, your attempt to access HathiTrust has been blocked"** when I opened page images (imgsrv) for seq 9 and 13. All HathiTrust access paused. Not placed.
+- **OLE JOHNSON:** the GLO tab's screenshots still time out (the CDP capture timeout recurred); the list was not read this run.
+
+## Ole Johnson Menominee GLO (later run)
+Only one hit: OLE JOHNSEN 1885-03-20, doc 729 (STA-MI2310__.175), T37N R26W sec 30 NWNE+NENW. T36N/T38N none. Details in plats/ole-johnson-menominee.md.

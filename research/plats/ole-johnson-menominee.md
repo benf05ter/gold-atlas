@@ -42,3 +42,9 @@ Source: 1912 Ogle *Standard Atlas of Menominee County* (archive.org `3927899.000
 - **T37N R27W: 5 hits.** Ludington/Wells, Boyce/Walker and Daniel Wells lumber entries of 1867-68. No Johnson.
 - **T38N R27W: 10 hits.** Carpenter/Ludington, Hamilton/Merryman, Kirby/Stephenson and Abner Kirby lumber entries of 1867-68. No Johnson.
 - **No Ole Johnson patent** in T37-38N R26-27W. The area was patented mostly by lumber firms in the 1860s, so Ole Johnson most likely bought his land second-hand (a deed, not a federal patent) or rented. Pin unchanged (Carney village).
+
+## GLO list, T36-38N R25-27W (2026-11-01, later run)
+- County-wide "Ole Johnson" search in Menominee (218 fuzzy results) ranks the "Ole" names first: OLE JOHNSEN, then OLE LARSON (1883, T35N R26W sec 32 N½NE), then OLE C SORENSON (1889, T35N R26W sec 30 SE). After that come other Johnsons with no "Ole".
+- Township-filtered checks: T36N and T38N have no Ole Johnson/Johnsen near the top (only John A, Niels, John, and Isham Johnson). T37N has one.
+- **The only Ole Johnson/Johnsen patent: OLE JOHNSEN, 03-20-1885, State Volume doc 729, accession STA-MI2310__.175: T37N R26W sec 30, NWNE and NENW** (80 a, N part of sec 30).
+- Caveat: the ranking is fuzzy, so a spelling such as "Olof/Ola Johnson" may sit lower in the list and was not paged through.

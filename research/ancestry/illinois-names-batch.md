@@ -9,4 +9,10 @@
 | 86 | Richard Garnett (Mercer, 1913) | No IL record in the first results (an English namesake d. 1913). |
 | 88 | James Hudson (Bureau, 1913) | Member photos only: "James (Jim) Hudson/Hutson, b. 13 Feb 1845, d. 30 Nov 1913" (place not shown) and "James Davies Hudson 1834-1913". Unconfirmed which is the Dover man. |
 
-**Not checked yet:** #111-112, 114-125 and the IL #135 Knoll/Shaulis. These are mostly legends or finds; Ancestry gives little without probate. Suggested route: county circuit court files (Woodford, Cook, Mercer, Bureau).
+## Batch 2
+- **#119 James Johnston (Henry Co., Aug 1897):** member trees show a **James J. Johnston, b. 9 Mar 1822, d. 18 Aug 1897**. The month matches the list; the place is not confirmed. Also a James D. Johnston (1827 - 16 Mar 1897).
+- **#114 Andrew Mattson (Cook, Dec 1905):** no Cook record. Only an Andrew Mattson d. 25 Oct 1905 in St. Louis Co. MN, and an Anders Mattson 1826-1906 (place not shown).
+- **#117 Ray Yocum (DeKalb, 1938-39):** no IL match. Only an Ohio child of the same name.
+- **The rest of #111-125** are legends or old finds (Bulbona, Wade, White Feather/Beaubien, the Wirick/Bogus Gates gang, Reeves, Davenport 1845, Force, Conway 1868, Kammeyer/Wojtyslak 1934, Schulz 1920, Ramsey/Baker 1964) with no single probate target in the Ancestry collections. Skipped; county records or newspapers are the route.
+
+**Previously listed as not checked:** #111-112, 114-125 and the IL #135 Knoll/Shaulis. These are mostly legends or finds; Ancestry gives little without probate. Suggested route: county circuit court files (Woodford, Cook, Mercer, Bureau).
