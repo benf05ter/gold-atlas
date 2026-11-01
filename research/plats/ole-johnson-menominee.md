@@ -34,3 +34,11 @@ Source: 1912 Ogle *Standard Atlas of Menominee County* (archive.org `3927899.000
   - Johnson parcels: P. (sec 2), August (sec 1), F. A. (sec 13).
   - Other "Ole" owners on this plate: Ole Olson 40 (sec 31 and sec 25), Ole Bergeson 80 (sec 24) and Ole Steffenson 40 (sec 25). None is a Johnson.
 - **Stopped here as asked.** There is no Ole Johnson in the 1912 atlas around Carney or Nadeau on any of the three plates.
+
+## GLO patents, plat job 12 (2026-11-01)
+- Source: BLM GLO Records portal (new site, glorecords.blm.gov/s/). Search "Johnson" with the filters State MI, County Menominee and each township/range (the name search alone is fuzzy and returns hundreds of mixed hits). The site is slow; each search takes about 16-20 seconds.
+- **T37N R26W (Carney/Nadeau): 1 hit.** Orren H. Johnson, 1878-12-30, N½NE sec 4 (doc 162, STA-MI2300__.158).
+- **T38N R26W: 8 hits.** Isham Johnson, 1890-08-18, N½NW sec 26 (doc 1789, STA-MI2330__.219). The other 7 are Jesse Spalding 1865 lumber entries (secs 4, 7, 8, 9, 10, 15).
+- **T37N R27W: 5 hits.** Ludington/Wells, Boyce/Walker and Daniel Wells lumber entries of 1867-68. No Johnson.
+- **T38N R27W: 10 hits.** Carpenter/Ludington, Hamilton/Merryman, Kirby/Stephenson and Abner Kirby lumber entries of 1867-68. No Johnson.
+- **No Ole Johnson patent** in T37-38N R26-27W. The area was patented mostly by lumber firms in the 1860s, so Ole Johnson most likely bought his land second-hand (a deed, not a federal patent) or rented. Pin unchanged (Carney village).
