@@ -168,3 +168,18 @@ Earlier: Minneapolis Journal 1906-10-26 p1; Decorah Public Opinion 1907-01-30 p5
 - "Pingers Arthur treasure" WI 1897-07 to 1910: 8 hits, all 1900-1910 scattered-word noise. **No follow-up and no find reported.**
 - "La Pointe" bank gold, Bayfield Co. 1870-1940: 0 hits. **No record of an 1850s-60s La Pointe bank found** on newspapers.com.
 - Result: grade stays D (one source plus reprints; denied locally by Dr. Ellis and the old settlers).
+
+## Treasure list (19:25Z) item 1: reprint reads
+### Dolph / Bellevue
+- **Battle Creek Enquirer 1914-02-15 p9**, "Bellevue Folks Wonder What Black Jack Can Be / Suspect That Two Men Who Dig Up Stumps Are Looking for Treasure Hidden By Marshall Robber Lang Syne": https://www.newspapers.com/image/1044379521/
+  - Repeats the Grohe swamp / Charles Dolph farm, Dyer hotel, Deputy Will Youngs and Sheriff Storrs details. The men had **permission to dig up the stumps on the farm**; they registered at the hotel **from Bay City**. Villagers think they found it on their last visit (ended Monday).
+  - **NEW SECOND VERSION ("over in Bellevue they have another story"):** "about **30 years ago** [about 1884] a big robbery was pulled off on a **JEWELRY AND DRY GOODS STORE IN MARSHALL**, a quantity of jewels and silks being taken. The robber came straight to Bellevue where he put up at a hotel", sent a box to the depot and left for Chicago. The landlady found a slashed suit case. He fired shots at the deputy at the depot and was later caught in Canada, returned to Marshall and convicted. **"The silks were recovered but NONE OF THE JEWELRY was found."** The stranger, told this story, said "I expect that man might be my father." **The bandit's name was remembered as "MOSIER"**, and some believe the stranger is his son.
+  - So Bellevue now has two candidate caches: the pre-Civil War treasury gold (the JCP "detective" story) and **unrecovered jewelry from an ~1884 Marshall store robbery by "Mosier"**.
+- Escanaba Daily Press 1914-03-06 p5: state wire (not reread; the Grobe-Dolph text is already summarised in the JCP/BCE versions).
+### Bear River / Petoskey
+- **Detroit News 1913-11-02 p59**, "Petoskey Gravel Pit Believed to Hold Buried Treasure of Ottawas" (Petoskey, Nov. 1): https://www.newspapers.com/image/1378050769/
+  - **Owner: "FRANK A. WEGEMERE"** (spelled Wegemer in DFP); the pit is "on the bank of Bear river, **IN THE SOUTHERN PART OF THE CITY**" (inside Petoskey). Workmen extract gravel for Petoskey buildings and expect to strike "an iron box".
+  - "As long as 30 years ago" [about 1883] fortune-hunters dug there; the hermit was **Isaac Williams**.
+  - Legend detail: the Ottawas paddled across Little Traverse Bay "and entered **Bear river, which empties into the bay near the PERE MARQUETTE STATION in Petoskey**", put "their **bars of gold** in strong boxes, paddled a **short distance up the river** and buried them on the shore".
+  - So the site is the lower Bear River within S Petoskey, a short way upstream of the mouth, not a rural township. That narrows it for the Emmet plat check (item 7).
+- Detroit News 1915-05-02 p18: the same story reprinted; not reread.

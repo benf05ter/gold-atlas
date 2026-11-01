@@ -30,3 +30,29 @@ Reads were view-only, with no login, agree or verify clicks.
 - **Sunday list:**
   - A UIowa Pocahontas atlas (1898 or 1910s).
   - The county recorder's grantee index for DeWall and Calligan.
+
+## 1918 atlas check (2026-11-01, UIowa after Neb's human check)
+- Source: **Standard Atlas of Pocahontas County, Iowa (Anderson Publishing Co., 1918), page 35, "LIZARD TOWNSHIP"**. The caption reads **"Township 90 North Range 31 West of the 5th P.M."**, matching the record code t090n r031w.
+  - UIowa node/199061 (islandora atlases_5839). IIIF: https://digital.lib.uiowa.edu/iiif/2/L19mb3htbC9kYXRhc3RyZWFtL3VpJTNBYXRsYXNlc181ODM5JTJCSlAyJTJCSlAyLjA%3D~ui-prod . Region read: pct:59,26,20,14.
+- **SEC 2 T90N R31W in 1918: no Calligan and no DeWall.**
+  - N half: "BRIDGET KENNY 238.31" (fractional lots 39.26/39.41/39.61 along the N line), with a house dot S of Lizard Creek near the section centre. "P. KENNY EST. 79.09" is the NW strip, with a house dot.
+  - S half: "TJALDA MORTZ 160" (SE¼), "SUHRBIER 80", "J. P. RUSSELL 80" (W). Lizard Creek crosses the N half W-E to the E line. A school is just SE at the sec 1/12 corner.
+- The 1918 owners are the Kennys (N half) and Mortz (SE¼). By 1918 neither Calligan nor DeWall held sec 2. This doesn't rule out ownership in 1904; it needs the 1904-era plat or deed index.
+- Not done: the 1918 plate for T90N R30W (Calligan's 1859 patent, SW¼ sec 36). The UIowa search returned unlabeled results, so it's left for a later pass.
+
+## 1859 patent quarter, 1909 plat (2026-11-01, UIowa after Neb's check)
+- **T90N R30W is in WEBSTER Co. (Jackson Twp)**, not Pocahontas; it's the township just E of Lizard across the county line. So the "1918 Pocahontas T90N R30W plate" doesn't exist. Used instead: **Standard Atlas of Webster County, Iowa (1909), page 41, "JACKSON TOWNSHIP"**, caption **"Township 90 North Range 30 West of the 5th P.M."**
+  - UIowa node/793394 (islandora atlases_1173). IIIF ...YXRsYXNlc18xMTcz... Region read: pct:61,70,32,22 (native size; upscaling is refused).
+- **FOUND, 1909:**
+  - **"CATH. CALLIGAN 160" = SW¼ SEC 36 T90N R30W** (the 1859 Thomas T. Calligan patent quarter), with a **farmstead marked "...Calligan"** at the NW corner of the quarter, on the N-S line road.
+  - **"CATH. CALLIGAN 160" = NW¼ SEC 35** as well (W, adjoining).
+  - Neighbours: David Lawler 437 (S sec 35), Robert Lawler 160 and Rich'd Allen 160 (N half sec 36), Wm Pollock 160 (SE¼ 36), a school at the NE corner of sec 35. Deer Creek Twp is E.
+- **Coordinates:** BLM sec 36 = lon -94.34452..-94.32502, lat 42.55856..42.57303. Farmstead ≈ **42.5654, -94.3435** (±150 m). **Pin: 42.5654, -94.3435, r400.**
+- **Bearing on the lead:** the Calligan family (Catherine, presumably Thomas's widow or heir) still held the patent quarter plus sec 35 in 1909. That makes this, not sec 2 T90N R31W (Kenny land in 1918), the likelier Calligan home farm for a 1904 story. Suggest Treasure re-check the 1904 text's section and range.
+
+## 1930 Lizard plat (Treasure list item 2, 2026-11-01)
+- Source: **Plat book of Pocahontas County, Iowa, 1930 (Hixson)**, "T90N LIZARD R31W" (caption checked). UIowa node/193529 (islandora hixson_1893). IIIF ...aGl4c29uXzE4OTM... Regions read: pct:72,7,16,17 (sec 2); pct:23,7,36,46; pct:23,50,36,48; pct:56,22,36,38; pct:56,58,36,40 (whole township scanned for Calligan).
+- **Sec 2 in 1930:** unchanged from 1918: Bridget Kenney 238.31 (N half; "Drainage Ditch No. 53" along Lizard Creek), 79.09 strip (Kenny), Tjalda Mortz 160 (SE¼), Suhrbier 80. **No Calligan in sec 2.**
+- **FOUND, the only Calligan in Lizard Twp in 1930:** **"THOS. J. CALLIGAN 80" = E½ SW¼ SEC 11 T90N R31W**, directly S of sec 2. Neighbours: Wm Borns 80 (W½ SW¼), W.J. Walsh 120, Mary Walsh 40, H. Walsh 40 (E half), Mrs J.H. Block 80 and Carl F. Suhrbier 80 (N, NW¼). Many Collins/Kelly/Walsh/Condon families on the E side along Lizard Creek.
+- **Coordinates:** BLM sec 11 = lon -94.48240..-94.46272, lat 42.61659..42.63093. E½SW¼ centre ≈ **42.6202, -94.4750**. Suggested pin 42.6202,-94.4750, r400 (no house dot visible at this scale).
+- **Bearing:** this fits Treasure's "old Calligan farm in Lizard township" (1935) better than sec 2, which was Kenny land in 1918 and 1930. **Suggest moving the D pin from sec 2 to the E½ SW¼ sec 11 (about 1.6 km S).** (The 1909 Webster farm, sec 36 T90N R30W, is a separate family holding.)
