@@ -16,3 +16,8 @@
 - **RESULT: NOT placed within 200 m.**
 - Coulee Rd runs NE from downtown Hudson up the coulee toward I-94 (OSM ≈44.964,-92.725). The "head" near I-94 can only be given as that road's upper end.
 - Aldrich left the scene by 1860, and a c.1915 plat would not show him anyway. **Needs the 1877 atlas or the Hudson city lot plats** (not online here).
+
+## 1877/78 check (Treasure list item 4, 2026-11-01)
+- **Snyder, Van Vechten 1878, "City of Hudson, County Seat of St. Croix Co."** (p.117; Rumsey via archive.org `dr_city-of-hudson-county-seat-of-st-croix-co-with-plat-of-bayfield-count-00484092`, 1338x1536 jpg). It shows wards, additions (Buena Vista, Gibson & Henning's, Hall & Farriday's, Seavie's, Dawson & Hall's, Slater's, etc.) and Coulee Road leaving the 1st Ward SE. **No owner names; no Aldrich addition.**
+- The 1877 St. Croix county map (`dr_map-of-st-croix-county-...-00484091`) is the same low-res county sheet, and Aldrich had left by 1860. The 1897 St. Croix plat book exists on Rumsey (dr_...3551...) but post-dates Aldrich.
+- Result: **not placed.** It needs 1850s Hudson lot plats or deeds (county register). Sunday list.
