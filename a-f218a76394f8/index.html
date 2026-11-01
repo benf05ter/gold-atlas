@@ -3519,6 +3519,8 @@ T3.set=function(v){ v=!!v; if(v===T3.on) return; T3.on=v; cancelAnimationFrame(T
 // open 3D on a map point: zoom in enough that the tilt means something, then tilt
 T3.open=function(lo,la,heading){ if(lo!=null){ const [x,y]=P(lo,la); const w=Math.min(vb.w,0.06), h=w*(BOX.h||1)/(BOX.w||1); vb={x:x-w/2,y:y-h/2,w,h}; fit(); }
   if(!T3.on) T3.set(true); else apply(); if(heading) T3.heading(true); };
+// zoomed far out the tilt shows little and the tilted ground costs the most phone memory (white screen on zoom out): back to flat past ~80 km wide
+OGE.on('post',()=>{ if(T3.on&&!GES.active&&vb.w>1) T3.set(false); });
 document.getElementById('t3x').onclick=()=>T3.set(false);
 document.getElementById('t3n').onclick=()=>T3.north();
 // the layers-sheet chip and the locate button
