@@ -43,6 +43,25 @@ I read the Towns of Hamilton, Onalaska, Burns, Washington, Farmington and Bangor
   - It may also lie in Barre, Greenfield or Holland. No Hixson plate was found for Barre or Greenfield. Holland appears only partly, on the Shelby plate margin, with no Hahn there.
 - The pin stays as above: weak candidate only (Theresa Hahn, sec 14 T16N R7W, D). **No farm pin.** The census and probate items are on Neb's Sunday list.
 
+## FOUND: 1874 Bliss "Map of the County of La Crosse" (LoC 2012593190, IIIF full res, view-only) (2026-11-01)
+Campbell Twp, T16N R7W, by the La Crosse River, about 2-3 mi NE of La Crosse near "Winona Junction" and the "Fourmile House". These coordinates come from position relative to the BLM section bounds, ±150 m.
+
+| Name on map | Parcel | Approx. coords |
+|---|---|---|
+| **C. H. Schaefermeyer** | Long N-S strip at the **W edge of sec 14**, running the full section from the N line south across the railway; river to the N | **43.863, -91.1876** |
+| H. Schaefermeyer | Strip along the La Crosse River in **E sec 16 / W of Winona Junction** | ~43.856, -91.2134 |
+| H. Schaefermeyer | **NW sec 22**, beside the Fourmile House | ~43.853, -91.2080 |
+
+- Neighbour: **John Hahn**, sec 21 (W of the Fourmile House).
+- **C. H. = C. Henry Schaefermeyer, d. 1903** (Find a Grave 67784436).
+- **Continuity:** the c.1915 Hixson plate shows **Theresa Hahn** on the same ground in NW sec 14 T16N R7W, between the river and the railway (earlier pin 43.8658, -91.1874). That fits the 1904 settlement, where his sister **Mrs. Hahn took the farm**.
+- So the Theresa Hahn tract is the old C. H. Schaefermeyer farm, or its core. The candidate is **upgraded**.
+
+## Pin (revised)
+- **Schaefermeyer/Hahn farm: 43.864, -91.1876, r300.** That is the W strip of sec 14 T16N R7W, from the La Crosse River S to the railway.
+- **Confidence B-.** The 1874 owner and the c.1915 Hahn successor sit on the same strip. No house mark is legible on either map.
+- The other H. Schaefermeyer parcels (E sec 16, NW sec 22) are secondary holdings of the same family.
+
 ## Next steps
 - Read the remaining six Hixson towns for a Hahn or Schaefermeyer parcel.
 - Better: find a 1890s La Crosse plat (e.g. an 1890 Foote & Hood atlas), the 1903-04 probate file (estate inventory with the legal description), or the 1900 census (farm township).
