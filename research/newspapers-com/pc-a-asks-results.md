@@ -439,3 +439,75 @@ Format: paper/area | years | terms | what changes the grade. Skip any paper not 
 - No source found for who lost the coins or for more found.
 
 ## PC(a) share of BATCH 2 (B2-1 to B2-22) COMPLETE. PC(b) has B2-23 to B2-26.
+### Treasure list (19:32Z) items 2-3
+- **Item 2 KOSTER (Garden, Delta Co.):** Delta Co. filter "Koster" 1909-01-25 to 06-30: **0 (early-1909 Escanaba issues not indexed)**; "Koster Garden" Delta 1905-12: 1 hit (Medborgaren 1907-05-17 p4, unread, pre-death). The **1913 Standard Atlas of Delta Co.** (archive.org 2933889, local OCR in research/pc-sites/umich/delta-1913) has **no "Kost..." anywhere** (he died 3 Feb 1909; the farm had passed on). Name conflict stands (Gustave per Detroit News 1909-02-04 vs Nicholas per Muskegon Chronicle 1909-02-05). **Not placed;** a pre-1909 Delta plat (none online) or the probate is needed.
+- **Item 3 OLE JOHNSON (Carney):** "Ole Johnson" Carney MI Feb-Jul 1906: 19 hits, the May 1906 wire plus the local **Medborgaren (Escanaba, Swedish) 1906-05-11 p1**: https://www.newspapers.com/image/64616143/
+  - Ole Johnson of Carney, arrested about two weeks earlier for the 28 Mar 1901 murder of his wife's nephew Emil Johnson, 21 (from Green Bay; had worked 30 days for him). Bail $4,000. Mrs. Johnson saw Ole pay Emil with a marked $10 and $5 bill, which she later found in a box. Next morning Ole spent hours in the **shanty where Emil slept**; a stench was later traced from the shanty to a **small outbuilding** ("litet hus").
+  - **No township, section or road given.** Same as Ask 5 (charge dismissed per Saginaw News 1906-05-08). Not placed; the pin stays at Carney village.
+
+### Treasure list (19:32Z) items 4-7
+- **Item 4 SMYRNA:** see treasure-list-t13-t21.md ("Smyrna 1932, Treasure list item 4"). LSJ 1932-05-26 p8 adds the Kinsman farm near Smyrna, "a cache of $3,600, the remaining loot" still sought, and the Belding-Smyrna highways. No compass direction for the woods; Ionia papers for 1932 are not indexed.
+- **Item 5 BRUNETTE:** "Brunette island" with the Itasca filter, 1930-45: **0 (Grand Rapids Herald-Review not indexed on newspapers.com).** The island stays unnamed (see plats/brunette-turtle-lake.md). Not placed.
+- **Item 6 AGARD'S LANDING:** the **1887 Atlas of Berrien Co.** (archive.org 2911279 OCR; text pages only) has **no "Agard"** and only one "landing" (shingles on a dock). NOTE: research/agard-landing.md puts John Agard (settled 1833, d. Oct 1835, buried on his place) in **sec 1, Paw Paw Twp, VAN BUREN Co.**, "east of Paw Paw River", not Berrien. The 1873 Van Buren plate has no Agard label. **No change;** the Berrien atlas is the wrong county for this lead.
+- **Item 7 DOEHM / Dousman mill (Green Bay):** **Snyder, Van Vechten 1878, "City of Ft. Howard ... City of Green Bay"** (p.96; Rumsey/archive.org `dr_city-of-ft-howard-brown-co-city-of-green-bay-county-seat-of-brown-coun-00484069`, low-res jpg) shows the wards, depots, bridges, and a "Furnace" on the East River. **No mill labels legible; the Dousman mill is not marked.** Fort Howard (W bank) has a Dousman St. near the 2nd Ward. Needs an LoC Green Bay/Fort Howard Sanborn (1880s-1900s) for the "Dousman" flour mill on the Fox. Not placed.
+
+### Treasure list (19:41Z)
+- **1 DOEHM / Dousman mill, Green Bay:** LoC Sanborn Green Bay (with Fort Howard): Nov 1883 (14 sh), Jul 1887 (16 sh), Jan 1894 (20 sh), Jul 1900 (31 sh).
+  - **1887 key-sheet index (Specials): no "Dousman".** Mills listed: **City Flour Mills (sheet 4)**, **A. Kellogg Flour Mill at Ft. Howard (sheet 12)**, S. J. Murphy & Sons Saw & Pl'g Mill at Ft. Howard (sheet 11), Ft. Howard Pl'g Mill (sheet 14), J. M. Voigt Planing Mill (sheet 14).
+  - 1900 sheet 2 (N. Adams/Cedar, E bank) shows the Green Bay Planing Mill Co., not a flour mill. The other 29 sheets of 1900 and the 1894 edition were not read.
+  - Result: no mill named "Dousman" on the Sanborns read; the 1904 "Dousman mill" may be a local name for one of the flour mills above (City Flour Mills, sheet 4, or Kellogg, Ft. Howard sheet 12). Not placed.
+- **2 SMYRNA / Kinsman farm:** the **1906 Standard Atlas of Ionia Co.** (archive.org 2933873; full OCR, 642 KB) has **no "Kinsman"** (only the Smyrna village plat, p.59). The 1891 atlas exists (2933872) but wasn't checked; the Kinsmans may have arrived after 1906. No 1930s Ionia plat online. Not placed.
+- **5 STRANG / Sturgis:** **Grand Rapids Press 1927-11-04 p13**, "Buried Treasure / Story of Mormon Cache, Vanished Charts and Lost Secrets Still Holds Forth at Sturgis; Farm Hand Sure He Talked Too Much": https://www.newspapers.com/image/1112588142/
+  - $126,000 in gold plus jewels, sent by messenger to Strang to buy land; "tradition says this ancient cache of wealth lies near **Sturgis or Indian Mills, which is near Bristol, Ind.**, less than a score of miles west", or along the **Fawn River** a few miles south.
+  - **Named farm:** Philip A. "Dynamite Phil" Snyder of **White Pigeon** says his plow struck a chest; he left it, talked about it in Howe, and next morning it was gone with fresh truck tracks. "Snyder's mysterious hole in the ground is on the **farm of Mrs. MINNIE M. BORETON, west of HOWE, IND.**" (LaGrange Co., IN, about 5 mi S of Sturgis).
+  - A second chest of Mormon documents was reportedly buried near Sturgis, with the chart on Beaver Island.
+  - Result: the only specific spot in print is the Boreton farm W of Howe, Indiana (out of state). Not tried: an Indiana LaGrange plat. **Items 3 (Aitkin Sanborn) and 4 (Homer Sanborn/Laker) not yet done; next run.**
+- **3 AITKIN (Dick Mills / C. E. Haines):** LoC Sanborn Aitkin MN exists for Sep 1892, Jan 1898, Oct 1902, Dec 1908, Feb 1914, Jan 1924 and Oct 1929 (plus a 1936 update).
+  - **1892 sheet 1:** Main/3rd/4th/5th with Ash and Birch; the Willard Hotel, Foley Block, Potter, N.P. depots; the court house S of the tracks. The **Mud River** loops just SE of the depots (S of the N.P. R.R., E of 4th St.); the Mississippi is at the NW. **No "Haines" label on sheet 1.**
+  - **1908 index (Specials): no Haines.** Mills: Juluns & Co. Feed and Flour Mill (sheet 1), A. E. Gide Hoop & Heading Mill (2), Knox Lumber Co. (1). The water/light plant inset is on the river.
+  - Haines was not found on the indexed Sanborns (he'd only appear if his building were a named "special"). Not placed. The Ripple (Mud) River mouth area on the Sanborns is the SE edge of town by the Mississippi, mostly unmapped industrial ground.
+- **4 HOMER (Laker):** "Laker barn", Calhoun 1895-06 to 1896-12: 10 hits. Marshall Statesman 1896-03-13 p3 (https://www.newspapers.com/image/9132713/) and Marshall Evening Chronicle 1896-03-13 are the same wire text ("lived in barns ... New garments were found in his haunt in an old barn here"). **No barn owner or street.** The Homer Index 1896-03-11 p3 obit is already logged.
+  - LoC Sanborn Homer exists for Sep 1888 (2 sh), Jun 1893 (3), Nov 1899 (3), Sep 1907, Jan 1913, Jan 1931. Not read sheet-by-sheet: without an owner or street, barns on the Sanborn can't be tied to Laker. **Not placed.**
+
+### Treasure list (19:52Z), second-source hunts
+- **1 HEISEL:** "Heisel" WI Feb-May 1906: 9 hits = the known Pound wire (GB Press-Gazette 3/10 p2, Milwaukee DN 3/10, Eau Claire 3/13, LaFarge) plus noise. Marinette Co. filter "Heisel" 1905-08: **0**. No independent local account. (Already in second-sources-c-leads.md.)
+- **2 WEESAW:** "Weesaw coins" Berrien 1896-98: 19 hits. The local accounts (Herald-Palladium 1897-04-23 p3, Berrien Springs Era 1897-04-28 p3) are **already logged** (B2-3). Nothing new; no farmer named.
+- **3 TWEIT:** "Tweit" MN 1927-05 to 1928-06: 20 hits. The New Richland Star 1927-06-17 p3/p4 and 06-24 p3 are **already logged** (leads.tsv row). The Kiester Courier 1928 hits are a Faribault Co. Tweit (not read; likely another family). Nothing new.
+- **4 SOUTH FOX: NEW, EARLIEST PRINT (1887) AND A PLACEMENT.** **Grand Rapids Herald 1887-10-07 p1**, "Buried Treasures / Gold Supposed to Have Been Buried on South Fox Island" (special correspondence, NORTHPORT, Oct 5): https://www.newspapers.com/image/864632180/
+  - "About thirty years ago while the Mormons were living on Beaver Island, and a few of them were located on the South Fox Island", a sailor dying in a **Cleveland** hospital told his physician that he and a companion had **stolen $15,000 in gold from a vessel and buried it on South Fox Island**, describing the place minutely.
+  - The doctor's first expedition was blocked by the Mormon occupants (he faked a wreck to land). **Five years later**, after the Mormons were expelled, he returned, but the forest had become "a field of ripening grain", no landmark remained, and the land had been "acquired by **ROBERT ROE, who still owns and cultivates it**".
+  - "**The place where the money is supposed to be buried is on Mr. Roe's farm, and not far from his house**"; all efforts so far futile. A stranger came by sailboat a few weeks earlier and failed. **LOUIS BOURSAW, assistant lighthouse keeper**, thinks he knows the spot and will dig when unwatched.
+  - The earliest South Fox treasure print (vs the 1905 cluster). The amount is $15,000 in stolen gold (not "dishpans"). Placement: **Robert Roe's farm on South Fox Island (1880s)**. Needs Roe's land on a GLO patent search or a Leelanau plat.
+  - Also seen, not read: Grand Rapids Herald 1888-06-20 p2 and Detroit Free Press 1881-08-06 p8 (possibly earlier still).
+- **5 BERTRAND:** "Bertrand gold buried", Berrien Oct 1898-Mar 1899: 8 hits (none previously logged).
+  - **NEW LOCAL ACCOUNT, and a local DOUBT: Niles Daily Star 1898-12-05 p3:** "The Sunday Chicago Chronicle prints an article dated from Niles that tells about a hidden treasure at Bertrand, where 'is buried a full bushel of gold and silver.' **No one ever heard of such a thing before**, but they have heard that during the French-Indian war, **a large sum of money was buried just above the DAM IN THIS CITY** [Niles]." https://www.newspapers.com/image/1020495798/
+  - So the local paper dismisses the Bertrand bushel as unknown locally (the source is the Chicago Chronicle, about 4 Dec 1898) and offers a different local legend: French-Indian War money buried just above the Niles dam on the St. Joseph River.
+  - Niles Weekly Mirror 1899-02-01 p8 = juror list (noise). Other hits (Palladium Oct 1898, St. Joseph Herald) unread.
+- **6 DELANEY:** already established that no Mt. Pleasant/Isabella papers are on newspapers.com (county filter 0; B2-4). No new search; stays as is.
+- **7 ELIZA WILSON:** "Eliza Wilson" money, Eau Claire 1925-04-15 to 1935: 20 hits. The 1925-04-18 p1 trench item and the 1925-05-09 p3 dam item ("Great Pleasure Dam Planned at Eliza Wilson's ... Big Elk Creek will be flooded") are already logged. The 1926-35 hits are park/dam/estate news by headline. **No later find or dig reported.**
+- **8 HANKS/HAUKS (Kenosha 1895):** "Hanks", Kenosha Co. Oct 1895-Mar 1896: 15 hits.
+  - Telegraph-Courier 1895-11-28 p1 (https://www.newspapers.com/image/891035302/): probate calendar, "In the matter of the estate of **Rudolph Hanks, deceased**. Administration."
+  - Telegraph-Courier 1896-01-30 p1 (https://www.newspapers.com/image/891041318/): "FIRST CLAIM DAY ... 8. Estate of Rudolph Hanks, deceased."
+  - Kenosha News 1895-12-30 p4 = Nancy Hanks (Lincoln) noise. "Hauks" WI 1895-96 (26 hits) = Milwaukee/Ozaukee other people.
+  - **No report of the guardian's search or any money found.** He is confirmed dead with an estate in administration (Nov 1895-Jan 1896). Feb-Mar 1896 Telegraph-Courier hits (2/6 p7, 2/20 p6, 3/26 p1) not read; they may hold the estate inventory.
+
+### Treasure list (19:58Z)
+- **1 SOUTH FOX / ROBERT ROE: GLO patents FOUND** (BLM GLO Records, MI/Leelanau, "Roe"; 5 patents, all Robert Roe, Michigan Meridian):
+  | Date | Doc | Accession | Land |
+  |---|---|---|---|
+  | 1864-12-20 | 2620 | STA-MI2400__.174 | T35N R13W sec 13, lot 2 |
+  | 1865-07-10 | 2725 | STA-MI2400__.281 | T35N R13W sec 33, lot 2 |
+  | 1865-07-10 | 2726 | STA-MI2400__.282 | T35N R13W sec 13, lots 1 and 3 |
+  | 1869-11-01 | 175 | STA-MI2470__.173 | T34N R13W sec 9, W½SE and lot 2 |
+  | 1873-05-10 | 5463 | STA-MI2450__.368 | T34N R13W sec 4, SWSE, NWSW (+1 more; "Show more" not opened). Co-patentee ALEXANDER SAMPLE |
+  - **Island check (BLM PLSS):** T34N R13W is SOUTH FOX ISLAND (township centre 45.406,-85.846). Sec 4 = -85.849..-85.829, 45.408..45.423; sec 9 = -85.850..-85.829, 45.393..45.409; T35N R13W sec 33 = -85.849..-85.834, 45.423..45.434 (N tip of South Fox). **T35N R13W sec 13 = -85.776..-85.767, 45.468..45.482, which is NORTH FOX ISLAND** (Roe also held lots there, 1864-65).
+  - The 1887 "farm ... field of ripening grain ... not far from his house" on South Fox: Roe's South Fox land is **secs 4, 9 (T34N) and 33 (T35N), the N-central and W side of the island**. The biggest block is sec 9 (W½SE + lot 2) and sec 4 (SWSE, NWSW). Suggested pin: **sec 4/9 line ≈ 45.408, -85.840, r900**. No house location is known from the patents.
+- **2 and 3 HANKS:** (in progress; next entries)
+- **2 HANKS, outcome search:** "Hanks estate OR Hanks money", Kenosha Co. 1896-02 to 1897-06: 22 hits.
+  - **Telegraph-Courier 1896-04-02 p4** probate calendar (Tues. Apr 7): "3. In the matter of the estate of Rudolph Hanks, deceased. **Petition for license to SELL REAL ESTATE.**" https://www.newspapers.com/image/891041885/ So Hanks **owned land** (presumably the place near the Butcher farm).
+  - Telegraph-Courier 1897-05-27 p5 = an unclaimed-letters list ("J Hanks"), noise. Earlier: 1895-11-28 p1 (administration) and 1896-01-30 p1 (first claim day).
+  - The Kenosha News 1896 hits (2/4, 2/17, 3/23, 6/26, 8/24, 12/9) were not read; by headline they're mostly local items. **No report of the guardian's search result or any money found.** Final account not seen. Hanks stays held.
+- **3 HANKS plat:** **not online here.**
+  - archive.org has only Snyder 1878 Kenosha *views* (farm lithographs) and the low-res Racine & Kenosha county map (owner names illegible at about 1500 px).
+  - The WHS c.1915 Hixson record (W017VNM) has **no Kenosha Co. plates** in its 317-plate list.
+  - No 1887/1899 Kenosha atlas found on archive.org or HathiTrust. Sunday list (or the Hixson Kenosha volume if WHS holds it under another record).

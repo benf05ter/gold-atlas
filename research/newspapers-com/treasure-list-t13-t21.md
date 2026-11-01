@@ -539,3 +539,11 @@ About 15 minutes per item if empty. A find = F; a placed farm or a later "still 
   - Wilson's satchel with currency was found under him on the stair landing.
 - Search "'Grass Lake' gold found" Aug 1920-Jun 1921 (Jackson CP 1920-08-03 p4 is filler). Jackson CP 1920-09-28 p1 is Harris trial jury selection, with no money mention.
 - No report that the $1,300 turned up. It stays C.
+### Smyrna 1932, Treasure list item 4 (2026-11-01)
+- The Ionia Co. filter for 1932-33 gives 0 (Belding/Ionia papers not indexed for 1932). The GR Press 1932-05-25 p1 is the capture story only.
+- **Lansing State Journal 1932-05-26 p8**, "Hunt for Suspects Goes On in Vicinity of Ionia" (special from Ionia) plus the Marshall confession column: https://www.newspapers.com/image/207257864/
+  - The robbery was of the **Wealthy Street branch of the Grand Rapids Savings Bank**; **Deputy Charles Knapp of Lowell** was murdered.
+  - Marshall said that after the shooting in Lowell, Gallagher left the car near Smyrna; **Marshall "then cached his share of the loot near Smyrna"** and drove to Detroit. On his return (a "fishing trip" with Scherr, in Scherr's car), "near Smyrna, Marshall stopped to recover the loot he had cached", but the **$1,300** (in bank wrappers) had already been found.
+  - Officers were "endeavoring to locate a **cache of $3,600, the remaining loot**"; guards were posted on highways in the **Belding-Smyrna area**.
+  - Gallagher turned up out of breath at the **KINSMAN FARM near Smyrna** on Tuesday afternoon (thought to have jumped from the bandit car). A cottage at **Bostwick Lake** (about 15 mi from the Kinsman farm) was suspected as a hangout.
+- **Still no compass direction for "the woods a mile outside Smyrna".** New: the Kinsman farm (where Gallagher appeared) and the $3,600 remaining loot (unrecovered as of 26 May). Placement needs the Kinsman farm on a 1930s Ionia plat (not online) or an Ionia/Belding paper.

@@ -159,3 +159,4 @@ JOB STATUS: priority 1 (1-14) and priority 2 (15-22) are DONE.
   - That's a smaller amount than the Detroit News "several thousand".
   - **Niles Daily Star 1902-06-25 p3** obituary (image 1020488875): "Andrew Jackson, colored, for 32 years a familiar character about town, died last night of paralysis, aged 70 years... a man of quiet and peaceable habits and was a law abiding citizen". He left a wife and six children; funeral at the Second Baptist church; burial at Silver Brook. No mention of money, no address.
   - The Daily Star 06-26 p3 is only a funeral notice. The Niles Republican 06-26 and 07-03 are noise. No recovery report, no house location. The probate notice (7/24) is already logged.
+- BERTRAND (2026-11-01): Niles Daily Star 1898-12-05 p3 says no one locally had heard of the Bertrand bushel (a Sunday Chicago Chronicle story) but cites a legend of French-Indian War money buried just above the Niles dam. https://www.newspapers.com/image/1020495798/
