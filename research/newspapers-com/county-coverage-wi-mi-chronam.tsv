@@ -1,0 +1,54 @@
+county	state	chronam_pages_1880_1940	titles	phrase_hits_read	leads	notes
+# Run 2026-11-01 via the loc.gov collections API (fa=location_state|location_county, dates 1880/1940). Phrases: "buried money", "buried gold", "buried treasure", "hidden money"; up to 25 hits per phrase. OCR was read through each page's fulltext_service (tile.loc.gov). A pages value of 0 means ChronAm holds no title for the county; the API's phrase counts for those rows are spurious and are ignored.
+Adams	WI	0	-	-	0	no ChronAm title
+Ashland	WI	120	Odanah Star 1912-16; Ashland Chronicle 1916	2	0	1915-12-31 p4 is a joke filler; 1916-05-26 p6 has no text service
+Bayfield	WI	1183	Washburn Times 1896-1976	4	0	all wire items: Kansas City deposit 1908; Beloit boy/Delia Clarke heirs 1903 (Rock Co, money spent, recovered); mail-pouch robber Stevens 1913; baseball joke 1916
+Burnett	WI	0	-	-	0	no ChronAm title
+Calumet	WI	0	-	-	0	retried 23:20Z with the state facet: the API still returns only Midland Cooperator (Minneapolis), 0 phrase hits. ChronAm has no Calumet WI paper
+Florence	WI	0	-	-	0	no ChronAm title
+Forest	WI	1117	Northern Wisconsin Advertiser (Wabeno) 1898-1925	33	0	all wire, fiction or serials (Murrieta, Cocos, Oklahoma, Texas Santa Anna, "Spanish Doubloons" serial 1921, Elmstedt NY 1902)
+Green	WI	0	-	-	0	no ChronAm title
+Green Lake	WI	0	-	-	0	no ChronAm title
+Iron	WI	748	Iron County News 1913-50; La Nostra Terra 1904-13	2	0	wire (Huguenot church NY 1915; editorial 1920)
+Juneau	WI	0	-	-	0	no ChronAm title
+Kewaunee	WI	0	-	-	0	no ChronAm title
+Lafayette	WI	0	-	-	0	no ChronAm title
+Marquette	WI	0	-	-	0	no ChronAm title
+Menominee	WI	0	-	-	0	no ChronAm title
+Oneida	WI	0	-	-	0	retried 23:20Z: no ChronAm title (facet total 0)
+Pepin	WI	0	-	-	0	no ChronAm title
+Price	WI	0	-	-	0	no ChronAm title
+Rusk	WI	934	Ladysmith News-Budget 1907-27 and predecessors	7	0	wire (John Hopper VA 1913 x4; Christie murder SD 1909); a serial; "buried. Money to Loan" false hit
+Sawyer	WI	0	-	-	0	no ChronAm title
+Taylor	WI	0	-	-	0	no ChronAm title
+Vilas	WI	3282	Eagle River Review 1890-1927; Vilas County News 1896-1927; Eagle River Democrat 1893-96	22	folklore (D)	Vilas County News 1921-12-21 p11 (Paul Bunyan holiday edition): tall tale that trappers buried a wildcat banker's gold (1871) at the roots of big pines along the trails around Eagle River; tied to a stump-blasting promotion. Humour, not a real cache. Also Eagle River Review 1905-09-01 p3 = Louise Kautz $150, Gibson, Manitowoc Co (already in county-coverage.tsv); 1912-07-31 p1 = Noteware MA (already logged); bank ads 1920
+Washburn	WI	0	-	-	0	no ChronAm title
+Waushara	WI	0	-	-	0	no ChronAm title
+Alcona	MI	0	-	-	0	no ChronAm title
+Alger	MI	0	-	-	0	no ChronAm title
+Antrim	MI	0	-	-	0	no ChronAm title
+Arenac	MI	0	-	-	0	no ChronAm title
+Baraga	MI	1722	L'Anse Sentinel	14	0	all wire, fiction or film ads (Louisiana pirate 1896; Rupert homestead, Argentine KS 1890; Villa/Parral 1916; "Wet Gold" film 1922)
+Benzie	MI	0	-	-	0	no ChronAm title
+Charlevoix	MI	873	Charlevoix County Herald (East Jordan)	13	NEW Strang/Holy Island (C)	1912-08-17 p1: a Holy Island lot-auction ad offers a free "Illustrated History of Holy Island and King Strang's Buried Treasure"; the same page has a news item saying Holy Island (Pine Lake / Lake Charlevoix, at Charlevoix) holds "the site of the old Mormon fort" and an "old Ottawa war post", and that the Inter-State Motor Club built on its north point (promoter I. B. McLean). This is a pre-1927 printing of a Strang treasure tradition. Other hits are wire (Perry/Sandusky 1916; Black Hawk, Fairfield IA 1906; Santa Cruz Is. CA 1919; Weatherford TX 1919)
+Cheboygan	MI	283	Northern Tribune 1875-85	1	0	fiction 1882
+Clare	MI	0	-	-	0	no ChronAm title
+Crawford	MI	900	Crawford Avalanche (Grayling)	2	0	retried 23:20Z: the 3 other phrases have 0 hits. The 2 "hidden money" hits are MI and PA wire: Charles B. Norris of LaSalle [Monroe Co] lost $57 hidden in a cupboard to a fire (1894-04-26 p2, money burned); a Mill Creek PA powder explosion (1899-11-16 p2)
+Gladwin	MI	0	-	-	0	no ChronAm title
+Gogebic	MI	1393	Auttaja (Ironwood, Finnish)	0	0	Finnish-language paper; English phrases do not apply
+Iosco	MI	0	-	-	0	no ChronAm title
+Kalkaska	MI	0	-	-	0	no ChronAm title
+Keweenaw	MI	0	-	-	0	no ChronAm title
+Lake	MI	346	Lake County Star (Chase)	1	0	wire, Montezuma 1889
+Luce	MI	0	-	-	0	no ChronAm title
+Mackinac	MI	0	-	-	0	no ChronAm title
+Missaukee	MI	0	-	-	0	no ChronAm title
+Montmorency	MI	0	-	-	0	no ChronAm title
+Ontonagon	MI	0	-	-	0	no ChronAm title
+Osceola	MI	0	-	-	0	no ChronAm title
+Oscoda	MI	0	-	-	0	no ChronAm title
+Otsego	MI	0	-	-	0	no ChronAm title
+Presque Isle	MI	0	-	-	0	no ChronAm title
+Roscommon	MI	0	-	-	0	no ChronAm title
+Schoolcraft	MI	0	-	-	0	no ChronAm title
+Wexford	MI	0	-	-	0	no ChronAm title
