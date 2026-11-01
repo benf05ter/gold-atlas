@@ -25,3 +25,10 @@ Also read, with no Blackmore, Blackmer or Blackmoor found:
 As instructed, "B. Moore 18" is not treated as a match.
 
 **Result: not found on any c.1915 plat around Palmyra.** That fits brothers who acquired about 10 acres after 1915, or who squatted or rented. A 1920s-30s Jefferson or Walworth plat (not open on WHS) or a 1927 deed or tax record would be needed. No pin.
+
+## Plat job 13 follow-up (2026-11-01): Walworth side, c.1915 Hixson (W017VNM)
+- No 1920s Jefferson plat is reachable: WHS search blocks scripts, and no Jefferson plat was found on archive.org. The earlier pass also found none open on WHS.
+- **Town of La Grange (T4N R16E), N tiers secs 1-12** (Walworth plate "Troy, Lyons, La Grange, Linn, Geneva, Sugar Creek", AssetLink 08sdl6r425l6i5irfft1330h3bm28itl): **no Blackmore, no Austin.** Owners include J.F. Dunn, Geo. Wilson, J.G. Kestol, F.C. Peterson, Barbara Sukawski, Emma Bartholf, Alice Strike, C.D. Olds, Thos. Nelson, S.P. Blomiley, Isaac Oleson, Harwood Est., John Bulow, Wm. Luderman.
+- **Town of Whitewater (T4N R15E), NE secs 1-2, 11-12** (plate "White Water, Lafayette, Bloomfield, Spring Prairie, Delavan, Darien", AssetLink f217w5w0bq1pob8685q2p8vltix08ek5): **no Blackmore, no Austin.** Owners include E.T. Piehl, John Ridge 110, A.L. Peterson 157.75, V.P. Klinetop 138, J.O. Fuller 160, O. Coburn 72, small Colby/Henderson/Fulton strips.
+- Earlier: Palmyra twp SW (Jefferson plate) had only "B. Moore 18" (sec 33).
+- **Verdict: not placed.** A 10-acre shack plot may simply be too small to be named on a c.1915 plat. The B. Moore 18 in sec 33 Palmyra remains the only weak candidate. Next options: Jefferson Co. register of deeds or tax rolls for Blackmore (1926), or a 1937 WHAI aerial of the area 3 mi SW of Palmyra village.

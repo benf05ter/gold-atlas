@@ -23,3 +23,6 @@ Source (view-only): 1915 *Standard Atlas of Branch County* (archive.org 2911296.
 ## Verdict
 - Parcel and house mark are firm for 1894 and 1915 (C. N. Phillips / Est.).
 - Confidence for the farm placement: C (the direction conflicts with the source).
+
+## Treasure ruling (2026-11-01 16:38Z)
+- Grade B. Pin moved to mid-strip **41.8940, -85.2600, r450**. The AP's '4 mi W' matches this plat; the Enquirer's '2 mi E' is an error. The MSU aerial is skipped.
