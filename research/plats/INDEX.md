@@ -1,4 +1,4 @@
-﻿# research/plats: index (all notes dated 2026-10-31)
+# research/plats: index (all notes dated 2026-10-31)
 
 One line per note: **file** | lead | pin lat,lon (radius) | sources | verdict.
 
@@ -50,4 +50,5 @@ One line per note: **file** | lead | pin lat,lon (radius) | sources | verdict.
 | larson-muskegon.md | Ole Larson shop / electric light plant 1902-03, Muskegon MI | candidate 43.2340,-86.2550 (r150) | LoC Sanborn Muskegon 1911 Vol 1 (sheets 1-8, 63-64) | Muskegon Traction & Lighting power/gas plant between Western Ave and Morris St at N 2nd-3rd, W of Indian Cemetery (1911); 1902 site unconfirmed; C- |
 | mattrick-beaver.md | Mattrick/Mattrich buried money 1925, Town of Beaver, Marinette WI | 45.1590,-88.1612 (r200) | WHS W0174RP 1912 Ogle Marinette (T31N R19E); WHAIFinder BIA 8-33 (1938) | Gottlieb Mattrich 120 sec 17 T31N R19E with Res. mark, N of Pelican lakes; 1938 farmstead matches; C+ |
 | sargeant-olmsted.md | Sargent farm 1913 express silver, Dover Twp, Olmsted MN | 43.9844,-92.1800 (r150) | UMedia 1914 Webb Olmsted (11406, Dover p.21 + dir p.22); UMN 1940 WB-2A-184 | Louis Sargent sec 18 T106N R11W 342.5 ac (plate shows prior owner, same acreage); house mark E edge; C&NW rail diagonal, Dover-Eyota road on S line; B |
-| horrigan-crawford.md | Horrigan brothers farm (1930 murders), Town of Clayton, Crawford WI | 43.300,-90.815 (r900) | WHS W017VNM c.1915 Crawford (Clayton) | 'Horgen' block: S. 440 sec 35 + 160 sec 36, C.M. 120 sec 35/26 + 160 sec 27, T10N R4W (~880 ac); separate from Jno. Horrigan Scott sec 2; B- |
+| horrigan-crawford.md | Horrigan brothers farm (1930 murders), Clayton/Scott line, Crawford WI | 43.293,-90.697 (r1000) | WHS W017VNM c.1915 Crawford (Clayton plate) | Horgen block secs 26/27/35/36 T10N R3W (~880 ac) adjoins Jno. Horrigan sec 2 + Ellen Miller sec 1 T9N R3W (Scott); old 43.376,-90.700 pin was wrong township; B |
+| meyer-mcgregor.md | Irvin Meyer 'Gold Mine' farm 1937, W of McGregor, Clayton IA | 43.0140,-91.2812 (r250) | IAGenWeb 1965 Clayton farm directory + Giard map; Iowa ortho_1930 | Maurice & Irvin Meyer, sec 26 Giard Twp T95N R4W (not Mendon); 1930s farmstead W-centre sec 26, wooded bluffs N; C+ |

@@ -296,3 +296,14 @@
   - Washtenaw "buried money" (30): Courier-Register 1879 p1 = bank ad; Ann Arbor News 1916 p1 = split-word; Daily Times 1903 p1 = split-word. Noise.
   - Ingham "hid his money" (15): Lansing Journal 1910 p1 and LSJ 1900 p1 = split-word noise. The site's phrase quoting is loose here.
   - OPTIONAL MI PASS DONE.
+## MN OUTER-COUNTY PASS (local weeklies), run 1 - 2026-11-01
+- **STEARNS** (finishing "money was found"):
+  - "money was found" gives 324 hits. The loose phrase match returns split-word noise; Sauk Centre Herald 1932-01-14 p1 is a store story.
+  - "money was found" buried farm gives 41 hits. Sauk Centre Herald 1931-05-14 p1 is a funeral ("Buried Here Monday").
+  - STEARNS DONE, no leads.
+- **No papers on the site** (a plain "money" search returns 0): BENTON, SHERBURNE, WRIGHT, MEEKER, TODD.
+- **KANDIYOHI** (Willmar Weekly Tribune, West Central Tribune):
+  - "buried money" gives 11 hits. The 1927 July-Aug weekly run is serial fiction. Willmar 1904-08-17 p5 is a fortune-teller ad.
+  - "hid his money" gives 5 hits (1897-05-25, 1915-09-15, 1932-08-08), not read yet.
+  - "buried treasure" gives 94 hits. West Central Tribune 1934-01-04 p1 "Sheriff Guards Scene of 'Buried Treasure'" is the CAMDEN PARK (Itasca Co.) $22,000 Flink loot, an AP wire already pinned (dupe).
+  - Kandiyohi remaining: the 5 "hid his money" hits, "money was found", "old coins".
