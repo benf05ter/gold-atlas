@@ -30,7 +30,7 @@ c=c.replace("/^(h15_|h250_|h19_|sv78_|gs_|plat_)/.test(f)","/"+TILED+"/.test(f)"
 c=c.replace("if(!(b<lon0||a>lon1||d<la0||c>la1)) U.add('om/'+f+'.webp');","if(!(b<lon0||a>lon1||d<la0||c>la1)&&!(typeof OGT==='object'&&OGT.ix)) U.add('om/'+f+'.webp');")   # save area: the tiles, not the sheets
 # old-map tile layers served from the second repo (gold-atlas-maps, same github.io origin) instead of this one: plat books (p-*, p13) and the
 # MN survey plats (gsm) already are. To move more (for the 1 GB Pages cap), copy ot/<layer>/ into that repo's ot/ first, then list the layer here.
-MAPS_LAYERS=[]   # e.g. ['o15','bd','o19','o250','mrc']: not moved yet
+MAPS_LAYERS=['o15','bd']   # served from gold-atlas-maps since 2026-11-01 (o19, o250, mrc stay here)
 if MAPS_LAYERS:
   r0="/^(p(-|13$)|gsm$)/.test(id)"; assert c.count(r0)==1, 'tile URL rule not found'
   c=c.replace(r0,"/^(p(-|13$)|gsm$|"+'|'.join(l+'$' for l in MAPS_LAYERS)+")/.test(id)")
