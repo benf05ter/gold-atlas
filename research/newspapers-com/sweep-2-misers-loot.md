@@ -307,3 +307,118 @@
   - "hid his money" gives 5 hits (1897-05-25, 1915-09-15, 1932-08-08), not read yet.
   - "buried treasure" gives 94 hits. West Central Tribune 1934-01-04 p1 "Sheriff Guards Scene of 'Buried Treasure'" is the CAMDEN PARK (Itasca Co.) $22,000 Flink loot, an AP wire already pinned (dupe).
   - Kandiyohi remaining: the 5 "hid his money" hits, "money was found", "old coins".
+## MN OUTER-COUNTY PASS, run 2 - 2026-11-01
+- **KANDIYOHI "hid his money":** West Central Tribune 1932-08-08 p4 and Willmar 1897-05-25 p2 are split-word noise. KANDIYOHI DONE, no leads.
+- **MORRISON** (Little Falls Transcript / Herald):
+  - "buried money" gives 2 hits (1899, 1909, p6, unread, low).
+  - "hid his money" gives 0.
+  - "buried treasure" gives 17 hits. Little Falls Weekly Transcript 1895-05-17 p1 is a Riverside NY wire (iron box at Baiting Hollow).
+  - Remaining: "money was found", "old coins".
+- **CROW WING** (Brainerd Dispatch):
+  - "buried money" gives 14 hits. A Sep 1911 run of daily p2 hits looks like an ad. Brainerd Dispatch 1914-01-03 p1 is "Money Combine" (noise).
+  - "hid his money" gives 21 hits, an Aug-Sep 1913 daily serial.
+  - "buried treasure" farm dug gives 10 hits. Brainerd Dispatch 1897-03-12 p1 is a sugar-beet editorial; 1940-10-23 p1 is a San Francisco UP wire (Steinbach). 1930-11-12 p1 is presumably Horrigan (known).
+  - Remaining: "money was found", "old coins".
+- About 12 reads, no candidates. Next: Aitkin (not indexed before), then Mille Lacs, Kanabec and Carlton.
+## MN OUTER-COUNTY PASS, run 3 - 2026-11-01
+- **MORRISON:** "money was found" buried gives 15 hits. Little Falls Herald 1919-01-31 p1 is a war burial (noise). MORRISON DONE; "old coins" skipped (collector ads).
+- **CROW WING:** "money was found" buried gives 41 hits. Brainerd Dispatch 1905-02-21 p1 is an Alabama mine cave-in (noise). CROW WING DONE.
+- **MILLE LACS** (Princeton Union):
+  - "buried money" gives 2 hits. 1918-10-17 p4 is a war-fund editorial.
+  - "hid his money" gives 0.
+  - "buried treasure" gives 19 hits. 1922-07-27 p5 is a movie listing; the rest are p2/p6/p7 filler pages.
+  - MILLE LACS DONE.
+- **No papers on the site:** KANABEC, CARLTON, AITKIN ("money" returns 0).
+- **RICE:** "buried money" and "buried treasure" both 0, so probably not indexed. Confirm with "money" next run.
+- No candidates this run. Next: STEELE, DODGE, OLMSTED, FILLMORE.
+## MN OUTER-COUNTY PASS, run 4 - 2026-11-01
+- **RICE:** no papers on the site ("money" returns 0).
+- **STEELE** (People's Press, Ellendale Eagle, Blooming Prairie Times):
+  - "buried money" gives 9 hits. Blooming Prairie 1921-04-21 p4 is a theatre ad.
+  - "hid his money" gives 1 hit, People's Press 1920-05-14 p2. That is the MURPHY (Warsaw twp, Rice Co.) story, already in deep-dives-pc-job-1.md. My first screen showed only the top of the page.
+  - "buried treasure" gives 51 hits. Ellendale Eagle 1929-05-22 p1 "Buried Treasure Is Found Near Tracks" (from the Janesville Argus; https://www.newspapers.com/image/1024929698/):
+    - John Schwandt and son Munroe, digging telephone-pole holes west of the Cahill & Lampert coal sheds along the C&NW at JANESVILLE (Waseca Co.), found 108 coins in a broken glass jar.
+    - The total was $1.08. Recovered; color only (F), not logged to leads.
+  - STEELE DONE.
+- **DODGE** (Dodge Center Star-Record, Hayfield Guard, Mantorville Express, West Concord, Claremont):
+  - "buried money" gives 32 hits, not read yet.
+  - "hid his money" gives 11 hits. Hayfield Guard 1914-09-17 p1 is a bank ad ("This man hid his money in a hole"). Dodge Center Star-Record 1920-04-29 p1, "Buried Treasure Found / Cow Unearths Hiding Place of $6,000 Near Faribault" (https://www.newspapers.com/image/1204407065/), is the MURPHY hoard, a DUPE (already cited in deep-dives-pc-job-1.md).
+  - Remaining: "buried money" 32 (low; 1912-27 local pages), "buried treasure", "money was found".
+## MN OUTER-COUNTY PASS, run 5 - 2026-11-01
+- **DODGE:** "buried treasure" farm gives 186 hits. Claremont News 1935-04-12 p1 "Search for Buried Treasure in Logs" is black-walnut logs buried in a gully near Mankato (Frisbee/Lewis), not money. DODGE DONE.
+- **OLMSTED** (mostly the Rochester dailies):
+  - "hid his money" gives 4 hits. Post-Bulletin 1901-05-14 p1 is noise.
+  - "buried money" gives 44 hits. Post-Bulletin 1916-04-01 p1 "Buried Money Is Held Bribe" is the New York Peck/Waite case (wire). Olmsted County Democrat 1915-12-17 p4 is an ad.
+  - OLMSTED DONE.
+- **FILLMORE, HOUSTON:** "buried money" and "hid his money" return 0, so probably not indexed.
+- **MOWER** (Austin Daily Herald, Mower County Transcript):
+  - "buried money" gives 22 hits. Mower County Transcript 1873-12-04 p1 is an insurance-embezzlement item (noise). Austin Daily Herald 1924-10-16 p1 is noise.
+  - Remaining: "hid his money", "buried treasure".
+- About 12 reads, no candidates.
+## MN OUTER-COUNTY PASS, run 6 - 2026-11-01
+- **MOWER:**
+  - "hid his money" gives 3 hits (1908, 1920 = probably Murphy, 1925), not read.
+  - "buried treasure" farm gives 114 hits. FIND: Austin Daily Herald 1926-08-26 p1 "Buried Treasure Runs Out After Finding of Two Pieces of Gold" (https://www.newspapers.com/image/1002161616/).
+    - Henry Wicks, digging at the new HOWLEY YARDS on EAST BRIDGE ST, Austin, found an 1865 gold piece (printed as "$25") two feet below the cement foundation of the old scale approaches, then a second gold piece.
+    - Rumors of gold found there in 1916 had been a false alarm.
+    - Logged to leads.tsv as D/F (urban, small). "Howley gold" 1916-27 shows no follow-up.
+  - MOWER DONE.
+- **FREEBORN** (Albert Lea Tribune/Times-Enterprise, Freeborn County Standard, Glenville, Alden, Hartland):
+  - "hid his money" gives 17 hits. Glenville Progress 1916-09-28 p1 is a butcher ad. Albert Lea Tribune 1920-04-22 p5 is Murphy (known).
+  - "buried money" gives 42 hits. Albert Lea Tribune 1931-12-17 p1 is a Missouri Valley IA wire (Dessert, stolen). Freeborn County Standard 1921-03-31 p4 is a Nuttallburg WV wire (Holland jars).
+  - Remaining: "buried treasure".
+## MN OUTER-COUNTY PASS, run 7 - 2026-11-01 (named list complete through Brown)
+- **FREEBORN:** "buried treasure" farm gives 199 hits. Albert Lea Tribune 1921-11-23 p9 is an Atchison Globe filler quip. FREEBORN DONE.
+- **LE SUEUR, NICOLLET:** "buried money" and "hid his money" both 0, so not indexed.
+- **BLUE EARTH:** even "money" returns 0 with the county filter. Either not indexed, or the filter fails for this county (the Mankato Free Press may be listed elsewhere). Skipped. A Mankato-paper title search would be the way in if wanted.
+- **BROWN** (New Ulm Review, New Ulm Post):
+  - "buried money" gives 3 hits. 1879-02-26 p2 is noise (a Senate report; nearby item about Guyer in PA).
+  - "hid his money" gives 1 hit, 1903-03-04 p5, split-word noise.
+  - "buried treasure" gives 22 hits (1879-1921, mostly p2/p6/p7 filler pages), not read.
+  - The New Ulm Review hoard items (1906 aged pioneer, Schmidt 1933) are already in deep-dives-pc-job-1.md.
+- **SUMMARY of the named list:**
+  - Not on the site: Benton, Sherburne, Wright, Meeker, Todd, Aitkin, Kanabec, Carlton, Rice, Fillmore, Houston, Le Sueur, Nicollet, (Blue Earth).
+  - Searched with no open new leads: Stearns, Kandiyohi, Morrison, Crow Wing, Mille Lacs, Steele, Dodge, Olmsted, Mower, Freeborn, Brown.
+  - Finds: the Austin/Howley Yards coins (D/F, logged) and the Janesville jar ($1.08, color). The Murphy hoard was reconfirmed as a dupe.
+## MN "THEN OTHERS" PASS, run 1 - 2026-11-01 (after the coordinator ruled Austin and Janesville F)
+- **BLUE EARTH:** the title-keyword search "buried money" Mankato (MN, 78 hits) shows no Mankato paper among the results. The Mankato Free Press is not on newspapers.com. Closed.
+- **WASECA:** "buried money" gives 2 hits (New Richland Star 1927-06-17 = Tweit, known; 1901-09-25 p7 = filler page).
+- **FARIBAULT** (Kiester Courier, Wells Mirror, Courier-Sentinel, Forum-Advocate):
+  - "buried money" gives 12 hits. Kiester 1914-03-27 p6 is a Shawnee OK wire; Wells Mirror 1928-01-19 p7 is noise.
+  - "hid his money" gives 1 hit (Wells 1919-01-08 p2, not read).
+  - "buried treasure" farm gives 63 hits. Kiester Courier 1939-08-31 p1 is St. Peter, two boys found 699 pennies on Main Street (F). Forum-Advocate 1923-03-01 p1 is King Tut.
+  - FARIBAULT DONE.
+- **MARTIN, GOODHUE, WABASHA:** "buried money" returns 0, so not indexed.
+- **WINONA** (Winona Republican-Herald / Daily News):
+  - "buried money" gives 49 hits. 1933-10-27 is Schmidt (known).
+  - Winona Daily News 1936-12-02 p2 (https://www.newspapers.com/image/546509161/) is the continuation of a p1 story: boys found "the buried money" on the abandoned farm of a bachelor who had died a few months before. His brothers Oscar and Herman survive. The boys notified Oscar MARKEE, the money was turned over to him, and he rewarded them. RECOVERED (F). The p1 start was not read.
+  - Remaining Winona: the "hid his money" and "buried treasure" phrases.
+## MN then-others run 2 + MI gap-county "hidden money" pass, run 1 - 2026-11-01
+- **WINONA:** "hid his money" gives 2 hits; 1932-07-18 p2 is noise. "buried treasure" farm gives 143 hits; 1930-11-12 p1 is Horrigan (known). WINONA DONE.
+- **MN outer-county + then-others pass: EXHAUSTED** for indexed counties.
+- **MI GAP COUNTIES**, second phrase "hidden money" farm, 1880-1940 ("buried money" was already done for all 39 counties):
+  - Gratiot: 1 hit (Alma Record 1911-04-13 p7, not read).
+  - Hillsdale: 0.
+  - Ionia: 1 hit, Belding Banner 1904-12-01 p2, a Baltimore filler.
+  - Sanilac: 3 hits. Minden City Herald 1911-03-03 p1 "Finds $500 in Gold": at LEXINGTON, administrator John Bell found $500 in gold in an old chest of the late James Elliot and banked it. RECOVERED (F).
+  - Tuscola: 5 hits. Unionville Crescent 1933-02-17 p1 is a bank-holiday item (noise).
+  - Lake: 0.
+  - Next: Midland, Monroe, Ottawa, Saginaw, Genesee, Ingham, Washtenaw with "hidden money" farm; then "pot of gold".
+## MI gap-county "hidden money" pass, run 2 - 2026-11-01
+- **Midland:** 5 hits (p3-p8), not read.
+- **Monroe:** 16 hits. Monroe Evening News 1931-05-01 p1: the exhumation of Frank J. Chamberlin's coffin over rumors of hidden riches and jewelry. The widow (Mrs. W. J. De Baun) says no money was buried with him. Color only.
+- **Ottawa:** 11 hits. Grand Haven Tribune 1931-11-20 p1 is noise.
+- **NEW LEAD, BORGMAN (Grand Haven, 1921):**
+  - Grand Haven Tribune 1921-07-09 p1 (https://www.newspapers.com/image/1134683055/): $10,000 was taken from a registered mail sack on 14 Apr 1921. Officers believed custodian Ben Borgman had hidden it in the ARMORY. He asked to return the money alone, then escaped through an armory window. Only about $2,700 had been returned.
+  - 1921-11-02 p1 (https://www.newspapers.com/image/1134683443/): sentenced to 10 years at Leavenworth. No recovery mentioned.
+  - Logged to leads.tsv, grade C pending a recovery check.
+- BORGMAN follow-up (run 3, 10 reads): the 1929-02-11 Grand Haven Tribune p1 recap says the notes were hidden in the stove pipe in the federal building basement, about $3,000 was recovered, and Borgman claimed the rest burned. The armory angle was officers' belief only. Downgraded to D. Details in the leads.tsv row.
+
+## MI gap-county "hidden money" pass, run 3 - 2026-11-01 (Borgman ruled F by the coordinator; leads.tsv row marked)
+- **SAGINAW:** 35 hits. Saginaw News 1935-01-29 p1 is a Cape May NJ wire. 1905-04-20 is Ayers (known F).
+- **GENESEE:** 33 hits. Flint Journal 1904-06-04 p1 is noise. 1928-04-13 p1 is the Ecorse widow murder (known noise).
+- **INGHAM:** 37 hits.
+  - Lansing State Journal 1922-10-28 p1 is a Cleveland OH wire.
+  - LSJ 1909-02-05 p1 (https://www.newspapers.com/image/1045040798/): WESLEY HURST, the "Aurelius miser". $2,289 cash was found on his body, then $20 gold pieces in auger holes bored in his bedstead poles (plugged and smeared with dirt) and bills under the door cleats of his shack. Heirs are the Phelps family of Springdale IA. RECOVERED (F); color only. Dedupe: no prior Hurst/Aurelius entry.
+- **WASHTENAW:** 8 hits. Ann Arbor News 1921-07-18 p1 is the BURG double murder, 1 mile S of Saline: six bandits robbed and killed farmer George Burg and Henry ... in a sheep shed over rumored hidden money spread by former farm hands. The sisters say no large sums were kept. Not a cache (F/story).
+- "hidden money" farm is done for Gratiot, Hillsdale, Ionia, Sanilac, Tuscola, Lake, Midland (not read), Monroe, Ottawa, Saginaw, Genesee, Ingham, Washtenaw. The MI phrase pass is effectively exhausted; the dailies are mostly wire.
