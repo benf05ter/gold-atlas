@@ -2024,3 +2024,7 @@ DATA.points.push(...[]);
 // Hand-off batch v287r (tools/batch225)
 DATA.points.push(...[]);
 { const E={"tw-mi-weesaw-spanish-coins-1897":[{"acm":[1000,"plss"],"pinconf":"D","pinev":["Section-level: sec. 11 T7S R19W centroid (BLM PLSS), from the 1887 Berrien County atlas township history; the 1873 and 1887 plats show no finder's parcel in sec. 11 (about 1000 m)","Unconfirmed, one source"]},"",[],false,""]}; for(const id of []) delete LIDC[id]; addEventListener("DOMContentLoaded",()=>{ for(const p of DATA.points){ const x=E[p.id]; if(!x) continue; Object.assign(p,x[0]); if(x[3]) p.st=(p.st||"").replace(/ Air photo check \(UW[^)]*\):[^.]*\./g,"").replace(/ LiDAR cache check[^.]*\.[^.]*\./g,""); p.st=(p.st||"")+x[1]; if(x[4]) p.t=(p.t||"")+x[4]; if(x[2].length) p.src=[...(p.src||[]),...x[2]]; } }); }
+
+// Hand-off batch v287s (tools/batch225)
+DATA.points.push(...[]);
+{ const E={"tw-mn-turtle-lake-marcell-brunette":[{},"",[],false," The lake has about 10 unnamed islands. The largest are two in the SE arm (~47.6169,-93.6862 and ~47.6187,-93.6816) and two in the NW basin (~47.6347,-93.7260 and ~47.6358,-93.7310); which one is his is not known."]}; for(const id of []) delete LIDC[id]; addEventListener("DOMContentLoaded",()=>{ for(const p of DATA.points){ const x=E[p.id]; if(!x) continue; Object.assign(p,x[0]); if(x[3]) p.st=(p.st||"").replace(/ Air photo check \(UW[^)]*\):[^.]*\./g,"").replace(/ LiDAR cache check[^.]*\.[^.]*\./g,""); p.st=(p.st||"")+x[1]; if(x[4]) p.t=(p.t||"")+x[4]; if(x[2].length) p.src=[...(p.src||[]),...x[2]]; } }); }
