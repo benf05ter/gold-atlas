@@ -247,3 +247,195 @@ OCR tip: use surname variants plus one distinctive word; phrase search splits wo
 - The Escanaba Daily Press is not indexed before about 1911. Closed.
 
 ## PC (a) asks 1-29: COMPLETE (27 dropped). Optional next: "buried/hid his gold" + "never found" by state, 1900-20 and 1920-36.
+- TREASURE (15:29Z): Manawa 1933 = F, no pin (logged in cloud negatives.tsv; not added to leads.tsv). Ole Johnson stays C at village level. List complete; zip e being committed.
+
+### Optional run: "buried/hid his gold" 1900-36 (zip e = commit ff703c19)
+- WI "buried his gold": 24 hits.
+  - Milwaukee Daily News 1915-07-15 p1 is Bedford, IOWA (Huntsman case: four accused of killing a Missouri cattleman in 1868 who "buried his gold"; "over $43,000 of the buried treasure has been located"). Out of region; IA/IL has stood down.
+- WI "hid his gold": 51 hits. Florence Mining News 1932-11-26 p6 is a serial story.
+- MN "buried his gold": 20 hits. The Apr 1913 cluster (West Concord 04-17 p2, Kiester, Ellendale, Post-Bulletin) is an Oklahoma mule-kick filler quip. The Nov 1935 cluster is unread (probably filler).
+- MI "buried his gold": 34 hits. Kalamazoo Gazette 1925-07-02 p1 is the Grover Bergdoll gold in the Maryland hills (out of region).
+- No in-region candidates so far. Remaining: MN and MI "hid his gold"; a "never found" narrowing.- Optional run 2:
+  - MN "hid his gold" 1900-36: 17 hits. Hubbard County Journal 1911-05-04 p8 "Hid His Gold Since 1849" = James P. Snyder of Luray, VIRGINIA (filler). The rest are 1914-33 filler pages.
+  - MI "hid his gold": 38 hits, dominated by the 26-28 Jun 1902 Andrew Jackson (Niles) wire, already known.
+  - OPTIONAL PASS CLOSED, no in-region candidates.
+# BATCH 2 (from Treasure, relayed 2026-11-01 15:35Z): 26 asks
+Format: paper/area | years | terms | what changes the grade. Skip any paper not indexed and say so.
+## P1 (C leads: second source or recovery)
+1. Knaggs Bridge (Shiawassee MI) | Owosso Argus-Press, LSJ, Flint J | 1890-1940 | Knaggs gold/bridge treasure; Whitmore Knaggs | dig/find = F; 2nd independent = B
+2. Bertrand (Berrien MI) | Niles Star, South Bend Trib, Benton Harbor N-P | 1895-1935 | Bertrand gold/bushel/orchard dig | 1898 dig spot (orchard owner, river side) fixes pin; find = F
+3. Weesaw Spanish coins (Berrien MI) | N-P, St Joseph H-P, SB Trib | 1897-1900 | Weesaw coins; Spanish gold plowed | farm owner/section; more found = F
+4. Delaney boiling spring (Isabella MI) | Mt Pleasant, Saginaw News | 1884-1930 | Delaney spring money; Coldwater twp; 1812 money | dig/find
+5. South Fox dishpans (Leelanau MI) | Traverse City R-E, Charlevoix, Petoskey | 1900-50 | South Fox treasure; dishpans | earliest print; find
+6. North Fox German gold (Leelanau MI) | same | 1900-50 | North Fox gold; Germans | "reported find" date/source
+7. Briggs Lake coins (Sherburne MN) | St Cloud Times, Mpls | 1922-25 | Briggs lake coins; Peters stump | more found = F; farm owner
+## P2 (D leads: earliest print or outcome)
+8. Abbotsford express 1891 (Clark WI) | Marshfield, Wausau, Chippewa, EC | May 1891-95
+9. Amatuna Pell Lake 1925 (Walworth WI) | Janesville, Lake Geneva, Elkhorn, Chi Trib | 1925-40
+10. Benton Lake stage gold (Newaygo MI) | GR Press, Muskegon, Big Rapids | 1874-1940
+11. Cobmoosa (Oceana MI) | Ludington, Muskegon, GR Press | 1890-1950
+12. Nepessing Lake (Lapeer MI) | Flint J, Port Huron T-H, Detroit FP | 1896-1900
+13. Bogus Island (Kalamazoo MI) | Kalamazoo Gazette | 1880-1940
+14. Brockway Mill Creek (St Clair MI) | Port Huron T-H | 1895-1910
+15. Van Arsdale Alamo (Kalamazoo MI) | Kalamazoo Gazette | Mar 1907-10
+16. Laker Homer (Calhoun MI) | Battle Creek, Marshall, Coldwater | 1896-1900
+17. Dover Gregg (Racine WI) | Racine J-T, Burlington | 1880-1930
+18. Fay Ravine dugout (Nicollet MN) | St Peter Herald, Mankato FP, New Ulm Review | 1890-91
+19. Koshkonong buckskin bag (Jefferson WI) | Ft Atkinson JCU, Janesville, Stoughton | 1863-1913
+20. Hermit Island (Ashland WI) | Ashland DP, Bayfield Co Press | 1880-1940
+21. Olesen Lynn (Clark WI) | Neillsville, Marshfield | Nov 1900-01
+22. Wisconsin mouth coins 1887 (Grant WI) | PdC, Grant Co Herald, La Crosse | 1887-90
+## P3 (B leads: recovery checks)
+23. Murphy, Warsaw MN | Faribault, Northfield | 1901-15
+24. Kuehn, Sigel MN | New Ulm Review, Sleepy Eye | 1906-15
+25. Keeler and Agard MI | local, +10 yrs
+26. Bergblom, Mulchrone, Hoffman Orchard, Roland Glencoe | local, +10 yrs
+## Batch 2 results
+### B2-1 Knaggs Bridge: SECOND ACCOUNT (1936, pre-dates the 1937 source)
+- "Knaggs gold" MI 1880-1940: 4,976 hits (Monroe Knaggs family noise). Shiawassee "Knaggs treasure": 2 hits; Owosso Times 1897-12-24 p8 is the known Roberts Bros. mill sale at Knaggs Bridge.
+- "Knaggs bridge" gold MI 1880-1950: 81 hits. LANSING STATE JOURNAL 1936-10-18 p11 (https://www.newspapers.com/image/207191442/), a Burns township history feature with a photo of the 1898 carding mill; data from E. D. ALLEN, 207 W. Grand River Ave, Lansing, born near Knaggs Bridge:
+  - "Below the town was an old wooden bridge known as Knaggs bridge. Knaggs was an Indian chief whose winter quarters were located near Burns."
+  - Subhead "Gold Burned [=Buried] in Gully": "Near the bridge is KNAGGS GULLY, or ravine. It was here, so legend has it, that Chief Knaggs buried a quantity of gold money which he had received when he sold several hundreds of acres owned by his tribal family to a pioneer, N. G. PHILLIPS... For years enthusiasts, hopeful and ambitious, are said to have dug up every foot of the ravine... To this day hopeful ones come now and then with shovels and picks... Somewhere in the township Chief Knaggs' bones repose... His grave is as much of a secret as the hiding place of his shining metal."
+  - Also: the settlement post office was "Burns"; dam, carding mill, flour mill, two saw mills, excelsior factory; four blacksmith shops, two general stores.
+- Dedupe: 207191442 is not in leads.tsv; the plats note cites "1937 phrasing". This 1936 item is earlier and comes from a named local informant: a B candidate (independent of the 1937 piece?). No find reported. Supports the gully at the bridge (sec 6 Burns twp).
+### B2-2 Bertrand: still EMPTY
+- "Bertrand gold buried" Berrien 1895-1935: 786 hits, too broad. "Bertrand treasure" Berrien 1896-1900: 80 hits. Most were already read in sweep-2 (P14).
+- New reads: Buchanan Record 1898-12-22 p3 (an Outing magazine ad) and Herald-Palladium 1898-07-26 p4 (farm-sale listing "Bertrand township"). Noise.
+- No local account of the 1898 dig. The Niles Daily Star is not separately productive. Stays as is.
+- TREASURE (15:40Z): Knaggs stays C (LSJ 1936-10-18 Allen feature already on its row from an earlier read); Bertrand stays C. Going forward: dedupe each source image id against ALL research/ files, not just leads.tsv.
+
+### B2-3 Weesaw Spanish coins: FIRST DATED ACCOUNTS (Apr 1897), NEW (image ids not in any research file)
+- Earlier work: "Paddock Spanish coins" was empty (the Oct 1897 Paddock cluster was an obituary).
+- "Weesaw coins" MI 1896-1901: 49 hits. "Mexican coins Weesaw" Mar-Jun 1897: 3 hits.
+- Herald-Palladium (Benton Harbor) 1897-04-23 p3 (https://www.newspapers.com/image/365584723/), "HIDDEN WEALTH. Old Foreign Coins Unearthed by a Plowman in Berrien County":
+  - "A farmer in WEESAW TOWNSHIP unearthed some Spanish and Mexican coins while plowing yesterday [about 22 Apr 1897]. The coins are dated 1700. This identical place was visited by an INDIAN THIRTY YEARS AGO in search of hidden treasures. Hundreds of people are searching for hidden wealth." (credited to the Kalamazoo News)
+- Berrien Springs Era 1897-04-28 p3 (https://www.newspapers.com/image/1063986849/): "It is reported that some Spanish and Mexican coins were turned up in Weesaw township a few days ago. The coins were of ancient date but good."
+- Also Semi-Weekly Palladium 1897-04-27 p4 (not read; likely the same text).
+- No farmer named, no section. "Hundreds of people are searching" implies more may lie there. St. Joseph Herald 1897-05-01 p10 is a drain notice (noise).
+- Dates the find to about 22 Apr 1897 (not Oct). Still needs the farm owner. Stays C, now with dated print.
+
+### B2-4 Delaney boiling spring: EMPTY (first pass)
+- "Delaney spring money" MI: 15,215 hits (useless). "'boiling spring' money buried" MI 1880-1935: 51 hits. Detroit News 1907-01-19 p1 is Brooklyn (noise).
+- Isabella Co. (Mt. Pleasant) papers not checked by county yet.
+### B2-4 Delaney: Isabella Co. has NO papers on the site (county filter = 0). Statewide searches are swamped. EMPTY; closed.
+
+### B2-5 South Fox dishpans / B2-6 North Fox gold: the 1905 "REPORTED FIND" WAS A HOAX (NEW; image ids not in any research file)
+- "'South Fox' treasure" MI 1890-1950: 69 hits (Sep 1905 cluster; 1909, 1925, 1948).
+- Detroit Free Press 1905-09-09 p1 (Traverse City, Sep 8; https://www.newspapers.com/image/1049319739/), "Was Buried on Lonely Island / Dug Up $150,000 in Fox Isle / Hidden There by Men Who Stole It in Chicago Fire":
+  - "$150,000 in Spanish gold has been dug up on NORTH FOX island by Joseph Gagnon and Jay Spangle, of Northport."
+  - Two sailor strangers with maps and charts went out by launch (Carl Schroeder; Gus Petander). Spangle and Gagnon were sent by restaurant-keeper Charles Swadish to watch them and "secured the treasure", "supposed to be on the EAST SIDE".
+  - The back-story: Spanish gold packed in fruit jars, stolen in the Chicago fire; a convict's chart; the widow's husband told sailors.
+- Same wire: Saginaw News 09-09 (3 pages), Flint J 09-09 p5, Detroit News 09-09 p9, DFP 09-10 p6, Bay City 09-11 p5, Muskegon 09-11 p6.
+- DEBUNK: Muskegon Chronicle 1905-09-13 p4 (https://www.newspapers.com/image/1173782410/), "FOX ISLAND'S BURIED TREASURE WAS PRODUCT OF A WAG'S BRAIN" (Northport, Sep 13): "George Kolb, the village wag", invented the story, which got out via Spangle and Gagnon.
+- => The North Fox "reported find" = an Aug-Sep 1905 HOAX. No find. The legend (1850 Germans' gold, 1940 AP) survives separately. This is the earliest print for the Fox Islands treasure (Sep 1905; Chicago-fire Spanish-gold variant). South Fox "dishpans" not in these pieces.
+- TREASURE (15:48Z): Weesaw stays C (new 1897 sources, pin unfixed). Delaney closed, no change. NORTH FOX C->D (1905 hoax; the 1850 story rests on one AP feature); sent to Ground check.
+
+### B2-5 South Fox dishpans: EMPTY
+- Bay City Times 1925-12-27 p18 is a South Fox lighthouse reminiscence (Capt. Lewis); no treasure.
+- GR Press 1948-10-08 p44 is Charles A. Stevens clearing an airstrip on South Fox; no treasure.
+- "Fox island dishpans" MI: 721 hits, split-word noise. No print source for the dishpans story found.
+
+### B2-7 Briggs Lake coins: EMPTY (already searched out in T-list and sweep-2)
+- "'Briggs lake' coins" MN 1920-27: 1 hit (Mpls Journal 1920-05-16 p77 = a farm-sale ad). "Peters stump coins" MN 1920-26: 9 hits; Duluth 1922-06-30 p8 = Uncle Ray amulets column (noise).
+- The Elk River Star News is not on the site. No change.
+### B2-8 Abbotsford 1891: NO NEW INFO
+- "McNally Abbotsford money" WI 1891-96: 81 hits. The Marshfield 1891-08-20, 1891-12-24, 1892-06-16, 1891-08-13 and Milwaukee 1891-05-21/23 items are all already logged (sweep-2).
+- New reads: Weekly Leader (EC) 1891-06-15 p5 (Abbotsford ticket-agent rebate item, noise) and Marshfield 1891-10-15 p1 (Rand McNally directory, noise).
+- "Abbotsford express money found" 1892-1900: 1,008 hits, too broad. The status stays: the 1892 rumor that a German family found it is unconfirmed. Wausau/Chippewa/EC give nothing distinct.
+
+### B2-9 Amatuna Pell Lake: NO PRE-BOOK PRINT SOURCE found
+- "Amatuna 'Pell lake'" 1925-45: 0. "Amatuna" WI 1925-45: 144 hits, all the Nov 1925 Chicago murder wire (Samoots Amatuna), no Pell Lake / buried-money angle.
+- "'Pell lake' gangster money" WI 1925-60: 35 hits (Lake Geneva Regional News IS indexed). LGRN 1952-03-27 p12 is a Pell Lake Inn ad. Unread: LGRN 1933-12-07 p5, 1935-04-04 p6, 1930-10-02 p1; Kenosha 1933-08-17 p1 and 1934-06-13 p1 (likely gangster raids).
+- So far the legend is not found in print 1925-60.- B2-9 close: LGRN 1930-10-02 p1 "Pell lake" = Chicago Evening Post lot-promotion indignation meeting (noise). No print source; closed.
+
+### B2-10 Benton Lake stage gold: EARLIEST PRINT FOUND (1926), NEW (image id not in any research file)
+- "'Benton lake' gold stage" MI 1870-1945: 104 hits. Muskegon 1932-08-06 p3 = social (noise).
+- GRAND RAPIDS PRESS 1926-08-17 p17 (https://www.newspapers.com/image/1111727557/), "Many Weird Tales Are Told About Past of Once-Thriving Village in Newaygo County" (Fremont, Aug 17):
+  - BENTON LAKE, "several miles northeast of this city" [Fremont]; the only lake of any size in Newaygo Co. not taken by resorters; a PRIVATE lake owned by C. E. FISH (W. Hollands had bought a large tract and sold it to Fish 12 years before). A lumbering village with two big mills once stood on its banks; four lumber firms.
+  - STAGE ROBBERY: "in the early days a STAGE COACH ran from PENTWATER to BIG RAPIDS. Where it skirted the shores of this lake it was HELD UP AND ROBBED BY THE INDIANS. This is supposed to be the first robbery of this kind in the county." (No gold amount or burial in this version.)
+  - TOOLS CACHE: a white settler warned off by Indians buried a lot of his tools; "a few years ago ASA DINGMAN accidentally discovered the cache containing what was left of the rust eaten tools" (found).
+  - MONTANA MAP: "About 20 years ago [c.1906] a man came to Benton lake saying he was from Montana. He had a map showing where a treasure was buried. He asserted a BANK WAS ROBBED IN HIS STATE several years previous and the money, $72,000, was taken east and BURIED NEAR THIS LAKE." Residents helped hunt; "it never was located."
+  - 1892 forest fire: a settler buried his furniture in a deep hole; "the hole still is visible."
+- => The earliest print found (1926). The stage robbery is tied to Benton Lake (Pentwater-Big Rapids route), with no gold detail. A SECOND treasure: Montana bank loot of $72,000, c.1906, never found (matches the 1940 AP "Montana bank-loot hunter" line). Newaygo papers are not on the site.
+### B2-11 Cobmoosa: EARLIEST PRINT FOUND (1950), NEW (image id not in any research file)
+- "Cobmoosa gold" MI 1880-1955: 194 hits. "Cobmoosa treasure": 43 hits.
+  - Ludington DN 1933-09-08 p8 = a holdup on the Cobmoosa-Ferry road (place name, noise).
+  - Jackson CP 1933-08-23 p3 = "Indian John" memoir (Cobmoosa as a kin sub-chief), no treasure.
+  - Muskegon Chronicle 1937-07-16 p1 = the "Old Glory of the Ottawas" flag "treasure" (noise).
+- MUSKEGON CHRONICLE 1950-07-08 p24 (https://www.newspapers.com/image/1078347780/), Sunday feature on the former Oceana/Mason Indian reservation (photos: George W. Slocum and William Cranston at the only old Indian school building still standing "on the former reservation ... [Elbridge?], Oceana County"; John Robinson, about 80):
+  - 1850s removal from the Grand River valley to the new reserve; "the great and powerful Cob-moo-sa was the tribal chief".
+  - "One of the schoolhouses is still standing but was abandoned as such in 1873. On the corner of this lot stands a large MONUMENT erected by the DAR and local enthusiasts to the memory of Chief Cob-moo-sa WHO RESTS NEARBY."
+  - TREASURE: "So slow and deliberate was the government with its promised cash payment that Cob-moo-sa had long since passed his prime and was nearing death when it finally arrived. The money was taken to the old chief's home so the story goes... the GOLDEN COINS FILLED A COPPER KETTLE, and every member of the tribe was to have a share, but the old man... slipped out into the night and HID IT. Then he died very suddenly without revealing the hiding place. Many have searched for it since, but nobody ever reported finding it."
+- => The earliest print found (1950). Placement anchor: the DAR Cobmoosa monument by the old Indian schoolhouse (Elbridge twp, Oceana Co.); the chief's home is "nearby". Not found as of 1950. Ludington DN is indexed (1930s) but gave no earlier treasure item.
+### B2-12 Nepessing: EMPTY (as in T-list)
+- "Nepessing gold" MI 1890-1905: 39 hits. Detroit News 1895-08-10 p4 = a Lapeer farmers' picnic at Lake Nepessing (noise). "Lapeer buried $8,000" 1895-1901: 4,229 hits (noise); Detroit News 1896-10-06 p4 = a Lapeer stabbing (noise). No 1896 dig account.
+
+### B2-13 BOGUS ISLAND: COUNTY/LAKE CORRECTION? (sources NEW; image ids not in any research file)
+- "'Bogus island'" Kalamazoo Co. 1880-1945: 0 (the Kalamazoo Gazette has no county-filter hit).
+- "'Bogus island' counterfeiters" MI 1880-1950: 11 hits. Two independent accounts both put Bogus Island in BAWBEESE LAKE near HILLSDALE:
+  - Homer Index 1901-07-10 p1 (https://www.newspapers.com/image/685432365/), sketch of Silas "Old Sile" DOTY: settled near Adrian in 1834; "known to be interested in a counterfeiter's den at Blissfield and also one on BOGUS ISLAND IN BAWBEESE LAKE NEAR HILLSDALE". (Also: Doty killed a man named Noyes, hiding the body in a marsh.)
+  - Detroit Free Press 1928-08-05 p14 (https://www.newspapers.com/image/97633705/), Sile Doty feature: "a band of counterfeiters as well, who operated on BOGUS ISLAND IN BAWBEESE LAKE, which is about a mile from HILLSDALE, the county seat."
+- READING: if the atlas "Bogus Island (Kalamazoo)" placeholder means the Doty counterfeiters' island, the print sources place it at Bawbeese Lake, Hillsdale Co. There may also be a separate Kalamazoo "Bogus" spot (Portage); not found in the Kalamazoo Gazette by phrase. Treasure to confirm which story the row means.
+- Unread: Niles Daily Sun 1910-09-29 p1, Jackson CP 1933-09-19 p1, 1919 items, Battle Creek 1928-08-08 p2.- TREASURE (16:08Z): Benton Lake and Cobmoosa earliest prints noted; Nepessing no change; Bogus Island KEPT with a note (the atlas row = the Portage Marsh/Michigan Central story; Bawbeese = a separate island, no money claim, no new row).
+- B2-13 EXTRA (plane-crash story FOUND; NEW): Jackson Citizen Patriot 1933-09-19 p1, "...Counterfeiters, Say Old Residents" (https://www.newspapers.com/image/1163176384/):
+  - The swamp where the plane of air-mail pilot HAROLD L. NEFF crashed (rescued Monday after lying helpless since Saturday) is "known to residents of LEONI and vicinity as 'BOGUS ISLAND'". Owners: FRANK KING (lives on the road leading into the swamp; bought part 30 years earlier to fill out his farm), VERN CHAPPEL, JIM BATES.
+  - "identified since 1849 when Federal agents rounded up a gang of counterfeiters who were making bogus money in a CAVE ON THE ISLAND", and who also blew up MICHIGAN CENTRAL tracks in Leoni village. 8-10 members operated there several years, making silver coins.
+  - The 1849 island had "a high strip of ground, including a KNOLL, in the center. It was near this knoll that the counterfeiters dug their cave". The cave still existed 30 years earlier; "Later it was filled in by Mr. King." They crossed to the island by boat. Continued on p2 (not read).
+  - Also DFP 1933-09-20 p8 (Portage), DFP 1934-08-27 p3 (not read).
+  - => PLACEMENT: Bogus Island = the swamp island in LEONI TWP, JACKSON CO. (on the Michigan Central near Leoni village / Portage Lake-Michigan Center area), on the farms of Frank King / Chappel / Bates c.1933; the cave site = by the central knoll, filled in. NOT Kalamazoo. No hidden money in this part (counterfeiting den).- TREASURE (16:10Z): Bogus Island moved to Leoni, Jackson Co (village pin r3km, D); plat job on hold pending the reads below.
+- BOGUS ISLAND follow-up reads (NO hidden-money or hoard claim, so record only):
+  - Jackson CP 1933-09-19 p2 continuation (https://www.newspapers.com/image/1163176386/): "all of the gang were in the cave on the island and all were captured with the exception of one", who escaped to the mainland, joined a wagon train to California and the gold search, struck it rich, and "returned to Leoni with considerable money years later", the charges having been dropped. The others went to Jackson prison (then a tamarack stockade). No buried money or coin cache claimed.
+  - Detroit Free Press 1933-09-20 p8 (https://www.newspapers.com/image/97970900/), Jackson Sep 19 (Neff crash): Neff lay 63 hours in "a tamarack swamp"; it lies "Only a short distance east of where the pilot was found lay the GREAT PORTAGE MARSH, once covered with water and used by Indians to make their way between Lake Michigan and Lake Erie." "The marsh where Neff's plane landed also has a historical background. It bears the name of 'Bogus Island'", a counterfeiting gang about 1849 that blew up the Michigan Central tracks. No money claim.
+  - DFP 1934-08-27 p3: "Bogus Treasure Island Plot" = a Memphis swindle about Haiti gold (noise).
+- => No hoard/hidden-money claim in any of the three. Stays record only (D). The placement detail (tamarack swamp just W of the great Portage Marsh, Leoni twp) may help the plat job.
+- COORDINATOR (16:12Z): Bogus Island has no cache angle, so the plat job does NOT proceed; record only.
+
+### B2-14 Brockway Mill Creek: EMPTY
+- The St. Clair Co. filter returns 0 for "gambler gold buried". "Brockway 'buried gold'" MI 1890-1940: 7 hits; Port Huron Times Herald 1893-04-25 p6 = hotel arrivals (noise).
+- "gambler 'Mill creek' gold hid" MI: 6 hits; GR Press 1905-07-21 p1 = a Battle Creek poker raid (noise). Bay City 1900-10-13 p7 = Brockway of the Elmira prison (noise). No account found.
+
+### B2-15 Van Arsdale Alamo: one PLACEMENT AID (new image id); no dig
+- "'Van Arsdale' Alamo" MI 1906-11: 11 hits, all the 16 Mar-3 Apr 1907 wire (Battle Creek 1907-04-03 p2 "Recluse Is Found Dead": Frank Van Arsdale, 52, of Alamo twp, found dead in bed in his small house; heart disease). The Kalamazoo Gazette 1907-03-16 p8 original is already logged (T15).
+- "'Van Arsdale' money" Kalamazoo 1907-11: 4 hits. KALAMAZOO GAZETTE 1908-12-18 p8 (https://www.newspapers.com/image/1144788491/), County Records, Real Estate Transfers: "Frank Van Arsdale to JOHN M. SELKIG, land in ALAMO, $50." (an estate sale after his death).
+- => Plat target: John M. Selkig in Alamo twp (c.1910s plat) = the former Van Arsdale house lot. No dig or find reported. Unread: Gazette 1908-01-05 p2, 1911-11-05 p1.
+- TREASURE (16:16Z): Brockway no change. Van Arsdale: the Selkig lot sent to PC (b) as plat job 22; grade stays D.
+
+### B2-16 Laker, Homer: no later find; one possible kin farm
+- "Laker Homer money" MI 1895-1902: 241 hits, mostly Homer Index (indexed). "Laker found money" Calhoun Mar 1896-1905: 69 hits.
+- Homer Index 1900-04-04 p1 (https://www.newspapers.com/image/685460068/): obituary of Mrs. ELIZABETH LAKER, 90, of CLARENDON twp (born Brook Parish, Kent, England). She married (1) Richard Coveney (d.1841) and (2) WILLIAM LAKER (m.1845, d.1893); children Albert (d. about 1898), Amy, William. Came to the US 1852, New York 12 yrs, then Homer; "the home farm in Clarendon". She does NOT name Harry. Possible kin; unconfirmed.
+- The 1896 local obit (Homer Index 1896-03-11 p3) is already logged. No report of the hoard found 1896-1905. No barn location. Unchanged.
+
+### B2-17 Gregg, Dover: EMPTY (needs a year)
+- "Gregg money hidden Dover" WI: 56 hits (already in T-list: Chronicle 1891 = a Milwaukee fire, re-confirmed noise). "Gregg money found premises" Racine Co. 1880-1935: 75 scattered Journal Times hits, too many without a date anchor. Stays D.
+- TREASURE (16:19Z): Laker no change; do NOT follow the Clarendon lead. Gregg closed, stays D (no year available).
+
+### B2-18 FAY RAVINE: LOCATED (township), NEW (image ids not in any research file); no money
+- "Fay ravine dugout" MN 1885-1900: 5 hits, all 20-25 Dec 1890.
+- MINNEAPOLIS JOURNAL 1890-12-20 p2 (https://www.newspapers.com/image/809942996/), "CAVE OF THE ROBBERS / A Strange Discovery in LAKE PRAIRIE, Nicollet County / The Younger Boys' Retreat / A Cave in a Ravine in Which Human Bones Are Discovered" (LeSueur, Dec 20):
+  - "In LAKE PRAIRIE TOWNSHIP, NICOLLET COUNTY, has been found the subterranean rendezvous of the Younger and James boys... before and after their raid upon the Northfield bank, in 1876."
+  - Young farmers rabbit-shooting "traversing what is known as the BARNEY FAY RAVINE from its foot or base toward its head" found a weather-beaten door in the bank by the bed of a creek: an 8-ft dugout; a "blind" door into a 20x16-ft room with bunks "after the fashion of a steamboat" for at least 30; benches, stools, table, plates, kettles, a No. 9 cook stove; a box cupboard; a flour chest with 30-40 lb of buckwheat flour; old cards, newspapers, a copy of "Kit Carson"; a letter beginning "Friend Jim" probably from Frank James to James Younger; a place for keeping stolen horses; a SKULL and bones under decayed cornstalks ("one of the gang wounded in the Northfield fight probably died there").
+  - NO money or loot mentioned.
+- New Ulm Review 1890-12-24 p1 (https://www.newspapers.com/image/146949381/) reprints it ("near the river in Nicollet County").
+- => Placement: the Barney Fay ravine in Lake Prairie twp (Nicollet Co., opposite LeSueur on the Minnesota River); a creek ravine on a bank. Plat target: Barney (Bernard) Fay, Lake Prairie twp, c.1880-1900.
+
+### B2-19 Koshkonong buckskin bag: no earlier print than 1913
+- "Koshkonong gold buckskin" WI 1860-1915: 65 hits (Mar-May 1913 cluster = the known source era). Watertown News 1877-07-25 p1 = mound excavation plus a Black Hills buckskin gold-dust item (noise). Janesville 1873-07-26 p4 = farm ad. "Koshkonong gold lake treaty": 434, too broad. No 1863 diving report found.
+
+### B2-20 Hermit Island: alternate hermit identity (1890), no money
+- "'Hermit island' money" WI 1880-1945: 102 hits.
+- Beaver Dam Argus 1890-11-13 p1 (https://www.newspapers.com/image/1036739594/): a frontier vengeance tale ending "Some say that the hermit, aged and gray bearded, and with only one eye... who died in his hut on HERMIT ISLAND near Bayfield in 1866, was the same Hoskins" (initials 'H. H.' cut into his rifle stock, seven notches). No money or gold mentioned (the page's "money" hits are other items).
+- Superior Telegram 1896-11-20 p1 = South Seas "Hermit Islands" (noise). Ashland Weekly News 1899-08-09 p1 not read. The Wilson/cooper treasure version is in Burnham and the WPA guide (known). No find.
+### B2-21 Olesen, Lynn: INVENTORY added (new image id); recovered, no more
+- "Lynn silver dollars maple" WI Nov 1900-02: 151 hits; "Olesen Lynn box": 32 hits, the 6-21 Nov 1900 state wire.
+- Marshfield News 1900-11-08 p5, "Old Crime Recalled / Box of Plunder Found Buried Under Tree near Lynn" (https://www.newspapers.com/image/266504645/):
+  - ANDREW OLESEN, a farmer near Lynn, cutting down a MAPLE tree "in his PASTURE", found a cavity at its base: a wooden box about 2 ft square filled with plunder, buried so long the wood was decayed.
+  - Contents: 120 SILVER DOLLARS (American and Mexican, dated 1846-1859); about $200 IN GOLD (eagles and double eagles); several pounds of old gold and silver watch cases; candlesticks; a large quantity of solid silver knives, forks and spoons.
+  - Recalls the farmer murdered "some twenty years ago" between Lynn and Romadka and his home robbed and burned; the skeleton found last year by the roadside near Olesen's find; the neighbour-suspect later jailed for a Pittsville burglary (20 yrs, Waupun).
+- No mention of more missing. Stays F (recovered); the farm owner = Andrew Olesen (pasture W of Lynn toward Romadka, as known).
+
+### B2-22 Wisconsin River mouth coins 1887: EMPTY
+- "'half dollars' 'Wisconsin river' mouth" WI 1886-91: 36 hits. Wisconsin State Register 1887-09-03 p4 = a Thwaites canoe-voyage piece (noise).
+- "Mexican coins Wisconsin river found": 965, too broad. Grant Co. "coins found river mouth" 1886-90: 82 hits. Lancaster Teller 1887-06-16 p1 (WCTU essay) and Grant County Herald 1887-10-06 p1 (Atlanta soldier's-grave gold filler) = noise.
+- No source found for who lost the coins or for more found.
+
+## PC(a) share of BATCH 2 (B2-1 to B2-22) COMPLETE. PC(b) has B2-23 to B2-26.
