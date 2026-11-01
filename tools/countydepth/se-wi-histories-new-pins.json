@@ -1,0 +1,983 @@
+[
+ {
+  "id": "hsw-large-mounds-on-a-ridge-hustisford-hustisford",
+  "L": "school2",
+  "n": "Large mounds on a ridge, Hustisford (1880 history)",
+  "la": 43.34527,
+  "lo": -88.59105,
+  "y": "Prehistoric",
+  "pl": "Dodge County, sec. 10, T10N R16E",
+  "co": "Dodge",
+  "stt": "WI",
+  "v": "Look only: never dig or detect at mounds",
+  "c": "documented",
+  "s": "unknown",
+  "p": "plss",
+  "st": "From the The History of Dodge County, Wisconsin, Hustisford Twp: Large mounds on a high ridge, SW\u00bc sec 10 (C. P. Lovell), prehistoric (p. 410). Placed from the book's legal description only, not from a map, so the exact spot is unknown.",
+  "t": "Look only.",
+  "src": [
+   [
+    "The History of Dodge County, Wisconsin (Western Historical Co., Chicago, 1880), p. 410",
+    "https://archive.org/details/historyofdodgeco00west"
+   ]
+  ],
+  "pinconf": "C",
+  "pinev": [
+   "Placed at the quarter named from the county history's legal description (sec. 10, T10N R16E); good to about 400 m."
+  ],
+  "hsw": 1,
+  "warn": "Indian mounds: look only, never dig or detect (Wisconsin burial-site law)."
+ },
+ {
+  "id": "hsw-woodland-gilman-saw-mill-store-hotel-and-iron-",
+  "L": "vpo",
+  "n": "Woodland: Gilman saw-mill, store, hotel and iron-ore furnace scheme (1880 history)",
+  "la": 43.37778,
+  "lo": -88.51135,
+  "y": "1856",
+  "pl": "Dodge County, sec. 31, T11N R17E",
+  "co": "Dodge",
+  "stt": "WI",
+  "v": "Coins, tokens, buttons, harness and household items",
+  "c": "documented",
+  "s": "unknown",
+  "p": "plss",
+  "st": "From the The History of Dodge County, Wisconsin, Herman Twp: Woodland: Gilman saw-mill, smithy, store, first hotel; iron-ore furnace scheme, sec 31, laid out 1856; P.O. 1855; tornado (OCR gives the year as 1847) (p. 564-565). Placed from the book's legal description only, not from a map, so the exact spot is unknown.",
+  "t": "Check the 1937-41 aerial and the old topo for the dam, race, foundations or the crossroads, then ask the landowner. Plat books near the date may show the exact lot.",
+  "src": [
+   [
+    "The History of Dodge County, Wisconsin (Western Historical Co., Chicago, 1880), p. 564-565",
+    "https://archive.org/details/historyofdodgeco00west"
+   ]
+  ],
+  "pinconf": "C",
+  "pinev": [
+   "Placed at the section centre from the county history's legal description (sec. 31, T11N R17E); good to about 800 m."
+  ],
+  "hsw": 1
+ },
+ {
+  "id": "hsw-howard-saw-mill-sheboygan-falls-twp-sheboygan-",
+  "L": "school2",
+  "n": "Howard saw-mill, Sheboygan Falls Twp (1845)",
+  "la": 43.76943,
+  "lo": -87.89103,
+  "y": "1845",
+  "pl": "Sheboygan County, sec. 17, T15N R22E",
+  "co": "Sheboygan",
+  "stt": "WI",
+  "v": "Coins, tokens, buttons, harness and household items",
+  "c": "documented",
+  "s": "unknown",
+  "p": "plss",
+  "st": "From the History of Sheboygan County, Wisconsin, Past and Present, Sheboygan Falls Twp: Howard saw-mill, sec 17, 1845 (p. 315). Placed from the book's legal description only, not from a map, so the exact spot is unknown.",
+  "t": "Check the 1937-41 aerial and the old topo for the dam, race, foundations or the crossroads, then ask the landowner. Plat books near the date may show the exact lot.",
+  "src": [
+   [
+    "History of Sheboygan County, Wisconsin, Past and Present (Hildebrand/Buchen, 1912), p. 315",
+    "https://archive.org/details/historysheboyga00compgoog"
+   ]
+  ],
+  "pinconf": "C",
+  "pinev": [
+   "Placed at the section centre from the county history's legal description (sec. 17, T15N R22E); good to about 800 m."
+  ],
+  "hsw": 1
+ },
+ {
+  "id": "hsw-noyes-stone-quarry-whitewater-twp-whitewater",
+  "L": "school2",
+  "n": "Noyes' stone quarry, Whitewater Twp (1837)",
+  "la": 42.82039,
+  "lo": -88.74752,
+  "y": "By 1882",
+  "pl": "Walworth County, sec. 8, T4N R15E",
+  "co": "Walworth",
+  "stt": "WI",
+  "v": "Coins, tokens, buttons, harness and household items",
+  "c": "documented",
+  "s": "unknown",
+  "p": "plss",
+  "st": "From the History of Walworth County, Wisconsin, Whitewater Twp: Noyes stone quarry, sec 8, early (p. 583). Placed from the book's legal description only, not from a map, so the exact spot is unknown.",
+  "t": "Check the 1937-41 aerial and the old topo for the dam, race, foundations or the crossroads, then ask the landowner. Plat books near the date may show the exact lot.",
+  "src": [
+   [
+    "History of Walworth County, Wisconsin (Western Historical Co., Chicago, 1882), p. 583",
+    "https://archive.org/details/historyofwalwort00west"
+   ]
+  ],
+  "pinconf": "C",
+  "pinev": [
+   "Placed at the section centre from the county history's legal description (sec. 8, T4N R15E); good to about 800 m."
+  ],
+  "hsw": 1
+ },
+ {
+  "id": "hsw-hemenway-log-tavern-at-the-corners-spring-prai",
+  "L": "school2",
+  "n": "Hemenway log tavern at \"the corners\", Spring Prairie (1837)",
+  "la": 42.69117,
+  "lo": -88.41443,
+  "y": "1837",
+  "pl": "Walworth County, sec. 30, T3N R18E",
+  "co": "Walworth",
+  "stt": "WI",
+  "v": "Coins, tokens, buttons, harness and household items",
+  "c": "documented",
+  "s": "unknown",
+  "p": "plss",
+  "st": "From the History of Walworth County, Wisconsin, Spring Prairie Twp: Hemenway log tavern, \"the corners\", sec 30, 1837; replaced by a brick hotel 1845 (p. 897, 909-910). Placed from the book's legal description only, not from a map, so the exact spot is unknown.",
+  "t": "Check the 1937-41 aerial and the old topo for the dam, race, foundations or the crossroads, then ask the landowner. Plat books near the date may show the exact lot.",
+  "src": [
+   [
+    "History of Walworth County, Wisconsin (Western Historical Co., Chicago, 1882), p. 897, 909-910",
+    "https://archive.org/details/historyofwalwort00west"
+   ]
+  ],
+  "pinconf": "C",
+  "pinev": [
+   "Placed at the section centre from the county history's legal description (sec. 30, T3N R18E); good to about 800 m."
+  ],
+  "hsw": 1
+ },
+ {
+  "id": "hsw-hinman-saw-mill-la-fayette",
+  "L": "school2",
+  "n": "Hinman saw-mill (1843) and Densmore grist-mill (1856), La Fayette Twp",
+  "la": 42.73474,
+  "lo": -88.43532,
+  "y": "1843",
+  "pl": "Walworth County, sec. 12, T3N R17E",
+  "co": "Walworth",
+  "stt": "WI",
+  "v": "Coins, tokens, buttons, harness and household items",
+  "c": "documented",
+  "s": "unknown",
+  "p": "plss",
+  "st": "From the History of Walworth County, Wisconsin, La Fayette Twp: Hinman saw-mill, sec 12, 1843; Densmore grist-mill, sec 12, 1856 (p. 925, 925). Placed from the book's legal description only, not from a map, so the exact spot is unknown.",
+  "t": "Check the 1937-41 aerial and the old topo for the dam, race, foundations or the crossroads, then ask the landowner. Plat books near the date may show the exact lot.",
+  "src": [
+   [
+    "History of Walworth County, Wisconsin (Western Historical Co., Chicago, 1882), p. 925",
+    "https://archive.org/details/historyofwalwort00west"
+   ]
+  ],
+  "pinconf": "C",
+  "pinev": [
+   "Placed at the section centre from the county history's legal description (sec. 12, T3N R17E); good to about 800 m."
+  ],
+  "hsw": 1
+ },
+ {
+  "id": "hsw-payne-saw-mill-la-fayette-twp-la-fayette",
+  "L": "school2",
+  "n": "Payne saw-mill, La Fayette Twp (1844)",
+  "la": 42.72051,
+  "lo": -88.47427,
+  "y": "1844",
+  "pl": "Walworth County, sec. 15, T3N R17E",
+  "co": "Walworth",
+  "stt": "WI",
+  "v": "Coins, tokens, buttons, harness and household items",
+  "c": "documented",
+  "s": "unknown",
+  "p": "plss",
+  "st": "From the History of Walworth County, Wisconsin, La Fayette Twp: Payne saw-mill, sec 15, 1844 (p. 925). Placed from the book's legal description only, not from a map, so the exact spot is unknown.",
+  "t": "Check the 1937-41 aerial and the old topo for the dam, race, foundations or the crossroads, then ask the landowner. Plat books near the date may show the exact lot.",
+  "src": [
+   [
+    "History of Walworth County, Wisconsin (Western Historical Co., Chicago, 1882), p. 925",
+    "https://archive.org/details/historyofwalwort00west"
+   ]
+  ],
+  "pinconf": "C",
+  "pinev": [
+   "Placed at the section centre from the county history's legal description (sec. 15, T3N R17E); good to about 800 m."
+  ],
+  "hsw": 1
+ },
+ {
+  "id": "hsw-nippersink-saw-mill-and-dickerson-grist-mill-l",
+  "L": "school2",
+  "n": "Nippersink saw-mill and Dickerson grist-mill, Linn Twp (1840s-1851)",
+  "la": 42.50198,
+  "lo": -88.45228,
+  "y": "1840",
+  "pl": "Walworth County, sec. 35, T1N R17E",
+  "co": "Walworth",
+  "stt": "WI",
+  "v": "Coins, tokens, buttons, harness and household items",
+  "c": "documented",
+  "s": "unknown",
+  "p": "plss",
+  "st": "From the History of Walworth County, Wisconsin, Linn Twp: First saw-mill, Nippersink, sec 35, 1840s; Dickerson grist-mill, near the saw-mill, sec 35, 1851 (p. 957, 957). Placed from the book's legal description only, not from a map, so the exact spot is unknown.",
+  "t": "Check the 1937-41 aerial and the old topo for the dam, race, foundations or the crossroads, then ask the landowner. Plat books near the date may show the exact lot.",
+  "src": [
+   [
+    "History of Walworth County, Wisconsin (Western Historical Co., Chicago, 1882), p. 957",
+    "https://archive.org/details/historyofwalwort00west"
+   ]
+  ],
+  "pinconf": "C",
+  "pinev": [
+   "Placed at the section centre from the county history's legal description (sec. 35, T1N R17E); good to about 800 m."
+  ],
+  "hsw": 1
+ },
+ {
+  "id": "hsw-walker-tavern-first-in-linn-twp-linn",
+  "L": "school2",
+  "n": "Walker tavern, first in Linn Twp (1839)",
+  "la": 42.5778,
+  "lo": -88.49189,
+  "y": "1839",
+  "pl": "Walworth County, sec. 4, T1N R17E",
+  "co": "Walworth",
+  "stt": "WI",
+  "v": "Coins, tokens, buttons, harness and household items",
+  "c": "documented",
+  "s": "unknown",
+  "p": "plss",
+  "st": "From the History of Walworth County, Wisconsin, Linn Twp: Walker tavern (first), sec 4, 1839 (p. 957). Placed from the book's legal description only, not from a map, so the exact spot is unknown.",
+  "t": "Check the 1937-41 aerial and the old topo for the dam, race, foundations or the crossroads, then ask the landowner. Plat books near the date may show the exact lot.",
+  "src": [
+   [
+    "History of Walworth County, Wisconsin (Western Historical Co., Chicago, 1882), p. 957",
+    "https://archive.org/details/historyofwalwort00west"
+   ]
+  ],
+  "pinconf": "C",
+  "pinev": [
+   "Placed at the section centre from the county history's legal description (sec. 4, T1N R17E); good to about 800 m."
+  ],
+  "hsw": 1
+ },
+ {
+  "id": "hsw-young-s-saw-mill-kohlsdorf-mills-west-bend-twp",
+  "L": "school2",
+  "n": "Young's saw-mill / Kohlsdorf Mills, West Bend Twp (dam lost 1873 and 1881)",
+  "la": 43.41948,
+  "lo": -88.17118,
+  "y": "1873",
+  "pl": "Washington County, sec. 13, T11N R19E",
+  "co": "Washington",
+  "stt": "WI",
+  "v": "Coins, tokens, buttons, harness and household items",
+  "c": "documented",
+  "s": "unknown",
+  "p": "plss",
+  "st": "From the History of Washington and Ozaukee Counties, Wisconsin, West Bend Twp: Young's saw-mill then Kohlsdorf Mills (flouring), sec 13 (mill privilege), saw-mill early; dam lost in 1873 freshet; flouring-mill 1874-76 (J. R. Kohlsdorf); dam lost again in the 1881 flood (p. 411, bio). Placed from the book's legal description only, not from a map, so the exact spot is unknown.",
+  "t": "Check the 1937-41 aerial and the old topo for the dam, race, foundations or the crossroads, then ask the landowner. Plat books near the date may show the exact lot.",
+  "src": [
+   [
+    "History of Washington and Ozaukee Counties, Wisconsin (Western Historical Co., Chicago, 1881), p. 411, bio",
+    "https://archive.org/details/historyofwashing00west"
+   ]
+  ],
+  "pinconf": "C",
+  "pinev": [
+   "Placed at the section centre from the county history's legal description (sec. 13, T11N R19E); good to about 800 m."
+  ],
+  "hsw": 1
+ },
+ {
+  "id": "hsw-hall-s-tavern-and-rubicon-post-office-hartford",
+  "L": "school2",
+  "n": "Hall's Tavern and Rubicon Post Office, Hartford Twp (1843-47)",
+  "la": 43.34646,
+  "lo": -88.3088,
+  "y": "1843",
+  "pl": "Washington County, sec. 12, T10N R18E",
+  "co": "Washington",
+  "stt": "WI",
+  "v": "Coins, tokens, buttons, harness and household items",
+  "c": "documented",
+  "s": "unknown",
+  "p": "plss",
+  "st": "From the History of Washington and Ozaukee Counties, Wisconsin, Hartford Twp: Hall's Tavern = Rubicon Post Office (first P.O.), sec 12, Fond du Lac road, cabin 1843; tavern; P.O. 1847 (Timothy Hall) (p. 412, 418). Placed from the book's legal description only, not from a map, so the exact spot is unknown.",
+  "t": "Check the 1937-41 aerial and the old topo for the dam, race, foundations or the crossroads, then ask the landowner. Plat books near the date may show the exact lot.",
+  "src": [
+   [
+    "History of Washington and Ozaukee Counties, Wisconsin (Western Historical Co., Chicago, 1881), p. 412, 418",
+    "https://archive.org/details/historyofwashing00west"
+   ]
+  ],
+  "pinconf": "C",
+  "pinev": [
+   "Placed at the section centre from the county history's legal description (sec. 12, T10N R18E); good to about 800 m."
+  ],
+  "hsw": 1
+ },
+ {
+  "id": "hsw-rix-saw-and-grist-mill-polk",
+  "L": "school2",
+  "n": "Rix saw- and grist-mill (Cedar Creek Mills), Polk Twp",
+  "la": 43.33153,
+  "lo": -88.21132,
+  "y": "By 1881",
+  "pl": "Washington County, sec. 14, T10N R19E",
+  "co": "Washington",
+  "stt": "WI",
+  "v": "Coins, tokens, buttons, harness and household items",
+  "c": "documented",
+  "s": "unknown",
+  "p": "plss",
+  "st": "From the History of Washington and Ozaukee Counties, Wisconsin, Polk Twp: Rix saw- and grist-mill (Cedar Creek Mills), 1 mi below Maxon's, sec 14, (John Rix & Co.) (p. 425, bio). Placed from the book's legal description only, not from a map, so the exact spot is unknown.",
+  "t": "Check the 1937-41 aerial and the old topo for the dam, race, foundations or the crossroads, then ask the landowner. Plat books near the date may show the exact lot.",
+  "src": [
+   [
+    "History of Washington and Ozaukee Counties, Wisconsin (Western Historical Co., Chicago, 1881), p. 425, bio",
+    "https://archive.org/details/historyofwashing00west"
+   ]
+  ],
+  "pinconf": "C",
+  "pinev": [
+   "Placed at the section centre from the county history's legal description (sec. 14, T10N R19E); good to about 800 m."
+  ],
+  "hsw": 1
+ },
+ {
+  "id": "hsw-reiter-grist-mill-on-cedar-creek-polk-twp-polk",
+  "L": "school2",
+  "n": "Reiter grist-mill on Cedar Creek, Polk Twp (1853)",
+  "la": 43.3316,
+  "lo": -88.19149,
+  "y": "1853",
+  "pl": "Washington County, sec. 13, T10N R19E",
+  "co": "Washington",
+  "stt": "WI",
+  "v": "Coins, tokens, buttons, harness and household items",
+  "c": "documented",
+  "s": "unknown",
+  "p": "plss",
+  "st": "From the History of Washington and Ozaukee Counties, Wisconsin, Polk Twp: Reiter grist-mill, sec 13, Cedar Creek, 1853 (Andrew Reiter) (p. 425). Placed from the book's legal description only, not from a map, so the exact spot is unknown.",
+  "t": "Check the 1937-41 aerial and the old topo for the dam, race, foundations or the crossroads, then ask the landowner. Plat books near the date may show the exact lot.",
+  "src": [
+   [
+    "History of Washington and Ozaukee Counties, Wisconsin (Western Historical Co., Chicago, 1881), p. 425",
+    "https://archive.org/details/historyofwashing00west"
+   ]
+  ],
+  "pinconf": "C",
+  "pinev": [
+   "Placed at the section centre from the county history's legal description (sec. 13, T10N R19E); good to about 800 m."
+  ],
+  "hsw": 1
+ },
+ {
+  "id": "hsw-clarence-post-office-danforth-house-farmington",
+  "L": "vpo",
+  "n": "Clarence Post Office, Danforth house, Farmington Twp (1848)",
+  "la": 43.49964,
+  "lo": -88.1228,
+  "y": "1848",
+  "pl": "Washington County, sec. 17, T12N R20E",
+  "co": "Washington",
+  "stt": "WI",
+  "v": "Coins, tokens, buttons, harness and household items",
+  "c": "documented",
+  "s": "unknown",
+  "p": "plss",
+  "st": "From the History of Washington and Ozaukee Counties, Wisconsin, Farmington Twp: Clarence Post Office, SE corner sec 17 (Jonathan Danforth's house), 1848 (p. 430). Placed from the book's legal description only, not from a map, so the exact spot is unknown.",
+  "t": "Check the 1937-41 aerial and the old topo for the dam, race, foundations or the crossroads, then ask the landowner. Plat books near the date may show the exact lot.",
+  "src": [
+   [
+    "History of Washington and Ozaukee Counties, Wisconsin (Western Historical Co., Chicago, 1881), p. 430",
+    "https://archive.org/details/historyofwashing00west"
+   ]
+  ],
+  "pinconf": "C",
+  "pinev": [
+   "Placed at the quarter named from the county history's legal description (sec. 17, T12N R20E); good to about 400 m."
+  ],
+  "hsw": 1
+ },
+ {
+  "id": "hsw-trenam-cheese-factory-first-in-farmington-twp-",
+  "L": "school2",
+  "n": "Trenam cheese factory, first in Farmington Twp (1871)",
+  "la": 43.50556,
+  "lo": -88.13065,
+  "y": "1871",
+  "pl": "Washington County, sec. 17, T12N R20E",
+  "co": "Washington",
+  "stt": "WI",
+  "v": "Coins, tokens, buttons, harness and household items",
+  "c": "documented",
+  "s": "unknown",
+  "p": "plss",
+  "st": "From the History of Washington and Ozaukee Counties, Wisconsin, Farmington Twp: Trenam cheese factory (first), sec 17, 1871 (p. 431). Placed from the book's legal description only, not from a map, so the exact spot is unknown.",
+  "t": "Check the 1937-41 aerial and the old topo for the dam, race, foundations or the crossroads, then ask the landowner. Plat books near the date may show the exact lot.",
+  "src": [
+   [
+    "History of Washington and Ozaukee Counties, Wisconsin (Western Historical Co., Chicago, 1881), p. 431",
+    "https://archive.org/details/historyofwashing00west"
+   ]
+  ],
+  "pinconf": "C",
+  "pinev": [
+   "Placed at the section centre from the county history's legal description (sec. 17, T12N R20E); good to about 800 m."
+  ],
+  "hsw": 1
+ },
+ {
+  "id": "hsw-gruhle-cheese-factory-farmington-twp-farmingto",
+  "L": "school2",
+  "n": "Gruhle cheese factory, Farmington Twp (1870s)",
+  "la": 43.491,
+  "lo": -88.07072,
+  "y": "1870",
+  "pl": "Washington County, sec. 23, T12N R20E",
+  "co": "Washington",
+  "stt": "WI",
+  "v": "Coins, tokens, buttons, harness and household items",
+  "c": "documented",
+  "s": "unknown",
+  "p": "plss",
+  "st": "From the History of Washington and Ozaukee Counties, Wisconsin, Farmington Twp: Gruhle cheese factory, sec 23, c.1870s (p. 431). Placed from the book's legal description only, not from a map, so the exact spot is unknown.",
+  "t": "Check the 1937-41 aerial and the old topo for the dam, race, foundations or the crossroads, then ask the landowner. Plat books near the date may show the exact lot.",
+  "src": [
+   [
+    "History of Washington and Ozaukee Counties, Wisconsin (Western Historical Co., Chicago, 1881), p. 431",
+    "https://archive.org/details/historyofwashing00west"
+   ]
+  ],
+  "pinconf": "C",
+  "pinev": [
+   "Placed at the section centre from the county history's legal description (sec. 23, T12N R20E); good to about 800 m."
+  ],
+  "hsw": 1
+ },
+ {
+  "id": "hsw-woog-co-cheese-factory-farmington-twp-farmingt",
+  "L": "school2",
+  "n": "Woog & Co. cheese factory, Farmington Twp (1870s)",
+  "la": 43.53496,
+  "lo": -88.05053,
+  "y": "1870",
+  "pl": "Washington County, sec. 1, T12N R20E",
+  "co": "Washington",
+  "stt": "WI",
+  "v": "Coins, tokens, buttons, harness and household items",
+  "c": "documented",
+  "s": "unknown",
+  "p": "plss",
+  "st": "From the History of Washington and Ozaukee Counties, Wisconsin, Farmington Twp: Woog & Co. cheese factory, sec 1, c.1870s (p. 431). Placed from the book's legal description only, not from a map, so the exact spot is unknown.",
+  "t": "Check the 1937-41 aerial and the old topo for the dam, race, foundations or the crossroads, then ask the landowner. Plat books near the date may show the exact lot.",
+  "src": [
+   [
+    "History of Washington and Ozaukee Counties, Wisconsin (Western Historical Co., Chicago, 1881), p. 431",
+    "https://archive.org/details/historyofwashing00west"
+   ]
+  ],
+  "pinconf": "C",
+  "pinev": [
+   "Placed at the section centre from the county history's legal description (sec. 1, T12N R20E); good to about 800 m."
+  ],
+  "hsw": 1
+ },
+ {
+  "id": "hsw-farmington-brewery-farmington",
+  "L": "school2",
+  "n": "Farmington Brewery (1860)",
+  "la": 43.49675,
+  "lo": -88.0586,
+  "y": "1860",
+  "pl": "Washington County, sec. 24, T12N R20E",
+  "co": "Washington",
+  "stt": "WI",
+  "v": "Coins, tokens, buttons, harness and household items",
+  "c": "documented",
+  "s": "unknown",
+  "p": "plss",
+  "st": "From the History of Washington and Ozaukee Counties, Wisconsin, Farmington Twp: Farmington Brewery, near NW corner sec 24, 1860 (biographical sketches). Placed from the book's legal description only, not from a map, so the exact spot is unknown.",
+  "t": "Check the 1937-41 aerial and the old topo for the dam, race, foundations or the crossroads, then ask the landowner. Plat books near the date may show the exact lot.",
+  "src": [
+   [
+    "History of Washington and Ozaukee Counties, Wisconsin (Western Historical Co., Chicago, 1881), biographical sketches",
+    "https://archive.org/details/historyofwashing00west"
+   ]
+  ],
+  "pinconf": "C",
+  "pinev": [
+   "Placed at the quarter named from the county history's legal description (sec. 24, T12N R20E); good to about 400 m."
+  ],
+  "hsw": 1
+ },
+ {
+  "id": "hsw-salisbury-dam-saw-mill-grist-mill-and-ashery-n",
+  "L": "school2",
+  "n": "Salisbury dam, saw-mill, grist-mill and ashery, Newburg (1847-48)",
+  "la": 43.43253,
+  "lo": -88.05085,
+  "y": "1847",
+  "pl": "Washington County, sec. 12, T11N R20E",
+  "co": "Washington",
+  "stt": "WI",
+  "v": "Coins, tokens, buttons, harness and household items",
+  "c": "documented",
+  "s": "unknown",
+  "p": "plss",
+  "st": "From the History of Washington and Ozaukee Counties, Wisconsin, Trenton Twp: Newburg: Salisbury dam, saw-mill, grist-mill, ashery (\"black salts\"), sec 12, Milwaukee R., 1847-48 (Barton Salisbury); \"the old mill still stands\" (p. 443-444, 546). Placed from the book's legal description only, not from a map, so the exact spot is unknown.",
+  "t": "Check the 1937-41 aerial and the old topo for the dam, race, foundations or the crossroads, then ask the landowner. Plat books near the date may show the exact lot.",
+  "src": [
+   [
+    "History of Washington and Ozaukee Counties, Wisconsin (Western Historical Co., Chicago, 1881), p. 443-444, 546",
+    "https://archive.org/details/historyofwashing00west"
+   ]
+  ],
+  "pinconf": "C",
+  "pinev": [
+   "Placed at the section centre from the county history's legal description (sec. 12, T11N R20E); good to about 800 m."
+  ],
+  "hsw": 1
+ },
+ {
+  "id": "hsw-schroeder-cheese-factory-trenton-twp-trenton",
+  "L": "school2",
+  "n": "Schroeder cheese factory, Trenton Twp (1878)",
+  "la": 43.39043,
+  "lo": -88.15064,
+  "y": "1878",
+  "pl": "Washington County, sec. 30, T11N R20E",
+  "co": "Washington",
+  "stt": "WI",
+  "v": "Coins, tokens, buttons, harness and household items",
+  "c": "documented",
+  "s": "unknown",
+  "p": "plss",
+  "st": "From the History of Washington and Ozaukee Counties, Wisconsin, Trenton Twp: Schroeder cheese factory, sec 30, 1878 (p. 445). Placed from the book's legal description only, not from a map, so the exact spot is unknown.",
+  "t": "Check the 1937-41 aerial and the old topo for the dam, race, foundations or the crossroads, then ask the landowner. Plat books near the date may show the exact lot.",
+  "src": [
+   [
+    "History of Washington and Ozaukee Counties, Wisconsin (Western Historical Co., Chicago, 1881), p. 445",
+    "https://archive.org/details/historyofwashing00west"
+   ]
+  ],
+  "pinconf": "C",
+  "pinev": [
+   "Placed at the section centre from the county history's legal description (sec. 30, T11N R20E); good to about 800 m."
+  ],
+  "hsw": 1
+ },
+ {
+  "id": "hsw-keidel-steam-saw-mill-at-addison-p-o-addison",
+  "L": "school2",
+  "n": "Keidel steam saw-mill at Addison P.O. (1870)",
+  "la": 43.42083,
+  "lo": -88.37089,
+  "y": "1870",
+  "pl": "Washington County, sec. 17, T11N R18E",
+  "co": "Washington",
+  "stt": "WI",
+  "v": "Coins, tokens, buttons, harness and household items",
+  "c": "documented",
+  "s": "unknown",
+  "p": "plss",
+  "st": "From the History of Washington and Ozaukee Counties, Wisconsin, Addison Twp: Keidel steam saw-mill, Addison P.O., sec 17, 1870 (p. 454). Placed from the book's legal description only, not from a map, so the exact spot is unknown.",
+  "t": "Check the 1937-41 aerial and the old topo for the dam, race, foundations or the crossroads, then ask the landowner. Plat books near the date may show the exact lot.",
+  "src": [
+   [
+    "History of Washington and Ozaukee Counties, Wisconsin (Western Historical Co., Chicago, 1881), p. 454",
+    "https://archive.org/details/historyofwashing00west"
+   ]
+  ],
+  "pinconf": "C",
+  "pinev": [
+   "Placed at the section centre from the county history's legal description (sec. 17, T11N R18E); good to about 800 m."
+  ],
+  "hsw": 1
+ },
+ {
+  "id": "hsw-laubenheimer-block-house-tavern-and-store-rich",
+  "L": "school2",
+  "n": "Laubenheimer block-house tavern and store, Richfield Twp (1840s-1874)",
+  "la": 43.25807,
+  "lo": -88.19187,
+  "y": "1840",
+  "pl": "Washington County, sec. 12, T9N R19E",
+  "co": "Washington",
+  "stt": "WI",
+  "v": "Coins, tokens, buttons, harness and household items",
+  "c": "documented",
+  "s": "unknown",
+  "p": "plss",
+  "st": "From the History of Washington and Ozaukee Counties, Wisconsin, Richfield Twp: Laubenheimer block-house tavern/store (the first German tavern in the county), sec 12, old Fond du Lac road, 1840s; run as a tavern until 1874; still standing in 1881 (p. 463). Placed from the book's legal description only, not from a map, so the exact spot is unknown.",
+  "t": "Check the 1937-41 aerial and the old topo for the dam, race, foundations or the crossroads, then ask the landowner. Plat books near the date may show the exact lot.",
+  "src": [
+   [
+    "History of Washington and Ozaukee Counties, Wisconsin (Western Historical Co., Chicago, 1881), p. 463",
+    "https://archive.org/details/historyofwashing00west"
+   ]
+  ],
+  "pinconf": "C",
+  "pinev": [
+   "Placed at the section centre from the county history's legal description (sec. 12, T9N R19E); good to about 800 m."
+  ],
+  "hsw": 1
+ },
+ {
+  "id": "hsw-st-augustine-log-church-richfield",
+  "L": "school2",
+  "n": "St. Augustine log church (disused by 1881), Richfield Twp",
+  "la": 43.24397,
+  "lo": -88.29141,
+  "y": "By 1881",
+  "pl": "Washington County, sec. 18, T9N R19E",
+  "co": "Washington",
+  "stt": "WI",
+  "v": "Coins, tokens, buttons, harness and household items",
+  "c": "documented",
+  "s": "unknown",
+  "p": "plss",
+  "st": "From the History of Washington and Ozaukee Counties, Wisconsin, Richfield Twp: St. Augustine log church (disused), sec 18, early (p. 462). Placed from the book's legal description only, not from a map, so the exact spot is unknown.",
+  "t": "Check the 1937-41 aerial and the old topo for the dam, race, foundations or the crossroads, then ask the landowner. Plat books near the date may show the exact lot.",
+  "src": [
+   [
+    "History of Washington and Ozaukee Counties, Wisconsin (Western Historical Co., Chicago, 1881), p. 462",
+    "https://archive.org/details/historyofwashing00west"
+   ]
+  ],
+  "pinconf": "C",
+  "pinev": [
+   "Placed at the section centre from the county history's legal description (sec. 18, T9N R19E); good to about 800 m."
+  ],
+  "hsw": 1
+ },
+ {
+  "id": "hsw-schmidt-dam-and-saw-mill-saukville-twp-saukvil",
+  "L": "school2",
+  "n": "Schmidt dam and saw-mill, Saukville Twp (1860; swept away 1881)",
+  "la": 43.44777,
+  "lo": -87.97065,
+  "y": "1860",
+  "pl": "Ozaukee County, sec. 3, T11N R21E",
+  "co": "Ozaukee",
+  "stt": "WI",
+  "v": "Coins, tokens, buttons, harness and household items",
+  "c": "documented",
+  "s": "unknown",
+  "p": "plss",
+  "st": "From the History of Washington and Ozaukee Counties, Wisconsin, Saukville Twp: Schmidt dam and saw-mill, sec 3, 4 mi N of village, 1860; saw-mill swept away 1881 (p. 536). Placed from the book's legal description only, not from a map, so the exact spot is unknown.",
+  "t": "Check the 1937-41 aerial and the old topo for the dam, race, foundations or the crossroads, then ask the landowner. Plat books near the date may show the exact lot.",
+  "src": [
+   [
+    "History of Washington and Ozaukee Counties, Wisconsin (Western Historical Co., Chicago, 1881), p. 536",
+    "https://archive.org/details/historyofwashing00west"
+   ]
+  ],
+  "pinconf": "C",
+  "pinev": [
+   "Placed at the section centre from the county history's legal description (sec. 3, T11N R21E); good to about 800 m."
+  ],
+  "hsw": 1
+ },
+ {
+  "id": "hsw-first-tavern-brookfield",
+  "L": "school2",
+  "n": "First tavern (claim house), Brookfield Twp (1836-37)",
+  "la": 43.03832,
+  "lo": -88.07686,
+  "y": "1836",
+  "pl": "Waukesha County, sec. 25, T7N R20E",
+  "co": "Waukesha",
+  "stt": "WI",
+  "v": "Coins, tokens, buttons, harness and household items",
+  "c": "documented",
+  "s": "unknown",
+  "p": "plss",
+  "st": "From the The History of Waukesha County, Wisconsin, Brookfield Twp: First tavern (claim house), sec 25 (later H. Gregg's), 1836-37 (p. 729). Placed from the book's legal description only, not from a map, so the exact spot is unknown.",
+  "t": "Check the 1937-41 aerial and the old topo for the dam, race, foundations or the crossroads, then ask the landowner. Plat books near the date may show the exact lot.",
+  "src": [
+   [
+    "The History of Waukesha County, Wisconsin (Western Historical Co., Chicago, 1880), p. 729",
+    "https://archive.org/details/historyofwaukesh00west"
+   ]
+  ],
+  "pinconf": "C",
+  "pinev": [
+   "Placed at the section centre from the county history's legal description (sec. 25, T7N R20E); good to about 800 m."
+  ],
+  "hsw": 1
+ },
+ {
+  "id": "hsw-hart-saw-mill-brookfield",
+  "L": "school2",
+  "n": "Hart saw-mill (c.1838) and grist-mill (c.1860), Brookfield Twp",
+  "la": 43.0679,
+  "lo": -88.11604,
+  "y": "1838",
+  "pl": "Waukesha County, sec. 15, T7N R20E",
+  "co": "Waukesha",
+  "stt": "WI",
+  "v": "Coins, tokens, buttons, harness and household items",
+  "c": "documented",
+  "s": "unknown",
+  "p": "plss",
+  "st": "From the The History of Waukesha County, Wisconsin, Brookfield Twp: Hart saw-mill (first mill in town), sec 15, c.1838; ran until a few years before 1880; Hart grist-mill, near Hart's saw-mill, sec 15, c.1860; \"demolished\" after a few years (p. 729, 729). Placed from the book's legal description only, not from a map, so the exact spot is unknown.",
+  "t": "Check the 1937-41 aerial and the old topo for the dam, race, foundations or the crossroads, then ask the landowner. Plat books near the date may show the exact lot.",
+  "src": [
+   [
+    "The History of Waukesha County, Wisconsin (Western Historical Co., Chicago, 1880), p. 729",
+    "https://archive.org/details/historyofwaukesh00west"
+   ]
+  ],
+  "pinconf": "C",
+  "pinev": [
+   "Placed at the section centre from the county history's legal description (sec. 15, T7N R20E); good to about 800 m."
+  ],
+  "hsw": 1
+ },
+ {
+  "id": "hsw-eagle-center-hamlet-eagle",
+  "L": "vpo",
+  "n": "Eagle Center hamlet (1851)",
+  "la": 42.87897,
+  "lo": -88.47356,
+  "y": "1851",
+  "pl": "Waukesha County, sec. 22, T5N R17E",
+  "co": "Waukesha",
+  "stt": "WI",
+  "v": "Coins, tokens, buttons, harness and household items",
+  "c": "documented",
+  "s": "unknown",
+  "p": "plss",
+  "st": "From the The History of Waukesha County, Wisconsin, Eagle Twp: Eagle Center, centre of sec 22, 1851 (p. 737). Placed from the book's legal description only, not from a map, so the exact spot is unknown.",
+  "t": "Check the 1937-41 aerial and the old topo for the dam, race, foundations or the crossroads, then ask the landowner. Plat books near the date may show the exact lot.",
+  "src": [
+   [
+    "The History of Waukesha County, Wisconsin (Western Historical Co., Chicago, 1880), p. 737",
+    "https://archive.org/details/historyofwaukesh00west"
+   ]
+  ],
+  "pinconf": "C",
+  "pinev": [
+   "Placed at the section centre from the county history's legal description (sec. 22, T5N R17E); good to about 800 m."
+  ],
+  "hsw": 1
+ },
+ {
+  "id": "hsw-weaver-post-office-lisbon-twp-lisbon",
+  "L": "vpo",
+  "n": "Weaver Post Office, Lisbon Twp (1840s; moved to Sussex 1849)",
+  "la": 43.11202,
+  "lo": -88.2151,
+  "y": "1840",
+  "pl": "Waukesha County, sec. 35, T8N R19E",
+  "co": "Waukesha",
+  "stt": "WI",
+  "v": "Coins, tokens, buttons, harness and household items",
+  "c": "documented",
+  "s": "unknown",
+  "p": "plss",
+  "st": "From the The History of Waukesha County, Wisconsin, Lisbon Twp: Weaver P.O. (first), sec 35, Weaver farm, 1840s; moved to Sussex 1849 (p. 746). Placed from the book's legal description only, not from a map, so the exact spot is unknown.",
+  "t": "Check the 1937-41 aerial and the old topo for the dam, race, foundations or the crossroads, then ask the landowner. Plat books near the date may show the exact lot.",
+  "src": [
+   [
+    "The History of Waukesha County, Wisconsin (Western Historical Co., Chicago, 1880), p. 746",
+    "https://archive.org/details/historyofwaukesh00west"
+   ]
+  ],
+  "pinconf": "C",
+  "pinev": [
+   "Placed at the section centre from the county history's legal description (sec. 35, T8N R19E); good to about 800 m."
+  ],
+  "hsw": 1
+ },
+ {
+  "id": "hsw-stone-bank-mills-johnson-saw-mill-merton",
+  "L": "school2",
+  "n": "Stone Bank mills: Johnson saw-mill (1842) and Ferguson grist- and saw-mill (1844-45)",
+  "la": 43.14241,
+  "lo": -88.41096,
+  "y": "1842",
+  "pl": "Waukesha County, sec. 19, T8N R18E",
+  "co": "Waukesha",
+  "stt": "WI",
+  "v": "Coins, tokens, buttons, harness and household items",
+  "c": "documented",
+  "s": "unknown",
+  "p": "plss",
+  "st": "From the The History of Waukesha County, Wisconsin, Merton Twp: Stone Bank: Johnson saw-mill, sec 19, about 60 rods N of the grist-mill, 1842; used ~35 years, then abandoned; Stone Bank: Ferguson grist-mill and saw-mill, sec 19, 1844-45; saw-mill ran ~20 years (p. 751, 751). Placed from the book's legal description only, not from a map, so the exact spot is unknown.",
+  "t": "Check the 1937-41 aerial and the old topo for the dam, race, foundations or the crossroads, then ask the landowner. Plat books near the date may show the exact lot.",
+  "src": [
+   [
+    "The History of Waukesha County, Wisconsin (Western Historical Co., Chicago, 1880), p. 751",
+    "https://archive.org/details/historyofwaukesh00west"
+   ]
+  ],
+  "pinconf": "C",
+  "pinev": [
+   "Placed at the section centre from the county history's legal description (sec. 19, T8N R18E); good to about 800 m."
+  ],
+  "hsw": 1
+ },
+ {
+  "id": "hsw-smith-killmer-mill-merton-twp-merton",
+  "L": "school2",
+  "n": "Smith & Killmer mill, Merton Twp (1847)",
+  "la": 43.15625,
+  "lo": -88.35093,
+  "y": "1847",
+  "pl": "Waukesha County, sec. 15, T8N R18E",
+  "co": "Waukesha",
+  "stt": "WI",
+  "v": "Coins, tokens, buttons, harness and household items",
+  "c": "documented",
+  "s": "unknown",
+  "p": "plss",
+  "st": "From the The History of Waukesha County, Wisconsin, Merton Twp: Smith & Killmer mill, sec 15, 1847 (p. 752). Placed from the book's legal description only, not from a map, so the exact spot is unknown.",
+  "t": "Check the 1937-41 aerial and the old topo for the dam, race, foundations or the crossroads, then ask the landowner. Plat books near the date may show the exact lot.",
+  "src": [
+   [
+    "The History of Waukesha County, Wisconsin (Western Historical Co., Chicago, 1880), p. 752",
+    "https://archive.org/details/historyofwaukesh00west"
+   ]
+  ],
+  "pinconf": "C",
+  "pinev": [
+   "Placed at the section centre from the county history's legal description (sec. 15, T8N R18E); good to about 800 m."
+  ],
+  "hsw": 1
+ },
+ {
+  "id": "hsw-nottingham-phippin-saw-mill-on-the-fox-river-m",
+  "L": "school2",
+  "n": "Nottingham & Phippin saw-mill on the Fox River, Menomonee Twp (early 1840s)",
+  "la": 43.1119,
+  "lo": -88.17516,
+  "y": "1840",
+  "pl": "Waukesha County, sec. 31, T8N R20E",
+  "co": "Waukesha",
+  "stt": "WI",
+  "v": "Coins, tokens, buttons, harness and household items",
+  "c": "documented",
+  "s": "unknown",
+  "p": "plss",
+  "st": "From the The History of Waukesha County, Wisconsin, Menomonee Twp: Nottingham & Phippin saw-mill (first mill), Fox River, sec 31, early 1840s; site of the first murder in the county (1845, Bonham shot Keene) (p. 752). Placed from the book's legal description only, not from a map, so the exact spot is unknown.",
+  "t": "Check the 1937-41 aerial and the old topo for the dam, race, foundations or the crossroads, then ask the landowner. Plat books near the date may show the exact lot.",
+  "src": [
+   [
+    "The History of Waukesha County, Wisconsin (Western Historical Co., Chicago, 1880), p. 752",
+    "https://archive.org/details/historyofwaukesh00west"
+   ]
+  ],
+  "pinconf": "C",
+  "pinev": [
+   "Placed at the section centre from the county history's legal description (sec. 31, T8N R20E); good to about 800 m."
+  ],
+  "hsw": 1
+ },
+ {
+  "id": "hsw-orendorf-ferry-block-house-hotel-and-post-offi",
+  "L": "school2",
+  "n": "Orendorf ferry, block-house hotel and post office on the Fox River, Mukwonago Twp (c.1837-38)",
+  "la": 42.8786,
+  "lo": -88.31595,
+  "y": "1837",
+  "pl": "Waukesha County, sec. 24, T5N R18E",
+  "co": "Waukesha",
+  "stt": "WI",
+  "v": "Coins, tokens, buttons, harness and household items",
+  "c": "documented",
+  "s": "unknown",
+  "p": "plss",
+  "st": "From the The History of Waukesha County, Wisconsin, Mukwonago Twp: Orendorf ferry, block-house hotel, P.O., sec 24, Fox River, c.1837-38 (p. 760). Placed from the book's legal description only, not from a map, so the exact spot is unknown.",
+  "t": "Check the 1937-41 aerial and the old topo for the dam, race, foundations or the crossroads, then ask the landowner. Plat books near the date may show the exact lot.",
+  "src": [
+   [
+    "The History of Waukesha County, Wisconsin (Western Historical Co., Chicago, 1880), p. 760",
+    "https://archive.org/details/historyofwaukesh00west"
+   ]
+  ],
+  "pinconf": "C",
+  "pinev": [
+   "Placed at the section centre from the county history's legal description (sec. 24, T5N R18E); good to about 800 m."
+  ],
+  "hsw": 1
+ },
+ {
+  "id": "hsw-taylor-saw-mill-store-and-hotel-muskego-center",
+  "L": "school2",
+  "n": "Taylor saw-mill, store and hotel, Muskego Center (1838)",
+  "la": 42.90872,
+  "lo": -88.13904,
+  "y": "1838",
+  "pl": "Waukesha County, sec. 9, T5N R20E",
+  "co": "Waukesha",
+  "stt": "WI",
+  "v": "Coins, tokens, buttons, harness and household items",
+  "c": "documented",
+  "s": "unknown",
+  "p": "plss",
+  "st": "From the The History of Waukesha County, Wisconsin, Muskego Twp: Taylor saw-mill, store and hotel (all firsts), Muskego Center (S end of Little Muskego, sec 9), 1838 (p. 765, 767). Placed from the book's legal description only, not from a map, so the exact spot is unknown.",
+  "t": "Check the 1937-41 aerial and the old topo for the dam, race, foundations or the crossroads, then ask the landowner. Plat books near the date may show the exact lot.",
+  "src": [
+   [
+    "The History of Waukesha County, Wisconsin (Western Historical Co., Chicago, 1880), p. 765, 767",
+    "https://archive.org/details/historyofwaukesh00west"
+   ]
+  ],
+  "pinconf": "C",
+  "pinev": [
+   "Placed at the section centre from the county history's legal description (sec. 9, T5N R20E); good to about 800 m."
+  ],
+  "hsw": 1
+ },
+ {
+  "id": "hsw-gasmann-saw-mill-and-grist-mill-on-the-ashippu",
+  "L": "school2",
+  "n": "Gasmann saw-mill and grist-mill on the Ashippun River, Oconomowoc Twp (1844)",
+  "la": 43.18727,
+  "lo": -88.44827,
+  "y": "1844",
+  "pl": "Waukesha County, sec. 2, T8N R17E",
+  "co": "Waukesha",
+  "stt": "WI",
+  "v": "Coins, tokens, buttons, harness and household items",
+  "c": "documented",
+  "s": "unknown",
+  "p": "plss",
+  "st": "From the The History of Waukesha County, Wisconsin, Oconomowoc Twp: Gasmann saw-mill then grist-mill, sec 2, N side Ashippun River, 1844; torn down and rebuilt across the stream (p. 773). Placed from the book's legal description only, not from a map, so the exact spot is unknown.",
+  "t": "Check the 1937-41 aerial and the old topo for the dam, race, foundations or the crossroads, then ask the landowner. Plat books near the date may show the exact lot.",
+  "src": [
+   [
+    "The History of Waukesha County, Wisconsin (Western Historical Co., Chicago, 1880), p. 773",
+    "https://archive.org/details/historyofwaukesh00west"
+   ]
+  ],
+  "pinconf": "C",
+  "pinev": [
+   "Placed at the section centre from the county history's legal description (sec. 2, T8N R17E); good to about 800 m."
+  ],
+  "hsw": 1
+ },
+ {
+  "id": "hsw-reed-s-mill-at-okauchee-oconomowoc-twp-oconomo",
+  "L": "school2",
+  "n": "Reed's mill at Okauchee, Oconomowoc Twp (1839-40)",
+  "la": 43.1136,
+  "lo": -88.45141,
+  "y": "1839",
+  "pl": "Waukesha County, sec. 35, T8N R17E",
+  "co": "Waukesha",
+  "stt": "WI",
+  "v": "Coins, tokens, buttons, harness and household items",
+  "c": "documented",
+  "s": "unknown",
+  "p": "plss",
+  "st": "From the The History of Waukesha County, Wisconsin, Oconomowoc Twp: Okauchee / Reed's mill, sec 35, SW side Okauchee Lake, 1839-40 (p. 773). Placed from the book's legal description only, not from a map, so the exact spot is unknown.",
+  "t": "Check the 1937-41 aerial and the old topo for the dam, race, foundations or the crossroads, then ask the landowner. Plat books near the date may show the exact lot.",
+  "src": [
+   [
+    "The History of Waukesha County, Wisconsin (Western Historical Co., Chicago, 1880), p. 773",
+    "https://archive.org/details/historyofwaukesh00west"
+   ]
+  ],
+  "pinconf": "C",
+  "pinev": [
+   "Placed at the section centre from the county history's legal description (sec. 35, T8N R17E); good to about 800 m."
+  ],
+  "hsw": 1
+ }
+]
