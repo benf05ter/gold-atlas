@@ -28,10 +28,20 @@ c=c.replace('For trips with no signal, save the offline copy <span class="mono">
 TILED=r'^(h15_|h250_|hx_|h19_|sv78_|gs_|plat_)'
 c=c.replace("/^(h15_|h250_|h19_|sv78_|gs_|plat_)/.test(f)","/"+TILED+"/.test(f)")   # the 1930s-60s sheets (hx_, v203) are in the o15 tiles too
 c=c.replace("if(!(b<lon0||a>lon1||d<la0||c>la1)) U.add('om/'+f+'.webp');","if(!(b<lon0||a>lon1||d<la0||c>la1)&&!(typeof OGT==='object'&&OGT.ix)) U.add('om/'+f+'.webp');")   # save area: the tiles, not the sheets
+# old-map tile layers served from the second repo (gold-atlas-maps, same github.io origin) instead of this one: plat books (p-*, p13) and the
+# MN survey plats (gsm) already are. To move more (for the 1 GB Pages cap), copy ot/<layer>/ into that repo's ot/ first, then list the layer here.
+MAPS_LAYERS=[]   # e.g. ['o15','bd','o19','o250','mrc']: not moved yet
+if MAPS_LAYERS:
+  r0="/^(p(-|13$)|gsm$)/.test(id)"; assert c.count(r0)==1, 'tile URL rule not found'
+  c=c.replace(r0,"/^(p(-|13$)|gsm$|"+'|'.join(l+'$' for l in MAPS_LAYERS)+")/.test(id)")
 open(out+'/index.html','w',encoding='utf-8').write(c)
 # since v120 the atlas is index.html + og-data.js (pins, towns, schools) + og/ (the two heat-map pictures); they sit next to the page
 sd=os.path.dirname(os.path.abspath(src))
 if os.path.exists(os.path.join(sd,'og-data.js')): shutil.copy(os.path.join(sd,'og-data.js'),out+'/og-data.js')
+# faster start (v466): the ~350 card patches that run at DOMContentLoaded visit only their own pins through one id index (tools/perf/dclindex.py);
+# same pins, same text, same order. The atlas copy is left as it is.
+for f in sorted(os.listdir(out)):
+  if re.match(r'og-data\d*\.js$',f): os.system(f'python3 -I "{T}/perf/dclindex.py" "{out}/{f}" "{out}/{f}"')
 if os.path.isdir(os.path.join(sd,'og')):
   os.makedirs(out+'/og',exist_ok=True)
   for f in os.listdir(os.path.join(sd,'og')): shutil.copy(os.path.join(sd,'og',f),out+'/og/'+f)
@@ -90,6 +100,8 @@ ot=sys.argv[7] if len(sys.argv)>7 else None   # old maps cut into 512 px tiles b
 if ot:
   if os.path.isdir(out+'/ot'): shutil.rmtree(out+'/ot')
   shutil.copytree(ot,out+'/ot',ignore=shutil.ignore_patterns('index-*.json')); satpre.append('ot/index.json')
+  for l in MAPS_LAYERS:
+    if os.path.isdir(out+'/ot/'+l): shutil.rmtree(out+'/ot/'+l)   # served from gold-atlas-maps (see MAPS_LAYERS)
 if ot:
   for d in ('om','om13','om19','om40'):
     if os.path.isdir(out+'/'+d):
