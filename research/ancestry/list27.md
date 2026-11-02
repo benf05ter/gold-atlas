@@ -36,3 +36,15 @@
 ## Note for the coordinator
 - L27 #15 says "Five Mile Hill / Leggatt's Hill, **Superior**". Leggatt's Hill is in **Grand Haven, MI** (list24 #18: Leggat St, 1912 Sanborn sheet 15).
 - Ancestry directories show **Geo. Leggatt, Allendale Twp, Ottawa Co, 1903/1908**, and A. W. Leggatt (Adrian, 1917-27). No Grand Haven "Leggat" directory hit. **Confirm the town** before I look for a Superior Sanborn.
+- (12:20Z) Treasure confirmed: Grand Haven MI (Light House Hill). On hold until the Ancestry viewer is back.
+
+## 8. Weesaw / Paddock (L26 #8): ruled
+- Treasure: grade stays C; the sec 11 centre pin (r1000) is accepted. Census and grave details are in list26.md #8.
+
+## 10. Ruggles Block, Bronson (Branch Co MI): PLACED (Sanborn 1897 / 1910 / 1916, LoC)
+Sources: LoC Sanborn Bronson 1897 (sanborn03935_003, 2 sheets), 1910 (sanborn03935_004, 2 sheets), Sept 1916 (sanborn03935_005: the 1910 sheets reused, plus new sheets 1916-0001 to 0004). View-only IIIF crops.
+- **1916, sheet 3 (03935_1916-0003), NE corner of the sheet:** a **"POST OFFICE"**, 2-storey brick, on the **S side of W. Chicago St, the 3rd building W of Matteson St**. The row from the SW corner of Matteson and Chicago runs west: Hardw. (lot 36, corner; harness shop behind), Meat & Gro., **POST OFFICE (lot 37)**, then Printing Office (no. 508). Behind are a garage, then the Town Hall / Fire Dept on Matteson.
+- **1910, sheet 1 (03935_1910-0001), same spot:** the same 2-storey brick building, lot 37, is labelled **"Books"** (front "open 1st on iron posts"), between Meat and the vacant no. 508. **J. F. Ruggles was a rare-book dealer** (Kalamazoo Gazette 1915-03-09 p.2 and the Detroit News / Coldwater 1915 tellings, already logged). So the 1910 bookshop became the 1915-16 post office, which matches "the brothers sold the building (now the post office)". **This is the Ruggles Block.**
+- **Cross-check:** in 1897 and 1910 the post office was elsewhere: a small Jewelry & P.O. building at the E end of the S-side block E of Matteson (lot B). By 1916 that lot is "Jewelry" only, so the post office moved between 1910 and 1916.
+- The Sanborn shows 2 storeys outside. The legend's "6 floors inside" is not shown (Sanborn does not draw half-floors or attics).
+- **Pin: 41.8721, -85.1950, r25, B** (3rd lot W of Matteson on the S side of W. Chicago St (US-12); about 30 m W and 25 m S of the Matteson/Chicago centre-line crossing at about 41.87235,-85.19468, measured on a USGS orthophoto). The orthophoto still shows buildings on this frontage. Whether the 1880s-1900s building survives needs a street-level look (Ground check). Look-only: an occupied downtown building.

@@ -481,12 +481,14 @@ Also mentions the place: `/mnt/project-files/research/treasure-statewide/pc-mnhs
 `tw-mi-bronson-ruggles-block-pipes` · grade C · Branch Co., MI
 
 Notes:
+- [ancestry/list27.md](ancestry/list27.md#L44) (line 44)
 - [ancestry/list22.md](ancestry/list22.md#L11) (line 11)
 - [ancestry/list21.md](ancestry/list21.md#L22) (line 22)
+- [ancestry/INDEX.md](ancestry/INDEX.md#L68) (line 68)
 - [plats/phillips-bronson.md](plats/phillips-bronson.md#L1) (line 1)
 - [plats/phillips-bronson-1915.md](plats/phillips-bronson-1915.md#L1) (line 1)
 
-Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L740) (line 740); [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L94) (line 94); [ancestry/land-ownership-maps-list8.md](ancestry/land-ownership-maps-list8.md#L47) (line 47); [ancestry/INDEX.md](ancestry/INDEX.md#L62) (line 62); [plats/INDEX.md](plats/INDEX.md#L58) (line 58); [aerials/mi-msu-aerials.md](aerials/mi-msu-aerials.md#L15) (line 15); `/mnt/project-files/research/treasure-statewide/leads-mi.tsv` line 8 (shared folder only); `/mnt/project-files/research/treasure-statewide/pc-b-plat-queue-2026-11-01.md` line 8 (shared folder only); `/mnt/project-files/research/treasure-statewide/persons.tsv` line 12 (shared folder only)
+Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L740) (line 740); [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L94) (line 94); [ancestry/land-ownership-maps-list8.md](ancestry/land-ownership-maps-list8.md#L47) (line 47); [plats/INDEX.md](plats/INDEX.md#L58) (line 58); [aerials/mi-msu-aerials.md](aerials/mi-msu-aerials.md#L15) (line 15); `/mnt/project-files/research/treasure-statewide/leads-mi.tsv` line 8 (shared folder only); `/mnt/project-files/research/treasure-statewide/pc-b-plat-queue-2026-11-01.md` line 8 (shared folder only); `/mnt/project-files/research/treasure-statewide/persons.tsv` line 12 (shared folder only)
 
 ### Harris Schultz’s buried money
 `cr-schultz-recluse-1914` · grade C · Isanti Co., MN
@@ -779,7 +781,7 @@ Notes:
 `tw-mi-galien-swem-pot-of-gold-1896` · grade C · Berrien Co., MI
 
 Notes:
-- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L668) (line 668)
+- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L666) (line 666)
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L148) (line 148)
 - [ancestry/list9-probate-census.md](ancestry/list9-probate-census.md#L11) (line 11)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L49) (line 49)
@@ -834,7 +836,7 @@ Notes:
 - `/mnt/project-files/research/treasure-statewide/pc-newspapers-second-sources.md` line 24 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/persons.tsv` line 11 (shared folder only)
 
-Also mentions the place: [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L148) (line 148); [ancestry/list26.md](ancestry/list26.md#L155) (line 155); [ancestry/list9-probate-census.md](ancestry/list9-probate-census.md#L12) (line 12); [ancestry/INDEX.md](ancestry/INDEX.md#L33) (line 33); [plats/sunday-plates-2026-11-02.md](plats/sunday-plates-2026-11-02.md#L29) (line 29); [plats/INDEX.md](plats/INDEX.md#L59) (line 59); `/mnt/project-files/research/treasure-statewide/pc-b-plat-queue-2026-11-01.md` line 11 (shared folder only)
+Also mentions the place: [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L148) (line 148); [ancestry/list27.md](ancestry/list27.md#L41) (line 41); [ancestry/list26.md](ancestry/list26.md#L155) (line 155); [ancestry/list9-probate-census.md](ancestry/list9-probate-census.md#L12) (line 12); [ancestry/INDEX.md](ancestry/INDEX.md#L33) (line 33); [plats/sunday-plates-2026-11-02.md](plats/sunday-plates-2026-11-02.md#L29) (line 29); [plats/INDEX.md](plats/INDEX.md#L59) (line 59); `/mnt/project-files/research/treasure-statewide/pc-b-plat-queue-2026-11-01.md` line 11 (shared folder only)
 
 ### St. Paul bank loot rumored buried on the Eliza Wilson farm, Elk Creek
 `tw-wi-eau-claire-eliza-wilson-farm-1925` · grade C · Eau Claire Co., WI
@@ -870,7 +872,7 @@ Notes:
 - `/mnt/project-files/research/treasure-statewide/pc-read-list.md` line 12 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/persons.tsv` line 12 (shared folder only)
 
-Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L740) (line 740); [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L94) (line 94); [ancestry/list22.md](ancestry/list22.md#L11) (line 11); [ancestry/list21.md](ancestry/list21.md#L17) (line 17); [ancestry/land-ownership-maps-list8.md](ancestry/land-ownership-maps-list8.md#L47) (line 47); [ancestry/INDEX.md](ancestry/INDEX.md#L62) (line 62); [plats/INDEX.md](plats/INDEX.md#L58) (line 58); [aerials/mi-msu-aerials.md](aerials/mi-msu-aerials.md#L15) (line 15); `/mnt/project-files/research/treasure-statewide/pc-b-plat-queue-2026-11-01.md` line 8 (shared folder only)
+Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L740) (line 740); [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L94) (line 94); [ancestry/list27.md](ancestry/list27.md#L44) (line 44); [ancestry/list22.md](ancestry/list22.md#L11) (line 11); [ancestry/list21.md](ancestry/list21.md#L17) (line 17); [ancestry/land-ownership-maps-list8.md](ancestry/land-ownership-maps-list8.md#L47) (line 47); [ancestry/INDEX.md](ancestry/INDEX.md#L62) (line 62); [plats/INDEX.md](plats/INDEX.md#L58) (line 58); [aerials/mi-msu-aerials.md](aerials/mi-msu-aerials.md#L15) (line 15); `/mnt/project-files/research/treasure-statewide/pc-b-plat-queue-2026-11-01.md` line 8 (shared folder only)
 
 ### Thieves' $15,000 by the haunted house, Byronville
 `tw-mn-byronville-heckes-1905` · grade C · Waseca Co., MN
@@ -1468,9 +1470,9 @@ Also mentions the place: [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L10
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L231) (line 231)
 
 Notes:
-- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L28) (line 28)
+- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L187) (line 187)
 - [newspapers-com/placement-gaps-list.md](newspapers-com/placement-gaps-list.md#L39) (line 39)
-- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L20) (line 20)
+- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L106) (line 106)
 - [newspapers-com/ia-il-second-source.md](newspapers-com/ia-il-second-source.md#L123) (line 123)
 - [genealogybank/gb-list1.md](genealogybank/gb-list1.md#L31) (line 31)
 - [ancestry/list12-dates.md](ancestry/list12-dates.md#L6) (line 6)
@@ -2099,7 +2101,7 @@ Also mentions the place: [negatives.tsv](negatives.tsv#L231) (line 231); [newspa
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L190) (line 190)
 
 Notes:
-- [ancestry/markee-apple-river-polk.md](ancestry/markee-apple-river-polk.md#L5) (line 5)
+- [ancestry/markee-apple-river-polk.md](ancestry/markee-apple-river-polk.md#L1) (line 1)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L36) (line 36)
 - `/mnt/project-files/research/court-records/pin-records-check.tsv` line 7 (shared folder only)
 
@@ -3267,7 +3269,7 @@ Notes:
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L92) (line 92)
 - [ancestry/list10-probate-census.md](ancestry/list10-probate-census.md#L9) (line 9)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L21) (line 21)
-- [ancestry/iowa-batch-ogle-iwers-webster.md](ancestry/iowa-batch-ogle-iwers-webster.md#L15) (line 15)
+- [ancestry/iowa-batch-ogle-iwers-webster.md](ancestry/iowa-batch-ogle-iwers-webster.md#L37) (line 37)
 - [plats/placement-gaps-pass-b.md](plats/placement-gaps-pass-b.md#L11) (line 11)
 - `/mnt/project-files/research/treasure-statewide/deep-dives/iail-dickson-iwers-harmon.md` line 11 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/deep-dives/pc-job-2.md` line 11 (shared folder only)
