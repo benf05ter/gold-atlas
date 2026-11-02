@@ -1,0 +1,70 @@
+# Ancestry list 12 (PC b, 2026-11-02): dates and plates
+
+Viewed only on Neb's PC; normal pace.
+
+## B. Dates
+- **BRUNETTE, Hugh Clayton** (Turtle Lake island cache, see plats/brunette-turtle-lake.md):
+  - **1930 census:** Marquette, Marquette Co. MI, an inmate of the **Upper Peninsula State House of Correction and Branch Prison** (ED 19, p.4A, family 344). Age 37, b. about 1893 WI, married (first at 25), laborer in the box shop. Fits the 1933 "bale of overalls" escape try from Marquette.
+  - **Michigan death record (coll. 60872, file 238 496):** **Hugh C. Brunette, d. 5 May 1943, "State Prison S[outhern Michigan]", Jackson, MI**, aged 49, widowed; **b. 10 May 1893, Dunbar, Wisconsin** (Marinette Co).
+  - **So he died in prison and was never released to dig.** If the thermos cache existed, nobody he named recovered it through him.
+  - Other suggested records (not opened): 1900 census Marinette Co (as "Hugh C Burnett"); WWI draft card (Hugh Clayton Brunette); WI marriage ("Hughey C Brunette"); Cook Co IL marriage index; MI divorce; Find a Grave.
+- **CHILSON, Harvey:** no Harvey in MI death records 1867-1952 (8 other Chilsons). His death is already known from the press: intestate, **12 June 1897** (chilson-north-muskegon.md). The 1897 register entry may be indexed under another spelling; not chased.
+- **KEELER, Noah:** died 1892 (already in plats/keeler-jackson-plat.md; the 1874 plate is already read and pinned, NW¼ sec 14 Liberty). The only open plate question is an 1894/1911 atlas for his heirs.
+- Oesterle: no Oesterle in research/ to match against, so not run (needs the list item's details).
+
+## A. Plates
+- **Jackson Co MI 1874 (Everts & Stewart), for Keeler, Liberty Twp:** the table of contents (viewer p.3, image 31617_072121-00342) gives **Liberty Twp map on atlas p.34** (Hanover 108, Pulaski 112, Springport 104, Spring Arbor 96). The viewer's 142 images are not in atlas order (viewer p.32 is biographies; p.118 is a city view), so the Liberty plate is not found yet. The 1127 name index returns 0 for "Keeler" (also as an exact search), so the plate cannot be reached by name.
+- **The 1127 name index does not help for farm owners:** exact searches for Luning, Keeler and Marsden all return 0. The index seems to hold only the names on the pages' illustrations or titles (e.g. "H M Murphy" on a Jackson city view), not the names on the township plates. So plates must be found by browsing the table of contents and then hunting the out-of-order images.
+- **LUNING, Jo Daviess 1913 (Ogle & Co. atlas), DONE:** the county index (viewer p.4) gives "East Galena Township 60-61". The plate is viewer **p.34, image 31617_072109-00609**, "East and West Galena Townships", T28N R1E and part of T28N R1W.
+  - **"H. J. Luning"** (OCR-ish; reads "H. J. Lu[n]ing", with a "Res" mark) holds a small tract in the **SE corner of sec 16, T28N R1E**, on the E side of the Galena (Fever) River where it leaves the NE edge of the City of Galena.
+  - Neighbours match the 1910 census line: **Benjamin Marsden 100** (W part of sec 15, house by the road), John Burton / Jos. Burton Heirs, Robert Burton Est. (sec 15), the Snyder Mining Co. (sec 21-22). The road that runs NE past Marsden's (marked R.F.D.) is the Scales Mound road.
+  - BLM PLSS (IL04 T28N R1E): sec 16 spans 42.4159-42.4306 N, 90.4201-90.4003 W; sec 15 spans 90.4010-90.3808 W.
+  - **Pin: 42.418, -90.402, r250, grade B** (SE sec 16 at the sec 15 line, just NE of Galena). Earlier "hills N of Galena" placement was close but too far N.
+  - Also on this plate: J. M. Marsden 119.67 (sec 4), Cooperland Mining & Milling Co. (sec 9).
+- **WEBSTER, Hardin 1875 (Harrison & Warner), Clay Twp:** the TOC gives Clay Twp atlas p.25. The plate is viewer **p.22, image 31617_072143-00245**, "Clay, Township 88 North, Range 19 West". There is **no Webster on the 1875 plate** (he was a tenant). His 1885 neighbours:
+  - **Higinbotham:** J. M. Higinbotham (NE sec 30), R. M. Higinbotham (E part sec 30), J. W. Higinbotham 80 (N edge sec 31) and another Higinbotham tract in SW sec 31.
+  - **Saml. Smith** 80 (S part sec 30, W side); "Ansell" and "H. C. Webster(?)" small tracts in sec 31 by the Iowa River (the "Webster" reading in SW sec 31 is uncertain).
+  - **Jno. Elbert 160** is far off, in sec 11 (NE part of the township, about 7 mi from Eldora).
+  - No Minchin seen.
+  - So the Smith / Higinbotham cluster is **secs 30-31, W edge of Clay Twp, on the Iowa River SW of Steamboat Rock**, about 2.5-3 mi N of Eldora, which fits "about 4 mi from Eldora".
+  - BLM: sec 30 spans 42.3973-42.4119 N, 93.1190-93.1002 W; sec 31 spans 42.3830-42.3974 N, 93.1189-93.0999 W.
+  - **Pin: 42.397, -93.110, r900, grade C** (the Higinbotham/Smith tenancy area; tenant farm not identified).
+- **HESSION, Humboldt 1896 (North West Publishing Co.):** Humboldt *Township* (T93N R28W, viewer p.22) is the Livermore township, the wrong one. Humboldt city is on the E edge of **Corinth Twp (T91N R29W), viewer p.17, image 31617_072143-00632**. On that plate:
+  - **"Dennis & Michael Hession 320"**: N half of **sec 15**.
+  - **"Dennis Hession 80"** and **"Michael Hession 80"**: two N-S 80s in the S half of **sec 14** (middle).
+  - **"GLEN FARM"** (lots 3-4, 512.82 acres): S part of **sec 24**, where **Indian Creek** meets the Des Moines River, beside "Jones Siding" (Lucy E. Jones). The Hession farm is 1-2 mi NW of it.
+  - So "the timber on the Glen Farm" = the creek and river timber in sec 24 (and the bottoms into sec 25), about 2 mi S of Humboldt.
+  - BLM (IA05 T91N R29W): sec 15 spans 42.6879-42.7024 N, 94.2659-94.2462 W; sec 14 spans 42.6878-42.7023 N, 94.2463-94.2266 W; sec 24 spans 42.6736-42.6879 N, 94.2266-94.2073 W.
+  - **Pins:** the Hession home farm **42.696, -94.248, r700, B**; the Glen Farm timber (cache area) **42.677, -94.214, r600, B-**.
+- **BRANSTAD, Winnebago 1913 (Anderson Publishing Co.):** Leland is on the N line of **Forest Twp, T98N R24W (viewer p.18, image 31617_072148-00311)**, in secs 1-2. (Center Twp, viewer p.15, has Lake Mills and no Branstad in view.) Branstads on the Forest plate:
+  - **Andrew Branstad**: a N-S strip in the **W part of sec 1** (about 80, along the creek), right at the SE edge of Leland.
+  - **M. E. Branstad 120**: **NE part of sec 1**.
+  - **M. E. Branstad**: a small tract in the **S part of sec 4** (2 mi W of Leland, by the school).
+  - Which one the 1922 find was on is not known (the probate index has only E. E. Branstad, 1934).
+  - BLM (IA05 T98N R24W): sec 1 spans 43.3280-43.3423 N, 93.6370-93.6171 W; sec 2 spans 93.6569-93.6368 W; sec 4 spans 43.3279-43.3424 N, 93.6964-93.6766 W.
+  - **Pin: 43.336, -93.630, r800, grade C+** (sec 1, the Branstad farms just SE of Leland).
+- **KUEHN, Brown MN 1905 (R. L. Polk & Co.):** **Sigel Twp, T109N R31W, viewer p.15, image 31617_072133-00155.**
+  - **"Fred. Kuehn 160"**: the **SW¼ of sec 22** (S half, W part, below the "22" label; Thos. Forstner 160 is beside it to the E, Anton Baumann and Robert A. Hillesheim to the W, Otto Schultz NE).
+  - A **"John Kuehn"** tract runs N-S along the W side of the long lake in sec 16/21 (W of Fred's).
+  - BLM (MN05 T109N R31W): sec 22 spans 44.2250-44.2397 N, 94.5527-94.5327 W.
+  - **Pin: 44.229, -94.548, r400, grade B.**
+- **BERGBLOM, Redwood 1915:** Walnut Grove sits in **sec 24 on the E edge of Springdale Twp (T109N R39W, viewer p.50, image 31617_072137-00735)**, against the North Hero line (North Hero is viewer p.52 and has no Bergblom in view).
+  - The only Bergblom on the Springdale plate is **"S. J. Bergblom"**: one tract in the **NW part of sec 14** (by the school, N of the creek) and one in the **SE part of sec 15** (by the Town Hall corner, 80?). Both are about 2-2.5 mi **NW/WNW** of Walnut Grove, not SW.
+  - The S half of Springdale (secs 19-36, SW of town) has no Bergblom. "Carl" may have been S. J.'s son or heir, or the "3 mi SW" in the story is loose.
+  - BLM (MN05 T109N R39W): sec 14 spans 44.2391-44.2538 N, 95.5130-95.4926 W; sec 15 spans 44.2390-44.2536 N, 95.5332-95.5129 W; sec 24 (Walnut Grove) spans 44.2247-44.2394 N, 95.4928-95.4725 W.
+  - **Pin: 44.244, -95.513, r700, grade C** (the S. J. Bergblom tracts, secs 14-15 line).
+- **MURPHY, Rice MN:** the Ancestry **"Rice, 1915"** item (46 images) is only the farmers' directory and advertisements, with **no township plates**. So I used **Rice 1900, Warsaw Twp (T109N R21W), viewer p.8, image 31617_072137-00932**:
+  - **James Murphy 160**: about the **SE¼ of sec 23**.
+  - **James Murphy 100**: the **W part of sec 24** (N half).
+  - **W. J. Murphy 80**: the S part of sec 23 (W of James).
+  - No Frank or Sylvester Murphy on the 1900 plate; they are probably sons or heirs of James on the same farm. This is SE Warsaw Twp, about 4-5 mi E of Warsaw village and 3-4 mi SW of Faribault.
+  - BLM (MN05 T109N R21W): sec 23 spans 44.2254-44.2400 N, 93.3234-93.3033 W; sec 24 spans 93.3033-93.2827 W.
+  - **Pin: 44.230, -93.304, r600, grade B-** (the sec 23/24 Murphy farms).
+  - The 1915 directory (Warsaw P.O. section) could confirm Frank/Sylvester by section; not read (small type).
+- **VAJVODA / VEJVODA, Barron 1914 (partial, not found yet):** the atlas (75 images) pairs each township plate (even viewer page) with a **farmers' directory** page before it (odd page), which lists name, route, section and acres.
+  - Rice Lake Twp plate = viewer p.26; its directory (p.25) has **no Va-/Ve- names between Ursinus and Velton/Vine/Vosberg**.
+  - Doyle directory (p.27): no Vejvoda (Tverberg, Vick, Walrac).
+  - A heavily Czech township directory at p.13 (Haugen P.O.: Valenta, Vech, Vinopal, Volak; Rice Lake P.O.: Vojta, Simko, Stepanek): no Vejvoda.
+  - Not yet checked: Stanfold, Bear Lake, Sioux Creek and the other NE directories (the viewer's zoom stuck, so the titles were unreadable).
+- **HORRIGAN, Crawford 1914 (partial):** the outline map (viewer p.3) shows **Clayton Twp, T10N R3-4W**, with Soldiers Grove, North Clayton and Gays Mills. The "Farmers' Directory of Clayton Township, cont'd" is viewer **p.14**; its **Soldiers Grove P.O.** H section runs Hill, Hoffland, Halloran, Hooverson, Hounsell, Howe with **no Horrigan**. The first directory page (p.13) has another P.O. section with H names (Hall, Haskin, Hays) and also **no Horrigan**. The remaining P.O. sections (Gays Mills, Readstown, etc.) are not yet read; the Clayton plate itself is not yet found among viewer pp.15-21.
+- Other list 12 plates ( Humboldt 1896, Winnebago 1913, Brown MN 1905, Redwood 1915, Rice 1915, Barron 1914, Crawford 1914): not done.
