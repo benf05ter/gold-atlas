@@ -138,3 +138,48 @@
   - 19 Yocum, 20 Schulz
   - 26 Dolph (Eaton)
 - The UIowa site shows a human-verification page (not clicked), so it goes on the Sunday list.
+
+## 26. Dolph / Grohe, Bellevue Twp (Eaton Co MI): partial
+- archive.org has the **1873 *Atlas of Eaton Co.*** (2933891.0001.001.umich.edu) and the **1913 *Standard Atlas of Eaton County*** (fl-3657716-756450).
+- **Full OCR text search of both: no "Dolph" and no "Grohe"** in the patrons directories or the plate OCR (plate OCR is mostly unreadable).
+- The 1913 Bellevue Twp plate exists (OCR heading "BELLEVUE TWP."), but it was not read by eye this pass.
+- **Next:** read the 1913 (or the Ancestry 1895, if present) Bellevue plate along the Battle Creek river for a Dolph or Grohe tract. **Open.**
+
+## 14. Harvey, Clarksville (Butler Co IA): not on the 1895 plat
+- **1895 Union Pub. Co. *Atlas of Butler County*** (Ancestry 1127, start image 31617_072141-00022; contents viewer p.3).
+  - **Butler Twp T92N R15W plate = viewer p.16 (image 31617_072141-00038).** The Clarksville town plat is viewer p.17 (image 00039).
+  - The secs around Clarksville (7-9, 15-24, 29-33 etc.) were read: **no Harvey**.
+  - Owners near the town include T. G. Butler, D. Moulton, W. H. Haines, J. R. Jones Est., A. J. Poisel and J. D. Roberts.
+- **1900 census:** a Harvey household **in Clarksville** (sister-in-law **Stella M. Harvey**, b. May 1884 WI, in someone's household). **Jane M. Harvey**, b. Aug 1842 PA, is head in **Jackson Twp**, Butler Co.
+- **Reading:** the Harveys were town residents or in Jackson Twp, not Butler Twp landowners. With PC (a)'s 1917 directory negatives, **no Harvey farm can be placed**. Keep the Clarksville town pin, grade C. (If the boiler story names Jackson Twp, read the Jackson plate next.)
+
+## 6. Iver Ahonen (MN): census only
+- **1930 (6224):** the only Ivar/Iver Ahonen of the right age is **"Ivar Ahonen", head, 53 (b. about 1877 Finland, imm. 1903), single?, Hibbing city, St Louis Co, 2nd Ward, house 207½**, renting at $10. He was a **music teacher** with a private studio, not on a farm.
+- No Ahonen is indexed in Itasca Co (Nashwauk or Floodwood) in 1930.
+- **So a 1930 homestead is not shown.** Either this is a different man, or the Itasca homestead was earlier or later. **Not placed;** the card stays at the town level. (GLO patent search: the site was redesigned and has no URL search; Sunday list.)
+
+## 19. Ray Yocum, DeKalb (IL): town lot, 1940 census
+- **1940 (2442, indexed "Roy Younn"): Ray Yocum, head, b. about 1897 IL, wife Lillian; "East Lincoln Highway" (indexed "Luciler"), house no. 1836, DeKalb city; Farm: Yes; owner and manager; home owned, value $2,500; same place in 1935; sheet 12B, visitation no. 267.**
+- **Card: 1836 E. Lincoln Hwy, DeKalb** (old numbering, E edge of town). Geocode the modern address with care, because the numbering may have changed.
+
+## 21. Garnett: SKIPPED (already placed in Mercer Co).
+
+## 3. Gregg homestead / Thomas Mealy (WI, Racine Co, Dover Twp T3N R20E)
+- **Plat:** 1899 *Racine and Kenosha* atlas (Ancestry 1127, start image 31617_072130-00650). Contents: Dover p.17 = **viewer p.10, image 31617_072130-00659**.
+- **No "Gregg" on the 1899 Dover plate** (whole plate read; Eagle Lake and Kansasville, secs 22/27 and 35).
+- **"M. & A. Mealy"** (a narrow N-S strip, about 16-40 ac; the acreage is illegible) is in the **NE¼ of sec 18**, between J. Edwards 80 (W) and the J. Noble / J. Johnson lots (E) at the 17/18 line, on the road running NE from S. Steinhouse. This fits the 1893 will to Thomas Mealy: by 1899 it is held by the Mealys (M. & A., probably his heirs or siblings).
+- **BLM sec 18 T3N R20E:** 42.7127-42.7274 N, 88.1894-88.1697 W. **Pin: NE¼ sec 18, E edge, about 42.722, -88.172, r300, grade B-** (Mealy = Gregg's devisee; the Gregg name itself is not on the 1899 plat).
+- The 1887 Racine atlas (image 31617_072130-00565) was not read; it might still show Wm. Gregg.
+
+## 20. Schulz, West Deerfield (Lake Co IL): census only so far
+- 1910 (7884) "Schulz" + Deerfield gives only **Edwin Schulz, b. 1887 WI** (a WWI-style index row) and **Charles G. Schalz/Scholz**, Deerfield, Lake Co. 1900 gives nothing.
+- **Plat not read yet** (the Lake Co IL 1907 atlas on Ancestry 1127 is still to check). **Open.**
+
+## Status at about 11:05Z (batch 2, zip ap)
+- **Now done:** 3 (Mealy proxy), 6 (census; not placed), 14 (no Harvey), 15, 19 (Yocum address), 23, 25; 26 partial; 20 partial.
+- **Still open:**
+  - 17 Millersburg race track (Iowa Co 1917, Ancestry image 31617_072143-00666)
+  - 20 Schulz plat
+  - 26 Dolph plate read
+  - 16 Tiffin (waiting for a name)
+  - 10 Noyes 1920s plat (low priority)
