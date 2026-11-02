@@ -68,8 +68,10 @@ Viewed only on Neb's PC; normal pace.
   - Stanfold directory (p.23): no Vejvoda (Rice Lake P.O. V names are only Verhyen).
   - **FOUND.** The **1920 census** (Ancestry 6061) has **John Vejvoda, b. about 1858 Bohemia, wife Louisa, Bear Lake Twp, Barron Co.**
   - **Bear Lake Twp plate, viewer p.12 (image 31617_072126-00340):** **"J. Vejvoda"** holds a long E-W strip across the **S part of sec 23** (N of the creek; neighbours: Frank Pavel and Joe Brunsek in sec 24, K. Smetana(?), a Tabor tract in W sec 23, I. Selly in sec 26). He is not in the Bear Lake farmers' directory (p.11: Haugen P.O. sections run Urbanick to Wruter with no V), likely because he was a non-resident owner or was missed.
-  - Township: the plate's big lake in secs 1-2/11-12 is Bear Lake, which fits **T36N R10W** (the T/R heading was not read directly). BLM (WI46 T36N R10W): sec 23 spans 45.5807-45.5952 N, 91.5812-91.5603 W.
-  - **Pin: 45.583, -91.571, r450, grade B-** (S part sec 23). That is NE of Rice Lake (about 11 mi), which fits the card.
+  - **CORRECTED (header read verbatim, 2026-11-02 05:50Z):** "Map of BEAR LAKE Township … Township 36 North, Range 12 West of the 4th P.M., BARRON COUNTY, WIS." (atlas p.11). So it is **T36N R12W**, not R10W.
+  - The label reads "J. Vejvoda" (OCR "Vejvoda"). It is an E-W strip across the **S part of sec 23**, north of a small creek; no acreage figure is legible on the strip. In the same quarter and around it: "F. Pavel 80" (central sec 23), a N-S strip "J. Tabor(?)" on the W side, "I. Selly" across the line in sec 26, and **"John Klimesh"** (N edge sec 24). The E neighbour is sec 24 (A. Vlasak? / Joe Brunsek, illegible). Oak Grove Twp is on the E line.
+  - BLM (WI46 T36N R12W): sec 23 spans 45.5814-45.5961 N, 91.8272-91.8066 W.
+  - **Pin (corrected): 45.583, -91.817, r450, grade B-** (S part sec 23). This is about 6-7 mi NE of Rice Lake, near Haugen. The earlier R10W pin (45.583,-91.571) is wrong; drop it.
 - **HORRIGAN, census (Ancestry):**
   - **1900:** John Horrigan (b. Dec 1826, Ireland) and Mary (b. 1830, Ireland), with children Julia (1860) and Steven J. (1874), in **Clayton Twp, Crawford Co**. **Cornelius ("Cornel") Horrigan**, b. May 1868, is head of his own Clayton household.
   - **1910:** William and Jane Horrigan (daughters Nellie, Tessie, Lena) in **Akan Twp, Richland Co**, a second candidate across the Wisconsin River, NE of Boscobel.

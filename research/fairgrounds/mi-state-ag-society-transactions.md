@@ -45,6 +45,13 @@ Read on HathiTrust full view (search and text-only view; nothing downloaded). Pa
 ## B8 Howell (Livingston 1875 Beers, Ancestry)
 - Howell Twp plate is viewer p.24 (image 31617_072122-00695); "Part of Howell" village sheets are pp.25-27 (…-00696 to -00698): W. McPherson & Sons lands W of the village, Thompson Lake on the N, Grand River Ave, and the Detroit & Lansing RR. **No "Fair Ground" label seen** at overview zoom on pp.24-27. The large unlotted tracts are W. McPherson & Sons (W side) and M. L. Gay 55 ac / E. C. Hattan (S side, by the Detroit-Lansing line). Not placed.
 
+## Cassopolis: 1872 Lake atlas of Cass Co (Ancestry 1127, Cass 1872, D. J. Lake, Philadelphia)
+- The Cassopolis village plan is split across **viewer p.20 (bottom inset, image 31617_072119-00653)** and **viewer p.21 (…-00654)**, with the "Cassopolis Business Directory" below.
+- **No "Fair Ground" label in 1872.**
+  - N edge (p.20): small acreages (R. E. Graham, M. J. Graham, J. E. Peck, W. P. Bennett, S. T. Read 2½a, Union School, J. D. Bonine brick kiln, J. A. Reynolds slaughter house); Saml. Graham 31a and Moses McIlvain 11½a to the NE; Henry Bloodgood 52a (Lagrange Twp) on the E edge; Maj. Jos. Smith 18a on the W.
+  - S part (p.21): Stone Lake on the W; streets State, Jefferson, Water, South; the **Peninsular Railway** and the **Michigan Air Line** cross diagonally through the SE quarter, meeting near Sherman St and the Depot. SE of the railways are open tracts **E. B. Sherman 20a and 5a** and **S. T. Read 18a and 4a**.
+- **Reading:** the 1869-70 report says the old show ground was "south of the village" and the Peninsular Ry passed through it. By 1872 that land is the open E. B. Sherman / S. T. Read acreage SE of the village where the Peninsular line runs (unlabelled). The new 30-acre ground "within ¾ mile" is outside the village plan and not shown. **Candidate (old ground): the Sherman/Read tracts SE of South St along the Peninsular Ry, grade C.**
+
 ## B4-B8 status
 - Not done. Google Books (B5-B7) was quota-blocked earlier in this session. The Walling 1873 atlas (B4) and the Ancestry 1875 Shiawassee/Macomb, 1873 Berrien and 1875 Livingston village plats (B8) are next. Brighton 1875 is done above, with no fair ground shown.
 
