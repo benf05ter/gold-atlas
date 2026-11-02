@@ -108,3 +108,17 @@
   - Low: 3, 4, 15, 18, 20
   - Holds: 8, 14, 17
 - UMedia (MN) now blocks scripts too (Azure WAF), so MN plats come from Ancestry only.
+
+## 24. Bogus Island knoll, Leoni Twp (Jackson Co MI): partial
+- **Plat:** 1911 Ogle *Standard Atlas of Jackson County* (archive.org 3927885.0001.001.umich.edu; server ia903104, dir /22/items/...).
+  - **Leoni Twp = printed pp.76-77, leaf 0078.** It is a two-page spread; the lettering is printed with the S side upward.
+  - Patrons directory: **"Chappell, Vern, Farmer and Breeder of Durham Cattle, S. 35, T. Leoni, P.O. Jackson"** (b. 1880). There is **no Frank King and no Jim Bates** in the directory.
+- **On the plate:**
+  - **Leoni village** sits on the **Michigan Central** (double track), at a pond on the T2S/T3S line.
+  - **"S. E. Chappelle 214"** is just N of the village and E of the railroad (sec 1 of the S tier).
+  - **"S. E. Chappell 60"** is just W, at the 25/36 corner by the binding.
+  - Nearby owners: Donley, E. O. Mills, A. M. Barber, Clancy, Huttenlocker and the Detroit United Ry. Goose Lake and Mud Lake are W.
+  - The marsh along the Michigan Central near the village has a stream and wet symbols. **No "Bogus Island" label and no knoll label are printed.**
+- **Card:** the Chappell land is **N of Leoni village beside the Michigan Central**, which fits "swamp near the Michigan Central line". The knoll itself is not placed.
+  - **Provisional pin: Leoni village / Chappell 214, about 42.26, -84.29 (r600, C).** The village is about 42.26 N, 84.29 W; coordinates are from the village, not a BLM lookup.
+  - Next: BLM box for the Chappell section, plus a lidar look for a raised knoll in the marsh.
