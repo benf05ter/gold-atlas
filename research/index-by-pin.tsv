@@ -28,6 +28,7 @@ tw-il-dixon-mail-plane-diamonds-1929	B	Black diamonds lost in the 1929 mail-plan
 tw-il-dixon-mail-plane-diamonds-1929	B	Black diamonds lost in the 1929 mail-plane crash, SW of Harmon	Lee	IL		project-files/research/treasure-statewide/deep-dives/pc-job-2.md	13	two:harmon
 tw-mn-walnut-grove-bergblom-copper-box-1930	B	Copper box of gold coins in a creek bank, Springdale township near Walnut Grove	Redwood	MN		research/newspapers-com/pc-a-asks-results.md	772	two:springdale
 tw-mn-walnut-grove-bergblom-copper-box-1930	B	Copper box of gold coins in a creek bank, Springdale township near Walnut Grove	Redwood	MN		research/newspapers-com/pc-b-asks-results.md	44	co:bergblom
+tw-mn-walnut-grove-bergblom-copper-box-1930	B	Copper box of gold coins in a creek bank, Springdale township near Walnut Grove	Redwood	MN		research/newspapers-com/list18.md	13	two:bergblom
 tw-mn-walnut-grove-bergblom-copper-box-1930	B	Copper box of gold coins in a creek bank, Springdale township near Walnut Grove	Redwood	MN		research/newspapers-com/leads.tsv	97	two:bergblom
 tw-mn-walnut-grove-bergblom-copper-box-1930	B	Copper box of gold coins in a creek bank, Springdale township near Walnut Grove	Redwood	MN		research/ancestry/list12-dates.md	51	two:springdale
 tw-mn-walnut-grove-bergblom-copper-box-1930	B	Copper box of gold coins in a creek bank, Springdale township near Walnut Grove	Redwood	MN		research/ancestry/list14.md	11	two:springdale
@@ -119,14 +120,14 @@ tw-horrigan-boscobel-1930	B	Horrigan brothers' farm money, Horrigan Ridge near M
 tw-horrigan-boscobel-1930	B	Horrigan brothers' farm money, Horrigan Ridge near Mt. Zion	Crawford	WI		research/plats/INDEX.md	53	co:horrigan
 tw-horrigan-boscobel-1930	B	Horrigan brothers' farm money, Horrigan Ridge near Mt. Zion	Crawford	WI		research/aerials/horrigan-crawford-1938.md	1	file:horrigan
 tw-horrigan-boscobel-1930	B	Horrigan brothers' farm money, Horrigan Ridge near Mt. Zion	Crawford	WI		project-files/research/court-records/pin-records-check.tsv	3	id
-tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/pc-a-asks-results.md	779	two:hession
-tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/leads.tsv	128	two:hession
-tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/ia-il-sweep.md	35	two:hession
-tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/treasure-list-t13-t21.md	22	two:hession
+tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/pc-a-asks-results.md	779	two:glen
+tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/leads.tsv	128	two:glen
+tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/ia-il-sweep.md	42	two:glen
+tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/treasure-list-t13-t21.md	22	two:glen
 tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/treasure-statewide/held-leads.md	26	co:jack
-tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/ancestry/list12-dates.md	32	two:hession
+tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/ancestry/list12-dates.md	35	two:glen
 tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/ancestry/INDEX.md	52	two:hession
-tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/plats/hession-humboldt.md	1	file:hession
+tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/plats/hession-humboldt.md	1	two:glen
 tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/books/laird-1927-iowa-legends.md	12	co:jack
 tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		project-files/research/treasure-statewide/held-leads.md	26	co:jack
 tw-wi-franklin-ford-gold-1875	B	James Ford's California gold by an old stump, southern Town of Franklin	Milwaukee	WI		research/newspapers-com/pc-a-asks-results.md	778	two:ford
@@ -189,6 +190,7 @@ tw-mn-morken-nielson-miser-1916-treeclaim	B	Lars Nielson's tree-claim building s
 tw-mn-morken-nielson-miser-1916-treeclaim	B	Lars Nielson's tree-claim building site (alternate spot)	Clay	MN	dig-mn-morken-nielson-miser-1916-treeclaim	project-files/research/treasure-statewide/persons.tsv	79	co:nielson
 tw-wi-madison-roth-farm-1907	B	Matthew Roth's forgotten $3,000, farm just east of Madison	Dane	WI		research/negatives.tsv	234	co:madison
 tw-wi-madison-roth-farm-1907	B	Matthew Roth's forgotten $3,000, farm just east of Madison	Dane	WI		research/newspapers-com/pc-a-batch3-results.md	48	two:matthew
+tw-wi-madison-roth-farm-1907	B	Matthew Roth's forgotten $3,000, farm just east of Madison	Dane	WI		research/newspapers-com/list18.md	16	two:roth
 tw-wi-madison-roth-farm-1907	B	Matthew Roth's forgotten $3,000, farm just east of Madison	Dane	WI		research/newspapers-com/leads.tsv	140	two:matthew
 tw-wi-madison-roth-farm-1907	B	Matthew Roth's forgotten $3,000, farm just east of Madison	Dane	WI		research/newspapers-com/treasure-list-t13-t21.md	39	two:matthew
 tw-wi-madison-roth-farm-1907	B	Matthew Roth's forgotten $3,000, farm just east of Madison	Dane	WI		research/ancestry/land-ownership-maps-list8.md	9	two:roth
@@ -251,6 +253,7 @@ tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron
 tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron	WI	dig-vajvoda-rice-lake-1925	research/newspapers-com/pc-a-asks-results.md	737	two:vejvoda
 tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron	WI	dig-vajvoda-rice-lake-1925	research/newspapers-com/placement-gaps-list.md	6	two:vejvoda
 tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron	WI	dig-vajvoda-rice-lake-1925	research/newspapers-com/court-probate-asks.md	27	id
+tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron	WI	dig-vajvoda-rice-lake-1925	research/newspapers-com/list18.md	12	two:vejvoda
 tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron	WI	dig-vajvoda-rice-lake-1925	research/newspapers-com/field-notes-barron.md	262	co:rice
 tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron	WI	dig-vajvoda-rice-lake-1925	research/newspapers-com/leads.tsv	2	two:vejvoda
 tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron	WI	dig-vajvoda-rice-lake-1925	research/newspapers-com/newspapers-com-holdings.md	14	co:rice
@@ -263,18 +266,18 @@ tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron
 tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron	WI	dig-vajvoda-rice-lake-1925	project-files/research/court-records/pin-records-check.tsv	13	id
 tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron	WI	dig-vajvoda-rice-lake-1925	project-files/research/court-records/newspapers-com-asks.md	7	id
 tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron	WI	dig-vajvoda-rice-lake-1925	project-files/research/treasure-statewide/vejvoda-card.md	1	id
-tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/newspapers-com/pc-a-asks-results.md	777	two:chilson
-tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/newspapers-com/pc-a-batch3-results.md	7	two:chilson
+tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/newspapers-com/pc-a-asks-results.md	777	two:harvey
+tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/newspapers-com/pc-a-batch3-results.md	14	two:harvey
 tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/newspapers-com/second-sources-c-leads.md	70	id
-tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/newspapers-com/leads.tsv	138	co:chilson
-tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/ancestry/list12-dates.md	11	two:chilson
+tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/newspapers-com/leads.tsv	138	co:harvey
+tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/ancestry/list12-dates.md	11	two:harvey
 tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/ancestry/list10-probate-census.md	19	co:chilson
-tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/ancestry/chilson-north-muskegon-ancestry.md	1	file:chilson
-tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/ancestry/michigan-death-records-batch.md	10	two:chilson
-tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/ancestry/INDEX.md	35	two:chilson
-tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/fold3/fold3-list1.md	7	two:chilson
+tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/ancestry/chilson-north-muskegon-ancestry.md	1	two:harvey
+tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/ancestry/michigan-death-records-batch.md	10	two:harvey
+tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/ancestry/INDEX.md	35	two:harvey
+tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/fold3/fold3-list1.md	7	two:harvey
 tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/plats/chilson-north-muskegon.md	1	file:chilson
-tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/sunday/sunday-list-2026-11-02.md	24	two:chilson
+tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/sunday/sunday-list-2026-11-02.md	13	two:harvey
 tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		project-files/research/treasure-statewide/leads-mi.tsv	38	id
 tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		project-files/research/treasure-statewide/pc-a-asks-batch3-2026-11-01.md	6	co:chilson
 tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		project-files/research/treasure-statewide/pc-newspapers-second-sources.md	19	id
@@ -541,13 +544,15 @@ tw-mn-star-lake-jacobson-1932	C	Murdered recluse Mons Jacobson's hidden money, f
 tw-mn-star-lake-jacobson-1932	C	Murdered recluse Mons Jacobson's hidden money, farm S of Silent Lake	Otter Tail	MN		project-files/research/treasure-statewide/leads-mn.tsv	13	id
 tw-mn-star-lake-jacobson-1932	C	Murdered recluse Mons Jacobson's hidden money, farm S of Silent Lake	Otter Tail	MN		project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md	28	two:jacobson
 tw-mn-star-lake-jacobson-1932	C	Murdered recluse Mons Jacobson's hidden money, farm S of Silent Lake	Otter Tail	MN		project-files/research/treasure-statewide/persons.tsv	103	id
-tw-mi-muskegon-larson-norwegian-coin	C	Norwegian bank-robbery coin under a wood-turning shop, Muskegon	Muskegon	MI		research/newspapers-com/pc-a-asks-results.md	17	co:larson
+tw-mi-muskegon-larson-norwegian-coin	C	Norwegian bank-robbery coin under a wood-turning shop, Muskegon	Muskegon	MI		research/newspapers-com/pc-a-asks-results.md	794	two:norwegian
 tw-mi-muskegon-larson-norwegian-coin	C	Norwegian bank-robbery coin under a wood-turning shop, Muskegon	Muskegon	MI		research/newspapers-com/treasure-list-t13-t21.md	265	co:larson
 tw-mi-muskegon-larson-norwegian-coin	C	Norwegian bank-robbery coin under a wood-turning shop, Muskegon	Muskegon	MI		research/ancestry/land-ownership-maps-list8.md	39	co:larson
+tw-mi-muskegon-larson-norwegian-coin	C	Norwegian bank-robbery coin under a wood-turning shop, Muskegon	Muskegon	MI		research/ancestry/INDEX.md	57	two:norwegian
+tw-mi-muskegon-larson-norwegian-coin	C	Norwegian bank-robbery coin under a wood-turning shop, Muskegon	Muskegon	MI		research/ancestry/list16.md	67	co:larson
 tw-mi-muskegon-larson-norwegian-coin	C	Norwegian bank-robbery coin under a wood-turning shop, Muskegon	Muskegon	MI		research/plats/larson-muskegon.md	1	file:larson
 tw-mi-muskegon-larson-norwegian-coin	C	Norwegian bank-robbery coin under a wood-turning shop, Muskegon	Muskegon	MI		research/plats/INDEX.md	50	co:larson
 tw-mi-muskegon-larson-norwegian-coin	C	Norwegian bank-robbery coin under a wood-turning shop, Muskegon	Muskegon	MI		project-files/research/treasure-statewide/leads-mi.tsv	37	id
-tw-mi-muskegon-larson-norwegian-coin	C	Norwegian bank-robbery coin under a wood-turning shop, Muskegon	Muskegon	MI		project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md	16	co:larson
+tw-mi-muskegon-larson-norwegian-coin	C	Norwegian bank-robbery coin under a wood-turning shop, Muskegon	Muskegon	MI		project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md	16	two:norwegian
 tw-mi-muskegon-larson-norwegian-coin	C	Norwegian bank-robbery coin under a wood-turning shop, Muskegon	Muskegon	MI		project-files/research/treasure-statewide/pc-a-asks-batch3-2026-11-01.md	3	co:larson
 tw-mi-muskegon-larson-norwegian-coin	C	Norwegian bank-robbery coin under a wood-turning shop, Muskegon	Muskegon	MI		project-files/research/treasure-statewide/persons.tsv	55	id
 tw-il-bulbona-grove-trading-post	C	Old Bulbona's trading post farm (Spanish coin of 1786 found), Bureau County	Bureau	IL		research/ancestry/illinois-names-batch.md	16	co:bulbona
@@ -575,11 +580,13 @@ tw-mi-menominee-ole-johnson-cans	C	Ole Johnson's salmon cans of $10 gold under s
 tw-mi-menominee-ole-johnson-cans	C	Ole Johnson's salmon cans of $10 gold under stone piles, farm near Menominee	Menominee	MI		project-files/research/treasure-statewide/persons.tsv	51	id
 tw-mi-menominee-ole-johnson-cans	C	Ole Johnson's salmon cans of $10 gold under stone piles, farm near Menominee	Menominee	MI		project-files/research/treasure-statewide/ground-fix/wi-batch1-fixes.md	12	id
 tw-mn-fergus-falls-trombler-1903	C	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		research/newspapers-com/pc-a-asks-results.md	10	two:fergus
+tw-mn-fergus-falls-trombler-1903	C	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		research/newspapers-com/list18.md	14	two:fergus
 tw-mn-fergus-falls-trombler-1903	C	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		research/newspapers-com/treasure-list-t13-t21.md	165	two:fergus
 tw-mn-fergus-falls-trombler-1903	C	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		research/newspapers-com/sweep-2-misers-loot.md	104	co:fergus
 tw-mn-fergus-falls-trombler-1903	C	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		research/ancestry/land-ownership-maps-list8.md	37	two:fergus
 tw-mn-fergus-falls-trombler-1903	C	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		research/ancestry/trombler-jacobson-otter-tail.md	1	two:fergus
 tw-mn-fergus-falls-trombler-1903	C	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		research/ancestry/INDEX.md	41	two:fergus
+tw-mn-fergus-falls-trombler-1903	C	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		research/ancestry/list16.md	42	two:fergus
 tw-mn-fergus-falls-trombler-1903	C	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		research/plats/trombler-fergus-falls.md	1	file:fergus
 tw-mn-fergus-falls-trombler-1903	C	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		research/plats/jacobson-star-lake-plat.md	52	co:fergus
 tw-mn-fergus-falls-trombler-1903	C	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		research/plats/INDEX.md	48	two:fergus
@@ -653,10 +660,12 @@ tw-mi-bellevue-dolph-stumps	C	Strangers dig under stumps, Charles Dolph farm nea
 tw-mi-bellevue-dolph-stumps	C	Strangers dig under stumps, Charles Dolph farm near Bellevue	Eaton	MI		project-files/research/treasure-statewide/pc-a-asks-batch3-2026-11-01.md	18	two:dolph
 tw-mi-bellevue-dolph-stumps	C	Strangers dig under stumps, Charles Dolph farm near Bellevue	Eaton	MI		project-files/research/treasure-statewide/persons.tsv	19	id
 tw-mn-byronville-heckes-1905	C	Thieves' $15,000 by the haunted house, Byronville	Waseca	MN		research/newspapers-com/pc-a-asks-results.md	8	two:byronville
+tw-mn-byronville-heckes-1905	C	Thieves' $15,000 by the haunted house, Byronville	Waseca	MN		research/newspapers-com/list18.md	9	co:heckes
 tw-mn-byronville-heckes-1905	C	Thieves' $15,000 by the haunted house, Byronville	Waseca	MN		research/newspapers-com/treasure-list-t13-t21.md	164	two:byronville
 tw-mn-byronville-heckes-1905	C	Thieves' $15,000 by the haunted house, Byronville	Waseca	MN		research/ancestry/heckes-byron-waseca.md	1	two:byronville
 tw-mn-byronville-heckes-1905	C	Thieves' $15,000 by the haunted house, Byronville	Waseca	MN		research/ancestry/list15.md	6	two:byronville
 tw-mn-byronville-heckes-1905	C	Thieves' $15,000 by the haunted house, Byronville	Waseca	MN		research/ancestry/INDEX.md	45	two:byronville
+tw-mn-byronville-heckes-1905	C	Thieves' $15,000 by the haunted house, Byronville	Waseca	MN		research/ancestry/list16.md	27	co:heckes
 tw-mn-byronville-heckes-1905	C	Thieves' $15,000 by the haunted house, Byronville	Waseca	MN		research/plats/heckes-byronville.md	26	file:byronville
 tw-mn-byronville-heckes-1905	C	Thieves' $15,000 by the haunted house, Byronville	Waseca	MN		research/plats/INDEX.md	47	two:byronville
 tw-mn-byronville-heckes-1905	C	Thieves' $15,000 by the haunted house, Byronville	Waseca	MN		research/clippings/README.md	9	two:byronville
@@ -754,6 +763,7 @@ tw-mi-holy-island-strang-treasure	D	'King Strang's buried treasure' legend, Holy
 tw-mi-holy-island-strang-treasure	D	'King Strang's buried treasure' legend, Holy Island, Lake Charlevoix	Charlevoix	MI		research/newspapers-com/county-coverage-wi-mi-chronam.tsv	33	two:holy
 tw-mi-big-sable-1731-spanish-coin	D	1731 Spanish coin and old canoe in the sands, Big Sable Point	Mason	MI		research/newspapers-com/pc-a-batch3-results.md	78	co:sable
 tw-mi-big-sable-1731-spanish-coin	D	1731 Spanish coin and old canoe in the sands, Big Sable Point	Mason	MI		research/newspapers-com/second-sources-c-leads.md	117	id
+tw-mi-big-sable-1731-spanish-coin	D	1731 Spanish coin and old canoe in the sands, Big Sable Point	Mason	MI		research/newspapers-com/list18.md	20	co:sable
 tw-mi-big-sable-1731-spanish-coin	D	1731 Spanish coin and old canoe in the sands, Big Sable Point	Mason	MI		project-files/research/treasure-statewide/leads-mi.tsv	31	id
 tw-mi-big-sable-1731-spanish-coin	D	1731 Spanish coin and old canoe in the sands, Big Sable Point	Mason	MI		project-files/research/treasure-statewide/pc-a-asks-batch3-2026-11-01.md	13	co:sable
 tw-mi-big-sable-1731-spanish-coin	D	1731 Spanish coin and old canoe in the sands, Big Sable Point	Mason	MI		project-files/research/treasure-statewide/pc-newspapers-second-sources.md	28	id
@@ -918,8 +928,9 @@ t-hermit-island	D	Hermit Island: Wilson's coins and the pirate cave	Ashland	WI		
 t-hermit-island	D	Hermit Island: Wilson's coins and the pirate cave	Ashland	WI		project-files/research/treasure-statewide/persons.tsv	129	id
 tw-mi-higgins-lake-flynn-island-hermit-cache	D	Hermit Pritchard's cache, Flynn Island, Higgins Lake	Roscommon	MI		research/leads.tsv	1	id
 tw-mi-higgins-lake-flynn-island-hermit-cache	D	Hermit Pritchard's cache, Flynn Island, Higgins Lake	Roscommon	MI		research/newspapers-com/pc-a-asks-results.md	845	two:flynn
+tw-mi-higgins-lake-flynn-island-hermit-cache	D	Hermit Pritchard's cache, Flynn Island, Higgins Lake	Roscommon	MI		research/newspapers-com/list18.md	17	two:flynn
 tw-mi-higgins-lake-flynn-island-hermit-cache	D	Hermit Pritchard's cache, Flynn Island, Higgins Lake	Roscommon	MI		research/ancestry/list14.md	36	co:pritchard
-tw-mi-higgins-lake-flynn-island-hermit-cache	D	Hermit Pritchard's cache, Flynn Island, Higgins Lake	Roscommon	MI		research/books/laird-followups.tsv	4	two:higgins
+tw-mi-higgins-lake-flynn-island-hermit-cache	D	Hermit Pritchard's cache, Flynn Island, Higgins Lake	Roscommon	MI		research/books/laird-followups.tsv	4	two:pritchard
 tw-mi-higgins-lake-flynn-island-hermit-cache	D	Hermit Pritchard's cache, Flynn Island, Higgins Lake	Roscommon	MI		research/books/wfmk-hermit-higgins.md	8	two:flynn
 tw-ia-marshalltown-mcknight-1907	D	Honora McKnight's money hidden "in strange places", Marshalltown	Marshall	IA		research/newspapers-com/leads.tsv	102	co:marshalltown
 tw-ia-marshalltown-mcknight-1907	D	Honora McKnight's money hidden "in strange places", Marshalltown	Marshall	IA		research/newspapers-com/ia-il-sweep.md	11	co:marshalltown
@@ -937,16 +948,16 @@ tw-il-dover-hudson-jar-1913	D	James Hudson's $1,200 he hid twice, farm at Dover	
 tw-il-dover-hudson-jar-1913	D	James Hudson's $1,200 he hid twice, farm at Dover	Bureau	IL		research/ia-il/README.md	52	co:hudson
 tw-il-dover-hudson-jar-1913	D	James Hudson's $1,200 he hid twice, farm at Dover	Bureau	IL		research/ancestry/illinois-names-batch.md	10	two:hudson
 tw-il-dover-hudson-jar-1913	D	James Hudson's $1,200 he hid twice, farm at Dover	Bureau	IL		research/sunday/sunday-list-2026-11-02.md	7	two:hudson
-tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/negatives.tsv	231	two:gordon
-tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/newspapers-com/pc-a-asks-results.md	707	two:gordon
-tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/newspapers-com/placement-gaps-list.md	23	two:gordon
-tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/newspapers-com/leads.tsv	115	two:gordon
-tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/newspapers-com/blackburn-gordon.md	1	file:gordon
-tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/plats/blackburn-gordon.md	1	file:gordon
-tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/plats/INDEX.md	41	two:gordon
+tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/negatives.tsv	231	two:blackburn
+tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/newspapers-com/pc-a-asks-results.md	707	two:blackburn
+tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/newspapers-com/placement-gaps-list.md	23	two:blackburn
+tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/newspapers-com/leads.tsv	115	two:blackburn
+tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/newspapers-com/blackburn-gordon.md	1	file:blackburn
+tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/plats/blackburn-gordon.md	1	file:blackburn
+tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/plats/INDEX.md	41	two:blackburn
 tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/plats/strolfer-douglas-wi.md	10	co:gordon
 tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		project-files/research/court-records/pin-records-check.tsv	2	id
-tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		project-files/research/treasure-statewide/blackburn-card.md	1	two:gordon
+tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		project-files/research/treasure-statewide/blackburn-card.md	1	file:blackburn
 tw-ia-livermore-johnson-whiskey-cache-1857	D	Johnson traders' whiskey and money cache, east of Livermore (1857 legend)	Humboldt	IA		research/newspapers-com/pc-a-asks-results.md	834	two:livermore
 tw-ia-livermore-johnson-whiskey-cache-1857	D	Johnson traders' whiskey and money cache, east of Livermore (1857 legend)	Humboldt	IA		research/treasure-statewide/held-leads.md	26	co:livermore
 tw-ia-livermore-johnson-whiskey-cache-1857	D	Johnson traders' whiskey and money cache, east of Livermore (1857 legend)	Humboldt	IA		research/ia-il/README.md	56	co:livermore
@@ -996,8 +1007,8 @@ tw-ia-spirit-lake-marble-gold-1857	D	Marble family's $1,500 in gold, west shore 
 tw-parker-la-crosse-1901	D	Mary Ann Parker, the La Crosse hermit's hidden fortune	La Crosse	WI		research/genealogybank/gb-list1.md	11	co:parker
 tw-parker-la-crosse-1901	D	Mary Ann Parker, the La Crosse hermit's hidden fortune	La Crosse	WI		research/ancestry/parker-la-crosse.md	1	file:parker
 tw-parker-la-crosse-1901	D	Mary Ann Parker, the La Crosse hermit's hidden fortune	La Crosse	WI		research/ancestry/INDEX.md	19	co:parker
-tw-wi-hartford-bauer-1898	D	Missing $1,028 from an 1898 roadside shooting, road to Holy Hill	Washington	WI		research/newspapers-com/pc-a-asks-results.md	135	two:holy
-tw-wi-hartford-bauer-1898	D	Missing $1,028 from an 1898 roadside shooting, road to Holy Hill	Washington	WI		research/newspapers-com/treasure-list-t13-t21.md	196	two:holy
+tw-wi-hartford-bauer-1898	D	Missing $1,028 from an 1898 roadside shooting, road to Holy Hill	Washington	WI		research/newspapers-com/pc-a-asks-results.md	20	two:bauer
+tw-wi-hartford-bauer-1898	D	Missing $1,028 from an 1898 roadside shooting, road to Holy Hill	Washington	WI		research/newspapers-com/treasure-list-t13-t21.md	163	two:bauer
 tw-wi-hartford-bauer-1898	D	Missing $1,028 from an 1898 roadside shooting, road to Holy Hill	Washington	WI		research/ancestry/INDEX.md	25	co:bauer
 tw-wi-hartford-bauer-1898	D	Missing $1,028 from an 1898 roadside shooting, road to Holy Hill	Washington	WI		research/county-depth/se-wi-histories/washington-ozaukee-1880s.md	184	co:holy
 tw-wi-hartford-bauer-1898	D	Missing $1,028 from an 1898 roadside shooting, road to Holy Hill	Washington	WI		research/plats/INDEX.md	46	two:holy
@@ -1062,12 +1073,14 @@ tw-wi-wisconsin-mouth-coins-1887	D	Old half-dollars washed out of the Wisconsin 
 tw-wi-wisconsin-mouth-coins-1887	D	Old half-dollars washed out of the Wisconsin River bank, Portage (1887)	Columbia	WI		research/newspapers-com/pc-a-asks-results.md	626	co:portage
 tw-wi-wisconsin-mouth-coins-1887	D	Old half-dollars washed out of the Wisconsin River bank, Portage (1887)	Columbia	WI		research/newspapers-com/second-sources-c-leads.md	123	id
 tw-wi-wisconsin-mouth-coins-1887	D	Old half-dollars washed out of the Wisconsin River bank, Portage (1887)	Columbia	WI		research/newspapers-com/leads.tsv	149	co:portage
+tw-wi-wisconsin-mouth-coins-1887	D	Old half-dollars washed out of the Wisconsin River bank, Portage (1887)	Columbia	WI		research/ancestry/list16.md	40	co:portage
 tw-wi-wisconsin-mouth-coins-1887	D	Old half-dollars washed out of the Wisconsin River bank, Portage (1887)	Columbia	WI		research/plats/pauquette-portage-glo.md	1	file:portage
 tw-wi-wisconsin-mouth-coins-1887	D	Old half-dollars washed out of the Wisconsin River bank, Portage (1887)	Columbia	WI		research/books/list14-county-histories.md	14	co:portage
 tw-wi-wisconsin-mouth-coins-1887	D	Old half-dollars washed out of the Wisconsin River bank, Portage (1887)	Columbia	WI		project-files/research/treasure-statewide/held-leads.md	40	co:portage
 tw-wi-wisconsin-mouth-coins-1887	D	Old half-dollars washed out of the Wisconsin River bank, Portage (1887)	Columbia	WI		project-files/research/treasure-statewide/leads-wi.tsv	11	id
 tw-wi-wisconsin-mouth-coins-1887	D	Old half-dollars washed out of the Wisconsin River bank, Portage (1887)	Columbia	WI		project-files/research/treasure-statewide/pc-newspapers-second-sources.md	29	id
 tw-ia-webster-city-lempke-hut-1906	D	Old Lempke's miser hut at the edge of Webster City	Hamilton	IA		research/newspapers-com/pc-a-asks-results.md	524	co:webster
+tw-ia-webster-city-lempke-hut-1906	D	Old Lempke's miser hut at the edge of Webster City	Hamilton	IA		research/newspapers-com/list18.md	15	co:webster
 tw-ia-webster-city-lempke-hut-1906	D	Old Lempke's miser hut at the edge of Webster City	Hamilton	IA		research/newspapers-com/ia-il-sweep.md	100	co:webster
 tw-ia-webster-city-lempke-hut-1906	D	Old Lempke's miser hut at the edge of Webster City	Hamilton	IA		research/newspapers-com/ia-il-second-source.md	21	co:webster
 tw-ia-webster-city-lempke-hut-1906	D	Old Lempke's miser hut at the edge of Webster City	Hamilton	IA		research/ia-il/README.md	13	co:webster
@@ -1127,8 +1140,10 @@ tw-wi-portage-pauquette-kegs	D	Pierre Pauquette's twenty kegs of gold, Portage (
 tw-wi-portage-pauquette-kegs	D	Pierre Pauquette's twenty kegs of gold, Portage (legend)	Columbia	WI		research/negatives.tsv	114	two:pauquette
 tw-wi-portage-pauquette-kegs	D	Pierre Pauquette's twenty kegs of gold, Portage (legend)	Columbia	WI		research/newspapers-com/pc-a-asks-results.md	858	two:pauquette
 tw-wi-portage-pauquette-kegs	D	Pierre Pauquette's twenty kegs of gold, Portage (legend)	Columbia	WI		research/newspapers-com/second-sources-c-leads.md	125	co:portage
+tw-wi-portage-pauquette-kegs	D	Pierre Pauquette's twenty kegs of gold, Portage (legend)	Columbia	WI		research/newspapers-com/list18.md	11	two:pauquette
 tw-wi-portage-pauquette-kegs	D	Pierre Pauquette's twenty kegs of gold, Portage (legend)	Columbia	WI		research/newspapers-com/leads.tsv	156	two:pierre
 tw-wi-portage-pauquette-kegs	D	Pierre Pauquette's twenty kegs of gold, Portage (legend)	Columbia	WI		research/ancestry/list15.md	16	co:pauquette
+tw-wi-portage-pauquette-kegs	D	Pierre Pauquette's twenty kegs of gold, Portage (legend)	Columbia	WI		research/ancestry/list16.md	40	two:pauquette
 tw-wi-portage-pauquette-kegs	D	Pierre Pauquette's twenty kegs of gold, Portage (legend)	Columbia	WI		research/plats/pauquette-portage-glo.md	1	two:pierre
 tw-wi-portage-pauquette-kegs	D	Pierre Pauquette's twenty kegs of gold, Portage (legend)	Columbia	WI		research/clippings/README.md	3	id
 tw-wi-portage-pauquette-kegs	D	Pierre Pauquette's twenty kegs of gold, Portage (legend)	Columbia	WI		research/books/list14-county-histories.md	14	two:pierre
@@ -1145,6 +1160,7 @@ tw-wi-sheboygan-behr-iron-box-1930	D	Recluse's $4,500 iron box in the cellar, S.
 tw-wi-sheboygan-behr-iron-box-1930	D	Recluse's $4,500 iron box in the cellar, S. 22nd Street, Sheboygan	Sheboygan	WI		project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md	14	co:behr
 tw-wi-sheboygan-behr-iron-box-1930	D	Recluse's $4,500 iron box in the cellar, S. 22nd Street, Sheboygan	Sheboygan	WI		project-files/research/treasure-statewide/persons.tsv	167	id
 tw-ia-hamilton-bennett-miser	D	Reuben Bennett, the Hamilton County miser, farm 2 mi from Webster City	Hamilton	IA		research/newspapers-com/pc-a-asks-results.md	524	two:webster
+tw-ia-hamilton-bennett-miser	D	Reuben Bennett, the Hamilton County miser, farm 2 mi from Webster City	Hamilton	IA		research/newspapers-com/list18.md	15	two:webster
 tw-ia-hamilton-bennett-miser	D	Reuben Bennett, the Hamilton County miser, farm 2 mi from Webster City	Hamilton	IA		research/newspapers-com/leads.tsv	124	two:reuben
 tw-ia-hamilton-bennett-miser	D	Reuben Bennett, the Hamilton County miser, farm 2 mi from Webster City	Hamilton	IA		research/newspapers-com/ia-il-sweep.md	100	two:webster
 tw-ia-hamilton-bennett-miser	D	Reuben Bennett, the Hamilton County miser, farm 2 mi from Webster City	Hamilton	IA		research/newspapers-com/ia-il-second-source.md	21	two:reuben
@@ -1157,6 +1173,7 @@ tw-ia-hamilton-bennett-miser	D	Reuben Bennett, the Hamilton County miser, farm 2
 tw-ia-hamilton-bennett-miser	D	Reuben Bennett, the Hamilton County miser, farm 2 mi from Webster City	Hamilton	IA		research/ancestry/land-ownership-maps-list7.md	10	co:bennett
 tw-ia-hamilton-bennett-miser	D	Reuben Bennett, the Hamilton County miser, farm 2 mi from Webster City	Hamilton	IA		research/ancestry/list15.md	11	two:webster
 tw-ia-hamilton-bennett-miser	D	Reuben Bennett, the Hamilton County miser, farm 2 mi from Webster City	Hamilton	IA		research/ancestry/INDEX.md	26	two:reuben
+tw-ia-hamilton-bennett-miser	D	Reuben Bennett, the Hamilton County miser, farm 2 mi from Webster City	Hamilton	IA		research/ancestry/list16.md	26	co:bennett
 tw-ia-hamilton-bennett-miser	D	Reuben Bennett, the Hamilton County miser, farm 2 mi from Webster City	Hamilton	IA		research/county-depth/se-wi-histories/washington-ozaukee-1880s.md	166	co:reuben
 tw-ia-hamilton-bennett-miser	D	Reuben Bennett, the Hamilton County miser, farm 2 mi from Webster City	Hamilton	IA		research/books/laird-1927-iowa-legends.md	5	co:webster
 tw-ia-hamilton-bennett-miser	D	Reuben Bennett, the Hamilton County miser, farm 2 mi from Webster City	Hamilton	IA		research/books/list15-histories.md	9	co:webster
@@ -1414,6 +1431,7 @@ wd5-plainview-kettle	E	Peter Lambrecht's kettle of gold coins in his cellar, Pla
 t-bennett-eagle-river	E	R.C. Bennett's tin boxes	Vilas	WI		research/leads.tsv	2	co:bennett
 t-bennett-eagle-river	E	R.C. Bennett's tin boxes	Vilas	WI		research/negatives.tsv	20	id
 t-bennett-eagle-river	E	R.C. Bennett's tin boxes	Vilas	WI		research/newspapers-com/pc-a-asks-results.md	858	two:eagle
+t-bennett-eagle-river	E	R.C. Bennett's tin boxes	Vilas	WI		research/newspapers-com/list18.md	6	two:eagle
 t-bennett-eagle-river	E	R.C. Bennett's tin boxes	Vilas	WI		research/newspapers-com/leads.tsv	154	two:eagle
 t-bennett-eagle-river	E	R.C. Bennett's tin boxes	Vilas	WI		research/newspapers-com/county-coverage-wi-mi-chronam.tsv	24	co:eagle
 t-bennett-eagle-river	E	R.C. Bennett's tin boxes	Vilas	WI		research/newspapers-com/sweep-2-misers-loot.md	71	co:eagle
@@ -1422,6 +1440,7 @@ t-bennett-eagle-river	E	R.C. Bennett's tin boxes	Vilas	WI		research/ancestry/lis
 t-bennett-eagle-river	E	R.C. Bennett's tin boxes	Vilas	WI		research/ancestry/list15.md	15	co:bennett
 t-bennett-eagle-river	E	R.C. Bennett's tin boxes	Vilas	WI		research/ancestry/INDEX.md	54	co:bennett
 t-bennett-eagle-river	E	R.C. Bennett's tin boxes	Vilas	WI		research/ancestry/vilas-wyandotte-game-farm.md	4	two:eagle
+t-bennett-eagle-river	E	R.C. Bennett's tin boxes	Vilas	WI		research/ancestry/list16.md	38	two:eagle
 t-bennett-eagle-river	E	R.C. Bennett's tin boxes	Vilas	WI		research/clippings/README.md	3	two:eagle
 cd-robbers-roost-crooked-creek	E	Robbers' Roost: Civil War river thieves' camp, sec. 36 Crooked Creek	Houston	MN		research/negatives.tsv	227	co:crooked
 t-sand-island-chest	E	Sand Island chest of silver	Bayfield	WI		research/negatives.tsv	14	id
@@ -1439,6 +1458,7 @@ gwl-tompkins-farm-coins	E	Tompkins farm coins in postholes, Hwy 51 about 4 mi so
 gwl-tompkins-farm-coins	E	Tompkins farm coins in postholes, Hwy 51 about 4 mi south of Portage	Columbia	WI		research/newspapers-com/pc-a-asks-results.md	626	co:portage
 gwl-tompkins-farm-coins	E	Tompkins farm coins in postholes, Hwy 51 about 4 mi south of Portage	Columbia	WI		research/newspapers-com/second-sources-c-leads.md	125	co:portage
 gwl-tompkins-farm-coins	E	Tompkins farm coins in postholes, Hwy 51 about 4 mi south of Portage	Columbia	WI		research/newspapers-com/leads.tsv	149	co:portage
+gwl-tompkins-farm-coins	E	Tompkins farm coins in postholes, Hwy 51 about 4 mi south of Portage	Columbia	WI		research/ancestry/list16.md	40	co:portage
 gwl-tompkins-farm-coins	E	Tompkins farm coins in postholes, Hwy 51 about 4 mi south of Portage	Columbia	WI		research/plats/pauquette-portage-glo.md	1	file:portage
 gwl-tompkins-farm-coins	E	Tompkins farm coins in postholes, Hwy 51 about 4 mi south of Portage	Columbia	WI		research/books/list14-county-histories.md	14	co:portage
 gwl-tompkins-farm-coins	E	Tompkins farm coins in postholes, Hwy 51 about 4 mi south of Portage	Columbia	WI		project-files/research/treasure-statewide/held-leads.md	40	co:portage
@@ -1471,6 +1491,7 @@ t-portage-riverboat-gold	E	Wisconsin River riverboat gold bars	Columbia	WI		rese
 t-portage-riverboat-gold	E	Wisconsin River riverboat gold bars	Columbia	WI		research/newspapers-com/pc-a-asks-results.md	626	co:portage
 t-portage-riverboat-gold	E	Wisconsin River riverboat gold bars	Columbia	WI		research/newspapers-com/second-sources-c-leads.md	125	co:portage
 t-portage-riverboat-gold	E	Wisconsin River riverboat gold bars	Columbia	WI		research/newspapers-com/leads.tsv	149	co:portage
+t-portage-riverboat-gold	E	Wisconsin River riverboat gold bars	Columbia	WI		research/ancestry/list16.md	40	co:portage
 t-portage-riverboat-gold	E	Wisconsin River riverboat gold bars	Columbia	WI		research/plats/pauquette-portage-glo.md	1	file:portage
 t-portage-riverboat-gold	E	Wisconsin River riverboat gold bars	Columbia	WI		research/books/list14-county-histories.md	14	co:portage
 t-portage-riverboat-gold	E	Wisconsin River riverboat gold bars	Columbia	WI		project-files/research/treasure-statewide/held-leads.md	40	co:portage
@@ -1481,9 +1502,10 @@ tw-ia-columbus-jct-train-gold-1904	F	'$10,000 found near Letts in 1934' (forum o
 tw-ia-columbus-jct-train-gold-1904	F	'$10,000 found near Letts in 1934' (forum only; no paper found)	Louisa	IA		research/newspapers-com/sweep-2-misers-loot.md	62	two:letts
 tw-wi-portage-cass-st-miser-hoard-1903	F	A Portage miser's $5,450 dug up under the kitchen, North Cass Street (1903)	Columbia	WI		research/leads.tsv	5	co:portage
 tw-wi-portage-cass-st-miser-hoard-1903	F	A Portage miser's $5,450 dug up under the kitchen, North Cass Street (1903)	Columbia	WI		research/negatives.tsv	301	id
-tw-wi-portage-cass-st-miser-hoard-1903	F	A Portage miser's $5,450 dug up under the kitchen, North Cass Street (1903)	Columbia	WI		research/newspapers-com/pc-a-asks-results.md	632	two:portage
+tw-wi-portage-cass-st-miser-hoard-1903	F	A Portage miser's $5,450 dug up under the kitchen, North Cass Street (1903)	Columbia	WI		research/newspapers-com/pc-a-asks-results.md	633	two:cass
 tw-wi-portage-cass-st-miser-hoard-1903	F	A Portage miser's $5,450 dug up under the kitchen, North Cass Street (1903)	Columbia	WI		research/newspapers-com/second-sources-c-leads.md	125	co:portage
-tw-wi-portage-cass-st-miser-hoard-1903	F	A Portage miser's $5,450 dug up under the kitchen, North Cass Street (1903)	Columbia	WI		research/newspapers-com/leads.tsv	149	two:portage
+tw-wi-portage-cass-st-miser-hoard-1903	F	A Portage miser's $5,450 dug up under the kitchen, North Cass Street (1903)	Columbia	WI		research/newspapers-com/leads.tsv	149	two:cass
+tw-wi-portage-cass-st-miser-hoard-1903	F	A Portage miser's $5,450 dug up under the kitchen, North Cass Street (1903)	Columbia	WI		research/ancestry/list16.md	40	co:portage
 tw-wi-portage-cass-st-miser-hoard-1903	F	A Portage miser's $5,450 dug up under the kitchen, North Cass Street (1903)	Columbia	WI		research/plats/pauquette-portage-glo.md	1	file:portage
 tw-wi-portage-cass-st-miser-hoard-1903	F	A Portage miser's $5,450 dug up under the kitchen, North Cass Street (1903)	Columbia	WI		research/books/list14-county-histories.md	14	co:portage
 tw-wi-portage-cass-st-miser-hoard-1903	F	A Portage miser's $5,450 dug up under the kitchen, North Cass Street (1903)	Columbia	WI		project-files/research/treasure-statewide/held-leads.md	40	co:portage
@@ -1646,6 +1668,7 @@ tw-mn-fay-ravine-dugout-1890	F	Outlaw dugout with a hidden back room, ravine in 
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/leads.tsv	2	two:conover
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/negatives.tsv	20	two:eagle
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/pc-a-asks-results.md	862	two:conover
+tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/list18.md	24	two:conover
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/leads.tsv	154	two:conover
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/county-coverage-wi-mi-chronam.tsv	24	co:eagle
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/sweep-2-misers-loot.md	71	co:eagle
@@ -1654,12 +1677,15 @@ tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte F
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/ancestry/list15.md	15	two:conover
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/ancestry/INDEX.md	54	two:conover
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/ancestry/vilas-wyandotte-game-farm.md	1	two:conover
+tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/ancestry/list16.md	38	two:conover
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/clippings/README.md	3	id
 tw-mn-west-st-paul-rechenberg-jar-1924	F	Rechenberg's jar of mildewed bills, Dodd Road farm (found 1924)	Dakota	MN		research/leads.tsv	4	id
 tw-mn-west-st-paul-rechenberg-jar-1924	F	Rechenberg's jar of mildewed bills, Dodd Road farm (found 1924)	Dakota	MN		research/negatives.tsv	245	co:rechenberg
 tw-mn-west-st-paul-rechenberg-jar-1924	F	Rechenberg's jar of mildewed bills, Dodd Road farm (found 1924)	Dakota	MN		research/newspapers-com/pc-a-asks-results.md	900	two:dodd
+tw-mn-west-st-paul-rechenberg-jar-1924	F	Rechenberg's jar of mildewed bills, Dodd Road farm (found 1924)	Dakota	MN		research/newspapers-com/list18.md	8	two:rechenberg
 tw-mn-west-st-paul-rechenberg-jar-1924	F	Rechenberg's jar of mildewed bills, Dodd Road farm (found 1924)	Dakota	MN		research/newspapers-com/leads.tsv	117	co:paul
 tw-mn-west-st-paul-rechenberg-jar-1924	F	Rechenberg's jar of mildewed bills, Dodd Road farm (found 1924)	Dakota	MN		research/ancestry/list14.md	6	two:dodd
+tw-mn-west-st-paul-rechenberg-jar-1924	F	Rechenberg's jar of mildewed bills, Dodd Road farm (found 1924)	Dakota	MN		research/ancestry/list16.md	37	two:dodd
 tw-mn-west-st-paul-rechenberg-jar-1924	F	Rechenberg's jar of mildewed bills, Dodd Road farm (found 1924)	Dakota	MN		research/plats/rechenberg-dakota-mn.md	1	two:dodd
 tw-mn-west-st-paul-rechenberg-jar-1924	F	Rechenberg's jar of mildewed bills, Dodd Road farm (found 1924)	Dakota	MN		research/clippings/README.md	3	id
 tw-mn-west-st-paul-rechenberg-jar-1924	F	Rechenberg's jar of mildewed bills, Dodd Road farm (found 1924)	Dakota	MN		project-files/research/court-records/pin-records-check.tsv	3	co:paul
