@@ -19,12 +19,10 @@
 "tw-wi-dover-gregg-hoard",
 "tw-wi-blackhawk-jaeger-1923",
 "tw-wi-new-london-hoffman-orchard",
-"tw-mn-sigel-kuehn-plum-trees-1906",
 "tw-mn-grand-rapids-ahonen-jars-1939",
 "tw-mn-le-center-tree-gold-1906",
 "tw-mn-briggs-lake-stump-coins-1922",
 "tw-mi-weesaw-spanish-coins-1897",
-"tw-mi-dimondale-carr-gold",
 "tw-mi-mineral-range-express-1893",
 "tw-mi-pinckney-dillon-coins-1932",
 "tw-mi-big-sable-1731-spanish-coin",
@@ -34,7 +32,6 @@
 "tw-ia-palmyra-dickson-farm-1909",
 "tw-ia-tipton-iwers-farm-1936",
 "tw-ia-clarksville-harvey-boiler",
-"tw-ia-lake-city-bader-farm-1906",
 "tw-ia-rickardsville-maxwell-place-1915",
 "tw-ia-lansing-callahan-farm-1921",
 "tw-ia-barnum-barner-farm-1914",
@@ -49,7 +46,8 @@
 "cd-carrier-cave-gold-coin-black-hammer",
 "tw-mi-mcbain-smalley-train-loot-1895",
 "tw-wi-beaver-mattrick-farm-1925",
-"tw-mn-st-charles-express-silver-1913"
+"tw-mn-st-charles-express-silver-1913",
+"tw-ia-columbus-jct-train-gold-1904"
 ],
 "partly": [
 "t-portage-riverboat-gold",
@@ -76,7 +74,10 @@
 "tw-il-dixon-mail-plane-diamonds-1929",
 "tw-mn-warsaw-murphy-crock-1920",
 "tw-mi-smyrna-marshall-bank-loot-1932",
-"tw-wi-palmyra-blackmore-shack-1927"
+"tw-wi-palmyra-blackmore-shack-1927",
+"tw-mn-sigel-kuehn-plum-trees-1906",
+"tw-mi-dimondale-carr-gold",
+"tw-ia-lake-city-bader-farm-1906"
 ],
 "unfound": [
 "t-becker-glidden",
@@ -95,7 +96,6 @@
 "tw-mi-buchanan-burton-phonograph",
 "tw-mi-bogus-island-counterfeiters",
 "tw-mi-north-fox-german-gold",
-"tw-wi-mineral-point-ravine-gold-1852",
-"tw-ia-columbus-jct-train-gold-1904"
+"tw-wi-mineral-point-ravine-gold-1852"
 ]
 }
