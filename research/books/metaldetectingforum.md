@@ -1,0 +1,2 @@
+# metaldetectingforum.com (Neb, 03:05Z 2 Nov 2026)
+Open from the cloud (200). XenForo board with hobby sections only: no state/regional forums, no treasure-legends section. "Caches, Old Bottles and Other Treasures" (forum 23) page 1 = bottle digging, privies, geocaching, Oak Island/Fenn/Dents Run chatter. Search requires a login (403 "Log in"), which we do not do. No Midwest lost-cache stories found; low yield; not queued further. Re-check only if Neb names a specific thread.
