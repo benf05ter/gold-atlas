@@ -16,6 +16,12 @@ The lead is T39 / B2-17: "Mrs. Armstrong Gregg" of Dover, whose money was found 
 - **Final account** (img 9), filed Nov 1893[?]. Administrators were **George Har[lie?] and Ole Helg[jord?]**. The first entry is "To amount of personal property as per inventory", with a total of about **$313**. The page continues off the visible part of the image and the line items could not be read at the viewer's maximum zoom.
 - **No line for money found on the premises was visible.** The estate is small (about $300-400 in personal property).
 
+## Final account, line items (re-read 2026-11-02, image 1904 of 2677, id 1421295-01903)
+- **Debits:** "To amount of personal property as per inventory" plus two receipts dated Nov-Dec 1893 ("rec'd from Geo. Mealy" and "from Jas. Alley"), **total $313.35**.
+- **Credits** (from Nov 1893): Ole Hanson, appraiser's fees; a doctor's bill; grave digging; funeral and burial items ($16.40, $15.66, $13.00, $29.92); "Casket & hearse (no charge)"; Mr. Ohlendorf, fixing grave, $3.80; certified copies 50¢; **Knight & ? abstracts, $20.00**; register of deeds fees for transfer, $1.75; total about $115.8x. The balance is carried to the next page ("Balance / said balance consists of").
+- **No line for money found, hidden or searched for.** The abstract and register-of-deeds charges show real estate changing hands (a transfer).
+- **Result:** a modest estate (about $313 personal property) with no cash-found entry. If the hoard story is true, it was not run through this file.
+
 ## Fit with the story
 - **Surname, township and era fit:** a Dover Twp Gregg/Greig widow or wife who died away from home (in Norway Twp, not Milwaukee).
 - **Mismatches:** "Mrs. Armstrong Gregg" vs Sarena/Tarena, Norway vs Milwaukee, and William was still alive to petition.

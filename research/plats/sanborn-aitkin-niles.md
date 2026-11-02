@@ -12,4 +12,11 @@ View-only, through the loc.gov IIIF tiles. LoC returned a 503 for a few minutes 
 - **1900 (sanborn04129_004) index:** Ferry St 400-607 is on **sheet 6** only. There is **no Eighth St** in the street index (E: Eagle, Elm, Emmons, Exchange).
 - **1900 sheet 6:** Ferry St is drawn from N. 3rd St north past N. 4th, N. 5th and N. 6th to the sheet top. Blocks of small frame dwellings are labelled Hoffman's Addition, H. B. & C. W. Hoffman's, and Green's Sub. The **African M. E. Church** (sheet 6 special) is in the same district, which fits a Black resident. The sheet ends about at N. 7th; **the Ferry/8th intersection is beyond the mapped area.**
 - **1907 (sanborn04129_005) index:** Ferry 400-605 is still sheet 6, and there is still **no Eighth St**.
-- **Result: none of the four corners can be described from the 1900 or 1907 Sanborns.** Ferry & 8th lies just N of the mapped blocks. The 1914 edition (15 sheets) was not checked for wider coverage; it is the next try.
+- **1914 (sanborn04129_006), FOUND.** The index lists Eighth St on sheets 12 & 13 and Ferry 500-612 / 700-1103 on sheet 12. On **sheet 12**, Ferry St runs E-W across the top, and N. 7th, **N. 8th** and N. 9th run N-S. At **Ferry & N. 8th**:
+  - **SW corner** (S side of Ferry, W of 8th; block of 701-799): **a 2-storey frame dwelling, no. 798 Ferry, right on the corner**, with a hydrant at the corner.
+  - **NW corner** (N side, block 10A): a 1½-storey dwelling, **no. 707 Ferry**, on the lot nearest 8th (705 is next W).
+  - **NE corner** (N side, block 8A): a 2-storey dwelling, **no. 801 Ferry**, on the corner lot (803 next E).
+  - **SE corner** (S side, block 2A; lot 241): **vacant corner lot.** The nearest houses are no. 808 and no. 899 further E.
+  - Context: the **A.M.E. Church** is in the same block 2A, at Sycamore & N. 9th; the Ferry St School is at Ferry & N. 7th.
+- **Result:** in 1914, three corners (SW 798, NW 707, NE 801) carry dwellings and the SE corner is empty. This is 12 years after Jackson's death, so which house was his needs a directory or a deed.
+- **Earlier result (1900/1907): none of the four corners can be described from those editions.** Ferry & 8th lies just N of the mapped blocks. The 1914 edition (15 sheets) was not checked for wider coverage; it is the next try.

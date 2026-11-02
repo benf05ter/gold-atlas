@@ -29,4 +29,11 @@ The story puts the 800-acre Bennett farm "two miles from the city" (Webster City
   - S (Independence Twp, T88N R25W sec 3/4): H. R. Busing 80, H. D. Blue 80, Webster City 80
 - **No Bennett on any adjoining parcel.** None appears on the Cass or Independence plates or in the patrons directory (p.49). By 1918 the Bennett land had passed to other owners. The 800 acres most likely lay among the McKee, Kamrar, Bickford and Lyon tracts around sec 34, but that is a guess without a deed or an older plat.
 - Also checked, with no county farm: the Independence plate p.23 (whole), Freedom secs 13/23/24, and the NE of Webster Twp. Boone Twp p.22 (node/869759) is the Webster City limits only.
+### 1896 atlas on Ancestry (2026-11-02): BENNETT FOUND
+- Source: Ancestry *U.S., Indexed County Land Ownership Maps* (coll. 1127), Iowa, "Hamilton, 1896" (North West Publishing Co., *Atlas of Hamilton County, Iowa*, 1896), image 10 of 44 (31617_072143-00158), **p.9 "Plat of Cass", Township 89 North, Range 25 West**.
+- **"R. S. Bennett 120"**: a N-S strip in **sec 27**, W of centre (between two unlabelled 80s and Isabella Johnston 80), with a house dot. This is two years before his death in Oct 1898.
+- **Sec 34, directly S:** "**Hamilton County 'Poor Farm' 160**" (labelled "Hamilton County Poor Farm"). In 1896 it lies in the **NW/W part of sec 34**, with the county farm buildings next to the Webster City limits (heavy dashed line). Bennett's 120 adjoins it across the 27/34 line, which **matches the story ("next to the county poor farm, two miles from the city")**.
+- Other 1896 neighbours: Hamilton 160 and E. Bickford 40 (sec 34), G. T. Ralledge 40, Frank Fidler 160, Lyons, Walton 160 (sec 26), O. W. Story Est. and K. Young 240 (sec 28), J. N. Lyon 80, J. L. Kamrar 312 (sec 35), Fred Reinhart 152.
+- Only 120 acres are under his name on this plate. The rest of the story's 800 acres (if real) may be the adjoining unlabelled 80s or land elsewhere.
+- **Suggested pin: Bennett tract, sec 27 T89N R25W, W-central, about 42.498, -93.787, r400. Confidence B** (named on an 1896 plate next to the poor farm). Sec 27 bounds are about -93.794..-93.774, 42.492..42.506 (directly N of sec 34).
 - **Next if wanted:** an 1880s or 1890s Hamilton plat, or Hamilton Co deed indexes for R. S. Bennett, to fix the exact tracts.
