@@ -332,15 +332,6 @@ Notes:
 
 Also mentions the place: [negatives.tsv](negatives.tsv#L144) (line 144)
 
-### $35,000 in dishpans, South Fox Island
-`tw-mi-south-fox-dishpans` · grade C · Leelanau Co., MI
-
-Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L259) (line 259)
-
-Notes:
-- `/mnt/project-files/research/treasure-statewide/leads-mi.tsv` line 29 (shared folder only)
-- `/mnt/project-files/research/treasure-statewide/persons.tsv` line 45 (shared folder only)
-
 ### Bogus Bluff cave treasure dig (1922-23)
 `t-richland-bluff-cave` · grade C · Richland Co., WI
 
@@ -781,20 +772,20 @@ Notes:
 - [ancestry/list20.md](ancestry/list20.md#L25) (line 25)
 - [ancestry/list18.md](ancestry/list18.md#L53) (line 53)
 - [ancestry/list19.md](ancestry/list19.md#L54) (line 54)
-- [ancestry/INDEX.md](ancestry/INDEX.md#L64) (line 64)
+- [ancestry/INDEX.md](ancestry/INDEX.md#L60) (line 60)
 - [ancestry/list23.md](ancestry/list23.md#L72) (line 72)
 
 ### Pot-of-gold dig on the Swem farm, Galien (1896)
 `tw-mi-galien-swem-pot-of-gold-1896` · grade C · Berrien Co., MI
 
 Notes:
-- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L666) (line 666)
+- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L668) (line 668)
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L148) (line 148)
 - [ancestry/list9-probate-census.md](ancestry/list9-probate-census.md#L11) (line 11)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L49) (line 49)
 - [plats/sunday-plates-2026-11-02.md](plats/sunday-plates-2026-11-02.md#L29) (line 29)
 
-Also mentions the place: [ancestry/land-ownership-maps-list8.md](ancestry/land-ownership-maps-list8.md#L33) (line 33)
+Also mentions the place: [ancestry/list26.md](ancestry/list26.md#L161) (line 161); [ancestry/land-ownership-maps-list8.md](ancestry/land-ownership-maps-list8.md#L33) (line 33)
 
 ### Ray Yocum's lost fruit jar of $2,300, Yocum yard, East Lincoln Highway, DeKalb
 `tw-il-dekalb-yocum-jar-1939` · grade C · DeKalb Co., IL
@@ -843,7 +834,7 @@ Notes:
 - `/mnt/project-files/research/treasure-statewide/pc-newspapers-second-sources.md` line 24 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/persons.tsv` line 11 (shared folder only)
 
-Also mentions the place: [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L148) (line 148); [ancestry/list9-probate-census.md](ancestry/list9-probate-census.md#L12) (line 12); [ancestry/INDEX.md](ancestry/INDEX.md#L33) (line 33); [plats/sunday-plates-2026-11-02.md](plats/sunday-plates-2026-11-02.md#L29) (line 29); [plats/INDEX.md](plats/INDEX.md#L59) (line 59); `/mnt/project-files/research/treasure-statewide/pc-b-plat-queue-2026-11-01.md` line 11 (shared folder only)
+Also mentions the place: [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L148) (line 148); [ancestry/list26.md](ancestry/list26.md#L155) (line 155); [ancestry/list9-probate-census.md](ancestry/list9-probate-census.md#L12) (line 12); [ancestry/INDEX.md](ancestry/INDEX.md#L33) (line 33); [plats/sunday-plates-2026-11-02.md](plats/sunday-plates-2026-11-02.md#L29) (line 29); [plats/INDEX.md](plats/INDEX.md#L59) (line 59); `/mnt/project-files/research/treasure-statewide/pc-b-plat-queue-2026-11-01.md` line 11 (shared folder only)
 
 ### St. Paul bank loot rumored buried on the Eliza Wilson farm, Elk Creek
 `tw-wi-eau-claire-eliza-wilson-farm-1925` · grade C · Eau Claire Co., WI
@@ -1037,6 +1028,15 @@ Notes:
 - `/mnt/project-files/research/treasure-statewide/persons.tsv` line 69 (shared folder only)
 
 Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L765) (line 765); [ancestry/list26.md](ancestry/list26.md#L30) (line 30); [ancestry/list25.md](ancestry/list25.md#L54) (line 54); [ancestry/INDEX.md](ancestry/INDEX.md#L66) (line 66)
+
+### $35,000 in dishpans, South Fox Island
+`tw-mi-south-fox-dishpans` · grade D · Leelanau Co., MI
+
+Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L259) (line 259)
+
+Notes:
+- `/mnt/project-files/research/treasure-statewide/leads-mi.tsv` line 29 (shared folder only)
+- `/mnt/project-files/research/treasure-statewide/persons.tsv` line 45 (shared folder only)
 
 ### $8,000 in gold, Nepessing Lake
 `tw-mi-nepessing-lake-1896` · grade D · Lapeer Co., MI
@@ -1468,9 +1468,9 @@ Also mentions the place: [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L10
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L231) (line 231)
 
 Notes:
-- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L187) (line 187)
+- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L28) (line 28)
 - [newspapers-com/placement-gaps-list.md](newspapers-com/placement-gaps-list.md#L39) (line 39)
-- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L106) (line 106)
+- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L20) (line 20)
 - [newspapers-com/ia-il-second-source.md](newspapers-com/ia-il-second-source.md#L123) (line 123)
 - [genealogybank/gb-list1.md](genealogybank/gb-list1.md#L31) (line 31)
 - [ancestry/list12-dates.md](ancestry/list12-dates.md#L6) (line 6)
@@ -1660,7 +1660,7 @@ Notes:
 - [plats/jackson-niles.md](plats/jackson-niles.md#L1) (line 1)
 - [clippings/README.md](clippings/README.md#L3) (line 3)
 
-Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L177) (line 177); [newspapers-com/second-sources-c-leads.md](newspapers-com/second-sources-c-leads.md#L79) (line 79); [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L147) (line 147); [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L258) (line 258); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L48) (line 48); [ancestry/list27.md](ancestry/list27.md#L28) (line 28); [ancestry/list26.md](ancestry/list26.md#L50) (line 50); [ancestry/land-ownership-maps-list8.md](ancestry/land-ownership-maps-list8.md#L38) (line 38); [ancestry/list15.md](ancestry/list15.md#L14) (line 14); [fairgrounds/mi-early-fairs.md](fairgrounds/mi-early-fairs.md#L8) (line 8); `/mnt/project-files/research/treasure-statewide/leads-mi.tsv` line 4 (shared folder only); `/mnt/project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md` line 6 (shared folder only); `/mnt/project-files/research/treasure-statewide/pc-newspapers-second-sources.md` line 20 (shared folder only); `/mnt/project-files/research/treasure-statewide/persons.tsv` line 8 (shared folder only)
+Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L177) (line 177); [newspapers-com/second-sources-c-leads.md](newspapers-com/second-sources-c-leads.md#L79) (line 79); [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L147) (line 147); [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L258) (line 258); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L48) (line 48); [ancestry/list27.md](ancestry/list27.md#L28) (line 28); [ancestry/list26.md](ancestry/list26.md#L50) (line 50); [ancestry/land-ownership-maps-list8.md](ancestry/land-ownership-maps-list8.md#L38) (line 38); [ancestry/list15.md](ancestry/list15.md#L14) (line 14); [ancestry/INDEX.md](ancestry/INDEX.md#L67) (line 67); [fairgrounds/mi-early-fairs.md](fairgrounds/mi-early-fairs.md#L8) (line 8); `/mnt/project-files/research/treasure-statewide/leads-mi.tsv` line 4 (shared folder only); `/mnt/project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md` line 6 (shared folder only); `/mnt/project-files/research/treasure-statewide/pc-newspapers-second-sources.md` line 20 (shared folder only); `/mnt/project-files/research/treasure-statewide/persons.tsv` line 8 (shared folder only)
 
 ### Murdered man's money at the old sugar camp near Patterson
 `tw-ia-patterson-sugar-camp-1907` · grade D · Madison Co., IA
@@ -2897,7 +2897,7 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L253) (line 253)
 
 Notes:
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L397) (line 397)
-- [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L55) (line 55)
+- [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L48) (line 48)
 - [ancestry/list25.md](ancestry/list25.md#L118) (line 118)
 - [plats/van-arsdale-alamo.md](plats/van-arsdale-alamo.md#L1) (line 1)
 - [plats/INDEX.md](plats/INDEX.md#L55) (line 55)

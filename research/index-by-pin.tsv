@@ -252,8 +252,6 @@ tw-wi-lily-wolf-river-jack-1939	C	"Wolf River Jack": tin cans of money rumored b
 tw-wi-lily-wolf-river-jack-1939	C	"Wolf River Jack": tin cans of money rumored buried by his shack near Lily	Langlade	WI		project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md	31	two:lily
 tw-wi-lily-wolf-river-jack-1939	C	"Wolf River Jack": tin cans of money rumored buried by his shack near Lily	Langlade	WI		project-files/research/treasure-statewide/pc-b-plat-queue-2026-11-01.md	17	two:lily
 tw-wi-lily-wolf-river-jack-1939	C	"Wolf River Jack": tin cans of money rumored buried by his shack near Lily	Langlade	WI		project-files/research/treasure-statewide/persons.tsv	148	id
-tw-mi-south-fox-dishpans	C	$35,000 in dishpans, South Fox Island	Leelanau	MI		project-files/research/treasure-statewide/leads-mi.tsv	29	id
-tw-mi-south-fox-dishpans	C	$35,000 in dishpans, South Fox Island	Leelanau	MI		project-files/research/treasure-statewide/persons.tsv	45	id
 t-richland-bluff-cave	C	Bogus Bluff cave treasure dig (1922-23)	Richland	WI		research/negatives.tsv	63	id
 t-richland-bluff-cave	C	Bogus Bluff cave treasure dig (1922-23)	Richland	WI		research/newspapers-com/leads.tsv	12	co:bogus
 t-richland-bluff-cave	C	Bogus Bluff cave treasure dig (1922-23)	Richland	WI		research/treasure-statewide/source-hunt-2026-11-02.md	13	co:bogus
@@ -549,14 +547,15 @@ tw-mi-menominee-ole-johnson-cans	C	Ole Johnson's salmon cans of $10 gold under s
 tw-mi-emmett-mcardill-dry-well-1874	C	Pedlar McArdill's robbery gold, dry well in the Newbre neighbourhood, Emmett Twp (c.1849 robbery; 1874 dig)	Calhoun	MI		research/ancestry/list20.md	25	two:newbre
 tw-mi-emmett-mcardill-dry-well-1874	C	Pedlar McArdill's robbery gold, dry well in the Newbre neighbourhood, Emmett Twp (c.1849 robbery; 1874 dig)	Calhoun	MI		research/ancestry/list18.md	53	two:newbre
 tw-mi-emmett-mcardill-dry-well-1874	C	Pedlar McArdill's robbery gold, dry well in the Newbre neighbourhood, Emmett Twp (c.1849 robbery; 1874 dig)	Calhoun	MI		research/ancestry/list19.md	54	two:newbre
-tw-mi-emmett-mcardill-dry-well-1874	C	Pedlar McArdill's robbery gold, dry well in the Newbre neighbourhood, Emmett Twp (c.1849 robbery; 1874 dig)	Calhoun	MI		research/ancestry/INDEX.md	64	two:emmett
+tw-mi-emmett-mcardill-dry-well-1874	C	Pedlar McArdill's robbery gold, dry well in the Newbre neighbourhood, Emmett Twp (c.1849 robbery; 1874 dig)	Calhoun	MI		research/ancestry/INDEX.md	60	two:mcardill
 tw-mi-emmett-mcardill-dry-well-1874	C	Pedlar McArdill's robbery gold, dry well in the Newbre neighbourhood, Emmett Twp (c.1849 robbery; 1874 dig)	Calhoun	MI		research/ancestry/list23.md	72	two:newbre
-tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/newspapers-com/pc-a-asks-results.md	666	two:galien
-tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/newspapers-com/leads.tsv	148	two:galien
-tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/ancestry/list9-probate-census.md	11	two:galien
+tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/newspapers-com/pc-a-asks-results.md	668	two:swem
+tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/newspapers-com/leads.tsv	148	two:swem
+tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/ancestry/list26.md	161	co:galien
+tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/ancestry/list9-probate-census.md	11	two:swem
 tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/ancestry/land-ownership-maps-list8.md	33	co:swem
-tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/ancestry/INDEX.md	49	two:galien
-tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/plats/sunday-plates-2026-11-02.md	29	two:galien
+tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/ancestry/INDEX.md	49	two:swem
+tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/plats/sunday-plates-2026-11-02.md	29	two:swem
 tw-il-dekalb-yocum-jar-1939	C	Ray Yocum's lost fruit jar of $2,300, Yocum yard, East Lincoln Highway, DeKalb	DeKalb	IL		research/ancestry/illinois-names-batch.md	15	co:yocum
 tw-il-dekalb-yocum-jar-1939	C	Ray Yocum's lost fruit jar of $2,300, Yocum yard, East Lincoln Highway, DeKalb	DeKalb	IL		research/ancestry/list25.md	161	two:yocum
 tw-il-dekalb-yocum-jar-1939	C	Ray Yocum's lost fruit jar of $2,300, Yocum yard, East Lincoln Highway, DeKalb	DeKalb	IL		research/ancestry/INDEX.md	66	co:yocum
@@ -581,6 +580,7 @@ tw-mn-waldorf-tweit-recluse-1927	C	Recluse Michael Tweit's rumored buried money,
 tw-mi-weesaw-spanish-coins-1897	C	Spanish and Mexican gold coins plowed up, northern Weesaw Township	Berrien	MI		research/newspapers-com/pc-a-asks-results.md	309	two:mexican
 tw-mi-weesaw-spanish-coins-1897	C	Spanish and Mexican gold coins plowed up, northern Weesaw Township	Berrien	MI		research/newspapers-com/second-sources-c-leads.md	95	id
 tw-mi-weesaw-spanish-coins-1897	C	Spanish and Mexican gold coins plowed up, northern Weesaw Township	Berrien	MI		research/newspapers-com/leads.tsv	148	co:weesaw
+tw-mi-weesaw-spanish-coins-1897	C	Spanish and Mexican gold coins plowed up, northern Weesaw Township	Berrien	MI		research/ancestry/list26.md	155	co:weesaw
 tw-mi-weesaw-spanish-coins-1897	C	Spanish and Mexican gold coins plowed up, northern Weesaw Township	Berrien	MI		research/ancestry/list9-probate-census.md	12	co:weesaw
 tw-mi-weesaw-spanish-coins-1897	C	Spanish and Mexican gold coins plowed up, northern Weesaw Township	Berrien	MI		research/ancestry/INDEX.md	33	co:weesaw
 tw-mi-weesaw-spanish-coins-1897	C	Spanish and Mexican gold coins plowed up, northern Weesaw Township	Berrien	MI		research/ancestry/paddock-weesaw-census.md	1	file:weesaw
@@ -730,6 +730,8 @@ tw-mi-hartford-cora-miller-1897	D	"Seventeen hundred dollars, dig, dig": Cora Mi
 tw-mi-hartford-cora-miller-1897	D	"Seventeen hundred dollars, dig, dig": Cora Miller, Hartford	Van Buren	MI	dig-mi-hartford-cora-miller-1897	project-files/research/treasure-statewide/leads-mi.tsv	47	id
 tw-mi-hartford-cora-miller-1897	D	"Seventeen hundred dollars, dig, dig": Cora Miller, Hartford	Van Buren	MI	dig-mi-hartford-cora-miller-1897	project-files/research/treasure-statewide/pc-newspapers-second-sources.md	17	id
 tw-mi-hartford-cora-miller-1897	D	"Seventeen hundred dollars, dig, dig": Cora Miller, Hartford	Van Buren	MI	dig-mi-hartford-cora-miller-1897	project-files/research/treasure-statewide/persons.tsv	69	id
+tw-mi-south-fox-dishpans	D	$35,000 in dishpans, South Fox Island	Leelanau	MI		project-files/research/treasure-statewide/leads-mi.tsv	29	id
+tw-mi-south-fox-dishpans	D	$35,000 in dishpans, South Fox Island	Leelanau	MI		project-files/research/treasure-statewide/persons.tsv	45	id
 tw-mi-nepessing-lake-1896	D	$8,000 in gold, Nepessing Lake	Lapeer	MI		research/newspapers-com/pc-a-asks-results.md	277	co:nepessing
 tw-mi-nepessing-lake-1896	D	$8,000 in gold, Nepessing Lake	Lapeer	MI		research/newspapers-com/treasure-list-t13-t21.md	8	co:nepessing
 tw-mi-nepessing-lake-1896	D	$8,000 in gold, Nepessing Lake	Lapeer	MI		project-files/research/treasure-statewide/leads-mi.tsv	25	id
@@ -971,16 +973,16 @@ tw-ia-marshalltown-mcknight-1907	D	Honora McKnight's money hidden "in strange pl
 tw-ia-marshalltown-mcknight-1907	D	Honora McKnight's money hidden "in strange places", Marshalltown	Marshall	IA		research/ancestry/list27.md	13	two:honora
 tw-ia-marshalltown-mcknight-1907	D	Honora McKnight's money hidden "in strange places", Marshalltown	Marshall	IA		research/ancestry/list26.md	141	two:honora
 tw-ia-marshalltown-mcknight-1907	D	Honora McKnight's money hidden "in strange places", Marshalltown	Marshall	IA		research/ancestry/INDEX.md	67	two:mcknight
-tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/newspapers-com/pc-a-asks-results.md	187	two:hugh
+tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/newspapers-com/pc-a-asks-results.md	28	two:marcell
 tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/newspapers-com/placement-gaps-list.md	39	two:marcell
-tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/newspapers-com/leads.tsv	106	two:hugh
+tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/newspapers-com/leads.tsv	20	two:marcell
 tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/newspapers-com/ia-il-second-source.md	123	two:marcell
 tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/genealogybank/gb-list1.md	31	two:hugh
 tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/ancestry/list12-dates.md	6	two:hugh
 tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/ancestry/list10-probate-census.md	20	two:hugh
 tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/plats/placement-gaps-pass.md	59	two:marcell
-tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/plats/INDEX.md	66	two:hugh
-tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/plats/brunette-turtle-lake.md	1	two:hugh
+tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/plats/INDEX.md	66	two:marcell
+tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/plats/brunette-turtle-lake.md	1	two:marcell
 tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		project-files/research/treasure-statewide/leads-mn.tsv	9	id
 tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md	27	two:marcell
 tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		project-files/research/treasure-statewide/pc-b-plat-queue-2026-11-01.md	16	two:marcell
@@ -1005,16 +1007,16 @@ tw-il-dover-hudson-jar-1913	D	James Hudson's $1,200 he hid twice, farm at Dover	
 tw-il-dover-hudson-jar-1913	D	James Hudson's $1,200 he hid twice, farm at Dover	Bureau	IL		research/ancestry/list19.md	40	two:hudson
 tw-il-dover-hudson-jar-1913	D	James Hudson's $1,200 he hid twice, farm at Dover	Bureau	IL		research/ancestry/INDEX.md	60	co:hudson
 tw-il-dover-hudson-jar-1913	D	James Hudson's $1,200 he hid twice, farm at Dover	Bureau	IL		research/sunday/sunday-list-2026-11-02.md	7	two:hudson
-tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/negatives.tsv	231	two:gordon
-tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/newspapers-com/pc-a-asks-results.md	707	two:gordon
-tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/newspapers-com/placement-gaps-list.md	23	two:gordon
-tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/newspapers-com/leads.tsv	115	two:gordon
-tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/newspapers-com/blackburn-gordon.md	1	file:gordon
-tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/plats/blackburn-gordon.md	1	file:gordon
-tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/plats/INDEX.md	41	two:gordon
+tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/negatives.tsv	231	two:blackburn
+tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/newspapers-com/pc-a-asks-results.md	707	two:blackburn
+tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/newspapers-com/placement-gaps-list.md	23	two:blackburn
+tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/newspapers-com/leads.tsv	115	two:blackburn
+tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/newspapers-com/blackburn-gordon.md	1	file:blackburn
+tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/plats/blackburn-gordon.md	1	file:blackburn
+tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/plats/INDEX.md	41	two:blackburn
 tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/plats/strolfer-douglas-wi.md	10	co:gordon
 tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		project-files/research/court-records/pin-records-check.tsv	2	id
-tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		project-files/research/treasure-statewide/blackburn-card.md	1	two:gordon
+tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		project-files/research/treasure-statewide/blackburn-card.md	1	file:blackburn
 tw-mi-agards-landing-gold	D	John Agard's buried gold, Agard's Landing on the Paw Paw River	Van Buren	MI		research/newspapers-com/pc-a-asks-results.md	451	co:agard
 tw-mi-agards-landing-gold	D	John Agard's buried gold, Agard's Landing on the Paw Paw River	Van Buren	MI		research/newspapers-com/pc-b-asks-results.md	27	co:agard
 tw-mi-agards-landing-gold	D	John Agard's buried gold, Agard's Landing on the Paw Paw River	Van Buren	MI		research/newspapers-com/second-sources-c-leads.md	111	id
@@ -1088,6 +1090,7 @@ tw-mi-niles-dam-french-war-cache	D	Money buried above the dam, Niles (French and
 tw-mi-niles-dam-french-war-cache	D	Money buried above the dam, Niles (French and Indian war legend)	Berrien	MI		research/ancestry/list26.md	50	co:niles
 tw-mi-niles-dam-french-war-cache	D	Money buried above the dam, Niles (French and Indian war legend)	Berrien	MI		research/ancestry/land-ownership-maps-list8.md	38	co:niles
 tw-mi-niles-dam-french-war-cache	D	Money buried above the dam, Niles (French and Indian war legend)	Berrien	MI		research/ancestry/list15.md	14	co:niles
+tw-mi-niles-dam-french-war-cache	D	Money buried above the dam, Niles (French and Indian war legend)	Berrien	MI		research/ancestry/INDEX.md	67	co:niles
 tw-mi-niles-dam-french-war-cache	D	Money buried above the dam, Niles (French and Indian war legend)	Berrien	MI		research/plats/sanborn-aitkin-niles.md	1	file:niles
 tw-mi-niles-dam-french-war-cache	D	Money buried above the dam, Niles (French and Indian war legend)	Berrien	MI		research/plats/jackson-niles.md	1	file:niles
 tw-mi-niles-dam-french-war-cache	D	Money buried above the dam, Niles (French and Indian war legend)	Berrien	MI		research/clippings/README.md	3	id
@@ -1589,7 +1592,7 @@ tw-mn-waldorf-tweit-recluse-1927-medo	E	Tweit family farm, Medo Twp (alternate s
 tw-mn-waldorf-tweit-recluse-1927-medo	E	Tweit family farm, Medo Twp (alternate spot for Michael Tweit's money)	Blue Earth	MN		project-files/research/treasure-statewide/leads-mn.tsv	20	two:medo
 tw-mn-waldorf-tweit-recluse-1927-medo	E	Tweit family farm, Medo Twp (alternate spot for Michael Tweit's money)	Blue Earth	MN		project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md	8	two:waldorf
 tw-mn-waldorf-tweit-recluse-1927-medo	E	Tweit family farm, Medo Twp (alternate spot for Michael Tweit's money)	Blue Earth	MN		project-files/research/treasure-statewide/persons.tsv	122	two:waldorf
-coff-davock-minch	E	William B. Davock and Anna Minch (1940)	Oceana	MI		research/newspapers-com/pc-a-asks-results.md	658	two:minch
+coff-davock-minch	E	William B. Davock and Anna Minch (1940)	Oceana	MI		research/newspapers-com/pc-a-asks-results.md	658	two:davock
 t-tr-colvill	E	William Colvill’s Civil War gold	Cook	MN		research/negatives.tsv	40	id
 t-winona-gang	E	Winona Gang loot (Minnesota)	Winona (MN)	WI		research/negatives.tsv	23	id
 t-portage-riverboat-gold	E	Wisconsin River riverboat gold bars	Columbia	WI		research/leads.tsv	5	co:portage
@@ -1734,13 +1737,13 @@ tw-wi-mineral-point-ravine-gold-1852	F	Gold lumps in a ravine in Mineral Point v
 tw-wi-mineral-point-ravine-gold-1852	F	Gold lumps in a ravine in Mineral Point village (1852)	Iowa	WI		research/newspapers-com/treasure-list-t13-t21.md	84	co:mineral
 tw-wi-mineral-point-ravine-gold-1852	F	Gold lumps in a ravine in Mineral Point village (1852)	Iowa	WI		research/ancestry/INDEX.md	67	co:mineral
 tw-wi-mineral-point-ravine-gold-1852	F	Gold lumps in a ravine in Mineral Point village (1852)	Iowa	WI		project-files/research/treasure-statewide/leads-wi.tsv	12	id
-tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		research/newspapers-com/pc-a-asks-results.md	397	two:alamo
-tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		research/newspapers-com/treasure-list-t13-t21.md	55	two:alamo
-tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		research/ancestry/list25.md	118	two:alamo
-tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		research/plats/van-arsdale-alamo.md	1	file:alamo
-tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		research/plats/INDEX.md	55	two:alamo
+tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		research/newspapers-com/pc-a-asks-results.md	397	two:arsdale
+tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		research/newspapers-com/treasure-list-t13-t21.md	48	two:arsdale
+tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		research/ancestry/list25.md	118	two:arsdale
+tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		research/plats/van-arsdale-alamo.md	1	file:arsdale
+tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		research/plats/INDEX.md	55	two:arsdale
 tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		project-files/research/treasure-statewide/leads-mi.tsv	23	id
-tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md	21	two:alamo
+tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md	21	two:arsdale
 tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		project-files/research/treasure-statewide/persons.tsv	39	id
 tw-wi-blackhawk-jaeger-1923	F	Hermit Robert Jaeger's hidden wealth, Black Hawk (Sauk Co.)	Sauk	WI		research/negatives.tsv	239	id
 tw-wi-blackhawk-jaeger-1923	F	Hermit Robert Jaeger's hidden wealth, Black Hawk (Sauk Co.)	Sauk	WI		research/newspapers-com/second-sources-c-leads.md	22	id

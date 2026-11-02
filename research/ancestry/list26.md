@@ -151,3 +151,12 @@
 ## 25. Andrew Jackson, Niles (MI): 1900 census
 - **1900 (7602): Andrew Jackson, head, b. Mar 1833 TN, Black, married 1880 to Flora; son Andrew (b. Jun 1890 MI). Niles city, Ward 2, street indexed "Sylvanne" [?] no. 13**, sheet 23, dwelling 571. Occupation partly indexed ("Leach Main"?).
 - Treasure has **399 N. 8th St** (a later address). In 1900 the household was on a Ward 2 street read as "Sylvanne", not 8th St; the image would confirm. Low priority; no change to the card pin unless the story's year is 1900.
+
+## 8. Weesaw / Mathew Paddock (Berrien Co MI, T7S R19W)
+- **Dedupe:** the plat work is already done in research/plats/paddock-weesaw-sec11.md and paddock-weesaw-plat.md: no Paddock on the 1860, 1873 or 1887 Weesaw plates (1887 leaf 45, re-read now; sec 11 = Smith, Boyce, Orris, Simpson, Kellum, Washburn, Spinetta, Weaver, Boyle). No Berrien plat after 1887 is on archive.org.
+- **New: census and grave (Ancestry index only):**
+  - 1850 (8054): **Mathew M. Paddock**, b. about 1804 NY, "Division 10", Berrien Co; wife Elmer/Elener (b. 1811 NY); children Jerome (1840 IN), Columbus (1841 MI), Corintha (1845), Naoma (1845), Ammetta (1847).
+  - 1860 (7667): **M. M. Paddock, Weesaw Twp**, b. 1805 NY, with Eleanor, Jerome, Columbus, Corentha M., Anna H. So the family was still in Weesaw in 1860, though the 1860 wall map shows no Paddock parcel (he may have been on land under another name, or the map lagged).
+  - 1870 (7163): no Paddock in Weesaw; Berrien Paddocks are Stephen/Aurelia in Three Oaks, Irving in New Buffalo, and David in Benton (relationship unknown).
+  - Find a Grave (60525): **Matthew M. Paddock, b. 5 Nov 1805, d. 20 Sep 1883, buried Galien, Berrien Co** (Galien Twp adjoins Weesaw on the S).
+- **Reading:** the Paddock tie to sec 11 is the 1840s-50s settlement; he died in 1883, 14 years before the 1897 coin find. That fits an "old Paddock place" story, but there is still no parcel to pin. **Pin unchanged: sec 11 centre 41.8779,-86.4846, r1000, D.** A Galien cemetery visit (grave) is a Ground check option only.
