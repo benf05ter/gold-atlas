@@ -130,3 +130,9 @@ Owosso Sanborns 1884-1946 (sanborn04142_001..009).
 16. newspapers.com: Greenville "fair grounds" 1866-1880.
 17. newspapers.com: Cassopolis "fair grounds" 1860-1880.
 18. Ancestry land-ownership maps: 1875 Livingston, 1875 Shiawassee, 1875 Macomb, 1873 Berrien atlases; "Fair Ground" on Howell, Owosso, Romeo, Niles plats.
+
+## PC results (ask list 1)
+- A1 Hartwellville: Detroit Free Press 1853-09-14 p2 (newspapers.com img 1049358287), "County Agricultural Fairs" from the Adrian Watch Tower: "Shiawassee, Oct 6-7, Hartwellville". Town only, no grounds. Confirms clipping 1. Still unplaced.
+- A2 Romeo: Macomb papers are not indexed on newspapers.com for 1858-80. Unresolved.
+- A3 Owosso: Owosso Times 1882-09-22 p5 (img 174184278): "the barn of H. F. Eggleston, a mile north of this city". So the 1877 "Eggleston tract" (the 1880 fairground) is probably about 1 mi N of Owosso. The USGS Chesaning 1917 sheet draws no track N of Owosso. PC (a) is searching the Owosso Times 1878-81 next.
+- Batch 1 (5 pins) is in app PR #164 (Ground check).
