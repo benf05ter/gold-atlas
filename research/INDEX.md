@@ -1470,9 +1470,9 @@ Also mentions the place: [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L10
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L231) (line 231)
 
 Notes:
-- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L187) (line 187)
+- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L28) (line 28)
 - [newspapers-com/placement-gaps-list.md](newspapers-com/placement-gaps-list.md#L39) (line 39)
-- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L106) (line 106)
+- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L20) (line 20)
 - [newspapers-com/ia-il-second-source.md](newspapers-com/ia-il-second-source.md#L123) (line 123)
 - [genealogybank/gb-list1.md](genealogybank/gb-list1.md#L31) (line 31)
 - [ancestry/list12-dates.md](ancestry/list12-dates.md#L6) (line 6)
@@ -1641,6 +1641,7 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L226) (line 226)
 Notes:
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L135) (line 135)
 - [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L196) (line 196)
+- [ancestry/list27.md](ancestry/list27.md#L54) (line 54)
 - [ancestry/list21.md](ancestry/list21.md#L13) (line 13)
 - [ancestry/list19.md](ancestry/list19.md#L33) (line 33)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L62) (line 62)
@@ -1812,6 +1813,7 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L248) (line 248)
 Notes:
 - [newspapers-com/pc-a-batch3-results.md](newspapers-com/pc-a-batch3-results.md#L102) (line 102)
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L141) (line 141)
+- [ancestry/list27.md](ancestry/list27.md#L57) (line 57)
 - [ancestry/list17.md](ancestry/list17.md#L57) (line 57)
 - [plats/INDEX.md](plats/INDEX.md#L83) (line 83)
 - [plats/wegemer-bear-river-petoskey.md](plats/wegemer-bear-river-petoskey.md#L1) (line 1)
@@ -2101,7 +2103,7 @@ Also mentions the place: [negatives.tsv](negatives.tsv#L231) (line 231); [newspa
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L190) (line 190)
 
 Notes:
-- [ancestry/markee-apple-river-polk.md](ancestry/markee-apple-river-polk.md#L1) (line 1)
+- [ancestry/markee-apple-river-polk.md](ancestry/markee-apple-river-polk.md#L5) (line 5)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L36) (line 36)
 - `/mnt/project-files/research/court-records/pin-records-check.tsv` line 7 (shared folder only)
 
@@ -2851,6 +2853,7 @@ Notes:
 - [leads.tsv](leads.tsv#L3) (line 3)
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L863) (line 863)
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L155) (line 155)
+- [ancestry/list27.md](ancestry/list27.md#L69) (line 69)
 - [ancestry/list14.md](ancestry/list14.md#L32) (line 32)
 - [ancestry/list19.md](ancestry/list19.md#L83) (line 83)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L55) (line 55)
@@ -2899,7 +2902,7 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L253) (line 253)
 
 Notes:
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L397) (line 397)
-- [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L48) (line 48)
+- [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L55) (line 55)
 - [ancestry/list25.md](ancestry/list25.md#L118) (line 118)
 - [plats/van-arsdale-alamo.md](plats/van-arsdale-alamo.md#L1) (line 1)
 - [plats/INDEX.md](plats/INDEX.md#L55) (line 55)
@@ -3269,7 +3272,7 @@ Notes:
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L92) (line 92)
 - [ancestry/list10-probate-census.md](ancestry/list10-probate-census.md#L9) (line 9)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L21) (line 21)
-- [ancestry/iowa-batch-ogle-iwers-webster.md](ancestry/iowa-batch-ogle-iwers-webster.md#L37) (line 37)
+- [ancestry/iowa-batch-ogle-iwers-webster.md](ancestry/iowa-batch-ogle-iwers-webster.md#L15) (line 15)
 - [plats/placement-gaps-pass-b.md](plats/placement-gaps-pass-b.md#L11) (line 11)
 - `/mnt/project-files/research/treasure-statewide/deep-dives/iail-dickson-iwers-harmon.md` line 11 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/deep-dives/pc-job-2.md` line 11 (shared folder only)

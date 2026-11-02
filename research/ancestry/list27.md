@@ -48,3 +48,28 @@ Sources: LoC Sanborn Bronson 1897 (sanborn03935_003, 2 sheets), 1910 (sanborn039
 - **Cross-check:** in 1897 and 1910 the post office was elsewhere: a small Jewelry & P.O. building at the E end of the S-side block E of Matteson (lot B). By 1916 that lot is "Jewelry" only, so the post office moved between 1910 and 1916.
 - The Sanborn shows 2 storeys outside. The legend's "6 floors inside" is not shown (Sanborn does not draw half-floors or attics).
 - **Pin: 41.8721, -85.1950, r25, B** (3rd lot W of Matteson on the S side of W. Chicago St (US-12); about 30 m W and 25 m S of the Matteson/Chicago centre-line crossing at about 41.87235,-85.19468, measured on a USGS orthophoto). The orthophoto still shows buildings on this frontage. Whether the 1880s-1900s building survives needs a street-level look (Ground check). Look-only: an occupied downtown building.
+- **Survival (Google Street View, view-only, imagery about 2023, from the pano at about 108 W Chicago St):** the S side of W. Chicago St W of Matteson is still a row of 2-storey brick fronts. From the Matteson corner going W: green-painted corner building (= 1916 Hardw.), red brick (= Meat & Gro.), **3rd: cream/white-brick 2-storey with 3 upper windows and a red awning (= the 1916 Post Office / 1910 "Books" = Ruggles Block)**, then tan brick (= Printing Office). **The building appears to stand.** The match is by count and width from the corner; there is no name plaque or date stone legible.
+- Treasure (12:25Z): pin lot 37, r25, pinconf B; grade C stays.
+
+## 16. Graeven / Bauer, Hartford (WI): skipped
+- No street is named in the logged accounts. The shooting site, the Schauer farm, is already placed (plats/schauer-hartford.md, B). Skipped per the ask.
+
+## 9. Wegemer gravel pit, Petoskey (Emmet Co MI): not placed
+- **LoC Sanborn Petoskey Oct 1919** (sanborn04149_007, 30 sheets):
+  - The key map (sheet 1) shows the Bear River S of downtown to the corporation line. Only sheet 18 covers the river bank S of town (Blackmer Rotary Pump Co., the G.R.&I. roundhouse, Michigan Maple Block Co.).
+  - Sheet 18 shows **"Pond (Clay Pit)"** E of the river near the roundhouse. **No gravel pit and no Wegemer label.**
+  - The river S of Grimes / Winfield to the corporation line is shown unmapped (open land, no detail), so the pit, if inside the city, lies in that blank stretch.
+- **Owner identified (Ancestry 2469 directories):** **Frank X. Wegemer, mason / contractor**:
+  - 114 Washington St (1911-12, 1919-20).
+  - 902 Howard St (1921-22, 1928; wife Mary).
+  - Also listed: Casper G. and Barbara Wegemer (1910 census, Petoskey Ward 2, b. 1846 PA) and Fred (1920 census).
+  - The DFP's "Franz Z." and the Gazette's "Frank A. Wegemere" are the same contractor. A mason's own gravel and sand pit fits.
+- **No pin** (a house address is not the pit; see below). The 1902 plat has no Wegemer (plats/wegemer-bear-river-petoskey.md). Next options: a 1910s-20s Emmet plat (Ancestry 1127, when the viewer is back), or the city tax roll. Best guess remains the river bank between Grimes/Winfield and the S corporation line (about 45.358-45.365, -84.955 to -84.960), D.
+
+## 6. Ritter / Enes brewery, Henderson (Sibley Co MN): placed approximately (Sanborn 1894 / 1910, LoC)
+- **LoC Sanborn Henderson June 1894** (sanborn04308_001, sheet 1 inset) and **Nov 1910** (sanborn04308_003, sheet 1 inset) both show **"Jno. (John) Enes Brewery, located 1/2 mile S. of P.O."** It is the only brewery on either set.
+  - The building is a brick brewhouse (malt house, malt mill, kiln, ice houses, wash house and cooler; capacity 3,000 bbls in 1910), sited at the foot of a **"Vacant High Hill"** on its W side, with a **"Drive"** along the E front.
+  - Notes on the map: "rear wall in poor condition" (the back is built against the hill); "water piped from spring on hill"; the proprietor lives next door (house S of the brewery).
+- **Ritter vs Enes:** the 1880 census has both Joseph Ritter and John Enes as Henderson brewers (list19). The 1925-26 wire calls the razed landmark "the old Ritter brewery" (owner Charles Ney), with the casks in a tunnel in the hillside behind it. Only one hillside brewery is mapped 1894-1910, so **this is most likely the same plant (Ritter's 1860s brewery, later run by Enes)**. This is an inference: no deed or history line ties the two yet.
+- **Pin (estimate):** 1/2 mile S of the downtown P.O. along the drive at the foot of the bluff = the old road along the bluff toe S of town (today about MN-93). **About 44.5205, -93.9055, r200, C.** Measured on the USGS topo base, 805 m S of Main St; the brewery is on the W (bluff) side of the road. The tunnel would run W into the bluff behind it.
+  - To tighten it: the 1917 / 1930 Sanborns (sanborn04308_004/_007) for a later footprint or ruin, or a 1898 Sibley plat (Ancestry, viewer down). Ground: look for a cut or terrace and a spring in the bluff face.
