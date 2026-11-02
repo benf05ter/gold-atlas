@@ -28,3 +28,9 @@ Kept: old/README.md (map of what was where), old/fieldnotes (26 MB, not document
 | 2026-11-02 05:12 | research/plat-mn-mi/menominee-1912 (38 files) | ~102 MB | tiles ot/p-menominee12 (287) | Neb 04:07Z |
 | 2026-11-02 05:12 | research/plat-ia-il/out/plat_*.webp (27) | ~140 MB | 27 layers in ot/p-* (benton-1872 … knox-1948); pins-*.json kept | Neb 04:07Z |
 Kept: untiled scans (plat-barron/scans-c1918, plat-dunn/scans-1915, plat-mn-mi chisago-1888, delta-1913, goodhue-1894, wabasha-1896, winona-1867), all cfg/scripts/work/src, plat-ia-il/out/pins-*.json and enrich-*.json, aerials-1938 (711 pins still to redo).
+| 2026-11-02 05:16 | /mnt/project-files/Treasure_Hunting_-_September_2023.pdf | 38848987 B | mined; notes in gold-atlas research/books/treasure-hunting-mag-2023-24.md (commit 36b5c22f); no Midwest content | Neb rule 04:06Z |
+| 2026-11-02 05:16 | /mnt/project-files/Treasure_Hunting_-_November_2023.pdf | 36565223 B | mined; notes in gold-atlas research/books/treasure-hunting-mag-2023-24.md (commit 36b5c22f); no Midwest content | Neb rule 04:06Z |
+| 2026-11-02 05:16 | /mnt/project-files/Treasure_Hunting_-_January_2024.pdf | 63696519 B | mined; notes in gold-atlas research/books/treasure-hunting-mag-2023-24.md (commit 36b5c22f); no Midwest content | Neb rule 04:06Z |
+| 2026-11-02 05:16 | /mnt/project-files/Treasure_Hunting_-_March_2024.pdf | 50754688 B | mined; notes in gold-atlas research/books/treasure-hunting-mag-2023-24.md (commit 36b5c22f); no Midwest content | Neb rule 04:06Z |
+| 2026-11-02 05:16 | /mnt/project-files/Treasure_Hunting_-_September_2024.pdf | 38430385 B | mined; notes in gold-atlas research/books/treasure-hunting-mag-2023-24.md (commit 36b5c22f); no Midwest content | Neb rule 04:06Z |
+| 2026-11-02 05:31 | /mnt/project-files/research-zip-aa.zip | 106,551 B | 6 research notes (md5 851de060…) committed verbatim to gold-atlas main research/ (commit 6a0e4c89) | Neb rule 04:06Z |
