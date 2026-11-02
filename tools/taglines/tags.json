@@ -1934,5 +1934,33 @@
 "cr-wabeno-bank-loot-1921-north": [
 "1921 bank loot · empty cache dug up · forest search ground",
 "p"
+],
+"tw-ia-boone-river-mound-horse-thief-loot-1849": [
+"1849 horse-thief loot · Boone River mound · protected look-only",
+"u"
+],
+"tw-ia-livermore-johnson-whiskey-cache-1857": [
+"1857 traders' cache · six hogsheads and a purse · legend only",
+"u"
+],
+"tw-ia-spirit-lake-marble-gold-1857": [
+"1857 massacre family's $1,500 · west shore · state park look-only",
+"u"
+],
+"tw-ia-bellevue-pest-house-cave-kettles": [
+"Underground room · kettles and four skeletons · gold never found",
+"u"
+],
+"tw-ia-andrew-sac-fox-money-trail": [
+"$100,000 payment-money tale · Brush Creek trail · no spot known",
+"u"
+],
+"tw-ia-state-center-stage-kettle": [
+"Civil War stage or bank money · iron kettle between two trees · legend only",
+"u"
+],
+"tw-ia-bellevue-city-well-brown-gang-1840": [
+"1840 Bellevue War · gang money down a well · urban look-only",
+"u"
 ]
 }
