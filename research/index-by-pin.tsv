@@ -123,14 +123,14 @@ tw-horrigan-boscobel-1930	B	Horrigan brothers' farm money, Horrigan Ridge near M
 tw-horrigan-boscobel-1930	B	Horrigan brothers' farm money, Horrigan Ridge near Mt. Zion	Crawford	WI		research/plats/INDEX.md	53	co:horrigan
 tw-horrigan-boscobel-1930	B	Horrigan brothers' farm money, Horrigan Ridge near Mt. Zion	Crawford	WI		research/aerials/horrigan-crawford-1938.md	1	file:horrigan
 tw-horrigan-boscobel-1930	B	Horrigan brothers' farm money, Horrigan Ridge near Mt. Zion	Crawford	WI		project-files/research/court-records/pin-records-check.tsv	3	id
-tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/pc-a-asks-results.md	779	two:hession
-tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/leads.tsv	128	two:hession
-tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/ia-il-sweep.md	35	two:hession
-tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/treasure-list-t13-t21.md	22	two:hession
+tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/pc-a-asks-results.md	779	two:glen
+tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/leads.tsv	128	two:glen
+tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/ia-il-sweep.md	42	two:glen
+tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/treasure-list-t13-t21.md	22	two:glen
 tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/treasure-statewide/held-leads.md	26	co:jack
-tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/ancestry/list12-dates.md	32	two:hession
+tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/ancestry/list12-dates.md	35	two:glen
 tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/ancestry/INDEX.md	52	two:hession
-tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/plats/hession-humboldt.md	1	file:hession
+tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/plats/hession-humboldt.md	1	two:glen
 tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/books/laird-1927-iowa-legends.md	12	co:jack
 tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		project-files/research/treasure-statewide/held-leads.md	26	co:jack
 tw-wi-franklin-ford-gold-1875	B	James Ford's California gold by an old stump, southern Town of Franklin	Milwaukee	WI		research/newspapers-com/pc-a-asks-results.md	778	two:ford
@@ -259,6 +259,7 @@ tw-ia-dubuque-kelly-bluff	B	Tom Kelly's buried lead-mine gold, Kelly's Bluff, Du
 tw-ia-dubuque-kelly-bluff	B	Tom Kelly's buried lead-mine gold, Kelly's Bluff, Dubuque	Dubuque	IA		research/ancestry/list22.md	26	co:kelly
 tw-ia-dubuque-kelly-bluff	B	Tom Kelly's buried lead-mine gold, Kelly's Bluff, Dubuque	Dubuque	IA		research/ancestry/list18.md	8	co:kelly
 tw-ia-dubuque-kelly-bluff	B	Tom Kelly's buried lead-mine gold, Kelly's Bluff, Dubuque	Dubuque	IA		research/ancestry/INDEX.md	32	co:kelly
+tw-ia-dubuque-kelly-bluff	B	Tom Kelly's buried lead-mine gold, Kelly's Bluff, Dubuque	Dubuque	IA		research/ancestry/list23.md	17	co:kelly
 tw-ia-dubuque-kelly-bluff	B	Tom Kelly's buried lead-mine gold, Kelly's Bluff, Dubuque	Dubuque	IA		project-files/research/treasure-statewide/held-leads.md	45	id
 tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron	WI	dig-vajvoda-rice-lake-1925	research/newspapers-com/second-sources-open-leads.md	3	two:vejvoda
 tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron	WI	dig-vajvoda-rice-lake-1925	research/newspapers-com/pc-a-asks-results.md	737	two:vejvoda
@@ -280,18 +281,18 @@ tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron
 tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron	WI	dig-vajvoda-rice-lake-1925	project-files/research/court-records/pin-records-check.tsv	13	id
 tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron	WI	dig-vajvoda-rice-lake-1925	project-files/research/court-records/newspapers-com-asks.md	7	id
 tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron	WI	dig-vajvoda-rice-lake-1925	project-files/research/treasure-statewide/vejvoda-card.md	1	id
-tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/newspapers-com/pc-a-asks-results.md	777	two:chilson
-tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/newspapers-com/pc-a-batch3-results.md	7	two:chilson
+tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/newspapers-com/pc-a-asks-results.md	777	two:harvey
+tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/newspapers-com/pc-a-batch3-results.md	14	two:harvey
 tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/newspapers-com/second-sources-c-leads.md	70	id
-tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/newspapers-com/leads.tsv	138	co:chilson
-tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/ancestry/list12-dates.md	11	two:chilson
+tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/newspapers-com/leads.tsv	138	co:harvey
+tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/ancestry/list12-dates.md	11	two:harvey
 tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/ancestry/list10-probate-census.md	19	co:chilson
-tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/ancestry/chilson-north-muskegon-ancestry.md	1	file:chilson
-tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/ancestry/michigan-death-records-batch.md	10	two:chilson
-tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/ancestry/INDEX.md	35	two:chilson
-tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/fold3/fold3-list1.md	7	two:chilson
+tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/ancestry/chilson-north-muskegon-ancestry.md	1	two:harvey
+tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/ancestry/michigan-death-records-batch.md	10	two:harvey
+tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/ancestry/INDEX.md	35	two:harvey
+tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/fold3/fold3-list1.md	7	two:harvey
 tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/plats/chilson-north-muskegon.md	1	file:chilson
-tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/sunday/sunday-list-2026-11-02.md	24	two:chilson
+tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/sunday/sunday-list-2026-11-02.md	13	two:harvey
 tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		project-files/research/treasure-statewide/leads-mi.tsv	38	id
 tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		project-files/research/treasure-statewide/pc-a-asks-batch3-2026-11-01.md	6	co:chilson
 tw-mi-north-muskegon-chilson-gold	B	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		project-files/research/treasure-statewide/pc-newspapers-second-sources.md	19	id
@@ -370,6 +371,8 @@ tw-mi-wabasis-lake-gold	C	Chief John Wabasis' kettle of treaty money, creek betw
 tw-mi-wabasis-lake-gold	C	Chief John Wabasis' kettle of treaty money, creek between Little Wabasis and Wabasis lakes	Kent	MI		research/newspapers-com/placement-gaps-list.md	46	co:wabasis
 tw-mi-wabasis-lake-gold	C	Chief John Wabasis' kettle of treaty money, creek between Little Wabasis and Wabasis lakes	Kent	MI		research/newspapers-com/leads.tsv	111	co:wabasis
 tw-mi-wabasis-lake-gold	C	Chief John Wabasis' kettle of treaty money, creek between Little Wabasis and Wabasis lakes	Kent	MI		research/newspapers-com/treasure-list-t13-t21.md	260	co:wabasis
+tw-mi-wabasis-lake-gold	C	Chief John Wabasis' kettle of treaty money, creek between Little Wabasis and Wabasis lakes	Kent	MI		research/ancestry/INDEX.md	64	co:wabasis
+tw-mi-wabasis-lake-gold	C	Chief John Wabasis' kettle of treaty money, creek between Little Wabasis and Wabasis lakes	Kent	MI		research/ancestry/list23.md	26	co:wabasis
 tw-mi-wabasis-lake-gold	C	Chief John Wabasis' kettle of treaty money, creek between Little Wabasis and Wabasis lakes	Kent	MI		project-files/research/treasure-statewide/leads-mi.tsv	24	id
 tw-mi-wabasis-lake-gold	C	Chief John Wabasis' kettle of treaty money, creek between Little Wabasis and Wabasis lakes	Kent	MI		project-files/research/treasure-statewide/persons.tsv	40	id
 tw-mi-wabasis-lake-gold	C	Chief John Wabasis' kettle of treaty money, creek between Little Wabasis and Wabasis lakes	Kent	MI		project-files/research/treasure-statewide/ground-fix/batch2-fixes.md	6	id
@@ -446,6 +449,7 @@ tw-il-eureka-onnen-henhouse	C	Henry Onnen's henhouse jars and missing coin colle
 tw-il-eureka-onnen-henhouse	C	Henry Onnen's henhouse jars and missing coin collection, Minonk	Woodford	IL		research/ancestry/illinois-names-batch.md	7	two:minonk
 tw-il-eureka-onnen-henhouse	C	Henry Onnen's henhouse jars and missing coin collection, Minonk	Woodford	IL		research/ancestry/list19.md	44	two:minonk
 tw-il-eureka-onnen-henhouse	C	Henry Onnen's henhouse jars and missing coin collection, Minonk	Woodford	IL		research/ancestry/INDEX.md	29	two:minonk
+tw-il-eureka-onnen-henhouse	C	Henry Onnen's henhouse jars and missing coin collection, Minonk	Woodford	IL		research/ancestry/list23.md	46	two:minonk
 tw-ia-dubuque-lunning-farm-1916	C	Herman Lunning's hidden money, recluse's cabin in the hills north of Galena	Jo Daviess	IL		research/newspapers-com/pc-a-asks-results.md	790	two:lunning
 tw-ia-dubuque-lunning-farm-1916	C	Herman Lunning's hidden money, recluse's cabin in the hills north of Galena	Jo Daviess	IL		research/newspapers-com/ia-il-sweep.md	178	two:lunning
 tw-ia-dubuque-lunning-farm-1916	C	Herman Lunning's hidden money, recluse's cabin in the hills north of Galena	Jo Daviess	IL		research/newspapers-com/ia-il-second-source.md	70	two:lunning
@@ -849,6 +853,7 @@ tw-ia-bellevue-city-well-brown-gang-1840	D	Brown gang's money down the City Well
 tw-ia-bellevue-city-well-brown-gang-1840	D	Brown gang's money down the City Well, Bellevue (1840)	Jackson	IA		research/ancestry/list18.md	14	co:bellevue
 tw-ia-bellevue-city-well-brown-gang-1840	D	Brown gang's money down the City Well, Bellevue (1840)	Jackson	IA		research/ancestry/list9-probate-census.md	15	co:brown
 tw-ia-bellevue-city-well-brown-gang-1840	D	Brown gang's money down the City Well, Bellevue (1840)	Jackson	IA		research/ancestry/INDEX.md	27	co:brown
+tw-ia-bellevue-city-well-brown-gang-1840	D	Brown gang's money down the City Well, Bellevue (1840)	Jackson	IA		research/ancestry/list23.md	19	two:bellevue
 tw-ia-bellevue-city-well-brown-gang-1840	D	Brown gang's money down the City Well, Bellevue (1840)	Jackson	IA		research/plats/sunday-plates-2026-11-02.md	24	co:brown
 tw-ia-bellevue-city-well-brown-gang-1840	D	Brown gang's money down the City Well, Bellevue (1840)	Jackson	IA		research/plats/INDEX.md	44	two:bellevue
 tw-ia-bellevue-city-well-brown-gang-1840	D	Brown gang's money down the City Well, Bellevue (1840)	Jackson	IA		research/books/list14-county-histories.md	7	two:bellevue
@@ -1046,6 +1051,7 @@ tw-wi-hartford-bauer-1898	D	Missing $1,028 from an 1898 roadside shooting, road 
 tw-wi-hartford-bauer-1898	D	Missing $1,028 from an 1898 roadside shooting, road to Holy Hill	Washington	WI		research/ancestry/list21.md	13	two:bauer
 tw-wi-hartford-bauer-1898	D	Missing $1,028 from an 1898 roadside shooting, road to Holy Hill	Washington	WI		research/ancestry/list19.md	33	two:holy
 tw-wi-hartford-bauer-1898	D	Missing $1,028 from an 1898 roadside shooting, road to Holy Hill	Washington	WI		research/ancestry/INDEX.md	62	two:bauer
+tw-wi-hartford-bauer-1898	D	Missing $1,028 from an 1898 roadside shooting, road to Holy Hill	Washington	WI		research/ancestry/list23.md	42	two:bauer
 tw-wi-hartford-bauer-1898	D	Missing $1,028 from an 1898 roadside shooting, road to Holy Hill	Washington	WI		research/county-depth/se-wi-histories/washington-ozaukee-1880s.md	184	co:holy
 tw-wi-hartford-bauer-1898	D	Missing $1,028 from an 1898 roadside shooting, road to Holy Hill	Washington	WI		research/plats/INDEX.md	46	two:holy
 tw-wi-hartford-bauer-1898	D	Missing $1,028 from an 1898 roadside shooting, road to Holy Hill	Washington	WI		research/plats/schauer-hartford.md	7	two:holy
@@ -1069,15 +1075,15 @@ tw-mi-niles-dam-french-war-cache	D	Money buried above the dam, Niles (French and
 tw-mi-niles-dam-french-war-cache	D	Money buried above the dam, Niles (French and Indian war legend)	Berrien	MI		project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md	6	co:niles
 tw-mi-niles-dam-french-war-cache	D	Money buried above the dam, Niles (French and Indian war legend)	Berrien	MI		project-files/research/treasure-statewide/pc-newspapers-second-sources.md	20	co:niles
 tw-mi-niles-dam-french-war-cache	D	Money buried above the dam, Niles (French and Indian war legend)	Berrien	MI		project-files/research/treasure-statewide/persons.tsv	8	co:niles
-tw-wi-dover-gregg-hoard	D	Mrs. Armstrong Gregg's money in "improbable places", Dover	Racine	WI		research/newspapers-com/pc-a-asks-results.md	633	two:armstrong
-tw-wi-dover-gregg-hoard	D	Mrs. Armstrong Gregg's money in "improbable places", Dover	Racine	WI		research/newspapers-com/treasure-list-t13-t21.md	267	two:armstrong
+tw-wi-dover-gregg-hoard	D	Mrs. Armstrong Gregg's money in "improbable places", Dover	Racine	WI		research/newspapers-com/pc-a-asks-results.md	408	two:gregg
+tw-wi-dover-gregg-hoard	D	Mrs. Armstrong Gregg's money in "improbable places", Dover	Racine	WI		research/newspapers-com/treasure-list-t13-t21.md	267	two:gregg
 tw-wi-dover-gregg-hoard	D	Mrs. Armstrong Gregg's money in "improbable places", Dover	Racine	WI		research/ancestry/land-ownership-maps-list7.md	35	co:gregg
-tw-wi-dover-gregg-hoard	D	Mrs. Armstrong Gregg's money in "improbable places", Dover	Racine	WI		research/ancestry/gregg-dover-racine.md	3	two:armstrong
+tw-wi-dover-gregg-hoard	D	Mrs. Armstrong Gregg's money in "improbable places", Dover	Racine	WI		research/ancestry/gregg-dover-racine.md	1	file:gregg
 tw-wi-dover-gregg-hoard	D	Mrs. Armstrong Gregg's money in "improbable places", Dover	Racine	WI		research/ancestry/INDEX.md	44	two:gregg
 tw-wi-dover-gregg-hoard	D	Mrs. Armstrong Gregg's money in "improbable places", Dover	Racine	WI		research/county-depth/se-wi-histories/racine-kenosha-1880s.md	17	co:dover
-tw-wi-dover-gregg-hoard	D	Mrs. Armstrong Gregg's money in "improbable places", Dover	Racine	WI		research/sunday/sunday-list-2026-11-02.md	33	two:armstrong
+tw-wi-dover-gregg-hoard	D	Mrs. Armstrong Gregg's money in "improbable places", Dover	Racine	WI		research/sunday/sunday-list-2026-11-02.md	21	two:gregg
 tw-wi-dover-gregg-hoard	D	Mrs. Armstrong Gregg's money in "improbable places", Dover	Racine	WI		project-files/research/treasure-statewide/leads-wi.tsv	26	id
-tw-wi-dover-gregg-hoard	D	Mrs. Armstrong Gregg's money in "improbable places", Dover	Racine	WI		project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md	23	two:armstrong
+tw-wi-dover-gregg-hoard	D	Mrs. Armstrong Gregg's money in "improbable places", Dover	Racine	WI		project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md	23	two:gregg
 tw-wi-dover-gregg-hoard	D	Mrs. Armstrong Gregg's money in "improbable places", Dover	Racine	WI		project-files/research/treasure-statewide/persons.tsv	163	id
 tw-ia-patterson-sugar-camp-1907	D	Murdered man's money at the old sugar camp near Patterson	Madison	IA		research/newspapers-com/ia-il-second-source.md	60	co:patterson
 tw-mn-bristol-olson-brothers-1936	D	Murdered Olson brothers' money 'hidden about the place', near Bristol Center	Fillmore	MN		research/newspapers-com/pc-a-asks-results.md	30	two:bristol
@@ -1526,7 +1532,7 @@ tw-mn-waldorf-tweit-recluse-1927-medo	E	Tweit family farm, Medo Twp (alternate s
 tw-mn-waldorf-tweit-recluse-1927-medo	E	Tweit family farm, Medo Twp (alternate spot for Michael Tweit's money)	Blue Earth	MN		project-files/research/treasure-statewide/leads-mn.tsv	20	two:medo
 tw-mn-waldorf-tweit-recluse-1927-medo	E	Tweit family farm, Medo Twp (alternate spot for Michael Tweit's money)	Blue Earth	MN		project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md	8	two:waldorf
 tw-mn-waldorf-tweit-recluse-1927-medo	E	Tweit family farm, Medo Twp (alternate spot for Michael Tweit's money)	Blue Earth	MN		project-files/research/treasure-statewide/persons.tsv	122	two:waldorf
-coff-davock-minch	E	William B. Davock and Anna Minch (1940)	Oceana	MI		research/newspapers-com/pc-a-asks-results.md	658	two:minch
+coff-davock-minch	E	William B. Davock and Anna Minch (1940)	Oceana	MI		research/newspapers-com/pc-a-asks-results.md	658	two:davock
 t-tr-colvill	E	William Colvill’s Civil War gold	Cook	MN		research/negatives.tsv	40	id
 t-winona-gang	E	Winona Gang loot (Minnesota)	Winona (MN)	WI		research/negatives.tsv	23	id
 t-portage-riverboat-gold	E	Wisconsin River riverboat gold bars	Columbia	WI		research/leads.tsv	5	co:portage
@@ -1793,7 +1799,7 @@ tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homes
 tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		research/newspapers-com/ia-il-sweep.md	162	co:iwers
 tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		research/ancestry/list10-probate-census.md	9	two:inland
 tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		research/ancestry/INDEX.md	21	two:inland
-tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		research/ancestry/iowa-batch-ogle-iwers-webster.md	15	two:inland
+tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		research/ancestry/iowa-batch-ogle-iwers-webster.md	37	two:tipton
 tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		research/plats/placement-gaps-pass-b.md	11	two:inland
 tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		project-files/research/treasure-statewide/deep-dives/iail-dickson-iwers-harmon.md	11	two:inland
 tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		project-files/research/treasure-statewide/deep-dives/pc-job-2.md	11	two:tipton

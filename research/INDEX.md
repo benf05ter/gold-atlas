@@ -193,9 +193,9 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L362) (line 362)
 Notes:
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L779) (line 779)
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L128) (line 128)
-- [newspapers-com/ia-il-sweep.md](newspapers-com/ia-il-sweep.md#L35) (line 35)
+- [newspapers-com/ia-il-sweep.md](newspapers-com/ia-il-sweep.md#L42) (line 42)
 - [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L22) (line 22)
-- [ancestry/list12-dates.md](ancestry/list12-dates.md#L32) (line 32)
+- [ancestry/list12-dates.md](ancestry/list12-dates.md#L35) (line 35)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L52) (line 52)
 - [plats/hession-humboldt.md](plats/hession-humboldt.md#L1) (line 1)
 
@@ -354,7 +354,7 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L291) (line 291)
 Notes:
 - `/mnt/project-files/research/treasure-statewide/held-leads.md` line 45 (shared folder only)
 
-Also mentions the place: [ancestry/iowa-batch-2.md](ancestry/iowa-batch-2.md#L22) (line 22); [ancestry/list22.md](ancestry/list22.md#L26) (line 26); [ancestry/list18.md](ancestry/list18.md#L8) (line 8); [ancestry/INDEX.md](ancestry/INDEX.md#L32) (line 32)
+Also mentions the place: [ancestry/iowa-batch-2.md](ancestry/iowa-batch-2.md#L22) (line 22); [ancestry/list22.md](ancestry/list22.md#L26) (line 26); [ancestry/list18.md](ancestry/list18.md#L8) (line 8); [ancestry/INDEX.md](ancestry/INDEX.md#L32) (line 32); [ancestry/list23.md](ancestry/list23.md#L17) (line 17)
 
 ### Vejvoda's buried silver, farm NE of Rice Lake
 `tw-vajvoda-rice-lake-1925` · grade B · Barron Co., WI · dig spot `dig-vajvoda-rice-lake-1925`
@@ -385,7 +385,7 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L266) (line 266)
 
 Notes:
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L777) (line 777)
-- [newspapers-com/pc-a-batch3-results.md](newspapers-com/pc-a-batch3-results.md#L7) (line 7)
+- [newspapers-com/pc-a-batch3-results.md](newspapers-com/pc-a-batch3-results.md#L14) (line 14)
 - [newspapers-com/second-sources-c-leads.md](newspapers-com/second-sources-c-leads.md#L70) (line 70)
 - [ancestry/list12-dates.md](ancestry/list12-dates.md#L11) (line 11)
 - [ancestry/chilson-north-muskegon-ancestry.md](ancestry/chilson-north-muskegon-ancestry.md#L1) (line 1)
@@ -393,7 +393,7 @@ Notes:
 - [ancestry/INDEX.md](ancestry/INDEX.md#L35) (line 35)
 - [fold3/fold3-list1.md](fold3/fold3-list1.md#L7) (line 7)
 - [plats/chilson-north-muskegon.md](plats/chilson-north-muskegon.md#L1) (line 1)
-- [sunday/sunday-list-2026-11-02.md](sunday/sunday-list-2026-11-02.md#L24) (line 24)
+- [sunday/sunday-list-2026-11-02.md](sunday/sunday-list-2026-11-02.md#L13) (line 13)
 - `/mnt/project-files/research/treasure-statewide/leads-mi.tsv` line 38 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/pc-newspapers-second-sources.md` line 19 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/persons.tsv` line 58 (shared folder only)
@@ -508,7 +508,7 @@ Notes:
 - `/mnt/project-files/research/treasure-statewide/persons.tsv` line 40 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/ground-fix/batch2-fixes.md` line 6 (shared folder only)
 
-Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L786) (line 786); [newspapers-com/placement-gaps-list.md](newspapers-com/placement-gaps-list.md#L46) (line 46); [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L111) (line 111); [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L260) (line 260)
+Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L786) (line 786); [newspapers-com/placement-gaps-list.md](newspapers-com/placement-gaps-list.md#L46) (line 46); [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L111) (line 111); [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L260) (line 260); [ancestry/INDEX.md](ancestry/INDEX.md#L64) (line 64); [ancestry/list23.md](ancestry/list23.md#L26) (line 26)
 
 ### Civil War baker's buried fortune, old house razed for the Knights of Columbus hall, Racine
 `tw-wi-racine-baker-cellar-hoard-1922` · grade C · Racine Co., WI
@@ -652,6 +652,7 @@ Notes:
 - [ancestry/illinois-names-batch.md](ancestry/illinois-names-batch.md#L7) (line 7)
 - [ancestry/list19.md](ancestry/list19.md#L44) (line 44)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L29) (line 29)
+- [ancestry/list23.md](ancestry/list23.md#L46) (line 46)
 
 ### Herman Lunning's hidden money, recluse's cabin in the hills north of Galena
 `tw-ia-dubuque-lunning-farm-1916` · grade C · Jo Daviess Co., IL
@@ -1258,6 +1259,7 @@ Notes:
 Notes:
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L836) (line 836)
 - [ia-il/README.md](ia-il/README.md#L56) (line 56)
+- [ancestry/list23.md](ancestry/list23.md#L19) (line 19)
 - [plats/INDEX.md](plats/INDEX.md#L44) (line 44)
 - [books/list14-county-histories.md](books/list14-county-histories.md#L7) (line 7)
 - [books/laird-1927-iowa-legends.md](books/laird-1927-iowa-legends.md#L47) (line 47)
@@ -1637,6 +1639,7 @@ Notes:
 - [ancestry/list21.md](ancestry/list21.md#L13) (line 13)
 - [ancestry/list19.md](ancestry/list19.md#L33) (line 33)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L62) (line 62)
+- [ancestry/list23.md](ancestry/list23.md#L42) (line 42)
 - [plats/INDEX.md](plats/INDEX.md#L46) (line 46)
 - [plats/schauer-hartford.md](plats/schauer-hartford.md#L7) (line 7)
 - `/mnt/project-files/research/treasure-statewide/leads-wi.tsv` line 30 (shared folder only)
@@ -1662,11 +1665,11 @@ Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L223) (line 223)
 
 Notes:
-- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L633) (line 633)
+- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L408) (line 408)
 - [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L267) (line 267)
-- [ancestry/gregg-dover-racine.md](ancestry/gregg-dover-racine.md#L3) (line 3)
+- [ancestry/gregg-dover-racine.md](ancestry/gregg-dover-racine.md#L1) (line 1)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L44) (line 44)
-- [sunday/sunday-list-2026-11-02.md](sunday/sunday-list-2026-11-02.md#L33) (line 33)
+- [sunday/sunday-list-2026-11-02.md](sunday/sunday-list-2026-11-02.md#L21) (line 21)
 - `/mnt/project-files/research/treasure-statewide/leads-wi.tsv` line 26 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md` line 23 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/persons.tsv` line 163 (shared folder only)
@@ -3079,7 +3082,7 @@ Notes:
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L92) (line 92)
 - [ancestry/list10-probate-census.md](ancestry/list10-probate-census.md#L9) (line 9)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L21) (line 21)
-- [ancestry/iowa-batch-ogle-iwers-webster.md](ancestry/iowa-batch-ogle-iwers-webster.md#L15) (line 15)
+- [ancestry/iowa-batch-ogle-iwers-webster.md](ancestry/iowa-batch-ogle-iwers-webster.md#L37) (line 37)
 - [plats/placement-gaps-pass-b.md](plats/placement-gaps-pass-b.md#L11) (line 11)
 - `/mnt/project-files/research/treasure-statewide/deep-dives/iail-dickson-iwers-harmon.md` line 11 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/deep-dives/pc-job-2.md` line 11 (shared folder only)
