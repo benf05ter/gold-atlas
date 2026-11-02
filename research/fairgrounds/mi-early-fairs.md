@@ -2,7 +2,7 @@
 
 Owner: thread "Locate early Michigan fairgrounds" (started 2026-11-02). Goal: find the ORIGINAL fairground of each
 town on Neb's three clippings, when and where it moved, and today's land use. Urban lots = look-only.
-No guessed spots: every placement below names its source. Status as of 2026-11-02 04:40Z.
+No guessed spots: every placement below names its source. Status as of 2026-11-02 05:20Z.
 
 ## The three clippings (Neb's uploads, transcribed here)
 1. **Hillsdale Standard, Tue Sep 27 1853 p2**, copied from the Adrian *Watch Tower*: Berrien Sept 21-22 Niles;
@@ -29,6 +29,10 @@ No guessed spots: every placement below names its source. Status as of 2026-11-0
 | Town | What | Position | Source | Conf |
 |---|---|---|---|---|
 | Centreville (St. Joseph) | "Agricultural Exhibition Ground" with Exhibition House and oval track, 1858; S of Charlotte St, E of Franklin St, N of King St, SE corner of the original plat | ~41.9200, -85.5225 (inset measured from the courthouse square; 1914/1916 USGS Three Rivers 1:62,500 draws a race-track oval at ~41.9200, -85.5211, about 115 m away, so the grounds stayed put) | LoC 2012593162, Geil & Jones *Map of St. Joseph Co.* 1858, Centreville inset; USGS Three Rivers 1914 (278551), 1916 (278552/3) | B (~150 m) |
+| St. Johns (Clinton) | "Fair Ground 20" acres with oval track, 1873; the 1866 purchase of 30 acres of Joseph Cardinal "one mile south of the village" | 42.9842, -84.5641 (E edge of NE1/4 sec. 20 T7N R2W, W side of the sec. 20/21 road; 1927 USGS De Witt 1:62,500 draws the track on the same spot, within ~30 m) | Atlas of Clinton Co. 1873 (Lake/Titus), Bingham Twp page, LoC 2010587156 (ca000012); History of Shiawassee and Clinton Cos. 1880; USGS De Witt 1927 (278075/6); BLM PLSS sec. 20 | B (~50 m) |
+| Hubbardston (Clinton/Ionia line) | "Central Fair Association 20" acres, 1873: the Ionia-Montcalm-Gratiot-Clinton Central Fair, ~30 acres "on section 18, just east of the village" (1880) | 43.0883, -84.8311 (NW1/4 sec. 18 T8N R4W, strip S of the N section road) | Atlas of Clinton Co. 1873, Lebanon Twp page, LoC 2010587156 (ca000006); History of Shiawassee and Clinton Cos. 1880 (Lebanon Twp); BLM PLSS sec. 18. No pre-1965 USGS topo covers it | B- (~100 m) |
+| Cassopolis (Cass) | Race track / fairground NE of the village, sec. 25 (1945). LATER grounds: the 1869 site is not yet confirmed to be the same | 41.9197, -86.0046 | USGS Cassopolis 1945 1:62,500 (278031) | track A-position; tie to 1869 open |
+| Ithaca (Gratiot) | Race-track oval at the SW edge of Ithaca beside the railroad (1935). LATER grounds: the 1869 site not yet confirmed | 43.2866, -84.6116 | USGS Alma 1935 1:62,500 (277964) | track A-position; tie to 1869 open |
 
 Centreville note: the St. Joseph County Grange Fair still runs at Centreville, so this is probably today's
 fairground (active association land, permission only, no detecting during fair week). Confirm with a modern map.
@@ -61,7 +65,7 @@ fairground (active association land, permission only, no detecting during fair w
   fair-grounds sit "near or on the site" of Albert Finch's 1823-24 home at Indian Village (Romeo's first name),
   and Squires and Smith settled "half a mile north of the fair grounds" (pp. 1350k, 1842k in the OCR).
   Spot not given; Indian Village + 1820s settlers + fair = strong site if placed.
-- **Clinton: St. Johns.** 1866 bought 30 acres of Joseph Cardinal "one mile south of the village"; judges' stand
+- **Clinton: St. Johns.** (now PLACED above) 1866 bought 30 acres of Joseph Cardinal "one mile south of the village"; judges' stand
   1879 (History of Shiawassee and Clinton Cos., 1880, Clinton Co. agricultural society section). Also the Central Fair (Ionia, Montcalm,
   Gratiot, Clinton) grounds, ~30 acres, sec. 18 Lebanon Twp, just E of Hubbardston (same book). Both placeable
   from PLSS + 1873 Clinton atlas (LoC 2010587156).
