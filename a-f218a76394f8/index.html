@@ -2272,7 +2272,7 @@ function detailHTML(p){
       <p class="tips"><b>Where to look:</b> the head of the first gravel bar below the steep stretch, inside bends, behind boulders, and cracks in any exposed bedrock. Go at low water, August to September. Gold here is mostly fine flour gold with black sand.</p>`;
   } else {
     body=`<dl class="kv"><dt>Where</dt><dd>${esc(p.pl)}${p.co?', '+esc(p.co)+(p.co.includes('(')?'':' County'):''}</dd>${p.y?`<dt>When</dt><dd>${esc(p.y)}</dd>`:''}${p.v?`<dt>What</dt><dd>${esc(p.v)}</dd>`:''}<dt>Distance</dt><dd>${Math.round(p.mi)} mi from ${ORG.n}</dd>${typeof precHTML==='function'?precHTML(p):''}</dl>
-      <p class="story">${esc(p.st)}</p>${p.ice?`<p class="story"><b>Where its gold likely came from:</b> ${esc(p.ice)}</p>`:''}${p.t?`<p class="tips"><b>Where to look:</b> ${esc(p.t)}</p>`:''}
+      <p class="story">${esc(p.st)}</p>${p.ice?`<p class="story"><b>Where its gold likely came from:</b> ${esc(p.ice)}</p>`:''}${p.t?`<p class="tips"><b>Where to look:</b> ${esc(p.t)}</p>`:''}${typeof wlHTML==='function'?wlHTML(p):''}
       ${p.src&&p.src.length?`<div class="links"><b style="font-size:13px">Sources</b>${p.src.map(([l,u])=>(u=u||(typeof SRCURL==='function'?SRCURL(l):''))?`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(l)}</a>`:`<span>${esc(l)}</span>`).join('')}</div>`:''}`;
   }
   return `<div class="detail"><div class="row" style="justify-content:space-between"><span class="hint">Spot details</span><button class="btn" id="closeD" style="padding:2px 9px">Close</button></div>
