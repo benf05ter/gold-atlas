@@ -73,3 +73,40 @@ Sources: LoC Sanborn Bronson 1897 (sanborn03935_003, 2 sheets), 1910 (sanborn039
 - **Ritter vs Enes:** the 1880 census has both Joseph Ritter and John Enes as Henderson brewers (list19). The 1925-26 wire calls the razed landmark "the old Ritter brewery" (owner Charles Ney), with the casks in a tunnel in the hillside behind it. Only one hillside brewery is mapped 1894-1910, so **this is most likely the same plant (Ritter's 1860s brewery, later run by Enes)**. This is an inference: no deed or history line ties the two yet.
 - **Pin (estimate):** 1/2 mile S of the downtown P.O. along the drive at the foot of the bluff = the old road along the bluff toe S of town (today about MN-93). **About 44.5205, -93.9055, r200, C.** Measured on the USGS topo base, 805 m S of Main St; the brewery is on the W (bluff) side of the road. The tunnel would run W into the bluff behind it.
   - To tighten it: the 1917 / 1930 Sanborns (sanborn04308_004/_007) for a later footprint or ruin, or a 1898 Sibley plat (Ancestry, viewer down). Ground: look for a cut or terrace and a spring in the bluff face.
+
+## 11. "Benton Lake" lumber village NE of Fremont (Newaygo Co MI): candidate found (1880 atlas)
+- Dedupe: plats/benton-lake-newaygo.md already shows that today's Benton Lake (sec 20 T15N R13W, 43.6714,-85.8884, about 14 mi NNE of Fremont) is **"Blue L." on the 1900 atlas**, with Baker Lumber Co. land on its E side. That answers the "was it Blue Lake" question: yes, in 1900.
+- **1880 *Atlas of Newaygo County*** (archive.org 3927793.0001.001.umich.edu). The plates are leaves 13-61, with Sheridan = leaf 53 and Dayton = leaf 55. **Sherman Twp, T13N R13W, leaf 43** is the township diagonally NE of Fremont (Sheridan Twp). On it (read by eye at scale 4):
+  - **Robinson or Big Lake** (secs 10/3/11): on the SE shore, in S sec 10, is a **"St. Shingle Mill"** (steam shingle mill) with **Wetzel Bros. 68.64**. Pearson & Wilcox and Heald, Murphy & Crepin (lumbermen) hold the land around it.
+  - **Worcester Sta.** (sec 15; today "Wooster") on the Chicago & West Michigan R.R., with a second "St. Shingle Mill" and a cluster of houses: a small rail and mill hamlet about 1 mi S of the lake.
+  - **Alleyton** (sec 1, NE corner; Jas. Alley & Co.), a platted lumber village on the White River.
+  - Other lakes: Crystal L. (sec 21), Peck L., Ford L., Long L. (with a **Dam** at its S outlet, sec 34). Most of the E half is owned by Ryerson, Hills & Getty (Muskegon lumbermen).
+- **Reading:** the only "mill or lumber village on a lake" a few miles NE of Fremont in 1880 is the **Robinson / Big Lake shingle-mill site with Worcester station**. Today's Robinson Lake (OSM) is at **43.5318, -85.8545** (Jugville / Sherman Twp), about **6 mi NE of Fremont**, which fits "several miles NE" far better than Benton Lake (14 mi). No "Benton" name appears on the 1880 plate.
+- **Suggested pin for the mill site:** SE shore of Robinson Lake, S sec 10 T13N R13W, about **43.527, -85.850, r300, C** (BLM: sec 10 T13N R13W = 43.5246-43.5390 N, -85.8612 to -85.8411 W; the mill symbol sits near the S line, a little E of centre). It's an alternative to the Benton Lake pin: a candidate, not a proven identification. Dayton Twp (E of Fremont) was not read in detail.
+
+## 18. Martin Millet farm, Lexington Twp (Le Sueur Co MN): needs the Ancestry viewer
+- Dedupe: newspapers-com/treasure-list-t13-t21.md (T-list) already has the story ($140 in a white ash log, May 1906, Huber brothers; F/D).
+- archive.org has no Le Sueur Co atlas (title search). Per the coordinator, UMedia is not to be fetched by script.
+- Ancestry census index (1880/1900/1910, "Martin Millet" + Le Sueur residence): **no Le Sueur match.**
+  - The nearest is 1880 **Martin Millet / Mellet, b. about 1810 Ireland, wife Johanna, son Martin (b. about 1859 MN), Belle Plaine, Scott Co**. Belle Plaine adjoins Le Sueur Co on the NE, so this may be the family, but it is unconfirmed.
+- **Needs the Ancestry 1127 viewer:** the 1898 Le Sueur atlas (image 31617_072135-00479 is the List 26 Reinhart set; the Lexington Twp plate should be near it; confirm the township and range on the BLM grid first). Also try the spellings Millett / Mellet / Milette in the 1895/1905 MN state census.
+
+## 13. Agard's Landing: already done (dedupe)
+- research/agard-landing.md already used the 1880 *History of Berrien and Van Buren Counties* (archive.org arh7541, leaf 739): John Agard, 1833, "section 1, east of Paw Paw River", a dozen log huts, buried on his place in Oct 1835. The pin is the E strip of sec 1 T3S R14W, about 42.235,-85.882 (±500 m). Nothing new; not repeated.
+
+## 12. Flynn Island hermit, Higgins Lake (Roscommon Co MI): census index
+- The hermit is Israel "Ezra" Porter Pritchard (d. 1902; research/books/wfmk-hermit-higgins.md). Earlier: no Roscommon Pritchard death (list19).
+- **1900 census (7602), Pritchard + Roscommon:** no Roscommon Pritchard is indexed (the hits are Allegan, Ottawa, Gratiot and Midland). The hermit was probably missed or indexed under another spelling, so the image is needed (viewer down).
+- **1880 census (6742), Flynn in Roscommon Co:** **James Flynn (b. about 1858 NY, head) and John Flynn (b. about 1857 NY), Gerrish Twp** (the Higgins Lake township). Also Joseph Flynn (b. 1859 Canada, Roscommon Twp) and Daniel Flynn (b. 1842 MI, Denton Twp).
+  - This is a likely source for the island's name: Flynns living in Gerrish Twp in the lumber era. They are not shown to be the hermit.
+- 1910 census: no Flynn in Roscommon Co. The 1903 Roscommon plat needs the Ancestry viewer.
+- No pin change (the island itself is the site; look-only).
+
+## 7. Rechenberg, Dodd Road (Dakota Co MN): census index
+- **1910 (7884), Mendota Twp, Dakota Co:** **Anton Rechenberg (b. 1831 Germany, head), wife Hannah (b. 1835 Germany), son Herman W. (b. 1876 MN), daughter Bertha M. (b. 1882 MN)**. Also Edward Rechenberg (b. 1828 Germany, father-in-law) in Egan Twp.
+- **1920 (6061), Mendota, Dakota Co:** Herman Rechenberg (indexed "Rickenberg", b. 1877 MN, head) with his sister Bertha M. (b. 1883).
+- This fits the 1924 story ("the elder Rechenberg lived on the homestead 48 years", i.e. about 1876; the cellar of the farm home on Dodd Road, near St. Paul). **The homestead is in Mendota Twp, not inside West St. Paul city.** Dodd Road crosses Mendota Twp (today Mendota Heights).
+- The parcel still needs the 1928 Dakota plat (Ancestry 1127 viewer down). No pin change yet.
+
+## 5. Lempke, Webster City (Hamilton Co IA): census index
+- 1900 (keyword Hamilton) and 1910 (keyword Webster): **no Lempke in Hamilton Co / Webster City.** The hits are Lempkes in Fort Dodge (Webster Co: Louis J. b. 1877 IA, Amelia, Wilhelm), Ida Co (Peter, b. 1861 Germany) and Chicago. The aged father may be indexed as Lemke / Lembke; a Hamilton Co search without the name is too broad. **Not placed (low priority).**

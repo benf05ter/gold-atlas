@@ -774,14 +774,14 @@ Notes:
 - [ancestry/list20.md](ancestry/list20.md#L25) (line 25)
 - [ancestry/list18.md](ancestry/list18.md#L53) (line 53)
 - [ancestry/list19.md](ancestry/list19.md#L54) (line 54)
-- [ancestry/INDEX.md](ancestry/INDEX.md#L60) (line 60)
+- [ancestry/INDEX.md](ancestry/INDEX.md#L64) (line 64)
 - [ancestry/list23.md](ancestry/list23.md#L72) (line 72)
 
 ### Pot-of-gold dig on the Swem farm, Galien (1896)
 `tw-mi-galien-swem-pot-of-gold-1896` · grade C · Berrien Co., MI
 
 Notes:
-- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L666) (line 666)
+- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L668) (line 668)
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L148) (line 148)
 - [ancestry/list9-probate-census.md](ancestry/list9-probate-census.md#L11) (line 11)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L49) (line 49)
@@ -1079,7 +1079,7 @@ Notes:
 - [plats/benton-lake-newaygo.md](plats/benton-lake-newaygo.md#L1) (line 1)
 - `/mnt/project-files/research/treasure-statewide/leads-mi.tsv` line 39 (shared folder only)
 
-Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L266) (line 266); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L42) (line 42); [plats/INDEX.md](plats/INDEX.md#L79) (line 79); `/mnt/project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md` line 16 (shared folder only)
+Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L266) (line 266); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L42) (line 42); [ancestry/list27.md](ancestry/list27.md#L77) (line 77); [ancestry/INDEX.md](ancestry/INDEX.md#L68) (line 68); [plats/INDEX.md](plats/INDEX.md#L79) (line 79); `/mnt/project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md` line 16 (shared folder only)
 
 ### Abbotsford depot express robbery: $9,000 never found
 `tw-wi-abbotsford-express-robbery-1891` · grade D · Clark Co., WI
@@ -1341,6 +1341,8 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L232) (line 232)
 Notes:
 - [newspapers-com/second-sources-c-leads.md](newspapers-com/second-sources-c-leads.md#L128) (line 128)
 - [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L330) (line 330)
+- [ancestry/list27.md](ancestry/list27.md#L87) (line 87)
+- [ancestry/INDEX.md](ancestry/INDEX.md#L68) (line 68)
 - `/mnt/project-files/research/treasure-statewide/leads-mn.tsv` line 10 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/pc-newspapers-second-sources.md` line 30 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/persons.tsv` line 100 (shared folder only)
@@ -1460,6 +1462,8 @@ Notes:
 - [leads.tsv](leads.tsv#L1) (line 1)
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L845) (line 845)
 - [newspapers-com/list18.md](newspapers-com/list18.md#L17) (line 17)
+- [ancestry/list27.md](ancestry/list27.md#L97) (line 97)
+- [ancestry/INDEX.md](ancestry/INDEX.md#L68) (line 68)
 - [books/laird-followups.tsv](books/laird-followups.tsv#L4) (line 4)
 - [books/wfmk-hermit-higgins.md](books/wfmk-hermit-higgins.md#L8) (line 8)
 
@@ -1484,9 +1488,9 @@ Also mentions the place: [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L10
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L231) (line 231)
 
 Notes:
-- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L187) (line 187)
+- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L28) (line 28)
 - [newspapers-com/placement-gaps-list.md](newspapers-com/placement-gaps-list.md#L39) (line 39)
-- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L106) (line 106)
+- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L20) (line 20)
 - [newspapers-com/ia-il-second-source.md](newspapers-com/ia-il-second-source.md#L123) (line 123)
 - [genealogybank/gb-list1.md](genealogybank/gb-list1.md#L31) (line 31)
 - [ancestry/list12-dates.md](ancestry/list12-dates.md#L6) (line 6)
@@ -1576,7 +1580,7 @@ Notes:
 - `/mnt/project-files/research/treasure-statewide/pc-newspapers-second-sources.md` line 27 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/persons.tsv` line 68 (shared folder only)
 
-Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L451) (line 451); [newspapers-com/pc-b-asks-results.md](newspapers-com/pc-b-asks-results.md#L27) (line 27); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L109) (line 109); [ancestry/list26.md](ancestry/list26.md#L26) (line 26); [ancestry/INDEX.md](ancestry/INDEX.md#L67) (line 67)
+Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L451) (line 451); [newspapers-com/pc-b-asks-results.md](newspapers-com/pc-b-asks-results.md#L27) (line 27); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L109) (line 109); [ancestry/list27.md](ancestry/list27.md#L94) (line 94); [ancestry/list26.md](ancestry/list26.md#L26) (line 26); [ancestry/INDEX.md](ancestry/INDEX.md#L67) (line 67)
 
 ### Johnson traders' whiskey and money cache, east of Livermore (1857 legend)
 `tw-ia-livermore-johnson-whiskey-cache-1857` · grade D · Humboldt Co., IA
@@ -1777,6 +1781,7 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L320) (line 320)
 Notes:
 - [ia-il/iowa-town-leads-plats.md](ia-il/iowa-town-leads-plats.md#L19) (line 19)
 - [ia-il/INDEX.md](ia-il/INDEX.md#L9) (line 9)
+- [ancestry/list27.md](ancestry/list27.md#L111) (line 111)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L27) (line 27)
 
 Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L524) (line 524); [newspapers-com/list18.md](newspapers-com/list18.md#L15) (line 15); [newspapers-com/ia-il-sweep.md](newspapers-com/ia-il-sweep.md#L100) (line 100); [newspapers-com/ia-il-second-source.md](newspapers-com/ia-il-second-source.md#L21) (line 21); [ia-il/README.md](ia-il/README.md#L13) (line 13); [ia-il/barner-bennett-uiowa-atlases.md](ia-il/barner-bennett-uiowa-atlases.md#L1) (line 1); [jstor/jstor-list1.md](jstor/jstor-list1.md#L18) (line 18); [ancestry/bennett-terrell-iowa.md](ancestry/bennett-terrell-iowa.md#L7) (line 7); [ancestry/list15.md](ancestry/list15.md#L11) (line 11); [books/laird-1927-iowa-legends.md](books/laird-1927-iowa-legends.md#L5) (line 5); [books/list15-histories.md](books/list15-histories.md#L9) (line 9)
@@ -1908,7 +1913,7 @@ Notes:
 - [ancestry/INDEX.md](ancestry/INDEX.md#L26) (line 26)
 - `/mnt/project-files/research/court-records/pin-records-check.tsv` line 46 (shared folder only)
 
-Also mentions the place: [ia-il/README.md](ia-il/README.md#L13) (line 13); [ia-il/iowa-town-leads-plats.md](ia-il/iowa-town-leads-plats.md#L28) (line 28); [ancestry/land-ownership-maps-list7.md](ancestry/land-ownership-maps-list7.md#L10) (line 10); [ancestry/list16.md](ancestry/list16.md#L26) (line 26); [county-depth/se-wi-histories/washington-ozaukee-1880s.md](county-depth/se-wi-histories/washington-ozaukee-1880s.md#L166) (line 166); [books/laird-1927-iowa-legends.md](books/laird-1927-iowa-legends.md#L5) (line 5); [books/list15-histories.md](books/list15-histories.md#L9) (line 9); [sunday/sunday-list-2026-11-02.md](sunday/sunday-list-2026-11-02.md#L16) (line 16)
+Also mentions the place: [ia-il/README.md](ia-il/README.md#L13) (line 13); [ia-il/iowa-town-leads-plats.md](ia-il/iowa-town-leads-plats.md#L28) (line 28); [ancestry/list27.md](ancestry/list27.md#L111) (line 111); [ancestry/land-ownership-maps-list7.md](ancestry/land-ownership-maps-list7.md#L10) (line 10); [ancestry/list16.md](ancestry/list16.md#L26) (line 26); [county-depth/se-wi-histories/washington-ozaukee-1880s.md](county-depth/se-wi-histories/washington-ozaukee-1880s.md#L166) (line 166); [books/laird-1927-iowa-legends.md](books/laird-1927-iowa-legends.md#L5) (line 5); [books/list15-histories.md](books/list15-histories.md#L9) (line 9); [sunday/sunday-list-2026-11-02.md](sunday/sunday-list-2026-11-02.md#L16) (line 16)
 
 ### Rice bank robbers’ cache, woods back of Richmond
 `cr-rice-bank-loot-1904` · grade D · Stearns Co., MN
@@ -3147,12 +3152,13 @@ Notes:
 - [leads.tsv](leads.tsv#L4) (line 4)
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L900) (line 900)
 - [newspapers-com/list18.md](newspapers-com/list18.md#L8) (line 8)
+- [ancestry/list27.md](ancestry/list27.md#L105) (line 105)
 - [ancestry/list14.md](ancestry/list14.md#L6) (line 6)
 - [ancestry/list16.md](ancestry/list16.md#L37) (line 37)
 - [plats/rechenberg-dakota-mn.md](plats/rechenberg-dakota-mn.md#L1) (line 1)
 - [clippings/README.md](clippings/README.md#L3) (line 3)
 
-Also mentions the place: [negatives.tsv](negatives.tsv#L245) (line 245); [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L117) (line 117); [ancestry/list17.md](ancestry/list17.md#L81) (line 81); [forums/treasurenet-list1.md](forums/treasurenet-list1.md#L34) (line 34); `/mnt/project-files/research/court-records/pin-records-check.tsv` line 3 (shared folder only)
+Also mentions the place: [negatives.tsv](negatives.tsv#L245) (line 245); [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L117) (line 117); [ancestry/list17.md](ancestry/list17.md#L81) (line 81); [ancestry/INDEX.md](ancestry/INDEX.md#L68) (line 68); [forums/treasurenet-list1.md](forums/treasurenet-list1.md#L34) (line 34); `/mnt/project-files/research/court-records/pin-records-check.tsv` line 3 (shared folder only)
 
 ### Recluse James Kehoe's supposed hidden fortune, Bloomington Twp
 `tw-mn-bloomington-kehoe-1915` · grade F · Hennepin Co., MN
@@ -3273,7 +3279,7 @@ Notes:
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L92) (line 92)
 - [ancestry/list10-probate-census.md](ancestry/list10-probate-census.md#L9) (line 9)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L21) (line 21)
-- [ancestry/iowa-batch-ogle-iwers-webster.md](ancestry/iowa-batch-ogle-iwers-webster.md#L37) (line 37)
+- [ancestry/iowa-batch-ogle-iwers-webster.md](ancestry/iowa-batch-ogle-iwers-webster.md#L15) (line 15)
 - [plats/placement-gaps-pass-b.md](plats/placement-gaps-pass-b.md#L11) (line 11)
 - `/mnt/project-files/research/treasure-statewide/deep-dives/iail-dickson-iwers-harmon.md` line 11 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/deep-dives/pc-job-2.md` line 11 (shared folder only)
