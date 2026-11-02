@@ -37,6 +37,10 @@ No guessed spots: every placement below names its source. Status as of 2026-11-0
 Centreville note: the St. Joseph County Grange Fair still runs at Centreville, so this is probably today's
 fairground (active association land, permission only, no detecting during fair week). Confirm with a modern map.
 
+### Batch 2 candidates (not yet sent)
+- **Coldwater (Branch) 1858**: "Branch County Agricultural Grounds" lettered N of the village, E side of the road running NNW out of Grand St (today N. Grand / old US-27), about 290 m N of the dashed section line (Geil & Jones *Map of Branch County* 1858, Coldwater inset, LoC 2012593022, full-res region x1530-5480 y250-3950). No outline drawn, so the label spot only: ~41.9589, -85.0098 (measured against USGS Coldwater West 1960 1:24,000 street grid). Conf C (~250 m). Needs a plat (1872/1877 Branch atlas) to outline.
+- Checked, no fair ground drawn: Romeo 1859 inset (Macomb & St. Clair map) - the ground came later; Hillsdale Village 1857 inset (partial view); Marshall 1858 inset (west half only); Bennington Twp 1859 (Hartwellville).
+
 ### Described in period text, not yet placed
 - **Shiawassee: Corunna, then Hartwellville, then Owosso.** 1850-1858 fairs at Corunna "on grounds situated on the
   south side of the river, prepared by the citizens" (History of Shiawassee and Clinton Cos., 1880, p.140,
