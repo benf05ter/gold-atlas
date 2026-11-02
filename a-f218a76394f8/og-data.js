@@ -2311,3 +2311,7 @@ function wlHTML(p){ const w=WL[p.id]; if(!w) return ''; const C={H:'High',M:'Med
   const li=w.s.map(s=>`<li><b>${esc(s[0])}</b>: ${esc(s[1])} <span class="hint">(${C[s[2]]}, ${B[s[3]]})</span></li>`).join('');
   return `<div class="tips wl"><b>Where to look, ranked</b>${li?`<ol style="margin:4px 0 0;padding-left:20px">${li}</ol>`:''}${w.n?`<p style="margin:4px 0 0">${li?'':'Not ranked yet: '}${esc(w.n)}</p>`:''}`+
    (li?`<p class="hint" style="margin:4px 0 0">High: the record names the spot. Medium: a documented feature plus a habit seen in this atlas's solved hoards (about 10 in outbuildings, 10 inside a building, 7 in the yard within 30 m, 6 at a marker tree or stump). Low: weaker link.</p>`:'')+`</div>`; }
+
+// Hand-off batch v290i (tools/batch225)
+DATA.points.push(...[]);
+{ const E={"tw-mn-fergus-falls-trombler-1903":[{"pl":"South Mill Street, Fergus Falls. The Fergus Falls Ugeblad (1 Oct 1903) says 'Mill Str. syd', and the 1900 census gives house no. 11. That number falls outside the 1896 and 1903 Sanborn numbering, so the house is not placed to a lot."},"",[],false,""]}; for(const id of []) delete LIDC[id]; addEventListener("DOMContentLoaded",()=>{ for(const p of OGIX(E)){ const x=E[p.id]; if(!x) continue; Object.assign(p,x[0]); if(x[3]) p.st=(p.st||"").replace(/ Air photo check \(UW[^)]*\):[^.]*\./g,"").replace(/ LiDAR cache check[^.]*\.[^.]*\./g,""); p.st=(p.st||"")+x[1]; if(x[4]) p.t=(p.t||"")+x[4]; if(x[2].length) p.src=[...(p.src||[]),...x[2]]; } }); }
