@@ -385,7 +385,7 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L266) (line 266)
 
 Notes:
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L777) (line 777)
-- [newspapers-com/pc-a-batch3-results.md](newspapers-com/pc-a-batch3-results.md#L14) (line 14)
+- [newspapers-com/pc-a-batch3-results.md](newspapers-com/pc-a-batch3-results.md#L7) (line 7)
 - [newspapers-com/second-sources-c-leads.md](newspapers-com/second-sources-c-leads.md#L70) (line 70)
 - [ancestry/list12-dates.md](ancestry/list12-dates.md#L11) (line 11)
 - [ancestry/chilson-north-muskegon-ancestry.md](ancestry/chilson-north-muskegon-ancestry.md#L1) (line 1)
@@ -393,7 +393,7 @@ Notes:
 - [ancestry/INDEX.md](ancestry/INDEX.md#L35) (line 35)
 - [fold3/fold3-list1.md](fold3/fold3-list1.md#L7) (line 7)
 - [plats/chilson-north-muskegon.md](plats/chilson-north-muskegon.md#L1) (line 1)
-- [sunday/sunday-list-2026-11-02.md](sunday/sunday-list-2026-11-02.md#L13) (line 13)
+- [sunday/sunday-list-2026-11-02.md](sunday/sunday-list-2026-11-02.md#L24) (line 24)
 - `/mnt/project-files/research/treasure-statewide/leads-mi.tsv` line 38 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/pc-newspapers-second-sources.md` line 19 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/persons.tsv` line 58 (shared folder only)
@@ -647,11 +647,12 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L328) (line 328)
 
 Notes:
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L788) (line 788)
-- [newspapers-com/ia-il-second-source.md](newspapers-com/ia-il-second-source.md#L43) (line 43)
-- [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L25) (line 25)
+- [newspapers-com/ia-il-second-source.md](newspapers-com/ia-il-second-source.md#L42) (line 42)
+- [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L132) (line 132)
 - [ancestry/illinois-names-batch.md](ancestry/illinois-names-batch.md#L7) (line 7)
-- [ancestry/list19.md](ancestry/list19.md#L44) (line 44)
+- [ancestry/list19.md](ancestry/list19.md#L45) (line 45)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L29) (line 29)
+- [ancestry/list24.md](ancestry/list24.md#L82) (line 82)
 - [ancestry/list23.md](ancestry/list23.md#L76) (line 76)
 
 ### Herman Lunning's hidden money, recluse's cabin in the hills north of Galena
@@ -680,9 +681,9 @@ Also mentions the place: [ancestry/list12-dates.md](ancestry/list12-dates.md#L18
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L231) (line 231)
 
 Notes:
-- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L187) (line 187)
+- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L28) (line 28)
 - [newspapers-com/placement-gaps-list.md](newspapers-com/placement-gaps-list.md#L39) (line 39)
-- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L106) (line 106)
+- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L20) (line 20)
 - [newspapers-com/ia-il-second-source.md](newspapers-com/ia-il-second-source.md#L123) (line 123)
 - [genealogybank/gb-list1.md](genealogybank/gb-list1.md#L31) (line 31)
 - [ancestry/list12-dates.md](ancestry/list12-dates.md#L6) (line 6)
@@ -1667,11 +1668,11 @@ Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L223) (line 223)
 
 Notes:
-- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L408) (line 408)
+- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L633) (line 633)
 - [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L267) (line 267)
-- [ancestry/gregg-dover-racine.md](ancestry/gregg-dover-racine.md#L1) (line 1)
+- [ancestry/gregg-dover-racine.md](ancestry/gregg-dover-racine.md#L3) (line 3)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L44) (line 44)
-- [sunday/sunday-list-2026-11-02.md](sunday/sunday-list-2026-11-02.md#L21) (line 21)
+- [sunday/sunday-list-2026-11-02.md](sunday/sunday-list-2026-11-02.md#L33) (line 33)
 - `/mnt/project-files/research/treasure-statewide/leads-wi.tsv` line 26 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md` line 23 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/persons.tsv` line 163 (shared folder only)
@@ -2043,7 +2044,7 @@ Also mentions the place: [negatives.tsv](negatives.tsv#L231) (line 231); [newspa
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L190) (line 190)
 
 Notes:
-- [ancestry/markee-apple-river-polk.md](ancestry/markee-apple-river-polk.md#L5) (line 5)
+- [ancestry/markee-apple-river-polk.md](ancestry/markee-apple-river-polk.md#L1) (line 1)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L36) (line 36)
 - `/mnt/project-files/research/court-records/pin-records-check.tsv` line 7 (shared folder only)
 
@@ -2475,15 +2476,15 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L16) (line 16)
 Notes:
 - [negatives.tsv](negatives.tsv#L20) (line 20)
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L858) (line 858)
-- [newspapers-com/list18.md](newspapers-com/list18.md#L6) (line 6)
+- [newspapers-com/list18.md](newspapers-com/list18.md#L15) (line 15)
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L154) (line 154)
 - [ancestry/list17.md](ancestry/list17.md#L87) (line 87)
 - [ancestry/list14.md](ancestry/list14.md#L42) (line 42)
-- [ancestry/vilas-wyandotte-game-farm.md](ancestry/vilas-wyandotte-game-farm.md#L4) (line 4)
-- [ancestry/list16.md](ancestry/list16.md#L38) (line 38)
+- [ancestry/vilas-wyandotte-game-farm.md](ancestry/vilas-wyandotte-game-farm.md#L1) (line 1)
+- [ancestry/list16.md](ancestry/list16.md#L26) (line 26)
 - [clippings/README.md](clippings/README.md#L3) (line 3)
 
-Also mentions the place: [leads.tsv](leads.tsv#L2) (line 2); [newspapers-com/county-coverage-wi-mi-chronam.tsv](newspapers-com/county-coverage-wi-mi-chronam.tsv#L24) (line 24); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L71) (line 71); [newspapers-com/county-coverage.tsv](newspapers-com/county-coverage.tsv#L23) (line 23); [ancestry/list15.md](ancestry/list15.md#L15) (line 15); [ancestry/INDEX.md](ancestry/INDEX.md#L54) (line 54)
+Also mentions the place: [leads.tsv](leads.tsv#L2) (line 2); [newspapers-com/county-coverage-wi-mi-chronam.tsv](newspapers-com/county-coverage-wi-mi-chronam.tsv#L24) (line 24); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L118) (line 118); [newspapers-com/county-coverage.tsv](newspapers-com/county-coverage.tsv#L23) (line 23); [ancestry/list15.md](ancestry/list15.md#L15) (line 15); [ancestry/INDEX.md](ancestry/INDEX.md#L54) (line 54)
 
 ### Robbers' Roost: Civil War river thieves' camp, sec. 36 Crooked Creek
 `cd-robbers-roost-crooked-creek` · grade E · Houston Co., MN
@@ -2641,7 +2642,7 @@ Notes:
 
 Notes:
 - [negatives.tsv](negatives.tsv#L301) (line 301)
-- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L632) (line 632)
+- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L633) (line 633)
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L149) (line 149)
 - [plats/pauquette-portage-glo.md](plats/pauquette-portage-glo.md#L1) (line 1)
 
@@ -2951,7 +2952,7 @@ Notes:
 - [ancestry/list16.md](ancestry/list16.md#L38) (line 38)
 - [clippings/README.md](clippings/README.md#L3) (line 3)
 
-Also mentions the place: [newspapers-com/county-coverage-wi-mi-chronam.tsv](newspapers-com/county-coverage-wi-mi-chronam.tsv#L24) (line 24); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L71) (line 71); [newspapers-com/county-coverage.tsv](newspapers-com/county-coverage.tsv#L23) (line 23)
+Also mentions the place: [newspapers-com/county-coverage-wi-mi-chronam.tsv](newspapers-com/county-coverage-wi-mi-chronam.tsv#L24) (line 24); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L118) (line 118); [newspapers-com/county-coverage.tsv](newspapers-com/county-coverage.tsv#L23) (line 23)
 
 ### Rechenberg's jar of mildewed bills, Dodd Road farm (found 1924)
 `tw-mn-west-st-paul-rechenberg-jar-1924` · grade F · Dakota Co., MN
@@ -3084,7 +3085,7 @@ Notes:
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L92) (line 92)
 - [ancestry/list10-probate-census.md](ancestry/list10-probate-census.md#L9) (line 9)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L21) (line 21)
-- [ancestry/iowa-batch-ogle-iwers-webster.md](ancestry/iowa-batch-ogle-iwers-webster.md#L37) (line 37)
+- [ancestry/iowa-batch-ogle-iwers-webster.md](ancestry/iowa-batch-ogle-iwers-webster.md#L15) (line 15)
 - [plats/placement-gaps-pass-b.md](plats/placement-gaps-pass-b.md#L11) (line 11)
 - `/mnt/project-files/research/treasure-statewide/deep-dives/iail-dickson-iwers-harmon.md` line 11 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/deep-dives/pc-job-2.md` line 11 (shared folder only)

@@ -63,3 +63,70 @@
 - A "Forgotten City" title search over 20-31 Dec 1921 gives only parts II-IV, so **part I is not indexed** under that title (it may lack the headline, or it ran before 20 Dec). It is not found.
 - **The 10 other hits (GR Press 1922-30)** are society pages. Two were opened (2 May 1927 p.13; 3 Jul 1926 p.6): party "treasure hunts" sit in the same column as Port Sheldon cottage news. **Noise; no later digs reported.**
 - **Out Lot 732, follow-up:** HathiTrust full text "out lot 732" + Dubuque gives 0. The 1909 Sanborn sheet 61 uses block letters, not out-lot numbers. The 1906 Iowa Publishing Co. Dubuque County atlas (Ancestry 1127, starts at image 31617_072142-00244; 148 images) has the Dubuque Township plate (viewer p.12), but the **city inside the corporation line is left blank**. **Not placed yet.** It needs a Dubuque city plat with out-lot numbers (e.g. the city engineer's map, or the county auditor's legal-description search).
+
+## 9. Walker Tavern lot, Cambridge Twp (1893 Lenawee atlas; viewer p.49, image 31617_072122-00356)
+- The 1874 Lenawee atlas (Ancestry 1127, image 31617_072122-00395 onward, 151 images) is mostly portraits and history text; I did not reach its Cambridge plate. **The 1893 atlas (87 images) was used instead.**
+- **NW Cambridge Twp at the junction**, where the Chicago Road (diagonal, US-12) meets the La Plaisance Bay road and the plate prints "CAMBRIDGE":
+  - **"Francis A. Dewey's Est. 66"** sits on the junction itself (N side of the Chicago Road).
+  - Around it: **Geo. H. Dewey 80**, **Chas. Dewey 60**, a second Geo. H. Dewey tract, Wm H. Neely 17.50, Mortimer Myers, Henry Meacham(?), Andrew Billmeyer 156.
+  - Further S: Albert F. Dewey (several tracts, incl. 106 at the W edge), Jno. W. Dewey, Marion Case 123.75, Paulina E. Case 162, Robt. Boyce 120, Sam'l White.
+- This **matches the 1888 *Album*** (Dewey bought "the Walker farm at Cambridge Junction" in 1865). So the tavern lot = the **Francis A. Dewey Est. 66 at the junction**, i.e. today's Walker Tavern Historic Site (Cambridge Junction, US-12 / M-50). The digging under "one of the giant oaks in the inn yard" (WPA 1941) belongs on this lot; the existing site pin is adequate.
+
+## 10. Port Sheldon / Pigeon Lake on the 1912 Ottawa plat (Olive Twp plate, atlas p.?, viewer p.31, image 31617_072124-00304)
+- **Port Sheldon Twp did not exist in 1912.** It was set off from Olive later (1923). In 1912 the Pigeon Lake shore is on the **W edge of the Olive Twp plate**, so the list's "Port Sheldon Twp secs 28-29" (modern numbering) correspond to **secs 15-16 / 21-22 of the 1912 Olive plate**.
+- **Pigeon Lake** runs E-W across **secs 16-15**; the **Pigeon River** enters at its E head (sec 15, flowing in from the NE past J. D. Blomers and Martin Bazan 160). The channel to Lake Michigan is at the W end (sec 16/17).
+- **Owners, N shore and head of the lake (1912):** **Henry Goodi[ng?]** (at the NE head, sec 15/16, by the river mouth), **L. M. Schofield 80** and **Nick Holtman** (sec 16, N shore), F. May and E. Barlow (N of Goodi[ng]), John Olman 57.54 and John Goodin (sec 15), Aug. Jeske 77, Sarah Terry, Jas. Ringl. A **hatched plat** (resort subdivision, label partly "... Johnson's ...") sits on the N shore at the W end, by the outlet.
+- **S shore:** "… BEACH" plat at the W end, **Bert Riemersma**, **William Taylor**, Gus. Chele…, A. G. Anderson, Abraham …, C. Dykema.
+- **Reading for the pin:** PC (a) has the Ottawa House "near the head of Pigeon Lake, NE shore". On the 1912 plate that is the **Goodi[ng] / Olman land at the NE head of the lake, where the Pigeon River enters (secs 15-16 of 1912 Olive; ≈ modern Port Sheldon Twp secs 28-29 area)**. The "decayed maples in front of the Ottawa House" should be there. The 1912 plat shows no hotel ruin or label. Ground check.
+
+## 17. Henry "Bunker" Onnen, Minonk (Woodford Co IL): 1930 and 1940 census (Ancestry 6224, 2442; index and record detail)
+- **1930:** **Henry Onnen, head, about 54 (b. about 1876 IL), single**, **Minonk city, Ward 2, "Mary Street", dwelling 91 / family 96**. He **owned his home, value $700**, not a farm. Occupation: laborer, odd jobs. The index places a **foster daughter Gene Onnen (b. about 1922)** with him (check the image).
+- **1930, same town:** **Jno. W. Onnen (b. about 1870 Germany, imm. 1896), farmer, "lives on farm: yes"**, owned, dwelling 150, with wife Mattie (b. 1872 Germany) and sons **Jno. W. (b. 1903), Edward (b. 1912), Henry (b. 1916)**, plus grandson John (b. 1923 Montana). These are the **nephews John and Henry** (sons of Jno. W.). Being "in Minonk" with a farm, this is likely just outside the city (rural ED).
+- **1940:** **Henry W. Onnen, 64, single, "Shont" [= Short?] Street, Minonk**, not a farm. **John W. Onnen, 37, fireman, married (wife Emily E.)**, is on the **same street**. **Meta M. Onnen, 68, widow (= Mattie)**, is on **Maple Avenue**, with son Henry H. (b. 1917) and grandson Jack W. (b. 1923 MT). All three lived "Rural, Woodford" in 1935, so the family moved into town between 1935 and 1940; Henry's 1935 residence is blank.
+- **So "the family home" Henry occupied:** in **1930 a house he owned on Mary St (Ward 2)**; by **1940 on "Shont"/Short St**, next to nephew John W. The street spellings need the census images (the 1940 ED is not in the index text). **Neither is a farm.**
+- **George Onnen on an 1893 Woodford plat:** Ancestry 1127 has **no 1893 Woodford atlas** (only 1873 and 1912), and the 1912 Minonk/Olio plates show no Onnen (list19 #6). Not checkable here; it needs the 1891/1893 Woodford plat book (UIUC IDA or the county).
+
+## 15. GB Michigan 1880-1930, "Walker tavern" + murdered: 14 hits (all 1919-27)
+- **Earliest found: Jackson Citizen Patriot, Sun 26 Oct 1919, p.28, "Cambridge Junction, Village Just Over the Jackson County Line, Links Present With Bygone Days Hamlet".**
+  - **"The Murder Room"** is on the second floor, north of the Cooper rooms. It got its name because "one dark night a guest **disappeared, never being heard from again**. The fact that this guest had **considerable money** with him led to the theory that someone had lured him away and murdered him for his money, or else murdered him in the room and carried the body away."
+  - The tavern "also carries buried in its walls mysteries … It has its murder room and its suicide room."
+  - **In 1853 Walker, "who had made a fortune in the hotel business", built the three-story brick building across the corner** (third-floor ballroom; closed since WWI). The DAR (Adrian) and the Adrian Automobile Club planned to buy and restore it.
+  - **No digging under an oak and no money belt** in 1919 ("dug": 0 hits).
+- **Kalamazoo Gazette, Sat 23 Sep 1922, p.6, "Inn of Stage Coach Days Is Reopened on Chicago Highway":** the tavern of 1832 was restored and reopened; "one **gold-laden traveler was murdered**. The stain of his blood is still on the floor of the so-called 'murder room'", shown on "personally conducted" tours.
+- **So the legend grew over time:** a vanished guest with money (1919), then a "gold-laden traveler" murdered with a blood stain (1922 reopening publicity), then by 1941 (WPA) the cattleman found dead under a shattered window, his money belt gone, and digging under the inn-yard oak. The oak-digging detail is **not yet found before 1941**. The other 12 hits (Jackson News 1922/23, Adrian Telegram 1922/27, Detroit News 1922, Ann Arbor News 1927, Kalamazoo 1926) are not opened yet.
+- Grade note: a 1922 tourist-inn story with no contemporary murder report, so the treasure angle (a buried money belt) is weak. Keep the pin at the historic site as a legend site.
+
+## 2-5. State journals (HathiTrust full text, full view; phrases "buried treasure / hidden treasure / buried money / buried gold", title-limited)
+- **2. *Wisconsin Archeologist* (1901-30):** **0** volumes match any of the four phrases. ("treasure" + "buried" as loose words gives 30 volumes, all archaeological "buried" usage; no lead.)
+- **3. *Proceedings of the State Historical Society of Wisconsin* (1874-1914):** **0** volumes match any phrase.
+- **4. *Palimpsest* (Iowa):**
+  - **v.8 (1927), p.233 ff., "Siam Gold"** (unsolved murder, hidden gold, endless digging on a farm near **Siam, Taylor Co**). **Already in research** (list15 #20: Siam "Klondike" gold, Nathaniel Smith murder, Golliday $42,000) and **out of region** (S of the Mahaska/Wapello line).
+  - v.8 p.206: Indian "caches" of stone implements (archaeology, no lead).
+  - v.1-2 (1920-21) p.269: workmen hoped for "a buried treasure chest" but found a human foot (noise).
+  - v.3 (1922) p.162: the stolen Iowa City bell "like many another hidden treasure" (noise).
+  - Full view on HathiTrust runs only to about 1927, so 1928-35 is not covered.
+- **5. *Journal of the Illinois State Historical Society* (1908-30):** 3 "buried treasure" hits, **all southern Illinois, so out of region**:
+  - v.4 (1911-12) p.466: buried-treasure legend in the walls of **Old Fort Chartres** (Randolph Co).
+  - v.12 (1919-20) p.228: **McCleary's Bluff, Wabash Co**. In 1872 four skiffs of Indians "from some Northern Reservation" came downriver, hired two white men to point out landmarks, dug for several days, and left with "cautiously concealed articles".
+  - v.21 (1928-29) p.576: a farmer near **Shawneetown** carried his gold in a sack to the orchard before he died and came back without it; Mrs. Dartt "still thinks that somewhere on the farm this buried treasure will be found".
+  - **No northern-county hits.**
+
+## 16. GB Grand Rapids 1890-1930, "Wabasis" + gold: 8 hits (Wabasis is already a lead, leads.tsv row 111; these add detail)
+- **NEW detail: GR Press, Tue 11 Jul 1916, p.13, "Doubts Skeleton Is of Chief Wabasis: D. W. Tower Questions Bones Found Recently".**
+  - The chief sold the tribe's land secretly, "**burying the money which was in coin somewhere on the banks of the lake**". The others murdered him and "buried his body about **a mile to the northeast of the farm now owned by Joseph Brewer of Plainfield**".
+  - "Many persons have searched for the buried treasure and **some caves in the bank of the road bordering the lake on the farm of C. O. Tower** were for a long time supposed to be its hiding place. The gold and silver of old Wabasis has never been found."
+  - (Bones were found in 1916; D. W. Tower doubts they are the chief's.) **"C. O. Tower" is not in research/ before this.**
+- **Plat tie-in (1894 Kent atlas, Oakfield Twp, list24 #8 image 31617_072122-00179):** **"C. O. Tower"** is printed at the **NW of Wabasis Lake** (W lobe, around secs 29-30), next to M. D. Stevens 32.82, A. W. Stevens 41.5 and W. B. Bowman; **"S. Tower 40"** is just S on the W shore. A road runs along the lake there. **So the "caves in the road bank" = the lake-shore road on the C. O. Tower farm, NW / W shore of Wabasis Lake.** This is a **second, specific candidate spot**, separate from the Stocking 1914 "S side of the inlet creek ½-¾ mi above the lake" spot. Exact pin: Ground check (the road cut on the W shore; the county park now covers much of that shore).
+- **GR Herald, Sun 2 Jul 1899, p.16, "Story of Old Wabasis: Legendary Tale of the Tribe of Ottawas, and Tragic End of the Old Chief"** (romanticised): Wabasis is exiled "to the shore of a lake", returns, and is **burned at the stake** by his people and buried sitting up. Of "the gold supposed to have been in his possession", "the majority believe he buried it near his place of banishment", while others say he **dropped the coins into the water as he floated down the creek**. This is an older, different death version (the 1904 version has a tomahawk near Smyrna).
+- The other hits (GR Press 1923, 1925 ×2, 1929 ×2; Evening Leader 1890) were not opened (time). The 1890 Evening Leader (8 Feb 1890 p.4) was opened: it is the "Wabasis tribe of Red Men" lodge at Rockford (noise).
+
+## 14. GB "Okauchee" McConnell, Milwaukee 1871-72
+- "Okauchee McConnell", Milwaukee 1871-72: **0**. Even "Okauchee" alone, **all Wisconsin papers 1870-75: 0**. So GB has effectively **no OCR coverage of Waukesha-area news for 1870-75** (a coverage gap, not a negative). The McConnell death (10 May 1871) and any 1871-74 gold story need the Waukesha Freeman / Oconomowoc papers on microfilm (or newspapers.com, if it has them; Sunday list).
+
+## Status
+- Done: 1-11, 13-18 (12 skipped as already done in L23 #15). Open items to carry forward:
+  - Dubuque **Out Lot 732** placement.
+  - *Michigan History* v.28 (1944) page (search-only).
+  - Meima part I (GR Press, Dec 1921).
+  - The Walker Tavern oak-digging before 1941 (12 GB hits not opened).
+  - The George Onnen 1893 plat (not on Ancestry).
