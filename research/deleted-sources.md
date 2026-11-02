@@ -38,3 +38,4 @@ Kept: untiled scans (plat-barron/scans-c1918, plat-dunn/scans-1915, plat-mn-mi c
 | 2026-11-02 06:13 | /mnt/project-files/research-zip-ac.zip | 178,330 B | 6 research notes (md5 f15502e2…) committed verbatim to gold-atlas main research/ (commit ead3d4b4) | Neb rule 04:06Z |
 | 2026-11-02 06:27 | /mnt/project-files/research-zip-ad.zip | 106,225 B | 3 research notes (md5 0f86b41b…) committed verbatim to gold-atlas main research/ (commit 9e88f0ba) | Neb rule 04:06Z |
 | 2026-11-02 06:56 | /mnt/project-files/research-zip-ae.zip | 8,687 B | 1 research note, ancestry/list17.md (md5 b0411e26…), committed verbatim to gold-atlas main research/ (commit bebe4737) | Neb rule 04:06Z |
+| 2026-11-02 07:20 | /mnt/project-files/research-zip-af.zip | 17,646 B | 3 research notes, ancestry/list17-19.md (md5 1edf91ac…), committed verbatim to gold-atlas main research/ (commit 6ab00d02) | Neb rule 04:06Z |
