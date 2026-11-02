@@ -147,3 +147,7 @@
   - (This is the "W. C." Adsit of the card? The census index gives only "Ray". Check initials.)
 - **LoC Sanborn Cherokee:** items 02602_001-_008 (1883-1924); the 1914-12 set (02602_006, 9 sheets) is digitized. **Its street index (B) lists only Beech and Burch, with no "Bismark Place"**, so the house lay **outside the Sanborn coverage** (residential edge of Ward 1). "Bismark Place" is also not in OSM/Nominatim today (it was probably renamed during WWI).
 - **Not placed to a lot.** It needs a Cherokee city plat or a 1910s directory with a street-rename note. Card: Cherokee Ward 1, town level.
+
+## 25. Andrew Jackson, Niles (MI): 1900 census
+- **1900 (7602): Andrew Jackson, head, b. Mar 1833 TN, Black, married 1880 to Flora; son Andrew (b. Jun 1890 MI). Niles city, Ward 2, street indexed "Sylvanne" [?] no. 13**, sheet 23, dwelling 571. Occupation partly indexed ("Leach Main"?).
+- Treasure has **399 N. 8th St** (a later address). In 1900 the household was on a Ward 2 street read as "Sylvanne", not 8th St; the image would confirm. Low priority; no change to the card pin unless the story's year is 1900.
