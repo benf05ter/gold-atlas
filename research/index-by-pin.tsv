@@ -31,6 +31,7 @@ tw-mn-walnut-grove-bergblom-copper-box-1930	B	Copper box of gold coins in a cree
 tw-mn-walnut-grove-bergblom-copper-box-1930	B	Copper box of gold coins in a creek bank, Springdale township near Walnut Grove	Redwood	MN		research/newspapers-com/list18.md	13	two:bergblom
 tw-mn-walnut-grove-bergblom-copper-box-1930	B	Copper box of gold coins in a creek bank, Springdale township near Walnut Grove	Redwood	MN		research/newspapers-com/leads.tsv	97	two:bergblom
 tw-mn-walnut-grove-bergblom-copper-box-1930	B	Copper box of gold coins in a creek bank, Springdale township near Walnut Grove	Redwood	MN		research/ancestry/list12-dates.md	51	two:springdale
+tw-mn-walnut-grove-bergblom-copper-box-1930	B	Copper box of gold coins in a creek bank, Springdale township near Walnut Grove	Redwood	MN		research/ancestry/list17.md	36	co:bergblom
 tw-mn-walnut-grove-bergblom-copper-box-1930	B	Copper box of gold coins in a creek bank, Springdale township near Walnut Grove	Redwood	MN		research/ancestry/list14.md	11	two:springdale
 tw-mn-walnut-grove-bergblom-copper-box-1930	B	Copper box of gold coins in a creek bank, Springdale township near Walnut Grove	Redwood	MN		research/ancestry/list15.md	18	two:springdale
 tw-mn-walnut-grove-bergblom-copper-box-1930	B	Copper box of gold coins in a creek bank, Springdale township near Walnut Grove	Redwood	MN		research/ancestry/INDEX.md	52	co:bergblom
@@ -259,6 +260,7 @@ tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron
 tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron	WI	dig-vajvoda-rice-lake-1925	research/newspapers-com/newspapers-com-holdings.md	14	co:rice
 tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron	WI	dig-vajvoda-rice-lake-1925	research/newspapers-com/ia-il-second-source.md	94	two:vejvoda
 tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron	WI	dig-vajvoda-rice-lake-1925	research/ancestry/list12-dates.md	64	two:vejvoda
+tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron	WI	dig-vajvoda-rice-lake-1925	research/ancestry/list17.md	39	two:vejvoda
 tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron	WI	dig-vajvoda-rice-lake-1925	research/ancestry/INDEX.md	16	co:vejvoda
 tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron	WI	dig-vajvoda-rice-lake-1925	research/plats/vejvoda-barron.md	1	file:vejvoda
 tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron	WI	dig-vajvoda-rice-lake-1925	research/plats/INDEX.md	27	co:vejvoda
@@ -321,6 +323,7 @@ tw-mi-niles-andrew-jackson-gold	C	Andrew Jackson's hidden gold, Niles	Berrien	MI
 tw-mi-niles-andrew-jackson-gold	C	Andrew Jackson's hidden gold, Niles	Berrien	MI		research/ancestry/land-ownership-maps-list8.md	38	two:niles
 tw-mi-niles-andrew-jackson-gold	C	Andrew Jackson's hidden gold, Niles	Berrien	MI		research/ancestry/michigan-death-records-batch.md	7	co:jackson
 tw-mi-niles-andrew-jackson-gold	C	Andrew Jackson's hidden gold, Niles	Berrien	MI		research/ancestry/list15.md	14	co:niles
+tw-mi-niles-andrew-jackson-gold	C	Andrew Jackson's hidden gold, Niles	Berrien	MI		research/ancestry/INDEX.md	56	two:niles
 tw-mi-niles-andrew-jackson-gold	C	Andrew Jackson's hidden gold, Niles	Berrien	MI		research/fold3/fold3-list1.md	19	two:niles
 tw-mi-niles-andrew-jackson-gold	C	Andrew Jackson's hidden gold, Niles	Berrien	MI		research/plats/sanborn-aitkin-niles.md	1	file:niles
 tw-mi-niles-andrew-jackson-gold	C	Andrew Jackson's hidden gold, Niles	Berrien	MI		research/plats/jackson-niles.md	1	file:niles
@@ -441,16 +444,16 @@ tw-ia-dubuque-lunning-farm-1916	C	Herman Lunning's hidden money, recluse's cabin
 tw-ia-dubuque-lunning-farm-1916	C	Herman Lunning's hidden money, recluse's cabin in the hills north of Galena	Jo Daviess	IL		research/ancestry/INDEX.md	50	two:lunning
 tw-ia-dubuque-lunning-farm-1916	C	Herman Lunning's hidden money, recluse's cabin in the hills north of Galena	Jo Daviess	IL		research/plats/lunning-jodaviess.md	1	file:lunning
 tw-ia-dubuque-lunning-farm-1916	C	Herman Lunning's hidden money, recluse's cabin in the hills north of Galena	Jo Daviess	IL		research/books/laird-followups.tsv	5	co:galena
-tw-mn-turtle-lake-marcell-brunette	C	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/newspapers-com/pc-a-asks-results.md	187	two:hugh
+tw-mn-turtle-lake-marcell-brunette	C	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/newspapers-com/pc-a-asks-results.md	28	two:marcell
 tw-mn-turtle-lake-marcell-brunette	C	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/newspapers-com/placement-gaps-list.md	39	two:marcell
-tw-mn-turtle-lake-marcell-brunette	C	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/newspapers-com/leads.tsv	106	two:hugh
+tw-mn-turtle-lake-marcell-brunette	C	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/newspapers-com/leads.tsv	20	two:marcell
 tw-mn-turtle-lake-marcell-brunette	C	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/newspapers-com/ia-il-second-source.md	123	two:marcell
 tw-mn-turtle-lake-marcell-brunette	C	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/genealogybank/gb-list1.md	31	two:hugh
 tw-mn-turtle-lake-marcell-brunette	C	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/ancestry/list12-dates.md	6	two:hugh
 tw-mn-turtle-lake-marcell-brunette	C	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/ancestry/list10-probate-census.md	20	two:hugh
 tw-mn-turtle-lake-marcell-brunette	C	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/plats/placement-gaps-pass.md	59	two:marcell
-tw-mn-turtle-lake-marcell-brunette	C	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/plats/INDEX.md	66	two:hugh
-tw-mn-turtle-lake-marcell-brunette	C	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/plats/brunette-turtle-lake.md	1	two:hugh
+tw-mn-turtle-lake-marcell-brunette	C	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/plats/INDEX.md	66	two:marcell
+tw-mn-turtle-lake-marcell-brunette	C	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/plats/brunette-turtle-lake.md	1	two:marcell
 tw-mn-turtle-lake-marcell-brunette	C	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		project-files/research/treasure-statewide/leads-mn.tsv	9	id
 tw-mn-turtle-lake-marcell-brunette	C	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md	27	two:marcell
 tw-mn-turtle-lake-marcell-brunette	C	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		project-files/research/treasure-statewide/pc-b-plat-queue-2026-11-01.md	16	two:marcell
@@ -929,8 +932,9 @@ t-hermit-island	D	Hermit Island: Wilson's coins and the pirate cave	Ashland	WI		
 tw-mi-higgins-lake-flynn-island-hermit-cache	D	Hermit Pritchard's cache, Flynn Island, Higgins Lake	Roscommon	MI		research/leads.tsv	1	id
 tw-mi-higgins-lake-flynn-island-hermit-cache	D	Hermit Pritchard's cache, Flynn Island, Higgins Lake	Roscommon	MI		research/newspapers-com/pc-a-asks-results.md	845	two:flynn
 tw-mi-higgins-lake-flynn-island-hermit-cache	D	Hermit Pritchard's cache, Flynn Island, Higgins Lake	Roscommon	MI		research/newspapers-com/list18.md	17	two:flynn
+tw-mi-higgins-lake-flynn-island-hermit-cache	D	Hermit Pritchard's cache, Flynn Island, Higgins Lake	Roscommon	MI		research/ancestry/list17.md	88	co:pritchard
 tw-mi-higgins-lake-flynn-island-hermit-cache	D	Hermit Pritchard's cache, Flynn Island, Higgins Lake	Roscommon	MI		research/ancestry/list14.md	36	co:pritchard
-tw-mi-higgins-lake-flynn-island-hermit-cache	D	Hermit Pritchard's cache, Flynn Island, Higgins Lake	Roscommon	MI		research/books/laird-followups.tsv	4	two:pritchard
+tw-mi-higgins-lake-flynn-island-hermit-cache	D	Hermit Pritchard's cache, Flynn Island, Higgins Lake	Roscommon	MI		research/books/laird-followups.tsv	4	two:higgins
 tw-mi-higgins-lake-flynn-island-hermit-cache	D	Hermit Pritchard's cache, Flynn Island, Higgins Lake	Roscommon	MI		research/books/wfmk-hermit-higgins.md	8	two:flynn
 tw-ia-marshalltown-mcknight-1907	D	Honora McKnight's money hidden "in strange places", Marshalltown	Marshall	IA		research/newspapers-com/leads.tsv	102	co:marshalltown
 tw-ia-marshalltown-mcknight-1907	D	Honora McKnight's money hidden "in strange places", Marshalltown	Marshall	IA		research/newspapers-com/ia-il-sweep.md	11	co:marshalltown
@@ -998,6 +1002,7 @@ tw-ia-spirit-lake-marble-gold-1857	D	Marble family's $1,500 in gold, west shore 
 tw-ia-spirit-lake-marble-gold-1857	D	Marble family's $1,500 in gold, west shore of Spirit Lake (1857 legend)	Dickinson	IA		research/treasure-statewide/held-leads.md	26	two:marble
 tw-ia-spirit-lake-marble-gold-1857	D	Marble family's $1,500 in gold, west shore of Spirit Lake (1857 legend)	Dickinson	IA		research/ia-il/README.md	56	two:marble
 tw-ia-spirit-lake-marble-gold-1857	D	Marble family's $1,500 in gold, west shore of Spirit Lake (1857 legend)	Dickinson	IA		research/jstor/jstor-list1.md	18	co:spirit
+tw-ia-spirit-lake-marble-gold-1857	D	Marble family's $1,500 in gold, west shore of Spirit Lake (1857 legend)	Dickinson	IA		research/ancestry/list17.md	74	two:marble
 tw-ia-spirit-lake-marble-gold-1857	D	Marble family's $1,500 in gold, west shore of Spirit Lake (1857 legend)	Dickinson	IA		research/ancestry/list14.md	17	two:marble
 tw-ia-spirit-lake-marble-gold-1857	D	Marble family's $1,500 in gold, west shore of Spirit Lake (1857 legend)	Dickinson	IA		research/ancestry/list15.md	11	two:marble
 tw-ia-spirit-lake-marble-gold-1857	D	Marble family's $1,500 in gold, west shore of Spirit Lake (1857 legend)	Dickinson	IA		research/books/laird-followups.tsv	1	id
@@ -1121,6 +1126,7 @@ tw-mi-petoskey-bear-river-ottawa-gold	D	Ottawa bars of gold in iron boxes, Bear 
 tw-mi-petoskey-bear-river-ottawa-gold	D	Ottawa bars of gold in iron boxes, Bear River gravel pit, Petoskey	Emmet	MI		research/newspapers-com/pc-a-batch3-results.md	102	two:petoskey
 tw-mi-petoskey-bear-river-ottawa-gold	D	Ottawa bars of gold in iron boxes, Bear River gravel pit, Petoskey	Emmet	MI		research/newspapers-com/leads.tsv	141	two:petoskey
 tw-mi-petoskey-bear-river-ottawa-gold	D	Ottawa bars of gold in iron boxes, Bear River gravel pit, Petoskey	Emmet	MI		research/genealogybank/gaps.md	11	co:petoskey
+tw-mi-petoskey-bear-river-ottawa-gold	D	Ottawa bars of gold in iron boxes, Bear River gravel pit, Petoskey	Emmet	MI		research/ancestry/list17.md	57	two:bear
 tw-mi-petoskey-bear-river-ottawa-gold	D	Ottawa bars of gold in iron boxes, Bear River gravel pit, Petoskey	Emmet	MI		research/plats/INDEX.md	83	two:petoskey
 tw-mi-petoskey-bear-river-ottawa-gold	D	Ottawa bars of gold in iron boxes, Bear River gravel pit, Petoskey	Emmet	MI		research/plats/wegemer-bear-river-petoskey.md	1	file:petoskey
 tw-mi-petoskey-bear-river-ottawa-gold	D	Ottawa bars of gold in iron boxes, Bear River gravel pit, Petoskey	Emmet	MI		project-files/research/treasure-statewide/leads-mi.tsv	14	id
@@ -1142,6 +1148,7 @@ tw-wi-portage-pauquette-kegs	D	Pierre Pauquette's twenty kegs of gold, Portage (
 tw-wi-portage-pauquette-kegs	D	Pierre Pauquette's twenty kegs of gold, Portage (legend)	Columbia	WI		research/newspapers-com/second-sources-c-leads.md	125	co:portage
 tw-wi-portage-pauquette-kegs	D	Pierre Pauquette's twenty kegs of gold, Portage (legend)	Columbia	WI		research/newspapers-com/list18.md	11	two:pauquette
 tw-wi-portage-pauquette-kegs	D	Pierre Pauquette's twenty kegs of gold, Portage (legend)	Columbia	WI		research/newspapers-com/leads.tsv	156	two:pierre
+tw-wi-portage-pauquette-kegs	D	Pierre Pauquette's twenty kegs of gold, Portage (legend)	Columbia	WI		research/ancestry/list17.md	86	co:pauquette
 tw-wi-portage-pauquette-kegs	D	Pierre Pauquette's twenty kegs of gold, Portage (legend)	Columbia	WI		research/ancestry/list15.md	16	co:pauquette
 tw-wi-portage-pauquette-kegs	D	Pierre Pauquette's twenty kegs of gold, Portage (legend)	Columbia	WI		research/ancestry/list16.md	40	two:pauquette
 tw-wi-portage-pauquette-kegs	D	Pierre Pauquette's twenty kegs of gold, Portage (legend)	Columbia	WI		research/plats/pauquette-portage-glo.md	1	two:pierre
@@ -1436,6 +1443,7 @@ t-bennett-eagle-river	E	R.C. Bennett's tin boxes	Vilas	WI		research/newspapers-c
 t-bennett-eagle-river	E	R.C. Bennett's tin boxes	Vilas	WI		research/newspapers-com/county-coverage-wi-mi-chronam.tsv	24	co:eagle
 t-bennett-eagle-river	E	R.C. Bennett's tin boxes	Vilas	WI		research/newspapers-com/sweep-2-misers-loot.md	71	co:eagle
 t-bennett-eagle-river	E	R.C. Bennett's tin boxes	Vilas	WI		research/newspapers-com/county-coverage.tsv	23	co:eagle
+t-bennett-eagle-river	E	R.C. Bennett's tin boxes	Vilas	WI		research/ancestry/list17.md	87	two:eagle
 t-bennett-eagle-river	E	R.C. Bennett's tin boxes	Vilas	WI		research/ancestry/list14.md	42	two:eagle
 t-bennett-eagle-river	E	R.C. Bennett's tin boxes	Vilas	WI		research/ancestry/list15.md	15	co:bennett
 t-bennett-eagle-river	E	R.C. Bennett's tin boxes	Vilas	WI		research/ancestry/INDEX.md	54	co:bennett
@@ -1560,6 +1568,7 @@ tw-mn-henderson-ritter-beer-casks	F	Forty casks of beer under the old Henderson 
 tw-mn-henderson-ritter-beer-casks	F	Forty casks of beer under the old Henderson brewery (found)	Sibley	MN		research/newspapers-com/pc-a-asks-results.md	863	two:ritter
 tw-mn-henderson-ritter-beer-casks	F	Forty casks of beer under the old Henderson brewery (found)	Sibley	MN		research/newspapers-com/second-sources-c-leads.md	130	co:henderson
 tw-mn-henderson-ritter-beer-casks	F	Forty casks of beer under the old Henderson brewery (found)	Sibley	MN		research/newspapers-com/leads.tsv	155	two:ritter
+tw-mn-henderson-ritter-beer-casks	F	Forty casks of beer under the old Henderson brewery (found)	Sibley	MN		research/ancestry/list17.md	62	co:henderson
 tw-mn-henderson-ritter-beer-casks	F	Forty casks of beer under the old Henderson brewery (found)	Sibley	MN		research/ancestry/list14.md	32	two:ritter
 tw-mn-henderson-ritter-beer-casks	F	Forty casks of beer under the old Henderson brewery (found)	Sibley	MN		research/ancestry/list15.md	20	co:henderson
 tw-mn-henderson-ritter-beer-casks	F	Forty casks of beer under the old Henderson brewery (found)	Sibley	MN		research/ancestry/INDEX.md	55	two:ritter
@@ -1673,6 +1682,7 @@ tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte F
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/county-coverage-wi-mi-chronam.tsv	24	co:eagle
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/sweep-2-misers-loot.md	71	co:eagle
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/county-coverage.tsv	23	co:eagle
+tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/ancestry/list17.md	87	two:conover
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/ancestry/list14.md	42	two:conover
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/ancestry/list15.md	15	two:conover
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/ancestry/INDEX.md	54	two:conover
@@ -1684,6 +1694,7 @@ tw-mn-west-st-paul-rechenberg-jar-1924	F	Rechenberg's jar of mildewed bills, Dod
 tw-mn-west-st-paul-rechenberg-jar-1924	F	Rechenberg's jar of mildewed bills, Dodd Road farm (found 1924)	Dakota	MN		research/newspapers-com/pc-a-asks-results.md	900	two:dodd
 tw-mn-west-st-paul-rechenberg-jar-1924	F	Rechenberg's jar of mildewed bills, Dodd Road farm (found 1924)	Dakota	MN		research/newspapers-com/list18.md	8	two:rechenberg
 tw-mn-west-st-paul-rechenberg-jar-1924	F	Rechenberg's jar of mildewed bills, Dodd Road farm (found 1924)	Dakota	MN		research/newspapers-com/leads.tsv	117	co:paul
+tw-mn-west-st-paul-rechenberg-jar-1924	F	Rechenberg's jar of mildewed bills, Dodd Road farm (found 1924)	Dakota	MN		research/ancestry/list17.md	81	co:rechenberg
 tw-mn-west-st-paul-rechenberg-jar-1924	F	Rechenberg's jar of mildewed bills, Dodd Road farm (found 1924)	Dakota	MN		research/ancestry/list14.md	6	two:dodd
 tw-mn-west-st-paul-rechenberg-jar-1924	F	Rechenberg's jar of mildewed bills, Dodd Road farm (found 1924)	Dakota	MN		research/ancestry/list16.md	37	two:dodd
 tw-mn-west-st-paul-rechenberg-jar-1924	F	Rechenberg's jar of mildewed bills, Dodd Road farm (found 1924)	Dakota	MN		research/plats/rechenberg-dakota-mn.md	1	two:dodd
@@ -1745,7 +1756,7 @@ tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homes
 tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		research/newspapers-com/ia-il-sweep.md	162	co:iwers
 tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		research/ancestry/list10-probate-census.md	9	two:inland
 tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		research/ancestry/INDEX.md	21	two:inland
-tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		research/ancestry/iowa-batch-ogle-iwers-webster.md	37	two:tipton
+tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		research/ancestry/iowa-batch-ogle-iwers-webster.md	15	two:inland
 tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		research/plats/placement-gaps-pass-b.md	11	two:inland
 tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		project-files/research/treasure-statewide/deep-dives/iail-dickson-iwers-harmon.md	11	two:inland
 tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		project-files/research/treasure-statewide/deep-dives/pc-job-2.md	11	two:tipton

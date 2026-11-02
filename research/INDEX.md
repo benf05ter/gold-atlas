@@ -82,7 +82,7 @@ Notes:
 - `/mnt/project-files/research/treasure-statewide/leads-mn.tsv` line 14 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/persons.tsv` line 105 (shared folder only)
 
-Also mentions the place: [newspapers-com/pc-b-asks-results.md](newspapers-com/pc-b-asks-results.md#L44) (line 44); [ancestry/INDEX.md](ancestry/INDEX.md#L52) (line 52); [plats/INDEX.md](plats/INDEX.md#L7) (line 7)
+Also mentions the place: [newspapers-com/pc-b-asks-results.md](newspapers-com/pc-b-asks-results.md#L44) (line 44); [ancestry/list17.md](ancestry/list17.md#L36) (line 36); [ancestry/INDEX.md](ancestry/INDEX.md#L52) (line 52); [plats/INDEX.md](plats/INDEX.md#L7) (line 7)
 
 ### Danish recluse Lars Nielson's $10,000-13,000 hidden on his farm, sec 14 Morken Township
 `tw-mn-morken-nielson-miser-1916` · grade B · Clay Co., MN · dig spot `dig-mn-morken-nielson-miser-1916`
@@ -367,6 +367,7 @@ Notes:
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L2) (line 2)
 - [newspapers-com/ia-il-second-source.md](newspapers-com/ia-il-second-source.md#L94) (line 94)
 - [ancestry/list12-dates.md](ancestry/list12-dates.md#L64) (line 64)
+- [ancestry/list17.md](ancestry/list17.md#L39) (line 39)
 - [plats/vejvoda-barron.md](plats/vejvoda-barron.md#L1) (line 1)
 - `/mnt/project-files/research/court-records/pin-records-check.tsv` line 13 (shared folder only)
 - `/mnt/project-files/research/court-records/newspapers-com-asks.md` line 7 (shared folder only)
@@ -453,6 +454,7 @@ Notes:
 - [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L437) (line 437)
 - [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L248) (line 248)
 - [ancestry/land-ownership-maps-list8.md](ancestry/land-ownership-maps-list8.md#L38) (line 38)
+- [ancestry/INDEX.md](ancestry/INDEX.md#L56) (line 56)
 - [fold3/fold3-list1.md](fold3/fold3-list1.md#L19) (line 19)
 - [plats/sanborn-aitkin-niles.md](plats/sanborn-aitkin-niles.md#L1) (line 1)
 - [plats/jackson-niles.md](plats/jackson-niles.md#L1) (line 1)
@@ -672,9 +674,9 @@ Also mentions the place: [ancestry/list12-dates.md](ancestry/list12-dates.md#L18
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L231) (line 231)
 
 Notes:
-- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L187) (line 187)
+- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L28) (line 28)
 - [newspapers-com/placement-gaps-list.md](newspapers-com/placement-gaps-list.md#L39) (line 39)
-- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L106) (line 106)
+- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L20) (line 20)
 - [newspapers-com/ia-il-second-source.md](newspapers-com/ia-il-second-source.md#L123) (line 123)
 - [genealogybank/gb-list1.md](genealogybank/gb-list1.md#L31) (line 31)
 - [ancestry/list12-dates.md](ancestry/list12-dates.md#L6) (line 6)
@@ -1470,7 +1472,7 @@ Notes:
 - [books/laird-followups.tsv](books/laird-followups.tsv#L4) (line 4)
 - [books/wfmk-hermit-higgins.md](books/wfmk-hermit-higgins.md#L8) (line 8)
 
-Also mentions the place: [ancestry/list14.md](ancestry/list14.md#L36) (line 36)
+Also mentions the place: [ancestry/list17.md](ancestry/list17.md#L88) (line 88); [ancestry/list14.md](ancestry/list14.md#L36) (line 36)
 
 ### Honora McKnight's money hidden "in strange places", Marshalltown
 `tw-ia-marshalltown-mcknight-1907` · grade D · Marshall Co., IA
@@ -1587,6 +1589,7 @@ Notes:
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L832) (line 832)
 - [treasure-statewide/held-leads.md](treasure-statewide/held-leads.md#L26) (line 26)
 - [ia-il/README.md](ia-il/README.md#L56) (line 56)
+- [ancestry/list17.md](ancestry/list17.md#L74) (line 74)
 - [ancestry/list14.md](ancestry/list14.md#L17) (line 17)
 - [ancestry/list15.md](ancestry/list15.md#L11) (line 11)
 - [books/laird-followups.tsv](books/laird-followups.tsv#L1) (line 1)
@@ -1781,6 +1784,7 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L248) (line 248)
 Notes:
 - [newspapers-com/pc-a-batch3-results.md](newspapers-com/pc-a-batch3-results.md#L102) (line 102)
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L141) (line 141)
+- [ancestry/list17.md](ancestry/list17.md#L57) (line 57)
 - [plats/INDEX.md](plats/INDEX.md#L83) (line 83)
 - [plats/wegemer-bear-river-petoskey.md](plats/wegemer-bear-river-petoskey.md#L1) (line 1)
 - `/mnt/project-files/research/treasure-statewide/leads-mi.tsv` line 14 (shared folder only)
@@ -1809,7 +1813,7 @@ Notes:
 - [clippings/README.md](clippings/README.md#L3) (line 3)
 - [books/list14-county-histories.md](books/list14-county-histories.md#L14) (line 14)
 
-Also mentions the place: [newspapers-com/second-sources-c-leads.md](newspapers-com/second-sources-c-leads.md#L125) (line 125); [ancestry/list15.md](ancestry/list15.md#L16) (line 16); `/mnt/project-files/research/treasure-statewide/held-leads.md` line 40 (shared folder only); `/mnt/project-files/research/treasure-statewide/leads-wi.tsv` line 11 (shared folder only)
+Also mentions the place: [newspapers-com/second-sources-c-leads.md](newspapers-com/second-sources-c-leads.md#L125) (line 125); [ancestry/list17.md](ancestry/list17.md#L86) (line 86); [ancestry/list15.md](ancestry/list15.md#L16) (line 16); `/mnt/project-files/research/treasure-statewide/held-leads.md` line 40 (shared folder only); `/mnt/project-files/research/treasure-statewide/leads-wi.tsv` line 11 (shared folder only)
 
 ### Poverty Island bullion ship
 `tw-mi-poverty-island-bullion` · grade D · Delta Co., MI
@@ -2445,6 +2449,7 @@ Notes:
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L858) (line 858)
 - [newspapers-com/list18.md](newspapers-com/list18.md#L6) (line 6)
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L154) (line 154)
+- [ancestry/list17.md](ancestry/list17.md#L87) (line 87)
 - [ancestry/list14.md](ancestry/list14.md#L42) (line 42)
 - [ancestry/vilas-wyandotte-game-farm.md](ancestry/vilas-wyandotte-game-farm.md#L4) (line 4)
 - [ancestry/list16.md](ancestry/list16.md#L38) (line 38)
@@ -2716,7 +2721,7 @@ Notes:
 - [clippings/README.md](clippings/README.md#L3) (line 3)
 - `/mnt/project-files/research/treasure-statewide/leads-mn.tsv` line 17 (shared folder only)
 
-Also mentions the place: [newspapers-com/second-sources-c-leads.md](newspapers-com/second-sources-c-leads.md#L130) (line 130); [ancestry/list15.md](ancestry/list15.md#L20) (line 20); `/mnt/project-files/research/treasure-statewide/persons.tsv` line 119 (shared folder only)
+Also mentions the place: [newspapers-com/second-sources-c-leads.md](newspapers-com/second-sources-c-leads.md#L130) (line 130); [ancestry/list17.md](ancestry/list17.md#L62) (line 62); [ancestry/list15.md](ancestry/list15.md#L20) (line 20); `/mnt/project-files/research/treasure-statewide/persons.tsv` line 119 (shared folder only)
 
 ### Fountain City 'gold bar' (a fake) and the express-robbery legend
 `tw-fountain-city-gold-bar-1913` · grade F · Buffalo Co., WI
@@ -2909,6 +2914,7 @@ Notes:
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L862) (line 862)
 - [newspapers-com/list18.md](newspapers-com/list18.md#L24) (line 24)
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L154) (line 154)
+- [ancestry/list17.md](ancestry/list17.md#L87) (line 87)
 - [ancestry/list14.md](ancestry/list14.md#L42) (line 42)
 - [ancestry/list15.md](ancestry/list15.md#L15) (line 15)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L54) (line 54)
@@ -2930,7 +2936,7 @@ Notes:
 - [plats/rechenberg-dakota-mn.md](plats/rechenberg-dakota-mn.md#L1) (line 1)
 - [clippings/README.md](clippings/README.md#L3) (line 3)
 
-Also mentions the place: [negatives.tsv](negatives.tsv#L245) (line 245); [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L117) (line 117); `/mnt/project-files/research/court-records/pin-records-check.tsv` line 3 (shared folder only)
+Also mentions the place: [negatives.tsv](negatives.tsv#L245) (line 245); [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L117) (line 117); [ancestry/list17.md](ancestry/list17.md#L81) (line 81); `/mnt/project-files/research/court-records/pin-records-check.tsv` line 3 (shared folder only)
 
 ### Recluse James Kehoe's supposed hidden fortune, Bloomington Twp
 `tw-mn-bloomington-kehoe-1915` · grade F · Hennepin Co., MN
@@ -3049,7 +3055,7 @@ Notes:
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L92) (line 92)
 - [ancestry/list10-probate-census.md](ancestry/list10-probate-census.md#L9) (line 9)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L21) (line 21)
-- [ancestry/iowa-batch-ogle-iwers-webster.md](ancestry/iowa-batch-ogle-iwers-webster.md#L37) (line 37)
+- [ancestry/iowa-batch-ogle-iwers-webster.md](ancestry/iowa-batch-ogle-iwers-webster.md#L15) (line 15)
 - [plats/placement-gaps-pass-b.md](plats/placement-gaps-pass-b.md#L11) (line 11)
 - `/mnt/project-files/research/treasure-statewide/deep-dives/iail-dickson-iwers-harmon.md` line 11 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/deep-dives/pc-job-2.md` line 11 (shared folder only)
