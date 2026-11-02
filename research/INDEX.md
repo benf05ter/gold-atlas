@@ -29,7 +29,7 @@ Notes:
 - `/mnt/project-files/research/treasure-statewide/pc-newspapers-second-sources.md` line 17 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/persons.tsv` line 69 (shared folder only)
 
-Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L765) (line 765); [ancestry/list25.md](ancestry/list25.md#L54) (line 54); [ancestry/INDEX.md](ancestry/INDEX.md#L66) (line 66)
+Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L765) (line 765); [ancestry/list26.md](ancestry/list26.md#L30) (line 30); [ancestry/list25.md](ancestry/list25.md#L54) (line 54); [ancestry/INDEX.md](ancestry/INDEX.md#L66) (line 66)
 
 ### $30,000 under an orchard tree, Nordman's hill, 2 mi S of New London
 `tw-wi-new-london-hoffman-orchard` · grade B · Waupaca Co., WI
@@ -249,7 +249,7 @@ Notes:
 - `/mnt/project-files/research/treasure-statewide/pc-newspapers-second-sources.md` line 27 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/persons.tsv` line 68 (shared folder only)
 
-Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L451) (line 451); [newspapers-com/pc-b-asks-results.md](newspapers-com/pc-b-asks-results.md#L27) (line 27); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L109) (line 109)
+Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L451) (line 451); [newspapers-com/pc-b-asks-results.md](newspapers-com/pc-b-asks-results.md#L27) (line 27); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L109) (line 109); [ancestry/list26.md](ancestry/list26.md#L26) (line 26); [ancestry/INDEX.md](ancestry/INDEX.md#L67) (line 67)
 
 ### Lars Nielson's tree-claim building site (alternate spot)
 `tw-mn-morken-nielson-miser-1916-treeclaim` · grade B · Clay Co., MN · dig spot `dig-mn-morken-nielson-miser-1916-treeclaim`
@@ -471,7 +471,7 @@ Notes:
 - `/mnt/project-files/research/treasure-statewide/pc-newspapers-second-sources.md` line 21 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/persons.tsv` line 8 (shared folder only)
 
-Also mentions the place: [leads.tsv](leads.tsv#L6) (line 6); [ancestry/list9-probate-census.md](ancestry/list9-probate-census.md#L16) (line 16); [ancestry/michigan-death-records-batch.md](ancestry/michigan-death-records-batch.md#L7) (line 7); [ancestry/list15.md](ancestry/list15.md#L14) (line 14); [plats/sunday-plates-2026-11-02.md](plats/sunday-plates-2026-11-02.md#L23) (line 23); `/mnt/project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md` line 6 (shared folder only); `/mnt/project-files/research/treasure-statewide/ground-fix/wi-batch1-fixes.md` line 13 (shared folder only)
+Also mentions the place: [leads.tsv](leads.tsv#L6) (line 6); [ancestry/list26.md](ancestry/list26.md#L50) (line 50); [ancestry/list9-probate-census.md](ancestry/list9-probate-census.md#L16) (line 16); [ancestry/michigan-death-records-batch.md](ancestry/michigan-death-records-batch.md#L7) (line 7); [ancestry/list15.md](ancestry/list15.md#L14) (line 14); [plats/sunday-plates-2026-11-02.md](plats/sunday-plates-2026-11-02.md#L23) (line 23); `/mnt/project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md` line 6 (shared folder only); `/mnt/project-files/research/treasure-statewide/ground-fix/wi-batch1-fixes.md` line 13 (shared folder only)
 
 ### Bogus Bluff cave treasure dig (1922-23)
 `t-richland-bluff-cave` · grade C · Richland Co., WI
@@ -530,7 +530,7 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L298) (line 298)
 Notes:
 - [ancestry/list25.md](ancestry/list25.md#L85) (line 85)
 
-Also mentions the place: [ia-il/README.md](ia-il/README.md#L13) (line 13); [ia-il/iowa-town-leads-plats.md](ia-il/iowa-town-leads-plats.md#L19) (line 19); [ia-il/INDEX.md](ia-il/INDEX.md#L9) (line 9); [ancestry/iowa-batch-2.md](ancestry/iowa-batch-2.md#L20) (line 20); [plats/sunday-plates-2026-11-02.md](plats/sunday-plates-2026-11-02.md#L13) (line 13); [sunday/sunday-list-2026-11-02.md](sunday/sunday-list-2026-11-02.md#L11) (line 11)
+Also mentions the place: [ia-il/README.md](ia-il/README.md#L13) (line 13); [ia-il/iowa-town-leads-plats.md](ia-il/iowa-town-leads-plats.md#L19) (line 19); [ia-il/INDEX.md](ia-il/INDEX.md#L9) (line 9); [ancestry/iowa-batch-2.md](ancestry/iowa-batch-2.md#L20) (line 20); [ancestry/list26.md](ancestry/list26.md#L3) (line 3); [ancestry/INDEX.md](ancestry/INDEX.md#L67) (line 67); [plats/sunday-plates-2026-11-02.md](plats/sunday-plates-2026-11-02.md#L13) (line 13); [sunday/sunday-list-2026-11-02.md](sunday/sunday-list-2026-11-02.md#L11) (line 11)
 
 ### Civil War-era coin hoard under a stump, Briggs Lake (Palmer Twp)
 `tw-mn-briggs-lake-stump-coins-1922` · grade C · Sherburne Co., MN
@@ -688,9 +688,9 @@ Also mentions the place: [ancestry/list12-dates.md](ancestry/list12-dates.md#L18
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L231) (line 231)
 
 Notes:
-- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L28) (line 28)
+- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L187) (line 187)
 - [newspapers-com/placement-gaps-list.md](newspapers-com/placement-gaps-list.md#L39) (line 39)
-- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L20) (line 20)
+- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L106) (line 106)
 - [newspapers-com/ia-il-second-source.md](newspapers-com/ia-il-second-source.md#L123) (line 123)
 - [genealogybank/gb-list1.md](genealogybank/gb-list1.md#L31) (line 31)
 - [ancestry/list12-dates.md](ancestry/list12-dates.md#L6) (line 6)
@@ -1085,11 +1085,13 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L297) (line 297)
 Notes:
 - [ia-il/iowa-town-leads-plats.md](ia-il/iowa-town-leads-plats.md#L5) (line 5)
 - [ia-il/INDEX.md](ia-il/INDEX.md#L6) (line 6)
+- [ancestry/list26.md](ancestry/list26.md#L17) (line 17)
 - [ancestry/list25.md](ancestry/list25.md#L148) (line 148)
+- [ancestry/INDEX.md](ancestry/INDEX.md#L66) (line 66)
 - [plats/sunday-plates-2026-11-02.md](plats/sunday-plates-2026-11-02.md#L22) (line 22)
 - [sunday/sunday-list-2026-11-02.md](sunday/sunday-list-2026-11-02.md#L13) (line 13)
 
-Also mentions the place: [ia-il/README.md](ia-il/README.md#L53) (line 53); [ancestry/list9-probate-census.md](ancestry/list9-probate-census.md#L14) (line 14); [ancestry/INDEX.md](ancestry/INDEX.md#L66) (line 66)
+Also mentions the place: [ia-il/README.md](ia-il/README.md#L53) (line 53); [ancestry/list9-probate-census.md](ancestry/list9-probate-census.md#L14) (line 14)
 
 ### Wealthy St. bank robbery loot cache, woods a mile outside Smyrna
 `tw-mi-smyrna-marshall-bank-loot-1932` · grade C · Ionia Co., MI
@@ -1140,11 +1142,12 @@ Notes:
 - [jstor/jstor-list1.md](jstor/jstor-list1.md#L15) (line 15)
 - [ancestry/iowa-batch-2.md](ancestry/iowa-batch-2.md#L5) (line 5)
 - [ancestry/list25.md](ancestry/list25.md#L16) (line 16)
+- [ancestry/INDEX.md](ancestry/INDEX.md#L66) (line 66)
 - [plats/sunday-plates-2026-11-02.md](plats/sunday-plates-2026-11-02.md#L13) (line 13)
 - [books/laird-1927-iowa-legends.md](books/laird-1927-iowa-legends.md#L71) (line 71)
 - `/mnt/project-files/research/treasure-statewide/leads-wi.tsv` line 27 (shared folder only)
 
-Also mentions the place: [ia-il/README.md](ia-il/README.md#L13) (line 13); [ia-il/INDEX.md](ia-il/INDEX.md#L10) (line 10); [ancestry/INDEX.md](ancestry/INDEX.md#L32) (line 32); [sunday/sunday-list-2026-11-02.md](sunday/sunday-list-2026-11-02.md#L11) (line 11)
+Also mentions the place: [ia-il/README.md](ia-il/README.md#L13) (line 13); [ia-il/INDEX.md](ia-il/INDEX.md#L10) (line 10); [sunday/sunday-list-2026-11-02.md](sunday/sunday-list-2026-11-02.md#L11) (line 11)
 
 ### "Samoots" Amatuna's $50,000 getaway cash, Hwy 12 north of Pell Lake
 `tw-wi-pell-lake-amatuna-cash` · grade D · Walworth Co., WI
@@ -1345,7 +1348,7 @@ Notes:
 - `/mnt/project-files/research/treasure-statewide/leads-mi.tsv` line 42 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/persons.tsv` line 65 (shared folder only)
 
-Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L276) (line 276); `/mnt/project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md` line 17 (shared folder only)
+Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L276) (line 276); [ancestry/list26.md](ancestry/list26.md#L55) (line 55); [ancestry/INDEX.md](ancestry/INDEX.md#L67) (line 67); `/mnt/project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md` line 17 (shared folder only)
 
 ### Col. George Davenport's money, Arsenal Island (1845 murder)
 `tw-il-arsenal-island-davenport-1845` · grade D · Rock Island Co., IL
@@ -1682,7 +1685,7 @@ Notes:
 - [plats/jackson-niles.md](plats/jackson-niles.md#L1) (line 1)
 - [clippings/README.md](clippings/README.md#L3) (line 3)
 
-Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L177) (line 177); [newspapers-com/second-sources-c-leads.md](newspapers-com/second-sources-c-leads.md#L79) (line 79); [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L147) (line 147); [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L258) (line 258); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L48) (line 48); [ancestry/land-ownership-maps-list8.md](ancestry/land-ownership-maps-list8.md#L38) (line 38); [ancestry/list15.md](ancestry/list15.md#L14) (line 14); [fairgrounds/mi-early-fairs.md](fairgrounds/mi-early-fairs.md#L8) (line 8); `/mnt/project-files/research/treasure-statewide/leads-mi.tsv` line 4 (shared folder only); `/mnt/project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md` line 6 (shared folder only); `/mnt/project-files/research/treasure-statewide/pc-newspapers-second-sources.md` line 20 (shared folder only); `/mnt/project-files/research/treasure-statewide/persons.tsv` line 8 (shared folder only)
+Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L177) (line 177); [newspapers-com/second-sources-c-leads.md](newspapers-com/second-sources-c-leads.md#L79) (line 79); [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L147) (line 147); [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L258) (line 258); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L48) (line 48); [ancestry/list26.md](ancestry/list26.md#L50) (line 50); [ancestry/land-ownership-maps-list8.md](ancestry/land-ownership-maps-list8.md#L38) (line 38); [ancestry/list15.md](ancestry/list15.md#L14) (line 14); [fairgrounds/mi-early-fairs.md](fairgrounds/mi-early-fairs.md#L8) (line 8); `/mnt/project-files/research/treasure-statewide/leads-mi.tsv` line 4 (shared folder only); `/mnt/project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md` line 6 (shared folder only); `/mnt/project-files/research/treasure-statewide/pc-newspapers-second-sources.md` line 20 (shared folder only); `/mnt/project-files/research/treasure-statewide/persons.tsv` line 8 (shared folder only)
 
 ### Mrs. Armstrong Gregg's money in "improbable places", Dover
 `tw-wi-dover-gregg-hoard` · grade D · Racine Co., WI
@@ -1848,7 +1851,7 @@ Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc
 `tw-ia-bellevue-pest-house-cave-kettles` · grade D · Jackson Co., IA
 
 
-Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L733) (line 733); [newspapers-com/pc-a-batch3-results.md](newspapers-com/pc-a-batch3-results.md#L117) (line 117); [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L112) (line 112); [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L67) (line 67); [jstor/jstor-list1.md](jstor/jstor-list1.md#L16) (line 16); [ancestry/list18.md](ancestry/list18.md#L14) (line 14); [ancestry/list25.md](ancestry/list25.md#L142) (line 142); [plats/INDEX.md](plats/INDEX.md#L80) (line 80); [books/list14-county-histories.md](books/list14-county-histories.md#L7) (line 7); [books/laird-1927-iowa-legends.md](books/laird-1927-iowa-legends.md#L22) (line 22); `/mnt/project-files/research/treasure-statewide/leads-mi.tsv` line 13 (shared folder only); `/mnt/project-files/research/treasure-statewide/persons.tsv` line 19 (shared folder only)
+Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L733) (line 733); [newspapers-com/pc-a-batch3-results.md](newspapers-com/pc-a-batch3-results.md#L117) (line 117); [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L112) (line 112); [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L67) (line 67); [jstor/jstor-list1.md](jstor/jstor-list1.md#L16) (line 16); [ancestry/list18.md](ancestry/list18.md#L14) (line 14); [ancestry/list25.md](ancestry/list25.md#L142) (line 142); [ancestry/INDEX.md](ancestry/INDEX.md#L66) (line 66); [plats/INDEX.md](plats/INDEX.md#L80) (line 80); [books/list14-county-histories.md](books/list14-county-histories.md#L7) (line 7); [books/laird-1927-iowa-legends.md](books/laird-1927-iowa-legends.md#L22) (line 22); `/mnt/project-files/research/treasure-statewide/leads-mi.tsv` line 13 (shared folder only); `/mnt/project-files/research/treasure-statewide/persons.tsv` line 19 (shared folder only)
 
 ### Pierre Pauquette's twenty kegs of gold, Portage (legend)
 `tw-wi-portage-pauquette-kegs` · grade D · Columbia Co., WI
@@ -2191,7 +2194,7 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L17) (line 17)
 Notes:
 - [negatives.tsv](negatives.tsv#L21) (line 21)
 
-Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L581) (line 581); [newspapers-com/pc-a-batch3-results.md](newspapers-com/pc-a-batch3-results.md#L119) (line 119); [newspapers-com/court-probate-asks.md](newspapers-com/court-probate-asks.md#L24) (line 24); [newspapers-com/field-notes-barron.md](newspapers-com/field-notes-barron.md#L174) (line 174); [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L3) (line 3); [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L269) (line 269); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L110) (line 110); [genealogybank/gaps.md](genealogybank/gaps.md#L12) (line 12); [genealogybank/gb-list1.md](genealogybank/gb-list1.md#L29) (line 29); [ia-il/README.md](ia-il/README.md#L13) (line 13); [ia-il/iowa-town-leads-plats.md](ia-il/iowa-town-leads-plats.md#L18) (line 18); [jstor/jstor-list1.md](jstor/jstor-list1.md#L15) (line 15); [ancestry/list25.md](ancestry/list25.md#L85) (line 85); [ancestry/land-ownership-maps-list8.md](ancestry/land-ownership-maps-list8.md#L28) (line 28); [county-depth/se-wi-histories/washington-ozaukee-1880s.md](county-depth/se-wi-histories/washington-ozaukee-1880s.md#L89) (line 89); [plats/placement-gaps-pass.md](plats/placement-gaps-pass.md#L14) (line 14); [plats/sanborn-aitkin-niles.md](plats/sanborn-aitkin-niles.md#L13) (line 13); [sunday/sunday-list-2026-11-02.md](sunday/sunday-list-2026-11-02.md#L11) (line 11); `/mnt/project-files/research/court-records/newspapers-com-asks.md` line 6 (shared folder only); `/mnt/project-files/research/treasure-statewide/leads-mi.tsv` line 6 (shared folder only); `/mnt/project-files/research/treasure-statewide/pc-newspapers-second-sources.md` line 11 (shared folder only); `/mnt/project-files/research/treasure-statewide/ground-fix/wi-batch1-fixes.md` line 7 (shared folder only)
+Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L581) (line 581); [newspapers-com/pc-a-batch3-results.md](newspapers-com/pc-a-batch3-results.md#L119) (line 119); [newspapers-com/court-probate-asks.md](newspapers-com/court-probate-asks.md#L24) (line 24); [newspapers-com/field-notes-barron.md](newspapers-com/field-notes-barron.md#L174) (line 174); [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L3) (line 3); [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L269) (line 269); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L110) (line 110); [genealogybank/gaps.md](genealogybank/gaps.md#L12) (line 12); [genealogybank/gb-list1.md](genealogybank/gb-list1.md#L29) (line 29); [ia-il/README.md](ia-il/README.md#L13) (line 13); [ia-il/iowa-town-leads-plats.md](ia-il/iowa-town-leads-plats.md#L18) (line 18); [jstor/jstor-list1.md](jstor/jstor-list1.md#L15) (line 15); [ancestry/list26.md](ancestry/list26.md#L3) (line 3); [ancestry/list25.md](ancestry/list25.md#L85) (line 85); [ancestry/land-ownership-maps-list8.md](ancestry/land-ownership-maps-list8.md#L28) (line 28); [ancestry/INDEX.md](ancestry/INDEX.md#L66) (line 66); [county-depth/se-wi-histories/washington-ozaukee-1880s.md](county-depth/se-wi-histories/washington-ozaukee-1880s.md#L89) (line 89); [plats/placement-gaps-pass.md](plats/placement-gaps-pass.md#L14) (line 14); [plats/sanborn-aitkin-niles.md](plats/sanborn-aitkin-niles.md#L13) (line 13); [sunday/sunday-list-2026-11-02.md](sunday/sunday-list-2026-11-02.md#L11) (line 11); `/mnt/project-files/research/court-records/newspapers-com-asks.md` line 6 (shared folder only); `/mnt/project-files/research/treasure-statewide/leads-mi.tsv` line 6 (shared folder only); `/mnt/project-files/research/treasure-statewide/pc-newspapers-second-sources.md` line 11 (shared folder only); `/mnt/project-files/research/treasure-statewide/ground-fix/wi-batch1-fixes.md` line 7 (shared folder only)
 
 ### George Vollmer's money in the walls, Stillwater
 `tw-vollmer-hoard-1899` · grade E · Washington Co., MN
@@ -2501,15 +2504,15 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L16) (line 16)
 Notes:
 - [negatives.tsv](negatives.tsv#L20) (line 20)
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L858) (line 858)
-- [newspapers-com/list18.md](newspapers-com/list18.md#L6) (line 6)
+- [newspapers-com/list18.md](newspapers-com/list18.md#L15) (line 15)
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L154) (line 154)
 - [ancestry/list17.md](ancestry/list17.md#L87) (line 87)
 - [ancestry/list14.md](ancestry/list14.md#L42) (line 42)
-- [ancestry/vilas-wyandotte-game-farm.md](ancestry/vilas-wyandotte-game-farm.md#L4) (line 4)
-- [ancestry/list16.md](ancestry/list16.md#L38) (line 38)
+- [ancestry/vilas-wyandotte-game-farm.md](ancestry/vilas-wyandotte-game-farm.md#L1) (line 1)
+- [ancestry/list16.md](ancestry/list16.md#L26) (line 26)
 - [clippings/README.md](clippings/README.md#L3) (line 3)
 
-Also mentions the place: [leads.tsv](leads.tsv#L2) (line 2); [newspapers-com/county-coverage-wi-mi-chronam.tsv](newspapers-com/county-coverage-wi-mi-chronam.tsv#L24) (line 24); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L71) (line 71); [newspapers-com/county-coverage.tsv](newspapers-com/county-coverage.tsv#L23) (line 23); [ancestry/list15.md](ancestry/list15.md#L15) (line 15); [ancestry/INDEX.md](ancestry/INDEX.md#L54) (line 54)
+Also mentions the place: [leads.tsv](leads.tsv#L2) (line 2); [newspapers-com/county-coverage-wi-mi-chronam.tsv](newspapers-com/county-coverage-wi-mi-chronam.tsv#L24) (line 24); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L118) (line 118); [newspapers-com/county-coverage.tsv](newspapers-com/county-coverage.tsv#L23) (line 23); [ancestry/list15.md](ancestry/list15.md#L15) (line 15); [ancestry/INDEX.md](ancestry/INDEX.md#L54) (line 54)
 
 ### Robbers' Roost: Civil War river thieves' camp, sec. 36 Crooked Creek
 `cd-robbers-roost-crooked-creek` · grade E · Houston Co., MN
@@ -2667,7 +2670,7 @@ Notes:
 
 Notes:
 - [negatives.tsv](negatives.tsv#L301) (line 301)
-- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L633) (line 633)
+- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L632) (line 632)
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L149) (line 149)
 - [plats/pauquette-portage-glo.md](plats/pauquette-portage-glo.md#L1) (line 1)
 
@@ -2821,6 +2824,7 @@ Notes:
 - [ia-il/iowa-town-leads-plats.md](ia-il/iowa-town-leads-plats.md#L18) (line 18)
 - [jstor/jstor-list1.md](jstor/jstor-list1.md#L15) (line 15)
 - [ancestry/list25.md](ancestry/list25.md#L16) (line 16)
+- [ancestry/INDEX.md](ancestry/INDEX.md#L66) (line 66)
 - [plats/sunday-plates-2026-11-02.md](plats/sunday-plates-2026-11-02.md#L13) (line 13)
 - [books/laird-1927-iowa-legends.md](books/laird-1927-iowa-legends.md#L71) (line 71)
 - `/mnt/project-files/research/treasure-statewide/leads-wi.tsv` line 27 (shared folder only)
@@ -2828,8 +2832,6 @@ Notes:
 - `/mnt/project-files/research/treasure-statewide/persons.tsv` line 164 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/ground-fix/batch2-fixes.md` line 6 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/ground-fix/wi-batch1-fixes.md` line 7 (shared folder only)
-
-Also mentions the place: [ancestry/INDEX.md](ancestry/INDEX.md#L66) (line 66)
 
 ### Hodson Burton's money buried on his farm; the record that broke, Buchanan
 `tw-mi-buchanan-burton-phonograph` · grade F · Berrien Co., MI
@@ -2980,7 +2982,7 @@ Notes:
 - [ancestry/list16.md](ancestry/list16.md#L38) (line 38)
 - [clippings/README.md](clippings/README.md#L3) (line 3)
 
-Also mentions the place: [newspapers-com/county-coverage-wi-mi-chronam.tsv](newspapers-com/county-coverage-wi-mi-chronam.tsv#L24) (line 24); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L71) (line 71); [newspapers-com/county-coverage.tsv](newspapers-com/county-coverage.tsv#L23) (line 23)
+Also mentions the place: [newspapers-com/county-coverage-wi-mi-chronam.tsv](newspapers-com/county-coverage-wi-mi-chronam.tsv#L24) (line 24); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L118) (line 118); [newspapers-com/county-coverage.tsv](newspapers-com/county-coverage.tsv#L23) (line 23)
 
 ### Rechenberg's jar of mildewed bills, Dodd Road farm (found 1924)
 `tw-mn-west-st-paul-rechenberg-jar-1924` · grade F · Dakota Co., MN
@@ -3087,6 +3089,8 @@ Also mentions the place: [newspapers-com/ia-il-second-source.md](newspapers-com/
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L275) (line 275)
 
 Notes:
+- [ancestry/list26.md](ancestry/list26.md#L38) (line 38)
+- [ancestry/INDEX.md](ancestry/INDEX.md#L67) (line 67)
 - `/mnt/project-files/research/treasure-statewide/leads-mi.tsv` line 48 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/persons.tsv` line 71 (shared folder only)
 
