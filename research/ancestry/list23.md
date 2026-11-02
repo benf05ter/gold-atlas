@@ -28,6 +28,14 @@ Copies used: Michigan 1941 (in.ernet.dli.2015.169551), Minnesota 1938 (in.ernet.
 - **Owners along the inlet ½-¾ mi above the lake** (sec 22 S half / sec 27 N): **"Jas. Norton 160"** (NW sec 27, the N shore of the NE lobe), **"Jno. Norton 80"** and **"H. Cooper 20"** (S sec 22, E of the creek), **"Spaulding"** and **"J. N. Becker"** (W of the creek, sec 22), **"Pat Norton 80"** (around the sec 22 lake); "E. Elkas 70" N at Oakfield Centre. On the lake's E: H. Parker 40, Jno. Norton 40, T. McCarty Est.; S: H. D. Pond 229.60, J. Davis.
 - **No Stocking tract on the 1876 plate.** The S bank of the inlet ½-¾ mi above the lake falls on the **Jno. Norton 80 / H. Cooper 20** strips (S part of sec 22) or the Jas. Norton 160 (sec 27). Not pinned beyond that (it needs the story's own landmark). The 1894 Kent plat was not read.
 
+## 15. Grand Haven Sanborns (LoC 1912 and 1920 title sheets, "Water Facilities")
+- **June 1912:** direct-pressure water works from 54 driven wells (built 1890). "**NOTE: $60,000 gravity system to be installed in summer of 1912. Plans call for reservoir at an elevation of 200 ft. above lake water level.**"
+- **July 1920:** "Gravity and direct pressure system … **Two concrete reservoirs, cap'y ½ million galls each, constructed in 1912, located 200 ft. above water works.**"
+- So the city's twin reservoirs were built in **1912** at about 200 ft above the lake, which can only be on the high dune: **Five Mile Hill** (or Dewey Hill). The key maps show no reservoir symbol on the sheets I read (they cover only built-up blocks). This dates the "tanks on the dune" to 1912, **12 years after Baty's 1900 summit shaft** and 10 years before the 1922 Ford sand sale. Exact siting: Ground check (the round concrete reservoirs should show on the 1938 ortho).
+
+## 13. Phillips farm, 1910 census (Matteson Twp, ED 17, sheet 3A; Roll T624_639)
+- **"Alzina Philips", 70, widow, head, owns the farm free of mortgage, "Own Income"**; the only other household member is **Andrew Hocich (16), hired man**. So after Canaris's 1909 death the widow kept the farm and ran it herself with a hired hand (no tenant family). The Kreggers (John, Martha, Pearl, Laddie) were nearby in 1910 (list22 #5); the farm likely passed to them after her death in Feb 1921.
+
 ## 6-8. Other state journals (HathiTrust full text, title-limited; the phrases "buried treasure / buried gold / hidden treasure / buried money / buried his money")
 - **6. Minnesota History (Bulletin) 1915-30:** 5 full-view volumes match, all noise (e.g. v.5 1923-24 p.240: the "Minnesota's Buried Treasure" headline about iron ore). *Collections of the MN Historical Society*: 0 full-view matches. (The earlier JSTOR snippet pass, list18 #9, was also negative.)
 - **7. Wisconsin Magazine of History v.8-14:** 0 full-view matches on HathiTrust. (The earlier JSTOR snippets gave only the Okauchee House 1949 item.)
@@ -41,6 +49,28 @@ Copies used: Michigan 1941 (in.ernet.dli.2015.169551), Minnesota 1938 (in.ernet.
 
 ## 9. Nicholas Bauer, WI 1905 state census (Ancestry 1055)
 - "Nicholas Bauer" gives only **Nicolaus Baer, b. about 1879, son of Adam and Margaretha, West Bend, Washington Co, 1905**. Not Hartford/Erin/Richfield, and the name differs. No 1895 WI or 1910 match. **Not placed** (the 1892 plats were already read in list19: no Bauer tract).
+
+## 16. GB Grand Rapids 1890-1930, "plowed up" gold coins: 1 hit
+- Grand Rapids Press, 26 Feb 1897, "Plowed Up a Fortune": a **Georgia** story (wire). Noise for Michigan; not pinned.
+
+## 17. GB Milwaukee 1880-1910, "buried his money": 5 hits
+- **Milwaukee Journal, 5 Jun 1897, p.4 (paragraphs column):** James Webster, a farmer near **Eldora, Ia.**, turned his property into cash in the 1893 panic, "$50,000", put it in casks and buried it on the farm; he lost his mind and cannot remember where. **Already in research** (newspapers-com/ia-il-second-source.md #1: the local Steamboat Rock Echo gives about $1,000+ pension money, so the wire inflated it). One more wire copy only.
+- **Milwaukee Journal, 26 Oct 1901, p.8, "Buried His Money and Somebody Else Found It":** Gustav Sidler of 1128 Wells St buried **$250** on 11 Oct **near the Koppmeier ice house on Humboldt Ave**; on 13 Oct it was gone, and he suspects a neighbour who followed him. **Taken within two days; not a treasure lead.** Not in research/ (logged for completeness only).
+- **Milwaukee Journal, 27 Aug 1907, p.10, "Hole Was Poor Bank":** Superior, WI. Henry Johnson buried **$1,500 in gold under a plank in his woodshed**; a week later only the hole was left; Sam and Lizzie Tepsen held for burglary. **Stolen; not a lead.** Not in research/.
+- Wisconsin Weekly Advocate, 8 Dec 1904, p.3: scattered words (noise). The fifth hit was the same Advocate-type noise.
+- **Net: nothing new to pin.**
+
+## 18. GB Minnesota 1900-25, Norwegian "nedgravet penge": 63 hits (words anywhere on the page; Minneapolis/St Paul Tidende and Fergus Falls Ugeblad). Read the top hits and all 4 Fergus Falls Ugeblad hits.
+- **SECOND SOURCE: Bader, Calhoun Co IA. Fergus Falls Ugeblad, Thu 29 Nov 1906, p.3:** some small boys on the late **Henry Bader's farm, 9 miles NW of Lake City, Iowa**, found a few days ago **$675 buried in the dirt floor of a woodshed** ("nedgravet i Jordgulvet i et Vedskur paa Farmen"). It was believed money was buried on the farm and people had searched everywhere without finding it; the boys found it by chance. "**It is believed that still more money is buried somewhere on the farm, and likewise that the dead man's will and other papers are buried.**" **Fills the gap** in newspapers-com/ia-il-second-source.md #2 ("NO second account found"): this is the second account. Amount $675; the place is a woodshed floor; more believed still buried (with the will). The farm still needs a plat (Calhoun 1896/1911, 9 mi NW of Lake City = Lanesboro / Union / Jackson Twp area).
+- **Second source: Hille, Milwaukee. Fergus Falls Ugeblad, Thu 14 Aug 1902, p.2, "Finder Skatte i Baggaarden"** (from Milwaukee, 7 Aug). **Already in research** (newspapers-com/pc-a-asks-results.md ~line 612-618: Mrs. M. S. Hille, 541 Third St, verdict grade F with a hoax caveat). **New colour only:** two reporters dug in her back yard while she and her son sat on the fence; under a flat stone they found a **wax-sealed preserve jar with about $40 in silver** (half-dollars, quarters, a few dollars) and a **paper "key" to the chart: a date table starting 1876**. Earlier in Aug she had found **11 bottles** (paper money, gold and silver); the first find was a $5 piece kicked up by a horse. She bought the lot a year before for **$10,000**; it had belonged to a **German doctor, Casper Schuerman, d. about 1899**; his widow later wanted the money. From the "chart" it was believed **at least $10,000** was buried. No change to the grade.
+- St Paul Tidende 1 Oct 1915 p.4 (WWI France, people burying porcelain): noise. Ugeblad 29 Dec 1909 p.4 (a sermon, "buried my talent"): noise. Ugeblad 9 May 1901 p.2 (a Chicago railroad magnate's island off Florida, Spanish pirate treasure dug up by night): out of area.
+- The other ~55 hits (mostly Minneapolis Tidende) were not opened; the word pair matches anywhere on the page, so precision is low.
+
+## 10. Calhoun 1894 plat, Emmett Twp (Atlas Publishing Co., Fort Wayne 1894; Emmett T2S R7W, viewer p.11, image 31617_072119-00369)
+- **No Burton and no McArdill name in sec 27 in 1894.** The **Cincinnati, Jackson & Mackinaw RR** runs E-W just S of the sec 27 E-W centre line.
+- **W half of sec 27:** NW part **"E. Sanford 80"**, then **"J. G. Ulrich 78"** just N of the railroad (the W quarter-corner side), **"H. C. Webster 39"** at the W line; S of the railroad an **unlabelled "79a"** strip at the W edge, then **"Chas Byre 80"** and **"H. Hutchinson 158"** (S/SE).
+- E side: Belle Casson 70 (NE sec 27), A. S. Tuttle Est. 140 (sec 26). W across the line in sec 28: D. Sloan 79, "Imogene …" 78, C. Moore. **Newbre** still holds land in E sec 34/35 (the "Wm. Newbre" 230 in sec 34; "Newbre" strips in secs 34-35), consistent with the 1873 directory.
+- So by 1894 the old Burton 160 at the W quarter corner of sec 27 was split among **Sanford / Ulrich / Webster** (N of the RR) and the unnamed 79 (S of it). This does not move the McArdill pin (42.2672,-85.1201 C+); it adds 1894 owners for a Ground check (the dry well should be on the Ulrich 78 / unnamed 79 ground near the W quarter corner, by the railroad).
 
 ## 11. Onnen plats
 - Ancestry 1127 has Woodford 1873 and 1912 only (no 1893). The 1912 Minonk and Olio Twp plates were already read (list19 #6): **no Onnen**. So he held a town lot in Minonk city; no farm to place.

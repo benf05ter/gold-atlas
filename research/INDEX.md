@@ -193,9 +193,9 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L362) (line 362)
 Notes:
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L779) (line 779)
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L128) (line 128)
-- [newspapers-com/ia-il-sweep.md](newspapers-com/ia-il-sweep.md#L42) (line 42)
+- [newspapers-com/ia-il-sweep.md](newspapers-com/ia-il-sweep.md#L35) (line 35)
 - [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L22) (line 22)
-- [ancestry/list12-dates.md](ancestry/list12-dates.md#L35) (line 35)
+- [ancestry/list12-dates.md](ancestry/list12-dates.md#L32) (line 32)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L52) (line 52)
 - [plats/hession-humboldt.md](plats/hession-humboldt.md#L1) (line 1)
 
@@ -638,7 +638,7 @@ Also mentions the place: [ancestry/INDEX.md](ancestry/INDEX.md#L20) (line 20)
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L299) (line 299)
 
 
-Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L791) (line 791); [newspapers-com/ia-il-second-source.md](newspapers-com/ia-il-second-source.md#L13) (line 13); [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L441) (line 441); [ancestry/list10-probate-census.md](ancestry/list10-probate-census.md#L7) (line 7); [ancestry/INDEX.md](ancestry/INDEX.md#L21) (line 21); [ancestry/iowa-batch-ogle-iwers-webster.md](ancestry/iowa-batch-ogle-iwers-webster.md#L41) (line 41)
+Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L791) (line 791); [newspapers-com/ia-il-second-source.md](newspapers-com/ia-il-second-source.md#L13) (line 13); [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L441) (line 441); [ancestry/list10-probate-census.md](ancestry/list10-probate-census.md#L7) (line 7); [ancestry/INDEX.md](ancestry/INDEX.md#L21) (line 21); [ancestry/iowa-batch-ogle-iwers-webster.md](ancestry/iowa-batch-ogle-iwers-webster.md#L41) (line 41); [ancestry/list23.md](ancestry/list23.md#L64) (line 64)
 
 ### Henry Onnen's henhouse jars and missing coin collection, Minonk
 `tw-il-eureka-onnen-henhouse` · grade C · Woodford Co., IL
@@ -652,7 +652,7 @@ Notes:
 - [ancestry/illinois-names-batch.md](ancestry/illinois-names-batch.md#L7) (line 7)
 - [ancestry/list19.md](ancestry/list19.md#L44) (line 44)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L29) (line 29)
-- [ancestry/list23.md](ancestry/list23.md#L46) (line 46)
+- [ancestry/list23.md](ancestry/list23.md#L76) (line 76)
 
 ### Herman Lunning's hidden money, recluse's cabin in the hills north of Galena
 `tw-ia-dubuque-lunning-farm-1916` · grade C · Jo Daviess Co., IL
@@ -679,9 +679,9 @@ Also mentions the place: [ancestry/list12-dates.md](ancestry/list12-dates.md#L18
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L231) (line 231)
 
 Notes:
-- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L187) (line 187)
+- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L28) (line 28)
 - [newspapers-com/placement-gaps-list.md](newspapers-com/placement-gaps-list.md#L39) (line 39)
-- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L106) (line 106)
+- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L20) (line 20)
 - [newspapers-com/ia-il-second-source.md](newspapers-com/ia-il-second-source.md#L123) (line 123)
 - [genealogybank/gb-list1.md](genealogybank/gb-list1.md#L31) (line 31)
 - [ancestry/list12-dates.md](ancestry/list12-dates.md#L6) (line 6)
@@ -729,6 +729,7 @@ Notes:
 - [ancestry/list11-probate-census.md](ancestry/list11-probate-census.md#L24) (line 24)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L50) (line 50)
 - [ancestry/iowa-batch-ogle-iwers-webster.md](ancestry/iowa-batch-ogle-iwers-webster.md#L1) (line 1)
+- [ancestry/list23.md](ancestry/list23.md#L57) (line 57)
 
 ### Joseph Brown's gold buried about his home, Fraser
 `tw-ia-fraser-joseph-brown-1911` · grade C · Boone Co., IA
@@ -1562,7 +1563,7 @@ Notes:
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L834) (line 834)
 - [books/laird-1927-iowa-legends.md](books/laird-1927-iowa-legends.md#L11) (line 11)
 
-Also mentions the place: [treasure-statewide/held-leads.md](treasure-statewide/held-leads.md#L26) (line 26); [ia-il/README.md](ia-il/README.md#L56) (line 56); [jstor/jstor-list1.md](jstor/jstor-list1.md#L18) (line 18); [ancestry/list12-dates.md](ancestry/list12-dates.md#L32) (line 32); [ancestry/list18.md](ancestry/list18.md#L17) (line 17); `/mnt/project-files/research/treasure-statewide/held-leads.md` line 26 (shared folder only)
+Also mentions the place: [treasure-statewide/held-leads.md](treasure-statewide/held-leads.md#L26) (line 26); [ia-il/README.md](ia-il/README.md#L56) (line 56); [jstor/jstor-list1.md](jstor/jstor-list1.md#L18) (line 18); [ancestry/list12-dates.md](ancestry/list12-dates.md#L32) (line 32); [ancestry/list18.md](ancestry/list18.md#L17) (line 17); [ancestry/list23.md](ancestry/list23.md#L59) (line 59); `/mnt/project-files/research/treasure-statewide/held-leads.md` line 26 (shared folder only)
 
 ### Joseph Bertrand's bushel of gold and silver, deserted village of Bertrand
 `tw-mi-bertrand-bushel` · grade D · Berrien Co., MI
@@ -1639,7 +1640,7 @@ Notes:
 - [ancestry/list21.md](ancestry/list21.md#L13) (line 13)
 - [ancestry/list19.md](ancestry/list19.md#L33) (line 33)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L62) (line 62)
-- [ancestry/list23.md](ancestry/list23.md#L42) (line 42)
+- [ancestry/list23.md](ancestry/list23.md#L50) (line 50)
 - [plats/INDEX.md](plats/INDEX.md#L46) (line 46)
 - [plats/schauer-hartford.md](plats/schauer-hartford.md#L7) (line 7)
 - `/mnt/project-files/research/treasure-statewide/leads-wi.tsv` line 30 (shared folder only)
@@ -1665,11 +1666,11 @@ Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L223) (line 223)
 
 Notes:
-- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L408) (line 408)
+- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L633) (line 633)
 - [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L267) (line 267)
-- [ancestry/gregg-dover-racine.md](ancestry/gregg-dover-racine.md#L1) (line 1)
+- [ancestry/gregg-dover-racine.md](ancestry/gregg-dover-racine.md#L3) (line 3)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L44) (line 44)
-- [sunday/sunday-list-2026-11-02.md](sunday/sunday-list-2026-11-02.md#L21) (line 21)
+- [sunday/sunday-list-2026-11-02.md](sunday/sunday-list-2026-11-02.md#L33) (line 33)
 - `/mnt/project-files/research/treasure-statewide/leads-wi.tsv` line 26 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md` line 23 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/persons.tsv` line 163 (shared folder only)
@@ -2722,7 +2723,7 @@ Notes:
 - `/mnt/project-files/research/treasure-statewide/leads-wi.tsv` line 24 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/persons.tsv` line 160 (shared folder only)
 
-Also mentions the place: [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L168) (line 168); [ancestry/INDEX.md](ancestry/INDEX.md#L25) (line 25); [plats/hille-milwaukee.md](plats/hille-milwaukee.md#L1) (line 1); [plats/INDEX.md](plats/INDEX.md#L49) (line 49); `/mnt/project-files/research/court-records/pin-records-check.tsv` line 44 (shared folder only)
+Also mentions the place: [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L168) (line 168); [ancestry/INDEX.md](ancestry/INDEX.md#L25) (line 25); [ancestry/list23.md](ancestry/list23.md#L65) (line 65); [plats/hille-milwaukee.md](plats/hille-milwaukee.md#L1) (line 1); [plats/INDEX.md](plats/INDEX.md#L49) (line 49); `/mnt/project-files/research/court-records/pin-records-check.tsv` line 44 (shared folder only)
 
 ### Erick Davidson's gold in an old shed, Branstad homestead a mile east of Leland
 `tw-ia-leland-branstad-shed-1922` · grade F · Winnebago Co., IA
@@ -3082,7 +3083,7 @@ Notes:
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L92) (line 92)
 - [ancestry/list10-probate-census.md](ancestry/list10-probate-census.md#L9) (line 9)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L21) (line 21)
-- [ancestry/iowa-batch-ogle-iwers-webster.md](ancestry/iowa-batch-ogle-iwers-webster.md#L37) (line 37)
+- [ancestry/iowa-batch-ogle-iwers-webster.md](ancestry/iowa-batch-ogle-iwers-webster.md#L15) (line 15)
 - [plats/placement-gaps-pass-b.md](plats/placement-gaps-pass-b.md#L11) (line 11)
 - `/mnt/project-files/research/treasure-statewide/deep-dives/iail-dickson-iwers-harmon.md` line 11 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/deep-dives/pc-job-2.md` line 11 (shared folder only)
