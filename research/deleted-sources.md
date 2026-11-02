@@ -17,3 +17,14 @@ Kept: old/README.md (map of what was where), old/fieldnotes (26 MB, not document
 | 2026-11-02 04:15 | /mnt/project-files/Treasure_Hunting_-_June_2024_freemagazinespdf_com.pdf | 38221232 B | mined; notes in gold-atlas research/books/treasure-hunting-mag-2023-24.md (commit f3ffdb24); no Midwest content | Neb rule 04:06Z |
 | 2026-11-02 04:15 | /mnt/project-files/Treasure_Hunting_-_December_2024.pdf | 37272252 B | mined; notes in gold-atlas research/books/treasure-hunting-mag-2023-24.md (commit f3ffdb24); no Midwest content | Neb rule 04:06Z |
 | 2026-11-02 04:52 | /mnt/project-files/research-zip-z.zip | 197,271 B | 29 research notes (md5 25094cd6…) committed verbatim to gold-atlas main research/ (commit 8a37da39) | Neb rule 04:06Z |
+
+## Batch 2 (tiled plat scans; tiles verified in gold-atlas-maps ot/ before each delete)
+| 2026-11-02 05:12 | research/plat-barron/scans (76 files) | ~97 MB | tiles ot/p-barron-1888 (328 files) | Neb 04:07Z |
+| 2026-11-02 05:12 | research/plat-chippewa/scans (74) + scans-1913 (58) | ~191 MB | tiles ot/p-chippewa-1888 (662), ot/p13 (358) | Neb 04:07Z |
+| 2026-11-02 05:12 | research/plat-dunn/scans (42) | ~55 MB | tiles ot/p-dunn (316) | Neb 04:07Z |
+| 2026-11-02 05:12 | research/plat-sawyer/scans (97) | ~148 MB | tiles ot/p-sawyer-1897 (491) | Neb 04:07Z |
+| 2026-11-02 05:12 | research/plat-trempealeau/scans (63) | ~132 MB | tiles ot/p-trempealeau-1901 (283) | Neb 04:07Z |
+| 2026-11-02 05:12 | research/plat-washburn/scans (70) | ~140 MB | tiles ot/p-washburn-1915 (316) | Neb 04:07Z |
+| 2026-11-02 05:12 | research/plat-mn-mi/menominee-1912 (38 files) | ~102 MB | tiles ot/p-menominee12 (287) | Neb 04:07Z |
+| 2026-11-02 05:12 | research/plat-ia-il/out/plat_*.webp (27) | ~140 MB | 27 layers in ot/p-* (benton-1872 … knox-1948); pins-*.json kept | Neb 04:07Z |
+Kept: untiled scans (plat-barron/scans-c1918, plat-dunn/scans-1915, plat-mn-mi chisago-1888, delta-1913, goodhue-1894, wabasha-1896, winona-1867), all cfg/scripts/work/src, plat-ia-il/out/pins-*.json and enrich-*.json, aerials-1938 (711 pins still to redo).

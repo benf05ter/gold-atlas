@@ -27,3 +27,7 @@ Seven D pins sent to Ground check (#162): Boone River mound 1849; Livermore John
 HELD, no pin: GRUVER GOLD (Emmet Co; horse-thief island hideout, lake unnamed; candidates Ingham, High, Swan, Twelvemile; PC (a) LIST 14 item 18). GREEN ISLAND $28,000 found in rotten tree (hearsay only; LIST 14 item 22 — a found report would make it F).
 Period-record hunt = PC (a) LIST 14 (32 items, sent 03:43Z).
 LIST 14 status 03:56Z: items 1-5,7 noise/out-of-area; Humboldt Republican 1931-37 pioneer features unread; item 8 next. Marble gold: Lake Park News 1921-01-27 p2 filler only.
+
+## TreasureNet list 1 (research/forums/treasurenet-list1.md, repo branch kq6phl) — ruled 04:20Z Nov 2
+D pin candidates pending place/record: Dexfield Park Dexter IA (Barrow 1933; $65k claim doubtful; need park coords); Grand Haven 1933 Nelson gang bonds in two jars (Bentz FBI statement; need place); Lodi WI Underhill murder 1853 (need period record; 43.3139,-89.5265); BRF 1911 flood bank safe (need 1911 paper).
+Held no pin: Clinton River Front Park gold; Vickeryville-Butternut hill MI (blog); Roscommon Purple Gang house (history); St Cloud stage gold; Eau Claire mound (graves). Davenport 1845 Bonney caches out of region. Negatives: Guthrie 1965, Shauger.
