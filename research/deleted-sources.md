@@ -35,3 +35,4 @@ Kept: untiled scans (plat-barron/scans-c1918, plat-dunn/scans-1915, plat-mn-mi c
 | 2026-11-02 05:16 | /mnt/project-files/Treasure_Hunting_-_September_2024.pdf | 38430385 B | mined; notes in gold-atlas research/books/treasure-hunting-mag-2023-24.md (commit 36b5c22f); no Midwest content | Neb rule 04:06Z |
 | 2026-11-02 05:31 | /mnt/project-files/research-zip-aa.zip | 106,551 B | 6 research notes (md5 851de060…) committed verbatim to gold-atlas main research/ (commit 6a0e4c89) | Neb rule 04:06Z |
 | 2026-11-02 05:56 | /mnt/project-files/research-zip-ab.zip | 178,976 B | 7 research notes (md5 a3bc8479…) committed verbatim to gold-atlas main research/ (commit ae2b332d) | Neb rule 04:06Z |
+| 2026-11-02 06:13 | /mnt/project-files/research-zip-ac.zip | 178,330 B | 6 research notes (md5 f15502e2…) committed verbatim to gold-atlas main research/ (commit ead3d4b4) | Neb rule 04:06Z |
