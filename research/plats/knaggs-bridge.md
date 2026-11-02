@@ -56,6 +56,13 @@ Source: *County Atlas of Shiawassee Co.* (1875), Burns T5N R4E, printed p.95 = a
 - **No "Knaggs" name, mill or post symbol** at this scale beyond "Burns P.O.".
 - **Net:** this supports Burns P.O. = the Knaggs Bridge locale. Nothing finer.
 
+## 1895 Illustrated Atlas, Burns Twp plate (PC b, 2026-11-02)
+Source: *Illustrated Atlas of Shiawassee County* (1895), "Map of Burns", Township 5 North, Range 4 East, printed p.35 = archive.org page n38. Read by eye in the browser.
+- **"BURNS"** village is still at the river crossing in **sec 6**, with a church and a cemetery ("CEM.") just NE.
+- **Sec 6 owners:** M. Hanson 77½a, N. G. Phillips Est. 75a, Wm. Reeves[?] 80a, H. J. Gulick, E. D. Byam, T. H. Reeves 79½a, C. Cole 48a, J. Gardner and a 41¼a parcel; the school is Fr. Dist. No. 1.
+- **Sec 5:** A. G. Warren 120a, J. E. Miller 119½a, A. Baker, Gulick strips, Wm. Parsons 80a. **Sec 7:** J. A. Wilcox, B. J. Cheney, G. Leland, H. H. Lanckton.
+- **No "Knaggs" on the 1895 plate either.** The 1875 Gaylord / Van Ben Schoten E-bank tracts have passed to new owners (the Cole and Reeves names are near the crossing). The pins are unchanged.
+
 ## Newspaper corroboration (newspapers.com, 2026-11-01)
 - **Owosso Times 1892-02-12 p1**, Bancroft column: "Mrs. Chas. DRUMM, of KNAGGS' BRIDGE, died on Sunday... an old pioneer of this county". https://www.newspapers.com/image/174207471/
   - The 1875 Burns plate shows **C. Drumm 44 a in sec 6**, at the crossing. So "Knaggs' Bridge" = the sec 6 Burns P.O. crossing.
