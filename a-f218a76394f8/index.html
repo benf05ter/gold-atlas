@@ -7510,4 +7510,22 @@ body.drv .ogattr{display:none}
     s.querySelectorAll('[fill="var(--walk)"]').forEach(e=>e.setAttribute('fill','#fff'));
     b.prepend(pic); pic.appendChild(s); } }
 </script>
+<style id="POLISH2">
+/* long lists (Best ground has ~1,100 rows open): rows off screen skip layout and paint until scrolled to. Best ground tab: layout 880 -> 124 ms at phone speed */
+button.item{content-visibility:auto;contain-intrinsic-size:auto 76px}
+/* search results: tier letter and tagline like the other lists */
+.uxr .tierb{margin-right:5px}
+.uxr .tgrow{font-size:12.5px}
+</style>
+<script>
+/* POLISH2 */
+// search results get the S-F tier letter (tier colour) and the pin's tagline, like every other list
+{ const r=document.getElementById('uxr');
+  if(r) new MutationObserver(()=>{ try{ for(const b of r.querySelectorAll('button[data-i]:not([data-pt])')){ b.setAttribute('data-pt','1'); const x=uxRes[+b.dataset.i]; if(!x||x.k!=='spot') continue; const p=x.p, t=b.querySelector('b'); if(!t) continue;
+      if(typeof TIER==='object'&&TIER.chip&&p.L!=='inf'&&!t.querySelector('.tierb')) t.insertAdjacentHTML('afterbegin',TIER.chip(p));
+      const h=window.OGTG&&OGTG.html(p,'m tgrow'); if(h) t.insertAdjacentHTML('afterend','<br>'+h); } }catch(e){ OGE.err&&OGE.err('search tiers',e); } }).observe(r,{childList:true}); }
+// warm up the "sources that agree" index a few seconds after start, so the first spot card opens faster (~200 ms at phone speed)
+setTimeout(()=>{ const go=()=>{ try{ if(window.VFA&&PTS.length) VFA.agree(PTS.find(p=>p.L==='history')||PTS[0]); }catch(_){} };
+  if('requestIdleCallback' in window) requestIdleCallback(go,{timeout:4000}); else go(); },6000);
+</script>
 </body></html>
