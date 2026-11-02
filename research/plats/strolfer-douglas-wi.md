@@ -8,4 +8,5 @@
 
 ## WHS maps
 - **"Sectional map of Douglas County, Wis., 1892"** (WHS record W014AZN, opened from IM97796 / IM41782 links): a county-scale **land-status** map. Railroad lands are in red checkerboard, plus town names (Superior, Nebagamain, Gordon, etc.). The viewer's zoom does not give a readable high-res view in this browser, and at this scale **no owner names are printed**, so a "Strolfer" 40 cannot be read from it. Not downloaded.
+- **Ancestry U.S. City Directories (2469):** surname searches for Strolfer, Stroelfer and Strolfe return only fuzzy matches (Stroller, Stroeler, Strelfer; none in Superior). **No Strolfer in the indexed directories.** The Superior 1891-98 directories may exist unindexed in browse form; not paged through.
 - **Not placed.** Next options: a Superior/Douglas County plat book of about 1890-1910 (e.g. the 1914 Douglas Co atlas is not in Ancestry 1127), or Superior city directories (Ancestry 2469) for the Strolfer residence.

@@ -65,6 +65,15 @@ Viewed only on Neb's PC; normal pace.
   - Rice Lake Twp plate = viewer p.26; its directory (p.25) has **no Va-/Ve- names between Ursinus and Velton/Vine/Vosberg**.
   - Doyle directory (p.27): no Vejvoda (Tverberg, Vick, Walrac).
   - A heavily Czech township directory at p.13 (Haugen P.O.: Valenta, Vech, Vinopal, Volak; Rice Lake P.O.: Vojta, Simko, Stepanek): no Vejvoda.
-  - Not yet checked: Stanfold, Bear Lake, Sioux Creek and the other NE directories (the viewer's zoom stuck, so the titles were unreadable).
+  - Stanfold directory (p.23): no Vejvoda (Rice Lake P.O. V names are only Verhyen).
+  - **FOUND.** The **1920 census** (Ancestry 6061) has **John Vejvoda, b. about 1858 Bohemia, wife Louisa, Bear Lake Twp, Barron Co.**
+  - **Bear Lake Twp plate, viewer p.12 (image 31617_072126-00340):** **"J. Vejvoda"** holds a long E-W strip across the **S part of sec 23** (N of the creek; neighbours: Frank Pavel and Joe Brunsek in sec 24, K. Smetana(?), a Tabor tract in W sec 23, I. Selly in sec 26). He is not in the Bear Lake farmers' directory (p.11: Haugen P.O. sections run Urbanick to Wruter with no V), likely because he was a non-resident owner or was missed.
+  - Township: the plate's big lake in secs 1-2/11-12 is Bear Lake, which fits **T36N R10W** (the T/R heading was not read directly). BLM (WI46 T36N R10W): sec 23 spans 45.5807-45.5952 N, 91.5812-91.5603 W.
+  - **Pin: 45.583, -91.571, r450, grade B-** (S part sec 23). That is NE of Rice Lake (about 11 mi), which fits the card.
+- **HORRIGAN, census (Ancestry):**
+  - **1900:** John Horrigan (b. Dec 1826, Ireland) and Mary (b. 1830, Ireland), with children Julia (1860) and Steven J. (1874), in **Clayton Twp, Crawford Co**. **Cornelius ("Cornel") Horrigan**, b. May 1868, is head of his own Clayton household.
+  - **1910:** William and Jane Horrigan (daughters Nellie, Tessie, Lena) in **Akan Twp, Richland Co**, a second candidate across the Wisconsin River, NE of Boscobel.
+  - (Also a Cosmos/Cosmas Horrigan, b. 1852, at Hazel Green, Grant Co, 1900; too far from Boscobel.)
+  - The **Clayton Twp plate is viewer p.15 (image 31617_072127-00103)**, T10N R3-4W, with Soldiers Grove and North Clayton. The S half read so far (secs 25-36 and the lower tier: Knutson, Olson, Ward, Peterson, Leary, Briggs, Sheridan, Gander, Bert Shuram, J. C. Harrison, etc.) shows **no Horrigan**. The N half is not yet read; the print is dense and dark.
 - **HORRIGAN, Crawford 1914 (partial):** the outline map (viewer p.3) shows **Clayton Twp, T10N R3-4W**, with Soldiers Grove, North Clayton and Gays Mills. The "Farmers' Directory of Clayton Township, cont'd" is viewer **p.14**; its **Soldiers Grove P.O.** H section runs Hill, Hoffland, Halloran, Hooverson, Hounsell, Howe with **no Horrigan**. The first directory page (p.13) has another P.O. section with H names (Hall, Haskin, Hays) and also **no Horrigan**. The remaining P.O. sections (Gays Mills, Readstown, etc.) are not yet read; the Clayton plate itself is not yet found among viewer pp.15-21.
 - Other list 12 plates ( Humboldt 1896, Winnebago 1913, Brown MN 1905, Redwood 1915, Rice 1915, Barron 1914, Crawford 1914): not done.

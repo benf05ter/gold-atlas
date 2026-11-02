@@ -107,7 +107,7 @@ tw-horrigan-boscobel-1930	B	Horrigan brothers' farm money, Horrigan Ridge near M
 tw-horrigan-boscobel-1930	B	Horrigan brothers' farm money, Horrigan Ridge near Mt. Zion	Crawford	WI		research/newspapers-com/ia-il-second-source.md	184	co:horrigan
 tw-horrigan-boscobel-1930	B	Horrigan brothers' farm money, Horrigan Ridge near Mt. Zion	Crawford	WI		research/newspapers-com/treasure-list-t13-t21.md	440	co:horrigan
 tw-horrigan-boscobel-1930	B	Horrigan brothers' farm money, Horrigan Ridge near Mt. Zion	Crawford	WI		research/newspapers-com/county-coverage.tsv	59	co:horrigan
-tw-horrigan-boscobel-1930	B	Horrigan brothers' farm money, Horrigan Ridge near Mt. Zion	Crawford	WI		research/ancestry/list12-dates.md	69	co:horrigan
+tw-horrigan-boscobel-1930	B	Horrigan brothers' farm money, Horrigan Ridge near Mt. Zion	Crawford	WI		research/ancestry/list12-dates.md	75	two:boscobel
 tw-horrigan-boscobel-1930	B	Horrigan brothers' farm money, Horrigan Ridge near Mt. Zion	Crawford	WI		research/ancestry/list10-probate-census.md	17	co:horrigan
 tw-horrigan-boscobel-1930	B	Horrigan brothers' farm money, Horrigan Ridge near Mt. Zion	Crawford	WI		research/plats/placement-gaps-pass.md	34	two:zion
 tw-horrigan-boscobel-1930	B	Horrigan brothers' farm money, Horrigan Ridge near Mt. Zion	Crawford	WI		research/plats/horrigan-crawford.md	41	two:zion
@@ -380,12 +380,14 @@ tw-ia-north-mcgregor-taylor-gold	C	Fort Crawford soldiers' buried gold, McGregor
 tw-ia-north-mcgregor-taylor-gold	C	Fort Crawford soldiers' buried gold, McGregor Heights and the bluffs at McGregor	Clayton	IA		research/newspapers-com/ia-il-second-source.md	193	co:crawford
 tw-ia-north-mcgregor-taylor-gold	C	Fort Crawford soldiers' buried gold, McGregor Heights and the bluffs at McGregor	Clayton	IA		research/newspapers-com/treasure-list-t13-t21.md	443	two:heights
 tw-ia-north-mcgregor-taylor-gold	C	Fort Crawford soldiers' buried gold, McGregor Heights and the bluffs at McGregor	Clayton	IA		research/newspapers-com/county-coverage.tsv	22	two:taylor
+tw-ia-north-mcgregor-taylor-gold	C	Fort Crawford soldiers' buried gold, McGregor Heights and the bluffs at McGregor	Clayton	IA		research/newspapers/ca-mcgregor-1905.md	1	file:mcgregor
 tw-ia-north-mcgregor-taylor-gold	C	Fort Crawford soldiers' buried gold, McGregor Heights and the bluffs at McGregor	Clayton	IA		research/jstor/jstor-list1.md	14	two:mcgregor
-tw-ia-north-mcgregor-taylor-gold	C	Fort Crawford soldiers' buried gold, McGregor Heights and the bluffs at McGregor	Clayton	IA		research/ancestry/list12-dates.md	69	co:crawford
+tw-ia-north-mcgregor-taylor-gold	C	Fort Crawford soldiers' buried gold, McGregor Heights and the bluffs at McGregor	Clayton	IA		research/ancestry/list12-dates.md	74	co:crawford
 tw-ia-north-mcgregor-taylor-gold	C	Fort Crawford soldiers' buried gold, McGregor Heights and the bluffs at McGregor	Clayton	IA		research/plats/horrigan-crawford.md	1	file:crawford
 tw-ia-north-mcgregor-taylor-gold	C	Fort Crawford soldiers' buried gold, McGregor Heights and the bluffs at McGregor	Clayton	IA		research/plats/INDEX.md	54	two:mcgregor
 tw-ia-north-mcgregor-taylor-gold	C	Fort Crawford soldiers' buried gold, McGregor Heights and the bluffs at McGregor	Clayton	IA		research/plats/meyer-mcgregor.md	1	file:mcgregor
 tw-ia-north-mcgregor-taylor-gold	C	Fort Crawford soldiers' buried gold, McGregor Heights and the bluffs at McGregor	Clayton	IA		research/aerials/horrigan-crawford-1938.md	1	file:crawford
+tw-ia-north-mcgregor-taylor-gold	C	Fort Crawford soldiers' buried gold, McGregor Heights and the bluffs at McGregor	Clayton	IA		research/books/laird-followups.tsv	8	two:mcgregor
 tw-ia-north-mcgregor-taylor-gold	C	Fort Crawford soldiers' buried gold, McGregor Heights and the bluffs at McGregor	Clayton	IA		research/books/laird-1927-iowa-legends.md	54	two:mcgregor
 tw-ia-north-mcgregor-taylor-gold	C	Fort Crawford soldiers' buried gold, McGregor Heights and the bluffs at McGregor	Clayton	IA		project-files/research/court-records/pin-records-check.tsv	3	co:crawford
 tw-ia-north-mcgregor-taylor-gold	C	Fort Crawford soldiers' buried gold, McGregor Heights and the bluffs at McGregor	Clayton	IA		project-files/research/treasure-statewide/pc-a-asks-batch3-2026-11-01.md	28	two:taylor
@@ -416,26 +418,26 @@ tw-il-eureka-onnen-henhouse	C	Henry Onnen's henhouse jars and missing coin colle
 tw-il-eureka-onnen-henhouse	C	Henry Onnen's henhouse jars and missing coin collection, Minonk	Woodford	IL		research/ancestry/illinois-names-batch.md	7	two:minonk
 tw-il-eureka-onnen-henhouse	C	Henry Onnen's henhouse jars and missing coin collection, Minonk	Woodford	IL		research/ancestry/INDEX.md	29	two:minonk
 tw-ia-dubuque-lunning-farm-1916	C	Herman Lunning's hidden money, recluse's cabin in the hills north of Galena	Jo Daviess	IL		research/newspapers-com/pc-a-asks-results.md	790	two:lunning
-tw-ia-dubuque-lunning-farm-1916	C	Herman Lunning's hidden money, recluse's cabin in the hills north of Galena	Jo Daviess	IL		research/newspapers-com/ia-il-sweep.md	178	two:galena
-tw-ia-dubuque-lunning-farm-1916	C	Herman Lunning's hidden money, recluse's cabin in the hills north of Galena	Jo Daviess	IL		research/newspapers-com/ia-il-second-source.md	78	two:galena
-tw-ia-dubuque-lunning-farm-1916	C	Herman Lunning's hidden money, recluse's cabin in the hills north of Galena	Jo Daviess	IL		research/newspapers-com/treasure-list-t13-t21.md	115	two:galena
+tw-ia-dubuque-lunning-farm-1916	C	Herman Lunning's hidden money, recluse's cabin in the hills north of Galena	Jo Daviess	IL		research/newspapers-com/ia-il-sweep.md	178	two:lunning
+tw-ia-dubuque-lunning-farm-1916	C	Herman Lunning's hidden money, recluse's cabin in the hills north of Galena	Jo Daviess	IL		research/newspapers-com/ia-il-second-source.md	70	two:lunning
+tw-ia-dubuque-lunning-farm-1916	C	Herman Lunning's hidden money, recluse's cabin in the hills north of Galena	Jo Daviess	IL		research/newspapers-com/treasure-list-t13-t21.md	19	two:lunning
 tw-ia-dubuque-lunning-farm-1916	C	Herman Lunning's hidden money, recluse's cabin in the hills north of Galena	Jo Daviess	IL		research/ia-il/README.md	21	two:galena
-tw-ia-dubuque-lunning-farm-1916	C	Herman Lunning's hidden money, recluse's cabin in the hills north of Galena	Jo Daviess	IL		research/ia-il/iowa-town-leads-plats.md	89	two:galena
-tw-ia-dubuque-lunning-farm-1916	C	Herman Lunning's hidden money, recluse's cabin in the hills north of Galena	Jo Daviess	IL		research/ia-il/INDEX.md	12	two:galena
+tw-ia-dubuque-lunning-farm-1916	C	Herman Lunning's hidden money, recluse's cabin in the hills north of Galena	Jo Daviess	IL		research/ia-il/iowa-town-leads-plats.md	88	two:lunning
+tw-ia-dubuque-lunning-farm-1916	C	Herman Lunning's hidden money, recluse's cabin in the hills north of Galena	Jo Daviess	IL		research/ia-il/INDEX.md	12	two:lunning
 tw-ia-dubuque-lunning-farm-1916	C	Herman Lunning's hidden money, recluse's cabin in the hills north of Galena	Jo Daviess	IL		research/ancestry/list12-dates.md	18	co:galena
-tw-ia-dubuque-lunning-farm-1916	C	Herman Lunning's hidden money, recluse's cabin in the hills north of Galena	Jo Daviess	IL		research/ancestry/list10-probate-census.md	8	two:galena
-tw-ia-dubuque-lunning-farm-1916	C	Herman Lunning's hidden money, recluse's cabin in the hills north of Galena	Jo Daviess	IL		research/plats/lunning-jodaviess.md	1	two:galena
+tw-ia-dubuque-lunning-farm-1916	C	Herman Lunning's hidden money, recluse's cabin in the hills north of Galena	Jo Daviess	IL		research/ancestry/list10-probate-census.md	8	two:lunning
+tw-ia-dubuque-lunning-farm-1916	C	Herman Lunning's hidden money, recluse's cabin in the hills north of Galena	Jo Daviess	IL		research/plats/lunning-jodaviess.md	1	file:lunning
 tw-ia-dubuque-lunning-farm-1916	C	Herman Lunning's hidden money, recluse's cabin in the hills north of Galena	Jo Daviess	IL		research/books/laird-followups.tsv	5	co:galena
-tw-mn-turtle-lake-marcell-brunette	C	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/newspapers-com/pc-a-asks-results.md	28	two:marcell
+tw-mn-turtle-lake-marcell-brunette	C	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/newspapers-com/pc-a-asks-results.md	187	two:hugh
 tw-mn-turtle-lake-marcell-brunette	C	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/newspapers-com/placement-gaps-list.md	39	two:marcell
-tw-mn-turtle-lake-marcell-brunette	C	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/newspapers-com/leads.tsv	20	two:marcell
+tw-mn-turtle-lake-marcell-brunette	C	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/newspapers-com/leads.tsv	106	two:hugh
 tw-mn-turtle-lake-marcell-brunette	C	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/newspapers-com/ia-il-second-source.md	123	two:marcell
 tw-mn-turtle-lake-marcell-brunette	C	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/genealogybank/gb-list1.md	31	two:hugh
 tw-mn-turtle-lake-marcell-brunette	C	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/ancestry/list12-dates.md	6	two:hugh
 tw-mn-turtle-lake-marcell-brunette	C	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/ancestry/list10-probate-census.md	20	two:hugh
 tw-mn-turtle-lake-marcell-brunette	C	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/plats/placement-gaps-pass.md	59	two:marcell
-tw-mn-turtle-lake-marcell-brunette	C	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/plats/INDEX.md	66	two:marcell
-tw-mn-turtle-lake-marcell-brunette	C	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/plats/brunette-turtle-lake.md	1	two:marcell
+tw-mn-turtle-lake-marcell-brunette	C	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/plats/INDEX.md	66	two:hugh
+tw-mn-turtle-lake-marcell-brunette	C	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/plats/brunette-turtle-lake.md	1	two:hugh
 tw-mn-turtle-lake-marcell-brunette	C	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		project-files/research/treasure-statewide/leads-mn.tsv	9	id
 tw-mn-turtle-lake-marcell-brunette	C	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md	27	two:marcell
 tw-mn-turtle-lake-marcell-brunette	C	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		project-files/research/treasure-statewide/pc-b-plat-queue-2026-11-01.md	16	two:marcell
@@ -708,6 +710,7 @@ tw-mi-knaggs-bridge-gold	C	Whitmore Knaggs' gold, Shiawassee River south of Knag
 tw-mi-knaggs-bridge-gold	C	Whitmore Knaggs' gold, Shiawassee River south of Knaggs Bridge	Shiawassee	MI		project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md	5	two:whitmore
 tw-mi-knaggs-bridge-gold	C	Whitmore Knaggs' gold, Shiawassee River south of Knaggs Bridge	Shiawassee	MI		project-files/research/treasure-statewide/persons.tsv	66	id
 tw-ia-new-albin-black-hawk-gold	D	"Black Hawk gold": fleeing Indian's sack, Christopher Meyer farm west of New Albin	Allamakee	IA		research/newspapers-com/second-sources-c-leads.md	23	two:hawk
+tw-ia-new-albin-black-hawk-gold	D	"Black Hawk gold": fleeing Indian's sack, Christopher Meyer farm west of New Albin	Allamakee	IA		research/newspapers/ca-mcgregor-1905.md	6	two:hawk
 tw-ia-new-albin-black-hawk-gold	D	"Black Hawk gold": fleeing Indian's sack, Christopher Meyer farm west of New Albin	Allamakee	IA		research/ia-il/README.md	13	co:hawk
 tw-ia-new-albin-black-hawk-gold	D	"Black Hawk gold": fleeing Indian's sack, Christopher Meyer farm west of New Albin	Allamakee	IA		research/ia-il/iowa-town-leads-plats.md	18	two:hawk
 tw-ia-new-albin-black-hawk-gold	D	"Black Hawk gold": fleeing Indian's sack, Christopher Meyer farm west of New Albin	Allamakee	IA		research/ia-il/INDEX.md	10	co:hawk
@@ -770,6 +773,7 @@ tw-mi-north-lansing-franklin-house-1896	D	Bank-robbery tin box in the Franklin H
 tw-mi-north-lansing-franklin-house-1896	D	Bank-robbery tin box in the Franklin House cellar, North Lansing	Ingham	MI		research/plats/carr-dimondale.md	3	co:lansing
 tw-mi-north-lansing-franklin-house-1896	D	Bank-robbery tin box in the Franklin House cellar, North Lansing	Ingham	MI		research/plats/INDEX.md	42	two:lansing
 tw-mi-north-lansing-franklin-house-1896	D	Bank-robbery tin box in the Franklin House cellar, North Lansing	Ingham	MI		research/plats/franklin-house-lansing.md	1	file:lansing
+tw-mi-north-lansing-franklin-house-1896	D	Bank-robbery tin box in the Franklin House cellar, North Lansing	Ingham	MI		research/fairgrounds/mi-state-ag-society-transactions.md	35	co:lansing
 tw-mi-north-lansing-franklin-house-1896	D	Bank-robbery tin box in the Franklin House cellar, North Lansing	Ingham	MI		project-files/research/treasure-statewide/leads-mi.tsv	17	id
 tw-mi-north-lansing-franklin-house-1896	D	Bank-robbery tin box in the Franklin House cellar, North Lansing	Ingham	MI		project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md	22	two:lansing
 tw-mi-north-lansing-franklin-house-1896	D	Bank-robbery tin box in the Franklin House cellar, North Lansing	Ingham	MI		project-files/research/treasure-statewide/persons.tsv	27	id
@@ -898,9 +902,9 @@ t-hermit-island	D	Hermit Island: Wilson's coins and the pirate cave	Ashland	WI		
 t-hermit-island	D	Hermit Island: Wilson's coins and the pirate cave	Ashland	WI		project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md	26	co:wilson
 t-hermit-island	D	Hermit Island: Wilson's coins and the pirate cave	Ashland	WI		project-files/research/treasure-statewide/persons.tsv	129	id
 tw-mi-higgins-lake-flynn-island-hermit-cache	D	Hermit Pritchard's cache, Flynn Island, Higgins Lake	Roscommon	MI		research/leads.tsv	1	id
-tw-mi-higgins-lake-flynn-island-hermit-cache	D	Hermit Pritchard's cache, Flynn Island, Higgins Lake	Roscommon	MI		research/newspapers-com/pc-a-asks-results.md	845	two:pritchard
+tw-mi-higgins-lake-flynn-island-hermit-cache	D	Hermit Pritchard's cache, Flynn Island, Higgins Lake	Roscommon	MI		research/newspapers-com/pc-a-asks-results.md	845	two:flynn
 tw-mi-higgins-lake-flynn-island-hermit-cache	D	Hermit Pritchard's cache, Flynn Island, Higgins Lake	Roscommon	MI		research/books/laird-followups.tsv	4	two:pritchard
-tw-mi-higgins-lake-flynn-island-hermit-cache	D	Hermit Pritchard's cache, Flynn Island, Higgins Lake	Roscommon	MI		research/books/wfmk-hermit-higgins.md	9	two:pritchard
+tw-mi-higgins-lake-flynn-island-hermit-cache	D	Hermit Pritchard's cache, Flynn Island, Higgins Lake	Roscommon	MI		research/books/wfmk-hermit-higgins.md	8	two:flynn
 tw-ia-marshalltown-mcknight-1907	D	Honora McKnight's money hidden "in strange places", Marshalltown	Marshall	IA		research/newspapers-com/leads.tsv	102	co:marshalltown
 tw-ia-marshalltown-mcknight-1907	D	Honora McKnight's money hidden "in strange places", Marshalltown	Marshall	IA		research/newspapers-com/ia-il-sweep.md	11	co:marshalltown
 tw-ia-marshalltown-mcknight-1907	D	Honora McKnight's money hidden "in strange places", Marshalltown	Marshall	IA		research/ia-il/iowa-town-leads-plats.md	85	two:mcknight
@@ -950,6 +954,7 @@ tw-wi-green-bay-doehm-fox-river	D	Joseph Doehm threw $3,000-$4,000 into the Fox 
 tw-wi-green-bay-doehm-fox-river	D	Joseph Doehm threw $3,000-$4,000 into the Fox River, Green Bay	Brown	WI		research/newspapers-com/treasure-list-t13-t21.md	162	two:doehm
 tw-wi-green-bay-doehm-fox-river	D	Joseph Doehm threw $3,000-$4,000 into the Fox River, Green Bay	Brown	WI		research/newspapers-com/sweep-2-misers-loot.md	25	co:green
 tw-wi-green-bay-doehm-fox-river	D	Joseph Doehm threw $3,000-$4,000 into the Fox River, Green Bay	Brown	WI		research/ia-il/iowa-town-leads-plats.md	86	co:green
+tw-wi-green-bay-doehm-fox-river	D	Joseph Doehm threw $3,000-$4,000 into the Fox River, Green Bay	Brown	WI		research/ancestry/list12-dates.md	76	co:green
 tw-wi-green-bay-doehm-fox-river	D	Joseph Doehm threw $3,000-$4,000 into the Fox River, Green Bay	Brown	WI		research/ancestry/INDEX.md	46	co:doehm
 tw-wi-green-bay-doehm-fox-river	D	Joseph Doehm threw $3,000-$4,000 into the Fox River, Green Bay	Brown	WI		research/ancestry/heisel-doehm-wrj-kinsman.md	1	file:doehm
 tw-wi-green-bay-doehm-fox-river	D	Joseph Doehm threw $3,000-$4,000 into the Fox River, Green Bay	Brown	WI		research/plats/swantek-eaton-plat.md	14	co:green
@@ -973,8 +978,8 @@ tw-ia-spirit-lake-marble-gold-1857	D	Marble family's $1,500 in gold, west shore 
 tw-parker-la-crosse-1901	D	Mary Ann Parker, the La Crosse hermit's hidden fortune	La Crosse	WI		research/genealogybank/gb-list1.md	11	co:parker
 tw-parker-la-crosse-1901	D	Mary Ann Parker, the La Crosse hermit's hidden fortune	La Crosse	WI		research/ancestry/parker-la-crosse.md	1	file:parker
 tw-parker-la-crosse-1901	D	Mary Ann Parker, the La Crosse hermit's hidden fortune	La Crosse	WI		research/ancestry/INDEX.md	19	co:parker
-tw-wi-hartford-bauer-1898	D	Missing $1,028 from an 1898 roadside shooting, road to Holy Hill	Washington	WI		research/newspapers-com/pc-a-asks-results.md	20	two:bauer
-tw-wi-hartford-bauer-1898	D	Missing $1,028 from an 1898 roadside shooting, road to Holy Hill	Washington	WI		research/newspapers-com/treasure-list-t13-t21.md	163	two:bauer
+tw-wi-hartford-bauer-1898	D	Missing $1,028 from an 1898 roadside shooting, road to Holy Hill	Washington	WI		research/newspapers-com/pc-a-asks-results.md	135	two:holy
+tw-wi-hartford-bauer-1898	D	Missing $1,028 from an 1898 roadside shooting, road to Holy Hill	Washington	WI		research/newspapers-com/treasure-list-t13-t21.md	196	two:holy
 tw-wi-hartford-bauer-1898	D	Missing $1,028 from an 1898 roadside shooting, road to Holy Hill	Washington	WI		research/ancestry/INDEX.md	25	co:bauer
 tw-wi-hartford-bauer-1898	D	Missing $1,028 from an 1898 roadside shooting, road to Holy Hill	Washington	WI		research/county-depth/se-wi-histories/washington-ozaukee-1880s.md	184	co:holy
 tw-wi-hartford-bauer-1898	D	Missing $1,028 from an 1898 roadside shooting, road to Holy Hill	Washington	WI		research/plats/INDEX.md	46	two:holy
@@ -1026,11 +1031,11 @@ tw-mi-north-fox-german-gold	D	North Fox Island: German land-payment gold (1850 l
 tw-mi-north-fox-german-gold	D	North Fox Island: German land-payment gold (1850 legend) and the 1905 hoax find	Leelanau	MI		project-files/research/treasure-statewide/leads-mi.tsv	27	id
 tw-mi-north-fox-german-gold	D	North Fox Island: German land-payment gold (1850 legend) and the 1905 hoax find	Leelanau	MI		project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md	10	co:german
 tw-il-alexis-garnett-barn-1913	D	North Henderson bank loot in Richard Garrett's barn, sec 30 (found 1913)	Mercer	IL		research/newspapers-com/pc-a-asks-results.md	532	two:alexis
-tw-il-alexis-garnett-barn-1913	D	North Henderson bank loot in Richard Garrett's barn, sec 30 (found 1913)	Mercer	IL		research/newspapers-com/ia-il-second-source.md	36	two:alexis
+tw-il-alexis-garnett-barn-1913	D	North Henderson bank loot in Richard Garrett's barn, sec 30 (found 1913)	Mercer	IL		research/newspapers-com/ia-il-second-source.md	32	two:garrett
 tw-il-alexis-garnett-barn-1913	D	North Henderson bank loot in Richard Garrett's barn, sec 30 (found 1913)	Mercer	IL		research/ia-il/README.md	50	id
 tw-il-alexis-garnett-barn-1913	D	North Henderson bank loot in Richard Garrett's barn, sec 30 (found 1913)	Mercer	IL		research/ancestry/illinois-names-batch.md	9	co:garnett
 tw-il-alexis-garnett-barn-1913	D	North Henderson bank loot in Richard Garrett's barn, sec 30 (found 1913)	Mercer	IL		research/ancestry/land-ownership-maps-list7.md	15	two:garrett
-tw-il-alexis-garnett-barn-1913	D	North Henderson bank loot in Richard Garrett's barn, sec 30 (found 1913)	Mercer	IL		research/plats/sunday-plates-2026-11-02.md	6	two:alexis
+tw-il-alexis-garnett-barn-1913	D	North Henderson bank loot in Richard Garrett's barn, sec 30 (found 1913)	Mercer	IL		research/plats/sunday-plates-2026-11-02.md	3	two:garrett
 tw-il-alexis-garnett-barn-1913	D	North Henderson bank loot in Richard Garrett's barn, sec 30 (found 1913)	Mercer	IL		research/sunday/sunday-list-2026-11-02.md	6	two:alexis
 tw-wi-wisconsin-mouth-coins-1887	D	Old half-dollars washed out of the Wisconsin River bank, Portage (1887)	Columbia	WI		research/leads.tsv	5	co:portage
 tw-wi-wisconsin-mouth-coins-1887	D	Old half-dollars washed out of the Wisconsin River bank, Portage (1887)	Columbia	WI		research/negatives.tsv	283	co:portage
@@ -1274,6 +1279,7 @@ tw-vollmer-hoard-1899	E	George Vollmer's money in the walls, Stillwater	Washingt
 tw-vollmer-hoard-1899	E	George Vollmer's money in the walls, Stillwater	Washington	MN		project-files/research/court-records/pin-records-check.tsv	4	id
 tw-blue-lake-baldwin-coins	E	Gold coins lost through the ice, Blue Lake channel	Isanti	MN		research/ancestry/INDEX.md	19	co:baldwin
 coff-grand-ledge-jar	E	Grand Ledge fruit-jar cache (found 1949)	Eaton	MI		research/newspapers-com/leads.tsv	146	co:grand
+coff-grand-ledge-jar	E	Grand Ledge fruit-jar cache (found 1949)	Eaton	MI		research/fairgrounds/mi-state-ag-society-transactions.md	32	co:grand
 coff-grand-ledge-jar	E	Grand Ledge fruit-jar cache (found 1949)	Eaton	MI		research/fairgrounds/mi-early-fairs.md	18	co:grand
 coff-grand-ledge-jar	E	Grand Ledge fruit-jar cache (found 1949)	Eaton	MI		project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md	17	co:grand
 coff-grand-ledge-jar	E	Grand Ledge fruit-jar cache (found 1949)	Eaton	MI		project-files/research/treasure-statewide/pc-newspapers-second-sources.md	14	co:grand
@@ -1371,13 +1377,13 @@ ab-peshtigo-trader-hill	E	Peshtigo River: the murdered trader's hill and his bur
 wd5-plainview-kettle	E	Peter Lambrecht's kettle of gold coins in his cellar, Plainview (1922)	Wabasha	MN		research/negatives.tsv	132	co:plainview
 t-bennett-eagle-river	E	R.C. Bennett's tin boxes	Vilas	WI		research/leads.tsv	2	co:bennett
 t-bennett-eagle-river	E	R.C. Bennett's tin boxes	Vilas	WI		research/negatives.tsv	20	id
-t-bennett-eagle-river	E	R.C. Bennett's tin boxes	Vilas	WI		research/newspapers-com/pc-a-asks-results.md	858	two:bennett
-t-bennett-eagle-river	E	R.C. Bennett's tin boxes	Vilas	WI		research/newspapers-com/leads.tsv	154	two:bennett
+t-bennett-eagle-river	E	R.C. Bennett's tin boxes	Vilas	WI		research/newspapers-com/pc-a-asks-results.md	858	two:eagle
+t-bennett-eagle-river	E	R.C. Bennett's tin boxes	Vilas	WI		research/newspapers-com/leads.tsv	154	two:eagle
 t-bennett-eagle-river	E	R.C. Bennett's tin boxes	Vilas	WI		research/newspapers-com/county-coverage-wi-mi-chronam.tsv	24	co:eagle
-t-bennett-eagle-river	E	R.C. Bennett's tin boxes	Vilas	WI		research/newspapers-com/sweep-2-misers-loot.md	118	co:bennett
+t-bennett-eagle-river	E	R.C. Bennett's tin boxes	Vilas	WI		research/newspapers-com/sweep-2-misers-loot.md	71	co:eagle
 t-bennett-eagle-river	E	R.C. Bennett's tin boxes	Vilas	WI		research/newspapers-com/county-coverage.tsv	23	co:eagle
-t-bennett-eagle-river	E	R.C. Bennett's tin boxes	Vilas	WI		research/ancestry/vilas-wyandotte-game-farm.md	1	two:bennett
-t-bennett-eagle-river	E	R.C. Bennett's tin boxes	Vilas	WI		research/clippings/README.md	3	two:bennett
+t-bennett-eagle-river	E	R.C. Bennett's tin boxes	Vilas	WI		research/ancestry/vilas-wyandotte-game-farm.md	4	two:eagle
+t-bennett-eagle-river	E	R.C. Bennett's tin boxes	Vilas	WI		research/clippings/README.md	3	two:eagle
 t-sand-island-chest	E	Sand Island chest of silver	Bayfield	WI		research/negatives.tsv	14	id
 t-stockton-island	E	Stockton Island thieves' cache	Ashland	WI		research/negatives.tsv	18	id
 gwl-table-mound	E	Table Mound treasure tale, between Black Earth and Cross Plains	Dane	WI		research/newspapers-com/leads.tsv	142	co:black
@@ -1415,7 +1421,7 @@ tw-mn-waldorf-tweit-recluse-1927-medo	E	Tweit family farm, Medo Twp (alternate s
 tw-mn-waldorf-tweit-recluse-1927-medo	E	Tweit family farm, Medo Twp (alternate spot for Michael Tweit's money)	Blue Earth	MN		project-files/research/treasure-statewide/leads-mn.tsv	20	two:medo
 tw-mn-waldorf-tweit-recluse-1927-medo	E	Tweit family farm, Medo Twp (alternate spot for Michael Tweit's money)	Blue Earth	MN		project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md	8	two:waldorf
 tw-mn-waldorf-tweit-recluse-1927-medo	E	Tweit family farm, Medo Twp (alternate spot for Michael Tweit's money)	Blue Earth	MN		project-files/research/treasure-statewide/persons.tsv	122	two:waldorf
-coff-davock-minch	E	William B. Davock and Anna Minch (1940)	Oceana	MI		research/newspapers-com/pc-a-asks-results.md	658	two:davock
+coff-davock-minch	E	William B. Davock and Anna Minch (1940)	Oceana	MI		research/newspapers-com/pc-a-asks-results.md	658	two:minch
 t-tr-colvill	E	William Colvill’s Civil War gold	Cook	MN		research/negatives.tsv	40	id
 t-winona-gang	E	Winona Gang loot (Minnesota)	Winona (MN)	WI		research/negatives.tsv	23	id
 t-portage-riverboat-gold	E	Wisconsin River riverboat gold bars	Columbia	WI		research/leads.tsv	5	co:portage
@@ -1499,6 +1505,7 @@ tw-mn-le-center-tree-gold-1906	F	Gold coins in a plugged hole in an ash log, Lex
 tw-wi-mineral-point-ravine-gold-1852	F	Gold lumps in a ravine in Mineral Point village (1852)	Iowa	WI		project-files/research/treasure-statewide/leads-wi.tsv	12	id
 tw-wi-blackhawk-jaeger-1923	F	Hermit Robert Jaeger's hidden wealth, Black Hawk (Sauk Co.)	Sauk	WI		research/negatives.tsv	239	id
 tw-wi-blackhawk-jaeger-1923	F	Hermit Robert Jaeger's hidden wealth, Black Hawk (Sauk Co.)	Sauk	WI		research/newspapers-com/second-sources-c-leads.md	22	id
+tw-wi-blackhawk-jaeger-1923	F	Hermit Robert Jaeger's hidden wealth, Black Hawk (Sauk Co.)	Sauk	WI		research/newspapers/ca-mcgregor-1905.md	6	two:hawk
 tw-wi-blackhawk-jaeger-1923	F	Hermit Robert Jaeger's hidden wealth, Black Hawk (Sauk Co.)	Sauk	WI		research/ia-il/iowa-town-leads-plats.md	18	two:hawk
 tw-wi-blackhawk-jaeger-1923	F	Hermit Robert Jaeger's hidden wealth, Black Hawk (Sauk Co.)	Sauk	WI		research/jstor/jstor-list1.md	15	two:hawk
 tw-wi-blackhawk-jaeger-1923	F	Hermit Robert Jaeger's hidden wealth, Black Hawk (Sauk Co.)	Sauk	WI		research/plats/sunday-plates-2026-11-02.md	13	two:hawk
@@ -1585,15 +1592,15 @@ tw-bjornaa-grantsburg-1906	F	Ole Johnson Bjornaa's hidden money, Grantsburg	Burn
 tw-bjornaa-grantsburg-1906	F	Ole Johnson Bjornaa's hidden money, Grantsburg	Burnett	WI		project-files/research/court-records/negatives-court.tsv	1	co:johnson
 tw-bjornaa-grantsburg-1906	F	Ole Johnson Bjornaa's hidden money, Grantsburg	Burnett	WI		project-files/research/court-records/newspapers-com-asks.md	5	id
 tw-mn-fay-ravine-dugout-1890	F	Outlaw dugout with a hidden back room, ravine in Lake Prairie Twp (1890)	Nicollet	MN		project-files/research/treasure-statewide/leads-mn.tsv	11	id
-tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/leads.tsv	2	two:wyandotte
-tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/negatives.tsv	20	two:bennett
-tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/pc-a-asks-results.md	862	two:wyandotte
-tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/leads.tsv	154	two:wyandotte
+tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/leads.tsv	2	two:conover
+tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/negatives.tsv	20	two:eagle
+tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/pc-a-asks-results.md	862	two:conover
+tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/leads.tsv	154	two:conover
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/county-coverage-wi-mi-chronam.tsv	24	co:eagle
-tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/sweep-2-misers-loot.md	118	co:bennett
+tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/sweep-2-misers-loot.md	71	co:eagle
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/county-coverage.tsv	23	co:eagle
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/genealogybank/gaps.md	22	two:wyandotte
-tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/ancestry/vilas-wyandotte-game-farm.md	1	file:wyandotte
+tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/ancestry/vilas-wyandotte-game-farm.md	1	two:conover
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/clippings/README.md	3	id
 tw-mn-west-st-paul-rechenberg-jar-1924	F	Rechenberg's jar of mildewed bills, Dodd Road farm (found 1924)	Dakota	MN		research/leads.tsv	4	id
 tw-mn-west-st-paul-rechenberg-jar-1924	F	Rechenberg's jar of mildewed bills, Dodd Road farm (found 1924)	Dakota	MN		research/negatives.tsv	245	co:rechenberg
