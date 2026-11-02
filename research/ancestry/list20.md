@@ -1,0 +1,27 @@
+# List 20 (PC b, 2026-11-02)
+
+## 1. Okauchee House (WMH 33:1, Sep 1949, Whelan, pp.7-14; JSTOR stable 4632086)
+- **Not opened: JSTOR is signed out** on this PC ("Read online" asks to register or sign in). This goes on the **Sunday list** (Neb to sign in to JSTOR). The free preview of p.7 shows only the opening: "the century-old Okauchee House in Waukesha County ... the Okauchee Stagecoach House with its sturdy plank walls that have stood in the background for 100 years watching the roadway evolve from an Indian trail into a plank road and finally stretch out into a federal highway."
+- HathiTrust has WMH v.33 as search-only (nyp.33433084446446; cub.u183019560318), so no snippets.
+- **Location from HABS** (*Wisconsin Architecture: A Catalog of Buildings Represented in the Library of Congress* (HABS), HathiTrust nyp.33433065918611, p.62): "**Okauchee House or Inn, 1841** and completely altered; **U.S. 16 and 19**. Clapboard; 2½-story; gable roof; corner pilasters; 2-story ell; laminated walls secured by dowels; ballroom in attic." HABS **WIS-11** (8 sheets, 1936; 2 photos). **16. Israel McConnell:** 1870 census, **Oconomowoc Twp, Waukesha Co: "Israel Mc Connell", b. about 1795 Vermont, wife Verta.** Find a Grave index: **Israel McConnell, 1795 - 10 May 1871, buried Oconomowoc.** (Whelan's "until 1874" may refer to the family or estate; he died in 1871.)
+- **14. *History of Waukesha County* (Western Hist. Co., 1880; HathiTrust wu.89076732593):** "Israel McConnell" and "Okauchee House" give 0. "McConnell" gives only a James McConnell, Vernon church member (p.792); "Okauchee" gives lake geography (p.440). **No tavern or gold story in 1880.**
+- **13. Calhoun Co MI:** HathiTrust full-text "McArdill" + Emmett gives only directories (1873 Calhoun; 1923/24 Battle Creek rural and Marshall) and a supervisors' proceedings volume. **No Calhoun county history mentions McArdill** (Everts 1877 not matched).
+- **18. GB MI 1870-1900 "dry well" gold buried: 24 hits.** Two are the McArdill items (Detroit Tribune 14 and 17 Sep 1874). Michigan Argus 22 Feb 1878 p.1 is a scattered-word false hit (a poem and glaciers). The rest (Western Rural 1873, Argus 1877/1880, Crawford Avalanche 1892, Detroit News 1892/1894, Muskegon Chronicle 1873, …) were not opened; GB matches the words anywhere on the page, so precision is low. **No new dry-well story confirmed.**
+- **List 19 #21 plat: 1873 Waukesha atlas, "Oconomowoc, Township 8 North, Range 17 East" (viewer p.23, image 31617_072132-00300), SE corner read:**
+  - **"E. McConnell Est. 101"** is in the **W part of sec 36**, and **"E. McConnell 109"** is in the **E part of sec 35**. Both straddle the diagonal road (the old Watertown plank road, later US 16), just S of the SW arm of **Okauchee Lake**. Building dots line the road in W sec 36 by the McConnell estate, with **Joint School No. 1** just S. "A. McConnell 240" is in sec 27 to the N. The railway runs along the S edge (Gifford Station, Oconomowoc Lake). The neighbours are S. T. and H. G. Hooker (sec 36), M. Hildahl and J. Baxter.
+  - So in 1873 the McConnells (E. = Israel's heir/estate after his 1871 death) held both sides of the plank road at Okauchee; the **inn = the building cluster on the road in W sec 36**.
+  - BLM (WI46 T8N R17E): sec 36 = 43.1060-43.1207 N, 88.4416-88.4213 W; sec 35 = 43.1062-43.1209 N, 88.4614-88.4414 W.
+  - **Pin (Okauchee House / McConnell inn): 43.113, -88.437, r250, grade B-** (W sec 36 on the old plank road; it matches HABS "U.S. 16"). The gold story itself (where the pick hole was) waits for the WMH article (Sunday list).
+- **3-12. County histories (HathiTrust full text, phrase + county in title, full view only):**
+  - Dead Man's Gulch / Fayette: **0**. Horse Thief Cave / Jones: **0**. Trombler / Otter Tail: **0**. Vejvoda / Barron: **0**.
+  - Rainsbarger / Hardin: *History of Hardin County* (1883, iau.31858033524558) mentions only E. M. Rainsbarger, a Steamboat Rock blacksmith (p.586). **No cave or booty passage** (the 1880s outlaw-Rainsbarger material is not in the snippets). "Steamboat Rock" / Hardin gives 3 more Hardin volumes, not opened further.
+  - Sheppard / Linn: 3 hits, all off-topic (incl. a natural-history title). **No Shepherd inn / island loot passage found.**
+  - Reilly / Fond du Lac, Fay / Nicollet and Graeven / Washington give 3 hits each, which are common-surname noise (not opened).
+  - Okauchee House / Waukesha: *USH-16 widening EIS* (ien.35556030816631) is lake-development text only.
+  - **Net: no new placements from the county histories.**
+- **19. GB Milwaukee 1900-30, "pot of gold" wreckers: 4 hits, all Milwaukee Sentinel Apr 1928.** The one opened (5 Apr p.21) is a classified ad ("a pot of gold" in a salesman ad). The others are the same ad run; **noise**.
+- **20. GB WI 1870-1930, tavern buried gold "old stage": 2 hits.** Badger State Banner 13 Mar 1913 p.2 is noise (a literary item). Racine Daily Times 14 Aug 1886 was not opened (likely noise too). **No new tavern-gold story.**
+- **2. JSTOR "Knaggs" + gold:** not run (JSTOR is signed out; Sunday list).
+- **15. 1870 census Burton / Newbre:** Elias Newbre (b. about 1827 NY, wife Martha), Emmett 1870, is confirmed. N. A. Burton is not in the 1870 index (his 160 in sec 27 is shown on the 1873 plat).
+- **17. Koster death:** confirmed as 3 Feb 1909, Fairbanks Twp (see list19.md).
+- So the house stood on the old Watertown Plank Road / US 16 (now Wisconsin Ave / CTH) at Okauchee village. Still to do: plat check (List 19 #21) for the exact lot.

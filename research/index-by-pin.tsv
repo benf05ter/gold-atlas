@@ -122,14 +122,14 @@ tw-horrigan-boscobel-1930	B	Horrigan brothers' farm money, Horrigan Ridge near M
 tw-horrigan-boscobel-1930	B	Horrigan brothers' farm money, Horrigan Ridge near Mt. Zion	Crawford	WI		research/plats/INDEX.md	53	co:horrigan
 tw-horrigan-boscobel-1930	B	Horrigan brothers' farm money, Horrigan Ridge near Mt. Zion	Crawford	WI		research/aerials/horrigan-crawford-1938.md	1	file:horrigan
 tw-horrigan-boscobel-1930	B	Horrigan brothers' farm money, Horrigan Ridge near Mt. Zion	Crawford	WI		project-files/research/court-records/pin-records-check.tsv	3	id
-tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/pc-a-asks-results.md	779	two:hession
-tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/leads.tsv	128	two:hession
-tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/ia-il-sweep.md	35	two:hession
-tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/treasure-list-t13-t21.md	22	two:hession
+tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/pc-a-asks-results.md	779	two:glen
+tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/leads.tsv	128	two:glen
+tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/ia-il-sweep.md	42	two:glen
+tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/treasure-list-t13-t21.md	22	two:glen
 tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/treasure-statewide/held-leads.md	26	co:jack
-tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/ancestry/list12-dates.md	32	two:hession
+tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/ancestry/list12-dates.md	35	two:glen
 tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/ancestry/INDEX.md	52	two:hession
-tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/plats/hession-humboldt.md	1	file:hession
+tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/plats/hession-humboldt.md	1	two:glen
 tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/books/laird-1927-iowa-legends.md	12	co:jack
 tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		project-files/research/treasure-statewide/held-leads.md	26	co:jack
 tw-wi-franklin-ford-gold-1875	B	James Ford's California gold by an old stump, southern Town of Franklin	Milwaukee	WI		research/newspapers-com/pc-a-asks-results.md	778	two:ford
@@ -264,6 +264,7 @@ tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron
 tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron	WI	dig-vajvoda-rice-lake-1925	research/newspapers-com/ia-il-second-source.md	94	two:vejvoda
 tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron	WI	dig-vajvoda-rice-lake-1925	research/ancestry/list12-dates.md	64	two:vejvoda
 tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron	WI	dig-vajvoda-rice-lake-1925	research/ancestry/list17.md	39	two:vejvoda
+tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron	WI	dig-vajvoda-rice-lake-1925	research/ancestry/list20.md	16	co:vejvoda
 tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron	WI	dig-vajvoda-rice-lake-1925	research/ancestry/INDEX.md	16	co:vejvoda
 tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron	WI	dig-vajvoda-rice-lake-1925	research/plats/vejvoda-barron.md	1	file:vejvoda
 tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron	WI	dig-vajvoda-rice-lake-1925	research/plats/INDEX.md	27	co:vejvoda
@@ -435,6 +436,7 @@ tw-il-eureka-onnen-henhouse	C	Henry Onnen's henhouse jars and missing coin colle
 tw-il-eureka-onnen-henhouse	C	Henry Onnen's henhouse jars and missing coin collection, Minonk	Woodford	IL		research/newspapers-com/ia-il-second-source.md	43	two:minonk
 tw-il-eureka-onnen-henhouse	C	Henry Onnen's henhouse jars and missing coin collection, Minonk	Woodford	IL		research/newspapers-com/treasure-list-t13-t21.md	25	two:minonk
 tw-il-eureka-onnen-henhouse	C	Henry Onnen's henhouse jars and missing coin collection, Minonk	Woodford	IL		research/ancestry/illinois-names-batch.md	7	two:minonk
+tw-il-eureka-onnen-henhouse	C	Henry Onnen's henhouse jars and missing coin collection, Minonk	Woodford	IL		research/ancestry/list19.md	44	two:minonk
 tw-il-eureka-onnen-henhouse	C	Henry Onnen's henhouse jars and missing coin collection, Minonk	Woodford	IL		research/ancestry/INDEX.md	29	two:minonk
 tw-ia-dubuque-lunning-farm-1916	C	Herman Lunning's hidden money, recluse's cabin in the hills north of Galena	Jo Daviess	IL		research/newspapers-com/pc-a-asks-results.md	790	two:lunning
 tw-ia-dubuque-lunning-farm-1916	C	Herman Lunning's hidden money, recluse's cabin in the hills north of Galena	Jo Daviess	IL		research/newspapers-com/ia-il-sweep.md	178	two:lunning
@@ -510,16 +512,19 @@ wd4-trimbelle-zopp	C	Michael Zopp's hidden money, Trimbelle (1912)	Pierce	WI	dig
 wd4-trimbelle-zopp	C	Michael Zopp's hidden money, Trimbelle (1912)	Pierce	WI	dig-trimbelle-zopp	project-files/research/court-records/pin-records-check.tsv	18	id
 wd4-trimbelle-zopp	C	Michael Zopp's hidden money, Trimbelle (1912)	Pierce	WI	dig-trimbelle-zopp	project-files/research/court-records/zopp-1912.md	1	file:zopp
 wd4-trimbelle-zopp	C	Michael Zopp's hidden money, Trimbelle (1912)	Pierce	WI	dig-trimbelle-zopp	project-files/research/court-records/newspapers-com-asks.md	4	id
-tw-mi-arthur-bay-souvigner-1907	C	Miser John Souvigner's hoard, Arthur Bay cabin	Menominee	MI		research/souvigner-plat.md	1	co:arthur
-tw-mi-arthur-bay-souvigner-1907	C	Miser John Souvigner's hoard, Arthur Bay cabin	Menominee	MI		research/newspapers-com/pc-a-asks-results.md	35	co:arthur
+tw-mi-arthur-bay-souvigner-1907	C	Miser John Souvigner's hoard, Arthur Bay cabin	Menominee	MI		research/souvigner-plat.md	1	file:souvigner
+tw-mi-arthur-bay-souvigner-1907	C	Miser John Souvigner's hoard, Arthur Bay cabin	Menominee	MI		research/newspapers-com/pc-a-asks-results.md	541	two:souvigner
 tw-mi-arthur-bay-souvigner-1907	C	Miser John Souvigner's hoard, Arthur Bay cabin	Menominee	MI		research/newspapers-com/second-sources-c-leads.md	45	id
-tw-mi-arthur-bay-souvigner-1907	C	Miser John Souvigner's hoard, Arthur Bay cabin	Menominee	MI		research/newspapers-com/ia-il-second-source.md	143	co:arthur
-tw-mi-arthur-bay-souvigner-1907	C	Miser John Souvigner's hoard, Arthur Bay cabin	Menominee	MI		research/ancestry/souvigner-ingallston-1900.md	1	co:arthur
-tw-mi-arthur-bay-souvigner-1907	C	Miser John Souvigner's hoard, Arthur Bay cabin	Menominee	MI		research/ancestry/INDEX.md	40	co:arthur
-tw-mi-arthur-bay-souvigner-1907	C	Miser John Souvigner's hoard, Arthur Bay cabin	Menominee	MI		research/plats/INDEX.md	61	co:arthur
+tw-mi-arthur-bay-souvigner-1907	C	Miser John Souvigner's hoard, Arthur Bay cabin	Menominee	MI		research/newspapers-com/ia-il-second-source.md	143	two:souvigner
+tw-mi-arthur-bay-souvigner-1907	C	Miser John Souvigner's hoard, Arthur Bay cabin	Menominee	MI		research/ancestry/souvigner-ingallston-1900.md	1	file:souvigner
+tw-mi-arthur-bay-souvigner-1907	C	Miser John Souvigner's hoard, Arthur Bay cabin	Menominee	MI		research/ancestry/list19.md	10	two:souvigner
+tw-mi-arthur-bay-souvigner-1907	C	Miser John Souvigner's hoard, Arthur Bay cabin	Menominee	MI		research/ancestry/land-ownership-maps-list8.md	6	co:souvigner
+tw-mi-arthur-bay-souvigner-1907	C	Miser John Souvigner's hoard, Arthur Bay cabin	Menominee	MI		research/ancestry/michigan-death-records-batch.md	8	co:souvigner
+tw-mi-arthur-bay-souvigner-1907	C	Miser John Souvigner's hoard, Arthur Bay cabin	Menominee	MI		research/ancestry/INDEX.md	40	two:souvigner
+tw-mi-arthur-bay-souvigner-1907	C	Miser John Souvigner's hoard, Arthur Bay cabin	Menominee	MI		research/plats/INDEX.md	61	two:souvigner
 tw-mi-arthur-bay-souvigner-1907	C	Miser John Souvigner's hoard, Arthur Bay cabin	Menominee	MI		project-files/research/treasure-statewide/leads-mi.tsv	33	id
-tw-mi-arthur-bay-souvigner-1907	C	Miser John Souvigner's hoard, Arthur Bay cabin	Menominee	MI		project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md	34	co:arthur
-tw-mi-arthur-bay-souvigner-1907	C	Miser John Souvigner's hoard, Arthur Bay cabin	Menominee	MI		project-files/research/treasure-statewide/pc-b-plat-queue-2026-11-01.md	13	co:arthur
+tw-mi-arthur-bay-souvigner-1907	C	Miser John Souvigner's hoard, Arthur Bay cabin	Menominee	MI		project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md	34	two:souvigner
+tw-mi-arthur-bay-souvigner-1907	C	Miser John Souvigner's hoard, Arthur Bay cabin	Menominee	MI		project-files/research/treasure-statewide/pc-b-plat-queue-2026-11-01.md	13	two:souvigner
 tw-mi-arthur-bay-souvigner-1907	C	Miser John Souvigner's hoard, Arthur Bay cabin	Menominee	MI		project-files/research/treasure-statewide/pc-newspapers-second-sources.md	15	id
 tw-mi-arthur-bay-souvigner-1907	C	Miser John Souvigner's hoard, Arthur Bay cabin	Menominee	MI		project-files/research/treasure-statewide/pc-read-list.md	12	id
 tw-mi-arthur-bay-souvigner-1907	C	Miser John Souvigner's hoard, Arthur Bay cabin	Menominee	MI		project-files/research/treasure-statewide/persons.tsv	50	id
@@ -590,6 +595,7 @@ tw-mn-fergus-falls-trombler-1903	C	Pensioner's hoard, small house on Mill Street
 tw-mn-fergus-falls-trombler-1903	C	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		research/newspapers-com/list18.md	14	two:fergus
 tw-mn-fergus-falls-trombler-1903	C	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		research/newspapers-com/treasure-list-t13-t21.md	165	two:fergus
 tw-mn-fergus-falls-trombler-1903	C	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		research/newspapers-com/sweep-2-misers-loot.md	104	co:fergus
+tw-mn-fergus-falls-trombler-1903	C	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		research/ancestry/list20.md	16	co:trombler
 tw-mn-fergus-falls-trombler-1903	C	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		research/ancestry/land-ownership-maps-list8.md	37	two:fergus
 tw-mn-fergus-falls-trombler-1903	C	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		research/ancestry/trombler-jacobson-otter-tail.md	1	two:fergus
 tw-mn-fergus-falls-trombler-1903	C	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		research/ancestry/INDEX.md	41	two:fergus
@@ -733,6 +739,7 @@ tw-mi-knaggs-bridge-gold	C	Whitmore Knaggs' gold, Shiawassee River south of Knag
 tw-mi-knaggs-bridge-gold	C	Whitmore Knaggs' gold, Shiawassee River south of Knaggs Bridge	Shiawassee	MI		research/newspapers-com/sweep-2-misers-loot.md	41	two:whitmore
 tw-mi-knaggs-bridge-gold	C	Whitmore Knaggs' gold, Shiawassee River south of Knaggs Bridge	Shiawassee	MI		research/ancestry/list18.md	31	two:whitmore
 tw-mi-knaggs-bridge-gold	C	Whitmore Knaggs' gold, Shiawassee River south of Knaggs Bridge	Shiawassee	MI		research/ancestry/list11-probate-census.md	22	co:knaggs
+tw-mi-knaggs-bridge-gold	C	Whitmore Knaggs' gold, Shiawassee River south of Knaggs Bridge	Shiawassee	MI		research/ancestry/list19.md	35	co:knaggs
 tw-mi-knaggs-bridge-gold	C	Whitmore Knaggs' gold, Shiawassee River south of Knaggs Bridge	Shiawassee	MI		research/plats/placement-gaps-pass-b.md	68	co:knaggs
 tw-mi-knaggs-bridge-gold	C	Whitmore Knaggs' gold, Shiawassee River south of Knaggs Bridge	Shiawassee	MI		research/plats/INDEX.md	15	co:knaggs
 tw-mi-knaggs-bridge-gold	C	Whitmore Knaggs' gold, Shiawassee River south of Knaggs Bridge	Shiawassee	MI		research/plats/knaggs-bridge.md	1	file:knaggs
@@ -941,6 +948,7 @@ tw-mi-higgins-lake-flynn-island-hermit-cache	D	Hermit Pritchard's cache, Flynn I
 tw-mi-higgins-lake-flynn-island-hermit-cache	D	Hermit Pritchard's cache, Flynn Island, Higgins Lake	Roscommon	MI		research/newspapers-com/list18.md	17	two:flynn
 tw-mi-higgins-lake-flynn-island-hermit-cache	D	Hermit Pritchard's cache, Flynn Island, Higgins Lake	Roscommon	MI		research/ancestry/list17.md	88	co:pritchard
 tw-mi-higgins-lake-flynn-island-hermit-cache	D	Hermit Pritchard's cache, Flynn Island, Higgins Lake	Roscommon	MI		research/ancestry/list14.md	36	co:pritchard
+tw-mi-higgins-lake-flynn-island-hermit-cache	D	Hermit Pritchard's cache, Flynn Island, Higgins Lake	Roscommon	MI		research/ancestry/list19.md	87	co:pritchard
 tw-mi-higgins-lake-flynn-island-hermit-cache	D	Hermit Pritchard's cache, Flynn Island, Higgins Lake	Roscommon	MI		research/books/laird-followups.tsv	4	two:higgins
 tw-mi-higgins-lake-flynn-island-hermit-cache	D	Hermit Pritchard's cache, Flynn Island, Higgins Lake	Roscommon	MI		research/books/wfmk-hermit-higgins.md	8	two:flynn
 tw-ia-marshalltown-mcknight-1907	D	Honora McKnight's money hidden "in strange places", Marshalltown	Marshall	IA		research/newspapers-com/leads.tsv	102	co:marshalltown
@@ -958,17 +966,19 @@ tw-il-hennepin-feeder-spanish-chest-1901	D	Iron chest of Spanish coins dug from 
 tw-il-dover-hudson-jar-1913	D	James Hudson's $1,200 he hid twice, farm at Dover	Bureau	IL		research/newspapers-com/ia-il-second-source.md	51	two:hudson
 tw-il-dover-hudson-jar-1913	D	James Hudson's $1,200 he hid twice, farm at Dover	Bureau	IL		research/ia-il/README.md	52	co:hudson
 tw-il-dover-hudson-jar-1913	D	James Hudson's $1,200 he hid twice, farm at Dover	Bureau	IL		research/ancestry/illinois-names-batch.md	10	two:hudson
+tw-il-dover-hudson-jar-1913	D	James Hudson's $1,200 he hid twice, farm at Dover	Bureau	IL		research/ancestry/list19.md	40	two:hudson
+tw-il-dover-hudson-jar-1913	D	James Hudson's $1,200 he hid twice, farm at Dover	Bureau	IL		research/ancestry/INDEX.md	60	co:hudson
 tw-il-dover-hudson-jar-1913	D	James Hudson's $1,200 he hid twice, farm at Dover	Bureau	IL		research/sunday/sunday-list-2026-11-02.md	7	two:hudson
-tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/negatives.tsv	231	two:blackburn
-tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/newspapers-com/pc-a-asks-results.md	707	two:blackburn
-tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/newspapers-com/placement-gaps-list.md	23	two:blackburn
-tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/newspapers-com/leads.tsv	115	two:blackburn
-tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/newspapers-com/blackburn-gordon.md	1	file:blackburn
-tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/plats/blackburn-gordon.md	1	file:blackburn
-tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/plats/INDEX.md	41	two:blackburn
+tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/negatives.tsv	231	two:gordon
+tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/newspapers-com/pc-a-asks-results.md	707	two:gordon
+tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/newspapers-com/placement-gaps-list.md	23	two:gordon
+tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/newspapers-com/leads.tsv	115	two:gordon
+tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/newspapers-com/blackburn-gordon.md	1	file:gordon
+tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/plats/blackburn-gordon.md	1	file:gordon
+tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/plats/INDEX.md	41	two:gordon
 tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/plats/strolfer-douglas-wi.md	10	co:gordon
 tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		project-files/research/court-records/pin-records-check.tsv	2	id
-tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		project-files/research/treasure-statewide/blackburn-card.md	1	file:blackburn
+tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		project-files/research/treasure-statewide/blackburn-card.md	1	two:gordon
 tw-ia-livermore-johnson-whiskey-cache-1857	D	Johnson traders' whiskey and money cache, east of Livermore (1857 legend)	Humboldt	IA		research/newspapers-com/pc-a-asks-results.md	834	two:livermore
 tw-ia-livermore-johnson-whiskey-cache-1857	D	Johnson traders' whiskey and money cache, east of Livermore (1857 legend)	Humboldt	IA		research/treasure-statewide/held-leads.md	26	co:livermore
 tw-ia-livermore-johnson-whiskey-cache-1857	D	Johnson traders' whiskey and money cache, east of Livermore (1857 legend)	Humboldt	IA		research/ia-il/README.md	56	co:livermore
@@ -1022,6 +1032,7 @@ tw-parker-la-crosse-1901	D	Mary Ann Parker, the La Crosse hermit's hidden fortun
 tw-parker-la-crosse-1901	D	Mary Ann Parker, the La Crosse hermit's hidden fortune	La Crosse	WI		research/ancestry/INDEX.md	19	co:parker
 tw-wi-hartford-bauer-1898	D	Missing $1,028 from an 1898 roadside shooting, road to Holy Hill	Washington	WI		research/newspapers-com/pc-a-asks-results.md	135	two:holy
 tw-wi-hartford-bauer-1898	D	Missing $1,028 from an 1898 roadside shooting, road to Holy Hill	Washington	WI		research/newspapers-com/treasure-list-t13-t21.md	196	two:holy
+tw-wi-hartford-bauer-1898	D	Missing $1,028 from an 1898 roadside shooting, road to Holy Hill	Washington	WI		research/ancestry/list19.md	33	two:holy
 tw-wi-hartford-bauer-1898	D	Missing $1,028 from an 1898 roadside shooting, road to Holy Hill	Washington	WI		research/ancestry/INDEX.md	25	co:bauer
 tw-wi-hartford-bauer-1898	D	Missing $1,028 from an 1898 roadside shooting, road to Holy Hill	Washington	WI		research/county-depth/se-wi-histories/washington-ozaukee-1880s.md	184	co:holy
 tw-wi-hartford-bauer-1898	D	Missing $1,028 from an 1898 roadside shooting, road to Holy Hill	Washington	WI		research/plats/INDEX.md	46	two:holy
@@ -1046,15 +1057,15 @@ tw-mi-niles-dam-french-war-cache	D	Money buried above the dam, Niles (French and
 tw-mi-niles-dam-french-war-cache	D	Money buried above the dam, Niles (French and Indian war legend)	Berrien	MI		project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md	6	co:niles
 tw-mi-niles-dam-french-war-cache	D	Money buried above the dam, Niles (French and Indian war legend)	Berrien	MI		project-files/research/treasure-statewide/pc-newspapers-second-sources.md	20	co:niles
 tw-mi-niles-dam-french-war-cache	D	Money buried above the dam, Niles (French and Indian war legend)	Berrien	MI		project-files/research/treasure-statewide/persons.tsv	8	co:niles
-tw-wi-dover-gregg-hoard	D	Mrs. Armstrong Gregg's money in "improbable places", Dover	Racine	WI		research/newspapers-com/pc-a-asks-results.md	408	two:gregg
-tw-wi-dover-gregg-hoard	D	Mrs. Armstrong Gregg's money in "improbable places", Dover	Racine	WI		research/newspapers-com/treasure-list-t13-t21.md	267	two:gregg
+tw-wi-dover-gregg-hoard	D	Mrs. Armstrong Gregg's money in "improbable places", Dover	Racine	WI		research/newspapers-com/pc-a-asks-results.md	633	two:armstrong
+tw-wi-dover-gregg-hoard	D	Mrs. Armstrong Gregg's money in "improbable places", Dover	Racine	WI		research/newspapers-com/treasure-list-t13-t21.md	267	two:armstrong
 tw-wi-dover-gregg-hoard	D	Mrs. Armstrong Gregg's money in "improbable places", Dover	Racine	WI		research/ancestry/land-ownership-maps-list7.md	35	co:gregg
-tw-wi-dover-gregg-hoard	D	Mrs. Armstrong Gregg's money in "improbable places", Dover	Racine	WI		research/ancestry/gregg-dover-racine.md	1	file:gregg
+tw-wi-dover-gregg-hoard	D	Mrs. Armstrong Gregg's money in "improbable places", Dover	Racine	WI		research/ancestry/gregg-dover-racine.md	3	two:armstrong
 tw-wi-dover-gregg-hoard	D	Mrs. Armstrong Gregg's money in "improbable places", Dover	Racine	WI		research/ancestry/INDEX.md	44	two:gregg
 tw-wi-dover-gregg-hoard	D	Mrs. Armstrong Gregg's money in "improbable places", Dover	Racine	WI		research/county-depth/se-wi-histories/racine-kenosha-1880s.md	17	co:dover
-tw-wi-dover-gregg-hoard	D	Mrs. Armstrong Gregg's money in "improbable places", Dover	Racine	WI		research/sunday/sunday-list-2026-11-02.md	21	two:gregg
+tw-wi-dover-gregg-hoard	D	Mrs. Armstrong Gregg's money in "improbable places", Dover	Racine	WI		research/sunday/sunday-list-2026-11-02.md	33	two:armstrong
 tw-wi-dover-gregg-hoard	D	Mrs. Armstrong Gregg's money in "improbable places", Dover	Racine	WI		project-files/research/treasure-statewide/leads-wi.tsv	26	id
-tw-wi-dover-gregg-hoard	D	Mrs. Armstrong Gregg's money in "improbable places", Dover	Racine	WI		project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md	23	two:gregg
+tw-wi-dover-gregg-hoard	D	Mrs. Armstrong Gregg's money in "improbable places", Dover	Racine	WI		project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md	23	two:armstrong
 tw-wi-dover-gregg-hoard	D	Mrs. Armstrong Gregg's money in "improbable places", Dover	Racine	WI		project-files/research/treasure-statewide/persons.tsv	163	id
 tw-ia-patterson-sugar-camp-1907	D	Murdered man's money at the old sugar camp near Patterson	Madison	IA		research/newspapers-com/ia-il-second-source.md	60	co:patterson
 tw-mn-bristol-olson-brothers-1936	D	Murdered Olson brothers' money 'hidden about the place', near Bristol Center	Fillmore	MN		research/newspapers-com/pc-a-asks-results.md	30	two:bristol
@@ -1123,8 +1134,7 @@ tw-mi-escanaba-koster-1900s	D	Old recluse's fortune, house burned at Garden	Delt
 tw-mi-escanaba-koster-1900s	D	Old recluse's fortune, house burned at Garden	Delta	MI		research/newspapers-com/pc-a-batch3-results.md	85	co:escanaba
 tw-mi-escanaba-koster-1900s	D	Old recluse's fortune, house burned at Garden	Delta	MI		research/newspapers-com/treasure-list-t13-t21.md	170	two:koster
 tw-mi-escanaba-koster-1900s	D	Old recluse's fortune, house burned at Garden	Delta	MI		research/newspapers-com/sweep-2-misers-loot.md	79	co:escanaba
-tw-mi-escanaba-koster-1900s	D	Old recluse's fortune, house burned at Garden	Delta	MI		research/ancestry/list19.md	3	co:koster
-tw-mi-escanaba-koster-1900s	D	Old recluse's fortune, house burned at Garden	Delta	MI		research/ancestry/INDEX.md	60	co:koster
+tw-mi-escanaba-koster-1900s	D	Old recluse's fortune, house burned at Garden	Delta	MI		research/ancestry/list19.md	98	two:koster
 tw-mi-escanaba-koster-1900s	D	Old recluse's fortune, house burned at Garden	Delta	MI		research/ancestry/ole-johnson-koster-upper-mi.md	1	file:koster
 tw-mi-escanaba-koster-1900s	D	Old recluse's fortune, house burned at Garden	Delta	MI		project-files/research/treasure-statewide/leads-mi.tsv	11	id
 tw-mi-escanaba-koster-1900s	D	Old recluse's fortune, house burned at Garden	Delta	MI		project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md	21	two:koster
@@ -1204,7 +1214,7 @@ t-st-croix-fur-trader-gold	D	St. Croix fur traders' gold	Polk	WI		research/negat
 t-st-croix-fur-trader-gold	D	St. Croix fur traders' gold	Polk	WI		research/newspapers-com/field-notes-barron.md	196	co:croix
 t-st-croix-fur-trader-gold	D	St. Croix fur traders' gold	Polk	WI		research/newspapers-com/fieldnotes-ranks-61-150.txt	3	co:croix
 t-st-croix-fur-trader-gold	D	St. Croix fur traders' gold	Polk	WI		research/newspapers-com/sweep-2-misers-loot.md	15	co:croix
-tw-mn-browerville-cushing-stage-bars	D	Stage-robbery gold bars buried between Browerville and Cushing	Todd / Morrison	MN		research/newspapers-com/treasure-list-t13-t21.md	333	two:browerville
+tw-mn-browerville-cushing-stage-bars	D	Stage-robbery gold bars buried between Browerville and Cushing	Todd / Morrison	MN		research/newspapers-com/treasure-list-t13-t21.md	333	two:cushing
 tw-mn-browerville-cushing-stage-bars	D	Stage-robbery gold bars buried between Browerville and Cushing	Todd / Morrison	MN		project-files/research/treasure-statewide/leads-mn.tsv	18	id
 tw-mi-sturgis-strang-mormon-gold	D	Strang's Mormon gold and "spectacles" near Sturgis	St. Joseph	MI		research/newspapers-com/pc-a-asks-results.md	460	two:sturgis
 tw-mi-sturgis-strang-mormon-gold	D	Strang's Mormon gold and "spectacles" near Sturgis	St. Joseph	MI		research/newspapers-com/pc-a-batch3-results.md	89	two:sturgis
@@ -1270,7 +1280,7 @@ tw-strolfer-superior-1897	E	Adolph Strolfer, miser of Superior	Douglas	WI		resea
 tw-strolfer-superior-1897	E	Adolph Strolfer, miser of Superior	Douglas	WI		research/plats/strolfer-douglas-wi.md	1	file:strolfer
 tw-strolfer-superior-1897	E	Adolph Strolfer, miser of Superior	Douglas	WI		project-files/research/court-records/pin-records-check.tsv	2	co:superior
 tw-strolfer-superior-1897	E	Adolph Strolfer, miser of Superior	Douglas	WI		project-files/research/treasure-statewide/blackburn-card.md	5	co:superior
-tw-markee-amery-1936	E	Amil Markee's cache under the milk shed, Amery	Polk	WI		research/ancestry/markee-apple-river-polk.md	5	two:amery
+tw-markee-amery-1936	E	Amil Markee's cache under the milk shed, Amery	Polk	WI		research/ancestry/markee-apple-river-polk.md	1	two:amil
 tw-markee-amery-1936	E	Amil Markee's cache under the milk shed, Amery	Polk	WI		research/ancestry/INDEX.md	36	two:amil
 tw-markee-amery-1936	E	Amil Markee's cache under the milk shed, Amery	Polk	WI		project-files/research/court-records/pin-records-check.tsv	7	id
 it-armstrong-silver-bar	E	Armstrong's lost silver bar (Bayfield peninsula, c.1820s find)	Bayfield	WI		project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md	23	co:armstrong
@@ -1376,6 +1386,10 @@ t-becker-glidden	E	James Becker's bonds (also spelled Beckey)	Ashland	WI		resear
 stark-mcneil-yellow-boys	E	James McNeil's 'yellow boys', Rock Island	Door	WI		research/negatives.tsv	139	co:yellow
 stark-mcneil-yellow-boys	E	James McNeil's 'yellow boys', Rock Island	Door	WI		project-files/research/treasure-statewide/deep-dives/murphy-warsaw.md	57	co:yellow
 t-tr-northfield	E	James-Younger gang loot near Northfield	Rice	MN		research/negatives.tsv	31	id
+t-tr-northfield	E	James-Younger gang loot near Northfield	Rice	MN		research/newspapers-com/pc-a-asks-results.md	414	two:younger
+t-tr-northfield	E	James-Younger gang loot near Northfield	Rice	MN		research/newspapers-com/pc-b-asks-results.md	8	co:northfield
+t-tr-northfield	E	James-Younger gang loot near Northfield	Rice	MN		research/ancestry/list19.md	23	two:younger
+t-tr-northfield	E	James-Younger gang loot near Northfield	Rice	MN		project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md	31	co:northfield
 t-tr-winther	E	Joseph Winther’s buried gold coins	Faribault	MN		research/negatives.tsv	34	id
 fr-knife-lake-first-iron-knives-from-radisson	E	Knife Lake - first iron knives from Radisson (1659-60)	Kanabec	MN		research/negatives.tsv	51	id
 t-kraft-bank-1931	E	Kraft State Bank robbery loot	Dunn	WI		research/negatives.tsv	26	id
@@ -1502,7 +1516,7 @@ tw-mn-waldorf-tweit-recluse-1927-medo	E	Tweit family farm, Medo Twp (alternate s
 tw-mn-waldorf-tweit-recluse-1927-medo	E	Tweit family farm, Medo Twp (alternate spot for Michael Tweit's money)	Blue Earth	MN		project-files/research/treasure-statewide/leads-mn.tsv	20	two:medo
 tw-mn-waldorf-tweit-recluse-1927-medo	E	Tweit family farm, Medo Twp (alternate spot for Michael Tweit's money)	Blue Earth	MN		project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md	8	two:waldorf
 tw-mn-waldorf-tweit-recluse-1927-medo	E	Tweit family farm, Medo Twp (alternate spot for Michael Tweit's money)	Blue Earth	MN		project-files/research/treasure-statewide/persons.tsv	122	two:waldorf
-coff-davock-minch	E	William B. Davock and Anna Minch (1940)	Oceana	MI		research/newspapers-com/pc-a-asks-results.md	658	two:davock
+coff-davock-minch	E	William B. Davock and Anna Minch (1940)	Oceana	MI		research/newspapers-com/pc-a-asks-results.md	658	two:minch
 t-tr-colvill	E	William Colvill’s Civil War gold	Cook	MN		research/negatives.tsv	40	id
 t-winona-gang	E	Winona Gang loot (Minnesota)	Winona (MN)	WI		research/negatives.tsv	23	id
 t-portage-riverboat-gold	E	Wisconsin River riverboat gold bars	Columbia	WI		research/leads.tsv	5	co:portage
@@ -1553,6 +1567,7 @@ tw-mi-bogus-island-counterfeiters	F	Bogus Island counterfeiters' cave, swamp nea
 tw-mi-bogus-island-counterfeiters	F	Bogus Island counterfeiters' cave, swamp near Leoni	Jackson	MI		research/newspapers-com/pc-a-asks-results.md	381	two:leoni
 tw-mi-bogus-island-counterfeiters	F	Bogus Island counterfeiters' cave, swamp near Leoni	Jackson	MI		research/newspapers-com/field-notes-barron.md	371	co:bogus
 tw-mi-bogus-island-counterfeiters	F	Bogus Island counterfeiters' cave, swamp near Leoni	Jackson	MI		research/jstor/jstor-list1.md	28	co:bogus
+tw-mi-bogus-island-counterfeiters	F	Bogus Island counterfeiters' cave, swamp near Leoni	Jackson	MI		research/ancestry/INDEX.md	60	co:bogus
 tw-mi-bogus-island-counterfeiters	F	Bogus Island counterfeiters' cave, swamp near Leoni	Jackson	MI		project-files/research/treasure-statewide/leads-mi.tsv	20	id
 tw-wi-marinette-burglar-loot-1913	F	Burglars' loot half-buried off the Peshtigo road by a saloon	Marinette	WI		research/negatives.tsv	45	co:peshtigo
 tw-wi-marinette-burglar-loot-1913	F	Burglars' loot half-buried off the Peshtigo road by a saloon	Marinette	WI		research/plats/wabeno-athelstane.md	12	co:peshtigo
@@ -1581,6 +1596,7 @@ tw-mn-henderson-ritter-beer-casks	F	Forty casks of beer under the old Henderson 
 tw-mn-henderson-ritter-beer-casks	F	Forty casks of beer under the old Henderson brewery (found)	Sibley	MN		research/newspapers-com/leads.tsv	155	two:ritter
 tw-mn-henderson-ritter-beer-casks	F	Forty casks of beer under the old Henderson brewery (found)	Sibley	MN		research/ancestry/list17.md	62	co:henderson
 tw-mn-henderson-ritter-beer-casks	F	Forty casks of beer under the old Henderson brewery (found)	Sibley	MN		research/ancestry/list14.md	32	two:ritter
+tw-mn-henderson-ritter-beer-casks	F	Forty casks of beer under the old Henderson brewery (found)	Sibley	MN		research/ancestry/list19.md	83	two:ritter
 tw-mn-henderson-ritter-beer-casks	F	Forty casks of beer under the old Henderson brewery (found)	Sibley	MN		research/ancestry/list15.md	20	co:henderson
 tw-mn-henderson-ritter-beer-casks	F	Forty casks of beer under the old Henderson brewery (found)	Sibley	MN		research/ancestry/INDEX.md	55	two:ritter
 tw-mn-henderson-ritter-beer-casks	F	Forty casks of beer under the old Henderson brewery (found)	Sibley	MN		research/clippings/README.md	3	id
