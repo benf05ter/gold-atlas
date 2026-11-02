@@ -1,0 +1,6 @@
+# List 19 (PC b, 2026-11-02)
+
+## 1. KOSTER, Garden Peninsula, Delta Co MI (house burned 3 Feb 1909; see newspapers-com/treasure-list-t13-t21.md)
+- **1900 census (7602): "Nicklos Coster", head, b. Dec 1827 Germany, "Sack Bay, Delta, Michigan"** (Sack Bay is the enumeration place name; it lies on the Garden Peninsula's Big Bay de Noc side, N of Garden). No 1910 Nicholas Koster in Delta was found in the index; he died in Feb 1909.
+- **1913 Delta Standard Atlas:** the TOC (viewer p.3) gives T39N R18W fract. atlas p.58 and T40N R18W p.59. **Viewer p.50 (image 31617_072120-00072) = atlas p.58, the Garden township plate (T39N R18W)**, with Kates Bay, "Vans Harbor P.O." and Garden Bay / Garden village (sec 17). **Viewer p.51 (…-00073) = T40N R18W** (the Big Bay de Noquette W shore, Illinois North West Colonization Co., Bay de Noquet Lbr Co.). Both were read at owner-name zoom, and **no Koster/Coster appears on either.** That is expected: he died in 1909 and the atlas is from 1913. The T40N R19W plate (viewer p.46, Nahma, W side of the bay) is not relevant.
+- **Not placed from the plat.** Best available: the 1900 "Sack Bay" listing. A 1900-era plat or a 1909 probate would be needed. A pre-1909 Delta plat (if any) is not in Ancestry 1127 (only 1913).
