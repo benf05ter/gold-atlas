@@ -193,9 +193,9 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L362) (line 362)
 Notes:
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L779) (line 779)
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L128) (line 128)
-- [newspapers-com/ia-il-sweep.md](newspapers-com/ia-il-sweep.md#L42) (line 42)
+- [newspapers-com/ia-il-sweep.md](newspapers-com/ia-il-sweep.md#L35) (line 35)
 - [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L22) (line 22)
-- [ancestry/list12-dates.md](ancestry/list12-dates.md#L35) (line 35)
+- [ancestry/list12-dates.md](ancestry/list12-dates.md#L32) (line 32)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L52) (line 52)
 - [plats/hession-humboldt.md](plats/hession-humboldt.md#L1) (line 1)
 
@@ -220,7 +220,7 @@ Notes:
 - `/mnt/project-files/research/treasure-statewide/pc-newspapers-second-sources.md` line 12 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/persons.tsv` line 157 (shared folder only)
 
-Also mentions the place: [newspapers-com/court-probate-asks.md](newspapers-com/court-probate-asks.md#L44) (line 44); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L214) (line 214); [ancestry/INDEX.md](ancestry/INDEX.md#L25) (line 25); [county-depth/se-wi-histories/dodge-1880s.md](county-depth/se-wi-histories/dodge-1880s.md#L83) (line 83); `/mnt/project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md` line 22 (shared folder only)
+Also mentions the place: [newspapers-com/court-probate-asks.md](newspapers-com/court-probate-asks.md#L44) (line 44); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L214) (line 214); [ancestry/list21.md](ancestry/list21.md#L31) (line 31); [ancestry/INDEX.md](ancestry/INDEX.md#L25) (line 25); [county-depth/se-wi-histories/dodge-1880s.md](county-depth/se-wi-histories/dodge-1880s.md#L83) (line 83); `/mnt/project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md` line 22 (shared folder only)
 
 ### James Murphy's missing ~$24,000, Murphy farm barnyard, Warsaw Twp (Rice Co.)
 `tw-mn-warsaw-murphy-crock-1920` · grade B · Rice Co., MN · dig spot `dig-mn-warsaw-murphy-crock-1920`
@@ -331,7 +331,7 @@ Notes:
 - `/mnt/project-files/research/treasure-statewide/pc-read-list.md` line 12 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/persons.tsv` line 12 (shared folder only)
 
-Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L740) (line 740); [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L94) (line 94); [ancestry/land-ownership-maps-list8.md](ancestry/land-ownership-maps-list8.md#L47) (line 47); [plats/INDEX.md](plats/INDEX.md#L58) (line 58); [aerials/mi-msu-aerials.md](aerials/mi-msu-aerials.md#L15) (line 15); `/mnt/project-files/research/treasure-statewide/pc-b-plat-queue-2026-11-01.md` line 8 (shared folder only)
+Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L740) (line 740); [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L94) (line 94); [ancestry/list21.md](ancestry/list21.md#L17) (line 17); [ancestry/land-ownership-maps-list8.md](ancestry/land-ownership-maps-list8.md#L47) (line 47); [ancestry/INDEX.md](ancestry/INDEX.md#L62) (line 62); [plats/INDEX.md](plats/INDEX.md#L58) (line 58); [aerials/mi-msu-aerials.md](aerials/mi-msu-aerials.md#L15) (line 15); `/mnt/project-files/research/treasure-statewide/pc-b-plat-queue-2026-11-01.md` line 8 (shared folder only)
 
 ### The poisoned Englishman Carr's California gold, orchard farm east of Dimondale
 `tw-mi-dimondale-carr-gold` · grade B · Ingham Co., MI · dig spot `dig-mi-dimondale-carr-gold`
@@ -385,7 +385,7 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L266) (line 266)
 
 Notes:
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L777) (line 777)
-- [newspapers-com/pc-a-batch3-results.md](newspapers-com/pc-a-batch3-results.md#L14) (line 14)
+- [newspapers-com/pc-a-batch3-results.md](newspapers-com/pc-a-batch3-results.md#L7) (line 7)
 - [newspapers-com/second-sources-c-leads.md](newspapers-com/second-sources-c-leads.md#L70) (line 70)
 - [ancestry/list12-dates.md](ancestry/list12-dates.md#L11) (line 11)
 - [ancestry/chilson-north-muskegon-ancestry.md](ancestry/chilson-north-muskegon-ancestry.md#L1) (line 1)
@@ -393,7 +393,7 @@ Notes:
 - [ancestry/INDEX.md](ancestry/INDEX.md#L35) (line 35)
 - [fold3/fold3-list1.md](fold3/fold3-list1.md#L7) (line 7)
 - [plats/chilson-north-muskegon.md](plats/chilson-north-muskegon.md#L1) (line 1)
-- [sunday/sunday-list-2026-11-02.md](sunday/sunday-list-2026-11-02.md#L13) (line 13)
+- [sunday/sunday-list-2026-11-02.md](sunday/sunday-list-2026-11-02.md#L24) (line 24)
 - `/mnt/project-files/research/treasure-statewide/leads-mi.tsv` line 38 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/pc-newspapers-second-sources.md` line 19 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/persons.tsv` line 58 (shared folder only)
@@ -678,9 +678,9 @@ Also mentions the place: [ancestry/list12-dates.md](ancestry/list12-dates.md#L18
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L231) (line 231)
 
 Notes:
-- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L28) (line 28)
+- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L187) (line 187)
 - [newspapers-com/placement-gaps-list.md](newspapers-com/placement-gaps-list.md#L39) (line 39)
-- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L20) (line 20)
+- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L106) (line 106)
 - [newspapers-com/ia-il-second-source.md](newspapers-com/ia-il-second-source.md#L123) (line 123)
 - [genealogybank/gb-list1.md](genealogybank/gb-list1.md#L31) (line 31)
 - [ancestry/list12-dates.md](ancestry/list12-dates.md#L6) (line 6)
@@ -1093,6 +1093,7 @@ Notes:
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L265) (line 265)
 - [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L41) (line 41)
 - [ancestry/list18.md](ancestry/list18.md#L31) (line 31)
+- [ancestry/list21.md](ancestry/list21.md#L34) (line 34)
 - [plats/knaggs-bridge.md](plats/knaggs-bridge.md#L1) (line 1)
 - `/mnt/project-files/research/treasure-statewide/leads-mi.tsv` line 43 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md` line 5 (shared folder only)
@@ -1633,14 +1634,16 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L226) (line 226)
 Notes:
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L135) (line 135)
 - [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L196) (line 196)
+- [ancestry/list21.md](ancestry/list21.md#L13) (line 13)
 - [ancestry/list19.md](ancestry/list19.md#L33) (line 33)
+- [ancestry/INDEX.md](ancestry/INDEX.md#L62) (line 62)
 - [plats/INDEX.md](plats/INDEX.md#L46) (line 46)
 - [plats/schauer-hartford.md](plats/schauer-hartford.md#L7) (line 7)
 - `/mnt/project-files/research/treasure-statewide/leads-wi.tsv` line 30 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md` line 19 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/persons.tsv` line 170 (shared folder only)
 
-Also mentions the place: [ancestry/INDEX.md](ancestry/INDEX.md#L25) (line 25); [county-depth/se-wi-histories/washington-ozaukee-1880s.md](county-depth/se-wi-histories/washington-ozaukee-1880s.md#L184) (line 184); `/mnt/project-files/research/court-records/pin-records-check.tsv` line 44 (shared folder only)
+Also mentions the place: [county-depth/se-wi-histories/washington-ozaukee-1880s.md](county-depth/se-wi-histories/washington-ozaukee-1880s.md#L184) (line 184); `/mnt/project-files/research/court-records/pin-records-check.tsv` line 44 (shared folder only)
 
 ### Money buried above the dam, Niles (French and Indian war legend)
 `tw-mi-niles-dam-french-war-cache` · grade D · Berrien Co., MI
@@ -1659,11 +1662,11 @@ Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L223) (line 223)
 
 Notes:
-- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L633) (line 633)
+- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L408) (line 408)
 - [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L267) (line 267)
-- [ancestry/gregg-dover-racine.md](ancestry/gregg-dover-racine.md#L3) (line 3)
+- [ancestry/gregg-dover-racine.md](ancestry/gregg-dover-racine.md#L1) (line 1)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L44) (line 44)
-- [sunday/sunday-list-2026-11-02.md](sunday/sunday-list-2026-11-02.md#L33) (line 33)
+- [sunday/sunday-list-2026-11-02.md](sunday/sunday-list-2026-11-02.md#L21) (line 21)
 - `/mnt/project-files/research/treasure-statewide/leads-wi.tsv` line 26 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md` line 23 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/persons.tsv` line 163 (shared folder only)
@@ -2285,8 +2288,6 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L33) (line 33)
 
 Notes:
 - [negatives.tsv](negatives.tsv#L31) (line 31)
-- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L414) (line 414)
-- [ancestry/list19.md](ancestry/list19.md#L23) (line 23)
 
 Also mentions the place: [newspapers-com/pc-b-asks-results.md](newspapers-com/pc-b-asks-results.md#L8) (line 8); `/mnt/project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md` line 31 (shared folder only)
 
@@ -2635,7 +2636,7 @@ Notes:
 
 Notes:
 - [negatives.tsv](negatives.tsv#L301) (line 301)
-- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L632) (line 632)
+- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L633) (line 633)
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L149) (line 149)
 - [plats/pauquette-portage-glo.md](plats/pauquette-portage-glo.md#L1) (line 1)
 
