@@ -3709,8 +3709,8 @@ function ogCard(p){ const d=document.querySelector('#detail .detail'); if(!d||d.
   else if(navigator.onLine!==false){ const dx=0.0035/Math.cos(p.la*Math.PI/180), dy=0.00175, im=new Image(); im.className='ogheroimg'; im.alt='Aerial view around '+p.n; im.loading='lazy';
     im.src=`https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer/export?bbox=${p.lo-dx},${p.la-dy},${p.lo+dx},${p.la+dy}&bboxSR=4326&imageSR=3857&size=640,320&format=jpg&f=image`;
     im.onerror=()=>hero.remove(); hero.appendChild(im); hero.insertAdjacentHTML('beforeend','<span class="ogx" aria-hidden="true"></span><span class="ogcap">Aerial view (USGS), pin at the center</span>'); }
-  else return;
-  d.insertBefore(hero,h2);
+  else hero.dataset.none='1';   // POLISH3: no signal: no photo, but keep the rank pill and the Directions / Start hunt / Permission buttons
+  if(!hero.dataset.none) d.insertBefore(hero,h2);
   const rk=RK(p); if(rk) h2.insertAdjacentHTML('afterbegin',`<span class="ogrk" style="background:${rk==='X'?'var(--L-restricted)':`var(--rk${rk})`}" title="${esc(RKL[rk]||'')}">${RKP[rk]||''}</span>`); if(typeof TIER==='object') h2.insertAdjacentHTML('afterbegin',TIER.badge(p));
   const dir=d.querySelector('a[href*="/maps/dir/"]'), pm=OG.P[p.id], tags=d.querySelector('.tags');
   const q=document.createElement('div'); q.className='ogq';
@@ -5765,7 +5765,7 @@ addEventListener('DOMContentLoaded',()=>setTimeout(()=>{ RKV++; try{ drawMarkers
     st.textContent=(DRV.spd>1?mph+' mph':'Stopped')+(DRV.head!=null?' · heading '+CMP[Math.round(DRV.head/45)%8]:'')+(DRV.acc>60?' · weak GPS':''); }
   function dim(v){ DRV.dim=v; $('drvDim').hidden=!v; wake(!v); }
   function fix(pos){ if(!DRV.on) return; const c=pos.coords, lo=c.longitude, la=c.latitude, t=pos.timestamp||Date.now(); let sp=c.speed;
-    const r=DRV.ref; if(r){ const dm=mi(r.lo,r.la,lo,la)*1609.34, dt=(t-r.t)/1000; if((sp==null||isNaN(sp))&&dt>0) sp=dm/dt;
+    const r=DRV.ref; if(r){ const dm=mi(r.lo,r.la,lo,la)*1609.34, dt=(t-r.t)/1000; if((sp==null||isNaN(sp))&&dt>0) sp=dm/dt>67?(DRV.spd||0):dm/dt;
       if(dm>15){ if(c.heading==null||isNaN(c.heading)) DRV.head=brg(r.lo,r.la,lo,la); DRV.ref={lo,la,t}; } } else DRV.ref={lo,la,t};
     if(c.heading!=null&&!isNaN(c.heading)&&(sp||0)>1.5) DRV.head=c.heading;
     DRV.spd=Math.max(0,sp||0); DRV.acc=c.accuracy||0; DRV.pos={lo,la};
