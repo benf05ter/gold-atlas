@@ -110,3 +110,20 @@ Sources: LoC Sanborn Bronson 1897 (sanborn03935_003, 2 sheets), 1910 (sanborn039
 
 ## 5. Lempke, Webster City (Hamilton Co IA): census index
 - 1900 (keyword Hamilton) and 1910 (keyword Webster): **no Lempke in Hamilton Co / Webster City.** The hits are Lempkes in Fort Dodge (Webster Co: Louis J. b. 1877 IA, Amelia, Wilhelm), Ida Co (Peter, b. 1861 Germany) and Chicago. The aged father may be indexed as Lemke / Lembke; a Hamilton Co search without the name is too broad. **Not placed (low priority).**
+- (12:40Z) The Ancestry viewer is back. The 1898 Le Sueur set has 51 pages; the image ids jump (page 3 = 00482, page 12 = 00491, page 16 = 00495, page 30 = 00509).
+  - Pages checked: 12 New Prague, 16 East St. Peter / East Henderson insets, 24 a city plat, 30 Elysian village.
+  - The Lexington Twp plate (Le Center = T111N R24W per BLM) was not reached before the week's wrap-up. Next time, step through pages 4-11 and 17-23.
+  - A direct URL to image 00481 gives an error page; open the set at 00480 and use the next arrow or the page box.
+
+## Wrap-up (2026-11-02 12:40Z)
+- Stopped on the coordinator's wrap-up relay. Still open and needing the viewer:
+  - L26: #11, #12, #16, #19, #25, #4, #15, #18.
+  - L27: #15 Leggatt, #17 Vejvoda, #18 Millet (Lexington plate), the Andrew Jackson image, and plats for Wegemer / Rechenberg / Flynn.
+
+## 18. Millet: 1898 Lexington plate read (12:50Z)
+- **Ancestry 1127, Le Sueur 1898, page 21 of 51 (image 31617_072135-00500, atlas p.16): "Plat of Lexington, T111N R24W".** Read by eye at 2x zoom, all 36 sections.
+  - **No Millet / Mellet / Millett on the plate.**
+  - Names seen include M. Kudlik, O'Malley, Nester, Fickling, Erkle, Tiede, Picha, Preuss, Rynda, Kovarik, Moudry, Wasta, Kiserschott, Tuma, Jas. Chapman, Bradshaw, Jameson, Pope, Whipps, Robbins, Janovsky, Mahood, Simonett, Traxler, Kendall and others.
+  - Lexington village is in sec 9/10 by Clear Lake; Le Sueur Center is in sec 29.
+- So in 1898 Martin Millet did not own land in Lexington Twp. He bought after 1898 or rented. The 1906 farm needs a later plat (none on Ancestry 1127 for Le Sueur after 1898) or the 1905 MN state census. **Not placed; the 1906 card stays at its current level.**
+- Ottawa & Sharon (T111N R25-26W) is page 20 (image 00499), for the L26 #11 Reinhart follow-up.
