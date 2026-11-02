@@ -105,7 +105,7 @@
 ],
 "cr-wabeno-bank-loot-1921": [
 "1921 bank loot · newspaper-backed · county forest land",
-"u"
+"p"
 ],
 "dig-ia-medora-ogle-farm-1907": [
 "1907 farm gold · documented story · cache not recovered",
@@ -1930,5 +1930,9 @@
 "tw-ia-traer-showers-woodshed-gold-1904": [
 "1904 miser's jar of gold · under the woodshed · town lot look-only",
 "f"
+],
+"cr-wabeno-bank-loot-1921-north": [
+"1921 bank loot · empty cache dug up · forest search ground",
+"p"
 ]
 }
