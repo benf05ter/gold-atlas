@@ -97,6 +97,7 @@ tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber 
 tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/ia-il-sweep.md	35	two:hession
 tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/treasure-list-t13-t21.md	22	two:hession
 tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/plats/hession-humboldt.md	1	file:hession
+tw-wi-franklin-ford-gold-1875	B	James Ford's California gold by an old stump, southern Town of Franklin	Milwaukee	WI		research/newspapers-com/pc-a-asks-results.md	727	co:franklin
 tw-wi-franklin-ford-gold-1875	B	James Ford's California gold by an old stump, southern Town of Franklin	Milwaukee	WI		research/newspapers-com/pc-a-batch3-results.md	39	two:ford
 tw-wi-franklin-ford-gold-1875	B	James Ford's California gold by an old stump, southern Town of Franklin	Milwaukee	WI		research/newspapers-com/second-sources-c-leads.md	28	id
 tw-wi-franklin-ford-gold-1875	B	James Ford's California gold by an old stump, southern Town of Franklin	Milwaukee	WI		research/newspapers-com/court-probate-asks.md	44	co:ford
@@ -114,6 +115,7 @@ tw-wi-franklin-ford-gold-1875	B	James Ford's California gold by an old stump, so
 tw-wi-franklin-ford-gold-1875	B	James Ford's California gold by an old stump, southern Town of Franklin	Milwaukee	WI		project-files/research/treasure-statewide/pc-newspapers-second-sources.md	12	id
 tw-wi-franklin-ford-gold-1875	B	James Ford's California gold by an old stump, southern Town of Franklin	Milwaukee	WI		project-files/research/treasure-statewide/persons.tsv	157	id
 tw-mn-warsaw-murphy-crock-1920	B	James Murphy's missing ~$24,000, Murphy farm barnyard, Warsaw Twp (Rice Co.)	Rice	MN	dig-mn-warsaw-murphy-crock-1920	research/newspapers-com/second-sources-open-leads.md	15	co:murphy
+tw-mn-warsaw-murphy-crock-1920	B	James Murphy's missing ~$24,000, Murphy farm barnyard, Warsaw Twp (Rice Co.)	Rice	MN	dig-mn-warsaw-murphy-crock-1920	research/newspapers-com/pc-a-asks-results.md	738	co:murphy
 tw-mn-warsaw-murphy-crock-1920	B	James Murphy's missing ~$24,000, Murphy farm barnyard, Warsaw Twp (Rice Co.)	Rice	MN	dig-mn-warsaw-murphy-crock-1920	research/newspapers-com/pc-b-asks-results.md	5	co:murphy
 tw-mn-warsaw-murphy-crock-1920	B	James Murphy's missing ~$24,000, Murphy farm barnyard, Warsaw Twp (Rice Co.)	Rice	MN	dig-mn-warsaw-murphy-crock-1920	research/newspapers-com/leads.tsv	103	co:murphy
 tw-mn-warsaw-murphy-crock-1920	B	James Murphy's missing ~$24,000, Murphy farm barnyard, Warsaw Twp (Rice Co.)	Rice	MN	dig-mn-warsaw-murphy-crock-1920	research/newspapers-com/sweep-2-misers-loot.md	179	co:murphy
@@ -152,6 +154,7 @@ tw-mn-morken-nielson-miser-1916-treeclaim	B	Lars Nielson's tree-claim building s
 tw-wi-madison-roth-farm-1907	B	Matthew Roth's forgotten $3,000, farm just east of Madison	Dane	WI		research/newspapers-com/pc-a-batch3-results.md	48	two:matthew
 tw-wi-madison-roth-farm-1907	B	Matthew Roth's forgotten $3,000, farm just east of Madison	Dane	WI		research/newspapers-com/leads.tsv	140	two:matthew
 tw-wi-madison-roth-farm-1907	B	Matthew Roth's forgotten $3,000, farm just east of Madison	Dane	WI		research/newspapers-com/treasure-list-t13-t21.md	39	two:matthew
+tw-wi-madison-roth-farm-1907	B	Matthew Roth's forgotten $3,000, farm just east of Madison	Dane	WI		research/ancestry/land-ownership-maps-list8.md	9	two:roth
 tw-wi-madison-roth-farm-1907	B	Matthew Roth's forgotten $3,000, farm just east of Madison	Dane	WI		research/ancestry/INDEX.md	24	two:roth
 tw-wi-madison-roth-farm-1907	B	Matthew Roth's forgotten $3,000, farm just east of Madison	Dane	WI		research/ancestry/roth-madison-dane.md	1	file:roth
 tw-wi-madison-roth-farm-1907	B	Matthew Roth's forgotten $3,000, farm just east of Madison	Dane	WI		research/plats/roth-madison.md	1	two:matthew
@@ -183,7 +186,9 @@ tw-mulchrone-liberty-pole-1899	B	Patrick Mulchrone's hidden money, west of Liber
 tw-mulchrone-liberty-pole-1899	B	Patrick Mulchrone's hidden money, west of Liberty Pole	Vernon	WI	dig-mulchrone-liberty-pole-1899	project-files/research/court-records/pin-records-check.tsv	5	id
 tw-mulchrone-liberty-pole-1899	B	Patrick Mulchrone's hidden money, west of Liberty Pole	Vernon	WI	dig-mulchrone-liberty-pole-1899	project-files/research/court-records/newspapers-com-asks.md	8	id
 tw-mulchrone-liberty-pole-1899	B	Patrick Mulchrone's hidden money, west of Liberty Pole	Vernon	WI	dig-mulchrone-liberty-pole-1899	project-files/research/court-records/README.md	25	co:mulchrone
+tw-mi-bronson-gold-farm-1939	B	The Bronson "gold farm": $3,000 in gold dug up, one plugged tile still missing	Branch	MI	dig-mi-bronson-gold-farm-1939	research/newspapers-com/pc-a-asks-results.md	740	co:bronson
 tw-mi-bronson-gold-farm-1939	B	The Bronson "gold farm": $3,000 in gold dug up, one plugged tile still missing	Branch	MI	dig-mi-bronson-gold-farm-1939	research/newspapers-com/treasure-list-t13-t21.md	94	co:bronson
+tw-mi-bronson-gold-farm-1939	B	The Bronson "gold farm": $3,000 in gold dug up, one plugged tile still missing	Branch	MI	dig-mi-bronson-gold-farm-1939	research/ancestry/land-ownership-maps-list8.md	34	co:bronson
 tw-mi-bronson-gold-farm-1939	B	The Bronson "gold farm": $3,000 in gold dug up, one plugged tile still missing	Branch	MI	dig-mi-bronson-gold-farm-1939	research/plats/phillips-bronson.md	1	file:bronson
 tw-mi-bronson-gold-farm-1939	B	The Bronson "gold farm": $3,000 in gold dug up, one plugged tile still missing	Branch	MI	dig-mi-bronson-gold-farm-1939	research/plats/phillips-bronson-1915.md	1	file:bronson
 tw-mi-bronson-gold-farm-1939	B	The Bronson "gold farm": $3,000 in gold dug up, one plugged tile still missing	Branch	MI	dig-mi-bronson-gold-farm-1939	research/plats/INDEX.md	58	co:bronson
@@ -200,6 +205,7 @@ tw-mi-dimondale-carr-gold	B	The poisoned Englishman Carr's California gold, orch
 tw-ia-dubuque-kelly-bluff	B	Tom Kelly's buried lead-mine gold, Kelly's Bluff, Dubuque	Dubuque	IA		research/ancestry/iowa-batch-2.md	22	co:kelly
 tw-ia-dubuque-kelly-bluff	B	Tom Kelly's buried lead-mine gold, Kelly's Bluff, Dubuque	Dubuque	IA		research/ancestry/INDEX.md	32	co:kelly
 tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron	WI	dig-vajvoda-rice-lake-1925	research/newspapers-com/second-sources-open-leads.md	3	two:vejvoda
+tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron	WI	dig-vajvoda-rice-lake-1925	research/newspapers-com/pc-a-asks-results.md	737	two:vejvoda
 tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron	WI	dig-vajvoda-rice-lake-1925	research/newspapers-com/placement-gaps-list.md	6	two:vejvoda
 tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron	WI	dig-vajvoda-rice-lake-1925	research/newspapers-com/court-probate-asks.md	27	id
 tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron	WI	dig-vajvoda-rice-lake-1925	research/newspapers-com/field-notes-barron.md	262	co:rice
@@ -253,6 +259,7 @@ tw-mi-niles-andrew-jackson-gold	C	Andrew Jackson's hidden gold, Niles	Berrien	MI
 tw-mi-niles-andrew-jackson-gold	C	Andrew Jackson's hidden gold, Niles	Berrien	MI		research/newspapers-com/leads.tsv	147	two:niles
 tw-mi-niles-andrew-jackson-gold	C	Andrew Jackson's hidden gold, Niles	Berrien	MI		research/newspapers-com/treasure-list-t13-t21.md	437	two:niles
 tw-mi-niles-andrew-jackson-gold	C	Andrew Jackson's hidden gold, Niles	Berrien	MI		research/newspapers-com/sweep-2-misers-loot.md	248	two:niles
+tw-mi-niles-andrew-jackson-gold	C	Andrew Jackson's hidden gold, Niles	Berrien	MI		research/ancestry/land-ownership-maps-list8.md	25	two:niles
 tw-mi-niles-andrew-jackson-gold	C	Andrew Jackson's hidden gold, Niles	Berrien	MI		research/ancestry/michigan-death-records-batch.md	7	co:jackson
 tw-mi-niles-andrew-jackson-gold	C	Andrew Jackson's hidden gold, Niles	Berrien	MI		research/plats/sanborn-aitkin-niles.md	1	file:niles
 tw-mi-niles-andrew-jackson-gold	C	Andrew Jackson's hidden gold, Niles	Berrien	MI		research/plats/jackson-niles.md	1	file:niles
@@ -333,10 +340,10 @@ tw-ia-lake-city-bader-farm-1906	C	Henry Bader's woodshed gold, farm 9 mi NW of L
 tw-ia-lake-city-bader-farm-1906	C	Henry Bader's woodshed gold, farm 9 mi NW of Lake City	Calhoun	IA		research/newspapers-com/treasure-list-t13-t21.md	441	co:bader
 tw-ia-lake-city-bader-farm-1906	C	Henry Bader's woodshed gold, farm 9 mi NW of Lake City	Calhoun	IA		research/ancestry/INDEX.md	21	co:bader
 tw-ia-lake-city-bader-farm-1906	C	Henry Bader's woodshed gold, farm 9 mi NW of Lake City	Calhoun	IA		research/ancestry/iowa-batch-ogle-iwers-webster.md	41	co:bader
-tw-il-eureka-onnen-henhouse	C	Henry Onnen's henhouse jars and missing coin collection, Minonk	Woodford	IL		research/newspapers-com/ia-il-second-source.md	43	two:minonk
-tw-il-eureka-onnen-henhouse	C	Henry Onnen's henhouse jars and missing coin collection, Minonk	Woodford	IL		research/newspapers-com/treasure-list-t13-t21.md	25	two:minonk
-tw-il-eureka-onnen-henhouse	C	Henry Onnen's henhouse jars and missing coin collection, Minonk	Woodford	IL		research/ancestry/illinois-names-batch.md	7	two:minonk
-tw-il-eureka-onnen-henhouse	C	Henry Onnen's henhouse jars and missing coin collection, Minonk	Woodford	IL		research/ancestry/INDEX.md	29	two:minonk
+tw-il-eureka-onnen-henhouse	C	Henry Onnen's henhouse jars and missing coin collection, Minonk	Woodford	IL		research/newspapers-com/ia-il-second-source.md	42	two:eureka
+tw-il-eureka-onnen-henhouse	C	Henry Onnen's henhouse jars and missing coin collection, Minonk	Woodford	IL		research/newspapers-com/treasure-list-t13-t21.md	132	two:eureka
+tw-il-eureka-onnen-henhouse	C	Henry Onnen's henhouse jars and missing coin collection, Minonk	Woodford	IL		research/ancestry/illinois-names-batch.md	7	two:eureka
+tw-il-eureka-onnen-henhouse	C	Henry Onnen's henhouse jars and missing coin collection, Minonk	Woodford	IL		research/ancestry/INDEX.md	29	two:eureka
 tw-ia-dubuque-lunning-farm-1916	C	Herman Lunning's hidden money, recluse's cabin in the hills north of Galena	Jo Daviess	IL		research/newspapers-com/ia-il-sweep.md	178	two:galena
 tw-ia-dubuque-lunning-farm-1916	C	Herman Lunning's hidden money, recluse's cabin in the hills north of Galena	Jo Daviess	IL		research/newspapers-com/ia-il-second-source.md	78	two:galena
 tw-ia-dubuque-lunning-farm-1916	C	Herman Lunning's hidden money, recluse's cabin in the hills north of Galena	Jo Daviess	IL		research/newspapers-com/treasure-list-t13-t21.md	115	two:galena
@@ -369,6 +376,13 @@ tw-ia-fraser-joseph-brown-1911	C	Joseph Brown's gold buried about his home, Fras
 tw-ia-fraser-joseph-brown-1911	C	Joseph Brown's gold buried about his home, Fraser	Boone	IA		research/ancestry/INDEX.md	27	co:brown
 tw-ia-fraser-joseph-brown-1911	C	Joseph Brown's gold buried about his home, Fraser	Boone	IA		research/plats/sunday-plates-2026-11-02.md	26	two:fraser
 tw-ia-chariton-buchanan-cabin	C	Joseph Buchanan's money in his cabin, Chariton	Lucas	IA		research/ancestry/INDEX.md	27	co:buchanan
+cr-lemuel-hill-hoard-1906	C	Lemuel Hill’s miser hoard, Pleasant Hill township	Winona	MN		research/newspapers-com/pc-a-asks-results.md	709	two:lemuel
+cr-lemuel-hill-hoard-1906	C	Lemuel Hill’s miser hoard, Pleasant Hill township	Winona	MN		research/newspapers-com/pc-a-batch3-results.md	127	two:lemuel
+cr-lemuel-hill-hoard-1906	C	Lemuel Hill’s miser hoard, Pleasant Hill township	Winona	MN		research/newspapers-com/leads.tsv	15	two:lemuel
+cr-lemuel-hill-hoard-1906	C	Lemuel Hill’s miser hoard, Pleasant Hill township	Winona	MN		research/newspapers-com/ia-il-sweep.md	71	two:lemuel
+cr-lemuel-hill-hoard-1906	C	Lemuel Hill’s miser hoard, Pleasant Hill township	Winona	MN		research/ancestry/INDEX.md	18	co:lemuel
+cr-lemuel-hill-hoard-1906	C	Lemuel Hill’s miser hoard, Pleasant Hill township	Winona	MN		project-files/research/court-records/pin-records-check.tsv	26	id
+cr-lemuel-hill-hoard-1906	C	Lemuel Hill’s miser hoard, Pleasant Hill township	Winona	MN		project-files/research/treasure-statewide/pc-a-asks-batch3-2026-11-01.md	20	two:lemuel
 wd4-trimbelle-zopp	C	Michael Zopp's hidden money, Trimbelle (1912)	Pierce	WI	dig-trimbelle-zopp	research/newspapers-com/placement-gaps-list.md	17	co:zopp
 wd4-trimbelle-zopp	C	Michael Zopp's hidden money, Trimbelle (1912)	Pierce	WI	dig-trimbelle-zopp	research/newspapers-com/court-probate-asks.md	15	id
 wd4-trimbelle-zopp	C	Michael Zopp's hidden money, Trimbelle (1912)	Pierce	WI	dig-trimbelle-zopp	research/newspapers-com/leads.tsv	19	co:zopp
@@ -385,6 +399,7 @@ tw-mi-arthur-bay-souvigner-1907	C	Miser John Souvigner's hoard, Arthur Bay cabin
 tw-mi-arthur-bay-souvigner-1907	C	Miser John Souvigner's hoard, Arthur Bay cabin	Menominee	MI		research/newspapers-com/second-sources-c-leads.md	45	id
 tw-mi-arthur-bay-souvigner-1907	C	Miser John Souvigner's hoard, Arthur Bay cabin	Menominee	MI		research/newspapers-com/ia-il-second-source.md	143	two:souvigner
 tw-mi-arthur-bay-souvigner-1907	C	Miser John Souvigner's hoard, Arthur Bay cabin	Menominee	MI		research/ancestry/souvigner-ingallston-1900.md	1	file:souvigner
+tw-mi-arthur-bay-souvigner-1907	C	Miser John Souvigner's hoard, Arthur Bay cabin	Menominee	MI		research/ancestry/land-ownership-maps-list8.md	6	co:souvigner
 tw-mi-arthur-bay-souvigner-1907	C	Miser John Souvigner's hoard, Arthur Bay cabin	Menominee	MI		research/ancestry/michigan-death-records-batch.md	8	co:souvigner
 tw-mi-arthur-bay-souvigner-1907	C	Miser John Souvigner's hoard, Arthur Bay cabin	Menominee	MI		research/ancestry/INDEX.md	40	two:souvigner
 tw-mi-arthur-bay-souvigner-1907	C	Miser John Souvigner's hoard, Arthur Bay cabin	Menominee	MI		research/plats/INDEX.md	61	two:souvigner
@@ -422,6 +437,7 @@ tw-mn-star-lake-jacobson-1932	C	Murdered recluse Mons Jacobson's hidden money, f
 tw-mn-star-lake-jacobson-1932	C	Murdered recluse Mons Jacobson's hidden money, farm S of Silent Lake	Otter Tail	MN		project-files/research/treasure-statewide/persons.tsv	103	id
 tw-mi-muskegon-larson-norwegian-coin	C	Norwegian bank-robbery coin under a wood-turning shop, Muskegon	Muskegon	MI		research/newspapers-com/pc-a-asks-results.md	17	co:larson
 tw-mi-muskegon-larson-norwegian-coin	C	Norwegian bank-robbery coin under a wood-turning shop, Muskegon	Muskegon	MI		research/newspapers-com/treasure-list-t13-t21.md	265	co:larson
+tw-mi-muskegon-larson-norwegian-coin	C	Norwegian bank-robbery coin under a wood-turning shop, Muskegon	Muskegon	MI		research/ancestry/land-ownership-maps-list8.md	26	co:larson
 tw-mi-muskegon-larson-norwegian-coin	C	Norwegian bank-robbery coin under a wood-turning shop, Muskegon	Muskegon	MI		research/plats/larson-muskegon.md	1	file:larson
 tw-mi-muskegon-larson-norwegian-coin	C	Norwegian bank-robbery coin under a wood-turning shop, Muskegon	Muskegon	MI		research/plats/INDEX.md	50	co:larson
 tw-mi-muskegon-larson-norwegian-coin	C	Norwegian bank-robbery coin under a wood-turning shop, Muskegon	Muskegon	MI		project-files/research/treasure-statewide/leads-mi.tsv	37	id
@@ -429,6 +445,11 @@ tw-mi-muskegon-larson-norwegian-coin	C	Norwegian bank-robbery coin under a wood-
 tw-mi-muskegon-larson-norwegian-coin	C	Norwegian bank-robbery coin under a wood-turning shop, Muskegon	Muskegon	MI		project-files/research/treasure-statewide/pc-a-asks-batch3-2026-11-01.md	3	co:larson
 tw-mi-muskegon-larson-norwegian-coin	C	Norwegian bank-robbery coin under a wood-turning shop, Muskegon	Muskegon	MI		project-files/research/treasure-statewide/persons.tsv	55	id
 tw-il-bulbona-grove-trading-post	C	Old Bulbona's trading post farm (Spanish coin of 1786 found), Bureau County	Bureau	IL		research/ancestry/illinois-names-batch.md	16	co:bulbona
+tw-wi-kenosha-hanks-ropemaker-1895	C	Old rope maker's missing savings, half-acre homestead south of Kenosha	Kenosha	WI		research/newspapers-com/pc-a-asks-results.md	488	co:hanks
+tw-wi-kenosha-hanks-ropemaker-1895	C	Old rope maker's missing savings, half-acre homestead south of Kenosha	Kenosha	WI		research/ancestry/hank-kenosha.md	1	co:hanks
+tw-wi-kenosha-hanks-ropemaker-1895	C	Old rope maker's missing savings, half-acre homestead south of Kenosha	Kenosha	WI		research/ancestry/land-ownership-maps-list7.md	37	co:hanks
+tw-wi-kenosha-hanks-ropemaker-1895	C	Old rope maker's missing savings, half-acre homestead south of Kenosha	Kenosha	WI		research/ancestry/INDEX.md	30	co:hanks
+tw-wi-kenosha-hanks-ropemaker-1895	C	Old rope maker's missing savings, half-acre homestead south of Kenosha	Kenosha	WI		project-files/research/treasure-statewide/held-leads.md	14	id
 tw-mi-menominee-ole-johnson-cans	C	Ole Johnson's salmon cans of $10 gold under stone piles, farm near Menominee	Menominee	MI		research/newspapers-com/pc-a-asks-results.md	11	co:johnson
 tw-mi-menominee-ole-johnson-cans	C	Ole Johnson's salmon cans of $10 gold under stone piles, farm near Menominee	Menominee	MI		research/newspapers-com/ia-il-second-source.md	141	co:johnson
 tw-mi-menominee-ole-johnson-cans	C	Ole Johnson's salmon cans of $10 gold under stone piles, farm near Menominee	Menominee	MI		research/newspapers-com/sweep-2-misers-loot.md	47	co:johnson
@@ -442,20 +463,22 @@ tw-mi-menominee-ole-johnson-cans	C	Ole Johnson's salmon cans of $10 gold under s
 tw-mi-menominee-ole-johnson-cans	C	Ole Johnson's salmon cans of $10 gold under stone piles, farm near Menominee	Menominee	MI		project-files/research/treasure-statewide/pc-b-plat-queue-2026-11-01.md	18	co:johnson
 tw-mi-menominee-ole-johnson-cans	C	Ole Johnson's salmon cans of $10 gold under stone piles, farm near Menominee	Menominee	MI		project-files/research/treasure-statewide/persons.tsv	51	id
 tw-mi-menominee-ole-johnson-cans	C	Ole Johnson's salmon cans of $10 gold under stone piles, farm near Menominee	Menominee	MI		project-files/research/treasure-statewide/ground-fix/wi-batch1-fixes.md	12	id
-tw-mn-fergus-falls-trombler-1903	C	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		research/newspapers-com/pc-a-asks-results.md	10	two:fergus
-tw-mn-fergus-falls-trombler-1903	C	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		research/newspapers-com/treasure-list-t13-t21.md	165	two:fergus
+tw-mn-fergus-falls-trombler-1903	C	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		research/newspapers-com/pc-a-asks-results.md	10	two:trombler
+tw-mn-fergus-falls-trombler-1903	C	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		research/newspapers-com/treasure-list-t13-t21.md	165	two:trombler
 tw-mn-fergus-falls-trombler-1903	C	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		research/newspapers-com/sweep-2-misers-loot.md	104	co:fergus
-tw-mn-fergus-falls-trombler-1903	C	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		research/ancestry/trombler-jacobson-otter-tail.md	1	two:fergus
-tw-mn-fergus-falls-trombler-1903	C	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		research/ancestry/INDEX.md	41	two:fergus
-tw-mn-fergus-falls-trombler-1903	C	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		research/plats/trombler-fergus-falls.md	1	file:fergus
+tw-mn-fergus-falls-trombler-1903	C	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		research/ancestry/land-ownership-maps-list8.md	24	two:trombler
+tw-mn-fergus-falls-trombler-1903	C	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		research/ancestry/trombler-jacobson-otter-tail.md	1	file:trombler
+tw-mn-fergus-falls-trombler-1903	C	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		research/ancestry/INDEX.md	41	two:trombler
+tw-mn-fergus-falls-trombler-1903	C	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		research/plats/trombler-fergus-falls.md	1	file:trombler
 tw-mn-fergus-falls-trombler-1903	C	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		research/plats/jacobson-star-lake-plat.md	52	co:fergus
-tw-mn-fergus-falls-trombler-1903	C	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		research/plats/INDEX.md	48	two:fergus
+tw-mn-fergus-falls-trombler-1903	C	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		research/plats/INDEX.md	48	two:trombler
 tw-mn-fergus-falls-trombler-1903	C	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		project-files/research/court-records/pin-records-check.tsv	47	id
 tw-mn-fergus-falls-trombler-1903	C	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		project-files/research/treasure-statewide/leads-mn.tsv	12	id
-tw-mn-fergus-falls-trombler-1903	C	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md	9	two:fergus
+tw-mn-fergus-falls-trombler-1903	C	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md	9	two:trombler
 tw-mn-fergus-falls-trombler-1903	C	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		project-files/research/treasure-statewide/persons.tsv	102	id
 tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/newspapers-com/pc-a-asks-results.md	666	two:galien
 tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/newspapers-com/leads.tsv	148	two:galien
+tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/ancestry/land-ownership-maps-list8.md	20	co:swem
 tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/plats/sunday-plates-2026-11-02.md	29	two:galien
 tw-il-dekalb-yocum-jar-1939	C	Ray Yocum's forgotten fruit jar of $100 bills, DeKalb back yard	DeKalb	IL		research/ancestry/illinois-names-batch.md	15	co:yocum
 tw-mn-waldorf-tweit-recluse-1927	C	Recluse Michael Tweit's rumored buried money, farm near Waldorf	Waseca	MN		research/newspapers-com/second-sources-open-leads.md	9	two:waldorf
@@ -503,14 +526,14 @@ tw-wi-eau-claire-eliza-wilson-farm-1925	C	St. Paul bank loot rumored buried on t
 tw-wi-eau-claire-eliza-wilson-farm-1925	C	St. Paul bank loot rumored buried on the Eliza Wilson farm, Elk Creek	Eau Claire	WI		project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md	11	two:eliza
 tw-wi-eau-claire-eliza-wilson-farm-1925	C	St. Paul bank loot rumored buried on the Eliza Wilson farm, Elk Creek	Eau Claire	WI		project-files/research/treasure-statewide/persons.tsv	138	id
 tw-wi-eau-claire-eliza-wilson-farm-1925	C	St. Paul bank loot rumored buried on the Eliza Wilson farm, Elk Creek	Eau Claire	WI		project-files/research/treasure-statewide/wabeno-chippewa-card.md	10	co:paul
-tw-mi-bellevue-dolph-stumps	C	Strangers dig under stumps, Charles Dolph farm near Bellevue	Eaton	MI		research/newspapers-com/pc-a-batch3-results.md	117	two:bellevue
-tw-mi-bellevue-dolph-stumps	C	Strangers dig under stumps, Charles Dolph farm near Bellevue	Eaton	MI		research/newspapers-com/leads.tsv	142	two:bellevue
-tw-mi-bellevue-dolph-stumps	C	Strangers dig under stumps, Charles Dolph farm near Bellevue	Eaton	MI		research/newspapers-com/treasure-list-t13-t21.md	10	two:bellevue
-tw-mi-bellevue-dolph-stumps	C	Strangers dig under stumps, Charles Dolph farm near Bellevue	Eaton	MI		research/plats/dolph-grohe-swamp.md	1	two:bellevue
-tw-mi-bellevue-dolph-stumps	C	Strangers dig under stumps, Charles Dolph farm near Bellevue	Eaton	MI		research/plats/dolph-bellevue.md	1	file:bellevue
-tw-mi-bellevue-dolph-stumps	C	Strangers dig under stumps, Charles Dolph farm near Bellevue	Eaton	MI		research/plats/INDEX.md	44	two:bellevue
+tw-mi-bellevue-dolph-stumps	C	Strangers dig under stumps, Charles Dolph farm near Bellevue	Eaton	MI		research/newspapers-com/pc-a-batch3-results.md	117	two:dolph
+tw-mi-bellevue-dolph-stumps	C	Strangers dig under stumps, Charles Dolph farm near Bellevue	Eaton	MI		research/newspapers-com/leads.tsv	142	two:dolph
+tw-mi-bellevue-dolph-stumps	C	Strangers dig under stumps, Charles Dolph farm near Bellevue	Eaton	MI		research/newspapers-com/treasure-list-t13-t21.md	10	two:dolph
+tw-mi-bellevue-dolph-stumps	C	Strangers dig under stumps, Charles Dolph farm near Bellevue	Eaton	MI		research/plats/dolph-grohe-swamp.md	1	file:dolph
+tw-mi-bellevue-dolph-stumps	C	Strangers dig under stumps, Charles Dolph farm near Bellevue	Eaton	MI		research/plats/dolph-bellevue.md	1	file:dolph
+tw-mi-bellevue-dolph-stumps	C	Strangers dig under stumps, Charles Dolph farm near Bellevue	Eaton	MI		research/plats/INDEX.md	44	two:dolph
 tw-mi-bellevue-dolph-stumps	C	Strangers dig under stumps, Charles Dolph farm near Bellevue	Eaton	MI		project-files/research/treasure-statewide/leads-mi.tsv	13	id
-tw-mi-bellevue-dolph-stumps	C	Strangers dig under stumps, Charles Dolph farm near Bellevue	Eaton	MI		project-files/research/treasure-statewide/pc-a-asks-batch3-2026-11-01.md	18	two:bellevue
+tw-mi-bellevue-dolph-stumps	C	Strangers dig under stumps, Charles Dolph farm near Bellevue	Eaton	MI		project-files/research/treasure-statewide/pc-a-asks-batch3-2026-11-01.md	18	two:dolph
 tw-mi-bellevue-dolph-stumps	C	Strangers dig under stumps, Charles Dolph farm near Bellevue	Eaton	MI		project-files/research/treasure-statewide/persons.tsv	19	id
 tw-mn-byronville-heckes-1905	C	Thieves' $15,000 by the haunted house, Byronville	Waseca	MN		research/newspapers-com/pc-a-asks-results.md	8	two:byronville
 tw-mn-byronville-heckes-1905	C	Thieves' $15,000 by the haunted house, Byronville	Waseca	MN		research/newspapers-com/treasure-list-t13-t21.md	164	two:byronville
@@ -580,9 +603,6 @@ tw-mi-nepessing-lake-1896	D	$8,000 in gold, Nepessing Lake	Lapeer	MI		research/n
 tw-mi-nepessing-lake-1896	D	$8,000 in gold, Nepessing Lake	Lapeer	MI		research/newspapers-com/treasure-list-t13-t21.md	8	co:nepessing
 tw-mi-nepessing-lake-1896	D	$8,000 in gold, Nepessing Lake	Lapeer	MI		project-files/research/treasure-statewide/leads-mi.tsv	25	id
 tw-mi-nepessing-lake-1896	D	$8,000 in gold, Nepessing Lake	Lapeer	MI		project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md	18	co:nepessing
-tw-ia-columbus-jct-train-gold-1904	D	'$10,000 found near Letts in 1934' (forum only; no paper found)	Louisa	IA		research/newspapers-com/queue-ia-il-gold.txt	2	two:letts
-tw-ia-columbus-jct-train-gold-1904	D	'$10,000 found near Letts in 1934' (forum only; no paper found)	Louisa	IA		research/newspapers-com/leads.tsv	89	two:letts
-tw-ia-columbus-jct-train-gold-1904	D	'$10,000 found near Letts in 1934' (forum only; no paper found)	Louisa	IA		research/newspapers-com/sweep-2-misers-loot.md	62	two:letts
 ab-wells-cannon-river	D	'Bully' Wells's trading post (1853) and his unsolved 1863 murder	Rice	MN		research/newspapers-com/second-sources-open-leads.md	10	co:wells
 ab-wells-cannon-river	D	'Bully' Wells's trading post (1853) and his unsolved 1863 murder	Rice	MN		research/newspapers-com/leads.tsv	103	co:cannon
 ab-wells-cannon-river	D	'Bully' Wells's trading post (1853) and his unsolved 1863 murder	Rice	MN		research/newspapers-com/sweep-2-misers-loot.md	386	co:wells
@@ -619,6 +639,7 @@ tw-mi-north-lansing-franklin-house-1896	D	Bank-robbery tin box in the Franklin H
 tw-mi-north-lansing-franklin-house-1896	D	Bank-robbery tin box in the Franklin House cellar, North Lansing	Ingham	MI		research/newspapers-com/leads.tsv	132	two:lansing
 tw-mi-north-lansing-franklin-house-1896	D	Bank-robbery tin box in the Franklin House cellar, North Lansing	Ingham	MI		research/newspapers-com/treasure-list-t13-t21.md	358	co:lansing
 tw-mi-north-lansing-franklin-house-1896	D	Bank-robbery tin box in the Franklin House cellar, North Lansing	Ingham	MI		research/newspapers-com/sweep-2-misers-loot.md	295	two:lansing
+tw-mi-north-lansing-franklin-house-1896	D	Bank-robbery tin box in the Franklin House cellar, North Lansing	Ingham	MI		research/ancestry/land-ownership-maps-list8.md	27	two:lansing
 tw-mi-north-lansing-franklin-house-1896	D	Bank-robbery tin box in the Franklin House cellar, North Lansing	Ingham	MI		research/plats/carr-dimondale.md	3	co:lansing
 tw-mi-north-lansing-franklin-house-1896	D	Bank-robbery tin box in the Franklin House cellar, North Lansing	Ingham	MI		research/plats/INDEX.md	42	two:lansing
 tw-mi-north-lansing-franklin-house-1896	D	Bank-robbery tin box in the Franklin House cellar, North Lansing	Ingham	MI		research/plats/franklin-house-lansing.md	1	file:lansing
@@ -638,6 +659,7 @@ tw-wi-koshkonong-buckskin-gold	D	Buckskin bag of treaty gold sunk by a rock, Lak
 tw-wi-koshkonong-buckskin-gold	D	Buckskin bag of treaty gold sunk by a rock, Lake Koshkonong	Jefferson	WI		project-files/research/treasure-statewide/leads-wi.tsv	14	id
 tw-wi-koshkonong-buckskin-gold	D	Buckskin bag of treaty gold sunk by a rock, Lake Koshkonong	Jefferson	WI		project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md	25	co:koshkonong
 tw-il-marcus-train-robbery-1902	D	Burlington train robbers' buried silver, Iowa bank across from Marcus	Jackson	IA		research/newspapers-com/second-sources-open-leads.md	34	two:marcus
+tw-il-marcus-train-robbery-1902	D	Burlington train robbers' buried silver, Iowa bank across from Marcus	Jackson	IA		research/newspapers-com/pc-a-asks-results.md	726	co:marcus
 tw-il-marcus-train-robbery-1902	D	Burlington train robbers' buried silver, Iowa bank across from Marcus	Jackson	IA		research/newspapers-com/leads.tsv	112	two:marcus
 tw-il-marcus-train-robbery-1902	D	Burlington train robbers' buried silver, Iowa bank across from Marcus	Jackson	IA		research/newspapers-com/treasure-list-t13-t21.md	442	co:marcus
 tw-ia-pocahontas-calligan-lizard	D	Calligan gold legend, Lizard settlement creek farm	Pocahontas	IA		research/newspapers-com/leads.tsv	128	two:lizard
@@ -653,8 +675,9 @@ tw-mi-cobmoosa-lake-gold	D	Chief Cobmoosa's buried treaty gold, Cobmoosa Lake	Oc
 tw-mi-cobmoosa-lake-gold	D	Chief Cobmoosa's buried treaty gold, Cobmoosa Lake	Oceana	MI		project-files/research/treasure-statewide/persons.tsv	65	id
 tw-il-arsenal-island-davenport-1845	D	Col. George Davenport's money, Arsenal Island (1845 murder)	Rock Island	IL		research/newspapers-com/leads.tsv	89	co:davenport
 tw-il-arsenal-island-davenport-1845	D	Col. George Davenport's money, Arsenal Island (1845 murder)	Rock Island	IL		research/newspapers-com/sweep-2-misers-loot.md	66	co:davenport
+tw-wi-dickeyville-may-cache-1897	D	Conrad May's buried $45,000, Town of Jamestown near Dickeyville (find disputed)	Grant	WI		research/newspapers-com/pc-a-asks-results.md	706	co:conrad
 tw-wi-dickeyville-may-cache-1897	D	Conrad May's buried $45,000, Town of Jamestown near Dickeyville (find disputed)	Grant	WI		research/newspapers-com/leads.tsv	144	two:jamestown
-tw-wi-dickeyville-may-cache-1897	D	Conrad May's buried $45,000, Town of Jamestown near Dickeyville (find disputed)	Grant	WI		research/newspapers-com/county-coverage.tsv	55	two:dickeyville
+tw-wi-dickeyville-may-cache-1897	D	Conrad May's buried $45,000, Town of Jamestown near Dickeyville (find disputed)	Grant	WI		research/newspapers-com/county-coverage.tsv	55	co:conrad
 tw-wi-dickeyville-may-cache-1897	D	Conrad May's buried $45,000, Town of Jamestown near Dickeyville (find disputed)	Grant	WI		research/plats/may-dickeyville-grant.md	1	two:jamestown
 tw-wi-dickeyville-may-cache-1897	D	Conrad May's buried $45,000, Town of Jamestown near Dickeyville (find disputed)	Grant	WI		research/plats/INDEX.md	70	two:jamestown
 tw-wi-dickeyville-may-cache-1897	D	Conrad May's buried $45,000, Town of Jamestown near Dickeyville (find disputed)	Grant	WI		project-files/research/treasure-statewide/held-leads.md	11	two:jamestown
@@ -667,6 +690,7 @@ tw-ia-washington-gallup-red-oak	D	George Gallup's gallows confession: $5,000 und
 tw-ia-washington-gallup-red-oak	D	George Gallup's gallows confession: $5,000 under a red oak, NW corner of section 16	Washington	IA		research/ia-il/INDEX.md	9	co:gallup
 tw-ia-washington-gallup-red-oak	D	George Gallup's gallows confession: $5,000 under a red oak, NW corner of section 16	Washington	IA		research/ancestry/land-ownership-maps-list7.md	22	co:gallup
 tw-ia-washington-gallup-red-oak	D	George Gallup's gallows confession: $5,000 under a red oak, NW corner of section 16	Washington	IA		research/ancestry/INDEX.md	27	co:gallup
+tw-mi-north-manitou-chicago-fire-gold	D	Gold from a Chicago bank in the 1871 fire, North Manitou Island	Leelanau	MI		research/newspapers-com/pc-a-asks-results.md	728	co:manitou
 tw-mi-north-manitou-chicago-fire-gold	D	Gold from a Chicago bank in the 1871 fire, North Manitou Island	Leelanau	MI		research/newspapers-com/treasure-list-t13-t21.md	332	co:manitou
 tw-mi-north-manitou-chicago-fire-gold	D	Gold from a Chicago bank in the 1871 fire, North Manitou Island	Leelanau	MI		project-files/research/treasure-statewide/leads-mi.tsv	28	id
 tw-mi-grass-lake-bank-coins	D	Grass Lake bank robbery: $1,300 in gold and silver never recovered	Jackson	MI		research/newspapers-com/pc-a-asks-results.md	592	co:grass
@@ -692,6 +716,7 @@ tw-ia-grundy-center-ludtke-1907	D	Herman Ludtke, Grundy Center "man of mystery"	
 tw-ia-grundy-center-ludtke-1907	D	Herman Ludtke, Grundy Center "man of mystery"	Grundy	IA		research/ancestry/INDEX.md	27	co:ludtke
 tw-wi-palmyra-blackmore-shack-1927	D	Hermit brothers' gold in a trapper shack, 3 mi SW of Palmyra (part found 1927)	Jefferson	WI		research/newspapers-com/pc-a-asks-results.md	100	two:blackmore
 tw-wi-palmyra-blackmore-shack-1927	D	Hermit brothers' gold in a trapper shack, 3 mi SW of Palmyra (part found 1927)	Jefferson	WI		research/newspapers-com/treasure-list-t13-t21.md	351	two:blackmore
+tw-wi-palmyra-blackmore-shack-1927	D	Hermit brothers' gold in a trapper shack, 3 mi SW of Palmyra (part found 1927)	Jefferson	WI		research/ancestry/land-ownership-maps-list8.md	15	two:blackmore
 tw-wi-palmyra-blackmore-shack-1927	D	Hermit brothers' gold in a trapper shack, 3 mi SW of Palmyra (part found 1927)	Jefferson	WI		research/county-depth/se-wi-histories/jefferson-1880s.md	10	co:palmyra
 tw-wi-palmyra-blackmore-shack-1927	D	Hermit brothers' gold in a trapper shack, 3 mi SW of Palmyra (part found 1927)	Jefferson	WI		research/plats/blackmore-palmyra.md	1	file:blackmore
 tw-wi-palmyra-blackmore-shack-1927	D	Hermit brothers' gold in a trapper shack, 3 mi SW of Palmyra (part found 1927)	Jefferson	WI		research/plats/INDEX.md	63	two:blackmore
@@ -727,6 +752,7 @@ tw-mn-aitkin-dick-mills-trader-money	D	Indian trader "Uncle Dick" Mills' rumored
 tw-il-hennepin-feeder-spanish-chest-1901	D	Iron chest of Spanish coins dug from the Hennepin Canal, 20 mi south of Sterling	Bureau	IL		research/newspapers-com/leads.tsv	90	co:sterling
 tw-il-dover-hudson-jar-1913	D	James Hudson's $1,200 he hid twice, farm at Dover	Bureau	IL		research/newspapers-com/ia-il-second-source.md	51	two:hudson
 tw-il-dover-hudson-jar-1913	D	James Hudson's $1,200 he hid twice, farm at Dover	Bureau	IL		research/ancestry/illinois-names-batch.md	10	two:hudson
+tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/newspapers-com/pc-a-asks-results.md	707	two:gordon
 tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/newspapers-com/placement-gaps-list.md	23	two:gordon
 tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/newspapers-com/leads.tsv	115	two:gordon
 tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/newspapers-com/blackburn-gordon.md	1	file:gordon
@@ -760,12 +786,6 @@ tw-wi-green-bay-doehm-fox-river	D	Joseph Doehm threw $3,000-$4,000 into the Fox 
 tw-wi-green-bay-doehm-fox-river	D	Joseph Doehm threw $3,000-$4,000 into the Fox River, Green Bay	Brown	WI		project-files/research/treasure-statewide/persons.tsv	133	id
 t-tr-le-sueur	D	Le Sueur’s lost mine and Fort L’Huillier	Blue Earth	MN		research/newspapers-com/pc-a-asks-results.md	40	co:sueur
 t-tr-le-sueur	D	Le Sueur’s lost mine and Fort L’Huillier	Blue Earth	MN		research/newspapers-com/sweep-2-misers-loot.md	179	co:sueur
-cr-lemuel-hill-hoard-1906	D	Lemuel Hill’s miser hoard, Pleasant Hill township	Winona	MN		research/newspapers-com/pc-a-batch3-results.md	127	two:lemuel
-cr-lemuel-hill-hoard-1906	D	Lemuel Hill’s miser hoard, Pleasant Hill township	Winona	MN		research/newspapers-com/leads.tsv	15	two:lemuel
-cr-lemuel-hill-hoard-1906	D	Lemuel Hill’s miser hoard, Pleasant Hill township	Winona	MN		research/newspapers-com/ia-il-sweep.md	71	two:lemuel
-cr-lemuel-hill-hoard-1906	D	Lemuel Hill’s miser hoard, Pleasant Hill township	Winona	MN		research/ancestry/INDEX.md	18	co:lemuel
-cr-lemuel-hill-hoard-1906	D	Lemuel Hill’s miser hoard, Pleasant Hill township	Winona	MN		project-files/research/court-records/pin-records-check.tsv	26	id
-cr-lemuel-hill-hoard-1906	D	Lemuel Hill’s miser hoard, Pleasant Hill township	Winona	MN		project-files/research/treasure-statewide/pc-a-asks-batch3-2026-11-01.md	20	two:lemuel
 tw-parker-la-crosse-1901	D	Mary Ann Parker, the La Crosse hermit's hidden fortune	La Crosse	WI		research/ancestry/parker-la-crosse.md	1	file:parker
 tw-parker-la-crosse-1901	D	Mary Ann Parker, the La Crosse hermit's hidden fortune	La Crosse	WI		research/ancestry/INDEX.md	19	co:parker
 tw-wi-hartford-bauer-1898	D	Missing $1,028 from an 1898 roadside shooting, road to Holy Hill	Washington	WI		research/newspapers-com/pc-a-asks-results.md	135	two:holy
@@ -823,6 +843,7 @@ tw-ia-webster-city-lempke-hut-1906	D	Old Lempke's miser hut at the edge of Webst
 tw-ia-webster-city-lempke-hut-1906	D	Old Lempke's miser hut at the edge of Webster City	Hamilton	IA		research/ancestry/INDEX.md	27	two:lempke
 tw-wi-la-crosse-schaefermeyer-farm-1904	D	Old miser's $10,000 said concealed on the farm, La Crosse River NE of La Crosse	La Crosse	WI		research/newspapers-com/pc-a-asks-results.md	560	co:schaefermeyer
 tw-wi-la-crosse-schaefermeyer-farm-1904	D	Old miser's $10,000 said concealed on the farm, La Crosse River NE of La Crosse	La Crosse	WI		research/newspapers-com/pc-b-asks-results.md	70	co:schaefermeyer
+tw-wi-la-crosse-schaefermeyer-farm-1904	D	Old miser's $10,000 said concealed on the farm, La Crosse River NE of La Crosse	La Crosse	WI		research/ancestry/land-ownership-maps-list8.md	19	co:schaefermeyer
 tw-wi-la-crosse-schaefermeyer-farm-1904	D	Old miser's $10,000 said concealed on the farm, La Crosse River NE of La Crosse	La Crosse	WI		research/ancestry/INDEX.md	43	co:schaefermeyer
 tw-wi-la-crosse-schaefermeyer-farm-1904	D	Old miser's $10,000 said concealed on the farm, La Crosse River NE of La Crosse	La Crosse	WI		research/ancestry/schaefermeyer-la-crosse-probate.md	1	file:schaefermeyer
 tw-wi-la-crosse-schaefermeyer-farm-1904	D	Old miser's $10,000 said concealed on the farm, La Crosse River NE of La Crosse	La Crosse	WI		research/plats/schaeffermeyer-la-crosse.md	1	co:schaefermeyer
@@ -841,11 +862,6 @@ tw-mi-escanaba-koster-1900s	D	Old recluse's fortune, house burned at Garden	Delt
 tw-mi-escanaba-koster-1900s	D	Old recluse's fortune, house burned at Garden	Delta	MI		project-files/research/treasure-statewide/pc-a-asks-batch3-2026-11-01.md	19	two:koster
 tw-mi-escanaba-koster-1900s	D	Old recluse's fortune, house burned at Garden	Delta	MI		project-files/research/treasure-statewide/persons.tsv	18	id
 tw-mi-escanaba-koster-1900s	D	Old recluse's fortune, house burned at Garden	Delta	MI		project-files/research/treasure-statewide/ground-fix/wi-batch1-fixes.md	12	id
-tw-wi-kenosha-hanks-ropemaker-1895	D	Old rope maker's missing savings, half-acre homestead south of Kenosha	Kenosha	WI		research/newspapers-com/pc-a-asks-results.md	488	co:hanks
-tw-wi-kenosha-hanks-ropemaker-1895	D	Old rope maker's missing savings, half-acre homestead south of Kenosha	Kenosha	WI		research/ancestry/hank-kenosha.md	1	co:hanks
-tw-wi-kenosha-hanks-ropemaker-1895	D	Old rope maker's missing savings, half-acre homestead south of Kenosha	Kenosha	WI		research/ancestry/land-ownership-maps-list7.md	37	co:hanks
-tw-wi-kenosha-hanks-ropemaker-1895	D	Old rope maker's missing savings, half-acre homestead south of Kenosha	Kenosha	WI		research/ancestry/INDEX.md	30	co:hanks
-tw-wi-kenosha-hanks-ropemaker-1895	D	Old rope maker's missing savings, half-acre homestead south of Kenosha	Kenosha	WI		project-files/research/treasure-statewide/held-leads.md	14	id
 tw-mi-petoskey-bear-river-ottawa-gold	D	Ottawa bars of gold in iron boxes, Bear River gravel pit, Petoskey	Emmet	MI		research/newspapers-com/pc-a-batch3-results.md	102	two:petoskey
 tw-mi-petoskey-bear-river-ottawa-gold	D	Ottawa bars of gold in iron boxes, Bear River gravel pit, Petoskey	Emmet	MI		research/newspapers-com/leads.tsv	141	two:petoskey
 tw-mi-petoskey-bear-river-ottawa-gold	D	Ottawa bars of gold in iron boxes, Bear River gravel pit, Petoskey	Emmet	MI		research/plats/INDEX.md	83	two:petoskey
@@ -858,6 +874,7 @@ tw-mi-poverty-island-bullion	D	Poverty Island bullion ship	Delta	MI		project-fil
 tw-wi-sheboygan-behr-iron-box-1930	D	Recluse's $4,500 iron box in the cellar, S. 22nd Street, Sheboygan	Sheboygan	WI		research/newspapers-com/pc-a-asks-results.md	15	co:behr
 tw-wi-sheboygan-behr-iron-box-1930	D	Recluse's $4,500 iron box in the cellar, S. 22nd Street, Sheboygan	Sheboygan	WI		research/newspapers-com/treasure-list-t13-t21.md	335	co:behr
 tw-wi-sheboygan-behr-iron-box-1930	D	Recluse's $4,500 iron box in the cellar, S. 22nd Street, Sheboygan	Sheboygan	WI		research/ancestry/behr-sheboygan.md	1	file:behr
+tw-wi-sheboygan-behr-iron-box-1930	D	Recluse's $4,500 iron box in the cellar, S. 22nd Street, Sheboygan	Sheboygan	WI		research/ancestry/land-ownership-maps-list8.md	29	co:behr
 tw-wi-sheboygan-behr-iron-box-1930	D	Recluse's $4,500 iron box in the cellar, S. 22nd Street, Sheboygan	Sheboygan	WI		research/ancestry/INDEX.md	42	co:behr
 tw-wi-sheboygan-behr-iron-box-1930	D	Recluse's $4,500 iron box in the cellar, S. 22nd Street, Sheboygan	Sheboygan	WI		project-files/research/treasure-statewide/leads-wi.tsv	28	id
 tw-wi-sheboygan-behr-iron-box-1930	D	Recluse's $4,500 iron box in the cellar, S. 22nd Street, Sheboygan	Sheboygan	WI		project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md	14	co:behr
@@ -934,7 +951,7 @@ tw-strolfer-superior-1897	E	Adolph Strolfer, miser of Superior	Douglas	WI		resea
 tw-strolfer-superior-1897	E	Adolph Strolfer, miser of Superior	Douglas	WI		research/plats/INDEX.md	33	co:superior
 tw-strolfer-superior-1897	E	Adolph Strolfer, miser of Superior	Douglas	WI		project-files/research/court-records/pin-records-check.tsv	2	co:superior
 tw-strolfer-superior-1897	E	Adolph Strolfer, miser of Superior	Douglas	WI		project-files/research/treasure-statewide/blackburn-card.md	5	co:superior
-tw-markee-amery-1936	E	Amil Markee's cache under the milk shed, Amery	Polk	WI		research/ancestry/markee-apple-river-polk.md	5	two:amery
+tw-markee-amery-1936	E	Amil Markee's cache under the milk shed, Amery	Polk	WI		research/ancestry/markee-apple-river-polk.md	1	two:amil
 tw-markee-amery-1936	E	Amil Markee's cache under the milk shed, Amery	Polk	WI		research/ancestry/INDEX.md	36	two:amil
 tw-markee-amery-1936	E	Amil Markee's cache under the milk shed, Amery	Polk	WI		project-files/research/court-records/pin-records-check.tsv	7	id
 it-armstrong-silver-bar	E	Armstrong's lost silver bar (Bayfield peninsula, c.1820s find)	Bayfield	WI		project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md	23	co:armstrong
@@ -946,6 +963,7 @@ t-tr-ney-brewery	E	Charles Ney’s brewery fortune	Sibley	MN		project-files/rese
 t-tr-ney-brewery	E	Charles Ney’s brewery fortune	Sibley	MN		project-files/research/treasure-statewide/persons.tsv	119	id
 t-tr-green-isle	E	Curran brothers’ cellar hoard, Green Isle Township	Sibley	MN		research/newspapers-com/leads.tsv	16	two:curran
 t-tr-green-isle	E	Curran brothers’ cellar hoard, Green Isle Township	Sibley	MN		project-files/research/treasure-statewide/persons.tsv	133	co:green
+tw-randall-north-bend-1901	E	David Randall, miser of North Bend	Jackson	WI		research/newspapers-com/pc-a-asks-results.md	723	co:randall
 tw-randall-north-bend-1901	E	David Randall, miser of North Bend	Jackson	WI		research/newspapers-com/court-probate-asks.md	23	id
 tw-randall-north-bend-1901	E	David Randall, miser of North Bend	Jackson	WI		research/newspapers-com/leads.tsv	4	co:randall
 tw-randall-north-bend-1901	E	David Randall, miser of North Bend	Jackson	WI		research/newspapers-com/sweep-2-misers-loot.md	281	co:randall
@@ -955,7 +973,7 @@ tw-randall-north-bend-1901	E	David Randall, miser of North Bend	Jackson	WI		proj
 tw-randall-north-bend-1901	E	David Randall, miser of North Bend	Jackson	WI		project-files/research/court-records/negatives-court.tsv	3	co:randall
 tw-randall-north-bend-1901	E	David Randall, miser of North Bend	Jackson	WI		project-files/research/court-records/newspapers-com-asks.md	6	id
 tw-randall-north-bend-1901	E	David Randall, miser of North Bend	Jackson	WI		project-files/research/treasure-statewide/pc-newspapers-second-sources.md	34	co:randall
-tw-donnerstag-gold-1908	E	Donnerstag brothers' $4,000 in gold coin, Manson Lake woods	Oneida	WI		research/newspapers-com/leads.tsv	8	two:manson
+tw-donnerstag-gold-1908	E	Donnerstag brothers' $4,000 in gold coin, Manson Lake woods	Oneida	WI		research/newspapers-com/leads.tsv	8	two:donnerstag
 t-la-pointe-pingers	E	Eli Pingers' gold at La Pointe	Ashland	WI		research/newspapers-com/pc-a-asks-results.md	574	co:pointe
 t-la-pointe-pingers	E	Eli Pingers' gold at La Pointe	Ashland	WI		research/newspapers-com/pc-a-batch3-results.md	166	two:pingers
 t-la-pointe-pingers	E	Eli Pingers' gold at La Pointe	Ashland	WI		research/newspapers-com/leads.tsv	143	two:pingers
@@ -1076,7 +1094,6 @@ t-bennett-eagle-river	E	R.C. Bennett's tin boxes	Vilas	WI		research/newspapers-c
 t-bennett-eagle-river	E	R.C. Bennett's tin boxes	Vilas	WI		research/newspapers-com/sweep-2-misers-loot.md	71	co:eagle
 t-bennett-eagle-river	E	R.C. Bennett's tin boxes	Vilas	WI		research/newspapers-com/county-coverage.tsv	23	co:eagle
 gwl-table-mound	E	Table Mound treasure tale, between Black Earth and Cross Plains	Dane	WI		research/newspapers-com/leads.tsv	142	co:black
-t-tr-fontaine	E	Thomas Fontaine’s missing cash	Polk	MN		research/newspapers-com/pc-a-asks-results.md	673	co:fontaine
 wd5-stanley-coin-can	E	Tin can of old coins on the Wolf River bank near Stanley (1936)	Chippewa	WI		research/newspapers-com/leads.tsv	121	co:stanley
 wd5-stanley-coin-can	E	Tin can of old coins on the Wolf River bank near Stanley (1936)	Chippewa	WI		research/newspapers-com/ia-il-second-source.md	153	co:stanley
 wd5-stanley-coin-can	E	Tin can of old coins on the Wolf River bank near Stanley (1936)	Chippewa	WI		research/newspapers-com/sweep-2-misers-loot.md	17	co:wolf
@@ -1104,10 +1121,13 @@ tw-mn-waldorf-tweit-recluse-1927-medo	E	Tweit family farm, Medo Twp (alternate s
 tw-mn-waldorf-tweit-recluse-1927-medo	E	Tweit family farm, Medo Twp (alternate spot for Michael Tweit's money)	Blue Earth	MN		project-files/research/treasure-statewide/leads-mn.tsv	20	two:medo
 tw-mn-waldorf-tweit-recluse-1927-medo	E	Tweit family farm, Medo Twp (alternate spot for Michael Tweit's money)	Blue Earth	MN		project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md	8	two:waldorf
 tw-mn-waldorf-tweit-recluse-1927-medo	E	Tweit family farm, Medo Twp (alternate spot for Michael Tweit's money)	Blue Earth	MN		project-files/research/treasure-statewide/persons.tsv	122	two:waldorf
-coff-davock-minch	E	William B. Davock and Anna Minch (1940)	Oceana	MI		research/newspapers-com/pc-a-asks-results.md	658	two:davock
+coff-davock-minch	E	William B. Davock and Anna Minch (1940)	Oceana	MI		research/newspapers-com/pc-a-asks-results.md	658	two:minch
 t-portage-riverboat-gold	E	Wisconsin River riverboat gold bars	Columbia	WI		research/newspapers-com/pc-a-asks-results.md	626	co:portage
 t-portage-riverboat-gold	E	Wisconsin River riverboat gold bars	Columbia	WI		research/newspapers-com/second-sources-c-leads.md	125	co:portage
 t-portage-riverboat-gold	E	Wisconsin River riverboat gold bars	Columbia	WI		project-files/research/treasure-statewide/leads-wi.tsv	11	co:portage
+tw-ia-columbus-jct-train-gold-1904	F	'$10,000 found near Letts in 1934' (forum only; no paper found)	Louisa	IA		research/newspapers-com/queue-ia-il-gold.txt	2	two:letts
+tw-ia-columbus-jct-train-gold-1904	F	'$10,000 found near Letts in 1934' (forum only; no paper found)	Louisa	IA		research/newspapers-com/leads.tsv	89	two:letts
+tw-ia-columbus-jct-train-gold-1904	F	'$10,000 found near Letts in 1934' (forum only; no paper found)	Louisa	IA		research/newspapers-com/sweep-2-misers-loot.md	62	two:letts
 tw-mi-pinckney-dillon-coins-1932	F	Ancient coins dug on Patrick Dillon's farm, Pinckney	Livingston	MI		research/newspapers-com/treasure-list-t13-t21.md	9	co:dillon
 tw-mi-pinckney-dillon-coins-1932	F	Ancient coins dug on Patrick Dillon's farm, Pinckney	Livingston	MI		project-files/research/treasure-statewide/leads-mi.tsv	30	id
 tw-mi-pinckney-dillon-coins-1932	F	Ancient coins dug on Patrick Dillon's farm, Pinckney	Livingston	MI		project-files/research/treasure-statewide/persons.tsv	46	id
@@ -1197,20 +1217,20 @@ tw-mn-winona-schmidt-crocks-1933	F	Louis Schmidt's missing $7,000 in jars and cr
 tw-mn-winona-schmidt-crocks-1933	F	Louis Schmidt's missing $7,000 in jars and crocks, 653 W. Third St., Winona	Winona	MN		project-files/research/treasure-statewide/persons.tsv	126	id
 tw-mn-winona-schmidt-crocks-1933	F	Louis Schmidt's missing $7,000 in jars and crocks, 653 W. Third St., Winona	Winona	MN		project-files/research/treasure-statewide/deep-dives/pc-job-1.md	23	co:schmidt
 tw-mn-winona-schmidt-crocks-1933	F	Louis Schmidt's missing $7,000 in jars and crocks, 653 W. Third St., Winona	Winona	MN		project-files/research/treasure-statewide/deep-dives/schmidt-winona.md	2	id
-tw-mi-mineral-range-express-1893	F	Mineral Range express-car robbery: $75,000 never found	Houghton	MI		project-files/research/treasure-statewide/leads-mi.tsv	15	id
-tw-mi-mineral-range-express-1893	F	Mineral Range express-car robbery: $75,000 never found	Houghton	MI		project-files/research/treasure-statewide/ground-fix/wi-batch1-fixes.md	12	id
+tw-mi-mineral-range-express-1893	F	Mineral Range express robbery, $75,000 (recovered 1893)	Houghton	MI		project-files/research/treasure-statewide/leads-mi.tsv	15	id
+tw-mi-mineral-range-express-1893	F	Mineral Range express robbery, $75,000 (recovered 1893)	Houghton	MI		project-files/research/treasure-statewide/ground-fix/wi-batch1-fixes.md	12	id
 tw-mi-big-beaver-harris-tin-box	F	Miser's tin box ($1,100) found, more believed, Big Beaver	Oakland	MI		research/newspapers-com/sweep-2-misers-loot.md	229	co:beaver
 tw-mi-big-beaver-harris-tin-box	F	Miser's tin box ($1,100) found, more believed, Big Beaver	Oakland	MI		project-files/research/treasure-statewide/leads-mi.tsv	40	id
 tw-mi-big-beaver-harris-tin-box	F	Miser's tin box ($1,100) found, more believed, Big Beaver	Oakland	MI		project-files/research/treasure-statewide/persons.tsv	61	id
-tw-wi-glencoe-roland-1893	F	Old soldier Patrick Roland's money, Town of Glencoe	Buffalo	WI		research/newspapers-com/pc-b-asks-results.md	44	two:roland
+tw-wi-glencoe-roland-1893	F	Old soldier Patrick Roland's money, Town of Glencoe	Buffalo	WI		research/newspapers-com/pc-b-asks-results.md	44	two:glencoe
 tw-wi-glencoe-roland-1893	F	Old soldier Patrick Roland's money, Town of Glencoe	Buffalo	WI		research/newspapers-com/second-sources-c-leads.md	10	id
-tw-wi-glencoe-roland-1893	F	Old soldier Patrick Roland's money, Town of Glencoe	Buffalo	WI		research/newspapers-com/treasure-list-t13-t21.md	12	two:roland
-tw-wi-glencoe-roland-1893	F	Old soldier Patrick Roland's money, Town of Glencoe	Buffalo	WI		research/ancestry/rowland-glencoe-buffalo.md	1	two:roland
+tw-wi-glencoe-roland-1893	F	Old soldier Patrick Roland's money, Town of Glencoe	Buffalo	WI		research/newspapers-com/treasure-list-t13-t21.md	12	two:glencoe
+tw-wi-glencoe-roland-1893	F	Old soldier Patrick Roland's money, Town of Glencoe	Buffalo	WI		research/ancestry/rowland-glencoe-buffalo.md	1	file:glencoe
 tw-wi-glencoe-roland-1893	F	Old soldier Patrick Roland's money, Town of Glencoe	Buffalo	WI		research/ancestry/INDEX.md	22	co:glencoe
-tw-wi-glencoe-roland-1893	F	Old soldier Patrick Roland's money, Town of Glencoe	Buffalo	WI		research/plats/roland-glencoe.md	1	file:roland
-tw-wi-glencoe-roland-1893	F	Old soldier Patrick Roland's money, Town of Glencoe	Buffalo	WI		research/plats/INDEX.md	57	two:roland
+tw-wi-glencoe-roland-1893	F	Old soldier Patrick Roland's money, Town of Glencoe	Buffalo	WI		research/plats/roland-glencoe.md	1	file:glencoe
+tw-wi-glencoe-roland-1893	F	Old soldier Patrick Roland's money, Town of Glencoe	Buffalo	WI		research/plats/INDEX.md	57	two:glencoe
 tw-wi-glencoe-roland-1893	F	Old soldier Patrick Roland's money, Town of Glencoe	Buffalo	WI		project-files/research/treasure-statewide/leads-wi.tsv	6	id
-tw-wi-glencoe-roland-1893	F	Old soldier Patrick Roland's money, Town of Glencoe	Buffalo	WI		project-files/research/treasure-statewide/pc-b-plat-queue-2026-11-01.md	6	two:roland
+tw-wi-glencoe-roland-1893	F	Old soldier Patrick Roland's money, Town of Glencoe	Buffalo	WI		project-files/research/treasure-statewide/pc-b-plat-queue-2026-11-01.md	6	two:glencoe
 tw-wi-glencoe-roland-1893	F	Old soldier Patrick Roland's money, Town of Glencoe	Buffalo	WI		project-files/research/treasure-statewide/pc-newspapers-second-sources.md	9	id
 tw-wi-glencoe-roland-1893	F	Old soldier Patrick Roland's money, Town of Glencoe	Buffalo	WI		project-files/research/treasure-statewide/persons.tsv	134	id
 tw-wi-glencoe-roland-1893	F	Old soldier Patrick Roland's money, Town of Glencoe	Buffalo	WI		project-files/research/treasure-statewide/ground-fix/wi-batch1-fixes.md	5	id
@@ -1243,19 +1263,19 @@ tw-wi-eaton-swantek-1932	F	Robbers torture a farmer for a 'mythical' $10,000 hoa
 tw-wi-eaton-swantek-1932	F	Robbers torture a farmer for a 'mythical' $10,000 hoard, Eaton (1932)	Brown	WI		project-files/research/treasure-statewide/pc-newspapers-second-sources.md	10	id
 tw-wi-eaton-swantek-1932	F	Robbers torture a farmer for a 'mythical' $10,000 hoard, Eaton (1932)	Brown	WI		project-files/research/treasure-statewide/persons.tsv	132	id
 tw-wi-eaton-swantek-1932	F	Robbers torture a farmer for a 'mythical' $10,000 hoard, Eaton (1932)	Brown	WI		project-files/research/treasure-statewide/ground-fix/wi-batch1-fixes.md	13	co:eaton
-tw-wi-lynn-olesen-maple-box-1900	F	Robbers' box of silver dollars and silverware under a maple, Lynn	Clark	WI		research/newspapers-com/second-sources-open-leads.md	28	two:olesen
-tw-wi-lynn-olesen-maple-box-1900	F	Robbers' box of silver dollars and silverware under a maple, Lynn	Clark	WI		research/newspapers-com/pc-a-asks-results.md	428	two:olesen
-tw-wi-lynn-olesen-maple-box-1900	F	Robbers' box of silver dollars and silverware under a maple, Lynn	Clark	WI		research/newspapers-com/leads.tsv	82	two:olesen
-tw-wi-lynn-olesen-maple-box-1900	F	Robbers' box of silver dollars and silverware under a maple, Lynn	Clark	WI		research/plats/olesen-lynn-plat.md	1	file:olesen
-tw-wi-lynn-olesen-maple-box-1900	F	Robbers' box of silver dollars and silverware under a maple, Lynn	Clark	WI		research/plats/INDEX.md	22	two:olesen
+tw-wi-lynn-olesen-maple-box-1900	F	Robbers' box of silver dollars and silverware under a maple, Lynn	Clark	WI		research/newspapers-com/second-sources-open-leads.md	28	two:lynn
+tw-wi-lynn-olesen-maple-box-1900	F	Robbers' box of silver dollars and silverware under a maple, Lynn	Clark	WI		research/newspapers-com/pc-a-asks-results.md	428	two:lynn
+tw-wi-lynn-olesen-maple-box-1900	F	Robbers' box of silver dollars and silverware under a maple, Lynn	Clark	WI		research/newspapers-com/leads.tsv	82	two:lynn
+tw-wi-lynn-olesen-maple-box-1900	F	Robbers' box of silver dollars and silverware under a maple, Lynn	Clark	WI		research/plats/olesen-lynn-plat.md	1	file:lynn
+tw-wi-lynn-olesen-maple-box-1900	F	Robbers' box of silver dollars and silverware under a maple, Lynn	Clark	WI		research/plats/INDEX.md	22	two:lynn
 tw-wi-lynn-olesen-maple-box-1900	F	Robbers' box of silver dollars and silverware under a maple, Lynn	Clark	WI		project-files/research/treasure-statewide/leads-wi.tsv	8	id
-tw-wi-lynn-olesen-maple-box-1900	F	Robbers' box of silver dollars and silverware under a maple, Lynn	Clark	WI		project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md	27	two:olesen
-tw-wi-lynn-olesen-maple-box-1900	F	Robbers' box of silver dollars and silverware under a maple, Lynn	Clark	WI		project-files/research/treasure-statewide/pc-b-plat-queue-2026-11-01.md	22	two:olesen
+tw-wi-lynn-olesen-maple-box-1900	F	Robbers' box of silver dollars and silverware under a maple, Lynn	Clark	WI		project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md	27	two:lynn
+tw-wi-lynn-olesen-maple-box-1900	F	Robbers' box of silver dollars and silverware under a maple, Lynn	Clark	WI		project-files/research/treasure-statewide/pc-b-plat-queue-2026-11-01.md	22	two:lynn
 tw-wi-lynn-olesen-maple-box-1900	F	Robbers' box of silver dollars and silverware under a maple, Lynn	Clark	WI		project-files/research/treasure-statewide/pc-read-list.md	13	id
 tw-wi-lynn-olesen-maple-box-1900	F	Robbers' box of silver dollars and silverware under a maple, Lynn	Clark	WI		project-files/research/treasure-statewide/persons.tsv	136	id
 tw-wi-lynn-olesen-maple-box-1900	F	Robbers' box of silver dollars and silverware under a maple, Lynn	Clark	WI		project-files/research/treasure-statewide/deep-dives/iail-dickson-iwers-harmon.md	21	co:olesen
-tw-wi-lynn-olesen-maple-box-1900	F	Robbers' box of silver dollars and silverware under a maple, Lynn	Clark	WI		project-files/research/treasure-statewide/deep-dives/olesen-lynn.md	1	file:olesen
-tw-wi-lynn-olesen-maple-box-1900	F	Robbers' box of silver dollars and silverware under a maple, Lynn	Clark	WI		project-files/research/treasure-statewide/deep-dives/pc-job-2.md	16	two:olesen
+tw-wi-lynn-olesen-maple-box-1900	F	Robbers' box of silver dollars and silverware under a maple, Lynn	Clark	WI		project-files/research/treasure-statewide/deep-dives/olesen-lynn.md	1	file:lynn
+tw-wi-lynn-olesen-maple-box-1900	F	Robbers' box of silver dollars and silverware under a maple, Lynn	Clark	WI		project-files/research/treasure-statewide/deep-dives/pc-job-2.md	16	two:lynn
 tw-wi-lynn-olesen-maple-box-1900	F	Robbers' box of silver dollars and silverware under a maple, Lynn	Clark	WI		project-files/research/treasure-statewide/ground-fix/wi-batch1-fixes.md	6	id
 tw-mn-st-charles-express-silver-1913	F	Stolen express silver (~$900) buried between St. Charles and Dover	Winona / Olmsted	MN		project-files/research/treasure-statewide/leads-mn.tsv	23	id
 tw-wi-beaver-mattrick-farm-1925	F	Stolen farm money near Beaver: recovered 1924; 1925 'still buried' claim dug without result	Marinette	WI		research/newspapers-com/pc-a-asks-results.md	7	two:mattrick
@@ -1272,12 +1292,13 @@ tw-ia-barnum-barner-farm-1914	F	Stolen jewelry "plant" on the Steve Barner farm,
 tw-ia-barnum-barner-farm-1914	F	Stolen jewelry "plant" on the Steve Barner farm, 4 mi N of Barnum	Webster	IA		research/ia-il/barner-bennett-uiowa-atlases.md	5	co:steve
 tw-mi-van-buren-bumpus-strongbox	F	Stolen strongbox of gold on the Bumpus farm, Van Buren Twp	Wayne	MI		project-files/research/treasure-statewide/leads-mi.tsv	48	id
 tw-mi-van-buren-bumpus-strongbox	F	Stolen strongbox of gold on the Bumpus farm, Van Buren Twp	Wayne	MI		project-files/research/treasure-statewide/persons.tsv	71	id
+t-tr-fontaine	F	The 'Fontaine' murder cash, Mentor (no cache; wrong man named)	Polk	MN		research/newspapers-com/pc-a-asks-results.md	673	two:fontaine
 tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		research/newspapers-com/queue-ia-il-gold.txt	6	two:tipton
 tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		research/newspapers-com/placement-gaps-list.md	64	two:sunbury
 tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		research/newspapers-com/leads.tsv	92	two:tipton
 tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		research/newspapers-com/ia-il-sweep.md	162	co:iwers
 tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		research/ancestry/INDEX.md	21	two:inland
-tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		research/ancestry/iowa-batch-ogle-iwers-webster.md	15	two:inland
+tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		research/ancestry/iowa-batch-ogle-iwers-webster.md	37	two:tipton
 tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		research/plats/placement-gaps-pass-b.md	11	two:inland
 tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		project-files/research/treasure-statewide/deep-dives/iail-dickson-iwers-harmon.md	11	two:inland
 tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		project-files/research/treasure-statewide/deep-dives/pc-job-2.md	11	two:tipton
