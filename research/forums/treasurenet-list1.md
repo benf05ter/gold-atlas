@@ -54,3 +54,10 @@ Format: place | county | story | amount | thread | forum date | cross-check | pe
 4. Dexter / Dexfield Park July 1933: anything left or dug up at the Barrow camp.
 5. PC (a) view-only: the Mulligan Five Mile Hill clipping image in thread 64180.
 6. Optional: vault.fbi.gov Baby Face Nelson file, Bentz statement page (cloud access untested).
+
+## Dexfield Park placement (04:35Z, asked by Treasure)
+- Sources: accounts describe the park as on the south side of the South Raccoon River, about halfway between Dexter and Redfield ("three miles from both", with Dexfield Road running to it), opened 1915 and later owned by the DNR, with the 2008 shootout marker on Dexfield Road (teachingiowahistory.org "Dexfield Park"; Dexter museum, via search summaries; the pages themselves are blocked from the cloud).
+- Old maps: the USGS 1949 Adel 15' topo (prd-tnm IA_Adel_174008_1949_62500) shows no park name; the wooded bluffs south of the river are in secs 8, 9, 16 and 17 of Union Twp. On the USGS 1982 Redfield 7.5' topo (IA_Redfield_175413_1982_24000) a "Public Access Area" sits on the south bank at the NW corner of sec 9, where a lane runs west along the 8/9 line, with wooded high ground (1040 ft knob) just south on the 16/17 line. That is the only public parcel on the south bank between the two towns, and it fits the "DNR owns it now" note.
+- Placement: 41.5640, -94.2010, radius 600 m. It covers the access area and the wooded rise to the south (the gang's camp was on a wooded hill above the park). The radius is wide on purpose; a 1920s-30s Dallas Co plat showing "Dexfield Park" would tighten it (PC ask).
+- Distances: about 5.6 km (3.5 mi) from Dexter and 2.7 km from Redfield. That is a little off "halfway", so it's flagged for a plat check.
+- Access: public (DNR), look-only per the ruling.
