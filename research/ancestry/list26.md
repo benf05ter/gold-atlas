@@ -122,3 +122,28 @@
 - **Card:** the Chappell land is **N of Leoni village beside the Michigan Central**, which fits "swamp near the Michigan Central line". The knoll itself is not placed.
   - **Provisional pin: Leoni village / Chappell 214, about 42.26, -84.29 (r600, C).** The village is about 42.26 N, 84.29 W; coordinates are from the village, not a BLM lookup.
   - Next: BLM box for the Chappell section, plus a lidar look for a raised knoll in the marsh.
+- **24 follow-up (BLM + lidar):**
+  - BLM point query: **Leoni village (about -84.286, 42.260) lies in sec 35, T2S R1E** (MI19), bounds 42.2481-42.2629 N, 84.2896-84.2698 W. That matches **Vern Chappell's listed "S. 35, T. Leoni"**, so the Chappell land is at and around the village.
+  - **3DEP hillshade (view only), bbox -84.300,42.245 to -84.262,42.272.** Large flat, featureless (marsh) basins lie W and E of the village.
+  - **Candidate A (best): a cluster of small rounded knolls, one with a ring/moat outline, in the flat basin W of the village, at about 42.2618, -84.2945** (sec 34, just W of the sec 34/35 line). A second small knob sits at about 42.2633, -84.2940. These are isolated rises in otherwise flat ground, a good fit for an "island" in the swamp.
+  - **Candidate B:** a single round knob in the flat basin E/SE of the village, at about **42.2555, -84.2656** (secs 36/1 area), N of the rail corridor.
+  - Neither is labelled. Provisional pin: Candidate A, r150, grade for Treasure to rule. A 1938 aerial would confirm marsh vs. cultivated land.
+- **24, Treasure ruling:** the pin is the **knoll cluster at 42.2618, -84.2945** (sent to Ground check). **Alternative: the SE knob at 42.2555, -84.2656.**
+
+## 20. McKnight hut, South First St, Marshalltown (Marshall Co IA): street located, house not
+- **LoC Sanborn Marshalltown** items: sanborn02742_001 (1888-04), _002 (1894), _003 (1901-11), _004 (1910-03; its files are labelled 1901), _005/_006 (1921), _008 (1931), _007 (1884).
+- **1901 key and index (02742_1901-0001), "First St.":**
+  - S. 1-106 = sheet 2.
+  - S. 107-316 = sheet 14.
+  - S. 400-621 = sheet 18.
+  - Sheet 18 is the S edge of the coverage, toward the railroad yards and the Iowa River flats.
+- **Without a house number the hut can't be placed on a sheet.** A hut "on South First Street" is most likely at the S end (600 block and beyond, near the river), probably beyond the Sanborn coverage.
+- **Next:** a 1907 Marshalltown directory entry for Honora / Mrs. McKnight to get the number. Card: S. First St, south end, about block level. Not geocoded here.
+
+## 3. Adsit home, Cherokee (IA)
+- **Census:**
+  - **1920 (6061): Ray Adsit, head, b. about 1871 IA, "Treasurer, County", 608 Bismark Place, Cherokee Ward 1**, with wife Edna and daughter Helene (b. 1906).
+  - 1910 (7884): Ray Adsit, wife Mary E., daughter Mildred Helene, in Cherokee city.
+  - (This is the "W. C." Adsit of the card? The census index gives only "Ray". Check initials.)
+- **LoC Sanborn Cherokee:** items 02602_001-_008 (1883-1924); the 1914-12 set (02602_006, 9 sheets) is digitized. **Its street index (B) lists only Beech and Burch, with no "Bismark Place"**, so the house lay **outside the Sanborn coverage** (residential edge of Ward 1). "Bismark Place" is also not in OSM/Nominatim today (it was probably renamed during WWI).
+- **Not placed to a lot.** It needs a Cherokee city plat or a 1910s directory with a street-rename note. Card: Cherokee Ward 1, town level.

@@ -1453,6 +1453,7 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L318) (line 318)
 
 Notes:
 - [ia-il/iowa-town-leads-plats.md](ia-il/iowa-town-leads-plats.md#L85) (line 85)
+- [ancestry/list26.md](ancestry/list26.md#L141) (line 141)
 
 Also mentions the place: [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L102) (line 102); [newspapers-com/ia-il-sweep.md](newspapers-com/ia-il-sweep.md#L11) (line 11); [ia-il/INDEX.md](ia-il/INDEX.md#L8) (line 8); [ancestry/INDEX.md](ancestry/INDEX.md#L27) (line 27)
 
@@ -1689,7 +1690,7 @@ Also mentions the place: [newspapers-com/ia-il-second-source.md](newspapers-com/
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L313) (line 313)
 
 
-Also mentions the place: [ancestry/INDEX.md](ancestry/INDEX.md#L27) (line 27)
+Also mentions the place: [ancestry/list26.md](ancestry/list26.md#L143) (line 143); [ancestry/INDEX.md](ancestry/INDEX.md#L27) (line 27)
 
 ### North Fox Island: German land-payment gold (1850 legend) and the 1905 hoax find
 `tw-mi-north-fox-german-gold` · grade D · Leelanau Co., MI
@@ -2093,7 +2094,7 @@ Also mentions the place: [negatives.tsv](negatives.tsv#L231) (line 231); [newspa
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L190) (line 190)
 
 Notes:
-- [ancestry/markee-apple-river-polk.md](ancestry/markee-apple-river-polk.md#L5) (line 5)
+- [ancestry/markee-apple-river-polk.md](ancestry/markee-apple-river-polk.md#L1) (line 1)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L36) (line 36)
 - `/mnt/project-files/research/court-records/pin-records-check.tsv` line 7 (shared folder only)
 
@@ -3126,7 +3127,7 @@ Notes:
 - [ancestry/list16.md](ancestry/list16.md#L38) (line 38)
 - [clippings/README.md](clippings/README.md#L3) (line 3)
 
-Also mentions the place: [newspapers-com/county-coverage-wi-mi-chronam.tsv](newspapers-com/county-coverage-wi-mi-chronam.tsv#L24) (line 24); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L71) (line 71); [newspapers-com/county-coverage.tsv](newspapers-com/county-coverage.tsv#L23) (line 23)
+Also mentions the place: [newspapers-com/county-coverage-wi-mi-chronam.tsv](newspapers-com/county-coverage-wi-mi-chronam.tsv#L24) (line 24); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L118) (line 118); [newspapers-com/county-coverage.tsv](newspapers-com/county-coverage.tsv#L23) (line 23)
 
 ### Rechenberg's jar of mildewed bills, Dodd Road farm (found 1924)
 `tw-mn-west-st-paul-rechenberg-jar-1924` · grade F · Dakota Co., MN
