@@ -7183,4 +7183,76 @@ if(typeof TIER==='object'){ const g=TIER.get; TIER.get=p=>{ const b=g(p); return
   if(!document.getElementById('tlCss')) document.head.insertAdjacentHTML('beforeend','<style id="tlCss">.tlcard{margin:8px 0;font-size:13.5px}.tlcard summary{cursor:pointer;font-weight:700}.tl{list-style:none;margin:6px 0 2px;padding:0 0 0 12px;border-left:2px solid color-mix(in srgb,var(--ink) 25%,transparent)}.tl li{margin:0 0 7px;position:relative;line-height:1.35}.tl li::before{content:"";position:absolute;left:-17px;top:6px;width:8px;height:8px;border-radius:50%;background:var(--ink)}.tl li b{margin-right:4px}.tl .tls{display:block;font-size:12px;opacity:.7}.tl .tli{font-size:11.5px;opacity:.75}</style>');
 }
 </script>
+<script>
+// ---------- Treasure in one place (v524, 2026-11-02): every treasure layer sits under one Treasure heading in the Layers sheet,
+// and a "Browse all treasure leads" list shows every lead grouped by grade S to F, tap a row to go to the pin. Nothing is hidden
+// behind search: the box at the top of the list only narrows what is already listed (name, place, county, state, year, grade, record type).
+// Another treasure layer joins the heading by putting its id in TRB.LAY (pins in the list) or TRB.EXTRA (heading only).
+{
+const TRB={LAY:['treasure','dig'], OPT:['wreck'], EXTRA:['_buried'], open:null, q:'', kinds:new Set(['treasure','dig','other'])};
+window.TRB=TRB;
+TRB.group=function(){ const ids=[...TRB.LAY,...TRB.OPT,...TRB.EXTRA]; let last=-1;
+  for(let i=0;i<LAYERS.length;i++) if(LAYERS[i].sec==='Treasure') last=i;
+  for(const id of ids){ const i=LAYERS.findIndex(l=>l.id===id); if(i<0) continue; const l=LAYERS[i]; if(l.sec==='Treasure') continue;
+    l.sec='Treasure'; LAYERS.splice(i,1); if(i<last) last--; LAYERS.splice(last+1,0,l); last++; } };
+TRB.group();
+const GR=['S','A','B','C','D','E','F'];
+const KIND=p=>p.L==='treasure'?'treasure':p.L==='dig'?'dig':p.L==='wreck'?'wreck':'other';
+const KN={treasure:'Lead',dig:'Dig spot',wreck:'Shipwreck',other:'Lead'};
+const st=p=>(typeof STN==='object'&&STN[p.stt])||p.stt||'';
+function pins(){ const L=new Set([...TRB.LAY,...TRB.OPT]); return PTS.filter(p=>L.has(p.L)||(p.bur===1&&!L.has(p.L)&&p.L!=='wreck')); }
+function hay(p){ return p._trbh||(p._trbh=[p.n,p.pl,p.co,p.co&&p.co+' county',st(p),p.stt,p.y,p.v,CONF[p.c],STATUS[p.s],KN[KIND(p)]].filter(Boolean).join(' ').toLowerCase()); }
+function match(p,q){ if(!q) return true; const g=TIER.t(p); if(/^[sabcdef]$/i.test(q)) return g===q.toUpperCase();
+  const m=q.match(/^(?:grade|tier)\s*([sabcdef])$|^([sabcdef])\s*(?:grade|tier)$/i); if(m) return g===(m[1]||m[2]).toUpperCase();
+  const h=hay(p); return q.toLowerCase().split(/\s+/).every(w=>h.includes(w)); }
+function row(p){ const t=TIER.get(p).t, k=KIND(p), mi=isFinite(p.mi)?(p.mi<10?p.mi.toFixed(1):Math.round(p.mi))+' mi':'';
+  const sub=[KN[k],p.co?p.co+' Co.':'',p.stt,p.y,CONF[p.c],p.s==='found'?'Found':p.s==='partly'?'Partly found':''].filter(Boolean).join(' · ');
+  return `<button class="trbr${k==='dig'?' trbdig':''}" data-id="${esc(p.id)}"><i class="tierb" style="background:${TIER.C[t]}">${t}</i><span><b>${esc(p.n)}</b><br><span class="hint">${esc(sub)}</span></span><span class="d">${mi}</span></button>`; }
+function nest(a){ const ids=new Set(a.map(p=>p.id)), kids={}, out=[]; for(const p of a) if(p.L==='dig'&&p.lead&&ids.has(p.lead)) (kids[p.lead]||(kids[p.lead]=[])).push(p);
+  for(const p of a){ if(p.L==='dig'&&p.lead&&ids.has(p.lead)) continue; out.push(p); if(kids[p.id]) out.push(...kids[p.id]); } return out; }
+TRB.render=function(){ const box=document.getElementById('trbList'); if(!box) return; const q=TRB.q.trim();
+  const all=pins().filter(p=>TRB.kinds.has(KIND(p))), by={}; for(const g of GR) by[g]=[];
+  for(const p of all) if(match(p,q)){ const t=TIER.t(p); (by[t]||(by[t]=[])).push(p); }
+  let h='', n=0;
+  for(const g of GR){ const a=nest(by[g].sort((x,y)=>(x.mi||0)-(y.mi||0))); n+=a.length; if(q&&!a.length) continue;
+    const op=q||TRB.open?.[g]!==undefined?(q?true:TRB.open[g]):'SABCD'.includes(g);
+    h+=`<details class="trbg" data-g="${g}"${op?' open':''}><summary><i class="tierb" style="background:${TIER.C[g]}">${g}</i> ${esc(TIER.NAME[g].replace(/^. tier: /,''))} <span class="hint">(${a.length})</span></summary>`
+      +(a.length?a.map(row).join(''):'<p class="hint trbnone">None yet. Leads move up when records back them.</p>')+'</details>'; }
+  if(q&&!n) h='<p class="hint" style="padding:10px">No lead matches. Clear the box to see them all.</p>';
+  box.innerHTML=h; document.getElementById('trbN').textContent=q?`${n} match${n===1?'':'es'}`:`${n} listed, nearest first in each grade`; };
+TRB.show=function(open){ let el=document.getElementById('trbP');
+  if(!el){ document.body.insertAdjacentHTML('beforeend',`<div id="trbP" class="trbp" role="dialog" aria-label="All treasure leads" hidden>
+<div class="trbh"><b>All treasure leads by grade</b><button id="trbX" class="btn" type="button" aria-label="Close">×</button></div>
+<input id="trbQ" type="search" placeholder="Optional: narrow by name, county, year or grade" autocomplete="off">
+<div class="trbk"><label><input type="checkbox" data-k="treasure" checked> Leads</label><label><input type="checkbox" data-k="dig" checked> Dig spots</label><label><input type="checkbox" data-k="wreck"> Shipwrecks</label></div>
+<p class="hint" id="trbN"></p><div id="trbList"></div></div>`);
+    el=document.getElementById('trbP');
+    document.getElementById('trbX').onclick=()=>TRB.show(false);
+    document.getElementById('trbQ').oninput=e=>{ TRB.q=e.target.value; TRB.render(); };
+    el.querySelectorAll('.trbk input').forEach(c=>c.onchange=()=>{ const k=c.dataset.k; c.checked?TRB.kinds.add(k):TRB.kinds.delete(k); if(k==='treasure') c.checked?TRB.kinds.add('other'):TRB.kinds.delete('other'); TRB.render(); });
+    document.getElementById('trbList').addEventListener('toggle',e=>{ const d=e.target; if(!d.dataset||!d.dataset.g||TRB.q.trim()) return; TRB.open=TRB.open||{}; TRB.open[d.dataset.g]=d.open; },true);
+    document.getElementById('trbList').onclick=e=>{ const b=e.target.closest('button[data-id]'); if(!b) return; const p=BYID[b.dataset.id]||PTS.find(x=>x.id===b.dataset.id); if(!p) return;
+      TRB.show(false); try{ if(typeof gmSheet==='function') gmSheet(false); }catch(_){}
+      if(typeof uxPick==='function') uxPick({k:'spot',p}); else select(p.id,true); }; }
+  el.hidden=!open; if(open){ TRB.render(); } };
+const BTN='<button type="button" class="trbbtn" data-trb="1">☰ Browse all treasure leads, S to F</button>';
+document.head.insertAdjacentHTML('beforeend','<style id="trbCss">.trbbtn{grid-column:1/-1;display:block;width:100%;text-align:left;padding:9px 12px;margin:2px 0 4px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);font:600 14px var(--f-body,inherit);cursor:pointer}'
+ +'.trbp{position:fixed;inset:0;z-index:1000;background:var(--panel);color:var(--ink);overflow:auto;-webkit-overflow-scrolling:touch;padding:calc(10px + env(safe-area-inset-top,0px)) 16px calc(16px + env(safe-area-inset-bottom,0px));box-sizing:border-box;font-size:14px}'
+ +'@media(min-width:921px){.trbp{left:auto;width:440px;box-shadow:-6px 0 26px color-mix(in srgb,var(--ink) 24%,transparent)}}'
+ +'.trbh{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:17px;margin-bottom:8px}.trbh .btn{font-size:22px;line-height:1;padding:4px 12px}'
+ +'#trbQ{width:100%;box-sizing:border-box;padding:9px 11px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);font-size:16px}'
+ +'.trbk{display:flex;gap:14px;flex-wrap:wrap;margin:8px 0 2px}.trbk label{display:flex;gap:5px;align-items:center}'
+ +'.trbg{border-top:1px solid var(--line);padding:6px 0}.trbg summary{cursor:pointer;font-weight:700;padding:4px 0;display:flex;gap:7px;align-items:center}'
+ +'.trbr{display:grid;grid-template-columns:auto 1fr auto;gap:9px;align-items:start;width:100%;text-align:left;background:none;border:0;border-bottom:1px solid color-mix(in srgb,var(--line) 60%,transparent);padding:8px 2px;color:var(--ink);font:inherit;cursor:pointer}'
+ +'.trbr .d{font-size:12px;color:var(--muted);white-space:nowrap}.trbp .tierb{display:inline-grid;place-items:center;min-width:20px;height:20px;border-radius:5px;color:#222;font:700 12px/1 system-ui;font-style:normal}.trbnone{margin:2px 0 6px 28px}.trbdig{padding-left:22px}</style>');
+document.addEventListener('click',e=>{ const b=e.target.closest('[data-trb]'); if(b){ e.preventDefault(); e.stopPropagation(); TRB.show(true); } },true);
+function addBtn(){ try{
+  const h=[...document.querySelectorAll('#plLay b.plsec')].find(x=>x.textContent.trim()==='Treasure'); if(h&&!h.nextElementSibling?.matches('.trbbtn')) h.insertAdjacentHTML('afterend',BTN);
+  const s=[...document.querySelectorAll('#pane-layers .sec > h3')].find(x=>x.textContent.trim()==='Treasure'); if(s&&!s.parentNode.querySelector('.trbbtn')) s.insertAdjacentHTML('afterend',BTN);
+}catch(_){} }
+if(typeof plLaySync==='function'){ const p0=plLaySync; plLaySync=function(){ p0(); addBtn(); }; }
+if(typeof renderLayers==='function'){ const r0=renderLayers; renderLayers=function(){ r0(); addBtn(); }; }
+try{ renderLayers(); }catch(_){} try{ if(typeof plLaySync==='function') plLaySync(); }catch(_){}
+}
+</script>
 </body></html>
