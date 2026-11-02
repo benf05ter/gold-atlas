@@ -13,7 +13,20 @@ View-only.
 - This agrees with the c.1915 sheet already read (research/plats/roth-madison.md: M. Roth with a house at the W edge, S. Roth S of him, Schlimgen N). The 1904 plate is closer to the 1907 death and confirms **Town of Burke**. BLM sec 31 T8N R10E: -89.3641..-89.3452, 43.1067..43.1215. **No pin change.**
 
 ## Jefferson Co. WI 1899, Palmyra Twp (Blackmore)
-- The 1899 atlas index lists Palmyra Twp p.33. I browsed images 7-60 but did not land on the Palmyra Twp plate (the images are out of page order and mostly city plats). **Not read.** The collection has no c.1919 Jefferson atlas.
+- **Found and read:** image 31 of 67, p.33 "Plat of Palmyra", **Township 5 North, Range 16 East**. The Village of Palmyra is in secs 22/27.
+- **"3 mi SW of Palmyra"** points to secs 19-20, 29-32. Owners there in 1899:
+  - **Secs 19/30:** Fred Grant, Joshua Thayer, C. Mason, Pauline Peterson, C. W. Munger, A. Tuck, Jas. Thayer.
+  - **Sec 20:** Thos. Astin, Lewis Nelson, C. Munger.
+  - **Sec 29:** Wm. Ewins, M. C. Mason, Adda Calkins, Thos. Marsh, Thos. Marsh 39.
+  - **Sec 31:** Jno. Winn, Saml. Hicks, D. S. Ewing, Hutson, E. Oncial.
+  - **Sec 32:** P. Antwiler, Geo. Meach, Margreson Est., C. J. Olson, Brindleson Est., R. Thompson, A. Emerson.
+  - **Secs 28/33:** R. Corey, Wm. Rowe, A. Arndt Est., Jno. Balser, W. Sakowski, Jas. Roach, Wm. Wegansky.
+- **No Blackmore anywhere in the S or W half of the township in 1899.** The brothers' 10-acre "little farm" (1927) was probably bought after 1899, or is one of the small unnamed slivers. A 1919-20s Jefferson plat is still needed. No pin change.
+
+## Washington Co. IA 1906, Clay Twp (Gallup)
+- 1906 Washington atlas (Iowa Publishing Co.), image 21 of 126, p.39 "Clay Township", T74N R9W.
+- **Sec 16** (Black Hawk school district): C. B. Morgan (two tracts), Cyrus Dickinson, Ole? Waggoner, Morgan, Kleppert, W. F. Leppert, E. Bailey, P. Parcelle, Jones, Philip Parcelle, J. R. Baldwin, Johnson, Gowey and others in many small strips.
+- **No Gallup legible in 1906 either.** With the 1874 and 1894 reads, he is absent from all three atlases, which fits the story that he left before the plats.
 
 ## Not in the collection
 - **La Crosse** (Schaefermeyer house mark): no La Crosse atlas. The probate already confirmed sec 14 T16N R7W.
