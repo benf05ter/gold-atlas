@@ -102,3 +102,23 @@ Owosso Sanborns 1884-1946 (sanborn04142_001..009).
 - Blocked cloud-side this session: basemap.nationalmap.gov, Esri basemaps, TIGERweb, Michigan state GIS
   (gisagocss.state.mi.us), services5.arcgis.com, nominatim. So modern street positions must come from topo grids
   and PLSS (BLM CadNSDI works).
+
+## PC ask list 1 (sent to coordinator 2026-11-02; view-only, HathiTrust / Google Books / newspapers.com / Ancestry)
+1. HathiTrust: Transactions of the Michigan State Agricultural Society for 1853: county reports for Shiawassee (Hartwellville fair site), Livingston (Brighton fair ground), Macomb, St. Joseph. Search "Hartwellville", "fair ground".
+2. Same series 1859-1861: Shiawassee report naming the Owosso Hickory Street grounds; Macomb report locating the Romeo grounds.
+3. Same series 1866-1870: Gratiot (Ithaca), Montcalm (Greenville), Grand Traverse, Cass (Cassopolis), Clinton (St. Johns, Cardinal tract).
+4. Walling, Atlas of the State of Michigan (1873) city plans: Owosso, Howell, Romeo, Niles, Ithaca, Greenville; screenshot any "Fair Ground".
+5. Google Books: Tucker, History of Gratiot County (1913), "fair ground" Ithaca.
+6. Google Books: Schenck, History of Montcalm County (1881), "fair ground" Greenville.
+7. Google Books: Sprague, Traverse Region (1903), "fair ground" Traverse City.
+8. newspapers.com: "Hartwellville" 1853, fair site.
+9. newspapers.com: Romeo "fair ground" 1858-1875, location words.
+10. newspapers.com: Owosso "fair grounds" 1878-1881 (move to the Eggleston tract; where).
+11. newspapers.com: Howell "fair grounds" 1860-1900 (street; Thompson Lake?) and when closed.
+12. newspapers.com: Brighton "fair ground" 1853-1880 location.
+13. newspapers.com: Corunna fair 1850-1858, grounds south of the river.
+14. newspapers.com: Niles "fair grounds" 1858-1900 and later use of the site.
+15. newspapers.com: Ithaca "fair grounds" 1868-1875 (first site vs later SW site).
+16. newspapers.com: Greenville "fair grounds" 1866-1880.
+17. newspapers.com: Cassopolis "fair grounds" 1860-1880.
+18. Ancestry land-ownership maps: 1875 Livingston, 1875 Shiawassee, 1875 Macomb, 1873 Berrien atlases; "Fair Ground" on Howell, Owosso, Romeo, Niles plats.
