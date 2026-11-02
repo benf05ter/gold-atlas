@@ -3520,7 +3520,7 @@ T3.set=function(v){ v=!!v; if(v===T3.on) return; T3.on=v; cancelAnimationFrame(T
 T3.open=function(lo,la,heading){ if(lo!=null){ const [x,y]=P(lo,la); const w=Math.min(vb.w,0.06), h=w*(BOX.h||1)/(BOX.w||1); vb={x:x-w/2,y:y-h/2,w,h}; fit(); }
   if(!T3.on) T3.set(true); else apply(); if(heading) T3.heading(true); };
 // zoomed far out the tilt shows little and the tilted ground costs the most phone memory (white screen on zoom out): back to flat past ~80 km wide
-OGE.on('post',()=>{ if(T3.on&&!GES.active&&vb.w>1) T3.set(false); });
+OGE.on('post',()=>{ if(T3.on&&!GES.active&&vb.w>1&&!(window.DRV&&DRV.on)) T3.set(false); });
 document.getElementById('t3x').onclick=()=>T3.set(false);
 document.getElementById('t3n').onclick=()=>T3.north();
 // the layers-sheet chip and the locate button
@@ -5747,7 +5747,7 @@ addEventListener('DOMContentLoaded',()=>setTimeout(()=>{ RKV++; try{ drawMarkers
     if(!top.length){ list.innerHTML=`<p class="drve">${moving?'No ranked spots ahead within 30 miles. They will show here as the road turns toward them.':'No ranked spots within 30 miles of you. Turn more layers on in the layers sheet before you drive.'}</p>`; return; }
     list.innerHTML=top.map((o,i)=>{ const q=o.q, wy=moving?(Math.abs(o.rel)<20?'straight ahead':o.rel>0?'ahead on the right':'ahead on the left'):CMP[Math.round(o.b/45)%8]+' of you';
       const why=typeof RKTOP==='function'?RKTOP(q):'';
-      return `<div class="drvk${i?'':' main'}"><button type="button" class="drvi" data-show="${esc(q.id)}" aria-label="Show ${esc(q.n)} on the map"><span class="drvn"><i style="background:var(--rk${o.r})">${o.r}</i><b>${esc(q.n)}</b></span><span class="drvm">${dtxt(o.d)} · ${wy} · ${RKP[o.r]}</span>${i===0&&why?`<span class="drvw">${esc(why)}</span>`:''}</button>`
+      return `<div class="drvk${i?'':' main'}"><button type="button" class="drvi" data-show="${esc(q.id)}" aria-label="Show ${esc(q.n)} on the map"><span class="drvn"><i style="background:var(--rk${o.r})">${o.r}</i><b>${esc(q.n)}</b></span><span class="drvm">${typeof TIER==='object'?TIER.badge(q)+' ':''}${dtxt(o.d)} · ${wy} · ${RKP[o.r]}</span>${i===0&&why?`<span class="drvw">${esc(why)}</span>`:''}</button>`
         +`<a class="drvgo" href="${navUrl(q)}" target="_blank" rel="noopener" data-go="${esc(q.id)}">${i?'Go':'Navigate'}</a></div>`; }).join('');
     const o=top[0]; if(DRV.voice&&moving&&o.d<3&&!DRV.said.has(o.q.id)&&window.speechSynthesis){ DRV.said.add(o.q.id); try{ const u=new SpeechSynthesisUtterance(`${RKP[o.r]}, ${dtxt(o.d).replace('mi','miles').replace('ft','feet')} ${Math.abs(o.rel)<20?'straight ahead':o.rel>0?'on the right':'on the left'}: ${o.q.n.replace(/\(.*?\)/g,'')}`); u.rate=1.02; speechSynthesis.speak(u); }catch(_){} } }
   // Navigate: Google Maps or Apple Maps with the spot as the destination; the home-screen app on an iPhone opens the maps app straight away
@@ -7489,5 +7489,25 @@ if(window.TRB&&TRB.render){ TRB.fs=new Set(['f','p','u','g','n']); const r0=TRB.
   go();
   if(!document.getElementById('tgCss')) document.head.insertAdjacentHTML('beforeend','<style id="tgCss">.tgcard{display:block;margin:4px 0 8px;padding:5px 9px;border-left:6px solid var(--tgc);border-radius:5px;background:color-mix(in srgb,var(--tgc) 22%,var(--bg,#fff));font:600 14px/1.35 var(--f-body);color:var(--ink)}.tgrow{display:inline-block;margin-top:2px;padding-left:6px;border-left:4px solid var(--tgc);font-style:italic}.tgs{display:inline-block;margin-left:4px;padding:0 6px;border-radius:9px;font:700 11.5px/1.5 var(--f-body);font-style:normal;color:#1a1a1a;background:#ddd;white-space:nowrap}.tgs-f{background:#9fd6a0}.tgs-p{background:#f3d27a}.tgs-u{background:#ffb08a}.tgs-k{background:#d9d9d9}.tgs-h{background:#c9c9c9;text-decoration:line-through}.tgs-i{background:#d9c2ff}</style>');
 }
+</script>
+<style id="POLISH1">
+/* spot card peek: a shorter photo so the name, tier and tagline show without dragging the card up */
+body.shell .shsheet[data-state="peek"] .oghero{aspect-ratio:auto;height:min(100px,15vh)}
+/* search results sit over the zoom and layer buttons instead of under them */
+.mapwrap .uxs:has(#uxr:not([hidden])){z-index:7}
+/* Drive mode: the tier pill reads at dash distance */
+.drvm .tierb{font-size:13px;padding:1px 7px;vertical-align:1px}
+/* map credits don't show through the drive panel */
+body.drv .ogattr{display:none}
+</style>
+<script>
+/* POLISH1: Historic walks tile on More gets the same picture banner as the other tiles (it was added after they were drawn) */
+{ const b=document.querySelector('#rv-more .shlist button[data-wk]'), s=b&&b.querySelector(':scope>svg');
+  if(b&&s&&!b.querySelector('.vpic')){ const c='#2f6a87';
+    const pic=document.createElement('span'); pic.className='vpic';
+    pic.setAttribute('style',`background:url("data:image/svg+xml,${encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="160" height="80" fill="none" stroke="#fff" stroke-opacity=".17" stroke-width="1.4"><path d="M-10 60c30-20 50 10 80-8s50-30 100-10"/><path d="M-10 44c30-18 52 8 82-10s52-26 98-8"/><path d="M-10 28c32-16 54 6 84-12s50-22 96-6"/><path d="M-10 74c28-14 48 12 78-4s54-28 102-12"/></svg>')}") center/160px 80px,linear-gradient(135deg,${c},color-mix(in srgb,${c} 68%,#000))`);
+    s.querySelectorAll('[stroke="var(--walk)"]').forEach(e=>e.setAttribute('stroke','#fff')); s.setAttribute('stroke','#fff');
+    s.querySelectorAll('[fill="var(--walk)"]').forEach(e=>e.setAttribute('fill','#fff'));
+    b.prepend(pic); pic.appendChild(s); } }
 </script>
 </body></html>
