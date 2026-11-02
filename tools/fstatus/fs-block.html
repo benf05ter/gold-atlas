@@ -1,0 +1,39 @@
+<script>
+// ---------- Found / not found on every treasure lead (v529, 2026-11-02): each lead card and every list row shows whether the
+// money was found. Status comes from what the record says happened to the money, not from the grade. FST holds the ruled
+// statuses (tools/fstatus/fst.json); a lead not listed takes its s field, else "Not found". Dig spots show their lead's status.
+{
+const FST={"t-neillsville-jar":"f","t-tr-green-isle":"f","coff-grand-ledge-jar":"f","tw-vollmer-hoard-1899":"f","tw-bjornaa-grantsburg-1906":"f","tw-markee-amery-1936":"f","tw-oesterle-sharon-gold":"f","tw-boyer-dale-1909":"f","wd5-stanley-coin-can":"f","wd5-plainview-kettle":"f","tw-wi-glencoe-roland-1893":"f","tw-wi-lynn-olesen-maple-box-1900":"f","tw-wi-marinette-burglar-loot-1913":"f","tw-wi-milwaukee-schuerman-bottles":"f","tw-wi-milwaukee-tenhaaf-clinton-st":"f","tw-wi-dover-gregg-hoard":"f","tw-wi-blackhawk-jaeger-1923":"f","tw-wi-new-london-hoffman-orchard":"f","tw-mn-sigel-kuehn-plum-trees-1906":"f","tw-mn-grand-rapids-ahonen-jars-1939":"f","tw-mn-le-center-tree-gold-1906":"f","tw-mn-briggs-lake-stump-coins-1922":"f","tw-mi-weesaw-spanish-coins-1897":"f","tw-mi-dimondale-carr-gold":"f","tw-mi-mineral-range-express-1893":"f","tw-mi-pinckney-dillon-coins-1932":"f","tw-mi-big-sable-1731-spanish-coin":"f","tw-mi-big-beaver-harris-tin-box":"f","tw-mn-winona-schmidt-crocks-1933":"f","tw-ia-patterson-sugar-camp-1907":"f","tw-ia-palmyra-dickson-farm-1909":"f","tw-ia-tipton-iwers-farm-1936":"f","tw-ia-clarksville-harvey-boiler":"f","tw-ia-lake-city-bader-farm-1906":"f","tw-ia-rickardsville-maxwell-place-1915":"f","tw-ia-lansing-callahan-farm-1921":"f","tw-ia-barnum-barner-farm-1914":"f","tw-ia-iowa-city-terrell-can-1906":"f","tw-ia-beaver-island-box-1897":"f","tw-il-paw-paw-grove-banditti":"f","tw-il-hennepin-feeder-spanish-chest-1901":"f","tw-il-deerfield-schulz-jar-1920":"f","tw-il-fullersburg-kammeyer-mill-1934":"f","tw-mn-walnut-grove-bergblom-copper-box-1930":"f","tw-ia-leland-branstad-shed-1922":"f","cd-carrier-cave-gold-coin-black-hammer":"f","tw-mi-mcbain-smalley-train-loot-1895":"f","tw-wi-beaver-mattrick-farm-1925":"f","tw-mn-st-charles-express-silver-1913":"f","t-portage-riverboat-gold":"p","t-bennett-eagle-river":"p","t-tr-noyes":"p","m-tr-michigan-mine-theft":"p","coff-pewabic":"p","cr-snyde-hermit-cf-1900":"p","cr-hudson-peterson-gold-1936":"p","cr-lemuel-hill-hoard-1906":"p","tw-gallagher-morrison-creek":"p","tw-vajvoda-rice-lake-1925":"p","tw-wi-madison-roth-farm-1907":"p","tw-wi-wisconsin-mouth-coins-1887":"p","tw-wi-franklin-ford-gold-1875":"p","tw-wi-milwaukee-burke-expressway":"p","tw-mn-fergus-falls-trombler-1903":"p","tw-mi-bronson-gold-farm-1939":"p","tw-mi-grass-lake-bank-coins":"p","gwl-finch-caches":"p","tw-ia-dubuque-kelly-bluff":"p","tw-il-eureka-onnen-henhouse":"p","tw-il-alexis-garnett-barn-1913":"p","tw-il-dixon-mail-plane-diamonds-1929":"p","tw-mn-warsaw-murphy-crock-1920":"p","tw-mi-smyrna-marshall-bank-loot-1932":"p","tw-wi-palmyra-blackmore-shack-1927":"p","t-becker-glidden":"u","t-tr-ney-brewery":"u","t-tr-le-sueur":"u","wpa-coon-rock-cave":"u","tw-maas-pot-of-gold-1898":"g","tw-mi-van-buren-bumpus-strongbox":"g","tw-fountain-city-gold-bar-1913":"n","tw-wi-eaton-swantek-1932":"n","tw-mn-fay-ravine-dugout-1890":"n","tw-mi-buchanan-burton-phonograph":"n","tw-mi-bogus-island-counterfeiters":"n","tw-mi-north-fox-german-gold":"n","tw-wi-mineral-point-ravine-gold-1852":"n","tw-ia-columbus-jct-train-gold-1904":"n"};
+const FSL={f:'Found',p:'Part found, more missing',u:'Not found',g:'Gone',n:'No hoard / hoax'};
+const FSS={f:'Found',p:'Part found',u:'Not found',g:'Gone',n:'Hoax'};
+const FSW={f:'The known cache was dug up or recovered. More may be rumored, but the record says it was found.',p:'Some was recovered, and a record says more is still missing.',u:'No record says it was ever found.',g:'The cache was taken by someone unknown, or the ground is destroyed.',n:'A hoax or joke, or no hoard was ever claimed.'};
+const SMAP={found:'f',partly:'p',never:'u','false':'n'};
+function FS(p){ if(!p) return null; if(p.L==='dig'&&p.lead&&typeof BYID==='object'&&BYID[p.lead]) return FS(BYID[p.lead]);
+  if(!(p.L==='treasure'||p.L==='dig'||(p.bur===1&&p.L!=='wreck'))) return null; return FST[p.id]||SMAP[p.s]||'u'; }
+window.FS=FS; window.FSL=FSL;
+document.head.insertAdjacentHTML('beforeend','<style id="fsCss">.fsb{display:inline-block;font:700 11px/1 system-ui;font-style:normal;padding:3px 6px;border-radius:5px;margin:0 5px 0 0;vertical-align:1px;white-space:nowrap;border:1px solid}'
+ +'.fs-f{background:color-mix(in srgb,#5a8f5a 22%,transparent);border-color:#5a8f5a;color:var(--ink)}.fs-p{background:color-mix(in srgb,#c79a2e 22%,transparent);border-color:#c79a2e;color:var(--ink)}'
+ +'.fs-u{background:color-mix(in srgb,#3b7dd8 22%,transparent);border-color:#3b7dd8;color:var(--ink)}.fs-g{background:color-mix(in srgb,#888 20%,transparent);border-color:#888;color:var(--ink)}.fs-n{background:color-mix(in srgb,#a55 18%,transparent);border-color:#a55;color:var(--ink)}'
+ +'.fsline{margin:6px 0 2px;font-size:14px}.fsk{display:flex;gap:10px;flex-wrap:wrap;margin:4px 0 2px}.fsk label{display:flex;gap:4px;align-items:center}</style>');
+const badge=(c,long)=>`<i class="fsb fs-${c}" title="${FSL[c]}: ${FSW[c]}">${long?FSL[c]:FSS[c]}</i>`;
+// card: status badge first in the tags, a one-line reason, and the old status tag dropped so the two never disagree
+const dh=detailHTML; detailHTML=function(p){ let h=dh(p); const c=FS(p); if(!c) return h;
+  h=h.replace(/<span class="tag">(Never found|Partly found|Found|False alarm)<\/span>/,'');
+  return h.replace('<div class="tags">','<p class="fsline">'+badge(c,true)+' <span class="hint">'+FSW[c]+'</span></p><div class="tags">'); };
+// every list row that shows a grade chip also shows the status
+if(typeof TIER==='object'&&TIER.chip){ const ch=TIER.chip; TIER.chip=p=>{ const c=FS(p); return ch(p)+(c?badge(c):''); }; }
+// browse-by-grade list: badge on each row, status checkboxes, all on by default
+if(window.TRB&&TRB.render){ TRB.fs=new Set(['f','p','u','g','n']); const r0=TRB.render;
+  TRB.render=function(){ r0(); const box=document.getElementById('trbList'); if(!box) return;
+    const k=document.querySelector('#trbP .trbk'); if(k&&!document.getElementById('fsK')) k.insertAdjacentHTML('afterend','<div class="fsk" id="fsK"><span class="hint">Show:</span>'+['u','p','f','g','n'].map(c=>`<label><input type="checkbox" data-fs="${c}"${TRB.fs.has(c)?' checked':''}> ${FSS[c]}</label>`).join('')+'</div>');
+    const K=document.getElementById('fsK'); if(K&&!K._w){ K._w=1; K.onchange=e=>{ const c=e.target.dataset.fs; if(!c) return; e.target.checked?TRB.fs.add(c):TRB.fs.delete(c); TRB.render(); }; }
+    const cnt={f:0,p:0,u:0,g:0,n:0};
+    box.querySelectorAll('button.trbr[data-id]').forEach(b=>{ const p=BYID[b.dataset.id]||PTS.find(x=>x.id===b.dataset.id); const c=FS(p); if(!c) return;
+      if(!TRB.fs.has(c)){ b.remove(); return; } cnt[c]++;
+      const t=b.querySelector('b'); if(t&&!b.querySelector('.fsb')) t.insertAdjacentHTML('beforebegin',badge(c));
+      const s=b.querySelector('.hint'); if(s) s.textContent=s.textContent.replace(/ · (Found|Partly found)$/,''); });
+    box.querySelectorAll('details.trbg').forEach(d=>{ const n=d.querySelectorAll('button.trbr').length, h=d.querySelector('summary .hint'); if(h) h.textContent='('+n+')'; });
+    const N=document.getElementById('trbN'); if(N) N.textContent+=` · ${cnt.u} not found, ${cnt.p} part found, ${cnt.f} found, ${cnt.g} gone, ${cnt.n} hoax`; };
+}
+}
+</script>
