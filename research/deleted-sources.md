@@ -11,3 +11,9 @@
 | 2026-11-02 04:14 | /mnt/project-files/old/plat-chippewa, old/plat-clark | ~86 MB | atlas v139/v142 pc- pins (159); working copies research/plat-chippewa/, plat-clark/ kept | Neb 04:07Z |
 | 2026-11-02 04:14 | /mnt/project-files/old/trail-guide, old/clippings | ~2 MB | trail guide folded into atlas 2026-10-23; Donnerstag → tw-donnerstag-gold-1908; Cunningham → research/county-depth/leads/ | Neb 04:07Z |
 Kept: old/README.md (map of what was where), old/fieldnotes (26 MB, not documented as mined).
+| 2026-11-02 04:15 | /mnt/project-files/Treasure_Hunting_-_December_2023.pdf | 39040996 B | mined; notes in gold-atlas research/books/treasure-hunting-mag-2023-24.md (commit f3ffdb24); no Midwest content | Neb rule 04:06Z |
+| 2026-11-02 04:15 | /mnt/project-files/Treasure_Hunting_-_February_2024.pdf | 52515218 B | mined; notes in gold-atlas research/books/treasure-hunting-mag-2023-24.md (commit f3ffdb24); no Midwest content | Neb rule 04:06Z |
+| 2026-11-02 04:15 | /mnt/project-files/Treasure_Hunting_-_April_2024.pdf | 82671172 B | mined; notes in gold-atlas research/books/treasure-hunting-mag-2023-24.md (commit f3ffdb24); no Midwest content | Neb rule 04:06Z |
+| 2026-11-02 04:15 | /mnt/project-files/Treasure_Hunting_-_June_2024_freemagazinespdf_com.pdf | 38221232 B | mined; notes in gold-atlas research/books/treasure-hunting-mag-2023-24.md (commit f3ffdb24); no Midwest content | Neb rule 04:06Z |
+| 2026-11-02 04:15 | /mnt/project-files/Treasure_Hunting_-_December_2024.pdf | 37272252 B | mined; notes in gold-atlas research/books/treasure-hunting-mag-2023-24.md (commit f3ffdb24); no Midwest content | Neb rule 04:06Z |
+| 2026-11-02 04:52 | /mnt/project-files/research-zip-z.zip | 197,271 B | 29 research notes (md5 25094cd6…) committed verbatim to gold-atlas main research/ (commit 8a37da39) | Neb rule 04:06Z |
