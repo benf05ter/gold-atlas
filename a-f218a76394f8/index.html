@@ -7386,4 +7386,26 @@ try{ renderLayers(); }catch(_){} try{ if(typeof plLaySync==='function') plLaySyn
   document.getElementById('detail').addEventListener('click',e=>{ const a=e.target.closest('a[data-inf]'); if(!a) return; e.preventDefault(); select(a.dataset.inf,true); });
   try{ renderLayers(); drawMarkers(); }catch(_){} }
 </script>
+<script>
+// ---------- Field Guide chapter link on every card (v525, 2026-11-02): each card names the Library chapter that covers its kind of spot,
+// and a tap opens the Library at that chapter. The card text itself is unchanged.
+{
+const FBCH={treasure:['fb-9'],dig:['fb-9'],wreck:['fb-9','fb-4'],target:['fb-7'],model:['fb-7'],deposit:['fb-7'],drill:['fb-7'],
+  trap:['fb-3'],panning:['fb-3'],glacial:['fb-3'],pit:['fb-3'],lake:['fb-3','fb-4'],report:['fb-8'],geo:['fb-1'],
+  mine:['fb-10'],lead:['fb-10'],beach:['fb-10'],gather:['fb-10'],camp:['fb-10'],school:['fb-10'],school2:['fb-10'],vpo:['fb-10'],af38:['fb-10'],af15:['fb-10'],af64:['fb-10'],
+  ghost:['fb-10'],history:['fb-10'],landmark:['fb-10'],flood84:['fb-10'],rock:['fb-11'],copper:['fb-11'],superior:['fb-11'],cmine:['fb-11'],prehist:['fb-11','fb-4'],
+  park:['fb-4'],public:['fb-4'],cem:['fb-4'],restricted:['fb-4']};
+window.FBCH=FBCH;
+const TT={};
+function title(id){ if(TT[id]) return TT[id]; let s=document.getElementById(id); if(!s){ const t=document.getElementById('tplBook'); s=t&&t.content&&t.content.getElementById?t.content.getElementById(id):(t&&t.content&&t.content.querySelector('#'+id)); }
+  const h=s&&s.querySelector('summary'); return TT[id]=h?h.textContent.trim():''; }
+function fbHTML(p){ const ids=(FBCH[p.L]||[]).filter(id=>title(id)); if(!ids.length) return '';
+  return '<p class="fbch">📖 Field Guide: '+ids.map(id=>`<a href="#${id}" data-fbch="${id}">${esc(title(id))}</a>`).join(' · ')+'</p>'; }
+if(typeof notesHTML==='function'){ const n0=notesHTML; notesHTML=function(p){ let h=n0(p); try{ h+=fbHTML(p); }catch(_){} return h; }; }
+document.head.insertAdjacentHTML('beforeend','<style id="fbchCss">.fbch{margin:10px 0 4px;font-size:13.5px}.fbch a{text-decoration:underline;cursor:pointer}</style>');
+document.addEventListener('click',e=>{ const a=e.target.closest('a[data-fbch]'); if(!a) return; e.preventDefault(); e.stopPropagation(); const id=a.dataset.fbch;
+  try{ if(typeof gmSheet==='function') gmSheet(false); }catch(_){}
+  showView('book'); setTimeout(()=>{ const d=document.getElementById(id); if(!d) return; d.open=true; d.scrollIntoView({behavior:'smooth',block:'start'}); },60); },true);
+}
+</script>
 </body></html>
