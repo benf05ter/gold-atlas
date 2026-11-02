@@ -183,3 +183,32 @@
   - 26 Dolph plate read
   - 16 Tiffin (waiting for a name)
   - 10 Noyes 1920s plat (low priority)
+
+## 17. Millersburg race track / fairground (Iowa Co IA): not labelled in 1917
+- **Plat:** 1917 Anderson *Atlas of Iowa County* (Ancestry 1127, start image 31617_072143-00666). Contents (viewer p.2): English Twp p.33 = **viewer p.33, image 31617_072143-00699**. English Twp = **T78N R11W**.
+- **Millersburg** village sits at about the **NE of sec 8 / NW of sec 9** (along the E-W "Pleasant Grove" road). The village block has Chas. R. Bauer 120, John O'Brien, Oscar A. Long 150, the Montrose tracts, and Est. of Donahue/Donnell S of the town.
+- **No race track, oval or "fair ground" is drawn or labelled** around Millersburg on the 1917 plate (read at the viewer's maximum useful zoom).
+- The 1874 and 1886 Iowa Co atlases (Ancestry images 31617_072143-00720 and -00747) were not read; an older fairground might show there. **Card stays at the town level.**
+- **Geocode (#19 add-on):** OpenStreetMap Nominatim matches **"1836, East Lincoln Highway, DeKalb"** to a building footprint (OSM way 806044801) at **41.92307, -88.72946** (S side of the highway, E part of DeKalb).
+- **Aerial (USGS ImageryOnly, view only, coarse resolution):** on the lot is a single **dark-roofed building set close to the highway**, with a **long paved or gravel strip running S behind it** to an outbuilding. Neighbours are houses in trees (W) and commercial or light-industrial lots (N side and SE).
+  - It reads as a **small house or business converted or rebuilt**, not an open farmstead. Whether the 1940 house survives can't be told at this resolution; a street-view check is needed.
+- **Caveat:** 1940 numbering may differ from today's. The card can use 41.9231, -88.7295, r100, as "1940 address (modern geocode)".
+- **20. Schulz plat (1907 Ogle, *Standard Atlas of Lake County IL*; Ancestry start image 31617_072110-00373).** Plate "Deerfield & West Deerfield Townships", frac. T43N R12-13E, **atlas p.39 = viewer p.19, image 31617_072110-00392.** (Vernon is viewer p.18; Cuba p.16.)
+  - Read: the W tier (secs 6, 7, 18, 19, 30, 31) and the centre (secs 5, 8, 17, 20, 29, 32), at the viewer's useful zoom.
+  - Names in those sections:
+    - Secs 6-7: Thos. & Geo. Yore, J. J. Doyle, D. Gibbons, John Burns, M. Moss, Michael Yore.
+    - Secs 17-20: J. O'Connor, Mary and Robert O'Connor, Thos. Carolan, M. Duffy, A. Maifeldt, F. Glader, J. S. Carman.
+    - Secs 29-32: Wm. Bartens, F. Beltz, Geo. Pfister, Ira Hole, Wm. Boettcher, John Ott, E. Schley, Miller Est., Wm. Hahn, Bockenback.
+  - **No Schulz seen.** The E sections (Highwood, Ft. Sheridan, Highland Park) are mostly subdivided and were not read lot by lot.
+  - **Not placed;** keep at the township level. A 1920s plat (not on Ancestry) would be needed.
+
+## 26. Dolph / Grohe, Bellevue Twp (Eaton Co MI, T1N R6W): PLACED (1895)
+- **Plat:** 1895 Eaton atlas (Ancestry 1127, start image 31617_072120-00118). **"Bellevue" Twp plate = viewer p.16, image 31617_072120-00134.** (Brookfield is p.18, Walton p.17, Hamlin p.19; the Bellevue village plat is p.27.)
+- **"J. S. Grohe 160"** = the **NE¼ of sec 34**, drawn **solid with swamp/marsh symbols** (the "Grohe swamp"). It is bordered E by the N-S road (Van Sickle tracts, sec 35 line); Ida Willis and Wanshicker are to the S.
+- **"Chas. Dolph"** = a narrow N-S strip in the **N-central part of sec 36** (between "Marvin Henry" / "Jacob Roberts" on the W and "Caroline Cook" on the E).
+- The **Battle Creek river** loops through secs 25-27 just N, and the village of Bellevue is in secs 28-29.
+- **BLM (MI19 T1N R6W):** sec 34 = 42.4219-42.4369 N, 85.0130-84.9932 W; sec 36 = 42.4221-42.4368 N, 84.9738-84.9539 W.
+- **Pins:**
+  - **Grohe swamp (stump ground), NE¼ sec 34: about 42.433, -84.998, r300, B.**
+  - **Chas. Dolph farm, N-central sec 36: about 42.432, -84.965, r250, B.**
+  - The two are about 1.7 mi apart. If the story's stumps are on Dolph's own land, use the sec 36 pin. If they were in "Grohe's swamp", use sec 34.
