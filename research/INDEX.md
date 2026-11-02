@@ -193,9 +193,9 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L362) (line 362)
 Notes:
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L779) (line 779)
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L128) (line 128)
-- [newspapers-com/ia-il-sweep.md](newspapers-com/ia-il-sweep.md#L35) (line 35)
+- [newspapers-com/ia-il-sweep.md](newspapers-com/ia-il-sweep.md#L42) (line 42)
 - [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L22) (line 22)
-- [ancestry/list12-dates.md](ancestry/list12-dates.md#L32) (line 32)
+- [ancestry/list12-dates.md](ancestry/list12-dates.md#L35) (line 35)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L52) (line 52)
 - [plats/hession-humboldt.md](plats/hession-humboldt.md#L1) (line 1)
 
@@ -539,6 +539,8 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L235) (line 235)
 
 Notes:
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L23) (line 23)
+- [ancestry/list26.md](ancestry/list26.md#L89) (line 89)
+- [ancestry/INDEX.md](ancestry/INDEX.md#L67) (line 67)
 - [plats/briggs-lake-glo.md](plats/briggs-lake-glo.md#L23) (line 23)
 - `/mnt/project-files/research/treasure-statewide/README.md` line 33 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/leads-mn.tsv` line 16 (shared folder only)
@@ -2072,7 +2074,7 @@ Also mentions the place: [negatives.tsv](negatives.tsv#L231) (line 231); [newspa
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L190) (line 190)
 
 Notes:
-- [ancestry/markee-apple-river-polk.md](ancestry/markee-apple-river-polk.md#L1) (line 1)
+- [ancestry/markee-apple-river-polk.md](ancestry/markee-apple-river-polk.md#L5) (line 5)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L36) (line 36)
 - `/mnt/project-files/research/court-records/pin-records-check.tsv` line 7 (shared folder only)
 
@@ -2212,8 +2214,9 @@ Also mentions the place: [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L10
 
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L203) (line 203)
 
-
-Also mentions the place: [ancestry/INDEX.md](ancestry/INDEX.md#L19) (line 19)
+Notes:
+- [ancestry/list26.md](ancestry/list26.md#L81) (line 81)
+- [ancestry/INDEX.md](ancestry/INDEX.md#L67) (line 67)
 
 ### Grand Ledge fruit-jar cache (found 1949)
 `coff-grand-ledge-jar` · grade E · Eaton Co., MI
@@ -2324,6 +2327,14 @@ Notes:
 - [negatives.tsv](negatives.tsv#L31) (line 31)
 
 Also mentions the place: [newspapers-com/pc-b-asks-results.md](newspapers-com/pc-b-asks-results.md#L8) (line 8); `/mnt/project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md` line 31 (shared folder only)
+
+### Joseph Oesterle's gold in the cellar, Oesterle Lake
+`tw-oesterle-sharon-gold` · grade E · Portage Co., WI
+
+Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L196) (line 196)
+
+
+Also mentions the place: [ancestry/list26.md](ancestry/list26.md#L106) (line 106)
 
 ### Joseph Winther’s buried gold coins
 `t-tr-winther` · grade E · Faribault Co., MN
@@ -2650,7 +2661,7 @@ Notes:
 
 Also mentions the place: [leads.tsv](leads.tsv#L5) (line 5); [negatives.tsv](negatives.tsv#L283) (line 283); [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L626) (line 626); [newspapers-com/second-sources-c-leads.md](newspapers-com/second-sources-c-leads.md#L125) (line 125); [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L149) (line 149); [ancestry/list16.md](ancestry/list16.md#L40) (line 40); [books/list14-county-histories.md](books/list14-county-histories.md#L14) (line 14); `/mnt/project-files/research/treasure-statewide/held-leads.md` line 40 (shared folder only); `/mnt/project-files/research/treasure-statewide/leads-wi.tsv` line 11 (shared folder only)
 
-No research notes yet: $8,000 in gold in the La Moille bluff cave (`tw-lamoille-cave-gold`); Boot treasure about 5 miles northeast of Nashotah (`gwl-nashotah-boot-treasure`); Charles S. Price (1913) at the mouth of the St. Clair River (`coff-charles-price`); Clarno pot of gold in a dry well (`gwl-clarno-pot-of-gold`); Crazy Man's Island (`t-crazy-man-island`); Dr. Hulst's cached outfit (1872) and explorations, sec 6 T39N R29W (`fr-dr-hulst-s-cached-outfit-1872-and-explorat`); Fort Crawford payroll gold (`t-fort-crawford-payroll`); Jesse James box, five oaks north of the Judson bridge (`tw-judson-jesse-james-cache`); Joe Saltis's summer hideout at Winter (`tg-saltis-winter`); Joseph Oesterle's gold in the cellar, Oesterle Lake (`tw-oesterle-sharon-gold`); Lake Poygan chest through the ice (legend) (`gwl-poygan-ice-chest`); Le Griffon (1679): La Salle's lost ship (`coff-griffin`); LiDAR candidate: high point for Fort Crawford payroll gold (`lc-t-fort-crawford-payroll-4`); LiDAR candidate: rock ledge for Nelson bluff caves (`lc-t-nelson-bluff-caves-5`); LiDAR candidate: small pit for Dr. Hulst's cached outfit (1872) and explorations, sec 6 T39N R29W (`lc-fr-dr-hulst-s-cached-outfit-1872-and-exp-6`); Little Bay de Noc gold-bullion schooner (`coff-bay-de-noc-bullion`); Lone Rock lost pay chest: pits on the river bluff (`gwl-lone-rock-pay-chest`); Nelson bluff caves (`t-nelson-bluff-caves`); Old Sherburne’s gold and the lost payroll (`t-tr-sherburne`); Pewabic (1865): copper and the captain's strongbox (`coff-pewabic`); R. G. Coburn (1871): copper and gold off Harbor Beach (`coff-coburn`); Red River coins near Noyes (`t-tr-noyes`); Regina (1913): copper cargo (`coff-regina`); Sheridan Park beach coins (`t-sheridan-park-coins`); Spanish gold of Lake Pepin (`t-lake-pepin-spanish-gold`); Springville, the 1894 gold rush at Patterson's Rapids (`tw-springville-gold-rush-1894`); Sturgeon Mills and the lost camp payroll (`dodge-sturgeon-lost-payroll`); Westmoreland (1865): whisky and a reported $100,000 in gold (`coff-westmoreland`); York Island iron box (`t-york-island-box`)
+No research notes yet: $8,000 in gold in the La Moille bluff cave (`tw-lamoille-cave-gold`); Boot treasure about 5 miles northeast of Nashotah (`gwl-nashotah-boot-treasure`); Charles S. Price (1913) at the mouth of the St. Clair River (`coff-charles-price`); Clarno pot of gold in a dry well (`gwl-clarno-pot-of-gold`); Crazy Man's Island (`t-crazy-man-island`); Dr. Hulst's cached outfit (1872) and explorations, sec 6 T39N R29W (`fr-dr-hulst-s-cached-outfit-1872-and-explorat`); Fort Crawford payroll gold (`t-fort-crawford-payroll`); Jesse James box, five oaks north of the Judson bridge (`tw-judson-jesse-james-cache`); Joe Saltis's summer hideout at Winter (`tg-saltis-winter`); Lake Poygan chest through the ice (legend) (`gwl-poygan-ice-chest`); Le Griffon (1679): La Salle's lost ship (`coff-griffin`); LiDAR candidate: high point for Fort Crawford payroll gold (`lc-t-fort-crawford-payroll-4`); LiDAR candidate: rock ledge for Nelson bluff caves (`lc-t-nelson-bluff-caves-5`); LiDAR candidate: small pit for Dr. Hulst's cached outfit (1872) and explorations, sec 6 T39N R29W (`lc-fr-dr-hulst-s-cached-outfit-1872-and-exp-6`); Little Bay de Noc gold-bullion schooner (`coff-bay-de-noc-bullion`); Lone Rock lost pay chest: pits on the river bluff (`gwl-lone-rock-pay-chest`); Nelson bluff caves (`t-nelson-bluff-caves`); Old Sherburne’s gold and the lost payroll (`t-tr-sherburne`); Pewabic (1865): copper and the captain's strongbox (`coff-pewabic`); R. G. Coburn (1871): copper and gold off Harbor Beach (`coff-coburn`); Red River coins near Noyes (`t-tr-noyes`); Regina (1913): copper cargo (`coff-regina`); Sheridan Park beach coins (`t-sheridan-park-coins`); Spanish gold of Lake Pepin (`t-lake-pepin-spanish-gold`); Springville, the 1894 gold rush at Patterson's Rapids (`tw-springville-gold-rush-1894`); Sturgeon Mills and the lost camp payroll (`dodge-sturgeon-lost-payroll`); Westmoreland (1865): whisky and a reported $100,000 in gold (`coff-westmoreland`); York Island iron box (`t-york-island-box`)
 
 ## F: found, gone or look only
 
@@ -2670,7 +2681,7 @@ Notes:
 
 Notes:
 - [negatives.tsv](negatives.tsv#L301) (line 301)
-- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L632) (line 632)
+- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L633) (line 633)
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L149) (line 149)
 - [plats/pauquette-portage-glo.md](plats/pauquette-portage-glo.md#L1) (line 1)
 
@@ -2812,6 +2823,8 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L215) (line 215)
 Notes:
 - `/mnt/project-files/research/treasure-statewide/leads-wi.tsv` line 12 (shared folder only)
 
+Also mentions the place: [newspapers-com/pc-a-batch3-results.md](newspapers-com/pc-a-batch3-results.md#L119) (line 119); [newspapers-com/ia-il-second-source.md](newspapers-com/ia-il-second-source.md#L203) (line 203); [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L84) (line 84); [ancestry/INDEX.md](ancestry/INDEX.md#L67) (line 67)
+
 ### Hermit Robert Jaeger's hidden wealth, Black Hawk (Sauk Co.)
 `tw-wi-blackhawk-jaeger-1923` · grade F · Sauk Co., WI
 
@@ -2897,6 +2910,8 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L249) (line 249)
 Notes:
 - `/mnt/project-files/research/treasure-statewide/leads-mi.tsv` line 15 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/ground-fix/wi-batch1-fixes.md` line 12 (shared folder only)
+
+Also mentions the place: [genealogybank/gaps.md](genealogybank/gaps.md#L21) (line 21); [ancestry/list26.md](ancestry/list26.md#L71) (line 71); [ancestry/INDEX.md](ancestry/INDEX.md#L67) (line 67)
 
 ### Miser's jar of gold under the woodshed, Traer (found 1904)
 `tw-ia-traer-showers-woodshed-gold-1904` · grade F · Tama Co., IA

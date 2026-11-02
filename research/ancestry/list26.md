@@ -67,3 +67,44 @@
   - **Cobmoosa Lake (sec 26 N-central): about 43.668, -86.188, r200, B.**
   - Cobmoosa P.O. (NE sec 36): about 43.656, -86.160.
   - An 1890s plat (not on archive.org) would show the earlier allotment owners (e.g. the chief's family) around the lake.
+
+## 10. Mineral Range RR express robbery, 15 Sep 1893 (Houghton Co MI)
+- **Source:** William A. Pinkerton, *Train Robberies, Train Robbers and the "Holdup" Men* (1907), pp.64-65 (HathiTrust mdp.39015006067535, seq 72-74).
+- **Spot:** "On the Mineral Range Railway, Michigan, at 9:30 A.M., September 15, 1893, **at a crossing in the woods, called Boston**, in a sparsely settled country". Masked men boarded the locomotive and express car and took **$70,000 in currency, the Calumet & Hecla payroll**.
+  - There was no telegraph at Boston, so the alarm was raised only at Calumet.
+  - Arrested at first: Jack Butler (ex-convict) and Jack King (Cornish wrestling champion).
+  - The escape was by horse and buggy; the horse ("Camp K", wearing racing plates) belonged to a Red Jacket saloon-keeper.
+  - Then arrested: La Liberty (ex-fireman), Dominick Hogan (American Express messenger) and Edward Hogan (planner).
+- **The money:** La Liberty confessed it was put in his trunk at the depot. Only $1,100 was found there; the Marquette night depot master and a livery keeper had stolen the rest from the trunk. **Pinkerton "recovered altogether $69,935.00 of the $70,000"**, so only **$65 was unaccounted for**. **Recovered: card grade F** (no loot left).
+- **Pin:** the **"Boston" crossing / station on the Mineral Range RR between Hancock and Calumet**. Use the GNIS "Boston" locale in Houghton Co (Boston/Boston Location, N of Hancock) at about place level (r500). Coordinates not looked up here.
+
+## 13. Blue Lake / Baldwin Twp (Sherburne Co MN, T35N R26W)
+- **Plat:** 1903 Northwest Pub. Co. *Atlas of Sherburne County* (Ancestry 1127, start image 31617_072138-00307). **"Baldwin" plate = viewer p.8, image 31617_072138-00315.** (Elk River is p.5; Livonia p.7; Big Lake p.10.)
+- **The lake:** the large lake (OCR'd as "...LAKE", Blue Lake) fills the **E half of sec 30 into NE sec 31**. A **small lake on its E side** (secs 30/31 line, by "A. B. Langdon(?)" and "North..." lots) is joined to it by a **short channel**. This is the Blue/Baxter pair.
+  - Owners round the channel: J. Johnson 80, M. A. Prescott, H. W. Beach 38.40, O. C. Northrop, Fred Tool, D. A. Kalliher, and the C. N. Ry. Co. 200 (sec 32).
+  - **No "Baldwin" tract**: Baldwin is only the township name.
+- **BLM (MN46 T35N R26W):** sec 30 = 45.4869-45.5013 N, 93.6340-93.6135 W; sec 31 = 45.4719-45.4870 N, 93.6337-93.6137 W.
+- **Pin, the channel between the two lakes (E side of sec 30 near the 30/31 line): about 45.488, -93.620, r200, B-.** Note that a modern map can confirm which lake is Baxter.
+
+## 12. Briggs Lake N shore (Sherburne Co MN, Palmer Twp)
+- **Plat:** 1903 Sherburne atlas, **"Palmer" plate = viewer p.15, image 31617_072138-00322** (Blue Hill p.12, Becker p.13, Santiago p.16).
+- **Briggs Lake** runs NE-SW across secs 22/27/28. The arm to the NE (Julia Lake?) is joined by a channel. Rice Lake / Elk River are to the S (sec 33-34).
+- **N shore owners (1903):**
+  - **"B. R. Briggs"**: lots 4 and 3, about 62.85 + 63.00 ac, on the **N shore in N-central sec 22**. "B. R. Bradford Est." is just N.
+  - **"S. & C. Kopp"**: a small lot on the channel at NE sec 22.
+  - N. Drew 5; L. O. Sjolander 120 (NE).
+- **No Jones and no Gorlick on the N shore in 1903.** They must be later owners; the 1914 Sherburne atlas (Ancestry image 31617_072138-00370) is the next check.
+- **BLM:** Briggs Lake is at about 45.50 N, 93.94 W, so this is **T35N R29W** (MN46). Sec 22 = 45.5015-45.5161 N, 93.9442-93.9236 W.
+- **Pin, the N-shore Briggs lots (N-central sec 22): about 45.512, -93.934, r250, B-** (as the 1903 N-shore farm; the Jones/Gorlick name awaits the 1914 plat).
+- **1914 Sherburne atlas** (Ancestry start image 31617_072138-00370) has **farmers' directories** per township (Becker at about image 00387, Elk River at 00397) plus plates: Clear Lake 00385, Baldwin 00383, Big Lake 00395. The **Palmer plate and directory were not located** in a spot-check of images 00389-00401 (unlabelled plate crops). **Open:** page through 00370-00402 for "Palmer" to look up Jones / Gorlick.
+
+## Status at about 11:50Z (batch 2, zip as)
+- **Done:** 1, 2, 5, 6, 7, 9, 10, 12 (1903), 13.
+- **Open:**
+  - 12 (1914 directory)
+  - 11 Reinhart (Le Sueur 1898, Ancestry image 31617_072135-00479)
+  - 16 Oesterle (Portage)
+  - 19 Trask Bridge
+  - Low: 3, 4, 15, 18, 20
+  - Holds: 8, 14, 17
+- UMedia (MN) now blocks scripts too (Azure WAF), so MN plats come from Ancestry only.
