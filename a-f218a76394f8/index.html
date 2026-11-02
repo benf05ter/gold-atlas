@@ -7264,18 +7264,19 @@ if(typeof TIER==='object'){ const g=TIER.get; TIER.get=p=>{ const b=g(p); return
 // behind search: the box at the top of the list only narrows what is already listed (name, place, county, state, year, grade, record type).
 // Another treasure layer joins the heading by putting its id in TRB.LAY (pins in the list) or TRB.EXTRA (heading only).
 {
-const TRB={LAY:['treasure','dig'], OPT:['wreck'], EXTRA:['_buried'], open:null, q:'', kinds:new Set(['treasure','dig','other'])};
+const TRB={LAY:['treasure','dig'], OPT:['wreck'], EXTRA:['_buried','_dzfree'], open:null, q:'', kinds:new Set(['treasure','dig','other'])};
 window.TRB=TRB;
-TRB.group=function(){ const ids=[...TRB.LAY,...TRB.OPT,...TRB.EXTRA]; let last=-1;
-  for(let i=0;i<LAYERS.length;i++) if(LAYERS[i].sec==='Treasure') last=i;
-  for(const id of ids){ const i=LAYERS.findIndex(l=>l.id===id); if(i<0) continue; const l=LAYERS[i]; if(l.sec==='Treasure') continue;
-    l.sec='Treasure'; LAYERS.splice(i,1); if(i<last) last--; LAYERS.splice(last+1,0,l); last++; } };
+TRB.group=function(){ const ids=[...TRB.LAY,...TRB.OPT,...TRB.EXTRA];
+  for(const l of LAYERS) if(ids.includes(l.id)) l.sec='Treasure';
+  const at=LAYERS.findIndex(l=>l.sec==='Treasure'); if(at<0) return; const T=LAYERS.filter(l=>l.sec==='Treasure'), rest=LAYERS.filter(l=>l.sec!=='Treasure');
+  const before=LAYERS.slice(0,at).filter(l=>l.sec!=='Treasure').length; LAYERS.length=0; LAYERS.push(...rest.slice(0,before),...T,...rest.slice(before)); };
 TRB.group();
 const GR=['S','A','B','C','D','E','F'];
 const KIND=p=>p.L==='treasure'?'treasure':p.L==='dig'?'dig':p.L==='wreck'?'wreck':'other';
 const KN={treasure:'Lead',dig:'Dig spot',wreck:'Shipwreck',other:'Lead'};
 const st=p=>(typeof STN==='object'&&STN[p.stt])||p.stt||'';
-function pins(){ const L=new Set([...TRB.LAY,...TRB.OPT]); return PTS.filter(p=>L.has(p.L)||(p.bur===1&&!L.has(p.L)&&p.L!=='wreck')); }
+function dz(p){ try{ return !!(window.EVB&&EVB.on&&EVB.EVL.has(p.L)&&EVB.EV(p).dz); }catch(_){ return false; } }
+function pins(){ const L=new Set([...TRB.LAY,...TRB.OPT]); return PTS.filter(p=>(L.has(p.L)||(p.bur===1&&p.L!=='wreck'))&&!dz(p)); }
 function hay(p){ return p._trbh||(p._trbh=[p.n,p.pl,p.co,p.co&&p.co+' county',st(p),p.stt,p.y,p.v,CONF[p.c],STATUS[p.s],KN[KIND(p)]].filter(Boolean).join(' ').toLowerCase()); }
 function match(p,q){ if(!q) return true; const g=TIER.t(p); if(/^[sabcdef]$/i.test(q)) return g===q.toUpperCase();
   const m=q.match(/^(?:grade|tier)\s*([sabcdef])$|^([sabcdef])\s*(?:grade|tier)$/i); if(m) return g===(m[1]||m[2]).toUpperCase();
@@ -7294,7 +7295,7 @@ TRB.render=function(){ const box=document.getElementById('trbList'); if(!box) re
     h+=`<details class="trbg" data-g="${g}"${op?' open':''}><summary><i class="tierb" style="background:${TIER.C[g]}">${g}</i> ${esc(TIER.NAME[g].replace(/^. tier: /,''))} <span class="hint">(${a.length})</span></summary>`
       +(a.length?a.map(row).join(''):'<p class="hint trbnone">None yet. Leads move up when records back them.</p>')+'</details>'; }
   if(q&&!n) h='<p class="hint" style="padding:10px">No lead matches. Clear the box to see them all.</p>';
-  box.innerHTML=h; document.getElementById('trbN').textContent=q?`${n} match${n===1?'':'es'}`:`${n} listed, nearest first in each grade`; };
+  box.innerHTML=h; document.getElementById('trbN').textContent=(q?`${n} match${n===1?'':'es'}`:`${n} listed, nearest first in each grade`)+(window.EVB&&EVB.on?' (Dowsing-free is on: source-weak pins left out)':''); };
 TRB.show=function(open){ let el=document.getElementById('trbP');
   if(!el){ document.body.insertAdjacentHTML('beforeend',`<div id="trbP" class="trbp" role="dialog" aria-label="All treasure leads" hidden>
 <div class="trbh"><b>All treasure leads by grade</b><button id="trbX" class="btn" type="button" aria-label="Close">×</button></div>
@@ -7311,7 +7312,7 @@ TRB.show=function(open){ let el=document.getElementById('trbP');
       if(typeof uxPick==='function') uxPick({k:'spot',p}); else select(p.id,true); }; }
   el.hidden=!open; if(open){ TRB.render(); } };
 const BTN='<button type="button" class="trbbtn" data-trb="1">☰ Browse all treasure leads, S to F</button>';
-document.head.insertAdjacentHTML('beforeend','<style id="trbCss">.trbbtn{grid-column:1/-1;display:block;width:100%;text-align:left;padding:9px 12px;margin:2px 0 4px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);font:600 14px var(--f-body,inherit);cursor:pointer}'
+document.head.insertAdjacentHTML('beforeend','<style id="trbCss">#plLay .trbbtn,#pane-layers .trbbtn,.trbbtn{grid-column:1/-1;display:block;width:100%;text-align:left;padding:9px 12px;margin:2px 0 4px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);font:600 14px var(--f-body,inherit);cursor:pointer;justify-content:flex-start;box-shadow:none;min-height:0;height:auto}'
  +'.trbp{position:fixed;inset:0;z-index:1000;background:var(--panel);color:var(--ink);overflow:auto;-webkit-overflow-scrolling:touch;padding:calc(10px + env(safe-area-inset-top,0px)) 16px calc(16px + env(safe-area-inset-bottom,0px));box-sizing:border-box;font-size:14px}'
  +'@media(min-width:921px){.trbp{left:auto;width:440px;box-shadow:-6px 0 26px color-mix(in srgb,var(--ink) 24%,transparent)}}'
  +'.trbh{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:17px;margin-bottom:8px}.trbh .btn{font-size:22px;line-height:1;padding:4px 12px}'
