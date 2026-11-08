@@ -7528,4 +7528,18 @@ button.item{content-visibility:auto;contain-intrinsic-size:auto 76px}
 setTimeout(()=>{ const go=()=>{ try{ if(window.VFA&&PTS.length) VFA.agree(PTS.find(p=>p.L==='history')||PTS[0]); }catch(_){} };
   if('requestIdleCallback' in window) requestIdleCallback(go,{timeout:4000}); else go(); },6000);
 </script>
+<script>
+// --- AERIALGO: tap the aerial picture at the top of a spot card and the map goes to that spot (close in, pin above the card) ---
+function ogAerialGo(p,tuck){ if(!p||!(p.la||p.lo)) return; const W=svgW(), H=svgH(); if(!W||!H) return;
+  const sh=document.getElementById('shSheet'), phone=sh&&!sh.hidden&&typeof SH==='object'&&SH.phone;
+  if(phone&&tuck) sh.dataset.state='tuck';
+  const w=Math.min(vb.w,0.012), h=w*vb.h/vb.w, [x,y]=P(p.lo,p.la);
+  const cover=phone&&!T3.on?(tuck?72:Math.min(sh.getBoundingClientRect().height,H*0.6)):0;   // keep the pin in the open map above the card
+  const dy=cover/2*(h/H); vb={x:x-w/2,y:y-h/2+dy,w,h}; fit(); apply(); }
+document.getElementById('detail').addEventListener('click',e=>{ const p=selId&&BYID[selId]; if(!p) return;
+  if(e.target.closest('.oghero')){ e.preventDefault(); ogAerialGo(p,true); return; }
+  const im=e.target.closest('.lid img'); if(im&&im.dataset.lik===p.id&&/^Aerial/.test(im.alt||'')) ogAerialGo(p,false); });   // the NAIP aerial still opens big; the map moves behind it
+new MutationObserver(()=>{ const c=document.querySelector('#detail .oghero:not([data-go]) .ogcap'); if(!c) return; c.closest('.oghero').dataset.go='1'; c.textContent+=' · tap to see it on the map'; }).observe(document.getElementById('detail'),{childList:true,subtree:true});
+</script>
+<style>.oghero .ogheroimg{cursor:pointer}</style>
 </body></html>
