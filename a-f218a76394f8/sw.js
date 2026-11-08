@@ -1,5 +1,5 @@
 // Old Ground offline cache. The build stamps VERSION; a new VERSION makes phones fetch the new atlas in the background.
-const VERSION='22d72f686e3a', CACHE='atlas-v'+VERSION;
+const VERSION='032cd8d547db', CACHE='atlas-v'+VERSION;
 const CORE=['./','index.html','manifest.webmanifest','icons/icon-192.png','icons/icon-512.png','icons/apple-touch-icon.png','og-data.js'];
 // the old maps come as tiles (ot/), saved as you look at them; the whole-sheet pictures are only a fallback and are no longer saved on install
 const EXTRA=['og/mag.webp','og/prosp.png'].concat(["sat/0_00_0_0.webp", "sat/0_01_0_0.webp", "sat/0_10_0_0.webp", "sat/0_11_0_0.webp", "sat/1_00_0_0.webp", "sat/1_00_0_1.webp", "sat/1_00_0_2.webp", "sat/1_00_0_3.webp", "sat/1_00_1_0.webp", "sat/1_00_1_1.webp", "sat/1_00_1_2.webp", "sat/1_00_1_3.webp", "sat/1_00_2_0.webp", "sat/1_00_2_1.webp", "sat/1_00_2_2.webp", "sat/1_00_2_3.webp", "sat/1_00_3_0.webp", "sat/1_00_3_1.webp", "sat/1_00_3_2.webp", "sat/1_00_3_3.webp", "sat/1_01_0_0.webp", "sat/1_01_0_1.webp", "sat/1_01_0_2.webp", "sat/1_01_0_3.webp", "sat/1_01_1_0.webp", "sat/1_01_1_1.webp", "sat/1_01_1_2.webp", "sat/1_01_1_3.webp", "sat/1_01_2_0.webp", "sat/1_01_2_1.webp", "sat/1_01_2_2.webp", "sat/1_01_2_3.webp", "sat/1_01_3_0.webp", "sat/1_01_3_1.webp", "sat/1_01_3_2.webp", "sat/1_01_3_3.webp", "sat/1_10_0_0.webp", "sat/1_10_0_1.webp", "sat/1_10_0_2.webp", "sat/1_10_0_3.webp", "sat/1_10_1_0.webp", "sat/1_10_1_1.webp", "sat/1_10_1_2.webp", "sat/1_10_1_3.webp", "sat/1_10_2_0.webp", "sat/1_10_2_1.webp", "sat/1_10_2_2.webp", "sat/1_10_2_3.webp", "sat/1_10_3_0.webp", "sat/1_10_3_1.webp", "sat/1_10_3_2.webp", "sat/1_10_3_3.webp", "sat/1_11_0_0.webp", "sat/1_11_0_1.webp", "sat/1_11_0_2.webp", "sat/1_11_0_3.webp", "sat/1_11_1_0.webp", "sat/1_11_1_1.webp", "sat/1_11_1_2.webp", "sat/1_11_1_3.webp", "sat/1_11_2_0.webp", "sat/1_11_2_1.webp", "sat/1_11_2_2.webp", "sat/1_11_2_3.webp", "sat/1_11_3_0.webp", "sat/1_11_3_1.webp", "sat/1_11_3_2.webp", "sat/1_11_3_3.webp", "pk/parks.json", "ot/index.json"]);
@@ -24,6 +24,13 @@ self.addEventListener('fetch',e=>{ const r=e.request; if(r.method!=='GET') retur
     if(!res||!res.ok){ try{ const o=await fetch(r); if(o.type==='opaque'||o.ok||!res) res=o; }catch(_){} }
     if(!res||(!res.ok&&res.type!=='opaque')) return hit||res||Response.error();
     if(c&&res.ok) c.put(r.url,res.clone()).catch(()=>{});
+    return res; })()); return; }
+  // LiDAR view tiles (USGS 3DEP, Iowa 2020 LiDAR): saved as you look, so the areas you have seen still show with no signal.
+  // Own cache, trimmed to the newest ~3,000 pictures (about 150 MB) so it never crowds out the base map.
+  if((u.hostname==='elevation.nationalmap.gov'||u.hostname==='ortho.gis.iastate.edu')&&u.pathname.endsWith('/exportImage')){ e.respondWith((async()=>{ let c=null, hit=null;
+    try{ c=await caches.open('atlas-lid'); hit=await c.match(r.url); if(hit) return hit; }catch(_){ c=null; }
+    let res; try{ res=await fetch(r.url,{mode:'cors',credentials:'omit'}); }catch(_){ try{ return await fetch(r); }catch(__){ return Response.error(); } }
+    if(c&&res.ok&&/^image\//.test(res.headers.get('content-type')||'')){ c.put(r.url,res.clone()).then(async()=>{ if(Math.random()<0.03){ const k=await c.keys(); for(const q of k.slice(0,Math.max(0,k.length-3000))) await c.delete(q); } }).catch(()=>{}); }
     return res; })()); return; }
   // elevation tiles for the terrain tools (Terrarium, AWS open data): saved once, then served from the phone
   if(u.hostname==='s3.amazonaws.com'&&u.pathname.startsWith('/elevation-tiles-prod/')){ e.respondWith((async()=>{ let c=null, hit=null;
