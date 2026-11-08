@@ -25,6 +25,13 @@ self.addEventListener('fetch',e=>{ const r=e.request; if(r.method!=='GET') retur
     if(!res||(!res.ok&&res.type!=='opaque')) return hit||res||Response.error();
     if(c&&res.ok) c.put(r.url,res.clone()).catch(()=>{});
     return res; })()); return; }
+  // LiDAR view tiles (USGS 3DEP, Iowa 2020 LiDAR): saved as you look, so the areas you have seen still show with no signal.
+  // Own cache, trimmed to the newest ~3,000 pictures (about 150 MB) so it never crowds out the base map.
+  if((u.hostname==='elevation.nationalmap.gov'||u.hostname==='ortho.gis.iastate.edu')&&u.pathname.endsWith('/exportImage')){ e.respondWith((async()=>{ let c=null, hit=null;
+    try{ c=await caches.open('atlas-lid'); hit=await c.match(r.url); if(hit) return hit; }catch(_){ c=null; }
+    let res; try{ res=await fetch(r.url,{mode:'cors',credentials:'omit'}); }catch(_){ try{ return await fetch(r); }catch(__){ return Response.error(); } }
+    if(c&&res.ok&&/^image\//.test(res.headers.get('content-type')||'')){ c.put(r.url,res.clone()).then(async()=>{ if(Math.random()<0.03){ const k=await c.keys(); for(const q of k.slice(0,Math.max(0,k.length-3000))) await c.delete(q); } }).catch(()=>{}); }
+    return res; })()); return; }
   // elevation tiles for the terrain tools (Terrarium, AWS open data): saved once, then served from the phone
   if(u.hostname==='s3.amazonaws.com'&&u.pathname.startsWith('/elevation-tiles-prod/')){ e.respondWith((async()=>{ let c=null, hit=null;
     try{ c=await caches.open('atlas-dem'); hit=await c.match(r.url); if(hit) return hit; }catch(_){ c=null; }
