@@ -48,3 +48,10 @@
 ## 7 (plat). Tweit, Waldorf: not in the 1914 Waseca patrons directory
 - Ancestry 1127, Waseca 1914 (39 pp.). The patrons directory by post office is viewer pp.20-24. **"Waldorf Post Office" (p.24, image 31617_072139-00103) lists only "Haas, J., R1, sec 6, ac 160".** No Tweit/Tveit in the Waldorf or nearby lists sampled.
 - The township plates (Vivian / Byron) were not read name by name, and the Blue Earth 1914 set was not opened. The 1920 St. Peter "Michael Tweit" (b. 1867 IA) remains the only census lead. Not placed.
+
+## 11 (plat). Livermore Johnson cabin / Bloody Run (Humboldt Co IA): 1896 checked, no Johnson
+- **Livermore is in sec 17, T93N R28W (Humboldt Twp)** (Nominatim 42.8683,-94.1851; BLM point query). It is not in Vernon or Corinth as the card has it.
+- **Ancestry 1127, Humboldt 1896, viewer p.22 of 50 (image 31617_072143-00637): Humboldt Twp T93N R28W.** Grove (T92N R28W) is p.21 (image 00636). Read at 2x.
+  - **1.5 mi E of Livermore = secs 16/15.** Owners: Eber Stone Est. (101.50, 102), Luke Dunphy, Frank McGuire, Michael Melavin, Lucy A. Stone, Fannie L. Collins 240 and A. D. Hunt (sec 16-15). Nelson Ells, J. W. Wilson and George Tillson are E of them.
+  - **No Johnson** on the 1896 plate near Livermore. **No "Bloody Run" label** (the Des Moines River runs through Livermore; small runs to its E are unnamed).
+- The 1857 Johnson cabin predates the plat by about 40 years. The GLO patent (#11 GLO part) is the remaining route. Not placed.
