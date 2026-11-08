@@ -1507,7 +1507,7 @@ Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc
 Notes:
 - [county-depth/se-wi-histories/jefferson-1880s.md](county-depth/se-wi-histories/jefferson-1880s.md#L1) (line 1)
 
-Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L572) (line 572); [newspapers-com/court-probate-asks.md](newspapers-com/court-probate-asks.md#L12) (line 12); [ancestry/list39.md](ancestry/list39.md#L51) (line 51); [ancestry/list41.md](ancestry/list41.md#L10) (line 10); [ancestry/INDEX.md](ancestry/INDEX.md#L82) (line 82); `/mnt/project-files/research/treasure-statewide/leads-mn.tsv` line 23 (shared folder only); `/mnt/project-files/research/treasure-statewide/persons.tsv` line 142 (shared folder only)
+Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L572) (line 572); [newspapers-com/court-probate-asks.md](newspapers-com/court-probate-asks.md#L12) (line 12); [ancestry/list42.md](ancestry/list42.md#L3) (line 3); [ancestry/list39.md](ancestry/list39.md#L51) (line 51); [ancestry/list41.md](ancestry/list41.md#L10) (line 10); [ancestry/INDEX.md](ancestry/INDEX.md#L82) (line 82); `/mnt/project-files/research/treasure-statewide/leads-mn.tsv` line 23 (shared folder only); `/mnt/project-files/research/treasure-statewide/persons.tsv` line 142 (shared folder only)
 
 ### George Gallup's gallows confession: $5,000 under a red oak, NW corner of section 16
 `tw-ia-washington-gallup-red-oak` · grade D · Washington Co., IA
@@ -1691,9 +1691,9 @@ Also mentions the place: [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L10
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L231) (line 231)
 
 Notes:
-- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L28) (line 28)
+- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L187) (line 187)
 - [newspapers-com/placement-gaps-list.md](newspapers-com/placement-gaps-list.md#L39) (line 39)
-- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L20) (line 20)
+- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L106) (line 106)
 - [newspapers-com/ia-il-second-source.md](newspapers-com/ia-il-second-source.md#L123) (line 123)
 - [genealogybank/gb-list1.md](genealogybank/gb-list1.md#L31) (line 31)
 - [ancestry/list12-dates.md](ancestry/list12-dates.md#L6) (line 6)
@@ -3137,7 +3137,7 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L253) (line 253)
 
 Notes:
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L397) (line 397)
-- [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L55) (line 55)
+- [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L48) (line 48)
 - [ancestry/list25.md](ancestry/list25.md#L118) (line 118)
 - [plats/van-arsdale-alamo.md](plats/van-arsdale-alamo.md#L1) (line 1)
 - [plats/INDEX.md](plats/INDEX.md#L55) (line 55)
