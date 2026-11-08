@@ -53,6 +53,7 @@ Notes:
 - [ancestry/list17.md](ancestry/list17.md#L4) (line 4)
 - [ancestry/list22.md](ancestry/list22.md#L4) (line 4)
 - [ancestry/list18.md](ancestry/list18.md#L49) (line 49)
+- [ancestry/list28.md](ancestry/list28.md#L98) (line 98)
 - [ancestry/list21.md](ancestry/list21.md#L30) (line 30)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L57) (line 57)
 - [ancestry/list24.md](ancestry/list24.md#L35) (line 35)
@@ -798,6 +799,7 @@ Also mentions the place: [ancestry/list26.md](ancestry/list26.md#L161) (line 161
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L330) (line 330)
 
 Notes:
+- [ancestry/list28.md](ancestry/list28.md#L105) (line 105)
 - [ancestry/list25.md](ancestry/list25.md#L161) (line 161)
 
 Also mentions the place: [ancestry/illinois-names-batch.md](ancestry/illinois-names-batch.md#L15) (line 15); [ancestry/INDEX.md](ancestry/INDEX.md#L66) (line 66); [forums/treasurenet-list1.md](forums/treasurenet-list1.md#L45) (line 45)
@@ -1732,7 +1734,7 @@ Also mentions the place: [newspapers-com/ia-il-second-source.md](newspapers-com/
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L313) (line 313)
 
 
-Also mentions the place: [ancestry/list27.md](ancestry/list27.md#L3) (line 3); [ancestry/list26.md](ancestry/list26.md#L143) (line 143); [ancestry/INDEX.md](ancestry/INDEX.md#L27) (line 27)
+Also mentions the place: [ancestry/list27.md](ancestry/list27.md#L3) (line 3); [ancestry/list28.md](ancestry/list28.md#L86) (line 86); [ancestry/list26.md](ancestry/list26.md#L143) (line 143); [ancestry/INDEX.md](ancestry/INDEX.md#L27) (line 27)
 
 ### North Fox Island: German land-payment gold (1850 legend) and the 1905 hoax find
 `tw-mi-north-fox-german-gold` · grade D · Leelanau Co., MI
@@ -2138,7 +2140,7 @@ Also mentions the place: [negatives.tsv](negatives.tsv#L231) (line 231); [newspa
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L190) (line 190)
 
 Notes:
-- [ancestry/markee-apple-river-polk.md](ancestry/markee-apple-river-polk.md#L1) (line 1)
+- [ancestry/markee-apple-river-polk.md](ancestry/markee-apple-river-polk.md#L5) (line 5)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L36) (line 36)
 - `/mnt/project-files/research/court-records/pin-records-check.tsv` line 7 (shared folder only)
 
@@ -2928,7 +2930,7 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L253) (line 253)
 
 Notes:
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L397) (line 397)
-- [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L55) (line 55)
+- [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L48) (line 48)
 - [ancestry/list25.md](ancestry/list25.md#L118) (line 118)
 - [plats/van-arsdale-alamo.md](plats/van-arsdale-alamo.md#L1) (line 1)
 - [plats/INDEX.md](plats/INDEX.md#L55) (line 55)

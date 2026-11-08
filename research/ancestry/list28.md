@@ -82,3 +82,25 @@
 - **BLM sec 16 T78N R12W = 41.5534-41.5680 N, -92.2584 to -92.2393 W.** The W strip is about -92.2584 to -92.2537.
 - **Pin: W. Ingram 100, W side of sec 16, about 41.561, -92.256, r400, B-** (family farm in 1886; a race track c.1896 "on his farm" would sit on this strip or the 21 NW tract). The 1917 plate would confirm Thomas.
 - **1917 (Anderson Pub. Co., 53 pp.):** the "Farmers' Directory of English Township" is viewer p.32 (image 31617_072143-00698). **No Ingram** between Holton/Hotchkiss and Johnston. The 1917 English plate itself (near p.33) was not read. By 1917 no Ingram was a resident patron, which fits a family that had left or died out; a non-patron owner could still be on the plate.
+
+## 12. Adsit, Cherokee (IA): street found (1915 Iowa state census)
+- **Ancestry 1084, 1915 Iowa State Census card (image IA1915_90-1678, card no. 816): "William C. Adsit, 82", P.O. address "413 Magnetic Ave", Cherokee, Ward 3.**
+  - Occupation: retired. Widowed. Born New York; 59 years in Iowa. Owns his home, valued $4,000, no encumbrance.
+  - This matches the 1910 "house 413, Ward 3" (list27 #2), which had no street. His son William A. (b. 1871, single) has his own card (IA1915_90-1677).
+- **OSM/Nominatim: 413 Magnetic Avenue, Cherokee = 42.75297, -95.54387** (the street still exists).
+  - Caveat: Cherokee house numbers may have been renumbered since 1915. A 1910s Cherokee Sanborn sheet would confirm the lot; the LoC check was not run in this pass.
+- **Pin: 413 Magnetic Ave, 42.7530, -95.5439, r40, B** (W. C. Adsit's 1915 home; the yard in the 1915 story). Look-only, private residence.
+
+## 15. Ackerman timber, Oxford Twp (Johnson Co IA): not done
+- **The Ancestry 1127 "Johnson, 1900" set (starts at image 31617_072144-00135) is mislabelled.** Its plates are **Jones Co** townships and villages (Onslow, Monticello, Morley, Wyoming, Clay, Amber, Scotch Grove...). The title card reads "Atlas of Johnson County" (Huebinger 1900), but the filmed pages beyond it are Jones Co.
+- "Johnson, 1889" (image 31617_072144-00015) was not checked. Low priority; left.
+
+## 5. Leggatt's Hill, Grand Haven: a Leggat family in Grand Haven, 1880
+- City directories (2469), "Leggatt"/"Leggat" + Grand Haven: no Grand Haven hit (the keyword filter is ignored; the hits are elsewhere).
+- **1880 census (6742): Margaret Leggat, 69, widow, b. Scotland, head, Grand Haven, "Washington Street", dwelling 243.** Grandchildren Jennie M. (b. 1862 MI), Fanny E. (b. 1864) and William (b. 1866) are in the same index group; William, 14, is in her household.
+  - Also in Ottawa Co: William and George Leggatt (Leggett), Allendale (1880, 1900).
+- So **a Leggat family lived in Grand Haven in the 1870s-80s**, a likely origin for the local name "Leggatt's Hill". They lived on Washington St, not at the dune, so the hill was probably land they owned or worked, or simply a name.
+- The 1912 Ottawa plat (list22 #7) shows no Leggatt. The 1897 plat is not in 1127. **No parcel tie;** the hill = Five Mile Hill / Light House Hill identification stays as Treasure ruled.
+
+## 13. Yocum, DeKalb: not done
+- Ancestry 1127 has DeKalb 1892 and 1905 only (no 1929). Both predate Ray Yocum's 1930s small farm. The 1940 census address (1836 E. Lincoln Hwy) already pins it (list25 #19). Skipped.
