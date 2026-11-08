@@ -56,3 +56,20 @@
 - Per the New Richland Star 1905-06-22 (via PC a), Heckes then "owns the Philbrook farm", with the dig in the grove near the old house. So the dig site is the **Philbrook quarter, NE¼ sec 11**, adjoining Heckes's own NE¼ sec 14.
 - **BLM: sec 11 T105N R23W = 43.9063-43.9208 N, -93.5670 to -93.5466 W; sec 14 = 43.8918-43.9063 N.**
 - **Pin: Philbrook farm, NE¼ sec 11, about 43.917,-93.552, r300, B** (the house mark lies within the quarter). Alternative: Heckes home quarter, NE¼ sec 14, about 43.903,-93.552.
+
+## #9 BENNETT: skipped (Treasure already has it). The 1896 Hamilton Cass plate (image 31617_072143-00158) agrees: R. S. Bennett is just N of the County Poor Farm.
+
+## #8 SOUVIGNER, Arthur Bay (Menominee 1912): not found on the shore plate
+- Arthur Bay geocodes to **sec 30 T34N R25W** (45.309,-87.436).
+- **Ancestry 1127, Menominee 1912, viewer p.15 of 91 (image 31617_072123-00195).** The fractional township plate along Green Bay shows "ARTHUR BAY" village in sec 30.
+- **Shore lots, secs 19-31:** H. P. Schmidt 120, C. L. Bailey, Chas. Geiser, Ed Bonn, F. (illegible), Menominee Abst. & Land Co., J. Corry, Brendemuhl, L. Edstrom (?), T. Van Patten, and a School in sec 30.
+- **No Souvigner / Souvignier legible** (some small lot names are illegible). The 1900 census has Johen Souvignier in Ingallston Twp, which covers several plates. Not placed.
+
+## #11 BRANSTAD homestead, Leland (Winnebago IA 1913): PLACED
+- **Ancestry 1127, Winnebago 1913 (Anderson), viewer p.18 of 45 (image 31617_072148-00311), "Forest" Twp, T98N R24W, atlas p.23.**
+- The Leland village plat (hatched) is in the NE of the township, on the sec 1 / sec 2 line. The Minneapolis & St. Louis RR and the creek run through it.
+- **"E. F. Branstad 120" is in the E part of sec 1**, between the village and the Mount Valley/Forest City Twp line (R23W), E of the creek.
+  - A separate "A. E. Branstad" tract (with John Charison) is in sec 4, about 2.5 mi W. That is family land, not the "east of Leland" place.
+- This matches the Des Moines Register 1922-01-08 note (homestead "about a mile east of Leland", gold in an old shed).
+- **BLM: sec 1 T98N R24W = 43.3280-43.3423 N, -93.6370 to -93.6171 W** (Leland's geocode 43.337,-93.635 is on its W edge).
+- **Pin: E. F. Branstad 120, E½ sec 1, about 43.335,-93.622, r300, B.**
