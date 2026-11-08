@@ -1972,11 +1972,11 @@
 "f"
 ],
 "tw-mn-henderson-ritter-beer-casks": [
-"1860s brewery cellar · forty casks of beer · dug out 1920s",
-"f"
+"1860s brewery cellar · forty casks located 1925 · raising never reported",
+"u"
 ],
 "tw-mn-west-st-paul-rechenberg-jar-1924": [
-"1924 jar of bills · $1,300 in the cellar dirt · found, look-only",
+"1924 jar of bills · $1,360 in the cellar · found, split by court",
 "f"
 ],
 "tw-wi-portage-pauquette-kegs": [
@@ -1984,7 +1984,7 @@
 "u"
 ],
 "tw-mi-niles-dam-french-war-cache": [
-"French war money · above the Niles dam · one-line legend",
+"Fort St. Joseph gold · well and river-bank caches · bank cache rumoured found",
 "u"
 ],
 "tw-ia-dexter-dexfield-park-barrow-loot-1933": [
@@ -2054,5 +2054,9 @@
 "tw-mi-niles-perkins-hut-1904": [
 "1904 burned hut · no hidden money in any account",
 "h"
+],
+"tw-mi-port-sheldon-ottawa-house-plunder": [
+"1840s murder plunder · dune blowout by the hotel · graves, look-only",
+"u"
 ]
 }
