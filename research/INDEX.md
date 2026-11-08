@@ -63,7 +63,7 @@ Notes:
 - `/mnt/project-files/research/treasure-statewide/held-leads.md` line 32 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/leads-mi.tsv` line 45 (shared folder only)
 
-Also mentions the place: [newspapers-com/mi-gap-counties.txt](newspapers-com/mi-gap-counties.txt#L3) (line 3)
+Also mentions the place: [newspapers-com/mi-gap-counties.txt](newspapers-com/mi-gap-counties.txt#L3) (line 3); [ancestry/list29.md](ancestry/list29.md#L33) (line 33)
 
 ### Danish recluse Lars Nielson's $10,000-13,000 hidden on his farm, sec 14 Morken Township
 `tw-mn-morken-nielson-miser-1916` · grade B · Clay Co., MN · dig spot `dig-mn-morken-nielson-miser-1916`
@@ -234,6 +234,7 @@ Notes:
 - [ancestry/land-ownership-maps-list8.md](ancestry/land-ownership-maps-list8.md#L37) (line 37)
 - [ancestry/trombler-jacobson-otter-tail.md](ancestry/trombler-jacobson-otter-tail.md#L1) (line 1)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L41) (line 41)
+- [ancestry/list29.md](ancestry/list29.md#L11) (line 11)
 - [ancestry/list16.md](ancestry/list16.md#L42) (line 42)
 - [plats/trombler-fergus-falls.md](plats/trombler-fergus-falls.md#L1) (line 1)
 - [plats/INDEX.md](plats/INDEX.md#L48) (line 48)
@@ -817,6 +818,8 @@ Notes:
 - [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L493) (line 493)
 - [newspapers-com/targeted-tweit-dickey.md](newspapers-com/targeted-tweit-dickey.md#L3) (line 3)
 - [ancestry/tweit-waseca-blue-earth.md](ancestry/tweit-waseca-blue-earth.md#L1) (line 1)
+- [ancestry/INDEX.md](ancestry/INDEX.md#L70) (line 70)
+- [ancestry/list29.md](ancestry/list29.md#L20) (line 20)
 - [plats/tweit-jacobson-aerial.md](plats/tweit-jacobson-aerial.md#L1) (line 1)
 - [plats/tweit-medo-plat.md](plats/tweit-medo-plat.md#L1) (line 1)
 - [plats/tweit-vivian-plat.md](plats/tweit-vivian-plat.md#L40) (line 40)
@@ -824,7 +827,7 @@ Notes:
 - `/mnt/project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md` line 8 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/persons.tsv` line 122 (shared folder only)
 
-Also mentions the place: [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L385) (line 385); [ancestry/INDEX.md](ancestry/INDEX.md#L11) (line 11); [plats/INDEX.md](plats/INDEX.md#L24) (line 24); `/mnt/project-files/research/court-records/pin-records-check.tsv` line 39 (shared folder only)
+Also mentions the place: [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L385) (line 385); [plats/INDEX.md](plats/INDEX.md#L24) (line 24); `/mnt/project-files/research/court-records/pin-records-check.tsv` line 39 (shared folder only)
 
 ### Spanish and Mexican gold coins plowed up, northern Weesaw Township
 `tw-mi-weesaw-spanish-coins-1897` · grade C · Berrien Co., MI
@@ -1300,14 +1303,14 @@ Also mentions the place: [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L89
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L373) (line 373)
 
 Notes:
-- [negatives.tsv](negatives.tsv#L286) (line 286)
-- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L706) (line 706)
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L144) (line 144)
-- [newspapers-com/county-coverage.tsv](newspapers-com/county-coverage.tsv#L55) (line 55)
 - [treasure-statewide/held-leads.md](treasure-statewide/held-leads.md#L11) (line 11)
+- [ancestry/list29.md](ancestry/list29.md#L3) (line 3)
 - [plats/may-dickeyville-grant.md](plats/may-dickeyville-grant.md#L1) (line 1)
 - [plats/INDEX.md](plats/INDEX.md#L70) (line 70)
 - `/mnt/project-files/research/treasure-statewide/held-leads.md` line 11 (shared folder only)
+
+Also mentions the place: [negatives.tsv](negatives.tsv#L286) (line 286); [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L706) (line 706); [newspapers-com/county-coverage.tsv](newspapers-com/county-coverage.tsv#L55) (line 55); [ancestry/INDEX.md](ancestry/INDEX.md#L70) (line 70)
 
 ### Dillinger's suitcase of cash
 `t-dillinger-little-bohemia` · grade D · Vilas Co., WI
@@ -1433,6 +1436,7 @@ Notes:
 - [ancestry/list18.md](ancestry/list18.md#L13) (line 13)
 - [ancestry/land-ownership-maps-list8.md](ancestry/land-ownership-maps-list8.md#L15) (line 15)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L48) (line 48)
+- [ancestry/list29.md](ancestry/list29.md#L15) (line 15)
 - [plats/blackmore-palmyra.md](plats/blackmore-palmyra.md#L1) (line 1)
 - [plats/INDEX.md](plats/INDEX.md#L63) (line 63)
 - `/mnt/project-files/research/treasure-statewide/leads-mn.tsv` line 23 (shared folder only)
@@ -1506,9 +1510,9 @@ Also mentions the place: [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L10
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L231) (line 231)
 
 Notes:
-- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L28) (line 28)
+- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L187) (line 187)
 - [newspapers-com/placement-gaps-list.md](newspapers-com/placement-gaps-list.md#L39) (line 39)
-- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L20) (line 20)
+- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L106) (line 106)
 - [newspapers-com/ia-il-second-source.md](newspapers-com/ia-il-second-source.md#L123) (line 123)
 - [genealogybank/gb-list1.md](genealogybank/gb-list1.md#L31) (line 31)
 - [ancestry/list12-dates.md](ancestry/list12-dates.md#L6) (line 6)
@@ -1909,7 +1913,7 @@ Notes:
 - `/mnt/project-files/research/treasure-statewide/leads-wi.tsv` line 28 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/persons.tsv` line 167 (shared folder only)
 
-Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L15) (line 15); [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L335) (line 335); [ancestry/land-ownership-maps-list8.md](ancestry/land-ownership-maps-list8.md#L42) (line 42); [ancestry/INDEX.md](ancestry/INDEX.md#L42) (line 42); `/mnt/project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md` line 14 (shared folder only)
+Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L15) (line 15); [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L335) (line 335); [ancestry/land-ownership-maps-list8.md](ancestry/land-ownership-maps-list8.md#L42) (line 42); [ancestry/INDEX.md](ancestry/INDEX.md#L42) (line 42); [ancestry/list29.md](ancestry/list29.md#L27) (line 27); `/mnt/project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md` line 14 (shared folder only)
 
 ### Reuben Bennett, the Hamilton County miser, farm 2 mi from Webster City
 `tw-ia-hamilton-bennett-miser` · grade D · Hamilton Co., IA
@@ -2039,6 +2043,7 @@ Also mentions the place: [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L60
 
 Notes:
 - [ancestry/list24.md](ancestry/list24.md#L54) (line 54)
+- [ancestry/list29.md](ancestry/list29.md#L32) (line 32)
 - [ancestry/list23.md](ancestry/list23.md#L22) (line 22)
 
 Also mentions the place: [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L171) (line 171); [ancestry/INDEX.md](ancestry/INDEX.md#L65) (line 65)
@@ -2140,7 +2145,7 @@ Also mentions the place: [negatives.tsv](negatives.tsv#L231) (line 231); [newspa
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L190) (line 190)
 
 Notes:
-- [ancestry/markee-apple-river-polk.md](ancestry/markee-apple-river-polk.md#L5) (line 5)
+- [ancestry/markee-apple-river-polk.md](ancestry/markee-apple-river-polk.md#L1) (line 1)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L36) (line 36)
 - `/mnt/project-files/research/court-records/pin-records-check.tsv` line 7 (shared folder only)
 
@@ -2670,6 +2675,7 @@ Notes:
 - [newspapers-com/targeted-tweit-dickey.md](newspapers-com/targeted-tweit-dickey.md#L5) (line 5)
 - [ancestry/tweit-waseca-blue-earth.md](ancestry/tweit-waseca-blue-earth.md#L9) (line 9)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L11) (line 11)
+- [ancestry/list29.md](ancestry/list29.md#L20) (line 20)
 - [plats/tweit-jacobson-aerial.md](plats/tweit-jacobson-aerial.md#L3) (line 3)
 - [plats/tweit-medo-plat.md](plats/tweit-medo-plat.md#L1) (line 1)
 - [plats/INDEX.md](plats/INDEX.md#L24) (line 24)
@@ -2930,7 +2936,7 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L253) (line 253)
 
 Notes:
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L397) (line 397)
-- [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L48) (line 48)
+- [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L55) (line 55)
 - [ancestry/list25.md](ancestry/list25.md#L118) (line 118)
 - [plats/van-arsdale-alamo.md](plats/van-arsdale-alamo.md#L1) (line 1)
 - [plats/INDEX.md](plats/INDEX.md#L55) (line 55)
@@ -3257,6 +3263,8 @@ Notes:
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L118) (line 118)
 - [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L325) (line 325)
 - [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L145) (line 145)
+- [ancestry/INDEX.md](ancestry/INDEX.md#L70) (line 70)
+- [ancestry/list29.md](ancestry/list29.md#L23) (line 23)
 - [plats/mattrick-beaver.md](plats/mattrick-beaver.md#L1) (line 1)
 - [plats/INDEX.md](plats/INDEX.md#L51) (line 51)
 - `/mnt/project-files/research/treasure-statewide/leads-wi.tsv` line 19 (shared folder only)
@@ -3307,7 +3315,7 @@ Notes:
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L92) (line 92)
 - [ancestry/list10-probate-census.md](ancestry/list10-probate-census.md#L9) (line 9)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L21) (line 21)
-- [ancestry/iowa-batch-ogle-iwers-webster.md](ancestry/iowa-batch-ogle-iwers-webster.md#L37) (line 37)
+- [ancestry/iowa-batch-ogle-iwers-webster.md](ancestry/iowa-batch-ogle-iwers-webster.md#L15) (line 15)
 - [plats/placement-gaps-pass-b.md](plats/placement-gaps-pass-b.md#L11) (line 11)
 - `/mnt/project-files/research/treasure-statewide/deep-dives/iail-dickson-iwers-harmon.md` line 11 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/deep-dives/pc-job-2.md` line 11 (shared folder only)
