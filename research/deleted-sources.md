@@ -102,3 +102,4 @@ Kept: untiled scans (plat-barron/scans-c1918, plat-dunn/scans-1915, plat-mn-mi c
 | 2026-11-08 16:25 | /mnt/project-files/research-zip-bp.zip | 3,349 B | PC (b) list 31 cumulative (md5 3f3d6e2e…), committed verbatim to gold-atlas main research/ (commit 54236088) | Neb rule 04:06Z |
 | 2026-11-08 16:28 | /mnt/project-files/research-zip-bq.zip | 3,733 B | PC (b) list 31 final cumulative (md5 9da82339…), committed verbatim to gold-atlas main research/ (commit dc9a406e) | Neb rule 04:06Z |
 | 2026-11-08 16:32 | /mnt/project-files/research-zip-br.zip | 1,781 B | PC (b) list 32 batch 1 (md5 a0e30608…), committed verbatim to gold-atlas main research/ (commit 5f600332) | Neb rule 04:06Z |
+| 2026-11-08 16:36 | /mnt/project-files/research-zip-bs.zip | 2,412 B | PC (b) list 32 cumulative (md5 5e3783c5…), committed verbatim to gold-atlas main research/ (commit d44d633b) | Neb rule 04:06Z |
