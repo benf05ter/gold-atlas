@@ -54,3 +54,25 @@
 
 ## Still not done (L30)
 - #5 Boyer (Outagamie 1917), #15 Racine K of C, #16 Port Sheldon retry, #17 Hyde Park, #18 Ackerman.
+
+## 16. PORT SHELDON (1876 Olive Twp plate): DONE
+- **archive.org 3927947.0001.001.umich.edu, leaf 0032 (printed pp.XXVIII-XXIX), "Map of Olive Township", T6N R15-16W.** Read at full resolution.
+- **Pigeon Lake** lies across the line between **secs 15/16 (N) and 21/22 (S), T6N R16W**, and opens W to Lake Michigan.
+  - **At the outlet (W end, S shore, NW corner of sec 21)** there is a small cluster of building symbols, one marked with a star, on **"Woodley & Irish"** land. Woodley & Irish also hold 150.98 ac N of the lake in sec 16. This is the only built spot at the old Port Sheldon site. **No "Port Sheldon", hotel or "Ottawa House" label.**
+  - Nearby: T. Owen 191.8 (sec 21 W), Zeebwyth/Amler/Mederman (small lots S of the lake), C. Deering 32 and E. Hugstingh 40 (sec 22 NW), H. Goodin 379 (sec 15) and P. Quigley (sec 14).
+  - **The head (E end) of Pigeon Lake is in sec 15 near the 14 line**, where the creek enters; no buildings are drawn there in 1876.
+- **BLM:** sec 16 T6N R16W = 42.9013-42.9135 N, -86.2153/-86.2003; sec 21 = 42.8846-42.8991 N, -86.2142/-86.1993; sec 15 = 42.8991-42.9139 N, -86.2008/-86.1803.
+- **Pins:**
+  - **Old Port Sheldon / outlet building cluster (Woodley & Irish): about 42.899, -86.211, r200, B.**
+  - **If the story means the head of the lake:** about 42.902, -86.183, r300, C.
+  - The "Scare Valley" name is not on the plate.
+
+## 15. RACINE K of C hall: DONE
+- Ancestry 2469 (Racine directories): **"Knights of Columbus Hall", 338 S. Main St (3rd floor), 1923 and 1925.** That is the hall address in the story's years. **It is NOT the 320 Fifth St the card infers** (that address is from 1931). Urban, look-only.
+
+## 17. HYDE PARK, Des Moines: partial
+- Ancestry 2469, 1903 Des Moines directory: the residence "Hyde Park" appears for **coal miners** (Carl Christenson, Joseph Fairless, Wm. Foster), alongside "Fairview". So Hyde Park was a **mining settlement/addition on the edge of Des Moines**, not a named city street.
+- **George Brown, 1903:** several in the city (658 14th, 1316 26th, 603 E. S. 10th, 1639 E. Walnut, 1373 E. 9th, 105 E. E St). **None is flagged Hyde Park; no farmer.** The Hyde Park location is not mapped (no Polk Co plat in 1127). Placeholder stays.
+
+## 5 Boyer / 18 Ackerman: not done
+- Boyer (Outagamie 1917, image 31617_072130-00109) was not opened. Ackerman (HathiTrust 1889 Johnson Co) was not tried. Both are low.
