@@ -109,14 +109,14 @@ tw-horrigan-boscobel-1930	B	Horrigan brothers' farm money, Horrigan Ridge near M
 tw-horrigan-boscobel-1930	B	Horrigan brothers' farm money, Horrigan Ridge near Mt. Zion	Crawford	WI		research/plats/INDEX.md	53	co:horrigan
 tw-horrigan-boscobel-1930	B	Horrigan brothers' farm money, Horrigan Ridge near Mt. Zion	Crawford	WI		research/aerials/horrigan-crawford-1938.md	1	file:horrigan
 tw-horrigan-boscobel-1930	B	Horrigan brothers' farm money, Horrigan Ridge near Mt. Zion	Crawford	WI		project-files/research/court-records/pin-records-check.tsv	3	id
-tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/pc-a-asks-results.md	779	two:hession
-tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/leads.tsv	128	two:hession
-tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/ia-il-sweep.md	35	two:hession
-tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/treasure-list-t13-t21.md	22	two:hession
+tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/pc-a-asks-results.md	779	two:glen
+tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/leads.tsv	128	two:glen
+tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/ia-il-sweep.md	42	two:glen
+tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/treasure-list-t13-t21.md	22	two:glen
 tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/treasure-statewide/held-leads.md	26	co:jack
-tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/ancestry/list12-dates.md	32	two:hession
+tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/ancestry/list12-dates.md	35	two:glen
 tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/ancestry/INDEX.md	52	two:hession
-tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/plats/hession-humboldt.md	1	file:hession
+tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/plats/hession-humboldt.md	1	two:glen
 tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/books/laird-1927-iowa-legends.md	12	co:jack
 tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		project-files/research/treasure-statewide/held-leads.md	26	co:jack
 tw-mn-warsaw-murphy-crock-1920	B	James Murphy's missing ~$24,000, Murphy farm barnyard, Warsaw Twp (Rice Co.)	Rice	MN	dig-mn-warsaw-murphy-crock-1920	research/newspapers-com/second-sources-open-leads.md	15	co:murphy
@@ -627,13 +627,13 @@ tw-mi-emmett-mcardill-dry-well-1874	C	Pedlar McArdill's robbery gold, dry well i
 tw-mi-emmett-mcardill-dry-well-1874	C	Pedlar McArdill's robbery gold, dry well in the Newbre neighbourhood, Emmett Twp (c.1849 robbery; 1874 dig)	Calhoun	MI		research/ancestry/list19.md	54	two:newbre
 tw-mi-emmett-mcardill-dry-well-1874	C	Pedlar McArdill's robbery gold, dry well in the Newbre neighbourhood, Emmett Twp (c.1849 robbery; 1874 dig)	Calhoun	MI		research/ancestry/INDEX.md	64	two:emmett
 tw-mi-emmett-mcardill-dry-well-1874	C	Pedlar McArdill's robbery gold, dry well in the Newbre neighbourhood, Emmett Twp (c.1849 robbery; 1874 dig)	Calhoun	MI		research/ancestry/list23.md	72	two:newbre
-tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/newspapers-com/pc-a-asks-results.md	668	two:swem
-tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/newspapers-com/leads.tsv	148	two:swem
+tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/newspapers-com/pc-a-asks-results.md	666	two:galien
+tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/newspapers-com/leads.tsv	148	two:galien
 tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/ancestry/list26.md	161	co:galien
-tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/ancestry/list9-probate-census.md	11	two:swem
+tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/ancestry/list9-probate-census.md	11	two:galien
 tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/ancestry/land-ownership-maps-list8.md	33	co:swem
-tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/ancestry/INDEX.md	49	two:swem
-tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/plats/sunday-plates-2026-11-02.md	29	two:swem
+tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/ancestry/INDEX.md	49	two:galien
+tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/plats/sunday-plates-2026-11-02.md	29	two:galien
 tw-il-dekalb-yocum-jar-1939	C	Ray Yocum's lost fruit jar of $2,300, Yocum yard, East Lincoln Highway, DeKalb	DeKalb	IL		research/ancestry/illinois-names-batch.md	15	co:yocum
 tw-il-dekalb-yocum-jar-1939	C	Ray Yocum's lost fruit jar of $2,300, Yocum yard, East Lincoln Highway, DeKalb	DeKalb	IL		research/ancestry/list28.md	105	two:yocum
 tw-il-dekalb-yocum-jar-1939	C	Ray Yocum's lost fruit jar of $2,300, Yocum yard, East Lincoln Highway, DeKalb	DeKalb	IL		research/ancestry/list25.md	161	two:yocum
@@ -1176,16 +1176,16 @@ tw-ia-marshalltown-mcknight-1907	D	Honora McKnight's money hidden "in strange pl
 tw-ia-marshalltown-mcknight-1907	D	Honora McKnight's money hidden "in strange places", Marshalltown	Marshall	IA		research/ancestry/list27.md	13	two:honora
 tw-ia-marshalltown-mcknight-1907	D	Honora McKnight's money hidden "in strange places", Marshalltown	Marshall	IA		research/ancestry/list26.md	141	two:honora
 tw-ia-marshalltown-mcknight-1907	D	Honora McKnight's money hidden "in strange places", Marshalltown	Marshall	IA		research/ancestry/INDEX.md	67	two:mcknight
-tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/newspapers-com/pc-a-asks-results.md	187	two:hugh
+tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/newspapers-com/pc-a-asks-results.md	28	two:marcell
 tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/newspapers-com/placement-gaps-list.md	39	two:marcell
-tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/newspapers-com/leads.tsv	106	two:hugh
+tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/newspapers-com/leads.tsv	20	two:marcell
 tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/newspapers-com/ia-il-second-source.md	123	two:marcell
 tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/genealogybank/gb-list1.md	31	two:hugh
 tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/ancestry/list12-dates.md	6	two:hugh
 tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/ancestry/list10-probate-census.md	20	two:hugh
 tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/plats/placement-gaps-pass.md	59	two:marcell
-tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/plats/INDEX.md	66	two:hugh
-tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/plats/brunette-turtle-lake.md	1	two:hugh
+tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/plats/INDEX.md	66	two:marcell
+tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/plats/brunette-turtle-lake.md	1	two:marcell
 tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		project-files/research/treasure-statewide/leads-mn.tsv	9	id
 tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md	27	two:marcell
 tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		project-files/research/treasure-statewide/pc-b-plat-queue-2026-11-01.md	16	two:marcell
@@ -1207,15 +1207,15 @@ tw-wi-okauchee-house-mcconnell-gold	D	Israel McConnell's buried gold, Okauchee H
 tw-wi-okauchee-house-mcconnell-gold	D	Israel McConnell's buried gold, Okauchee House stage inn	Waukesha	WI		research/ancestry/INDEX.md	62	two:mcconnell
 tw-wi-okauchee-house-mcconnell-gold	D	Israel McConnell's buried gold, Okauchee House stage inn	Waukesha	WI		research/ancestry/list24.md	123	two:mcconnell
 tw-wi-okauchee-house-mcconnell-gold	D	Israel McConnell's buried gold, Okauchee House stage inn	Waukesha	WI		research/county-depth/se-wi-histories/waukesha-1880s.md	113	co:okauchee
-tw-il-dover-hudson-jar-1913	D	James Hudson's $1,200 he hid twice, farm at Dover	Bureau	IL		research/newspapers-com/ia-il-second-source.md	51	two:dover
-tw-il-dover-hudson-jar-1913	D	James Hudson's $1,200 he hid twice, farm at Dover	Bureau	IL		research/ia-il/README.md	52	co:dover
+tw-il-dover-hudson-jar-1913	D	James Hudson's $1,200 he hid twice, farm at Dover	Bureau	IL		research/newspapers-com/ia-il-second-source.md	51	two:hudson
+tw-il-dover-hudson-jar-1913	D	James Hudson's $1,200 he hid twice, farm at Dover	Bureau	IL		research/ia-il/README.md	52	co:hudson
 tw-il-dover-hudson-jar-1913	D	James Hudson's $1,200 he hid twice, farm at Dover	Bureau	IL		research/ancestry/list39.md	57	co:dover
 tw-il-dover-hudson-jar-1913	D	James Hudson's $1,200 he hid twice, farm at Dover	Bureau	IL		research/ancestry/list40.md	20	co:hudson
-tw-il-dover-hudson-jar-1913	D	James Hudson's $1,200 he hid twice, farm at Dover	Bureau	IL		research/ancestry/illinois-names-batch.md	10	two:dover
+tw-il-dover-hudson-jar-1913	D	James Hudson's $1,200 he hid twice, farm at Dover	Bureau	IL		research/ancestry/illinois-names-batch.md	10	two:hudson
 tw-il-dover-hudson-jar-1913	D	James Hudson's $1,200 he hid twice, farm at Dover	Bureau	IL		research/ancestry/list31.md	32	co:hudson
-tw-il-dover-hudson-jar-1913	D	James Hudson's $1,200 he hid twice, farm at Dover	Bureau	IL		research/ancestry/list19.md	40	two:dover
+tw-il-dover-hudson-jar-1913	D	James Hudson's $1,200 he hid twice, farm at Dover	Bureau	IL		research/ancestry/list19.md	40	two:hudson
 tw-il-dover-hudson-jar-1913	D	James Hudson's $1,200 he hid twice, farm at Dover	Bureau	IL		research/ancestry/INDEX.md	60	co:hudson
-tw-il-dover-hudson-jar-1913	D	James Hudson's $1,200 he hid twice, farm at Dover	Bureau	IL		research/sunday/sunday-list-2026-11-02.md	7	two:dover
+tw-il-dover-hudson-jar-1913	D	James Hudson's $1,200 he hid twice, farm at Dover	Bureau	IL		research/sunday/sunday-list-2026-11-02.md	7	two:hudson
 tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/negatives.tsv	231	two:blackburn
 tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/newspapers-com/pc-a-asks-results.md	707	two:blackburn
 tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/newspapers-com/placement-gaps-list.md	23	two:blackburn
@@ -1692,7 +1692,7 @@ coff-grand-ledge-jar	E	Grand Ledge fruit-jar cache (found 1949)	Eaton	MI		projec
 t-tr-la-crescent	E	H. Lilly’s buried money	Houston	MN		research/negatives.tsv	37	id
 t-tr-hamm-ransom	E	Hamm kidnapping ransom drop	Chisago	MN		research/negatives.tsv	29	id
 ab2-hassard-penoka-ore	E	Hassard's gold and silver ore, Penoka Range	Iron / Ashland	WI		research/negatives.tsv	47	id
-tw-maas-pot-of-gold-1898	E	Heinrich Maas' pot of gold, Cooperstown	Manitowoc	WI		research/negatives.tsv	291	co:heinrich
+tw-maas-pot-of-gold-1898	E	Heinrich Maas' pot of gold, Cooperstown	Manitowoc	WI		research/negatives.tsv	291	co:maas
 tw-maas-pot-of-gold-1898	E	Heinrich Maas' pot of gold, Cooperstown	Manitowoc	WI		research/ancestry/list30.md	14	two:cooperstown
 tw-maas-pot-of-gold-1898	E	Heinrich Maas' pot of gold, Cooperstown	Manitowoc	WI		research/ancestry/INDEX.md	71	two:cooperstown
 ab2-henry-cadotte-bayfield	E	Henry and Cadotte's 1765 cache pits, Bayfield	Bayfield	WI		research/negatives.tsv	46	id
@@ -1836,7 +1836,7 @@ tw-mn-waldorf-tweit-recluse-1927-medo	E	Tweit family farm, Medo Twp (alternate s
 tw-mn-waldorf-tweit-recluse-1927-medo	E	Tweit family farm, Medo Twp (alternate spot for Michael Tweit's money)	Blue Earth	MN		project-files/research/treasure-statewide/leads-mn.tsv	20	two:medo
 tw-mn-waldorf-tweit-recluse-1927-medo	E	Tweit family farm, Medo Twp (alternate spot for Michael Tweit's money)	Blue Earth	MN		project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md	8	two:waldorf
 tw-mn-waldorf-tweit-recluse-1927-medo	E	Tweit family farm, Medo Twp (alternate spot for Michael Tweit's money)	Blue Earth	MN		project-files/research/treasure-statewide/persons.tsv	122	two:waldorf
-coff-davock-minch	E	William B. Davock and Anna Minch (1940)	Oceana	MI		research/newspapers-com/pc-a-asks-results.md	658	two:davock
+coff-davock-minch	E	William B. Davock and Anna Minch (1940)	Oceana	MI		research/newspapers-com/pc-a-asks-results.md	658	two:minch
 t-tr-colvill	E	William Colvill’s Civil War gold	Cook	MN		research/negatives.tsv	40	id
 t-winona-gang	E	Winona Gang loot (Minnesota)	Winona (MN)	WI		research/negatives.tsv	23	id
 t-portage-riverboat-gold	E	Wisconsin River riverboat gold bars	Columbia	WI		research/leads.tsv	5	co:portage
@@ -1970,8 +1970,9 @@ tw-wi-milwaukee-schuerman-bottles	F	Dr. Joseph Scheuermann's money jars, 541 Thi
 tw-wi-milwaukee-schuerman-bottles	F	Dr. Joseph Scheuermann's money jars, 541 Third St, Milwaukee (found 1902; possibly a hoax)	Milwaukee	WI		project-files/research/treasure-statewide/persons.tsv	160	id
 tw-ia-leland-branstad-shed-1922	F	Erick Davidson's gold in an old shed, Branstad homestead a mile east of Leland	Winnebago	IA		research/ancestry/list12-dates.md	39	two:leland
 tw-ia-leland-branstad-shed-1922	F	Erick Davidson's gold in an old shed, Branstad homestead a mile east of Leland	Winnebago	IA		research/ancestry/iowa-batch-2.md	13	co:branstad
-tw-ia-leland-branstad-shed-1922	F	Erick Davidson's gold in an old shed, Branstad homestead a mile east of Leland	Winnebago	IA		research/ancestry/list40.md	38	co:branstad
+tw-ia-leland-branstad-shed-1922	F	Erick Davidson's gold in an old shed, Branstad homestead a mile east of Leland	Winnebago	IA		research/ancestry/list40.md	68	two:leland
 tw-ia-leland-branstad-shed-1922	F	Erick Davidson's gold in an old shed, Branstad homestead a mile east of Leland	Winnebago	IA		research/ancestry/list11-probate-census.md	7	co:branstad
+tw-ia-leland-branstad-shed-1922	F	Erick Davidson's gold in an old shed, Branstad homestead a mile east of Leland	Winnebago	IA		research/ancestry/INDEX.md	81	two:leland
 tw-ia-leland-branstad-shed-1922	F	Erick Davidson's gold in an old shed, Branstad homestead a mile east of Leland	Winnebago	IA		research/plats/bjornaa-grantsburg.md	36	two:erick
 tw-fountain-city-gold-bar-1913	F	Fountain City 'gold bar' (a fake) and the express-robbery legend	Buffalo	WI		research/negatives.tsv	3	id
 tw-fountain-city-gold-bar-1913	F	Fountain City 'gold bar' (a fake) and the express-robbery legend	Buffalo	WI		research/newspapers-com/leads.tsv	6	co:fountain
@@ -2281,7 +2282,7 @@ tw-mi-mcbain-smalley-train-loot-1895	F	Train robber George Smalley's missing loo
 gwl-wyalusing-treasure-cave	F	Treasure Cave, Wyalusing State Park	Grant	WI		research/plats/may-dickeyville-grant.md	7	co:wyalusing
 gwl-wyalusing-treasure-cave	F	Treasure Cave, Wyalusing State Park	Grant	WI		project-files/research/treasure-statewide/leads-wi.tsv	11	co:wyalusing
 tw-wi-eden-reilly-lloyd-gold-jars-1928	F	Two jars of gold coins on adjoining farms, Town of Eden (c.1920 and 1928)	Fond du Lac	WI		research/newspapers-com/pc-a-asks-results.md	34	co:eden
-tw-wi-eden-reilly-lloyd-gold-jars-1928	F	Two jars of gold coins on adjoining farms, Town of Eden (c.1920 and 1928)	Fond du Lac	WI		research/ancestry/list17.md	24	two:lloyd
+tw-wi-eden-reilly-lloyd-gold-jars-1928	F	Two jars of gold coins on adjoining farms, Town of Eden (c.1920 and 1928)	Fond du Lac	WI		research/ancestry/list17.md	24	two:reilly
 tw-wi-eden-reilly-lloyd-gold-jars-1928	F	Two jars of gold coins on adjoining farms, Town of Eden (c.1920 and 1928)	Fond du Lac	WI		research/ancestry/list20.md	19	co:reilly
 tw-wi-eden-reilly-lloyd-gold-jars-1928	F	Two jars of gold coins on adjoining farms, Town of Eden (c.1920 and 1928)	Fond du Lac	WI		research/ancestry/INDEX.md	58	two:reilly
 tw-wi-eden-reilly-lloyd-gold-jars-1928	F	Two jars of gold coins on adjoining farms, Town of Eden (c.1920 and 1928)	Fond du Lac	WI		project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md	33	co:eden

@@ -152,9 +152,9 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L362) (line 362)
 Notes:
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L779) (line 779)
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L128) (line 128)
-- [newspapers-com/ia-il-sweep.md](newspapers-com/ia-il-sweep.md#L35) (line 35)
+- [newspapers-com/ia-il-sweep.md](newspapers-com/ia-il-sweep.md#L42) (line 42)
 - [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L22) (line 22)
-- [ancestry/list12-dates.md](ancestry/list12-dates.md#L32) (line 32)
+- [ancestry/list12-dates.md](ancestry/list12-dates.md#L35) (line 35)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L52) (line 52)
 - [plats/hession-humboldt.md](plats/hession-humboldt.md#L1) (line 1)
 
@@ -840,7 +840,7 @@ Notes:
 `tw-mi-galien-swem-pot-of-gold-1896` · grade C · Berrien Co., MI
 
 Notes:
-- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L668) (line 668)
+- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L666) (line 666)
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L148) (line 148)
 - [ancestry/list9-probate-census.md](ancestry/list9-probate-census.md#L11) (line 11)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L49) (line 49)
@@ -1619,9 +1619,9 @@ Also mentions the place: [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L10
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L231) (line 231)
 
 Notes:
-- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L187) (line 187)
+- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L28) (line 28)
 - [newspapers-com/placement-gaps-list.md](newspapers-com/placement-gaps-list.md#L39) (line 39)
-- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L106) (line 106)
+- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L20) (line 20)
 - [newspapers-com/ia-il-second-source.md](newspapers-com/ia-il-second-source.md#L123) (line 123)
 - [genealogybank/gb-list1.md](genealogybank/gb-list1.md#L31) (line 31)
 - [ancestry/list12-dates.md](ancestry/list12-dates.md#L6) (line 6)
@@ -3027,9 +3027,11 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L346) (line 346)
 
 Notes:
 - [ancestry/list12-dates.md](ancestry/list12-dates.md#L39) (line 39)
+- [ancestry/list40.md](ancestry/list40.md#L68) (line 68)
+- [ancestry/INDEX.md](ancestry/INDEX.md#L81) (line 81)
 - [plats/bjornaa-grantsburg.md](plats/bjornaa-grantsburg.md#L36) (line 36)
 
-Also mentions the place: [ancestry/iowa-batch-2.md](ancestry/iowa-batch-2.md#L13) (line 13); [ancestry/list40.md](ancestry/list40.md#L38) (line 38); [ancestry/list11-probate-census.md](ancestry/list11-probate-census.md#L7) (line 7)
+Also mentions the place: [ancestry/iowa-batch-2.md](ancestry/iowa-batch-2.md#L13) (line 13); [ancestry/list11-probate-census.md](ancestry/list11-probate-census.md#L7) (line 7)
 
 ### Fountain City 'gold bar' (a fake) and the express-robbery legend
 `tw-fountain-city-gold-bar-1913` · grade F · Buffalo Co., WI
