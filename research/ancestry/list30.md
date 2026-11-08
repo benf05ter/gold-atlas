@@ -18,7 +18,9 @@
 - **"Maxwell" (about 35 ac)** is printed in **N sec 30, T90N R1E, immediately E of the Rickardsville village plat**, along the road E out of the village. Neighbours: J. Smith, Frank Boemeke (sec 30 S), James Hannen, Bernard Rooney (sec 29), John Sunderland (NW) and Oak Grove Stock Farm (SW).
 - **Datisman holdings on the same plate:** Wm. Datisman (sec 11, centre of the township, plus Gottlieb/Wm. D. in secs 1-2 and 11) and **John Datisman (sec 35 / NE of sec 34, by Durango)**, which matches the 1915 card (P.O. Durango RFD 34).
 - **BLM sec 30 T90N R1E = 42.5723-42.5869 N, -90.8978 to -90.8781 W.** Rickardsville village is at its NW corner.
-- **Pin: the Maxwell tract E of Rickardsville, N sec 30, about 42.583, -90.887, r200, B.** The 1915 "Maxwell place" story ties to this tract. The John Datisman farm (sec 35, about 42.565,-90.810) is an alternative if the card meant Datisman's own land.
+- **Pin (revised after the GNIS check): the Maxwell tract E of Rickardsville, about 42.583, -90.880, r200, B.**
+  - On the plate, the village plat sits in the N-central part of sec 30. "Maxwell" is lettered on the E side of the village, running to the sec 29 line (Bernard Rooney is across that line). That makes it the NE part of sec 30, between the village and the 29 line.
+  - GNIS Rickardsville is 42.5833,-90.884, so the tract is at about -90.880. The earlier -90.887 was a reading error. The 1915 "Maxwell place" story ties to this tract. The John Datisman farm (sec 35, about 42.565,-90.810) is an alternative if the card meant Datisman's own land.
 
 ## 1. MAAS, Cooperstown: no Maas on the 1893 plate
 - **Ancestry 1127, Manitowoc & Calumet 1893, viewer p.30 of 79 (image 31617_072129-00336), "Cooperstown", T21N R22E.** All 36 sections read at 2x.
@@ -39,3 +41,16 @@
 - **14 Schulz plat:** only Lake Co IL 1907 is in 1127 (before his 1920 purchase). Not run.
 - **7 Ahonen, 8 Burton, 9 Larson, 13 Lempke:** census index negative (above); no plats run.
 - **15 K of C, 17 Hyde Park:** directory images not opened. **16 Port Sheldon:** archive.org retry not done. **18 Ackerman:** HathiTrust not tried.
+
+## 4. RANDALL, North Bend (Jackson Co WI): not in 1914
+- **Ancestry 1127, Jackson 1914 (65 pp.).** "Farmers' Directory of North Bend Township" is viewer p.52 (image 31617_072128-00529, printed p.60), covering the Ettrick and Melrose post offices. **"Parts of North Bend and Melrose" plate is p.53** (image 00530).
+- **No Randall in the North Bend directory**; the R entries are Ramsey, Ristow. The plate was not read name by name.
+- 1900 census: no David/D. Randall indexed at North Bend (above). The 1901 farm owner has not been found; he had likely left or died before 1914. Not placed.
+
+## 10. HARVEY widow, Clarksville (Butler Co IA): not in the 1917 Jackson Twp directory
+- **Ancestry 1127, Butler 1917 (52 pp.), "Farmers' Directory of Jackson Township", viewer p.16 (image 31617_072140-00514).** Clarksville and Allison post offices.
+- **H entries:** Hagerty, Hahn, Hammond, Harris (Paul, James), Hector, Hemmingsen, Henning, Hickle, Hickman, Hilmes, Hinders, Hites, Hodson, Hoodjer, Holtkamp, Hurd. **No Harvey.**
+- The earlier pass (list26 #2) found no Harvey on the 1895 plate either. The widow likely lived in Clarksville town (no town directory in this atlas) or under a remarried name. The plate (next page) was not read. Not placed.
+
+## Still not done (L30)
+- #5 Boyer (Outagamie 1917), #15 Racine K of C, #16 Port Sheldon retry, #17 Hyde Park, #18 Ackerman.

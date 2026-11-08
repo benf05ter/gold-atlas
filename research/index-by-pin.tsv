@@ -1352,6 +1352,7 @@ tw-mi-cambridge-jct-walker-tavern-money-belt	D	The money belt under the oak, Wal
 tw-mi-cambridge-jct-walker-tavern-money-belt	D	The money belt under the oak, Walker Tavern, Cambridge Junction	Lenawee	MI		research/ancestry/list23.md	7	two:cambridge
 gwl-old-silver-mine-porters-mills	D	The Old Silver Mine: Bill Pond's 1870s shaft across from Porter's Mills	Eau Claire	WI		research/newspapers-com/leads.tsv	60	co:porter
 tw-mi-port-sheldon-capitalist-money	D	The receiver's lost gold: a Port Sheldon capitalist's buried money (1830s)	Ottawa	MI		research/newspapers-com/treasure-list-t13-t21.md	171	co:port
+tw-mi-port-sheldon-capitalist-money	D	The receiver's lost gold: a Port Sheldon capitalist's buried money (1830s)	Ottawa	MI		research/ancestry/list30.md	43	two:sheldon
 tw-mi-port-sheldon-capitalist-money	D	The receiver's lost gold: a Port Sheldon capitalist's buried money (1830s)	Ottawa	MI		research/ancestry/INDEX.md	70	two:sheldon
 tw-mi-port-sheldon-capitalist-money	D	The receiver's lost gold: a Port Sheldon capitalist's buried money (1830s)	Ottawa	MI		research/ancestry/list24.md	54	two:sheldon
 tw-mi-port-sheldon-capitalist-money	D	The receiver's lost gold: a Port Sheldon capitalist's buried money (1830s)	Ottawa	MI		research/ancestry/list29.md	32	two:sheldon
@@ -1440,7 +1441,7 @@ tw-randall-north-bend-1901	E	David Randall, miser of North Bend	Jackson	WI		rese
 tw-randall-north-bend-1901	E	David Randall, miser of North Bend	Jackson	WI		research/newspapers-com/leads.tsv	4	co:randall
 tw-randall-north-bend-1901	E	David Randall, miser of North Bend	Jackson	WI		research/newspapers-com/sweep-2-misers-loot.md	281	co:randall
 tw-randall-north-bend-1901	E	David Randall, miser of North Bend	Jackson	WI		research/genealogybank/gb-list1.md	17	co:randall
-tw-randall-north-bend-1901	E	David Randall, miser of North Bend	Jackson	WI		research/ancestry/list30.md	37	co:randall
+tw-randall-north-bend-1901	E	David Randall, miser of North Bend	Jackson	WI		research/ancestry/list30.md	39	co:randall
 tw-randall-north-bend-1901	E	David Randall, miser of North Bend	Jackson	WI		research/ancestry/list28.md	57	co:randall
 tw-randall-north-bend-1901	E	David Randall, miser of North Bend	Jackson	WI		research/ancestry/list9-probate-census.md	16	co:randall
 tw-randall-north-bend-1901	E	David Randall, miser of North Bend	Jackson	WI		research/ancestry/INDEX.md	14	co:randall
@@ -1466,7 +1467,7 @@ gwl-finch-caches	E	Finch caches: Lake Mills, Fort Atkinson and NW Lake Koshkonon
 gwl-finch-caches	E	Finch caches: Lake Mills, Fort Atkinson and NW Lake Koshkonong	Jefferson	WI		project-files/research/treasure-statewide/leads-wi.tsv	14	co:koshkonong
 gwl-finch-caches	E	Finch caches: Lake Mills, Fort Atkinson and NW Lake Koshkonong	Jefferson	WI		project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md	25	two:koshkonong
 gwl-finch-caches	E	Finch caches: Lake Mills, Fort Atkinson and NW Lake Koshkonong	Jefferson	WI		project-files/research/treasure-statewide/sewi-chronam-2026-11-01.md	14	co:atkinson
-tw-boyer-dale-1909	E	Fred Boyer's gold in the hogpen, Dale	Outagamie	WI		research/ancestry/list30.md	37	co:boyer
+tw-boyer-dale-1909	E	Fred Boyer's gold in the hogpen, Dale	Outagamie	WI		research/ancestry/list30.md	39	co:boyer
 tw-boyer-dale-1909	E	Fred Boyer's gold in the hogpen, Dale	Outagamie	WI		research/ancestry/list11-probate-census.md	11	co:boyer
 t-hatfield-black-river	E	French-buried gold artifacts at the Black River forks	Jackson	WI		research/negatives.tsv	21	id
 t-hatfield-black-river	E	French-buried gold artifacts at the Black River forks	Jackson	WI		research/newspapers-com/pc-a-asks-results.md	581	co:black
@@ -1974,12 +1975,12 @@ tw-bjornaa-grantsburg-1906	F	Ole Johnson Bjornaa's hidden money, Grantsburg	Burn
 tw-bjornaa-grantsburg-1906	F	Ole Johnson Bjornaa's hidden money, Grantsburg	Burnett	WI		project-files/research/court-records/negatives-court.tsv	1	co:johnson
 tw-bjornaa-grantsburg-1906	F	Ole Johnson Bjornaa's hidden money, Grantsburg	Burnett	WI		project-files/research/court-records/newspapers-com-asks.md	5	id
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/leads.tsv	2	two:conover
-tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/negatives.tsv	20	two:eagle
+tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/negatives.tsv	20	two:bennett
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/pc-a-asks-results.md	862	two:conover
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/list18.md	24	two:conover
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/leads.tsv	154	two:conover
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/county-coverage-wi-mi-chronam.tsv	24	co:eagle
-tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/sweep-2-misers-loot.md	71	co:eagle
+tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/sweep-2-misers-loot.md	118	co:bennett
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/county-coverage.tsv	23	co:eagle
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/ancestry/list17.md	87	two:conover
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/ancestry/list14.md	42	two:conover
@@ -2083,7 +2084,7 @@ tw-mi-mcbain-smalley-train-loot-1895	F	Train robber George Smalley's missing loo
 gwl-wyalusing-treasure-cave	F	Treasure Cave, Wyalusing State Park	Grant	WI		research/plats/may-dickeyville-grant.md	7	co:wyalusing
 gwl-wyalusing-treasure-cave	F	Treasure Cave, Wyalusing State Park	Grant	WI		project-files/research/treasure-statewide/leads-wi.tsv	11	co:wyalusing
 tw-wi-eden-reilly-lloyd-gold-jars-1928	F	Two jars of gold coins on adjoining farms, Town of Eden (c.1920 and 1928)	Fond du Lac	WI		research/newspapers-com/pc-a-asks-results.md	34	co:eden
-tw-wi-eden-reilly-lloyd-gold-jars-1928	F	Two jars of gold coins on adjoining farms, Town of Eden (c.1920 and 1928)	Fond du Lac	WI		research/ancestry/list17.md	24	two:reilly
+tw-wi-eden-reilly-lloyd-gold-jars-1928	F	Two jars of gold coins on adjoining farms, Town of Eden (c.1920 and 1928)	Fond du Lac	WI		research/ancestry/list17.md	24	two:lloyd
 tw-wi-eden-reilly-lloyd-gold-jars-1928	F	Two jars of gold coins on adjoining farms, Town of Eden (c.1920 and 1928)	Fond du Lac	WI		research/ancestry/list20.md	19	co:reilly
 tw-wi-eden-reilly-lloyd-gold-jars-1928	F	Two jars of gold coins on adjoining farms, Town of Eden (c.1920 and 1928)	Fond du Lac	WI		research/ancestry/INDEX.md	58	two:reilly
 tw-wi-eden-reilly-lloyd-gold-jars-1928	F	Two jars of gold coins on adjoining farms, Town of Eden (c.1920 and 1928)	Fond du Lac	WI		project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md	33	co:eden

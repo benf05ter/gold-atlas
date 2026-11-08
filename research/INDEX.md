@@ -2049,6 +2049,7 @@ Also mentions the place: [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L60
 `tw-mi-port-sheldon-capitalist-money` · grade D · Ottawa Co., MI
 
 Notes:
+- [ancestry/list30.md](ancestry/list30.md#L43) (line 43)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L70) (line 70)
 - [ancestry/list24.md](ancestry/list24.md#L54) (line 54)
 - [ancestry/list29.md](ancestry/list29.md#L32) (line 32)
@@ -2222,7 +2223,7 @@ Notes:
 - `/mnt/project-files/research/court-records/pin-records-check.tsv` line 8 (shared folder only)
 - `/mnt/project-files/research/court-records/newspapers-com-asks.md` line 6 (shared folder only)
 
-Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L723) (line 723); [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L4) (line 4); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L281) (line 281); [genealogybank/gb-list1.md](genealogybank/gb-list1.md#L17) (line 17); [ancestry/list30.md](ancestry/list30.md#L37) (line 37); [ancestry/list28.md](ancestry/list28.md#L57) (line 57); [ancestry/list9-probate-census.md](ancestry/list9-probate-census.md#L16) (line 16); [ancestry/INDEX.md](ancestry/INDEX.md#L14) (line 14); [plats/placement-gaps-pass.md](plats/placement-gaps-pass.md#L9) (line 9); [sunday/sunday-list-2026-11-02.md](sunday/sunday-list-2026-11-02.md#L26) (line 26); `/mnt/project-files/research/court-records/negatives-court.tsv` line 3 (shared folder only); `/mnt/project-files/research/treasure-statewide/pc-newspapers-second-sources.md` line 34 (shared folder only)
+Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L723) (line 723); [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L4) (line 4); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L281) (line 281); [genealogybank/gb-list1.md](genealogybank/gb-list1.md#L17) (line 17); [ancestry/list30.md](ancestry/list30.md#L39) (line 39); [ancestry/list28.md](ancestry/list28.md#L57) (line 57); [ancestry/list9-probate-census.md](ancestry/list9-probate-census.md#L16) (line 16); [ancestry/INDEX.md](ancestry/INDEX.md#L14) (line 14); [plats/placement-gaps-pass.md](plats/placement-gaps-pass.md#L9) (line 9); [sunday/sunday-list-2026-11-02.md](sunday/sunday-list-2026-11-02.md#L26) (line 26); `/mnt/project-files/research/court-records/negatives-court.tsv` line 3 (shared folder only); `/mnt/project-files/research/treasure-statewide/pc-newspapers-second-sources.md` line 34 (shared folder only)
 
 ### Donnerstag brothers' $4,000 in gold coin, Manson Lake woods
 `tw-donnerstag-gold-1908` · grade E · Oneida Co., WI
@@ -2266,7 +2267,7 @@ Also mentions the place: [plats/blackmore-palmyra.md](plats/blackmore-palmyra.md
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L198) (line 198)
 
 
-Also mentions the place: [ancestry/list30.md](ancestry/list30.md#L37) (line 37); [ancestry/list11-probate-census.md](ancestry/list11-probate-census.md#L11) (line 11)
+Also mentions the place: [ancestry/list30.md](ancestry/list30.md#L39) (line 39); [ancestry/list11-probate-census.md](ancestry/list11-probate-census.md#L11) (line 11)
 
 ### French-buried gold artifacts at the Black River forks
 `t-hatfield-black-river` · grade E · Jackson Co., WI
@@ -3193,7 +3194,7 @@ Notes:
 - [ancestry/list16.md](ancestry/list16.md#L38) (line 38)
 - [clippings/README.md](clippings/README.md#L3) (line 3)
 
-Also mentions the place: [newspapers-com/county-coverage-wi-mi-chronam.tsv](newspapers-com/county-coverage-wi-mi-chronam.tsv#L24) (line 24); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L71) (line 71); [newspapers-com/county-coverage.tsv](newspapers-com/county-coverage.tsv#L23) (line 23)
+Also mentions the place: [newspapers-com/county-coverage-wi-mi-chronam.tsv](newspapers-com/county-coverage-wi-mi-chronam.tsv#L24) (line 24); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L118) (line 118); [newspapers-com/county-coverage.tsv](newspapers-com/county-coverage.tsv#L23) (line 23)
 
 ### Rechenberg's jar of mildewed bills, Dodd Road farm, Mendota Heights (found 1924)
 `tw-mn-west-st-paul-rechenberg-jar-1924` · grade F · Dakota Co., MN
