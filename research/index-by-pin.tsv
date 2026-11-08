@@ -957,6 +957,8 @@ cr-hudson-peterson-gold-1936	D	Hans Peterson’s plowed-up gold coins	St. Croix	
 tw-mi-homer-laker-cans-1896	D	Harry Laker's tin cans of savings, Homer	Calhoun	MI		research/newspapers-com/pc-a-asks-results.md	403	two:laker
 tw-mi-homer-laker-cans-1896	D	Harry Laker's tin cans of savings, Homer	Calhoun	MI		research/newspapers-com/second-sources-c-leads.md	98	id
 tw-mi-homer-laker-cans-1896	D	Harry Laker's tin cans of savings, Homer	Calhoun	MI		research/newspapers-com/treasure-list-t13-t21.md	271	two:laker
+tw-mi-homer-laker-cans-1896	D	Harry Laker's tin cans of savings, Homer	Calhoun	MI		research/ancestry/list31.md	72	two:laker
+tw-mi-homer-laker-cans-1896	D	Harry Laker's tin cans of savings, Homer	Calhoun	MI		research/ancestry/INDEX.md	72	two:laker
 tw-mi-homer-laker-cans-1896	D	Harry Laker's tin cans of savings, Homer	Calhoun	MI		research/plats/laker-homer.md	1	file:laker
 tw-mi-homer-laker-cans-1896	D	Harry Laker's tin cans of savings, Homer	Calhoun	MI		research/plats/INDEX.md	62	two:laker
 tw-mi-homer-laker-cans-1896	D	Harry Laker's tin cans of savings, Homer	Calhoun	MI		project-files/research/treasure-statewide/leads-mi.tsv	9	id
@@ -1020,16 +1022,16 @@ tw-ia-marshalltown-mcknight-1907	D	Honora McKnight's money hidden "in strange pl
 tw-ia-marshalltown-mcknight-1907	D	Honora McKnight's money hidden "in strange places", Marshalltown	Marshall	IA		research/ancestry/list27.md	13	two:honora
 tw-ia-marshalltown-mcknight-1907	D	Honora McKnight's money hidden "in strange places", Marshalltown	Marshall	IA		research/ancestry/list26.md	141	two:honora
 tw-ia-marshalltown-mcknight-1907	D	Honora McKnight's money hidden "in strange places", Marshalltown	Marshall	IA		research/ancestry/INDEX.md	67	two:mcknight
-tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/newspapers-com/pc-a-asks-results.md	187	two:hugh
+tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/newspapers-com/pc-a-asks-results.md	28	two:marcell
 tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/newspapers-com/placement-gaps-list.md	39	two:marcell
-tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/newspapers-com/leads.tsv	106	two:hugh
+tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/newspapers-com/leads.tsv	20	two:marcell
 tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/newspapers-com/ia-il-second-source.md	123	two:marcell
 tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/genealogybank/gb-list1.md	31	two:hugh
 tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/ancestry/list12-dates.md	6	two:hugh
 tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/ancestry/list10-probate-census.md	20	two:hugh
 tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/plats/placement-gaps-pass.md	59	two:marcell
-tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/plats/INDEX.md	66	two:hugh
-tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/plats/brunette-turtle-lake.md	1	two:hugh
+tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/plats/INDEX.md	66	two:marcell
+tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		research/plats/brunette-turtle-lake.md	1	two:marcell
 tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		project-files/research/treasure-statewide/leads-mn.tsv	9	id
 tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md	27	two:marcell
 tw-mn-turtle-lake-marcell-brunette	D	Hugh Brunette's $15,000 in a concrete block, island in Turtle Lake near Marcell	Itasca	MN		project-files/research/treasure-statewide/pc-b-plat-queue-2026-11-01.md	16	two:marcell
@@ -1252,7 +1254,6 @@ tw-mi-petoskey-bear-river-ottawa-gold	D	Ottawa bars of gold in iron boxes, Bear 
 tw-mi-petoskey-bear-river-ottawa-gold	D	Ottawa bars of gold in iron boxes, Bear River gravel pit, Petoskey	Emmet	MI		research/ancestry/list27.md	57	two:petoskey
 tw-mi-petoskey-bear-river-ottawa-gold	D	Ottawa bars of gold in iron boxes, Bear River gravel pit, Petoskey	Emmet	MI		research/ancestry/list17.md	57	two:bear
 tw-mi-petoskey-bear-river-ottawa-gold	D	Ottawa bars of gold in iron boxes, Bear River gravel pit, Petoskey	Emmet	MI		research/ancestry/list31.md	60	co:petoskey
-tw-mi-petoskey-bear-river-ottawa-gold	D	Ottawa bars of gold in iron boxes, Bear River gravel pit, Petoskey	Emmet	MI		research/ancestry/INDEX.md	71	co:ottawa
 tw-mi-petoskey-bear-river-ottawa-gold	D	Ottawa bars of gold in iron boxes, Bear River gravel pit, Petoskey	Emmet	MI		research/plats/INDEX.md	83	two:petoskey
 tw-mi-petoskey-bear-river-ottawa-gold	D	Ottawa bars of gold in iron boxes, Bear River gravel pit, Petoskey	Emmet	MI		research/plats/wegemer-bear-river-petoskey.md	1	file:petoskey
 tw-mi-petoskey-bear-river-ottawa-gold	D	Ottawa bars of gold in iron boxes, Bear River gravel pit, Petoskey	Emmet	MI		project-files/research/treasure-statewide/leads-mi.tsv	14	id
@@ -1327,7 +1328,7 @@ t-st-croix-fur-trader-gold	D	St. Croix fur traders' gold	Polk	WI		research/negat
 t-st-croix-fur-trader-gold	D	St. Croix fur traders' gold	Polk	WI		research/newspapers-com/field-notes-barron.md	196	co:croix
 t-st-croix-fur-trader-gold	D	St. Croix fur traders' gold	Polk	WI		research/newspapers-com/fieldnotes-ranks-61-150.txt	3	co:croix
 t-st-croix-fur-trader-gold	D	St. Croix fur traders' gold	Polk	WI		research/newspapers-com/sweep-2-misers-loot.md	15	co:croix
-tw-mn-browerville-cushing-stage-bars	D	Stage-robbery gold bars buried between Browerville and Cushing	Todd / Morrison	MN		research/newspapers-com/treasure-list-t13-t21.md	333	two:cushing
+tw-mn-browerville-cushing-stage-bars	D	Stage-robbery gold bars buried between Browerville and Cushing	Todd / Morrison	MN		research/newspapers-com/treasure-list-t13-t21.md	333	two:browerville
 tw-mn-browerville-cushing-stage-bars	D	Stage-robbery gold bars buried between Browerville and Cushing	Todd / Morrison	MN		project-files/research/treasure-statewide/leads-mn.tsv	18	id
 tw-mi-sturgis-strang-mormon-gold	D	Strang's Mormon gold and "spectacles" near Sturgis	St. Joseph	MI		research/newspapers-com/pc-a-asks-results.md	460	two:sturgis
 tw-mi-sturgis-strang-mormon-gold	D	Strang's Mormon gold and "spectacles" near Sturgis	St. Joseph	MI		research/newspapers-com/pc-a-batch3-results.md	89	two:sturgis
@@ -1426,7 +1427,7 @@ tw-strolfer-superior-1897	E	Adolph Strolfer, miser of Superior	Douglas	WI		resea
 tw-strolfer-superior-1897	E	Adolph Strolfer, miser of Superior	Douglas	WI		research/plats/strolfer-douglas-wi.md	1	file:strolfer
 tw-strolfer-superior-1897	E	Adolph Strolfer, miser of Superior	Douglas	WI		project-files/research/court-records/pin-records-check.tsv	2	co:superior
 tw-strolfer-superior-1897	E	Adolph Strolfer, miser of Superior	Douglas	WI		project-files/research/treasure-statewide/blackburn-card.md	5	co:superior
-tw-markee-amery-1936	E	Amil Markee's cache under the milk shed, Amery	Polk	WI		research/ancestry/markee-apple-river-polk.md	5	two:amery
+tw-markee-amery-1936	E	Amil Markee's cache under the milk shed, Amery	Polk	WI		research/ancestry/markee-apple-river-polk.md	1	two:amil
 tw-markee-amery-1936	E	Amil Markee's cache under the milk shed, Amery	Polk	WI		research/ancestry/INDEX.md	36	two:amil
 tw-markee-amery-1936	E	Amil Markee's cache under the milk shed, Amery	Polk	WI		project-files/research/court-records/pin-records-check.tsv	7	id
 it-armstrong-silver-bar	E	Armstrong's lost silver bar (Bayfield peninsula, c.1820s find)	Bayfield	WI		project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md	23	co:armstrong
@@ -1477,6 +1478,8 @@ gwl-finch-caches	E	Finch caches: Lake Mills, Fort Atkinson and NW Lake Koshkonon
 gwl-finch-caches	E	Finch caches: Lake Mills, Fort Atkinson and NW Lake Koshkonong	Jefferson	WI		project-files/research/treasure-statewide/sewi-chronam-2026-11-01.md	14	co:atkinson
 tw-boyer-dale-1909	E	Fred Boyer's gold in the hogpen, Dale	Outagamie	WI		research/ancestry/list30.md	39	co:boyer
 tw-boyer-dale-1909	E	Fred Boyer's gold in the hogpen, Dale	Outagamie	WI		research/ancestry/list11-probate-census.md	11	co:boyer
+tw-boyer-dale-1909	E	Fred Boyer's gold in the hogpen, Dale	Outagamie	WI		research/ancestry/list31.md	65	two:dale
+tw-boyer-dale-1909	E	Fred Boyer's gold in the hogpen, Dale	Outagamie	WI		research/ancestry/INDEX.md	72	two:dale
 t-hatfield-black-river	E	French-buried gold artifacts at the Black River forks	Jackson	WI		research/negatives.tsv	21	id
 t-hatfield-black-river	E	French-buried gold artifacts at the Black River forks	Jackson	WI		research/newspapers-com/pc-a-asks-results.md	581	co:black
 t-hatfield-black-river	E	French-buried gold artifacts at the Black River forks	Jackson	WI		research/newspapers-com/pc-a-batch3-results.md	119	co:black
@@ -1526,7 +1529,7 @@ coff-grand-ledge-jar	E	Grand Ledge fruit-jar cache (found 1949)	Eaton	MI		projec
 t-tr-la-crescent	E	H. Lilly’s buried money	Houston	MN		research/negatives.tsv	37	id
 t-tr-hamm-ransom	E	Hamm kidnapping ransom drop	Chisago	MN		research/negatives.tsv	29	id
 ab2-hassard-penoka-ore	E	Hassard's gold and silver ore, Penoka Range	Iron / Ashland	WI		research/negatives.tsv	47	id
-tw-maas-pot-of-gold-1898	E	Heinrich Maas' pot of gold, Cooperstown	Manitowoc	WI		research/negatives.tsv	291	co:maas
+tw-maas-pot-of-gold-1898	E	Heinrich Maas' pot of gold, Cooperstown	Manitowoc	WI		research/negatives.tsv	291	co:heinrich
 tw-maas-pot-of-gold-1898	E	Heinrich Maas' pot of gold, Cooperstown	Manitowoc	WI		research/ancestry/list30.md	14	two:cooperstown
 tw-maas-pot-of-gold-1898	E	Heinrich Maas' pot of gold, Cooperstown	Manitowoc	WI		research/ancestry/INDEX.md	71	two:cooperstown
 ab2-henry-cadotte-bayfield	E	Henry and Cadotte's 1765 cache pits, Bayfield	Bayfield	WI		research/negatives.tsv	46	id
@@ -1990,12 +1993,12 @@ tw-bjornaa-grantsburg-1906	F	Ole Johnson Bjornaa's hidden money, Grantsburg	Burn
 tw-bjornaa-grantsburg-1906	F	Ole Johnson Bjornaa's hidden money, Grantsburg	Burnett	WI		project-files/research/court-records/negatives-court.tsv	1	co:johnson
 tw-bjornaa-grantsburg-1906	F	Ole Johnson Bjornaa's hidden money, Grantsburg	Burnett	WI		project-files/research/court-records/newspapers-com-asks.md	5	id
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/leads.tsv	2	two:conover
-tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/negatives.tsv	20	two:eagle
+tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/negatives.tsv	20	two:bennett
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/pc-a-asks-results.md	862	two:conover
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/list18.md	24	two:conover
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/leads.tsv	154	two:conover
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/county-coverage-wi-mi-chronam.tsv	24	co:eagle
-tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/sweep-2-misers-loot.md	71	co:eagle
+tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/sweep-2-misers-loot.md	118	co:bennett
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/county-coverage.tsv	23	co:eagle
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/ancestry/list17.md	87	two:conover
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/ancestry/list14.md	42	two:conover
@@ -2099,7 +2102,7 @@ tw-mi-mcbain-smalley-train-loot-1895	F	Train robber George Smalley's missing loo
 gwl-wyalusing-treasure-cave	F	Treasure Cave, Wyalusing State Park	Grant	WI		research/plats/may-dickeyville-grant.md	7	co:wyalusing
 gwl-wyalusing-treasure-cave	F	Treasure Cave, Wyalusing State Park	Grant	WI		project-files/research/treasure-statewide/leads-wi.tsv	11	co:wyalusing
 tw-wi-eden-reilly-lloyd-gold-jars-1928	F	Two jars of gold coins on adjoining farms, Town of Eden (c.1920 and 1928)	Fond du Lac	WI		research/newspapers-com/pc-a-asks-results.md	34	co:eden
-tw-wi-eden-reilly-lloyd-gold-jars-1928	F	Two jars of gold coins on adjoining farms, Town of Eden (c.1920 and 1928)	Fond du Lac	WI		research/ancestry/list17.md	24	two:reilly
+tw-wi-eden-reilly-lloyd-gold-jars-1928	F	Two jars of gold coins on adjoining farms, Town of Eden (c.1920 and 1928)	Fond du Lac	WI		research/ancestry/list17.md	24	two:lloyd
 tw-wi-eden-reilly-lloyd-gold-jars-1928	F	Two jars of gold coins on adjoining farms, Town of Eden (c.1920 and 1928)	Fond du Lac	WI		research/ancestry/list20.md	19	co:reilly
 tw-wi-eden-reilly-lloyd-gold-jars-1928	F	Two jars of gold coins on adjoining farms, Town of Eden (c.1920 and 1928)	Fond du Lac	WI		research/ancestry/INDEX.md	58	two:reilly
 tw-wi-eden-reilly-lloyd-gold-jars-1928	F	Two jars of gold coins on adjoining farms, Town of Eden (c.1920 and 1928)	Fond du Lac	WI		project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md	33	co:eden

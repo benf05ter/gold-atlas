@@ -61,3 +61,15 @@
   - **Bureau Co IL:** only Warner & Beers 1875 (same as Ancestry 1127). No 1905/1920s atlas, so #8 Hudson was not run.
 
 ## 1-3. Lidar retry (16:20Z): 3DEP still 504. Not done.
+
+## 16. BOYER, Dale (Outagamie Co WI): family tract on the 1917 plate
+- **Ancestry 1127, Outagamie 1917, viewer p.47 of 101 (image 31617_072130-00156, atlas p.68), "Dale Township", part of T21N R15E.**
+- **"Geo. Boyer 90"** is in the **E part of sec 15**, labelled "Clover Leaf Dairy Farm", at the 14/15 line (by Wm. Lapp and M. Bottrell).
+  - No Fred Boyer (he died Jan 1909). George is probably the heir or son. Dale village is in secs 27-28 (S).
+- **BLM sec 15 T21N R15E = 44.2875-44.3022 N, -88.6779 to -88.6568 W.**
+- **Pin: Geo. Boyer tract, E sec 15, about 44.295, -88.660, r300, C** (family land 1917; Fred's own farm is unconfirmed).
+
+## 14. LAKER, Homer: not found
+- 1880 census (Calhoun Co): no Harry/H. Laker. The 1894 MI state census is not indexed on Ancestry for this name. Not placed (low).
+
+## 1-3. Lidar: third retry (16:25Z) still 504. Not done; needs a later session.

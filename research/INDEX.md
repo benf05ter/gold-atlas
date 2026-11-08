@@ -1417,6 +1417,8 @@ Notes:
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L403) (line 403)
 - [newspapers-com/second-sources-c-leads.md](newspapers-com/second-sources-c-leads.md#L98) (line 98)
 - [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L271) (line 271)
+- [ancestry/list31.md](ancestry/list31.md#L72) (line 72)
+- [ancestry/INDEX.md](ancestry/INDEX.md#L72) (line 72)
 - [plats/laker-homer.md](plats/laker-homer.md#L1) (line 1)
 - [plats/INDEX.md](plats/INDEX.md#L62) (line 62)
 - `/mnt/project-files/research/treasure-statewide/leads-mi.tsv` line 9 (shared folder only)
@@ -1518,9 +1520,9 @@ Also mentions the place: [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L10
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L231) (line 231)
 
 Notes:
-- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L187) (line 187)
+- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L28) (line 28)
 - [newspapers-com/placement-gaps-list.md](newspapers-com/placement-gaps-list.md#L39) (line 39)
-- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L106) (line 106)
+- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L20) (line 20)
 - [newspapers-com/ia-il-second-source.md](newspapers-com/ia-il-second-source.md#L123) (line 123)
 - [genealogybank/gb-list1.md](genealogybank/gb-list1.md#L31) (line 31)
 - [ancestry/list12-dates.md](ancestry/list12-dates.md#L6) (line 6)
@@ -1872,7 +1874,7 @@ Notes:
 - `/mnt/project-files/research/treasure-statewide/pc-a-asks-batch3-2026-11-01.md` line 16 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/persons.tsv` line 20 (shared folder only)
 
-Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L955) (line 955); [genealogybank/gaps.md](genealogybank/gaps.md#L11) (line 11); [ancestry/list31.md](ancestry/list31.md#L60) (line 60); [ancestry/INDEX.md](ancestry/INDEX.md#L71) (line 71)
+Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L955) (line 955); [genealogybank/gaps.md](genealogybank/gaps.md#L11) (line 11); [ancestry/list31.md](ancestry/list31.md#L60) (line 60)
 
 ### Outlaw dugout with a hidden back room, ravine in Lake Prairie Twp (1890)
 `tw-mn-fay-ravine-dugout-1890` · grade D · Nicollet Co., MN
@@ -2158,7 +2160,7 @@ Also mentions the place: [negatives.tsv](negatives.tsv#L231) (line 231); [newspa
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L190) (line 190)
 
 Notes:
-- [ancestry/markee-apple-river-polk.md](ancestry/markee-apple-river-polk.md#L5) (line 5)
+- [ancestry/markee-apple-river-polk.md](ancestry/markee-apple-river-polk.md#L1) (line 1)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L36) (line 36)
 - `/mnt/project-files/research/court-records/pin-records-check.tsv` line 7 (shared folder only)
 
@@ -2269,6 +2271,9 @@ Also mentions the place: [plats/blackmore-palmyra.md](plats/blackmore-palmyra.md
 
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L198) (line 198)
 
+Notes:
+- [ancestry/list31.md](ancestry/list31.md#L65) (line 65)
+- [ancestry/INDEX.md](ancestry/INDEX.md#L72) (line 72)
 
 Also mentions the place: [ancestry/list30.md](ancestry/list30.md#L39) (line 39); [ancestry/list11-probate-census.md](ancestry/list11-probate-census.md#L11) (line 11)
 
@@ -3209,7 +3214,7 @@ Notes:
 - [ancestry/list16.md](ancestry/list16.md#L38) (line 38)
 - [clippings/README.md](clippings/README.md#L3) (line 3)
 
-Also mentions the place: [newspapers-com/county-coverage-wi-mi-chronam.tsv](newspapers-com/county-coverage-wi-mi-chronam.tsv#L24) (line 24); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L71) (line 71); [newspapers-com/county-coverage.tsv](newspapers-com/county-coverage.tsv#L23) (line 23)
+Also mentions the place: [newspapers-com/county-coverage-wi-mi-chronam.tsv](newspapers-com/county-coverage-wi-mi-chronam.tsv#L24) (line 24); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L118) (line 118); [newspapers-com/county-coverage.tsv](newspapers-com/county-coverage.tsv#L23) (line 23)
 
 ### Rechenberg's jar of mildewed bills, Dodd Road farm, Mendota Heights (found 1924)
 `tw-mn-west-st-paul-rechenberg-jar-1924` · grade F · Dakota Co., MN
