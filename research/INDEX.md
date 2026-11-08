@@ -152,9 +152,9 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L362) (line 362)
 Notes:
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L779) (line 779)
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L128) (line 128)
-- [newspapers-com/ia-il-sweep.md](newspapers-com/ia-il-sweep.md#L42) (line 42)
+- [newspapers-com/ia-il-sweep.md](newspapers-com/ia-il-sweep.md#L35) (line 35)
 - [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L22) (line 22)
-- [ancestry/list12-dates.md](ancestry/list12-dates.md#L35) (line 35)
+- [ancestry/list12-dates.md](ancestry/list12-dates.md#L32) (line 32)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L52) (line 52)
 - [plats/hession-humboldt.md](plats/hession-humboldt.md#L1) (line 1)
 
@@ -264,7 +264,7 @@ Notes:
 - `/mnt/project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md` line 5 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/persons.tsv` line 66 (shared folder only)
 
-Also mentions the place: [newspapers-com/placement-gaps-list.md](newspapers-com/placement-gaps-list.md#L49) (line 49); [ancestry/list40.md](ancestry/list40.md#L39) (line 39); [ancestry/list22.md](ancestry/list22.md#L29) (line 29); [ancestry/list11-probate-census.md](ancestry/list11-probate-census.md#L22) (line 22); [ancestry/list19.md](ancestry/list19.md#L35) (line 35); [plats/placement-gaps-pass-b.md](plats/placement-gaps-pass-b.md#L68) (line 68); [plats/INDEX.md](plats/INDEX.md#L15) (line 15)
+Also mentions the place: [newspapers-com/placement-gaps-list.md](newspapers-com/placement-gaps-list.md#L49) (line 49); [ancestry/list40.md](ancestry/list40.md#L39) (line 39); [ancestry/list22.md](ancestry/list22.md#L29) (line 29); [ancestry/list11-probate-census.md](ancestry/list11-probate-census.md#L22) (line 22); [ancestry/list19.md](ancestry/list19.md#L35) (line 35); [ancestry/INDEX.md](ancestry/INDEX.md#L81) (line 81); [plats/placement-gaps-pass-b.md](plats/placement-gaps-pass-b.md#L68) (line 68); [plats/INDEX.md](plats/INDEX.md#L15) (line 15)
 
 ### The poisoned Englishman Carr's California gold, orchard farm east of Dimondale
 `tw-mi-dimondale-carr-gold` · grade B · Ingham Co., MI · dig spot `dig-mi-dimondale-carr-gold`
@@ -840,7 +840,7 @@ Notes:
 `tw-mi-galien-swem-pot-of-gold-1896` · grade C · Berrien Co., MI
 
 Notes:
-- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L668) (line 668)
+- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L666) (line 666)
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L148) (line 148)
 - [ancestry/list9-probate-census.md](ancestry/list9-probate-census.md#L11) (line 11)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L49) (line 49)
@@ -1045,7 +1045,7 @@ Notes:
 - `/mnt/project-files/research/treasure-statewide/leads-mi.tsv` line 18 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/persons.tsv` line 30 (shared folder only)
 
-Also mentions the place: [newspapers-com/placement-gaps-list.md](newspapers-com/placement-gaps-list.md#L53) (line 53); [ancestry/list35.md](ancestry/list35.md#L82) (line 82); [ancestry/INDEX.md](ancestry/INDEX.md#L76) (line 76); [ancestry/heisel-doehm-wrj-kinsman.md](ancestry/heisel-doehm-wrj-kinsman.md#L20) (line 20); [plats/placement-gaps-pass-b.md](plats/placement-gaps-pass-b.md#L50) (line 50); [fairgrounds/mi-early-fairs.md](fairgrounds/mi-early-fairs.md#L9) (line 9); `/mnt/project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md` line 30 (shared folder only)
+Also mentions the place: [newspapers-com/placement-gaps-list.md](newspapers-com/placement-gaps-list.md#L53) (line 53); [ancestry/list40.md](ancestry/list40.md#L48) (line 48); [ancestry/list35.md](ancestry/list35.md#L82) (line 82); [ancestry/INDEX.md](ancestry/INDEX.md#L76) (line 76); [ancestry/heisel-doehm-wrj-kinsman.md](ancestry/heisel-doehm-wrj-kinsman.md#L20) (line 20); [plats/placement-gaps-pass-b.md](plats/placement-gaps-pass-b.md#L50) (line 50); [fairgrounds/mi-early-fairs.md](fairgrounds/mi-early-fairs.md#L9) (line 9); `/mnt/project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md` line 30 (shared folder only)
 
 No research notes yet: Indian woman's iron kettle of gold and silver, banks of Court Creek (Persifer Township) (`tw-il-persifer-court-creek-kettle`); Robbers' Cave gold in the bluffs north of Clinton (`tw-ia-clinton-robbers-cave-bluffs`); Where "1,200 or 1,500 men dug for gold", Iowa River below Steamboat Rock (`tw-ia-steamboat-rock-gold-digging`)
 
@@ -1382,9 +1382,10 @@ Also mentions the place: [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L89
 
 Notes:
 - [ancestry/list34.md](ancestry/list34.md#L33) (line 33)
+- [ancestry/list40.md](ancestry/list40.md#L37) (line 37)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L75) (line 75)
 
-Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L450) (line 450); [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L106) (line 106); [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L5) (line 5); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L192) (line 192); [newspapers-com/mi-gap-counties.txt](newspapers-com/mi-gap-counties.txt#L3) (line 3); [genealogybank/gaps.md](genealogybank/gaps.md#L15) (line 15); [genealogybank/gb-list1.md](genealogybank/gb-list1.md#L31) (line 31); [ancestry/list40.md](ancestry/list40.md#L37) (line 37); [ancestry/list35.md](ancestry/list35.md#L83) (line 83); [ancestry/list36.md](ancestry/list36.md#L46) (line 46); [ancestry/list24.md](ancestry/list24.md#L35) (line 35); [fairgrounds/mi-early-fairs.md](fairgrounds/mi-early-fairs.md#L18) (line 18); `/mnt/project-files/research/treasure-statewide/leads-mi.tsv` line 18 (shared folder only); `/mnt/project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md` line 26 (shared folder only)
+Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L450) (line 450); [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L106) (line 106); [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L5) (line 5); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L192) (line 192); [newspapers-com/mi-gap-counties.txt](newspapers-com/mi-gap-counties.txt#L3) (line 3); [genealogybank/gaps.md](genealogybank/gaps.md#L15) (line 15); [genealogybank/gb-list1.md](genealogybank/gb-list1.md#L31) (line 31); [ancestry/list35.md](ancestry/list35.md#L83) (line 83); [ancestry/list36.md](ancestry/list36.md#L46) (line 46); [ancestry/list24.md](ancestry/list24.md#L35) (line 35); [fairgrounds/mi-early-fairs.md](fairgrounds/mi-early-fairs.md#L18) (line 18); `/mnt/project-files/research/treasure-statewide/leads-mi.tsv` line 18 (shared folder only); `/mnt/project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md` line 26 (shared folder only)
 
 ### Counterfeiters' rendezvous at Ossian (1850s)
 `tw-ia-ossian-counterfeiters-1850s` · grade D · Winneshiek Co., IA
@@ -1618,9 +1619,9 @@ Also mentions the place: [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L10
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L231) (line 231)
 
 Notes:
-- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L28) (line 28)
+- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L187) (line 187)
 - [newspapers-com/placement-gaps-list.md](newspapers-com/placement-gaps-list.md#L39) (line 39)
-- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L20) (line 20)
+- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L106) (line 106)
 - [newspapers-com/ia-il-second-source.md](newspapers-com/ia-il-second-source.md#L123) (line 123)
 - [genealogybank/gb-list1.md](genealogybank/gb-list1.md#L31) (line 31)
 - [ancestry/list12-dates.md](ancestry/list12-dates.md#L6) (line 6)
