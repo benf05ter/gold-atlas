@@ -1,6 +1,6 @@
 # Research index by pin
 
-Generated 2026-11-02 by `tools/research-index/build.py` from the atlas pins (grade = the app's S to F tier) and every note under `research/`, plus the shared-folder court records and Treasure-thread notes. One entry per treasure lead, best grade first; dig spots sit under their lead. Shipwrecks are left out (look only).
+Generated 2026-11-08 by `tools/research-index/build.py` from the atlas pins (grade = the app's S to F tier) and every note under `research/`, plus the shared-folder court records and Treasure-thread notes. One entry per treasure lead, best grade first; dig spots sit under their lead. Shipwrecks are left out (look only).
 
 **How to read it.** "Notes" means the file has the pin id, is named for the lead, or names two words of the lead close together. "Also mentions" means one word of the lead (often a place or a common surname) close to the county name, so check those before relying on them. Line numbers point at the first mention.
 
@@ -229,6 +229,7 @@ Notes:
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L10) (line 10)
 - [newspapers-com/list18.md](newspapers-com/list18.md#L14) (line 14)
 - [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L165) (line 165)
+- [ancestry/list28.md](ancestry/list28.md#L34) (line 34)
 - [ancestry/land-ownership-maps-list8.md](ancestry/land-ownership-maps-list8.md#L37) (line 37)
 - [ancestry/trombler-jacobson-otter-tail.md](ancestry/trombler-jacobson-otter-tail.md#L1) (line 1)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L41) (line 41)
@@ -781,7 +782,7 @@ Notes:
 `tw-mi-galien-swem-pot-of-gold-1896` · grade C · Berrien Co., MI
 
 Notes:
-- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L666) (line 666)
+- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L668) (line 668)
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L148) (line 148)
 - [ancestry/list9-probate-census.md](ancestry/list9-probate-census.md#L11) (line 11)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L49) (line 49)
@@ -904,6 +905,7 @@ Notes:
 - [newspapers-com/pc-a-batch3-results.md](newspapers-com/pc-a-batch3-results.md#L7) (line 7)
 - [newspapers-com/second-sources-c-leads.md](newspapers-com/second-sources-c-leads.md#L70) (line 70)
 - [ancestry/list12-dates.md](ancestry/list12-dates.md#L11) (line 11)
+- [ancestry/list28.md](ancestry/list28.md#L19) (line 19)
 - [ancestry/chilson-north-muskegon-ancestry.md](ancestry/chilson-north-muskegon-ancestry.md#L1) (line 1)
 - [ancestry/michigan-death-records-batch.md](ancestry/michigan-death-records-batch.md#L10) (line 10)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L35) (line 35)
@@ -1347,7 +1349,7 @@ Notes:
 - `/mnt/project-files/research/treasure-statewide/pc-newspapers-second-sources.md` line 30 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/persons.tsv` line 100 (shared folder only)
 
-Also mentions the place: [ancestry/list26.md](ancestry/list26.md#L105) (line 105)
+Also mentions the place: [ancestry/list28.md](ancestry/list28.md#L12) (line 12); [ancestry/list26.md](ancestry/list26.md#L105) (line 105)
 
 ### Gold from a Chicago bank in the 1871 fire, North Manitou Island
 `tw-mi-north-manitou-chicago-fire-gold` · grade D · Leelanau Co., MI
@@ -2122,7 +2124,7 @@ Also mentions the place: [negatives.tsv](negatives.tsv#L231) (line 231); [newspa
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L190) (line 190)
 
 Notes:
-- [ancestry/markee-apple-river-polk.md](ancestry/markee-apple-river-polk.md#L5) (line 5)
+- [ancestry/markee-apple-river-polk.md](ancestry/markee-apple-river-polk.md#L1) (line 1)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L36) (line 36)
 - `/mnt/project-files/research/court-records/pin-records-check.tsv` line 7 (shared folder only)
 
@@ -2908,7 +2910,7 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L253) (line 253)
 
 Notes:
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L397) (line 397)
-- [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L48) (line 48)
+- [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L55) (line 55)
 - [ancestry/list25.md](ancestry/list25.md#L118) (line 118)
 - [plats/van-arsdale-alamo.md](plats/van-arsdale-alamo.md#L1) (line 1)
 - [plats/INDEX.md](plats/INDEX.md#L55) (line 55)
@@ -3156,13 +3158,15 @@ Notes:
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L135) (line 135)
 - [ancestry/list27.md](ancestry/list27.md#L108) (line 108)
 - [ancestry/list17.md](ancestry/list17.md#L81) (line 81)
+- [ancestry/list28.md](ancestry/list28.md#L3) (line 3)
 - [ancestry/list14.md](ancestry/list14.md#L6) (line 6)
+- [ancestry/INDEX.md](ancestry/INDEX.md#L68) (line 68)
 - [ancestry/list16.md](ancestry/list16.md#L37) (line 37)
 - [plats/rechenberg-dakota-mn.md](plats/rechenberg-dakota-mn.md#L1) (line 1)
 - [clippings/README.md](clippings/README.md#L3) (line 3)
 - `/mnt/project-files/research/treasure-statewide/leads-wi.tsv` line 9 (shared folder only)
 
-Also mentions the place: [ancestry/INDEX.md](ancestry/INDEX.md#L68) (line 68); [forums/treasurenet-list1.md](forums/treasurenet-list1.md#L34) (line 34); `/mnt/project-files/research/court-records/pin-records-check.tsv` line 3 (shared folder only)
+Also mentions the place: [forums/treasurenet-list1.md](forums/treasurenet-list1.md#L34) (line 34); `/mnt/project-files/research/court-records/pin-records-check.tsv` line 3 (shared folder only)
 
 ### Recluse James Kehoe's supposed hidden fortune, Bloomington Twp
 `tw-mn-bloomington-kehoe-1915` · grade F · Hennepin Co., MN

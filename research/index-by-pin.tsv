@@ -177,6 +177,7 @@ tw-mn-fergus-falls-trombler-1903	B	Pensioner's hoard, small house on Mill Street
 tw-mn-fergus-falls-trombler-1903	B	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		research/newspapers-com/sweep-2-misers-loot.md	104	co:fergus
 tw-mn-fergus-falls-trombler-1903	B	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		research/ancestry/list22.md	23	co:trombler
 tw-mn-fergus-falls-trombler-1903	B	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		research/ancestry/list20.md	16	co:trombler
+tw-mn-fergus-falls-trombler-1903	B	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		research/ancestry/list28.md	34	two:fergus
 tw-mn-fergus-falls-trombler-1903	B	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		research/ancestry/land-ownership-maps-list8.md	37	two:fergus
 tw-mn-fergus-falls-trombler-1903	B	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		research/ancestry/trombler-jacobson-otter-tail.md	1	two:fergus
 tw-mn-fergus-falls-trombler-1903	B	Pensioner's hoard, small house on Mill Street, Fergus Falls	Otter Tail	MN		research/ancestry/INDEX.md	41	two:fergus
@@ -550,13 +551,13 @@ tw-mi-emmett-mcardill-dry-well-1874	C	Pedlar McArdill's robbery gold, dry well i
 tw-mi-emmett-mcardill-dry-well-1874	C	Pedlar McArdill's robbery gold, dry well in the Newbre neighbourhood, Emmett Twp (c.1849 robbery; 1874 dig)	Calhoun	MI		research/ancestry/list19.md	54	two:newbre
 tw-mi-emmett-mcardill-dry-well-1874	C	Pedlar McArdill's robbery gold, dry well in the Newbre neighbourhood, Emmett Twp (c.1849 robbery; 1874 dig)	Calhoun	MI		research/ancestry/INDEX.md	64	two:emmett
 tw-mi-emmett-mcardill-dry-well-1874	C	Pedlar McArdill's robbery gold, dry well in the Newbre neighbourhood, Emmett Twp (c.1849 robbery; 1874 dig)	Calhoun	MI		research/ancestry/list23.md	72	two:newbre
-tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/newspapers-com/pc-a-asks-results.md	666	two:galien
-tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/newspapers-com/leads.tsv	148	two:galien
+tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/newspapers-com/pc-a-asks-results.md	668	two:swem
+tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/newspapers-com/leads.tsv	148	two:swem
 tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/ancestry/list26.md	161	co:galien
-tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/ancestry/list9-probate-census.md	11	two:galien
+tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/ancestry/list9-probate-census.md	11	two:swem
 tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/ancestry/land-ownership-maps-list8.md	33	co:swem
-tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/ancestry/INDEX.md	49	two:galien
-tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/plats/sunday-plates-2026-11-02.md	29	two:galien
+tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/ancestry/INDEX.md	49	two:swem
+tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/plats/sunday-plates-2026-11-02.md	29	two:swem
 tw-il-dekalb-yocum-jar-1939	C	Ray Yocum's lost fruit jar of $2,300, Yocum yard, East Lincoln Highway, DeKalb	DeKalb	IL		research/ancestry/illinois-names-batch.md	15	co:yocum
 tw-il-dekalb-yocum-jar-1939	C	Ray Yocum's lost fruit jar of $2,300, Yocum yard, East Lincoln Highway, DeKalb	DeKalb	IL		research/ancestry/list25.md	161	two:yocum
 tw-il-dekalb-yocum-jar-1939	C	Ray Yocum's lost fruit jar of $2,300, Yocum yard, East Lincoln Highway, DeKalb	DeKalb	IL		research/ancestry/INDEX.md	66	co:yocum
@@ -644,6 +645,7 @@ tw-mi-north-muskegon-chilson-gold	C	Veteran Harvey Chilson's ~$3,000 in gold, No
 tw-mi-north-muskegon-chilson-gold	C	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/newspapers-com/second-sources-c-leads.md	70	id
 tw-mi-north-muskegon-chilson-gold	C	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/newspapers-com/leads.tsv	138	co:chilson
 tw-mi-north-muskegon-chilson-gold	C	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/ancestry/list12-dates.md	11	two:chilson
+tw-mi-north-muskegon-chilson-gold	C	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/ancestry/list28.md	19	two:chilson
 tw-mi-north-muskegon-chilson-gold	C	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/ancestry/list10-probate-census.md	19	co:chilson
 tw-mi-north-muskegon-chilson-gold	C	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/ancestry/chilson-north-muskegon-ancestry.md	1	file:chilson
 tw-mi-north-muskegon-chilson-gold	C	Veteran Harvey Chilson's ~$3,000 in gold, North Muskegon	Muskegon	MI		research/ancestry/michigan-death-records-batch.md	10	two:chilson
@@ -907,6 +909,7 @@ tw-ia-washington-gallup-red-oak	D	George Gallup's gallows confession: $5,000 und
 tw-mn-le-center-tree-gold-1906	D	Gold coins in a white ash on the Millet farm, Lexington Twp (part found 1906; the 1858 Reinhart murder)	Le Sueur	MN		research/newspapers-com/second-sources-c-leads.md	128	id
 tw-mn-le-center-tree-gold-1906	D	Gold coins in a white ash on the Millet farm, Lexington Twp (part found 1906; the 1858 Reinhart murder)	Le Sueur	MN		research/newspapers-com/treasure-list-t13-t21.md	330	two:millet
 tw-mn-le-center-tree-gold-1906	D	Gold coins in a white ash on the Millet farm, Lexington Twp (part found 1906; the 1858 Reinhart murder)	Le Sueur	MN		research/ancestry/list27.md	87	two:millet
+tw-mn-le-center-tree-gold-1906	D	Gold coins in a white ash on the Millet farm, Lexington Twp (part found 1906; the 1858 Reinhart murder)	Le Sueur	MN		research/ancestry/list28.md	12	co:reinhart
 tw-mn-le-center-tree-gold-1906	D	Gold coins in a white ash on the Millet farm, Lexington Twp (part found 1906; the 1858 Reinhart murder)	Le Sueur	MN		research/ancestry/list26.md	105	co:reinhart
 tw-mn-le-center-tree-gold-1906	D	Gold coins in a white ash on the Millet farm, Lexington Twp (part found 1906; the 1858 Reinhart murder)	Le Sueur	MN		research/ancestry/INDEX.md	68	two:millet
 tw-mn-le-center-tree-gold-1906	D	Gold coins in a white ash on the Millet farm, Lexington Twp (part found 1906; the 1858 Reinhart murder)	Le Sueur	MN		project-files/research/treasure-statewide/leads-mn.tsv	10	id
@@ -1382,7 +1385,7 @@ tw-strolfer-superior-1897	E	Adolph Strolfer, miser of Superior	Douglas	WI		resea
 tw-strolfer-superior-1897	E	Adolph Strolfer, miser of Superior	Douglas	WI		research/plats/strolfer-douglas-wi.md	1	file:strolfer
 tw-strolfer-superior-1897	E	Adolph Strolfer, miser of Superior	Douglas	WI		project-files/research/court-records/pin-records-check.tsv	2	co:superior
 tw-strolfer-superior-1897	E	Adolph Strolfer, miser of Superior	Douglas	WI		project-files/research/treasure-statewide/blackburn-card.md	5	co:superior
-tw-markee-amery-1936	E	Amil Markee's cache under the milk shed, Amery	Polk	WI		research/ancestry/markee-apple-river-polk.md	5	two:amery
+tw-markee-amery-1936	E	Amil Markee's cache under the milk shed, Amery	Polk	WI		research/ancestry/markee-apple-river-polk.md	1	two:amil
 tw-markee-amery-1936	E	Amil Markee's cache under the milk shed, Amery	Polk	WI		research/ancestry/INDEX.md	36	two:amil
 tw-markee-amery-1936	E	Amil Markee's cache under the milk shed, Amery	Polk	WI		project-files/research/court-records/pin-records-check.tsv	7	id
 it-armstrong-silver-bar	E	Armstrong's lost silver bar (Bayfield peninsula, c.1820s find)	Bayfield	WI		project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md	23	co:armstrong
@@ -1753,13 +1756,13 @@ tw-wi-mineral-point-ravine-gold-1852	F	Gold lumps in a ravine in Mineral Point v
 tw-wi-mineral-point-ravine-gold-1852	F	Gold lumps in a ravine in Mineral Point village (1852)	Iowa	WI		research/newspapers-com/treasure-list-t13-t21.md	84	co:mineral
 tw-wi-mineral-point-ravine-gold-1852	F	Gold lumps in a ravine in Mineral Point village (1852)	Iowa	WI		research/ancestry/INDEX.md	67	co:mineral
 tw-wi-mineral-point-ravine-gold-1852	F	Gold lumps in a ravine in Mineral Point village (1852)	Iowa	WI		project-files/research/treasure-statewide/leads-wi.tsv	12	id
-tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		research/newspapers-com/pc-a-asks-results.md	397	two:arsdale
-tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		research/newspapers-com/treasure-list-t13-t21.md	48	two:arsdale
-tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		research/ancestry/list25.md	118	two:arsdale
-tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		research/plats/van-arsdale-alamo.md	1	file:arsdale
-tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		research/plats/INDEX.md	55	two:arsdale
+tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		research/newspapers-com/pc-a-asks-results.md	397	two:alamo
+tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		research/newspapers-com/treasure-list-t13-t21.md	55	two:alamo
+tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		research/ancestry/list25.md	118	two:alamo
+tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		research/plats/van-arsdale-alamo.md	1	file:alamo
+tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		research/plats/INDEX.md	55	two:alamo
 tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		project-files/research/treasure-statewide/leads-mi.tsv	23	id
-tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md	21	two:arsdale
+tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md	21	two:alamo
 tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		project-files/research/treasure-statewide/persons.tsv	39	id
 tw-wi-blackhawk-jaeger-1923	F	Hermit Robert Jaeger's hidden wealth, Black Hawk (Sauk Co.)	Sauk	WI		research/negatives.tsv	239	id
 tw-wi-blackhawk-jaeger-1923	F	Hermit Robert Jaeger's hidden wealth, Black Hawk (Sauk Co.)	Sauk	WI		research/newspapers-com/second-sources-c-leads.md	22	id
@@ -1942,8 +1945,9 @@ tw-mn-west-st-paul-rechenberg-jar-1924	F	Rechenberg's jar of mildewed bills, Dod
 tw-mn-west-st-paul-rechenberg-jar-1924	F	Rechenberg's jar of mildewed bills, Dodd Road farm, Mendota Heights (found 1924)	Dakota	MN		research/newspapers-com/leads.tsv	135	two:heights
 tw-mn-west-st-paul-rechenberg-jar-1924	F	Rechenberg's jar of mildewed bills, Dodd Road farm, Mendota Heights (found 1924)	Dakota	MN		research/ancestry/list27.md	108	two:heights
 tw-mn-west-st-paul-rechenberg-jar-1924	F	Rechenberg's jar of mildewed bills, Dodd Road farm, Mendota Heights (found 1924)	Dakota	MN		research/ancestry/list17.md	81	two:mendota
+tw-mn-west-st-paul-rechenberg-jar-1924	F	Rechenberg's jar of mildewed bills, Dodd Road farm, Mendota Heights (found 1924)	Dakota	MN		research/ancestry/list28.md	3	two:dodd
 tw-mn-west-st-paul-rechenberg-jar-1924	F	Rechenberg's jar of mildewed bills, Dodd Road farm, Mendota Heights (found 1924)	Dakota	MN		research/ancestry/list14.md	6	two:dodd
-tw-mn-west-st-paul-rechenberg-jar-1924	F	Rechenberg's jar of mildewed bills, Dodd Road farm, Mendota Heights (found 1924)	Dakota	MN		research/ancestry/INDEX.md	68	co:dodd
+tw-mn-west-st-paul-rechenberg-jar-1924	F	Rechenberg's jar of mildewed bills, Dodd Road farm, Mendota Heights (found 1924)	Dakota	MN		research/ancestry/INDEX.md	68	two:dodd
 tw-mn-west-st-paul-rechenberg-jar-1924	F	Rechenberg's jar of mildewed bills, Dodd Road farm, Mendota Heights (found 1924)	Dakota	MN		research/ancestry/list16.md	37	two:dodd
 tw-mn-west-st-paul-rechenberg-jar-1924	F	Rechenberg's jar of mildewed bills, Dodd Road farm, Mendota Heights (found 1924)	Dakota	MN		research/forums/treasurenet-list1.md	34	co:paul
 tw-mn-west-st-paul-rechenberg-jar-1924	F	Rechenberg's jar of mildewed bills, Dodd Road farm, Mendota Heights (found 1924)	Dakota	MN		research/plats/rechenberg-dakota-mn.md	1	two:dodd
