@@ -1,0 +1,9 @@
+{"new":[],"edit":{
+"tw-ia-rickardsville-maxwell-place-1915":{"set":{"pl":"Old Maxwell place, ~35 acres, N sec 30 T90N R1E, E edge of Rickardsville (1906 plat)",
+ "pinev":["1906 Dubuque Co plat, Jefferson Twp p. 9 (Ancestry image 31617_072142-00253): 'Maxwell', about 35 acres in the N part of sec 30 T90N R1E, immediately E of the Rickardsville village plat (BLM sec 30 = 42.5723-42.5869, -90.8978..-90.8781). Pin still on GNIS Rickardsville pending a check of which side of the village the tract lies.","1915 Iowa census: John Datisman, 65, farmer, Jefferson Twp, P.O. Durango RFD, owns $9,000; on the 1906 plate he is in sec 35 by Durango, so he held the Maxwell place by 1915."]},
+ "src":[["Dubuque County plat (1906), Jefferson Twp p. 9 (Ancestry image 31617_072142-00253)",""],["Iowa State Census 1915, Jefferson Twp, Dubuque Co",""]]},
+"tw-vollmer-hoard-1899":{"moved":true,"set":{"la":45.0515,"lo":-92.8055,"acm":[400,"directory"],"pinconf":"D","p":"approx",
+ "pl":"S Main St, Stillwater (1894/1898 directories), house number not given",
+ "pinev":["1894 and 1898 Stillwater directories list George Vollmer on 'S Main' with no house number; pin on South Main St south of downtown, r400 (street placed from the downtown GNIS point, no geocoder reachable)."]},
+ "src":[["Stillwater city directories, 1894 and 1898 (George Vollmer, S Main)",""]]}
+}}
