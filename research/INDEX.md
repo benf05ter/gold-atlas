@@ -107,7 +107,7 @@ Notes:
 - [plats/placement-gaps-pass-b.md](plats/placement-gaps-pass-b.md#L31) (line 31)
 - [plats/INDEX.md](plats/INDEX.md#L74) (line 74)
 
-Also mentions the place: [genealogybank/gaps.md](genealogybank/gaps.md#L8) (line 8); [ancestry/list22.md](ancestry/list22.md#L30) (line 30); `/mnt/project-files/research/court-records/pin-records-check.tsv` line 42 (shared folder only)
+Also mentions the place: [genealogybank/gaps.md](genealogybank/gaps.md#L8) (line 8); [ancestry/list39.md](ancestry/list39.md#L32) (line 32); [ancestry/list22.md](ancestry/list22.md#L30) (line 30); `/mnt/project-files/research/court-records/pin-records-check.tsv` line 42 (shared folder only)
 
 ### Fred Kuehn's jars under the plum trees, Sigel Township
 `tw-mn-sigel-kuehn-plum-trees-1906` · grade B · Brown Co., MN
@@ -1009,7 +1009,7 @@ Notes:
 - `/mnt/project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md` line 8 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/persons.tsv` line 34 (shared folder only)
 
-Also mentions the place: [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L38) (line 38); [genealogybank/gaps.md](genealogybank/gaps.md#L22) (line 22); `/mnt/project-files/research/treasure-statewide/README.md` line 34 (shared folder only); `/mnt/project-files/research/treasure-statewide/pc-b-plat-queue-2026-11-01.md` line 24 (shared folder only)
+Also mentions the place: [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L38) (line 38); [genealogybank/gaps.md](genealogybank/gaps.md#L22) (line 22); [ancestry/list39.md](ancestry/list39.md#L54) (line 54); [ancestry/INDEX.md](ancestry/INDEX.md#L80) (line 80); `/mnt/project-files/research/treasure-statewide/README.md` line 34 (shared folder only); `/mnt/project-files/research/treasure-statewide/pc-b-plat-queue-2026-11-01.md` line 24 (shared folder only)
 
 ### Wash boiler of gold coins, old bachelor's farm near Clarksville
 `tw-ia-clarksville-harvey-boiler` · grade C · Butler Co., IA
@@ -1450,7 +1450,7 @@ Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L311) (line 311)
 
 
-Also mentions the place: [ia-il/iowa-town-leads-plats.md](ia-il/iowa-town-leads-plats.md#L19) (line 19); [ia-il/INDEX.md](ia-il/INDEX.md#L9) (line 9); [ancestry/land-ownership-maps-list7.md](ancestry/land-ownership-maps-list7.md#L22) (line 22); [ancestry/land-ownership-maps-list8.md](ancestry/land-ownership-maps-list8.md#L26) (line 26); [ancestry/INDEX.md](ancestry/INDEX.md#L27) (line 27); [sunday/sunday-list-2026-11-02.md](sunday/sunday-list-2026-11-02.md#L15) (line 15)
+Also mentions the place: [ia-il/iowa-town-leads-plats.md](ia-il/iowa-town-leads-plats.md#L19) (line 19); [ia-il/INDEX.md](ia-il/INDEX.md#L9) (line 9); [ancestry/list39.md](ancestry/list39.md#L42) (line 42); [ancestry/land-ownership-maps-list7.md](ancestry/land-ownership-maps-list7.md#L22) (line 22); [ancestry/land-ownership-maps-list8.md](ancestry/land-ownership-maps-list8.md#L26) (line 26); [ancestry/INDEX.md](ancestry/INDEX.md#L27) (line 27); [sunday/sunday-list-2026-11-02.md](sunday/sunday-list-2026-11-02.md#L15) (line 15)
 
 ### Gold coins in a white ash on the Millet farm, Lexington Twp (part found 1906; the 1858 Reinhart murder)
 `tw-mn-le-center-tree-gold-1906` · grade D · Le Sueur Co., MN
@@ -1678,7 +1678,7 @@ Notes:
 - [ancestry/list19.md](ancestry/list19.md#L40) (line 40)
 - [sunday/sunday-list-2026-11-02.md](sunday/sunday-list-2026-11-02.md#L7) (line 7)
 
-Also mentions the place: [ia-il/README.md](ia-il/README.md#L52) (line 52); [ancestry/list31.md](ancestry/list31.md#L32) (line 32); [ancestry/INDEX.md](ancestry/INDEX.md#L60) (line 60)
+Also mentions the place: [ia-il/README.md](ia-il/README.md#L52) (line 52); [ancestry/list39.md](ancestry/list39.md#L57) (line 57); [ancestry/list31.md](ancestry/list31.md#L32) (line 32); [ancestry/INDEX.md](ancestry/INDEX.md#L60) (line 60)
 
 ### Joe Blackburn's missing money, trading post southeast of Gordon
 `tw-blackburn-gordon-1897` · grade D · Douglas Co., WI
@@ -1811,7 +1811,7 @@ Also mentions the place: [county-depth/se-wi-histories/washington-ozaukee-1880s.
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L292) (line 292)
 
 
-Also mentions the place: [newspapers-com/ia-il-second-source.md](newspapers-com/ia-il-second-source.md#L60) (line 60); [ancestry/list32.md](ancestry/list32.md#L11) (line 11); [ancestry/list38.md](ancestry/list38.md#L15) (line 15); [ancestry/INDEX.md](ancestry/INDEX.md#L79) (line 79)
+Also mentions the place: [newspapers-com/ia-il-second-source.md](newspapers-com/ia-il-second-source.md#L60) (line 60); [ancestry/list32.md](ancestry/list32.md#L11) (line 11); [ancestry/list38.md](ancestry/list38.md#L14) (line 14); [ancestry/INDEX.md](ancestry/INDEX.md#L79) (line 79)
 
 ### Murdered Olson brothers' money 'hidden about the place', near Bristol Center
 `tw-mn-bristol-olson-brothers-1936` · grade D · Fillmore Co., MN
@@ -2134,7 +2134,7 @@ Also mentions the place: [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L13
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L338) (line 338)
 
 
-Also mentions the place: [ancestry/illinois-names-batch.md](ancestry/illinois-names-batch.md#L16) (line 16); [ancestry/list32.md](ancestry/list32.md#L46) (line 46); [ancestry/INDEX.md](ancestry/INDEX.md#L73) (line 73)
+Also mentions the place: [ancestry/list39.md](ancestry/list39.md#L57) (line 57); [ancestry/illinois-names-batch.md](ancestry/illinois-names-batch.md#L16) (line 16); [ancestry/list32.md](ancestry/list32.md#L46) (line 46); [ancestry/INDEX.md](ancestry/INDEX.md#L73) (line 73)
 
 ### The money belt under the oak, Walker Tavern, Cambridge Junction
 `tw-mi-cambridge-jct-walker-tavern-money-belt` · grade D · Lenawee Co., MI
@@ -2981,7 +2981,7 @@ Notes:
 - [negatives.tsv](negatives.tsv#L120) (line 120)
 - `/mnt/project-files/research/treasure-statewide/leads-wi.tsv` line 13 (shared folder only)
 
-Also mentions the place: [newspapers-com/pc-a-batch3-results.md](newspapers-com/pc-a-batch3-results.md#L113) (line 113)
+Also mentions the place: [newspapers-com/pc-a-batch3-results.md](newspapers-com/pc-a-batch3-results.md#L113) (line 113); [ancestry/list39.md](ancestry/list39.md#L37) (line 37)
 
 ### Copper box of gold coins in a creek bank, Springdale township near Walnut Grove
 `tw-mn-walnut-grove-bergblom-copper-box-1930` · grade F · Redwood Co., MN
@@ -3053,7 +3053,7 @@ Notes:
 - `/mnt/project-files/research/court-records/pin-records-check.tsv` line 4 (shared folder only)
 - `/mnt/project-files/research/court-records/README.md` line 25 (shared folder only)
 
-Also mentions the place: [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L166) (line 166)
+Also mentions the place: [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L166) (line 166); [ancestry/list39.md](ancestry/list39.md#L39) (line 39)
 
 ### Gold lumps in a ravine in Mineral Point village (1852)
 `tw-wi-mineral-point-ravine-gold-1852` · grade F · Iowa Co., WI

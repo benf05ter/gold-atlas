@@ -1,4 +1,4 @@
-# List 38 (PC b, 2026-11-08): atlas tries for the plats Ancestry lacks
+﻿# List 38 (PC b, 2026-11-08): atlas tries for the plats Ancestry lacks
 
 ## archive.org atlas search (title search, mediatype texts)
 - **Found:**
@@ -11,12 +11,12 @@
 - **But Ancestry 1127 does hold Le Sueur 1912 (image 31617_072135-00531 set) and Waseca 1914 (31617_072139-00079).** list31's "no 1912 Le Sueur" was about HathiTrust only. Dakota on Ancestry is 1916 only.
 
 ## 10. STOUT / MAULSBY, Crawford Twp (Madison Co IA 1912): STOUT FOUND
-- **archive.org atlasofmadisonco5875midl, leaf 28 = "Crawford", T75N R26W** (full-res BookReader image, read at 100%).
+- **archive.org atlasofmadisonco5875midl, leaf 28 = "Crawford", T76N R26W (corrected: BLM puts Patterson in T76N R26W sec 29)** (full-res BookReader image, read at 100%).
 - **"R. F. Stout et al 65.37"** is in the **N part of sec 31** (W edge), directly S and SW of **PATTERSON** village (on the RR in secs 29-30-31).
 - **"C. A. Stout 40"** is in the **NW part of sec 32** (by W. H. Doan 40, G. R. Pace).
 - **No Maulsby** in the parts read. The far-W column of secs 30/31 was partly cut at the scroll edge.
 - Neighbours: J. A. Potter 49.69 and G. A. Potter 37.64 (sec 30 S, by Patterson), N. G. Pace, W. W. Pace, I. Miles, C. A. Phillips, E. P. Van Slyk (sec 31 S), Anthony Mesnard 154 (sec 33).
-- **Pin: Stout tracts at Patterson, N sec 31 / NW sec 32 T75N R26W, r400, C** (family land 1912).
+- **Pin: Stout tracts at Patterson, N sec 31 / NW sec 32 T76N R26W, r400, C** (family land 1912).
 
 ## 14. POLK Co IA 1907 (Hyde Park / Fairview)
 - The archive.org text search for "Hyde" gives 0 hits. The one "Fairview" hit (leaf 53) is on the state map, not a Des Moines plate. The plates were not read by eye (the OCR is poor). **Not placed.**
@@ -42,3 +42,4 @@
 - **3 Kammeyer (DuPage 1874):** not retried.
 
 ## Not run: 7 Dakota 1928 (not online; Ancestry has 1916 only, already negative), 8 Emmet 1910s (not online; 1902 negative), 9 Lee IL 1921 (not online), 11 Boone 1918 (not online), 12 Humboldt (not online; Ancestry? not checked), 13 Ionia 1930s (not online), 15 Itasca 1930s (not online).
+
