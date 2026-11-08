@@ -48,3 +48,11 @@
 - **The village plat shows a DAM across the Shiawassee just N (upstream) of the Grand River St bridge.** On the **NE bank above the dam it shows "Saw Mill" and "G. Mill" (grist mill), labelled "ROBERTS & MARSHALL".** J. J. Gaylord is on the SE bank below the bridge; L. Newman, A. Drum, E. B. Allen and A. Bigelow are on the W side; N. G. Philips 44.10 a. is N.
 - That matches the Owosso Times 1897-12-31 note ("Roberts Bros. … mill property at Knaggs Bridge").
 - **Pin: mill site, NE bank just above the Grand River (Cole Rd) bridge, about 42.861,-84.031, r150, B** for the mill site. The trading-post site S of the bridge is not labelled on the 1875 plat.
+
+## #17 HECKES / PHILBROOK farm, Byron Twp (Waseca): PLACED (1896)
+- **Ancestry 1127, Waseca 1896, viewer p.15 of 55 (image 31617_072139-00037), "Byron Township", T105N R23W, atlas p.29.**
+- **"Roscoe Philbrook 160" = NE¼ sec 11**, with a building mark. Neighbours: Delbert Weed (sec 12 NW), Frank Winegar (sec 11 SE), William Brisbane (sec 11 SW), R. Stewart (sec 10 E).
+- **"H. Heckes 160" = NE¼ sec 14** in 1896, directly S of the Philbrook quarter.
+- Per the New Richland Star 1905-06-22 (via PC a), Heckes then "owns the Philbrook farm", with the dig in the grove near the old house. So the dig site is the **Philbrook quarter, NE¼ sec 11**, adjoining Heckes's own NE¼ sec 14.
+- **BLM: sec 11 T105N R23W = 43.9063-43.9208 N, -93.5670 to -93.5466 W; sec 14 = 43.8918-43.9063 N.**
+- **Pin: Philbrook farm, NE¼ sec 11, about 43.917,-93.552, r300, B** (the house mark lies within the quarter). Alternative: Heckes home quarter, NE¼ sec 14, about 43.903,-93.552.
