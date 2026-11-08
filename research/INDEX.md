@@ -151,9 +151,9 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L362) (line 362)
 Notes:
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L779) (line 779)
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L128) (line 128)
-- [newspapers-com/ia-il-sweep.md](newspapers-com/ia-il-sweep.md#L35) (line 35)
+- [newspapers-com/ia-il-sweep.md](newspapers-com/ia-il-sweep.md#L42) (line 42)
 - [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L22) (line 22)
-- [ancestry/list12-dates.md](ancestry/list12-dates.md#L32) (line 32)
+- [ancestry/list12-dates.md](ancestry/list12-dates.md#L35) (line 35)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L52) (line 52)
 - [plats/hession-humboldt.md](plats/hession-humboldt.md#L1) (line 1)
 
@@ -752,7 +752,7 @@ Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L324) (line 324)
 
 
-Also mentions the place: [ancestry/illinois-names-batch.md](ancestry/illinois-names-batch.md#L16) (line 16)
+Also mentions the place: [ancestry/illinois-names-batch.md](ancestry/illinois-names-batch.md#L16) (line 16); [ancestry/list32.md](ancestry/list32.md#L32) (line 32); [ancestry/INDEX.md](ancestry/INDEX.md#L73) (line 73)
 
 ### Old rope maker's missing savings, half-acre homestead south of Kenosha
 `tw-wi-kenosha-hanks-ropemaker-1895` · grade C · Kenosha Co., WI
@@ -1522,9 +1522,9 @@ Also mentions the place: [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L10
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L231) (line 231)
 
 Notes:
-- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L28) (line 28)
+- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L187) (line 187)
 - [newspapers-com/placement-gaps-list.md](newspapers-com/placement-gaps-list.md#L39) (line 39)
-- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L20) (line 20)
+- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L106) (line 106)
 - [newspapers-com/ia-il-second-source.md](newspapers-com/ia-il-second-source.md#L123) (line 123)
 - [genealogybank/gb-list1.md](genealogybank/gb-list1.md#L31) (line 31)
 - [ancestry/list12-dates.md](ancestry/list12-dates.md#L6) (line 6)
@@ -2976,7 +2976,7 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L253) (line 253)
 
 Notes:
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L397) (line 397)
-- [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L55) (line 55)
+- [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L48) (line 48)
 - [ancestry/list25.md](ancestry/list25.md#L118) (line 118)
 - [plats/van-arsdale-alamo.md](plats/van-arsdale-alamo.md#L1) (line 1)
 - [plats/INDEX.md](plats/INDEX.md#L55) (line 55)
@@ -3217,7 +3217,7 @@ Notes:
 - [ancestry/list16.md](ancestry/list16.md#L38) (line 38)
 - [clippings/README.md](clippings/README.md#L3) (line 3)
 
-Also mentions the place: [newspapers-com/county-coverage-wi-mi-chronam.tsv](newspapers-com/county-coverage-wi-mi-chronam.tsv#L24) (line 24); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L118) (line 118); [newspapers-com/county-coverage.tsv](newspapers-com/county-coverage.tsv#L23) (line 23)
+Also mentions the place: [newspapers-com/county-coverage-wi-mi-chronam.tsv](newspapers-com/county-coverage-wi-mi-chronam.tsv#L24) (line 24); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L71) (line 71); [newspapers-com/county-coverage.tsv](newspapers-com/county-coverage.tsv#L23) (line 23)
 
 ### Rechenberg's jar of mildewed bills, Dodd Road farm, Mendota Heights (found 1924)
 `tw-mn-west-st-paul-rechenberg-jar-1924` · grade F · Dakota Co., MN

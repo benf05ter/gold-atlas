@@ -28,3 +28,17 @@
   - That is about 3 mi SW of Palmyra village (secs 22-23), as the card says.
 - **BLM:** sec 30 T5N R16E = 42.8570-42.8716 N, -88.6598/-88.6398; sec 31 = 42.8425-42.8571 N.
 - **Pin: sec 30/31 line, W-central, about 42.857, -88.652, r250, B-** (Blackmore 10 acres between the Peterson 40 and the Cliff Thayer 87).
+
+## 10. MOUNT farm / BULBONA GROVE, Wyanet (Bureau Co IL): Mount tracts found; no Bulbona label
+- **Ancestry 1127, Bureau 1875, viewer p.39 of 125 (image 31617_072104-00722), "Wyanet" Twp T16N R8E.** (In this set the plate pages from about p.39 onward have viewer = printed page.)
+- **"J. W. Mount 40"** is in the **NE part of sec 29** (with J. Crawford, A. Garrott, W. Stinson, P. Young, J. O'Connell), and **"Wm. Mount 80"** is a strip on the **W edge of sec 28** (by W. Walter, G. Plested, E. Golding).
+  - Both are about 1.5 mi S/SW of Wyanet village (secs 20-21, the junction of the C.R.I.&P. and Burlington lines; Pond Creek P.O.).
+- **No "Bulbona Grove" label** on the plate. Timber/grove stippling follows the creek E of the village (secs 9-15, 22-27), but nothing is named. The "Bureau County Farm" (poor farm) is in sec 24.
+- **BLM:** sec 29 T16N R8E = 41.3363-41.3510 N, -89.6068/-89.5870; sec 28 = 41.3361-41.3510 N, -89.5872/-89.5675.
+- **Pin (Mount farm): sec 28/29 line, N part, about 41.348, -89.588, r300, C.**
+
+## 9. Madison 1901: mislabelled
+- The Ancestry 1127 "Madison, 1901" (IA) set is actually **Marshall Co** (Bangor, Minerva, Vancleve, Dillon). Stout/Maulsby were not plotted; only Madison 1875 remains (too early). Not done.
+
+## 8. Lee Co IL: no atlas in 1127. Knoll not plotted.
+## 12. Hardin: 1127 has only 1875 (no 1892). Not done (low).
