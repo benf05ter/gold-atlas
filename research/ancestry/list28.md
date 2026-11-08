@@ -32,3 +32,26 @@
 - **Ancestry 4654 (pension index):** "Trommler" gives 0; "Trombler" returns only Trombley/Tromblee cards (MI, NH, etc.); "William Trom*" gives no Trombler.
 - **Ancestry 8667 (1890 Veterans Schedule):** no Trombler in Otter Tail Co; the nearest are Trombly/Tromblee in WI, MA and MI.
 - **Not found.** The "one-armed pensioner / G.A.R. pallbearers" (Ugeblad 1903) suggests he served under a variant spelling (e.g. Trummler, Tromler, Drommler) or a non-US unit. The Mount Faith Cemetery (Fergus Falls) burial record or the G.A.R. post roll would give the unit. Card stays D.
+
+## 6. J. Johnston, Wethersfield Twp (Henry Co IL): PLACED (1911)
+- Ancestry 1127 has Henry 1875 and 1911 (no 1892). **1911, p.6 of 139 (image 31617_072109-00008, atlas p.43): "Wethersfield Township", T14N R5E (4th P.M.).** Read at 2x.
+- **"James Johnston 160" in the E half of sec 21, the S part = about the SE quarter.**
+  - Neighbours: W. T. Pierce (sec 21 NE), A. G. Townsend 280 and Frank Hachtel (sec 21 W), Elizabeth Whiting (sec 22 W edge), Jos. N. Gamble (sec 22), Wm. T. Nicholson and James Robb Est. (sec 28 N).
+- **No D. C. Harraden on the 1911 plate** (the neighbour named in the story may be from the 1890s; 1875 not checked).
+- **BLM sec 21 T14N R5E = 41.1783-41.1929 N, -89.9452 to -89.9258 W.** The section centre is about 4.1 mi S of central Kewanee, matching "about 4 mi S of Kewanee".
+- **Pin: SE quarter of sec 21, about 41.182, -89.931, r300, B** (J(ames) Johnston 160, 1911). If the story's J. Johnston is a different, earlier man, the 1875 plate would settle it.
+
+## 7. Ferdinand Tatge, Northfield Twp (Cook Co IL): census only
+- **1920 (6061): Ferdinand Tatge, 54 (b. about 1866), head, single, living alone; farmer, general farm, own account; farm owned free; parents b. Germany. Northfield Twp, Cook Co, ED 137.**
+- **1910 (7884): the same man, Northfield, ED 1543, sheet 3A; single head; home owned, mortgaged.**
+  - A single, older German farmer on his own debt-free farm fits a 1924 "hidden savings" story.
+- **Plats:** the Ancestry 1127 Cook sets are Chicago city real-estate atlases (1908, 1909, 1913 Real Estate Map Pub. Co.) or Rascher 1887/1890 and Central Map 1891. The 1891 one opens on suburban village blocks; I didn't find a Northfield Twp farm plate in the pages sampled. **No 1920s Cook Co farm plat in 1127.**
+- **Not placed beyond the township.** Next: the 1920 ED 137 image (neighbours along the road), or a 1920s Cook Co plat (Hixson/Ogle "Northfield") elsewhere.
+
+## 14. Bogus Island owners (Leoni Twp, Jackson Co MI): partial
+- No 1894 Jackson atlas is in 1127 or on archive.org; only 1874 and 1911 exist. The 1911 Leoni plate was already read (list26 #24: S. E. Chappell 214/60 at the village; no King or Bates).
+- **1874 Everts atlas (Ancestry 1127 "Jackson, 1874", 142 pages; also archive.org 3927884.0001.001.umich.edu).** The TOC gives Leoni = printed pp.76-77.
+  - **Viewer p.78 (image 31617_072121-00417)** is the "Map of Leoni Township, Range One East" sheet. At 2x it shows the **S tier (secs 25-30)**: Wm. H. Youngs, Wm. Thompson, H. J. Palmer (sec 28 by a lake), E. & S. Welch, Almon Cain (sec 26), Joel ..., Holloway and others.
+  - The village and the marsh W of it (secs 34-35) lie on the other half of the spread or the next tier and were **not read** in this pass.
+  - The 1874 OCR index has no "Chappell", no "Bogus" and no King near Leoni; there is one "Bates, L. P." in a county patrons list (place not tied).
+- **Status: not finished.** Next time: viewer p.77 (left half of the spread) for secs 31-36 around Leoni village; look for King / Bates / Chappell beside the marsh at about 42.262,-84.295.

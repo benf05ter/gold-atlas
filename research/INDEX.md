@@ -150,9 +150,9 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L362) (line 362)
 Notes:
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L779) (line 779)
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L128) (line 128)
-- [newspapers-com/ia-il-sweep.md](newspapers-com/ia-il-sweep.md#L35) (line 35)
+- [newspapers-com/ia-il-sweep.md](newspapers-com/ia-il-sweep.md#L42) (line 42)
 - [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L22) (line 22)
-- [ancestry/list12-dates.md](ancestry/list12-dates.md#L32) (line 32)
+- [ancestry/list12-dates.md](ancestry/list12-dates.md#L35) (line 35)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L52) (line 52)
 - [plats/hession-humboldt.md](plats/hession-humboldt.md#L1) (line 1)
 
@@ -415,6 +415,8 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L332) (line 332)
 
 Notes:
 - [ancestry/illinois-names-batch.md](ancestry/illinois-names-batch.md#L8) (line 8)
+- [ancestry/list28.md](ancestry/list28.md#L44) (line 44)
+- [ancestry/INDEX.md](ancestry/INDEX.md#L69) (line 69)
 
 ### Fisherman Andrew Mattson's $8,000 on the lake shore, South Chicago
 `tw-il-south-chicago-mattson-1905` · grade C · Cook Co., IL
@@ -782,7 +784,7 @@ Notes:
 `tw-mi-galien-swem-pot-of-gold-1896` · grade C · Berrien Co., MI
 
 Notes:
-- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L668) (line 668)
+- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L666) (line 666)
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L148) (line 148)
 - [ancestry/list9-probate-census.md](ancestry/list9-probate-census.md#L11) (line 11)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L49) (line 49)
@@ -1128,8 +1130,10 @@ Also mentions the place: [leads.tsv](leads.tsv#L6) (line 6); [ancestry/list9-pro
 
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L339) (line 339)
 
+Notes:
+- [ancestry/list28.md](ancestry/list28.md#L41) (line 41)
 
-Also mentions the place: [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L178) (line 178); [ancestry/illinois-names-batch.md](ancestry/illinois-names-batch.md#L13) (line 13); [ancestry/heckes-byron-waseca.md](ancestry/heckes-byron-waseca.md#L17) (line 17); [county-depth/se-wi-histories/washington-ozaukee-1880s.md](county-depth/se-wi-histories/washington-ozaukee-1880s.md#L194) (line 194)
+Also mentions the place: [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L178) (line 178); [ancestry/illinois-names-batch.md](ancestry/illinois-names-batch.md#L13) (line 13); [ancestry/heckes-byron-waseca.md](ancestry/heckes-byron-waseca.md#L17) (line 17); [ancestry/INDEX.md](ancestry/INDEX.md#L69) (line 69); [county-depth/se-wi-histories/washington-ozaukee-1880s.md](county-depth/se-wi-histories/washington-ozaukee-1880s.md#L194) (line 194)
 
 ### Bank-robbery tin box in the Franklin House cellar, North Lansing
 `tw-mi-north-lansing-franklin-house-1896` · grade D · Ingham Co., MI
@@ -1490,9 +1494,9 @@ Also mentions the place: [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L10
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L231) (line 231)
 
 Notes:
-- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L187) (line 187)
+- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L28) (line 28)
 - [newspapers-com/placement-gaps-list.md](newspapers-com/placement-gaps-list.md#L39) (line 39)
-- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L106) (line 106)
+- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L20) (line 20)
 - [newspapers-com/ia-il-second-source.md](newspapers-com/ia-il-second-source.md#L123) (line 123)
 - [genealogybank/gb-list1.md](genealogybank/gb-list1.md#L31) (line 31)
 - [ancestry/list12-dates.md](ancestry/list12-dates.md#L6) (line 6)
@@ -2787,6 +2791,7 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L252) (line 252)
 
 Notes:
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L381) (line 381)
+- [ancestry/list28.md](ancestry/list28.md#L51) (line 51)
 - [ancestry/list26.md](ancestry/list26.md#L112) (line 112)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L67) (line 67)
 - `/mnt/project-files/research/treasure-statewide/leads-mi.tsv` line 20 (shared folder only)
@@ -3145,7 +3150,7 @@ Notes:
 - [ancestry/list16.md](ancestry/list16.md#L38) (line 38)
 - [clippings/README.md](clippings/README.md#L3) (line 3)
 
-Also mentions the place: [newspapers-com/county-coverage-wi-mi-chronam.tsv](newspapers-com/county-coverage-wi-mi-chronam.tsv#L24) (line 24); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L71) (line 71); [newspapers-com/county-coverage.tsv](newspapers-com/county-coverage.tsv#L23) (line 23)
+Also mentions the place: [newspapers-com/county-coverage-wi-mi-chronam.tsv](newspapers-com/county-coverage-wi-mi-chronam.tsv#L24) (line 24); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L118) (line 118); [newspapers-com/county-coverage.tsv](newspapers-com/county-coverage.tsv#L23) (line 23)
 
 ### Rechenberg's jar of mildewed bills, Dodd Road farm, Mendota Heights (found 1924)
 `tw-mn-west-st-paul-rechenberg-jar-1924` · grade F · Dakota Co., MN
@@ -3287,7 +3292,7 @@ Notes:
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L92) (line 92)
 - [ancestry/list10-probate-census.md](ancestry/list10-probate-census.md#L9) (line 9)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L21) (line 21)
-- [ancestry/iowa-batch-ogle-iwers-webster.md](ancestry/iowa-batch-ogle-iwers-webster.md#L37) (line 37)
+- [ancestry/iowa-batch-ogle-iwers-webster.md](ancestry/iowa-batch-ogle-iwers-webster.md#L15) (line 15)
 - [plats/placement-gaps-pass-b.md](plats/placement-gaps-pass-b.md#L11) (line 11)
 - `/mnt/project-files/research/treasure-statewide/deep-dives/iail-dickson-iwers-harmon.md` line 11 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/deep-dives/pc-job-2.md` line 11 (shared folder only)
