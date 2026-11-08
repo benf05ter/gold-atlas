@@ -88,3 +88,4 @@ Kept: untiled scans (plat-barron/scans-c1918, plat-dunn/scans-1915, plat-mn-mi c
 | 2026-11-08 14:55 | /mnt/project-files/research-notes-2026-11-01e.zip | 118,180 B | old PC research zip (md5 f941b30b…); every file byte-identical to a blob on gold-atlas main (checked 2026-11-08) | Neb rule 04:06Z |
 | 2026-11-08 14:55 | /mnt/project-files/research-notes-2026-11-01f.zip | 32,451 B | old PC research zip (md5 0441bf57…); every file byte-identical to a blob on gold-atlas main (checked 2026-11-08) | Neb rule 04:06Z |
 | 2026-11-08 14:55 | /mnt/project-files/research-notes-2026-11-01g.zip | 14,530 B | old PC research zip (md5 955df1ed…); every file byte-identical to a blob on gold-atlas main (checked 2026-11-08) | Neb rule 04:06Z |
+| 2026-11-08 15:00 | /mnt/project-files/research-zip-be.zip | 3,744 B | PC (b) list 28 cumulative (md5 c145d7d3…), committed verbatim to gold-atlas main research/ (commit d98d0c40) | Neb rule 04:06Z |
