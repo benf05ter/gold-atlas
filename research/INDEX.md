@@ -1376,7 +1376,7 @@ Notes:
 - `/mnt/project-files/research/treasure-statewide/pc-newspapers-second-sources.md` line 30 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/persons.tsv` line 100 (shared folder only)
 
-Also mentions the place: [ancestry/list28.md](ancestry/list28.md#L12) (line 12); [ancestry/list31.md](ancestry/list31.md#L12) (line 12); [ancestry/list26.md](ancestry/list26.md#L105) (line 105); [ancestry/list29.md](ancestry/list29.md#L74) (line 74)
+Also mentions the place: [ancestry/list28.md](ancestry/list28.md#L12) (line 12); [ancestry/list31.md](ancestry/list31.md#L59) (line 59); [ancestry/list26.md](ancestry/list26.md#L105) (line 105); [ancestry/list29.md](ancestry/list29.md#L74) (line 74)
 
 ### Gold from a Chicago bank in the 1871 fire, North Manitou Island
 `tw-mi-north-manitou-chicago-fire-gold` · grade D · Leelanau Co., MI
@@ -1518,9 +1518,9 @@ Also mentions the place: [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L10
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L231) (line 231)
 
 Notes:
-- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L28) (line 28)
+- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L187) (line 187)
 - [newspapers-com/placement-gaps-list.md](newspapers-com/placement-gaps-list.md#L39) (line 39)
-- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L20) (line 20)
+- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L106) (line 106)
 - [newspapers-com/ia-il-second-source.md](newspapers-com/ia-il-second-source.md#L123) (line 123)
 - [genealogybank/gb-list1.md](genealogybank/gb-list1.md#L31) (line 31)
 - [ancestry/list12-dates.md](ancestry/list12-dates.md#L6) (line 6)
@@ -1872,7 +1872,7 @@ Notes:
 - `/mnt/project-files/research/treasure-statewide/pc-a-asks-batch3-2026-11-01.md` line 16 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/persons.tsv` line 20 (shared folder only)
 
-Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L955) (line 955); [genealogybank/gaps.md](genealogybank/gaps.md#L11) (line 11)
+Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L955) (line 955); [genealogybank/gaps.md](genealogybank/gaps.md#L11) (line 11); [ancestry/list31.md](ancestry/list31.md#L60) (line 60); [ancestry/INDEX.md](ancestry/INDEX.md#L71) (line 71)
 
 ### Outlaw dugout with a hidden back room, ravine in Lake Prairie Twp (1890)
 `tw-mn-fay-ravine-dugout-1890` · grade D · Nicollet Co., MN
@@ -3353,7 +3353,7 @@ Notes:
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L92) (line 92)
 - [ancestry/list10-probate-census.md](ancestry/list10-probate-census.md#L9) (line 9)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L21) (line 21)
-- [ancestry/iowa-batch-ogle-iwers-webster.md](ancestry/iowa-batch-ogle-iwers-webster.md#L15) (line 15)
+- [ancestry/iowa-batch-ogle-iwers-webster.md](ancestry/iowa-batch-ogle-iwers-webster.md#L37) (line 37)
 - [plats/placement-gaps-pass-b.md](plats/placement-gaps-pass-b.md#L11) (line 11)
 - `/mnt/project-files/research/treasure-statewide/deep-dives/iail-dickson-iwers-harmon.md` line 11 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/deep-dives/pc-job-2.md` line 11 (shared folder only)

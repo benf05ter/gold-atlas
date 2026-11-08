@@ -44,3 +44,20 @@
 - The York Twp plate itself was not located (the viewer sequence is irregular; pp.64-68 are a Wheaton plat, views and a fragment). **Not answered.** Next: page through viewer 57-63 for the York Twp plate, secs 1-2/35-36 along Salt Creek.
 
 ## Lidar #1-3: still not retried (3DEP was down at 16:05Z).
+
+## 5. GRUNDY CO POOR FARM: DONE (1911)
+- **Ancestry 1127, Grundy 1911, Palermo Twp T87N R17W, viewer p.15 (image 31617_072143-00059).** Grundy Center village is in secs 1/12 (NE corner).
+- **"GRUNDY COUNTY HOME FARM"** (with a building mark) is printed in the **N part of sec 22**, between Martin L. Johnson (sec 21) and Lucius Clark (sec 22 S). It lies about 2 mi SW of Grundy Center.
+- **BLM sec 22 T87N R17W = 42.3253-42.3400 N, -92.8268 to -92.8072 W.**
+- **Pin: county home farm, N half of sec 22, about 42.336, -92.817, r300, B.**
+- Colfax and Washington were not needed.
+
+## 6. KAMMEYER: parked as partial (coordinator call).
+
+## 7 / 8 / 9. HathiTrust: no usable atlas
+- HathiTrust catalog searches:
+  - **Le Sueur Co MN atlas:** no record (no 1912 Ogle). #7 Millet stays unplaced.
+  - **Emmet Co MI:** "Plat book of Emmet County" (P. A. & J. W. Myers, 1902, full view). This is the same 1902 atlas already read (plats/wegemer-bear-river-petoskey.md: no Wegemer). The Rockford "Land atlas & plat book" is a multi-volume modern series (record dated 1900 but post-1950 issues). There is no 1910s Emmet plat, so #9 Wegemer stays unplaced.
+  - **Bureau Co IL:** only Warner & Beers 1875 (same as Ancestry 1127). No 1905/1920s atlas, so #8 Hudson was not run.
+
+## 1-3. Lidar retry (16:20Z): 3DEP still 504. Not done.
