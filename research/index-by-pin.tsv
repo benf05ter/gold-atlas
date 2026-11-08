@@ -96,6 +96,7 @@ tw-horrigan-boscobel-1930	B	Horrigan brothers' farm money, Horrigan Ridge near M
 tw-horrigan-boscobel-1930	B	Horrigan brothers' farm money, Horrigan Ridge near Mt. Zion	Crawford	WI		research/newspapers-com/county-coverage.tsv	59	co:horrigan
 tw-horrigan-boscobel-1930	B	Horrigan brothers' farm money, Horrigan Ridge near Mt. Zion	Crawford	WI		research/ancestry/list12-dates.md	77	two:boscobel
 tw-horrigan-boscobel-1930	B	Horrigan brothers' farm money, Horrigan Ridge near Mt. Zion	Crawford	WI		research/ancestry/list10-probate-census.md	17	co:horrigan
+tw-horrigan-boscobel-1930	B	Horrigan brothers' farm money, Horrigan Ridge near Mt. Zion	Crawford	WI		research/ancestry/list33.md	9	co:horrigan
 tw-horrigan-boscobel-1930	B	Horrigan brothers' farm money, Horrigan Ridge near Mt. Zion	Crawford	WI		research/ancestry/list15.md	13	co:horrigan
 tw-horrigan-boscobel-1930	B	Horrigan brothers' farm money, Horrigan Ridge near Mt. Zion	Crawford	WI		research/ancestry/INDEX.md	50	co:horrigan
 tw-horrigan-boscobel-1930	B	Horrigan brothers' farm money, Horrigan Ridge near Mt. Zion	Crawford	WI		research/plats/placement-gaps-pass.md	34	two:zion
@@ -236,6 +237,7 @@ tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron
 tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron	WI	dig-vajvoda-rice-lake-1925	research/ancestry/list17.md	39	two:vejvoda
 tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron	WI	dig-vajvoda-rice-lake-1925	research/ancestry/list22.md	40	co:vejvoda
 tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron	WI	dig-vajvoda-rice-lake-1925	research/ancestry/list20.md	16	co:vejvoda
+tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron	WI	dig-vajvoda-rice-lake-1925	research/ancestry/list33.md	8	co:vejvoda
 tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron	WI	dig-vajvoda-rice-lake-1925	research/ancestry/INDEX.md	16	co:vejvoda
 tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron	WI	dig-vajvoda-rice-lake-1925	research/plats/vejvoda-barron.md	1	file:vejvoda
 tw-vajvoda-rice-lake-1925	B	Vejvoda's buried silver, farm NE of Rice Lake	Barron	WI	dig-vajvoda-rice-lake-1925	research/plats/INDEX.md	27	co:vejvoda
@@ -268,6 +270,7 @@ tw-mn-grand-rapids-camden-bank-loot-1934	C	Camden Park bank-loot roll ($9,000) h
 tw-mn-grand-rapids-camden-bank-loot-1934	C	Camden Park bank-loot roll ($9,000) hidden under snow on an 80, east of Grand Rapids	Itasca	MN		research/newspapers-com/leads.tsv	20	co:grand
 tw-mn-grand-rapids-camden-bank-loot-1934	C	Camden Park bank-loot roll ($9,000) hidden under snow on an 80, east of Grand Rapids	Itasca	MN		research/newspapers-com/ia-il-second-source.md	124	two:camden
 tw-mn-grand-rapids-camden-bank-loot-1934	C	Camden Park bank-loot roll ($9,000) hidden under snow on an 80, east of Grand Rapids	Itasca	MN		research/newspapers-com/sweep-2-misers-loot.md	157	two:camden
+tw-mn-grand-rapids-camden-bank-loot-1934	C	Camden Park bank-loot roll ($9,000) hidden under snow on an 80, east of Grand Rapids	Itasca	MN		research/ancestry/list33.md	49	two:camden
 tw-mn-grand-rapids-camden-bank-loot-1934	C	Camden Park bank-loot roll ($9,000) hidden under snow on an 80, east of Grand Rapids	Itasca	MN		research/ancestry/INDEX.md	70	two:camden
 tw-mn-grand-rapids-camden-bank-loot-1934	C	Camden Park bank-loot roll ($9,000) hidden under snow on an 80, east of Grand Rapids	Itasca	MN		research/ancestry/list29.md	76	co:camden
 tw-mn-grand-rapids-camden-bank-loot-1934	C	Camden Park bank-loot roll ($9,000) hidden under snow on an 80, east of Grand Rapids	Itasca	MN		research/plats/placement-gaps-pass.md	61	co:grand
@@ -323,6 +326,7 @@ tw-ia-north-mcgregor-taylor-gold	C	Fort Crawford soldiers' buried gold, McGregor
 tw-ia-north-mcgregor-taylor-gold	C	Fort Crawford soldiers' buried gold, McGregor Heights and the bluffs at McGregor	Clayton	IA		research/jstor/jstor-list1.md	14	two:mcgregor
 tw-ia-north-mcgregor-taylor-gold	C	Fort Crawford soldiers' buried gold, McGregor Heights and the bluffs at McGregor	Clayton	IA		research/ancestry/list12-dates.md	76	co:crawford
 tw-ia-north-mcgregor-taylor-gold	C	Fort Crawford soldiers' buried gold, McGregor Heights and the bluffs at McGregor	Clayton	IA		research/ancestry/list18.md	14	co:mcgregor
+tw-ia-north-mcgregor-taylor-gold	C	Fort Crawford soldiers' buried gold, McGregor Heights and the bluffs at McGregor	Clayton	IA		research/ancestry/list33.md	9	co:crawford
 tw-ia-north-mcgregor-taylor-gold	C	Fort Crawford soldiers' buried gold, McGregor Heights and the bluffs at McGregor	Clayton	IA		research/ancestry/list15.md	10	two:mcgregor
 tw-ia-north-mcgregor-taylor-gold	C	Fort Crawford soldiers' buried gold, McGregor Heights and the bluffs at McGregor	Clayton	IA		research/plats/horrigan-crawford.md	1	file:crawford
 tw-ia-north-mcgregor-taylor-gold	C	Fort Crawford soldiers' buried gold, McGregor Heights and the bluffs at McGregor	Clayton	IA		research/plats/INDEX.md	54	two:mcgregor
@@ -348,7 +352,7 @@ tw-mi-eden-twp-noyes-gold-1935	C	Fred Noyes' buried gold, his former farm in Ede
 tw-mi-eden-twp-noyes-gold-1935	C	Fred Noyes' buried gold, his former farm in Eden Township near Scottville	Mason	MI	dig-mi-eden-twp-noyes-gold-1935	project-files/research/treasure-statewide/pc-a-asks-batch3-2026-11-01.md	3	co:noyes
 tw-mi-eden-twp-noyes-gold-1935	C	Fred Noyes' buried gold, his former farm in Eden Township near Scottville	Mason	MI	dig-mi-eden-twp-noyes-gold-1935	project-files/research/treasure-statewide/pc-newspapers-second-sources.md	13	id
 tw-mi-eden-twp-noyes-gold-1935	C	Fred Noyes' buried gold, his former farm in Eden Township near Scottville	Mason	MI	dig-mi-eden-twp-noyes-gold-1935	project-files/research/treasure-statewide/persons.tsv	48	id
-tw-il-crow-creek-reeves-claim	C	George Reeves' claim on Crow Creek, where the old lady came back for "hidden treasure"	Marshall	IL		research/ancestry/list32.md	53	two:reeves
+tw-il-crow-creek-reeves-claim	C	George Reeves' claim on Crow Creek, where the old lady came back for "hidden treasure"	Marshall	IL		research/ancestry/list32.md	53	two:crow
 tw-il-crow-creek-reeves-claim	C	George Reeves' claim on Crow Creek, where the old lady came back for "hidden treasure"	Marshall	IL		research/ancestry/INDEX.md	73	co:reeves
 tw-il-crow-creek-reeves-claim	C	George Reeves' claim on Crow Creek, where the old lady came back for "hidden treasure"	Marshall	IL		project-files/research/treasure-statewide/pc-mnhs-hub-list.md	7	co:crow
 tw-mi-bronson-ruggles-block-pipes	C	Gold in the pipes: J. F. Ruggles's hidden $20 pieces, Ruggles Block, Bronson	Branch	MI		research/newspapers-com/pc-a-asks-results.md	740	co:bronson
@@ -573,13 +577,13 @@ tw-mi-emmett-mcardill-dry-well-1874	C	Pedlar McArdill's robbery gold, dry well i
 tw-mi-emmett-mcardill-dry-well-1874	C	Pedlar McArdill's robbery gold, dry well in the Newbre neighbourhood, Emmett Twp (c.1849 robbery; 1874 dig)	Calhoun	MI		research/ancestry/list19.md	54	two:newbre
 tw-mi-emmett-mcardill-dry-well-1874	C	Pedlar McArdill's robbery gold, dry well in the Newbre neighbourhood, Emmett Twp (c.1849 robbery; 1874 dig)	Calhoun	MI		research/ancestry/INDEX.md	64	two:emmett
 tw-mi-emmett-mcardill-dry-well-1874	C	Pedlar McArdill's robbery gold, dry well in the Newbre neighbourhood, Emmett Twp (c.1849 robbery; 1874 dig)	Calhoun	MI		research/ancestry/list23.md	72	two:newbre
-tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/newspapers-com/pc-a-asks-results.md	668	two:swem
-tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/newspapers-com/leads.tsv	148	two:swem
+tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/newspapers-com/pc-a-asks-results.md	666	two:galien
+tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/newspapers-com/leads.tsv	148	two:galien
 tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/ancestry/list26.md	161	co:galien
-tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/ancestry/list9-probate-census.md	11	two:swem
+tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/ancestry/list9-probate-census.md	11	two:galien
 tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/ancestry/land-ownership-maps-list8.md	33	co:swem
-tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/ancestry/INDEX.md	49	two:swem
-tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/plats/sunday-plates-2026-11-02.md	29	two:swem
+tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/ancestry/INDEX.md	49	two:galien
+tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/plats/sunday-plates-2026-11-02.md	29	two:galien
 tw-il-dekalb-yocum-jar-1939	C	Ray Yocum's lost fruit jar of $2,300, Yocum yard, East Lincoln Highway, DeKalb	DeKalb	IL		research/ancestry/illinois-names-batch.md	15	co:yocum
 tw-il-dekalb-yocum-jar-1939	C	Ray Yocum's lost fruit jar of $2,300, Yocum yard, East Lincoln Highway, DeKalb	DeKalb	IL		research/ancestry/list28.md	105	two:yocum
 tw-il-dekalb-yocum-jar-1939	C	Ray Yocum's lost fruit jar of $2,300, Yocum yard, East Lincoln Highway, DeKalb	DeKalb	IL		research/ancestry/list25.md	161	two:yocum
@@ -742,7 +746,8 @@ tw-ia-new-albin-black-hawk-gold	D	"Black Hawk gold": fleeing Indian's sack, Chri
 tw-ia-new-albin-black-hawk-gold	D	"Black Hawk gold": fleeing Indian's sack, Christopher Meyer farm west of New Albin	Allamakee	IA		research/jstor/jstor-list1.md	15	two:albin
 tw-ia-new-albin-black-hawk-gold	D	"Black Hawk gold": fleeing Indian's sack, Christopher Meyer farm west of New Albin	Allamakee	IA		research/ancestry/iowa-batch-2.md	5	two:christopher
 tw-ia-new-albin-black-hawk-gold	D	"Black Hawk gold": fleeing Indian's sack, Christopher Meyer farm west of New Albin	Allamakee	IA		research/ancestry/list25.md	16	two:hawk
-tw-ia-new-albin-black-hawk-gold	D	"Black Hawk gold": fleeing Indian's sack, Christopher Meyer farm west of New Albin	Allamakee	IA		research/ancestry/INDEX.md	66	two:hawk
+tw-ia-new-albin-black-hawk-gold	D	"Black Hawk gold": fleeing Indian's sack, Christopher Meyer farm west of New Albin	Allamakee	IA		research/ancestry/list33.md	32	two:christopher
+tw-ia-new-albin-black-hawk-gold	D	"Black Hawk gold": fleeing Indian's sack, Christopher Meyer farm west of New Albin	Allamakee	IA		research/ancestry/INDEX.md	74	two:albin
 tw-ia-new-albin-black-hawk-gold	D	"Black Hawk gold": fleeing Indian's sack, Christopher Meyer farm west of New Albin	Allamakee	IA		research/plats/sunday-plates-2026-11-02.md	13	two:hawk
 tw-ia-new-albin-black-hawk-gold	D	"Black Hawk gold": fleeing Indian's sack, Christopher Meyer farm west of New Albin	Allamakee	IA		research/books/laird-1927-iowa-legends.md	71	two:albin
 tw-ia-new-albin-black-hawk-gold	D	"Black Hawk gold": fleeing Indian's sack, Christopher Meyer farm west of New Albin	Allamakee	IA		research/sunday/sunday-list-2026-11-02.md	11	co:hawk
@@ -1056,6 +1061,8 @@ tw-mn-aitkin-dick-mills-trader-money	D	Indian trader "Uncle Dick" Mills' rumored
 tw-mn-aitkin-dick-mills-trader-money	D	Indian trader "Uncle Dick" Mills' rumored buried money, first Mills & Potter store on the Mud (Ripple) River, Aitkin	Aitkin	MN		project-files/research/treasure-statewide/leads-mn.tsv	2	id
 tw-mn-aitkin-dick-mills-trader-money	D	Indian trader "Uncle Dick" Mills' rumored buried money, first Mills & Potter store on the Mud (Ripple) River, Aitkin	Aitkin	MN		project-files/research/treasure-statewide/persons.tsv	72	id
 tw-il-hennepin-feeder-spanish-chest-1901	D	Iron chest of Spanish coins dug from the Hennepin Canal, 20 mi south of Sterling	Bureau	IL		research/newspapers-com/leads.tsv	90	co:sterling
+tw-il-hennepin-feeder-spanish-chest-1901	D	Iron chest of Spanish coins dug from the Hennepin Canal, 20 mi south of Sterling	Bureau	IL		research/ancestry/list33.md	24	two:sterling
+tw-il-hennepin-feeder-spanish-chest-1901	D	Iron chest of Spanish coins dug from the Hennepin Canal, 20 mi south of Sterling	Bureau	IL		research/ancestry/INDEX.md	74	co:hennepin
 tw-wi-okauchee-house-mcconnell-gold	D	Israel McConnell's buried gold, Okauchee House stage inn	Waukesha	WI		research/ancestry/list20.md	6	two:mcconnell
 tw-wi-okauchee-house-mcconnell-gold	D	Israel McConnell's buried gold, Okauchee House stage inn	Waukesha	WI		research/ancestry/list18.md	45	two:mcconnell
 tw-wi-okauchee-house-mcconnell-gold	D	Israel McConnell's buried gold, Okauchee House stage inn	Waukesha	WI		research/ancestry/list21.md	3	two:mcconnell
@@ -1253,6 +1260,7 @@ tw-mi-escanaba-koster-1900s	D	Old recluse's fortune, house burned at Garden	Delt
 tw-mi-escanaba-koster-1900s	D	Old recluse's fortune, house burned at Garden	Delta	MI		research/newspapers-com/treasure-list-t13-t21.md	170	two:koster
 tw-mi-escanaba-koster-1900s	D	Old recluse's fortune, house burned at Garden	Delta	MI		research/newspapers-com/sweep-2-misers-loot.md	79	co:escanaba
 tw-mi-escanaba-koster-1900s	D	Old recluse's fortune, house burned at Garden	Delta	MI		research/ancestry/list32.md	8	co:koster
+tw-mi-escanaba-koster-1900s	D	Old recluse's fortune, house burned at Garden	Delta	MI		research/ancestry/list33.md	14	co:koster
 tw-mi-escanaba-koster-1900s	D	Old recluse's fortune, house burned at Garden	Delta	MI		research/ancestry/list19.md	98	two:koster
 tw-mi-escanaba-koster-1900s	D	Old recluse's fortune, house burned at Garden	Delta	MI		research/ancestry/INDEX.md	73	co:koster
 tw-mi-escanaba-koster-1900s	D	Old recluse's fortune, house burned at Garden	Delta	MI		research/ancestry/ole-johnson-koster-upper-mi.md	1	file:koster
@@ -1308,6 +1316,7 @@ tw-mi-poverty-island-bullion	D	Poverty Island bullion ship	Delta	MI		project-fil
 tw-wi-sheboygan-behr-iron-box-1930	D	Recluse's $4,500 iron box in the cellar, S. 22nd Street, Sheboygan	Sheboygan	WI		research/newspapers-com/pc-a-asks-results.md	15	co:behr
 tw-wi-sheboygan-behr-iron-box-1930	D	Recluse's $4,500 iron box in the cellar, S. 22nd Street, Sheboygan	Sheboygan	WI		research/newspapers-com/treasure-list-t13-t21.md	335	co:behr
 tw-wi-sheboygan-behr-iron-box-1930	D	Recluse's $4,500 iron box in the cellar, S. 22nd Street, Sheboygan	Sheboygan	WI		research/ancestry/behr-sheboygan.md	1	file:behr
+tw-wi-sheboygan-behr-iron-box-1930	D	Recluse's $4,500 iron box in the cellar, S. 22nd Street, Sheboygan	Sheboygan	WI		research/ancestry/list33.md	11	co:behr
 tw-wi-sheboygan-behr-iron-box-1930	D	Recluse's $4,500 iron box in the cellar, S. 22nd Street, Sheboygan	Sheboygan	WI		research/ancestry/land-ownership-maps-list8.md	42	co:behr
 tw-wi-sheboygan-behr-iron-box-1930	D	Recluse's $4,500 iron box in the cellar, S. 22nd Street, Sheboygan	Sheboygan	WI		research/ancestry/INDEX.md	42	co:behr
 tw-wi-sheboygan-behr-iron-box-1930	D	Recluse's $4,500 iron box in the cellar, S. 22nd Street, Sheboygan	Sheboygan	WI		research/ancestry/list29.md	27	co:behr
@@ -1446,6 +1455,7 @@ tw-strolfer-superior-1897	E	Adolph Strolfer, miser of Superior	Douglas	WI		resea
 tw-strolfer-superior-1897	E	Adolph Strolfer, miser of Superior	Douglas	WI		project-files/research/court-records/pin-records-check.tsv	2	co:superior
 tw-strolfer-superior-1897	E	Adolph Strolfer, miser of Superior	Douglas	WI		project-files/research/treasure-statewide/blackburn-card.md	5	co:superior
 tw-markee-amery-1936	E	Amil Markee's cache under the milk shed, Amery	Polk	WI		research/ancestry/markee-apple-river-polk.md	5	two:amery
+tw-markee-amery-1936	E	Amil Markee's cache under the milk shed, Amery	Polk	WI		research/ancestry/list33.md	7	two:amil
 tw-markee-amery-1936	E	Amil Markee's cache under the milk shed, Amery	Polk	WI		research/ancestry/INDEX.md	36	two:amil
 tw-markee-amery-1936	E	Amil Markee's cache under the milk shed, Amery	Polk	WI		project-files/research/court-records/pin-records-check.tsv	7	id
 it-armstrong-silver-bar	E	Armstrong's lost silver bar (Bayfield peninsula, c.1820s find)	Bayfield	WI		project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md	23	co:armstrong
@@ -1532,6 +1542,7 @@ tw-vollmer-hoard-1899	E	George Vollmer's money in the walls, Stillwater	Washingt
 tw-vollmer-hoard-1899	E	George Vollmer's money in the walls, Stillwater	Washington	MN		research/ancestry/list11-probate-census.md	13	two:vollmer
 tw-vollmer-hoard-1899	E	George Vollmer's money in the walls, Stillwater	Washington	MN		research/ancestry/list32.md	3	two:vollmer
 tw-vollmer-hoard-1899	E	George Vollmer's money in the walls, Stillwater	Washington	MN		research/ancestry/vollmer-stillwater.md	1	file:vollmer
+tw-vollmer-hoard-1899	E	George Vollmer's money in the walls, Stillwater	Washington	MN		research/ancestry/list33.md	16	two:vollmer
 tw-vollmer-hoard-1899	E	George Vollmer's money in the walls, Stillwater	Washington	MN		research/ancestry/INDEX.md	17	two:vollmer
 tw-vollmer-hoard-1899	E	George Vollmer's money in the walls, Stillwater	Washington	MN		project-files/research/court-records/pin-records-check.tsv	4	id
 tw-vollmer-hoard-1899	E	George Vollmer's money in the walls, Stillwater	Washington	MN		project-files/research/court-records/README.md	25	two:vollmer
@@ -1689,7 +1700,7 @@ tw-mn-waldorf-tweit-recluse-1927-medo	E	Tweit family farm, Medo Twp (alternate s
 tw-mn-waldorf-tweit-recluse-1927-medo	E	Tweit family farm, Medo Twp (alternate spot for Michael Tweit's money)	Blue Earth	MN		project-files/research/treasure-statewide/leads-mn.tsv	20	two:medo
 tw-mn-waldorf-tweit-recluse-1927-medo	E	Tweit family farm, Medo Twp (alternate spot for Michael Tweit's money)	Blue Earth	MN		project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md	8	two:waldorf
 tw-mn-waldorf-tweit-recluse-1927-medo	E	Tweit family farm, Medo Twp (alternate spot for Michael Tweit's money)	Blue Earth	MN		project-files/research/treasure-statewide/persons.tsv	122	two:waldorf
-coff-davock-minch	E	William B. Davock and Anna Minch (1940)	Oceana	MI		research/newspapers-com/pc-a-asks-results.md	658	two:minch
+coff-davock-minch	E	William B. Davock and Anna Minch (1940)	Oceana	MI		research/newspapers-com/pc-a-asks-results.md	658	two:davock
 t-tr-colvill	E	William Colvill’s Civil War gold	Cook	MN		research/negatives.tsv	40	id
 t-winona-gang	E	Winona Gang loot (Minnesota)	Winona (MN)	WI		research/negatives.tsv	23	id
 t-portage-riverboat-gold	E	Wisconsin River riverboat gold bars	Columbia	WI		research/leads.tsv	5	co:portage
@@ -1740,6 +1751,7 @@ tw-wi-portage-cass-st-miser-hoard-1903	F	A Portage miser's $5,450 dug up under t
 tw-wi-portage-cass-st-miser-hoard-1903	F	A Portage miser's $5,450 dug up under the kitchen, North Cass Street (1903)	Columbia	WI		project-files/research/treasure-statewide/leads-wi.tsv	11	co:portage
 tw-mi-pinckney-dillon-coins-1932	F	Ancient coins dug on Patrick Dillon's farm, Pinckney	Livingston	MI		research/newspapers-com/treasure-list-t13-t21.md	63	two:pinckney
 tw-mi-pinckney-dillon-coins-1932	F	Ancient coins dug on Patrick Dillon's farm, Pinckney	Livingston	MI		research/ancestry/list31.md	8	two:pinckney
+tw-mi-pinckney-dillon-coins-1932	F	Ancient coins dug on Patrick Dillon's farm, Pinckney	Livingston	MI		research/ancestry/list33.md	44	two:pinckney
 tw-mi-pinckney-dillon-coins-1932	F	Ancient coins dug on Patrick Dillon's farm, Pinckney	Livingston	MI		research/ancestry/INDEX.md	72	two:pinckney
 tw-mi-pinckney-dillon-coins-1932	F	Ancient coins dug on Patrick Dillon's farm, Pinckney	Livingston	MI		project-files/research/treasure-statewide/leads-mi.tsv	30	id
 tw-mi-pinckney-dillon-coins-1932	F	Ancient coins dug on Patrick Dillon's farm, Pinckney	Livingston	MI		project-files/research/treasure-statewide/persons.tsv	46	id
@@ -1836,13 +1848,13 @@ tw-wi-mineral-point-ravine-gold-1852	F	Gold lumps in a ravine in Mineral Point v
 tw-wi-mineral-point-ravine-gold-1852	F	Gold lumps in a ravine in Mineral Point village (1852)	Iowa	WI		research/newspapers-com/treasure-list-t13-t21.md	84	co:mineral
 tw-wi-mineral-point-ravine-gold-1852	F	Gold lumps in a ravine in Mineral Point village (1852)	Iowa	WI		research/ancestry/INDEX.md	67	co:mineral
 tw-wi-mineral-point-ravine-gold-1852	F	Gold lumps in a ravine in Mineral Point village (1852)	Iowa	WI		project-files/research/treasure-statewide/leads-wi.tsv	12	id
-tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		research/newspapers-com/pc-a-asks-results.md	397	two:alamo
-tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		research/newspapers-com/treasure-list-t13-t21.md	55	two:alamo
-tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		research/ancestry/list25.md	118	two:alamo
-tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		research/plats/van-arsdale-alamo.md	1	file:alamo
-tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		research/plats/INDEX.md	55	two:alamo
+tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		research/newspapers-com/pc-a-asks-results.md	397	two:arsdale
+tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		research/newspapers-com/treasure-list-t13-t21.md	48	two:arsdale
+tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		research/ancestry/list25.md	118	two:arsdale
+tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		research/plats/van-arsdale-alamo.md	1	file:arsdale
+tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		research/plats/INDEX.md	55	two:arsdale
 tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		project-files/research/treasure-statewide/leads-mi.tsv	23	id
-tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md	21	two:alamo
+tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md	21	two:arsdale
 tw-mi-kalamazoo-van-arsdale-1907	F	Hermit Frank Van Arsdale's 'gold', Alamo Twp	Kalamazoo	MI		project-files/research/treasure-statewide/persons.tsv	39	id
 tw-wi-blackhawk-jaeger-1923	F	Hermit Robert Jaeger's hidden wealth, Black Hawk (Sauk Co.)	Sauk	WI		research/negatives.tsv	239	id
 tw-wi-blackhawk-jaeger-1923	F	Hermit Robert Jaeger's hidden wealth, Black Hawk (Sauk Co.)	Sauk	WI		research/newspapers-com/second-sources-c-leads.md	22	id
@@ -1878,6 +1890,7 @@ tw-mn-grand-rapids-ahonen-jars-1939	F	Iver Ahonen's X-marked jars of gold, cabin
 tw-mn-grand-rapids-ahonen-jars-1939	F	Iver Ahonen's X-marked jars of gold, cabin and fields near Grand Rapids	Itasca	MN		research/newspapers-com/sweep-2-misers-loot.md	158	co:grand
 tw-mn-grand-rapids-ahonen-jars-1939	F	Iver Ahonen's X-marked jars of gold, cabin and fields near Grand Rapids	Itasca	MN		research/ancestry/list30.md	6	co:iver
 tw-mn-grand-rapids-ahonen-jars-1939	F	Iver Ahonen's X-marked jars of gold, cabin and fields near Grand Rapids	Itasca	MN		research/ancestry/list25.md	156	co:iver
+tw-mn-grand-rapids-ahonen-jars-1939	F	Iver Ahonen's X-marked jars of gold, cabin and fields near Grand Rapids	Itasca	MN		research/ancestry/list33.md	49	co:grand
 tw-mn-grand-rapids-ahonen-jars-1939	F	Iver Ahonen's X-marked jars of gold, cabin and fields near Grand Rapids	Itasca	MN		research/ancestry/INDEX.md	69	co:grand
 tw-mn-grand-rapids-ahonen-jars-1939	F	Iver Ahonen's X-marked jars of gold, cabin and fields near Grand Rapids	Itasca	MN		research/plats/placement-gaps-pass.md	61	co:grand
 tw-mn-grand-rapids-ahonen-jars-1939	F	Iver Ahonen's X-marked jars of gold, cabin and fields near Grand Rapids	Itasca	MN		research/plats/camden-park-itasca.md	5	co:grand
@@ -2012,12 +2025,12 @@ tw-bjornaa-grantsburg-1906	F	Ole Johnson Bjornaa's hidden money, Grantsburg	Burn
 tw-bjornaa-grantsburg-1906	F	Ole Johnson Bjornaa's hidden money, Grantsburg	Burnett	WI		project-files/research/court-records/negatives-court.tsv	1	co:johnson
 tw-bjornaa-grantsburg-1906	F	Ole Johnson Bjornaa's hidden money, Grantsburg	Burnett	WI		project-files/research/court-records/newspapers-com-asks.md	5	id
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/leads.tsv	2	two:conover
-tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/negatives.tsv	20	two:eagle
+tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/negatives.tsv	20	two:bennett
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/pc-a-asks-results.md	862	two:conover
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/list18.md	24	two:conover
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/leads.tsv	154	two:conover
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/county-coverage-wi-mi-chronam.tsv	24	co:eagle
-tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/sweep-2-misers-loot.md	71	co:eagle
+tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/sweep-2-misers-loot.md	118	co:bennett
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/county-coverage.tsv	23	co:eagle
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/ancestry/list17.md	87	two:conover
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/ancestry/list14.md	42	two:conover
@@ -2106,7 +2119,7 @@ tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homes
 tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		research/newspapers-com/ia-il-sweep.md	162	co:iwers
 tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		research/ancestry/list10-probate-census.md	9	two:inland
 tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		research/ancestry/INDEX.md	21	two:inland
-tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		research/ancestry/iowa-batch-ogle-iwers-webster.md	37	two:tipton
+tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		research/ancestry/iowa-batch-ogle-iwers-webster.md	15	two:inland
 tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		research/forums/treasurenet-list1.md	45	co:iwers
 tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		research/plats/placement-gaps-pass-b.md	11	two:inland
 tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		project-files/research/treasure-statewide/deep-dives/iail-dickson-iwers-harmon.md	11	two:inland
