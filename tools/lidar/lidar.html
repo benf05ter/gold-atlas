@@ -1,0 +1,54 @@
+<style id="OGLIDAR">
+.oglid{position:absolute;inset:0;pointer-events:none}
+.oglid>.ogtl{position:absolute;inset:0}
+.lidopt{display:flex;align-items:center;gap:8px;margin:4px 0 8px;font-size:13px}
+#pane-layers .lidopt{margin:-2px 0 8px 30px}
+.lidopt input{flex:1;min-width:80px}
+.lidopt[hidden]{display:none}
+</style>
+<script>
+/* OGLIDAR: "LiDAR view" in the layers list (Nov 2026). A bare-earth hillshade from 1 m LiDAR laid over whatever map type is showing,
+   with its own see-through slider. Sources, all public and needing no key:
+   - USGS 3DEP (elevation.nationalmap.gov 3DEPElevation ImageServer, "Hillshade Gray"): the best LiDAR for every state, used everywhere;
+     if it fails, a tile falls back to Esri World Hillshade (server.arcgisonline.com, built from the same USGS data, to zoom 16).
+   - Iowa: the state's own 2020 1 m LiDAR hillshade (ortho.gis.iastate.edu lidar_2020_hillshade) on top, inside Iowa only.
+   Tiles are 512 px pictures for each 256 px map tile (sharp on phones), drawn only while the layer is on and the phone has signal.
+   Source: tools/lidar/lidar.html, applied by tools/lidar/patch.py (idempotent). */
+(()=>{ if(typeof tileLayer!=='function'||typeof LAYERS==='undefined'||window.OGLID) return;
+  const R=20037508.342789244, bb=(z,x,y)=>{ const s=2*R/2**z, x0=-R+x*s, y1=R-y*s; return [x0,y1-s,x0+s,y1].map(v=>v.toFixed(2)).join(','); };
+  const ex=(base,rr)=>(z,x,y)=>`${base}/exportImage?bbox=${bb(z,x,y)}&bboxSR=3857&imageSR=3857&size=512,512&format=jpgpng${rr?'&renderingRule='+encodeURIComponent(JSON.stringify({rasterFunction:rr})):''}&f=image`;
+  const US=ex('https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer','Hillshade Gray');
+  const IA=ex('https://ortho.gis.iastate.edu/arcgis/rest/services/ortho/lidar_2020_hillshade/ImageServer');
+  const ESRI=(z,x,y)=>`https://server.arcgisonline.com/ArcGIS/rest/services/Elevation/World_Hillshade/MapServer/tile/${z}/${y}/${x}`;
+  const IAB=[-96.64,40.37,-90.14,43.51];   // Iowa box (lon0,lat0,lon1,lat1)
+  const inIA=(z,x,y)=>{ const N=2**z, l0=x/N*360-180, l1=(x+1)/N*360-180, a1=ogMerc.lat(y,N), a0=ogMerc.lat(y+1,N); return l1>IAB[0]&&l0<IAB[2]&&a1>IAB[1]&&a0<IAB[3]; };
+  const S={op:0.75}; try{ const v=+localStorage.getItem('og-lid-op'); if(v>=0.15&&v<=1) S.op=v; }catch(_){}
+  const live=()=>on.has('_lidar')&&OG.live!==false&&navigator.onLine!==false;
+  const wrap=document.createElement('div'); wrap.className='oglid'; tileRoot.appendChild(wrap);
+  const Lus=tileLayer('lid',US,{hd:true,minz:6,max:()=>18,alt:(z,x,y)=>z<=16?ESRI(z,x,y):US(z,x,y),show:live});
+  const Lia=tileLayer('lidia',IA,{hd:true,minz:8,max:()=>18,has:inIA,show:live});
+  wrap.appendChild(Lus.div); wrap.appendChild(Lia.div);
+  const op=()=>{ wrap.style.opacity=S.op.toFixed(2); }; op();
+  // credits
+  const credit=()=>{ const a=document.querySelector('.ogattr'); if(!a) return; let s=a.querySelector('.lidcr');
+    if(!s){ s=document.createElement('span'); s.className='lidcr'; s.textContent=' · LiDAR: USGS 3DEP, Iowa DNR/ISU GIS'; a.appendChild(s); } s.hidden=!on.has('_lidar'); };
+  // the layer row
+  const i=LAYERS.findIndex(l=>l.id==='_oldmap');
+  const row={sec:i>=0?LAYERS[i].sec:'Old maps vs today', id:'_lidar', n:'LiDAR view (bare ground)', d:'Laser-scanned bare earth with the trees and brush stripped away, shaded so every bump shows: cellar holes, old roads and rail grades, mill races, dams, dug pits and mounds. USGS 3DEP 1 m LiDAR, and Iowa’s own 2020 LiDAR inside Iowa. Works over any map type; use the slider to see the map through it. Needs signal; areas you have looked at are kept for the trail', overlay:true, on:false};
+  LAYERS.splice(i>=0?i+1:LAYERS.length,0,row); if(typeof LBY==='object') LBY._lidar=row; if(typeof SHORT==='object') SHORT._lidar='LiDAR view';
+  const GSW='<span class="dot" style="background:linear-gradient(135deg,#f4f4f2 0,#9a9a96 45%,#3c3c3a 100%);border-radius:3px"></span>';
+  // see-through slider: under the LiDAR row in the Layers tab, and under the Layers grid in the map's layers sheet; shown while the layer is on
+  const slider=id=>`<label class="lidopt" id="${id}"><span>LiDAR see-through</span><input type="range" min="15" max="100" step="5" value="${Math.round(S.op*100)}" aria-label="LiDAR strength"><span class="hint">${Math.round(S.op*100)}%</span></label>`;
+  const hook=el=>{ const r=el.querySelector('input'); r.oninput=()=>{ S.op=+r.value/100; op(); for(const o of document.querySelectorAll('.lidopt')){ o.querySelector('input').value=r.value; o.querySelector('.hint').textContent=r.value+'%'; } try{ localStorage.setItem('og-lid-op',String(S.op)); }catch(_){} }; };
+  const sync=()=>{ const p=document.getElementById('pane-layers'), b=p&&p.querySelector('.lrow[data-l="_lidar"]');
+    if(b&&!b.dataset.lid){ b.dataset.lid='1'; const sw=b.firstElementChild; if(sw&&!sw.querySelector('.nm')) sw.outerHTML=GSW;
+      b.insertAdjacentHTML('afterend',slider('lidOpt')); hook(document.getElementById('lidOpt')); b.addEventListener('click',()=>setTimeout(sync,0)); }
+    const g=document.getElementById('plLay'); if(g&&!document.getElementById('lidOpt2')){ g.insertAdjacentHTML('afterend',slider('lidOpt2')); hook(document.getElementById('lidOpt2')); }
+    for(const o of document.querySelectorAll('.lidopt')) o.hidden=!on.has('_lidar');
+    credit(); tilesSoon(); };
+  const rl=renderLayers; renderLayers=function(){ const r=rl.apply(this,arguments); try{ sync(); }catch(e){ OGE.err&&OGE.err('lidar',e); } return r; };
+  if(typeof plLaySync==='function'){ const pl=plLaySync; plLaySync=function(){ const r=pl.apply(this,arguments); try{ sync(); }catch(e){ OGE.err&&OGE.err('lidar',e); } return r; }; }
+  if(typeof plIco==='function'){ const ic=plIco; plIco=function(id){ return id==='_lidar'?'<svg class="ic" width="26" height="26" viewBox="0 0 24 24" aria-hidden="true"><defs><linearGradient id="lidG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4f4f2"/><stop offset=".5" stop-color="#9a9a96"/><stop offset="1" stop-color="#3c3c3a"/></linearGradient></defs><rect x="3" y="4" width="18" height="16" rx="2" fill="url(#lidG)" stroke="#555" stroke-width="1"/><path d="M5 15c3-5 5-5 7-2s4 1 7-4" fill="none" stroke="#222" stroke-width="1.6"/></svg>':ic.apply(this,arguments); }; }
+  window.OGLID={S,Lus,Lia,sync,US,IA};
+  try{ renderLayers(); }catch(_){} try{ if(typeof plLaySync==='function') plLaySync(); }catch(_){} })();
+</script>
