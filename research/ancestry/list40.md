@@ -41,3 +41,10 @@
 - The plat reads for Koster (Delta 1913), Souvigner (Menominee 1912) and Heckes (Waseca 1896/1914).
 
 **1127 holdings found for the remaining items:** Hamilton IA 1896; Johnson IA 1889/1900; Louisa 1917; Warren IA 1872/1902/1915; Washington IA 1874/1894/1906; Winnebago IA 1913; Delta MI 1913; Menominee 1912; Shiawassee 1875/1915; Dane 1873/1890/1899/1904/1911.
+
+## #19 KNAGGS BRIDGE: ROBERTS mill found (1875)
+- Knaggs Bridge geocodes to **sec 6 T5N R4E, Burns Twp, Shiawassee Co (42.861,-84.031)**. In 1875 this was the hamlet **"BURNS" P.O.**, where Grand River St crosses the Shiawassee.
+- **Ancestry 1127, Shiawassee 1875:** Burns Twp plate at viewer p.54 (image 31617_072125-00250, atlas p.95); "Burns" village plat at viewer p.56 (image 31617_072125-00252, atlas p.98).
+- **The village plat shows a DAM across the Shiawassee just N (upstream) of the Grand River St bridge.** On the **NE bank above the dam it shows "Saw Mill" and "G. Mill" (grist mill), labelled "ROBERTS & MARSHALL".** J. J. Gaylord is on the SE bank below the bridge; L. Newman, A. Drum, E. B. Allen and A. Bigelow are on the W side; N. G. Philips 44.10 a. is N.
+- That matches the Owosso Times 1897-12-31 note ("Roberts Bros. … mill property at Knaggs Bridge").
+- **Pin: mill site, NE bank just above the Grand River (Cole Rd) bridge, about 42.861,-84.031, r150, B** for the mill site. The trading-post site S of the bridge is not labelled on the 1875 plat.
