@@ -42,3 +42,50 @@
 
 ## 8. Lee Co IL: no atlas in 1127. Knoll not plotted.
 ## 12. Hardin: 1127 has only 1875 (no 1892). Not done (low).
+
+## 11. WADE, Bureau Twp: not on the 1875 plate
+- Ancestry 1127, Bureau 1875, viewer p.35 (image 31617_072104-00718), "Bureau" Twp: read at 2x. **No Wade.** The Bureau Junction village plat (printed p.65) was not read. Low.
+
+## 13. ROBBERS' CAVE, Clinton Co IA: no named cave in the histories
+- I grepped the archive.org OCR of the **1879 History of Clinton County** (cu31924028913881), **Wolfe's 1911 history vol. 1**, the **1876 Gazetteer** and the **1930 children's history**. **No "Robbers' Cave".**
+- Related context only: the 1840s horse-thief "Regulators" episode (a confession in a grove near Welton, the "lower Wapsie bottom", and a robbers' roost raided at Farmersburg, Clayton Co). Not placed.
+
+## 14. REEVES claim, Crow Creek / Whitefield Twp (Marshall Co IL): DESCRIBED (no section)
+- ***Records of the Olden Time*** (Ellsworth, 1880; archive.org cu31924028805915), Whitefield Twp chapter, "Reeves the Outlaw and his Gang", pp. about 531-535:
+  - George Reeves came about 1833-34. His home was "situated in the **mouth of a deep ravine**... its precipitous sides and center covered with brush... the main hollow opened on the prairie a couple of miles or more westward". There were several cabins and outhouses for lodging.
+  - **"Reeves' Run"**: C. W. Barnes settled in 1872 "on the north side of what is called **Reeves' Run, near the head of that stream** on the edge of the prairie... **about equal distance from Sparland and Henry**". Richard Hunt was on **sec 15** nearby.
+  - Henry Twp chapter: George Reeves "lived in a small shanty **north of Talliaferro's dwelling**, now known as the **James Winship place**". Brother Tyrrell lived near the top of the same hill and later at the lower end of Crow Meadow Prairie.
+  - Also: "In 1837 or 38 George Reeves made a claim on the Danley farm" (Steuben/Sparland area). Old Reeves also built a cabin used by Thenius "in the hollow north of Sparland".
+- **Placement lead:** Reeves' Run, a creek midway between Sparland and Henry, Whitefield Twp. The homestead is at the mouth of its ravine near the Illinois River bluff. Sec 15 (Hunt) is nearby. A plat with "Winship" or Talliaferro, or a topo of Reeves Run, would fix it. Not pinned; C at section level once the run is identified.
+
+## 1. Lidar / Kammeyer York plate: not retried this batch.
+
+## 1. PORT SHELDON lidar (3DEP Hillshade Gray, retried 18:2xZ, WORKED): outlet read
+- **Box -86.218..-86.198, 42.895..42.905** (800×544, viewed at 1500 px wide; about 75 px per 0.001° lon, 102 px per 0.001° lat). Coordinates below are read from the image grid, ±25 m.
+- **Channel (Pigeon Lake outlet)** runs W-E along about **42.8988-42.8992**, with breakwater lines out into Lake Michigan at the W end.
+- **N side:** heavily modified. A large oval embankment (the power-plant coal yard / ash pond) is in the NE (about 42.903, -86.205). The dune ridges NW of the channel are cut and terraced. Nothing historic is readable.
+- **S side (the 1876 outlet building cluster on Woodley & Irish land):**
+  - **Shoreline knoll / low bench right at the outlet: about 42.8986, -86.2108.** A small raised lobe on the S bank, just E of the beach dunes. This is the best fit for the old landing and hotel spot by the 1876 cluster (42.899,-86.211).
+  - **Level ground (hotel-platform candidate):** a flat, smooth area behind the S shore from about **-86.2093 to -86.2053, 42.8970-42.8983**, crossed by old trails or roads. It is the largest level terrace near the outlet.
+  - **Dune ridge W of the cluster:** a series of long parabolic dune ridges trends SW-NE between -86.214 and -86.209. **The largest blowout bowl (deep end-hollow of the main ridge) is at about 42.8967, -86.2098.** A second, smaller hollow is at about 42.8960, -86.2136. These are the candidates for the "blow-hole just west of the hotel".
+  - **"Run" (small stream):** a narrow straight linear cut descends NNE to the shore at about **-86.2115, 42.8970 to 42.8983**, just W of the outlet knoll. It may be a ditch or trail rather than a natural run; a curving channel near -86.2045, 42.8975 is a second candidate.
+- **Summary pin options:** hotel/landing knoll 42.8986,-86.2108 (r60). Blowout W/SW of it 42.8967,-86.2098 (r50). Run mouth about 42.8983,-86.2115. Grade by Treasure; Ground check to confirm.
+
+## 1b. McArdill / Wabasis lidar: not yet run (3DEP just came back; next batch).
+
+## 1b. McARDILL W quarter corner, sec 27 T2S R7W (Emmett Twp, Calhoun): lidar READ
+- 3DEP Hillshade Gray, box -85.1233..-85.1173, 42.2665..42.2705. The N-S road (sec 27/28 line) is at about -85.1203. An E-W quarter line with a ditch/fence row is at about 42.2685, matching the given corner (42.26852,-85.12030).
+- **Features on the E (sec 27) side within about 150 m:**
+  - **A. Round depression (shadowed bowl), about 42.2676, -85.1197**: about 100 m S and 50 m E of the corner. **This is the best "dry well / filled pit" candidate** (isolated, round, about 10-15 m across).
+  - **B. Small pit with a sharp rim, about 42.2694, -85.1195**: about 100 m N and 70 m E (by an old farmstead outline to the NE).
+  - C. Two small round knobs about 42.2684/42.2682, -85.1184 (about 150 m E): mounds, possibly spoil or cistern caps.
+- The W side (sec 28) has farmstead/yard outlines and terraces. They are not in the ask.
+- **Suggested pin: A, 42.2676,-85.1197, r25** (B as the alternative). Ground check to confirm.
+
+## 1c. WABASIS Lake Park banks (Kent Co): lidar READ
+- 3DEP Hillshade Gray, box -85.402..-85.388, 43.134..43.146. The lake (flat) lies in the E-centre; a long NE-SW incised ravine (the outlet/creek with double steep banks) runs from the NW arm to the SW.
+- **Sharpest bank cuts:**
+  - **A. W shore / ravine wall at about 43.1406, -85.3946**: a steep, deeply shadowed bank where the ravine meets the lake. **This matches the earlier list25 #22 lidar cut bank (43.140,-85.395); same spot, now confirmed.**
+  - **B. Lower ravine, about 43.1388, -85.3970**: steep paired banks in a narrow cut (a ravine-mouth candidate).
+  - **C. S shore, about 43.1367-43.1375, -85.3914**: two elongated ridges with deep N-facing scarps opening toward the lake (ravine mouths).
+- Best "caves" candidate: **A (43.1406,-85.3946)**, with B as a secondary. Look-only park land.
