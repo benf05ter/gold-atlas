@@ -461,6 +461,7 @@ wd4-trimbelle-zopp	C	Michael Zopp's hidden money, Trimbelle (1912)	Pierce	WI	dig
 wd4-trimbelle-zopp	C	Michael Zopp's hidden money, Trimbelle (1912)	Pierce	WI	dig-trimbelle-zopp	project-files/research/court-records/pin-records-check.tsv	18	id
 wd4-trimbelle-zopp	C	Michael Zopp's hidden money, Trimbelle (1912)	Pierce	WI	dig-trimbelle-zopp	project-files/research/court-records/zopp-1912.md	1	file:zopp
 wd4-trimbelle-zopp	C	Michael Zopp's hidden money, Trimbelle (1912)	Pierce	WI	dig-trimbelle-zopp	project-files/research/court-records/newspapers-com-asks.md	4	id
+tw-ia-millersburg-race-track	C	Millersburg race track (19th century)	Iowa	IA		research/ancestry/list28.md	80	co:millersburg
 tw-ia-millersburg-race-track	C	Millersburg race track (19th century)	Iowa	IA		research/ancestry/list25.md	136	co:millersburg
 tw-ia-millersburg-race-track	C	Millersburg race track (19th century)	Iowa	IA		research/ancestry/INDEX.md	66	co:millersburg
 tw-mi-arthur-bay-souvigner-1907	C	Miser John Souvigner's hoard, Arthur Bay cabin	Menominee	MI		research/souvigner-plat.md	1	file:souvigner
@@ -551,15 +552,15 @@ tw-mi-menominee-ole-johnson-cans	C	Ole Johnson's salmon cans of $10 gold under s
 tw-mi-emmett-mcardill-dry-well-1874	C	Pedlar McArdill's robbery gold, dry well in the Newbre neighbourhood, Emmett Twp (c.1849 robbery; 1874 dig)	Calhoun	MI		research/ancestry/list20.md	25	two:newbre
 tw-mi-emmett-mcardill-dry-well-1874	C	Pedlar McArdill's robbery gold, dry well in the Newbre neighbourhood, Emmett Twp (c.1849 robbery; 1874 dig)	Calhoun	MI		research/ancestry/list18.md	53	two:newbre
 tw-mi-emmett-mcardill-dry-well-1874	C	Pedlar McArdill's robbery gold, dry well in the Newbre neighbourhood, Emmett Twp (c.1849 robbery; 1874 dig)	Calhoun	MI		research/ancestry/list19.md	54	two:newbre
-tw-mi-emmett-mcardill-dry-well-1874	C	Pedlar McArdill's robbery gold, dry well in the Newbre neighbourhood, Emmett Twp (c.1849 robbery; 1874 dig)	Calhoun	MI		research/ancestry/INDEX.md	64	two:emmett
+tw-mi-emmett-mcardill-dry-well-1874	C	Pedlar McArdill's robbery gold, dry well in the Newbre neighbourhood, Emmett Twp (c.1849 robbery; 1874 dig)	Calhoun	MI		research/ancestry/INDEX.md	60	two:mcardill
 tw-mi-emmett-mcardill-dry-well-1874	C	Pedlar McArdill's robbery gold, dry well in the Newbre neighbourhood, Emmett Twp (c.1849 robbery; 1874 dig)	Calhoun	MI		research/ancestry/list23.md	72	two:newbre
-tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/newspapers-com/pc-a-asks-results.md	666	two:galien
-tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/newspapers-com/leads.tsv	148	two:galien
+tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/newspapers-com/pc-a-asks-results.md	668	two:swem
+tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/newspapers-com/leads.tsv	148	two:swem
 tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/ancestry/list26.md	161	co:galien
-tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/ancestry/list9-probate-census.md	11	two:galien
+tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/ancestry/list9-probate-census.md	11	two:swem
 tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/ancestry/land-ownership-maps-list8.md	33	co:swem
-tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/ancestry/INDEX.md	49	two:galien
-tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/plats/sunday-plates-2026-11-02.md	29	two:galien
+tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/ancestry/INDEX.md	49	two:swem
+tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/plats/sunday-plates-2026-11-02.md	29	two:swem
 tw-il-dekalb-yocum-jar-1939	C	Ray Yocum's lost fruit jar of $2,300, Yocum yard, East Lincoln Highway, DeKalb	DeKalb	IL		research/ancestry/illinois-names-batch.md	15	co:yocum
 tw-il-dekalb-yocum-jar-1939	C	Ray Yocum's lost fruit jar of $2,300, Yocum yard, East Lincoln Highway, DeKalb	DeKalb	IL		research/ancestry/list25.md	161	two:yocum
 tw-il-dekalb-yocum-jar-1939	C	Ray Yocum's lost fruit jar of $2,300, Yocum yard, East Lincoln Highway, DeKalb	DeKalb	IL		research/ancestry/INDEX.md	66	co:yocum
@@ -604,6 +605,7 @@ tw-wi-eau-claire-eliza-wilson-farm-1925	C	St. Paul bank loot rumored buried on t
 tw-wi-eau-claire-eliza-wilson-farm-1925	C	St. Paul bank loot rumored buried on the Eliza Wilson farm, Elk Creek	Eau Claire	WI		research/newspapers-com/ia-il-second-source.md	149	two:eliza
 tw-wi-eau-claire-eliza-wilson-farm-1925	C	St. Paul bank loot rumored buried on the Eliza Wilson farm, Elk Creek	Eau Claire	WI		research/newspapers-com/blackburn-gordon.md	27	co:paul
 tw-wi-eau-claire-eliza-wilson-farm-1925	C	St. Paul bank loot rumored buried on the Eliza Wilson farm, Elk Creek	Eau Claire	WI		research/newspapers-com/sweep-2-misers-loot.md	107	two:eliza
+tw-wi-eau-claire-eliza-wilson-farm-1925	C	St. Paul bank loot rumored buried on the Eliza Wilson farm, Elk Creek	Eau Claire	WI		research/ancestry/list28.md	80	two:eliza
 tw-wi-eau-claire-eliza-wilson-farm-1925	C	St. Paul bank loot rumored buried on the Eliza Wilson farm, Elk Creek	Eau Claire	WI		research/ancestry/paddock-weesaw-census.md	11	two:eliza
 tw-wi-eau-claire-eliza-wilson-farm-1925	C	St. Paul bank loot rumored buried on the Eliza Wilson farm, Elk Creek	Eau Claire	WI		research/plats/eliza-wilson-plat.md	1	file:eliza
 tw-wi-eau-claire-eliza-wilson-farm-1925	C	St. Paul bank loot rumored buried on the Eliza Wilson farm, Elk Creek	Eau Claire	WI		research/plats/eliza-wilson-elk-creek.md	1	file:eliza
@@ -871,6 +873,8 @@ tw-il-marcus-train-robbery-1902	D	Burlington train robbers' buried silver, Iowa 
 tw-il-marcus-train-robbery-1902	D	Burlington train robbers' buried silver, Iowa bank across from Marcus	Jackson	IA		research/newspapers-com/pc-a-asks-results.md	726	co:marcus
 tw-il-marcus-train-robbery-1902	D	Burlington train robbers' buried silver, Iowa bank across from Marcus	Jackson	IA		research/newspapers-com/leads.tsv	112	two:marcus
 tw-il-marcus-train-robbery-1902	D	Burlington train robbers' buried silver, Iowa bank across from Marcus	Jackson	IA		research/newspapers-com/treasure-list-t13-t21.md	442	co:marcus
+tw-il-trask-bridge-grange-picnic	D	Burritt Grange picnic grove at Trask Bridge (20,000 people, 1920)	Winnebago	IL		research/ancestry/list28.md	60	two:burritt
+tw-il-trask-bridge-grange-picnic	D	Burritt Grange picnic grove at Trask Bridge (20,000 people, 1920)	Winnebago	IL		research/ancestry/INDEX.md	69	two:burritt
 tw-ia-pocahontas-calligan-lizard	D	Calligan gold legend, Lizard settlement creek farm	Pocahontas	IA		research/newspapers-com/leads.tsv	128	two:lizard
 tw-ia-pocahontas-calligan-lizard	D	Calligan gold legend, Lizard settlement creek farm	Pocahontas	IA		research/newspapers-com/ia-il-sweep.md	45	two:lizard
 tw-ia-pocahontas-calligan-lizard	D	Calligan gold legend, Lizard settlement creek farm	Pocahontas	IA		research/newspapers-com/treasure-list-t13-t21.md	21	co:calligan
@@ -1029,16 +1033,16 @@ tw-il-dover-hudson-jar-1913	D	James Hudson's $1,200 he hid twice, farm at Dover	
 tw-il-dover-hudson-jar-1913	D	James Hudson's $1,200 he hid twice, farm at Dover	Bureau	IL		research/ancestry/list19.md	40	two:hudson
 tw-il-dover-hudson-jar-1913	D	James Hudson's $1,200 he hid twice, farm at Dover	Bureau	IL		research/ancestry/INDEX.md	60	co:hudson
 tw-il-dover-hudson-jar-1913	D	James Hudson's $1,200 he hid twice, farm at Dover	Bureau	IL		research/sunday/sunday-list-2026-11-02.md	7	two:hudson
-tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/negatives.tsv	231	two:blackburn
-tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/newspapers-com/pc-a-asks-results.md	707	two:blackburn
-tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/newspapers-com/placement-gaps-list.md	23	two:blackburn
-tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/newspapers-com/leads.tsv	115	two:blackburn
-tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/newspapers-com/blackburn-gordon.md	1	file:blackburn
-tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/plats/blackburn-gordon.md	1	file:blackburn
-tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/plats/INDEX.md	41	two:blackburn
+tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/negatives.tsv	231	two:gordon
+tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/newspapers-com/pc-a-asks-results.md	707	two:gordon
+tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/newspapers-com/placement-gaps-list.md	23	two:gordon
+tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/newspapers-com/leads.tsv	115	two:gordon
+tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/newspapers-com/blackburn-gordon.md	1	file:gordon
+tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/plats/blackburn-gordon.md	1	file:gordon
+tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/plats/INDEX.md	41	two:gordon
 tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		research/plats/strolfer-douglas-wi.md	10	co:gordon
 tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		project-files/research/court-records/pin-records-check.tsv	2	id
-tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		project-files/research/treasure-statewide/blackburn-card.md	1	file:blackburn
+tw-blackburn-gordon-1897	D	Joe Blackburn's missing money, trading post southeast of Gordon	Douglas	WI		project-files/research/treasure-statewide/blackburn-card.md	1	two:gordon
 tw-mi-agards-landing-gold	D	John Agard's buried gold, Agard's Landing on the Paw Paw River	Van Buren	MI		research/newspapers-com/pc-a-asks-results.md	451	co:agard
 tw-mi-agards-landing-gold	D	John Agard's buried gold, Agard's Landing on the Paw Paw River	Van Buren	MI		research/newspapers-com/pc-b-asks-results.md	27	co:agard
 tw-mi-agards-landing-gold	D	John Agard's buried gold, Agard's Landing on the Paw Paw River	Van Buren	MI		research/newspapers-com/second-sources-c-leads.md	111	id
@@ -1412,6 +1416,7 @@ tw-randall-north-bend-1901	E	David Randall, miser of North Bend	Jackson	WI		rese
 tw-randall-north-bend-1901	E	David Randall, miser of North Bend	Jackson	WI		research/newspapers-com/leads.tsv	4	co:randall
 tw-randall-north-bend-1901	E	David Randall, miser of North Bend	Jackson	WI		research/newspapers-com/sweep-2-misers-loot.md	281	co:randall
 tw-randall-north-bend-1901	E	David Randall, miser of North Bend	Jackson	WI		research/genealogybank/gb-list1.md	17	co:randall
+tw-randall-north-bend-1901	E	David Randall, miser of North Bend	Jackson	WI		research/ancestry/list28.md	57	co:randall
 tw-randall-north-bend-1901	E	David Randall, miser of North Bend	Jackson	WI		research/ancestry/list9-probate-census.md	16	co:randall
 tw-randall-north-bend-1901	E	David Randall, miser of North Bend	Jackson	WI		research/ancestry/INDEX.md	14	co:randall
 tw-randall-north-bend-1901	E	David Randall, miser of North Bend	Jackson	WI		research/plats/placement-gaps-pass.md	9	co:randall
@@ -1506,7 +1511,9 @@ stark-mcneil-yellow-boys	E	James McNeil's 'yellow boys', Rock Island	Door	WI		pr
 t-tr-northfield	E	James-Younger gang loot near Northfield	Rice	MN		research/negatives.tsv	31	id
 t-tr-northfield	E	James-Younger gang loot near Northfield	Rice	MN		research/newspapers-com/pc-b-asks-results.md	8	co:northfield
 t-tr-northfield	E	James-Younger gang loot near Northfield	Rice	MN		project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md	31	co:northfield
+tw-oesterle-sharon-gold	E	Joseph Oesterle's gold in the cellar, Oesterle Lake	Portage	WI		research/ancestry/list28.md	68	two:sharon
 tw-oesterle-sharon-gold	E	Joseph Oesterle's gold in the cellar, Oesterle Lake	Portage	WI		research/ancestry/list26.md	106	co:oesterle
+tw-oesterle-sharon-gold	E	Joseph Oesterle's gold in the cellar, Oesterle Lake	Portage	WI		research/ancestry/INDEX.md	69	two:sharon
 t-tr-winther	E	Joseph Winther’s buried gold coins	Faribault	MN		research/negatives.tsv	34	id
 fr-knife-lake-first-iron-knives-from-radisson	E	Knife Lake - first iron knives from Radisson (1659-60)	Kanabec	MN		research/negatives.tsv	51	id
 t-kraft-bank-1931	E	Kraft State Bank robbery loot	Dunn	WI		research/negatives.tsv	26	id
@@ -1929,12 +1936,12 @@ tw-bjornaa-grantsburg-1906	F	Ole Johnson Bjornaa's hidden money, Grantsburg	Burn
 tw-bjornaa-grantsburg-1906	F	Ole Johnson Bjornaa's hidden money, Grantsburg	Burnett	WI		project-files/research/court-records/negatives-court.tsv	1	co:johnson
 tw-bjornaa-grantsburg-1906	F	Ole Johnson Bjornaa's hidden money, Grantsburg	Burnett	WI		project-files/research/court-records/newspapers-com-asks.md	5	id
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/leads.tsv	2	two:conover
-tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/negatives.tsv	20	two:bennett
+tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/negatives.tsv	20	two:eagle
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/pc-a-asks-results.md	862	two:conover
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/list18.md	24	two:conover
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/leads.tsv	154	two:conover
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/county-coverage-wi-mi-chronam.tsv	24	co:eagle
-tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/sweep-2-misers-loot.md	118	co:bennett
+tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/sweep-2-misers-loot.md	71	co:eagle
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/newspapers-com/county-coverage.tsv	23	co:eagle
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/ancestry/list17.md	87	two:conover
 tw-wi-eagle-river-bennett-cellar-coins	F	R. C. Bennett's coin vault, Wyandotte Farm near Conover (found 1950)	Vilas	WI		research/ancestry/list14.md	42	two:conover
@@ -2021,7 +2028,7 @@ tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homes
 tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		research/newspapers-com/ia-il-sweep.md	162	co:iwers
 tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		research/ancestry/list10-probate-census.md	9	two:inland
 tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		research/ancestry/INDEX.md	21	two:inland
-tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		research/ancestry/iowa-batch-ogle-iwers-webster.md	15	two:inland
+tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		research/ancestry/iowa-batch-ogle-iwers-webster.md	37	two:tipton
 tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		research/forums/treasurenet-list1.md	45	co:iwers
 tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		research/plats/placement-gaps-pass-b.md	11	two:inland
 tw-ia-tipton-iwers-farm-1936	F	The Iwers brothers' hidden fortune (found), homestead in Inland Township near Sunbury	Cedar	IA		project-files/research/treasure-statewide/deep-dives/iail-dickson-iwers-harmon.md	11	two:inland
@@ -2032,7 +2039,7 @@ tw-mi-mcbain-smalley-train-loot-1895	F	Train robber George Smalley's missing loo
 gwl-wyalusing-treasure-cave	F	Treasure Cave, Wyalusing State Park	Grant	WI		research/plats/may-dickeyville-grant.md	7	co:wyalusing
 gwl-wyalusing-treasure-cave	F	Treasure Cave, Wyalusing State Park	Grant	WI		project-files/research/treasure-statewide/leads-wi.tsv	11	co:wyalusing
 tw-wi-eden-reilly-lloyd-gold-jars-1928	F	Two jars of gold coins on adjoining farms, Town of Eden (c.1920 and 1928)	Fond du Lac	WI		research/newspapers-com/pc-a-asks-results.md	34	co:eden
-tw-wi-eden-reilly-lloyd-gold-jars-1928	F	Two jars of gold coins on adjoining farms, Town of Eden (c.1920 and 1928)	Fond du Lac	WI		research/ancestry/list17.md	24	two:lloyd
+tw-wi-eden-reilly-lloyd-gold-jars-1928	F	Two jars of gold coins on adjoining farms, Town of Eden (c.1920 and 1928)	Fond du Lac	WI		research/ancestry/list17.md	24	two:reilly
 tw-wi-eden-reilly-lloyd-gold-jars-1928	F	Two jars of gold coins on adjoining farms, Town of Eden (c.1920 and 1928)	Fond du Lac	WI		research/ancestry/list20.md	19	co:reilly
 tw-wi-eden-reilly-lloyd-gold-jars-1928	F	Two jars of gold coins on adjoining farms, Town of Eden (c.1920 and 1928)	Fond du Lac	WI		research/ancestry/INDEX.md	58	two:reilly
 tw-wi-eden-reilly-lloyd-gold-jars-1928	F	Two jars of gold coins on adjoining farms, Town of Eden (c.1920 and 1928)	Fond du Lac	WI		project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md	33	co:eden

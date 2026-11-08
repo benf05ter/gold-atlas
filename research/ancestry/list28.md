@@ -54,4 +54,31 @@
   - **Viewer p.78 (image 31617_072121-00417)** is the "Map of Leoni Township, Range One East" sheet. At 2x it shows the **S tier (secs 25-30)**: Wm. H. Youngs, Wm. Thompson, H. J. Palmer (sec 28 by a lake), E. & S. Welch, Almon Cain (sec 26), Joel ..., Holloway and others.
   - The village and the marsh W of it (secs 34-35) lie on the other half of the spread or the next tier and were **not read** in this pass.
   - The 1874 OCR index has no "Chappell", no "Bogus" and no King near Leoni; there is one "Bates, L. P." in a county patrons list (place not tied).
-- **Status: not finished.** Next time: viewer p.77 (left half of the spread) for secs 31-36 around Leoni village; look for King / Bates / Chappell beside the marsh at about 42.262,-84.295.
+- Viewer p.79 (image 31617_072121-00418) is the other half of the sheet. It shows the N tiers of the township around **Michigan Center** (secs 9-15: Solomon, Thomas, M. Noon, Randall, Chas. H. Smith, J. B. Waldron, Lawrence and others), with insets of **Michigan Center** and **Franciscoville** village plats below. The 1874 sheet is cut irregularly, and **the S tier around Leoni village (secs 34-35) is not on pp.78-79**. The TOC lists a separate "Leoni [village]" plat at printed p.130.
+- **Status: no King / Bates / Chappell found in 1874.** The marsh parcels W of Leoni village (secs 34/35) are not shown on the 1874 township sheet. The village plat (p.130) shows village lots only. Pin unchanged (knoll 42.2618,-84.2945).
+
+## 11. Trask Bridge / Burritt Grange grove (Winnebago Co IL): bridge placed on the 1905 plate
+- Ancestry 1127 has Winnebago 1905 (and the 1886 Winnebago-Boone; no 1920s plat). **1905, viewer p.15 of 76 (image 31617_072117-00716, atlas p.29): "Burritt Township", T27N R11E (4th P.M.).**
+- **"TRASK BRIDGE"** is printed in the **N part of sec 6**, where the road crosses the looping **Pecatonica River** near the sec 5/6 line.
+  - Owners **NW / N of the bridge** (sec 6 N half): **T. Houghton 131.64** (NW quarter) and **C. F. Scott 152** (N-central). E. Perry and Alex Sarver are across the river (sec 5 N); Philip Nadeau is at the W edge; Cyffin Bros and C. A. Andrew are S of the river loop.
+  - **No woods/grove symbol and no picnic ground is printed** on the 1905 plate.
+- **BLM sec 6 T27N R11E = 42.3616-42.3764 N, -89.2824 to -89.2633 W.**
+- **Reading:** "the grove NW of Trask Bridge" falls on the **Houghton / Scott land in N/NW sec 6** (or just over the line in Harrison Twp, sec 31). **Suggested pin for the grove area: about 42.372, -89.278, r400, C.** The 1920s owner is not checked (no 1920s plat in 1127).
+
+## 10. Oesterle, Sharon Twp (Portage Co WI): PLACED (1895), but in sec 3 T24N, not sec 26
+- **Ancestry 1127, Portage 1895, "Plat of Sharon", Townships 24 & 25 North, Range 9 East.** The plate spans viewer **p.32 (image 31617_072130-00414, N part)** and **p.33 (image 31617_072130-00415, S part)**. Read at 2x.
+- **p.33: "OESTERLE LAKE"** is printed on a small lake in the **W part of sec 3, T24N R9E**, just S of the T24/T25 township line. **"Joseph Oesterle 240"** is written across the S half of sec 3, running into the sec 3/10 line, beside the lake.
+  - Neighbours: Paul Slagowski and Bernard Konopacki (sec 3 W/centre), A. Burant, Ben. Woiack 200 (sec 2), Thos. Milanowski / Xavier Shurnek (sec 10), and **Polonia P.O.** at the sec 9/10 corner just SW.
+- **The card says sec 26.** On this plate, secs 34-36 of T25N lie directly N across the township line, and sec 26 T25N is a mile further N (on p.32, Weisbach / Polensky area). **No Oesterle appears in sec 26.** The Oesterle Lake tract is sec 3 T24N, which is what was probably meant (the "26" may be a misread or a later parcel).
+- **BLM sec 3 T24N R9E = 44.5786-44.5947 N, -89.4063 to -89.3856 W**; sec 10 = 44.5640-44.5799 N. Polonia (OSM) is 44.5700,-89.4132.
+- **Pin: Oesterle Lake / Joseph Oesterle 240, S half of sec 3, about 44.582, -89.399, r400, B.**
+- The 1915 Portage plat (image 31617_072130-00444 set) was not checked for a later owner.
+
+## 8. Ingram farm, English Twp (Iowa Co IA): W. Ingram on the 1886 plate
+- Ancestry 1127 has Iowa Co 1874, 1886 and 1917. **1886 (Warner & Foote), viewer p.18 of 36 (image 31617_072143-00765, atlas p.26): "Plat of English", T78N R12W.** Read at 2x.
+- **"W. Ingram 100"** is a N-S strip along the **W side of sec 16** (the W half of the W half), just W of "Jessie Scott 137" and the Center school. **A small "W. Ingram" tract** is also in the **NW corner of sec 21** by the English River.
+  - **Millersburg** village is in sec 8, about 1-1.5 mi NW. Other neighbours: Eliza Marshall, Charles Anderson (sec 17), Frederic Stahl, C. Weimer and Joseph Geiger (sec 15/22).
+- **No "Thomas Ingram" in 1886.** W. Ingram is probably the father or a relative; Thomas would have held the farm by about 1896 (the race-track story). The 1917 plat was not checked in this pass.
+- **BLM sec 16 T78N R12W = 41.5534-41.5680 N, -92.2584 to -92.2393 W.** The W strip is about -92.2584 to -92.2537.
+- **Pin: W. Ingram 100, W side of sec 16, about 41.561, -92.256, r400, B-** (family farm in 1886; a race track c.1896 "on his farm" would sit on this strip or the 21 NW tract). The 1917 plate would confirm Thomas.
+- **1917 (Anderson Pub. Co., 53 pp.):** the "Farmers' Directory of English Township" is viewer p.32 (image 31617_072143-00698). **No Ingram** between Holton/Hotchkiss and Johnston. The 1917 English plate itself (near p.33) was not read. By 1917 no Ingram was a resident patron, which fits a family that had left or died out; a non-patron owner could still be on the plate.
