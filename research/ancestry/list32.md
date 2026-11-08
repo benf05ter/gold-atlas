@@ -17,3 +17,14 @@
   - Dwelling 82: **Charles Marsh(?)** (b. England).
   - Before them on the same sheet: Becker (John C.), Hallmer (Joseph), Holsinger(?) Fred, Tibbs(?), Traxler(?) Charles. After: Fuchs/Foote(?) Alfred, O'Donnell John C.
   - Readings are of handwriting; spellings are uncertain. Use Pettersen and Thayer/Shafer to find the 10 acres on the c.1915 Hixson plate.
+
+## 17. BLACKMORE fit on the c.1915 Hixson plat: DONE (neighbour match)
+- **WHS W017VNM (Hixson, Plat Book of the State of Wisconsin, c.1915), Jefferson Co sheet "Town of Hebron, Coldspring, Palmyra, Sumner, and Aztalan"** (AssetLink n3raqv7bjn8y03w62xe768q568eoiu77, 7962×5739). Palmyra Twp (T5N R16E) is the lower-left panel.
+- **All three 1920 census neighbours are in the SW of the township:**
+  - **P. Peterson** (= Peter A. Pettersen): "P. Peterson 33" (W edge, sec 30) and **"P. Peterson 40" (S-central sec 30)**.
+  - **Thayer**: **"Cliff Thayer 87"** (N part of sec 31, just S of Peterson's 40); "J. Thayer" (sec 31 NW corner); "J. Thayer 100" (sec 19 W).
+  - **Marsh**: "Chas. Marsh 147" (sec 20) and "Marsh Bros 279" (sec 29).
+- The census walk (79 Pettersen, then 80 Blackmore, then 81 Thayer) puts the Blackmore place **between P. Peterson's 40 (S sec 30) and Cliff Thayer's 87 (N sec 31)**, i.e. on or near the **sec 30/31 line, W-central**. Small unlabelled lots and a "+" mark sit there along the road.
+  - That is about 3 mi SW of Palmyra village (secs 22-23), as the card says.
+- **BLM:** sec 30 T5N R16E = 42.8570-42.8716 N, -88.6598/-88.6398; sec 31 = 42.8425-42.8571 N.
+- **Pin: sec 30/31 line, W-central, about 42.857, -88.652, r250, B-** (Blackmore 10 acres between the Peterson 40 and the Cliff Thayer 87).
