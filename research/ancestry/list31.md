@@ -30,3 +30,17 @@
 
 ## Not done this pass
 - #5 Grundy poor farm (Grundy 1911 in 1127, image 31617_072143-00044); #6 Kammeyer mill (DuPage 1874 in 1127, image 31617_072107-00615); #7 Millet 1912 (HathiTrust); #8 Hudson (Bureau: only 1875 in 1127); #9 Wegemer (HathiTrust); #14 Laker; #16 Boyer.
+
+## 5. GRUNDY CO POOR FARM: not found yet
+- Ancestry 1127, Grundy 1911 (103 pp.). Plates are not in TOC order. Read so far:
+  - **Lincoln (T88N R16W, image 31617_072143-00055).** No "County Farm".
+  - **Grant (T88N R17W, image 00054; Dike in sec 6, Zaneta sec 36).** No "County Farm".
+  - Seen but not read: Colfax (00056), Shiloh (00057), Melrose (00058), Palermo (00059), Washington (00060), Black Hawk (00061), Clay (00062), Felix (00063).
+- Grundy Center city is probably on the Palermo / Washington / Colfax plates. **Next: read Palermo and Colfax for "County Farm"/"Poor Farm".**
+
+## 6. KAMMEYER MILL, Fullersburg: partial
+- Ancestry 1127, DuPage 1874 (Thompson Bros & Burr; 99 pp.). The TOC lists York Twp printed p.40 and the Fullersburg village plat p.28.
+- **Fullersburg plat (viewer p.56, image 31617_072107-00671, upper-left of the Hinsdale/Downer's Grove sheet).** Village lots on Main, York, Washington Ave and Jackson; owners David Thurston, A. Walker, H. Fox; a school and cemetery. **No mill, no Salt Creek and no Kammeyer/Graue drawn** (the plat stops short of the creek).
+- The York Twp plate itself was not located (the viewer sequence is irregular; pp.64-68 are a Wheaton plat, views and a fragment). **Not answered.** Next: page through viewer 57-63 for the York Twp plate, secs 1-2/35-36 along Salt Creek.
+
+## Lidar #1-3: still not retried (3DEP was down at 16:05Z).

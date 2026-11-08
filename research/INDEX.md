@@ -793,7 +793,7 @@ Notes:
 `tw-mi-galien-swem-pot-of-gold-1896` · grade C · Berrien Co., MI
 
 Notes:
-- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L668) (line 668)
+- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L666) (line 666)
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L148) (line 148)
 - [ancestry/list9-probate-census.md](ancestry/list9-probate-census.md#L11) (line 11)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L49) (line 49)
@@ -1518,9 +1518,9 @@ Also mentions the place: [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L10
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L231) (line 231)
 
 Notes:
-- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L187) (line 187)
+- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L28) (line 28)
 - [newspapers-com/placement-gaps-list.md](newspapers-com/placement-gaps-list.md#L39) (line 39)
-- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L106) (line 106)
+- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L20) (line 20)
 - [newspapers-com/ia-il-second-source.md](newspapers-com/ia-il-second-source.md#L123) (line 123)
 - [genealogybank/gb-list1.md](genealogybank/gb-list1.md#L31) (line 31)
 - [ancestry/list12-dates.md](ancestry/list12-dates.md#L6) (line 6)
@@ -2280,7 +2280,7 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L17) (line 17)
 Notes:
 - [negatives.tsv](negatives.tsv#L21) (line 21)
 
-Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L581) (line 581); [newspapers-com/pc-a-batch3-results.md](newspapers-com/pc-a-batch3-results.md#L119) (line 119); [newspapers-com/court-probate-asks.md](newspapers-com/court-probate-asks.md#L24) (line 24); [newspapers-com/field-notes-barron.md](newspapers-com/field-notes-barron.md#L174) (line 174); [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L3) (line 3); [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L269) (line 269); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L110) (line 110); [genealogybank/gaps.md](genealogybank/gaps.md#L12) (line 12); [genealogybank/gb-list1.md](genealogybank/gb-list1.md#L29) (line 29); [ia-il/README.md](ia-il/README.md#L13) (line 13); [ia-il/iowa-town-leads-plats.md](ia-il/iowa-town-leads-plats.md#L18) (line 18); [jstor/jstor-list1.md](jstor/jstor-list1.md#L15) (line 15); [ancestry/list27.md](ancestry/list27.md#L29) (line 29); [ancestry/list26.md](ancestry/list26.md#L3) (line 3); [ancestry/list25.md](ancestry/list25.md#L85) (line 85); [ancestry/land-ownership-maps-list8.md](ancestry/land-ownership-maps-list8.md#L28) (line 28); [ancestry/INDEX.md](ancestry/INDEX.md#L66) (line 66); [forums/treasurenet-list1.md](forums/treasurenet-list1.md#L21) (line 21); [county-depth/se-wi-histories/washington-ozaukee-1880s.md](county-depth/se-wi-histories/washington-ozaukee-1880s.md#L89) (line 89); [plats/placement-gaps-pass.md](plats/placement-gaps-pass.md#L14) (line 14); [plats/sanborn-aitkin-niles.md](plats/sanborn-aitkin-niles.md#L13) (line 13); [sunday/sunday-list-2026-11-02.md](sunday/sunday-list-2026-11-02.md#L11) (line 11); `/mnt/project-files/research/court-records/newspapers-com-asks.md` line 6 (shared folder only); `/mnt/project-files/research/treasure-statewide/leads-mi.tsv` line 6 (shared folder only); `/mnt/project-files/research/treasure-statewide/pc-newspapers-second-sources.md` line 11 (shared folder only); `/mnt/project-files/research/treasure-statewide/ground-fix/wi-batch1-fixes.md` line 7 (shared folder only)
+Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L581) (line 581); [newspapers-com/pc-a-batch3-results.md](newspapers-com/pc-a-batch3-results.md#L119) (line 119); [newspapers-com/court-probate-asks.md](newspapers-com/court-probate-asks.md#L24) (line 24); [newspapers-com/field-notes-barron.md](newspapers-com/field-notes-barron.md#L174) (line 174); [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L3) (line 3); [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L269) (line 269); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L110) (line 110); [genealogybank/gaps.md](genealogybank/gaps.md#L12) (line 12); [genealogybank/gb-list1.md](genealogybank/gb-list1.md#L29) (line 29); [ia-il/README.md](ia-il/README.md#L13) (line 13); [ia-il/iowa-town-leads-plats.md](ia-il/iowa-town-leads-plats.md#L18) (line 18); [jstor/jstor-list1.md](jstor/jstor-list1.md#L15) (line 15); [ancestry/list27.md](ancestry/list27.md#L29) (line 29); [ancestry/list31.md](ancestry/list31.md#L38) (line 38); [ancestry/list26.md](ancestry/list26.md#L3) (line 3); [ancestry/list25.md](ancestry/list25.md#L85) (line 85); [ancestry/land-ownership-maps-list8.md](ancestry/land-ownership-maps-list8.md#L28) (line 28); [ancestry/INDEX.md](ancestry/INDEX.md#L66) (line 66); [forums/treasurenet-list1.md](forums/treasurenet-list1.md#L21) (line 21); [county-depth/se-wi-histories/washington-ozaukee-1880s.md](county-depth/se-wi-histories/washington-ozaukee-1880s.md#L89) (line 89); [plats/placement-gaps-pass.md](plats/placement-gaps-pass.md#L14) (line 14); [plats/sanborn-aitkin-niles.md](plats/sanborn-aitkin-niles.md#L13) (line 13); [sunday/sunday-list-2026-11-02.md](sunday/sunday-list-2026-11-02.md#L11) (line 11); `/mnt/project-files/research/court-records/newspapers-com-asks.md` line 6 (shared folder only); `/mnt/project-files/research/treasure-statewide/leads-mi.tsv` line 6 (shared folder only); `/mnt/project-files/research/treasure-statewide/pc-newspapers-second-sources.md` line 11 (shared folder only); `/mnt/project-files/research/treasure-statewide/ground-fix/wi-batch1-fixes.md` line 7 (shared folder only)
 
 ### George Vollmer's money in the walls, Stillwater
 `tw-vollmer-hoard-1899` · grade E · Washington Co., MN
@@ -2856,8 +2856,9 @@ Also mentions the place: [negatives.tsv](negatives.tsv#L45) (line 45); [plats/wa
 
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L335) (line 335)
 
-
-Also mentions the place: [ancestry/list31.md](ancestry/list31.md#L32) (line 32)
+Notes:
+- [ancestry/list31.md](ancestry/list31.md#L41) (line 41)
+- [ancestry/INDEX.md](ancestry/INDEX.md#L72) (line 72)
 
 ### Civil War soldier's coins under the old granary, D. K. Smalling farm (found 1904)
 `tw-ia-cedar-falls-smalling-crib-1904` · grade F · Black Hawk Co., IA
@@ -2967,7 +2968,7 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L253) (line 253)
 
 Notes:
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L397) (line 397)
-- [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L55) (line 55)
+- [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L48) (line 48)
 - [ancestry/list25.md](ancestry/list25.md#L118) (line 118)
 - [plats/van-arsdale-alamo.md](plats/van-arsdale-alamo.md#L1) (line 1)
 - [plats/INDEX.md](plats/INDEX.md#L55) (line 55)
@@ -3208,7 +3209,7 @@ Notes:
 - [ancestry/list16.md](ancestry/list16.md#L38) (line 38)
 - [clippings/README.md](clippings/README.md#L3) (line 3)
 
-Also mentions the place: [newspapers-com/county-coverage-wi-mi-chronam.tsv](newspapers-com/county-coverage-wi-mi-chronam.tsv#L24) (line 24); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L118) (line 118); [newspapers-com/county-coverage.tsv](newspapers-com/county-coverage.tsv#L23) (line 23)
+Also mentions the place: [newspapers-com/county-coverage-wi-mi-chronam.tsv](newspapers-com/county-coverage-wi-mi-chronam.tsv#L24) (line 24); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L71) (line 71); [newspapers-com/county-coverage.tsv](newspapers-com/county-coverage.tsv#L23) (line 23)
 
 ### Rechenberg's jar of mildewed bills, Dodd Road farm, Mendota Heights (found 1924)
 `tw-mn-west-st-paul-rechenberg-jar-1924` · grade F · Dakota Co., MN
