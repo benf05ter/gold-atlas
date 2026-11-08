@@ -46,3 +46,14 @@
 
 ### No usable hits
 Annals of Iowa (35 vols), Minnesota History (25), most Wis. Mag. Hist. vols, Ill. St. Hist. Soc. (the Cave-in-Rock / S IL items are out of region).
+
+## Addendum (2nd pass)
+- **#3 BIGELOW / Riverside (Clinton 1874, viewer p.6 of 41, image 31617_072141-00720, Clinton City plate, atlas pp.8-9):**
+  - **"RIVERSIDE" is the N-end addition of Clinton City along the Mississippi**, upstream toward Lyons (Lyons Chute 41.888,-90.170), with the slough and RR along it.
+  - The Davis lime-kiln and the Mill Creek bridge were not legible at the overview zoom. Mill Creek's OSM point is 41.868,-90.233 (inland, Hampshire Twp), so the "Mill Creek bridge" of the 1840s road was nearer the river mouth.
+  - **Lead: the Riverside addition, N Clinton, about 41.87-41.88,-90.18 (river side), D.** Section not read; the plate is upside-down relative to N.
+- **#7 NEW BALTIMORE (Macomb 1916, viewer p.16 of 92, image 31617_072122-00811):**
+  - The New Baltimore village plat shows the French private-claim ribbon farms **P.C. 343 (W side, Hooker/Reinecke/Walter) and P.C. 614 (N, Heineman & Friday)**, Ashley's Additions, two cemeteries on the NW edge, and William Baker's land with a stream.
+  - **No creek is named** on this sheet. The Marsac claim number was not found (it is likely one of the Chesterfield P.C. tracts W of the village). Not resolved.
+- **#4 / #5:** nothing new (no plats online).
+- **Journals not covered:** MI Pioneer & Historical Collections vols. 4-40; WPA state guides (archive.org search returned 1 id, which errored).
