@@ -73,3 +73,21 @@
 - This matches the Des Moines Register 1922-01-08 note (homestead "about a mile east of Leland", gold in an old shed).
 - **BLM: sec 1 T98N R24W = 43.3280-43.3423 N, -93.6370 to -93.6171 W** (Leland's geocode 43.337,-93.635 is on its W edge).
 - **Pin: E. F. Branstad 120, E½ sec 1, about 43.335,-93.622, r300, B.**
+
+## #6 LYONS village (Ionia 1906 Standard Atlas, archive.org 2933873.0001.001.umich.edu, leaf 72): DAM PLACED
+- The "Lyons" village plat, read at full resolution, shows the **Grand River with an island; the South / Bridge St bridge crossing to the W bank (W. Water St); and a DAM just S (downstream) of the bridge.**
+- **Mill race / works:** a mill race canal, "Mills Mfg Co.", "Hydraulic" and "Ball's Add." lots between the canal and the TAIL RACE on the E side. R. P. De[an?] land is across the river N.
+- The 1881 text puts the counterfeiters' dies "in the river". The obvious place is the Bridge St crossing and dam reach.
+- **Pin: Grand River at the Bridge St bridge / dam, Lyons, about 42.981,-84.950 (OSM "Lyons Dam" access 42.9814,-84.9492), r200, D.**
+- **#6 Smyrna / Otisco:** the 1906 and 1891 umich atlases have no OCR hit for "Otisco" or "Smyrna" (poor OCR). The Otisco plate was not located by eye in the time box. Smyrna village is at 43.0595,-85.2628. Not done.
+
+## #20 PATTERSON timber (Madison 1912 Crawford plate, re-check of list38 crops)
+- A stream ("Middle" River, labelled in sec 34) runs E-W just S of the railroad through secs 31-34, passing below Patterson.
+- The **R. F. Stout 65.37 (N sec 31) and C. A. Stout 40 (NW sec 32)** tracts sit between the RR / village and that stream: bottomland that is a natural sugar-maple / timber setting.
+- No timber shading is drawn on the 1912 plate. The 1930s ortho was not checked.
+- Pin unchanged (Treasure: sec 31/32 line, C).
+
+## #1 Sauk Bogus Camp, #2 Clayton Monona, #3 Kammeyer: NOT DONE
+- #1: the WHS Hixson Franklin sheet id is still unknown.
+- #2: the 1886 Clayton plates are out of order.
+- #3: there is no DuPage atlas in 1127 or on archive.org.
