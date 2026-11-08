@@ -55,3 +55,35 @@
   - **1.5 mi E of Livermore = secs 16/15.** Owners: Eber Stone Est. (101.50, 102), Luke Dunphy, Frank McGuire, Michael Melavin, Lucy A. Stone, Fannie L. Collins 240 and A. D. Hunt (sec 16-15). Nelson Ells, J. W. Wilson and George Tillson are E of them.
   - **No Johnson** on the 1896 plate near Livermore. **No "Bloody Run" label** (the Des Moines River runs through Livermore; small runs to its E are unnamed).
 - The 1857 Johnson cabin predates the plat by about 40 years. The GLO patent (#11 GLO part) is the remaining route. Not placed.
+
+## 14. Adsit, Magnetic Ave (Cherokee IA): numbering consistent (LoC Sanborn 1914)
+- **LoC Sanborn Cherokee, Nov/Dec 1914 (sanborn02602_006), sheet 1 (02602_1914-0001).** The street index reads "Magnetic Ave., 400-410, *1" (the * means one side only).
+- **Sheet 1 inset: Magnetic Av. between N. Roosevelt (W) and Webster (E), N side only.** The N frontage has **no. 400 (dwelling) and 402 (Cherokee Cancer Sanitarium)**, with the Webster Public School behind on Ward & Whitmore's Subdivision of Out Lot 75.
+  - **The S side (odd numbers, incl. 413) is not drawn**: "scattered fr. D's beyond".
+- So in 1914 the 400 block of Magnetic Ave began at N. Roosevelt St, the same block layout as today. The 1915 "413 Magnetic Ave" is on the **S side, in the block E of Roosevelt** toward Webster, opposite the school and sanitarium. **No sign of renumbering;** the OSM point for 413 (42.7530,-95.5439) is accepted. The lot shape is not available (S side unmapped).
+- Pin stays: 42.7530, -95.5439, r40, B, look-only.
+
+## 4. Port Sheldon / Ottawa House: partial
+- Ancestry 1127 has only Ottawa 1912. **archive.org has the 1876 *Illustrated Historical Atlas of the Counties of Ottawa & Kent* (3927947.0001.001.umich.edu) and the 1897 *Standard Atlas of Ottawa Co.* (5117729.0001.001.umich.edu).**
+- The 1876 Olive Twp history (OCR, about leaf 41) says: "between Black Lake in Holland township and the mouth of Pigeon river, **known as Port Sheldon**, the sand ridges are not generally so high..." So in 1876 Port Sheldon lay in **Olive Twp** (Port Sheldon Twp was organised later). The TOC lists "Olive Township" plate at printed p.XL.
+  - The 1876 county patrons lists are leaves 43-46.
+  - The plate leaf was **not reached**: archive.org stopped serving page images during a thumbnail sweep (blank tiles), so I paused rather than retry hard.
+- Next: find the Olive plate leaf (1876) and/or the 1897 Olive/Port Sheldon plate; look for the hotel lot / "Ottawa House" at the head of Pigeon Lake.
+
+## 1 / 11 (GLO patents): not run
+- The BLM GLO Records site was redesigned and has no URL search (noted 2026-11-0x), and it needs interactive form clicks. Skipped under the view-only rules. **Sunday list:** Reinhart/Reinhardt patents in T111-112N R25-26W (Le Sueur); Johnson patents in T93N R28W (Livermore).
+
+## 13. Hyde Park (Des Moines) / 16. Camden (Itasca): no plat in 1127
+- Ancestry 1127 lists **no Polk Co IA and no Itasca Co MN atlas.** Not run.
+
+## 9. Smalley, McBain (Missaukee Co MI): no Smalley on the 1906 village plat
+- Ancestry 1127, Missaukee 1906 (Ogle; TOC: McBain plat p.47, Riverside Twp p.35). **McBain ("formerly Owens"), Riverside Twp: viewer p.25 of 57 (image 31617_072123-00358).** Read at 2x.
+  - The plat shows lot numbers only for the village blocks: Original Town, J. McBain's First Add., G. & J. McBain's Add., A. Phillips' Add., S. Lodewyk's Add. and Cromwell Lumber Co.'s Add.
+  - The edge acreage is held by F. J. Symes, T. Smith, F. Hughes, Frank Hughes, John Hess, K. D. Hamming and Cromwell Lumber Co. Also shown: a Holland church, a grist mill and a P.O.
+  - **No Smalley.** The 1895 house was most likely a village lot, which 1906 plats don't label by owner.
+- Not placed. The 1894 MI state census is not on Ancestry for Missaukee (not checked). Low priority, as the card says.
+
+## 3 / 5 / 15 (low): not done
+- #3 Ingram: Ancestry 1127 Iowa Co has only 1874/1886/1917 (all read or checked in list28); no 1900/1909.
+- #5 Ackerman: no other Johnson Co IA atlas in 1127 besides the mislabelled 1900 set and 1889 (not opened).
+- #15 Racine K of C hall: not run (directory images needed).

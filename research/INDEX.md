@@ -354,13 +354,14 @@ Notes:
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L181) (line 181)
 - [newspapers-com/ia-il-second-source.md](newspapers-com/ia-il-second-source.md#L124) (line 124)
 - [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L157) (line 157)
+- [ancestry/INDEX.md](ancestry/INDEX.md#L70) (line 70)
 - [plats/camden-park-itasca.md](plats/camden-park-itasca.md#L1) (line 1)
 - `/mnt/project-files/research/treasure-statewide/leads-mn.tsv` line 8 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md` line 26 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/pc-b-plat-queue-2026-11-01.md` line 15 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/persons.tsv` line 93 (shared folder only)
 
-Also mentions the place: [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L20) (line 20); [plats/placement-gaps-pass.md](plats/placement-gaps-pass.md#L61) (line 61); [plats/INDEX.md](plats/INDEX.md#L65) (line 65)
+Also mentions the place: [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L20) (line 20); [ancestry/list29.md](ancestry/list29.md#L76) (line 76); [plats/placement-gaps-pass.md](plats/placement-gaps-pass.md#L61) (line 61); [plats/INDEX.md](plats/INDEX.md#L65) (line 65)
 
 ### Chief John Wabasis' kettle of treaty money, creek between Little Wabasis and Wabasis lakes
 `tw-mi-wabasis-lake-gold` · grade C · Kent Co., MI
@@ -786,7 +787,7 @@ Notes:
 `tw-mi-galien-swem-pot-of-gold-1896` · grade C · Berrien Co., MI
 
 Notes:
-- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L666) (line 666)
+- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L668) (line 668)
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L148) (line 148)
 - [ancestry/list9-probate-census.md](ancestry/list9-probate-census.md#L11) (line 11)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L49) (line 49)
@@ -1368,7 +1369,7 @@ Notes:
 - `/mnt/project-files/research/treasure-statewide/pc-newspapers-second-sources.md` line 30 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/persons.tsv` line 100 (shared folder only)
 
-Also mentions the place: [ancestry/list28.md](ancestry/list28.md#L12) (line 12); [ancestry/list26.md](ancestry/list26.md#L105) (line 105)
+Also mentions the place: [ancestry/list28.md](ancestry/list28.md#L12) (line 12); [ancestry/list26.md](ancestry/list26.md#L105) (line 105); [ancestry/list29.md](ancestry/list29.md#L74) (line 74)
 
 ### Gold from a Chicago bank in the 1871 fire, North Manitou Island
 `tw-mi-north-manitou-chicago-fire-gold` · grade D · Leelanau Co., MI
@@ -1510,9 +1511,9 @@ Also mentions the place: [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L10
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L231) (line 231)
 
 Notes:
-- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L28) (line 28)
+- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L187) (line 187)
 - [newspapers-com/placement-gaps-list.md](newspapers-com/placement-gaps-list.md#L39) (line 39)
-- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L20) (line 20)
+- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L106) (line 106)
 - [newspapers-com/ia-il-second-source.md](newspapers-com/ia-il-second-source.md#L123) (line 123)
 - [genealogybank/gb-list1.md](genealogybank/gb-list1.md#L31) (line 31)
 - [ancestry/list12-dates.md](ancestry/list12-dates.md#L6) (line 6)
@@ -1740,7 +1741,7 @@ Also mentions the place: [newspapers-com/ia-il-second-source.md](newspapers-com/
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L313) (line 313)
 
 
-Also mentions the place: [ancestry/list27.md](ancestry/list27.md#L3) (line 3); [ancestry/list28.md](ancestry/list28.md#L86) (line 86); [ancestry/list26.md](ancestry/list26.md#L143) (line 143); [ancestry/INDEX.md](ancestry/INDEX.md#L27) (line 27)
+Also mentions the place: [ancestry/list27.md](ancestry/list27.md#L3) (line 3); [ancestry/list28.md](ancestry/list28.md#L86) (line 86); [ancestry/list26.md](ancestry/list26.md#L143) (line 143); [ancestry/INDEX.md](ancestry/INDEX.md#L27) (line 27); [ancestry/list29.md](ancestry/list29.md#L59) (line 59)
 
 ### North Fox Island: German land-payment gold (1850 legend) and the 1905 hoax find
 `tw-mi-north-fox-german-gold` · grade D · Leelanau Co., MI
@@ -2044,11 +2045,12 @@ Also mentions the place: [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L60
 `tw-mi-port-sheldon-capitalist-money` · grade D · Ottawa Co., MI
 
 Notes:
+- [ancestry/INDEX.md](ancestry/INDEX.md#L70) (line 70)
 - [ancestry/list24.md](ancestry/list24.md#L54) (line 54)
 - [ancestry/list29.md](ancestry/list29.md#L32) (line 32)
 - [ancestry/list23.md](ancestry/list23.md#L22) (line 22)
 
-Also mentions the place: [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L171) (line 171); [ancestry/INDEX.md](ancestry/INDEX.md#L65) (line 65)
+Also mentions the place: [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L171) (line 171)
 
 ### Train robbers’ money in a Homer cave
 `cr-homer-bandit-cave` · grade D · Winona Co., MN
@@ -2994,7 +2996,7 @@ Notes:
 - `/mnt/project-files/research/treasure-statewide/pc-read-list.md` line 10 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/persons.tsv` line 88 (shared folder only)
 
-Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L450) (line 450); [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L20) (line 20); [newspapers-com/ia-il-second-source.md](newspapers-com/ia-il-second-source.md#L117) (line 117); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L158) (line 158); [ancestry/list25.md](ancestry/list25.md#L156) (line 156); [plats/placement-gaps-pass.md](plats/placement-gaps-pass.md#L61) (line 61); [plats/camden-park-itasca.md](plats/camden-park-itasca.md#L5) (line 5); `/mnt/project-files/research/treasure-statewide/pc-b-plat-queue-2026-11-01.md` line 15 (shared folder only)
+Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L450) (line 450); [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L20) (line 20); [newspapers-com/ia-il-second-source.md](newspapers-com/ia-il-second-source.md#L117) (line 117); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L158) (line 158); [ancestry/list25.md](ancestry/list25.md#L156) (line 156); [ancestry/INDEX.md](ancestry/INDEX.md#L69) (line 69); [plats/placement-gaps-pass.md](plats/placement-gaps-pass.md#L61) (line 61); [plats/camden-park-itasca.md](plats/camden-park-itasca.md#L5) (line 5); `/mnt/project-files/research/treasure-statewide/pc-b-plat-queue-2026-11-01.md` line 15 (shared folder only)
 
 ### Jar of gold under the old barn sill, Schultz farm SW of Deerfield (found 1920)
 `tw-il-deerfield-schulz-jar-1920` · grade F · Lake Co., IL
@@ -3173,7 +3175,7 @@ Notes:
 - [ancestry/list16.md](ancestry/list16.md#L38) (line 38)
 - [clippings/README.md](clippings/README.md#L3) (line 3)
 
-Also mentions the place: [newspapers-com/county-coverage-wi-mi-chronam.tsv](newspapers-com/county-coverage-wi-mi-chronam.tsv#L24) (line 24); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L118) (line 118); [newspapers-com/county-coverage.tsv](newspapers-com/county-coverage.tsv#L23) (line 23)
+Also mentions the place: [newspapers-com/county-coverage-wi-mi-chronam.tsv](newspapers-com/county-coverage-wi-mi-chronam.tsv#L24) (line 24); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L71) (line 71); [newspapers-com/county-coverage.tsv](newspapers-com/county-coverage.tsv#L23) (line 23)
 
 ### Rechenberg's jar of mildewed bills, Dodd Road farm, Mendota Heights (found 1924)
 `tw-mn-west-st-paul-rechenberg-jar-1924` · grade F · Dakota Co., MN
@@ -3330,9 +3332,14 @@ Also mentions the place: [newspapers-com/ia-il-sweep.md](newspapers-com/ia-il-sw
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L365) (line 365)
 
 Notes:
+- [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L306) (line 306)
+- [ancestry/INDEX.md](ancestry/INDEX.md#L70) (line 70)
+- [ancestry/list29.md](ancestry/list29.md#L79) (line 79)
 - `/mnt/project-files/research/treasure-statewide/leads-mi.tsv` line 35 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/persons.tsv` line 52 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/ground-fix/batch2-fixes.md` line 7 (shared folder only)
+
+Also mentions the place: [plats/larson-missaukee-mi.md](plats/larson-missaukee-mi.md#L4) (line 4)
 
 ### Treasure Cave, Wyalusing State Park
 `gwl-wyalusing-treasure-cave` · grade F · Grant Co., WI
