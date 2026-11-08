@@ -231,6 +231,7 @@ Notes:
 - [newspapers-com/list18.md](newspapers-com/list18.md#L14) (line 14)
 - [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L165) (line 165)
 - [ancestry/list28.md](ancestry/list28.md#L34) (line 34)
+- [ancestry/list31.md](ancestry/list31.md#L20) (line 20)
 - [ancestry/land-ownership-maps-list8.md](ancestry/land-ownership-maps-list8.md#L37) (line 37)
 - [ancestry/trombler-jacobson-otter-tail.md](ancestry/trombler-jacobson-otter-tail.md#L1) (line 1)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L41) (line 41)
@@ -635,7 +636,7 @@ Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L307) (line 307)
 
 
-Also mentions the place: [ia-il/README.md](ia-il/README.md#L13) (line 13); [ancestry/list11-probate-census.md](ancestry/list11-probate-census.md#L9) (line 9); [ancestry/INDEX.md](ancestry/INDEX.md#L27) (line 27)
+Also mentions the place: [ia-il/README.md](ia-il/README.md#L13) (line 13); [ancestry/list11-probate-census.md](ancestry/list11-probate-census.md#L9) (line 9); [ancestry/list31.md](ancestry/list31.md#L22) (line 22); [ancestry/INDEX.md](ancestry/INDEX.md#L27) (line 27)
 
 ### Lemuel Hill’s miser hoard, Pleasant Hill township
 `cr-lemuel-hill-hoard-1906` · grade C · Winona Co., MN
@@ -785,7 +786,7 @@ Notes:
 - [ancestry/list20.md](ancestry/list20.md#L25) (line 25)
 - [ancestry/list18.md](ancestry/list18.md#L53) (line 53)
 - [ancestry/list19.md](ancestry/list19.md#L54) (line 54)
-- [ancestry/INDEX.md](ancestry/INDEX.md#L60) (line 60)
+- [ancestry/INDEX.md](ancestry/INDEX.md#L64) (line 64)
 - [ancestry/list23.md](ancestry/list23.md#L72) (line 72)
 
 ### Pot-of-gold dig on the Swem farm, Galien (1896)
@@ -1375,7 +1376,7 @@ Notes:
 - `/mnt/project-files/research/treasure-statewide/pc-newspapers-second-sources.md` line 30 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/persons.tsv` line 100 (shared folder only)
 
-Also mentions the place: [ancestry/list28.md](ancestry/list28.md#L12) (line 12); [ancestry/list26.md](ancestry/list26.md#L105) (line 105); [ancestry/list29.md](ancestry/list29.md#L74) (line 74)
+Also mentions the place: [ancestry/list28.md](ancestry/list28.md#L12) (line 12); [ancestry/list31.md](ancestry/list31.md#L12) (line 12); [ancestry/list26.md](ancestry/list26.md#L105) (line 105); [ancestry/list29.md](ancestry/list29.md#L74) (line 74)
 
 ### Gold from a Chicago bank in the 1871 fire, North Manitou Island
 `tw-mi-north-manitou-chicago-fire-gold` · grade D · Leelanau Co., MI
@@ -1405,7 +1406,7 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L171) (line 171)
 Notes:
 - [negatives.tsv](negatives.tsv#L57) (line 57)
 
-Also mentions the place: [newspapers-com/field-notes-barron.md](newspapers-com/field-notes-barron.md#L220) (line 220); [plats/INDEX.md](plats/INDEX.md#L85) (line 85); [plats/hwi-aldrich-coulee-road.md](plats/hwi-aldrich-coulee-road.md#L1) (line 1)
+Also mentions the place: [newspapers-com/field-notes-barron.md](newspapers-com/field-notes-barron.md#L220) (line 220); [ancestry/list31.md](ancestry/list31.md#L32) (line 32); [plats/INDEX.md](plats/INDEX.md#L85) (line 85); [plats/hwi-aldrich-coulee-road.md](plats/hwi-aldrich-coulee-road.md#L1) (line 1)
 
 ### Harry Laker's tin cans of savings, Homer
 `tw-mi-homer-laker-cans-1896` · grade D · Calhoun Co., MI
@@ -1578,7 +1579,7 @@ Notes:
 - [ancestry/list19.md](ancestry/list19.md#L40) (line 40)
 - [sunday/sunday-list-2026-11-02.md](sunday/sunday-list-2026-11-02.md#L7) (line 7)
 
-Also mentions the place: [ia-il/README.md](ia-il/README.md#L52) (line 52); [ancestry/INDEX.md](ancestry/INDEX.md#L60) (line 60)
+Also mentions the place: [ia-il/README.md](ia-il/README.md#L52) (line 52); [ancestry/list31.md](ancestry/list31.md#L32) (line 32); [ancestry/INDEX.md](ancestry/INDEX.md#L60) (line 60)
 
 ### Joe Blackburn's missing money, trading post southeast of Gordon
 `tw-blackburn-gordon-1897` · grade D · Douglas Co., WI
@@ -2797,10 +2798,11 @@ Also mentions the place: [leads.tsv](leads.tsv#L5) (line 5); [newspapers-com/sec
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L260) (line 260)
 
 Notes:
+- [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L63) (line 63)
+- [ancestry/list31.md](ancestry/list31.md#L8) (line 8)
+- [ancestry/INDEX.md](ancestry/INDEX.md#L72) (line 72)
 - `/mnt/project-files/research/treasure-statewide/leads-mi.tsv` line 30 (shared folder only)
 - `/mnt/project-files/research/treasure-statewide/persons.tsv` line 46 (shared folder only)
-
-Also mentions the place: [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L9) (line 9)
 
 ### Andy Dickson's buried gold, farm NW of Palmyra
 `tw-ia-palmyra-dickson-farm-1909` · grade F · Warren Co., IA
@@ -2848,6 +2850,14 @@ Notes:
 - `/mnt/project-files/research/treasure-statewide/leads-wi.tsv` line 20 (shared folder only)
 
 Also mentions the place: [negatives.tsv](negatives.tsv#L45) (line 45); [plats/wabeno-athelstane.md](plats/wabeno-athelstane.md#L12) (line 12); `/mnt/project-files/research/court-records/pin-records-check.tsv` line 23 (shared folder only); `/mnt/project-files/research/treasure-statewide/pc-newspapers-second-sources.md` line 8 (shared folder only)
+
+### CCC worker's tin box of old bills in the Kammeyer grist mill wall, Fullersburg
+`tw-il-fullersburg-kammeyer-mill-1934` · grade F · DuPage Co., IL
+
+Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L335) (line 335)
+
+
+Also mentions the place: [ancestry/list31.md](ancestry/list31.md#L32) (line 32)
 
 ### Civil War soldier's coins under the old granary, D. K. Smalling farm (found 1904)
 `tw-ia-cedar-falls-smalling-crib-1904` · grade F · Black Hawk Co., IA
@@ -2921,6 +2931,7 @@ Notes:
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L863) (line 863)
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L155) (line 155)
 - [ancestry/list27.md](ancestry/list27.md#L69) (line 69)
+- [ancestry/list31.md](ancestry/list31.md#L28) (line 28)
 - [ancestry/list14.md](ancestry/list14.md#L32) (line 32)
 - [ancestry/list19.md](ancestry/list19.md#L83) (line 83)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L55) (line 55)
@@ -2956,7 +2967,7 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L253) (line 253)
 
 Notes:
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L397) (line 397)
-- [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L48) (line 48)
+- [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L55) (line 55)
 - [ancestry/list25.md](ancestry/list25.md#L118) (line 118)
 - [plats/van-arsdale-alamo.md](plats/van-arsdale-alamo.md#L1) (line 1)
 - [plats/INDEX.md](plats/INDEX.md#L55) (line 55)
@@ -3025,6 +3036,7 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L333) (line 333)
 
 Notes:
 - [ancestry/list30.md](ancestry/list30.md#L13) (line 13)
+- [ancestry/list31.md](ancestry/list31.md#L26) (line 26)
 - [ancestry/list25.md](ancestry/list25.md#L174) (line 174)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L66) (line 66)
 - [plats/schultz-spencer-brook-isanti.md](plats/schultz-spencer-brook-isanti.md#L8) (line 8)
@@ -3397,5 +3409,5 @@ Notes:
 
 Also mentions the place: [newspapers-com/pc-a-batch3-results.md](newspapers-com/pc-a-batch3-results.md#L54) (line 54); [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L140) (line 140)
 
-No research notes yet: "Frank James's ghost" digging around Silver Lake near Casey (`tw-ia-silver-lake-ghost-1889`); CCC worker's tin box of old bills in the Kammeyer grist mill wall, Fullersburg (`tw-il-fullersburg-kammeyer-mill-1934`); Whiskey Hollow hold-up of Rock Island No. 11, south of Muscatine (`tw-ia-whiskey-hollow-train-1910`)
+No research notes yet: "Frank James's ghost" digging around Silver Lake near Casey (`tw-ia-silver-lake-ghost-1889`); Whiskey Hollow hold-up of Rock Island No. 11, south of Muscatine (`tw-ia-whiskey-hollow-train-1910`)
 
