@@ -152,9 +152,9 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L362) (line 362)
 Notes:
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L779) (line 779)
 - [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L128) (line 128)
-- [newspapers-com/ia-il-sweep.md](newspapers-com/ia-il-sweep.md#L35) (line 35)
+- [newspapers-com/ia-il-sweep.md](newspapers-com/ia-il-sweep.md#L42) (line 42)
 - [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L22) (line 22)
-- [ancestry/list12-dates.md](ancestry/list12-dates.md#L32) (line 32)
+- [ancestry/list12-dates.md](ancestry/list12-dates.md#L35) (line 35)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L52) (line 52)
 - [plats/hession-humboldt.md](plats/hession-humboldt.md#L1) (line 1)
 
@@ -663,6 +663,7 @@ Notes:
 - [ancestry/list12-dates.md](ancestry/list12-dates.md#L27) (line 27)
 - [ancestry/list10-probate-census.md](ancestry/list10-probate-census.md#L22) (line 22)
 - [ancestry/list11-probate-census.md](ancestry/list11-probate-census.md#L24) (line 24)
+- [ancestry/list41.md](ancestry/list41.md#L6) (line 6)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L50) (line 50)
 - [ancestry/iowa-batch-ogle-iwers-webster.md](ancestry/iowa-batch-ogle-iwers-webster.md#L1) (line 1)
 - [ancestry/list23.md](ancestry/list23.md#L57) (line 57)
@@ -1298,13 +1299,14 @@ Also mentions the place: [negatives.tsv](negatives.tsv#L138) (line 138); [newspa
 `tw-il-inlet-grove-bliss-tavern` · grade D · Lee Co., IL
 
 
-Also mentions the place: [ancestry/list37.md](ancestry/list37.md#L30) (line 30)
+Also mentions the place: [ancestry/list41.md](ancestry/list41.md#L27) (line 27); [ancestry/list37.md](ancestry/list37.md#L30) (line 30)
 
 ### Bogus Corners, the counterfeiters' crossroads, Lyon Twp
 `tw-mi-lyon-bogus-corners` · grade D · Oakland Co., MI
 
 Notes:
 - [ancestry/list39.md](ancestry/list39.md#L5) (line 5)
+- [ancestry/list41.md](ancestry/list41.md#L22) (line 22)
 - [ancestry/list37.md](ancestry/list37.md#L14) (line 14)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L78) (line 78)
 
@@ -1424,6 +1426,7 @@ Also mentions the place: [newspapers-com/field-notes-barron.md](newspapers-com/f
 Notes:
 - [ancestry/list34.md](ancestry/list34.md#L33) (line 33)
 - [ancestry/list40.md](ancestry/list40.md#L37) (line 37)
+- [ancestry/list41.md](ancestry/list41.md#L25) (line 25)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L75) (line 75)
 
 Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L450) (line 450); [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L106) (line 106); [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L5) (line 5); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L192) (line 192); [newspapers-com/mi-gap-counties.txt](newspapers-com/mi-gap-counties.txt#L3) (line 3); [genealogybank/gaps.md](genealogybank/gaps.md#L15) (line 15); [genealogybank/gb-list1.md](genealogybank/gb-list1.md#L31) (line 31); [ancestry/list35.md](ancestry/list35.md#L83) (line 83); [ancestry/list36.md](ancestry/list36.md#L46) (line 46); [ancestry/list24.md](ancestry/list24.md#L35) (line 35); [fairgrounds/mi-early-fairs.md](fairgrounds/mi-early-fairs.md#L18) (line 18); `/mnt/project-files/research/treasure-statewide/leads-mi.tsv` line 18 (shared folder only); `/mnt/project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md` line 26 (shared folder only)
@@ -1466,6 +1469,7 @@ Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc
 `tw-mi-new-baltimore-officer-bullion` · grade D · Macomb Co., MI
 
 Notes:
+- [ancestry/list41.md](ancestry/list41.md#L28) (line 28)
 - [ancestry/list37.md](ancestry/list37.md#L11) (line 11)
 
 Also mentions the place: [ancestry/INDEX.md](ancestry/INDEX.md#L78) (line 78)
@@ -1503,7 +1507,7 @@ Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc
 Notes:
 - [county-depth/se-wi-histories/jefferson-1880s.md](county-depth/se-wi-histories/jefferson-1880s.md#L1) (line 1)
 
-Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L572) (line 572); [newspapers-com/court-probate-asks.md](newspapers-com/court-probate-asks.md#L12) (line 12); [ancestry/list39.md](ancestry/list39.md#L51) (line 51); `/mnt/project-files/research/treasure-statewide/leads-mn.tsv` line 23 (shared folder only); `/mnt/project-files/research/treasure-statewide/persons.tsv` line 142 (shared folder only)
+Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L572) (line 572); [newspapers-com/court-probate-asks.md](newspapers-com/court-probate-asks.md#L12) (line 12); [ancestry/list39.md](ancestry/list39.md#L51) (line 51); [ancestry/list41.md](ancestry/list41.md#L10) (line 10); [ancestry/INDEX.md](ancestry/INDEX.md#L82) (line 82); `/mnt/project-files/research/treasure-statewide/leads-mn.tsv` line 23 (shared folder only); `/mnt/project-files/research/treasure-statewide/persons.tsv` line 142 (shared folder only)
 
 ### George Gallup's gallows confession: $5,000 under a red oak, NW corner of section 16
 `tw-ia-washington-gallup-red-oak` · grade D · Washington Co., IA
@@ -1511,7 +1515,7 @@ Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L311) (line 311)
 
 
-Also mentions the place: [ia-il/iowa-town-leads-plats.md](ia-il/iowa-town-leads-plats.md#L19) (line 19); [ia-il/INDEX.md](ia-il/INDEX.md#L9) (line 9); [ancestry/list39.md](ancestry/list39.md#L42) (line 42); [ancestry/list40.md](ancestry/list40.md#L26) (line 26); [ancestry/land-ownership-maps-list7.md](ancestry/land-ownership-maps-list7.md#L22) (line 22); [ancestry/land-ownership-maps-list8.md](ancestry/land-ownership-maps-list8.md#L26) (line 26); [ancestry/INDEX.md](ancestry/INDEX.md#L27) (line 27); [sunday/sunday-list-2026-11-02.md](sunday/sunday-list-2026-11-02.md#L15) (line 15)
+Also mentions the place: [ia-il/iowa-town-leads-plats.md](ia-il/iowa-town-leads-plats.md#L19) (line 19); [ia-il/INDEX.md](ia-il/INDEX.md#L9) (line 9); [ancestry/list39.md](ancestry/list39.md#L42) (line 42); [ancestry/list40.md](ancestry/list40.md#L26) (line 26); [ancestry/list41.md](ancestry/list41.md#L3) (line 3); [ancestry/land-ownership-maps-list7.md](ancestry/land-ownership-maps-list7.md#L22) (line 22); [ancestry/land-ownership-maps-list8.md](ancestry/land-ownership-maps-list8.md#L26) (line 26); [ancestry/INDEX.md](ancestry/INDEX.md#L27) (line 27); [sunday/sunday-list-2026-11-02.md](sunday/sunday-list-2026-11-02.md#L15) (line 15)
 
 ### Gold coins in a white ash on the Millet farm, Lexington Twp (part found 1906; the 1858 Reinhart murder)
 `tw-mn-le-center-tree-gold-1906` · grade D · Le Sueur Co., MN
@@ -3015,6 +3019,7 @@ Also mentions the place: [negatives.tsv](negatives.tsv#L45) (line 45); [plats/wa
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L335) (line 335)
 
 Notes:
+- [ancestry/list41.md](ancestry/list41.md#L18) (line 18)
 - [ancestry/list31.md](ancestry/list31.md#L41) (line 41)
 - [ancestry/INDEX.md](ancestry/INDEX.md#L72) (line 72)
 
@@ -3132,7 +3137,7 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L253) (line 253)
 
 Notes:
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L397) (line 397)
-- [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L55) (line 55)
+- [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L48) (line 48)
 - [ancestry/list25.md](ancestry/list25.md#L118) (line 118)
 - [plats/van-arsdale-alamo.md](plats/van-arsdale-alamo.md#L1) (line 1)
 - [plats/INDEX.md](plats/INDEX.md#L55) (line 55)
