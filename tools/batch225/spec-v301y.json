@@ -1,0 +1,25 @@
+{
+ "new": [],
+ "edit": {
+  "tw-wi-rice-lake-stockade-trader-cash-1880": {
+   "set": {
+    "st": "A Menomonie paper of December 1880 described the remains of an old French stockade on a rise overlooking Rice Lake and its outlet, at a spot the Indians called Pocagama, said to have been the post of a fur trader named August Corot (printed 'Borot' in the reprint), killed there by the Sioux about a century before. Barron County settlers had dug into the earth in several places nearby for the murdered Frenchman's buried cash; a neighbour, James Bracklin, dug up only a sharpened stake. The 1881 county history tells of the elder Cadot's post and grave near Rice Lake, which is the same tradition under another name. A visitor who walked the ground on 7 October 1880 wrote to the Wisconsin State Journal that the work lay about a mile southeast of Rice Lake village in section 27 of T35N R11W: a ditched enclosure about 50 feet square with turrets at the corners, hearth stones, charcoal and bones inside. The letter adds that Schoolcraft's 1832 party had found a burned trading house at Lake Chetek, about twelve miles away. Pin is the section, not the stockade.",
+    "src": [
+     [
+      "Wisconsin State Journal, 16 Nov 1880, p. 4 (original visitor's letter describing the earthwork, section 27; spells the trader 'Corot'; Newspapers.com 402676546)",
+      ""
+     ],
+     [
+      "Dunn County News, 4 Dec 1880, p. 1 (reprint of the State Journal letter; spells the trader 'Borot'; Newspapers.com 542485459)",
+      ""
+     ],
+     [
+      "History of Northern Wisconsin (Western Historical Co., 1881), p. 71 (Cadot's post and grave near Rice Lake)",
+      ""
+     ]
+    ],
+    "tovw": "Lead grade D: one 1880 eyewitness letter (reprinted once) places the earthwork; the murdered trader's buried cash rests on that letter's hearsay alone; no later dig or find reported."
+   }
+  }
+ }
+}
