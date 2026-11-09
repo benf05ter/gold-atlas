@@ -1948,7 +1948,8 @@ function stageFast(){ if(!VIEW.vb||!VIEW.W) return; const g=VIEW.vb, k=g.w/vb.w,
   stage.style.transform=`matrix(${k},0,0,${k},${tx},${ty})`; if(T3.on) T3.fast(); tilesSoon(); }
 const gmFast=stageFast, gmFastQ=stageFast; function gmCommit(){ apply(); }
 function settle(ms){ clearTimeout(GES.settle); GES.settle=setTimeout(()=>{ if(GES.ptr.size){ settle(200); return; } GES.active=false; commit(true); },ms); }
-function zoomAt(f,cx,cy){ let nw=vb.w/f; if(!(nw>0)) return; const lo=Math.min(0.015,vb.w), hi=Math.max(V.WI.w*2.5,vb.w); if(nw<lo){ nw=lo; f=vb.w/lo; } else if(nw>hi){ nw=hi; f=vb.w/hi; } if(f===1) return; vb={x:cx-(cx-vb.x)/f,y:cy-(cy-vb.y)/f,w:nw,h:vb.h/f};
+var OGZMIN=0.00375;   // closest zoom, map units wide (was 0.015; two levels deeper, Nov 2026)
+function zoomAt(f,cx,cy){ let nw=vb.w/f; if(!(nw>0)) return; const lo=Math.min(OGZMIN,vb.w), hi=Math.max(V.WI.w*2.5,vb.w); if(nw<lo){ nw=lo; f=vb.w/lo; } else if(nw>hi){ nw=hi; f=vb.w/hi; } if(f===1) return; vb={x:cx-(cx-vb.x)/f,y:cy-(cy-vb.y)/f,w:nw,h:vb.h/f};
   GES.active=true; stageFast(); settle(GES.ptr.size?400:160); }
 function plZoomAnim(f,cx,cy){ let i=0; const n=9, st=Math.pow(f,1/n); const go=()=>{ zoomAt(st,cx,cy); if(++i<n) requestAnimationFrame(go); }; requestAnimationFrame(go); }
 
@@ -1967,7 +1968,7 @@ m3d.addEventListener('pointerdown',e=>{ if(e.button&&e.button!==0) return; if(e.
   if(GES.ptr.size===2){ const p=pinchState(); GES.pinch=p.d; GES.pc=p.c; GES.pa=p.a; } });
 m3d.addEventListener('pointermove',e=>{ if(!GES.ptr.has(e.pointerId)) return; GES.ptr.set(e.pointerId,[e.clientX,e.clientY]);
   if(GES.ptr.size>=2){ const p=pinchState(); if(GES.pinch){ const f=p.d/GES.pinch; const [wx,wy]=toW(...GES.pc); const nw=vb.w/f;
-      if(nw>=0.015&&nw<=V.WI.w*2.5){ vb={x:wx-(wx-vb.x)/f,y:wy-(wy-vb.y)/f,w:nw,h:vb.h/f}; }
+      if(nw>=Math.min(OGZMIN,vb.w)&&nw<=V.WI.w*2.5){ vb={x:wx-(wx-vb.x)/f,y:wy-(wy-vb.y)/f,w:nw,h:vb.h/f}; }
       if(T3.on&&GES.pa!=null){ let da=p.a-GES.pa; if(da>Math.PI) da-=2*Math.PI; if(da<-Math.PI) da+=2*Math.PI; if(Math.abs(da)>0.002) T3.turn(da,GES.pc); }   // 3D: twist two fingers to turn the map
       panBy(p.c[0]-GES.pc[0],p.c[1]-GES.pc[1],GES.pc[0],GES.pc[1]); }
     GES.pinch=p.d; GES.pc=p.c; GES.pa=p.a; GES.moved=moved=true; m3d.classList.add('ogdrag'); stageFast(); return; }
@@ -7595,5 +7596,36 @@ new MutationObserver(()=>{ const c=document.querySelector('#detail .oghero:not([
   if(typeof plIco==='function'){ const ic=plIco; plIco=function(id){ return id==='_lidar'?'<svg class="ic" width="26" height="26" viewBox="0 0 24 24" aria-hidden="true"><defs><linearGradient id="lidG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4f4f2"/><stop offset=".5" stop-color="#9a9a96"/><stop offset="1" stop-color="#3c3c3a"/></linearGradient></defs><rect x="3" y="4" width="18" height="16" rx="2" fill="url(#lidG)" stroke="#555" stroke-width="1"/><path d="M5 15c3-5 5-5 7-2s4 1 7-4" fill="none" stroke="#222" stroke-width="1.6"/></svg>':ic.apply(this,arguments); }; }
   window.OGLID={S,Lus,Lia,sync,US,IA};
   try{ renderLayers(); }catch(_){} try{ if(typeof plLaySync==='function') plLaySync(); }catch(_){} })();
+</script>
+<style id="OGLIDTOP">
+.gmtypes button[data-lid] .mt-lid{position:relative;background:radial-gradient(circle at 28% 30%,#fbfbf9 0 9%,transparent 32%),radial-gradient(circle at 72% 70%,#5d5d59 0 10%,transparent 34%),repeating-linear-gradient(128deg,#8f8f8b 0 3px,#d2d2ce 3px 7px,#6c6c68 7px 9px),#a7a7a3}
+.gmtypes .mt-lid em{position:absolute;right:4px;bottom:4px;font:700 9px/1.3 var(--f-body);font-style:normal;letter-spacing:.04em;background:rgba(0,0,0,.62);color:#fff;border-radius:6px;padding:1px 5px}
+.gmtypes .mt-lid em::after{content:'OFF'}
+.gmtypes button[data-lid][aria-pressed="true"] .mt-lid em{background:var(--accent)}
+.gmtypes button[data-lid][aria-pressed="true"] .mt-lid em::after{content:'ON'}
+#gmSheet #lidOpt2{margin:10px 0 2px}
+</style>
+<script>
+/* OGLIDTOP (Nov 2026): the LiDAR view switch sits with the map types at the top of the map-type sheet, so it is easy to find.
+   It lays over whichever map type is showing (tap again to turn it off), its see-through slider sits right under the map types,
+   and it stays on across map modes and reloads until turned off. The LiDAR row in the Layers lists still works too.
+   Source: tools/lidar/top.html, applied by tools/lidar/patch_top.py (idempotent). Needs OGLIDAR first. */
+(()=>{ if(!window.OGLID||window.OGLIDT) return; const gt=document.getElementById('gmTypes'); if(!gt) return; window.OGLIDT=1;
+  const KEY='og-lid-on', save=v=>{ try{ localStorage.setItem(KEY,v?'1':'0'); }catch(_){} };
+  const b=document.createElement('button'); b.type='button'; b.dataset.lid='1'; b.setAttribute('aria-pressed','false');
+  b.title='LiDAR view (bare ground): laid over any map type. Tap again to turn it off.'; b.setAttribute('aria-label','LiDAR view, laid over the map');
+  b.innerHTML='<i class="mt-lid"><em></em></i><span>LiDAR</span>';
+  const old=gt.querySelector('button[data-mt="old"]'); if(old) old.after(b); else gt.prepend(b);
+  const place=()=>{ const o=document.getElementById('lidOpt2'); if(o&&o.previousElementSibling!==gt) gt.after(o); };
+  const mark=()=>{ b.setAttribute('aria-pressed',on.has('_lidar')); place(); };
+  b.addEventListener('click',e=>{ e.stopPropagation(); const v=!on.has('_lidar'); v?on.add('_lidar'):on.delete('_lidar'); save(v);
+    renderLayers(); drawMarkers(); gmSheetSync(); });
+  // keep it on through a change of map mode (Detecting, Minerals, History...), which otherwise resets every layer
+  const sm=shSetMode; shSetMode=function(){ const had=on.has('_lidar'); const r=sm.apply(this,arguments); if(had&&!on.has('_lidar')){ on.add('_lidar'); try{ renderLayers(); }catch(_){} } mark(); return r; };
+  // remember on/off however it was switched (this tile, the Layers grid or the Layers tab)
+  let last=null; const rl=renderLayers; renderLayers=function(){ const r=rl.apply(this,arguments); const v=on.has('_lidar'); if(v!==last){ last=v; save(v); } try{ mark(); }catch(_){} return r; };
+  const gs=gmSheetSync; gmSheetSync=function(){ const r=gs.apply(this,arguments); mark(); return r; };
+  let was=false; try{ was=localStorage.getItem(KEY)==='1'; }catch(_){} last=was; if(was) on.add('_lidar');
+  try{ renderLayers(); }catch(_){} try{ gmSheetSync(); }catch(_){} mark(); })();
 </script>
 </body></html>

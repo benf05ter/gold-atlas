@@ -21,6 +21,9 @@ a='<div class="app">'; assert c.count(a)==1; c=c.replace(a,open(os.path.join(T,'
 e=c.find('<script>\n// ---------- Identify'); i=c.rindex('</script>',0,e if e>0 else len(c)); c=c[:i]+open(os.path.join(T,'app.js')).read()+c[i:]   # app.js goes at the end of the main atlas script
 if not rid: i=c.rindex('</script>')+len('</script>'); c=c[:i]+open(os.path.join(T,'rockid.js'),encoding='utf-8').read()+c[i:]   # rock, mineral and metal ID under the Search tab
 if 'OGLIDAR' not in c: i=c.rindex('</body>'); c=c[:i]+open(os.path.join(T,'lidar','lidar.html'),encoding='utf-8').read()+c[i:]   # LiDAR view layer (tools/lidar/), if the atlas doesn't carry it yet
+if 'OGLIDTOP' not in c: i=c.rindex('</body>'); c=c[:i]+open(os.path.join(T,'lidar','top.html'),encoding='utf-8').read()+c[i:]   # LiDAR switch with the map types (tools/lidar/top.html)
+if 'OGZMIN' not in c:   # two zoom levels deeper (tools/zoom/deeper.py)
+    sys.path.insert(0,os.path.join(T,'zoom')); import deeper; c=deeper.deepen(c); sys.path.pop(0)
 c=c.replace('For trips with no signal, install the home-screen app: open <a href="https://benf05ter.github.io/gold-atlas/a-f218a76394f8/" target="_blank" rel="noopener">the app link</a> in Safari, tap Share, then Add to Home Screen. It keeps the whole atlas, old maps included, on your phone and updates itself when you have signal.','You are in the home-screen app: the whole atlas, old maps included, is saved on this phone, and it updates itself when you have signal.')
 c=c.replace('For trips with no signal, save the offline copy <span class="mono">Upper-Midwest-Gold-Atlas.html</span> from the project files to your phone and open it in your browser before you lose service.',
  'For trips with no signal, use the home-screen app: open its link in Safari, tap Share, then Add to Home Screen. It keeps the whole atlas on your phone and updates itself when you have signal.')
