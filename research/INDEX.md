@@ -1681,9 +1681,9 @@ Also mentions the place: [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L10
 Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L231) (line 231)
 
 Notes:
-- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L187) (line 187)
+- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L28) (line 28)
 - [newspapers-com/placement-gaps-list.md](newspapers-com/placement-gaps-list.md#L39) (line 39)
-- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L106) (line 106)
+- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L20) (line 20)
 - [newspapers-com/ia-il-second-source.md](newspapers-com/ia-il-second-source.md#L123) (line 123)
 - [genealogybank/gb-list1.md](genealogybank/gb-list1.md#L31) (line 31)
 - [ancestry/list12-dates.md](ancestry/list12-dates.md#L6) (line 6)
@@ -3170,7 +3170,7 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L253) (line 253)
 
 Notes:
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L397) (line 397)
-- [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L55) (line 55)
+- [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L48) (line 48)
 - [ancestry/list25.md](ancestry/list25.md#L118) (line 118)
 - [plats/van-arsdale-alamo.md](plats/van-arsdale-alamo.md#L1) (line 1)
 - [plats/INDEX.md](plats/INDEX.md#L55) (line 55)

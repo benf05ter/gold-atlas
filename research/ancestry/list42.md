@@ -47,3 +47,16 @@
   - **If "21" is a typo for 23 (Black Creek Twp, T23N R17E, which fits "vicinity of Black Creek" in both witnesses' testimony):** N½N½NW¼ sec 12 = about **44.4863,-88.3871** (sec 12 = 44.4724-44.4872 N, -88.3921 to -88.3721 W), about 5 mi E of Black Creek village.
   - **Recommend: the T23N reading as primary (B), r200, with T21N as the alternate.** Check with the 1917 Outagamie Black Creek / Freedom plates, or the 1897 will (not found in this file run).
 - **Note:** the gold-can story's "Henry B. Stillman, Bovina" household of 1910 fits the petition's "son … near Shiocton" (Bovina). The hoard owner was the father, David B. Stillman.
+
+## STILLMAN: Ben H. = Henry B. (same man); the cache house identified, parcel still not plotted
+- **1905 Wisconsin state census (Ancestry 1055), BOVINA:**
+  - **Benjamin Stillman, b. about 1851, head; wife Mary Ann (b. about 1856); sons Alonzo (b. 1882) and Charles (b. 1891); daughter Cora (b. 1888).**
+  - **"David B. Stillman, b. about 1825, Father"** is in the same household.
+- **1910 census (7884), Bovina ED 128, sheet 8A (image 4454849_01034):** "Henry B. Stillman", b. 1851 NY, head; wife Mary (b. 1856); sons Lou (Alonzo, b. 1882) and Charlie (b. 1891).
+  - Same birth years, same wife and same sons, so **Ben H. = Henry B. (Benjamin Henry / Henry Benjamin).** No separate "Ben" household is indexed in Outagamie in 1910.
+  - Neighbours (from the list above): Brouwer, Wolf/Vogt, Dykman?, Mol, Vercauteren, Wesley Williams, Sylvester Cole, Sydney Bartel?. The household sits at the end of ED 128.
+- **So the cache house is Ben/Henry B.'s Bovina farm, where David B. lived from 1905 (likely earlier) to his death in 1910.**
+- **1917 Bovina plate:** no Stillman under either name (re-checked for "B." / "Ben"). By 1917 they no longer held land in their own name.
+- **Kanouse:** no A. W. Kanouse indexed in Outagamie 1900/1910 (the only WI Kanouses are in Crawford / Dane). He was likely an Appleton or Shiocton doctor without a farm, so he gives no neighbour clue.
+- **1920/1930:** no Ben/Henry Stillman found in Outagamie (the 1920 index shows only Appleton Stillmans: Guy, Irene). Not pursued further.
+- **Not placed.** The UW 1889 Foote plat (deferred) is the best remaining source.
