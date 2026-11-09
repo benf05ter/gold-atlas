@@ -1,0 +1,32 @@
+{
+ "new": [],
+ "edit": {
+  "tw-ia-chariton-buchanan-cabin": {
+   "set": {
+    "y": "murdered 14 Oct 1901",
+    "st": "Joseph Buchanan, an aged hermit living alone in a cabin near Chariton, was found on 14 October 1901 killed with an axe; he was reputed to have much wealth stored about the cabin, and robbery was the supposed motive. Whether the killers found it is not reported. Pin is the town, not the cabin.",
+    "t": "Cabin site needed (Lucas Co plat or the Oct 1901 Chariton papers, not on newspapers.com). Private: permission.",
+    "tovw": "Lead grade C: one 1901 wire; wealth reputed, not seen; whether the killers took it is unknown",
+    "pinev": [
+     "Placed from the source text: GNIS Chariton",
+     "Unconfirmed, one source",
+     "1880 census: a 'Joseph Buchannan', b. 1850 PA, apparently living alone in Pleasant Twp, Lucas Co; candidate for the murdered man, which would put the cabin in Pleasant Twp; but a man born 1850 would be 51 in 1901, which sits oddly with 'aged hermit', so the match is doubtful."
+    ],
+    "src": [
+     [
+      "Eau Claire Leader-Telegram, 15 Oct 1901, p. 1, Chariton wire (Newspapers.com 239394999)",
+      ""
+     ],
+     [
+      "Clipping \"Miser found murdered\", Chariton Oct (TN TreasureNet Treasure Legends thread 596376)",
+      ""
+     ],
+     [
+      "1880 US census, Pleasant Twp, Lucas Co, IA (Joseph Buchannan)",
+      ""
+     ]
+    ]
+   }
+  }
+ }
+}
