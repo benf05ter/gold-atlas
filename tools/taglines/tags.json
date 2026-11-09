@@ -856,8 +856,8 @@
 "f"
 ],
 "tw-ia-beaver-island-box-1897": [
-"1897 iron box of gold · dug up · public island",
-"f"
+"1897 'iron box of gold' · doubtful · public island",
+"k"
 ],
 "tw-ia-cedar-falls-smalling-crib-1904": [
 "Coins oozing from the old granary site: found 1904",
@@ -2142,5 +2142,9 @@
 "tw-wi-fayette-noel-cellar-gold-1901": [
 "found 1901 · $10,000 gold · cellar",
 "f"
+],
+"cr-ia-owens-kossuth-1900": [
+"1900 robber's $800 loot · cellmate's tip · never found",
+"u"
 ]
 }
