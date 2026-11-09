@@ -1,0 +1,27 @@
+{
+ "new": [],
+ "edit": {
+  "cr-ia-owens-kossuth-1900": {
+   "moved": true,
+   "set": {
+    "la": 43.08,
+    "lo": -94.115,
+    "acm": [
+     3500,
+     "approx"
+    ],
+    "st": "On 5 Sep 1900 two travelling stockmen, Jens Gravenson and August Carlsquist, were found robbed and killed beside the Chicago, Milwaukee & St. Paul track about 5 miles east of Algona, near Sexton. John Owens, hanged at Paris, Ill. on 21 Dec 1900, was identified as one of the men seen there. On his release his cellmate set out for Iowa to recover $800 of Owens' buried robbery loot, saying Owens had described the hiding place; authorities believed it was in Kossuth County. No find was reported. Pin is approximate (town only), not the spot itself.",
+    "pl": "On the Milwaukee Road line between the murder spot (about 5 miles east of Algona) and Sexton, Kossuth County; the hiding place was never described in print",
+    "pinev": [
+     "Centre between the 1900 murder spot on the CM&St.P track 'about 5 miles east of Algona' (Census Algona 43.0743,-94.2311 + 8 km = about -94.132, 3.5 km W of Sexton) and GNIS Sexton (1925099, 43.0827,-94.0891); r3500 covers both. The cache is placed only by 'Kossuth County' in the 1900 wire."
+    ]
+   },
+   "src": [
+    [
+     "Cedar Rapids Gazette, 7 Sep 1900, p. 7",
+     ""
+    ]
+   ]
+  }
+ }
+}

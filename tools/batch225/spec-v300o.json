@@ -1,0 +1,32 @@
+{
+ "new": [],
+ "edit": {
+  "tw-wi-racine-baker-cellar-hoard-1922": {
+   "moved": true,
+   "set": {
+    "la": 42.7294,
+    "lo": -87.7827,
+    "p": "approx",
+    "acm": [
+     120,
+     "area"
+    ],
+    "pinconf": "C",
+    "pl": "East side of Main St between Third and Fourth Sts, Racine: the site the Knights of Columbus bought in Nov 1922 for their planned home (Racine Journal-News, 11 Dec 1922); the 1928 hall at Fifth and College was a later site",
+    "pinev": [
+     "Block-level: Racine Journal-News, 11 Dec 1922, K. of C. home planned for the east side of Main St between Third and Fourth; geocoded block midpoint, r120",
+     "The 1928 hall at Fifth and College was a later site, so the earlier Fifth St inference is dropped",
+     "One wire story from the owning family: C"
+    ],
+    "t": "Downtown block on S. Main St, built over: look only."
+   },
+   "st": " The December 1922 plans placed the new clubhouse on the east side of Main Street between Third and Fourth, so the old house stood on that block; the hall dedicated in 1928 at Fifth and College was a different site. Whether the Main Street house was razed and its cellar dug is not reported.",
+   "src": [
+    [
+     "Racine Journal-News, 11 Dec 1922, p. 1, 'Local Club Will Have Fine Home' (Newspapers.com 334517641)",
+     ""
+    ]
+   ]
+  }
+ }
+}

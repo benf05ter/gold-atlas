@@ -840,7 +840,7 @@
 "k"
 ],
 "tw-fountain-city-gold-bar-1913": [
-"1913 gold bar · assayed tin and copper · hoax",
+"1913 'gold bar' · assayed tin and copper · swindle brick",
 "h"
 ],
 "tw-gallagher-morrison-creek": [
@@ -856,15 +856,15 @@
 "f"
 ],
 "tw-ia-beaver-island-box-1897": [
-"1897 iron box of gold · dug up · public island",
-"f"
+"1897 'iron box of gold' · doubtful · public island",
+"k"
 ],
 "tw-ia-cedar-falls-smalling-crib-1904": [
 "Coins oozing from the old granary site: found 1904",
 "f"
 ],
 "tw-ia-chariton-buchanan-cabin": [
-"Murdered man's cabin money · newspaper · year unconfirmed",
+"Murdered man's cabin money · newspaper · 1901",
 "k"
 ],
 "tw-ia-cherokee-adsit-yard-1915": [
@@ -1028,7 +1028,7 @@
 "k"
 ],
 "tw-il-dixon-mail-plane-diamonds-1929": [
-"1929 mail-plane crash · black diamonds · 30 missing",
+"1929 mail-plane crash · black diamonds · 29 missing",
 "p"
 ],
 "tw-il-dover-hudson-jar-1913": [
@@ -1064,7 +1064,7 @@
 "k"
 ],
 "tw-il-paw-paw-grove-banditti": [
-"1830s-40s gang caches · $900 doubloons · found · documented",
+"1830s-40s gang caches · $900 doubloons · found · county histories",
 "f"
 ],
 "tw-il-persifer-court-creek-kettle": [
@@ -1072,8 +1072,8 @@
 "u"
 ],
 "tw-il-rochelle-rr-bridge-coins-1964": [
-"1964 stolen coins · pillowcase · never found",
-"u"
+"1964 stolen coins · pillowcase · gone when police looked",
+"k"
 ],
 "tw-il-south-chicago-mattson-1905": [
 "1905 hermit's $8,000 · lakeshore · park and industry now",
@@ -1924,7 +1924,7 @@
 "u"
 ],
 "tw-wi-portage-cass-st-miser-hoard-1903": [
-"1903 miser's $5,450 · dug up under kitchen · urban look-only",
+"1903 miser's gold · dug up under the house · urban look-only",
 "f"
 ],
 "tw-ia-traer-showers-woodshed-gold-1904": [
@@ -2122,5 +2122,37 @@
 "tw-ia-algona-horning-money-lender-1893": [
 "Money-lender's hidden cash · searched 1893 · never found",
 "u"
+],
+"tw-mn-fort-snelling-angell-gold": [
+"Red River trader's gold · dug up by post laborers · found",
+"f"
+],
+"tw-ia-clinton-bigelow-bogus-mint": [
+"1840s bogus-coin 'mint' · log house · relics",
+""
+],
+"tw-ia-conroy-olson-tomato-cans-1898": [
+"tomato cans · 1897 murder · 1904 dig · farm N of Conroy",
+"u"
+],
+"tw-mn-wadena-buchan-np-camp-gold-1905": [
+"1905-06 searches · railroad construction camp · a mile east of Bluffton",
+"u"
+],
+"tw-wi-fayette-noel-cellar-gold-1901": [
+"found 1901 · $10,000 gold · cellar",
+"f"
+],
+"cr-ia-owens-kossuth-1900": [
+"1900 robber's $800 loot · cellmate's tip · no find reported",
+"k"
+],
+"tw-wi-rice-lake-stockade-trader-cash-1880": [
+"1780s trader's cash · old stockade · dug 1880 · nothing found",
+"k"
+],
+"tw-wi-siskiwit-lake-express-loot-1908": [
+"c.1900 express loot · two men went mad · searched 1908",
+"k"
 ]
 }

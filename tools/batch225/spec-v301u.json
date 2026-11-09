@@ -1,0 +1,44 @@
+{
+ "new": [
+  {
+   "id": "tw-wi-rice-lake-stockade-trader-cash-1880",
+   "L": "treasure",
+   "n": "The murdered French trader's cash at the old stockade, Rice Lake outlet (dug for 1880)",
+   "la": 45.4994,
+   "lo": -91.7309,
+   "y": "post c.1780s; diggings reported 1880",
+   "pl": "Outlet of Rice Lake, where the Red Cedar River leaves the lake at the dam, city of Rice Lake; the stockade rise is not located",
+   "co": "Barron",
+   "stt": "WI",
+   "v": "A fur trader's buried cash (tradition)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "A Menomonie paper of December 1880 described the remains of an old French stockade on a rise overlooking Rice Lake and its outlet, at a spot the Indians called Pocagama, said to have been the post of a fur trader named August Borot, killed there by the Sioux about a century before. Barron County settlers had dug into the earth in several places nearby for the murdered Frenchman's buried cash; a neighbour, James Bracklin, dug up only a sharpened stake. The 1881 county history tells of the elder Cadot's post and grave near Rice Lake, which is the same tradition under another name. Pin is the lake outlet, not the stockade.",
+   "t": "Find the rise over the outlet on the 1850s survey plat and LiDAR; the 1864 Knapp, Stout dam raised the lake, so the old shoreline is under water or at the flowage edge. City parkland and private lots: look only; the mound groups at Rice Lake are protected, never dig there.",
+   "warn": "Protected mound groups nearby: look only.",
+   "src": [
+    [
+     "Dunn County News, 4 Dec 1880, p. 1 (Newspapers.com 542485459)",
+     ""
+    ],
+    [
+     "History of Northern Wisconsin (Western Historical Co., 1881), p. 71 (Cadot's post and grave near Rice Lake)",
+     ""
+    ]
+   ],
+   "pinconf": "D",
+   "acm": [
+    800,
+    "approx"
+   ],
+   "pinev": [
+    "Pin at the outlet of Rice Lake (Red Cedar River at the dam), from the 1880 text 'overlooking Rice Lake and its outlet'; USA Rivers layer, where the lake's artificial path ends and the river begins (45.4994,-91.7309); the stockade rise is not located; r800.",
+    "Related card: ab2-cadot-rice-lake (same post tradition, 1881 history)."
+   ],
+   "tov": "D",
+   "tovw": "Lead grade D: an 1880 settlers' tradition of a murdered French trader's cash at an old stockade; neighbours dug in several places and found only a sharpened stake"
+  }
+ ],
+ "edit": {}
+}

@@ -1,0 +1,29 @@
+{
+ "new": [],
+ "edit": {
+  "tw-wi-rice-lake-stockade-trader-cash-1880": {
+   "moved": true,
+   "set": {
+    "la": 45.48787,
+    "lo": -91.71532,
+    "acm": [
+     900,
+     "plss"
+    ],
+    "st": "A Menomonie paper of December 1880 described the remains of an old French stockade on a rise overlooking Rice Lake and its outlet, at a spot the Indians called Pocagama, said to have been the post of a fur trader named August Borot, killed there by the Sioux about a century before. Barron County settlers had dug into the earth in several places nearby for the murdered Frenchman's buried cash; a neighbour, James Bracklin, dug up only a sharpened stake. The 1881 county history tells of the elder Cadot's post and grave near Rice Lake, which is the same tradition under another name. A visitor who walked the ground on 7 October 1880 wrote to the Wisconsin State Journal that the work lay about a mile southeast of Rice Lake village in section 27 of T35N R11W: a ditched enclosure about 50 feet square with turrets at the corners, hearth stones, charcoal and bones inside. Pin is the section, not the stockade.",
+    "pl": "Sec 27 T35N R11W, a mile southeast of Rice Lake village, overlooking the lake and its outlet; the earthwork itself is not yet fixed inside the section",
+    "pinev": [
+     "Section 27 T35N R11W from an 1880 eyewitness letter (Wisconsin State Journal, 16 Nov 1880); pin at the section centroid (BLM WI460350N0110W0SN27, 45.4799-45.4952, -91.7253 to -91.7042), r900. Formerly at the Red Cedar outlet.",
+     "Related card: ab2-cadot-rice-lake (same post tradition, 1881 history)."
+    ],
+    "tovw": "Lead grade D: an 1880 settlers' tradition of a murdered French trader's cash at an old stockade; neighbours dug in several places and found only a sharpened stake; the earthwork itself is placed to section 27 by an 1880 eyewitness letter, the trader's cash rests on one 1880 telling"
+   },
+   "src": [
+    [
+     "Wisconsin State Journal, 16 Nov 1880, p. 4 (visitor's letter describing the earthwork, section 27; Newspapers.com 402676546)",
+     ""
+    ]
+   ]
+  }
+ }
+}

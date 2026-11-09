@@ -1,0 +1,71 @@
+{
+ "new": [],
+ "edit": {
+  "tw-il-hennepin-feeder-spanish-chest-1901": {
+   "set": {
+    "src": [
+     [
+      "Inter Ocean, 18 Aug 1901, p. 6, 'Excavators Find Treasure' (Sterling, 17 Aug special; Newspapers.com 33923579)",
+      ""
+     ],
+     [
+      "Woodford County Journal 26 Sep 1901",
+      ""
+     ],
+     [
+      "Pine Grove Press Herald 9 Aug 1901 (same story) (TN TreasureNet Treasure Legends thread 626363, 663856, 715127)",
+      ""
+     ],
+     [
+      "Standard Atlas of Bureau County, Illinois (1905), Fairfield Twp p. 11 (LoC 2013591209)",
+      ""
+     ],
+     [
+      "Rock Island Argus, 20 Aug 1901, p. 5, '$4,000 in Old Coins Found in the Hennepin' (Newspapers.com 174424664)",
+      ""
+     ]
+    ],
+    "st": "Aug 1901: canal excavators found an iron chest ten feet down, first taken for petrified wood, holding about $4,000 in Spanish coins, many dated 1668 and some earlier. The Argus copy says the chest was found on Saturday 17 August, ten feet down, and that government employees broke it open with a sledge; the wire ran from Cleveland to Boston. No item has been found in the Sterling papers themselves for Aug-Oct 1901 despite the Sterling dateline, so a wire fabrication is possible. Pin is mile 20 measured along the feeder, not the spot itself.",
+    "pinev": [
+     "Measured along the OSM Hennepin Canal Feeder from Rock Falls (29.3 mi total): mile 20 = 41.527,-89.769, sec 23 T18N R6E (Fairfield Twp), Bureau Co; Tampico about 7 mi N, Manlius about 5 mi SE. r1500.",
+     "1905 Standard Atlas of Bureau Co (Fairfield Twp p. 11): the feeder runs N-S through the E-centre of sec 23; tracts there E. H. Drowenberg 229 (W), Swan Hanson (W of canal), C. D. Johnson 160 (E of canal), Frank Drowenberg 80 (SW); school at the sec 24/25 corner.",
+     "No Sterling local report found (Sterling Standard and Gazette, Aug-Oct 1901), which weakens the story."
+    ]
+   }
+  },
+  "tw-mi-cambridge-jct-walker-tavern-money-belt": {
+   "set": {
+    "t": "State historic site with graves under the oak: no digging, look only. The legend grows: 1919 a vanished guest and a 'murder room'; 1922 the reopening, a 'gold-laden traveler murdered' and a blood stain shown on tours, and the oak-digging story in the Detroit News; the 1940s add the money belt (repeated in a 1951 Detroit News Q&A, which has him found 'beneath the shattered window, in a crumpled heap on a flower bed'). No telling has a recovery, and the 1879 and 1909 county histories mention no murder. The July and August 1922 reopening features (Jackson News; Detroit Free Press) both have the murdered gold-laden traveller and the bloodstain shown in the 'murder room', and neither mentions a money belt or a cache under the oak."
+   },
+   "src": [
+    [
+     "Jackson News, 25 Jul 1922, p. 3, 'Spirit of '56 Pervades Rare Old Walker Tavern' (Brooklyn, 24 Jul; Newspapers.com 1166924718)",
+     ""
+    ],
+    [
+     "Detroit Free Press, 27 Aug 1922, p. 17, 'Relic of Past Is Old Tavern' (Newspapers.com 1048431919)",
+     ""
+    ]
+   ]
+  },
+  "tw-ia-tipton-iwers-farm-1936": {
+   "set": {
+    "st": "Bachelor brothers John, Henry and William Iwers hid their money on their 800-plus acres in Inland Township. After Henry died on 30 May 1936, iron boxes with about $112,600 in gold coin, gold and silver certificates and securities were dug from under the machine shed of the homestead, partly gold coins wrapped in newspaper in a sack; more was hidden in the house. In late July 1936 the last $21,000 the court was looking for turned up as municipal bonds in a tobacco container in a gunny sack under an old Mitchell car. Henry Iwers, 74, died on 30 May 1936; the family had lived on the farm north of Durant for over sixty years. The Register itemised the shed box: $7,800 in gold and silver certificates, $61,000 in Iowa municipal bonds, $5,000 in uncashed cheques and $38,000 in bank-guaranty-fund certificates, wrapped in burlap and partly buried under machinery; guards were posted against unauthorised diggers. Estate put at $213,500-$350,000. In June 1938 the Iowa Supreme Court upheld Henry Iwers's will in the '$350,000 machine shed treasure' case, leaving the estate to the couple who had cared for him."
+   },
+   "src": [
+    [
+     "Davenport Daily Times, 30 May 1936, p. 2, Henry Iwers obituary (Newspapers.com 302925208)",
+     ""
+    ],
+    [
+     "Muscatine Journal, 22 Jun 1936, p. 2, 'Claimants Battle for Large Estate' (Newspapers.com 543044043)",
+     ""
+    ],
+    [
+     "Des Moines Register, 5 Jul 1936, p. 22 (Newspapers.com 130744302)",
+     ""
+    ]
+   ]
+  }
+ }
+}

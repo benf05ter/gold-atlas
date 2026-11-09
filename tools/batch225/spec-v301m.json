@@ -1,0 +1,23 @@
+{
+ "new": [],
+ "edit": {
+  "tw-mi-sturgis-strang-mormon-gold": {
+   "set": {
+    "st": "1927 wire story (Sturgis dateline): James Strang sent two messengers south from Beaver Island with $126,000 in gold to buy colony land near Sturgis; they did not buy and left 'the money buried on one of the various pieces of property they had viewed'. After Strang's death two counsellors returned with a little lead box holding Joseph Smith's 'spectacles' and books, supposedly buried with the money; their memorandum of the spot 'was lost and with it the treasure'. No farm named. A January 1928 retelling puts the burial 'on the banks of Fawn River' near Sturgis, reports night diggers on a Sturgis farm, and says much of the hoard was also said to lie on Drummond Island in the Upper Peninsula; the two versions are one legend, and no farm or reach of the river is named. Pin is the town, not a spot.",
+    "pl": "GNIS Sturgis (city); the 1928 version says the banks of Fawn River near the town, no reach named",
+    "pinev": [
+     "Placed from the source text: GNIS Sturgis (city)",
+     "Unconfirmed, one source",
+     "Unionville Crescent, 13 Jan 1928: 'banks of Fawn River' near Sturgis; the river runs for miles south of the city, from the southeast round to the west (about 4 km south at its nearest), so the pin stays on the town."
+    ],
+    "tovw": "Lead grade D: 1927-28 wire retellings of an 1850s legend; no property named, and a Drummond Island version shows the tale travelled"
+   },
+   "src": [
+    [
+     "Unionville Crescent, 13 Jan 1928, p. 3 (Fawn River banks; night diggers on a Sturgis farm; Drummond Island version; Newspapers.com 588552582)",
+     ""
+    ]
+   ]
+  }
+ }
+}

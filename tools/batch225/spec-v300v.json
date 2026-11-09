@@ -1,0 +1,23 @@
+{
+ "new": [],
+ "edit": {
+  "tw-il-bulbona-grove-trading-post": {
+   "set": {
+    "st": "The Mount farm near Wyanet was where \"old Bulbona\" (Bourbonnais), a mixed-blood trader, his Indian wife and children lived and traded with the Indians. Mrs. Mount found a 1786 Spanish silver coin among her plants. A 1928 Princeton paper adds that Gurdon Hubbard, the fur trader, built a house in the grove in 1829 on what was later the J. W. Mount farm. Pin is between the two Mount farms on the 1875 atlas, not the spot itself.",
+    "pinev": [
+     "1875 Bureau Co atlas, Wyanet Twp T16N R8E: 'J. W. Mount 40' in the NE of sec 29 and 'Wm. Mount 80' on the W edge of sec 28, about 1.5 mi S/SW of Wyanet village; timber stippling runs along the creek E of the village. Pin on the 28/29 line between the two Mount tracts.",
+     "BLM sec 29 box 41.3363-41.3510 / -89.6068 to -89.5870",
+     "Bulbona Grove itself is unlabelled on the 1875 atlas",
+     "1905 Bureau atlas (Wyanet Twp p. 31): E. J. Mount 80 in E sec 29 and J. W. Mount 80 in W sec 28, with more Mount lots in secs 20, 30, 32, 33; school NW sec 28; 'Bulbona' not labelled.",
+     "Bureau County Tribune, 3 Aug 1928: Hubbard's 1829 house in Bulbona's grove 'on farm now owned by J. W. Mount', but it says Walnut Twp, not Wyanet; the J. W. Mount tracts on the 1875 and 1905 atlases are in Wyanet Twp secs 28-29, so the pin stays there until the Walnut Twp plat page is read."
+    ]
+   },
+   "src": [
+    [
+     "Bureau County Tribune (Princeton), 3 Aug 1928, p. 1 (Hubbard's 1829 house in Bulbona's grove, on the J. W. Mount farm)",
+     ""
+    ]
+   ]
+  }
+ }
+}

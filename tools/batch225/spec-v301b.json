@@ -1,0 +1,21 @@
+{
+ "new": [],
+ "edit": {
+  "tw-fountain-city-gold-bar-1913": {
+   "set": {
+    "st": "In September 1913 Herman Putzier, proprietor of the Eagle Hotel at Fountain City, stumbled over a metal bar a foot long and four inches square in the woods; scraped, it looked like gold, and it went to the State University at Madison for assay. Papers tied it to the robbery about 23 years earlier of a Burlington express car with a gold shipment near Victory, Wis., whose robbers were said to have hidden the loot near Fountain City. A Winona chemist assayed it as tin and copper: it was the gold brick used in a swindle on a Fountain City grain dealer about twenty years before, thrown away in the woods. The Dunn County News copy of the wire names the finder Herman Putnam. Pin is approximate (town or township only), not the spot itself.",
+    "s": "false",
+    "tov": "F",
+    "t": "Closed: the bar was a swindler's prop, not gold, and the Victory express robbery remains unconfirmed. History marker only.",
+    "tovw": "Lead grade F: the 1913 bar assayed as tin and copper, a gold-brick swindler's prop; nothing of value was ever here",
+    "v": "A tin-and-copper bar once passed off as gold (no value)"
+   },
+   "src": [
+    [
+     "Wisconsin State Journal, 25 Sep 1913, p. 7 (Winona chemist's assay: tin and copper; the brick from a swindle on a Fountain City grain dealer c.1893; Newspapers.com 405233598)",
+     ""
+    ]
+   ]
+  }
+ }
+}
