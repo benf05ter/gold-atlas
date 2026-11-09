@@ -1,0 +1,17 @@
+{
+ "new": [],
+ "edit": {
+  "tw-lamoille-cave-gold": {
+   "set": {
+    "st": "In June 1901 Sheriff Martin Lins of Winona County and his deputies searched the big natural caverns in the bluffs near La Moille, thought to be a hideout of marauders. The largest opens 14 feet high into a chamber about 40 feet long, big enough to stable twenty horses, with a smaller cave off the side. That side cave had earlier been dug by a party searching for $8,000 in gold supposed to be hidden there; no find was ever announced. A Milwaukee paper's La Crosse dispatch of 7 June says the sheriff's party was after a gang of box-car thieves thought to hide in the cave west of La Crosse on the Minnesota side and found only tin cans; the $8,000 gold and the earlier digging party appear so far only in the St. Paul Globe account. Pin is approximate (town or township only), not the spot itself.",
+    "tovw": "Lead grade C: a period paper reports the sheriff's search of the cave and an earlier dig for $8,000 in gold; the gold rests on that one account and no find was announced."
+   },
+   "src": [
+    [
+     "Milwaukee Daily News, 7 Jun 1901, p. 1, 'Searching a Cave for Box Car Thieves' (La Crosse, 7 Jun; Newspapers.com 1298936149)",
+     ""
+    ]
+   ]
+  }
+ }
+}
