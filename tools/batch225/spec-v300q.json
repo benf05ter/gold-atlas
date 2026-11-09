@@ -1,0 +1,40 @@
+{
+ "new": [],
+ "edit": {
+  "tw-wi-franklin-bogus-camp-sauk": {
+   "set": {
+    "st": "The 1880 county history places a counterfeiters' 'Bogus Camp' in a rock pocket under the bluffs in sec 33 T10N R4E, Town of Franklin, with a spring, a cabin, a forge and a die-press set in a tree. A 1922 retelling quoting the 1880 history puts the camp 'one mile northeast of Plain, section 33, town of Franklin': a ravine of rocks under high bluffs and maples with a spring leaping from the hillside. In 1858 visitors found a thirty-foot water trough leading into a decaying log cabin with a forge, where an old pistol and trinkets had been found before, and nearby the tree-built press: an eighteen-inch maple felled six feet from an oak, a mortised lever hole and a seventeen-foot red-elm lever. No money cache is mentioned. Pin is the section, not the spot itself.",
+    "pl": "Rock pocket under the bluffs, sec 33 T10N R4E, Town of Franklin, Sauk Co (1880 county history) (one mile northeast of Plain, 1880 history as quoted 1922)",
+    "pinev": [
+     "Sec 33 T10N R4E from the 1880 county history; pin in the section, r800.",
+     "The 1880 history as quoted in 1922 puts the camp one mile northeast of Plain, which agrees with sec 33 T10N R4E."
+    ]
+   },
+   "src": [
+    [
+     "Baraboo News Republic, 18 Mar 1922, p. 5 (E. A. Gillman of Portage quoting the 1880 county history; Newspapers.com 868574013)",
+     ""
+    ],
+    [
+     "Baraboo Weekly News, 23 Mar 1922, p. 4 (same)",
+     ""
+    ]
+   ]
+  },
+  "tw-mn-st-charles-express-silver-1913": {
+   "set": {
+    "st": "29 Aug 1913: two men allegedly robbed the Great Western station at St. Charles of a $1,000 express package. Caught with $100 in half-dollars, they were believed to have buried the other ~$900, all in silver, somewhere between St. Charles and Dover. A Wells Fargo sack of about 72 lb of mixed coin was taken from the locked station by skeleton key. The two young suspects were caught hiding behind trees in a hog pasture on a farm between Dover and Eyota, each with $50 in half-dollars; the rest was thought 'planted' along the way, though the paper also suggested two accomplices may have carried off the bulk. Residents searched the underbrush, ravines and woods along the escape trail; no recovery was reported. Private land: permission. The Winona special of 1 September said the thieves' trail had become 'a beaten path' as searchers combed the ravines. Pin is approximate, not the spot itself. Recovered: within a week both men confessed and one led the sheriff to a farm near St. Charles where the $900 was dug up."
+   },
+   "src": [
+    [
+     "Minneapolis Star Tribune, 1 Sep 1913, p. 3 (Winona special; Newspapers.com 181102416)",
+     ""
+    ],
+    [
+     "Minneapolis Journal, 30 Aug 1913, p. 4",
+     ""
+    ]
+   ]
+  }
+ }
+}

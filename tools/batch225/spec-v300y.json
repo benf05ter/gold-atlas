@@ -1,0 +1,44 @@
+{
+ "new": [],
+ "edit": {
+  "tw-il-paw-paw-grove-banditti": {
+   "set": {
+    "tov": "D",
+    "tovw": "Lead grade D: county histories only; both known caches (the doubloons and the prairie silver) were dug up in the 1840s-50s, and no period paper has been found",
+    "pinev": [
+     "Placed from the source text: GNIS East Paw Paw (the Wirick tavern stood in East Paw Paw)",
+     "Two separate accounts",
+     "Dixon Evening Telegraph, 1936 (Newspapers.com 74502208) describes N. Carter Williams's East Grove ranch and monument with no buried-money claim; the 1931 Dixon item is a historical-society editorial."
+    ]
+   }
+  },
+  "tw-il-chicago-conway-state-st": {
+   "set": {
+    "src": [
+     [
+      "Chicago Tribune 8 May 1950 p20",
+      ""
+     ],
+     [
+      "Ken Krippene, Buried Treasure (1950), the 'golden outhouse' tale, as summarised in the Chicago Tribune, 8 May 1950, p. 20",
+      ""
+     ],
+     [
+      "Miami item (TN TreasureNet Treasure Legends thread 38771, 67635)",
+      ""
+     ]
+    ],
+    "st": "A 1950 press-agent tale: cattle buyer Felix Conway hid $200,000-$250,000 in gold in his back yard (or privy) in 1868 to keep it from his estranged wife. The Tribune item of 1950 was a notice of Ken Krippene's book Buried Treasure, which is where the tale comes from; no earlier record has been found."
+   }
+  },
+  "tw-wi-portage-cass-st-miser-hoard-1903": {
+   "set": {
+    "st": "George Gehrlach, who had lived like the poorest people in a humble cottage on North Cass Street, Portage, died on Saturday evening 13 June 1903. His daughters, Mrs. Paulina Felgenheuer and Mrs. Rebecca Manthey, claimed $6,000-7,000 in notes and mortgages and said the widow had appropriated it, and demanded a warrant. On 16 June Justice Heidt and District Attorney Andrews made an official search and dug up $4,890 in gold under the residence; the wire copies put the money under the kitchen floor at $5,450 with two notes from the daughters. Over $6,000 in property was recovered in all, and a bitter estate fight followed. The widow, Magdalena Gehrlach, lived on in Portage's Fifth Ward and left for Germany in 1904. Recovered by the estate; urban lot, no house number printed.",
+    "pinev": [
+     "Street named (North Cass Street), no house number; pin on the north half of Cass St, Portage.",
+     "Widow in the Fifth Ward (1904 papers): fits the North Cass Street cottage; house number still unknown."
+    ]
+   }
+  }
+ }
+}

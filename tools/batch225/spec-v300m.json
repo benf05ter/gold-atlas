@@ -1,0 +1,33 @@
+{
+ "new": [],
+ "edit": {
+  "tw-bjornaa-grantsburg-1906": {
+   "set": {
+    "st": "Ole Johnson Bjornaa, an old Burnett County resident who lived alone, was found dead in his home early in 1906. He was known to have a large sum he would not trust to banks; his heirs searched without a single clue to where it was hidden (Superior Evening Telegram, 17 Feb 1906). No later find is known. Pin is approximate (town or township only), not the spot itself. The administrator found it: the probate inventory of 21 May 1906 lists $1,257.03 in cash hidden about his places, including $30 in a small tin box under the stove, $70 in a trunk upstairs, $675 in a small blue trunk in the granary and $472 in another box. The estate was paid out to the heirs in Dec 1906."
+   },
+   "src": [
+    [
+     "Milwaukee Journal, 11 Feb 1906, p. 23 (Newspapers.com 1299036195)",
+     ""
+    ],
+    [
+     "Superior Evening Telegram, 17 Feb 1906, p. 4, 'Search Is Made for the Hidden Wealth' (Newspapers.com 1240631591)",
+     ""
+    ]
+   ]
+  },
+  "tw-fountain-city-gold-bar-1913": {
+   "set": {
+    "st": "In September 1913 Herman Pulzier, proprietor of the Eagle Hotel at Fountain City, stumbled over a metal bar a foot long and four inches square in the woods; scraped, it looked like gold, and it went to the State University at Madison for assay. Papers tied it to the robbery about 23 years earlier of a Burlington express car with a gold shipment near Victory, Wis., whose robbers were said to have hidden the loot near Fountain City. The assay result has not been found; a bar that size in pure gold would weigh about 190 lb, so brass or lead is likely. The Dunn County News copy of the wire names the finder Herman Putnam. Pin is approximate (town or township only), not the spot itself.",
+    "tov": "D",
+    "tovw": "Lead grade D: one 1913 wire about a found bar; the assay result and the c.1890 Victory express robbery are both unconfirmed."
+   },
+   "src": [
+    [
+     "Dunn County News, 26 Sep 1913, p. 3 (La Crosse, 25 Sep wire; Newspapers.com 542733749)",
+     ""
+    ]
+   ]
+  }
+ }
+}

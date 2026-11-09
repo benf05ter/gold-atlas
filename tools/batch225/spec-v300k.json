@@ -1,0 +1,29 @@
+{
+ "new": [],
+ "edit": {
+  "tw-il-dixon-mail-plane-diamonds-1929": {
+   "set": {
+    "st": "A mail plane carrying 133 black (industrial) diamonds crashed nose-first and burned in March 1929 in a wheat field on the Ted Knoll farm, eight miles southwest of Harmon; the pilot had parachuted onto a farm about half a mile west. By 1 May 1929 all but 30 stones had been recovered by sifting; the wreck was sold for junk. No later reports of stones turning up. The Gazette named the pilot as Paul J. Kanuit, flying a Curtiss Falcon. Its reporter reached the wreck from Harmon by going back to the Van Petten road, a mile west, then south 80 rods and about a mile on foot through wheat and corn fields; the nearest station was Van Petten, two and a half miles away. The plane nosed in, leaving a crater with the steel propeller ten feet down, exploded and burned about thirty feet from the hole, and the mail went 'to the four winds'. Pin is approximate, not the spot itself.",
+    "pinev": [
+     "Placed 8 mi SW of GNIS Harmon from the Sterling Daily Gazette, 3 Apr 1929; farm not yet on a plat",
+     "1930 census: Theodore (Ted) Knoll, b. 1900 IL, wife Helen, farming in Hamilton Twp, Lee Co, which lies SW of Harmon and fits the 'eight miles southwest' of the 1929 reports; no Lee Co plat on Ancestry to fix the field.",
+     "Route of 23 Mar 1929: from Harmon west on the Van Petten road about a mile, south 80 rods, then about a mile on foot; nearest station Van Petten 2.5 mi. This puts the field nearer Van Petten (GNIS 423272, 41.7003,-89.6228) than the later 'eight miles southwest of Harmon' figure; the Knoll farm on a plat would settle it."
+    ],
+    "acm": [
+     4000,
+     "area"
+    ]
+   },
+   "src": [
+    [
+     "Sterling Daily Gazette, 22 Mar 1929, p. 1 (Newspapers.com 7915175)",
+     ""
+    ],
+    [
+     "Sterling Daily Gazette, 23 Mar 1929, p. 2, 'On Trip to See Wrecked Plane' (Newspapers.com 7915697)",
+     ""
+    ]
+   ]
+  }
+ }
+}

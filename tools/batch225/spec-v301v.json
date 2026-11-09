@@ -1,0 +1,43 @@
+{
+ "new": [
+  {
+   "id": "tw-wi-siskiwit-lake-express-loot-1908",
+   "L": "treasure",
+   "n": "Smith and Erickson's express-office loot, buried near Siskiwit Lake (story revived 1908)",
+   "la": 46.7953,
+   "lo": -91.1333,
+   "y": "buried c.1895-1902; searched 1908",
+   "pl": "Siskiwit Lake, Bayfield County (lake centre); the 1908 text says only 'out near the Siskiwit'",
+   "co": "Bayfield",
+   "stt": "WI",
+   "v": "A 'considerable amount of money' from an express-office theft (story)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "approx",
+   "st": "In April 1908 the suicide of Andrew Smith near Siskiwit Lake revived a story that had gone the rounds for some years: that Smith and his chum Andrew Erickson had got possession of a considerable sum of money, taken from men who had stolen it from an express office in Duluth or Superior, and had buried it out near the Siskiwit. The paper said the knowledge preyed on both men's minds: Erickson was adjudged insane on 10 February 1903 and sent to Oshkosh, and was then in the chronic asylum at Eau Claire, as the county records showed; Smith shot himself in a fit of insanity. Several people were so sure the money was still buried that a search was being made. Pin is the lake, not a spot.",
+   "t": "Find where Smith and Erickson lived around the lake (1906 plat, 1905 census) and which express robbery this was. Mixed public forest and private shore lots: ask first.",
+   "src": [
+    [
+     "Washburn Times, 30 Apr 1908, p. 1, 'A Strange Case' (Chronicling America, loc.gov sn85040437/1908-04-30 ed-1 seq 1)",
+     ""
+    ],
+    [
+     "Washburn County Register (Shell Lake), 9 May 1908, p. 1 (reprint of the Washburn Times; Newspapers.com 1356161560)",
+     ""
+    ]
+   ],
+   "pinconf": "D",
+   "acm": [
+    2500,
+    "approx"
+   ],
+   "pinev": [
+    "Pin on Siskiwit Lake (lake centre 46.7953,-91.1333); the 1908 text says only 'out near the Siskiwit'; r2500.",
+    "Erickson's 1903 commitment is cited to Bayfield County records by the 1908 paper."
+   ],
+   "tov": "D",
+   "tovw": "Lead grade D: one 1908 local story, reprinted; a buried-loot tradition tied to two men who both lost their minds; searchers found nothing reported"
+  }
+ ],
+ "edit": {}
+}

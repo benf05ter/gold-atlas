@@ -1,0 +1,34 @@
+{
+ "new": [],
+ "edit": {
+  "tw-il-inlet-grove-bliss-tavern": {
+   "set": {
+    "st": "The 1878 Ogle County history ('Prairie Pirates') names Adolphus Bliss, Corydon Dewey and Charles West as first settlers at Inlet Grove about 1835-36. Bliss's log tavern, the 'Travelers' Home', was 'a rendezvous for counterfeiters, or at least a distributing point for their currency and coin'. The 1877 Winnebago County history tells the same. The 1845 trial reports for the Campbell murder put Bridge, one of the banditti, at Inlet Grove on the night of the killing, so the gang's use of the grove is contemporary record; the hidden-money story is not. Pin is the grove, not the tavern.",
+    "src": [
+     [
+      "Ottawa Free Trader, 25 Jul 1845, p. 2 (Bridge trial report: 'Bridge was at Inlet Grove on the night of the murder'); reprinted Galena Semi-Weekly Advertiser, 5 Aug 1845, p. 2, and Weekly North-Western Gazette, 8 Aug 1845, p. 4",
+      ""
+     ],
+     [
+      "History of Ogle County, Illinois (1878), 'Prairie Pirates'",
+      ""
+     ],
+     [
+      "History of Winnebago County, Illinois (1877), p. 263",
+      ""
+     ],
+     [
+      "Dixon Evening Telegraph, 9 Nov 1907, p. 4, note introducing the serial 'The Banditti of the Prairie' (Newspapers.com 77209483)",
+      ""
+     ]
+    ],
+    "tovw": "Lead grade D: an 1845 trial report puts a banditti man at Inlet Grove, so the gang link is period, but the hidden money is still only county-history tradition and a 1907 retelling disputes Bliss's part",
+    "pinev": [
+     "Geocoded Inlet Grove locality (41.739, -89.265); r1500.",
+     "A 1907 Dixon Telegraph note recalls 'a robbery at Inlet Grove, near Lee Center, in which the robbers impersonated two citizens, Bliss and Dewey, these innocent parties being sent to state prison'. So one local tradition made Bliss and Dewey victims of the banditti rather than their hosts; the 1878 Ogle history's 'rendezvous for counterfeiters' is the other. Both are secondary.",
+     "Ottawa Free Trader, 25 Jul 1845: Bridge at Inlet Grove the night of the Campbell murder (1841); confirms the gang's use of the grove, no spot."
+    ]
+   }
+  }
+ }
+}

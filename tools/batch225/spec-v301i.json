@@ -1,0 +1,65 @@
+{
+ "new": [
+  {
+   "id": "cr-ia-owens-kossuth-1900",
+   "L": "treasure",
+   "n": "Robber's buried loot near Sexton (1900)",
+   "la": 43.0827,
+   "lo": -94.0891,
+   "y": "1900",
+   "pl": "Near Sexton, Kossuth County (town point; the hiding place was never described in print)",
+   "co": "Kossuth",
+   "stt": "IA",
+   "v": "$800 (1900 claim)",
+   "c": "newspaper",
+   "s": "unknown",
+   "p": "town",
+   "st": "On 5 Sep 1900 two travelling stockmen were found robbed and killed beside the Chicago, Milwaukee & St. Paul tracks near Sexton. John Owens, hanged at Paris, Ill. on 21 Dec 1900, was identified as one of the men seen there. On his release his cellmate set out for Iowa to recover $800 of Owens' buried robbery loot, saying Owens had described the hiding place; authorities believed it was in Kossuth County. No find was reported. Pin is approximate (town only), not the spot itself.",
+   "t": "The hiding place was never printed; the railroad line near Sexton is the only anchor. Private land: permission needed.",
+   "warn": "Private land: permission needed.",
+   "src": [
+    [
+     "Evening Times-Republican (Marshalltown), 6 Sep 1900, p. 1 (Mason City dispatch on the murder)",
+     ""
+    ],
+    [
+     "Evening Times-Republican (Marshalltown), 28 Dec 1900, p. 1 (Mattoon, Ill. wire on the loot)",
+     ""
+    ]
+   ],
+   "pinconf": "D",
+   "acm": [
+    3000,
+    "approx"
+   ],
+   "pinev": [
+    "GNIS Sexton (1925099, 43.0827,-94.0891); the cache is placed only by 'Kossuth County' in the 1900 wire; r3000."
+   ],
+   "tov": "D",
+   "tovw": "Lead grade D: one 1900 wire for the loot claim; the murder is record, the cache is the hanged man's word via a cellmate."
+  }
+ ],
+ "edit": {
+  "tw-ia-beaver-island-box-1897": {
+   "set": {
+    "st": "Oct 1897: Adolph Johnson, 16, digging fish bait on Beaver Island in the south part of Clinton, struck an iron box with gold and paper money reported as $50,000 (another copy $90,000). Who buried it was never known. The Davenport Daily Leader of 14 November put the sum at $50,000, named no claimant, and reported that the 'box' was now said to be an old blacksmith's tank found near the site of an old blacksmith shop on the island; the find looks exaggerated. Pin is approximate, not the spot itself.",
+    "tov": "D",
+    "tovw": "Lead grade D: two 1897 wires report $50,000 dug up, but the Davenport paper two weeks later says the 'iron box' was an old blacksmith's tank found near an old smithy, and no claimant ever appeared",
+    "src": [
+     [
+      "Davenport Daily Leader, 14 Nov 1897, p. 6 (local follow-up: sum $50,000, no claimant, 'it is now claimed the box was an old blacksmith's tank'; Newspapers.com 36971421)",
+      ""
+     ],
+     [
+      "Roanoke Times 31 Oct 1897",
+      ""
+     ],
+     [
+      "Harrisburg Telegraph 29 Oct 1897 (same story) (TN TreasureNet Treasure Legends thread 556515, 621076)",
+      ""
+     ]
+    ]
+   }
+  }
+ }
+}
