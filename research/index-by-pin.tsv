@@ -109,14 +109,14 @@ tw-horrigan-boscobel-1930	B	Horrigan brothers' farm money, Horrigan Ridge near M
 tw-horrigan-boscobel-1930	B	Horrigan brothers' farm money, Horrigan Ridge near Mt. Zion	Crawford	WI		research/plats/INDEX.md	53	co:horrigan
 tw-horrigan-boscobel-1930	B	Horrigan brothers' farm money, Horrigan Ridge near Mt. Zion	Crawford	WI		research/aerials/horrigan-crawford-1938.md	1	file:horrigan
 tw-horrigan-boscobel-1930	B	Horrigan brothers' farm money, Horrigan Ridge near Mt. Zion	Crawford	WI		project-files/research/court-records/pin-records-check.tsv	3	id
-tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/pc-a-asks-results.md	779	two:hession
-tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/leads.tsv	128	two:hession
-tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/ia-il-sweep.md	35	two:hession
-tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/treasure-list-t13-t21.md	22	two:hession
+tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/pc-a-asks-results.md	779	two:glen
+tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/leads.tsv	128	two:glen
+tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/ia-il-sweep.md	42	two:glen
+tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/newspapers-com/treasure-list-t13-t21.md	22	two:glen
 tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/treasure-statewide/held-leads.md	26	co:jack
-tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/ancestry/list12-dates.md	32	two:hession
+tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/ancestry/list12-dates.md	35	two:glen
 tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/ancestry/INDEX.md	52	two:hession
-tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/plats/hession-humboldt.md	1	file:hession
+tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/plats/hession-humboldt.md	1	two:glen
 tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		research/books/laird-1927-iowa-legends.md	12	co:jack
 tw-ia-humboldt-hession-glen-timber	B	Jack Hession's re-hidden gold, farm timber southwest of Humboldt	Humboldt	IA		project-files/research/treasure-statewide/held-leads.md	26	co:jack
 tw-mn-warsaw-murphy-crock-1920	B	James Murphy's missing ~$24,000, Murphy farm barnyard, Warsaw Twp (Rice Co.)	Rice	MN	dig-mn-warsaw-murphy-crock-1920	research/newspapers-com/second-sources-open-leads.md	15	co:murphy
@@ -631,13 +631,13 @@ tw-mi-emmett-mcardill-dry-well-1874	C	Pedlar McArdill's robbery gold, dry well i
 tw-mi-emmett-mcardill-dry-well-1874	C	Pedlar McArdill's robbery gold, dry well in the Newbre neighbourhood, Emmett Twp (c.1849 robbery; 1874 dig)	Calhoun	MI		research/ancestry/list19.md	54	two:newbre
 tw-mi-emmett-mcardill-dry-well-1874	C	Pedlar McArdill's robbery gold, dry well in the Newbre neighbourhood, Emmett Twp (c.1849 robbery; 1874 dig)	Calhoun	MI		research/ancestry/INDEX.md	64	two:emmett
 tw-mi-emmett-mcardill-dry-well-1874	C	Pedlar McArdill's robbery gold, dry well in the Newbre neighbourhood, Emmett Twp (c.1849 robbery; 1874 dig)	Calhoun	MI		research/ancestry/list23.md	72	two:newbre
-tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/newspapers-com/pc-a-asks-results.md	668	two:swem
-tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/newspapers-com/leads.tsv	148	two:swem
+tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/newspapers-com/pc-a-asks-results.md	666	two:galien
+tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/newspapers-com/leads.tsv	148	two:galien
 tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/ancestry/list26.md	161	co:galien
-tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/ancestry/list9-probate-census.md	11	two:swem
+tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/ancestry/list9-probate-census.md	11	two:galien
 tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/ancestry/land-ownership-maps-list8.md	33	co:swem
-tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/ancestry/INDEX.md	49	two:swem
-tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/plats/sunday-plates-2026-11-02.md	29	two:swem
+tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/ancestry/INDEX.md	49	two:galien
+tw-mi-galien-swem-pot-of-gold-1896	C	Pot-of-gold dig on the Swem farm, Galien (1896)	Berrien	MI		research/plats/sunday-plates-2026-11-02.md	29	two:galien
 tw-il-dekalb-yocum-jar-1939	C	Ray Yocum's lost fruit jar of $2,300, Yocum yard, East Lincoln Highway, DeKalb	DeKalb	IL		research/ancestry/illinois-names-batch.md	15	co:yocum
 tw-il-dekalb-yocum-jar-1939	C	Ray Yocum's lost fruit jar of $2,300, Yocum yard, East Lincoln Highway, DeKalb	DeKalb	IL		research/ancestry/list28.md	105	two:yocum
 tw-il-dekalb-yocum-jar-1939	C	Ray Yocum's lost fruit jar of $2,300, Yocum yard, East Lincoln Highway, DeKalb	DeKalb	IL		research/ancestry/list25.md	161	two:yocum
@@ -862,7 +862,7 @@ tw-mi-holy-island-strang-treasure	D	'King Strang's buried treasure' legend, Holy
 tw-mi-holy-island-strang-treasure	D	'King Strang's buried treasure' legend, Holy Island, Lake Charlevoix	Charlevoix	MI		research/newspapers-com/county-coverage-wi-mi-chronam.tsv	33	two:holy
 tw-ia-hardin-sodom-gomorrah-counterfeiters	D	'Sodom and Gomorrah' saloons, counterfeiters' nest near Hardin, Monona Twp (1850s)	Clayton	IA		research/newspapers-com/ia-il-second-source.md	197	co:hardin
 tw-ia-hardin-sodom-gomorrah-counterfeiters	D	'Sodom and Gomorrah' saloons, counterfeiters' nest near Hardin, Monona Twp (1850s)	Clayton	IA		research/ia-il/README.md	13	co:hardin
-tw-ia-hardin-sodom-gomorrah-counterfeiters	D	'Sodom and Gomorrah' saloons, counterfeiters' nest near Hardin, Monona Twp (1850s)	Clayton	IA		research/ancestry/list34.md	37	two:sodom
+tw-ia-hardin-sodom-gomorrah-counterfeiters	D	'Sodom and Gomorrah' saloons, counterfeiters' nest near Hardin, Monona Twp (1850s)	Clayton	IA		research/ancestry/list34.md	37	two:gomorrah
 tw-ia-hardin-sodom-gomorrah-counterfeiters	D	'Sodom and Gomorrah' saloons, counterfeiters' nest near Hardin, Monona Twp (1850s)	Clayton	IA		research/ancestry/list40.md	36	co:monona
 tw-ia-hardin-sodom-gomorrah-counterfeiters	D	'Sodom and Gomorrah' saloons, counterfeiters' nest near Hardin, Monona Twp (1850s)	Clayton	IA		research/ancestry/list18.md	11	co:hardin
 tw-ia-hardin-sodom-gomorrah-counterfeiters	D	'Sodom and Gomorrah' saloons, counterfeiters' nest near Hardin, Monona Twp (1850s)	Clayton	IA		research/ancestry/list32.md	44	co:hardin
@@ -1149,7 +1149,7 @@ tw-mi-homer-laker-cans-1896	D	Harry Laker's tin cans of savings, Homer	Calhoun	M
 tw-mi-homer-laker-cans-1896	D	Harry Laker's tin cans of savings, Homer	Calhoun	MI		project-files/research/treasure-statewide/pc-b-plat-queue-2026-11-01.md	23	two:laker
 tw-mi-homer-laker-cans-1896	D	Harry Laker's tin cans of savings, Homer	Calhoun	MI		project-files/research/treasure-statewide/pc-newspapers-second-sources.md	25	id
 tw-mi-homer-laker-cans-1896	D	Harry Laker's tin cans of savings, Homer	Calhoun	MI		project-files/research/treasure-statewide/persons.tsv	15	id
-tw-maas-pot-of-gold-1898	D	Heinrich Maas' pot of gold, Cooperstown	Manitowoc	WI		research/negatives.tsv	291	co:heinrich
+tw-maas-pot-of-gold-1898	D	Heinrich Maas' pot of gold, Cooperstown	Manitowoc	WI		research/negatives.tsv	291	co:maas
 tw-maas-pot-of-gold-1898	D	Heinrich Maas' pot of gold, Cooperstown	Manitowoc	WI		research/ancestry/list30.md	14	two:cooperstown
 tw-maas-pot-of-gold-1898	D	Heinrich Maas' pot of gold, Cooperstown	Manitowoc	WI		research/ancestry/INDEX.md	71	two:cooperstown
 tw-ia-grundy-center-ludtke-1907	D	Herman Ludtke, Grundy Center "man of mystery"	Grundy	IA		research/ia-il/iowa-town-leads-plats.md	76	co:ludtke
@@ -1884,7 +1884,7 @@ tw-mn-waldorf-tweit-recluse-1927-medo	E	Tweit family farm, Medo Twp (alternate s
 tw-mn-waldorf-tweit-recluse-1927-medo	E	Tweit family farm, Medo Twp (alternate spot for Michael Tweit's money)	Blue Earth	MN		project-files/research/treasure-statewide/leads-mn.tsv	20	two:medo
 tw-mn-waldorf-tweit-recluse-1927-medo	E	Tweit family farm, Medo Twp (alternate spot for Michael Tweit's money)	Blue Earth	MN		project-files/research/treasure-statewide/pc-a-asks-2026-11-01.md	8	two:waldorf
 tw-mn-waldorf-tweit-recluse-1927-medo	E	Tweit family farm, Medo Twp (alternate spot for Michael Tweit's money)	Blue Earth	MN		project-files/research/treasure-statewide/persons.tsv	122	two:waldorf
-coff-davock-minch	E	William B. Davock and Anna Minch (1940)	Oceana	MI		research/newspapers-com/pc-a-asks-results.md	658	two:davock
+coff-davock-minch	E	William B. Davock and Anna Minch (1940)	Oceana	MI		research/newspapers-com/pc-a-asks-results.md	658	two:minch
 t-tr-colvill	E	William Colvill’s Civil War gold	Cook	MN		research/negatives.tsv	40	id
 t-winona-gang	E	Winona Gang loot (Minnesota)	Winona (MN)	WI		research/negatives.tsv	23	id
 t-portage-riverboat-gold	E	Wisconsin River riverboat gold bars	Columbia	WI		research/leads.tsv	5	co:portage
@@ -1980,7 +1980,7 @@ tw-ia-cedar-falls-smalling-crib-1904	F	Civil War soldier's coins under the old g
 tw-ia-cedar-falls-smalling-crib-1904	F	Civil War soldier's coins under the old granary, D. K. Smalling farm (found 1904)	Black Hawk	IA		research/ancestry/INDEX.md	67	co:smalling
 tw-ia-cedar-falls-smalling-crib-1904	F	Civil War soldier's coins under the old granary, D. K. Smalling farm (found 1904)	Black Hawk	IA		research/plats/sunday-plates-2026-11-02.md	13	co:smalling
 tw-ia-cedar-falls-smalling-crib-1904	F	Civil War soldier's coins under the old granary, D. K. Smalling farm (found 1904)	Black Hawk	IA		research/sunday/sunday-list-2026-11-02.md	11	co:smalling
-wpa-coon-rock-cave	F	Coon Rock bluff cave: counterfeiters' and Indian-gold legend, near Arena (1850s-1933)	Iowa	WI		research/negatives.tsv	120	two:coon
+wpa-coon-rock-cave	F	Coon Rock bluff cave: counterfeiters' and Indian-gold legend, near Arena (1850s-1933)	Iowa	WI		research/negatives.tsv	120	two:arena
 wpa-coon-rock-cave	F	Coon Rock bluff cave: counterfeiters' and Indian-gold legend, near Arena (1850s-1933)	Iowa	WI		research/newspapers-com/pc-a-batch3-results.md	113	co:arena
 wpa-coon-rock-cave	F	Coon Rock bluff cave: counterfeiters' and Indian-gold legend, near Arena (1850s-1933)	Iowa	WI		research/ancestry/list39.md	37	co:coon
 wpa-coon-rock-cave	F	Coon Rock bluff cave: counterfeiters' and Indian-gold legend, near Arena (1850s-1933)	Iowa	WI		project-files/research/treasure-statewide/leads-wi.tsv	13	id
