@@ -1,6 +1,6 @@
 # Research index by pin
 
-Generated 2026-11-08 by `tools/research-index/build.py` from the atlas pins (grade = the app's S to F tier) and every note under `research/`, plus the shared-folder court records and Treasure-thread notes. One entry per treasure lead, best grade first; dig spots sit under their lead. Shipwrecks are left out (look only).
+Generated 2026-11-09 by `tools/research-index/build.py` from the atlas pins (grade = the app's S to F tier) and every note under `research/`, plus the shared-folder court records and Treasure-thread notes. One entry per treasure lead, best grade first; dig spots sit under their lead. Shipwrecks are left out (look only).
 
 **How to read it.** "Notes" means the file has the pin id, is named for the lead, or names two words of the lead close together. "Also mentions" means one word of the lead (often a place or a common surname) close to the county name, so check those before relying on them. Line numbers point at the first mention.
 
@@ -311,8 +311,6 @@ Notes:
 
 Also mentions the place: [newspapers-com/field-notes-barron.md](newspapers-com/field-notes-barron.md#L262) (line 262); [newspapers-com/newspapers-com-holdings.md](newspapers-com/newspapers-com-holdings.md#L14) (line 14); [ancestry/list22.md](ancestry/list22.md#L40) (line 40); [ancestry/list20.md](ancestry/list20.md#L16) (line 16); [ancestry/list37.md](ancestry/list37.md#L61) (line 61); [ancestry/list33.md](ancestry/list33.md#L8) (line 8); [ancestry/INDEX.md](ancestry/INDEX.md#L16) (line 16); [plats/INDEX.md](plats/INDEX.md#L27) (line 27); [sunday/sunday-list-2026-11-02.md](sunday/sunday-list-2026-11-02.md#L33) (line 33)
 
-No research notes yet: Paw Paw Grove banditti: tavern doubloons and the prairie silver (`tw-il-paw-paw-grove-banditti`)
-
 ## C: worth a look
 
 ### "Wolf River Jack": tin cans of money rumored buried by his shack near Lily
@@ -605,14 +603,6 @@ Notes:
 - [plats/lunning-jodaviess.md](plats/lunning-jodaviess.md#L1) (line 1)
 
 Also mentions the place: [ancestry/list12-dates.md](ancestry/list12-dates.md#L18) (line 18); [books/laird-followups.tsv](books/laird-followups.tsv#L5) (line 5)
-
-### Iron box of gold and notes dug on Beaver Island, Clinton
-`tw-ia-beaver-island-box-1897` · grade C · Clinton Co., IA
-
-Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L321) (line 321)
-
-
-Also mentions the place: [ancestry/INDEX.md](ancestry/INDEX.md#L76) (line 76); [forums/treasurenet-list1.md](forums/treasurenet-list1.md#L20) (line 20); `/mnt/project-files/research/treasure-statewide/persons.tsv` line 152 (shared folder only)
 
 ### James Ford's California gold by an old stump, southern Town of Franklin
 `tw-wi-franklin-ford-gold-1875` · grade C · Milwaukee Co., WI
@@ -1501,7 +1491,7 @@ Notes:
 
 Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L177) (line 177); [newspapers-com/second-sources-c-leads.md](newspapers-com/second-sources-c-leads.md#L79) (line 79); [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L147) (line 147); [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L258) (line 258); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L48) (line 48); [ancestry/list27.md](ancestry/list27.md#L28) (line 28); [ancestry/list26.md](ancestry/list26.md#L50) (line 50); [ancestry/land-ownership-maps-list8.md](ancestry/land-ownership-maps-list8.md#L38) (line 38); [ancestry/list15.md](ancestry/list15.md#L14) (line 14); [ancestry/INDEX.md](ancestry/INDEX.md#L67) (line 67); [fairgrounds/mi-early-fairs.md](fairgrounds/mi-early-fairs.md#L8) (line 8); `/mnt/project-files/research/treasure-statewide/leads-mi.tsv` line 4 (shared folder only); `/mnt/project-files/research/treasure-statewide/pc-a-asks-batch2-2026-11-01.md` line 6 (shared folder only); `/mnt/project-files/research/treasure-statewide/pc-newspapers-second-sources.md` line 20 (shared folder only); `/mnt/project-files/research/treasure-statewide/persons.tsv` line 8 (shared folder only)
 
-### French Lake's buried money, sec 7 Jefferson Twp (1839)
+### French Lake's buried money, sec 7 Spring Grove Twp (1839)
 `tw-wi-jefferson-french-lake-money-1839` · grade D · Green Co., WI
 
 Notes:
@@ -1720,6 +1710,14 @@ Notes:
 - `/mnt/project-files/research/treasure-statewide/persons.tsv` line 72 (shared folder only)
 
 Also mentions the place: [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L270) (line 270)
+
+### Iron box of gold and notes dug on Beaver Island, Clinton
+`tw-ia-beaver-island-box-1897` · grade D · Clinton Co., IA
+
+Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L321) (line 321)
+
+
+Also mentions the place: [ancestry/INDEX.md](ancestry/INDEX.md#L76) (line 76); [forums/treasurenet-list1.md](forums/treasurenet-list1.md#L20) (line 20); `/mnt/project-files/research/treasure-statewide/persons.tsv` line 152 (shared folder only)
 
 ### Iron chest of Spanish coins dug from the Hennepin Canal, 20 mi south of Sterling
 `tw-il-hennepin-feeder-spanish-chest-1901` · grade D · Bureau Co., IL
@@ -2023,6 +2021,12 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L32) (line 32)
 Notes:
 - [negatives.tsv](negatives.tsv#L30) (line 30)
 
+### Ole Olson's money in tomato cans, abandoned farmhouse north of Conroy
+`tw-ia-conroy-olson-tomato-cans-1898` · grade D · Iowa Co., IA
+
+
+Also mentions the place: [ia-il/iowa-town-leads-plats.md](ia-il/iowa-town-leads-plats.md#L37) (line 37); [ancestry/land-ownership-maps-list8.md](ancestry/land-ownership-maps-list8.md#L22) (line 22); `/mnt/project-files/research/treasure-statewide/deep-dives/pc-job-2.md` line 17 (shared folder only)
+
 ### Ottawa bars of gold in iron boxes, Bear River gravel pit, Petoskey
 `tw-mi-petoskey-bear-river-ottawa-gold` · grade D · Emmet Co., MI
 
@@ -2209,6 +2213,12 @@ Notes:
 - [ancestry/list24.md](ancestry/list24.md#L11) (line 11)
 - [ancestry/list23.md](ancestry/list23.md#L7) (line 7)
 
+### The murdered French trader's cash at the old stockade, Rice Lake outlet (dug for 1880)
+`tw-wi-rice-lake-stockade-trader-cash-1880` · grade D · Barron Co., WI
+
+
+Also mentions the place: [newspapers-com/second-sources-open-leads.md](newspapers-com/second-sources-open-leads.md#L4) (line 4); [newspapers-com/placement-gaps-list.md](newspapers-com/placement-gaps-list.md#L6) (line 6); [newspapers-com/court-probate-asks.md](newspapers-com/court-probate-asks.md#L27) (line 27); [newspapers-com/list18.md](newspapers-com/list18.md#L12) (line 12); [newspapers-com/field-notes-barron.md](newspapers-com/field-notes-barron.md#L262) (line 262); [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L2) (line 2); [newspapers-com/newspapers-com-holdings.md](newspapers-com/newspapers-com-holdings.md#L14) (line 14); [newspapers-com/ia-il-second-source.md](newspapers-com/ia-il-second-source.md#L87) (line 87); [ancestry/list12-dates.md](ancestry/list12-dates.md#L56) (line 56); [ancestry/list17.md](ancestry/list17.md#L57) (line 57); [ancestry/list37.md](ancestry/list37.md#L61) (line 61); `/mnt/project-files/research/court-records/pin-records-check.tsv` line 13 (shared folder only); `/mnt/project-files/research/court-records/newspapers-com-asks.md` line 7 (shared folder only); `/mnt/project-files/research/treasure-statewide/vejvoda-card.md` line 1 (shared folder only)
+
 ### The Old Silver Mine: Bill Pond's 1870s shaft across from Porter's Mills
 `gwl-old-silver-mine-porters-mills` · grade D · Eau Claire Co., WI
 
@@ -2228,6 +2238,20 @@ Notes:
 - [ancestry/list23.md](ancestry/list23.md#L22) (line 22)
 
 Also mentions the place: [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L171) (line 171)
+
+### Tim Bigelow's bogus-coin 'mint', Riverside, between Lyons and Camanche
+`tw-ia-clinton-bigelow-bogus-mint` · grade D · Clinton Co., IA
+
+Notes:
+- [ancestry/list39.md](ancestry/list39.md#L46) (line 46)
+- [ancestry/list34.md](ancestry/list34.md#L33) (line 33)
+- [ancestry/list40.md](ancestry/list40.md#L48) (line 48)
+- [ancestry/list41.md](ancestry/list41.md#L25) (line 25)
+- [ancestry/list36.md](ancestry/list36.md#L6) (line 6)
+- [ancestry/INDEX.md](ancestry/INDEX.md#L80) (line 80)
+- [county-depth/se-wi-histories/walworth-1880s.md](county-depth/se-wi-histories/walworth-1880s.md#L88) (line 88)
+
+Also mentions the place: [treasure-statewide/gnis-treasure-names.tsv](treasure-statewide/gnis-treasure-names.tsv#L21) (line 21); [ancestry/list37.md](ancestry/list37.md#L14) (line 14); [county-depth/se-wi-histories/waukesha-1880s.md](county-depth/se-wi-histories/waukesha-1880s.md#L36) (line 36); `/mnt/project-files/research/treasure-statewide/gnis-treasure-names.tsv` line 21 (shared folder only)
 
 ### Train robbers’ money in a Homer cave
 `cr-homer-bandit-cave` · grade D · Winona Co., MN
@@ -2297,7 +2321,7 @@ Notes:
 
 Also mentions the place: [newspapers-com/placement-gaps-list.md](newspapers-com/placement-gaps-list.md#L17) (line 17); [newspapers-com/court-probate-asks.md](newspapers-com/court-probate-asks.md#L15) (line 15); [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L19) (line 19); [newspapers-com/ia-il-second-source.md](newspapers-com/ia-il-second-source.md#L90) (line 90); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L32) (line 32); [ancestry/INDEX.md](ancestry/INDEX.md#L10) (line 10); [plats/INDEX.md](plats/INDEX.md#L31) (line 31); `/mnt/project-files/research/court-records/pin-records-check.tsv` line 18 (shared folder only); `/mnt/project-files/research/court-records/newspapers-com-asks.md` line 4 (shared folder only)
 
-No research notes yet: $500 in stolen coins in a pillowcase under a railroad bridge, Rochelle (`tw-il-rochelle-rr-bridge-coins-1964`); Canoe River (Cannon River) hidden canoes (`fr-canoe-river-cannon-river-hidden-canoes`); Counterfeiters' block-house ('Old House'), Manistee River sec 36 (`tw-mi-manistee-old-house-counterfeiters`); Horse thieves' loot in an Indian mound, mouth of the Boone River (1849 legend) (`tw-ia-boone-river-mound-horse-thief-loot-1849`); Iron kettle of stage or bank money, south of State Center (legend) (`tw-ia-state-center-stage-kettle`); Jonathan Force's family-legend gold, Elgin fruit farm (`tw-il-elgin-force-gold`); Michigan Gold Mine pilfered gold (`m-tr-michigan-mine-theft`); Sac and Fox payment money, old trail from Andrew toward Brush Creek (legend) (`tw-ia-andrew-sac-fox-money-trail`); Steamer Phoenix fire (1847) (`tg-phoenix-1847`)
+No research notes yet: $500 in stolen coins in a pillowcase under a railroad bridge, Rochelle (`tw-il-rochelle-rr-bridge-coins-1964`); Canoe River (Cannon River) hidden canoes (`fr-canoe-river-cannon-river-hidden-canoes`); Construction-camp gold on the Northern Pacific west of Wadena (Buchan's blueprints, 1905) (`tw-mn-wadena-buchan-np-camp-gold-1905`); Counterfeiters' block-house ('Old House'), Manistee River sec 36 (`tw-mi-manistee-old-house-counterfeiters`); Horse thieves' loot in an Indian mound, mouth of the Boone River (1849 legend) (`tw-ia-boone-river-mound-horse-thief-loot-1849`); Iron kettle of stage or bank money, south of State Center (legend) (`tw-ia-state-center-stage-kettle`); Jonathan Force's family-legend gold, Elgin fruit farm (`tw-il-elgin-force-gold`); Michigan Gold Mine pilfered gold (`m-tr-michigan-mine-theft`); Paw Paw Grove banditti: tavern doubloons and the prairie silver (`tw-il-paw-paw-grove-banditti`); Robber's buried loot near Sexton (1900) (`cr-ia-owens-kossuth-1900`); Sac and Fox payment money, old trail from Andrew toward Brush Creek (legend) (`tw-ia-andrew-sac-fox-money-trail`); Smith and Erickson's express-office loot, buried near Siskiwit Lake (story revived 1908) (`tw-wi-siskiwit-lake-express-loot-1908`); Steamer Phoenix fire (1847) (`tg-phoenix-1847`)
 
 ## E: slim chance (ungraded stories)
 
@@ -2941,17 +2965,6 @@ Notes:
 
 Also mentions the place: [newspapers-com/pc-a-batch3-results.md](newspapers-com/pc-a-batch3-results.md#L78) (line 78); [newspapers-com/list18.md](newspapers-com/list18.md#L20) (line 20); `/mnt/project-files/research/treasure-statewide/pc-a-asks-batch3-2026-11-01.md` line 13 (shared folder only)
 
-### A Portage miser's $5,450 dug up under the kitchen, North Cass Street (1903)
-`tw-wi-portage-cass-st-miser-hoard-1903` · grade F · Columbia Co., WI
-
-Notes:
-- [negatives.tsv](negatives.tsv#L301) (line 301)
-- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L633) (line 633)
-- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L149) (line 149)
-- [plats/pauquette-portage-glo.md](plats/pauquette-portage-glo.md#L1) (line 1)
-
-Also mentions the place: [leads.tsv](leads.tsv#L5) (line 5); [newspapers-com/second-sources-c-leads.md](newspapers-com/second-sources-c-leads.md#L125) (line 125); [ancestry/list34.md](ancestry/list34.md#L49) (line 49); [ancestry/list16.md](ancestry/list16.md#L40) (line 40); [forums/treasurenet-list1.md](forums/treasurenet-list1.md#L18) (line 18); [books/list14-county-histories.md](books/list14-county-histories.md#L14) (line 14); `/mnt/project-files/research/treasure-statewide/held-leads.md` line 40 (shared folder only); `/mnt/project-files/research/treasure-statewide/leads-wi.tsv` line 11 (shared folder only)
-
 ### Ancient coins dug on Patrick Dillon's farm, Pinckney
 `tw-mi-pinckney-dillon-coins-1932` · grade F · Livingston Co., MI
 
@@ -2987,6 +3000,15 @@ Notes:
 - `/mnt/project-files/research/treasure-statewide/deep-dives/pc-job-3.md` line 4 (shared folder only)
 
 Also mentions the place: [newspapers-com/placement-gaps-list.md](newspapers-com/placement-gaps-list.md#L62) (line 62); [county-depth/se-wi-histories/jefferson-1880s.md](county-depth/se-wi-histories/jefferson-1880s.md#L69) (line 69); [plats/placement-gaps-pass-b.md](plats/placement-gaps-pass-b.md#L23) (line 23)
+
+### Angell's buried gold found under the new post foundations, Fort Snelling
+`tw-mn-fort-snelling-angell-gold` · grade F · Hennepin Co., MN
+
+Notes:
+- [ancestry/list41.md](ancestry/list41.md#L36) (line 36)
+- [ancestry/INDEX.md](ancestry/INDEX.md#L82) (line 82)
+
+Also mentions the place: [negatives.tsv](negatives.tsv#L181) (line 181)
 
 ### Bogus Island counterfeiters' cave, swamp near Leoni
 `tw-mi-bogus-island-counterfeiters` · grade F · Jackson Co., MI
@@ -3101,6 +3123,17 @@ Notes:
 
 Also mentions the place: [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L6) (line 6)
 
+### George Gehrlach's gold dug up under his North Cass Street house, Portage (found 1903)
+`tw-wi-portage-cass-st-miser-hoard-1903` · grade F · Columbia Co., WI
+
+Notes:
+- [negatives.tsv](negatives.tsv#L301) (line 301)
+- [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L633) (line 633)
+- [newspapers-com/leads.tsv](newspapers-com/leads.tsv#L149) (line 149)
+- [plats/pauquette-portage-glo.md](plats/pauquette-portage-glo.md#L1) (line 1)
+
+Also mentions the place: [leads.tsv](leads.tsv#L5) (line 5); [newspapers-com/second-sources-c-leads.md](newspapers-com/second-sources-c-leads.md#L125) (line 125); [ancestry/list34.md](ancestry/list34.md#L49) (line 49); [ancestry/list16.md](ancestry/list16.md#L40) (line 40); [forums/treasurenet-list1.md](forums/treasurenet-list1.md#L18) (line 18); [books/list14-county-histories.md](books/list14-county-histories.md#L14) (line 14); `/mnt/project-files/research/treasure-statewide/held-leads.md` line 40 (shared folder only); `/mnt/project-files/research/treasure-statewide/leads-wi.tsv` line 11 (shared folder only)
+
 ### George Vollmer's money in the walls, Stillwater
 `tw-vollmer-hoard-1899` · grade F · Washington Co., MN
 
@@ -3137,7 +3170,7 @@ Card sources: [evidence/provenance.tsv](evidence/provenance.tsv#L253) (line 253)
 
 Notes:
 - [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L397) (line 397)
-- [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L48) (line 48)
+- [newspapers-com/treasure-list-t13-t21.md](newspapers-com/treasure-list-t13-t21.md#L55) (line 55)
 - [ancestry/list25.md](ancestry/list25.md#L118) (line 118)
 - [plats/van-arsdale-alamo.md](plats/van-arsdale-alamo.md#L1) (line 1)
 - [plats/INDEX.md](plats/INDEX.md#L55) (line 55)
@@ -3185,6 +3218,14 @@ Notes:
 
 Also mentions the place: [newspapers-com/pc-a-asks-results.md](newspapers-com/pc-a-asks-results.md#L303) (line 303); [newspapers-com/sweep-2-misers-loot.md](newspapers-com/sweep-2-misers-loot.md#L48) (line 48); [ancestry/michigan-death-records-batch.md](ancestry/michigan-death-records-batch.md#L12) (line 12)
 
+### Israel Noel's $10,000 in gold, dug from his cellar by neighbours, Fayette (found 1901)
+`tw-wi-fayette-noel-cellar-gold-1901` · grade F · Lafayette Co., WI
+
+Notes:
+- [ancestry/list20.md](ancestry/list20.md#L12) (line 12)
+
+Also mentions the place: [ancestry/list17.md](ancestry/list17.md#L88) (line 88)
+
 ### Iver Ahonen's X-marked jars of gold, cabin and fields near Grand Rapids
 `tw-mn-grand-rapids-ahonen-jars-1939` · grade F · Itasca Co., MN
 
@@ -3211,7 +3252,7 @@ Notes:
 - [ancestry/INDEX.md](ancestry/INDEX.md#L66) (line 66)
 - [plats/schultz-spencer-brook-isanti.md](plats/schultz-spencer-brook-isanti.md#L8) (line 8)
 
-Also mentions the place: [ancestry/list12-dates.md](ancestry/list12-dates.md#L47) (line 47); [plats/roth-madison.md](plats/roth-madison.md#L29) (line 29); [plats/INDEX.md](plats/INDEX.md#L82) (line 82); `/mnt/project-files/research/treasure-statewide/leads-mn.tsv` line 3 (shared folder only); `/mnt/project-files/research/treasure-statewide/pc-a-asks-batch3-2026-11-01.md` line 25 (shared folder only); `/mnt/project-files/research/treasure-statewide/persons.tsv` line 77 (shared folder only)
+Also mentions the place: [ancestry/list42.md](ancestry/list42.md#L25) (line 25); [ancestry/list12-dates.md](ancestry/list12-dates.md#L47) (line 47); [plats/roth-madison.md](plats/roth-madison.md#L29) (line 29); [plats/INDEX.md](plats/INDEX.md#L82) (line 82); `/mnt/project-files/research/treasure-statewide/leads-mn.tsv` line 3 (shared folder only); `/mnt/project-files/research/treasure-statewide/pc-a-asks-batch3-2026-11-01.md` line 25 (shared folder only); `/mnt/project-files/research/treasure-statewide/persons.tsv` line 77 (shared folder only)
 
 ### Jesse Scholl's pot of gold in the basement wall, Sixth and Grand, Milwaukee (1915)
 `tw-wi-milwaukee-scholl-homestead-pot-1915` · grade F · Milwaukee Co., WI
