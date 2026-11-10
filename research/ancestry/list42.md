@@ -60,3 +60,8 @@
 - **Kanouse:** no A. W. Kanouse indexed in Outagamie 1900/1910 (the only WI Kanouses are in Crawford / Dane). He was likely an Appleton or Shiocton doctor without a farm, so he gives no neighbour clue.
 - **1920/1930:** no Ben/Henry Stillman found in Outagamie (the 1920 index shows only Appleton Stillmans: Guy, Irene). Not pursued further.
 - **Not placed.** The UW 1889 Foote plat (deferred) is the best remaining source.
+
+## PAUSED 2026-11-10 (Neb: stop at a good stopping point, resume Sunday Nov 15)
+- **Done:** #13 (Graue Mill), #15 (Angell source), French Lake (Spring Grove), and the Stillman insert (probate, 1905/1910 census, plat check).
+- **Not started, carry to Sunday:** #1 Algona Sanborn, #2 Manitowoc Koci, #3 Knaggs Phillips tract, #4 Souvignier 1910, #5 Heckes house mark, #6 Meade 1917 Johnson plat, #7 Branstad house mark, #8 Bogus Island coordinates, #9 Koster Delta 1913 plat, #10 Millet 1895/1905 MN census, #11 Sauk Hixson Franklin, #12 Clayton Monona, #14 Smyrna Ionia 1906.
+- **Also deferred:** the UW Digital Collections 1889 / c.1928 Outagamie plats for Stillman (Neb: "try later").
