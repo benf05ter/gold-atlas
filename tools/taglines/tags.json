@@ -644,7 +644,7 @@
 "p"
 ],
 "t-brisbois-gold": [
-"1924 newspaper headline · hidden gold · details unseen",
+"1924 feature · coin dropped in the Mississippi · spot unknown",
 "u"
 ],
 "t-capone-hideout-couderay": [
@@ -708,7 +708,7 @@
 "p"
 ],
 "t-richland-bluff-cave": [
-"1828 cave legend · dug 1922-23 · nothing found",
+"1921-23 cave digs · Spanish coin and counterfeiters' legend · nothing found",
 "u"
 ],
 "t-sand-island-chest": [
@@ -856,8 +856,8 @@
 "f"
 ],
 "tw-ia-beaver-island-box-1897": [
-"1897 'iron box of gold' · doubtful · public island",
-"k"
+"1897 'iron box of gold' · retracted · hoax",
+"h"
 ],
 "tw-ia-cedar-falls-smalling-crib-1904": [
 "Coins oozing from the old granary site: found 1904",
@@ -892,8 +892,8 @@
 "k"
 ],
 "tw-ia-eldora-webster-casks-1897": [
-"1897 forgotten buried money · newspaper · not found",
-"u"
+"1897 forgotten buried money · newspaper · money accounted for",
+"f"
 ],
 "tw-ia-fraser-joseph-brown-1911": [
 "1911 pioneer's buried gold · newspaper · none found",
@@ -996,8 +996,8 @@
 "p"
 ],
 "tw-il-arsenal-island-davenport-1845": [
-"1845 murder · money in house · federal land · look-only",
-"k"
+"1845 murder · no cache in the record · federal land · look-only",
+"f"
 ],
 "tw-il-bulbona-grove-trading-post": [
 "Trading post farm · 1786 Spanish coin · newspaper",
@@ -1072,8 +1072,8 @@
 "u"
 ],
 "tw-il-rochelle-rr-bridge-coins-1964": [
-"1964 stolen coins · pillowcase · gone when police looked",
-"k"
+"1964 stolen coins · gone when police looked · nothing left",
+"f"
 ],
 "tw-il-south-chicago-mattson-1905": [
 "1905 hermit's $8,000 · lakeshore · park and industry now",
@@ -2154,5 +2154,13 @@
 "tw-wi-siskiwit-lake-express-loot-1908": [
 "c.1900 express loot · two men went mad · searched 1908",
 "k"
+],
+"tw-wi-bovina-stillman-gold-can-1910": [
+"1910 missing gold hoard · newspaper + probate · not found",
+"u"
+],
+"tw-wi-hurley-iron-exchange-bank-loot-1889": [
+"1889 bank loot · newspaper · not found",
+"u"
 ]
 }
