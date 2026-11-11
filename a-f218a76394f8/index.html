@@ -617,7 +617,7 @@ body.shell .shsheet{transition:height .42s cubic-bezier(.3,1.28,.5,1)}
 :root[data-theme="dark"] .ogtl-h{mix-blend-mode:screen;opacity:.18}
 .ogtl-s{background:#1f2a22}
 .ogtz{position:absolute;left:0;top:0;transform-origin:0 0;will-change:transform}
-.ogtile{position:absolute;display:block;max-width:none;max-height:none;opacity:0;transition:opacity .18s ease;image-rendering:auto;-webkit-user-drag:none}
+.ogtile{position:absolute;display:block;max-width:none;max-height:none;opacity:0;image-rendering:auto;-webkit-user-drag:none}/*OGSMOOTH1: no per-tile fade*/
 .ogtile.ok{opacity:1}
 .ogstage>svg#map{z-index:1}
 .ogstage>.pcv{position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:none;z-index:2}
@@ -1893,7 +1893,7 @@ function fit(){ const W=svgW(), H=svgH(); if(!W||!H) return; FITWH=[W,H]; let {x
 const toW=(px,py)=>{ const r=svgRect(); let gx=px-r.left, gy=py-r.top; if(T3.on) [gx,gy]=T3.unproj(gx,gy); return [vb.x+gx/(BOX.w||r.width)*vb.w, vb.y+gy/(BOX.h||r.height)*vb.h]; };
 const ogS=(wx,wy)=>{ const s=VIEW.s||scale(); return T3.proj((wx-vb.x)*s,(wy-vb.y)*s); };   // map units -> screen px (through the tilt in 3D)
 const ctr=()=>[vb.x+vb.w/2,vb.y+vb.h/2];
-const vbClamp=()=>{ const lim=V.WI.w*2.5; if(vb.w>lim){ const f=vb.w/lim, cx=vb.x+vb.w/2, cy=vb.y+vb.h/2; vb={x:cx-vb.w/f/2,y:cy-vb.h/f/2,w:vb.w/f,h:vb.h/f}; } };
+const vbClamp=()=>{ const lim=V.WI.w*1.6; if(vb.w>lim){ const f=vb.w/lim, cx=vb.x+vb.w/2, cy=vb.y+vb.h/2; vb={x:cx-vb.w/f/2,y:cy-vb.h/f/2,w:vb.w/f,h:vb.h/f}; } };
 
 // ---- render pipeline ----
 const RENDER={q:0, pending:false, lf:null};
@@ -1949,7 +1949,7 @@ function stageFast(){ if(!VIEW.vb||!VIEW.W) return; const g=VIEW.vb, k=g.w/vb.w,
 const gmFast=stageFast, gmFastQ=stageFast; function gmCommit(){ apply(); }
 function settle(ms){ clearTimeout(GES.settle); GES.settle=setTimeout(()=>{ if(GES.ptr.size){ settle(200); return; } GES.active=false; commit(true); },ms); }
 var OGZMIN=0.00375;   // closest zoom, map units wide (was 0.015; two levels deeper, Nov 2026)
-function zoomAt(f,cx,cy){ let nw=vb.w/f; if(!(nw>0)) return; const lo=Math.min(OGZMIN,vb.w), hi=Math.max(V.WI.w*2.5,vb.w); if(nw<lo){ nw=lo; f=vb.w/lo; } else if(nw>hi){ nw=hi; f=vb.w/hi; } if(f===1) return; vb={x:cx-(cx-vb.x)/f,y:cy-(cy-vb.y)/f,w:nw,h:vb.h/f};
+function zoomAt(f,cx,cy){ let nw=vb.w/f; if(!(nw>0)) return; const lo=Math.min(OGZMIN,vb.w), hi=Math.max(V.WI.w*1.6,vb.w); if(nw<lo){ nw=lo; f=vb.w/lo; } else if(nw>hi){ nw=hi; f=vb.w/hi; } if(f===1) return; vb={x:cx-(cx-vb.x)/f,y:cy-(cy-vb.y)/f,w:nw,h:vb.h/f};
   GES.active=true; stageFast(); settle(GES.ptr.size?400:160); }
 function plZoomAnim(f,cx,cy){ let i=0; const n=9, st=Math.pow(f,1/n); const go=()=>{ zoomAt(st,cx,cy); if(++i<n) requestAnimationFrame(go); }; requestAnimationFrame(go); }
 
@@ -1968,7 +1968,7 @@ m3d.addEventListener('pointerdown',e=>{ if(e.button&&e.button!==0) return; if(e.
   if(GES.ptr.size===2){ const p=pinchState(); GES.pinch=p.d; GES.pc=p.c; GES.pa=p.a; } });
 m3d.addEventListener('pointermove',e=>{ if(!GES.ptr.has(e.pointerId)) return; GES.ptr.set(e.pointerId,[e.clientX,e.clientY]);
   if(GES.ptr.size>=2){ const p=pinchState(); if(GES.pinch){ const f=p.d/GES.pinch; const [wx,wy]=toW(...GES.pc); const nw=vb.w/f;
-      if(nw>=Math.min(OGZMIN,vb.w)&&nw<=V.WI.w*2.5){ vb={x:wx-(wx-vb.x)/f,y:wy-(wy-vb.y)/f,w:nw,h:vb.h/f}; }
+      if(nw>=Math.min(OGZMIN,vb.w)&&nw<=V.WI.w*1.6){ vb={x:wx-(wx-vb.x)/f,y:wy-(wy-vb.y)/f,w:nw,h:vb.h/f}; }
       if(T3.on&&GES.pa!=null){ let da=p.a-GES.pa; if(da>Math.PI) da-=2*Math.PI; if(da<-Math.PI) da+=2*Math.PI; if(Math.abs(da)>0.002) T3.turn(da,GES.pc); }   // 3D: twist two fingers to turn the map
       panBy(p.c[0]-GES.pc[0],p.c[1]-GES.pc[1],GES.pc[0],GES.pc[1]); }
     GES.pinch=p.d; GES.pc=p.c; GES.pa=p.a; GES.moved=moved=true; m3d.classList.add('ogdrag'); stageFast(); return; }
