@@ -2,7 +2,7 @@
 const VERSION='__VERSION__', CACHE='atlas-v'+VERSION;
 const CORE=['./','index.html','manifest.webmanifest','icons/icon-192.png','icons/icon-512.png','icons/apple-touch-icon.png','og-data.js'];
 // the old maps come as tiles (ot/), saved as you look at them; the whole-sheet pictures are only a fallback and are no longer saved on install
-const EXTRA=['og/mag.webp','og/prosp.png'].concat(__SAT__);
+const EXTRA=['og/mag.webp','og/prosp.png','og/glacdep.webp'].concat(__SAT__);
 self.addEventListener('install',e=>{ e.waitUntil(caches.open(CACHE).then(async c=>{
   await c.addAll(CORE.map(u=>new Request(u,{cache:'reload'})));
   await Promise.all(EXTRA.map(u=>c.add(new Request(u,{cache:'reload'})).catch(()=>{}))); })); });
