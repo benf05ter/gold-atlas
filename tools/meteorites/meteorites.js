@@ -136,6 +136,7 @@
    'Inside or along the edge of a known strewn field (the shaded fields): the only ground with real odds.',
    'Farmers\' rock piles and fencerows: a hundred years of rocks picked off the fields. The 110 lb Vienna iron came up that way.',
    'Gravel pits and fresh cuts in glacial till: meteorites that fell on the ice sheets were dropped in the drift like any other rock (permission first).',
+   'Stone-poor flat ground: old glacial lake beds and outwash plains, where almost any rock in a plowed field is out of place. In Wisconsin turn on the Glacial deposits map (1964) and tap a field to see which kind of ground it is.',
    'Old stones rust and crumble in wet Midwest ground, so falls from the last few decades and iron meteorites beat old stony falls.'];
   const ID=[
    '<b>Magnet:</b> about nine in ten meteorites pull a magnet. No pull at all, very likely not one.',
